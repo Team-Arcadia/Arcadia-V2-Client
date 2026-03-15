@@ -1,0 +1,608 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "better"
+	group: "09F87AF76CF8713A"
+	icon: {
+		id: "betterarcheology:netherite_brush"
+	}
+	id: "1CAB30BEBF9A7BAD"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4444A687F75B4856"]
+			id: "65E6F9D1CE654071"
+			rewards: [
+				{
+					id: "4C881597657DA990"
+					item: {
+						count: 1
+						id: "betterarcheology:creeper_fossil"
+					}
+					type: "item"
+				}
+				{
+					id: "5774891DAAED6E64"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "132C2025B4E9D058"
+					item: { count: 1, id: "betterarcheology:creeper_fossil_body" }
+					type: "item"
+				}
+				{
+					id: "5482674EA02ED14B"
+					item: { count: 1, id: "betterarcheology:creeper_fossil_head" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["65E6F9D1CE654071"]
+			id: "75834778E0666F8F"
+			rewards: [
+				{
+					id: "2C37897219BED567"
+					item: {
+						count: 1
+						id: "betterarcheology:villager_fossil"
+					}
+					type: "item"
+				}
+				{
+					id: "7653173886DC81E1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "2874F59C8916D731"
+					item: { count: 1, id: "betterarcheology:villager_fossil_head" }
+					type: "item"
+				}
+				{
+					id: "3F5D21B3F76B6B80"
+					item: { count: 1, id: "betterarcheology:villager_fossil_body" }
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4FAA08F4326DF71B"]
+			id: "77D1C140D9720475"
+			rewards: [
+				{
+					id: "0DBC4321AB153E65"
+					item: {
+						count: 1
+						id: "betterarcheology:chicken_fossil"
+					}
+					type: "item"
+				}
+				{
+					id: "05C794F88D1174F5"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "3BA961C2D677EAF3"
+					item: { count: 1, id: "betterarcheology:chicken_fossil_body" }
+					type: "item"
+				}
+				{
+					id: "480D36243D39640C"
+					item: { count: 1, id: "betterarcheology:chicken_fossil_head" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["75834778E0666F8F"]
+			id: "0941952276BB3626"
+			rewards: [
+				{
+					id: "6BFC7B35743ED669"
+					item: {
+						count: 1
+						id: "betterarcheology:ocelot_fossil"
+					}
+					type: "item"
+				}
+				{
+					id: "6EA50F3587415456"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "6D60984BBC95DB29"
+					item: { count: 1, id: "betterarcheology:ocelot_fossil_body" }
+					type: "item"
+				}
+				{
+					id: "799B8095D1C9A3EE"
+					item: { count: 1, id: "betterarcheology:ocelot_fossil_head" }
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1EBB6875B49E0DBA"]
+			id: "085419B2BA0DD99A"
+			rewards: [
+				{
+					id: "1F8BA381CE3B2040"
+					item: {
+						count: 1
+						id: "betterarcheology:wolf_fossil"
+					}
+					type: "item"
+				}
+				{
+					id: "6C6C3A0E0D038BC3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "3987DC7AE1E3B193"
+					item: { count: 1, id: "betterarcheology:wolf_fossil_body" }
+					type: "item"
+				}
+				{
+					id: "1641E942210A8636"
+					item: { count: 1, id: "betterarcheology:wolf_fossil_head" }
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4FAA08F4326DF71B"]
+			id: "71914A308F99C6C6"
+			rewards: [
+				{
+					id: "1B4BF2FC26B4E305"
+					item: {
+						count: 1
+						id: "betterarcheology:sheep_fossil"
+					}
+					type: "item"
+				}
+				{
+					id: "0776619A72F688BC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "493FC95E39DC1B49"
+					item: { count: 1, id: "betterarcheology:sheep_fossil_body" }
+					type: "item"
+				}
+				{
+					id: "4C6A6CDC7E70F984"
+					item: { count: 1, id: "betterarcheology:sheep_fossil_head" }
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["65E6F9D1CE654071"]
+			id: "1EBB6875B49E0DBA"
+			rewards: [
+				{
+					id: "4EE362531B579C32"
+					item: {
+						count: 1
+						id: "betterarcheology:guardian_fossil"
+					}
+					type: "item"
+				}
+				{
+					id: "33CDA1B922D6F5F3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "13C8A4524F909874"
+					item: { count: 1, id: "betterarcheology:guardian_fossil_head" }
+					type: "item"
+				}
+				{
+					id: "00030CF7232B6916"
+					item: { count: 1, id: "betterarcheology:guardian_fossil_body" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["65E6F9D1CE654071"]
+			id: "4FAA08F4326DF71B"
+			rewards: [{
+				id: "764E8E57B5DC0DDC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "3039CA1C481150E0"
+					item: { count: 1, id: "betterarcheology:vase" }
+					type: "item"
+				}
+				{
+					id: "77C8E8AFCB848490"
+					item: { count: 1, id: "betterarcheology:vase_creeper" }
+					type: "item"
+				}
+				{
+					id: "78BF731ED9EE8DAF"
+					item: { count: 1, id: "betterarcheology:vase_green" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 7.5d
+		}
+		{
+			id: "7EAF638599F4D316"
+			rewards: [{
+				id: "40E555315E39F15F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "05DE8F9A117A8C49"
+				item: { count: 1, id: "minecraft:brush" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7EAF638599F4D316"]
+			id: "32ACEE58BA7DB1F3"
+			rewards: [{
+				id: "7048E68A04B7FE9C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "358B4FE2BCE275AB"
+				item: { count: 1, id: "betterarcheology:iron_brush" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7EAF638599F4D316"]
+			id: "4564FC40A04FA045"
+			rewards: [{
+				id: "4F4503B55486BD03"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0CA92AC243935FBC"
+				item: { count: 1, id: "betterarcheology:diamond_brush" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7EAF638599F4D316"]
+			id: "74E240299267FFD3"
+			rewards: [{
+				id: "193D653669AA5A8E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "01F45AFD0ABD70BD"
+				item: { count: 1, id: "betterarcheology:netherite_brush" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C7856FF225CB9C8"]
+			id: "4382F0DCE9740B45"
+			rewards: [
+				{
+					id: "6DF7E99FA60564A9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "29CE6E6BDFFBDA44"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 10L
+				id: "18B4ADF98417730B"
+				item: { count: 1, id: "betterarcheology:bomb" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["32ACEE58BA7DB1F3"]
+			id: "14D1C033DFEF2C49"
+			rewards: [{
+				id: "779542B27E39C62C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "02451CCCFDBA712B"
+				item: { count: 1, id: "betterarcheology:archeology_table" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3D2A80833008EE55"]
+			id: "4F4C12F75970A1EF"
+			rewards: [{
+				id: "54A5542A3196EDBF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "1924FDDAF6FB64CC"
+					item: { count: 1, id: "betterarcheology:torrent_totem" }
+					type: "item"
+				}
+				{
+					id: "4A7C96B7E2F17C03"
+					item: { count: 1, id: "betterarcheology:soul_totem" }
+					type: "item"
+				}
+				{
+					id: "24A2999BD54DD728"
+					item: { count: 1, id: "betterarcheology:growth_totem" }
+					type: "item"
+				}
+				{
+					id: "05B7ECCA8B76473F"
+					item: { count: 1, id: "betterarcheology:radiance_totem" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["14D1C033DFEF2C49"]
+			id: "4444A687F75B4856"
+			rewards: [
+				{
+					id: "4697504AD9E6F762"
+					item: {
+						count: 1
+						id: "betterarcheology:unidentified_artifact"
+					}
+					type: "item"
+				}
+				{
+					id: "4313C3702768DDF5"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 9L
+				id: "26283DFAE13C2A81"
+				item: { count: 1, id: "betterarcheology:artifact_shards" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["32ACEE58BA7DB1F3"]
+			id: "3D2A80833008EE55"
+			rewards: [{
+				id: "4706C65B2C8EA0DF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "30E3549FD2C70755"
+					item: { count: 1, id: "minecraft:guster_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "3F26A7346C7B3AED"
+					item: { count: 1, id: "minecraft:skull_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "697632F93BDEE728"
+					item: { count: 1, id: "minecraft:blade_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "151AAED600B2BF20"
+					item: { count: 1, id: "minecraft:angler_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "3319A04BDB5BA5E4"
+					item: { count: 1, id: "minecraft:friend_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "6B30B5B4D01FC88D"
+					item: { count: 1, id: "minecraft:heartbreak_pottery_sherd" }
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4F4C12F75970A1EF"]
+			id: "236F0BC9CE7A30FD"
+			rewards: [{
+				id: "256129A4A2B57F04"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "07A8642EFE7FFBAB"
+					item: { count: 1, id: "minecraft:miner_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "5077FB37F96B1C9B"
+					item: { count: 1, id: "minecraft:plenty_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "118B479F05817067"
+					item: { count: 1, id: "minecraft:shelter_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "17F551429695E1EE"
+					item: { count: 1, id: "minecraft:burn_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "3EF9BAAC98D0C017"
+					item: { count: 1, id: "minecraft:prize_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "343B20D50AFB98CB"
+					item: { count: 1, id: "minecraft:scrape_pottery_sherd" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["32ACEE58BA7DB1F3"]
+			id: "1C7856FF225CB9C8"
+			rewards: [{
+				id: "35354DC9D7D74293"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "6C26F2AB481F1518"
+					item: { count: 1, id: "minecraft:sheaf_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "1D4B698E969F4F98"
+					item: { count: 1, id: "minecraft:snort_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "28A444B8016944B2"
+					item: { count: 1, id: "minecraft:flow_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "31F647C1689B9CCC"
+					item: { count: 1, id: "minecraft:danger_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "5AFC7269FFFDD734"
+					item: { count: 1, id: "minecraft:arms_up_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "20244273BED25E9E"
+					item: { count: 1, id: "minecraft:mourner_pottery_sherd" }
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4382F0DCE9740B45"]
+			id: "5376607FE9305FD3"
+			rewards: [{
+				id: "3292B6F7F291F3FC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "66EECF398584422A"
+					item: { count: 1, id: "minecraft:explorer_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "3E22802F0CC4D95F"
+					item: { count: 1, id: "minecraft:archer_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "54EC73A7A5F67808"
+					item: { count: 1, id: "minecraft:howl_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "4D304C5303A787A2"
+					item: { count: 1, id: "minecraft:heart_pottery_sherd" }
+					type: "item"
+				}
+				{
+					id: "657139981CECC50F"
+					item: { count: 1, id: "minecraft:brewer_pottery_sherd" }
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: -0.5d
+		}
+	]
+}

@@ -1,0 +1,341 @@
+{
+	id: "27A001FEADFE5B13"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 16
+			id: "08CE952C8CB7792D"
+			item: {
+				count: 1
+				id: "refinedstorage:quartz_enriched_iron"
+			}
+			weight: 100.0f
+		}
+		{
+			count: 16
+			id: "017B71915F2D0174"
+			item: {
+				count: 1
+				id: "refinedstorage:silicon"
+			}
+			weight: 100.0f
+		}
+		{
+			count: 16
+			id: "05604A589D8B2C1F"
+			item: {
+				count: 1
+				id: "refinedstorage:processor_binding"
+			}
+			weight: 100.0f
+		}
+		{
+			count: 8
+			id: "4BD034AE5DB3E13E"
+			item: {
+				count: 1
+				id: "refinedstorage:raw_basic_processor"
+			}
+			weight: 80.0f
+		}
+		{
+			count: 8
+			id: "23EB0D4F89D1CFB9"
+			item: {
+				count: 1
+				id: "refinedstorage:raw_improved_processor"
+			}
+			weight: 80.0f
+		}
+		{
+			count: 8
+			id: "36340365BDE39BFD"
+			item: {
+				count: 1
+				id: "refinedstorage:raw_advanced_processor"
+			}
+			weight: 80.0f
+		}
+		{
+			count: 4
+			id: "2DDBE7612A9BA80A"
+			item: {
+				count: 1
+				id: "refinedstorage:basic_processor"
+			}
+			weight: 60.0f
+		}
+		{
+			count: 4
+			id: "0B5D3B9E3B6A359B"
+			item: {
+				count: 1
+				id: "refinedstorage:improved_processor"
+			}
+			weight: 50.0f
+		}
+		{
+			count: 2
+			id: "545F37EFD5AC975F"
+			item: {
+				count: 1
+				id: "refinedstorage:advanced_processor"
+			}
+			weight: 40.0f
+		}
+		{
+			count: 2
+			id: "3603931B65ADC5F6"
+			item: {
+				count: 1
+				id: "refinedstorage:1k_storage_part"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "6C939F3483AAF633"
+			item: {
+				count: 1
+				id: "refinedstorage:4k_storage_part"
+			}
+			weight: 30.0f
+		}
+		{
+			id: "47001A5FBE852806"
+			item: {
+				count: 1
+				id: "refinedstorage:16k_storage_part"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "3449D0698B9E90A3"
+			item: {
+				count: 1
+				id: "refinedstorage:64k_storage_part"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "3BE9CECE24392D4F"
+			item: {
+				count: 1
+				id: "refinedstorage:1k_storage_disk"
+			}
+			weight: 40.0f
+		}
+		{
+			id: "4AA99BC3B5CF5038"
+			item: {
+				count: 1
+				id: "refinedstorage:4k_storage_disk"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "4594502410C6E4CD"
+			item: {
+				count: 1
+				id: "refinedstorage:16k_storage_disk"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "28931A3463440D04"
+			item: {
+				count: 1
+				id: "refinedstorage:64k_storage_disk"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 8
+			id: "7D9739E78C1CCA0E"
+			item: {
+				count: 1
+				id: "refinedstorage:cable"
+			}
+			weight: 60.0f
+		}
+		{
+			id: "2194FBF66614DBFD"
+			item: {
+				count: 1
+				id: "refinedstorage:importer"
+			}
+			weight: 30.0f
+		}
+		{
+			id: "56E26936B422825C"
+			item: {
+				count: 1
+				id: "refinedstorage:exporter"
+			}
+			weight: 30.0f
+		}
+		{
+			id: "3E487ADDE60AB9B7"
+			item: {
+				count: 1
+				id: "refinedstorage:external_storage"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "252A551438C0CC76"
+			item: {
+				count: 1
+				id: "refinedstorage:constructor"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "6AE8CAFA479BE796"
+			item: {
+				count: 1
+				id: "refinedstorage:destructor"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "713566F846C7407E"
+			item: {
+				count: 1
+				id: "refinedstorage:grid"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "1025B3F4A13308A4"
+			item: {
+				count: 1
+				id: "refinedstorage:crafting_grid"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "76E7E75777A85397"
+			item: {
+				count: 1
+				id: "refinedstorage:pattern_grid"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "3BD8780B42710742"
+			item: {
+				count: 1
+				id: "refinedstorage:controller"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "487A785F26D7D9A2"
+			item: {
+				count: 1
+				id: "refinedstorage:disk_drive"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 2
+			id: "24BEF046DD8F4E5C"
+			item: {
+				count: 1
+				id: "refinedstorage:speed_upgrade"
+			}
+			weight: 40.0f
+		}
+		{
+			id: "590D88B933819AD5"
+			item: {
+				count: 1
+				id: "refinedstorage:stack_upgrade"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "2E405B8F754BE255"
+			item: {
+				count: 1
+				id: "refinedstorage:range_upgrade"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "416702AF1F6BD75E"
+			item: {
+				count: 1
+				id: "refinedstorage:silk_touch_upgrade"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "0532A15CB678EA34"
+			item: {
+				count: 1
+				id: "refinedstorage:fortune_3_upgrade"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 8
+			id: "60386FFD78947DFD"
+			item: {
+				count: 1
+				id: "refinedstorage:pattern"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "02183DA79EA1B55A"
+			item: {
+				count: 1
+				id: "refinedstorage:storage_monitor"
+			}
+			weight: 15.0f
+		}
+		{
+			id: "538E1E642A29A229"
+			item: {
+				count: 1
+				id: "refinedstorage:network_receiver"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "36A8FD3DDC2E222C"
+			item: {
+				count: 1
+				id: "refinedstorage:network_transmitter"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "7CD64F6570796B70"
+			item: {
+				count: 1
+				id: "refinedstorage:network_card"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "56DF4FD69FD334F4"
+			item: {
+				count: 1
+				id: "refinedstorage:wireless_grid"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 4
+			id: "0F5575ED6BFD7778"
+			item: {
+				count: 1
+				id: "refinedstorage:machine_casing"
+			}
+			weight: 40.0f
+		}
+	]
+}

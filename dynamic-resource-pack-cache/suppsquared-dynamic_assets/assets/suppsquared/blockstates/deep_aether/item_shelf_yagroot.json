@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "suppsquared:block/item_shelves/deep_aether/yagroot"
+    },
+    "facing=east": {
+      "model": "suppsquared:block/item_shelves/deep_aether/yagroot",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "suppsquared:block/item_shelves/deep_aether/yagroot",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "suppsquared:block/item_shelves/deep_aether/yagroot",
+      "y": 270
+    }
+  }
+}

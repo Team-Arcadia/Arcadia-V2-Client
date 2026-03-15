@@ -1,0 +1,41 @@
+[
+  {
+    "uuid": "95d0db86-51d3-4a41-b3e0-038b45dc8336",
+    "displayName": {
+      "text": "",
+      "extra": [
+        {
+          "text": "",
+          "extra": [
+            {
+              "text": "",
+              "extra": [
+                "vyrriox"
+              ],
+              "color": "dark_green"
+            }
+          ]
+        }
+      ],
+      "hoverEvent": {
+        "contents": {
+          "type": "minecraft:player",
+          "id": [
+            -1781474426,
+            1372801601,
+            -1277164661,
+            1172079414
+          ],
+          "name": "vyrriox"
+        },
+        "action": "show_entity"
+      },
+      "insertion": "vyrriox",
+      "clickEvent": {
+        "action": "suggest_command",
+        "value": "/tell vyrriox "
+      }
+    },
+    "animation": "hiddennames:null"
+  }
+]

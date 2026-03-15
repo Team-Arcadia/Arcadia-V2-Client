@@ -1,0 +1,158 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "waystone"
+	group: "09F87AF76CF8713A"
+	icon: {
+		id: "waystones:waystone"
+	}
+	id: "6CCCF18152F9F1D7"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2463D78A94248D44"]
+			id: "118508ABA596D292"
+			rewards: [{
+				id: "37665533B8991EEF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4F33BC8FD3AD6193"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(waystones:waystones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["118508ABA596D292"]
+			id: "683453231D0CC5C8"
+			rewards: [{
+				id: "120626384B0FF1E3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2BC9F86AACB5D2E5"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(waystones:sharestones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["118508ABA596D292"]
+			id: "719B18CB4993CB83"
+			rewards: [{
+				id: "652804D8ADD85025"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "34A33E54E740310A"
+				item: { count: 1, id: "waystones:white_portstone" }
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["683453231D0CC5C8"]
+			id: "2DB8B2FAF259CDE4"
+			rewards: [{
+				id: "0DAAD1A70A35326A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6E14CC04591B4D46"
+				item: { count: 1, id: "waystones:return_scroll" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["719B18CB4993CB83"]
+			id: "670468931286CFDE"
+			rewards: [{
+				id: "1CC41D982BB6C17C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "0D71AEBD6D1DF2CC"
+					item: { count: 1, id: "waystones:blank_scroll" }
+					type: "item"
+				}
+				{
+					id: "3AED1D73B9E52F05"
+					item: { count: 1, id: "waystones:warp_scroll" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["72D97CF2C936CFF8"]
+			id: "3379441A7893D22C"
+			rewards: [{
+				id: "5ABCF9C79A2A9ACF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "73EE5F591EF13AC8"
+				item: { count: 1, id: "waystones:warp_stone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "72D97CF2C936CFF8"
+			rewards: [{
+				id: "52B7C00C70AF0403"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					count: 16L
+					id: "3DD91FAEF7B3473C"
+					item: { count: 1, id: "waystones:warp_dust" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "563C512386164B0E"
+					item: { count: 1, id: "waystones:dormant_shard" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3379441A7893D22C"]
+			id: "2463D78A94248D44"
+			rewards: [{
+				id: "21193AD6DEF4FC3F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "241497F1DD9952DF"
+				item: { count: 1, id: "waystones:warp_plate" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+}

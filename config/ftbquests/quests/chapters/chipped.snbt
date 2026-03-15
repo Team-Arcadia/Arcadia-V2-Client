@@ -1,0 +1,166 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chipped"
+	group: "35E0E0489201D483"
+	icon: {
+		id: "chipped:alchemy_book"
+	}
+	id: "09B51B73EB9D06C0"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3986BD116E82ABDC"
+			rewards: [{
+				id: "3A5A3ABDA3EB0C32"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "441A3A527FEB5BCB"
+					item: { count: 1, id: "chipped:saw" }
+					type: "item"
+				}
+				{
+					id: "33B8C9BF47E3F3B6"
+					item: { count: 1, id: "chipped:needles" }
+					type: "item"
+				}
+				{
+					id: "1DD0E06A212DB0E3"
+					item: { count: 1, id: "chipped:chisel" }
+					type: "item"
+				}
+				{
+					id: "6CA412EB0B614915"
+					item: { count: 1, id: "chipped:multimeter" }
+					type: "item"
+				}
+				{
+					id: "71A8301F5F6E1311"
+					item: { count: 1, id: "chipped:alchemy_book" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3986BD116E82ABDC"]
+			id: "1F2F2C6071C10D5B"
+			rewards: [{
+				id: "0F3CAA4B01C88CE3"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "3D529DE9B335F035"
+				item: { count: 1, id: "chipped:botanist_workbench" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3986BD116E82ABDC"]
+			id: "5AA203B0753790EB"
+			rewards: [{
+				id: "4FB5D860CF0575EE"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "73FDD7F016559FB9"
+				item: { count: 1, id: "chipped:glassblower" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3986BD116E82ABDC"]
+			id: "3D28123958665EC6"
+			rewards: [{
+				id: "491C4577967DEF30"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "57863730F85357F7"
+				item: { count: 1, id: "chipped:carpenters_table" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["32B8F164E5630FFF"]
+			id: "1D6C2786A1B7411D"
+			rewards: [{
+				id: "6CCACFDC0AA07973"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "69868298F92C6742"
+				item: { count: 1, id: "chipped:loom_table" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1D6C2786A1B7411D"
+				"03C5459B992E4C32"
+			]
+			id: "633BF5F6288A7B26"
+			rewards: [{
+				id: "469E0209DBF9A457"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "7218A9DFBA6FECD7"
+				item: { count: 1, id: "chipped:alchemy_bench" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3D28123958665EC6"]
+			id: "03C5459B992E4C32"
+			rewards: [{
+				id: "3DA8075C9115CA6A"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "0D06658CCC7FBBA2"
+				item: { count: 1, id: "chipped:tinkering_table" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3986BD116E82ABDC"]
+			id: "32B8F164E5630FFF"
+			rewards: [{
+				id: "5FBE127E5F90904A"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "408E17568B787F30"
+				item: { count: 1, id: "chipped:mason_table" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+	]
+}

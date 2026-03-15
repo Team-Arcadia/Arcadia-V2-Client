@@ -1,0 +1,50 @@
+/weather clear 500000d
+/reload
+/summon knightquest:swampman
+/summon knightquest:netherman
+/summon knightquest:eldknight
+/summon knightquest:ratman
+/summon knightquest:knight
+/summon knightquest:eldbomb
+/summon mowziesmobs:umvuthi
+/summon mowziesmobs:naga
+/summon mowziesmobs:frostmaw
+/summon mowziesmobs:ferrous_wroughtnaut
+/summon mutantmonsters:mutant_creeper
+/summon mutantmonsters:mutant_zombie
+/summon mutantmonsters:mutant_skeleton
+/summon mutantmonsters:mutant_enderman
+/summon mutantmonsters:mutant_snow_golem
+/summon mutantmonsters:spider_pig
+/summon irons_spellbooks:dead_king
+/summon irons_spellbooks:dead_king_corpse
+/summon irons_spellbooks:archevoker
+/summon irons_spellbooks:keeper
+/summon irons_spellbooks:necromancer
+/summon irons_spellbooks:priest
+/summon irons_spellbooks:citadel_keeper
+/summon deeperdarker:shriek_worm
+/summon deeperdarker:stalker
+/summon deeperdarker:sculk_snapper
+/summon deeperdarker:shattered
+/summon minecraft:warden
+/summon ars_nouveau:wilden_boss
+/summon ars_nouveau:wilden_chimera
+/summon ars_nouveau:wilden_guardian
+/summon ars_nouveau:wilden_stalker
+/summon ars_nouveau:wilden_hunter
+/summon aether:slider
+/summon aether:valkyrie_queen
+/summon aether:sun_spirit
+/kill @€
+/kill @e
+/reload
+/defaultoptions saveAll
+/tpx deeperdarker:otherside
+/ftbquests reload
+/spawn
+/ftbquests reload
+/defaultoptions saveAll
+/reload
+/kubejs reload server-scripts
+/reload

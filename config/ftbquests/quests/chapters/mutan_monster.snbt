@@ -1,0 +1,415 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mutan_monster"
+	group: "3294587A31F15194"
+	icon: {
+		id: "mutantmonsters:endersoul_hand"
+	}
+	id: "269C4D35CD325AC9"
+	images: [
+		{
+			height: 1.0d
+			image: "mutantmonsters:item/hulk_hammer"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			height: 4.0d
+			image: "mutantmonsters:textures/mob_effect/chemical_x.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "mutantmonsters:textures/particle/skull_spirit.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "mutantmonsters:textures/particle/skull_spirit.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "mutantmonsters:textures/particle/skull_spirit.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "mutantmonsters:textures/particle/skull_spirit.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "mutantmonsters:textures/particle/skull_spirit.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "mutantmonsters:textures/particle/skull_spirit.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "mutantmonsters:textures/particle/skull_spirit.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "mutantmonsters:textures/particle/skull_spirit.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "mutantmonsters:item/endersoul_hand"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "mutantmonsters:item/creeper_shard"
+			rotation: 0.0d
+			width: 3.0d
+			x: -3.0d
+			y: 1.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4D9FCB0C1D1771A9"]
+			id: "4CD746C4D7A67B82"
+			rewards: [{
+				id: "69042A7EBFAC8263"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "4AB31FF972490BAD"
+				item: { count: 1, id: "mutantmonsters:mutant_skeleton_skull" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6F245246B8B3B666"]
+			id: "4D9FCB0C1D1771A9"
+			rewards: [{
+				id: "342ED0716577C84C"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "5B56A328A1AB9C9D"
+				item: { count: 1, id: "mutantmonsters:mutant_skeleton_chestplate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4C49A0375B1A1CFC"]
+			id: "6F245246B8B3B666"
+			rewards: [{
+				id: "611270E37DF892AA"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "21C5ED2A2B792061"
+				item: { count: 1, id: "mutantmonsters:mutant_skeleton_leggings" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["24B87A9A3C7C34AF"]
+			id: "4C49A0375B1A1CFC"
+			rewards: [{
+				id: "60146FE602E9AFEC"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "5D85A50172655B71"
+				item: { count: 1, id: "mutantmonsters:mutant_skeleton_boots" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["39008ED67E1E30A2"]
+			id: "126E4A3D722C772E"
+			rewards: [{
+				id: "4A3335814AC828D0"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "50D9569330940138"
+				item: { count: 1, id: "mutantmonsters:mutant_skeleton_rib_cage" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["24B87A9A3C7C34AF"]
+			id: "4ADB282D06437016"
+			rewards: [{
+				id: "1F262A552FDD6031"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "14F7D40DF964DE13"
+				item: { count: 1, id: "mutantmonsters:mutant_skeleton_rib" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["24B87A9A3C7C34AF"]
+			id: "110E85422C21EFDE"
+			rewards: [{
+				id: "51E791A49025B964"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "1AF53DDF8D13F454"
+				item: { count: 1, id: "mutantmonsters:mutant_skeleton_pelvis" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4ADB282D06437016"]
+			id: "39008ED67E1E30A2"
+			rewards: [{
+				id: "0AC48FEC7CC91BC7"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "5F2578BF0BCAE3A0"
+				item: { count: 1, id: "mutantmonsters:mutant_skeleton_limb" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5CA9998DD0124142"]
+			id: "3A31F5C6EA2F23BC"
+			rewards: [{
+				id: "17F0A542A2FC97AF"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "42E99C38D35FDFAF"
+				item: { count: 1, id: "mutantmonsters:mutant_skeleton_arms" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["110E85422C21EFDE"]
+			id: "5CA9998DD0124142"
+			rewards: [{
+				id: "01D12B6D0A9BCEDF"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "50E58159553B9FB7"
+				item: { count: 1, id: "mutantmonsters:mutant_skeleton_shoulder_pad" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			id: "7446AF70EF7FB42D"
+			rewards: [{
+				id: "68CF8B5696447F32"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "65198CF3A95995AB"
+				item: { components: { "minecraft:potion_contents": { potion: "mutantmonsters:chemical_x" } }, count: 1, id: "minecraft:potion" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7446AF70EF7FB42D"]
+			id: "2A299E4D99FBF36D"
+			rewards: [{
+				id: "1A9EE1CA279D6832"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "38EC5566B33333E2"
+				item: { components: { "minecraft:potion_contents": { potion: "mutantmonsters:chemical_x" } }, count: 1, id: "minecraft:splash_potion" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A299E4D99FBF36D"]
+			id: "0F787CCED84DB48D"
+			rewards: [{
+				id: "7CFFC7D249A01F21"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "6B3C6F82186768FA"
+				item: { components: { "minecraft:potion_contents": { potion: "mutantmonsters:chemical_x" } }, count: 1, id: "minecraft:lingering_potion" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F787CCED84DB48D"]
+			id: "5ACC8D4D3BCD784B"
+			rewards: [{
+				id: "01E2C1751C75B832"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "4A8D96C3100375FA"
+				item: { components: { "minecraft:potion_contents": { potion: "mutantmonsters:chemical_x" } }, count: 1, id: "minecraft:tipped_arrow" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "24B87A9A3C7C34AF"
+			rewards: [{
+				id: "014E2698CDFB777D"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				entity: "mutantmonsters:mutant_skeleton"
+				id: "18E3A4C5B80082B6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			id: "7F641AA2D88BB457"
+			rewards: [{
+				id: "0DF11DFF9345FD83"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				entity: "mutantmonsters:mutant_zombie"
+				id: "3B52048EF1FA5EDE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "28E71B6DF4733BDF"
+			rewards: [{
+				id: "2200B7652BA28E5A"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				entity: "mutantmonsters:mutant_snow_golem"
+				id: "76BF30EB927746BA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			id: "6B2F4635D9E058CA"
+			rewards: [{
+				id: "7DFEDF2640ADB9D6"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				entity: "mutantmonsters:mutant_enderman"
+				id: "036B8463974A45FA"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "2CFB91C7031A5E4B"
+			rewards: [{
+				id: "459366C41EA41D44"
+				type: "xp"
+				xp: 500
+			}]
+			tasks: [{
+				entity: "mutantmonsters:mutant_creeper"
+				id: "0B9F868D8E19E96D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+	]
+}

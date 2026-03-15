@@ -1,0 +1,1051 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_aether"
+	group: "70AB2085E1434295"
+	icon: {
+		id: "deep_aether:sun_core"
+	}
+	id: "2A1D631F3583E765"
+	images: [
+		{
+			height: 7.5d
+			image: "aether:textures/gui/title/aether.png"
+			rotation: 0.0d
+			width: 30.0d
+			x: 15.5d
+			y: -1.0d
+		}
+		{
+			height: 6.0d
+			image: "deep_aether:block/gilded_holystone_tiles"
+			order: 1
+			rotation: 0.0d
+			width: 6.0d
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			height: 6.0d
+			image: "deep_aether:block/gilded_holystone_tiles"
+			rotation: 0.0d
+			width: 6.0d
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			height: 6.0d
+			image: "deep_aether:block/gilded_holystone_bricks"
+			rotation: 0.0d
+			width: 6.0d
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			height: 6.0d
+			image: "deep_aether:block/gilded_holystone_tiles"
+			order: 1
+			rotation: 0.0d
+			width: 6.0d
+			x: 28.0d
+			y: 3.0d
+		}
+		{
+			height: 6.0d
+			image: "deep_aether:block/gilded_holystone_tiles"
+			rotation: 0.0d
+			width: 6.0d
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			height: 6.0d
+			image: "deep_aether:block/gilded_holystone_tiles"
+			rotation: 0.0d
+			width: 6.0d
+			x: 23.0d
+			y: 3.0d
+		}
+		{
+			height: 6.0d
+			image: "deep_aether:block/gilded_holystone_bricks"
+			rotation: 0.0d
+			width: 6.0d
+			x: 33.0d
+			y: 3.0d
+		}
+		{
+			height: 6.0d
+			image: "deep_aether:block/gilded_holystone_bricks"
+			rotation: 0.0d
+			width: 6.0d
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			height: 3.0d
+			image: "deep_aether:textures/entity/eots/wind_crystal.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 20.5d
+			y: 6.0d
+		}
+		{
+			height: 6.0d
+			image: "deep_aether:block/conberry_leaves"
+			rotation: 0.0d
+			width: 6.0d
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			height: 6.0d
+			image: "deep_aether:block/conberry_leaves"
+			order: 2
+			rotation: 0.0d
+			width: 6.0d
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			height: 3.0d
+			image: "aether:textures/mob_effect/inebriation.png"
+			order: 3
+			rotation: 0.0d
+			width: 3.0d
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			height: 4.0d
+			image: "deep_aether:block/attached_squash_stem"
+			rotation: 0.0d
+			width: 4.0d
+			x: 37.280952380952385d
+			y: 1.509523809523813d
+		}
+		{
+			height: 4.0d
+			image: "deep_aether:block/attached_squash_stem"
+			rotation: 90.0d
+			width: 4.0d
+			x: 37.09319727891156d
+			y: 4.9258503401360585d
+		}
+		{
+			height: 5.0d
+			image: "dustydecorations:item/gifulanternitem"
+			rotation: 0.0d
+			width: 5.0d
+			x: 27.294557823129267d
+			y: 7.322448979591826d
+		}
+		{
+			height: 5.0d
+			image: "dustydecorations:item/gifulanternitem"
+			order: 1
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.345578231292535d
+			y: 7.256122448979589d
+		}
+		{
+			height: 7.0d
+			image: "securitycraft:textures/particle/floor_trap_cloud.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 10.0d
+			y: 9.5d
+		}
+		{
+			height: 7.0d
+			image: "securitycraft:textures/particle/floor_trap_cloud.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 20.0d
+			y: 11.5d
+		}
+		{
+			height: 7.0d
+			image: "securitycraft:textures/particle/floor_trap_cloud.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 34.5d
+			y: 8.5d
+		}
+		{
+			height: 7.0d
+			image: "securitycraft:textures/particle/floor_trap_cloud.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 30.0d
+			y: -6.0d
+		}
+		{
+			height: 7.0d
+			image: "securitycraft:textures/particle/floor_trap_cloud.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			height: 7.0d
+			image: "securitycraft:textures/particle/floor_trap_cloud.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -3.5d
+			y: 11.5d
+		}
+		{
+			height: 7.0d
+			image: "securitycraft:textures/particle/floor_trap_cloud.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -8.0d
+			y: 3.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1000000000000001"
+			rewards: [{
+				id: "1000000000000011"
+				item: {
+					count: 1
+					id: "aether:white_moa_egg"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "1000000000000021"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1000000000000001"]
+			id: "1000000000000002"
+			rewards: [{
+				count: 8
+				id: "1000000000000012"
+				item: {
+					count: 1
+					id: "aether:ambrosium_shard"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1000000000000022"
+					item: { count: 1, id: "aether:skyroot_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "1000000000000032"
+					item: { count: 1, id: "aether:skyroot_axe" }
+					type: "item"
+				}
+				{
+					id: "1000000000000042"
+					item: { count: 1, id: "aether:skyroot_shovel" }
+					type: "item"
+				}
+				{
+					id: "1000000000000052"
+					item: { count: 1, id: "aether:skyroot_sword" }
+					type: "item"
+				}
+				{
+					id: "1000000000000062"
+					item: { count: 1, id: "aether:skyroot_hoe" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1000000000000002"]
+			id: "1000000000000003"
+			rewards: [{
+				count: 32
+				id: "1000000000000013"
+				item: {
+					count: 1
+					id: "aether:holystone"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1000000000000023"
+					item: { count: 1, id: "aether:holystone_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "1000000000000033"
+					item: { count: 1, id: "aether:holystone_axe" }
+					type: "item"
+				}
+				{
+					id: "1000000000000043"
+					item: { count: 1, id: "aether:holystone_shovel" }
+					type: "item"
+				}
+				{
+					id: "1000000000000053"
+					item: { count: 1, id: "aether:holystone_sword" }
+					type: "item"
+				}
+				{
+					id: "1000000000000063"
+					item: { count: 1, id: "aether:holystone_hoe" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1000000000000003"]
+			id: "1000000000000004"
+			rewards: [{
+				count: 16
+				id: "1000000000000014"
+				item: {
+					count: 1
+					id: "minecraft:torch"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1000000000000024"
+				item: { count: 1, id: "aether:ambrosium_shard" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1000000000000001"]
+			id: "1000000000000005"
+			rewards: [{
+				count: 4
+				id: "1000000000000015"
+				item: {
+					count: 1
+					id: "aether:blue_aercloud"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1000000000000025"
+				item: { count: 1, id: "aether:cold_aercloud" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1000000000000003"]
+			id: "3C6AB1E04AE2BA01"
+			rewards: [{
+				count: 4
+				id: "5D3D741155F3C0FA"
+				item: {
+					count: 1
+					id: "aether:zanite_gemstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "09309F74116B94AF"
+				item: { count: 1, id: "aether:zanite_gemstone" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2000000000000001"
+				"3C6AB1E04AE2BA01"
+			]
+			id: "31BF04F3FF4D6343"
+			rewards: [{
+				id: "2000000000000012"
+				item: {
+					count: 1
+					id: "aether:zanite_ring"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "011708AA6E5B62A5"
+					item: { count: 1, id: "aether:zanite_helmet" }
+					type: "item"
+				}
+				{
+					id: "2000000000000032"
+					item: { count: 1, id: "aether:zanite_chestplate" }
+					type: "item"
+				}
+				{
+					id: "2000000000000042"
+					item: { count: 1, id: "aether:zanite_leggings" }
+					type: "item"
+				}
+				{
+					id: "2000000000000052"
+					item: { count: 1, id: "aether:zanite_boots" }
+					type: "item"
+				}
+				{
+					id: "2000000000000062"
+					item: { count: 1, id: "aether:zanite_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "2000000000000072"
+					item: { count: 1, id: "aether:zanite_axe" }
+					type: "item"
+				}
+				{
+					id: "2000000000000082"
+					item: { count: 1, id: "aether:zanite_shovel" }
+					type: "item"
+				}
+				{
+					id: "2000000000000092"
+					item: { count: 1, id: "aether:zanite_sword" }
+					type: "item"
+				}
+				{
+					id: "4E7D59C12EDF4AA3"
+					item: { count: 1, id: "aether:zanite_hoe" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1000000000000005"]
+			id: "4C3BE7C21DD86197"
+			rewards: [{
+				id: "2000000000000013"
+				item: {
+					count: 1
+					id: "aether:golden_parachute"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "25140584071C942B"
+				item: { count: 1, id: "aether:blue_aercloud" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2000000000000002"
+				"31BF04F3FF4D6343"
+			]
+			id: "3000000000000001"
+			rewards: [{
+				count: 4
+				id: "3000000000000011"
+				item: {
+					count: 1
+					id: "aether:healing_stone"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "3000000000000021"
+				structure: "aether:bronze_dungeon"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3000000000000001"]
+			id: "3000000000000002"
+			rewards: [{
+				id: "2D95CDE861EDAC04"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "pentagon"
+			tasks: [{
+				entity: "aether:slider"
+				id: "3000000000000022"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3000000000000002"]
+			id: "3000000000000003"
+			rewards: [{
+				id: "3000000000000013"
+				item: {
+					count: 1
+					id: "aether:victory_medal"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3000000000000023"
+					item: { count: 1, id: "aether:valkyrie_lance" }
+					type: "item"
+				}
+				{
+					id: "3000000000000033"
+					item: { count: 1, id: "aether:hammer_of_kingbdogz" }
+					type: "item"
+				}
+				{
+					id: "3000000000000043"
+					item: { count: 1, id: "aether:cloud_staff" }
+					type: "item"
+				}
+				{
+					id: "3000000000000053"
+					item: { count: 1, id: "aether:lightning_knife" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3000000000000002"]
+			id: "3000000000000004"
+			rewards: [{
+				count: 2
+				id: "3000000000000014"
+				item: {
+					count: 1
+					id: "aether:enchanted_gravitite"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3000000000000024"
+					item: { count: 1, id: "aether:gravitite_helmet" }
+					type: "item"
+				}
+				{
+					id: "3000000000000034"
+					item: { count: 1, id: "aether:gravitite_chestplate" }
+					type: "item"
+				}
+				{
+					id: "3000000000000044"
+					item: { count: 1, id: "aether:gravitite_leggings" }
+					type: "item"
+				}
+				{
+					id: "3000000000000054"
+					item: { count: 1, id: "aether:gravitite_boots" }
+					type: "item"
+				}
+				{
+					id: "3000000000000064"
+					item: { count: 1, id: "aether:gravitite_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "3000000000000074"
+					item: { count: 1, id: "aether:gravitite_axe" }
+					type: "item"
+				}
+				{
+					id: "3000000000000084"
+					item: { count: 1, id: "aether:gravitite_shovel" }
+					type: "item"
+				}
+				{
+					id: "3000000000000094"
+					item: { count: 1, id: "aether:gravitite_sword" }
+					type: "item"
+				}
+				{
+					id: "3000000000000104"
+					item: { count: 1, id: "aether:gravitite_hoe" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3000000000000003"]
+			id: "6000000000000001"
+			rewards: [{
+				count: 7
+				id: "51246F4DF4B6CD12"
+				item: {
+					count: 1
+					id: "aether:enchanted_berry"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				biome: "deep_aether:aerlavender_fields"
+				id: "6000000000000021"
+				type: "biome"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6000000000000001"]
+			id: "6000000000000002"
+			rewards: [{
+				id: "6000000000000012"
+				item: {
+					count: 1
+					id: "aether:music_disc_aether_tune"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "6000000000000022"
+				structure: "deep_aether:brass_dungeon"
+				type: "structure"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["47F14A31158F2D9E"]
+			id: "4000000000000001"
+			rewards: [{
+				id: "4000000000000011"
+				item: {
+					count: 1
+					id: "aether:silver_dungeon_key"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				count: 10L
+				id: "4000000000000021"
+				item: { count: 1, id: "aether:victory_medal" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4000000000000001"]
+			id: "4000000000000002"
+			rewards: [{
+				id: "4000000000000012"
+				item: {
+					count: 1
+					id: "aether:golden_parachute"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				id: "4000000000000022"
+				type: "kill"
+				value: 1L
+			}]
+			x: 20.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4000000000000002"]
+			id: "4000000000000003"
+			rewards: [{
+				id: "4000000000000013"
+				item: {
+					count: 1
+					id: "aether:regeneration_stone"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4000000000000023"
+					item: { count: 1, id: "aether:valkyrie_helmet" }
+					type: "item"
+				}
+				{
+					id: "4000000000000033"
+					item: { count: 1, id: "aether:valkyrie_chestplate" }
+					type: "item"
+				}
+				{
+					id: "4000000000000043"
+					item: { count: 1, id: "aether:valkyrie_leggings" }
+					type: "item"
+				}
+				{
+					id: "4000000000000053"
+					item: { count: 1, id: "aether:valkyrie_boots" }
+					type: "item"
+				}
+				{
+					id: "4000000000000063"
+					item: { count: 1, id: "aether:valkyrie_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "4000000000000073"
+					item: { count: 1, id: "aether:valkyrie_axe" }
+					type: "item"
+				}
+				{
+					id: "4000000000000083"
+					item: { count: 1, id: "aether:valkyrie_shovel" }
+					type: "item"
+				}
+				{
+					id: "4000000000000093"
+					item: { count: 1, id: "aether:valkyrie_hoe" }
+					type: "item"
+				}
+				{
+					id: "4000000000000103"
+					item: { count: 1, id: "aether:lightning_sword" }
+					type: "item"
+				}
+			]
+			x: 22.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4000000000000003"]
+			id: "5000000000000001"
+			rewards: [{
+				id: "5000000000000011"
+				item: {
+					count: 1
+					id: "aether:ice_pendant"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "5000000000000021"
+				structure: "aether:gold_dungeon"
+				type: "structure"
+			}]
+			x: 24.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5000000000000001"]
+			id: "5000000000000002"
+			rewards: [{
+				id: "5000000000000012"
+				item: {
+					count: 1
+					id: "aether:sun_altar"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				entity: "aether:sun_spirit"
+				id: "5000000000000022"
+				type: "kill"
+				value: 1L
+			}]
+			x: 26.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5000000000000002"]
+			id: "5000000000000003"
+			rewards: [{
+				id: "5000000000000013"
+				item: {
+					count: 1
+					id: "minecraft:water_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5000000000000023"
+					item: { count: 1, id: "aether:phoenix_helmet" }
+					type: "item"
+				}
+				{
+					id: "5000000000000033"
+					item: { count: 1, id: "aether:phoenix_chestplate" }
+					type: "item"
+				}
+				{
+					id: "5000000000000043"
+					item: { count: 1, id: "aether:phoenix_leggings" }
+					type: "item"
+				}
+				{
+					id: "5000000000000053"
+					item: { count: 1, id: "aether:phoenix_boots" }
+					type: "item"
+				}
+				{
+					id: "5000000000000063"
+					item: { count: 1, id: "aether:phoenix_bow" }
+					type: "item"
+				}
+				{
+					id: "5000000000000073"
+					item: { count: 1, id: "aether:flaming_sword" }
+					type: "item"
+				}
+			]
+			x: 28.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5000000000000003"]
+			id: "5000000000000004"
+			rewards: [{
+				id: "3B437158BE279A0F"
+				type: "xp"
+				xp: 307
+			}]
+			tasks: [
+				{
+					id: "5000000000000024"
+					item: { count: 1, id: "aether:obsidian_helmet" }
+					type: "item"
+				}
+				{
+					id: "5000000000000034"
+					item: { count: 1, id: "aether:obsidian_chestplate" }
+					type: "item"
+				}
+				{
+					id: "5000000000000044"
+					item: { count: 1, id: "aether:obsidian_leggings" }
+					type: "item"
+				}
+				{
+					id: "5000000000000054"
+					item: { count: 1, id: "aether:obsidian_boots" }
+					type: "item"
+				}
+			]
+			x: 30.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5000000000000004"]
+			id: "6000000000000003"
+			rewards: [{
+				count: 2
+				id: "6000000000000013"
+				item: {
+					count: 1
+					id: "deep_aether:skyjade"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6000000000000023"
+				item: { count: 1, id: "deep_aether:skyjade" }
+				type: "item"
+			}]
+			x: 32.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6000000000000003"]
+			id: "6000000000000004"
+			rewards: [{
+				id: "6000000000000014"
+				item: {
+					count: 1
+					id: "deep_aether:stratus_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6000000000000024"
+					item: { count: 1, id: "deep_aether:skyjade_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "6000000000000034"
+					item: { count: 1, id: "deep_aether:skyjade_sword" }
+					type: "item"
+				}
+				{
+					id: "6000000000000044"
+					item: { count: 1, id: "deep_aether:skyjade_axe" }
+					type: "item"
+				}
+				{
+					id: "6000000000000054"
+					item: { count: 1, id: "deep_aether:skyjade_shovel" }
+					type: "item"
+				}
+				{
+					id: "6000000000000064"
+					item: { count: 1, id: "deep_aether:skyjade_hoe" }
+					type: "item"
+				}
+				{
+					id: "6000000000000074"
+					item: { count: 1, id: "deep_aether:blade_of_luck" }
+					type: "item"
+				}
+				{
+					id: "6000000000000084"
+					item: { count: 1, id: "deep_aether:storm_bow" }
+					type: "item"
+				}
+				{
+					id: "6000000000000094"
+					item: { count: 1, id: "deep_aether:storm_sword" }
+					type: "item"
+				}
+			]
+			x: 34.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6000000000000004"]
+			id: "6000000000000005"
+			rewards: [{
+				id: "12B8629B13606DC9"
+				type: "xp"
+				xp: 307
+			}]
+			tasks: [
+				{
+					id: "6000000000000025"
+					item: { count: 1, id: "deep_aether:stratus_helmet" }
+					type: "item"
+				}
+				{
+					id: "6000000000000035"
+					item: { count: 1, id: "deep_aether:stratus_chestplate" }
+					type: "item"
+				}
+				{
+					id: "6000000000000045"
+					item: { count: 1, id: "deep_aether:stratus_leggings" }
+					type: "item"
+				}
+				{
+					id: "6000000000000055"
+					item: { count: 1, id: "deep_aether:stratus_boots" }
+					type: "item"
+				}
+				{
+					id: "6000000000000065"
+					item: { count: 1, id: "deep_aether:stratus_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "6000000000000075"
+					item: { count: 1, id: "deep_aether:stratus_sword" }
+					type: "item"
+				}
+				{
+					id: "6000000000000085"
+					item: { count: 1, id: "deep_aether:stratus_axe" }
+					type: "item"
+				}
+				{
+					id: "6000000000000095"
+					item: { count: 1, id: "deep_aether:stratus_shovel" }
+					type: "item"
+				}
+				{
+					id: "6000000000000105"
+					item: { count: 1, id: "deep_aether:stratus_hoe" }
+					type: "item"
+				}
+			]
+			x: 34.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3000000000000003"]
+			id: "7000000000000001"
+			rewards: [{
+				id: "7000000000000011"
+				item: {
+					count: 1
+					id: "aether:life_shard"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7000000000000021"
+					item: { count: 1, id: "aether:pig_slayer" }
+					type: "item"
+				}
+				{
+					id: "7000000000000031"
+					item: { count: 1, id: "aether:candy_cane_sword" }
+					type: "item"
+				}
+				{
+					id: "7000000000000041"
+					item: { count: 1, id: "aether:vampire_blade" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6000000000000002"]
+			id: "47F14A31158F2D9E"
+			rewards: [{
+				id: "27F122ED50496B1B"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				entity: "deep_aether:eye_of_the_storm"
+				id: "5BEAAFBB3FEB1678"
+				type: "kill"
+				value: 1L
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+	]
+}

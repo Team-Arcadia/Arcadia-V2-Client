@@ -1,0 +1,370 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mowzies_mob"
+	group: "3294587A31F15194"
+	icon: {
+		id: "mowziesmobs:earthrend_gauntlet"
+	}
+	id: "68456F7A7F1A1FC0"
+	images: [
+		{
+			height: 2.0d
+			image: "mowziesmobs:item/wrought_axe_icon"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			height: 3.0d
+			image: "mowziesmobs:textures/mob_effect/frozen.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			height: 4.0d
+			image: "mowziesmobs:item/logo"
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/jukebox_top"
+			rotation: 90.0d
+			width: 1.0d
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			height: 2.0d
+			image: "mowziesmobs:textures/effects/ring.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "mowziesmobs:item/icecrystal"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5952380952380807d
+			y: -0.5119047619047734d
+		}
+		{
+			height: 1.0d
+			image: "mowziesmobs:item/sculptor_staff_icon"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "mowziesmobs:item/wrought_helmet_icon"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.023809523809511d
+			y: 0.2499999999999858d
+		}
+		{
+			height: 4.0d
+			image: "mowziesmobs:item/gong"
+			rotation: 0.0d
+			width: 4.0d
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			height: 2.0d
+			image: "mowziesmobs:textures/particle/sun_nova.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5714285714285552d
+			y: 1.154761904761891d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "72F0ED9715540F75"
+			rewards: [{
+				id: "6659479B4488A46C"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "1E46408925FDBFB4"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5952380952380807d
+			y: -0.5833333333333499d
+		}
+		{
+			dependencies: [
+				"0B87502598386D31"
+				"1C32EF75858381F9"
+				"276C14958CD316F4"
+			]
+			id: "13C9EF5619D21BDC"
+			rewards: [{
+				id: "52F4534F60DCF136"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				id: "2533360368FB17C2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "779C910C2BF54AEA"
+			rewards: [{
+				id: "3B6261D588DD4418"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				id: "482EAD15AB2F99BE"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "1BA234A475900BB4"
+			rewards: [{
+				id: "443D3A3DFC3B5F05"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				entity: "mowziesmobs:bluff"
+				id: "7AC99CCE4B2B4900"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "276C14958CD316F4"
+			rewards: [{
+				id: "3DA7C599B747DBE9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				entity: "mowziesmobs:umvuthana_raptor"
+				id: "40A89E2C7F4C1C24"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "1C32EF75858381F9"
+			rewards: [{
+				id: "7EB055B81F4B80E4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				entity: "mowziesmobs:umvuthana_crane"
+				id: "579EFC3C7502A1F4"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			id: "0B87502598386D31"
+			rewards: [{
+				id: "7773FA3179564175"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				entity: "mowziesmobs:umvuthana"
+				id: "679339EBEBFD2CB0"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "1D9550BF8E5E4B70"
+			rewards: [{
+				id: "7AD846A4AB086DC3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				entity: "mowziesmobs:foliaath"
+				id: "77FE8A714AC280F8"
+				type: "kill"
+				value: 5L
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			id: "28264E03EBC7F081"
+			rewards: [{
+				id: "03B1B319033BC2E8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				entity: "mowziesmobs:naga"
+				id: "58319902BF1EB027"
+				type: "kill"
+				value: 5L
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			id: "65259E5177B27DB2"
+			rewards: [{
+				id: "1937973987651504"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				entity: "mowziesmobs:grottol"
+				id: "7790A0368F2A01D7"
+				type: "kill"
+				value: 5L
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "30E9F12E63802E7C"
+			rewards: [{
+				id: "49117A1C089FA6A2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				entity: "mowziesmobs:lantern"
+				id: "6BDE314A5FC03671"
+				type: "kill"
+				value: 5L
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			id: "0106CEEC2B54ABD7"
+			shape: "none"
+			tasks: [{
+				id: "0696B338C3378FD6"
+				item: { count: 1, id: "mowziesmobs:umvuthana_mask_fury" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "18FC884DB14888E3"
+			shape: "none"
+			tasks: [{
+				id: "40F06AA4D82FE359"
+				item: { count: 1, id: "mowziesmobs:umvuthana_mask_faith" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			id: "1B27408EFFD426E5"
+			shape: "none"
+			tasks: [{
+				id: "532B5EE4FA611296"
+				item: { count: 1, id: "mowziesmobs:umvuthana_mask_fear" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "60BD4C0B9B308ABF"
+			shape: "none"
+			tasks: [{
+				id: "6C4680BEB29025FB"
+				item: { count: 1, id: "mowziesmobs:umvuthana_mask_rage" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			id: "7B811EA3A738189A"
+			shape: "none"
+			tasks: [{
+				id: "2B96C89FDB07F506"
+				item: { count: 1, id: "mowziesmobs:umvuthana_mask_bliss" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "4924798E2CB9B39A"
+			shape: "none"
+			tasks: [{
+				id: "15DD5E74D40EE957"
+				item: { count: 1, id: "mowziesmobs:umvuthana_mask_misery" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			id: "062635D392FB2206"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				id: "7C2A92D6A9FBD6EF"
+				item: { count: 1, id: "mowziesmobs:sol_visage" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "0C670865D72E30BE"
+			rewards: [{
+				id: "7350D7CC9537C361"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "4EDC112C87590552"
+				item: { count: 1, id: "mowziesmobs:music_disc_petiole" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+}

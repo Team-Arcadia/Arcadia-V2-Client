@@ -1,0 +1,105 @@
+general = {disable_mod = false, auto_start = false, space_modules = false, shadow_text = true, animations = true, animationSpeed = 1.0, fontScale = 1.0, background_color = 1867534416, hide_debug_crosshair = false, hide_sidebar = true, hide_bossbar = true, always_show_profiler = false, always_show_tps = false, always_show_ping = false}
+
+# --- LEFT MODULES ---
+
+[[modules_left]]
+	name = "fps"
+	color_high = 5635925
+	color_med = 16777045
+	color_low = 16733525
+	enabled = true
+	lines = {fps = true}
+
+[[modules_left]]
+	name = "graphics"
+	name_color = 16755200
+	value_color = 5636095
+	enabled = true
+	# Demandé: render distance, graphic, cloud
+	lines = {render_distance = true, graphics = true, clouds = true, biome_blend_radius = false, shader = false}
+
+[[modules_left]]
+	name = "server"
+	name_color = 11184810
+	value_color = 16777045
+	enabled = true
+	# Demandé: packet recu et envoyer
+	lines = {server_tick = false, packets_sent = true, packets_received = true, tick_manager_status = false}
+
+[[modules_left]]
+	name = "location"
+	name_color = 43520
+	value_color = 5636095
+	enabled = true
+	# Demandé: la dimension, days played, biom
+	lines = {dimension = true, facing = false, rotation = false, light = false, light_server = false, highest_block = false, highest_block_server = false, biome = true, local_difficulty = false, day_ticks = false, days_played = true, slime_chunk = false}
+
+[[modules_left]]
+	name = "entity"
+	name_color = 16733525
+	value_color = 16777045
+	total_entities_color = 16755200
+	enabled = true
+	# Demandé: particules, entité, monster, creature, Ambiant, axolote
+	lines = {particles = true, entities = true, monster = true, creature = true, ambient = true, axolotls = true, underground_water_creature = false, water_creature = false, water_ambient = false, misc = false, aether_aether_aerwhale = false, aether_aether_darkness_monster = false, aether_aether_sky_monster = false, aether_aether_surface_monster = false}
+
+# --- DISABLED LEFT MODULES ---
+
+[[modules_left]]
+	name = "minecraft"
+	enabled = false
+	lines = {minecraft = true}
+
+[[modules_left]]
+	name = "coords"
+	enabled = false
+	lines = {player_coords = true}
+
+[[modules_left]]
+	name = "chunks"
+	enabled = false
+	lines = {chunk_sections = true}
+
+[[modules_left]]
+	name = "sound"
+	enabled = false
+	lines = {sounds = true}
+
+[[modules_left]]
+	name = "help"
+	enabled = false
+	lines = {help = true}
+
+[[modules_left]]
+	name = "empty"
+	empty_lines = 1
+	enabled = false
+	lines = {nothing = true}
+
+[[modules_left]]
+	name = "miscleft"
+	enabled = false
+	lines = {misc_left = true}
+
+
+# --- RIGHT MODULES ---
+
+[[modules_right]]
+	name = "system"
+	name_color = 16755200
+	value_color = 5636095
+	enabled = true
+	# Demandé: le memery usage, current time, GPU utilisation, GPU driver
+	lines = {time = true, java_version = false, memory_usage = true, allocation_rate = false, allocated_memory = false, cpu = false, display = false, gpu = false, gpu_utilization = true, opengl_version = false, gpu_driver = true}
+
+# --- DISABLED RIGHT MODULES ---
+
+[[modules_right]]
+	name = "miscright"
+	enabled = false
+	lines = {misc_right = true}
+
+[[modules_right]]
+	name = "target"
+	enabled = false
+	lines = {targeted_block = true}

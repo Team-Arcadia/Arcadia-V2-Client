@@ -1,0 +1,48 @@
+{
+	id: "159F9EEDD15E57B6"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ id: "3ACACF01FB7EB69D", item: { count: 1, id: "create:shaft" } }
+		{ id: "29E8BFD5F12E8405", item: { count: 1, id: "create:cogwheel" } }
+		{ id: "7D405A7B5A9BAD92", item: { count: 1, id: "create:large_cogwheel" } }
+		{ id: "6FB8B517E905621D", item: { count: 1, id: "create:gearbox" } }
+		{ id: "55E415FEAD01A6B1", item: { count: 1, id: "create:vertical_gearbox" } }
+		{ id: "25A7DFB0BF049A03", item: { count: 1, id: "create:clutch" } }
+		{ id: "4B238F53977D95BF", item: { count: 1, id: "create:gearshift" } }
+		{ id: "69A9FDDFB2DEC766", item: { count: 1, id: "create:encased_chain_drive" } }
+		{ id: "753AF5612BAA3B99", item: { count: 1, id: "create:adjustable_chain_gearshift" } }
+		{ id: "153419FCB9BC973A", item: { count: 1, id: "create:hand_crank" } }
+		{ id: "7B5A2303092CB969", item: { count: 1, id: "create:mechanical_press" } }
+		{ id: "6ECC6026F98DCBA0", item: { count: 1, id: "create:stressometer" } }
+		{ id: "5F3C80C0A0121924", item: { count: 1, id: "create:weighted_ejector" } }
+		{ id: "6713972CDF4514EA", item: { count: 1, id: "create:fluid_tank" } }
+		{ id: "1A99C0EBF8ACE5B8", item: { count: 1, id: "create:piston_extension_pole" } }
+		{ id: "05567A05B71B4AE0", item: { count: 1, id: "create:mechanical_crafter" } }
+		{ id: "68A1938788729D94", item: { count: 1, id: "create:andesite_casing" } }
+		{ id: "53F73D65AD24E3EC", item: { count: 1, id: "create:mechanical_piston" } }
+		{ id: "4B2539E6E4360E0B", item: { count: 1, id: "create:electron_tube" } }
+		{
+			id: "1E51F914F57D7C37"
+			item: {
+				count: 1
+				id: "create:precision_mechanism"
+			}
+			weight: 0.1f
+		}
+		{ id: "6EC88B19A2C10212", item: { count: 1, id: "create:bar_of_chocolate" } }
+		{ id: "3CC838799F72DF82", item: { count: 1, id: "create:fluid_pipe" } }
+		{ id: "22E83180CC6FB5D5", item: { count: 1, id: "create:zinc_ingot" } }
+		{ id: "0EDBCA1753EBB62B", item: { count: 1, id: "create:brass_sheet" } }
+		{ id: "01F4270809187039", item: { count: 1, id: "create:polished_rose_quartz" } }
+		{ id: "1FD4AD1F2B2CB17C", item: { count: 1, id: "create:cut_granite_bricks" } }
+		{
+			count: 64
+			id: "5F78BEA76BAB8A12"
+			item: {
+				count: 1
+				id: "minecraft:cobblestone"
+			}
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "suppsquared:block/item_shelves/mynethersdelight/powdery"
+    },
+    "facing=east": {
+      "model": "suppsquared:block/item_shelves/mynethersdelight/powdery",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "suppsquared:block/item_shelves/mynethersdelight/powdery",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "suppsquared:block/item_shelves/mynethersdelight/powdery",
+      "y": 270
+    }
+  }
+}

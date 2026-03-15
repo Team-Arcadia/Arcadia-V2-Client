@@ -1,0 +1,63 @@
+{
+	id: "7832E783B5676BAA"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			count: 3
+			id: "768DF049565A8068"
+			item: {
+				count: 1
+				id: "immersive_aircraft:sail"
+			}
+		}
+		{ id: "50701034D88D0896", item: { count: 1, id: "immersive_aircraft:steel_boiler" } }
+		{
+			count: 3
+			id: "6BDB9FB5967FA99B"
+			item: {
+				count: 1
+				id: "immersive_aircraft:sturdy_pipes"
+			}
+		}
+		{
+			count: 4
+			id: "7494D50DB09674D4"
+			item: {
+				count: 1
+				id: "immersive_aircraft:industrial_gears"
+			}
+		}
+		{
+			count: 2
+			id: "7914315D47D4BCD5"
+			item: {
+				count: 1
+				id: "immersive_aircraft:gyroscope"
+			}
+		}
+		{ id: "30DE94D6D6034633", item: { count: 1, id: "immersive_aircraft:gyroscope_dials" } }
+		{
+			count: 2
+			id: "45686863BE38D6B9"
+			item: {
+				count: 1
+				id: "immersive_aircraft:enhanced_propeller"
+			}
+		}
+		{
+			count: 3
+			id: "11FA0277525C5512"
+			item: {
+				count: 1
+				id: "immersive_aircraft:improved_landing_gear"
+			}
+		}
+		{ id: "5F60B1B50979DEB5", item: { count: 1, id: "immersive_aircraft:propeller" } }
+		{
+			command: "/say Nothing herre @p"
+			id: "715E2066C2533A0F"
+			type: "command"
+		}
+	]
+}
