@@ -1,5 +1,9 @@
-# Changelog
 # Journal des modifications
+
+## [Non publié] - 2026-03-16
+### Added / Ajouté
+- **Blaze Burner Exploit Patch**: Added `patch_blaze_burner.js` to prevent infinite Blaze Burner spawning exploit via Create contraptions and restricted interactions in the Nether.
+- **Patch Exploit Blaze Burner** : Ajout de `patch_blaze_burner.js` pour empêcher l'exploit de spawn infini de Blaze Burners via les contraptions Create et restriction des interactions dans le Nether.
 
 ## [Non publié] - 2026-03-14
 ### Added / Ajouté
