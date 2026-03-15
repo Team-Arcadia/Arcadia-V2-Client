@@ -11,6 +11,7 @@ Custom scripts for the Arcadia V2 modpack to balance gameplay.
 - **Loot Balancing**: Reduces equipment drop rates to 5%.
 - **Netherite Decrafting**: Added a complex Create Sequenced Assembly recipe to decraft Netherite Blocks into 9 Ingots in `decraft_netherite.js`.
 - **Blaze Burner Exploit Patch**: Prevents Blaze Burners from being moved by contraptions and blocks their retrieval in the Nether using `patch_blaze_burner.js`.
+- **FTB Chunks Limits**: Configured maximum claimed chunks to 500 and force-loaded chunks to 1 in `ftbchunks-world.snbt`.
 
 ## Authors
 - vyrriox
@@ -31,6 +32,7 @@ Scripts personnalisés pour le modpack Arcadia V2 afin d'équilibrer le gameplay
 - **Équilibrage du Loot** : Réduit le taux de drop d'équipement à 5 %.
 - **Décumul de Netherite** : Ajout d'une recette complexe d'Assemblage Séquentiel (Create) pour décrafter les Blocs de Netherite en 9 Lingots dans `decraft_netherite.js`.
 - **Patch Exploit Blaze Burner** : Empêche le déplacement des Blaze Burners par les contraptions et bloque leur récupération dans le Nether via `patch_blaze_burner.js`.
+- **Limites FTB Chunks** : Limitation à 500 claims et 1 chunk load forcé dans `ftbchunks-world.snbt`.
 
 ## Auteurs
 - vyrriox
