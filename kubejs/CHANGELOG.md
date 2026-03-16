@@ -13,6 +13,8 @@
 - **Isolation des Scripts KubeJS** : Utilisation d'un IIFE dans `npc_protection.js` pour éviter les erreurs de redéclaration de constantes lors des rechargements.
 - [UPDATE] Libres de Bienvenue : Désactivation des guides MIMI, Parcool et Advanced Peripherals.
 - [FIX] Schematicannon (Create) : Autorisation des fake players dans FTB Chunks pour le fonctionnement hors-ligne.
+- [FIX] Script `npc_protection.js` : Correction d'une erreur de type (remplacement de `has` par `isActive` pour les effets de potion).
+- [FIX] Script `remove_from_creative.js` : Retrait de l'ID inexistant `occultism:lighted_air`.
 - [FIX] Script `npc_protection.js` : Verrouillage total des NPCs avec Résistance 255 et Ancrage Dynamique.
 - [UPDATE] FTB Chunks : Claims limités à 500, Forceload à 1.
 - [UPDATE] FTB Chunks : Claims restreints à l'Overworld et JAVD uniquement.

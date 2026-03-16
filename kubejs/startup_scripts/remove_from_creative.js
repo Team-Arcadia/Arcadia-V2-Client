@@ -265,7 +265,6 @@ StartupEvents.modifyCreativeTab("sophisticatedstorage:storage", (event) => {
 });
 
 StartupEvents.modifyCreativeTab("occultism:occultism", (event) => {
-    event.remove("occultism:lighted_air");
     event.remove("occultism:storage_controller");
     event.remove("occultism:storage_stabilizer_tier1");
     event.remove("occultism:storage_stabilizer_tier2");

@@ -85,7 +85,7 @@
               }
               
               // Ensure effect persists (in case of clearing)
-              if (!entity.potionEffects.has("minecraft:resistance")) {
+              if (!entity.potionEffects.isActive("minecraft:resistance")) {
                   entity.potionEffects.add("minecraft:resistance", 9999999, 255, false, false);
               }
           }
