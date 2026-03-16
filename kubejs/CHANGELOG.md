@@ -2,6 +2,7 @@
 
 ## [Non publié] - 2026-03-16
 ### Added / Ajouté
+- [REMOVE] Script `spawn_protection.js` : Suppression de la protection anti-pose de blocs (le serveur utilise Yawp pour la gestion des zones).
 - **Blaze Burner Exploit Patch**: Reinforced `patch_blaze_burner.js` to block Cart Assembler retrieval using `CreateEvents.canMoveBlock` and relocation tags.
 - **FTB Chunks Config**: Updated `ftbchunks-world.snbt` to limit claims to 500 and force-loading to 1 chunk.
 - **ReviveMe Bug Fix**: Fixed residual "slowness" (snoless) bug by adding a cleanup logic in `reviveme_feeding_fix.js`.
