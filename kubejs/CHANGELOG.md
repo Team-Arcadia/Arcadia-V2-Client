@@ -10,6 +10,7 @@
 - **NPC Protection Reinforcement**: Improved `npc_protection.js` to block vanilla leads, fishing rods, knockback, and vehicle mounting for Easy NPCs at spawn.
 - **NPC Total Lockdown**: Reinforced `spawn_movement_block.js` and `npc_protection.js` to block Ars Nouveau spells, Simply Swords abilities, and added a dynamic anchoring system to keep NPCs immobile at spawn.
 - **KubeJS Script Fix**: Resolved event name errors and constant redeclaration issues using an IIFE in `npc_protection.js`.
+- [FIX] Script `npc_protection.js` : Correction de l'erreur `setDeltaMovement` (signature Java non reconnue) en utilisant `Utils.vec3`.
 - **Isolation des Scripts KubeJS** : Utilisation d'un IIFE dans `npc_protection.js` pour éviter les erreurs de redéclaration de constantes lors des rechargements.
 - [UPDATE] Libres de Bienvenue : Désactivation des guides MIMI, Parcool et Advanced Peripherals.
 - [FIX] Schematicannon (Create) : Autorisation des fake players dans FTB Chunks pour le fonctionnement hors-ligne.
