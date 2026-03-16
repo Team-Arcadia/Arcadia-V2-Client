@@ -153,6 +153,9 @@ StartupEvents.modifyCreativeTab("minecraft:search", (event) => {
 
         // Sophisticated Storage
         "sophisticatedstorage:infinity_upgrade",
+        // ComputerCraft
+        "computercraft:turtle_normal",
+        "computercraft:turtle_advanced",
     ];
 
     hiddenItems.forEach((item) => event.remove(item));
@@ -241,6 +244,11 @@ StartupEvents.modifyCreativeTab("dndecor:dndecor_tab", (event) => {
         "dndecor:cast_iron_cross_bolt", "dndecor:cast_iron_dash_bolt", "dndecor:cast_iron_dot_bolt", "dndecor:cast_iron_flat_bolt"
     ];
     dndecorItems.forEach(item => event.remove(item));
+});
+
+StartupEvents.modifyCreativeTab("computercraft:main", (event) => {
+    event.remove("computercraft:turtle_normal");
+    event.remove("computercraft:turtle_advanced");
 });
 
 StartupEvents.modifyCreativeTab("creategoggles:main", (event) => {

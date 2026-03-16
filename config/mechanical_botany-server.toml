@@ -15,7 +15,6 @@
 	"Tank Size" = 1000
 	#.
 	#The kinetic stress impact value.
-	#Requires you to break and replace the block in order to update blockstate.
 	# Default: 64
 	# Range: > 2
 	"Kinetic Stress Impact" = 64
@@ -37,7 +36,6 @@
 	"Processing Time Multiplier" = 1
 	#.
 	#The kinetic stress impact value
-	#Requires you to break and replace the block in order to update blockstate.
 	# Default: 16
 	# Range: > 2
 	"Kinetic Stress Impact" = 16

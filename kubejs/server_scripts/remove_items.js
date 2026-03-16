@@ -156,6 +156,9 @@ ServerEvents.recipes((event) => {
     // Sophisticated Storage
     "sophisticatedstorage:infinity_upgrade",
     "sophisticatedstorage:stack_upgrade_omega_tier",
+    // ComputerCraft
+    "computercraft:turtle_normal",
+    "computercraft:turtle_advanced",
   ];
 
   itemsToRemove.forEach((itemId) => {

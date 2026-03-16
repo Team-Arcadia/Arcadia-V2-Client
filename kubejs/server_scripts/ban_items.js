@@ -155,6 +155,9 @@ const BANNED_ITEMS = [
   // Sophisticated Storage
   "sophisticatedstorage:infinity_upgrade",
   "sophisticatedstorage:stack_upgrade_omega_tier",
+  // ComputerCraft
+  "computercraft:turtle_normal",
+  "computercraft:turtle_advanced",
 ];
 
 PlayerEvents.inventoryChanged((event) => {

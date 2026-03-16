@@ -1144,7 +1144,7 @@
     "hide_mode": "WILDCARD",
     "ingredient": {
       "ingredient": {
-        "id": "mekanism:hdpe_sheet"
+        "id": "bettercopper:copper_heart"
       },
       "type": "item_stack"
     }
@@ -1153,7 +1153,7 @@
     "hide_mode": "WILDCARD",
     "ingredient": {
       "ingredient": {
-        "id": "mekanism:hdpe_rod"
+        "id": "bettercopper:reversed_copper_heart"
       },
       "type": "item_stack"
     }
@@ -2418,6 +2418,24 @@
     "ingredient": {
       "ingredient": {
         "id": "arcadia:atm"
+      },
+      "type": "item_stack"
+    }
+  },
+  {
+    "hide_mode": "WILDCARD",
+    "ingredient": {
+      "ingredient": {
+        "id": "computercraft:turtle_normal"
+      },
+      "type": "item_stack"
+    }
+  },
+  {
+    "hide_mode": "WILDCARD",
+    "ingredient": {
+      "ingredient": {
+        "id": "computercraft:turtle_advanced"
       },
       "type": "item_stack"
     }

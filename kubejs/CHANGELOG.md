@@ -11,6 +11,13 @@
 - **NPC Total Lockdown**: Reinforced `spawn_movement_block.js` and `npc_protection.js` to block Ars Nouveau spells, Simply Swords abilities, and added a dynamic anchoring system to keep NPCs immobile at spawn.
 - **KubeJS Script Fix**: Resolved event name errors and constant redeclaration issues using an IIFE in `npc_protection.js`.
 - **Isolation des Scripts KubeJS** : Utilisation d'un IIFE dans `npc_protection.js` pour éviter les erreurs de redéclaration de constantes lors des rechargements.
+- [FIX] Script `npc_protection.js` : Verrouillage total des NPCs avec Résistance 255 et Ancrage Dynamique.
+- [UPDATE] FTB Chunks : Claims limités à 500, Forceload à 1.
+- [UPDATE] FTB Chunks : Claims restreints à l'Overworld et JAVD uniquement.
+- [UPDATE] FTB Chunks : PvP en zone claim réglé sur `per_team`.
+- [BAN] ComputerCraft : Toutes les Turtles sont bannies et supprimées.
+- [BAN] Better Copper : Les Copper Hearts sont bannis.
+- [UNBAN] Mekanism : HDPE Sheets et Rods réactivés.
 - **Protection PNJ Totale** : Renforcement de `spawn_movement_block.js` et `npc_protection.js` pour bloquer les sorts Ars Nouveau, les capacités Simply Swords et ajout d'un système d'ancrage dynamique pour figer les PNJ au spawn.
 - **Renforcement Protection PNJ** : Amélioration de `npc_protection.js` pour bloquer les laisses, les cannes à pêche, le recul et l'utilisation de véhicules sur les PNJ au spawn.
 - **Config FTB Chunks** : Mise à jour de `ftbchunks-world.snbt` pour limiter à 500 claims et 1 seul chunk loadé.

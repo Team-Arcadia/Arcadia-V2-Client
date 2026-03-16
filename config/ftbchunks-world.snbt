@@ -49,7 +49,7 @@
 	# Should PvP combat be allowed in claimed chunks? Default is ALWAYS; NEVER prevents it in all claimed chunks; PER_TEAM allows teams to decide if PvP is allowed in their claims
 	# Default: "always"
 	# Valid values: "always", "never", "per_team"
-	pvp_mode: "always"
+	pvp_mode: "per_team"
 	
 	# If true, the player must have the 'ftbchunks_mapping' Game stage to be able to use the map and minimap.
 	# Requires KubeJS and/or Gamestages to be installed.
@@ -62,7 +62,7 @@
 		
 		# Dimension ID's where chunks may be claimed. If non-empty, chunks may be claimed *only* in these dimensions (and the dimension is not in "claim_dimension_blacklist"). Same syntax as for "claim_dimension_blacklist".
 		# Default: []
-		claim_dimension_whitelist: [ ]
+		claim_dimension_whitelist: ["minecraft:overworld", "javd:void"]
 		
 		# Hard limit for the number of chunks a team can claim, regardless of how many members. Default of 0 means no hard limit.
 		# Default: 0
