@@ -1,20 +1,15 @@
 // Priority: 900
 
 /*
-    NPC Protection Script (Fixed & Optimized)
-    Prevents Easy NPC entities from being displaced by spells, items, or knockback.
+    NPC Protection Script (Ultra-Optimized)
+    Prevents Easy NPC entities from being displaced by any means.
+    Approach: Track NPCs in a list and freeze them every tick.
     Author: vyrriox
 */
 
 (function() {
     const SPAWN_DIM = "arcadia:spawn";
-    const FORBIDDEN_NPC_ITEMS = [
-        "apothic_enchanting:ender_lead",
-        "apothic_enchanting:flimsy_ender_lead",
-        "apothic_enchanting:occult_ender_lead",
-        "minecraft:lead",
-        "minecraft:fishing_rod"
-    ];
+    let protectedNpcs = [];
 
     function isEasyNpc(entity) {
         if (!entity || !entity.type) return false;
@@ -26,51 +21,49 @@
         return String(entity.level.dimension) === SPAWN_DIM;
     }
 
-    // --- INTERACTION BLOCKING ---
-    ItemEvents.entityInteracted(event => {
-        const { item, target, player } = event;
-        if (!isInSpawn(target)) return;
-
-        if (FORBIDDEN_NPC_ITEMS.includes(String(item.id)) && isEasyNpc(target)) {
-            event.cancel();
-            player.tell(Text.red(`[Arcadia] Impossible d'utiliser cet objet sur un PNJ ici !`));
-        }
-    });
-
-    // --- KNOCKBACK PREVENTION (The most performant way) ---
-    EntityEvents.hurt(event => {
-        const { entity } = event;
-        if (isEasyNpc(entity) && isInSpawn(entity)) {
-            // Cancel knockback / displacement from damage
-            event.entity.setDeltaMovement(0, 0, 0); 
-        }
-    });
-
-    // --- PERIODIC ANCHORING (Safety check) ---
+    // --- TRACKING ---
+    // Update list periodically to avoid memory leaks and find new NPCs
     LevelEvents.tick(event => {
         const { level, server } = event;
         
-        // Check every 1 second (20 ticks) only in SPAWN
-        if (server.tickCount % 20 !== 0) return;
-        if (String(level.dimension) !== SPAWN_DIM) return;
+        // Comprehensive refresh every 5 seconds (100 ticks)
+        if (server.tickCount % 100 === 0 && String(level.dimension) === SPAWN_DIM) {
+            protectedNpcs = level.getEntities().filter(e => isEasyNpc(e));
+        }
 
-        // Optimized scan: no logs, strict filtering
-        level.getEntities().forEach(entity => {
-            if (isEasyNpc(entity)) {
+        // --- TICK ANCHORING ---
+        // Run every tick but only on already filtered NPCs (Highly performant)
+        if (String(level.dimension) === SPAWN_DIM) {
+            protectedNpcs.forEach(entity => {
+                if (!entity || !entity.isAlive()) return;
+
                 // Eject passengers
                 if (entity.isPassenger()) {
                     entity.stopRiding();
                 }
 
-                // Minor position correction if displaced (backup check)
+                // Rigid Anchoring
                 let vel = entity.deltaMovement;
-                if (vel && (Math.abs(vel.x()) > 0.01 || Math.abs(vel.z()) > 0.01)) {
+                if (vel && (Math.abs(vel.x()) > 0.001 || Math.abs(vel.z()) > 0.001)) {
                     entity.setDeltaMovement(0, vel.y(), 0);
                     entity.setPosition(entity.x, entity.y, entity.z);
                 }
-            }
-        });
+            });
+        }
     });
+
+    // --- INTERACTION BLOCKING ---
+    ItemEvents.entityInteracted(event => {
+        const { item, target, player } = event;
+        if (!isInSpawn(target)) return;
+        
+        const forbidden = ["minecraft:lead", "minecraft:fishing_rod", "apothic_enchanting:ender_lead"];
+        if (forbidden.some(id => String(item.id).includes(id)) && isEasyNpc(target)) {
+            event.cancel();
+            player.tell(Text.red(`[Arcadia] Action interdite sur ce PNJ !`));
+        }
+    });
+
 })();
 
-console.info("[Arcadia V2] NPC protection system fixed (Compatibility and Performance).");
+console.info("[Arcadia V2] NPC Anchoring system active (Ultra-Performance).");
