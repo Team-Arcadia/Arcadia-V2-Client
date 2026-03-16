@@ -1,9 +1,8 @@
 // Priority: 900
 
 /*
-    NPC Protection Script (Optimized & mortal)
+    NPC Protection Script (Fixed & Optimized)
     Prevents Easy NPC entities from being displaced by spells, items, or knockback.
-    Performance: Uses EntityEvents.tick (local) instead of LevelEvents.tick (global scan).
     Author: vyrriox
 */
 
@@ -38,29 +37,40 @@
         }
     });
 
-    // --- OPTIMIZED ANCHORING ---
-    // This event only triggers for the ticking entity, no global level scan.
-    EntityEvents.tick(event => {
+    // --- KNOCKBACK PREVENTION (The most performant way) ---
+    EntityEvents.hurt(event => {
         const { entity } = event;
+        if (isEasyNpc(entity) && isInSpawn(entity)) {
+            // Cancel knockback / displacement from damage
+            event.entity.setDeltaMovement(0, 0, 0); 
+        }
+    });
+
+    // --- PERIODIC ANCHORING (Safety check) ---
+    LevelEvents.tick(event => {
+        const { level, server } = event;
         
-        // Quick filter
-        if (!isEasyNpc(entity)) return;
-        if (!isInSpawn(entity)) return;
+        // Check every 1 second (20 ticks) only in SPAWN
+        if (server.tickCount % 20 !== 0) return;
+        if (String(level.dimension) !== SPAWN_DIM) return;
 
-        // Eject passengers (prevents using NPC as a carry-on vehicle)
-        if (entity.isPassenger()) {
-            entity.stopRiding();
-        }
+        // Optimized scan: no logs, strict filtering
+        level.getEntities().forEach(entity => {
+            if (isEasyNpc(entity)) {
+                // Eject passengers
+                if (entity.isPassenger()) {
+                    entity.stopRiding();
+                }
 
-        // Freeze Position if velocity detected (Knockback, Spells, Pulling)
-        let vel = entity.deltaMovement;
-        if (vel && (Math.abs(vel.x()) > 0.005 || Math.abs(vel.z()) > 0.005)) {
-            // Cancel horizontal velocity
-            entity.setDeltaMovement(0, vel.y(), 0);
-            // Snap back to precise coordinate to combat micro-displacements
-            entity.setPosition(entity.x, entity.y, entity.z);
-        }
+                // Minor position correction if displaced (backup check)
+                let vel = entity.deltaMovement;
+                if (vel && (Math.abs(vel.x()) > 0.01 || Math.abs(vel.z()) > 0.01)) {
+                    entity.setDeltaMovement(0, vel.y(), 0);
+                    entity.setPosition(entity.x, entity.y, entity.z);
+                }
+            }
+        });
     });
 })();
 
-console.info("[Arcadia V2] NPC Anchoring system active (Mortal but Immovable).");
+console.info("[Arcadia V2] NPC protection system fixed (Compatibility and Performance).");
