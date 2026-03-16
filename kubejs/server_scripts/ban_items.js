@@ -99,7 +99,6 @@ const BANNED_ITEMS = [
   "mekanism:dimensional_stabilizer",
   "mekanism:quantum_entangloporter",
   "mekanism:hdpe_elytra",
-  "mekanism:hdpe_rod",
   "bettercopper:copper_heart",
   "bettercopper:reversed_copper_heart",
   "mekanism:module_base",
