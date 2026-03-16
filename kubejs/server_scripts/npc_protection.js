@@ -84,10 +84,8 @@
                   entity.setPosition(entity.x, entity.y, entity.z);
               }
               
-              // Ensure effect persists (in case of clearing)
-              if (!entity.potionEffects.isActive("minecraft:resistance")) {
-                  entity.potionEffects.add("minecraft:resistance", 9999999, 255, false, false);
-              }
+              
+              // Anchoring and passenger ejection logic continues below...
           }
       });
   });
