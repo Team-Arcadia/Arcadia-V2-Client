@@ -99,9 +99,10 @@ StartupEvents.modifyCreativeTab("minecraft:search", (event) => {
         "mekanism:dimensional_stabilizer",
         "mekanism:quantum_entangloporter",
         "mekanism:hdpe_elytra",
-        "mekanism:hdpe_sheet",
         "mekanism:hdpe_rod",
         "mekanism:hdpe_pellet",
+        "bettercopper:copper_heart",
+        "bettercopper:reversed_copper_heart",
         "mekanism:module_base",
         "mekanism:meka_tool",
         "mekanism:portable_teleporter",
@@ -210,7 +211,6 @@ StartupEvents.modifyCreativeTab("mekanism:mekanism", (event) => {
     event.remove("mekanism:dimensional_stabilizer");
     event.remove("mekanism:quantum_entangloporter");
     event.remove("mekanism:hdpe_elytra");
-    event.remove("mekanism:hdpe_sheet");
     event.remove("mekanism:hdpe_rod");
     event.remove("mekanism:hdpe_pellet");
     event.remove("mekanism:module_base");

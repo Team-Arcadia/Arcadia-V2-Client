@@ -2,9 +2,17 @@
 
 ## [Non publié] - 2026-03-16
 ### Added / Ajouté
-- **Blaze Burner Exploit Patch**: Added `patch_blaze_burner.js` to prevent infinite Blaze Burner spawning exploit via Create contraptions and restricted interactions in the Nether.
+- **Blaze Burner Exploit Patch**: Reinforced `patch_blaze_burner.js` to block Cart Assembler retrieval using `CreateEvents.canMoveBlock` and relocation tags.
 - **FTB Chunks Config**: Updated `ftbchunks-world.snbt` to limit claims to 500 and force-loading to 1 chunk.
-- **Patch Exploit Blaze Burner** : Ajout de `patch_blaze_burner.js` pour empêcher l'exploit de spawn infini de Blaze Burners via les contraptions Create et restriction des interactions dans le Nether.
+- **ReviveMe Bug Fix**: Fixed residual "slowness" (snoless) bug by adding a cleanup logic in `reviveme_feeding_fix.js`.
+- **Patch Exploit Blaze Burner** : Renforcement de `patch_blaze_burner.js` pour bloquer le Cart Assembler via `CreateEvents.canMoveBlock` et des tags de relocalisation.
+- **Correction Bug ReviveMe** : Correction du bug de lenteur résiduelle ("snoless") via une logique de nettoyage dans `reviveme_feeding_fix.js`.
+- **NPC Protection Reinforcement**: Improved `npc_protection.js` to block vanilla leads, fishing rods, knockback, and vehicle mounting for Easy NPCs at spawn.
+- **NPC Total Lockdown**: Reinforced `spawn_movement_block.js` and `npc_protection.js` to block Ars Nouveau spells, Simply Swords abilities, and added a dynamic anchoring system to keep NPCs immobile at spawn.
+- **KubeJS Script Fix**: Resolved event name errors and constant redeclaration issues using an IIFE in `npc_protection.js`.
+- **Isolation des Scripts KubeJS** : Utilisation d'un IIFE dans `npc_protection.js` pour éviter les erreurs de redéclaration de constantes lors des rechargements.
+- **Protection PNJ Totale** : Renforcement de `spawn_movement_block.js` et `npc_protection.js` pour bloquer les sorts Ars Nouveau, les capacités Simply Swords et ajout d'un système d'ancrage dynamique pour figer les PNJ au spawn.
+- **Renforcement Protection PNJ** : Amélioration de `npc_protection.js` pour bloquer les laisses, les cannes à pêche, le recul et l'utilisation de véhicules sur les PNJ au spawn.
 - **Config FTB Chunks** : Mise à jour de `ftbchunks-world.snbt` pour limiter à 500 claims et 1 seul chunk loadé.
 
 ## [Non publié] - 2026-03-14

@@ -13,6 +13,7 @@
 #4F84B3 ars_nouveau:archwood_sconce
 #D7A71C ars_nouveau:archwood_slab
 #56393D ars_nouveau:archwood_trapdoor
+#5A585C irons_spellbooks:armor_pile
 #ADF429 supplementaries:ash
 #6E69B5 create:asurine
 #4FE977 createnuclear:autunite
@@ -20,6 +21,7 @@
 #0F359D minecraft:azure_bluet
 #F1FA90 supplementaries:barnacles
 #189B99 minecraft:barrel
+#18D108 minecraft:basalt
 #E152BD create:basin
 #E4502C tfmg:bauxite
 #840F59 minecraft:bedrock
@@ -28,6 +30,10 @@
 #2D1BED somemoreblocks:birch_leaf_litter
 #3DE8FE minecraft:birch_leaves
 #3BA928 minecraft:birch_log
+#6BFB5F minecraft:black_banner
+#C9CBB9 minecraft:blackstone
+#2A3906 minecraft:blackstone_slab
+#63D15D create:blaze_burner
 #B14754 supplementaries:block_generator
 #A8E5E5 mekanism:block_salt
 #C18BD4 deeperdarker:blooming_moss_block
@@ -39,11 +45,14 @@
 #087519 minecraft:blue_ice
 #45C81B minecraft:blue_orchid
 #657B45 minecraft:bone_block
+#417A97 apotheosis:boss_spawner
 #03DC45 minecraft:bricks
 #207534 minecraft:brown_mushroom
 #312A05 minecraft:bubble_coral_fan
+#7DCA59 mynethersdelight:bullet_pepper
 #00BE18 minecraft:calcite
 #FC842A minecraft:campfire
+#C00905 create:cart_assembler
 #1BD05D minecraft:carved_pumpkin
 #76FDF5 minecraft:cherry_leaves
 #408F91 minecraft:cherry_log
@@ -74,12 +83,21 @@
 #CC07F6 minecraft:cornflower
 #2E6C3D minecraft:cracked_deepslate_bricks
 #ACD080 minecraft:cracked_deepslate_tiles
+#552826 minecraft:cracked_nether_bricks
+#116FF5 minecraft:cracked_polished_blackstone_bricks
 #F47457 ars_additions:cracked_sourcestone_large_bricks
 #306005 minecraft:cracked_stone_bricks
 #716287 createcasing:creative_cogwheel
 #44FA83 createcasing:creative_gearbox
 #4BF61E create:crimsite
+#171D6C minecraft:crimson_fence_gate
+#DCDA00 minecraft:crimson_hyphae
+#182273 minecraft:crimson_nylium
 #C5B3A4 minecraft:crimson_planks
+#3F018D minecraft:crimson_slab
+#54E79D minecraft:crimson_stairs
+#3F201C minecraft:crimson_stem
+#89A1AE minecraft:crimson_trapdoor
 #E9A8F5 minecraft:crying_obsidian
 #DCD196 create:cut_andesite
 #19E8F4 create:cut_deepslate
@@ -145,6 +163,7 @@
 #009B14 minecraft:farmland
 #4110A6 biomesoplenty:fir_leaves
 #48DF2F minecraft:fire_coral_fan
+#FF378B tfmg:fireclay
 #9C9695 somemoreblocks:flowering_azalea_leaf_litter
 #E66556 minecraft:flowering_azalea_leaves
 #FC7434 biomesoplenty:flowering_oak_leaves
@@ -171,6 +190,7 @@
 #5A75B0 minecraft:glow_lichen
 #D68F4B deeperdarker:glowing_roots
 #0C2D83 deeperdarker:glowing_vines
+#482EEB minecraft:glowstone
 #B76A76 minecraft:gold_ore
 #E1B1F8 biomesoplenty:goldenrod
 #060B35 minecraft:granite
@@ -185,6 +205,7 @@
 #CFA1C4 minecraft:grindstone
 #F67E21 minecraft:hay_block
 #52D27E minecraft:ice
+#749222 occultism:iesnium_ore_natural
 #8106CD deeperdarker:infested_sculk
 #0575BD minecraft:infested_stone
 #D7EADE minecraft:iron_ore
@@ -233,8 +254,15 @@
 #E8DF5E minecraft:mud_brick_wall
 #F54628 minecraft:mud_bricks
 #91453F minecraft:nether_brick_fence
+#0EFBB2 minecraft:nether_brick_slab
+#0EEC82 minecraft:nether_brick_stairs
 #10A542 minecraft:nether_brick_wall
+#939E0C minecraft:nether_bricks
+#5DD67D minecraft:nether_gold_ore
+#6D0978 minecraft:nether_quartz_ore
+#6B6354 minecraft:nether_wart_block
 #35DB43 minecraft:netherite_block
+#454322 minecraft:netherrack
 #73753E minecraft:oak_fence
 #111F32 minecraft:oak_fence_gate
 #AD9EB5 minecraft:oak_leaves
@@ -266,6 +294,10 @@
 #6A5197 minecraft:polished_andesite
 #E8ADE8 minecraft:polished_andesite_slab
 #B267E8 minecraft:polished_blackstone
+#FB03F5 minecraft:polished_blackstone_brick_slab
+#19F005 minecraft:polished_blackstone_brick_stairs
+#FCAD85 minecraft:polished_blackstone_brick_wall
+#FC3FCF minecraft:polished_blackstone_bricks
 #C361EC create:polished_cut_deepslate_wall
 #C1FE7A create:polished_cut_granite
 #6B2967 create:polished_cut_granite_slab
@@ -293,6 +325,7 @@
 #5D54D0 ars_nouveau:red_archwood_leaves
 #AF5677 create_winery:red_grape_bush
 #908B0E biomesoplenty:red_maple_leaves
+#025439 minecraft:red_mushroom
 #78AF47 minecraft:red_mushroom_block
 #B6FB84 minecraft:red_nether_brick_slab
 #C856DE minecraft:red_nether_bricks
@@ -311,6 +344,7 @@
 #454F3E betterarcheology:rotten_stairs
 #86FC77 minecraft:sand
 #7E2654 minecraft:sandstone
+#5D8974 create:scorchia
 #33130F create:scoria
 #D49057 minecraft:sculk
 #2E93E7 minecraft:sculk_catalyst
@@ -337,8 +371,10 @@
 #829C5B ecologics:seashell
 #03D551 crabbersdelight:seashells
 #33399A dustydecorations:seastone
+#F68259 minecraft:shroomlight
 #764CDB occultism:silver_ore
 #ED0389 occultism:silver_ore_deepslate
+#7760DE minecraft:skeleton_skull
 #4C0A43 create:small_scorchia_brick_stairs
 #22F410 create:small_veridium_brick_stairs
 #1BC810 create:small_veridium_brick_wall
@@ -388,8 +424,10 @@
 #7D8A64 ars_nouveau:stripped_red_archwood_log
 #92AF19 ars_nouveau:stripped_red_archwood_wood
 #82F982 minecraft:stripped_spruce_log
+#467770 minecraft:stripped_warped_hyphae
 #F1B8D3 supplementaries:structure_temp
 #5CF3F1 minecraft:sugar_cane
+#735CED tfmg:sulfur
 #59389F lootr:suspicious_gravel
 #0EAA1C minecraft:suspicious_gravel
 #329213 minecraft:sweet_berry_bush
@@ -397,6 +435,7 @@
 #B50B59 mekanism:tin_ore
 #EEA7CA minecraft:tinted_glass
 #E66FCF create:track
+#F58932 minecraft:trial_spawner
 #87BAF4 minecraft:tuff
 #59EC70 createnuclear:uranium_ore
 #AE3F24 supplementaries:urn
@@ -404,6 +443,8 @@
 #88779D minecraft:vine
 #F1A1CB amendments:wall_lantern
 #83EB0A ecologics:walnut_leaves
+#25C45C minecraft:warped_planks
+#5BE045 minecraft:warped_slab
 #286466 minecraft:warped_trapdoor
 #7D38EB create:water_wheel_structure
 #2B4CBB create:waxed_copper_shingle_stairs
@@ -422,6 +463,7 @@
 #CE8FAE minecraft:white_terracotta
 #DBA41E minecraft:white_wall_banner
 #BC20FE minecraft:white_wool
+#D066AA minecraft:wither_skeleton_skull
 #4AF229 minecraft:yellow_bed
 #ED880B biomesoplenty:yellow_maple_leaves
 #97FF93 minecraft:yellow_wool

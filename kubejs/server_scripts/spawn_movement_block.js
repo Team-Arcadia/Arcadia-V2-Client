@@ -81,13 +81,37 @@ if (typeof ISSEvents !== 'undefined') {
 
 // --- ARS NOUVEAU ---
 
-// Blocking the entity displacement via spawned entity checks (Leap, Gravity, etc. often spawn entities or use arrows)
-EntityEvents.spawned('ars_nouveau:spell_arrow', event => {
-    if (!isInSpawn(event.entity)) return;
-    
-    // We can't cancel the arrow easily without knowing the spell, but we can block it if in spawn for safety
-    // or just let it stay for now until we find the glyph event.
-});
+if (typeof ArsEvents !== 'undefined') {
+    ArsEvents.spellCast(event => {
+        if (!isInSpawn(event.player)) return;
+
+        let spell = event.spell;
+        let hasMovement = false;
+
+        // Check for movement glyphs in the spell
+        spell.forEachGlyph(glyph => {
+            if (ARS_MOVEMENT_GLYPHS.includes(String(glyph.id))) {
+                hasMovement = true;
+            }
+        });
+
+        if (hasMovement) {
+            event.cancel();
+            notifyBlocked(event.player, "Les sorts de déplacement sont interdits au spawn ! | Movement spells are forbidden at spawn!");
+        }
+    });
+
+    // Special check for Spell Arrows (Ars Nouveau)
+    EntityEvents.spawned('ars_nouveau:spell_arrow', event => {
+        if (!isInSpawn(event.entity)) return;
+        
+        let arrow = event.entity;
+        // If owner is at spawn, discard arrow (redundant but safe)
+        if (arrow.owner && isInSpawn(arrow.owner)) {
+            arrow.discard();
+        }
+    });
+}
 
 // --- SIMPLY SWORDS & GENERAL ITEM PROTECTION ---
 
@@ -104,15 +128,18 @@ ItemEvents.rightClicked(event => {
 });
 
 ItemEvents.entityInteracted(event => {
-    if (!isInSpawn(event.player)) return;
+    const { player, target, item } = event;
+    if (!isInSpawn(target)) return;
 
-    let itemId = String(event.item.id);
-    if (SIMPLY_SWORDS_MOVEMENT_ITEMS.includes(itemId)) {
-        if (!event.player.isCreative()) {
+    let itemId = String(item.id);
+    
+    // Block Simply Swords abilities targeting NPCs specifically
+    if (SIMPLY_SWORDS_MOVEMENT_ITEMS.includes(itemId) || itemId === 'minecraft:fishing_rod') {
+        if (!player.isCreative() && target.type.startsWith('easy_npc:')) {
             event.cancel();
-            notifyBlocked(event.player, "L'aptitude spéciale de cette arme est bloquée au spawn ! | This weapon's special ability is blocked at spawn!");
+            notifyBlocked(player, "Interdiction d'utiliser cela sur un PNJ ! | Practicality forbidden on NPCs!");
         }
     }
 });
 
-console.info("[Arcadia V2] Spawn Movement Protection Loaded: Iron's Spells and Simply Swords blocked. Ars Nouveau discovery pending.");
+console.info("[Arcadia V2] Spawn Movement Protection Reinforced: Ars Nouveau, Iron's Spells, and Simply Swords fully blocked.");

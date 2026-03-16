@@ -85,10 +85,10 @@ key_key.sophisticatedbackpacks.open_backpack:key.keyboard.semicolon:
 key_key.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown:
 key_key.sophisticatedbackpacks.tool_swap:key.keyboard.unknown:
 key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown:
-key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown:
-key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown:
-key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown:
 key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown:
+key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown:
+key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown:
+key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown:
 key_key.carry.desc:key.keyboard.left.shift:
 key_key.spyglass-improvements.use:key.keyboard.z:
 key_keyinfo.copycats.fill_copycat:key.keyboard.left.alt:
@@ -218,6 +218,7 @@ key_key.ars_nouveau.qc8:key.keyboard.unknown:
 key_key.ars_nouveau.qc9:key.keyboard.unknown:
 key_key.ars_nouveau.qc10:key.keyboard.unknown:
 key_key.ars_nouveau.familiar_toggle:key.keyboard.unknown:
+key_key.ars_additions.open_lectern:key.keyboard.unknown:
 key_key.aether.open_accessories.desc:key.keyboard.unknown:
 key_key.aether.gravitite_jump_ability.desc:key.keyboard.unknown:
 key_key.aether.invisibility_toggle.desc:key.keyboard.unknown:
@@ -235,11 +236,10 @@ key_key.immersive_aircraft.fallback_control_push:key.keyboard.unknown:
 key_key.immersive_aircraft.fallback_use:key.keyboard.unknown:
 key_key.immersive_aircraft.dismount:key.keyboard.left.shift:
 key_key.immersive_aircraft.boost:key.keyboard.unknown:
-key_key.twilightforest.zoom:key.keyboard.unknown:
-key_key.twilightforest.item_display_map_cycle:key.keyboard.unknown:
 key_key.twilightforest.swap_hotbar:key.keyboard.unknown:
 key_key.twilightforest.red_thread_vision:key.keyboard.unknown:
-key_key.ars_additions.open_lectern:key.keyboard.unknown:
+key_key.twilightforest.zoom:key.keyboard.unknown:
+key_key.twilightforest.item_display_map_cycle:key.keyboard.unknown:
 key_key.deeperdarker.boost:key.keyboard.unknown:
 key_key.deeperdarker.transmit:key.keyboard.unknown:
 key_key.observable.profile:key.keyboard.f6:
@@ -252,6 +252,8 @@ key_key.ftbchunks.minimap.zoomOut:key.keyboard.keypad.subtract:
 key_key.ftbchunks.add_waypoint:key.keyboard.unknown:
 key_key.ftbchunks.waypoint_manager:key.keyboard.unknown:
 key_key.ftbquests.quests:key.keyboard.unknown:
+key_key.simplytooltips.cycle_tab:key.keyboard.g:
+key_key.simplytooltips.capture_gif:key.keyboard.h:
 key_key.kubejs.kubedex:key.keyboard.unknown:
 key_tfmg.keyinfo.transmission_shift_up:key.keyboard.unknown:
 key_tfmg.keyinfo.transmission_shift_down:key.keyboard.unknown:
@@ -284,8 +286,6 @@ key_key.parcool.openSetting:key.keyboard.unknown:
 key_key.parcool.QuickTurn:key.keyboard.unknown:
 key_key.parcool.Flipping:key.keyboard.unknown:
 key_key.parcool.HangDown:key.mouse.right:
-key_keys.armourers_workshop.open-wardrobe:key.keyboard.unknown:
-key_keys.armourers_workshop.undo:key.keyboard.unknown:
 key_key.ponder.ponder:key.keyboard.w:
 key_create.keyinfo.toolmenu:key.keyboard.unknown:
 key_create.keyinfo.toolbelt:key.keyboard.unknown:
@@ -297,4 +297,7 @@ key_framedblocks.key.wipe_cache:key.keyboard.unknown:
 key_key.pipeorgans.midi_config:key.keyboard.unknown:
 key_key.craftpresence.config_keycode.name:key.keyboard.unknown:
 key_key.revive_me.callForHelpKey:key.keyboard.unknown:
+key_key.revive_me.leftOption:key.mouse.left:
+key_key.revive_me.rightOption:key.mouse.right:
+key_key.revive_me.tooltip:key.keyboard.r:SHIFT
 key_key.entityculling.toggle:key.keyboard.unknown:

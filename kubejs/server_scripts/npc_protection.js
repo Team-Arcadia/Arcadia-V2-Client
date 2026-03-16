@@ -2,42 +2,95 @@
 
 /*
     NPC Protection Script
-    Prevents players from using Ender Leads (Apothic Enchanting) on Easy NPC entities.
-    This stops players from displacing NPCs through lead mechanics.
+    Prevents players from displacing Easy NPC entities through various mechanics:
+    - Ender Leads, Vanilla Leads, Fishing Rods
+    - Vehicles (Boats/Minecarts)
+    - Knockback/Attack displacement
+    - Magic spells / Projectiles
     Author: vyrriox
 */
 
-// All Ender Lead variants from Apothic Enchanting
-const ENDER_LEAD_ITEMS = [
-  "apothic_enchanting:ender_lead",
-  "apothic_enchanting:flimsy_ender_lead",
-  "apothic_enchanting:occult_ender_lead",
-];
+// Using an IIFE (Immediately Invoked Function Expression) to ensure absolute scope isolation
+(function() {
+  const SPAWN_DIM = "arcadia:spawn";
 
-/**
- * Checks if an entity belongs to the Easy NPC mod.
- * Uses entity type namespace prefix for O(1) detection.
- * @param {string} entityType - The entity type ID (e.g. "easy_npc:villager")
- * @returns {boolean}
- */
-function isEasyNpc(entityType) {
-  return entityType.startsWith("easy_npc:");
-}
+  // Items to block interaction with
+  const FORBIDDEN_NPC_ITEMS = [
+    "apothic_enchanting:ender_lead",
+    "apothic_enchanting:flimsy_ender_lead",
+    "apothic_enchanting:occult_ender_lead",
+    "minecraft:lead",
+    "minecraft:fishing_rod"
+  ];
 
-// Block Ender Lead usage on Easy NPC entities
-ItemEvents.entityInteracted((event) => {
-  let itemId = event.item.id;
-
-  // Fast exit if not an ender lead
-  if (!ENDER_LEAD_ITEMS.includes(itemId)) return;
-
-  // Check if target is an Easy NPC entity
-  if (isEasyNpc(event.target.type)) {
-    event.cancel();
-    event.player.tell(
-      Text.red(" Vous ne pouvez pas utiliser une Laisse de l'Ender sur les PNJ ! | You cannot use an Ender Lead on NPCs!"),
-    );
+  function isEasyNpc(entity) {
+    if (!entity || !entity.type) return false;
+    return String(entity.type).startsWith("easy_npc:");
   }
-});
 
-console.info("[Arcadia V2] NPC Protection Loaded: Ender Leads blocked on Easy NPC entities.");
+  function isInSpawn(entity) {
+      if (!entity || !entity.level) return false;
+      return String(entity.level.dimension) === SPAWN_DIM;
+  }
+
+  // --- PASSIVE PROTECTION & IMMUNITY (Resistance 255) ---
+  // Using EntityEvents.spawned as it's the most reliable for applying persistent state in this version
+  EntityEvents.spawned(event => {
+    const { entity } = event;
+    if (!isInSpawn(entity) || !isEasyNpc(entity)) return;
+
+    // Apply absolute protection attributes / effects
+    // Resistance 255 makes the entity immune to almost all damage (and thus knockback)
+    entity.potionEffects.add("minecraft:resistance", 9999999, 255, false, false);
+    entity.potionEffects.add("minecraft:regeneration", 9999999, 255, false, false);
+    
+    // Attempt to set invulnerable directly if possible
+    try {
+        entity.setInvulnerable(true);
+    } catch (e) { /* fallback to effects */ }
+  });
+
+  // --- INTERACTION BLOCKING ---
+  ItemEvents.entityInteracted((event) => {
+    const { item, target, player } = event;
+    if (!isInSpawn(target)) return;
+
+    if (FORBIDDEN_NPC_ITEMS.includes(String(item.id)) && isEasyNpc(target)) {
+      event.cancel();
+      player.tell(Text.red(`[Arcadia] Impossible d'utiliser cet objet sur un PNJ ici !`));
+    }
+  });
+
+  // --- ANCHORING SYSTEM (Tick) ---
+  LevelEvents.tick(event => {
+      const { level, server } = event;
+      
+      // Perform check every 1 second (20 ticks)
+      if (server.tickCount % 20 !== 0) return;
+      if (String(level.dimension) !== SPAWN_DIM) return;
+
+      level.getEntities().forEach(entity => {
+          if (isEasyNpc(entity)) {
+              // Eject passengers from PNJ (vehicle exploit)
+              if (entity.isPassenger()) {
+                  entity.stopRiding();
+                  console.info(`[Arcadia V2] Ejected NPC ${entity.uuid} from vehicle.`);
+              }
+
+              // Freeze NPC precisely if any velocity detected
+              let velocity = entity.deltaMovement;
+              if (velocity && (Math.abs(velocity.x()) > 0.01 || Math.abs(velocity.z()) > 0.01)) {
+                  entity.setDeltaMovement(0, velocity.y(), 0);
+                  entity.setPosition(entity.x, entity.y, entity.z);
+              }
+              
+              // Ensure effect persists (in case of clearing)
+              if (!entity.potionEffects.has("minecraft:resistance")) {
+                  entity.potionEffects.add("minecraft:resistance", 9999999, 255, false, false);
+              }
+          }
+      });
+  });
+})();
+
+console.info("[Arcadia V2] NPC protection reinforced (Total Lockdown): Resistance 255, Anchoring, and Items blocked.");

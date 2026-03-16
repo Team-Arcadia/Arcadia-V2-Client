@@ -9,6 +9,24 @@
 ServerEvents.tags('block', event => {
     // Prevent Create contraptions from moving Blaze Burners
     event.add('create:unmovable', 'create:blaze_burner');
+    
+    // Additional tags to prevent relocation by various mods
+    event.add('create:relocation_not_supported', 'create:blaze_burner');
+    event.add('forge:relocation_not_supported', 'create:blaze_burner');
+    event.add('forbidden_arcanus:non_movable', 'create:blaze_burner');
+});
+
+BlockEvents.rightClicked('create:cart_assembler', event => {
+    const { block, player, level } = event;
+    const up = block.up;
+    
+    // Check if there is a Blaze Burner on top of the assembler
+    if (up.id === 'create:blaze_burner') {
+        if (!player.isCreative()) {
+            event.cancel();
+            player.tell(Text.red("[Arcadia] Impossible d'assembler un Blaze Burner ici ! | Cannot assemble a Blaze Burner here!"));
+        }
+    }
 });
 
 BlockEvents.rightClicked('create:blaze_burner', event => {

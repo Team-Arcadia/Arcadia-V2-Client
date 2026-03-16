@@ -1,8 +1,3 @@
-/weather clear 500000d
-/reload
-/summon knightquest:swampman
-/summon knightquest:netherman
-/summon knightquest:eldknight
 /summon knightquest:ratman
 /summon knightquest:knight
 /summon knightquest:eldbomb
@@ -47,4 +42,9 @@
 /defaultoptions saveAll
 /reload
 /kubejs reload server-scripts
+/reload
+/tpx minecraft:the_nether
+/defaultoptions saveAll
+/give vyrriox create:blaze_burner
+/give vyrriox create:creative_blaze_cake
 /reload

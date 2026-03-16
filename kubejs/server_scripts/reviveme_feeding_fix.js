@@ -38,6 +38,22 @@ PlayerEvents.tick(event => {
             player.foodLevel = 20;
             player.saturation = 20;
         }
+    } else {
+        // CLEANUP: If player is NOT fallen, but still has the residual effects from ReviveMe 
+        // (Slowness 3+, Blindness, Weakness 2+), remove them.
+        // This fixes the "snoless" (slowness) bug where players get stuck with effects.
+        if (player.hasEffect('minecraft:slowness') && player.getEffect('minecraft:slowness').amplifier >= 3) {
+            player.removeEffect('minecraft:slowness');
+            console.info(`[Arcadia V2] Cleaned up residual slowness for ${player.name.string}`);
+        }
+        if (player.hasEffect('minecraft:blindness')) {
+            player.removeEffect('minecraft:blindness');
+            console.info(`[Arcadia V2] Cleaned up residual blindness for ${player.name.string}`);
+        }
+        if (player.hasEffect('minecraft:weakness') && player.getEffect('minecraft:weakness').amplifier >= 2) {
+            player.removeEffect('minecraft:weakness');
+            console.info(`[Arcadia V2] Cleaned up residual weakness for ${player.name.string}`);
+        }
     }
 });
 
