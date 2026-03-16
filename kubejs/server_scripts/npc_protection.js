@@ -2,13 +2,21 @@
 
 /*
     NPC Protection Script (Ultra-Optimized)
-    Prevents Easy NPC entities from being displaced by any means.
+    Prevents Easy NPC entities from being displaced by any means (Leads, Spells, Fishing Rods).
     Approach: Track NPCs in a list and freeze them every tick.
     Author: vyrriox
 */
 
 (function() {
     const SPAWN_DIM = "arcadia:spawn";
+    const FORBIDDEN_NPC_ITEMS = [
+        "apothic_enchanting:ender_lead",
+        "apothic_enchanting:flimsy_ender_lead",
+        "apothic_enchanting:occult_ender_lead",
+        "minecraft:lead",
+        "minecraft:fishing_rod"
+    ];
+
     let protectedNpcs = [];
 
     function isEasyNpc(entity) {
@@ -57,13 +65,13 @@
         const { item, target, player } = event;
         if (!isInSpawn(target)) return;
         
-        const forbidden = ["minecraft:lead", "minecraft:fishing_rod", "apothic_enchanting:ender_lead"];
-        if (forbidden.some(id => String(item.id).includes(id)) && isEasyNpc(target)) {
+        const itemId = String(item.id);
+        if (FORBIDDEN_NPC_ITEMS.some(id => itemId === id) && isEasyNpc(target)) {
             event.cancel();
-            player.tell(Text.red(`[Arcadia] Action interdite sur ce PNJ !`));
+            player.tell(Text.red(`[Arcadia] Impossible d'utiliser cet objet sur un PNJ ! | Practicality forbidden on NPCs!`));
         }
     });
 
 })();
 
-console.info("[Arcadia V2] NPC Anchoring system active (Ultra-Performance).");
+console.info("[Arcadia V2] NPC Anchoring system active (Ultra-Performance with Lead protection).");
