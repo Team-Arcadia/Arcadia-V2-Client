@@ -13,7 +13,8 @@
 - **Isolation des Scripts KubeJS** : Utilisation d'un IIFE dans `npc_protection.js` pour éviter les erreurs de redéclaration de constantes lors des rechargements.
 - [UPDATE] Libres de Bienvenue : Désactivation des guides MIMI, Parcool et Advanced Peripherals.
 - [FIX] Schematicannon (Create) : Autorisation des fake players dans FTB Chunks pour le fonctionnement hors-ligne.
-- [FIX] Script `npc_protection.js` : Refonte complète du système (migration vers `EntityEvents.tick`) pour corriger les lags massifs du serveur.
+- [FIX] Script `npc_protection.js` : Correction de l'erreur `Unknown event` et optimisation finale (tick bridé à 20t et protection knockback directe).
+- [FIX] Script `npc_protection.js` : Refonte complète du système pour corriger les lags massifs du serveur.
 - [FIX] Script `npc_protection.js` : Suppression de l'invincibilité (Résistance 255) des NPCs comme demandé.
 - [FIX] Script `npc_protection.js` : Correction d'une erreur de type (remplacement de `has` par `isActive` pour les effets de potion).
 - [FIX] Script `remove_from_creative.js` : Retrait de l'ID inexistant `occultism:lighted_air`.
