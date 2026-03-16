@@ -176,7 +176,7 @@
 		
 		# Default allow-fake-player setting for team properties
 		# Default: false
-		def_fake_players: false
+		def_fake_players: true
 		
 		# Default mob griefing protection for claimed chunks
 		# Default: false
@@ -184,7 +184,7 @@
 		
 		# Default named fake players who should be allowed by default
 		# Default: []
-		def_named_fake_players: [ ]
+		def_named_fake_players: ["[Create]"]
 		
 		# Default long-range player visibility on map
 		# Default: "allies"
