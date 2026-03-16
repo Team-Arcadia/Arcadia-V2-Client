@@ -53,7 +53,8 @@
                 // Rigid Anchoring
                 let vel = entity.deltaMovement;
                 if (vel && (Math.abs(vel.x()) > 0.001 || Math.abs(vel.z()) > 0.001)) {
-                    entity.setDeltaMovement(Utils.vec3(0, vel.y(), 0));
+                    entity.motionX = 0;
+                    entity.motionZ = 0;
                     entity.setPosition(entity.x, entity.y, entity.z);
                 }
             });
