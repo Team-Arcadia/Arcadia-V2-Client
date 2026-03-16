@@ -4,7 +4,7 @@
 	#Comma-separated list of mobs that can be given instruments to hold.
 	allowedInstrumentMobs = "minecraft:zombie,minecraft:husk,minecraft:skeleton,minecraft:stray,minecraft:wither_skeleton"
 	#Toggles wheter to give players the MIMI Guide Book on first join.
-	doGiveBookOnFirstJoin = true
+	doGiveBookOnFirstJoin = false
 
 [Other]
 	#Toggles whether MIMI should log when the server fails to timely execute a MIDI command which usually just indiciates server performance trouble.

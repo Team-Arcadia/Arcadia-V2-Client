@@ -11,6 +11,7 @@
 - **NPC Total Lockdown**: Reinforced `spawn_movement_block.js` and `npc_protection.js` to block Ars Nouveau spells, Simply Swords abilities, and added a dynamic anchoring system to keep NPCs immobile at spawn.
 - **KubeJS Script Fix**: Resolved event name errors and constant redeclaration issues using an IIFE in `npc_protection.js`.
 - **Isolation des Scripts KubeJS** : Utilisation d'un IIFE dans `npc_protection.js` pour éviter les erreurs de redéclaration de constantes lors des rechargements.
+- [UPDATE] Libres de Bienvenue : Désactivation des guides MIMI, Parcool et Advanced Peripherals.
 - [FIX] Script `npc_protection.js` : Verrouillage total des NPCs avec Résistance 255 et Ancrage Dynamique.
 - [UPDATE] FTB Chunks : Claims limités à 500, Forceload à 1.
 - [UPDATE] FTB Chunks : Claims restreints à l'Overworld et JAVD uniquement.

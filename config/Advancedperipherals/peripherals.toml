@@ -7,11 +7,11 @@
 		#The max range of the player detector functions. If anyone use a higher range, the detector will use this max range. -1 for unlimited
 		# Default: -1
 		# Range: > -1
-		playerDetMaxRange = -1
+		playerDetMaxRange = -128
 		#Activates the "getPlayerPos" function of the Player Detector
 		enablePlayerPosFunction = true
 		#Returns a play in any function even when they are in spectator
-		showSpectators = true
+		showSpectators = false
 		#Adds more information to `getPlayerPos` of the Player Detector. Like rotation and dimension
 		morePlayerInformation = true
 		#If true, the player detector can observe players which aren't in the same dimension as the detector itself. `playerDetMaxRange` needs to be infinite(-1) for it to work.
@@ -63,7 +63,7 @@
 		#Defines the maximal range of the chat box in blocks. -1 for infinite. If the range is not -1, players in other dimensions won't able to receive messages
 		# Default: -1
 		# Range: -1 ~ 30000000
-		chatBoxMaxRange = -1
+		chatBoxMaxRange = 128
 		#Defines the maximal number of characters in a message. Depending on the modpack and server, too large messages can't unexpectedly disconnect players
 		# Default: 1024
 		# Range: 0 ~ 8192
