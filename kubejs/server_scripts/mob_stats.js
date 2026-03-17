@@ -8,17 +8,16 @@
  */
 
 const CONFIG = {
-    MAX_HEALTH: 10000,
-    MAX_DAMAGE: 50,
-    MAX_ARMOR: 50
+    MAX_HEALTH: 10000.0,
+    MAX_DAMAGE: 50.0,
+    MAX_ARMOR: 50.0
 };
 
 // Boss data and multipliers for O(1) lookup
 const BOSS_DATA = {
-    // Vanilla
-    'minecraft:wither': { hp: 500 },
-    'minecraft:ender_dragon': { hp: 2000 },
-    'minecraft:warden': { hp: 1000 },
+    'minecraft:wither': { hp: 500.0 },
+    'minecraft:ender_dragon': { hp: 2000.0 },
+    'minecraft:warden': { hp: 1000.0 },
 
     // Twilight Forest
     'twilightforest:naga': { mult: 1.2 },
@@ -78,85 +77,65 @@ const BOSS_DATA = {
 };
 
 /**
- * Helper function to boost entity attributes safely with capping.
+ * Helper function to boost entity attributes safely.
  */
 function applyStats(entity, data) {
     if (!entity.isLiving()) return;
 
-    // Apply Health
+    // Apply Health (Max HP works more reliably as a property in 1.21)
     if (data.hp || data.mult) {
-        let currentMax = entity.getAttributeValue('minecraft:generic.max_health');
-        let newMax = data.hp ? data.hp : (currentMax * (data.mult || 1));
+        let currentMax = entity.maxHealth;
+        let newMax = data.hp ? data.hp : (currentMax * (data.mult || 1.0));
         
-        // Clamp to global max
         newMax = Math.min(newMax, CONFIG.MAX_HEALTH);
         
-        entity.setAttributeBaseValue('minecraft:generic.max_health', newMax);
+        entity.maxHealth = newMax;
         entity.health = newMax;
     }
 
-    // Apply Attack Damage (only if mult exists and entity has the attribute)
-    if (data.mult && entity.attributes.hasAttribute('minecraft:generic.attack_damage')) {
-        let currentDmg = entity.getAttributeValue('minecraft:generic.attack_damage');
-        let newDmg = Math.min(currentDmg * data.mult, CONFIG.MAX_DAMAGE);
-        entity.setAttributeBaseValue('minecraft:generic.attack_damage', newDmg);
+    // Apply Attack Damage
+    let dmgAttr = entity.getAttribute('minecraft:generic.attack_damage');
+    if (dmgAttr && data.mult) {
+        dmgAttr.setBaseValue(Math.min(dmgAttr.getBaseValue() * data.mult, CONFIG.MAX_DAMAGE));
     }
 
-    // Apply Armor (only if mult exists and entity has the attribute)
-    if (data.mult && entity.attributes.hasAttribute('minecraft:generic.armor')) {
-        let currentArmor = entity.getAttributeValue('minecraft:generic.armor');
-        let newArmor = Math.min(currentArmor * data.mult, CONFIG.MAX_ARMOR);
-        entity.setAttributeBaseValue('minecraft:generic.armor', newArmor);
+    // Apply Armor
+    let armorAttr = entity.getAttribute('minecraft:generic.armor');
+    if (armorAttr && data.mult) {
+        armorAttr.setBaseValue(Math.min(armorAttr.getBaseValue() * data.mult, CONFIG.MAX_ARMOR));
     }
 }
 
 EntityEvents.spawned(event => {
-    const entity = event.entity;
-
-    // Skip non-living or players
+    const { entity } = event;
     if (!entity || !entity.isLiving() || entity.isPlayer()) return;
 
-    const entityId = entity.type.id;
+    // String(entity.type) is the most reliable way to get the ID string
+    const entityId = String(entity.type);
 
-    // --- Optimization: Check if already boosted or needs boosting ---
     if (!entity.persistentData.stats_boosted) {
         const bossData = BOSS_DATA[entityId];
         
         if (bossData) {
             applyStats(entity, bossData);
-            console.log(`[Mob Stats] Boosted ${entityId} -> New Health: ${entity.health}`);
+            console.info(`[Mob Stats] Boosted boss: ${entityId} (Max Health: ${entity.maxHealth})`);
         } else {
-            // Global clamping for non-bosses that might spawn with extreme stats
-            let needsClamping = false;
-            
-            if (entity.getAttributeValue('minecraft:generic.max_health') > CONFIG.MAX_HEALTH) {
-                entity.setAttributeBaseValue('minecraft:generic.max_health', CONFIG.MAX_HEALTH);
+            // Global capping
+            if (entity.maxHealth > CONFIG.MAX_HEALTH) {
+                entity.maxHealth = CONFIG.MAX_HEALTH;
                 entity.health = CONFIG.MAX_HEALTH;
-                needsClamping = true;
             }
-
-            if (entity.attributes.hasAttribute('minecraft:generic.attack_damage')) {
-                if (entity.getAttributeValue('minecraft:generic.attack_damage') > CONFIG.MAX_DAMAGE) {
-                    entity.setAttributeBaseValue('minecraft:generic.attack_damage', CONFIG.MAX_DAMAGE);
-                    needsClamping = true;
-                }
-            }
-
-            if (entity.attributes.hasAttribute('minecraft:generic.armor')) {
-                if (entity.getAttributeValue('minecraft:generic.armor') > CONFIG.MAX_ARMOR) {
-                    entity.setAttributeBaseValue('minecraft:generic.armor', CONFIG.MAX_ARMOR);
-                    needsClamping = true;
-                }
-            }
-            
-            if (needsClamping) {
-                console.log(`[Mob Stats] Clamped stats for ${entityId}`);
+            let dmgAttr = entity.getAttribute('minecraft:generic.attack_damage');
+            if (dmgAttr && dmgAttr.getBaseValue() > CONFIG.MAX_DAMAGE) {
+                dmgAttr.setBaseValue(CONFIG.MAX_DAMAGE);
             }
         }
-
         entity.persistentData.stats_boosted = true;
     }
 });
 
 console.info("[Arcadia V2] Mob Stats Loaded.");
+
+
+
 

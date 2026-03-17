@@ -130,19 +130,33 @@ LootJS.modifiers((event) => {
     ])
     .randomChance(0.9999);
 
-  /**
+   /**
    * =========================================
-   * 8. MODS (10% Spawn / 90% Remove)
+   * 8. MODS & SPECIAL ITEMS (NERFS)
    * =========================================
    */
-  event
-    .addTableModifier([LootType.CHEST, LootType.VAULT])
-    .removeLoot([
+  const modNerf = event.addTableModifier([LootType.CHEST, LootType.VAULT]);
+
+  // General mods nerf (5% drop rate)
+  modNerf.removeLoot([
       "@irons_spellbooks",
       "@ars_nouveau",
-      "@simplyswords",
-    ])
-    .randomChance(0.95);
+      "@simplyswords"
+  ]).randomChance(0.95);
+
+  // Sophisticated Backpacks nerf (15% drop rate)
+  event.addTableModifier([LootType.CHEST, LootType.VAULT])
+    .removeLoot("@sophisticatedbackpacks")
+    .randomChance(0.85);
+
+  // Twilight Forest nerf (20% drop rate)
+  event.addTableModifier([LootType.CHEST, LootType.VAULT])
+    .removeLoot("@twilightforest")
+    .randomChance(0.80);
+
+  // Artifacts Removal - ABSOLUTE (0% drop rate)
+  event.addTableModifier([LootType.CHEST, LootType.VAULT])
+    .removeLoot("@artifacts");
 
   /**
    * =========================================
@@ -245,6 +259,8 @@ LootJS.modifiers((event) => {
     "mekanism:hdpe_sheet",
     "mekanism:hdpe_rod",
     "mekanism:hdpe_pellet",
+    "bettercopper:copper_heart",
+    "bettercopper:reversed_copper_heart",
     "mekanism:module_base",
     "mekanism:meka_tool",
     "mekanism:portable_teleporter",
@@ -252,6 +268,7 @@ LootJS.modifiers((event) => {
     "mekanism:gauge_dropper",
     "mekanism:canteen",
     "mekanism:creative_bin",
+    "mekanism:cardboard_box",
 
     // Occultism
     "occultism:storage_controller",
@@ -298,6 +315,13 @@ LootJS.modifiers((event) => {
     // Sophisticated Storage
     "sophisticatedstorage:infinity_upgrade",
     "sophisticatedstorage:stack_upgrade_omega_tier",
+
+    // ComputerCraft
+    "computercraft:turtle_normal",
+    "computercraft:turtle_advanced",
+
+    // Ars Nouveau
+    "ars_nouveau:planarium",
   ];
   chest.removeLoot(bannedItems);
 

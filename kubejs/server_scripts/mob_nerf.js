@@ -31,8 +31,11 @@ LootJS.modifiers((event) => {
             }),
         );
 
-    // Ender Dragon: Guaranteed Dragon Head
+    // Ender Dragon: Guaranteed Dragon Head + Nerfed Simply Swords (10%)
     event
         .addTableModifier("minecraft:entities/ender_dragon")
-        .addLoot("minecraft:dragon_head");
+        .addLoot("minecraft:dragon_head")
+        .anyItem()
+        .randomChance(0.1)
+        .matchIngredient(Ingredient.of(/simplyswords:.*/));
 });
