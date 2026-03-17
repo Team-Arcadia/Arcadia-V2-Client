@@ -158,6 +158,8 @@ const BANNED_ITEMS = [
   // ComputerCraft
   "computercraft:turtle_normal",
   "computercraft:turtle_advanced",
+  // Ars Nouveau
+  "ars_nouveau:planarium",
 ];
 
 PlayerEvents.inventoryChanged((event) => {
