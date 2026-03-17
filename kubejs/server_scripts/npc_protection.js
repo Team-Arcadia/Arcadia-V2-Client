@@ -57,6 +57,16 @@
                     entity.motionZ = 0;
                     entity.setPosition(entity.x, entity.y, entity.z);
                 }
+
+                // --- EFFECT CLEANUP (Every 5 seconds) ---
+                if (server.tickCount % 100 === 0) {
+                    const effects = ["minecraft:resistance", "minecraft:regeneration", "minecraft:invisibility"];
+                    effects.forEach(eff => {
+                        if (entity.potionEffects.has(eff)) {
+                            entity.potionEffects.remove(eff);
+                        }
+                    });
+                }
             });
         }
     });
