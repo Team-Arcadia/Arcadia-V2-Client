@@ -1,180 +1,162 @@
 // Priority: 800
 
-/*
-    Mob Stats Script
-    Adjusts the attributes (Health, Damage, etc.) of specific mobs and enforces global caps.
-    Author: vyrriox
-*/
+/**
+ * Mob Stats Script
+ * Adjusts the attributes (Health, Damage, etc.) of specific mobs and enforces global caps.
+ * Author: vyrriox
+ * Optimized for KubeJS 1.21.1
+ */
 
-var CONFIG = {
+const CONFIG = {
     MAX_HEALTH: 10000,
-    MAX_DAMAGE: 50
+    MAX_DAMAGE: 50,
+    MAX_ARMOR: 50
 };
 
-// Boss lists (declared once, globally)
-var tfBosses = [
-    "twilightforest:naga", "twilightforest:lich", "twilightforest:minoshroom", "twilightforest:hydra",
-    "twilightforest:knight_phantom", "twilightforest:ur_ghast", "twilightforest:alpha_yeti", "twilightforest:snow_queen"
-];
-var aetherBosses = ["aether:slider", "aether:valkyrie_queen", "aether:sun_spirit"];
-var arsNouveauBosses = ["ars_nouveau:wilden_boss", "ars_nouveau:wilden_guardian", "ars_nouveau:wilden_stalker", "ars_nouveau:wilden_hunter"];
-var ddBosses = ["deeperdarker:shriek_worm", "deeperdarker:stalker", "deeperdarker:sculk_snapper", "deeperdarker:shattered"];
-var issBosses = ["irons_spellbooks:dead_king", "irons_spellbooks:dead_king_corpse", "irons_spellbooks:archevoker", "irons_spellbooks:necromancer", "irons_spellbooks:priest", "irons_spellbooks:citadel_keeper"];
-var mutantBosses = ["mutantmonsters:mutant_creeper", "mutantmonsters:mutant_zombie", "mutantmonsters:mutant_skeleton", "mutantmonsters:mutant_enderman", "mutantmonsters:mutant_snow_golem", "mutantmonsters:spider_pig"];
-var mowzieBosses = ["mowziesmobs:ferrous_wroughtnaut", "mowziesmobs:frostmaw", "mowziesmobs:naga", "mowziesmobs:umvuthi"];
-var knightQuestBosses = ["knightquest:netherman", "knightquest:eldknight", "knightquest:ratman", "knightquest:swampman"];
+// Boss data and multipliers for O(1) lookup
+const BOSS_DATA = {
+    // Vanilla
+    'minecraft:wither': { hp: 500 },
+    'minecraft:ender_dragon': { hp: 2000 },
+    'minecraft:warden': { hp: 1000 },
+
+    // Twilight Forest
+    'twilightforest:naga': { mult: 1.2 },
+    'twilightforest:lich': { mult: 1.2 },
+    'twilightforest:minoshroom': { mult: 1.2 },
+    'twilightforest:hydra': { mult: 1.2 },
+    'twilightforest:knight_phantom': { mult: 1.2 },
+    'twilightforest:ur_ghast': { mult: 1.2 },
+    'twilightforest:alpha_yeti': { mult: 1.2 },
+    'twilightforest:snow_queen': { mult: 1.2 },
+    'twilight_forest_final_boss:castle_keeper': { mult: 4.0 },
+
+    // Aether
+    'aether:slider': { mult: 1.5 },
+    'aether:valkyrie_queen': { mult: 1.5 },
+    'aether:sun_spirit': { mult: 1.5 },
+
+    // Ars Nouveau
+    'ars_nouveau:wilden_boss': { mult: 1.2 },
+    'ars_nouveau:wilden_guardian': { mult: 1.2 },
+    'ars_nouveau:wilden_stalker': { mult: 1.2 },
+    'ars_nouveau:wilden_hunter': { mult: 1.2 },
+
+    // Deeper and Darker
+    'deeperdarker:shriek_worm': { mult: 1.4 },
+    'deeperdarker:stalker': { mult: 1.4 },
+    'deeperdarker:sculk_snapper': { mult: 1.4 },
+    'deeperdarker:shattered': { mult: 1.4 },
+
+    // Iron's Spells 'n Spellbooks
+    'irons_spellbooks:dead_king': { mult: 1.2 },
+    'irons_spellbooks:dead_king_corpse': { mult: 1.2 },
+    'irons_spellbooks:archevoker': { mult: 1.2 },
+    'irons_spellbooks:necromancer': { mult: 1.2 },
+    'irons_spellbooks:priest': { mult: 1.2 },
+    'irons_spellbooks:citadel_keeper': { mult: 1.2 },
+
+    // Mutant Monsters
+    'mutantmonsters:mutant_creeper': { mult: 1.2 },
+    'mutantmonsters:mutant_zombie': { mult: 1.2 },
+    'mutantmonsters:mutant_skeleton': { mult: 1.2 },
+    'mutantmonsters:mutant_enderman': { mult: 1.2 },
+    'mutantmonsters:mutant_snow_golem': { mult: 1.2 },
+    'mutantmonsters:spider_pig': { mult: 1.2 },
+
+    // Mowzie's Mobs
+    'mowziesmobs:ferrous_wroughtnaut': { mult: 1.2 },
+    'mowziesmobs:frostmaw': { mult: 1.2 },
+    'mowziesmobs:naga': { mult: 1.2 },
+    'mowziesmobs:umvuthi': { mult: 1.2 },
+
+    // Knight Quest
+    'knightquest:netherman': { mult: 1.2 },
+    'knightquest:eldknight': { mult: 1.2 },
+    'knightquest:ratman': { mult: 1.2 },
+    'knightquest:swampman': { mult: 1.2 }
+};
 
 /**
- * Helper function to boost entity attributes safely.
+ * Helper function to boost entity attributes safely with capping.
  */
-function boostEntity(entity, multiplier) {
-    try {
-        var h = entity.attributes.getBaseValue('minecraft:generic.max_health');
-        if (h > 0) {
-            entity.attributes.setBaseValue('minecraft:generic.max_health', h * multiplier);
-            entity.health = h * multiplier;
-        }
-    } catch (e) { /* skip */ }
+function applyStats(entity, data) {
+    if (!entity.isLiving()) return;
 
-    try {
-        var a = entity.attributes.getBaseValue('minecraft:generic.armor');
-        if (a > 0) entity.attributes.setBaseValue('minecraft:generic.armor', a * multiplier);
-    } catch (e) { /* skip */ }
+    // Apply Health
+    if (data.hp || data.mult) {
+        let currentMax = entity.getAttributeValue('minecraft:generic.max_health');
+        let newMax = data.hp ? data.hp : (currentMax * (data.mult || 1));
+        
+        // Clamp to global max
+        newMax = Math.min(newMax, CONFIG.MAX_HEALTH);
+        
+        entity.setAttributeBaseValue('minecraft:generic.max_health', newMax);
+        entity.health = newMax;
+    }
 
-    try {
-        var d = entity.attributes.getBaseValue('minecraft:generic.attack_damage');
-        if (d > 0) entity.attributes.setBaseValue('minecraft:generic.attack_damage', d * multiplier);
-    } catch (e) { /* skip */ }
+    // Apply Attack Damage (only if mult exists and entity has the attribute)
+    if (data.mult && entity.attributes.hasAttribute('minecraft:generic.attack_damage')) {
+        let currentDmg = entity.getAttributeValue('minecraft:generic.attack_damage');
+        let newDmg = Math.min(currentDmg * data.mult, CONFIG.MAX_DAMAGE);
+        entity.setAttributeBaseValue('minecraft:generic.attack_damage', newDmg);
+    }
+
+    // Apply Armor (only if mult exists and entity has the attribute)
+    if (data.mult && entity.attributes.hasAttribute('minecraft:generic.armor')) {
+        let currentArmor = entity.getAttributeValue('minecraft:generic.armor');
+        let newArmor = Math.min(currentArmor * data.mult, CONFIG.MAX_ARMOR);
+        entity.setAttributeBaseValue('minecraft:generic.armor', newArmor);
+    }
 }
 
-EntityEvents.spawned(function (event) {
-    var entity = event.entity;
+EntityEvents.spawned(event => {
+    const entity = event.entity;
 
     // Skip non-living or players
-    if (!entity.isLiving() || entity.isPlayer()) return;
+    if (!entity || !entity.isLiving() || entity.isPlayer()) return;
 
-    // --- Global Health & Damage Protection ---
-    try {
-        var maxHealthVal = entity.attributes.getBaseValue('minecraft:generic.max_health');
-        if (maxHealthVal > CONFIG.MAX_HEALTH) {
-            entity.attributes.setBaseValue('minecraft:generic.max_health', CONFIG.MAX_HEALTH);
-        }
-    } catch (e) { /* skip */ }
+    const entityId = entity.type.id;
 
-    try {
-        var damageVal = entity.attributes.getBaseValue('minecraft:generic.attack_damage');
-        if (damageVal > CONFIG.MAX_DAMAGE) {
-            entity.attributes.setBaseValue('minecraft:generic.attack_damage', CONFIG.MAX_DAMAGE);
-        }
-    } catch (e) { /* skip */ }
-
-    try {
-        var armorVal = entity.attributes.getBaseValue('minecraft:generic.armor');
-        if (armorVal > 50) {
-            entity.attributes.setBaseValue('minecraft:generic.armor', 50);
-        }
-    } catch (e) { /* skip */ }
-
-    // --- Conditional Boost Logic (Runs only once) ---
+    // --- Optimization: Check if already boosted or needs boosting ---
     if (!entity.persistentData.stats_boosted) {
+        const bossData = BOSS_DATA[entityId];
+        
+        if (bossData) {
+            applyStats(entity, bossData);
+            console.log(`[Mob Stats] Boosted ${entityId} -> New Health: ${entity.health}`);
+        } else {
+            // Global clamping for non-bosses that might spawn with extreme stats
+            let needsClamping = false;
+            
+            if (entity.getAttributeValue('minecraft:generic.max_health') > CONFIG.MAX_HEALTH) {
+                entity.setAttributeBaseValue('minecraft:generic.max_health', CONFIG.MAX_HEALTH);
+                entity.health = CONFIG.MAX_HEALTH;
+                needsClamping = true;
+            }
 
-        // Wither: 500 HP
-        if (entity.type === "minecraft:wither") {
-            try {
-                entity.attributes.setBaseValue("minecraft:generic.max_health", 500);
-                entity.health = 500;
-            } catch (e) { /* skip */ }
+            if (entity.attributes.hasAttribute('minecraft:generic.attack_damage')) {
+                if (entity.getAttributeValue('minecraft:generic.attack_damage') > CONFIG.MAX_DAMAGE) {
+                    entity.setAttributeBaseValue('minecraft:generic.attack_damage', CONFIG.MAX_DAMAGE);
+                    needsClamping = true;
+                }
+            }
+
+            if (entity.attributes.hasAttribute('minecraft:generic.armor')) {
+                if (entity.getAttributeValue('minecraft:generic.armor') > CONFIG.MAX_ARMOR) {
+                    entity.setAttributeBaseValue('minecraft:generic.armor', CONFIG.MAX_ARMOR);
+                    needsClamping = true;
+                }
+            }
+            
+            if (needsClamping) {
+                console.log(`[Mob Stats] Clamped stats for ${entityId}`);
+            }
         }
 
-        // Ender Dragon: 2000 HP
-        if (entity.type === "minecraft:ender_dragon") {
-            try {
-                entity.attributes.setBaseValue("minecraft:generic.max_health", 2000);
-                entity.health = 2000;
-            } catch (e) { /* skip */ }
-        }
-
-        // Warden: 1000 HP
-        if (entity.type === "minecraft:warden") {
-            try {
-                entity.attributes.setBaseValue("minecraft:generic.max_health", 1000);
-                entity.health = 1000;
-            } catch (e) { /* skip */ }
-        }
-
-        // Twilight Forest Bosses
-        if (tfBosses.includes(entity.type)) {
-            boostEntity(entity, 1.2);
-        }
-
-        // Castle Keeper
-        if (entity.type === "twilight_forest_final_boss:castle_keeper") {
-            boostEntity(entity, 4.0);
-        }
-
-        // Aether Bosses
-        if (aetherBosses.includes(entity.type)) {
-            boostEntity(entity, 1.5);
-        }
-
-        // Ars Nouveau
-        if (arsNouveauBosses.includes(entity.type)) {
-            boostEntity(entity, 1.2);
-        }
-
-        // Deeper and Darker
-        if (ddBosses.includes(entity.type)) {
-            boostEntity(entity, 1.4);
-        }
-
-        // Iron's Spells 'n Spellbooks
-        if (issBosses.includes(entity.type)) {
-            boostEntity(entity, 1.2);
-        }
-
-        // Mutant Monsters
-        if (mutantBosses.includes(entity.type)) {
-            boostEntity(entity, 1.2);
-        }
-
-        // Mowzie's Mobs
-        if (mowzieBosses.includes(entity.type)) {
-            boostEntity(entity, 1.2);
-        }
-
-        // Knight Quest Bosses
-        if (knightQuestBosses.includes(entity.type)) {
-            boostEntity(entity, 1.2);
-        }
-
-        // Mark as boosted
         entity.persistentData.stats_boosted = true;
     }
-
-    // --- Final Enforcement Clamp ---
-    try {
-        if (entity.maxHealth > CONFIG.MAX_HEALTH) {
-            entity.attributes.setBaseValue('minecraft:generic.max_health', CONFIG.MAX_HEALTH);
-        }
-    } catch (e) { /* skip */ }
-
-    if (entity.health > entity.maxHealth) {
-        entity.health = entity.maxHealth;
-    }
-
-    try {
-        var finalDmg = entity.attributes.getBaseValue('minecraft:generic.attack_damage');
-        if (finalDmg > CONFIG.MAX_DAMAGE) {
-            entity.attributes.setBaseValue('minecraft:generic.attack_damage', CONFIG.MAX_DAMAGE);
-        }
-    } catch (e) { /* skip */ }
-
-    try {
-        var finalArmor = entity.attributes.getBaseValue('minecraft:generic.armor');
-        if (finalArmor > 50) {
-            entity.attributes.setBaseValue('minecraft:generic.armor', 50);
-        }
-    } catch (e) { /* skip */ }
 });
 
 console.info("[Arcadia V2] Mob Stats Loaded.");
+

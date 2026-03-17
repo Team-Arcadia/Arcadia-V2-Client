@@ -1,5 +1,18 @@
 # Journal des modifications
 
+## [Unreleased] - 2026-03-17
+### Optimized / Optimisé
+- **Mob Stats Optimization**: Completely refactored `mob_stats.js` for KubeJS 1.21.1.
+    - Replaced O(N) array lookups with O(1) object lookups for boss data.
+    - Updated attribute handling to use `entity.type.id` and modern KJS attribute methods.
+    - Consolidated health, damage, and armor boosting/clamping into a single-pass logic.
+    - Added detailed console logging for transparency on entity stat adjustments.
+- **Optimisation Mob Stats** : Refonte complète de `mob_stats.js` pour KubeJS 1.21.1.
+    - Remplacement des recherches O(N) dans des tableaux par des recherches O(1) via un objet de données.
+    - Mise à jour de la gestion des attributs pour utiliser `entity.type.id` et les méthodes KJS modernes.
+    - Consolidation du boost et du bridage (HP, Dégâts, Armure) dans une logique à passage unique.
+    - Ajout de logs console détaillés pour le suivi des ajustements de stats.
+
 ## [Non publié] - 2026-03-16
 ### Added / Ajouté
 - [REMOVE] Script `spawn_protection.js` : Suppression de la protection anti-pose de blocs (le serveur utilise Yawp pour la gestion des zones).
