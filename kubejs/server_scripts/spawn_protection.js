@@ -16,17 +16,25 @@ EntityEvents.spawned(event => {
 
   let typeStr = String(entity.type);
 
-  // Ne pas protéger les PNJ d'Easy NPC pour qu'ils soient tuables s'ils sont des boss
-  if (typeStr.includes("easynpc")) return;
+  // Protection for Animals, Villagers, and Easy NPCs (Regen + Resistance)
+  const isPassive = entity.isAnimal() || entity.isVillager() || typeStr.includes("golem") || typeStr.includes("allay");
+  const entityId = String(entity.type);
+  const isEasyNpc = entityId.includes("easy_npc");
 
-  // Cibler uniquement les entités passives / alliées (animaux, villageois, golems, allays)
-  let isPassive = entity.isAnimal() || typeStr.includes("villager") || typeStr.includes("golem") || typeStr.includes("allay");
-
-  if (isPassive) {
+  if (isPassive && !isEasyNpc) {
     // Apply Resistance 255 (Immune to almost all damage types)
     entity.potionEffects.add("minecraft:resistance", 9999999, 255, false, false);
     // Apply Regeneration
     entity.potionEffects.add("minecraft:regeneration", 9999999, 255, false, false);
+  } else if (isEasyNpc) {
+    // Ne pas protéger les PNJ d'Easy NPC pour qu'ils soient tuables s'ils sont des boss
+    // Cleanup: Remove unintended protection from NPCs if they somehow got it
+    if (entity.potionEffects.has("minecraft:regeneration")) {
+      entity.potionEffects.remove("minecraft:regeneration");
+    }
+    if (entity.potionEffects.has("minecraft:resistance")) {
+      entity.potionEffects.remove("minecraft:resistance");
+    }
   }
 });
 
