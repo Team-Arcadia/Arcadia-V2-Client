@@ -72,11 +72,34 @@
     });
 
     // --- INTERACTION BLOCKING ---
+    ItemEvents.rightClicked(event => {
+        const { item, player, level } = event;
+        if (level && String(level.dimension) === SPAWN_DIM && String(item.id).includes("ender_lead")) {
+            event.cancel();
+            player.tell(Text.red(`[Arcadia] L'utilisation des Ender Leads est totalement bloquée au spawn ! | Ender Leads are forbidden at spawn!`));
+        }
+    });
+
+    BlockEvents.rightClicked(event => {
+        const { item, player, block } = event;
+        if (block && String(block.dimension) === SPAWN_DIM && String(item.id).includes("ender_lead")) {
+            event.cancel();
+            player.tell(Text.red(`[Arcadia] L'utilisation des Ender Leads est totalement bloquée au spawn ! | Ender Leads are forbidden at spawn!`));
+        }
+    });
+
     ItemEvents.entityInteracted(event => {
         const { item, target, player } = event;
         if (!isInSpawn(target)) return;
         
         const itemId = String(item.id);
+
+        if (itemId.includes("ender_lead")) {
+            event.cancel();
+            player.tell(Text.red(`[Arcadia] L'utilisation des Ender Leads est totalement bloquée au spawn ! | Ender Leads are forbidden at spawn!`));
+            return;
+        }
+
         if (FORBIDDEN_NPC_ITEMS.some(id => itemId === id) && isEasyNpc(target)) {
             event.cancel();
             player.tell(Text.red(`[Arcadia] Impossible d'utiliser cet objet sur un PNJ ! | Practicality forbidden on NPCs!`));

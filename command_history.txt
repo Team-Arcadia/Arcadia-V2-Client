@@ -1,8 +1,3 @@
-/summon knightquest:eldbomb
-/summon mowziesmobs:umvuthi
-/summon mowziesmobs:naga
-/summon mowziesmobs:frostmaw
-/summon mowziesmobs:ferrous_wroughtnaut
 /summon mutantmonsters:mutant_creeper
 /summon mutantmonsters:mutant_zombie
 /summon mutantmonsters:mutant_skeleton
@@ -48,3 +43,8 @@
 /reload
 /spawn
 /clear vyrriox
+/summon minecraft:ender_dragon
+/kill @e[type=minecraft:ender_dragon]
+/reload
+/summon minecraft:ender_dragon
+/reload
