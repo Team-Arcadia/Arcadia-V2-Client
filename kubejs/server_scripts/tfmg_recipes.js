@@ -11,7 +11,8 @@ ServerEvents.recipes((event) => {
     // Steel Mechanism (Sequenced Assembly)
     event.recipes.create.sequenced_assembly(
         [
-            "tfmg:steel_mechanism"
+            CreateItem.of("tfmg:steel_mechanism", 0.8),
+            CreateItem.of("minecraft:iron_nugget", 0.2)
         ],
         "tfmg:heavy_plate",
         [
