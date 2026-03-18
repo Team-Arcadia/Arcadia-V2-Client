@@ -16,21 +16,16 @@ EntityEvents.spawned(event => {
 
   let typeStr = String(entity.type);
 
-  // Protection for Animals, Villagers, and Easy NPCs (Regen + Resistance)
-  const isPassive = entity.isAnimal() || entity.isVillager() || typeStr.includes("golem") || typeStr.includes("allay");
+  // Protection for Animals ONLY (Regen + Resistance)
+  const isAnimal = entity.isAnimal();
   const entityId = String(entity.type);
   const isEasyNpc = entityId.includes("easy_npc");
 
-  if (isPassive && !isEasyNpc) {
+  if (isAnimal && !isEasyNpc) {
     // Apply Resistance 255 (Immune to almost all damage types)
     entity.potionEffects.add("minecraft:resistance", 9999999, 255, false, false);
     // Apply Regeneration
     entity.potionEffects.add("minecraft:regeneration", 9999999, 255, false, false);
-    
-    // Apply Invisibility ONLY to animals
-    if (entity.isAnimal()) {
-      entity.potionEffects.add("minecraft:invisibility", 9999999, 0, false, false);
-    }
   } else if (isEasyNpc) {
     // Ne pas protéger les PNJ d'Easy NPC pour qu'ils soient tuables s'ils sont des boss
     // Cleanup: Remove unintended protection from NPCs if they somehow got it
