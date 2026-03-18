@@ -26,6 +26,11 @@ EntityEvents.spawned(event => {
     entity.potionEffects.add("minecraft:resistance", 9999999, 255, false, false);
     // Apply Regeneration
     entity.potionEffects.add("minecraft:regeneration", 9999999, 255, false, false);
+    
+    // Apply Invisibility ONLY to animals
+    if (entity.isAnimal()) {
+      entity.potionEffects.add("minecraft:invisibility", 9999999, 0, false, false);
+    }
   } else if (isEasyNpc) {
     // Ne pas protéger les PNJ d'Easy NPC pour qu'ils soient tuables s'ils sont des boss
     // Cleanup: Remove unintended protection from NPCs if they somehow got it
@@ -34,6 +39,9 @@ EntityEvents.spawned(event => {
     }
     if (entity.potionEffects.has("minecraft:resistance")) {
       entity.potionEffects.remove("minecraft:resistance");
+    }
+    if (entity.potionEffects.has("minecraft:invisibility")) {
+      entity.potionEffects.remove("minecraft:invisibility");
     }
   }
 });
