@@ -29,15 +29,11 @@ EntityEvents.spawned(event => {
   } else if (isEasyNpc) {
     // Ne pas protéger les PNJ d'Easy NPC pour qu'ils soient tuables s'ils sont des boss
     // Cleanup: Remove unintended protection from NPCs if they somehow got it
-    if (entity.potionEffects.has("minecraft:regeneration")) {
+    try {
       entity.potionEffects.remove("minecraft:regeneration");
-    }
-    if (entity.potionEffects.has("minecraft:resistance")) {
       entity.potionEffects.remove("minecraft:resistance");
-    }
-    if (entity.potionEffects.has("minecraft:invisibility")) {
       entity.potionEffects.remove("minecraft:invisibility");
-    }
+    } catch (e) {}
   }
 });
 

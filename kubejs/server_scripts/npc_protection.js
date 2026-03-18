@@ -62,9 +62,9 @@
                 if (server.tickCount % 100 === 0) {
                     const effects = ["minecraft:resistance", "minecraft:regeneration", "minecraft:invisibility"];
                     effects.forEach(eff => {
-                        if (entity.potionEffects.has(eff)) {
+                        try {
                             entity.potionEffects.remove(eff);
-                        }
+                        } catch (e) {}
                     });
                 }
             });
