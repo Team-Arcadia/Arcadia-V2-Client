@@ -16,6 +16,7 @@
         "minecraft:lead",
         "minecraft:fishing_rod"
     ];
+    const NPC_CLEANUP_EFFECTS = ["minecraft:resistance", "minecraft:regeneration", "minecraft:invisibility"];
 
     let protectedNpcs = [];
 
@@ -60,8 +61,7 @@
 
                 // --- EFFECT CLEANUP (Every 5 seconds) ---
                 if (server.tickCount % 100 === 0) {
-                    const effects = ["minecraft:resistance", "minecraft:regeneration", "minecraft:invisibility"];
-                    effects.forEach(eff => {
+                    NPC_CLEANUP_EFFECTS.forEach(eff => {
                         try {
                             entity.potionEffects.remove(eff);
                         } catch (e) {}
