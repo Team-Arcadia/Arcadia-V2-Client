@@ -1,7 +1,3 @@
-/summon mutantmonsters:mutant_creeper
-/summon mutantmonsters:mutant_zombie
-/summon mutantmonsters:mutant_skeleton
-/summon mutantmonsters:mutant_enderman
 /summon mutantmonsters:mutant_snow_golem
 /summon mutantmonsters:spider_pig
 /summon irons_spellbooks:dead_king
@@ -47,4 +43,8 @@
 /kill @e[type=minecraft:ender_dragon]
 /reload
 /summon minecraft:ender_dragon
+/reload
+/kubejs hand
+/reload
+/kubejs hand
 /reload
