@@ -41,4 +41,13 @@ LootJS.modifiers((event) => {
         .addTableModifier("minecraft:entities/ender_dragon")
         .removeLoot(Ingredient.of(/simplyswords:.*/))
         .randomChance(0.9); // 90% chance to remove -> 10% chance to stay
+
+    // Occultism: Possessed Ghast guaranteed 1-2 Ghast Tears
+    event
+        .addTableModifier("occultism:entities/possessed_ghast")
+        .addLoot(
+            LootEntry.of("minecraft:ghast_tear").apply((c) => {
+                c.setCount([1, 2]);
+            }),
+        );
 });
