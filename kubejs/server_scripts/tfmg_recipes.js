@@ -8,6 +8,15 @@
 ServerEvents.recipes((event) => {
     console.info("[Arcadia V2] Loading TFMG Custom Recipes...");
 
+    // Remove default hardened planks recipe
+    event.remove({ output: "tfmg:hardened_planks" });
+
+    // Custom Hardened Planks recipe using Spout
+    event.recipes.create.filling("tfmg:hardened_planks", [
+        "minecraft:stripped_oak_log",
+        Fluid.of("tfmg:creosote", 250)
+    ]);
+
     // Steel Mechanism (Sequenced Assembly)
     event.recipes.create.sequenced_assembly(
         [
