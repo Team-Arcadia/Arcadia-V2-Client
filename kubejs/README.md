@@ -15,7 +15,6 @@ Custom scripts for the Arcadia V2 modpack to balance gameplay.
 - **Global Tags for Sorting**: Organized various items (Netherite scraps, Redstone components, Mob drops) using standardized `c:` categories for better storage management in `global_tags.js`.
 - **FTB Chunks Limits**: Configured maximum claimed chunks to 500 and force-loaded chunks to 1 in `ftbchunks-world.snbt`.
 - **ATM Recipe**: Added a high-tech crafting recipe for `arcadia:atm` using Create components in `arcadia_recipes.js`.
-- **Casting Basin Capacity (PowerfulJS)**: Increased `tfmg:casting_basin` capacity to 250mB (overriding default 144mB) using `basin_capacity.js`.
 
 ## Authors
 - vyrriox
@@ -40,7 +39,6 @@ Scripts personnalisés pour le modpack Arcadia V2 afin d'équilibrer le gameplay
 - **Tags Globaux pour le Tri** : Organisation de divers objets (déchets de netherite, composants redstone, loots de mobs) via des catégories standardisées `c:` pour les systèmes de stockage dans `global_tags.js`.
 - **Limites FTB Chunks** : Limitation à 500 claims et 1 chunk load forcé dans `ftbchunks-world.snbt`.
 - **Recette de l'ATM** : Ajout d'une recette de fabrication haute technologie pour `arcadia:atm` utilisant des composants Create dans `arcadia_recipes.js`.
-- **Capacité du Casting Basin (PowerfulJS)** : Augmentation de la capacité du `tfmg:casting_basin` à 250mb (au lieu de 144mb) via `basin_capacity.js`.
 
 ## Auteurs
 - vyrriox

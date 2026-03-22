@@ -7,11 +7,10 @@
 - **Global Tags Addition**: Created `global_tags.js` to add refined organizational tags (`c:`) to various vanilla and modded items for easier sorting.
 - **Bannissement des Backtanks** : Retrait total des Backtanks de Create et Create Goggles (recettes, coffres, inventaire, menu créatif).
 - **ATM Recipe**: Added a high-tech crafting recipe for `arcadia:atm` using Create components in `arcadia_recipes.js`.
-- **Casting Basin Capacity (PowerfulJS)**: Successfully increased `tfmg:casting_basin` capacity to 250mB using PowerfulJS in `basin_capacity.js`.
 - **Mob Stats Update**: Refined boss multipliers for Twilight Forest (1.5x) and Aether (Valkyrie Queen/Sun Spirit 2.0x, Slider 1.2x) in `mob_stats.js`.
 - **Recette de l'ATM** : Ajout d'une recette de fabrication haute technologie pour `arcadia:atm` utilisant des composants Create dans `arcadia_recipes.js`.
-- **Capacité du Casting Basin (PowerfulJS)** : Augmentation réussie de la capacité du `tfmg:casting_basin` à 250mb via PowerfulJS dans `basin_capacity.js`.
 - **Mise à jour Mob Stats** : Ajustement des multiplicateurs pour Twilight Forest (1.5x) et Aether (Valkyrie Queen/Sun Spirit 2.0x, Slider 1.2x) dans `mob_stats.js`.
+- **Note (Casting Basin)**: Attempt to fix capacity via PowerfulJS aborted due to critical crash with Immersive Melodies.
 
 ## [Unreleased] - 2026-03-17
 ### Optimized / Optimisé
