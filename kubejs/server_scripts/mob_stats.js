@@ -19,7 +19,7 @@ const BOSS_DATA = {
     'minecraft:ender_dragon': { hp: 2000.0 },
     'minecraft:warden': { hp: 1000.0 },
 
-    // Twilight Forest
+    // --- Twilight Forest (Balanced for Arcadia V2) ---
     'twilightforest:naga': { mult: 1.5 },
     'twilightforest:lich': { mult: 1.5 },
     'twilightforest:minoshroom': { mult: 1.5 },
@@ -30,7 +30,7 @@ const BOSS_DATA = {
     'twilightforest:snow_queen': { mult: 1.5 },
     'twilight_forest_final_boss:castle_keeper': { mult: 8.0 },
 
-    // Aether
+    // --- Aether (Balanced for Arcadia V2) ---
     'aether:slider': { mult: 1.2 },
     'aether:valkyrie_queen': { mult: 2.0 },
     'aether:sun_spirit': { mult: 2.0 },
