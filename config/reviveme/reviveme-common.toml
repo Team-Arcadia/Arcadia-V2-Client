@@ -3,6 +3,8 @@
 Item_User = "BOTH"
 #If debug mode should be activated (just for testing and troubleshooting)
 Debug_Mode = false
+#If Revive Me is enabled
+Revive_Me_Enabled = true
 
 	["Self-Revive Settings"."General Settings"]
 		#List of all your self-revive options EXCEPT revive items (Duplicate options are allowed, can be empty). Self-revive options refresh from this list when the revive penalty ends. OPTIONS: 'CHANCE', 'RANDOM_ITEMS', 'KILL', 'STATUS_EFFECTS', 'EXPERIENCE'
@@ -144,13 +146,16 @@ Debug_Mode = false
 		# Range: > -1
 		PVP_Timer = 10
 
-	["Fallen State Settings"."Movement Settings"]
+	["Fallen State Settings"."Movement & Camera Settings"]
 		#What pose you have whilst fallen
 		#Allowed Values: CROUCH, PRONE, SLEEP
 		Fallen_Pose = "CROUCH"
+		#What perspective you have whilst fallen
+		#Allowed Values: DEFAULT, THIRD_PERSON, R_THIRD_PERSON, FIRST_PERSON
+		Fallen_Perspective = "DEFAULT"
 		#If the player may jump while fallen
 		#Allowed Values: YES, LIQUID_ONLY, NO
-		Can_Jump = "LIQUID_ONLY"
+		Can_Jump = "YES"
 		#If the player may move while fallen
 		Can_Move = true
 
@@ -169,13 +174,17 @@ Debug_Mode = false
 		Revert_Effects_On_Revive = false
 		#What effects you won't gain back on revive. Add "//" to make it a whitelist instead. Add ';MobEffectCategory;' to block/allow effect categories. Usage: (ModId:PotionEffect) 'minecraft:slowness' or 'slowness' or 'minecraft'. Usage2: (MobEffectCategory) ';HARMFUL;' or ';NEUTRAL;' or ';BENEFICIAL;'
 		Revert_Effect_Blacklist = ["revive_me"]
+		#If revive progress resets when damage is taken
+		Reset_Revive_On_Hit = true
+		#If the reviver must look at the revivee to revive them
+		Reviver_Must_look = true
 
 	["Revive Settings"."Reviver Settings"]
 		#How long to revive someone
 		# Default: 3
 		# Range: > 0
 		Revive_Time = 6
-		#What the reviver will lose
+		#What the reviver will lose (Reviver can use ITEM without it being selected. Selecting ITEM while Revive Items are disabled will disable this revive option.)
 		#Allowed Values: NONE, HEALTH, EXPERIENCE, FOOD, ITEM
 		Penalty_Type = "FOOD"
 		#Amount that will be taken from reviver, Numbers below 1 and greater than 0 will turn it into a percentage

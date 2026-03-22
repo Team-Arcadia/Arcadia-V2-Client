@@ -36,6 +36,7 @@ StartupEvents.registry('creative_mode_tab', event => {
             'arcadia:music_disc_dans_la_tavern_lulu',
             'arcadia:music_disc_janette',
             'arcadia:music_disc_la_boulette_pt1',
-            'arcadia:music_disc_la_boulette_pt2'
+            'arcadia:music_disc_la_boulette_pt2',
+            'arcadia:music_disc_au_pactole'
         ]);
 });

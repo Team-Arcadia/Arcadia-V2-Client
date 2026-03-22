@@ -1,5 +1,10 @@
 # Journal des modifications
 
+## [Unreleased] - 2026-03-22
+### Added / Ajouté
+- **Music Disc Creative Tab Fix**: Added missing `arcadia:music_disc_au_pactole` to the Arcadia creative tab.
+- **Correction Menu Créatif** : Ajout du disque `arcadia:music_disc_au_pactole` manquant dans l'onglet créatif Arcadia.
+
 ## [Unreleased] - 2026-03-17
 ### Optimized / Optimisé
 - **Mob Stats Optimization**: Completely refactored `mob_stats.js` for KubeJS 1.21.1.

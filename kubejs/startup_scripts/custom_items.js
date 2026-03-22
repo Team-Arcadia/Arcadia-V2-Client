@@ -15,7 +15,7 @@ StartupEvents.registry('item', event => {
     event.create('arcadia:vote_key').texture('arcadia:item/vote_key');
     event.create('arcadia:token_casino').texture('arcadia:item/token_casino');
 
-    // Music Discs (19 tracks)
+    // Music Discs (20 tracks)
     const discs = [
         'mike_le_loulou', 'vyrriox_trois_femmes', 'vyrriox_sac_a_gros_pt1', 'vyrriox_sac_a_gros_pt2',
         'vyrriox_patee', 'vyrriox_la_naine_pt1', 'vyrriox_la_naine_pt2', 'vyrriox_la_naine_pt3',
