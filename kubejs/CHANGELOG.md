@@ -6,6 +6,8 @@
 - **Correction Menu Créatif** : Ajout du disque `arcadia:music_disc_au_pactole` manquant dans l'onglet créatif Arcadia.
 - **Global Tags Addition**: Created `global_tags.js` to add refined organizational tags (`c:`) to various vanilla and modded items for easier sorting.
 - **Ajout de Tags Globaux** : Création de `global_tags.js` pour ajouter des tags d'organisation affinés (`c:`) à divers objets vanilla et moddés pour faciliter le tri.
+- **Backtank Ban**: Completely removed Create and Create Goggles Backtanks from the game (recipes, loot, inventory removal, creative menu).
+- **Bannissement des Backtanks** : Retrait total des Backtanks de Create et Create Goggles (recettes, coffres, inventaire, menu créatif).
 
 ## [Unreleased] - 2026-03-17
 ### Optimized / Optimisé

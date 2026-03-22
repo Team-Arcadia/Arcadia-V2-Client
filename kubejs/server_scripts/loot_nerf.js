@@ -322,6 +322,15 @@ LootJS.modifiers((event) => {
 
     // Ars Nouveau
     "ars_nouveau:planarium",
+
+    // Backtanks (Banned)
+    "creategoggles:chainmail_backtank",
+    "creategoggles:diamond_backtank",
+    "creategoggles:golden_backtank",
+    "creategoggles:iron_backtank",
+    "creategoggles:leather_backtank",
+    "create:copper_backtank",
+    "create:netherite_backtank",
   ];
   chest.removeLoot(bannedItems);
 

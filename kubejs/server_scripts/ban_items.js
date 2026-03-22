@@ -105,7 +105,6 @@ const BANNED_ITEMS = [
   "mekanism:meka_tool",
   "mekanism:portable_teleporter",
   "mekanism:portable_qio_dashboard",
-  "mekanism:gauge_dropper",
   "mekanism:canteen",
   "mekanism:creative_bin",
   "mekanism:cardboard_box",
@@ -160,6 +159,15 @@ const BANNED_ITEMS = [
   "computercraft:turtle_advanced",
   // Ars Nouveau
   "ars_nouveau:planarium",
+
+  // Backtanks (Banned)
+  "creategoggles:chainmail_backtank",
+  "creategoggles:diamond_backtank",
+  "creategoggles:golden_backtank",
+  "creategoggles:iron_backtank",
+  "creategoggles:leather_backtank",
+  "create:copper_backtank",
+  "create:netherite_backtank",
 ];
 
 PlayerEvents.inventoryChanged((event) => {

@@ -156,6 +156,15 @@ StartupEvents.modifyCreativeTab("minecraft:search", (event) => {
         // ComputerCraft
         "computercraft:turtle_normal",
         "computercraft:turtle_advanced",
+
+        // Backtanks (Banned)
+        "creategoggles:chainmail_backtank",
+        "creategoggles:diamond_backtank",
+        "creategoggles:golden_backtank",
+        "creategoggles:iron_backtank",
+        "creategoggles:leather_backtank",
+        "create:copper_backtank",
+        "create:netherite_backtank",
     ];
 
     hiddenItems.forEach((item) => event.remove(item));
@@ -253,6 +262,11 @@ StartupEvents.modifyCreativeTab("computercraft:main", (event) => {
 
 StartupEvents.modifyCreativeTab("creategoggles:main", (event) => {
     event.remove("creategoggles:module_goggle_unit");
+    event.remove("creategoggles:chainmail_backtank");
+    event.remove("creategoggles:diamond_backtank");
+    event.remove("creategoggles:golden_backtank");
+    event.remove("creategoggles:iron_backtank");
+    event.remove("creategoggles:leather_backtank");
 });
 
 StartupEvents.modifyCreativeTab("sophisticatedbackpacks:backpacks", (event) => {
