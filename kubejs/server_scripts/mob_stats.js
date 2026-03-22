@@ -20,20 +20,20 @@ const BOSS_DATA = {
     'minecraft:warden': { hp: 1000.0 },
 
     // Twilight Forest
-    'twilightforest:naga': { mult: 1.2 },
-    'twilightforest:lich': { mult: 1.2 },
-    'twilightforest:minoshroom': { mult: 1.2 },
-    'twilightforest:hydra': { mult: 1.2 },
-    'twilightforest:knight_phantom': { mult: 1.2 },
-    'twilightforest:ur_ghast': { mult: 1.2 },
-    'twilightforest:alpha_yeti': { mult: 1.2 },
-    'twilightforest:snow_queen': { mult: 1.2 },
-    'twilight_forest_final_boss:castle_keeper': { mult: 4.0 },
+    'twilightforest:naga': { mult: 1.5 },
+    'twilightforest:lich': { mult: 1.5 },
+    'twilightforest:minoshroom': { mult: 1.5 },
+    'twilightforest:hydra': { mult: 1.5 },
+    'twilightforest:knight_phantom': { mult: 1.5 },
+    'twilightforest:ur_ghast': { mult: 1.5 },
+    'twilightforest:alpha_yeti': { mult: 1.5 },
+    'twilightforest:snow_queen': { mult: 1.5 },
+    'twilight_forest_final_boss:castle_keeper': { mult: 8.0 },
 
     // Aether
-    'aether:slider': { mult: 1.5 },
-    'aether:valkyrie_queen': { mult: 1.5 },
-    'aether:sun_spirit': { mult: 1.5 },
+    'aether:slider': { mult: 1.2 },
+    'aether:valkyrie_queen': { mult: 2.0 },
+    'aether:sun_spirit': { mult: 2.0 },
 
     // Ars Nouveau
     'ars_nouveau:wilden_boss': { mult: 1.2 },
@@ -42,18 +42,18 @@ const BOSS_DATA = {
     'ars_nouveau:wilden_hunter': { mult: 1.2 },
 
     // Deeper and Darker
-    'deeperdarker:shriek_worm': { mult: 1.4 },
-    'deeperdarker:stalker': { mult: 1.4 },
-    'deeperdarker:sculk_snapper': { mult: 1.4 },
-    'deeperdarker:shattered': { mult: 1.4 },
+    'deeperdarker:shriek_worm': { mult: 1.8 },
+    'deeperdarker:stalker': { mult: 1.8 },
+    'deeperdarker:sculk_snapper': { mult: 1.8 },
+    'deeperdarker:shattered': { mult: 1.8 },
 
     // Iron's Spells 'n Spellbooks
-    'irons_spellbooks:dead_king': { mult: 1.2 },
-    'irons_spellbooks:dead_king_corpse': { mult: 1.2 },
-    'irons_spellbooks:archevoker': { mult: 1.2 },
-    'irons_spellbooks:necromancer': { mult: 1.2 },
-    'irons_spellbooks:priest': { mult: 1.2 },
-    'irons_spellbooks:citadel_keeper': { mult: 1.2 },
+    'irons_spellbooks:dead_king': { mult: 1.9 },
+    'irons_spellbooks:dead_king_corpse': { mult: 1.9 },
+    'irons_spellbooks:archevoker': { mult: 1.9 },
+    'irons_spellbooks:necromancer': { mult: 1.9 },
+    'irons_spellbooks:priest': { mult: 1.9 },
+    'irons_spellbooks:citadel_keeper': { mult: 1.9 },
 
     // Mutant Monsters
     'mutantmonsters:mutant_creeper': { mult: 1.2 },
@@ -64,16 +64,16 @@ const BOSS_DATA = {
     'mutantmonsters:spider_pig': { mult: 1.2 },
 
     // Mowzie's Mobs
-    'mowziesmobs:ferrous_wroughtnaut': { mult: 1.2 },
-    'mowziesmobs:frostmaw': { mult: 1.2 },
-    'mowziesmobs:naga': { mult: 1.2 },
-    'mowziesmobs:umvuthi': { mult: 1.2 },
+    'mowziesmobs:ferrous_wroughtnaut': { mult: 2.0 },
+    'mowziesmobs:frostmaw': { mult: 2.0 },
+    'mowziesmobs:naga': { mult: 2.0 },
+    'mowziesmobs:umvuthi': { mult: 2.0 },
 
     // Knight Quest
-    'knightquest:netherman': { mult: 1.2 },
-    'knightquest:eldknight': { mult: 1.2 },
-    'knightquest:ratman': { mult: 1.2 },
-    'knightquest:swampman': { mult: 1.2 }
+    'knightquest:netherman': { mult: 1.5 },
+    'knightquest:eldknight': { mult: 1.5 },
+    'knightquest:ratman': { mult: 1.5 },
+    'knightquest:swampman': { mult: 1.5 }
 };
 
 /**

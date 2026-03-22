@@ -5,13 +5,13 @@
 - **Music Disc Creative Tab Fix**: Added missing `arcadia:music_disc_au_pactole` to the Arcadia creative tab.
 - **Correction Menu Créatif** : Ajout du disque `arcadia:music_disc_au_pactole` manquant dans l'onglet créatif Arcadia.
 - **Global Tags Addition**: Created `global_tags.js` to add refined organizational tags (`c:`) to various vanilla and modded items for easier sorting.
-- **Ajout de Tags Globaux** : Création de `global_tags.js` pour ajouter des tags d'organisation affinés (`c:`) à divers objets vanilla et moddés pour faciliter le tri.
-- **Backtank Ban**: Completely removed Create and Create Goggles Backtanks from the game (recipes, loot, inventory removal, creative menu).
 - **Bannissement des Backtanks** : Retrait total des Backtanks de Create et Create Goggles (recettes, coffres, inventaire, menu créatif).
 - **ATM Recipe**: Added a high-tech crafting recipe for `arcadia:atm` using Create components in `arcadia_recipes.js`.
-- **Investigation: Casting Basin**: Researched capacity modification for `tfmg:casting_basin` (144mb default is hardcoded).
+- **Casting Basin Capacity (PowerfulJS)**: Successfully increased `tfmg:casting_basin` capacity to 250mB using PowerfulJS in `basin_capacity.js`.
+- **Mob Stats Update**: Refined boss multipliers for Twilight Forest (1.5x) and Aether (Valkyrie Queen/Sun Spirit 2.0x, Slider 1.2x) in `mob_stats.js`.
 - **Recette de l'ATM** : Ajout d'une recette de fabrication haute technologie pour `arcadia:atm` utilisant des composants Create dans `arcadia_recipes.js`.
-- **Investigation : Casting Basin** : Recherche sur la modification de capacité du `tfmg:casting_basin` (la valeur par défaut de 144mb est codée en dur).
+- **Capacité du Casting Basin (PowerfulJS)** : Augmentation réussie de la capacité du `tfmg:casting_basin` à 250mb via PowerfulJS dans `basin_capacity.js`.
+- **Mise à jour Mob Stats** : Ajustement des multiplicateurs pour Twilight Forest (1.5x) et Aether (Valkyrie Queen/Sun Spirit 2.0x, Slider 1.2x) dans `mob_stats.js`.
 
 ## [Unreleased] - 2026-03-17
 ### Optimized / Optimisé
