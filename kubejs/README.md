@@ -14,6 +14,7 @@ Custom scripts for the Arcadia V2 modpack to balance gameplay.
 - **NPC Protection Reinforcement**: Blocks leads, fishing rods, vehicles, and knockback for Easy NPCs in the spawn area via `npc_protection.js`. (Block protection managed by Yawp).
 - **Global Tags for Sorting**: Organized various items (Netherite scraps, Redstone components, Mob drops) using standardized `c:` categories for better storage management in `global_tags.js`.
 - **FTB Chunks Limits**: Configured maximum claimed chunks to 500 and force-loaded chunks to 1 in `ftbchunks-world.snbt`.
+- **ATM Recipe**: Added a high-tech crafting recipe for `arcadia:atm` using Create components in `arcadia_recipes.js`.
 
 ## Authors
 - vyrriox
@@ -37,6 +38,7 @@ Scripts personnalisés pour le modpack Arcadia V2 afin d'équilibrer le gameplay
 - **Protection PNJ Renforcée** : Bloque les laisses, cannes à pêche, véhicules et le recul pour les NPC au spawn via `npc_protection.js`. (Protection des blocs gérée par Yawp).
 - **Tags Globaux pour le Tri** : Organisation de divers objets (déchets de netherite, composants redstone, loots de mobs) via des catégories standardisées `c:` pour les systèmes de stockage dans `global_tags.js`.
 - **Limites FTB Chunks** : Limitation à 500 claims et 1 chunk load forcé dans `ftbchunks-world.snbt`.
+- **Recette de l'ATM** : Ajout d'une recette de fabrication haute technologie pour `arcadia:atm` utilisant des composants Create dans `arcadia_recipes.js`.
 
 ## Auteurs
 - vyrriox

@@ -8,6 +8,10 @@
 - **Ajout de Tags Globaux** : Création de `global_tags.js` pour ajouter des tags d'organisation affinés (`c:`) à divers objets vanilla et moddés pour faciliter le tri.
 - **Backtank Ban**: Completely removed Create and Create Goggles Backtanks from the game (recipes, loot, inventory removal, creative menu).
 - **Bannissement des Backtanks** : Retrait total des Backtanks de Create et Create Goggles (recettes, coffres, inventaire, menu créatif).
+- **ATM Recipe**: Added a high-tech crafting recipe for `arcadia:atm` using Create components in `arcadia_recipes.js`.
+- **Investigation: Casting Basin**: Researched capacity modification for `tfmg:casting_basin` (144mb default is hardcoded).
+- **Recette de l'ATM** : Ajout d'une recette de fabrication haute technologie pour `arcadia:atm` utilisant des composants Create dans `arcadia_recipes.js`.
+- **Investigation : Casting Basin** : Recherche sur la modification de capacité du `tfmg:casting_basin` (la valeur par défaut de 144mb est codée en dur).
 
 ## [Unreleased] - 2026-03-17
 ### Optimized / Optimisé
