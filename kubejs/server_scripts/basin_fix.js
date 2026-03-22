@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
             // Check each ingredient for fluid amount
             ingredients.forEach(ing => {
                 if (ing.has('fluid') && ing.has('amount')) {
-                    let amount = ing.get('amount').asInt()
+                    let amount = ing.get('amount')
                     if (amount > 140) {
                         ing.addProperty('amount', 140)
                         count++
