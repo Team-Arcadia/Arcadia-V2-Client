@@ -13,11 +13,21 @@
 		{
 			dependencies: ["2463D78A94248D44"]
 			id: "118508ABA596D292"
-			rewards: [{
-				id: "37665533B8991EEF"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "37665533B8991EEF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0A5D9D31FE424C70"
+					item: {
+						count: 1
+						id: "waystones:waystone"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4F33BC8FD3AD6193"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(waystones:waystones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }

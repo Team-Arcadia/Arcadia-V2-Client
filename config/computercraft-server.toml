@@ -11,7 +11,7 @@ upload_max_size = 524288
 #Set how many files a computer can have open at the same time. Set to 0 for unlimited.
 # Default: 128
 # Range: > 0
-maximum_open_files = 128
+maximum_open_files = 64
 #A comma separated list of default system settings to set on new computers.
 #Example: "shell.autocomplete=false,lua.autocomplete=false,edit.autocomplete=false"
 #will disable all autocompletion.
@@ -194,7 +194,7 @@ disabled_generic_methods = []
 	#Set to 0 to disable.
 	# Default: 1000000
 	# Range: > 0
-	monitor_bandwidth = 1000000
+	monitor_bandwidth = 500000
 
 #Various options relating to turtles.
 [turtle]

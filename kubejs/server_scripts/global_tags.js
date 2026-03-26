@@ -44,10 +44,24 @@ ServerEvents.tags('item', event => {
     event.add('c:trial_keys', 'minecraft:trial_key');
     event.add('c:totems', 'minecraft:totem_of_undying');
 
-    // 8. Currency (Dusty Decorations)
+    // 8. End & Sculk
+    event.add('c:saddles', 'minecraft:saddle');
+    event.add('c:sculk', ['minecraft:sculk', 'minecraft:sculk_catalyst', 'minecraft:sculk_shrieker', 'minecraft:sculk_vein']);
+    event.add('c:sculk_sensors', 'minecraft:sculk_sensor');
+    event.add('c:shulker_shells', 'minecraft:shulker_shell');
+    event.add('c:popped_chorus_fruits', 'minecraft:popped_chorus_fruit');
+    event.add('c:end_rods', 'minecraft:end_rod');
+    event.add('c:echo_shards', 'minecraft:echo_shard');
+    event.add('c:respawn_anchors', 'minecraft:respawn_anchor');
+
+    // 9. Brewing & Misc
+    event.add('c:fermented_spider_eyes', 'minecraft:fermented_spider_eye');
+    event.add('c:hoppers', 'minecraft:hopper');
+
+    // 10. Currency (Dusty Decorations)
     event.add('c:currencies/gold_coins', 'dustydecorations:scattered_gold_coins');
 
-    // 9. Redstone & Pistons
+    // 11. Redstone & Pistons
     event.add('c:pistons', ['minecraft:sticky_piston', 'minecraft:piston']);
     event.add('c:levers', 'minecraft:lever');
     event.add('c:redstone_components', [

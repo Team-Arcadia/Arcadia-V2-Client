@@ -3,7 +3,7 @@
 	#Maximum storage lectern linking range
 	# Default: 30
 	# Range: > 1
-	lecternLinkRange = 30
+	lecternLinkRange = 10
 	#Maximum range of the decor blossom
 	# Default: 30
 	# Range: > 1
@@ -22,7 +22,7 @@
 	#How often max and regen will be calculated, in ticks. NOTE: Having the base mana regen AT LEAST this value is recommended.
 	# Default: 5
 	# Range: 1 ~ 20
-	updateInterval = 5
+	updateInterval = 10
 	#Max mana bonus per glyph
 	# Default: 15
 	# Range: > 0

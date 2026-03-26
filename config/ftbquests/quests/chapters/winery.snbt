@@ -163,11 +163,19 @@
 		{
 			dependencies: ["1B0E807A5CF04F6D"]
 			id: "70788512913E6E49"
-			rewards: [{
-				id: "1E3C854A0A092767"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "1E3C854A0A092767"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72E5EF8ABCFD7E7D"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "59541939C7F89E29"
 				item: { count: 1, id: "create_winery:pinot_noir" }
@@ -179,11 +187,19 @@
 		{
 			dependencies: ["1B0E807A5CF04F6D"]
 			id: "2DEE60485B5FBED3"
-			rewards: [{
-				id: "41128D628B2E86FA"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "41128D628B2E86FA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E177FF1FAB3B0BE"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "1A1F7994639D2AE5"
 				item: { count: 1, id: "create_winery:zinfandel" }
@@ -195,11 +211,19 @@
 		{
 			dependencies: ["1B0E807A5CF04F6D"]
 			id: "51446597A367B55E"
-			rewards: [{
-				id: "4500EC14EA6B6214"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "4500EC14EA6B6214"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "753B98EF314BC955"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "5DDE3BE652653296"
 				item: { count: 1, id: "create_winery:bordeaux" }
@@ -211,11 +235,19 @@
 		{
 			dependencies: ["1B0E807A5CF04F6D"]
 			id: "7CF455AA210FE0C5"
-			rewards: [{
-				id: "7916502420B55332"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "7916502420B55332"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B245F601EE070AC"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "3D961686B0CA993D"
 				item: { count: 1, id: "create_winery:merlot" }
@@ -227,11 +259,19 @@
 		{
 			dependencies: ["1B0E807A5CF04F6D"]
 			id: "4E1696F8AB19005F"
-			rewards: [{
-				id: "485F068544CBD0E0"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "485F068544CBD0E0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1139237A4708C03D"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "53AE1C9D9C0ACDCF"
 				item: { count: 1, id: "create_winery:cabernet_sauvignon" }
@@ -246,11 +286,19 @@
 				"36F45ECD8C10FC5F"
 			]
 			id: "602DFC02A4BC5890"
-			rewards: [{
-				id: "5A32F21E72E4457D"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "5A32F21E72E4457D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5323C52506FB9EF7"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "04AD037749985626"
 				item: { count: 1, id: "create_winery:rose" }
@@ -262,11 +310,19 @@
 		{
 			dependencies: ["3EFDD3F3EA8C9F24"]
 			id: "4B854A9030345FEC"
-			rewards: [{
-				id: "5A1ED498B742D8AC"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "5A1ED498B742D8AC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DC6A916DB137C1A"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "482D3E14600AB6C2"
 				item: { count: 1, id: "create_winery:cider" }
@@ -278,11 +334,19 @@
 		{
 			dependencies: ["36F45ECD8C10FC5F"]
 			id: "0F632D914ED16546"
-			rewards: [{
-				id: "20A2A77B397CFB3B"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "20A2A77B397CFB3B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DBE2FC946CD5328"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "77316EBFF75DD082"
 				item: { count: 1, id: "create_winery:champaign" }
@@ -294,11 +358,19 @@
 		{
 			dependencies: ["36F45ECD8C10FC5F"]
 			id: "6343FCDD90F0CFA3"
-			rewards: [{
-				id: "77D0A7F01EBBCCC0"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "77D0A7F01EBBCCC0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A9E1B0CA8C2444D"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "4DAD6BA720DF4057"
 				item: { count: 1, id: "create_winery:chardonnay" }
@@ -310,11 +382,19 @@
 		{
 			dependencies: ["36F45ECD8C10FC5F"]
 			id: "17FAA377D634CE2C"
-			rewards: [{
-				id: "18C3DA09EF8631F9"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "18C3DA09EF8631F9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F92483F456295B0"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "4D62ED11CBAD562E"
 				item: { count: 1, id: "create_winery:riesling" }

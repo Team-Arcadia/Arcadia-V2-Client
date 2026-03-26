@@ -1,111 +1,83 @@
 // Priority: 900
 
 /*
-    NPC Protection Script (Ultra-Optimized)
-    Prevents Easy NPC entities from being displaced by any means (Leads, Spells, Fishing Rods).
-    Approach: Track NPCs in a list and freeze them every tick.
+    NPC Protection Script
+    Prevents Easy NPC entities from being interacted with via Leads, Ender Leads, Fishing Rods.
+    NPCs must remain KILLABLE - never apply Resistance/Regeneration to them.
+    Spell blocking (Ars Nouveau, Iron's Spells, Simply Swords) is handled by spawn_movement_block.js.
     Author: vyrriox
 */
 
 (function() {
     const SPAWN_DIM = "arcadia:spawn";
-    const FORBIDDEN_NPC_ITEMS = [
+    const FORBIDDEN_NPC_ITEMS_SET = new Set([
         "apothic_enchanting:ender_lead",
         "apothic_enchanting:flimsy_ender_lead",
         "apothic_enchanting:occult_ender_lead",
         "minecraft:lead",
         "minecraft:fishing_rod"
-    ];
-    const NPC_CLEANUP_EFFECTS = ["minecraft:resistance", "minecraft:regeneration", "minecraft:invisibility"];
+    ]);
 
-    let protectedNpcs = [];
+    // Effects to strip on spawn (safety net - root cause fixed in spawn_protection.js)
+    const NPC_HARMFUL_EFFECTS = [
+        "minecraft:resistance",
+        "minecraft:regeneration",
+        "minecraft:invisibility",
+        "minecraft:levitation",
+        "minecraft:slow_falling"
+    ];
 
     function isEasyNpc(entity) {
         if (!entity || !entity.type) return false;
         return String(entity.type).startsWith("easy_npc:");
     }
 
-    function isInSpawn(entity) {
-        if (!entity || !entity.level) return false;
-        return String(entity.level.dimension) === SPAWN_DIM;
-    }
+    // --- EFFECT CLEANUP: Strip harmful effects when NPCs spawn ---
+    EntityEvents.spawned(event => {
+        if (!event.entity || !event.entity.level) return;
+        if (String(event.entity.level.dimension) !== SPAWN_DIM) return;
+        if (!isEasyNpc(event.entity)) return;
 
-    // --- TRACKING ---
-    // Update list periodically to avoid memory leaks and find new NPCs
-    LevelEvents.tick(event => {
-        const { level, server } = event;
-        
-        // Comprehensive refresh every 5 seconds (100 ticks)
-        if (server.tickCount % 100 === 0 && String(level.dimension) === SPAWN_DIM) {
-            protectedNpcs = level.getEntities().filter(e => isEasyNpc(e));
-        }
-
-        // --- TICK ANCHORING ---
-        // Run every tick but only on already filtered NPCs (Highly performant)
-        if (String(level.dimension) === SPAWN_DIM) {
-            protectedNpcs.forEach(entity => {
-                if (!entity || !entity.isAlive()) return;
-
-                // Eject passengers
-                if (entity.isPassenger()) {
-                    entity.stopRiding();
-                }
-
-                // Rigid Anchoring
-                let vel = entity.deltaMovement;
-                if (vel && (Math.abs(vel.x()) > 0.001 || Math.abs(vel.z()) > 0.001)) {
-                    entity.motionX = 0;
-                    entity.motionZ = 0;
-                    entity.setPosition(entity.x, entity.y, entity.z);
-                }
-
-                // --- EFFECT CLEANUP (Every 5 seconds) ---
-                if (server.tickCount % 100 === 0) {
-                    NPC_CLEANUP_EFFECTS.forEach(eff => {
-                        try {
-                            entity.potionEffects.remove(eff);
-                        } catch (e) {}
-                    });
-                }
-            });
+        for (let i = 0; i < NPC_HARMFUL_EFFECTS.length; i++) {
+            try { event.entity.potionEffects.remove(NPC_HARMFUL_EFFECTS[i]); } catch (e) {}
         }
     });
 
     // --- INTERACTION BLOCKING ---
     ItemEvents.rightClicked(event => {
-        const { item, player, level } = event;
-        if (level && String(level.dimension) === SPAWN_DIM && String(item.id).includes("ender_lead")) {
+        if (!event.level || String(event.level.dimension) !== SPAWN_DIM) return;
+        if (String(event.item.id).includes("ender_lead")) {
             event.cancel();
-            player.tell(Text.red(`[Arcadia] L'utilisation des Ender Leads est totalement bloquée au spawn ! | Ender Leads are forbidden at spawn!`));
+            event.player.tell(Text.red("[Arcadia] Les Ender Leads sont interdits au spawn ! | Ender Leads are forbidden at spawn!"));
         }
     });
 
     BlockEvents.rightClicked(event => {
-        const { item, player, block } = event;
-        if (block && String(block.dimension) === SPAWN_DIM && String(item.id).includes("ender_lead")) {
+        if (!event.block || String(event.block.dimension) !== SPAWN_DIM) return;
+        if (String(event.item.id).includes("ender_lead")) {
             event.cancel();
-            player.tell(Text.red(`[Arcadia] L'utilisation des Ender Leads est totalement bloquée au spawn ! | Ender Leads are forbidden at spawn!`));
+            event.player.tell(Text.red("[Arcadia] Les Ender Leads sont interdits au spawn ! | Ender Leads are forbidden at spawn!"));
         }
     });
 
     ItemEvents.entityInteracted(event => {
         const { item, target, player } = event;
-        if (!isInSpawn(target)) return;
-        
+        if (!target || !target.level || String(target.level.dimension) !== SPAWN_DIM) return;
+
         const itemId = String(item.id);
 
         if (itemId.includes("ender_lead")) {
             event.cancel();
-            player.tell(Text.red(`[Arcadia] L'utilisation des Ender Leads est totalement bloquée au spawn ! | Ender Leads are forbidden at spawn!`));
+            player.tell(Text.red("[Arcadia] Les Ender Leads sont interdits au spawn ! | Ender Leads are forbidden at spawn!"));
             return;
         }
 
-        if (FORBIDDEN_NPC_ITEMS.some(id => itemId === id) && isEasyNpc(target)) {
+        if (FORBIDDEN_NPC_ITEMS_SET.has(itemId) && isEasyNpc(target)) {
             event.cancel();
-            player.tell(Text.red(`[Arcadia] Impossible d'utiliser cet objet sur un PNJ ! | Practicality forbidden on NPCs!`));
+            player.tell(Text.red("[Arcadia] Impossible d'utiliser cet objet sur un PNJ ! | Cannot use this item on NPCs!"));
         }
     });
 
 })();
 
-console.info("[Arcadia V2] NPC Anchoring system active (Ultra-Performance with Lead protection).");
+console.info("[Arcadia V2] NPC Protection active (interaction blocking + effect cleanup on spawn).");

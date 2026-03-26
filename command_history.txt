@@ -1,21 +1,3 @@
-/summon mutantmonsters:mutant_snow_golem
-/summon mutantmonsters:spider_pig
-/summon irons_spellbooks:dead_king
-/summon irons_spellbooks:dead_king_corpse
-/summon irons_spellbooks:archevoker
-/summon irons_spellbooks:keeper
-/summon irons_spellbooks:necromancer
-/summon irons_spellbooks:priest
-/summon irons_spellbooks:citadel_keeper
-/summon deeperdarker:shriek_worm
-/summon deeperdarker:stalker
-/summon deeperdarker:sculk_snapper
-/summon deeperdarker:shattered
-/summon minecraft:warden
-/summon ars_nouveau:wilden_boss
-/summon ars_nouveau:wilden_chimera
-/summon ars_nouveau:wilden_guardian
-/summon ars_nouveau:wilden_stalker
 /summon ars_nouveau:wilden_hunter
 /summon aether:slider
 /summon aether:valkyrie_queen
@@ -48,3 +30,21 @@
 /reload
 /kubejs hand
 /reload
+/kubejs inventory
+/clear
+/kubejs hand
+/reload
+/give vyrriox arcadia:atm
+/give vyrriox tfmg:casting_basin
+/summon minecraft:ender_dragon
+/kill @e
+/back
+/give vyrriox occultism:storage_controller
+/give vyrriox mekanism:atomic_disassembler
+/reload
+/give vyrriox mekanism:atomic_disassembler
+/ftbquests reload
+/sethome test
+/ftbquests reload
+/defaultoptions saveAll
+/ftbquests reload

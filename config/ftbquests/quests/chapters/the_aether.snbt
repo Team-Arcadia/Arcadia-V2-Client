@@ -206,7 +206,7 @@
 			y: 3.0d
 		}
 	]
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -316,15 +316,23 @@
 		{
 			dependencies: ["1000000000000003"]
 			id: "1000000000000004"
-			rewards: [{
-				count: 16
-				id: "1000000000000014"
-				item: {
-					count: 1
-					id: "minecraft:torch"
+			rewards: [
+				{
+					count: 16
+					id: "1000000000000014"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "30159B2337B2C041"
+					table_id: 4445458633717049509L
+					type: "random"
+				}
+			]
 			tasks: [{
 				id: "1000000000000024"
 				item: { count: 1, id: "aether:ambrosium_shard" }
@@ -538,15 +546,23 @@
 		{
 			dependencies: ["3000000000000002"]
 			id: "3000000000000004"
-			rewards: [{
-				count: 2
-				id: "3000000000000014"
-				item: {
-					count: 1
-					id: "aether:enchanted_gravitite"
+			rewards: [
+				{
+					count: 2
+					id: "3000000000000014"
+					item: {
+						count: 1
+						id: "aether:enchanted_gravitite"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "4BAC8648FC08629E"
+					table_id: 4445458633717049509L
+					type: "random"
+				}
+			]
 			tasks: [
 				{
 					id: "3000000000000024"
@@ -600,15 +616,23 @@
 		{
 			dependencies: ["3000000000000003"]
 			id: "6000000000000001"
-			rewards: [{
-				count: 7
-				id: "51246F4DF4B6CD12"
-				item: {
-					count: 1
-					id: "aether:enchanted_berry"
+			rewards: [
+				{
+					count: 7
+					id: "51246F4DF4B6CD12"
+					item: {
+						count: 1
+						id: "aether:enchanted_berry"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "0B45155C04342882"
+					table_id: 4445458633717049509L
+					type: "random"
+				}
+			]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -747,14 +771,22 @@
 		{
 			dependencies: ["4000000000000003"]
 			id: "5000000000000001"
-			rewards: [{
-				id: "5000000000000011"
-				item: {
-					count: 1
-					id: "aether:ice_pendant"
+			rewards: [
+				{
+					id: "5000000000000011"
+					item: {
+						count: 1
+						id: "aether:ice_pendant"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "0E0024D18BB8F40B"
+					table_id: 4445458633717049509L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -944,11 +976,19 @@
 		{
 			dependencies: ["6000000000000004"]
 			id: "6000000000000005"
-			rewards: [{
-				id: "12B8629B13606DC9"
-				type: "xp"
-				xp: 307
-			}]
+			rewards: [
+				{
+					id: "12B8629B13606DC9"
+					type: "xp"
+					xp: 307
+				}
+				{
+					exclude_from_claim_all: true
+					id: "508641CBEB02B5FA"
+					table_id: 4445458633717049509L
+					type: "random"
+				}
+			]
 			tasks: [
 				{
 					id: "6000000000000025"

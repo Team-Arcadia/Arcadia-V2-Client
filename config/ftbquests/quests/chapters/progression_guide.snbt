@@ -1,0 +1,931 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "progression_guide"
+	group: "70AB2085E1434295"
+	id: "4052CE04BE3AF97E"
+	images: [
+		{
+			alpha: 140
+			height: 5.0d
+			image: "minecraft:textures/item/compass_00.png"
+			order: -2
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.0d
+			y: 30.0d
+		}
+		{
+			alpha: 130
+			height: 4.0d
+			image: "minecraft:textures/item/book.png"
+			order: -2
+			rotation: 15.0d
+			width: 4.0d
+			x: -4.0d
+			y: 21.5d
+		}
+		{
+			alpha: 140
+			height: 4.0d
+			image: "minecraft:textures/item/diamond_sword.png"
+			order: -2
+			rotation: 30.0d
+			width: 4.0d
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			alpha: 100
+			height: 3.0d
+			image: "minecraft:textures/item/nether_star.png"
+			order: -2
+			rotation: -15.0d
+			width: 3.0d
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			height: 5.0d
+			image: "chipped:block/birch_log/nailed_birch_log"
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.0d
+			y: 25.5d
+		}
+		{
+			height: 5.0d
+			image: "chipped:block/birch_log/nailed_birch_log"
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.0d
+			y: 21.5d
+		}
+		{
+			height: 5.0d
+			image: "chipped:block/birch_log/nailed_birch_log"
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.0d
+			y: 17.5d
+		}
+		{
+			height: 5.0d
+			image: "chipped:block/birch_log/nailed_birch_log"
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.0d
+			y: 13.5d
+		}
+		{
+			height: 5.0d
+			image: "chipped:block/birch_log/nailed_birch_log"
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			height: 5.0d
+			image: "chipped:block/birch_log/nailed_birch_log"
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			height: 5.0d
+			image: "chipped:block/birch_log/nailed_birch_log"
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			height: 5.0d
+			image: "mcwfences:block/acacia_leaves"
+			rotation: 0.0d
+			width: 5.0d
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			height: 5.0d
+			image: "mcwfences:block/acacia_leaves"
+			rotation: 0.0d
+			width: 5.0d
+			x: 9.0d
+			y: -6.5d
+		}
+		{
+			height: 5.0d
+			image: "mcwfences:block/acacia_leaves"
+			rotation: 0.0d
+			width: 5.0d
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			height: 5.0d
+			image: "mcwfences:block/acacia_leaves"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			height: 5.0d
+			image: "mcwfences:block/acacia_leaves"
+			rotation: 0.0d
+			width: 5.0d
+			x: -6.0d
+			y: -10.5d
+		}
+		{
+			height: 5.0d
+			image: "mcwfences:block/acacia_leaves"
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			height: 5.0d
+			image: "mcwfences:block/acacia_leaves"
+			rotation: 0.0d
+			width: 5.0d
+			x: -4.0d
+			y: -10.5d
+		}
+		{
+			height: 5.0d
+			image: "mcwfences:block/acacia_leaves"
+			rotation: 0.0d
+			width: 5.0d
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			height: 5.0d
+			image: "mcwfences:block/acacia_leaves"
+			rotation: 0.0d
+			width: 5.0d
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			height: 5.0d
+			image: "mcwfences:block/acacia_leaves"
+			rotation: 0.0d
+			width: 5.0d
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			height: 5.0d
+			image: "mcwfences:block/acacia_leaves"
+			rotation: 0.0d
+			width: 5.0d
+			x: 4.0d
+			y: -10.5d
+		}
+		{
+			height: 5.0d
+			image: "mcwfences:block/acacia_leaves"
+			rotation: 0.0d
+			width: 5.0d
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			height: 5.0d
+			image: "mcwfences:block/acacia_leaves"
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			height: 5.0d
+			image: "mcwfences:block/acacia_leaves"
+			rotation: 0.0d
+			width: 5.0d
+			x: 8.0d
+			y: -10.5d
+		}
+		{
+			height: 5.0d
+			image: "mcwfences:block/acacia_leaves"
+			rotation: 0.0d
+			width: 5.0d
+			x: 5.0d
+			y: -2.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"48F19F6D47988804"
+				"62FEAE3499CF2181"
+				"6647D4FC69D0963F"
+				"5647D4FC69D0963E"
+				"4EC96B81D46D02DD"
+				"3EC96B81D46D02DC"
+				"6EC96B81D46D02DF"
+				"7647D4FC69D09640"
+				"5EC96B81D46D02DE"
+				"24D97D62C72206A2"
+				"2EC96B81D46D02DB"
+				"1EC96B81D46D02DA"
+			]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "04062133E1FC36A3"
+			rewards: [
+				{
+					id: "332A9EFE53C74839"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2833024B2EA8E134"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "77A7BE998B768DD7"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 26.0d
+		}
+		{
+			dependencies: [
+				"04062133E1FC36A3"
+				"6D09511D64DDC282"
+			]
+			icon: {
+				id: "minecraft:crafting_table"
+			}
+			id: "41D03BF30CAC8F2F"
+			rewards: [
+				{
+					id: "323F77963C639197"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FA3353D5509868B"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "32ADB73291F80B3B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"6943EC451A810470"
+				"68EAA68B812E82E6"
+			]
+			icon: {
+				id: "create:wrench"
+			}
+			id: "66251DDE98FB6EA7"
+			rewards: [
+				{
+					id: "30824F2936EF9B7C"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B8183694FD8975B"
+					table_id: 6569693363244268417L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "5798AF5B05EB52DD"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["7383F55402069A00"]
+			id: "5625C24210840096"
+			rewards: [
+				{
+					id: "0E270E690AC9D47C"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C44D64BCD164355"
+					table_id: 7799476301390908562L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "45CF3F6BD45FC614"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"71262350C772A177"
+				"62073FE3A817D611"
+			]
+			icon: {
+				id: "immersiveengineering:hammer"
+			}
+			id: "7383F55402069A00"
+			rewards: [
+				{
+					id: "1A3DF3432BCA6B7F"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C826E2CF0386282"
+					table_id: 7799476301390908562L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "23382A6290A6ECA3"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"05510D11ABAA5C22"
+				"60ECCCAB66AAC05D"
+				"33C69B5934BE4D64"
+				"66A450CAC07232E1"
+				"3AF1DC02E9A0010C"
+			]
+			icon: {
+				id: "mekanism:configurator"
+			}
+			id: "5B7691798717BA45"
+			rewards: [
+				{
+					id: "033C898CD0E210FB"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3EC4D96782A1F4E3"
+					table_id: 7799476301390908562L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "7602B720E6176D41"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"5625C24210840096"
+				"373EBEB2E96D9361"
+				"19B057DFF331E41C"
+				"67308C5DDF4A10D2"
+				"71F0E9C36AA02B46"
+				"12498F8B5740F66E"
+			]
+			icon: {
+				id: "irons_spellbooks:scroll"
+			}
+			id: "081D17FBF66616FF"
+			rewards: [
+				{
+					id: "4D82A8F8524488BD"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6540CAEC6001101A"
+					table_id: 7799476301390908562L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "312D947B28E26166"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 9.75d
+		}
+		{
+			dependencies: [
+				"66251DDE98FB6EA7"
+				"43E8912CB307E421"
+				"12A43F82FC67A289"
+				"6904EC449FBEE387"
+			]
+			icon: {
+				id: "refinedstorage:creative_controller"
+			}
+			id: "05510D11ABAA5C22"
+			rewards: [
+				{
+					id: "6D96824367E74588"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0077746B72D97217"
+					table_id: 6569693363244268417L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "442997FD24DD4911"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["683322B79AE2283B"]
+			icon: {
+				id: "minecraft:spawner"
+			}
+			id: "6943EC451A810470"
+			rewards: [
+				{
+					id: "1A52AA9668029CE9"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2326A9E32C4D3775"
+					table_id: 6569693363244268417L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "2574DA505078EBA8"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 20.15d
+		}
+		{
+			dependencies: [
+				"5B7691798717BA45"
+				"158F872A3A2C3650"
+			]
+			icon: {
+				id: "minecraft:enchanting_table"
+			}
+			id: "71262350C772A177"
+			rewards: [
+				{
+					id: "167208053153EF11"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45C4AAA3BD58D42B"
+					table_id: 7799476301390908562L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "7F6BD9A2AB6A12FE"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"69E4B2983945057D"
+				"6000000000000005"
+			]
+			icon: {
+				id: "aether:aether_portal_frame"
+			}
+			id: "7A59A67A7079DA1C"
+			rewards: [
+				{
+					id: "18136DCBF4487128"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67B13FF1622DD499"
+					table_id: 6569693363244268417L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "3D959C7BFADEB57C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"41D03BF30CAC8F2F"
+				"040B5158D75FA05F"
+				"7CA5B25764CACD81"
+			]
+			icon: {
+				id: "minecraft:netherrack"
+			}
+			id: "7B93433AFC09E0AD"
+			rewards: [
+				{
+					id: "2B5CAA3ADC48D799"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "087F669740046B35"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "2871F97A378E1610"
+				type: "checkmark"
+			}]
+			x: 1.9500000000000002d
+			y: 24.05d
+		}
+		{
+			dependencies: [
+				"7A59A67A7079DA1C"
+				"22467723769C23DA"
+				"38F31AD0B4DEAA71"
+				"733F17AA03976BCD"
+			]
+			icon: {
+				id: "deeperdarker:heart_of_the_deep"
+			}
+			id: "683322B79AE2283B"
+			rewards: [
+				{
+					id: "2EB1C56CDE781EDF"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48A7E3601C400755"
+					table_id: 6569693363244268417L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "526191D025D24436"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 20.150000000000002d
+		}
+		{
+			dependencies: [
+				"7B93433AFC09E0AD"
+				"2000000000000022"
+			]
+			icon: {
+				id: "minecraft:end_portal_frame"
+			}
+			id: "69E4B2983945057D"
+			rewards: [
+				{
+					id: "2A2EF31625835A39"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66121007740B8D20"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "59973B15717A2622"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"081D17FBF66616FF"
+				"008E65AF545A706E"
+			]
+			icon: {
+				id: "mekanismgenerators:fission_reactor_port"
+			}
+			id: "7E2D119C6F13A0B8"
+			rewards: [
+				{
+					id: "2AA0AA80B2444DD7"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F62EDE93D009F41"
+					table_id: 7799476301390908562L
+					type: "random"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "60A4DE3DD621CB81"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 9.75d
+		}
+		{
+			dependencies: ["516644A9126D961D"]
+			icon: {
+				id: "fluxnetworks:flux_core"
+			}
+			id: "1A7A62441D80869F"
+			rewards: [
+				{
+					id: "07B9C32A1C2F1683"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63F3E15EE0487316"
+					table_id: 6569693363244268417L
+					type: "random"
+				}
+			]
+			shape: "heart"
+			tasks: [{
+				id: "070B432F72D116CF"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 19.0d
+		}
+		{
+			dependencies: [
+				"4865574BF5D2E06F"
+				"7457B61539D4AE61"
+			]
+			icon: {
+				id: "immersive_aircraft:gyrodyne"
+			}
+			id: "3D202767DD943DDB"
+			rewards: [
+				{
+					id: "2634F5601C264AB6"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E4526014F1DFDB3"
+					table_id: 6569693363244268417L
+					type: "random"
+				}
+			]
+			shape: "heart"
+			tasks: [{
+				id: "2EC13CC71865D4A3"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 20.5d
+		}
+		{
+			dependencies: [
+				"1C567DEC719DAA55"
+				"159400BA9B7E3B04"
+				"24A8B8290C45BC2E"
+				"6DE2218A12FF754C"
+				"008CF128DF4A54A5"
+			]
+			icon: {
+				id: "aquaculture:diamond_fishing_rod"
+			}
+			id: "4361656AF5F30F2E"
+			rewards: [
+				{
+					id: "39C3A830A2095C00"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51C4C5EC037A0477"
+					table_id: 6569693363244268417L
+					type: "random"
+				}
+			]
+			shape: "heart"
+			tasks: [{
+				id: "129BF6F1E46C2374"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"3705D303CF423804"
+				"3EC8A0B89788D079"
+				"3E0643EA9183CDAE"
+				"5CE44C58A470E48E"
+				"4933CF4675E77D50"
+				"3E1A3BC8642390B3"
+				"73B73870B29DFAD9"
+				"4D3E80F0F4ED8DE6"
+				"3525D5DCC3A534D9"
+				"0E716B90E60C486B"
+				"623796B1D7981E59"
+				"7188DC06A28AE30E"
+				"70C7D92844089DEB"
+				"5A850270C6244C1C"
+				"436E4E3515BCCDE9"
+				"250AD9EF7CE0AD15"
+				"3446803FB59D8875"
+				"6B8B1D5E650D5409"
+				"427014BDE06DE631"
+				"589F1D502F680075"
+				"6A452BFC8A967C39"
+				"2215FB0777D7029D"
+				"2607F3DC07049785"
+				"5EB7CE3A1DCD3E9B"
+				"4564B577CB4EC046"
+				"69FBD7B65032E2A1"
+				"3B3BD39BA02DCA13"
+				"0C0A027F98257FF0"
+				"145E7D1A88B83DDD"
+				"554FBE341BD1ABCE"
+				"4D3379D38237F830"
+				"1E40ACF3E69A4100"
+				"4A7AEBEB87CEC274"
+				"161A90E134592D0E"
+				"27E951F4F4F6F847"
+				"2AD78E22988A92D3"
+				"221C9EDA651144BA"
+				"72D6265E35814927"
+				"5F5E43B3F51CAE9E"
+				"5040B3D29F238BC0"
+				"7503823ACDDB0491"
+				"0D83F8DE343CC692"
+				"73FC51144FC2DA52"
+				"47EBD49B34B70B3D"
+				"16255FB20F35A9D9"
+				"789AF6D0A6321945"
+				"122E6E7CABCB17E7"
+			]
+			icon: {
+				id: "artifacts:mimic_spawn_egg"
+			}
+			id: "708CFCCC74995EFB"
+			rewards: [
+				{
+					id: "74212574A288CF8C"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47ED395D7CD93E80"
+					table_id: 6569693363244268417L
+					type: "random"
+				}
+			]
+			shape: "heart"
+			tasks: [{
+				id: "58E2E188B880374E"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["54378277B8D28B1D"]
+			icon: {
+				id: "occultism:spirit_fire"
+			}
+			id: "591DA03FFC7E109F"
+			rewards: [
+				{
+					id: "2F29AFC074C7185F"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A85EB740113CE8A"
+					table_id: 6569693363244268417L
+					type: "random"
+				}
+			]
+			shape: "heart"
+			tasks: [{
+				id: "330CD96085B4B4A5"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"583533EB5308CC67"
+				"111AF580E2915C69"
+				"77641E63220E520D"
+				"5CADDAA71291FAD5"
+				"30AB2F919F63E2E7"
+			]
+			icon: {
+				id: "simplyswords:tampered_remnant"
+			}
+			id: "1580B1F97360AA72"
+			rewards: [
+				{
+					id: "1DEB362FD3C34BE8"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "721F0E5B9B1C1042"
+					table_id: 6569693363244268417L
+					type: "random"
+				}
+			]
+			shape: "heart"
+			tasks: [{
+				id: "225F6D4D5FBBD83D"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+	]
+}

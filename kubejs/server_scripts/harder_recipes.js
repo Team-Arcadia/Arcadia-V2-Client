@@ -47,9 +47,9 @@ ServerEvents.recipes((event) => {
         L: "minecraft:leather",
     });
 
-    // Aether Crafting Tables (Logs)
-    event.remove({ output: "aether:skyroot_crafting_table" });
-    event.remove({ output: "deep_aether:skyroot_crafting_table" });
+    // Aether Crafting Tables (Logs) - only remove if they exist
+    event.remove({ output: "aether:skyroot_crafting_table", allowEmpty: true });
+    event.remove({ output: "deep_aether:skyroot_crafting_table", allowEmpty: true });
 
     // ==========================================
     // 1. TOOLS, WEAPONS & ARMOR
@@ -622,8 +622,8 @@ ServerEvents.recipes((event) => {
     });
 
     // Saddle (Iron Sheets) - Remove Aether
-    event.remove({ mod: "aether", output: "minecraft:saddle" });
-    event.remove({ mod: "aether", output: "aether:saddle" });
+    event.remove({ mod: "aether", output: "minecraft:saddle", allowEmpty: true });
+    event.remove({ mod: "aether", output: "aether:saddle", allowEmpty: true });
     event.shaped("minecraft:saddle", ["LLL", "S S", "P P"], {
         L: "minecraft:leather",
         S: "minecraft:string",

@@ -5,7 +5,7 @@
 	sanitizeConnections = false
 	#If this is enabled, wires connected to power sources will cause damage to entities touching them
 	#This shouldn't cause significant lag but possibly will. If it does, please report it at https://github.com/BluSunrize/ImmersiveEngineering/issues unless there is a report of it already.
-	enableWireDamage = true
+	enableWireDamage = false
 	#If this is enabled, placing a block in a wire will break it (drop the wire coil)
 	blocksBreakWires = true
 
@@ -409,7 +409,7 @@
 		# Range: 0.001 ~ 1000.0
 		speed = 1.0
 		#Set this to false to disable the ridiculous amounts of particles the Excavator spawns
-		particles = true
+		particles = false
 		#The threshold the perlin noise has to cross for a mineral vein to be generated. Higher means less likely.
 		# Default: 0.9
 		# Range: 0.0 ~ 1.0

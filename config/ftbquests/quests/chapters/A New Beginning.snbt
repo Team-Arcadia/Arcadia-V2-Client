@@ -265,7 +265,7 @@
 			y: -0.7775510204081577d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -1123,8 +1123,8 @@
 			}]
 			shape: "gear"
 			tasks: [{
-				id: "1693B07767081FB3"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:trim_templates)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "2389A167A34DE061"
+				item: { count: 1, id: "minecraft:netherite_upgrade_smithing_template" }
 				type: "item"
 			}]
 			x: -0.5d

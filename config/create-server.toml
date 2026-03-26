@@ -98,7 +98,7 @@
 	#Game ticks between Kinetic Blocks checking whether their source is still valid.
 	# Default: 60
 	# Range: > 5
-	kineticValidationFrequency = 60
+	kineticValidationFrequency = 120
 	#.
 	#multiplier used for calculating exhaustion from speed when a crank is turned.
 	# Default: 0.009999999776482582
@@ -142,7 +142,7 @@
 		#Game ticks between Fans checking for anything blocking their air flow.
 		# Default: 30
 		# Range: > 10
-		fanBlockCheckRate = 30
+		fanBlockCheckRate = 50
 		#.
 		#[in Revolutions per Minute]
 		#Rotation speed at which the maximum stats of fans are reached.
@@ -397,7 +397,7 @@
 	#The amount of ticks a funnel waits between item transferrals, when it is not re-activated by redstone.
 	# Default: 8
 	# Range: > 1
-	defaultExtractionTimer = 8
+	defaultExtractionTimer = 12
 	#.
 	#The amount of ticks a portable storage interface waits for transfers until letting contraptions move along.
 	# Default: 60
@@ -417,7 +417,7 @@
 	#Maximum possible range in blocks of redstone link connections.
 	# Default: 256
 	# Range: > 1
-	linkRange = 256
+	linkRange = 128
 	#.
 	#Maximum possible distance in blocks between display links and their target.
 	# Default: 64
@@ -442,7 +442,7 @@
 	#The amount of ticks a factory gauge waits between requests.
 	# Default: 100
 	# Range: > 5
-	factoryGaugeTimer = 100
+	factoryGaugeTimer = 200
 	#.
 	#Whether hostile mobs walking near a seat will start riding it.
 	seatHostileMobs = true

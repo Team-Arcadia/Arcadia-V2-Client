@@ -49,11 +49,11 @@
 	#The amount of slots the storage stabilizer tier 5 provides.
 	# Default: 1024
 	# Range: > 0
-	stabilizerTier5AdditionalMaxItemTypes = 1024
+	stabilizerTier5AdditionalMaxItemTypes = 512
 	#The amount by which the stabilizer increases the maximum total item count the controller can hold. This is not per slot but the total amount of all items combined.
 	# Default: 8192000
 	# Range: 0 ~ 9223372036854775807
-	stabilizerTier5AdditionalMaxTotalItemCount = 8192000
+	stabilizerTier5AdditionalMaxTotalItemCount = 4096000
 
 #Spirit Job Settings
 [spirit_job]
@@ -413,8 +413,8 @@
 	#The horizontal value that the upgraded greedy familiar will seek blocks. (Large distances can cause delays in finding)
 	# Default: 32
 	# Range: > 0
-	greedySearchRange = 32
+	greedySearchRange = 20
 	#The vertical value that the upgraded greedy familiar will seek blocks. (Large distances can cause delays in finding)
 	# Default: 16
 	# Range: > 0
-	greedyVerticalSearchRange = 16
+	greedyVerticalSearchRange = 8

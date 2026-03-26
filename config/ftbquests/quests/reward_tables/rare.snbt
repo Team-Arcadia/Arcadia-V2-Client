@@ -1,0 +1,168 @@
+{
+	id: "5B2C3D4E5F6A7B81"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			count: 4
+			id: "7913CD5A19DCBA9B"
+			item: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+		}
+		{
+			count: 8
+			id: "5AF39E59C5BF94ED"
+			item: {
+				count: 1
+				id: "minecraft:emerald"
+			}
+		}
+		{
+			count: 8
+			id: "74C71B5AB2E0CD79"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+		}
+		{
+			count: 8
+			id: "7B23476D261017FA"
+			item: {
+				count: 1
+				id: "minecraft:blaze_rod"
+			}
+		}
+		{
+			count: 2
+			id: "6FF348113F9C76F5"
+			item: {
+				count: 1
+				id: "minecraft:golden_apple"
+			}
+		}
+		{
+			count: 16
+			id: "6B15E90EE566C505"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+		}
+		{ id: "6024374C69F352EF", item: { count: 1, id: "minecraft:saddle" } }
+		{ id: "76A967D0898E3FF9", item: { count: 1, id: "minecraft:diamond_horse_armor" } }
+		{ id: "0864A1C70A4DB992", item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:sharpness": 3 } } }, count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "788F56F48D7E6FBE", item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:protection": 3 } } }, count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "1E34F6B9DA4FEFBC", item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:efficiency": 4 } } }, count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "5CD33CE79F8E3CAB", item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:unbreaking": 3 } } }, count: 1, id: "minecraft:enchanted_book" } }
+		{
+			count: 2
+			id: "5CF48E96449BE2FD"
+			item: {
+				count: 1
+				id: "create:precision_mechanism"
+			}
+		}
+		{
+			count: 4
+			id: "36F26244DE60C137"
+			item: {
+				count: 1
+				id: "create:brass_ingot"
+			}
+		}
+		{
+			count: 2
+			id: "5E4465AD887977E8"
+			item: {
+				count: 1
+				id: "create:electron_tube"
+			}
+		}
+		{
+			count: 4
+			id: "2E44B32800F35D1D"
+			item: {
+				count: 1
+				id: "mekanism:ingot_osmium"
+			}
+		}
+		{
+			count: 2
+			id: "5AD3AF5245F27EB5"
+			item: {
+				count: 1
+				id: "mekanism:ingot_tin"
+			}
+		}
+		{
+			count: 2
+			id: "5334F4F935C8B83F"
+			item: {
+				count: 1
+				id: "mekanism:alloy_infused"
+			}
+		}
+		{
+			count: 2
+			id: "5D93B1EDDBC90322"
+			item: {
+				count: 1
+				id: "ars_nouveau:source_gem"
+			}
+		}
+		{ id: "5AEF43AA36312A2D", item: { count: 1, id: "ars_nouveau:manipulation_essence" } }
+		{ id: "2FD8F08A1161C665", item: { count: 1, id: "minecraft:diamond_block" } }
+		{
+			id: "775C994D13416F5C"
+			item: {
+				count: 1
+				id: "minecraft:totem_of_undying"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 4
+			id: "76AB2F3CA1F2CBB4"
+			item: {
+				count: 1
+				id: "immersiveengineering:ingot_steel"
+			}
+		}
+		{
+			count: 2
+			id: "05D164AD44E14D10"
+			item: {
+				count: 1
+				id: "refinedstorage:processor_binding"
+			}
+		}
+		{
+			count: 2
+			id: "6C25C2473220A944"
+			item: {
+				count: 1
+				id: "refinedstorage:silicon"
+			}
+		}
+		{ id: "76270D49ECB8B714", item: { count: 1, id: "minecraft:spyglass" } }
+		{
+			id: "253D948589CB1402"
+			item: {
+				count: 1
+				id: "farmersdelight:hamburger"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 2
+			id: "6A038A13DABFC5CC"
+			item: {
+				count: 1
+				id: "minecraft:echo_shard"
+			}
+		}
+	]
+}

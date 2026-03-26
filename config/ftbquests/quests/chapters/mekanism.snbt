@@ -800,7 +800,7 @@
 			shape: "circle"
 			tasks: [{
 				id: "4B60ACBCC3B46D1D"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(mekanism:enriched)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { }
 				type: "item"
 			}]
 			x: -1.0d
@@ -1819,7 +1819,6 @@
 			y: 2.8553571428571445d
 		}
 		{
-			dependencies: ["3AF1DC02E9A0010C"]
 			id: "1922623A26E08078"
 			rewards: [
 				{
@@ -1846,8 +1845,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:basic_chemical_tank)item(mekanism:advanced_chemical_tank)item(mekanism:elite_chemical_tank)item(mekanism:ultimate_chemical_tank))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -9.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["33C69B5934BE4D64"]
@@ -2039,8 +2038,8 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: -2.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["21D8B88155648EA6"]
@@ -2698,35 +2697,6 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["7ECA0633AF1AEC19"]
-			hide_dependency_lines: true
-			id: "24BA664B60E49461"
-			rewards: [
-				{
-					count: 2
-					id: "63B70159808C939B"
-					item: {
-						count: 1
-						id: "mekanism:cardboard_box"
-					}
-					type: "item"
-				}
-				{
-					id: "0ED14EF87E68ACC8"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "31AD5FA0F75FD3A8"
-				item: { count: 1, id: "mekanism:cardboard_box" }
-				type: "item"
-			}]
-			x: -8.5d
 			y: -0.5d
 		}
 		{

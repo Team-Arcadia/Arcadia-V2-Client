@@ -30,10 +30,10 @@
 
 ["Item Entities Tick Settings"]
 	#Slow down item entities' ticking speed by 1/4
-	OptimizeItemMovement = false
+	OptimizeItemMovement = true
 	#If you don't want to let a specific item entity in the world to be effected by the optimization, you can write its registry name down here.
 	#Require 'OptimizeItemMovement' to be true
-	ItemWhiteList = ["minecraft:cobblestone"]
+	ItemWhiteList = ["minecraft:cobblestone", "minecraft:stone", "minecraft:dirt", "minecraft:gravel", "minecraft:sand", "minecraft:andesite", "minecraft:diorite", "minecraft:granite", "minecraft:deepslate", "minecraft:cobbled_deepslate", "minecraft:tuff", "minecraft:calcite", "minecraft:flint", "minecraft:clay_ball", "minecraft:netherrack", "minecraft:basalt", "minecraft:blackstone", "minecraft:soul_sand", "minecraft:soul_soil", "minecraft:dripstone_block"]
 
 [Misc]
 	DisableOnClient = true

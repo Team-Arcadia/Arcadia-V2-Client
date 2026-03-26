@@ -115,7 +115,7 @@
 				id: "7CF77C5B3E6D55F7"
 				item: {
 					count: 1
-					id: "irons_spellbooks:rare_ink"
+					id: "minecraft:apple"
 				}
 				type: "item"
 			}]
@@ -892,7 +892,6 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["3A85110725E81CDF"]
 			id: "489833A2A6C39151"
 			rewards: [{
 				count: 10
@@ -903,7 +902,6 @@
 				}
 				type: "item"
 			}]
-			shape: "rsquare"
 			tasks: [
 				{
 					id: "074C34798C780717"
@@ -926,8 +924,8 @@
 					type: "item"
 				}
 			]
-			x: -13.0d
-			y: 0.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["36F87173D8CD1D68"]
@@ -1045,7 +1043,6 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["3A85110725E81CDF"]
 			id: "5DE863C3FB6492BE"
 			rewards: [{
 				count: 10
@@ -1056,7 +1053,6 @@
 				}
 				type: "item"
 			}]
-			shape: "rsquare"
 			tasks: [
 				{
 					id: "31E9928D9D8E56B1"
@@ -1079,8 +1075,8 @@
 					type: "item"
 				}
 			]
-			x: -9.0d
-			y: 0.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1BE69992D2C5085B"]
@@ -1805,14 +1801,13 @@
 				}
 				type: "item"
 			}]
-			shape: "diamond"
 			tasks: [{
 				id: "1DDF029E09A8C61D"
 				item: { components: { "irons_spellbooks:affinity_data": { bonuses: { "irons_spellbooks:blood_slash": 1, "irons_spellbooks:blood_step": 1 } }, "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:cursed_doll_spell_book" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -5.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["615C3E012B2DECD3"]
@@ -1920,11 +1915,10 @@
 			}
 			id: "6187837A51BA09DC"
 			rewards: [{
-				count: 10
 				id: "19AB6255468978BB"
 				item: {
 					count: 1
-					id: "minecraft:golden_apple"
+					id: "minecraft:apple"
 				}
 				type: "item"
 			}]
