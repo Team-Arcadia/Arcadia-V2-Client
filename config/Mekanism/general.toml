@@ -5,7 +5,7 @@ allowChunkloading = false
 #How many ticks must pass until a block's active state is synced with the client when the block stops being active. This prevents rapid state changes that can cause lag. Note: Mekanism's blocks always sync immediately when they go from inactive to active; this only controls the time it takes to go from active to inactive.
 # Default: 60
 # Range: 0 ~ 1200
-blockDeactivationDelay = 60
+blockDeactivationDelay = 200
 #If enabled, lasers can break blocks and the flamethrower can start fires.
 aestheticWorldDamage = true
 #Allow upgrading Universal Cables, Mechanical Pipes, Pressurized Tubes, Logistical Transporters, and Thermodynamic Conductors by right clicking them with the next tier of alloy.
@@ -144,11 +144,11 @@ maxSolarNeutronActivatorRate = 64
 	#Maximum radius in blocks that the Digital Miner can reach. Increasing this may have negative effects on stability and memory usage. We strongly recommend you leave this at the default value.
 	# Default: 32
 	# Range: > 1
-	maxRadius = 32
+	maxRadius = 16
 	#Number of ticks required to mine a single block with a Digital Miner (without any upgrades).
 	# Default: 80
 	# Range: > 1
-	ticksPerMine = 80
+	ticksPerMine = 120
 	#Allows dragging items from recipe viewers into the target slot of Digital Miner filters. This allows selecting specific blocks without having to acquire an instance of the block first.
 	easyMinerFilters = false
 
@@ -209,7 +209,7 @@ maxSolarNeutronActivatorRate = 64
 	#Enable the security system. This allows players to prevent other players from accessing their machines. Does NOT affect Frequencies.
 	allowProtection = true
 	#If this is enabled then players with the 'mekanism.bypass_security' permission (default for ops) can bypass block and item security restrictions.
-	opsBypassRestrictions = false
+	opsBypassRestrictions = true
 
 #Settings for configuring Nutritional Paste
 [nutritional_paste]

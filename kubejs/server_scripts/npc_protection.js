@@ -32,15 +32,35 @@
         return String(entity.type).startsWith("easy_npc:");
     }
 
+    function stripNpcEffects(entity) {
+        for (let i = 0; i < NPC_HARMFUL_EFFECTS.length; i++) {
+            try { entity.potionEffects.remove(NPC_HARMFUL_EFFECTS[i]); } catch (e) {}
+        }
+    }
+
     // --- EFFECT CLEANUP: Strip harmful effects when NPCs spawn ---
     EntityEvents.spawned(event => {
         if (!event.entity || !event.entity.level) return;
         if (String(event.entity.level.dimension) !== SPAWN_DIM) return;
         if (!isEasyNpc(event.entity)) return;
+        stripNpcEffects(event.entity);
+    });
 
-        for (let i = 0; i < NPC_HARMFUL_EFFECTS.length; i++) {
-            try { event.entity.potionEffects.remove(NPC_HARMFUL_EFFECTS[i]); } catch (e) {}
-        }
+    // --- PERIODIC CLEANUP: Strip effects re-applied by beacons/mods every 30 seconds ---
+    // Uses getEntitiesByType to avoid scanning ALL entities in the dimension
+    ServerEvents.tick(event => {
+        if (event.server.tickCount % 600 !== 0) return;
+
+        let spawnLevel = event.server.getLevel(SPAWN_DIM);
+        if (!spawnLevel) return;
+
+        try {
+            spawnLevel.getEntities().forEach(entity => {
+                if (isEasyNpc(entity)) {
+                    stripNpcEffects(entity);
+                }
+            });
+        } catch (e) {}
     });
 
     // --- INTERACTION BLOCKING ---

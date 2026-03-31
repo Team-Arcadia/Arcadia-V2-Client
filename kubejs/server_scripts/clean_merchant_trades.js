@@ -50,9 +50,9 @@ EntityEvents.spawned(event => {
 });
 
 ServerEvents.tick(event => {
-  // Process newly spawned merchants (1 tick delay from spawn)
-  if (pendingMerchants.length > 0) {
-    let batch = pendingMerchants.splice(0);
-    batch.forEach(e => cleanMerchantTrades(e));
-  }
+  // Check once per second (20 ticks) instead of every tick
+  if (event.server.tickCount % 20 !== 0) return;
+  if (pendingMerchants.length === 0) return;
+  let batch = pendingMerchants.splice(0);
+  batch.forEach(e => cleanMerchantTrades(e));
 });

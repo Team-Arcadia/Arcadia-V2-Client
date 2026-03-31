@@ -3,17 +3,17 @@ type = fancymenu_layout
 layout-meta {
   identifier = drippy_loading_overlay
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1767850726933
+  last_edited_time = 1774818062358
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:b53fe03c-0398-42a6-91ff-c0611c76d7be-1767850708095] = [groups:][instances:]
+  [loading_requirement_container_meta:ddb9533a-2693-4d12-b2e8-8a742ba8f7e0-1774817978239] = [groups:][instances:]
 }
 
 menu_background {
-  image_path = [source:local]/config/fancymenu/assets/arcadia/arcadiaback.png
+  image_path = [source:local]/config/fancymenu/assets/arcadia/intro.png
   slide = false
   repeat_texture = false
   parallax = false
@@ -44,20 +44,44 @@ layout_action_executable_blocks {
 }
 
 element {
-  bar_color = #5295FFFF
-  bar_texture = [source:local]/config/fancymenu/assets/arcadia/bar.png
-  background_color = #ABC8F7FF
-  background_texture = [source:local]/config/fancymenu/assets/arcadia/bar2.png
-  direction = right
-  progress_for_element_anchor = false
-  progress_source = 100
-  value_mode = percentage
-  smooth_filling_animation = true
-  element_type = progress_bar
-  instance_identifier = 6f13ced6-0b5e-44ec-a5e9-22f20df9e446-1767850151281
+  interactable = false
+  source = Loading ...
+  source_mode = direct
+  shadow = true
+  case_mode = upper
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = true
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  table_show_header = true
+  table_alternate_row_colors = true
+  table_line_color = #787878FF
+  table_header_background_color = #323232FF
+  table_row_background_color = #282828FF
+  table_alternate_row_color = #3C3C3CFF
+  table_line_thickness = 1.0
+  table_cell_padding = 8.0
+  table_margin = 4.0
+  element_type = text_v2
+  instance_identifier = 66a9c635-1a8d-460f-b94f-129e351feea7-1774792198350
   appearance_delay = no_delay
-  appearance_delay_seconds = 2.0
-  fade_in_v2 = first_time
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
   fade_in_speed = 1.0
   fade_out = no_fading
   fade_out_speed = 1.0
@@ -66,16 +90,16 @@ element {
   auto_sizing_base_screen_width = 1920
   auto_sizing_base_screen_height = 1010
   sticky_anchor = false
-  anchor_point = bottom-centered
-  x = -102
-  y = -33
-  width = 207
-  height = 26
+  anchor_point = top-centered
+  x = -25
+  y = 55
+  width = 56
+  height = 40
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
-  element_loading_requirement_container_identifier = b82a2009-d279-4318-8dac-ca6757603aad-1767850151281
-  [loading_requirement_container_meta:b82a2009-d279-4318-8dac-ca6757603aad-1767850151281] = [groups:][instances:]
+  element_loading_requirement_container_identifier = eba44c33-3320-4b7a-9b29-3f82a11bf161-1774792198350
+  [loading_requirement_container_meta:eba44c33-3320-4b7a-9b29-3f82a11bf161-1774792198350] = [groups:][instances:]
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -88,7 +112,7 @@ element {
   advanced_rotation_mode = false
   vertical_tilt_degrees = 0.0
   advanced_vertical_tilt_mode = false
-  horizontal_tilt_degrees = 0.0
+  horizontal_tilt_degrees = 1.0
   advanced_horizontal_tilt_mode = false
 }
 

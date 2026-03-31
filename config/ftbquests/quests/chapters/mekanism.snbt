@@ -775,38 +775,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["08DDE018A804BFE7"]
-			id: "0F326EEEC2EBE4E5"
-			rewards: [
-				{
-					count: 3
-					id: "592DDA8413504FDB"
-					item: {
-						count: 1
-						id: "mekanism:enriched_carbon"
-					}
-					type: "item"
-				}
-				{
-					count: 5
-					id: "59D1BBED0E121735"
-					item: {
-						count: 1
-						id: "mekanism:enriched_redstone"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				id: "4B60ACBCC3B46D1D"
-				item: { }
-				type: "item"
-			}]
-			x: -1.0d
-			y: -5.5d
-		}
-		{
 			dependencies: ["162CE44400A63575"]
 			id: "4B35C01F5D0AAC58"
 			rewards: [{

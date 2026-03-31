@@ -175,8 +175,6 @@ const BANNED_ITEMS = [
   'supplementaries:cannon_boat_mangrove',
   'supplementaries:cannon_boat_cherry',
   'supplementaries:cannon_boat_bamboo',
-  'supplementaries:cannon_boat_crimson',
-  'supplementaries:cannon_boat_warped',
 
   // Backtanks (Banned)
   'creategoggles:chainmail_backtank',
@@ -228,9 +226,9 @@ PlayerEvents.inventoryChanged(event => {
   }
 });
 
-// --- SAFETY NET: full scan every 5 seconds (100 ticks) ---
+// --- SAFETY NET: full scan every 5 minutes (6000 ticks) ---
 PlayerEvents.tick(event => {
-  if (event.player.tickCount % 100 !== 0) return;
+  if (event.player.tickCount % 6000 !== 0) return;
 
   if (removeBannedFromPlayer(event.player)) {
     event.player.tell(Text.red('\u26D4 Banned Item removed from your inventory!'));

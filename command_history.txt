@@ -1,20 +1,3 @@
-/summon ars_nouveau:wilden_hunter
-/summon aether:slider
-/summon aether:valkyrie_queen
-/summon aether:sun_spirit
-/kill @€
-/kill @e
-/reload
-/defaultoptions saveAll
-/tpx deeperdarker:otherside
-/ftbquests reload
-/spawn
-/ftbquests reload
-/defaultoptions saveAll
-/reload
-/kubejs reload server-scripts
-/reload
-/tpx minecraft:the_nether
 /defaultoptions saveAll
 /give vyrriox create:blaze_burner
 /give vyrriox create:creative_blaze_cake
@@ -48,3 +31,20 @@
 /ftbquests reload
 /defaultoptions saveAll
 /ftbquests reload
+/gamemode creative
+/reload
+/chunky start minecraft:overworld square 0 0 1000
+/tp 0 100 0
+/chunky cancel
+/chunky confirm
+/tp 254 24 -126
+/reload
+/enchant vyrriox apothic_enchanting:life_mending 5
+/enchant vyrriox apothic_enchanting:life_mending 1
+/reload
+/enchant vyrriox apothic_enchanting:life_mending 1
+/enchant vyrriox apothic_enchanting:chainsaw 5
+/enchant vyrriox apothic_enchanting:chainsaw 1
+/enchant vyrriox apothic_enchanting:life_mending 1
+/accessories edit vyrriox
+/reload

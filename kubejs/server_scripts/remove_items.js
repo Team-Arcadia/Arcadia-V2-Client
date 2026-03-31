@@ -174,8 +174,6 @@ ServerEvents.recipes(event => {
     'supplementaries:cannon_boat_mangrove',
     'supplementaries:cannon_boat_cherry',
     'supplementaries:cannon_boat_bamboo',
-    'supplementaries:cannon_boat_crimson',
-    'supplementaries:cannon_boat_warped',
 
     // Backtanks (Banned)
     'creategoggles:chainmail_backtank',

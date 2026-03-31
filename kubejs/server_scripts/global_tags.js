@@ -57,11 +57,13 @@ ServerEvents.tags('item', event => {
     // 9. Brewing & Misc
     event.add('c:fermented_spider_eyes', 'minecraft:fermented_spider_eye');
     event.add('c:hoppers', 'minecraft:hopper');
+    event.add('c:ghast_tears', 'minecraft:ghast_tear');
 
     // 10. Currency (Dusty Decorations)
     event.add('c:currencies/gold_coins', 'dustydecorations:scattered_gold_coins');
 
     // 11. Redstone & Pistons
+    event.add('c:observers', 'minecraft:observer');
     event.add('c:pistons', ['minecraft:sticky_piston', 'minecraft:piston']);
     event.add('c:levers', 'minecraft:lever');
     event.add('c:redstone_components', [

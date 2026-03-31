@@ -1,46 +1,44 @@
-[17:34:44] [INIT] KubeJS 2101.7.2-build.348; MC 2101 NeoForge
-[17:34:44] [INIT] Loaded plugins:
-[17:34:44] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
-[17:34:44] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
-[17:34:44] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
-[17:34:44] [INIT] - net.zhaiji.kubejscurios.kubejs.KubeJSCuriosPlugin
-[17:34:44] [INIT] - com.jesz.createdieselgenerators.compat.kubejs.CDGKubeJSPlugin
-[17:34:44] [INIT] - io.github.mortuusars.exposure.neoforge.integration.kubejs.ExposureKubeJSPlugin
-[17:34:44] [INIT] - com.squoshi.irons_spells_js.IronsSpellsJSPlugin
-[17:34:44] [INIT] - com.bobvarioa.kjsbotanypots.KJSBotanyPotsPlugin
-[17:34:44] [INIT] - dev.uncandango.kubejstweaks.kubejs.kjs71.plugin.KJSTPlugin
-[17:34:44] [INIT] - dev.uncandango.kubejstweaks.kubejs.kjs72.plugin.KJSTPlugin
-[17:34:44] [INIT] - com.bobvarioa.kubejsarsnouveau.KubeJSArsNouveauPlugin
-[17:34:44] [INIT] - com.tom.createores.kubejs.KubeJSExcavation
-[17:34:44] [INIT] - dev.bluephs.dgjs.DGJSPlugin
-[17:34:44] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
-[17:34:44] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbquests.kubejs.FTBQuestsKubeJSPlugin
-[17:34:44] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbchunks.kubejs.FTBChunksKubeJSPlugin
-[17:34:44] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[17:34:44] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbfiltersystem.kubejs.FFSKubeJSPlugin
-[17:34:44] [INIT] - com.klikli_dev.occultism_kubejs.KubeJSOccultismPlugin
-[17:34:44] [INIT] - fr.iglee42.createcasing.kubejs.EncasedKJSPlugin
-[17:34:44] [INIT] - com.oierbravo.mechanicals.compat.kubejs.MechanicalsJsPlugin
-[17:34:44] [INIT] - dev.latvian.mods.kubejs.mekanism.MekanismKubeJSPlugin
-[17:34:44] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
-[17:34:44] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
-[17:34:44] [INIT] - com.oierbravo.create_mechanical_extruder.compat.kubejs.KubeJSCreateMechanicalExtruderPlugin
-[17:34:46] [INFO] Loaded script startup_scripts:creative_tab.js in 0.153 s
-[17:34:46] [INFO] Loaded script startup_scripts:custom_blocks.js in 0.003 s
-[17:34:46] [INFO] Loaded script startup_scripts:custom_items.js in 0.004 s
-[17:34:46] [INFO] Loaded script startup_scripts:custom_sounds.js in 0.0 s
-[17:34:46] [INFO] Loaded script startup_scripts:remove_from_creative.js in 0.008 s
-[17:34:46] [INFO] startup_scripts:welcome_message.js#7: ==========================================================
-[17:34:46] [INFO] startup_scripts:welcome_message.js#8:      Arcadia: Echoes of Power V2
-[17:34:46] [INFO] startup_scripts:welcome_message.js#9:      Created by vyrriox
-[17:34:46] [INFO] startup_scripts:welcome_message.js#10:      Website: https://www.arcadia-echoes-of-power.fr/
-[17:34:46] [INFO] startup_scripts:welcome_message.js#11: 
-[17:34:46] [INFO] startup_scripts:welcome_message.js#12:      All rights reserved - Redistribution is forbidden.
-[17:34:46] [INFO] startup_scripts:welcome_message.js#13: ==========================================================
-[17:34:46] [INFO] Loaded script startup_scripts:welcome_message.js in 0.003 s
-[17:34:46] [INFO] Loaded script startup_scripts:item_modifications.js in 0.0 s
-[17:34:46] [INFO] Loaded 7/7 KubeJS startup scripts in 2.044 s with 0 errors and 0 warnings
-[17:34:46] [INFO] Validated 178 files in kubejs/assets/ in 325ms
-[17:34:46] [INFO] Validated 20 files in kubejs/data/ in 13ms
-[17:36:25] [ERROR] ! startup_scripts:remove_from_creative.js#187: Error in 'StartupEvents.modifyCreativeTab': Failed to read ingredient from supplementaries:cannon_boat_crimson: Item with ID supplementaries:cannon_boat_crimson does not exist!
-[17:37:03] [ERROR] ! startup_scripts:remove_from_creative.js#187: Error in 'StartupEvents.modifyCreativeTab': Failed to read ingredient from supplementaries:cannon_boat_crimson: Item with ID supplementaries:cannon_boat_crimson does not exist!
+[02:04:26] [INIT] KubeJS 2101.7.2-build.348; MC 2101 NeoForge
+[02:04:26] [INIT] Loaded plugins:
+[02:04:26] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[02:04:26] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSClientPlugin
+[02:04:26] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[02:04:26] [INIT] - net.zhaiji.kubejscurios.kubejs.KubeJSCuriosPlugin
+[02:04:26] [INIT] - com.jesz.createdieselgenerators.compat.kubejs.CDGKubeJSPlugin
+[02:04:26] [INIT] - io.github.mortuusars.exposure.neoforge.integration.kubejs.ExposureKubeJSPlugin
+[02:04:26] [INIT] - com.squoshi.irons_spells_js.IronsSpellsJSPlugin
+[02:04:26] [INIT] - com.bobvarioa.kjsbotanypots.KJSBotanyPotsPlugin
+[02:04:26] [INIT] - dev.uncandango.kubejstweaks.kubejs.kjs71.plugin.KJSTPlugin
+[02:04:26] [INIT] - dev.uncandango.kubejstweaks.kubejs.kjs72.plugin.KJSTPlugin
+[02:04:26] [INIT] - com.bobvarioa.kubejsarsnouveau.KubeJSArsNouveauPlugin
+[02:04:26] [INIT] - com.tom.createores.kubejs.KubeJSExcavation
+[02:04:26] [INIT] - dev.bluephs.dgjs.DGJSPlugin
+[02:04:26] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[02:04:26] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbquests.kubejs.FTBQuestsKubeJSPlugin
+[02:04:26] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[02:04:26] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[02:04:26] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[02:04:26] [INIT] - com.klikli_dev.occultism_kubejs.KubeJSOccultismPlugin
+[02:04:26] [INIT] - fr.iglee42.createcasing.kubejs.EncasedKJSPlugin
+[02:04:26] [INIT] - com.oierbravo.mechanicals.compat.kubejs.MechanicalsJsPlugin
+[02:04:26] [INIT] - dev.latvian.mods.kubejs.mekanism.MekanismKubeJSPlugin
+[02:04:26] [INIT] - qinomed.kubejsdelight.KubeJSDelightPlugin
+[02:04:26] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[02:04:26] [INIT] - com.oierbravo.create_mechanical_extruder.compat.kubejs.KubeJSCreateMechanicalExtruderPlugin
+[02:04:28] [INFO] Loaded script startup_scripts:creative_tab.js in 0.141 s
+[02:04:28] [INFO] Loaded script startup_scripts:custom_blocks.js in 0.002 s
+[02:04:28] [INFO] Loaded script startup_scripts:custom_items.js in 0.004 s
+[02:04:28] [INFO] Loaded script startup_scripts:custom_sounds.js in 0.0 s
+[02:04:28] [INFO] Loaded script startup_scripts:remove_from_creative.js in 0.008 s
+[02:04:28] [INFO] startup_scripts:welcome_message.js#7: ==========================================================
+[02:04:28] [INFO] startup_scripts:welcome_message.js#8:      Arcadia: Echoes of Power V2
+[02:04:28] [INFO] startup_scripts:welcome_message.js#9:      Created by vyrriox
+[02:04:28] [INFO] startup_scripts:welcome_message.js#10:      Website: https://www.arcadia-echoes-of-power.fr/
+[02:04:28] [INFO] startup_scripts:welcome_message.js#11: 
+[02:04:28] [INFO] startup_scripts:welcome_message.js#12:      All rights reserved - Redistribution is forbidden.
+[02:04:28] [INFO] startup_scripts:welcome_message.js#13: ==========================================================
+[02:04:28] [INFO] Loaded script startup_scripts:welcome_message.js in 0.002 s
+[02:04:28] [INFO] Loaded script startup_scripts:item_modifications.js in 0.001 s
+[02:04:28] [INFO] Loaded 7/7 KubeJS startup scripts in 1.914 s with 0 errors and 0 warnings
+[02:04:28] [INFO] Validated 178 files in kubejs/assets/ in 244ms
+[02:04:28] [INFO] Validated 20 files in kubejs/data/ in 14ms
