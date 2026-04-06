@@ -583,13 +583,13 @@
 		#Maximum durability of Refined Obsidian tools.
 		# Default: 4096
 		# Range: > 1
-		refined_obsidianToolDurability = 4096
+		refined_obsidianToolDurability = 2500
 		#Efficiency of Refined Obsidian tools.
-		refined_obsidianEfficiency = 12.0
+		refined_obsidianEfficiency = 10.0
 		#Base attack damage of Refined Obsidian items.
 		# Default: 8.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		refined_obsidianAttackDamage = 8.0
+		refined_obsidianAttackDamage = 5.0
 		#Natural enchantability factor of Refined Obsidian items.
 		# Default: 18
 		# Range: > 0
@@ -619,11 +619,11 @@
 		#Attack speed of Refined Obsidian hoes.
 		refined_obsidianHoeAtkSpeed = 5.0
 		#Attack damage modifier of Refined Obsidian paxels. Must be greater than or equal to negative Base Damage.
-		refined_obsidianPaxelDamage = 8.0
+		refined_obsidianPaxelDamage = 7.0
 		#Attack speed of Refined Obsidian paxels.
 		refined_obsidianPaxelAtkSpeed = -2.4000000953674316
 		#Efficiency of Refined Obsidian paxels.
-		refined_obsidianPaxelEfficiency = 12.0
+		refined_obsidianPaxelEfficiency = 10.0
 		#Natural enchantability factor of Refined Obsidian paxels.
 		# Default: 18
 		# Range: > 0
@@ -631,44 +631,44 @@
 		#Maximum durability of Refined Obsidian paxels.
 		# Default: 8192
 		# Range: > 1
-		refined_obsidianPaxelDurability = 8192
+		refined_obsidianPaxelDurability = 5000
 		#Base armor toughness value of Refined Obsidian armor.
 		# Default: 5.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		refined_obsidianToughness = 5.0
+		refined_obsidianToughness = 3.5
 		#Base armor knockback resistance value of Refined Obsidian armor.
 		# Default: 0.20000000298023224
 		# Range: 0.0 ~ 3.4028234663852886E38
-		refined_obsidianKnockbackResistance = 0.20000000298023224
+		refined_obsidianKnockbackResistance = 0.15000000596046448
 		#Maximum durability of Refined Obsidian boots.
 		# Default: 975
 		# Range: > 1
-		refined_obsidianBootDurability = 975
+		refined_obsidianBootDurability = 550
 		#Protection value of Refined Obsidian boots.
 		# Default: 5
 		# Range: > 0
-		refined_obsidianBootArmor = 5
+		refined_obsidianBootArmor = 4
 		#Maximum durability of Refined Obsidian leggings.
 		# Default: 1125
 		# Range: > 1
-		refined_obsidianLeggingDurability = 1125
+		refined_obsidianLeggingDurability = 650
 		#Protection value of Refined Obsidian leggings.
 		# Default: 8
 		# Range: > 0
-		refined_obsidianLeggingArmor = 8
+		refined_obsidianLeggingArmor = 7
 		#Maximum durability of Refined Obsidian chestplates.
 		# Default: 1200
 		# Range: > 1
-		refined_obsidianChestplateDurability = 1200
+		refined_obsidianChestplateDurability = 700
 		#Protection value of Refined Obsidian chestplates.
 		# Default: 12
 		# Range: > 0
-		refined_obsidianChestplateArmor = 12
+		refined_obsidianChestplateArmor = 9
 		#Maximum durability of Refined Obsidian helmets.
 		# Default: 825
 		# Range: > 1
-		refined_obsidianHelmetDurability = 825
+		refined_obsidianHelmetDurability = 475
 		#Protection value of Refined Obsidian helmets.
 		# Default: 6
 		# Range: > 0
-		refined_obsidianHelmetArmor = 6
+		refined_obsidianHelmetArmor = 4
