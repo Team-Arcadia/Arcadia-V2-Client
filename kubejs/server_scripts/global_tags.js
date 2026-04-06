@@ -62,7 +62,25 @@ ServerEvents.tags('item', event => {
     // 10. Currency (Dusty Decorations)
     event.add('c:currencies/gold_coins', 'dustydecorations:scattered_gold_coins');
 
-    // 11. Redstone & Pistons
+    // 11. Bricks & Building
+    event.add('c:end_stone_bricks', 'minecraft:end_stone_bricks');
+    event.add('c:polished_blackstone_bricks', 'minecraft:polished_blackstone_bricks');
+    event.add('c:prismarine_bricks', 'minecraft:prismarine_bricks');
+    event.add('c:prismarine_shards', 'minecraft:prismarine_shard');
+
+    // 12. Decoration & Containers
+    event.add('c:flower_pots', 'minecraft:flower_pot');
+    event.add('c:item_frames', 'minecraft:item_frame');
+
+    // 13. Potions & Brewing
+    event.add('c:magma_creams', 'minecraft:magma_cream');
+    event.add('c:dragon_breaths', 'minecraft:dragon_breath');
+    event.add('c:glass_bottles', 'minecraft:glass_bottle');
+
+    // 14. Weapons
+    event.add('c:bows', 'minecraft:bow');
+
+    // 15. Redstone & Pistons
     event.add('c:observers', 'minecraft:observer');
     event.add('c:pistons', ['minecraft:sticky_piston', 'minecraft:piston']);
     event.add('c:levers', 'minecraft:lever');
@@ -76,6 +94,24 @@ ServerEvents.tags('item', event => {
         'minecraft:lever',
         'minecraft:comparator',
         'minecraft:repeater'
+    ]);
+});
+
+// ===== Entity Tags =====
+ServerEvents.tags('entity_type', event => {
+    // Blacklist Twilight Forest bosses from Apothic Spawners
+    event.add('apothic_spawners:blacklisted_from_spawners', [
+        'twilightforest:naga',
+        'twilightforest:lich',
+        'twilightforest:minoshroom',
+        'twilightforest:hydra',
+        'twilightforest:knight_phantom',
+        'twilightforest:ur_ghast',
+        'twilightforest:yeti',
+        'twilightforest:snow_queen',
+        'twilightforest:plateau_boss',
+        'minecraft:ender_dragon',
+        'minecraft:wither'
     ]);
 });
 

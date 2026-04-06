@@ -8,7 +8,7 @@
           "value will make crops grow faster.                                              "
         ],
         "//default": 1.0,
-        "value": 1.0
+        "value": 0.5
       },
       "damage_harvest_tool": {
         "//": "Determines if the item in the harvest tool slot should take durability damage.",
@@ -65,7 +65,7 @@
           "distance to stop rendering.                                                     "
         ],
         "//default": 48,
-        "value": 64
+        "value": 32
       },
       "use_growth_animation": {
         "//": [
