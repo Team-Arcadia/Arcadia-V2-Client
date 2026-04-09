@@ -1,0 +1,105 @@
+{
+  "name": "Chicken Dance",
+  "author": "Arcadia",
+  "description": "Bawk bawk! Flap those wings and bob that head like a true chicken.",
+  "emote": {
+    "isLoop": true,
+    "beginTick": 0,
+    "endTick": 40,
+    "stopTick": 80,
+    "returnTick": 5,
+    "degrees": true,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "InOutSine",
+        "head": { "yaw": 0, "pitch": 0, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": 0, "roll": 0 },
+        "leftArm": { "pitch": 0, "yaw": 0, "roll": -70, "bend": 90 },
+        "rightArm": { "pitch": 0, "yaw": 0, "roll": 70, "bend": 90 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      },
+      {
+        "tick": 5,
+        "easing": "InOutSine",
+        "head": { "yaw": 20, "pitch": -15, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 5, "yaw": 0, "roll": 0 },
+        "leftArm": { "pitch": 0, "yaw": 0, "roll": -30, "bend": 90 },
+        "rightArm": { "pitch": 0, "yaw": 0, "roll": 30, "bend": 90 },
+        "leftLeg": { "pitch": -10, "yaw": 0, "roll": 0, "bend": 20 },
+        "rightLeg": { "pitch": 10, "yaw": 0, "roll": 0, "bend": 0 }
+      },
+      {
+        "tick": 10,
+        "easing": "InOutSine",
+        "head": { "yaw": -20, "pitch": 10, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": -5, "yaw": 0, "roll": 0 },
+        "leftArm": { "pitch": 0, "yaw": 0, "roll": -70, "bend": 90 },
+        "rightArm": { "pitch": 0, "yaw": 0, "roll": 70, "bend": 90 },
+        "leftLeg": { "pitch": 10, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": -10, "yaw": 0, "roll": 0, "bend": 20 }
+      },
+      {
+        "tick": 15,
+        "easing": "InOutSine",
+        "head": { "yaw": 20, "pitch": -15, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 5, "yaw": 0, "roll": 0 },
+        "leftArm": { "pitch": 0, "yaw": 0, "roll": -30, "bend": 90 },
+        "rightArm": { "pitch": 0, "yaw": 0, "roll": 30, "bend": 90 },
+        "leftLeg": { "pitch": -10, "yaw": 0, "roll": 0, "bend": 20 },
+        "rightLeg": { "pitch": 10, "yaw": 0, "roll": 0, "bend": 0 }
+      },
+      {
+        "tick": 20,
+        "easing": "InOutSine",
+        "head": { "yaw": 0, "pitch": 10, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": 0, "roll": 0 },
+        "leftArm": { "pitch": 0, "yaw": 0, "roll": -70, "bend": 90 },
+        "rightArm": { "pitch": 0, "yaw": 0, "roll": 70, "bend": 90 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      },
+      {
+        "tick": 25,
+        "easing": "InOutSine",
+        "head": { "yaw": 0, "pitch": -10, "roll": 10 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": 90, "roll": 0 },
+        "leftArm": { "pitch": 0, "yaw": 0, "roll": -70, "bend": 90 },
+        "rightArm": { "pitch": 0, "yaw": 0, "roll": 70, "bend": 90 },
+        "leftLeg": { "pitch": -15, "yaw": 0, "roll": 0, "bend": 10 },
+        "rightLeg": { "pitch": 15, "yaw": 0, "roll": 0, "bend": 10 }
+      },
+      {
+        "tick": 30,
+        "easing": "InOutSine",
+        "head": { "yaw": 0, "pitch": -10, "roll": -10 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": 180, "roll": 0 },
+        "leftArm": { "pitch": 0, "yaw": 0, "roll": -70, "bend": 90 },
+        "rightArm": { "pitch": 0, "yaw": 0, "roll": 70, "bend": 90 },
+        "leftLeg": { "pitch": 15, "yaw": 0, "roll": 0, "bend": 10 },
+        "rightLeg": { "pitch": -15, "yaw": 0, "roll": 0, "bend": 10 }
+      },
+      {
+        "tick": 35,
+        "easing": "InOutSine",
+        "head": { "yaw": 0, "pitch": -10, "roll": 10 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": 270, "roll": 0 },
+        "leftArm": { "pitch": 0, "yaw": 0, "roll": -70, "bend": 90 },
+        "rightArm": { "pitch": 0, "yaw": 0, "roll": 70, "bend": 90 },
+        "leftLeg": { "pitch": -15, "yaw": 0, "roll": 0, "bend": 10 },
+        "rightLeg": { "pitch": 15, "yaw": 0, "roll": 0, "bend": 10 }
+      },
+      {
+        "tick": 40,
+        "easing": "InOutSine",
+        "head": { "yaw": 0, "pitch": 0, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": 360, "roll": 0 },
+        "leftArm": { "pitch": 0, "yaw": 0, "roll": -70, "bend": 90 },
+        "rightArm": { "pitch": 0, "yaw": 0, "roll": 70, "bend": 90 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      }
+    ]
+  }
+}

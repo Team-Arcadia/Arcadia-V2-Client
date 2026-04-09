@@ -1,0 +1,102 @@
+{
+  "name": "Tir a l'Arc",
+  "author": "Arcadia",
+  "description": "Tirer une fleche avec un arc - bander, viser, et lacher",
+  "emote": {
+    "isLoop": false,
+    "beginTick": 0,
+    "endTick": 36,
+    "stopTick": 46,
+    "returnTick": 5,
+    "degrees": true,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "InOutSine",
+        "head": { "yaw": 0, "pitch": 0, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": 0, "roll": 0 },
+        "leftArm": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightArm": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      },
+      {
+        "tick": 6,
+        "easing": "InOutSine",
+        "comment": "Raise bow with left arm, stance widens",
+        "head": { "yaw": -30, "pitch": 0, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 3, "yaw": -40, "roll": 0 },
+        "leftArm": { "pitch": -85, "yaw": 30, "roll": -5, "bend": -10 },
+        "rightArm": { "pitch": -40, "yaw": -10, "roll": 5, "bend": -30 },
+        "leftLeg": { "pitch": -5, "yaw": -10, "roll": -5, "bend": -15 },
+        "rightLeg": { "pitch": -5, "yaw": 10, "roll": 5, "bend": -15 }
+      },
+      {
+        "tick": 14,
+        "easing": "InOutSine",
+        "comment": "Draw bowstring back with right hand",
+        "head": { "yaw": -35, "pitch": -5, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 5, "yaw": -45, "roll": 0 },
+        "leftArm": { "pitch": -88, "yaw": 35, "roll": -3, "bend": -5 },
+        "rightArm": { "pitch": -75, "yaw": -50, "roll": 15, "bend": -120 },
+        "leftLeg": { "pitch": -5, "yaw": -10, "roll": -5, "bend": -15 },
+        "rightLeg": { "pitch": -5, "yaw": 10, "roll": 5, "bend": -15 }
+      },
+      {
+        "tick": 22,
+        "easing": "InOutSine",
+        "comment": "Full draw, holding aim steady",
+        "head": { "yaw": -35, "pitch": -8, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 5, "yaw": -45, "roll": 2 },
+        "leftArm": { "pitch": -90, "yaw": 35, "roll": -3, "bend": -3 },
+        "rightArm": { "pitch": -80, "yaw": -55, "roll": 18, "bend": -130 },
+        "leftLeg": { "pitch": -5, "yaw": -10, "roll": -5, "bend": -15 },
+        "rightLeg": { "pitch": -5, "yaw": 10, "roll": 5, "bend": -15 }
+      },
+      {
+        "tick": 26,
+        "easing": "InOutBack",
+        "comment": "Release! Right hand snaps back, recoil",
+        "head": { "yaw": -30, "pitch": -5, "roll": -3 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 3, "yaw": -40, "roll": -2 },
+        "leftArm": { "pitch": -88, "yaw": 33, "roll": -5, "bend": -8 },
+        "rightArm": { "pitch": -60, "yaw": -60, "roll": 25, "bend": -20 },
+        "leftLeg": { "pitch": -5, "yaw": -10, "roll": -5, "bend": -15 },
+        "rightLeg": { "pitch": -5, "yaw": 10, "roll": 5, "bend": -15 }
+      },
+      {
+        "tick": 30,
+        "easing": "InOutSine",
+        "comment": "Follow through, watching arrow fly",
+        "head": { "yaw": -25, "pitch": -10, "roll": 0 },
+        "torso": { "x": 0, "y": 0.5, "z": 0, "pitch": 0, "yaw": -30, "roll": 0 },
+        "leftArm": { "pitch": -70, "yaw": 25, "roll": -5, "bend": -15 },
+        "rightArm": { "pitch": -20, "yaw": -30, "roll": 15, "bend": -10 },
+        "leftLeg": { "pitch": -3, "yaw": -5, "roll": -3, "bend": -10 },
+        "rightLeg": { "pitch": -3, "yaw": 5, "roll": 3, "bend": -10 }
+      },
+      {
+        "tick": 36,
+        "easing": "InOutSine",
+        "comment": "Lower bow",
+        "head": { "yaw": -10, "pitch": 0, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": -10, "roll": 0 },
+        "leftArm": { "pitch": -20, "yaw": 10, "roll": -5, "bend": -10 },
+        "rightArm": { "pitch": -5, "yaw": 0, "roll": 5, "bend": 0 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      },
+      {
+        "tick": 46,
+        "easing": "InOutSine",
+        "comment": "Return to neutral",
+        "head": { "yaw": 0, "pitch": 0, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": 0, "roll": 0 },
+        "leftArm": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightArm": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      }
+    ]
+  }
+}

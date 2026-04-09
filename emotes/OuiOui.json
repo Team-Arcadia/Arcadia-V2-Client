@@ -1,0 +1,95 @@
+{
+  "name": "Oui Oui",
+  "author": "Arcadia",
+  "description": "Hocher la tete pour dire oui avec un pouce en l'air.",
+  "emote": {
+    "isLoop": false,
+    "beginTick": 0,
+    "endTick": 40,
+    "stopTick": 70,
+    "returnTick": 5,
+    "degrees": true,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "InOutSine",
+        "head": { "yaw": 0, "pitch": 0, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": 0, "roll": 0 },
+        "leftArm": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightArm": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      },
+      {
+        "tick": 8,
+        "easing": "InOutQuad",
+        "head": { "yaw": 0, "pitch": 0, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": -15, "roll": 0 },
+        "leftArm": { "pitch": 5, "yaw": 0, "roll": -5, "bend": 0 },
+        "rightArm": { "pitch": -100, "yaw": -10, "roll": -15, "bend": -70 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      },
+      {
+        "tick": 14,
+        "easing": "InOutSine",
+        "head": { "yaw": 0, "pitch": 20, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": -15, "roll": 0 },
+        "leftArm": { "pitch": 5, "yaw": 0, "roll": -5, "bend": 0 },
+        "rightArm": { "pitch": -100, "yaw": -10, "roll": -15, "bend": -70 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      },
+      {
+        "tick": 18,
+        "easing": "InOutSine",
+        "head": { "yaw": 0, "pitch": -10, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": -15, "roll": 0 },
+        "leftArm": { "pitch": 5, "yaw": 0, "roll": -5, "bend": 0 },
+        "rightArm": { "pitch": -100, "yaw": -10, "roll": -15, "bend": -70 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      },
+      {
+        "tick": 22,
+        "easing": "InOutSine",
+        "head": { "yaw": 0, "pitch": 18, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": -15, "roll": 0 },
+        "leftArm": { "pitch": 5, "yaw": 0, "roll": -5, "bend": 0 },
+        "rightArm": { "pitch": -100, "yaw": -10, "roll": -15, "bend": -70 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      },
+      {
+        "tick": 26,
+        "easing": "InOutSine",
+        "head": { "yaw": 0, "pitch": -8, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": -15, "roll": 0 },
+        "leftArm": { "pitch": 5, "yaw": 0, "roll": -5, "bend": 0 },
+        "rightArm": { "pitch": -100, "yaw": -10, "roll": -15, "bend": -70 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      },
+      {
+        "tick": 32,
+        "easing": "InOutSine",
+        "head": { "yaw": 0, "pitch": 0, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": -15, "roll": 0 },
+        "leftArm": { "pitch": 5, "yaw": 0, "roll": -5, "bend": 0 },
+        "rightArm": { "pitch": -100, "yaw": -10, "roll": -15, "bend": -70 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      },
+      {
+        "tick": 40,
+        "easing": "InOutSine",
+        "head": { "yaw": 0, "pitch": 0, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": 0, "roll": 0 },
+        "leftArm": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightArm": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      }
+    ]
+  }
+}

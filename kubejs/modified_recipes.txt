@@ -1,10 +1,10 @@
-# 🐉 ARCADIA V2 - MODIFIED RECIPES
+# ARCADIA V2 - MODIFIED RECIPES
 *Reference document for all craft changes.*
 *Author: vyrriox*
 
 ---
 
-## 1. 🪵 BASICS & WOOD
+## 1. BASICS & WOOD
 
 **Stick** (`minecraft:stick`)
 *   Original: 2 Planks -> 4 Sticks
@@ -16,7 +16,7 @@
 
 ---
 
-## 2. ⚔️ TOOLS, WEAPONS & ARMOR
+## 2. TOOLS, WEAPONS & ARMOR
 
 **Iron Tools** (`iron_sword`, `iron_pickaxe`, `iron_axe`, `iron_shovel`, `iron_hoe`)
 *   Original: Iron Ingots
@@ -27,399 +27,244 @@
 *   Modified: **Iron Sheets** (Create)
 
 **Iron Battleaxe** (`cosmeticweaponsmod:iron_battleaxe`)
-*   Original: Iron Ingots + Planks/Sticks
 *   Modified: **Iron Sheets**
 
 **Hammer** (`createdieselgenerators:hammer`)
-*   Original: Iron Ingots + Sticks
 *   Modified: **Iron Sheets** + Sticks
 
-**Gold Tools** (`golden_sword`, `golden_pickaxe`, `golden_axe`, `golden_shovel`, `golden_hoe`)
-*   Original: Gold Ingots
+**Gold Tools/Armor/Battleaxe**
 *   Modified: **Gold Sheets** (Create)
 
-**Gold Armor** (`golden_helmet`, `golden_chestplate`, `golden_leggings`, `golden_boots`)
-*   Original: Gold Ingots
-*   Modified: **Gold Sheets** (Create)
-
-**Golden Battleaxe** (`cosmeticweaponsmod:golden_battleaxe`)
-*   Original: Gold Ingots + Planks/Sticks
-*   Modified: **Gold Sheets**
-
-**Diamond Tools** (`diamond_sword`, `diamond_pickaxe`, `diamond_axe`, `diamond_shovel`, `diamond_hoe`)
-*   Original: Diamonds
+**Diamond Tools/Armor/Battleaxe**
 *   Modified: Diamonds + **Breeze Rod**
 
-**Diamond Armor** (`diamond_helmet`, `diamond_chestplate`, `diamond_leggings`, `diamond_boots`)
-*   Original: Diamonds
-*   Modified: Diamonds + **Breeze Rod**
+**Stone Tools/Battleaxe**
+*   Modified: **Stone / Smooth Stone** (not cobblestone)
 
-**Diamond Battleaxe** (`cosmeticweaponsmod:diamond_battleaxe`)
-*   Original: Diamonds + Planks/Sticks
-*   Modified: Diamonds + **Breeze Rod**
-
-**Stone Tools** (`stone_sword`, `stone_pickaxe`, `stone_axe`, `stone_shovel`, `stone_hoe`)
-*   Original: Cobblestone
-*   Modified: **Stone / Smooth Stone**
-
-**Stone Battleaxe** (`cosmeticweaponsmod:stone_battleaxe`)
-*   Original: Cobblestone + Planks/Sticks
-*   Modified: **Stone**
-
-**Leather Armor** (`leather_helmet`, `leather_chestplate`, `leather_leggings`, `leather_boots`)
-*   Original: Leather
+**Leather Armor**
 *   Modified: Leather + **String**
 
 **Netherite Ingot** (`minecraft:netherite_ingot`)
-*   Original: 4 Scrap + 4 Gold Ingots
-*   Modified: **Sequenced Assembly** (Create)
-    *   1 Scrap + 2 Gold Sheets (Repeated) -> Press
-    *   *80% yield, 20% scrap refund.*
+*   Modified: **Sequenced Assembly** (Create) — 80% yield, 20% scrap refund
 
 ---
 
-## 3. 📦 STORAGE
+## 3. STORAGE
 
-**Chest** (`minecraft:chest`)
-*   Original: 8 Planks
-*   Modified: 8 **Logs**
-
-**Barrel** (`minecraft:barrel`)
-*   Original: 6 Planks + 2 Slabs
-*   Modified: 6 Planks + **2 Iron Nuggets**
-
-**Ender Chest** (`minecraft:ender_chest`)
-*   Original: Obsidian + Eye of Ender
-*   Modified: Obsidian + **Gold Sheets** + Eye of Ender
-
-**Storage Blocks**
-*   Items: Iron, Gold, Diamond, Emerald, Redstone, Lapis, Netherite, Copper, Tin, Lead, Uranium, Silver, Nickel, Aluminum, Steel, Bronze, Osmium, Constantan, Electrum, Refined Glowstone/Obsidian, Neptunium.
-*   Original: 9 Ingots in Crafting Table
-*   Modified: **Mechanical Mixer** (Create)
-    *   9 Ingots + 1 **Andesite Alloy** + Lava (No Heat).
+**Chest** — 8 **Logs**
+**Barrel** — 6 Planks + **2 Iron Nuggets**
+**Ender Chest** — Obsidian + **Gold Sheets** + Eye of Ender
+**Storage Blocks** (Iron, Gold, Diamond, Emerald, Redstone, Lapis, Netherite, Copper, Tin, Lead, Uranium, Silver, Nickel, Aluminum, Steel, Bronze, Osmium, Constantan, Electrum, Refined Glowstone/Obsidian, Neptunium)
+*   Modified: **Mechanical Mixer** (Create) — 9 Ingots + 1 Andesite Alloy + Lava
 
 ---
 
-## 4. 🏭 WORKSTATIONS
+## 4. WORKSTATIONS
 
-**Furnace** (`minecraft:furnace`)
-*   Original: 8 Cobblestone
-*   Modified: 8 Cobblestone + **1 Campfire**
-
-**Smoker** (`minecraft:smoker`)
-*   Original: Furnace + 4 Logs
-*   Modified: Furnace + **6 Logs**
-
-**Blast Furnace** (`minecraft:blast_furnace`)
-*   Original: Furnace + Iron Ingots + Smooth Stone
-*   Modified: Furnace + **Iron Sheets** + Smooth Stone
-
-**Anvil** (`minecraft:anvil`)
-*   Original: 3 Iron Blocks + 4 Iron Ingots
-*   Modified: 3 Iron Blocks + 4 **Iron Sheets**
-
-**Smithing Table** (`minecraft:smithing_table`)
-*   Original: Iron Ingots + Planks
-*   Modified: **Iron Sheets** + Logs
-
-**Grindstone** (`minecraft:grindstone`)
-*   Original: Sticks + Stone Slab + Planks
-*   Modified: **Cogwheels** + Stone Slab + Logs
-
-**Stonecutter** (`minecraft:stonecutter`)
-*   Original: Iron Ingot + Stone
-*   Modified: **Iron Sheet** + Stone
-
-**Cauldron** (`minecraft:cauldron`)
-*   Original: 7 Iron Ingots
-*   Modified: 7 **Iron Sheets**
-
-**Brewing Stand** (`minecraft:brewing_stand`)
-*   Original: Blaze Rod + 3 Cobblestone
-*   Modified: Blaze Rod + 3 **Copper Sheets**
-
-**Enchanting Table** (`minecraft:enchanting_table`)
-*   Original: 1 Book + 2 Diamonds + 4 Obsidian
-*   Modified: 1 Book + 2 **Red Wool** + 2 **Diamonds** (Bottom) + 2 Obsidian
-
-**Cartography Table** (`minecraft:cartography_table`)
-*   Original: Paper + Planks
-*   Modified: **Compass** + Paper + Logs
-
-**Fletching Table** (`minecraft:fletching_table`)
-*   Original: Flint + Planks
-*   Modified: Flint + **Feather** + Logs
-
-**Inscription Table** (`irons_spellbooks:inscription_table`)
-*   Original: Book + ...
-*   Modified: **Gold Sheets** + Obsidian + Book
-
-**Schematicannon** (`create:schematicannon`)
-*   Original: Logs + Dispenser + Iron Blocks
-*   Modified: Logs + Dispenser + **Iron Sheet** + **Cogwheel** + Smooth Stone
-
-**Apotheosis Tables**
-*   `reforging_table`: Uses **Gold Sheets**, **Diamond Block**, **Netherite Scrap**.
-*   `simple_reforging_table`: Uses **Iron Sheets**, **Anvil**, **Smooth Stone**.
-*   `salvaging_table`: Uses **Iron Sheets**, **Smithing Table**, **Lava**, **Reinforced Block**.
-*   `gem_cutting_table`: Uses **Shears**, **Amethyst**, **Stonecutter**, **Planks**.
+**Furnace** — 8 Cobblestone + **1 Campfire**
+**Smoker** — Furnace + **6 Logs**
+**Blast Furnace** — Furnace + **Iron Sheets** + Smooth Stone
+**Anvil** — 3 Iron Blocks + 4 **Iron Sheets**
+**Smithing Table** — **Iron Sheets** + Logs
+**Grindstone** — **Cogwheels** + Stone Slab + Logs
+**Stonecutter** — **Iron Sheet** + Stone
+**Cauldron** — 7 **Iron Sheets**
+**Brewing Stand** — Blaze Rod + 3 **Copper Sheets**
+**Enchanting Table** — Book + **Red Wool** + Diamonds + Obsidian
+**Cartography Table** — **Compass** + Paper + Logs
+**Fletching Table** — Flint + **Feather** + Logs
+**Schematicannon** — Logs + Dispenser + **Iron Sheet** + **Cogwheel** + Smooth Stone
+**Apotheosis Tables** — Various **Sheets** + advanced materials
 
 ---
 
-## 5. 🕯️ DECORATION & UTILITIES
+## 5. DECORATION & UTILITIES
 
-**Beds** (`minecraft:*_bed`)
-*   Original: 3 Wool + 3 Planks
-*   Modified: 3 Wool + **3 Logs**
-
-**Lantern** (`minecraft:lantern`)
-*   Original: 8 Iron Nuggets + Torch
-*   Modified: 2 **Iron Sheets** + Torch
-
-**Soul Lantern** (`minecraft:soul_lantern`)
-*   Original: 8 Iron Nuggets + Soul Torch
-*   Modified: 2 **Iron Sheets** + Soul Torch
-
-**Torches** (`minecraft:torch`)
-*   Original: 1 Coal + 1 Stick -> 4 Torches
-*   Modified: 1 Coal + 1 Stick -> **2 Torches**
-*   **Soul Torch**: Similar reduction.
-*   **Redstone Torch**: Yields 1.
-*   **Framed Torch**: Requires Coal.
-
-**Bucket** (`minecraft:bucket`)
-*   Original: 3 Iron Ingots
-*   Modified: 3 **Iron Sheets**
-
-**Shears** (`minecraft:shears`)
-*   Original: 2 Iron Ingots
-*   Modified: 1 **Iron Sheet** + 1 Stick
-
-**Compass** (`minecraft:compass`)
-*   Original: 4 Iron Ingots + Redstone
-*   Modified: 4 **Iron Sheets** + Redstone + **Gold Nugget**
-
-**Book** (`minecraft:book`)
-*   Original: 3 Paper + 1 Leather
-*   Modified: 3 Paper + 1 Leather + **1 String**
-
-**Clock** (`minecraft:clock`)
-*   Original: 4 Gold Ingots + Redstone
-*   Modified: 4 **Gold Sheets** + Redstone
-
-**Fishing Rod** (`minecraft:fishing_rod`)
-*   Original: Sticks + String
-*   Modified: Sticks + String + **Fishing Line** (Aquaculture)
-
-**Lead** (`minecraft:lead`)
-*   Original: String + Slimeball
-*   Modified: String + **Iron Nugget**
-
-**Saddle** (`minecraft:saddle`)
-*   Original: Uncraftable (Vanilla)
-*   Modified: **Leather** + **String** + **Iron Sheets**
-
-**Ladders**
-*   `minecraft:ladder`: Sticks + **Zipline Rope** (Parcool)
-*   `framedblocks:framed_ladder`: Sticks + **Framed Cube**
-
-**Item Frame** (`minecraft:item_frame`)
-*   Original: Sticks + Leather
-*   Modified: Sticks + Leather + **Iron Nugget**
-
-**Painting** (`minecraft:painting`)
-*   Original: Sticks + Wool
-*   Modified: Sticks + Wool + **Paper**
-
-**Golden Apple** (`minecraft:golden_apple`)
-*   Original: 8 Gold Ingots + Apple
-*   Modified: 8 **Gold Sheets** + Apple
-
-**Golden Carrot** (`minecraft:golden_carrot`)
-*   Original: 8 Gold Nuggets + Carrot
-*   Modified: 4 **Gold Sheets** + Carrot
-
-**Lightning Rod** (`minecraft:lightning_rod`)
-*   Original: 3 Copper Ingots
-*   Modified: 3 **Copper Sheets**
-
-**Spyglass** (`minecraft:spyglass`)
-*   Original: 2 Copper Ingots + Amethyst
-*   Modified: 2 **Copper Sheets** + Amethyst
-
-**Chain** (`minecraft:chain`)
-*   Original: 2 Nuggets + 1 Ingot
-*   Modified: 2 Nuggets + 1 **Iron Sheet**
-
-**Flint and Steel** (`minecraft:flint_and_steel`)
-*   Original: Iron Ingot + Flint
-*   Modified: **Iron Sheet** + Flint
-
-**Blaze Powder** (`minecraft:blaze_powder`)
-*   Original: Blaze Rod
-*   Modified: 4 **Pepper Powder** (My Nethers Delight)
-
-**Daylight Detector** (`minecraft:daylight_detector`)
-*   Original: Glass + Quartz + Slabs
-*   Modified: Glass + **Gold Sheets** + Slabs
+**Beds** — 3 Wool + **3 Logs**
+**Lantern/Soul Lantern** — 2 **Iron Sheets** + Torch
+**Torches** — Yield halved (4 -> 2)
+**Bucket** — 3 **Iron Sheets**
+**Shears** — 1 **Iron Sheet** + 1 Stick
+**Book** — 3 Paper + Leather + **1 String**
+**Fishing Rod** — Sticks + String + **Fishing Line** (Aquaculture)
+**Lead** — String + **Iron Nugget**
+**Saddle** — **Leather** + **String** + **Iron Sheets** (craftable)
+**Ladders** — Sticks + **Zipline Rope** (Parcool)
+**Item Frame** — Sticks + Leather + **Iron Nugget**
+**Painting** — Sticks + Wool + **Paper**
+**Golden Apple** — 8 **Gold Sheets** + Apple
+**Golden Carrot** — 4 **Gold Sheets** + Carrot
+**Lightning Rod** — 3 **Copper Sheets**
+**Chain** — 2 Nuggets + 1 **Iron Sheet**
+**Flint and Steel** — **Iron Sheet** + Flint
+**Blaze Powder** — 4 **Pepper Powder** (My Nethers Delight)
+**Daylight Detector** — Glass + **Gold Sheets** + Slabs
+**Spyglass** — **Brass** (Create) + Amethyst
+**Clock** — Gold + **Cogwheel** (Create) center
+**Compass** — Iron + **Cogwheel** (Create) + Redstone
 
 ---
 
-## 6. ⚡ REDSTONE, LOGIC & TRANSPORT
+## 6. REDSTONE, LOGIC & TRANSPORT
 
-**Piston** (`minecraft:piston`)
-*   Original: Planks + Cobble + Iron Ingot + Redstone
-*   Modified: Planks + Cobble + **Iron Sheet** + Redstone + **Cogwheel**
-
-**Hopper** (`minecraft:hopper`)
-*   Original: 5 Iron Ingots + Chest
-*   Modified: 5 **Iron Sheets** + Chest
-
-**Dispenser** (`minecraft:dispenser`)
-*   Original: Cobble + Bow + Redstone
-*   Modified: Cobble + Bow + Redstone + **Cogwheel**
-
-**Dropper** (`minecraft:dropper`)
-*   Original: Cobble + Redstone
-*   Modified: Cobble + Redstone + **Cogwheel**
-
-**Observer** (`minecraft:observer`)
-*   Original: Cobble + Redstone + Quartz
-*   Modified: **Smooth Stone** + Redstone + Quartz
-
-**Repeater** (`minecraft:repeater`)
-*   Original: Torches + Redstone + Stone
-*   Modified: Torches + **Gold Nugget** + Stone
-
-**Comparator** (`minecraft:comparator`)
-*   Original: Torches + Quartz + Stone
-*   Modified: Torches + Quartz + Stone + **Gold Sheet**
-
-**Lever** (`minecraft:lever`)
-*   Original: Stick + Cobblestone
-*   Modified: Stick + **Stone**
-
-**Jukebox** (`minecraft:jukebox`)
-*   Original: Planks + Diamond
-*   Modified: **Logs** + Diamond + **Cogwheel**
-
-**Note Block** (`minecraft:note_block`)
-*   Original: Planks + Redstone
-*   Modified: **Logs** + Redstone
-
-**Bell** (`minecraft:bell`)
-*   Original: Sticks + Stone + Gold Ingots
-*   Modified: **Gold Sheets** + Stone
-
-**Pressure Plates**
-*   Wooden (`*_pressure_plate`): 2 **Logs**
-*   Heavy (Iron): 2 **Iron Sheets**
-*   Light (Gold): 2 **Gold Sheets**
-
-**Minecart** (`minecraft:minecart`)
-*   Original: 5 Iron Ingots
-*   Modified: 4 **Iron Sheets** + 1 **Cogwheel**
-
-**Rail** (`minecraft:rail`)
-*   Original: Iron Ingots + Stick
-*   Modified: **Iron Sheets** + Stick
-
-**Powered Rail** (`minecraft:powered_rail`)
-*   Original: Gold Ingots + Stick + Redstone
-*   Modified: **Gold Sheets** + Stick + Redstone
-
-**Detector Rail** (`minecraft:detector_rail`)
-*   Original: Iron Ingots + Pressure Plate + Redstone
-*   Modified: **Iron Sheets** + Pressure Plate + Redstone
-
-**Activator Rail** (`minecraft:activator_rail`)
-*   Original: Iron Ingots + Stick + Redstone Torch
-*   Modified: **Iron Sheets** + Stick + Redstone Torch
-
-**Boats** (`minecraft:*_boat`)
-*   Original: 5 Planks
-*   Modified: 5 Planks + **1 Wooden Shovel**
+**Piston** — Planks + Cobble + **Iron Sheet** + Redstone + **Cogwheel**
+**Hopper** — 5 **Iron Sheets** + Chest
+**Dispenser** — Cobble + Bow + Redstone + **Cogwheel**
+**Dropper** — Cobble + Redstone + **Cogwheel**
+**Observer** — **Smooth Stone** + Redstone + Quartz
+**Repeater** — Torches + **Gold Nugget** + Stone
+**Comparator** — Torches + Quartz + Stone + **Gold Sheet**
+**Lever** — Stick + **Stone**
+**Jukebox** — **Logs** + Diamond + **Cogwheel**
+**Note Block** — **Logs** + Redstone
+**Bell** — **Gold Sheets** + Stone
+**Pressure Plates** — Wooden: **Logs** | Heavy: **Iron Sheets** | Light: **Gold Sheets**
+**Minecart** — 4 **Iron Sheets** + 1 **Cogwheel**
+**Rails** — All use **Sheets** instead of ingots
+**Boats** — 5 Planks + **1 Wooden Shovel**
 
 ---
 
-## 7. 💥 COMBAT & EXPLOSIVES
+## 7. COMBAT & EXPLOSIVES
 
-**TNT** (`minecraft:tnt`)
-*   Original: Gunpowder + Sand
-*   Modified: Gunpowder + Sand + **String**
-
-**Bow** (`minecraft:bow`)
-*   Original: 3 Sticks + 3 Strings
-*   Modified: 3 Sticks + 3 Strings + **1 Leather**
-
-**Crossbow** (`minecraft:crossbow`)
-*   Original: Stick + Iron Ingot + String + Tripwire
-*   Modified: Stick + **Iron Sheet** + String + **Cogwheel** + **Log**
-
-**Shield** (`minecraft:shield`)
-*   Original: Planks + 1 Iron Ingot
-*   Modified: Planks + **1 Iron Sheet**
+**TNT** — Gunpowder + Sand + **String**
+**Bow** — 3 Sticks + 3 Strings + **1 Leather**
+**Crossbow** — Stick + **Iron Sheet** + String + **Cogwheel** + **Log**
+**Shield** — Planks + **1 Iron Sheet**
 
 ---
 
-## 8. 🔄 MODDED COMPATIBILITY
+## 8. MODDED COMPATIBILITY
 
-**Aether Gloves**
-*   `aether:leather_gloves`: Added **String**
-*   `aether:iron_gloves`: Uses **Iron Sheets**
-*   `aether:golden_gloves`: Uses **Gold Sheets**
-*   `aether:diamond_gloves`: Added **Breeze Rod**
-*   `aether:netherite_gloves`: Smithing (Diamond Gloves + Netherite)
-
-**Better Copper Gear**
-*   Tools (`bettercopper:copper_*`) & Armor: Use **Copper Sheets** instead of Copper Ingots.
-
-**Mekanism: Lapis Lazuli Gear**
-*   Tools (`mekanismtools:lapis_lazuli_*`): Reinforced with **Iron Sheets**.
-*   Armor: Reinforced with **Iron Sheets**.
-
-**Mekanism: Steel Gear**
-*   Items: Pickaxe, Axe, Shovel, Hoe, Sword, Paxel.
-*   Modification: Replaces **Iron Ingots** with **Iron Sheets** (if present).
-
-**Whisk** (`create:whisk`)
-*   Original: Iron Sheets + Andesite Alloy
-*   Modified: **Iron Bars** + **2 Andesite Alloys** (Center)
-
-**Create SA: Copper Gear**
-*   Tools (`create_sa:copper_*`) & Armor: Use **Copper Sheets**.
-*   **Jetpack** (`create_sa:copper_jetpack_chestplate`): Uses **Copper Sheets**.
-*   **Exoskeleton** (`create_sa:copper_exoskeleton_chestplate`): Uses **Copper Sheets**.
-
-**Simply Swords**
-*   Iron Weapons: Use **Iron Sheets**.
-*   Gold Weapons: Use **Gold Sheets**.
-*   Diamond Weapons: Use **Breeze Rod** handle.
-
-**Misc Knives & Rods**
-*   Iron (Aquaculture, FarmersDelight, Cosmetic): Uses **Iron Sheets**.
-*   Gold (Aquaculture, FarmersDelight, Cosmetic): Uses **Gold Sheets**.
-*   Diamond (Aquaculture, FarmersDelight, Cosmetic): Uses **Breeze Rod**.
-*   Copper (Create Things): Uses **Copper Sheets**.
-*   Stone (Aquaculture, Cosmetic): Uses **Stone**.
-*   Wood (Aquaculture, Cosmetic): Uses **Logs**.
-
-**Modded Sticks**
-*   `aether:skyroot_stick`: Yield /2 (Like Vanilla).
-*   `immersiveengineering:stick_treated`: Yield /2.
-
-**Gold Whisk** (`dndesires:gold_whisk`)
-*   Original: Gold Ingots
-*   Modified: **Gold Gates** (Supplementaries)
-
-**Advanced Netherite Ingots**
-*   **Iron Netherite**: Mixer (Heated) -> 1 Netherite Ingot + 6 Iron Ingots.
-*   **Gold Netherite**: Mixer (Heated) -> 1 Iron Netherite + 6 Gold Ingots.
-*   **Emerald Netherite**: Mixer (Heated) -> 1 Gold Netherite + 6 Emeralds.
-*   **Diamond Netherite**: Mixer (Heated) -> 1 Emerald Netherite + 6 Diamonds.
+**Aether Gloves** — Leather: +String | Iron: Sheets | Gold: Sheets | Diamond: +Breeze Rod
+**Better Copper Gear** — All use **Copper Sheets**
+**Mekanism Lapis/Steel Gear** — Reinforced with **Iron Sheets**
+**Create SA Copper Gear** — Uses **Copper Sheets**
+**Simply Swords** — Iron: Sheets | Gold: Sheets | Diamond: Breeze Rod
+**Misc Knives & Rods** — Same sheet system as vanilla tools
+**Modded Sticks** — Aether/IE: Yield halved
+**Advanced Netherite Ingots** — Tiered via Mixer (Iron -> Gold -> Emerald -> Diamond Netherite)
+**Create Mechanical Arm** — +TFMG Transistor
+**Create Rotation Speed Controller** — +2 TFMG Transistors + Large Cogwheel
+**Create Addition Electric Motor** — Mechanical Crafting (Transistors, Converter, Spools, Capacitors)
 
 ---
 
-create:mechanical_arm | REWORKED: Added tfmg:transistor_item to standard recipe (Brass Sheet/Casing, Alloy, Precision Mech)
-create:rotation_speed_controller | REWORKED: Added tfmg:transistor_item x2 + Large Cogwheel
-createaddition:electric_motor | REWORKED: Mechanical Crafting (Transistors, Converter, Spools, Capacitors)
+## 9. FUSION CORE CHAIN (5 tiers, 20 items)
+
+**Tier 0** — Alloy Blend, Diamond Matrix, Infused Steel, Nether Concentrate, Energized Dust, Wiring Bundle
+*   Create Mixing (heated) with massive resource inputs. Output 1 per craft.
+
+**Tier 1** — Refined Alloy Ingot, Hardened Steel Compound, Energized Crystal, Treated Composite Plate
+*   Create Mixing + Mechanical Crafting 5x5. Each consumes 16-26 tier 0 items.
+
+**Tier 2** — Quantum Circuit, Plasma Cell, Reinforced Casing, Thermal Conductor
+*   Mechanical Crafting 5x5 + Sequenced Assembly (8 loops).
+
+**Tier 3** — Fusion Matrix (7x7), Containment Field Generator (7x7), Neutron Reflector (10 loops)
+*   Requires Nether Stars, Netherite Blocks, all tier 2 items.
+
+**Final** — **Fusion Core** (Mechanical Crafting 9x9)
+*   Cost: ~100K Iron, ~50K Diamonds, ~20K Gold, ~10K Netherite
+
+---
+
+## 10. CROSS-MOD HARDENING (Heavy)
+
+### Storage Lectern (`ars_nouveau:storage_lectern`)
+*   Mechanical Crafting — Source Gems + Golden Sheets + Precision Mechanism + Brass Casing + Mekanism Alloy + Ender Eye + Magebloom Fiber
+*   Forces: Ars Nouveau + Create + Mekanism
+
+### Ars Nouveau
+*   **Source Jar** — Glass + Source Gem + **Brass** (Create)
+*   **Imbuement Chamber** — **Steel** (TFMG) + Source Gem Block + **Golden Sheets** (Create)
+*   **Relay** — Source Gem + **Golden Sheets** (Create) + Amethyst + **Mekanism Alloy**
+*   **Enchanting Apparatus** — Mechanical Crafting 5x5 — **Precision Mechanism** + **Golden Sheets** + Archwood + Source Gems
+
+### Iron's Spellbooks
+*   **Inscription Table** — Book + Ink + **Source Gem** (Ars) + **Golden Sheets** (Create) + **Archwood** (Ars)
+*   **Scroll Forge** — **Source Gems** (Ars) + **Golden Sheets** (Create) + **Mekanism Alloy** + Obsidian
+*   **Arcane Anvil** — Mechanical Crafting — **Steel** (TFMG) + **Brass Casing** (Create)
+
+### Occultism
+*   **Golden Sacrificial Bowl** — **Golden Sheets** (Create) + **Source Gems** (Ars) + Gold Block + **Precision Mechanism**
+*   **Sacrificial Bowl** — **Golden Sheets** (Create) + **Source Gems** (Ars) + **Brass** (Create)
+*   **White Chalk** — **Magebloom Fiber** (Ars) + Bone Meal + Calcite
+
+### Apotheosis
+*   **Hellshelf** — Nether Bricks + **Source Gems** (Ars) + Book
+*   **Seashelf** — Prismarine + **Source Gems** (Ars) + Book
+
+### Tech (RS + Flux)
+*   **RS Controller** — Mechanical Crafting 5x5 — **Precision Mechanism** (Create) + **Brass Casing** + Quartz Enriched Iron + Diamond + Redstone Block
+*   **Flux Plug** — **Steel** (TFMG) + Flux Dust + **Precision Mechanism** (Create)
+*   **Flux Point** — **Steel** (TFMG) + Flux Dust + **Brass Casing** (Create)
+
+---
+
+## 11. LIGHT CROSS-MOD (Simple touches)
+
+### Ars Nouveau
+*   **Novice Spellbook** — +**Golden Sheet** (Create) + Leather
+*   **Scribes Table** — +**Cogwheel** (Create)
+*   **Wand** — **Brass** + **Golden Sheet** (Create)
+
+### Iron's Spellbooks
+*   **Alchemist Cauldron** — **Steel** (TFMG) instead of iron
+
+### Occultism
+*   **Candles** — **Magebloom Fiber** (Ars) instead of regular materials
+*   **Spirit Fire** — **Source Gem** (Ars) + Soul Sand + Flint & Steel
+
+### Waystones
+*   **Waystone** — Stone Bricks + Ender Pearl + **Source Gem** (Ars)
+*   **Warp Stone** — Ender Pearls + **Source Gem** (Ars)
+
+### Farmers Delight
+*   **Cooking Pot** — **Iron Sheets** (Create) + Water Bucket
+*   **Stove** — **Steel** (TFMG) + Campfire
+
+### Refined Storage
+*   **Disk Drive** — **Brass** (Create) + Glass + QEI + Redstone
+*   **Importer** — **Brass** (Create) + QEI + Redstone
+*   **Exporter** — **Brass** (Create) + QEI + Redstone
+*   **Autocrafter** — **Precision Mechanism** (Create) + QEI + Redstone
+*   **Wireless Transmitter** — Ender Pearl + **Brass** (Create) + QEI
+
+### Sophisticated Backpacks
+*   **Iron Backpack** — **Iron Sheets** (Create) + Iron + Backpack
+*   **Gold Backpack** — **Gold Sheets** (Create) + Gold + Iron Backpack
+*   **Diamond Backpack** — Diamond + **Precision Mechanism** (Create) + Gold Backpack
+*   **Netherite Backpack** — Netherite + **Steel** (TFMG) + Diamond Backpack
+
+### Building Gadgets 2
+*   **Building Gadget** — **Precision Mechanism** (Create) + **Brass** + **Mekanism Alloy** + Iron Sheets
+*   **Copy Paste Gadget** — **Precision Mechanism** + **Brass** + Ender Pearl + Iron Sheets
+*   **Cut Paste Gadget** — **Precision Mechanism** + Diamond + Ender Pearl + Iron Sheets
+*   **Destruction Gadget** — **Precision Mechanism** + Diamond + **Steel** (TFMG) + Ender Pearl
+
+### Vanilla
+*   **Spyglass** — **Brass** (Create) + Amethyst
+*   **Clock** — Gold + **Cogwheel** (Create)
+*   **Compass** — Iron + **Cogwheel** (Create) + Redstone
+
+---
+
+## 12. CUSTOM ARMOR CRAFTS
+
+### Adept Armor (Cultist)
+*   **Helmet** — Amethyst Shards + Purple Wool
+*   **Chestplate** — Amethyst Shards + Purple Wool + Leather
+*   **Leggings** — Amethyst Shards + Purple Wool + Leather
+*   **Boots** — Amethyst Shards + Purple Wool
+
+### Heretic Armor (Rebel)
+*   **Helmet** — Echo Shards + Red Wool + Bone
+*   **Chestplate** — Echo Shards + Red Wool + Chain
+*   **Leggings** — Echo Shards + Red Wool + Chain
+*   **Boots** — Echo Shards + Red Wool
+
+---
+
+*Total modified recipes: ~180+*
+*Cross-mod connections: Create, TFMG, Mekanism, IE, Ars Nouveau, Occultism, Iron's Spellbooks, Apotheosis, Refined Storage, Flux Networks, Farmers Delight, Waystones, Sophisticated Backpacks, Building Gadgets*

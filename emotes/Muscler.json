@@ -1,0 +1,105 @@
+{
+  "name": "Muscler",
+  "author": "Arcadia",
+  "description": "Check out these GAINS! Bodybuilder flex poses to show off those blocky biceps.",
+  "emote": {
+    "isLoop": false,
+    "beginTick": 0,
+    "endTick": 60,
+    "stopTick": 100,
+    "returnTick": 10,
+    "degrees": true,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "InOutSine",
+        "head": { "yaw": 0, "pitch": 0, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": 0, "roll": 0 },
+        "leftArm": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightArm": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      },
+      {
+        "tick": 8,
+        "easing": "InOutBack",
+        "head": { "yaw": 0, "pitch": -10, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": -5, "yaw": 0, "roll": 0 },
+        "leftArm": { "pitch": -90, "yaw": 0, "roll": -90, "bend": 120 },
+        "rightArm": { "pitch": -90, "yaw": 0, "roll": 90, "bend": 120 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": -10, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 10, "bend": 0 }
+      },
+      {
+        "tick": 15,
+        "easing": "InOutQuad",
+        "head": { "yaw": -30, "pitch": -5, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": -5, "yaw": -20, "roll": 0 },
+        "leftArm": { "pitch": -85, "yaw": 0, "roll": -90, "bend": 130 },
+        "rightArm": { "pitch": -85, "yaw": 0, "roll": 90, "bend": 130 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": -10, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 10, "bend": 0 }
+      },
+      {
+        "tick": 22,
+        "easing": "InOutQuad",
+        "head": { "yaw": 30, "pitch": -5, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": -5, "yaw": 20, "roll": 0 },
+        "leftArm": { "pitch": -85, "yaw": 0, "roll": -90, "bend": 130 },
+        "rightArm": { "pitch": -85, "yaw": 0, "roll": 90, "bend": 130 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": -10, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 10, "bend": 0 }
+      },
+      {
+        "tick": 30,
+        "easing": "InOutBack",
+        "head": { "yaw": 30, "pitch": -10, "roll": 5 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": 30, "roll": 5 },
+        "leftArm": { "pitch": -20, "yaw": 0, "roll": -30, "bend": 20 },
+        "rightArm": { "pitch": -90, "yaw": 0, "roll": 90, "bend": 130 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": -15, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 10, "bend": 10 }
+      },
+      {
+        "tick": 38,
+        "easing": "InOutBack",
+        "head": { "yaw": -30, "pitch": -10, "roll": -5 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": -30, "roll": -5 },
+        "leftArm": { "pitch": -90, "yaw": 0, "roll": -90, "bend": 130 },
+        "rightArm": { "pitch": -20, "yaw": 0, "roll": 30, "bend": 20 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": -10, "bend": 10 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 15, "bend": 0 }
+      },
+      {
+        "tick": 45,
+        "easing": "InOutBack",
+        "head": { "yaw": 0, "pitch": -15, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 10, "yaw": 0, "roll": 0 },
+        "leftArm": { "pitch": -70, "yaw": 30, "roll": -90, "bend": 120 },
+        "rightArm": { "pitch": -70, "yaw": -30, "roll": 90, "bend": 120 },
+        "leftLeg": { "pitch": -20, "yaw": 0, "roll": -15, "bend": 20 },
+        "rightLeg": { "pitch": -20, "yaw": 0, "roll": 15, "bend": 20 }
+      },
+      {
+        "tick": 52,
+        "easing": "InOutQuad",
+        "head": { "yaw": 0, "pitch": -20, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 15, "yaw": 0, "roll": 0 },
+        "leftArm": { "pitch": -80, "yaw": 35, "roll": -100, "bend": 130 },
+        "rightArm": { "pitch": -80, "yaw": -35, "roll": 100, "bend": 130 },
+        "leftLeg": { "pitch": -25, "yaw": 0, "roll": -20, "bend": 25 },
+        "rightLeg": { "pitch": -25, "yaw": 0, "roll": 20, "bend": 25 }
+      },
+      {
+        "tick": 60,
+        "easing": "constant",
+        "head": { "yaw": 0, "pitch": -20, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 15, "yaw": 0, "roll": 0 },
+        "leftArm": { "pitch": -80, "yaw": 35, "roll": -100, "bend": 130 },
+        "rightArm": { "pitch": -80, "yaw": -35, "roll": 100, "bend": 130 },
+        "leftLeg": { "pitch": -25, "yaw": 0, "roll": -20, "bend": 25 },
+        "rightLeg": { "pitch": -25, "yaw": 0, "roll": 20, "bend": 25 }
+      }
+    ]
+  }
+}

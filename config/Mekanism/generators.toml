@@ -25,11 +25,11 @@
 	#Energy produced by the Bio Generator in Joules/t.
 	# Default: 350
 	# Range: 0 ~ 9223372036854775807
-	bioGeneration = 175
+	bioGeneration = 70
 	#The capacity in mB of the fluid tank in the Bio Generator.
 	# Default: 24000
 	# Range: > 1
-	tankCapacity = 24000
+	tankCapacity = 12000
 
 #Settings for configuring Heat Generators
 [heat_generator]

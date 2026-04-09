@@ -1,0 +1,65 @@
+{
+  "name": "Penseur",
+  "author": "Arcadia",
+  "description": "La pose du Penseur de Rodin, menton sur le poing, contemplatif.",
+  "emote": {
+    "isLoop": false,
+    "beginTick": 0,
+    "endTick": 50,
+    "stopTick": 80,
+    "returnTick": 5,
+    "degrees": true,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "InOutSine",
+        "head": { "yaw": 0, "pitch": 0, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": 0, "roll": 0 },
+        "leftArm": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightArm": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      },
+      {
+        "tick": 15,
+        "easing": "InOutQuad",
+        "head": { "yaw": 5, "pitch": 15, "roll": 5 },
+        "torso": { "x": 0, "y": 0.03, "z": 0, "pitch": 10, "yaw": 5, "roll": 0 },
+        "leftArm": { "pitch": 10, "yaw": 10, "roll": 0, "bend": 0 },
+        "rightArm": { "pitch": -90, "yaw": -15, "roll": 0, "bend": -120 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 5, "yaw": 0, "roll": 0, "bend": -5 }
+      },
+      {
+        "tick": 22,
+        "easing": "InOutSine",
+        "head": { "yaw": 8, "pitch": 20, "roll": 7 },
+        "torso": { "x": 0, "y": 0.05, "z": 0, "pitch": 15, "yaw": 8, "roll": 2 },
+        "leftArm": { "pitch": 15, "yaw": 15, "roll": 5, "bend": -5 },
+        "rightArm": { "pitch": -95, "yaw": -10, "roll": 5, "bend": -130 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 8, "yaw": 0, "roll": 0, "bend": -8 }
+      },
+      {
+        "tick": 40,
+        "easing": "InOutSine",
+        "head": { "yaw": 8, "pitch": 20, "roll": 7 },
+        "torso": { "x": 0, "y": 0.05, "z": 0, "pitch": 15, "yaw": 8, "roll": 2 },
+        "leftArm": { "pitch": 15, "yaw": 15, "roll": 5, "bend": -5 },
+        "rightArm": { "pitch": -95, "yaw": -10, "roll": 5, "bend": -130 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 8, "yaw": 0, "roll": 0, "bend": -8 }
+      },
+      {
+        "tick": 50,
+        "easing": "InOutSine",
+        "head": { "yaw": 0, "pitch": 0, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": 0, "roll": 0 },
+        "leftArm": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightArm": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      }
+    ]
+  }
+}

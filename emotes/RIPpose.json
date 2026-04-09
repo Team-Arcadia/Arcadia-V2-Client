@@ -1,0 +1,45 @@
+{
+  "name": "RIP",
+  "author": "Arcadia",
+  "description": "Allonge dans un cercueil",
+  "emote": {
+    "isLoop": false,
+    "beginTick": 0,
+    "endTick": 30,
+    "stopTick": 100,
+    "returnTick": 5,
+    "degrees": true,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "InOutSine",
+        "head": { "yaw": 0, "pitch": 0, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": 0, "roll": 0 },
+        "leftArm": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightArm": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      },
+      {
+        "tick": 20,
+        "easing": "InOutQuad",
+        "head": { "yaw": 0, "pitch": 0, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 90, "yaw": 0, "roll": 0 },
+        "rightArm": { "pitch": -50, "yaw": 0, "roll": -20, "bend": -80 },
+        "leftArm": { "pitch": -50, "yaw": 0, "roll": 20, "bend": -80 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      },
+      {
+        "tick": 30,
+        "easing": "linear",
+        "head": { "yaw": 0, "pitch": 0, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 90, "yaw": 0, "roll": 0 },
+        "rightArm": { "pitch": -50, "yaw": 0, "roll": -20, "bend": -80 },
+        "leftArm": { "pitch": -50, "yaw": 0, "roll": 20, "bend": -80 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      }
+    ]
+  }
+}

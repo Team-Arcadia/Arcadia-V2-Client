@@ -1,0 +1,45 @@
+{
+  "name": "Facepalm",
+  "author": "Arcadia",
+  "description": "Quand c'est trop...",
+  "emote": {
+    "isLoop": false,
+    "beginTick": 0,
+    "endTick": 30,
+    "stopTick": 60,
+    "returnTick": 5,
+    "degrees": true,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "InOutSine",
+        "head": { "yaw": 0, "pitch": 0, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": 0, "roll": 0 },
+        "leftArm": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightArm": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      },
+      {
+        "tick": 15,
+        "easing": "InOutSine",
+        "head": { "yaw": 0, "pitch": 20, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 10, "yaw": 0, "roll": 0 },
+        "rightArm": { "pitch": -120, "yaw": 0, "roll": 0, "bend": -130 },
+        "leftArm": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      },
+      {
+        "tick": 30,
+        "easing": "InOutSine",
+        "head": { "yaw": 0, "pitch": 25, "roll": -5 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 15, "yaw": 0, "roll": 0 },
+        "rightArm": { "pitch": -120, "yaw": 0, "roll": 0, "bend": -130 },
+        "leftArm": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      }
+    ]
+  }
+}

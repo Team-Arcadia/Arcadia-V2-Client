@@ -1,9 +1,3 @@
-/give vyrriox create:blaze_burner
-/give vyrriox create:creative_blaze_cake
-/reload
-/spawn
-/clear vyrriox
-/summon minecraft:ender_dragon
 /kill @e[type=minecraft:ender_dragon]
 /reload
 /summon minecraft:ender_dragon
@@ -48,3 +42,9 @@
 /accessories edit vyrriox
 /reload
 /defaultoptions saveAll
+/weather clear 5000d
+/kubejs hand
+/clear
+/defaultoptions saveAll
+/reload
+/weather clear 5000d

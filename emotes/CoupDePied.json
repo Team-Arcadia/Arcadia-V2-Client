@@ -1,0 +1,80 @@
+{
+  "name": "Coup de Pied",
+  "author": "Arcadia",
+  "description": "Un coup de pied puissant avec la jambe droite",
+  "emote": {
+    "isLoop": false,
+    "beginTick": 0,
+    "endTick": 24,
+    "stopTick": 34,
+    "returnTick": 5,
+    "degrees": true,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "InOutSine",
+        "head": { "yaw": 0, "pitch": 0, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": 0, "roll": 0 },
+        "leftArm": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightArm": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      },
+      {
+        "tick": 5,
+        "easing": "InOutSine",
+        "comment": "Shift weight to left leg, lift right knee",
+        "head": { "yaw": 0, "pitch": 10, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 10, "yaw": 0, "roll": -5 },
+        "leftArm": { "pitch": -15, "yaw": 0, "roll": -20, "bend": -30 },
+        "rightArm": { "pitch": -15, "yaw": 0, "roll": 20, "bend": -30 },
+        "leftLeg": { "pitch": 5, "yaw": 0, "roll": 0, "bend": -15 },
+        "rightLeg": { "pitch": -50, "yaw": 0, "roll": 0, "bend": -90 }
+      },
+      {
+        "tick": 9,
+        "easing": "InOutBack",
+        "comment": "Lean back and kick forward with right leg",
+        "head": { "yaw": 0, "pitch": -10, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 1, "pitch": 20, "yaw": 0, "roll": -3 },
+        "leftArm": { "pitch": 20, "yaw": 0, "roll": -25, "bend": -20 },
+        "rightArm": { "pitch": 20, "yaw": 0, "roll": 25, "bend": -20 },
+        "leftLeg": { "pitch": 15, "yaw": 0, "roll": 0, "bend": -25 },
+        "rightLeg": { "pitch": -80, "yaw": 0, "roll": 0, "bend": -5 }
+      },
+      {
+        "tick": 13,
+        "easing": "InOutSine",
+        "comment": "Hold kick at full extension",
+        "head": { "yaw": 0, "pitch": -10, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 1, "pitch": 20, "yaw": 0, "roll": -3 },
+        "leftArm": { "pitch": 20, "yaw": 0, "roll": -25, "bend": -20 },
+        "rightArm": { "pitch": 20, "yaw": 0, "roll": 25, "bend": -20 },
+        "leftLeg": { "pitch": 15, "yaw": 0, "roll": 0, "bend": -25 },
+        "rightLeg": { "pitch": -80, "yaw": 0, "roll": 0, "bend": -5 }
+      },
+      {
+        "tick": 18,
+        "easing": "InOutSine",
+        "comment": "Retract leg, start recovery",
+        "head": { "yaw": 0, "pitch": 5, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 5, "yaw": 0, "roll": 0 },
+        "leftArm": { "pitch": -5, "yaw": 0, "roll": -10, "bend": -10 },
+        "rightArm": { "pitch": -5, "yaw": 0, "roll": 10, "bend": -10 },
+        "leftLeg": { "pitch": 5, "yaw": 0, "roll": 0, "bend": -10 },
+        "rightLeg": { "pitch": -20, "yaw": 0, "roll": 0, "bend": -40 }
+      },
+      {
+        "tick": 24,
+        "easing": "InOutSine",
+        "comment": "Return to neutral",
+        "head": { "yaw": 0, "pitch": 0, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": 0, "roll": 0 },
+        "leftArm": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightArm": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      }
+    ]
+  }
+}

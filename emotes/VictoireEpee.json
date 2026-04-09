@@ -1,0 +1,80 @@
+{
+  "name": "Victoire Epee",
+  "author": "Arcadia",
+  "description": "Lever triomphalement l'epee apres la victoire",
+  "emote": {
+    "isLoop": false,
+    "beginTick": 0,
+    "endTick": 40,
+    "stopTick": 50,
+    "returnTick": 5,
+    "degrees": true,
+    "moves": [
+      {
+        "tick": 0,
+        "easing": "InOutSine",
+        "head": { "yaw": 0, "pitch": 0, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": 0, "roll": 0 },
+        "leftArm": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightArm": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      },
+      {
+        "tick": 8,
+        "easing": "InOutSine",
+        "comment": "Bring sword to front, look at it",
+        "head": { "yaw": -10, "pitch": 10, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 5, "yaw": -10, "roll": 0 },
+        "leftArm": { "pitch": -10, "yaw": 0, "roll": -5, "bend": -20 },
+        "rightArm": { "pitch": -60, "yaw": -10, "roll": 5, "bend": -30 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      },
+      {
+        "tick": 16,
+        "easing": "InOutBack",
+        "comment": "Thrust sword up triumphantly",
+        "head": { "yaw": 0, "pitch": -30, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": -10, "yaw": 0, "roll": 0 },
+        "leftArm": { "pitch": 10, "yaw": 0, "roll": -15, "bend": -30 },
+        "rightArm": { "pitch": -170, "yaw": 0, "roll": 10, "bend": -5 },
+        "leftLeg": { "pitch": -5, "yaw": -5, "roll": 0, "bend": -10 },
+        "rightLeg": { "pitch": -5, "yaw": 5, "roll": 0, "bend": -10 }
+      },
+      {
+        "tick": 24,
+        "easing": "InOutSine",
+        "comment": "Hold victory pose, slight lean back",
+        "head": { "yaw": 0, "pitch": -35, "roll": 5 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": -12, "yaw": 0, "roll": 3 },
+        "leftArm": { "pitch": 15, "yaw": 5, "roll": -20, "bend": -25 },
+        "rightArm": { "pitch": -175, "yaw": 5, "roll": 12, "bend": 0 },
+        "leftLeg": { "pitch": -5, "yaw": -5, "roll": 0, "bend": -12 },
+        "rightLeg": { "pitch": -5, "yaw": 5, "roll": 0, "bend": -12 }
+      },
+      {
+        "tick": 34,
+        "easing": "InOutSine",
+        "comment": "Bring sword down slowly",
+        "head": { "yaw": 0, "pitch": 0, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": 0, "roll": 0 },
+        "leftArm": { "pitch": 5, "yaw": 0, "roll": -5, "bend": -10 },
+        "rightArm": { "pitch": -40, "yaw": -5, "roll": 5, "bend": -15 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      },
+      {
+        "tick": 40,
+        "easing": "InOutSine",
+        "comment": "Return to neutral",
+        "head": { "yaw": 0, "pitch": 0, "roll": 0 },
+        "torso": { "x": 0, "y": 0, "z": 0, "pitch": 0, "yaw": 0, "roll": 0 },
+        "leftArm": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightArm": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "leftLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 },
+        "rightLeg": { "pitch": 0, "yaw": 0, "roll": 0, "bend": 0 }
+      }
+    ]
+  }
+}
