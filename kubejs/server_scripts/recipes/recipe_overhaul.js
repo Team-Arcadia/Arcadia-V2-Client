@@ -2108,9 +2108,16 @@ ServerEvents.recipes((event) => {
     ];
     mekRefinedArmor.forEach(item => event.replaceInput({ output: item, allowEmpty: true }, 'minecraft:leather', SOURCE_GEM));
 
-    // HDPE SHEET — replaced with Create Sequenced Assembly (endgame gate for Potion Charms).
-    // Default: 3 pellets in Enrichment Chamber. New: Sequenced Assembly 3 loops.
-    // Per sheet: 1 hdpe_pellet + 3 hdpe_rod + 3 brass_sheet + 3 alloy_reinforced.
+    // HDPE ROD — harden: 4 pellets + 1 brass sheet (Create) in a 2x3 shaped craft.
+    event.remove({ output: 'mekanism:hdpe_rod' });
+    event.shaped('mekanism:hdpe_rod', ['PP', 'PP', 'B '], {
+        P: 'mekanism:hdpe_pellet',
+        B: BRASS_SHEET
+    }).id('arcadia:hdpe_rod');
+
+    // HDPE SHEET — endgame Create Sequenced Assembly (5 loops, 5 ingredients per loop + molten steel).
+    // Default: 3 pellets in Enrichment Chamber. New: full Create + TFMG + Mek chain.
+    // Per sheet: 1 hdpe_pellet + 5 hdpe_rods + 5 brass_sheets + 5 heavy_plates + 5 alloy_reinforced + 2500mb molten_steel.
     event.remove({ output: 'mekanism:hdpe_sheet' });
     event.recipes.create.sequenced_assembly(
         [Item.of('mekanism:hdpe_sheet', 1)],
@@ -2118,10 +2125,12 @@ ServerEvents.recipes((event) => {
         [
             event.recipes.createDeploying('mekanism:hdpe_pellet', ['mekanism:hdpe_pellet', 'mekanism:hdpe_rod']),
             event.recipes.createDeploying('mekanism:hdpe_pellet', ['mekanism:hdpe_pellet', BRASS_SHEET]),
+            event.recipes.createDeploying('mekanism:hdpe_pellet', ['mekanism:hdpe_pellet', TFMG_HEAVY_PLATE]),
             event.recipes.createDeploying('mekanism:hdpe_pellet', ['mekanism:hdpe_pellet', MEK_ALLOY_REINFORCED]),
+            event.recipes.createFilling('mekanism:hdpe_pellet', ['mekanism:hdpe_pellet', Fluid.of('tfmg:molten_steel', 500)]),
             event.recipes.createPressing('mekanism:hdpe_pellet', 'mekanism:hdpe_pellet')
         ]
-    ).transitionalItem('mekanism:hdpe_pellet').loops(3).id('arcadia:hdpe_sheet');
+    ).transitionalItem('mekanism:hdpe_pellet').loops(5).id('arcadia:hdpe_sheet');
 
     // ============================================================
     // 14. TFMG HARDENING
