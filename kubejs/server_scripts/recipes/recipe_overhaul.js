@@ -2108,6 +2108,21 @@ ServerEvents.recipes((event) => {
     ];
     mekRefinedArmor.forEach(item => event.replaceInput({ output: item, allowEmpty: true }, 'minecraft:leather', SOURCE_GEM));
 
+    // HDPE SHEET — replaced with Create Sequenced Assembly (endgame gate for Potion Charms).
+    // Default: 3 pellets in Enrichment Chamber. New: Sequenced Assembly 3 loops.
+    // Per sheet: 1 hdpe_pellet + 3 hdpe_rod + 3 brass_sheet + 3 alloy_reinforced.
+    event.remove({ output: 'mekanism:hdpe_sheet' });
+    event.recipes.create.sequenced_assembly(
+        [Item.of('mekanism:hdpe_sheet', 1)],
+        'mekanism:hdpe_pellet',
+        [
+            event.recipes.createDeploying('mekanism:hdpe_pellet', ['mekanism:hdpe_pellet', 'mekanism:hdpe_rod']),
+            event.recipes.createDeploying('mekanism:hdpe_pellet', ['mekanism:hdpe_pellet', BRASS_SHEET]),
+            event.recipes.createDeploying('mekanism:hdpe_pellet', ['mekanism:hdpe_pellet', MEK_ALLOY_REINFORCED]),
+            event.recipes.createPressing('mekanism:hdpe_pellet', 'mekanism:hdpe_pellet')
+        ]
+    ).transitionalItem('mekanism:hdpe_pellet').loops(3).id('arcadia:hdpe_sheet');
+
     // ============================================================
     // 14. TFMG HARDENING
     // ============================================================
