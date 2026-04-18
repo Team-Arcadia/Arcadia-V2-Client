@@ -129,6 +129,7 @@ ServerEvents.recipes(event => {
     'occultism:ritual_dummy/summon_djinni_manage_machine',
     'occultism:stable_wormhole',
     'occultism:ritual_dummy/craft_stable_wormhole',
+    'occultism:iesnium_anvil',
 
     // Create Ender Transmission
     'createendertransmission:chunk_loader',
