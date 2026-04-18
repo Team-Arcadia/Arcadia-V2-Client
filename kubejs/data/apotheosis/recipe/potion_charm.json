@@ -1,0 +1,25 @@
+{
+    "type": "apotheosis:potion_charm_crafting",
+    "key": {
+        "B": {
+            "item": "minecraft:blaze_rod"
+        },
+        "P": {
+            "item": "minecraft:potion"
+        },
+        "S": {
+            "item": "ars_nouveau:source_gem"
+        },
+        "G": {
+            "item": "create:golden_sheet"
+        },
+        "T": {
+            "item": "minecraft:ghast_tear"
+        }
+    },
+    "pattern": [
+        "BSB",
+        "PTP",
+        "BGB"
+    ]
+}

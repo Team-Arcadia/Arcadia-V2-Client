@@ -28,7 +28,7 @@ StartupEvents.registry('item', event => {
         event.create(`arcadia:music_disc_${id}`)
             .displayName('Music Disc')
             .jukeboxPlayable(`arcadia:${id}`)
-            .texture('arcadia:item/music_disc_custom')
+            .texture(`arcadia:item/music_disc_${id}`)
             .rarity('rare')
             .maxStackSize(1);
     });

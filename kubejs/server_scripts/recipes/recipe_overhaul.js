@@ -1287,7 +1287,7 @@ ServerEvents.recipes((event) => {
             " BCB "
         ], {
             S: 'ars_nouveau:source_gem',
-            A: 'ars_nouveau:archwood_log',
+            A: '#c:logs/archwood',
             G: 'create:golden_sheet',
             M: 'mekanism:alloy_infused',
             B: 'create:brass_casing',
@@ -1318,7 +1318,7 @@ ServerEvents.recipes((event) => {
         S: 'tfmg:steel_ingot',
         A: 'ars_nouveau:source_gem_block',
         G: 'create:golden_sheet',
-        T: 'ars_nouveau:archwood_log'
+        T: '#c:logs/archwood'
     }).id('arcadia:imbuement_chamber');
 
     event.remove({ output: 'ars_nouveau:relay' });
@@ -1345,7 +1345,7 @@ ServerEvents.recipes((event) => {
         ], {
             G: 'create:golden_sheet',
             P: 'create:precision_mechanism',
-            A: 'ars_nouveau:archwood_log',
+            A: '#c:logs/archwood',
             S: 'ars_nouveau:source_gem'
         }
     ).id('arcadia:enchanting_apparatus');
@@ -1361,7 +1361,7 @@ ServerEvents.recipes((event) => {
         I: 'minecraft:ink_sac',
         G: 'ars_nouveau:source_gem',
         S: 'create:golden_sheet',
-        L: 'ars_nouveau:archwood_log'
+        L: '#c:logs/archwood'
     }).id('arcadia:inscription_table');
 
     event.remove({ output: 'irons_spellbooks:scroll_forge' });
@@ -1426,27 +1426,7 @@ ServerEvents.recipes((event) => {
     }).id('arcadia:chalk_white_impure');
 
     // --- APOTHEOSIS cross-mod ---
-    event.remove({ output: 'apotheosis:hellshelf' });
-    event.shaped('apotheosis:hellshelf', [
-        'NNN',
-        'SBS',
-        'NNN'
-    ], {
-        N: 'minecraft:nether_bricks',
-        S: 'ars_nouveau:source_gem',
-        B: 'minecraft:book'
-    }).id('arcadia:hellshelf');
-
-    event.remove({ output: 'apotheosis:seashelf' });
-    event.shaped('apotheosis:seashelf', [
-        'PPP',
-        'SBS',
-        'PPP'
-    ], {
-        P: 'minecraft:prismarine',
-        S: 'ars_nouveau:source_gem',
-        B: 'minecraft:book'
-    }).id('arcadia:seashelf');
+    // hellshelf/seashelf removed from Apotheosis 1.21 — custom bookshelves handled by ApothicEnchanting instead.
 
     // --- RS + FLUX NETWORKS cross-mod ---
     event.remove({ output: 'refinedstorage:controller' });
@@ -1516,7 +1496,7 @@ ServerEvents.recipes((event) => {
         S: 'ars_nouveau:source_gem',
         B: 'minecraft:book',
         F: 'minecraft:feather',
-        L: 'ars_nouveau:archwood_log',
+        L: '#c:logs/archwood',
         C: COGWHEEL
     }).id('arcadia:scribes_table');
 
@@ -1543,8 +1523,8 @@ ServerEvents.recipes((event) => {
     }).id('arcadia:alchemist_cauldron');
 
     // --- Occultism: Candle needs Ars magebloom ---
-    event.remove({ output: 'occultism:candle_white' });
-    event.shaped('4x occultism:candle_white', [
+    event.remove({ output: 'occultism:large_candle_white' });
+    event.shaped('4x occultism:large_candle_white', [
         'S',
         'M',
         'M'
@@ -1847,7 +1827,7 @@ ServerEvents.recipes((event) => {
     const SOURCE_GEM = 'ars_nouveau:source_gem';
     const SOURCE_GEM_BLOCK = 'ars_nouveau:source_gem_block';
     const MAGEBLOOM_CLOTH = 'ars_nouveau:magebloom_fiber';
-    const ARCHWOOD = 'ars_nouveau:archwood_log';
+    const ARCHWOOD = '#c:logs/archwood';
     const BRASS_SHEET = 'create:brass_sheet';
 
     // 12A. ARCANE CIRCUIT (Create + TFMG + Mekanism + Ars Nouveau)
@@ -2083,7 +2063,7 @@ ServerEvents.recipes((event) => {
     event.remove({ output: 'mekanism:sps_casing' });
     event.shaped('mekanism:sps_casing', ['ARA', 'RCR', 'ARA'], {
         A: MEK_ALLOY_ATOMIC,
-        R: 'mekanism:reinforced_glass',
+        R: 'mekanism:structural_glass',
         C: 'create:brass_casing'
     }).id('arcadia:mek_sps_casing');
 
@@ -2315,9 +2295,9 @@ ServerEvents.recipes((event) => {
         W: 'createaddition:copper_wire'
     }).id('arcadia:ca_capacitor');
 
-    event.remove({ output: 'createaddition:accumulator' });
+    event.remove({ output: 'createaddition:modular_accumulator' });
     event.recipes.create.mechanical_crafting(
-        'createaddition:accumulator',
+        'createaddition:modular_accumulator',
         [
             "GCG",
             "CAC",
@@ -2327,9 +2307,9 @@ ServerEvents.recipes((event) => {
             C: 'createaddition:capacitor',
             A: ARCANE_CIRCUIT
         }
-    ).id('arcadia:ca_accumulator');
+    ).id('arcadia:ca_modular_accumulator');
 
-    event.replaceInput({ output: 'createaddition:charger' }, 'minecraft:gold_ingot', 'create:precision_mechanism');
+    // createaddition:charger item does not exist — removed.
     event.replaceInput({ output: 'createaddition:portable_energy_interface' }, 'minecraft:iron_ingot', 'create:precision_mechanism');
 
     event.remove({ output: 'createaddition:tesla_coil' });
@@ -2553,37 +2533,37 @@ ServerEvents.recipes((event) => {
         }
     ).id('arcadia:rs_64k_part');
 
-    event.remove({ output: 'extradisks:1024k_storage_part' });
+    event.remove({ output: 'extradisks:1024k_item_storage_part' });
     event.recipes.create.mechanical_crafting(
-        'extradisks:1024k_storage_part',
+        'extradisks:1024k_item_storage_part',
         [
             "GAG",
-            "P6P",
+            "PKP",
             "GSG"
         ], {
             G: 'minecraft:glass',
             A: MEK_ALLOY_ATOMIC,
             P: 'create:precision_mechanism',
-            '6': 'refinedstorage:64k_storage_part',
+            K: 'refinedstorage:64k_storage_part',
             S: SOURCE_GEM_BLOCK
         }
     ).id('arcadia:rs_1024k_part');
 
-    event.remove({ output: 'extradisks:4096k_storage_part' });
+    event.remove({ output: 'extradisks:4096k_item_storage_part' });
     event.recipes.create.sequenced_assembly(
-        [Item.of('extradisks:4096k_storage_part', 1)],
-        'extradisks:1024k_storage_part',
+        [Item.of('extradisks:4096k_item_storage_part', 1)],
+        'extradisks:1024k_item_storage_part',
         [
-            event.recipes.createDeploying('extradisks:1024k_storage_part', ['extradisks:1024k_storage_part', MEK_ALLOY_ATOMIC]),
-            event.recipes.createDeploying('extradisks:1024k_storage_part', ['extradisks:1024k_storage_part', 'arcadia:fusion_matrix']),
-            event.recipes.createDeploying('extradisks:1024k_storage_part', ['extradisks:1024k_storage_part', 'create:precision_mechanism']),
-            event.recipes.createPressing('extradisks:1024k_storage_part', 'extradisks:1024k_storage_part')
+            event.recipes.createDeploying('extradisks:1024k_item_storage_part', ['extradisks:1024k_item_storage_part', MEK_ALLOY_ATOMIC]),
+            event.recipes.createDeploying('extradisks:1024k_item_storage_part', ['extradisks:1024k_item_storage_part', 'arcadia:fusion_matrix']),
+            event.recipes.createDeploying('extradisks:1024k_item_storage_part', ['extradisks:1024k_item_storage_part', 'create:precision_mechanism']),
+            event.recipes.createPressing('extradisks:1024k_item_storage_part', 'extradisks:1024k_item_storage_part')
         ]
-    ).transitionalItem('extradisks:1024k_storage_part').loops(5).id('arcadia:rs_4096k_part');
+    ).transitionalItem('extradisks:1024k_item_storage_part').loops(5).id('arcadia:rs_4096k_part');
 
-    event.remove({ output: 'extradisks:infinite_storage_part' });
+    event.remove({ output: 'extradisks:infinite_item_storage_part' });
     event.recipes.create.mechanical_crafting(
-        'extradisks:infinite_storage_part',
+        'extradisks:infinite_item_storage_part',
         [
             " NAN ",
             "AFCFA",
@@ -2619,8 +2599,8 @@ ServerEvents.recipes((event) => {
         }
     ).id('arcadia:flux_controller');
 
-    event.remove({ output: 'fluxnetworks:flux_storage' });
-    event.shaped('fluxnetworks:flux_storage', ['CBC', 'FSF', 'CTC'], {
+    event.remove({ output: 'fluxnetworks:basic_flux_storage' });
+    event.shaped('fluxnetworks:basic_flux_storage', ['CBC', 'FSF', 'CTC'], {
         C: 'create:brass_casing',
         B: 'fluxnetworks:flux_core',
         F: 'fluxnetworks:flux_block',
@@ -2721,34 +2701,9 @@ ServerEvents.recipes((event) => {
 
     // ============================================================
     // 23. ARS CREO / ARS TECHNICA HARDENING
+    //     kinetic_sourcelink/source_crafter/source_mixer do not exist in these addon versions.
+    //     Ars Creo adds starbuncle_wheel only; Ars Technica adds source_motor + armor sets.
     // ============================================================
-
-    event.remove({ output: 'ars_creo:kinetic_sourcelink', allowEmpty: true });
-    event.shaped('ars_creo:kinetic_sourcelink', ['SGS', 'CHC', 'BPB'], {
-        S: SOURCE_GEM_BLOCK,
-        G: COGWHEEL,
-        C: 'create:brass_casing',
-        H: 'create:shaft',
-        B: 'create:brass_sheet',
-        P: 'create:precision_mechanism'
-    }).id('arcadia:ars_creo_kinetic_sourcelink');
-
-    event.remove({ output: 'ars_technica:source_crafter', allowEmpty: true });
-    event.shaped('ars_technica:source_crafter', ['SPS', 'ACA', 'SPS'], {
-        S: SOURCE_GEM_BLOCK,
-        P: 'create:precision_mechanism',
-        A: ARCANE_CIRCUIT,
-        C: 'create:brass_casing'
-    }).id('arcadia:ars_technica_source_crafter');
-
-    event.remove({ output: 'ars_technica:source_mixer', allowEmpty: true });
-    event.shaped('ars_technica:source_mixer', ['SPS', 'AMA', 'SCS'], {
-        S: SOURCE_GEM_BLOCK,
-        P: 'create:precision_mechanism',
-        A: ARCANE_CIRCUIT,
-        M: 'create:mechanical_mixer',
-        C: 'create:brass_casing'
-    }).id('arcadia:ars_technica_source_mixer');
 
     // ============================================================
     // 24. IRON'S SPELLBOOKS HARDENING
@@ -2806,13 +2761,7 @@ ServerEvents.recipes((event) => {
         O: 'minecraft:obsidian'
     }).id('arcadia:occultism_goggles');
 
-    event.remove({ output: 'occultism:soul_gem_empty' });
-    event.shaped('occultism:soul_gem_empty', [' S ', 'EPE', ' G '], {
-        S: SOURCE_GEM,
-        E: 'minecraft:ender_pearl',
-        P: 'create:precision_mechanism',
-        G: ETHEREAL_ALLOY
-    }).id('arcadia:occultism_soul_gem_empty');
+    // soul_gem_empty is obtained via Djinni ritual only — not craftable, skipped.
 
     // ============================================================
     // 26. APOTHEOSIS HARDENING
@@ -2825,12 +2774,7 @@ ServerEvents.recipes((event) => {
         P: 'create:precision_mechanism'
     }).id('arcadia:apo_sigil_socketing');
 
-    event.remove({ output: 'apotheosis:vial_of_expulsion' });
-    event.shaped('apotheosis:vial_of_expulsion', [' S ', 'GPG', ' G '], {
-        S: SOURCE_GEM,
-        G: 'minecraft:glass',
-        P: 'create:precision_mechanism'
-    }).id('arcadia:apo_vial_expulsion');
+    // vial_of_expulsion was removed from Apotheosis 1.21 — skipped.
 
     // ============================================================
     // 27. AETHER HARDENING (gravitite + phoenix)
