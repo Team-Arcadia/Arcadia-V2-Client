@@ -1,14 +1,17 @@
 {
     "type": "apotheosis:potion_charm_crafting",
     "key": {
-        "B": {
-            "item": "minecraft:blaze_rod"
+        "H": {
+            "item": "mekanism:hdpe_sheet"
         },
         "P": {
             "item": "minecraft:potion"
         },
         "S": {
             "item": "ars_nouveau:source_gem"
+        },
+        "R": {
+            "item": "arcadia:rune_matrix"
         },
         "G": {
             "item": "create:golden_sheet"
@@ -18,8 +21,8 @@
         }
     },
     "pattern": [
-        "BSB",
-        "PTP",
-        "BGB"
+        "HSH",
+        "PRP",
+        "HTH"
     ]
 }
