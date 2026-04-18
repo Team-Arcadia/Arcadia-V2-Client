@@ -1,0 +1,205 @@
+{
+  "displayName": "§5Boss V",
+  "color": "white",
+  "keyItem": "arcadialootbox:boss_key_overlord",
+  "openSound": "minecraft:block.chest.open",
+  "openMessage": "",
+  "lootTable": [
+    {
+      "item": "minecraft:netherite_block",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.12,
+      "rarity": "legendary",
+      "displayName": "Netherite Block",
+      "broadcast": true
+    },
+    {
+      "item": "minecraft:nether_star",
+      "minCount": 1,
+      "maxCount": 3,
+      "chance": 0.15,
+      "rarity": "legendary",
+      "displayName": "Nether Star",
+      "broadcast": true
+    },
+    {
+      "item": "minecraft:elytra",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "legendary",
+      "displayName": "Elytra",
+      "broadcast": true
+    },
+    {
+      "item": "minecraft:totem_of_undying",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.18,
+      "rarity": "epic",
+      "displayName": "Totem of Undying",
+      "broadcast": false
+    },
+    {
+      "item": "simplyswords:emberblade",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.04,
+      "rarity": "legendary",
+      "displayName": "Emberblade",
+      "broadcast": true
+    },
+    {
+      "item": "simplyswords:frostfall",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.04,
+      "rarity": "legendary",
+      "displayName": "Frostfall",
+      "broadcast": true
+    },
+    {
+      "item": "simplyswords:mjolnir",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.03,
+      "rarity": "legendary",
+      "displayName": "Mjolnir",
+      "broadcast": true
+    },
+    {
+      "item": "simplyswords:stormbringer",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.03,
+      "rarity": "legendary",
+      "displayName": "Stormbringer",
+      "broadcast": true
+    },
+    {
+      "item": "simplyswords:tempest",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.03,
+      "rarity": "legendary",
+      "displayName": "Tempest",
+      "broadcast": true
+    },
+    {
+      "item": "artifacts:fire_gauntlet",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "epic",
+      "displayName": "Fire Gauntlet",
+      "broadcast": false
+    },
+    {
+      "item": "artifacts:power_glove",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "epic",
+      "displayName": "Power Glove",
+      "broadcast": false
+    },
+    {
+      "item": "artifacts:everlasting_beef",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.04,
+      "rarity": "legendary",
+      "displayName": "Everlasting Beef",
+      "broadcast": true
+    },
+    {
+      "item": "mekanism:alloy_atomic",
+      "minCount": 4,
+      "maxCount": 8,
+      "chance": 0.18,
+      "rarity": "epic",
+      "displayName": "Atomic Alloy",
+      "broadcast": false
+    },
+    {
+      "item": "mekanism:ultimate_control_circuit",
+      "minCount": 2,
+      "maxCount": 4,
+      "chance": 0.15,
+      "rarity": "epic",
+      "displayName": "Ultimate Circuit",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple",
+      "minCount": 2,
+      "maxCount": 4,
+      "chance": 0.2,
+      "rarity": "epic",
+      "displayName": "Enchanted Golden Apple",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:diamond_block",
+      "minCount": 4,
+      "maxCount": 8,
+      "chance": 0.3,
+      "rarity": "rare",
+      "displayName": "Diamond Block",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:experience_bottle",
+      "minCount": 48,
+      "maxCount": 64,
+      "chance": 0.35,
+      "rarity": "common",
+      "displayName": "XP Bottle",
+      "broadcast": false
+    }
+  ],
+  "particles": [
+    "minecraft:flame"
+  ],
+  "type": "guaranteed",
+  "guaranteedItem": "minecraft:netherite_ingot",
+  "guaranteedMinCount": 1,
+  "guaranteedMaxCount": 2,
+  "rarity": "legendary",
+  "broadcastRare": true,
+  "broadcastMessage": "",
+  "destroyOnOpen": false,
+  "maxUses": -1,
+  "permission": "",
+  "animation": {
+    "type": "burst",
+    "durationTicks": 70,
+    "particleCount": 60,
+    "particleSpeed": 0.3,
+    "particleRadius": 1.3,
+    "particleType": "minecraft:flame",
+    "playTitleAnimation": true
+  },
+  "requireSneakToOpen": false,
+  "cooldownTicks": 20,
+  "closeSound": "",
+  "giveToInventoryOnly": false,
+  "openTitle": "§5✦ Boss V ✦",
+  "openSubtitle": "§7Good luck!",
+  "commandRewards": [],
+  "experienceReward": 200,
+  "requiredBiome": "",
+  "requiredLevel": 0,
+  "logOpening": true,
+  "sortOrder": 604,
+  "displayNameFR": "§5Boss V",
+  "openMessageFR": "",
+  "openTitleFR": "§5✦ Boss V ✦",
+  "openSubtitleFR": "§7Bonne chance !",
+  "freeEnabled": false,
+  "freeCooldownHours": 72,
+  "freePermission": "",
+  "freeReducedCooldownHours": 48,
+  "freeReducedPermission": ""
+}

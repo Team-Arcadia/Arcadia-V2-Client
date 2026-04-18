@@ -1,0 +1,277 @@
+{
+  "displayName": "§9Shop III",
+  "color": "white",
+  "keyItem": "arcadialootbox:shop_key_rare",
+  "openSound": "minecraft:block.chest.open",
+  "openMessage": "",
+  "lootTable": [
+    {
+      "item": "arcadia:music_disc_vyrriox_sac_a_gros_pt1",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.1,
+      "rarity": "rare",
+      "displayName": "Music Disc - Sac A Gros Pt1",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_vyrriox_sac_a_gros_pt2",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.1,
+      "rarity": "rare",
+      "displayName": "Music Disc - Sac A Gros Pt2",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_vyrriox_patee",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.1,
+      "rarity": "rare",
+      "displayName": "Music Disc - Patee",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:iron_block",
+      "minCount": 2,
+      "maxCount": 5,
+      "chance": 0.35,
+      "rarity": "common",
+      "displayName": "Iron Block",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:gold_block",
+      "minCount": 1,
+      "maxCount": 3,
+      "chance": 0.3,
+      "rarity": "uncommon",
+      "displayName": "Gold Block",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:diamond",
+      "minCount": 2,
+      "maxCount": 4,
+      "chance": 0.25,
+      "rarity": "uncommon",
+      "displayName": "Diamond",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:emerald",
+      "minCount": 4,
+      "maxCount": 10,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "Emerald",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:lapis_lazuli",
+      "minCount": 8,
+      "maxCount": 16,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "Lapis Lazuli",
+      "broadcast": false
+    },
+    {
+      "item": "arcadialootbox:shop_key_superior",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.02,
+      "rarity": "legendary",
+      "displayName": "Next Tier Key (Shop)",
+      "broadcast": true
+    },
+    {
+      "item": "handcrafted:birch_fancy_bed",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.12,
+      "rarity": "uncommon",
+      "displayName": "Fancy Bed",
+      "broadcast": false
+    },
+    {
+      "item": "handcrafted:birch_shelf",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.2,
+      "rarity": "common",
+      "displayName": "Birch Shelf",
+      "broadcast": false
+    },
+    {
+      "item": "refurbished_furniture:oak_chair",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.2,
+      "rarity": "common",
+      "displayName": "Refurb Chair",
+      "broadcast": false
+    },
+    {
+      "item": "refurbished_furniture:oak_desk",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.15,
+      "rarity": "uncommon",
+      "displayName": "Refurb Desk",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:name_tag",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.2,
+      "rarity": "uncommon",
+      "displayName": "Name Tag",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:glow_item_frame",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.15,
+      "rarity": "uncommon",
+      "displayName": "Glow Item Frame",
+      "broadcast": false
+    },
+    {
+      "item": "neoncraft:a_magenta",
+      "minCount": 1,
+      "maxCount": 3,
+      "chance": 0.15,
+      "rarity": "uncommon",
+      "displayName": "Neon Magenta",
+      "broadcast": false
+    },
+    {
+      "item": "simplehats:hatbag_common",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.2,
+      "rarity": "common",
+      "displayName": "Common Hat Bag",
+      "broadcast": false
+    },
+    {
+      "item": "simplehats:hatbag_uncommon",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.1,
+      "rarity": "uncommon",
+      "displayName": "Uncommon Hat Bag",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:bubble_blower",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.2,
+      "rarity": "uncommon",
+      "displayName": "Bubble Blower",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:flute",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.12,
+      "rarity": "uncommon",
+      "displayName": "Flute",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:soap",
+      "minCount": 2,
+      "maxCount": 5,
+      "chance": 0.25,
+      "rarity": "common",
+      "displayName": "Soap",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:candy",
+      "minCount": 4,
+      "maxCount": 10,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "Candy",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:jar",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.15,
+      "rarity": "common",
+      "displayName": "Jar",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:sack",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.15,
+      "rarity": "common",
+      "displayName": "Sack",
+      "broadcast": false
+    },
+    {
+      "item": "create:blaze_burner",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.02,
+      "rarity": "rare",
+      "displayName": "Blaze Burner",
+      "broadcast": false
+    }
+  ],
+  "particles": [
+    "minecraft:flame"
+  ],
+  "type": "guaranteed",
+  "guaranteedItem": "minecraft:gold_ingot",
+  "guaranteedMinCount": 3,
+  "guaranteedMaxCount": 8,
+  "rarity": "rare",
+  "broadcastRare": true,
+  "broadcastMessage": "",
+  "destroyOnOpen": false,
+  "maxUses": -1,
+  "permission": "",
+  "animation": {
+    "type": "burst",
+    "durationTicks": 31,
+    "particleCount": 21,
+    "particleSpeed": 0.106,
+    "particleRadius": 0.52,
+    "particleType": "minecraft:flame",
+    "playTitleAnimation": true
+  },
+  "requireSneakToOpen": false,
+  "cooldownTicks": 20,
+  "closeSound": "",
+  "giveToInventoryOnly": false,
+  "openTitle": "§9✦ Shop III ✦",
+  "openSubtitle": "§7Good luck!",
+  "commandRewards": [],
+  "experienceReward": 30,
+  "requiredBiome": "",
+  "requiredLevel": 0,
+  "logOpening": true,
+  "sortOrder": 102,
+  "displayNameFR": "§9Shop III",
+  "openMessageFR": "",
+  "openTitleFR": "§9✦ Shop III ✦",
+  "openSubtitleFR": "§7Bonne chance !",
+  "freeEnabled": false,
+  "freeCooldownHours": 72,
+  "freePermission": "",
+  "freeReducedCooldownHours": 48,
+  "freeReducedPermission": ""
+}

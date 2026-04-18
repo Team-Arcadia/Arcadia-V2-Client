@@ -1,0 +1,160 @@
+{
+  "displayName": "§aEvent II",
+  "color": "white",
+  "keyItem": "arcadialootbox:event_key_silver",
+  "openSound": "minecraft:block.chest.open",
+  "openMessage": "",
+  "lootTable": [
+    {
+      "item": "minecraft:firework_rocket",
+      "minCount": 8,
+      "maxCount": 16,
+      "chance": 0.5,
+      "rarity": "common",
+      "displayName": "Firework Rocket",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:firework_star",
+      "minCount": 2,
+      "maxCount": 4,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "Firework Star",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:name_tag",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.2,
+      "rarity": "uncommon",
+      "displayName": "Name Tag",
+      "broadcast": false
+    },
+    {
+      "item": "simplehats:batwinghat",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "uncommon",
+      "displayName": "Bat Wing Hat",
+      "broadcast": false
+    },
+    {
+      "item": "simplehats:bee_on_head",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "uncommon",
+      "displayName": "Bee On Head",
+      "broadcast": false
+    },
+    {
+      "item": "simplehats:axolotl_on_head",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "uncommon",
+      "displayName": "Axolotl On Head",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:golden_apple",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.2,
+      "rarity": "uncommon",
+      "displayName": "Golden Apple",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:painting",
+      "minCount": 1,
+      "maxCount": 3,
+      "chance": 0.25,
+      "rarity": "common",
+      "displayName": "Painting",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:cake",
+      "minCount": 1,
+      "maxCount": 3,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "Cake",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_dans_la_tavern_lulu",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.1,
+      "rarity": "uncommon",
+      "displayName": "Music Disc - Dans La Tavern Lulu",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_au_pactole",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.1,
+      "rarity": "uncommon",
+      "displayName": "Music Disc - Au Pactole",
+      "broadcast": false
+    },
+    {
+      "item": "arcadialootbox:event_key_gold",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.025,
+      "rarity": "legendary",
+      "displayName": "Next Tier Key (Event)",
+      "broadcast": true
+    }
+  ],
+  "particles": [
+    "minecraft:flame"
+  ],
+  "type": "guaranteed",
+  "guaranteedItem": "minecraft:firework_rocket",
+  "guaranteedMinCount": 4,
+  "guaranteedMaxCount": 8,
+  "rarity": "uncommon",
+  "broadcastRare": true,
+  "broadcastMessage": "",
+  "destroyOnOpen": false,
+  "maxUses": -1,
+  "permission": "",
+  "animation": {
+    "type": "burst",
+    "durationTicks": 32,
+    "particleCount": 22,
+    "particleSpeed": 0.113,
+    "particleRadius": 0.55,
+    "particleType": "minecraft:flame",
+    "playTitleAnimation": true
+  },
+  "requireSneakToOpen": false,
+  "cooldownTicks": 20,
+  "closeSound": "",
+  "giveToInventoryOnly": false,
+  "openTitle": "§a✦ Event II ✦",
+  "openSubtitle": "§7Good luck!",
+  "commandRewards": [],
+  "experienceReward": 20,
+  "requiredBiome": "",
+  "requiredLevel": 0,
+  "logOpening": true,
+  "sortOrder": 501,
+  "displayNameFR": "§aEvent II",
+  "openMessageFR": "",
+  "openTitleFR": "§a✦ Event II ✦",
+  "openSubtitleFR": "§7Bonne chance !",
+  "freeEnabled": false,
+  "freeCooldownHours": 72,
+  "freePermission": "",
+  "freeReducedCooldownHours": 48,
+  "freeReducedPermission": ""
+}

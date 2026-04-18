@@ -1,0 +1,169 @@
+{
+  "displayName": "§cDungeon X",
+  "color": "white",
+  "keyItem": "arcadialootbox:dungeon_key_transcendent",
+  "openSound": "minecraft:block.chest.open",
+  "openMessage": "",
+  "lootTable": [
+    {
+      "item": "simplyswords:emberblade",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.06,
+      "rarity": "mythic",
+      "displayName": "Emberblade",
+      "broadcast": true
+    },
+    {
+      "item": "simplyswords:frostfall",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.06,
+      "rarity": "mythic",
+      "displayName": "Frostfall",
+      "broadcast": true
+    },
+    {
+      "item": "simplyswords:mjolnir",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.06,
+      "rarity": "mythic",
+      "displayName": "Mjolnir",
+      "broadcast": true
+    },
+    {
+      "item": "simplyswords:stormbringer",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.06,
+      "rarity": "mythic",
+      "displayName": "Stormbringer",
+      "broadcast": true
+    },
+    {
+      "item": "simplyswords:tempest",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.06,
+      "rarity": "mythic",
+      "displayName": "Tempest",
+      "broadcast": true
+    },
+    {
+      "item": "simplyswords:soulkeeper",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.06,
+      "rarity": "mythic",
+      "displayName": "Soulkeeper",
+      "broadcast": true
+    },
+    {
+      "item": "simplyswords:livyatan",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.06,
+      "rarity": "mythic",
+      "displayName": "Livyatan",
+      "broadcast": true
+    },
+    {
+      "item": "simplyswords:hearthflame",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "mythic",
+      "displayName": "Hearthflame",
+      "broadcast": true
+    },
+    {
+      "item": "simplyswords:watching_warglaive",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "mythic",
+      "displayName": "Watching Warglaive",
+      "broadcast": true
+    },
+    {
+      "item": "minecraft:netherite_block",
+      "minCount": 2,
+      "maxCount": 4,
+      "chance": 0.15,
+      "rarity": "legendary",
+      "displayName": "Netherite Block",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple",
+      "minCount": 3,
+      "maxCount": 6,
+      "chance": 0.3,
+      "rarity": "epic",
+      "displayName": "Enchanted Golden Apple",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:totem_of_undying",
+      "minCount": 1,
+      "maxCount": 3,
+      "chance": 0.2,
+      "rarity": "epic",
+      "displayName": "Totem of Undying",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:heart_of_arcadia",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.25,
+      "rarity": "mythic",
+      "displayName": "Heart of Arcadia",
+      "broadcast": true
+    }
+  ],
+  "particles": [
+    "minecraft:flame"
+  ],
+  "type": "guaranteed",
+  "guaranteedItem": "minecraft:enchanted_golden_apple",
+  "guaranteedMinCount": 2,
+  "guaranteedMaxCount": 4,
+  "rarity": "mythic",
+  "broadcastRare": true,
+  "broadcastMessage": "",
+  "destroyOnOpen": false,
+  "maxUses": -1,
+  "permission": "",
+  "animation": {
+    "type": "burst",
+    "durationTicks": 70,
+    "particleCount": 60,
+    "particleSpeed": 0.3,
+    "particleRadius": 1.3,
+    "particleType": "minecraft:flame",
+    "playTitleAnimation": true
+  },
+  "requireSneakToOpen": false,
+  "cooldownTicks": 20,
+  "closeSound": "",
+  "giveToInventoryOnly": false,
+  "openTitle": "§c✦ Dungeon X ✦",
+  "openSubtitle": "§7Good luck!",
+  "commandRewards": [],
+  "experienceReward": 500,
+  "requiredBiome": "",
+  "requiredLevel": 0,
+  "logOpening": true,
+  "sortOrder": 209,
+  "displayNameFR": "§cDungeon X",
+  "openMessageFR": "",
+  "openTitleFR": "§c✦ Dungeon X ✦",
+  "openSubtitleFR": "§7Bonne chance !",
+  "freeEnabled": false,
+  "freeCooldownHours": 72,
+  "freePermission": "",
+  "freeReducedCooldownHours": 48,
+  "freeReducedPermission": ""
+}

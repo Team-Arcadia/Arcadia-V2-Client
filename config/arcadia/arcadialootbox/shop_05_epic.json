@@ -1,0 +1,331 @@
+{
+  "displayName": "§5Shop V",
+  "color": "white",
+  "keyItem": "arcadialootbox:shop_key_epic",
+  "openSound": "minecraft:block.chest.open",
+  "openMessage": "",
+  "lootTable": [
+    {
+      "item": "arcadia:music_disc_peter_le_frein_pt2",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "rare",
+      "displayName": "Music Disc - Peter Le Frein Pt2",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_peter_le_frein_pt3",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "rare",
+      "displayName": "Music Disc - Peter Le Frein Pt3",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_peter_le_frein_pt4",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "rare",
+      "displayName": "Music Disc - Peter Le Frein Pt4",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_peter_le_frein_pt5",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "rare",
+      "displayName": "Music Disc - Peter Le Frein Pt5",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_la_boulette_pt1",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "rare",
+      "displayName": "Music Disc - La Boulette Pt1",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:diamond",
+      "minCount": 6,
+      "maxCount": 12,
+      "chance": 0.35,
+      "rarity": "uncommon",
+      "displayName": "Diamond",
+      "broadcast": false
+    },
+    {
+      "item": "simplyswords:diamond_longsword",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.1,
+      "rarity": "rare",
+      "displayName": "Diamond Longsword",
+      "broadcast": false
+    },
+    {
+      "item": "simplyswords:diamond_katana",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.1,
+      "rarity": "rare",
+      "displayName": "Diamond Katana",
+      "broadcast": false
+    },
+    {
+      "item": "artifacts:cowboy_hat",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "rare",
+      "displayName": "Cowboy Hat",
+      "broadcast": false
+    },
+    {
+      "item": "artifacts:crystal_heart",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.06,
+      "rarity": "epic",
+      "displayName": "Crystal Heart",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia_pets:uncommon_pet_bag",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.12,
+      "rarity": "rare",
+      "displayName": "Uncommon Pet Bag",
+      "broadcast": false
+    },
+    {
+      "item": "arcadialootbox:shop_key_legendary",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.01,
+      "rarity": "legendary",
+      "displayName": "Next Tier Key (Shop)",
+      "broadcast": true
+    },
+    {
+      "item": "handcrafted:spruce_fancy_bed",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.12,
+      "rarity": "rare",
+      "displayName": "Fancy Spruce Bed",
+      "broadcast": false
+    },
+    {
+      "item": "handcrafted:spruce_nightstand",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.15,
+      "rarity": "uncommon",
+      "displayName": "Nightstand",
+      "broadcast": false
+    },
+    {
+      "item": "refurbished_furniture:oak_dark_ceiling_fan",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.1,
+      "rarity": "rare",
+      "displayName": "Ceiling Fan",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:hourglass",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "rare",
+      "displayName": "Hourglass",
+      "broadcast": true
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "epic",
+      "displayName": "Enchanted Golden Apple",
+      "broadcast": true
+    },
+    {
+      "item": "minecraft:totem_of_undying",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.03,
+      "rarity": "epic",
+      "displayName": "Totem of Undying",
+      "broadcast": true
+    },
+    {
+      "item": "simplehats:hatbag_uncommon",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.15,
+      "rarity": "uncommon",
+      "displayName": "Uncommon Hat Bag",
+      "broadcast": false
+    },
+    {
+      "item": "simplehats:hatbag_rare",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.1,
+      "rarity": "rare",
+      "displayName": "Rare Hat Bag",
+      "broadcast": true
+    },
+    {
+      "item": "simplehats:hatbag_epic",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.04,
+      "rarity": "epic",
+      "displayName": "Epic Hat Bag",
+      "broadcast": true
+    },
+    {
+      "item": "supplementaries:bomb_blue",
+      "minCount": 2,
+      "maxCount": 6,
+      "chance": 0.2,
+      "rarity": "uncommon",
+      "displayName": "Blue Bomb",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:bomb_spiky",
+      "minCount": 1,
+      "maxCount": 3,
+      "chance": 0.15,
+      "rarity": "rare",
+      "displayName": "Spiky Bomb",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:quiver",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.12,
+      "rarity": "rare",
+      "displayName": "Quiver",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:flute",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.15,
+      "rarity": "uncommon",
+      "displayName": "Flute",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:cage",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.1,
+      "rarity": "rare",
+      "displayName": "Cage",
+      "broadcast": false
+    },
+    {
+      "item": "create:blaze_burner",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.02,
+      "rarity": "rare",
+      "displayName": "Blaze Burner",
+      "broadcast": false
+    },
+    {
+      "item": "refinedstorage:grid",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.015,
+      "rarity": "rare",
+      "displayName": "RS Grid",
+      "broadcast": false
+    },
+    {
+      "item": "refinedstorage:controller",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.01,
+      "rarity": "epic",
+      "displayName": "RS Controller",
+      "broadcast": true
+    },
+    {
+      "item": "apotheosis:reforging_table",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.01,
+      "rarity": "epic",
+      "displayName": "Reforging Table",
+      "broadcast": true
+    },
+    {
+      "item": "create_sa:experience_sword",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.01,
+      "rarity": "epic",
+      "displayName": "Experience Sword",
+      "broadcast": true
+    }
+  ],
+  "particles": [
+    "minecraft:flame"
+  ],
+  "type": "guaranteed",
+  "guaranteedItem": "minecraft:diamond",
+  "guaranteedMinCount": 4,
+  "guaranteedMaxCount": 8,
+  "rarity": "epic",
+  "broadcastRare": true,
+  "broadcastMessage": "",
+  "destroyOnOpen": false,
+  "maxUses": -1,
+  "permission": "",
+  "animation": {
+    "type": "burst",
+    "durationTicks": 42,
+    "particleCount": 32,
+    "particleSpeed": 0.161,
+    "particleRadius": 0.74,
+    "particleType": "minecraft:flame",
+    "playTitleAnimation": true
+  },
+  "requireSneakToOpen": false,
+  "cooldownTicks": 20,
+  "closeSound": "",
+  "giveToInventoryOnly": false,
+  "openTitle": "§5✦ Shop V ✦",
+  "openSubtitle": "§7Good luck!",
+  "commandRewards": [],
+  "experienceReward": 75,
+  "requiredBiome": "",
+  "requiredLevel": 0,
+  "logOpening": true,
+  "sortOrder": 104,
+  "displayNameFR": "§5Shop V",
+  "openMessageFR": "",
+  "openTitleFR": "§5✦ Shop V ✦",
+  "openSubtitleFR": "§7Bonne chance !",
+  "freeEnabled": false,
+  "freeCooldownHours": 72,
+  "freePermission": "",
+  "freeReducedCooldownHours": 48,
+  "freeReducedPermission": ""
+}

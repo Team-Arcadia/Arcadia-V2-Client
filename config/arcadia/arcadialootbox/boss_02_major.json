@@ -1,0 +1,142 @@
+{
+  "displayName": "§aBoss II",
+  "color": "white",
+  "keyItem": "arcadialootbox:boss_key_major",
+  "openSound": "minecraft:block.chest.open",
+  "openMessage": "",
+  "lootTable": [
+    {
+      "item": "minecraft:gold_block",
+      "minCount": 2,
+      "maxCount": 5,
+      "chance": 0.35,
+      "rarity": "common",
+      "displayName": "Gold Block",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:diamond",
+      "minCount": 3,
+      "maxCount": 8,
+      "chance": 0.3,
+      "rarity": "uncommon",
+      "displayName": "Diamond",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:emerald_block",
+      "minCount": 1,
+      "maxCount": 3,
+      "chance": 0.25,
+      "rarity": "uncommon",
+      "displayName": "Emerald Block",
+      "broadcast": false
+    },
+    {
+      "item": "ars_nouveau:source_gem",
+      "minCount": 8,
+      "maxCount": 16,
+      "chance": 0.25,
+      "rarity": "uncommon",
+      "displayName": "Source Gem",
+      "broadcast": false
+    },
+    {
+      "item": "create:precision_mechanism",
+      "minCount": 2,
+      "maxCount": 4,
+      "chance": 0.2,
+      "rarity": "uncommon",
+      "displayName": "Precision Mechanism",
+      "broadcast": false
+    },
+    {
+      "item": "mekanism:alloy_infused",
+      "minCount": 4,
+      "maxCount": 8,
+      "chance": 0.25,
+      "rarity": "uncommon",
+      "displayName": "Infused Alloy",
+      "broadcast": false
+    },
+    {
+      "item": "create:brass_ingot",
+      "minCount": 8,
+      "maxCount": 16,
+      "chance": 0.3,
+      "rarity": "uncommon",
+      "displayName": "Create Brass Ingot",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:iron_block",
+      "minCount": 4,
+      "maxCount": 8,
+      "chance": 0.35,
+      "rarity": "common",
+      "displayName": "Iron Block",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:experience_bottle",
+      "minCount": 8,
+      "maxCount": 16,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "XP Bottle",
+      "broadcast": false
+    },
+    {
+      "item": "arcadialootbox:boss_key_elite",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.025,
+      "rarity": "legendary",
+      "displayName": "Next Tier Key (Boss)",
+      "broadcast": true
+    }
+  ],
+  "particles": [
+    "minecraft:flame"
+  ],
+  "type": "guaranteed",
+  "guaranteedItem": "minecraft:gold_block",
+  "guaranteedMinCount": 2,
+  "guaranteedMaxCount": 4,
+  "rarity": "uncommon",
+  "broadcastRare": true,
+  "broadcastMessage": "",
+  "destroyOnOpen": false,
+  "maxUses": -1,
+  "permission": "",
+  "animation": {
+    "type": "burst",
+    "durationTicks": 32,
+    "particleCount": 22,
+    "particleSpeed": 0.113,
+    "particleRadius": 0.55,
+    "particleType": "minecraft:flame",
+    "playTitleAnimation": true
+  },
+  "requireSneakToOpen": false,
+  "cooldownTicks": 20,
+  "closeSound": "",
+  "giveToInventoryOnly": false,
+  "openTitle": "§a✦ Boss II ✦",
+  "openSubtitle": "§7Good luck!",
+  "commandRewards": [],
+  "experienceReward": 20,
+  "requiredBiome": "",
+  "requiredLevel": 0,
+  "logOpening": true,
+  "sortOrder": 601,
+  "displayNameFR": "§aBoss II",
+  "openMessageFR": "",
+  "openTitleFR": "§a✦ Boss II ✦",
+  "openSubtitleFR": "§7Bonne chance !",
+  "freeEnabled": false,
+  "freeCooldownHours": 72,
+  "freePermission": "",
+  "freeReducedCooldownHours": 48,
+  "freeReducedPermission": ""
+}

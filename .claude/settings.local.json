@@ -115,7 +115,11 @@
       "Bash(python gen_armor_recolor.py)",
       "Bash(rm gen_armor_recolor.py)",
       "Bash(python gen_faction_items.py)",
-      "Bash(rm gen_faction_items.py)"
+      "Bash(rm gen_faction_items.py)",
+      "Bash(git stash *)",
+      "Bash(git ls-tree *)",
+      "Bash(awk -F'[-_]' '{print $1 tolower\\($2\\)}')",
+      "Bash(awk '$1 > 1')"
     ]
   }
 }

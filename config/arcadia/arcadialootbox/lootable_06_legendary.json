@@ -1,0 +1,142 @@
+{
+  "displayName": "§6Lootable VI",
+  "color": "white",
+  "keyItem": "arcadialootbox:lootable_key_legendary",
+  "openSound": "minecraft:block.chest.open",
+  "openMessage": "",
+  "lootTable": [
+    {
+      "item": "minecraft:gold_block",
+      "minCount": 1,
+      "maxCount": 3,
+      "chance": 0.25,
+      "rarity": "uncommon",
+      "displayName": "Gold Block",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:emerald",
+      "minCount": 8,
+      "maxCount": 16,
+      "chance": 0.3,
+      "rarity": "uncommon",
+      "displayName": "Emerald",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:iron_block",
+      "minCount": 4,
+      "maxCount": 8,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "Iron Block",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:redstone_block",
+      "minCount": 4,
+      "maxCount": 8,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "Redstone Block",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:lapis_block",
+      "minCount": 2,
+      "maxCount": 4,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "Lapis Block",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:name_tag",
+      "minCount": 2,
+      "maxCount": 3,
+      "chance": 0.2,
+      "rarity": "uncommon",
+      "displayName": "Name Tag",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:experience_bottle",
+      "minCount": 12,
+      "maxCount": 24,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "XP Bottle",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:diamond",
+      "minCount": 1,
+      "maxCount": 3,
+      "chance": 0.12,
+      "rarity": "uncommon",
+      "displayName": "Diamond",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:ender_pearl",
+      "minCount": 2,
+      "maxCount": 4,
+      "chance": 0.15,
+      "rarity": "uncommon",
+      "displayName": "Ender Pearl",
+      "broadcast": false
+    },
+    {
+      "item": "arcadialootbox:lootable_key_mythic",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.008,
+      "rarity": "legendary",
+      "displayName": "Next Tier Key (Lootable)",
+      "broadcast": true
+    }
+  ],
+  "particles": [
+    "minecraft:flame"
+  ],
+  "type": "guaranteed",
+  "guaranteedItem": "minecraft:emerald",
+  "guaranteedMinCount": 3,
+  "guaranteedMaxCount": 8,
+  "rarity": "epic",
+  "broadcastRare": true,
+  "broadcastMessage": "",
+  "destroyOnOpen": false,
+  "maxUses": -1,
+  "permission": "",
+  "animation": {
+    "type": "burst",
+    "durationTicks": 47,
+    "particleCount": 37,
+    "particleSpeed": 0.189,
+    "particleRadius": 0.86,
+    "particleType": "minecraft:flame",
+    "playTitleAnimation": true
+  },
+  "requireSneakToOpen": false,
+  "cooldownTicks": 20,
+  "closeSound": "",
+  "giveToInventoryOnly": false,
+  "openTitle": "§6✦ Lootable VI ✦",
+  "openSubtitle": "§7Good luck!",
+  "commandRewards": [],
+  "experienceReward": 100,
+  "requiredBiome": "",
+  "requiredLevel": 0,
+  "logOpening": true,
+  "sortOrder": 405,
+  "displayNameFR": "§6Lootable VI",
+  "openMessageFR": "",
+  "openTitleFR": "§6✦ Lootable VI ✦",
+  "openSubtitleFR": "§7Bonne chance !",
+  "freeEnabled": false,
+  "freeCooldownHours": 72,
+  "freePermission": "",
+  "freeReducedCooldownHours": 48,
+  "freeReducedPermission": ""
+}

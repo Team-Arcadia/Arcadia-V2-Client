@@ -1,0 +1,151 @@
+{
+  "displayName": "§eDungeon IX",
+  "color": "white",
+  "keyItem": "arcadialootbox:dungeon_key_celestial",
+  "openSound": "minecraft:block.chest.open",
+  "openMessage": "",
+  "lootTable": [
+    {
+      "item": "simplyswords:stormbringer",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.04,
+      "rarity": "legendary",
+      "displayName": "Stormbringer",
+      "broadcast": true
+    },
+    {
+      "item": "simplyswords:tempest",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.04,
+      "rarity": "legendary",
+      "displayName": "Tempest",
+      "broadcast": true
+    },
+    {
+      "item": "simplyswords:soulkeeper",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.04,
+      "rarity": "legendary",
+      "displayName": "Soulkeeper",
+      "broadcast": true
+    },
+    {
+      "item": "simplyswords:livyatan",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.04,
+      "rarity": "legendary",
+      "displayName": "Livyatan",
+      "broadcast": true
+    },
+    {
+      "item": "simplyswords:runic_katana",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.12,
+      "rarity": "epic",
+      "displayName": "Runic Katana",
+      "broadcast": false
+    },
+    {
+      "item": "simplyswords:runic_scythe",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.12,
+      "rarity": "epic",
+      "displayName": "Runic Scythe",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:netherite_block",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.1,
+      "rarity": "legendary",
+      "displayName": "Netherite Block",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple",
+      "minCount": 2,
+      "maxCount": 4,
+      "chance": 0.25,
+      "rarity": "epic",
+      "displayName": "Enchanted Golden Apple",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:totem_of_undying",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.18,
+      "rarity": "epic",
+      "displayName": "Totem of Undying",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:heart_of_arcadia",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.18,
+      "rarity": "mythic",
+      "displayName": "Heart of Arcadia",
+      "broadcast": true
+    },
+    {
+      "item": "arcadialootbox:dungeon_key_transcendent",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.001,
+      "rarity": "legendary",
+      "displayName": "Next Tier Key (Dungeon)",
+      "broadcast": true
+    }
+  ],
+  "particles": [
+    "minecraft:flame"
+  ],
+  "type": "guaranteed",
+  "guaranteedItem": "minecraft:enchanted_golden_apple",
+  "guaranteedMinCount": 2,
+  "guaranteedMaxCount": 3,
+  "rarity": "legendary",
+  "broadcastRare": true,
+  "broadcastMessage": "",
+  "destroyOnOpen": false,
+  "maxUses": -1,
+  "permission": "",
+  "animation": {
+    "type": "burst",
+    "durationTicks": 64,
+    "particleCount": 54,
+    "particleSpeed": 0.272,
+    "particleRadius": 1.19,
+    "particleType": "minecraft:flame",
+    "playTitleAnimation": true
+  },
+  "requireSneakToOpen": false,
+  "cooldownTicks": 20,
+  "closeSound": "",
+  "giveToInventoryOnly": false,
+  "openTitle": "§e✦ Dungeon IX ✦",
+  "openSubtitle": "§7Good luck!",
+  "commandRewards": [],
+  "experienceReward": 300,
+  "requiredBiome": "",
+  "requiredLevel": 0,
+  "logOpening": true,
+  "sortOrder": 208,
+  "displayNameFR": "§eDungeon IX",
+  "openMessageFR": "",
+  "openTitleFR": "§e✦ Dungeon IX ✦",
+  "openSubtitleFR": "§7Bonne chance !",
+  "freeEnabled": false,
+  "freeCooldownHours": 72,
+  "freePermission": "",
+  "freeReducedCooldownHours": 48,
+  "freeReducedPermission": ""
+}

@@ -1,0 +1,142 @@
+{
+  "displayName": "§3Boss IV",
+  "color": "white",
+  "keyItem": "arcadialootbox:boss_key_supreme",
+  "openSound": "minecraft:block.chest.open",
+  "openMessage": "",
+  "lootTable": [
+    {
+      "item": "minecraft:netherite_ingot",
+      "minCount": 1,
+      "maxCount": 3,
+      "chance": 0.18,
+      "rarity": "epic",
+      "displayName": "Netherite Ingot",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:nether_star",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.1,
+      "rarity": "epic",
+      "displayName": "Nether Star",
+      "broadcast": false
+    },
+    {
+      "item": "mekanism:alloy_atomic",
+      "minCount": 2,
+      "maxCount": 4,
+      "chance": 0.15,
+      "rarity": "epic",
+      "displayName": "Atomic Alloy",
+      "broadcast": false
+    },
+    {
+      "item": "mekanism:ultimate_control_circuit",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.12,
+      "rarity": "epic",
+      "displayName": "Ultimate Circuit",
+      "broadcast": false
+    },
+    {
+      "item": "create:shaft",
+      "minCount": 8,
+      "maxCount": 16,
+      "chance": 0.25,
+      "rarity": "uncommon",
+      "displayName": "Create Shaft",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.15,
+      "rarity": "epic",
+      "displayName": "Enchanted Golden Apple",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:totem_of_undying",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.12,
+      "rarity": "epic",
+      "displayName": "Totem of Undying",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:diamond_block",
+      "minCount": 2,
+      "maxCount": 4,
+      "chance": 0.25,
+      "rarity": "rare",
+      "displayName": "Diamond Block",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:experience_bottle",
+      "minCount": 32,
+      "maxCount": 64,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "XP Bottle",
+      "broadcast": false
+    },
+    {
+      "item": "arcadialootbox:boss_key_overlord",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.01,
+      "rarity": "legendary",
+      "displayName": "Next Tier Key (Boss)",
+      "broadcast": true
+    }
+  ],
+  "particles": [
+    "minecraft:flame"
+  ],
+  "type": "guaranteed",
+  "guaranteedItem": "minecraft:emerald_block",
+  "guaranteedMinCount": 2,
+  "guaranteedMaxCount": 4,
+  "rarity": "epic",
+  "broadcastRare": true,
+  "broadcastMessage": "",
+  "destroyOnOpen": false,
+  "maxUses": -1,
+  "permission": "",
+  "animation": {
+    "type": "burst",
+    "durationTicks": 57,
+    "particleCount": 47,
+    "particleSpeed": 0.237,
+    "particleRadius": 1.05,
+    "particleType": "minecraft:flame",
+    "playTitleAnimation": true
+  },
+  "requireSneakToOpen": false,
+  "cooldownTicks": 20,
+  "closeSound": "",
+  "giveToInventoryOnly": false,
+  "openTitle": "§3✦ Boss IV ✦",
+  "openSubtitle": "§7Good luck!",
+  "commandRewards": [],
+  "experienceReward": 100,
+  "requiredBiome": "",
+  "requiredLevel": 0,
+  "logOpening": true,
+  "sortOrder": 603,
+  "displayNameFR": "§3Boss IV",
+  "openMessageFR": "",
+  "openTitleFR": "§3✦ Boss IV ✦",
+  "openSubtitleFR": "§7Bonne chance !",
+  "freeEnabled": false,
+  "freeCooldownHours": 72,
+  "freePermission": "",
+  "freeReducedCooldownHours": 48,
+  "freeReducedPermission": ""
+}

@@ -1,0 +1,223 @@
+{
+  "displayName": "§fShop I",
+  "color": "white",
+  "keyItem": "arcadialootbox:shop_key_common",
+  "openSound": "minecraft:block.chest.open",
+  "openMessage": "",
+  "lootTable": [
+    {
+      "item": "arcadia:music_disc_mike_le_loulou",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.15,
+      "rarity": "common",
+      "displayName": "Music Disc - Mike Le Loulou",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_boit_ton_picher",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.15,
+      "rarity": "common",
+      "displayName": "Music Disc - Boit Ton Picher",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_janette",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.15,
+      "rarity": "common",
+      "displayName": "Music Disc - Janette",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "minCount": 3,
+      "maxCount": 8,
+      "chance": 0.5,
+      "rarity": "common",
+      "displayName": "Iron Ingot",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "minCount": 2,
+      "maxCount": 5,
+      "chance": 0.4,
+      "rarity": "common",
+      "displayName": "Gold Ingot",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:cookie",
+      "minCount": 8,
+      "maxCount": 16,
+      "chance": 0.35,
+      "rarity": "common",
+      "displayName": "Cookie",
+      "broadcast": false
+    },
+    {
+      "item": "arcadialootbox:shop_key_uncommon",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.03,
+      "rarity": "legendary",
+      "displayName": "Next Tier Key (Shop)",
+      "broadcast": true
+    },
+    {
+      "item": "handcrafted:oak_chair",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.25,
+      "rarity": "common",
+      "displayName": "Oak Chair",
+      "broadcast": false
+    },
+    {
+      "item": "handcrafted:oak_table",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.25,
+      "rarity": "common",
+      "displayName": "Oak Table",
+      "broadcast": false
+    },
+    {
+      "item": "another_furniture:oak_shelf",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.2,
+      "rarity": "common",
+      "displayName": "Oak Shelf",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:awning",
+      "minCount": 2,
+      "maxCount": 4,
+      "chance": 0.2,
+      "rarity": "common",
+      "displayName": "Awning",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:painting",
+      "minCount": 1,
+      "maxCount": 3,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "Painting",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:flower_pot",
+      "minCount": 2,
+      "maxCount": 4,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "Flower Pot",
+      "broadcast": false
+    },
+    {
+      "item": "neoncraft:a_white",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.15,
+      "rarity": "common",
+      "displayName": "Neon White",
+      "broadcast": false
+    },
+    {
+      "item": "simplehats:hatbag_common",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.15,
+      "rarity": "common",
+      "displayName": "Common Hat Bag",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:soap",
+      "minCount": 1,
+      "maxCount": 3,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "Soap",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:candy",
+      "minCount": 2,
+      "maxCount": 6,
+      "chance": 0.35,
+      "rarity": "common",
+      "displayName": "Candy",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:planter",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.2,
+      "rarity": "common",
+      "displayName": "Planter",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:candle_holder",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.2,
+      "rarity": "common",
+      "displayName": "Candle Holder",
+      "broadcast": false
+    }
+  ],
+  "particles": [
+    "minecraft:flame"
+  ],
+  "type": "guaranteed",
+  "guaranteedItem": "minecraft:iron_ingot",
+  "guaranteedMinCount": 3,
+  "guaranteedMaxCount": 5,
+  "rarity": "common",
+  "broadcastRare": true,
+  "broadcastMessage": "",
+  "destroyOnOpen": false,
+  "maxUses": -1,
+  "permission": "",
+  "animation": {
+    "type": "burst",
+    "durationTicks": 20,
+    "particleCount": 10,
+    "particleSpeed": 0.05,
+    "particleRadius": 0.3,
+    "particleType": "minecraft:flame",
+    "playTitleAnimation": true
+  },
+  "requireSneakToOpen": false,
+  "cooldownTicks": 20,
+  "closeSound": "",
+  "giveToInventoryOnly": false,
+  "openTitle": "§f✦ Shop I ✦",
+  "openSubtitle": "§7Good luck!",
+  "commandRewards": [],
+  "experienceReward": 10,
+  "requiredBiome": "",
+  "requiredLevel": 0,
+  "logOpening": true,
+  "sortOrder": 100,
+  "displayNameFR": "§fShop I",
+  "openMessageFR": "",
+  "openTitleFR": "§f✦ Shop I ✦",
+  "openSubtitleFR": "§7Bonne chance !",
+  "freeEnabled": false,
+  "freeCooldownHours": 72,
+  "freePermission": "",
+  "freeReducedCooldownHours": 48,
+  "freeReducedPermission": ""
+}

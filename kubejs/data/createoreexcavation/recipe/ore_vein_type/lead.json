@@ -1,0 +1,18 @@
+{
+  "type": "createoreexcavation:vein",
+  "amountMultiplierMax": 25.0,
+  "amountMultiplierMin": 10.0,
+  "biomeWhitelist": "minecraft:is_overworld",
+  "finite": "default",
+  "icon": {
+    "count": 1,
+    "id": "mekanism:raw_lead"
+  },
+  "name": "{\"translate\": \"item.mekanism.raw_lead\"}",
+  "placement": {
+    "salt": 980655899,
+    "separation": 7,
+    "spacing": 110
+  },
+  "priority": 0
+}

@@ -1,0 +1,151 @@
+{
+  "displayName": "§aVote II",
+  "color": "white",
+  "keyItem": "arcadialootbox:vote_key_uncommon",
+  "openSound": "minecraft:block.chest.open",
+  "openMessage": "",
+  "lootTable": [
+    {
+      "item": "minecraft:bread",
+      "minCount": 6,
+      "maxCount": 12,
+      "chance": 0.45,
+      "rarity": "common",
+      "displayName": "Bread",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:cooked_porkchop",
+      "minCount": 4,
+      "maxCount": 8,
+      "chance": 0.4,
+      "rarity": "common",
+      "displayName": "Cooked Porkchop",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:cooked_chicken",
+      "minCount": 4,
+      "maxCount": 8,
+      "chance": 0.4,
+      "rarity": "common",
+      "displayName": "Cooked Chicken",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:apple",
+      "minCount": 6,
+      "maxCount": 12,
+      "chance": 0.35,
+      "rarity": "common",
+      "displayName": "Apple",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "minCount": 3,
+      "maxCount": 8,
+      "chance": 0.35,
+      "rarity": "common",
+      "displayName": "Iron Ingot",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:experience_bottle",
+      "minCount": 4,
+      "maxCount": 8,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "XP Bottle",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_boit_ton_picher",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.1,
+      "rarity": "uncommon",
+      "displayName": "Music Disc - Boit Ton Picher",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_dans_la_tavern_lulu",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.1,
+      "rarity": "uncommon",
+      "displayName": "Music Disc - Dans La Tavern Lulu",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_au_pactole",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.1,
+      "rarity": "uncommon",
+      "displayName": "Music Disc - Au Pactole",
+      "broadcast": false
+    },
+    {
+      "item": "arcadialootbox:vote_key_rare",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.025,
+      "rarity": "legendary",
+      "displayName": "Next Tier Key (Vote)",
+      "broadcast": true
+    },
+    {
+      "item": "xpbook:xp_tome",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.02,
+      "rarity": "uncommon",
+      "displayName": "XP Tome",
+      "broadcast": false
+    }
+  ],
+  "particles": [
+    "minecraft:flame"
+  ],
+  "type": "guaranteed",
+  "guaranteedItem": "minecraft:bread",
+  "guaranteedMinCount": 6,
+  "guaranteedMaxCount": 12,
+  "rarity": "uncommon",
+  "broadcastRare": true,
+  "broadcastMessage": "",
+  "destroyOnOpen": false,
+  "maxUses": -1,
+  "permission": "",
+  "animation": {
+    "type": "burst",
+    "durationTicks": 25,
+    "particleCount": 15,
+    "particleSpeed": 0.078,
+    "particleRadius": 0.41,
+    "particleType": "minecraft:flame",
+    "playTitleAnimation": true
+  },
+  "requireSneakToOpen": false,
+  "cooldownTicks": 20,
+  "closeSound": "",
+  "giveToInventoryOnly": false,
+  "openTitle": "§a✦ Vote II ✦",
+  "openSubtitle": "§7Good luck!",
+  "commandRewards": [],
+  "experienceReward": 20,
+  "requiredBiome": "",
+  "requiredLevel": 0,
+  "logOpening": true,
+  "sortOrder": 301,
+  "displayNameFR": "§aVote II",
+  "openMessageFR": "",
+  "openTitleFR": "§a✦ Vote II ✦",
+  "openSubtitleFR": "§7Bonne chance !",
+  "freeEnabled": false,
+  "freeCooldownHours": 72,
+  "freePermission": "",
+  "freeReducedCooldownHours": 48,
+  "freeReducedPermission": ""
+}

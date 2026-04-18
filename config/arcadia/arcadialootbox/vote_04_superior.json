@@ -1,0 +1,205 @@
+{
+  "displayName": "§3Vote IV",
+  "color": "white",
+  "keyItem": "arcadialootbox:vote_key_superior",
+  "openSound": "minecraft:block.chest.open",
+  "openMessage": "",
+  "lootTable": [
+    {
+      "item": "minecraft:pumpkin_pie",
+      "minCount": 4,
+      "maxCount": 8,
+      "chance": 0.4,
+      "rarity": "common",
+      "displayName": "Pumpkin Pie",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:golden_carrot",
+      "minCount": 4,
+      "maxCount": 8,
+      "chance": 0.35,
+      "rarity": "uncommon",
+      "displayName": "Golden Carrot",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:golden_apple",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.2,
+      "rarity": "uncommon",
+      "displayName": "Golden Apple",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "minCount": 4,
+      "maxCount": 10,
+      "chance": 0.35,
+      "rarity": "common",
+      "displayName": "Gold Ingot",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:emerald",
+      "minCount": 3,
+      "maxCount": 8,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "Emerald",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:experience_bottle",
+      "minCount": 8,
+      "maxCount": 16,
+      "chance": 0.35,
+      "rarity": "common",
+      "displayName": "XP Bottle",
+      "broadcast": false
+    },
+    {
+      "item": "farmersdelight:roast_chicken",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.2,
+      "rarity": "uncommon",
+      "displayName": "Roast Chicken",
+      "broadcast": false
+    },
+    {
+      "item": "farmersdelight:steak_and_potatoes",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.2,
+      "rarity": "uncommon",
+      "displayName": "Steak and Potatoes",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_vyrriox_sac_a_gros_pt1",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "uncommon",
+      "displayName": "Music Disc - Sac A Gros Pt1",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_vyrriox_sac_a_gros_pt2",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "uncommon",
+      "displayName": "Music Disc - Sac A Gros Pt2",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_peter_le_frein_pt1",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "uncommon",
+      "displayName": "Music Disc - Peter Le Frein Pt1",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_peter_le_frein_pt2",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "uncommon",
+      "displayName": "Music Disc - Peter Le Frein Pt2",
+      "broadcast": false
+    },
+    {
+      "item": "arcadialootbox:vote_key_epic",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.015,
+      "rarity": "legendary",
+      "displayName": "Next Tier Key (Vote)",
+      "broadcast": true
+    },
+    {
+      "item": "immersive_melodies:flute",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.005,
+      "rarity": "rare",
+      "displayName": "Flute",
+      "broadcast": false
+    },
+    {
+      "item": "immersive_melodies:lute",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.005,
+      "rarity": "rare",
+      "displayName": "Lute",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:ender_chest",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.01,
+      "rarity": "rare",
+      "displayName": "Ender Chest",
+      "broadcast": false
+    },
+    {
+      "item": "xpbook:xp_tome",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.02,
+      "rarity": "uncommon",
+      "displayName": "XP Tome",
+      "broadcast": false
+    }
+  ],
+  "particles": [
+    "minecraft:flame"
+  ],
+  "type": "guaranteed",
+  "guaranteedItem": "minecraft:golden_carrot",
+  "guaranteedMinCount": 4,
+  "guaranteedMaxCount": 8,
+  "rarity": "rare",
+  "broadcastRare": true,
+  "broadcastMessage": "",
+  "destroyOnOpen": false,
+  "maxUses": -1,
+  "permission": "",
+  "animation": {
+    "type": "burst",
+    "durationTicks": 36,
+    "particleCount": 26,
+    "particleSpeed": 0.133,
+    "particleRadius": 0.63,
+    "particleType": "minecraft:flame",
+    "playTitleAnimation": true
+  },
+  "requireSneakToOpen": false,
+  "cooldownTicks": 20,
+  "closeSound": "",
+  "giveToInventoryOnly": false,
+  "openTitle": "§3✦ Vote IV ✦",
+  "openSubtitle": "§7Good luck!",
+  "commandRewards": [],
+  "experienceReward": 50,
+  "requiredBiome": "",
+  "requiredLevel": 0,
+  "logOpening": true,
+  "sortOrder": 303,
+  "displayNameFR": "§3Vote IV",
+  "openMessageFR": "",
+  "openTitleFR": "§3✦ Vote IV ✦",
+  "openSubtitleFR": "§7Bonne chance !",
+  "freeEnabled": false,
+  "freeCooldownHours": 72,
+  "freePermission": "",
+  "freeReducedCooldownHours": 48,
+  "freeReducedPermission": ""
+}

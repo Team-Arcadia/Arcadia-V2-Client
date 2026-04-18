@@ -1,0 +1,151 @@
+{
+  "displayName": "§dDungeon VII",
+  "color": "white",
+  "keyItem": "arcadialootbox:dungeon_key_mythic",
+  "openSound": "minecraft:block.chest.open",
+  "openMessage": "",
+  "lootTable": [
+    {
+      "item": "simplyswords:runic_longsword",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "epic",
+      "displayName": "Runic Longsword",
+      "broadcast": false
+    },
+    {
+      "item": "simplyswords:runic_claymore",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "epic",
+      "displayName": "Runic Claymore",
+      "broadcast": false
+    },
+    {
+      "item": "simplyswords:runic_katana",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "epic",
+      "displayName": "Runic Katana",
+      "broadcast": false
+    },
+    {
+      "item": "simplyswords:runic_scythe",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "epic",
+      "displayName": "Runic Scythe",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:netherite_ingot",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.12,
+      "rarity": "epic",
+      "displayName": "Netherite Ingot",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:enchanted_book",
+      "minCount": 2,
+      "maxCount": 4,
+      "chance": 0.3,
+      "rarity": "uncommon",
+      "displayName": "Enchanted Book",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.15,
+      "rarity": "epic",
+      "displayName": "Enchanted Golden Apple",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:totem_of_undying",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.12,
+      "rarity": "epic",
+      "displayName": "Totem of Undying",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:diamond_block",
+      "minCount": 2,
+      "maxCount": 4,
+      "chance": 0.25,
+      "rarity": "rare",
+      "displayName": "Diamond Block",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:heart_of_arcadia",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "mythic",
+      "displayName": "Heart of Arcadia",
+      "broadcast": true
+    },
+    {
+      "item": "arcadialootbox:dungeon_key_divine",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.005,
+      "rarity": "legendary",
+      "displayName": "Next Tier Key (Dungeon)",
+      "broadcast": true
+    }
+  ],
+  "particles": [
+    "minecraft:flame"
+  ],
+  "type": "guaranteed",
+  "guaranteedItem": "minecraft:enchanted_golden_apple",
+  "guaranteedMinCount": 1,
+  "guaranteedMaxCount": 1,
+  "rarity": "epic",
+  "broadcastRare": true,
+  "broadcastMessage": "",
+  "destroyOnOpen": false,
+  "maxUses": -1,
+  "permission": "",
+  "animation": {
+    "type": "burst",
+    "durationTicks": 53,
+    "particleCount": 43,
+    "particleSpeed": 0.217,
+    "particleRadius": 0.97,
+    "particleType": "minecraft:flame",
+    "playTitleAnimation": true
+  },
+  "requireSneakToOpen": false,
+  "cooldownTicks": 20,
+  "closeSound": "",
+  "giveToInventoryOnly": false,
+  "openTitle": "§d✦ Dungeon VII ✦",
+  "openSubtitle": "§7Good luck!",
+  "commandRewards": [],
+  "experienceReward": 150,
+  "requiredBiome": "",
+  "requiredLevel": 0,
+  "logOpening": true,
+  "sortOrder": 206,
+  "displayNameFR": "§dDungeon VII",
+  "openMessageFR": "",
+  "openTitleFR": "§d✦ Dungeon VII ✦",
+  "openSubtitleFR": "§7Bonne chance !",
+  "freeEnabled": false,
+  "freeCooldownHours": 72,
+  "freePermission": "",
+  "freeReducedCooldownHours": 48,
+  "freeReducedPermission": ""
+}

@@ -1,0 +1,142 @@
+{
+  "displayName": "§3Lootable IV",
+  "color": "white",
+  "keyItem": "arcadialootbox:lootable_key_superior",
+  "openSound": "minecraft:block.chest.open",
+  "openMessage": "",
+  "lootTable": [
+    {
+      "item": "minecraft:gold_ingot",
+      "minCount": 4,
+      "maxCount": 10,
+      "chance": 0.4,
+      "rarity": "common",
+      "displayName": "Gold Ingot",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:lapis_lazuli",
+      "minCount": 8,
+      "maxCount": 20,
+      "chance": 0.35,
+      "rarity": "common",
+      "displayName": "Lapis Lazuli",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:redstone_block",
+      "minCount": 2,
+      "maxCount": 4,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "Redstone Block",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:emerald",
+      "minCount": 3,
+      "maxCount": 8,
+      "chance": 0.3,
+      "rarity": "uncommon",
+      "displayName": "Emerald",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:iron_block",
+      "minCount": 2,
+      "maxCount": 4,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "Iron Block",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:name_tag",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.15,
+      "rarity": "uncommon",
+      "displayName": "Name Tag",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:saddle",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.12,
+      "rarity": "uncommon",
+      "displayName": "Saddle",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:experience_bottle",
+      "minCount": 6,
+      "maxCount": 12,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "XP Bottle",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:book",
+      "minCount": 3,
+      "maxCount": 6,
+      "chance": 0.25,
+      "rarity": "common",
+      "displayName": "Book",
+      "broadcast": false
+    },
+    {
+      "item": "arcadialootbox:lootable_key_epic",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.015,
+      "rarity": "legendary",
+      "displayName": "Next Tier Key (Lootable)",
+      "broadcast": true
+    }
+  ],
+  "particles": [
+    "minecraft:flame"
+  ],
+  "type": "guaranteed",
+  "guaranteedItem": "minecraft:gold_ingot",
+  "guaranteedMinCount": 3,
+  "guaranteedMaxCount": 8,
+  "rarity": "rare",
+  "broadcastRare": true,
+  "broadcastMessage": "",
+  "destroyOnOpen": false,
+  "maxUses": -1,
+  "permission": "",
+  "animation": {
+    "type": "burst",
+    "durationTicks": 36,
+    "particleCount": 26,
+    "particleSpeed": 0.133,
+    "particleRadius": 0.63,
+    "particleType": "minecraft:flame",
+    "playTitleAnimation": true
+  },
+  "requireSneakToOpen": false,
+  "cooldownTicks": 20,
+  "closeSound": "",
+  "giveToInventoryOnly": false,
+  "openTitle": "§3✦ Lootable IV ✦",
+  "openSubtitle": "§7Good luck!",
+  "commandRewards": [],
+  "experienceReward": 50,
+  "requiredBiome": "",
+  "requiredLevel": 0,
+  "logOpening": true,
+  "sortOrder": 403,
+  "displayNameFR": "§3Lootable IV",
+  "openMessageFR": "",
+  "openTitleFR": "§3✦ Lootable IV ✦",
+  "openSubtitleFR": "§7Bonne chance !",
+  "freeEnabled": false,
+  "freeCooldownHours": 72,
+  "freePermission": "",
+  "freeReducedCooldownHours": 48,
+  "freeReducedPermission": ""
+}

@@ -1,0 +1,349 @@
+{
+  "displayName": "§eShop IX",
+  "color": "white",
+  "keyItem": "arcadialootbox:shop_key_celestial",
+  "openSound": "minecraft:block.chest.open",
+  "openMessage": "",
+  "lootTable": [
+    {
+      "item": "arcadia:music_disc_mike_le_loulou",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.06,
+      "rarity": "rare",
+      "displayName": "Music Disc - Mike Le Loulou",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_vyrriox_trois_femmes",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.06,
+      "rarity": "rare",
+      "displayName": "Music Disc - Trois Femmes",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_vyrriox_la_femme_de_joie",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.06,
+      "rarity": "rare",
+      "displayName": "Music Disc - La Femme De Joie",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_boit_ton_picher",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.06,
+      "rarity": "rare",
+      "displayName": "Music Disc - Boit Ton Picher",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_janette",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.06,
+      "rarity": "rare",
+      "displayName": "Music Disc - Janette",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_au_pactole",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.06,
+      "rarity": "rare",
+      "displayName": "Music Disc - Au Pactole",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_dans_la_tavern_lulu",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.06,
+      "rarity": "rare",
+      "displayName": "Music Disc - Dans La Tavern Lulu",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_vyrriox_patee",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.06,
+      "rarity": "rare",
+      "displayName": "Music Disc - Patee",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_vyrriox_sac_a_gros_pt1",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.06,
+      "rarity": "rare",
+      "displayName": "Music Disc - Sac A Gros Pt1",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:netherite_block",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.1,
+      "rarity": "legendary",
+      "displayName": "Netherite Block",
+      "broadcast": false
+    },
+    {
+      "item": "simplyswords:tempest",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.03,
+      "rarity": "legendary",
+      "displayName": "Tempest",
+      "broadcast": true
+    },
+    {
+      "item": "artifacts:everlasting_beef",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.04,
+      "rarity": "legendary",
+      "displayName": "Everlasting Beef",
+      "broadcast": true
+    },
+    {
+      "item": "arcadia_pets:legendary_guaranteed_bag",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.04,
+      "rarity": "legendary",
+      "displayName": "Legendary Pet Bag",
+      "broadcast": true
+    },
+    {
+      "item": "arcadia_pets:star_essence",
+      "minCount": 2,
+      "maxCount": 5,
+      "chance": 0.12,
+      "rarity": "epic",
+      "displayName": "Star Essence",
+      "broadcast": false
+    },
+    {
+      "item": "arcadialootbox:shop_key_transcendent",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.001,
+      "rarity": "legendary",
+      "displayName": "Next Tier Key (Shop)",
+      "broadcast": true
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple",
+      "minCount": 2,
+      "maxCount": 4,
+      "chance": 0.18,
+      "rarity": "epic",
+      "displayName": "Enchanted Golden Apple",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:totem_of_undying",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.12,
+      "rarity": "epic",
+      "displayName": "Totem of Undying",
+      "broadcast": true
+    },
+    {
+      "item": "minecraft:nether_star",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.1,
+      "rarity": "legendary",
+      "displayName": "Nether Star",
+      "broadcast": true
+    },
+    {
+      "item": "minecraft:elytra",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.06,
+      "rarity": "mythic",
+      "displayName": "Elytra",
+      "broadcast": true
+    },
+    {
+      "item": "simplehats:hatbag_epic",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.12,
+      "rarity": "epic",
+      "displayName": "Epic Hat Bag",
+      "broadcast": true
+    },
+    {
+      "item": "simplehats:hatbag_festive",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "epic",
+      "displayName": "Festive Hat Bag",
+      "broadcast": true
+    },
+    {
+      "item": "simplehats:hatbag_halloween",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "epic",
+      "displayName": "Halloween Hat Bag",
+      "broadcast": true
+    },
+    {
+      "item": "simplehats:hatbag_easter",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.06,
+      "rarity": "legendary",
+      "displayName": "Easter Hat Bag",
+      "broadcast": true
+    },
+    {
+      "item": "supplementaries:bomb_spiky",
+      "minCount": 4,
+      "maxCount": 10,
+      "chance": 0.2,
+      "rarity": "rare",
+      "displayName": "Spiky Bomb",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:spring_launcher",
+      "minCount": 2,
+      "maxCount": 5,
+      "chance": 0.15,
+      "rarity": "rare",
+      "displayName": "Spring Launcher",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:bubble_blower",
+      "minCount": 2,
+      "maxCount": 5,
+      "chance": 0.2,
+      "rarity": "uncommon",
+      "displayName": "Bubble Blower",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:clock_block",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.1,
+      "rarity": "epic",
+      "displayName": "Clock Block",
+      "broadcast": false
+    },
+    {
+      "item": "create:blaze_burner",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.02,
+      "rarity": "rare",
+      "displayName": "Blaze Burner",
+      "broadcast": false
+    },
+    {
+      "item": "refinedstorage:grid",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.015,
+      "rarity": "rare",
+      "displayName": "RS Grid",
+      "broadcast": false
+    },
+    {
+      "item": "refinedstorage:controller",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.01,
+      "rarity": "epic",
+      "displayName": "RS Controller",
+      "broadcast": true
+    },
+    {
+      "item": "apotheosis:reforging_table",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.01,
+      "rarity": "epic",
+      "displayName": "Reforging Table",
+      "broadcast": true
+    },
+    {
+      "item": "create_sa:experience_sword",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.01,
+      "rarity": "epic",
+      "displayName": "Experience Sword",
+      "broadcast": true
+    },
+    {
+      "item": "minecraft:spawner",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.002,
+      "rarity": "mythic",
+      "displayName": "Spawner",
+      "broadcast": true
+    }
+  ],
+  "particles": [
+    "minecraft:flame"
+  ],
+  "type": "guaranteed",
+  "guaranteedItem": "minecraft:netherite_ingot",
+  "guaranteedMinCount": 2,
+  "guaranteedMaxCount": 3,
+  "rarity": "legendary",
+  "broadcastRare": true,
+  "broadcastMessage": "",
+  "destroyOnOpen": false,
+  "maxUses": -1,
+  "permission": "",
+  "animation": {
+    "type": "burst",
+    "durationTicks": 64,
+    "particleCount": 54,
+    "particleSpeed": 0.272,
+    "particleRadius": 1.19,
+    "particleType": "minecraft:flame",
+    "playTitleAnimation": true
+  },
+  "requireSneakToOpen": false,
+  "cooldownTicks": 20,
+  "closeSound": "",
+  "giveToInventoryOnly": false,
+  "openTitle": "§e✦ Shop IX ✦",
+  "openSubtitle": "§7Good luck!",
+  "commandRewards": [],
+  "experienceReward": 300,
+  "requiredBiome": "",
+  "requiredLevel": 0,
+  "logOpening": true,
+  "sortOrder": 108,
+  "displayNameFR": "§eShop IX",
+  "openMessageFR": "",
+  "openTitleFR": "§e✦ Shop IX ✦",
+  "openSubtitleFR": "§7Bonne chance !",
+  "freeEnabled": false,
+  "freeCooldownHours": 72,
+  "freePermission": "",
+  "freeReducedCooldownHours": 48,
+  "freeReducedPermission": ""
+}

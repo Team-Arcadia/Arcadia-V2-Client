@@ -1,0 +1,322 @@
+{
+  "displayName": "§3Shop IV",
+  "color": "white",
+  "keyItem": "arcadialootbox:shop_key_superior",
+  "openSound": "minecraft:block.chest.open",
+  "openMessage": "",
+  "lootTable": [
+    {
+      "item": "arcadia:music_disc_vyrriox_la_naine_pt1",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.1,
+      "rarity": "rare",
+      "displayName": "Music Disc - La Naine Pt1",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_vyrriox_la_naine_pt2",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.1,
+      "rarity": "rare",
+      "displayName": "Music Disc - La Naine Pt2",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_vyrriox_la_naine_pt3",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.1,
+      "rarity": "rare",
+      "displayName": "Music Disc - La Naine Pt3",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_peter_le_frein_pt1",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "rare",
+      "displayName": "Music Disc - Peter Le Frein Pt1",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:diamond",
+      "minCount": 4,
+      "maxCount": 8,
+      "chance": 0.35,
+      "rarity": "uncommon",
+      "displayName": "Diamond",
+      "broadcast": false
+    },
+    {
+      "item": "simplyswords:iron_longsword",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.12,
+      "rarity": "uncommon",
+      "displayName": "Iron Longsword",
+      "broadcast": false
+    },
+    {
+      "item": "simplyswords:iron_claymore",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.12,
+      "rarity": "uncommon",
+      "displayName": "Iron Claymore",
+      "broadcast": false
+    },
+    {
+      "item": "artifacts:bunny_hoppers",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "rare",
+      "displayName": "Bunny Hoppers",
+      "broadcast": false
+    },
+    {
+      "item": "artifacts:cloud_in_a_bottle",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "rare",
+      "displayName": "Cloud In A Bottle",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia_pets:common_pet_bag",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.15,
+      "rarity": "uncommon",
+      "displayName": "Common Pet Bag",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia_pets:uncommon_pet_bag",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "rare",
+      "displayName": "Uncommon Pet Bag",
+      "broadcast": false
+    },
+    {
+      "item": "arcadialootbox:shop_key_epic",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.015,
+      "rarity": "legendary",
+      "displayName": "Next Tier Key (Shop)",
+      "broadcast": true
+    },
+    {
+      "item": "handcrafted:dark_oak_cupboard",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.15,
+      "rarity": "uncommon",
+      "displayName": "Cupboard",
+      "broadcast": false
+    },
+    {
+      "item": "handcrafted:dark_oak_drawer",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.15,
+      "rarity": "uncommon",
+      "displayName": "Drawer",
+      "broadcast": false
+    },
+    {
+      "item": "refurbished_furniture:oak_bath",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.1,
+      "rarity": "rare",
+      "displayName": "Bath",
+      "broadcast": false
+    },
+    {
+      "item": "refurbished_furniture:oak_kitchen_sink",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.12,
+      "rarity": "uncommon",
+      "displayName": "Kitchen Sink",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:globe",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "rare",
+      "displayName": "Globe",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:spyglass",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.15,
+      "rarity": "uncommon",
+      "displayName": "Spyglass",
+      "broadcast": false
+    },
+    {
+      "item": "neoncraft:a_red",
+      "minCount": 2,
+      "maxCount": 4,
+      "chance": 0.15,
+      "rarity": "uncommon",
+      "displayName": "Neon Red",
+      "broadcast": false
+    },
+    {
+      "item": "simplehats:hatbag_uncommon",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.15,
+      "rarity": "uncommon",
+      "displayName": "Uncommon Hat Bag",
+      "broadcast": false
+    },
+    {
+      "item": "simplehats:hatbag_rare",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "rare",
+      "displayName": "Rare Hat Bag",
+      "broadcast": true
+    },
+    {
+      "item": "supplementaries:bubble_blower",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.2,
+      "rarity": "uncommon",
+      "displayName": "Bubble Blower",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:flute",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.15,
+      "rarity": "uncommon",
+      "displayName": "Flute",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:bomb",
+      "minCount": 2,
+      "maxCount": 4,
+      "chance": 0.2,
+      "rarity": "uncommon",
+      "displayName": "Bomb",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:lunch_basket",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.12,
+      "rarity": "uncommon",
+      "displayName": "Lunch Basket",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:quiver",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.1,
+      "rarity": "rare",
+      "displayName": "Quiver",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:present_red",
+      "minCount": 1,
+      "maxCount": 3,
+      "chance": 0.2,
+      "rarity": "common",
+      "displayName": "Red Present",
+      "broadcast": false
+    },
+    {
+      "item": "create:blaze_burner",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.02,
+      "rarity": "rare",
+      "displayName": "Blaze Burner",
+      "broadcast": false
+    },
+    {
+      "item": "refinedstorage:grid",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.015,
+      "rarity": "rare",
+      "displayName": "RS Grid",
+      "broadcast": false
+    },
+    {
+      "item": "apotheosis:reforging_table",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.01,
+      "rarity": "epic",
+      "displayName": "Reforging Table",
+      "broadcast": true
+    }
+  ],
+  "particles": [
+    "minecraft:flame"
+  ],
+  "type": "guaranteed",
+  "guaranteedItem": "minecraft:diamond",
+  "guaranteedMinCount": 2,
+  "guaranteedMaxCount": 4,
+  "rarity": "rare",
+  "broadcastRare": true,
+  "broadcastMessage": "",
+  "destroyOnOpen": false,
+  "maxUses": -1,
+  "permission": "",
+  "animation": {
+    "type": "burst",
+    "durationTicks": 36,
+    "particleCount": 26,
+    "particleSpeed": 0.133,
+    "particleRadius": 0.63,
+    "particleType": "minecraft:flame",
+    "playTitleAnimation": true
+  },
+  "requireSneakToOpen": false,
+  "cooldownTicks": 20,
+  "closeSound": "",
+  "giveToInventoryOnly": false,
+  "openTitle": "§3✦ Shop IV ✦",
+  "openSubtitle": "§7Good luck!",
+  "commandRewards": [],
+  "experienceReward": 50,
+  "requiredBiome": "",
+  "requiredLevel": 0,
+  "logOpening": true,
+  "sortOrder": 103,
+  "displayNameFR": "§3Shop IV",
+  "openMessageFR": "",
+  "openTitleFR": "§3✦ Shop IV ✦",
+  "openSubtitleFR": "§7Bonne chance !",
+  "freeEnabled": false,
+  "freeCooldownHours": 72,
+  "freePermission": "",
+  "freeReducedCooldownHours": 48,
+  "freeReducedPermission": ""
+}

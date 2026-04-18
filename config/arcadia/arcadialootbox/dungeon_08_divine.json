@@ -1,0 +1,151 @@
+{
+  "displayName": "§bDungeon VIII",
+  "color": "white",
+  "keyItem": "arcadialootbox:dungeon_key_divine",
+  "openSound": "minecraft:block.chest.open",
+  "openMessage": "",
+  "lootTable": [
+    {
+      "item": "simplyswords:emberblade",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "legendary",
+      "displayName": "Emberblade",
+      "broadcast": true
+    },
+    {
+      "item": "simplyswords:frostfall",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "legendary",
+      "displayName": "Frostfall",
+      "broadcast": true
+    },
+    {
+      "item": "simplyswords:mjolnir",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.04,
+      "rarity": "legendary",
+      "displayName": "Mjolnir",
+      "broadcast": true
+    },
+    {
+      "item": "simplyswords:runic_longsword",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.1,
+      "rarity": "epic",
+      "displayName": "Runic Longsword",
+      "broadcast": false
+    },
+    {
+      "item": "simplyswords:runic_claymore",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.1,
+      "rarity": "epic",
+      "displayName": "Runic Claymore",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:netherite_ingot",
+      "minCount": 2,
+      "maxCount": 4,
+      "chance": 0.15,
+      "rarity": "epic",
+      "displayName": "Netherite Ingot",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple",
+      "minCount": 2,
+      "maxCount": 3,
+      "chance": 0.2,
+      "rarity": "epic",
+      "displayName": "Enchanted Golden Apple",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:totem_of_undying",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.15,
+      "rarity": "epic",
+      "displayName": "Totem of Undying",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:diamond_block",
+      "minCount": 3,
+      "maxCount": 6,
+      "chance": 0.3,
+      "rarity": "rare",
+      "displayName": "Diamond Block",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:heart_of_arcadia",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.12,
+      "rarity": "mythic",
+      "displayName": "Heart of Arcadia",
+      "broadcast": true
+    },
+    {
+      "item": "arcadialootbox:dungeon_key_celestial",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.003,
+      "rarity": "legendary",
+      "displayName": "Next Tier Key (Dungeon)",
+      "broadcast": true
+    }
+  ],
+  "particles": [
+    "minecraft:flame"
+  ],
+  "type": "guaranteed",
+  "guaranteedItem": "minecraft:enchanted_golden_apple",
+  "guaranteedMinCount": 1,
+  "guaranteedMaxCount": 2,
+  "rarity": "legendary",
+  "broadcastRare": true,
+  "broadcastMessage": "",
+  "destroyOnOpen": false,
+  "maxUses": -1,
+  "permission": "",
+  "animation": {
+    "type": "burst",
+    "durationTicks": 58,
+    "particleCount": 48,
+    "particleSpeed": 0.244,
+    "particleRadius": 1.08,
+    "particleType": "minecraft:flame",
+    "playTitleAnimation": true
+  },
+  "requireSneakToOpen": false,
+  "cooldownTicks": 20,
+  "closeSound": "",
+  "giveToInventoryOnly": false,
+  "openTitle": "§b✦ Dungeon VIII ✦",
+  "openSubtitle": "§7Good luck!",
+  "commandRewards": [],
+  "experienceReward": 200,
+  "requiredBiome": "",
+  "requiredLevel": 0,
+  "logOpening": true,
+  "sortOrder": 207,
+  "displayNameFR": "§bDungeon VIII",
+  "openMessageFR": "",
+  "openTitleFR": "§b✦ Dungeon VIII ✦",
+  "openSubtitleFR": "§7Bonne chance !",
+  "freeEnabled": false,
+  "freeCooldownHours": 72,
+  "freePermission": "",
+  "freeReducedCooldownHours": 48,
+  "freeReducedPermission": ""
+}
