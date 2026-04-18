@@ -482,7 +482,100 @@ All textures are 32x32 with 3D pixel shading. Registered via KubeJS startup.
 
 ---
 
-*Total recipes modified after v12 additions: ~280+*
-*New bridge items: 4 (Arcane Circuit, Ethereal Alloy, Industrial Heart, Rune Matrix)*
-*Custom textures: 32x32 with 3D shading*
+---
+
+## 30. APOTHEOSIS DIFFICULTY TUNING (datapack overrides)
+
+*All overrides in `kubejs/data/apotheosis/` and `kubejs/data/apothic_attributes/`.*
+
+### 30.1 Rarity Weight Nerf (`kubejs/data/apotheosis/rarities/*.json`)
+
+Weights rebalanced to make Rare/Epic/Mythic drops truly rare.
+
+| World Tier | Common | Uncommon | Rare | Epic | Mythic |
+|---|---|---|---|---|---|
+| **haven** (early) | 600→**780** | 360→**210** | 40→**10** | 0→0 | 0→0 |
+| **frontier** | 290→**450** | 600→**500** | 100→**50** | 10→**0** | 0→0 |
+| **ascent** | 100→**220** | 300→**500** | 500→**250** | 100→**30** | 0→0 |
+| **summit** | 0→**60** | 120→**350** | 290→**400** | 540→**180** | 50→**10** |
+| **pinnacle** (max) | 0→0 | 0→**100** | 100→**350** | 650→**450** | 250→**100** |
+
+### 30.2 Winged Affix Nerf (`kubejs/data/apotheosis/affixes/armor/attribute/winged.json`)
+
+Creative flight chestplate affix hardened:
+*   Weight: 25 → **3** (8x rarer)
+*   Removed from `epic` — **mythic-only**
+*   Affix type: `stat` → `ability` (counts as ability slot)
+
+### 30.3 Potion Charm Endgame Recipe (`kubejs/data/apotheosis/recipe/potion_charm.json`)
+
+**Before (vanilla)** : 6 Blaze Powder + 3 Potions (trivial)
+**After** :
+```
+HSH   H = Mekanism HDPE Sheet × 4
+PRP   R = Arcadia Rune Matrix (endgame bridge)
+HTH   S = Source Gem · P = Potion × 2 · T = Ghast Tear
+```
+Charm crafting now requires endgame mastery of Mekanism + Create + TFMG + Ars Nouveau + Apotheosis.
+
+### 30.4 HDPE Sheet Endgame Recipe (in `recipe_overhaul.js` section 13)
+
+**Before (vanilla)** : 3 HDPE Pellets → 1 Sheet via Mekanism Enrichment Chamber
+**After** : Create Sequenced Assembly, **5 loops × 6 steps**:
+1.  Deploy HDPE Rod
+2.  Deploy Brass Sheet (Create)
+3.  Deploy TFMG Heavy Plate
+4.  Deploy Alloy Reinforced (Mekanism, = enriched_alloy + diamond)
+5.  Filling 500 mB Molten Steel (TFMG)
+6.  Pressing
+
+**Per sheet cost** : 1 pellet + 5 rods (= 20 pellets) + 5 brass sheets + 5 heavy plates + **5 alloy reinforced (= 5 diamonds)** + 2500 mB molten steel. Total ≈ **21 pellets + 5 diamonds** per sheet.
+
+**HDPE Rod** also hardened : 4 pellets + 1 Brass Sheet (was 4 pellets alone).
+
+### 30.5 Flight Potion Chain Hardening (`kubejs/data/apothic_attributes/brewing_mixes/*.json`)
+
+| Potion | Before | After |
+|---|---|---|
+| `apothic_attributes:flying` | Levitation + Popped Chorus Fruit | Levitation + **Dragon's Breath** |
+| `long_flying` | Flying + Redstone | Flying + **Redstone Block** |
+| `extra_long_flying` | Long Flying + Redstone | Long Flying + **Nether Star** |
+
+Creative flight now gated behind Ender Dragon kill + Wither boss.
+
+### 30.6 `apotheosis.cfg` Tuning
+
+*   `Upgrade Sigil Cost` : 5 → **10**
+*   `Upgrade Level Cost` : 500 → **1200** XP
+*   `Reroll Sigil Cost` : 1 → **3**
+*   `Reroll Level Cost` : 1000 → **2500** XP
+*   `Restrict Charms to Curios` : `false` → **`true`** (charms require a Curios slot to work)
+
+---
+
+## Recipe Fixes Log (item-ID corrections)
+
+Applied after runtime error discovery:
+
+*   `ars_nouveau:archwood_log` → `#c:logs/archwood` (archwood renamed to 4 colored variants in 5.11)
+*   `mekanism:reinforced_glass` → `mekanism:structural_glass`
+*   `createaddition:accumulator` → `createaddition:modular_accumulator`
+*   `createaddition:charger` → **removed** (item does not exist)
+*   `extradisks:*_storage_part` → `extradisks:*_item_storage_part` (1024k/4096k/infinite)
+*   `fluxnetworks:flux_storage` → `fluxnetworks:basic_flux_storage`
+*   `occultism:candle_white` → `occultism:large_candle_white`
+*   `apotheosis:hellshelf` + `seashelf` → **removed** (items removed in Apotheosis 1.21)
+*   `occultism:soul_gem_empty` → **removed** (only obtainable via Djinni ritual)
+*   `apotheosis:vial_of_expulsion` → **removed** (removed in Apotheosis 1.21)
+*   `ars_creo:kinetic_sourcelink` → **removed** (not in Ars Creo 5.2)
+*   `ars_technica:source_crafter` + `source_mixer` → **removed** (not in Ars Technica 2.7)
+*   Mechanical Crafting numeric key `'6'` → renamed to `K` (KubeJS rejects digit keys)
+
+---
+
+---
+
+*Total recipes modified after v12 additions: ~290+*
+*New bridge items: 4 (Arcane Circuit, Ethereal Alloy, Industrial Heart, Rune Matrix) — 32x32 textures with 3D shading*
+*Apotheosis tuning: rarity weights + Winged affix + Potion Charm + Flight potions + augmenting costs*
 *Banned items verified: all mek modules, jetpacks, mekasuit, create_jetpack, create_sa jetpack/exoskeleton, turtles, backtanks, planarium, iesnium_anvil, chunk_loader (ender transmission), cannon_boats, easy_villagers:iron_farm, sophisticatedbackpacks/storage infinity/inception/omega — EXCLUDED from all modifications.*
