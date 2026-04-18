@@ -268,3 +268,221 @@
 
 *Total modified recipes: ~180+*
 *Cross-mod connections: Create, TFMG, Mekanism, IE, Ars Nouveau, Occultism, Iron's Spellbooks, Apotheosis, Refined Storage, Flux Networks, Farmers Delight, Waystones, Sophisticated Backpacks, Building Gadgets*
+
+---
+
+## 12. CROSS-MOD BRIDGE COMPONENTS (NEW)
+
+Four custom Arcadia items that bind multiple mods together.
+All textures are 32x32 with 3D pixel shading. Registered via KubeJS startup.
+
+### Arcane Circuit (`arcadia:arcane_circuit`) — MEDIUM tier
+*   **Forges:** Create + TFMG + Mekanism + Ars Nouveau
+*   **Recipe:** Create Mixing (heated) — 2 Precision Mechanism + 2 Source Gem + 2 TFMG Transistor + 1 Mek Alloy Infused + 500mb Creosote
+*   **Used in:** Accumulator, Mek Advanced Circuit, RS Bridge, ME Bridge, Peripheral Casing, Player Detector, Apprentice Spellbook, Source Crafter, Source Mixer, Divination Rod, Rune Matrix, Digital Miner, QIO Drive Array, Dashboard, Antiprotonic Nucleosynthesizer
+
+### Ethereal Alloy (`arcadia:ethereal_alloy`) — HARD tier
+*   **Forges:** Ars Nouveau + Mekanism + Occultism + Create
+*   **Recipe:** Create Mixing (heated) — 4 Source Gem + 2 Mek Alloy Reinforced + 1 Spirit Attuned Gem + 2 Brass Sheet + 1000mb Lava
+*   **Used in:** Infused Pickaxe, Soul Gem Empty, Otherworld Goggles, Enchanters Shield, Mob Jar, Archevoker Armor set
+
+### Industrial Heart (`arcadia:industrial_heart`) — HARD tier
+*   **Forges:** Create + TFMG + Mekanism + Immersive Engineering
+*   **Recipe:** Sequenced Assembly on TFMG Heavy Plate — 4 loops (Steel Mechanism + Precision Mechanism + Alloy Reinforced + IE Component Steel + Press)
+*   **Used in:** TFMG Heavy Machinery Casing, Large/Radial/Turbine Engines, IE Drill, IE Excavator, IE Railgun, CDG Diesel/Large/Huge Engine, Mek Digital Miner, Mek Fusion Reactor Controller
+
+### Rune Matrix (`arcadia:rune_matrix`) — ENDGAME tier
+*   **Forges:** Ars Nouveau + Occultism + Create + Apotheosis
+*   **Recipe:** Mechanical Crafting 5x5 — Source Gem Block + Magebloom Fiber + Arcane Circuit + Apotheosis Rare Material + Echo Shard
+*   **Used in:** Archmage Spellbook, Netherite Spell Book, Dragonskin Spell Book, Enchanters Mirror, Alteration Table, Sigil of Socketing, CN Reactor Controller, Mek Digital Miner, Mek Antiprotonic Nucleosynthesizer, RS Infinite Storage Part
+
+---
+
+## 13. MEKANISM HARDENING (~20 recipes)
+
+**T1 Machines** — + Iron Sheet / Brass Casing / Cogwheel / Precision Mechanism (soft cross-mod)
+*   `enrichment_chamber`, `osmium_compressor`, `combiner`, `crusher`, `metallurgic_infuser`
+
+**T2 Machines** — require TFMG Steel + Precision Mechanism + Mek Alloy
+*   `purification_chamber`, `chemical_injection_chamber`, `pressurized_reaction_chamber` (Mechanical Crafting)
+*   `thermal_evaporation_controller`, `solar_neutron_activator`
+
+**Circuits**
+*   `advanced_control_circuit` — gated behind Arcane Circuit
+*   `ultimate_control_circuit` — Sequenced Assembly 4 loops + Arcane Circuit + Atomic Alloy
+
+**Endgame Apex** — require Industrial Heart + Rune Matrix + Atomic Alloy + Fusion Matrix
+*   `digital_miner` — MC 5x5 with Industrial Heart + Rune Matrix
+*   `teleporter` + `teleportation_core` — MC 5x5 with Source Gem Block + Ender Eye
+*   `qio_drive_array` + `qio_dashboard` — MC 5x5 with Atomic Alloy + Arcane Circuit
+*   `antiprotonic_nucleosynthesizer` — MC 7x7 with Fusion Matrix + Rune Matrix + Nether Star
+*   `sps_casing`
+*   **`mekanismgenerators:fusion_reactor_controller`** — MC 7x7 requiring Plasma Cell + Fusion Matrix + Containment Field Generator + Industrial Heart (direct bridge to Arcadia Fusion chain)
+
+**Refined Tier Tools/Armor** — add Breeze Rod / Source Gem
+*   Refined Glowstone + Refined Obsidian sword/pickaxe/axe/shovel/hoe/paxel/armor
+
+---
+
+## 14. TFMG HARDENING (~10 recipes)
+
+*   `transistor_item` — + Copper Spool (Create Addition)
+*   `converter` — + Copper Spool
+*   `industrial_mixer` — MC 3x3 with Heavy Plate + Precision Mechanism + Mechanical Mixer
+*   `centrifuge` — MC with Heavy Plate + Steel Mechanism + Alloy Reinforced
+*   `heavy_machinery_casing` — + Industrial Heart (endgame gate)
+*   `large_engine` — + Industrial Heart + Precision Mechanism + Copper Spool
+*   `radial_engine` — + Industrial Heart + Precision Mechanism
+*   `turbine_engine` — + Industrial Heart + Precision Mechanism
+*   `steel_distillation_controller` — + Precision Mechanism + Steel Mechanism
+*   `blast_furnace_hatch` — + Heavy Plate
+
+---
+
+## 15. IMMERSIVE ENGINEERING HARDENING (~8 recipes)
+
+*   `hammer` — + Iron Sheet (Create)
+*   `light_engineering` — + Iron Sheet
+*   `heavy_engineering` — + TFMG Heavy Plate
+*   `revolver` — + Brass Sheet + Precision Mechanism + MV Coil
+*   `drill` — MC 5x5 + Industrial Heart + Heavy Engineering + Precision Mechanism
+*   `railgun` — MC 5x5 + Industrial Heart + Atomic Alloy + HV Capacitor
+*   `excavator` — MC 3x3 + Industrial Heart + Atomic Alloy + Heavy Engineering
+*   `arc_furnace` — MC 3x3 + Heavy Engineering + Brass Casing
+
+---
+
+## 16. CREATE ADDITION HARDENING (~7 recipes)
+
+*   `capacitor` — + Brass Sheet + Electron Tube + Copper Wire
+*   `accumulator` — MC 3x3 + Gold Sheet + Capacitor + Arcane Circuit
+*   `charger` — + Precision Mechanism
+*   `portable_energy_interface` — + Precision Mechanism
+*   `tesla_coil` — MC + Capacitor + Heavy Plate + Atomic Alloy + Precision Mechanism
+*   `alternator` — + Brass Sheet + Copper Spool + Andesite Casing
+*   `rolling_mill` — + Precision Mechanism
+
+---
+
+## 17. CREATE NUCLEAR HARDENING (~5 recipes)
+
+*   `reactor_casing` — + Heavy Plate + Precision Mechanism + Steel Block
+*   `reactor_controller` — MC 3x3 + Reactor Casing + Atomic Alloy + Rune Matrix + Precision Mechanism
+*   `reactor_core` — + Reactor Casing + Uranium Rod + Reinforced Glass + Precision Mechanism
+*   `reactor_frame` — + Lead Ingot + Heavy Plate
+*   `reinforced_glass` — + Lead + Glass + Precision Mechanism
+
+---
+
+## 18. CREATE DIESEL GENERATORS HARDENING (~4 recipes)
+
+*   `diesel_engine` — MC 3x3 + Heavy Plate + Industrial Heart + Copper Spool
+*   `large_diesel_engine` — MC 3x3 + Diesel Engine + Industrial Heart + Steel Mechanism
+*   `huge_diesel_engine` — MC 5x5 + 4x Large Diesel Engine + Industrial Heart + Atomic Alloy
+*   `distillation_controller` — + Heavy Plate + Precision Mechanism + Steel Mechanism
+
+---
+
+## 19. ADVANCED PERIPHERALS HARDENING (~5 recipes)
+
+*   `peripheral_casing` — + Heavy Plate + Steel Plate + Arcane Circuit
+*   `rs_bridge` — MC 3x3 + Peripheral Casing + Arcane Circuit + Quartz Enriched Iron
+*   `me_bridge` — MC 3x3 + Peripheral Casing + Arcane Circuit + Atomic Alloy
+*   `chunk_controller` — MC 3x3 + Ender Pearl + Atomic Alloy + Peripheral Casing
+*   `player_detector` — + Peripheral Casing + Ender Eye + Arcane Circuit + Precision Mechanism
+
+---
+
+## 20. REFINED STORAGE + EXTRADISKS HARDENING (~7 recipes)
+
+*   `grid`, `crafting_grid`, `wireless_grid` — + Precision Mechanism / Brass Casing
+*   `64k_storage_part` — MC 3x3 + Precision Mechanism + Alloy Reinforced
+*   `extradisks:1024k_storage_part` — MC 3x3 + Atomic Alloy + Source Gem Block + 64k part
+*   `extradisks:4096k_storage_part` — Sequenced Assembly 5 loops + Atomic Alloy + Fusion Matrix
+*   `extradisks:infinite_storage_part` — MC 5x5 + Nether Star + Fusion Core + Rune Matrix + Source Gem Block
+
+---
+
+## 21. FLUX NETWORKS HARDENING (~3 recipes)
+
+*   `flux_controller` — MC 3x3 + Source Gem Block + Ender Eye + Atomic Alloy + Precision Mechanism
+*   `flux_storage` — + Brass Casing + Flux Core + Heavy Plate + Steel Ingot
+*   `gargantuan_flux_storage` — MC 5x5 + Herculean + Fusion Matrix + Atomic Alloy + Source Gem Block
+
+---
+
+## 22. ARS NOUVEAU EXTRAS (~8 recipes)
+
+*   `apprentice_spell_book` — + Magebloom + Arcane Circuit + Source Gem Block + Precision Mechanism
+*   `archmage_spell_book` — MC 3x3 + Source Gem Block + Magebloom + Rune Matrix
+*   `enchanters_sword` — + Source Gem Block + Breeze Rod (vertical blade)
+*   `enchanters_shield` — + Source Gem Block + Ethereal Alloy + Precision Mechanism
+*   `enchanters_mirror` — + Ender Eye + Rune Matrix + Precision Mechanism
+*   `mob_jar` — + Ethereal Alloy + Brass Casing + Precision Mechanism
+*   `alteration_table` — + Magebloom + Rune Matrix + Archwood + Feather
+*   `agronomic_sourcelink` — + Source Gem Block + Archwood + Brass Casing + Wheat
+
+---
+
+## 23. ARS CREO / ARS TECHNICA (~3 recipes)
+
+*   `ars_creo:kinetic_sourcelink` — + Source Gem Block + Shaft + Cogwheel + Precision Mechanism
+*   `ars_technica:source_crafter` — + Source Gem Block + Arcane Circuit + Brass Casing + Precision Mechanism
+*   `ars_technica:source_mixer` — + Source Gem Block + Arcane Circuit + Mechanical Mixer + Brass Casing
+
+---
+
+## 24. IRON'S SPELLBOOKS (~3 recipes)
+
+*   `netherite_spell_book` — MC 3x3 + Diamond Spell Book + Atomic Alloy + Rune Matrix + Precision Mechanism
+*   `dragonskin_spell_book` — + Source Gem Block + Netherite Spell Book + Rune Matrix
+*   `archevoker_*` armor — arcane_ingot replaced by Ethereal Alloy
+
+---
+
+## 25. OCCULTISM HARDENING (~4 recipes)
+
+*   `divination_rod` — + Gold Sheet + Arcane Circuit + Stick
+*   `infused_pickaxe` — iron_ingot replaced by Ethereal Alloy
+*   `otherworld_goggles` — + Ethereal Alloy + Gold Sheet + Source Gem + Obsidian
+*   `soul_gem_empty` — + Source Gem + Ender Pearl + Precision Mechanism + Ethereal Alloy
+
+---
+
+## 26. APOTHEOSIS HARDENING (~2 recipes)
+
+*   `sigil_of_socketing` — + Rare Material + Rune Matrix + Precision Mechanism
+*   `vial_of_expulsion` — + Source Gem + Glass + Precision Mechanism
+
+---
+
+## 27. AETHER HARDENING (~14 items)
+
+*   Gravitite tools (5) — stick replaced by Breeze Rod
+*   Gravitite armor (5) — leather replaced by Gold Sheet; enchanted_gravitite ingredient augmented by Breeze Rod
+*   Phoenix armor (5) — stick replaced by Blaze Rod
+
+---
+
+## 28. AQUACULTURE HARDENING (~9 items)
+
+*   Neptunium tools (5) — stick replaced by Breeze Rod
+*   Neptunium armor (4) — neptunium_ingot augmented by Source Gem
+
+---
+
+## 29. ARTIFACTS HARDENING (~6 recipes)
+
+*   `crystal_heart` — + Amethyst + Iron Sheet + Source Gem
+*   `flame_pendant` — + Gold Sheet + Blaze Rod + Source Gem + String
+*   `night_vision_goggles` — + Gold Sheet + Sculk Shrieker + Source Gem
+*   `running_shoes` — + Rabbit Foot + Breeze Rod
+*   `power_glove` — + Precision Mechanism + Iron Block + Breeze Rod + Leather
+*   `cross_necklace` — + Gold Sheet + Netherite Scrap + Source Gem Block + Ender Pearl
+
+---
+
+*Total recipes modified after v12 additions: ~280+*
+*New bridge items: 4 (Arcane Circuit, Ethereal Alloy, Industrial Heart, Rune Matrix)*
+*Custom textures: 32x32 with 3D shading*
+*Banned items verified: all mek modules, jetpacks, mekasuit, create_jetpack, create_sa jetpack/exoskeleton, turtles, backtanks, planarium, iesnium_anvil, chunk_loader (ender transmission), cannon_boats, easy_villagers:iron_farm, sophisticatedbackpacks/storage infinity/inception/omega — EXCLUDED from all modifications.*

@@ -1,6 +1,3 @@
-/kill @e[type=minecraft:ender_dragon]
-/reload
-/summon minecraft:ender_dragon
 /reload
 /kubejs hand
 /reload
@@ -48,3 +45,6 @@
 /defaultoptions saveAll
 /reload
 /weather clear 5000d
+/arcadia_pets duel SiriusT
+/scale set 0.1
+/scale set 1

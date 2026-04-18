@@ -156,6 +156,43 @@ StartupEvents.registry('item', event => {
         .glow(true)
         .maxStackSize(1);
 
+    // ===== CROSS-MOD BRIDGE COMPONENTS =====
+    // Bridge items that unify multiple mods (Create, TFMG, Mekanism, Ars Nouveau, Occultism, IE, Apotheosis).
+    // Used as gate ingredients for hardened mid/late-game recipes.
+
+    // MEDIUM bridge: Create + TFMG + Mekanism + Ars Nouveau
+    event.create('arcadia:arcane_circuit')
+        .displayName('Arcane Circuit')
+        .texture('arcadia:item/arcane_circuit')
+        .rarity('uncommon')
+        .glow(true);
+
+    // HARD bridge: Ars Nouveau + Mekanism + Occultism + Create
+    event.create('arcadia:ethereal_alloy')
+        .displayName('Ethereal Alloy')
+        .texture('arcadia:item/ethereal_alloy')
+        .rarity('rare')
+        .glow(true);
+
+    // HARD bridge: Create + TFMG + Mekanism + Immersive Engineering
+    event.create('arcadia:industrial_heart')
+        .displayName('Industrial Heart')
+        .texture('arcadia:item/industrial_heart')
+        .rarity('rare')
+        .glow(true);
+
+    // ENDGAME bridge: Ars Nouveau + Occultism + Create + Apotheosis
+    event.create('arcadia:rune_matrix')
+        .displayName('Rune Matrix')
+        .texture('arcadia:item/rune_matrix')
+        .rarity('epic')
+        .glow(true);
+
+    // Transitional item for Industrial Heart sequenced assembly
+    event.create('arcadia:incomplete_industrial_heart')
+        .displayName('Incomplete Industrial Heart')
+        .texture('arcadia:item/industrial_heart');
+
     // ===== COEUR D'ARCADIA =====
     event.create('arcadia:heart_of_arcadia')
         .displayName('Heart of Arcadia')

@@ -123,7 +123,6 @@ LootJS.modifiers((event) => {
       "minecraft:netherite_ingot",
       "minecraft:netherite_scrap",
       "minecraft:netherite_block",
-      "minecraft:netherite_upgrade_smithing_template",
       Ingredient.of(
         /.*:netherite_(sword|pickaxe|axe|shovel|hoe|helmet|chestplate|leggings|boots|horse_armor|shield|paxel|hammer|spear|glaive|cutlass|claymore|scythe|halberd).*/,
       ),
