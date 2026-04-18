@@ -1276,26 +1276,28 @@ ServerEvents.recipes((event) => {
     // 10. CROSS-MOD HARDENING — Storage, Magic, Tech
     // ============================================================
 
-    // --- STORAGE LECTERN (Ars) — Endgame storage, requires Create + Ars + Mekanism ---
+    // --- STORAGE LECTERN (Ars) — APEX ENDGAME ---
+    // Requires all 4 Arcadia bridges + Fusion Matrix (Arcadia tier 3 chain).
+    // Forces completion of: Tech path (Industrial Heart), Magic path (Rune Matrix),
+    // Arcane-tech bridge (Arcane Circuit), Occult bridge (Ethereal Alloy), Fusion chain.
     event.remove({ output: 'ars_nouveau:storage_lectern' });
     event.recipes.create.mechanical_crafting(
         'ars_nouveau:storage_lectern',
         [
-            " SAS ",
-            "SGMGS",
-            "BPEPB",
-            " BCB "
+            " ARA ",
+            "EFPFE",
+            "RPHPR",
+            "EFPFE",
+            " ARA "
         ], {
-            S: 'ars_nouveau:source_gem',
-            A: '#c:logs/archwood',
-            G: 'create:golden_sheet',
-            M: 'mekanism:alloy_infused',
-            B: 'create:brass_casing',
+            A: ARCANE_CIRCUIT,
+            R: RUNE_MATRIX,
+            E: ETHEREAL_ALLOY,
+            F: 'arcadia:fusion_matrix',
             P: 'create:precision_mechanism',
-            E: 'minecraft:ender_eye',
-            C: 'ars_nouveau:magebloom_fiber'
+            H: INDUSTRIAL_HEART
         }
-    ).id('arcadia:storage_lectern_hard');
+    ).id('arcadia:storage_lectern_apex');
 
     // --- ARS NOUVEAU cross-mod ---
     event.remove({ output: 'ars_nouveau:source_jar' });
