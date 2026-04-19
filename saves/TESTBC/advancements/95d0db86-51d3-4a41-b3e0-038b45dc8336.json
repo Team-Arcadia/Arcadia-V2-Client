@@ -47,6 +47,7 @@
       "minecraft:forest": "2026-04-08 16:08:28 +0200",
       "minecraft:sparse_jungle": "2026-04-08 03:52:22 +0200",
       "minecraft:river": "2026-04-08 04:21:19 +0200",
+      "minecraft:lukewarm_ocean": "2026-04-19 00:10:06 +0200",
       "minecraft:plains": "2026-04-08 03:13:01 +0200"
     },
     "done": false
@@ -1303,6 +1304,252 @@
   "refinedstorage:recipes/misc/coloring/black_controller": {
     "criteria": {
       "has_controllers": "2026-04-18 23:45:05 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/gold_door": {
+    "criteria": {
+      "has_tag_c_ingots_gold_1": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/hourglass": {
+    "criteria": {
+      "has_tag_c_ingots_gold_2": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "dndecor:recipes/building_blocks/gold_floor_from_ingots_gold_stonecutting": {
+    "criteria": {
+      "has_ingots_gold": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/golden_knife": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/key": {
+    "criteria": {
+      "has_tag_c_ingots_gold_1": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "burgermod:recipes/food/golden_beef_burger": {
+    "criteria": {
+      "has_gold": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "dndecor:recipes/building_blocks/gold_dash_bolt_from_ingots_gold_stonecutting": {
+    "criteria": {
+      "has_ingots_gold": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "burgermod:recipes/food/golden_pork_burger": {
+    "criteria": {
+      "has_gold": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_pendant": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/gold_gate": {
+    "criteria": {
+      "has_tag_c_ingots_gold_2": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/gold_dust_from_ingot": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "burgermod:recipes/food/golden_mutton_burger": {
+    "criteria": {
+      "has_gold": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "dndecor:recipes/building_blocks/gold_dot_bolt_from_ingots_gold_stonecutting": {
+    "criteria": {
+      "has_ingots_gold": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "burgermod:recipes/food/golden_chicken_burger": {
+    "criteria": {
+      "has_gold": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_gloves": {
+    "criteria": {
+      "has_gold": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "dndecor:recipes/building_blocks/large_gold_chain_from_ingots_gold_stonecutting": {
+    "criteria": {
+      "has_ingots_gold": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_ring": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/plate_gold_hammering": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "dndecor:recipes/building_blocks/gold_cross_bolt_from_ingots_gold_stonecutting": {
+    "criteria": {
+      "has_ingots_gold": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "dndecor:recipes/building_blocks/gold_flat_bolt_from_ingots_gold_stonecutting": {
+    "criteria": {
+      "has_ingots_gold": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/gold_bars": {
+    "criteria": {
+      "has_tag_c_ingots_gold_1": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/gold_trapdoor": {
+    "criteria": {
+      "has_tag_c_ingots_gold_1": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "advancednetherite:recipes/misc/netherite_gold_ingot": {
+    "criteria": {
+      "has_TagKey[minecraft:item / c:ingots/gold]": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "mcwlights:recipes/gold_stuff": {
+    "criteria": {
+      "has_wood": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/doorbell": {
+    "criteria": {
+      "has_minecraft:gold_ingot": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "mynethersdelight:recipes/misc/crafting/golden_egg": {
+    "criteria": {
+      "has_gold_ingot": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "burgermod:recipes/food/golden_cod_burger": {
+    "criteria": {
+      "has_gold": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "burgermod:recipes/food/golden_salmon_burger": {
+    "criteria": {
+      "has_gold": "2026-04-19 16:42:38 +0200"
     },
     "done": true
   },
