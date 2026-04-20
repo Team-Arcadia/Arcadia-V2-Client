@@ -4,17 +4,27 @@
     Author: vyrriox
 */
 ItemEvents.modifyTooltips(event => {
-    // === Keys ===
-    const keys = [
-        'arcadia:basic_key',
-        'arcadia:common_key',
-        'arcadia:rare_key',
-        'arcadia:legendary_key',
-        'arcadia:arcadia_key',
-        'arcadia:vote_key'
+    // === Keys — each key has rarity-flavored lore + web-ticket instruction ===
+    const keyTiers = [
+        { id: 'arcadia:basic_key',     color: 'gray'        },
+        { id: 'arcadia:common_key',    color: 'green'       },
+        { id: 'arcadia:rare_key',      color: 'blue'        },
+        { id: 'arcadia:legendary_key', color: 'lightPurple' },
+        { id: 'arcadia:arcadia_key',   color: 'gold'        },
+        { id: 'arcadia:vote_key',      color: 'aqua'        }
     ];
-    event.add(keys, Text.translate('tooltip.arcadia.key_description').gray());
-    event.add('arcadia:token_casino', Text.translate('tooltip.arcadia.token_casino').gray());
+    keyTiers.forEach(k => {
+        const name = k.id.split(':')[1];
+        event.add(k.id, [
+            Text.translate(`tooltip.arcadia.${name}.1`)[k.color](),
+            Text.translate(`tooltip.arcadia.${name}.2`).yellow(),
+            Text.translate(`tooltip.arcadia.${name}.3`).gray()
+        ]);
+    });
+    event.add('arcadia:token_casino', [
+        Text.translate('tooltip.arcadia.token_casino.1').gold(),
+        Text.translate('tooltip.arcadia.token_casino.2').gray()
+    ]);
 
     // === Fusion Core Chain - Tier 0 ===
     event.add('arcadia:alloy_blend', Text.translate('tooltip.arcadia.alloy_blend').gray());

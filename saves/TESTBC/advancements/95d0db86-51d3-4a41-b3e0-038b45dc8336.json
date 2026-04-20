@@ -48,6 +48,7 @@
       "minecraft:sparse_jungle": "2026-04-08 03:52:22 +0200",
       "minecraft:river": "2026-04-08 04:21:19 +0200",
       "minecraft:lukewarm_ocean": "2026-04-19 00:10:06 +0200",
+      "minecraft:bamboo_jungle": "2026-04-19 19:30:44 +0200",
       "minecraft:plains": "2026-04-08 03:13:01 +0200"
     },
     "done": false
@@ -1550,6 +1551,1044 @@
   "burgermod:recipes/food/golden_salmon_burger": {
     "criteria": {
       "has_gold": "2026-04-19 16:42:38 +0200"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "rainforest": "2026-04-19 19:30:48 +0200"
+    },
+    "done": false
+  },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "rainforest": "2026-04-19 19:30:48 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/black_grid": {
+    "criteria": {
+      "has_grids": "2026-04-20 00:25:00 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/blue_grid": {
+    "criteria": {
+      "has_grids": "2026-04-20 00:25:00 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/brown_grid": {
+    "criteria": {
+      "has_grids": "2026-04-20 00:25:00 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/cyan_grid": {
+    "criteria": {
+      "has_grids": "2026-04-20 00:25:00 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/pink_grid": {
+    "criteria": {
+      "has_grids": "2026-04-20 00:25:00 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/red_grid": {
+    "criteria": {
+      "has_grids": "2026-04-20 00:25:00 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/yellow_grid": {
+    "criteria": {
+      "has_grids": "2026-04-20 00:25:00 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/white_grid": {
+    "criteria": {
+      "has_grids": "2026-04-20 00:25:00 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/green_grid": {
+    "criteria": {
+      "has_grids": "2026-04-20 00:25:00 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/light_blue_grid": {
+    "criteria": {
+      "has_grids": "2026-04-20 00:25:00 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/orange_grid": {
+    "criteria": {
+      "has_grids": "2026-04-20 00:25:00 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/purple_grid": {
+    "criteria": {
+      "has_grids": "2026-04-20 00:25:00 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/light_gray_grid": {
+    "criteria": {
+      "has_grids": "2026-04-20 00:25:00 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/lime_grid": {
+    "criteria": {
+      "has_grids": "2026-04-20 00:25:00 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/magenta_grid": {
+    "criteria": {
+      "has_grids": "2026-04-20 00:25:00 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/gray_grid": {
+    "criteria": {
+      "has_grids": "2026-04-20 00:25:00 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:viewing_your_storage": {
+    "criteria": {
+      "grid_in_inventory": "2026-04-20 00:25:00 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/blue_pattern_grid": {
+    "criteria": {
+      "has_pattern_grids": "2026-04-20 00:25:10 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/magenta_pattern_grid": {
+    "criteria": {
+      "has_pattern_grids": "2026-04-20 00:25:10 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/light_gray_pattern_grid": {
+    "criteria": {
+      "has_pattern_grids": "2026-04-20 00:25:10 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/gray_pattern_grid": {
+    "criteria": {
+      "has_pattern_grids": "2026-04-20 00:25:10 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/lime_pattern_grid": {
+    "criteria": {
+      "has_pattern_grids": "2026-04-20 00:25:10 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/white_pattern_grid": {
+    "criteria": {
+      "has_pattern_grids": "2026-04-20 00:25:10 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/black_pattern_grid": {
+    "criteria": {
+      "has_pattern_grids": "2026-04-20 00:25:10 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/light_blue_pattern_grid": {
+    "criteria": {
+      "has_pattern_grids": "2026-04-20 00:25:10 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/cyan_pattern_grid": {
+    "criteria": {
+      "has_pattern_grids": "2026-04-20 00:25:10 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/yellow_pattern_grid": {
+    "criteria": {
+      "has_pattern_grids": "2026-04-20 00:25:10 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/brown_pattern_grid": {
+    "criteria": {
+      "has_pattern_grids": "2026-04-20 00:25:10 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/red_pattern_grid": {
+    "criteria": {
+      "has_pattern_grids": "2026-04-20 00:25:10 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/green_pattern_grid": {
+    "criteria": {
+      "has_pattern_grids": "2026-04-20 00:25:10 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/purple_pattern_grid": {
+    "criteria": {
+      "has_pattern_grids": "2026-04-20 00:25:10 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/pink_pattern_grid": {
+    "criteria": {
+      "has_pattern_grids": "2026-04-20 00:25:10 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/orange_pattern_grid": {
+    "criteria": {
+      "has_pattern_grids": "2026-04-20 00:25:10 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:drives": {
+    "criteria": {
+      "disk_drive_in_inventory": "2026-04-20 00:25:14 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:storing_items": {
+    "criteria": {
+      "storage_disk_in_inventory": "2026-04-20 00:25:15 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_jungle_fence_gate": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_blue": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_lime": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "barbequesdelight:recipes/skewering/raw_potato_skewer": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_lattice_fence": {
+    "criteria": {
+      "has_minecraft:stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_black": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/cherry_drawer": {
+    "criteria": {
+      "has_planks": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_dark_oak_fence_gate": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/daub_cross_brace": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/awnings/awning": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/reinforced_dark_oak_fence": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/reinforced_oak_fence": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/reinforced_bamboo_fence": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/faucet": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/spruce_lattice_fence": {
+    "criteria": {
+      "has_minecraft:stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "barbequesdelight:recipes/skewering/raw_salmon_skewer": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_light_gray": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/timber_brace": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "barbequesdelight:recipes/skewering/raw_rabbit_skewer": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_cherry_fence_gate": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_brown": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_orange": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/cherry_lattice_fence_gate": {
+    "criteria": {
+      "has_minecraft:stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_mangrove_fence_gate": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/furniture_hammer": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/birch_lattice_fence_gate": {
+    "criteria": {
+      "has_minecraft:stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/birch_drawer": {
+    "criteria": {
+      "has_planks": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/crimson_lattice_fence": {
+    "criteria": {
+      "has_minecraft:stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_crimson_fence_gate": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/jungle_lattice_fence": {
+    "criteria": {
+      "has_minecraft:stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/motion_activated_light": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/spruce_lattice_fence_gate": {
+    "criteria": {
+      "has_minecraft:stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/dark_oak_lattice_fence_gate": {
+    "criteria": {
+      "has_minecraft:stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/torch": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_spruce_fence_gate": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/dark_oak_drawer": {
+    "criteria": {
+      "has_planks": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/wicker_fence": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_cyan": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/reinforced_acacia_fence": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "barbequesdelight:recipes/skewering/raw_chicken_skewer": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/acacia_lattice_fence": {
+    "criteria": {
+      "has_minecraft:stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/reinforced_birch_fence": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "barbequesdelight:recipes/skewering/raw_vegetable_skewer": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/timber_frame": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_purple": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/slingshot": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_acacia_fence_gate": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_warped_fence_gate": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/crimson_drawer": {
+    "criteria": {
+      "has_planks": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/standing_broomstick": {
+    "criteria": {
+      "has_planks": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_lattice_fence": {
+    "criteria": {
+      "has_minecraft:stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/reinforced_mangrove_fence": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/cutting_board": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_magenta": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_light_blue": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/reinforced_spruce_fence": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_birch_fence_gate": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_white": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_yellow": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_green": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "barbequesdelight:recipes/skewering/raw_cod_skewer": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/curtain_rods": {
+    "criteria": {
+      "has_wood": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/timber_cross_brace": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/acacia_drawer": {
+    "criteria": {
+      "has_planks": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_red": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_bamboo_fence_gate": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/dark_oak_lattice_fence": {
+    "criteria": {
+      "has_minecraft:stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "barbequesdelight:recipes/skewering/raw_beef_skewer": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_oak_fence_gate": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/reinforced_crimson_fence": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/jungle_lattice_fence_gate": {
+    "criteria": {
+      "has_minecraft:stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "crabbersdelight:recipes/decorations/crab_trap": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "barbequesdelight:recipes/skewering/raw_mushroom_skewer": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/crimson_lattice_fence_gate": {
+    "criteria": {
+      "has_minecraft:stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/daub_frame": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/reinforced_warped_fence": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/warped_drawer": {
+    "criteria": {
+      "has_planks": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/jungle_drawer": {
+    "criteria": {
+      "has_planks": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/oak_lattice_fence": {
+    "criteria": {
+      "has_minecraft:stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/mangrove_drawer": {
+    "criteria": {
+      "has_planks": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/warped_lattice_fence": {
+    "criteria": {
+      "has_minecraft:stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/oak_drawer": {
+    "criteria": {
+      "has_planks": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/crank": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/oak_lattice_fence_gate": {
+    "criteria": {
+      "has_minecraft:stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "barbequesdelight:recipes/skewering/raw_pork_sausage_skewer": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/spruce_drawer": {
+    "criteria": {
+      "has_planks": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/sonic_security_system": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "mcwholidays:recipes/standing_rake": {
+    "criteria": {
+      "has_planks": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "barbequesdelight:recipes/skewering/raw_lamb_skewer": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "another_furniture:recipes/bamboo_drawer": {
+    "criteria": {
+      "has_planks": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/mangrove_lattice_fence_gate": {
+    "criteria": {
+      "has_minecraft:stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/flint_knife": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/reinforced_jungle_fence": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/daub_brace": {
+    "criteria": {
+      "has_tag_c_rods_wooden_1": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/cherry_lattice_fence": {
+    "criteria": {
+      "has_minecraft:stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_pink": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/reinforced_cherry_fence": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/warped_lattice_fence_gate": {
+    "criteria": {
+      "has_minecraft:stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "crabbersdelight:recipes/decorations/fish_plaque": {
+    "criteria": {
+      "has_stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/acacia_lattice_fence_gate": {
+    "criteria": {
+      "has_minecraft:stick": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "supplementaries:recipe/flags/flag_gray": {
+    "criteria": {
+      "has_tag_c_rods_wooden_2": "2026-04-20 00:25:39 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/hatch": {
+    "criteria": {
+      "has_plate": "2026-04-20 00:25:48 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/super_glue": {
+    "criteria": {
+      "has_item": "2026-04-20 00:25:48 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/whisk": {
+    "criteria": {
+      "has_item": "2026-04-20 00:25:48 +0200"
+    },
+    "done": true
+  },
+  "createaddition:recipes/misc/crafting/rolling_mill": {
+    "criteria": {
+      "has_iron_plates": "2026-04-20 00:25:48 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/propeller": {
+    "criteria": {
+      "has_item": "2026-04-20 00:25:48 +0200"
+    },
+    "done": true
+  },
+  "createaddition:recipes/misc/crafting/spool": {
+    "criteria": {
+      "has_iron_plate": "2026-04-20 00:25:48 +0200"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/encased_fan": {
+    "criteria": {
+      "has_item": "2026-04-20 00:25:48 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/chute_iron": {
+    "criteria": {
+      "has_plate": "2026-04-20 00:25:48 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/fluid_placer": {
+    "criteria": {
+      "has_iron_plate": "2026-04-20 00:25:48 +0200"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/fluid_pipe": {
+    "criteria": {
+      "has_iron_plate": "2026-04-20 00:25:48 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/magenta_crafting_grid": {
+    "criteria": {
+      "has_crafting_grids": "2026-04-20 00:26:29 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/gray_crafting_grid": {
+    "criteria": {
+      "has_crafting_grids": "2026-04-20 00:26:29 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/lime_crafting_grid": {
+    "criteria": {
+      "has_crafting_grids": "2026-04-20 00:26:29 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/blue_crafting_grid": {
+    "criteria": {
+      "has_crafting_grids": "2026-04-20 00:26:29 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/orange_crafting_grid": {
+    "criteria": {
+      "has_crafting_grids": "2026-04-20 00:26:29 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/cyan_crafting_grid": {
+    "criteria": {
+      "has_crafting_grids": "2026-04-20 00:26:29 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/pink_crafting_grid": {
+    "criteria": {
+      "has_crafting_grids": "2026-04-20 00:26:29 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/black_crafting_grid": {
+    "criteria": {
+      "has_crafting_grids": "2026-04-20 00:26:29 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/red_crafting_grid": {
+    "criteria": {
+      "has_crafting_grids": "2026-04-20 00:26:29 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/light_gray_crafting_grid": {
+    "criteria": {
+      "has_crafting_grids": "2026-04-20 00:26:29 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/light_blue_crafting_grid": {
+    "criteria": {
+      "has_crafting_grids": "2026-04-20 00:26:29 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/white_crafting_grid": {
+    "criteria": {
+      "has_crafting_grids": "2026-04-20 00:26:29 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/purple_crafting_grid": {
+    "criteria": {
+      "has_crafting_grids": "2026-04-20 00:26:29 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:upgrading_your_grid": {
+    "criteria": {
+      "crafting_grid_in_inventory": "2026-04-20 00:26:29 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/green_crafting_grid": {
+    "criteria": {
+      "has_crafting_grids": "2026-04-20 00:26:29 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/yellow_crafting_grid": {
+    "criteria": {
+      "has_crafting_grids": "2026-04-20 00:26:29 +0200"
+    },
+    "done": true
+  },
+  "refinedstorage:recipes/misc/coloring/brown_crafting_grid": {
+    "criteria": {
+      "has_crafting_grids": "2026-04-20 00:26:29 +0200"
+    },
+    "done": true
+  },
+  "buildinggadgets2:recipes/misc/gadget_cut_paste": {
+    "criteria": {
+      "has_shear": "2026-04-20 00:26:41 +0200"
     },
     "done": true
   },

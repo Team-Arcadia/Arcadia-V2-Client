@@ -48,7 +48,7 @@ mouseSensitivity:0.5
 damageTiltStrength:0.5070422535211268
 highContrast:false
 narratorHotkey:true
-resourcePacks:["fabric","mod_resources","moonlight:merged_pack","builtin/client/deep_aether_tooltips","twilightdelight:shader_compatible_fiery","supplementaries:darker_ropes","black_icons","builtin/aether_tooltips","file/hud.zip","file/ArcadiaLanguages","vanilla"]
+resourcePacks:["fabric","mod_resources","moonlight:merged_pack","builtin/client/deep_aether_tooltips","twilightdelight:shader_compatible_fiery","supplementaries:darker_ropes","black_icons","builtin/aether_tooltips","file/hud.zip","vanilla","file/ArcadiaLanguages"]
 incompatibleResourcePacks:["builtin/client/deep_aether_tooltips","twilightdelight:shader_compatible_fiery","supplementaries:darker_ropes","file/ArcadiaLanguages"]
 lastServer:pm-exploration.gl.joinmc.link
 lang:en_us
@@ -176,11 +176,11 @@ key_placebo.toggleWings:key.keyboard.unknown
 key_key.sophisticatedbackpacks.open_backpack:key.keyboard.semicolon
 key_key.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown
 key_key.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
 key_key.carry.desc:key.keyboard.left.shift
 key_key.spyglass-improvements.use:key.keyboard.z
 key_keyinfo.copycats.fill_copycat:key.keyboard.left.alt
@@ -333,9 +333,9 @@ key_key.immersive_aircraft.fallback_use:key.keyboard.unknown
 key_key.immersive_aircraft.dismount:key.keyboard.left.shift
 key_key.immersive_aircraft.boost:key.keyboard.unknown
 key_key.twilightforest.swap_hotbar:key.keyboard.unknown
-key_key.twilightforest.red_thread_vision:key.keyboard.unknown
 key_key.twilightforest.zoom:key.keyboard.unknown
 key_key.twilightforest.item_display_map_cycle:key.keyboard.unknown
+key_key.twilightforest.red_thread_vision:key.keyboard.unknown
 key_key.deeperdarker.boost:key.keyboard.unknown
 key_key.deeperdarker.transmit:key.keyboard.unknown
 key_key.observable.profile:key.keyboard.f6
