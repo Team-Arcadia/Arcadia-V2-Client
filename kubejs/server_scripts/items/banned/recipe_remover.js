@@ -186,7 +186,10 @@ ServerEvents.recipes(event => {
     'create:netherite_backtank',
 
     // Easy Villagers (OP/exploit)
-    'easy_villagers:iron_farm'
+    'easy_villagers:iron_farm',
+
+    // DnDesires
+    'dndesires:gold_mixer'
   ];
 
   // Disable vanilla item repair recipe (prevents dual-wield weapons from merging)
