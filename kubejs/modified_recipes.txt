@@ -1,581 +1,511 @@
-# ARCADIA V2 - MODIFIED RECIPES
-*Reference document for all craft changes.*
+# ARCADIA V2 — MODIFIED RECIPES & BALANCE REFERENCE
 *Author: vyrriox*
+*Purpose: complete staff reference for all KubeJS modifications. Verify gameplay balance and flag anything that feels off.*
 
 ---
 
-## 1. BASICS & WOOD
+## TABLE OF CONTENTS
 
-**Stick** (`minecraft:stick`)
-*   Original: 2 Planks -> 4 Sticks
-*   Modified: 2 Planks -> **2 Sticks** (Yield /2)
-
-**Crafting Table** (`minecraft:crafting_table`)
-*   Original: 4 Planks
-*   Modified: 3 Planks + **1 Leather**
-
----
-
-## 2. TOOLS, WEAPONS & ARMOR
-
-**Iron Tools** (`iron_sword`, `iron_pickaxe`, `iron_axe`, `iron_shovel`, `iron_hoe`)
-*   Original: Iron Ingots
-*   Modified: **Iron Sheets** (Create)
-
-**Iron Armor** (`iron_helmet`, `iron_chestplate`, `iron_leggings`, `iron_boots`)
-*   Original: Iron Ingots
-*   Modified: **Iron Sheets** (Create)
-
-**Iron Battleaxe** (`cosmeticweaponsmod:iron_battleaxe`)
-*   Modified: **Iron Sheets**
-
-**Hammer** (`createdieselgenerators:hammer`)
-*   Modified: **Iron Sheets** + Sticks
-
-**Gold Tools/Armor/Battleaxe**
-*   Modified: **Gold Sheets** (Create)
-
-**Diamond Tools/Armor/Battleaxe**
-*   Modified: Diamonds + **Breeze Rod**
-
-**Stone Tools/Battleaxe**
-*   Modified: **Stone / Smooth Stone** (not cobblestone)
-
-**Leather Armor**
-*   Modified: Leather + **String**
-
-**Netherite Ingot** (`minecraft:netherite_ingot`)
-*   Modified: **Sequenced Assembly** (Create) — 80% yield, 20% scrap refund
+1. Philosophy & progression curve
+2. Banned items (recipe removal)
+3. Banned mobs (Apothic Spawners blacklist)
+4. Hardened vanilla recipes
+5. Hardened modded recipes
+6. Cross-mod bridge components (custom Arcadia items)
+7. Fusion Core chain (tier 0 → fusion core)
+8. Apotheosis tuning (rarity weights, Winged affix, Potion Charm, augmenting)
+9. Apothic Attributes — flight potion chain
+10. Loot table nerfs
+11. Brewing chain changes
+12. Recipe fixes log (ID corrections)
+13. Summary & staff review checklist
 
 ---
 
-## 3. STORAGE
+## 1. PHILOSOPHY & PROGRESSION CURVE
 
-**Chest** — 8 **Logs**
-**Barrel** — 6 Planks + **2 Iron Nuggets**
-**Ender Chest** — Obsidian + **Gold Sheets** + Eye of Ender
-**Storage Blocks** (Iron, Gold, Diamond, Emerald, Redstone, Lapis, Netherite, Copper, Tin, Lead, Uranium, Silver, Nickel, Aluminum, Steel, Bronze, Osmium, Constantan, Electrum, Refined Glowstone/Obsidian, Neptunium)
-*   Modified: **Mechanical Mixer** (Create) — 9 Ingots + 1 Andesite Alloy + Lava
+The modpack is **semi-expert**. Early game stays accessible (wood → stone → iron basics work). Mid-game introduces Create components (Sheets, Cogwheels) as mandatory. Late-game forces cross-mod integration. Endgame requires the full tech + magic tree to unite.
 
----
-
-## 4. WORKSTATIONS
-
-**Furnace** — 8 Cobblestone + **1 Campfire**
-**Smoker** — Furnace + **6 Logs**
-**Blast Furnace** — Furnace + **Iron Sheets** + Smooth Stone
-**Anvil** — 3 Iron Blocks + 4 **Iron Sheets**
-**Smithing Table** — **Iron Sheets** + Logs
-**Grindstone** — **Cogwheels** + Stone Slab + Logs
-**Stonecutter** — **Iron Sheet** + Stone
-**Cauldron** — 7 **Iron Sheets**
-**Brewing Stand** — Blaze Rod + 3 **Copper Sheets**
-**Enchanting Table** — Book + **Red Wool** + Diamonds + Obsidian
-**Cartography Table** — **Compass** + Paper + Logs
-**Fletching Table** — Flint + **Feather** + Logs
-**Schematicannon** — Logs + Dispenser + **Iron Sheet** + **Cogwheel** + Smooth Stone
-**Apotheosis Tables** — Various **Sheets** + advanced materials
+**Tier gates:**
+- **T0 (haven / early)** — vanilla ingots / cobblestone / wool
+- **T1 (mid)** — Create Sheets (iron/gold/copper) mandatory for tools & armor
+- **T2 (frontier)** — Brass, Precision Mechanism, Cogwheels force a Create factory
+- **T3 (ascent)** — TFMG Steel, Mekanism Alloys, IE Plates
+- **T4 (summit)** — 4 Arcadia bridge items + Fusion chain tier 3
+- **Apex (pinnacle)** — Fusion Core, Mythic Material, Sigil of Supremacy (final crafts require literally every mod)
 
 ---
 
-## 5. DECORATION & UTILITIES
+## 2. BANNED ITEMS (recipes removed by `recipe_remover.js`)
 
-**Beds** — 3 Wool + **3 Logs**
-**Lantern/Soul Lantern** — 2 **Iron Sheets** + Torch
-**Torches** — Yield halved (4 -> 2)
-**Bucket** — 3 **Iron Sheets**
-**Shears** — 1 **Iron Sheet** + 1 Stick
-**Book** — 3 Paper + Leather + **1 String**
-**Fishing Rod** — Sticks + String + **Fishing Line** (Aquaculture)
-**Lead** — String + **Iron Nugget**
-**Saddle** — **Leather** + **String** + **Iron Sheets** (craftable)
-**Ladders** — Sticks + **Zipline Rope** (Parcool)
-**Item Frame** — Sticks + Leather + **Iron Nugget**
-**Painting** — Sticks + Wool + **Paper**
-**Golden Apple** — 8 **Gold Sheets** + Apple
-**Golden Carrot** — 4 **Gold Sheets** + Carrot
-**Lightning Rod** — 3 **Copper Sheets**
-**Chain** — 2 Nuggets + 1 **Iron Sheet**
-**Flint and Steel** — **Iron Sheet** + Flint
-**Blaze Powder** — 4 **Pepper Powder** (My Nethers Delight)
-**Daylight Detector** — Glass + **Gold Sheets** + Slabs
-**Spyglass** — **Brass** (Create) + Amethyst
-**Clock** — Gold + **Cogwheel** (Create) center
-**Compass** — Iron + **Cogwheel** (Create) + Redstone
+**151 items** made uncraftable — either crash-risk, exploit, or creative-power items.
+The removal script: `kubejs/server_scripts/items/banned/recipe_remover.js`.
+Banned by category:
 
----
+### Biomes O' Plenty (6) — null / anomaly blocks
+`biomesoplenty:anomaly`, `unmapped_end_stone`, `null_block`, `null_leaves`, `null_plant`, `liquid_null_bucket`
 
-## 6. REDSTONE, LOGIC & TRANSPORT
+### Design n' Decor (32) — all modded metal bolts (excessive clutter)
+All `dndecor:*_bolt` variants for lead/tin/uranium/aluminum/nickel/steel/bronze/cast_iron.
 
-**Piston** — Planks + Cobble + **Iron Sheet** + Redstone + **Cogwheel**
-**Hopper** — 5 **Iron Sheets** + Chest
-**Dispenser** — Cobble + Bow + Redstone + **Cogwheel**
-**Dropper** — Cobble + Redstone + **Cogwheel**
-**Observer** — **Smooth Stone** + Redstone + Quartz
-**Repeater** — Torches + **Gold Nugget** + Stone
-**Comparator** — Torches + Quartz + Stone + **Gold Sheet**
-**Lever** — Stick + **Stone**
-**Jukebox** — **Logs** + Diamond + **Cogwheel**
-**Note Block** — **Logs** + Redstone
-**Bell** — **Gold Sheets** + Stone
-**Pressure Plates** — Wooden: **Logs** | Heavy: **Iron Sheets** | Light: **Gold Sheets**
-**Minecart** — 4 **Iron Sheets** + 1 **Cogwheel**
-**Rails** — All use **Sheets** instead of ingots
-**Boats** — 5 Planks + **1 Wooden Shovel**
+### Mekanism (46) — endgame OP suits / flight / modules
+Atomic Disassembler, Scuba/Free Runners/Jetpack/Mekasuit sets, Flamethrower, Electric Bow, **all Mekasuit modules** (color/radiation/vision/jetpack/gravitational/elytra/teleport/vein-mining/blasting/magnet/frost/soul/etc.), Dimensional Stabilizer, Quantum Entangloporter, HDPE Elytra, Meka-Tool, Portable Teleporter, Portable QIO Dashboard, Canteen, Creative Bin, Cardboard Box, Module Base.
 
----
+### BetterCopper (2)
+`copper_heart`, `reversed_copper_heart` — OP healing items.
 
-## 7. COMBAT & EXPLOSIVES
+### Occultism (15) — storage system (conflicts with Refined Storage) + iesnium anvil
+Storage controllers & stabilizers T1–T4, Storage Remote, Base, all related rituals, Stable Wormhole, Iesnium Anvil.
 
-**TNT** — Gunpowder + Sand + **String**
-**Bow** — 3 Sticks + 3 Strings + **1 Leather**
-**Crossbow** — Stick + **Iron Sheet** + String + **Cogwheel** + **Log**
-**Shield** — Planks + **1 Iron Sheet**
+### Create Ender Transmission (1)
+`chunk_loader` — lag / chunk abuse.
+
+### Create Jetpacks & Stuff Additions & Goggles (9)
+create_jetpack:jetpack, netherite_jetpack, all create_sa jetpacks/exoskeletons, block_picker, creategoggles:module_goggle_unit.
+
+### Sophisticated Backpacks/Storage (5)
+`infinity_upgrade`, `inception_upgrade`, `stack_upgrade_omega_tier` — infinite storage exploit.
+
+### ComputerCraft (2)
+`turtle_normal`, `turtle_advanced` — server-wrecking auto-mining.
+
+### Ars Nouveau (1)
+`planarium` — farm abuse.
+
+### Supplementaries (9) — all `cannon_boat_*` (oak/spruce/birch/jungle/acacia/dark_oak/mangrove/cherry/bamboo) — **crash serveur avec le feu**.
+
+### Backtanks (7)
+All `creategoggles:*_backtank` + `create:copper_backtank` / `netherite_backtank` — excessive air capacity exploit.
+
+### Easy Villagers (1)
+`easy_villagers:iron_farm` — OP iron farm-in-a-box.
+
+**+ Vanilla repair recipe** removed: `minecraft:crafting_special_repairitem` (prevents dual-wield weapon merging).
 
 ---
 
-## 8. MODDED COMPATIBILITY
+## 3. BANNED MOBS — APOTHIC SPAWNERS BLACKLIST
 
-**Aether Gloves** — Leather: +String | Iron: Sheets | Gold: Sheets | Diamond: +Breeze Rod
-**Better Copper Gear** — All use **Copper Sheets**
-**Mekanism Lapis/Steel Gear** — Reinforced with **Iron Sheets**
-**Create SA Copper Gear** — Uses **Copper Sheets**
-**Simply Swords** — Iron: Sheets | Gold: Sheets | Diamond: Breeze Rod
-**Misc Knives & Rods** — Same sheet system as vanilla tools
-**Modded Sticks** — Aether/IE: Yield halved
-**Advanced Netherite Ingots** — Tiered via Mixer (Iron -> Gold -> Emerald -> Diamond Netherite)
-**Create Mechanical Arm** — +TFMG Transistor
-**Create Rotation Speed Controller** — +2 TFMG Transistors + Large Cogwheel
-**Create Addition Electric Motor** — Mechanical Crafting (Transistors, Converter, Spools, Capacitors)
+**37 entities** cannot be placed in Apothic Spawners (spawn egg application blocked).
+Datapack: `kubejs/data/apothic_spawners/tags/entity_type/blacklisted_from_spawners.json`.
 
----
+### Animal Garden — passifs farmables (17)
+alligatorgar, bullshark, commonraven, fennecfox, manatee, meerkat, mouse, owl, porcupine, prairiedog, redpanda (+ himalayan), seaotter, spottedhyena, sugarglider, westerngorilla, whiterhinoceros.
 
-## 9. FUSION CORE CHAIN (5 tiers, 20 items)
+### Tortues — turtle scutes farmables (4)
+`minecraft:turtle`, `aquaculture:arrau_turtle`, `box_turtle`, `starshell_turtle`.
 
-**Tier 0** — Alloy Blend, Diamond Matrix, Infused Steel, Nether Concentrate, Energized Dust, Wiring Bundle
-*   Create Mixing (heated) with massive resource inputs. Output 1 per craft.
+### Bosses Twilight Forest (9)
+naga, lich, minoshroom, hydra, knight_phantom, ur_ghast, yeti, snow_queen, plateau_boss.
 
-**Tier 1** — Refined Alloy Ingot, Hardened Steel Compound, Energized Crystal, Treated Composite Plate
-*   Create Mixing + Mechanical Crafting 5x5. Each consumes 16-26 tier 0 items.
+### Bosses vanilla (2)
+`minecraft:ender_dragon`, `minecraft:wither`.
 
-**Tier 2** — Quantum Circuit, Plasma Cell, Reinforced Casing, Thermal Conductor
-*   Mechanical Crafting 5x5 + Sequenced Assembly (8 loops).
-
-**Tier 3** — Fusion Matrix (7x7), Containment Field Generator (7x7), Neutron Reflector (10 loops)
-*   Requires Nether Stars, Netherite Blocks, all tier 2 items.
-
-**Final** — **Fusion Core** (Mechanical Crafting 9x9)
-*   Cost: ~100K Iron, ~50K Diamonds, ~20K Gold, ~10K Netherite
+### Bosses modded (5)
+- `knightquest:netherman` (Netherman — Architect of Chaos)
+- `occultism:possessed_warden`
+- `occultism:possessed_elder_guardian`
+- `irons_spellbooks:pyromancer`
+- `mowziesmobs:naga`
 
 ---
 
-## 10. CROSS-MOD HARDENING (Heavy)
+## 4. HARDENED VANILLA RECIPES (`recipe_overhaul.js` §0-7)
 
-### Storage Lectern (`ars_nouveau:storage_lectern`)
-*   Mechanical Crafting — Source Gems + Golden Sheets + Precision Mechanism + Brass Casing + Mekanism Alloy + Ender Eye + Magebloom Fiber
-*   Forces: Ars Nouveau + Create + Mekanism
+### 4.1 Basics & wood
+- **Stick** — 2 Planks → **2 Sticks** (yield ÷2)
+- **Crafting Table** — 3 Planks + **1 Leather** (force la chasse)
 
-### Ars Nouveau
-*   **Source Jar** — Glass + Source Gem + **Brass** (Create)
-*   **Imbuement Chamber** — **Steel** (TFMG) + Source Gem Block + **Golden Sheets** (Create)
-*   **Relay** — Source Gem + **Golden Sheets** (Create) + Amethyst + **Mekanism Alloy**
-*   **Enchanting Apparatus** — Mechanical Crafting 5x5 — **Precision Mechanism** + **Golden Sheets** + Archwood + Source Gems
+### 4.2 Tools, weapons & armor
+- **Iron tools + armor + cosmetic battleaxe** — `iron_ingot` → **`create:iron_sheet`**
+- **Gold tools + armor + cosmetic battleaxe** — `gold_ingot` → **`create:golden_sheet`**
+- **Diamond tools + armor + cosmetic battleaxe** — stick → **`minecraft:breeze_rod`**
+- **Stone tools + cosmetic battleaxe** — cobblestone → **`minecraft:stone`**
+- **Leather armor** — + **String** (renforcement)
+- **Netherite Ingot** — Sequenced Assembly (80% yield, 20% scrap refund, 3 loops)
+- **Modded sticks (Aether skyroot / IE treated)** — yield ÷2
 
-### Iron's Spellbooks
-*   **Inscription Table** — Book + Ink + **Source Gem** (Ars) + **Golden Sheets** (Create) + **Archwood** (Ars)
-*   **Scroll Forge** — **Source Gems** (Ars) + **Golden Sheets** (Create) + **Mekanism Alloy** + Obsidian
-*   **Arcane Anvil** — Mechanical Crafting — **Steel** (TFMG) + **Brass Casing** (Create)
+### 4.3 Storage
+- **Chest** — 8 Logs (pas de planks)
+- **Barrel** — + 2 Iron Nuggets
+- **Ender Chest** — Obsidian + **Gold Sheets** + Eye of Ender
+- **Storage Blocks (28 types)** — Mechanical Mixer : 9 Ingots + 1 Andesite Alloy + 500mB Lava
+  Couvre : vanilla (iron/gold/diamond/emerald/redstone/lapis/netherite) + Mekanism (tin/uranium/lead/osmium/refined_glowstone/refined_obsidian/steel/bronze) + IE (constantan/uranium/nickel/lead/aluminum/silver/steel/electrum) + Create Nuclear (steel/lead) + Aquaculture (neptunium)
 
-### Occultism
-*   **Golden Sacrificial Bowl** — **Golden Sheets** (Create) + **Source Gems** (Ars) + Gold Block + **Precision Mechanism**
-*   **Sacrificial Bowl** — **Golden Sheets** (Create) + **Source Gems** (Ars) + **Brass** (Create)
-*   **White Chalk** — **Magebloom Fiber** (Ars) + Bone Meal + Calcite
+### 4.4 Workstations
+- **Furnace** — 8 Cobblestone + **1 Campfire**
+- **Smoker** — Furnace + **6 Logs**
+- **Blast Furnace** — + Iron Sheets
+- **Anvil** — + Iron Sheets
+- **Smithing Table** — Iron Sheets + Logs
+- **Grindstone** — **Cogwheels** + Stone Slab + Logs
+- **Stonecutter** — + Iron Sheet
+- **Cauldron** — 7 Iron Sheets
+- **Brewing Stand** — Blaze Rod + 3 **Copper Sheets**
+- **Enchanting Table** — Book + **Red Wool** + Diamonds + Obsidian
+- **Cartography Table** — **Compass** + Paper + Logs
+- **Fletching Table** — Flint + **Feather** + Logs
+- **Schematicannon** — Logs + Dispenser + Iron Sheet + **Cogwheel** + Smooth Stone
+- **Apotheosis Tables** (simple/reforging/salvaging/gem_cutting) — Various Sheets + advanced materials
 
-### Apotheosis
-*   **Hellshelf** — Nether Bricks + **Source Gems** (Ars) + Book
-*   **Seashelf** — Prismarine + **Source Gems** (Ars) + Book
+### 4.5 Decoration & utilities
+Modifiés : Beds (Logs), Lanterns (Iron Sheets), Torches (**yield ÷2 : 4 → 2**), Bucket (Sheets), Shears, Compass (Sheets + Gold Nugget), Book (+ String), Clock (Gold Sheets), Fishing Rod (+ Aquaculture line), Lead (+ Nugget), Saddle (craftable), Ladder (+ Zipline Parcool), Item Frame, Painting, Golden Apple/Carrot (Sheets), Lightning Rod, Spyglass (Copper Sheets), Chain, Flint and Steel, **Blaze Powder = 4 Pepper Powder** (My Nether's Delight), Daylight Detector (Gold Sheets).
 
-### Tech (RS + Flux)
-*   **RS Controller** — Mechanical Crafting 5x5 — **Precision Mechanism** (Create) + **Brass Casing** + Quartz Enriched Iron + Diamond + Redstone Block
-*   **Flux Plug** — **Steel** (TFMG) + Flux Dust + **Precision Mechanism** (Create)
-*   **Flux Point** — **Steel** (TFMG) + Flux Dust + **Brass Casing** (Create)
+### 4.6 Redstone, logic & transport
+Piston (Iron Sheet + Cogwheel), Hopper (Iron Sheets), Dispenser/Dropper (+ Cogwheel), Observer (Smooth Stone), Repeater (Gold Nugget), Comparator (Gold Sheet), Lever (Stone), Jukebox (Logs + Cogwheel), Note Block (Logs), Bell (Gold Sheets), Pressure Plates (Wood/Iron/Gold Sheet), Minecart (Iron Sheets + Cogwheel), **Rails (all use Sheets)**, Boats (Planks + Wooden Shovel).
 
----
-
-## 11. LIGHT CROSS-MOD (Simple touches)
-
-### Ars Nouveau
-*   **Novice Spellbook** — +**Golden Sheet** (Create) + Leather
-*   **Scribes Table** — +**Cogwheel** (Create)
-*   **Wand** — **Brass** + **Golden Sheet** (Create)
-
-### Iron's Spellbooks
-*   **Alchemist Cauldron** — **Steel** (TFMG) instead of iron
-
-### Occultism
-*   **Candles** — **Magebloom Fiber** (Ars) instead of regular materials
-*   **Spirit Fire** — **Source Gem** (Ars) + Soul Sand + Flint & Steel
-
-### Waystones
-*   **Waystone** — Stone Bricks + Ender Pearl + **Source Gem** (Ars)
-*   **Warp Stone** — Ender Pearls + **Source Gem** (Ars)
-
-### Farmers Delight
-*   **Cooking Pot** — **Iron Sheets** (Create) + Water Bucket
-*   **Stove** — **Steel** (TFMG) + Campfire
-
-### Refined Storage
-*   **Disk Drive** — **Brass** (Create) + Glass + QEI + Redstone
-*   **Importer** — **Brass** (Create) + QEI + Redstone
-*   **Exporter** — **Brass** (Create) + QEI + Redstone
-*   **Autocrafter** — **Precision Mechanism** (Create) + QEI + Redstone
-*   **Wireless Transmitter** — Ender Pearl + **Brass** (Create) + QEI
-
-### Sophisticated Backpacks
-*   **Iron Backpack** — **Iron Sheets** (Create) + Iron + Backpack
-*   **Gold Backpack** — **Gold Sheets** (Create) + Gold + Iron Backpack
-*   **Diamond Backpack** — Diamond + **Precision Mechanism** (Create) + Gold Backpack
-*   **Netherite Backpack** — Netherite + **Steel** (TFMG) + Diamond Backpack
-
-### Building Gadgets 2
-*   **Building Gadget** — **Precision Mechanism** (Create) + **Brass** + **Mekanism Alloy** + Iron Sheets
-*   **Copy Paste Gadget** — **Precision Mechanism** + **Brass** + Ender Pearl + Iron Sheets
-*   **Cut Paste Gadget** — **Precision Mechanism** + Diamond + Ender Pearl + Iron Sheets
-*   **Destruction Gadget** — **Precision Mechanism** + Diamond + **Steel** (TFMG) + Ender Pearl
-
-### Vanilla
-*   **Spyglass** — **Brass** (Create) + Amethyst
-*   **Clock** — Gold + **Cogwheel** (Create)
-*   **Compass** — Iron + **Cogwheel** (Create) + Redstone
+### 4.7 Combat & explosives
+TNT (+ String), Bow (+ Leather), Crossbow (Iron Sheet + Cogwheel + Log), Shield (+ Iron Sheet).
 
 ---
 
-## 12. CUSTOM ARMOR CRAFTS
+## 5. HARDENED MODDED RECIPES
 
-### Adept Armor (Cultist)
-*   **Helmet** — Amethyst Shards + Purple Wool
-*   **Chestplate** — Amethyst Shards + Purple Wool + Leather
-*   **Leggings** — Amethyst Shards + Purple Wool + Leather
-*   **Boots** — Amethyst Shards + Purple Wool
+### 5.1 Aether
+Gloves set (leather/iron/gold/diamond — sheets + breeze rod escalation). Netherite gloves via smithing. Gravitite tools/armor + Phoenix armor require Breeze Rod / Blaze Rod.
 
-### Heretic Armor (Rebel)
-*   **Helmet** — Echo Shards + Red Wool + Bone
-*   **Chestplate** — Echo Shards + Red Wool + Chain
-*   **Leggings** — Echo Shards + Red Wool + Chain
-*   **Boots** — Echo Shards + Red Wool
+### 5.2 BetterCopper
+All 9 tools + armor — require **Copper Sheets** (Create). Replaces copper_ingot.
 
----
+### 5.3 Mekanism
+- **Lapis tools/armor/shield** — refactored with Iron Sheets + Lapis
+- **Steel tools** — Iron Ingot → Iron Sheet
+- **Refined Glowstone/Obsidian tools+armor** — + Breeze Rod / Source Gem
+- **T1 Machines** (Enrichment Chamber, Osmium Compressor, Combiner, Crusher, Metallurgic Infuser) — + Iron Sheet / Brass Casing / Cogwheel / Precision Mechanism
+- **T2 Machines** (Purification / Injection / PRC / Thermal Evap / Solar Neutron Activator) — + TFMG Steel + PM + Mek Alloy Reinforced (MC for PRC)
+- **Control Circuits** — Advanced gated behind Arcane Circuit ; Ultimate via Sequenced Assembly 4 loops (Atomic Alloy + PM + Arcane Circuit)
+- **Endgame apex** :
+  - `digital_miner` — MC 5x5 + Industrial Heart + Rune Matrix + Atomic Alloy + PM + IE Plate Steel + Robit
+  - `teleporter` + `teleportation_core` — MC 5x5 + Source Gem Block + Ender Eye + Atomic Alloy
+  - `qio_drive_array` + `qio_dashboard` — MC 5x5 + Atomic Alloy + Arcane Circuit + Elite Circuit
+  - `antiprotonic_nucleosynthesizer` — MC 7x7 + Fusion Matrix + Rune Matrix + Nether Star + Atomic Alloy + Ultimate Circuit
+  - `sps_casing` — + Atomic Alloy + Structural Glass + Brass Casing
+  - **`mekanismgenerators:fusion_reactor_controller`** — MC 7x7 utilisant directement Plasma Cell + Fusion Matrix + Containment Field Generator + Industrial Heart + Atomic Alloy (liaison forte avec la chaîne Arcadia)
 
-*Total modified recipes: ~180+*
-*Cross-mod connections: Create, TFMG, Mekanism, IE, Ars Nouveau, Occultism, Iron's Spellbooks, Apotheosis, Refined Storage, Flux Networks, Farmers Delight, Waystones, Sophisticated Backpacks, Building Gadgets*
+### 5.4 TFMG (10 recipes)
+- `transistor_item` — + Copper Spool
+- `converter` — + Copper Spool
+- `industrial_mixer` — MC 3x3 + Heavy Plate + PM + Mechanical Mixer
+- `centrifuge` — MC + Heavy Plate + Steel Mechanism + Alloy Reinforced
+- `heavy_machinery_casing` — + Industrial Heart (gate endgame)
+- `large_engine`, `radial_engine`, `turbine_engine` — + Industrial Heart + PM + Copper Spool
+- `steel_distillation_controller` — + PM + Steel Mechanism
+- `blast_furnace_hatch` — + Heavy Plate
 
----
+### 5.5 Immersive Engineering (8)
+- `hammer` — + Iron Sheet
+- `light_engineering` — + Iron Sheet
+- `heavy_engineering` — + TFMG Heavy Plate
+- `revolver` — + PM + Brass Sheet + MV Coil
+- `drill` — MC 5x5 + Industrial Heart + Heavy Engineering + PM + MV Capacitor
+- `railgun` — MC 5x5 + Industrial Heart + Atomic Alloy + HV Capacitor
+- `excavator` — MC 3x3 + Industrial Heart + Atomic Alloy + Heavy Engineering
+- `arc_furnace` — MC 3x3 + Heavy Engineering + Brass Casing
 
-## 12. CROSS-MOD BRIDGE COMPONENTS (NEW)
+### 5.6 Create Addition (7)
+- `capacitor` — + Brass Sheet + Electron Tube + Copper Wire
+- `modular_accumulator` — MC 3x3 + Gold Sheet + Capacitor + **Arcane Circuit**
+- `charger`, `portable_energy_interface` — + PM
+- `tesla_coil` — MC + Capacitor + Heavy Plate + Atomic Alloy + PM
+- `alternator` — + Brass Sheet + Copper Spool + Andesite Casing
+- `rolling_mill` — + PM
 
-Four custom Arcadia items that bind multiple mods together.
-All textures are 32x32 with 3D pixel shading. Registered via KubeJS startup.
+### 5.7 Create Nuclear (5)
+- `reactor_casing`, `reactor_controller` (MC 3x3 + Rune Matrix), `reactor_core`, `reactor_frame`, `reinforced_glass` — + TFMG Heavy Plate + PM + Atomic Alloy sur tier 3
 
-### Arcane Circuit (`arcadia:arcane_circuit`) — MEDIUM tier
-*   **Forges:** Create + TFMG + Mekanism + Ars Nouveau
-*   **Recipe:** Create Mixing (heated) — 2 Precision Mechanism + 2 Source Gem + 2 TFMG Transistor + 1 Mek Alloy Infused + 500mb Creosote
-*   **Used in:** Accumulator, Mek Advanced Circuit, RS Bridge, ME Bridge, Peripheral Casing, Player Detector, Apprentice Spellbook, Source Crafter, Source Mixer, Divination Rod, Rune Matrix, Digital Miner, QIO Drive Array, Dashboard, Antiprotonic Nucleosynthesizer
+### 5.8 Create Diesel Generators (4)
+- `diesel_engine`, `large_diesel_engine`, **`huge_diesel_engine`** (MC 5x5 + 4x large + Industrial Heart + Atomic Alloy), `distillation_controller`
 
-### Ethereal Alloy (`arcadia:ethereal_alloy`) — HARD tier
-*   **Forges:** Ars Nouveau + Mekanism + Occultism + Create
-*   **Recipe:** Create Mixing (heated) — 4 Source Gem + 2 Mek Alloy Reinforced + 1 Spirit Attuned Gem + 2 Brass Sheet + 1000mb Lava
-*   **Used in:** Infused Pickaxe, Soul Gem Empty, Otherworld Goggles, Enchanters Shield, Mob Jar, Archevoker Armor set
+### 5.9 Advanced Peripherals (5)
+- `peripheral_casing` — + Heavy Plate + IE Steel Plate + Arcane Circuit
+- `rs_bridge`, `me_bridge` — MC 3x3 + Arcane Circuit + Atomic Alloy
+- `chunk_controller` — MC + Ender Pearl + Atomic Alloy + Peripheral Casing
+- `player_detector` — + Ender Eye + Arcane Circuit + PM
 
-### Industrial Heart (`arcadia:industrial_heart`) — HARD tier
-*   **Forges:** Create + TFMG + Mekanism + Immersive Engineering
-*   **Recipe:** Sequenced Assembly on TFMG Heavy Plate — 4 loops (Steel Mechanism + Precision Mechanism + Alloy Reinforced + IE Component Steel + Press)
-*   **Used in:** TFMG Heavy Machinery Casing, Large/Radial/Turbine Engines, IE Drill, IE Excavator, IE Railgun, CDG Diesel/Large/Huge Engine, Mek Digital Miner, Mek Fusion Reactor Controller
+### 5.10 Refined Storage + ExtraDisks (7)
+- Controller (MC 5x5), Disk Drive, Importer, Exporter, Autocrafter, Wireless Transmitter — all enriched with Brass / PM / QEI
+- `grid`, `crafting_grid`, `wireless_grid` — + PM / Brass Casing
+- `64k_storage_part` — MC + PM + Alloy Reinforced
+- `extradisks:1024k_item_storage_part` — MC + Atomic Alloy + Source Gem Block
+- `extradisks:4096k_item_storage_part` — **Sequenced Assembly 5 loops + Atomic Alloy + Fusion Matrix**
+- `extradisks:infinite_item_storage_part` — **MC 5x5 + Fusion Core + Rune Matrix + Nether Star** (ultime)
 
-### Rune Matrix (`arcadia:rune_matrix`) — ENDGAME tier
-*   **Forges:** Ars Nouveau + Occultism + Create + Apotheosis
-*   **Recipe:** Mechanical Crafting 5x5 — Source Gem Block + Magebloom Fiber + Arcane Circuit + Apotheosis Rare Material + Echo Shard
-*   **Used in:** Archmage Spellbook, Netherite Spell Book, Dragonskin Spell Book, Enchanters Mirror, Alteration Table, Sigil of Socketing, CN Reactor Controller, Mek Digital Miner, Mek Antiprotonic Nucleosynthesizer, RS Infinite Storage Part
+### 5.11 Flux Networks (3)
+- `flux_controller` — MC + Source Gem Block + Ender Eye + Atomic Alloy + PM
+- `basic_flux_storage` — + Brass Casing + Flux Core + Heavy Plate + Steel
+- `gargantuan_flux_storage` — **MC 5x5 + Fusion Matrix + Atomic Alloy + Source Gem Block** (apex)
 
----
+### 5.12 Ars Nouveau (11)
+- `source_jar`, `imbuement_chamber`, `relay`, `enchanting_apparatus` (MC 5x5), `apprentice_spell_book`, `archmage_spell_book` (MC + Rune Matrix), `enchanters_sword` (+ Breeze Rod), `enchanters_shield` (+ Ethereal Alloy + PM), `enchanters_mirror` (+ Rune Matrix), `mob_jar` (+ Ethereal Alloy), `alteration_table` (+ Rune Matrix + Magebloom), `agronomic_sourcelink` (+ Source Gem Block + Brass Casing)
+- `novice_spell_book`, `scribes_table`, `wand` — touches légères (Create cogwheel/brass)
 
-## 13. MEKANISM HARDENING (~20 recipes)
+### 5.13 Iron's Spellbooks (4)
+- `inscription_table`, `scroll_forge`, `arcane_anvil` (MC), `alchemist_cauldron` (TFMG Steel)
+- `netherite_spell_book` — MC + Rune Matrix + Atomic Alloy + Diamond Spell Book
+- `dragonskin_spell_book` — + Source Gem Block + Rune Matrix
+- `archevoker_*` armor — `arcane_ingot` remplacé par **Ethereal Alloy**
 
-**T1 Machines** — + Iron Sheet / Brass Casing / Cogwheel / Precision Mechanism (soft cross-mod)
-*   `enrichment_chamber`, `osmium_compressor`, `combiner`, `crusher`, `metallurgic_infuser`
+### 5.14 Occultism (4)
+- `divination_rod` — + Gold Sheet + Arcane Circuit
+- `infused_pickaxe` — iron_ingot remplacé par **Ethereal Alloy**
+- `otherworld_goggles` — + Ethereal Alloy + Source Gem + Obsidian
+- `golden_sacrificial_bowl`, `sacrificial_bowl`, `chalk_white_impure`, `large_candle_white`, `spirit_fire` — all cross-mod (Gold Sheets + Source Gems + Magebloom)
 
-**T2 Machines** — require TFMG Steel + Precision Mechanism + Mek Alloy
-*   `purification_chamber`, `chemical_injection_chamber`, `pressurized_reaction_chamber` (Mechanical Crafting)
-*   `thermal_evaporation_controller`, `solar_neutron_activator`
+### 5.15 Apotheosis
+- Tables (hellshelf/seashelf retirés — items supprimés en 1.21)
+- **`sigil_of_socketing`** — + Rare Material + Rune Matrix + PM
+- **`sigil_of_supremacy`** — **MC 5x5 APEX** : 4 Nether Star + 8 Arcane Circuit + 4 Rune Matrix + 4 Ethereal Alloy + 2 Fusion Matrix + 2 Industrial Heart + 1 Mythic Material
 
-**Circuits**
-*   `advanced_control_circuit` — gated behind Arcane Circuit
-*   `ultimate_control_circuit` — Sequenced Assembly 4 loops + Arcane Circuit + Atomic Alloy
+### 5.16 Aquaculture Neptunium (9)
+Tools (sword/pickaxe/axe/shovel/hoe) — + Breeze Rod
+Armor (helmet/chestplate/leggings/boots) — + Source Gem
 
-**Endgame Apex** — require Industrial Heart + Rune Matrix + Atomic Alloy + Fusion Matrix
-*   `digital_miner` — MC 5x5 with Industrial Heart + Rune Matrix
-*   `teleporter` + `teleportation_core` — MC 5x5 with Source Gem Block + Ender Eye
-*   `qio_drive_array` + `qio_dashboard` — MC 5x5 with Atomic Alloy + Arcane Circuit
-*   `antiprotonic_nucleosynthesizer` — MC 7x7 with Fusion Matrix + Rune Matrix + Nether Star
-*   `sps_casing`
-*   **`mekanismgenerators:fusion_reactor_controller`** — MC 7x7 requiring Plasma Cell + Fusion Matrix + Containment Field Generator + Industrial Heart (direct bridge to Arcadia Fusion chain)
+### 5.17 Artifacts (6)
+`crystal_heart`, `flame_pendant`, `night_vision_goggles`, `running_shoes`, `power_glove`, `cross_necklace` — tous enrichis avec Source Gem / Breeze Rod / PM / Gold Sheet
 
-**Refined Tier Tools/Armor** — add Breeze Rod / Source Gem
-*   Refined Glowstone + Refined Obsidian sword/pickaxe/axe/shovel/hoe/paxel/armor
+### 5.18 Divers
+- **Nature's Compass** — MC 5x5 + Source Gem + Compass + PM + logs + saplings
+- Farmers Delight : Cooking Pot (Iron Sheets), Stove (TFMG Steel + Campfire)
+- Waystones : Waystone (+ Source Gem), Warp Stone (+ Source Gem)
+- Building Gadgets (4 gadgets) — PM + Brass + Mek Alloy + Steel
+- Sophisticated Backpacks (iron/gold/diamond/netherite tiers) — + Sheets + PM + Steel
+- Create Mechanical Arm / Rotation Speed Controller / Electric Motor — Transistors + Copper Spool + Capacitors
 
----
+### 5.19 Advanced Netherite (ingot chain)
+Chain via Create Mixer :
+- Iron Netherite = Netherite Ingot + 6 Iron
+- Gold Netherite = Iron Netherite + 6 Gold
+- Emerald Netherite = Gold Netherite + 6 Emerald
+- Diamond Netherite = Emerald Netherite + 6 Diamond
 
-## 14. TFMG HARDENING (~10 recipes)
-
-*   `transistor_item` — + Copper Spool (Create Addition)
-*   `converter` — + Copper Spool
-*   `industrial_mixer` — MC 3x3 with Heavy Plate + Precision Mechanism + Mechanical Mixer
-*   `centrifuge` — MC with Heavy Plate + Steel Mechanism + Alloy Reinforced
-*   `heavy_machinery_casing` — + Industrial Heart (endgame gate)
-*   `large_engine` — + Industrial Heart + Precision Mechanism + Copper Spool
-*   `radial_engine` — + Industrial Heart + Precision Mechanism
-*   `turbine_engine` — + Industrial Heart + Precision Mechanism
-*   `steel_distillation_controller` — + Precision Mechanism + Steel Mechanism
-*   `blast_furnace_hatch` — + Heavy Plate
-
----
-
-## 15. IMMERSIVE ENGINEERING HARDENING (~8 recipes)
-
-*   `hammer` — + Iron Sheet (Create)
-*   `light_engineering` — + Iron Sheet
-*   `heavy_engineering` — + TFMG Heavy Plate
-*   `revolver` — + Brass Sheet + Precision Mechanism + MV Coil
-*   `drill` — MC 5x5 + Industrial Heart + Heavy Engineering + Precision Mechanism
-*   `railgun` — MC 5x5 + Industrial Heart + Atomic Alloy + HV Capacitor
-*   `excavator` — MC 3x3 + Industrial Heart + Atomic Alloy + Heavy Engineering
-*   `arc_furnace` — MC 3x3 + Heavy Engineering + Brass Casing
-
----
-
-## 16. CREATE ADDITION HARDENING (~7 recipes)
-
-*   `capacitor` — + Brass Sheet + Electron Tube + Copper Wire
-*   `accumulator` — MC 3x3 + Gold Sheet + Capacitor + Arcane Circuit
-*   `charger` — + Precision Mechanism
-*   `portable_energy_interface` — + Precision Mechanism
-*   `tesla_coil` — MC + Capacitor + Heavy Plate + Atomic Alloy + Precision Mechanism
-*   `alternator` — + Brass Sheet + Copper Spool + Andesite Casing
-*   `rolling_mill` — + Precision Mechanism
-
----
-
-## 17. CREATE NUCLEAR HARDENING (~5 recipes)
-
-*   `reactor_casing` — + Heavy Plate + Precision Mechanism + Steel Block
-*   `reactor_controller` — MC 3x3 + Reactor Casing + Atomic Alloy + Rune Matrix + Precision Mechanism
-*   `reactor_core` — + Reactor Casing + Uranium Rod + Reinforced Glass + Precision Mechanism
-*   `reactor_frame` — + Lead Ingot + Heavy Plate
-*   `reinforced_glass` — + Lead + Glass + Precision Mechanism
-
----
-
-## 18. CREATE DIESEL GENERATORS HARDENING (~4 recipes)
-
-*   `diesel_engine` — MC 3x3 + Heavy Plate + Industrial Heart + Copper Spool
-*   `large_diesel_engine` — MC 3x3 + Diesel Engine + Industrial Heart + Steel Mechanism
-*   `huge_diesel_engine` — MC 5x5 + 4x Large Diesel Engine + Industrial Heart + Atomic Alloy
-*   `distillation_controller` — + Heavy Plate + Precision Mechanism + Steel Mechanism
+### 5.20 Mekanism HDPE Sheet (endgame reformé)
+Craft Enrichment Chamber **remplacé** par Sequenced Assembly Create :
+- 5 loops × 6 steps (Deploy HDPE Rod / Brass Sheet / TFMG Heavy Plate / Alloy Reinforced / Filling Molten Steel 500mB / Press)
+- Cost per sheet: 1 pellet + 5 rods + 5 brass sheets + 5 heavy plates + 5 alloy reinforced + 2500mB molten steel
+- **HDPE Rod** renforcé : 4 pellets + 1 Brass Sheet (pattern 2x3)
 
 ---
 
-## 19. ADVANCED PERIPHERALS HARDENING (~5 recipes)
+## 6. CROSS-MOD BRIDGE COMPONENTS (custom Arcadia items)
 
-*   `peripheral_casing` — + Heavy Plate + Steel Plate + Arcane Circuit
-*   `rs_bridge` — MC 3x3 + Peripheral Casing + Arcane Circuit + Quartz Enriched Iron
-*   `me_bridge` — MC 3x3 + Peripheral Casing + Arcane Circuit + Atomic Alloy
-*   `chunk_controller` — MC 3x3 + Ender Pearl + Atomic Alloy + Peripheral Casing
-*   `player_detector` — + Peripheral Casing + Ender Eye + Arcane Circuit + Precision Mechanism
+Quatre items custom qui unissent plusieurs mods. Textures 32x32 avec ombrage 3D. Enregistrés via `kubejs/startup_scripts/registry/item_registry.js`.
 
----
+### 6.1 Arcane Circuit — **MEDIUM tier** (Create + TFMG + Mek + Ars)
+Create Mixing (heated) : 2 PM + 2 Source Gem + 2 TFMG Transistor + 1 Mek Alloy Infused + 500mB Creosote → 1.
+**Utilisé dans** : accumulator, advanced_control_circuit, rs_bridge, me_bridge, peripheral_casing, player_detector, apprentice_spellbook, divination_rod, rune_matrix, digital_miner, qio_drive_array, qio_dashboard, antiprotonic_nucleosynthesizer.
 
-## 20. REFINED STORAGE + EXTRADISKS HARDENING (~7 recipes)
+### 6.2 Ethereal Alloy — **HARD tier** (Ars + Mek + Occult + Create)
+Create Mixing (heated) : 4 Source Gem + 2 Mek Alloy Reinforced + 1 Spirit Attuned Gem + 2 Brass Sheet + 1000mB Lava → 1.
+**Utilisé dans** : infused_pickaxe, otherworld_goggles, enchanters_shield, mob_jar, archevoker_armor.
 
-*   `grid`, `crafting_grid`, `wireless_grid` — + Precision Mechanism / Brass Casing
-*   `64k_storage_part` — MC 3x3 + Precision Mechanism + Alloy Reinforced
-*   `extradisks:1024k_storage_part` — MC 3x3 + Atomic Alloy + Source Gem Block + 64k part
-*   `extradisks:4096k_storage_part` — Sequenced Assembly 5 loops + Atomic Alloy + Fusion Matrix
-*   `extradisks:infinite_storage_part` — MC 5x5 + Nether Star + Fusion Core + Rune Matrix + Source Gem Block
+### 6.3 Industrial Heart — **HARD tier** (Create + TFMG + Mek + IE)
+Sequenced Assembly 4 loops sur TFMG Heavy Plate : Deploy Steel Mechanism → Deploy PM → Deploy Alloy Reinforced → Deploy IE Component Steel → Press.
+**Utilisé dans** : heavy_machinery_casing, large_engine, radial_engine, turbine_engine, diesel_engine chain, IE drill, IE excavator, IE railgun, digital_miner, fusion_reactor_controller.
 
----
-
-## 21. FLUX NETWORKS HARDENING (~3 recipes)
-
-*   `flux_controller` — MC 3x3 + Source Gem Block + Ender Eye + Atomic Alloy + Precision Mechanism
-*   `flux_storage` — + Brass Casing + Flux Core + Heavy Plate + Steel Ingot
-*   `gargantuan_flux_storage` — MC 5x5 + Herculean + Fusion Matrix + Atomic Alloy + Source Gem Block
+### 6.4 Rune Matrix — **ENDGAME tier** (Ars + Occult + Create + Apotheosis)
+Mechanical Crafting 5x5 : 6 Source Gem Block + 6 Magebloom Fiber + 8 Arcane Circuit + 4 Apotheosis Rare Material + 1 Echo Shard → 1.
+**Utilisé dans** : archmage_spell_book, netherite_spell_book, dragonskin_spell_book, enchanters_mirror, alteration_table, sigil_of_socketing, CN reactor_controller, digital_miner, antiprotonic_nucleosynthesizer, infinite_storage_part, flux_controller, sigil_of_supremacy.
 
 ---
 
-## 22. ARS NOUVEAU EXTRAS (~8 recipes)
+## 7. FUSION CORE CHAIN (5 tiers, 20 items)
 
-*   `apprentice_spell_book` — + Magebloom + Arcane Circuit + Source Gem Block + Precision Mechanism
-*   `archmage_spell_book` — MC 3x3 + Source Gem Block + Magebloom + Rune Matrix
-*   `enchanters_sword` — + Source Gem Block + Breeze Rod (vertical blade)
-*   `enchanters_shield` — + Source Gem Block + Ethereal Alloy + Precision Mechanism
-*   `enchanters_mirror` — + Ender Eye + Rune Matrix + Precision Mechanism
-*   `mob_jar` — + Ethereal Alloy + Brass Casing + Precision Mechanism
-*   `alteration_table` — + Magebloom + Rune Matrix + Archwood + Feather
-*   `agronomic_sourcelink` — + Source Gem Block + Archwood + Brass Casing + Wheat
+Chaîne préexistante Arcadia utilisée comme clé de voûte endgame.
 
----
+| Tier | Items | Craft |
+|---|---|---|
+| **T0** | alloy_blend, diamond_matrix, infused_steel, nether_concentrate, energized_dust, wiring_bundle | Create Mixing heated (16-64 ingredients per craft) |
+| **T1** | refined_alloy_ingot, hardened_steel_compound, energized_crystal, treated_composite_plate | Mixing + Mechanical Crafting 5x5 (16-26 T0 per craft) |
+| **T2** | quantum_circuit, plasma_cell, reinforced_casing, thermal_conductor | MC 5x5 + Sequenced Assembly 8 loops |
+| **T3** | fusion_matrix (7x7), containment_field_generator (7x7), neutron_reflector (10 loops) | Nether Stars + Netherite Blocks + all T2 |
+| **Apex** | fusion_core | MC 9x9 — coût estimé ~100K Iron + 50K Diamonds + 20K Gold + 10K Netherite |
 
-## 23. ARS CREO / ARS TECHNICA (~3 recipes)
+**Heart of Arcadia** (non craftable, obtenable uniquement — réservé à une future légendaire).
 
-*   `ars_creo:kinetic_sourcelink` — + Source Gem Block + Shaft + Cogwheel + Precision Mechanism
-*   `ars_technica:source_crafter` — + Source Gem Block + Arcane Circuit + Brass Casing + Precision Mechanism
-*   `ars_technica:source_mixer` — + Source Gem Block + Arcane Circuit + Mechanical Mixer + Brass Casing
+### Storage Lectern — APEX ENDGAME ABSOLU
+**Mechanical Crafting 5x5** utilisant **les 4 bridges + la chaîne fusion** :
+```
+ ARA
+EFPFE
+RPHPR
+EFPFE
+ ARA
+```
+Coût : 4 Arcane Circuit + 4 Rune Matrix (= 32 Arcane Circuit indirects) + 4 Ethereal Alloy + 4 Fusion Matrix + 5 PM + 1 Industrial Heart.
+**Nécessite la maîtrise de Tech + Magie + Occulte + Fusion**.
 
----
-
-## 24. IRON'S SPELLBOOKS (~3 recipes)
-
-*   `netherite_spell_book` — MC 3x3 + Diamond Spell Book + Atomic Alloy + Rune Matrix + Precision Mechanism
-*   `dragonskin_spell_book` — + Source Gem Block + Netherite Spell Book + Rune Matrix
-*   `archevoker_*` armor — arcane_ingot replaced by Ethereal Alloy
-
----
-
-## 25. OCCULTISM HARDENING (~4 recipes)
-
-*   `divination_rod` — + Gold Sheet + Arcane Circuit + Stick
-*   `infused_pickaxe` — iron_ingot replaced by Ethereal Alloy
-*   `otherworld_goggles` — + Ethereal Alloy + Gold Sheet + Source Gem + Obsidian
-*   `soul_gem_empty` — + Source Gem + Ender Pearl + Precision Mechanism + Ethereal Alloy
+### Sigil of Supremacy — CRAFT FINAL MODPACK
+MC 5x5 utilisant **quasi tous les endgames** : 4 Nether Star + 8 Arcane Circuit + 4 Rune Matrix + 4 Ethereal Alloy + 2 Fusion Matrix + 2 Industrial Heart + 1 Apotheosis Mythic Material.
 
 ---
 
-## 26. APOTHEOSIS HARDENING (~2 recipes)
+## 8. APOTHEOSIS TUNING
 
-*   `sigil_of_socketing` — + Rare Material + Rune Matrix + Precision Mechanism
-*   `vial_of_expulsion` — + Source Gem + Glass + Precision Mechanism
+### 8.1 Rarity weight nerf — `kubejs/data/apotheosis/rarities/*.json`
 
----
-
-## 27. AETHER HARDENING (~14 items)
-
-*   Gravitite tools (5) — stick replaced by Breeze Rod
-*   Gravitite armor (5) — leather replaced by Gold Sheet; enchanted_gravitite ingredient augmented by Breeze Rod
-*   Phoenix armor (5) — stick replaced by Blaze Rod
-
----
-
-## 28. AQUACULTURE HARDENING (~9 items)
-
-*   Neptunium tools (5) — stick replaced by Breeze Rod
-*   Neptunium armor (4) — neptunium_ingot augmented by Source Gem
-
----
-
-## 29. ARTIFACTS HARDENING (~6 recipes)
-
-*   `crystal_heart` — + Amethyst + Iron Sheet + Source Gem
-*   `flame_pendant` — + Gold Sheet + Blaze Rod + Source Gem + String
-*   `night_vision_goggles` — + Gold Sheet + Sculk Shrieker + Source Gem
-*   `running_shoes` — + Rabbit Foot + Breeze Rod
-*   `power_glove` — + Precision Mechanism + Iron Block + Breeze Rod + Leather
-*   `cross_necklace` — + Gold Sheet + Netherite Scrap + Source Gem Block + Ender Pearl
-
----
-
----
-
-## 30. APOTHEOSIS DIFFICULTY TUNING (datapack overrides)
-
-*All overrides in `kubejs/data/apotheosis/` and `kubejs/data/apothic_attributes/`.*
-
-### 30.1 Rarity Weight Nerf (`kubejs/data/apotheosis/rarities/*.json`)
-
-Weights rebalanced to make Rare/Epic/Mythic drops truly rare.
+Nouveaux poids (sur 1000 par world tier) :
 
 | World Tier | Common | Uncommon | Rare | Epic | Mythic |
 |---|---|---|---|---|---|
-| **haven** (early) | 600→**780** | 360→**210** | 40→**10** | 0→0 | 0→0 |
-| **frontier** | 290→**450** | 600→**500** | 100→**50** | 10→**0** | 0→0 |
-| **ascent** | 100→**220** | 300→**500** | 500→**250** | 100→**30** | 0→0 |
-| **summit** | 0→**60** | 120→**350** | 290→**400** | 540→**180** | 50→**10** |
-| **pinnacle** (max) | 0→0 | 0→**100** | 100→**350** | 650→**450** | 250→**100** |
+| **haven** | 780 | 210 | 10 | 0 | 0 |
+| **frontier** | 450 | 500 | 50 | 0 | 0 |
+| **ascent** | 220 | 500 | 250 | 30 | 0 |
+| **summit** | 60 | 350 | 400 | 180 | 10 |
+| **pinnacle** | 0 | 100 | 350 | 450 | 100 |
 
-### 30.2 Winged Affix Nerf (`kubejs/data/apotheosis/affixes/armor/attribute/winged.json`)
+**Effet** : les drops rares/épiques/mythiques deviennent vraiment rares. Mythique passe de 25% → 10% au pinnacle.
 
-Creative flight chestplate affix hardened:
-*   Weight: 25 → **3** (8x rarer)
-*   Removed from `epic` — **mythic-only**
-*   Affix type: `stat` → `ability` (counts as ability slot)
+### 8.2 Winged affix nerf — `kubejs/data/apotheosis/affixes/armor/attribute/winged.json`
+- Weight 25 → **3** (8× plus rare)
+- Retiré d'`epic` : **mythique uniquement**
+- `affix_type` : stat → **ability** (prend un slot ability au lieu de stat)
 
-### 30.3 Potion Charm Endgame Recipe (`kubejs/data/apotheosis/recipe/potion_charm.json`)
-
-**Before (vanilla)** : 6 Blaze Powder + 3 Potions (trivial)
-**After** :
+### 8.3 Potion Charm endgame — `kubejs/data/apotheosis/recipe/potion_charm.json`
 ```
-HSH   H = Mekanism HDPE Sheet × 4
-PRP   R = Arcadia Rune Matrix (endgame bridge)
-HTH   S = Source Gem · P = Potion × 2 · T = Ghast Tear
+HSH   H = mekanism:hdpe_sheet (×4)
+PRP   S = ars_nouveau:source_gem
+HTH   P = minecraft:potion (×2)
+      R = arcadia:rune_matrix
+      T = minecraft:ghast_tear
 ```
-Charm crafting now requires endgame mastery of Mekanism + Create + TFMG + Ars Nouveau + Apotheosis.
+**Potion Charm devient littéralement endgame** : exige Mekanism + Create + Ars + Apotheosis + Nether.
 
-### 30.4 HDPE Sheet Endgame Recipe (in `recipe_overhaul.js` section 13)
+### 8.4 `apotheosis.cfg` — coûts augmentés
+- Upgrade Sigil Cost : 5 → **10**
+- Upgrade Level Cost : 500 → **1200 XP**
+- Reroll Sigil Cost : 1 → **3**
+- Reroll Level Cost : 1000 → **2500 XP**
+- **`Restrict Charms to Curios` : false → true** (les charms ne fonctionnent plus que dans un slot Curios)
 
-**Before (vanilla)** : 3 HDPE Pellets → 1 Sheet via Mekanism Enrichment Chamber
-**After** : Create Sequenced Assembly, **5 loops × 6 steps**:
-1.  Deploy HDPE Rod
-2.  Deploy Brass Sheet (Create)
-3.  Deploy TFMG Heavy Plate
-4.  Deploy Alloy Reinforced (Mekanism, = enriched_alloy + diamond)
-5.  Filling 500 mB Molten Steel (TFMG)
-6.  Pressing
+---
 
-**Per sheet cost** : 1 pellet + 5 rods (= 20 pellets) + 5 brass sheets + 5 heavy plates + **5 alloy reinforced (= 5 diamonds)** + 2500 mB molten steel. Total ≈ **21 pellets + 5 diamonds** per sheet.
+## 9. APOTHIC ATTRIBUTES — FLIGHT POTION CHAIN
 
-**HDPE Rod** also hardened : 4 pellets + 1 Brass Sheet (was 4 pellets alone).
+`kubejs/data/apothic_attributes/brewing_mixes/*.json` — vol créatif gated derrière bosses.
 
-### 30.5 Flight Potion Chain Hardening (`kubejs/data/apothic_attributes/brewing_mixes/*.json`)
-
-| Potion | Before | After |
+| Potion | Avant | Après |
 |---|---|---|
-| `apothic_attributes:flying` | Levitation + Popped Chorus Fruit | Levitation + **Dragon's Breath** |
+| `flying` (vol créatif) | Levitation + Popped Chorus Fruit | Levitation + **Dragon's Breath** |
 | `long_flying` | Flying + Redstone | Flying + **Redstone Block** |
 | `extra_long_flying` | Long Flying + Redstone | Long Flying + **Nether Star** |
 
-Creative flight now gated behind Ender Dragon kill + Wither boss.
-
-### 30.6 `apotheosis.cfg` Tuning
-
-*   `Upgrade Sigil Cost` : 5 → **10**
-*   `Upgrade Level Cost` : 500 → **1200** XP
-*   `Reroll Sigil Cost` : 1 → **3**
-*   `Reroll Level Cost` : 1000 → **2500** XP
-*   `Restrict Charms to Curios` : `false` → **`true`** (charms require a Curios slot to work)
+Pour 1 potion Extra Long Flying → il faut Phantom Membrane + Ender Dragon + Wither kill.
 
 ---
 
-## Recipe Fixes Log (item-ID corrections)
+## 10. LOOT TABLE NERFS
 
-Applied after runtime error discovery:
+`kubejs/server_scripts/items/loot/loot_table_nerfs.js` — drop rates coffres + vault :
 
-*   `ars_nouveau:archwood_log` → `#c:logs/archwood` (archwood renamed to 4 colored variants in 5.11)
-*   `mekanism:reinforced_glass` → `mekanism:structural_glass`
-*   `createaddition:accumulator` → `createaddition:modular_accumulator`
-*   `createaddition:charger` → **removed** (item does not exist)
-*   `extradisks:*_storage_part` → `extradisks:*_item_storage_part` (1024k/4096k/infinite)
-*   `fluxnetworks:flux_storage` → `fluxnetworks:basic_flux_storage`
-*   `occultism:candle_white` → `occultism:large_candle_white`
-*   `apotheosis:hellshelf` + `seashelf` → **removed** (items removed in Apotheosis 1.21)
-*   `occultism:soul_gem_empty` → **removed** (only obtainable via Djinni ritual)
-*   `apotheosis:vial_of_expulsion` → **removed** (removed in Apotheosis 1.21)
-*   `ars_creo:kinetic_sourcelink` → **removed** (not in Ars Creo 5.2)
-*   `ars_technica:source_crafter` + `source_mixer` → **removed** (not in Ars Technica 2.7)
-*   Mechanical Crafting numeric key `'6'` → renamed to `K` (KubeJS rejects digit keys)
+| Items | Drop chance remaining |
+|---|---|
+| Diamond (+ diamond gear) | **0.5%** |
+| Netherite (ingot/scrap/block + gear) | **0.01%** |
+| Iron gear / diamond gear (autres chapitres) | réduits aussi |
+| Mobs général (Iron's Spellbooks, Ars Nouveau, Simply Swords) | **5%** |
+| Sophisticated Backpacks | **15%** |
+| Twilight Forest | **20%** |
+| **Artifacts** | **0%** (entièrement retiré des loot tables — craft uniquement) |
+
+**Netherite Upgrade Template** : conservé au taux normal (retiré du nerf 99.99%) pour que les bastions restent utiles.
 
 ---
 
+## 11. BREWING / POTION CHANGES (outside flight)
+
+- **Blaze Powder** — ne se fait plus via Blaze Rod vanilla → 4 **Pepper Powder** (My Nether's Delight) exclusivement.
+
 ---
 
-*Total recipes modified after v12 additions: ~290+*
-*New bridge items: 4 (Arcane Circuit, Ethereal Alloy, Industrial Heart, Rune Matrix) — 32x32 textures with 3D shading*
-*Apotheosis tuning: rarity weights + Winged affix + Potion Charm + Flight potions + augmenting costs*
-*Banned items verified: all mek modules, jetpacks, mekasuit, create_jetpack, create_sa jetpack/exoskeleton, turtles, backtanks, planarium, iesnium_anvil, chunk_loader (ender transmission), cannon_boats, easy_villagers:iron_farm, sophisticatedbackpacks/storage infinity/inception/omega — EXCLUDED from all modifications.*
+## 12. RECIPE FIXES LOG (ID corrections)
+
+Appliqués après détection d'erreurs runtime (noms d'items incorrects) :
+
+| Ancien ID | Nouveau ID | Cause |
+|---|---|---|
+| `ars_nouveau:archwood_log` | `#c:logs/archwood` (tag) | Renommé en 4 variantes colorées en 5.11 |
+| `mekanism:reinforced_glass` | `mekanism:structural_glass` | Mauvais nom |
+| `createaddition:accumulator` | `createaddition:modular_accumulator` | Bloc orphelin sans BlockItem |
+| `createaddition:charger` | **supprimé** | Item inexistant dans Create Addition 1.5 |
+| `extradisks:1024k_storage_part` | `extradisks:1024k_item_storage_part` | Renommé en ExtraDisks 4.x |
+| `fluxnetworks:flux_storage` | `fluxnetworks:basic_flux_storage` | Renommé en Flux Networks 8.x |
+| `occultism:candle_white` | `occultism:large_candle_white` | Renommé |
+| `apotheosis:hellshelf` + `seashelf` | **supprimés** | Items retirés en Apotheosis 1.21 |
+| `occultism:soul_gem_empty` | **supprimé** | Obtenable uniquement via ritual Djinni |
+| `apotheosis:vial_of_expulsion` | **supprimé** | Retiré en Apotheosis 1.21 |
+| `ars_creo:kinetic_sourcelink` | **supprimé** | Non présent dans Ars Creo 5.2 |
+| `ars_technica:source_crafter` / `source_mixer` | **supprimés** | Non présents dans Ars Technica 2.7 |
+| Clé pattern `'6'` (Mechanical Crafting) | `K` | KubeJS refuse les clés numériques |
+
+---
+
+## 13. CORRECTIONS LOCALIZATION
+
+- `fallback_locale` dans `config/ftbquests/quests/data.snbt` : `"fr_fr"` → **`"en_us"`**
+- Création de `config/ftbquests/quests/lang/en_gb.snbt` (copie d'en_us) pour les joueurs British English
+- Ajout de **82 traductions anglaises manquantes** (quêtes Aquaculture + Apothic Enchanting ink) dans `en_us.snbt`
+- Kits FTB StarterKit : doublonnage FR/EN (5 kits × 2) avec descriptions séparées
+
+---
+
+## 14. CUSTOM ITEMS — TICKETS & TOKEN
+
+Lore tooltips ajoutés (EN + FR) pour les 6 clés + casino token. Chaque clé affiche 3 lignes colorées indiquant "À échanger sur le site Arcadia" + type de récompense.
+
+Lang keys (`kubejs/assets/arcadia/lang/en_us.json` + `fr_fr.json`) :
+- `tooltip.arcadia.<key>.1` — flavor text (couleur par rareté)
+- `tooltip.arcadia.<key>.2` — "Redeem on the Arcadia website" (jaune)
+- `tooltip.arcadia.<key>.3` — type de récompense (gris)
+
+Tooltips injectés via `kubejs/client_scripts/arcadia_item_tooltips.js`.
+
+---
+
+## 15. DISABLED ENCHANTABILITY
+
+`kubejs/data/minecraft/tags/item/enchantable/durability.json` — retire **53 items custom Arcadia** (keys, fusion chain, bridges, cultist unique items, Heart of Arcadia) du tag vanilla `#minecraft:enchantable/durability`. Les armures Adept/Heretic **restent enchantables**.
+
+---
+
+## 16. RECHARGEMENT / APPLICATION
+
+| Modification | Commande |
+|---|---|
+| Scripts `server_scripts/` | `/reload` (serveur) |
+| Datapack `kubejs/data/` | `/reload` (serveur) |
+| Client assets (textures, lang) | **F3+T** (client) |
+| `startup_scripts/` | **Restart serveur complet** |
+| `apotheosis.cfg` | **Restart serveur complet** |
+
+---
+
+## 17. STAFF REVIEW CHECKLIST
+
+**À vérifier / donner un avis sur :**
+
+- [ ] **§2 Banned items** — 151 items bannis. Des items manquants à bannir ? Des items bannis à tort ?
+- [ ] **§3 Banned mobs** — 37 mobs bannis des spawners. Autres passifs farmables à bannir (ex: Aether, Deep Aether) ?
+- [ ] **§4 Vanilla hardening** — courbe de difficulté T0→T1 (iron_sheet mandatory) : trop dur en solo ?
+- [ ] **§4.5 Torches yield /2** — trop punitif early game ?
+- [ ] **§5.14 Potion Charm endgame** — coût HDPE Sheet × 4 + Rune Matrix : atteignable avant la fin ?
+- [ ] **§5.20 HDPE Sheet** — 5 loops × 6 steps = 1 sheet. Ratio résistant à l'automation ?
+- [ ] **§6 Arcadia bridges** — difficulté progressive ? Arcane Circuit (mid) est-il obtenable après ~10h ?
+- [ ] **§7 Storage Lectern** — craft APEX demandant 4 bridges + Fusion Matrix : sur-dimensionné pour un simple storage ? Ou justifié vu qu'il est central ?
+- [ ] **§7 Sigil of Supremacy** — 4 Nether Star (4 Wither kills) + 1 Mythic Material + 2 Fusion Matrix : coût justifié pour un sigil qui upgrade un affix ?
+- [ ] **§8.1 Rarity weights** — summit à 60 common / 350 uncommon / 400 rare / 180 epic / 10 mythic : trop strict ?
+- [ ] **§8.2 Winged nerf** — mythic-only + weight 3 : flight trop restreint ? Alternative : garder sur epic ?
+- [ ] **§8.3 Potion Charm** — passage HDPE + Rune Matrix : rend les charms trop late, à modérer ?
+- [ ] **§8.4 `Restrict Charms to Curios`** — obligatoire ? Certains joueurs peuvent ne pas aimer devoir équiper un charm
+- [ ] **§9 Flight potion** — extra_long_flying requiert Wither : OK ?
+- [ ] **§10 Loot nerf** — Artifacts à 0% (craft only) : trop drastique ?
+- [ ] **§10 Diamond 0.5% + Netherite 0.01%** — gate vers progression minage forcé ?
+- [ ] **§14 Custom items (tickets)** — lore "site web" : URL explicite à ajouter dans le tooltip ?
+
+---
+
+*Total recettes modifiées : ~290+*
+*Items bannis : 151*
+*Mobs bannis spawner : 37*
+*Items custom Arcadia : 62 (7 keys + 20 discs + 20 fusion chain + 4 bridges + 1 heart + 8 armor + 20 cultist unique)*
+*Textures custom : 78 (58 en 64x64 avec ombrage 3D + 20 music discs 64x64)*
+*Datapack overrides : 13 JSON (rarity × 5, brewing_mixes × 3, tags × 2, recipes × 1, affixes × 1, potion_charm)*

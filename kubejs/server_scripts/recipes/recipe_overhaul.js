@@ -2800,6 +2800,31 @@ ServerEvents.recipes((event) => {
         P: 'create:precision_mechanism'
     }).id('arcadia:apo_sigil_socketing');
 
+    // --- APEX: Sigil of Supremacy ---
+    // The ultimate affix-upgrade sigil. Requires ALL 4 Arcadia bridges, the Fusion chain (tier 3),
+    // Industrial Hearts, 4 Nether Stars and 1 Apotheosis Mythic Material.
+    // Per sigil: 4 nether_star, 8 arcane_circuit, 4 rune_matrix, 4 ethereal_alloy,
+    // 2 fusion_matrix, 2 industrial_heart, 1 mythic_material.
+    event.remove({ output: 'apotheosis:sigil_of_supremacy' });
+    event.recipes.create.mechanical_crafting(
+        'apotheosis:sigil_of_supremacy',
+        [
+            "NARAN",
+            "ACFCA",
+            "RIMIR",
+            "ACFCA",
+            "NARAN"
+        ], {
+            N: 'minecraft:nether_star',
+            A: ARCANE_CIRCUIT,
+            R: RUNE_MATRIX,
+            C: ETHEREAL_ALLOY,
+            F: 'arcadia:fusion_matrix',
+            I: INDUSTRIAL_HEART,
+            M: 'apotheosis:mythic_material'
+        }
+    ).id('arcadia:apo_sigil_supremacy');
+
     // vial_of_expulsion was removed from Apotheosis 1.21 — skipped.
 
     // ============================================================

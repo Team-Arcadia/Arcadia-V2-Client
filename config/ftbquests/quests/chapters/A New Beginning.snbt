@@ -772,9 +772,8 @@
 				}
 			]
 			tasks: [{
-				count: 6L
-				id: "2F7333A8AEF471B2"
-				item: { count: 1, id: "minecraft:oak_log" }
+				id: "010B90F74549D650"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -12.0d
@@ -1172,10 +1171,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				entity: "minecraft:cow"
-				id: "544B0C85D834F61B"
-				type: "kill"
-				value: 1L
+				id: "5B062C853EFC0441"
+				item: { count: 1, id: "minecraft:leather" }
+				type: "item"
 			}]
 			x: -10.5d
 			y: 1.5d

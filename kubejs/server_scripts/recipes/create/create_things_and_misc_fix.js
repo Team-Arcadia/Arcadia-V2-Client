@@ -1,0 +1,87 @@
+// Auto-generated: create_things_and_misc recipes broken in 1.21 NeoForge
+// Issue: legacy 1.20 format + numeric pattern keys + forge: tags
+// Pre-filtered: recipes depending on uninstalled mods are skipped at generation time.
+// Author: vyrriox
+
+ServerEvents.recipes(event => {
+    event.remove({ output: 'create_things_and_misc:brass_brick_slab' });
+    event.shaped('6x create_things_and_misc:brass_brick_slab', ["aaa"], { a: 'create_things_and_misc:brass_bricks' }).id('arcadia:ctam_brass_brick_slab_craft');
+    event.remove({ output: 'create_things_and_misc:brass_brick_stairs' });
+    event.shaped('4x create_things_and_misc:brass_brick_stairs', ["a  ", "aa ", "aaa"], { a: 'create_things_and_misc:brass_bricks' }).id('arcadia:ctam_brass_brick_stairs_craft');
+    event.remove({ output: 'create_things_and_misc:brass_tiles_slab' });
+    event.shaped('6x create_things_and_misc:brass_tiles_slab', ["aaa"], { a: 'create_things_and_misc:brass_tiles' }).id('arcadia:ctam_brass_tiles_slab_craft');
+    event.remove({ output: 'create_things_and_misc:brass_tiles_stair' });
+    event.shaped('4x create_things_and_misc:brass_tiles_stair', ["a  ", "aa ", "aaa"], { a: 'create_things_and_misc:brass_tiles' }).id('arcadia:ctam_brass_tiles_stair_craft');
+    event.remove({ output: 'create_things_and_misc:copper_knife' });
+    event.shaped('create_things_and_misc:copper_knife', [" a", "b "], { a: 'minecraft:copper_ingot', b: 'minecraft:stick' }).id('arcadia:ctam_copper_knife_craft');
+    event.remove({ output: 'create_things_and_misc:magnifying_glass' });
+    event.shaped('create_things_and_misc:magnifying_glass', ["  a", " b ", "c  "], { a: 'minecraft:amethyst_shard', b: 'minecraft:copper_ingot', c: 'minecraft:stick' }).id('arcadia:ctam_magnifyingglass_craft');
+    event.remove({ output: 'create_things_and_misc:sprinkler_head' });
+    event.shaped('create_things_and_misc:sprinkler_head', ["a", "b"], { a: 'minecraft:dried_kelp', b: 'minecraft:copper_ingot' }).id('arcadia:ctam_sprinklerheadcraft');
+    event.remove({ output: 'create_things_and_misc:sturdy_sheet_slab' });
+    event.shaped('6x create_things_and_misc:sturdy_sheet_slab', ["aaa"], { a: 'create_things_and_misc:sturdy_sheet_block' }).id('arcadia:ctam_sturdy_sheet_slab_craft');
+    event.remove({ output: 'create_things_and_misc:sturdy_sheet_slab_stairs' });
+    event.shaped('4x create_things_and_misc:sturdy_sheet_slab_stairs', ["a  ", "aa ", "aaa"], { a: 'create_things_and_misc:sturdy_sheet_block' }).id('arcadia:ctam_sturdy_sheet_stairs_craft');
+    event.remove({ output: 'create_things_and_misc:train_buffer' });
+    event.shaped('2x create_things_and_misc:train_buffer', ["aa"], { a: 'create_things_and_misc:sturdy_sheet_block' }).id('arcadia:ctam_train_buffer_craft');
+    event.remove({ output: 'create_things_and_misc:acacia_sail' });
+    event.shaped('2x create_things_and_misc:acacia_sail', ["WS", "SA"], { A: 'create:andesite_alloy', S: '#c:rods/wooden', W: 'minecraft:acacia_planks' }).id('arcadia:ctam_acacia_sailcraft');
+    event.remove({ output: 'create_things_and_misc:bamboo_sail' });
+    event.shaped('2x create_things_and_misc:bamboo_sail', [" S", "SA"], { A: 'create:andesite_alloy', S: 'minecraft:bamboo' }).id('arcadia:ctam_bamboo_sail_craft');
+    event.remove({ output: 'create_things_and_misc:birch_sail' });
+    event.shaped('2x create_things_and_misc:birch_sail', ["WS", "SA"], { A: 'create:andesite_alloy', S: '#minecraft:sticks', W: 'minecraft:birch_planks' }).id('arcadia:ctam_birch_sail_craft');
+    event.remove({ output: 'create_things_and_misc:blaze_ballon' });
+    event.shaped('create_things_and_misc:blaze_ballon', ["A", "B"], { A: 'create:white_sail', B: 'create:blaze_burner' }).id('arcadia:ctam_blaze_burner_craft');
+    event.remove({ output: 'create_things_and_misc:brass_knife' });
+    event.shaped('create_things_and_misc:brass_knife', [" A", "B "], { A: 'create:brass_ingot', B: 'minecraft:stick' }).id('arcadia:ctam_brass_knife_craft');
+    event.remove({ output: 'create_things_and_misc:brass_speaker' });
+    event.shaped('2x create_things_and_misc:brass_speaker', [" A ", "BCD", " E "], { A: 'create:railway_casing', B: 'create:filter', C: 'create_things_and_misc:vibration_mechanism', D: 'create:filter', E: 'create:railway_casing' }).id('arcadia:ctam_brass_speaker_craft');
+    event.remove({ output: 'create_things_and_misc:card_press' });
+    event.shaped('create_things_and_misc:card_press', ["ABC", "DEF", "GHI"], { A: 'create:brass_sheet', B: 'minecraft:stone', C: 'create:brass_sheet', D: 'create:brass_sheet', E: 'create:mechanical_press', F: 'create:brass_sheet', G: 'create:brass_casing', H: 'create:brass_casing', I: 'create:brass_casing' }).id('arcadia:ctam_cardpress_craft');
+    event.remove({ output: 'create_things_and_misc:empty_card' });
+    event.shapeless('create_things_and_misc:empty_card', ['create:copper_sheet', 'minecraft:paper']).id('arcadia:ctam_card_craft');
+    event.remove({ output: 'create_things_and_misc:card_reader' });
+    event.shaped('create_things_and_misc:card_reader', ["ABC", "DEF", "GHI"], { A: 'create:brass_sheet', B: 'create:brass_sheet', C: 'create:brass_sheet', D: 'minecraft:stone', E: 'minecraft:redstone', F: 'minecraft:stone', G: 'create:brass_sheet', H: 'minecraft:dried_kelp', I: 'create:brass_sheet' }).id('arcadia:ctam_card_reader_craft_2');
+    event.remove({ output: 'create_things_and_misc:cherry_sail' });
+    event.shaped('2x create_things_and_misc:cherry_sail', ["WS", "SA"], { A: 'create:andesite_alloy', S: '#minecraft:sticks', W: 'minecraft:cherry_planks' }).id('arcadia:ctam_cherry_sail_craft');
+    event.remove({ output: 'create_things_and_misc:crimson_sail' });
+    event.shaped('2x create_things_and_misc:crimson_sail', ["WS", "SA"], { A: 'create:andesite_alloy', S: '#minecraft:sticks', W: 'minecraft:crimson_planks' }).id('arcadia:ctam_crimson_sail_craft');
+    event.remove({ output: 'create_things_and_misc:dark_oak_sail' });
+    event.shaped('2x create_things_and_misc:dark_oak_sail', ["WS", "SA"], { A: 'create:andesite_alloy', S: '#minecraft:sticks', W: 'minecraft:dark_oak_planks' }).id('arcadia:ctam_dark_oak_craft');
+    event.remove({ output: 'create_things_and_misc:glue_packaging' });
+    event.shaped('create_things_and_misc:glue_packaging', [" A", "B "], { A: 'create:iron_sheet', B: 'minecraft:iron_nugget' }).id('arcadia:ctam_gluepackagingcraft');
+    event.remove({ output: 'create_things_and_misc:jungle_sail' });
+    event.shaped('2x create_things_and_misc:jungle_sail', ["WS", "SA"], { A: 'create:andesite_alloy', S: '#minecraft:sticks', W: 'minecraft:jungle_planks' }).id('arcadia:ctam_jungle_sail_craft');
+    event.remove({ output: 'create_things_and_misc:mangrove_sail' });
+    event.shaped('2x create_things_and_misc:mangrove_sail', ["WS", "SA"], { A: 'create:andesite_alloy', S: '#minecraft:sticks', W: 'minecraft:mangrove_planks' }).id('arcadia:ctam_mangrove_sail_craft');
+    event.remove({ output: 'create_things_and_misc:neon_tube' });
+    event.shaped('create_things_and_misc:neon_tube', ["A", "B", "C"], { A: 'minecraft:glass', B: 'create:electron_tube', C: 'minecraft:glass' }).id('arcadia:ctam_neon_tube_craft');
+    event.remove({ output: 'create_things_and_misc:andesite_casing_trapdoor' });
+    event.shapeless('create_things_and_misc:andesite_casing_trapdoor', ['#minecraft:wooden_trapdoors', 'create:andesite_casing']).id('arcadia:ctam_new_trapdoor_andesite');
+    event.remove({ output: 'create_things_and_misc:copper_casing_trapdoor' });
+    event.shapeless('create_things_and_misc:copper_casing_trapdoor', ['#minecraft:wooden_trapdoors', 'create:copper_casing']).id('arcadia:ctam_new_trapdoor_copper');
+    event.remove({ output: 'create_things_and_misc:brass_casing_trapdoor' });
+    event.shapeless('create_things_and_misc:brass_casing_trapdoor', ['#minecraft:wooden_trapdoors', 'create:brass_casing']).id('arcadia:ctam_new_trap_door_brass');
+    event.remove({ output: 'create_things_and_misc:oak_sail' });
+    event.shaped('2x create_things_and_misc:oak_sail', ["WS", "SA"], { A: 'create:andesite_alloy', S: '#minecraft:sticks', W: 'minecraft:oak_planks' }).id('arcadia:ctam_oak_sail_craft');
+    event.remove({ output: 'create_things_and_misc:portable_whistle' });
+    event.shaped('create_things_and_misc:portable_whistle', [" AB", "CD "], { A: 'create:golden_sheet', B: 'create:golden_sheet', C: 'minecraft:copper_ingot', D: 'minecraft:gold_ingot' }).id('arcadia:ctam_portable_whistle_craft');
+    event.remove({ output: 'create_things_and_misc:powdered_obsidian_block' });
+    event.shaped('create_things_and_misc:powdered_obsidian_block', ["ABC", "DEF", "GHI"], { A: 'create:powdered_obsidian', B: 'create:powdered_obsidian', C: 'create:powdered_obsidian', D: 'create:powdered_obsidian', E: 'create:powdered_obsidian', F: 'create:powdered_obsidian', G: 'create:powdered_obsidian', H: 'create:powdered_obsidian', I: 'create:powdered_obsidian' }).id('arcadia:ctam_powder_obsi_c_raft');
+    event.remove({ output: 'create_things_and_misc:radar' });
+    event.shaped('create_things_and_misc:radar', ["ABC", "DEF", "GHI"], { A: 'create:andesite_alloy', B: 'create:display_board', C: 'create:andesite_alloy', D: 'create:andesite_alloy', E: 'create_things_and_misc:vibration_mechanism', F: 'create:andesite_alloy', G: 'create:andesite_alloy', H: 'create:andesite_alloy', I: 'create:andesite_alloy' }).id('arcadia:ctam_radar_craft');
+    event.remove({ output: 'create_things_and_misc:sticky_boots_boots' });
+    event.shaped('create_things_and_misc:sticky_boots_boots', ["A B", "C D"], { A: 'create:sticker', B: 'create:sticker', C: 'minecraft:slime_block', D: 'minecraft:slime_block' }).id('arcadia:ctam_slime_boost_craft');
+    event.remove({ output: 'create_things_and_misc:sprinkler' });
+    event.shaped('create_things_and_misc:sprinkler', [" A ", "BCD", "EFG"], { A: 'create_things_and_misc:sprinkler_head', B: 'create_things_and_misc:sprinkler_head', C: 'create:propeller', D: 'create_things_and_misc:sprinkler_head', E: 'create:copper_casing', F: 'create:fluid_tank', G: 'create:copper_casing' }).id('arcadia:ctam_sprinkler_craft');
+    event.remove({ output: 'create_things_and_misc:spruce_sail' });
+    event.shaped('2x create_things_and_misc:spruce_sail', ["WS", "SA"], { A: 'create:andesite_alloy', S: '#minecraft:sticks', W: 'minecraft:spruce_planks' }).id('arcadia:ctam_spruce_sail_craft');
+    event.remove({ output: 'create_things_and_misc:train_stop' });
+    event.shaped('2x create_things_and_misc:train_stop', [" A ", "BCD"], { A: 'create:andesite_casing', B: 'create:metal_girder', C: 'create:track', D: 'create:metal_girder' }).id('arcadia:ctam_train_stop_craft');
+    event.remove({ output: 'create_things_and_misc:warped_sail' });
+    event.shaped('2x create_things_and_misc:warped_sail', ["WS", "SA"], { A: 'create:andesite_alloy', S: '#minecraft:sticks', W: 'minecraft:warped_planks' }).id('arcadia:ctam_warped_sail_c_raft');
+    event.remove({ output: 'create_things_and_misc:zinc_knife' });
+    event.shaped('create_things_and_misc:zinc_knife', [" A", "B "], { A: 'create:zinc_ingot', B: 'minecraft:stick' }).id('arcadia:ctam_zinc_knif_craft');
+
+    console.info('[Arcadia V2] create_things_and_misc fix: 39 recipes rebuilt, 6 skipped (uninstalled deps).');
+});

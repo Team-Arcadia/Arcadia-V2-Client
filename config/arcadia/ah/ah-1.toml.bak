@@ -8,3 +8,9 @@
 	# Default: 30
 	# Range: 1 ~ 500
 	max_listings_per_player = 30
+
+#Item blacklist — items that cannot be listed on the AH.
+#Use registry IDs (e.g. 'minecraft:bedrock', 'arcadia_pets:pet_item').
+[blacklist]
+	#List of item registry IDs that are blocked from being sold.
+	items = ["minecraft:bedrock", "minecraft:command_block", "minecraft:barrier"]

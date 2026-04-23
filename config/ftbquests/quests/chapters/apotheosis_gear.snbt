@@ -826,32 +826,6 @@
 			y: 1.9d
 		}
 		{
-			id: "2E5E129F25707C5D"
-			rewards: [
-				{
-					id: "46857F68BFA906D6"
-					item: {
-						count: 1
-						id: "apotheosis:sigil_of_supremacy"
-					}
-					type: "item"
-				}
-				{
-					id: "1E534C9814128D4C"
-					type: "xp_levels"
-					xp_levels: 100
-				}
-			]
-			size: 1.5d
-			tasks: [{
-				id: "2624E09A5B8C1D0D"
-				item: { count: 1, id: "apotheosis:sigil_of_supremacy" }
-				type: "item"
-			}]
-			x: -3.75d
-			y: 3.75d
-		}
-		{
 			icon: {
 				id: "apotheosis:boss_summoner"
 			}
@@ -868,6 +842,34 @@
 			}]
 			x: -6.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["552BA5E6FA987256"]
+			id: "52DAEAE7D8945488"
+			rewards: [
+				{
+					id: "1004171CA0A7F7B6"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_supremacy"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75D55261C7F1EDDD"
+					table_id: 7799476301390908562L
+					type: "choice"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "4A37B59E51EE6EC4"
+				item: { count: 1, id: "apotheosis:sigil_of_supremacy" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.9d
 		}
 	]
 }

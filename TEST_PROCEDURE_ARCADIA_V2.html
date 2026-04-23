@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Procédure de test — Arcadia V2</title>
+<style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #1a1a1f; color: #e0e0e8; padding: 20px; line-height: 1.5; }
+    h1 { color: #c59dff; border-bottom: 2px solid #4a3268; padding-bottom: 10px; margin-bottom: 10px; }
+    h2 { color: #ffa552; margin-top: 25px; margin-bottom: 8px; }
+    h3 { color: #78c4ff; margin-top: 15px; margin-bottom: 6px; font-size: 1.05rem; }
+    header { position: sticky; top: 0; background: #1a1a1f; border-bottom: 2px solid #4a3268; padding: 10px 0; z-index: 100; margin: -20px -20px 20px; padding: 15px 20px; }
+    #progress-bar { height: 8px; background: #2d2d38; border-radius: 4px; overflow: hidden; margin-top: 8px; }
+    #progress-fill { height: 100%; background: linear-gradient(90deg, #6be889, #78c4ff); transition: width 0.3s; }
+    #progress-text { font-size: 0.85rem; color: #a0a0b0; margin-top: 6px; }
+    .toolbar { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+    button { background: #4a3268; color: #fff; border: none; padding: 8px 14px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; }
+    button:hover { background: #5d4080; }
+    button.primary { background: #78c4ff; color: #1a1a1f; font-weight: bold; }
+    button.primary:hover { background: #a0d8ff; }
+    button.danger { background: #c04040; }
+    input[type="text"], select { background: #2d2d38; color: #e0e0e8; border: 1px solid #4a3268; padding: 6px 10px; border-radius: 4px; font-size: 0.9rem; }
+    section { background: #23232e; border-radius: 6px; padding: 12px 16px; margin-bottom: 12px; border-left: 3px solid #4a3268; }
+    section.collapsed .section-body { display: none; }
+    .section-header { display: flex; justify-content: space-between; align-items: center; cursor: pointer; user-select: none; }
+    .section-header .counts { font-size: 0.85rem; color: #a0a0b0; }
+    .section-body { margin-top: 10px; }
+    .item { background: #2d2d38; padding: 10px 12px; border-radius: 4px; margin-bottom: 6px; display: grid; grid-template-columns: auto 1fr auto; gap: 12px; align-items: start; border-left: 3px solid transparent; }
+    .item.status-ok { border-left-color: #6be889; }
+    .item.status-missing { border-left-color: #ff6b6b; }
+    .item.status-hard { border-left-color: #ffb84d; }
+    .item.status-bug { border-left-color: #ff4d4d; }
+    .item.status-untested { border-left-color: #5a5a6e; }
+    .item .id { font-family: 'Consolas', 'Courier New', monospace; color: #78c4ff; font-size: 0.88rem; word-break: break-all; }
+    .item .name { font-weight: bold; color: #fff; }
+    .item .desc { font-size: 0.85rem; color: #a0a0b0; margin-top: 3px; }
+    .item .controls { display: flex; flex-direction: column; gap: 6px; min-width: 180px; }
+    .item .controls select { width: 100%; }
+    .item .controls textarea { width: 100%; min-height: 40px; background: #1a1a1f; color: #e0e0e8; border: 1px solid #4a3268; border-radius: 4px; padding: 6px 8px; font-family: inherit; font-size: 0.85rem; resize: vertical; }
+    .filter-bar { margin: 10px 0; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+    .filter-bar label { font-size: 0.88rem; color: #a0a0b0; }
+    .hidden { display: none !important; }
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 0.75rem; margin-left: 6px; font-weight: bold; }
+    .badge.ok { background: #6be889; color: #1a1a1f; }
+    .badge.missing { background: #ff6b6b; color: #fff; }
+    .badge.hard { background: #ffb84d; color: #1a1a1f; }
+    .badge.bug { background: #ff4d4d; color: #fff; }
+    .badge.untested { background: #5a5a6e; color: #fff; }
+    #export-output { background: #0d0d12; color: #6be889; padding: 12px; border-radius: 4px; font-family: monospace; white-space: pre-wrap; max-height: 400px; overflow: auto; font-size: 0.78rem; margin-top: 10px; }
+    .intro { background: #2d2346; border-left: 3px solid #c59dff; padding: 12px 16px; margin-bottom: 15px; border-radius: 4px; }
+    .intro p { margin-bottom: 6px; font-size: 0.92rem; }
+    .kbd { background: #1a1a1f; border: 1px solid #4a3268; padding: 1px 6px; border-radius: 3px; font-family: monospace; font-size: 0.85rem; }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>🧪 Procédure de test — Arcadia V2</h1>
+    <div id="progress-text">0 testés / 0 total</div>
+    <div id="progress-bar"><div id="progress-fill" style="width:0%"></div></div>
+    <div class="toolbar">
+        <button class="primary" onclick="exportJSON()">📤 Exporter JSON</button>
+        <button onclick="copyJSON()">📋 Copier JSON</button>
+        <button onclick="saveProgress()">💾 Sauvegarder</button>
+        <button onclick="loadProgress()">📂 Recharger</button>
+        <button class="danger" onclick="resetAll()">🗑 Tout reset</button>
+        <button onclick="toggleAll(true)">➕ Tout ouvrir</button>
+        <button onclick="toggleAll(false)">➖ Tout fermer</button>
+    </div>
+    <div class="filter-bar">
+        <label>🔎 Recherche :</label>
+        <input type="text" id="search" placeholder="Chercher un item ou un mod..." oninput="applyFilters()">
+        <label>Filtre :</label>
+        <select id="filter-status" onchange="applyFilters()">
+            <option value="">Tous</option>
+            <option value="untested">Non testés</option>
+            <option value="ok">OK</option>
+            <option value="missing">Manquants</option>
+            <option value="hard">Trop difficiles</option>
+            <option value="bug">Bugs</option>
+            <option value="has_comment">Avec commentaire</option>
+        </select>
+    </div>
+</header>
+
+<div class="intro">
+    <p><strong>🎯 Objectif :</strong> vérifier chaque modification du modpack Arcadia V2 en jeu avec JEI/EMI, valider les items custom, les blacklists spawner, et les crafts endgame.</p>
+    <p><strong>📝 Pour chaque entrée :</strong> sélectionne un statut (OK / Manquant / Trop difficile / Bug) et ajoute un commentaire si besoin.</p>
+    <p><strong>🔍 Comment tester un craft :</strong> tape l'ID dans JEI → clic droit (Usage) ou gauche (Recipe) → vérifie que le craft attendu apparaît.</p>
+    <p><strong>🐺 Comment tester un mob bloqué :</strong> pose un spawner Apotheosis, utilise le spawn egg du mob, il doit <strong>refuser</strong>.</p>
+    <p><strong>⚡ Progression :</strong> sauvegardée automatiquement dans ton navigateur. Export JSON à la fin pour transmission.</p>
+</div>
+
+<div id="content"></div>
+
+<section>
+    <div class="section-header"><span>📦 Export JSON</span></div>
+    <div class="section-body">
+        <p style="font-size:0.88rem;color:#a0a0b0;margin-bottom:8px;">Clic sur <strong>Exporter JSON</strong> en haut pour générer le rapport. Copie le texte ci-dessous et envoie-le au staff.</p>
+        <pre id="export-output">(clique sur Exporter JSON)</pre>
+    </div>
+</section>
+
+<script>
+// ============================================================
+// DATA — ALL ITEMS TO TEST
+// ============================================================
+const DATA = [
+    {
+        category: "1. Vanilla — Outils & Armures durcis",
+        items: [
+            { id: "minecraft:iron_sword", name: "Iron Sword", desc: "Doit nécessiter create:iron_sheet (pas iron_ingot)" },
+            { id: "minecraft:iron_pickaxe", name: "Iron Pickaxe", desc: "Iron Sheet" },
+            { id: "minecraft:iron_axe", name: "Iron Axe", desc: "Iron Sheet" },
+            { id: "minecraft:iron_shovel", name: "Iron Shovel", desc: "Iron Sheet" },
+            { id: "minecraft:iron_hoe", name: "Iron Hoe", desc: "Iron Sheet" },
+            { id: "minecraft:iron_helmet", name: "Iron Helmet", desc: "Iron Sheet" },
+            { id: "minecraft:iron_chestplate", name: "Iron Chestplate", desc: "Iron Sheet" },
+            { id: "minecraft:iron_leggings", name: "Iron Leggings", desc: "Iron Sheet" },
+            { id: "minecraft:iron_boots", name: "Iron Boots", desc: "Iron Sheet" },
+            { id: "minecraft:golden_sword", name: "Golden Sword", desc: "Gold Sheet" },
+            { id: "minecraft:golden_pickaxe", name: "Golden Pickaxe", desc: "Gold Sheet" },
+            { id: "minecraft:golden_axe", name: "Golden Axe", desc: "Gold Sheet" },
+            { id: "minecraft:golden_shovel", name: "Golden Shovel", desc: "Gold Sheet" },
+            { id: "minecraft:golden_hoe", name: "Golden Hoe", desc: "Gold Sheet" },
+            { id: "minecraft:diamond_sword", name: "Diamond Sword", desc: "Diamond + Breeze Rod (pas stick)" },
+            { id: "minecraft:diamond_pickaxe", name: "Diamond Pickaxe", desc: "Diamond + Breeze Rod" },
+            { id: "minecraft:diamond_axe", name: "Diamond Axe", desc: "Diamond + Breeze Rod" },
+            { id: "minecraft:diamond_shovel", name: "Diamond Shovel", desc: "Diamond + Breeze Rod" },
+            { id: "minecraft:diamond_hoe", name: "Diamond Hoe", desc: "Diamond + Breeze Rod" },
+            { id: "minecraft:stone_sword", name: "Stone Sword", desc: "Stone (pas cobblestone)" },
+            { id: "minecraft:leather_helmet", name: "Leather Helmet", desc: "Leather + String" },
+            { id: "minecraft:leather_chestplate", name: "Leather Chestplate", desc: "Leather + String" },
+            { id: "minecraft:leather_leggings", name: "Leather Leggings", desc: "Leather + String" },
+            { id: "minecraft:leather_boots", name: "Leather Boots", desc: "Leather + String" },
+            { id: "minecraft:netherite_ingot", name: "Netherite Ingot", desc: "Sequenced Assembly (80% yield, 3 loops)" }
+        ]
+    },
+    {
+        category: "2. Vanilla — Ateliers & Stockage",
+        items: [
+            { id: "minecraft:crafting_table", name: "Crafting Table", desc: "3 Planks + 1 Leather" },
+            { id: "minecraft:stick", name: "Stick", desc: "Yield /2 : 2 Planks → 2 Sticks" },
+            { id: "minecraft:chest", name: "Chest", desc: "8 Logs (pas planks)" },
+            { id: "minecraft:barrel", name: "Barrel", desc: "+ 2 Iron Nuggets" },
+            { id: "minecraft:ender_chest", name: "Ender Chest", desc: "Obsidian + Gold Sheet + Eye of Ender" },
+            { id: "minecraft:furnace", name: "Furnace", desc: "8 Cobblestone + Campfire" },
+            { id: "minecraft:smoker", name: "Smoker", desc: "Furnace + 6 Logs" },
+            { id: "minecraft:blast_furnace", name: "Blast Furnace", desc: "Iron Sheets" },
+            { id: "minecraft:anvil", name: "Anvil", desc: "Iron Sheets" },
+            { id: "minecraft:smithing_table", name: "Smithing Table", desc: "Iron Sheets + Logs" },
+            { id: "minecraft:grindstone", name: "Grindstone", desc: "Cogwheels + Stone Slab + Logs" },
+            { id: "minecraft:stonecutter", name: "Stonecutter", desc: "Iron Sheet" },
+            { id: "minecraft:cauldron", name: "Cauldron", desc: "7 Iron Sheets" },
+            { id: "minecraft:brewing_stand", name: "Brewing Stand", desc: "Blaze Rod + 3 Copper Sheets" },
+            { id: "minecraft:enchanting_table", name: "Enchanting Table", desc: "Book + Red Wool + Diamonds + Obsidian" },
+            { id: "minecraft:cartography_table", name: "Cartography Table", desc: "Compass + Paper + Logs" },
+            { id: "minecraft:fletching_table", name: "Fletching Table", desc: "Flint + Feather + Logs" },
+            { id: "minecraft:iron_block", name: "Iron Block", desc: "Mechanical Mixer (9 ingots + 1 andesite + 500mB lava)" },
+            { id: "minecraft:gold_block", name: "Gold Block", desc: "Mechanical Mixer" },
+            { id: "minecraft:diamond_block", name: "Diamond Block", desc: "Mechanical Mixer" },
+            { id: "minecraft:netherite_block", name: "Netherite Block", desc: "Mechanical Mixer" }
+        ]
+    },
+    {
+        category: "3. Vanilla — Décoration & Utilitaires",
+        items: [
+            { id: "minecraft:torch", name: "Torch", desc: "Yield /2 : 4 → 2" },
+            { id: "minecraft:lantern", name: "Lantern", desc: "2 Iron Sheets + Torch" },
+            { id: "minecraft:bucket", name: "Bucket", desc: "3 Iron Sheets" },
+            { id: "minecraft:shears", name: "Shears", desc: "1 Iron Sheet + Stick" },
+            { id: "minecraft:book", name: "Book", desc: "3 Paper + Leather + String" },
+            { id: "minecraft:compass", name: "Compass", desc: "Iron + Cogwheel + Redstone" },
+            { id: "minecraft:clock", name: "Clock", desc: "Gold + Cogwheel center" },
+            { id: "minecraft:spyglass", name: "Spyglass", desc: "Brass + Amethyst" },
+            { id: "minecraft:fishing_rod", name: "Fishing Rod", desc: "Sticks + String + Fishing Line (Aquaculture)" },
+            { id: "minecraft:lead", name: "Lead", desc: "String + Iron Nugget" },
+            { id: "minecraft:saddle", name: "Saddle", desc: "Leather + String + Iron Sheets" },
+            { id: "minecraft:ladder", name: "Ladder", desc: "Sticks + Zipline Rope (Parcool)" },
+            { id: "minecraft:item_frame", name: "Item Frame", desc: "Sticks + Leather + Iron Nugget" },
+            { id: "minecraft:painting", name: "Painting", desc: "Sticks + Wool + Paper" },
+            { id: "minecraft:golden_apple", name: "Golden Apple", desc: "8 Gold Sheets + Apple" },
+            { id: "minecraft:golden_carrot", name: "Golden Carrot", desc: "4 Gold Sheets + Carrot" },
+            { id: "minecraft:lightning_rod", name: "Lightning Rod", desc: "3 Copper Sheets" },
+            { id: "minecraft:chain", name: "Chain", desc: "2 Nuggets + 1 Iron Sheet" },
+            { id: "minecraft:flint_and_steel", name: "Flint and Steel", desc: "Iron Sheet + Flint" },
+            { id: "minecraft:blaze_powder", name: "Blaze Powder", desc: "4 Pepper Powder (My Nether's Delight)" },
+            { id: "minecraft:daylight_detector", name: "Daylight Detector", desc: "Glass + Gold Sheets + Slabs" }
+        ]
+    },
+    {
+        category: "4. Vanilla — Redstone & Transport",
+        items: [
+            { id: "minecraft:piston", name: "Piston", desc: "Planks + Cobble + Iron Sheet + Redstone + Cogwheel" },
+            { id: "minecraft:hopper", name: "Hopper", desc: "5 Iron Sheets + Chest" },
+            { id: "minecraft:dispenser", name: "Dispenser", desc: "Cobble + Bow + Redstone + Cogwheel" },
+            { id: "minecraft:dropper", name: "Dropper", desc: "Cobble + Redstone + Cogwheel" },
+            { id: "minecraft:observer", name: "Observer", desc: "Smooth Stone + Redstone + Quartz" },
+            { id: "minecraft:repeater", name: "Repeater", desc: "Torches + Gold Nugget + Stone" },
+            { id: "minecraft:comparator", name: "Comparator", desc: "Torches + Quartz + Stone + Gold Sheet" },
+            { id: "minecraft:jukebox", name: "Jukebox", desc: "Logs + Diamond + Cogwheel" },
+            { id: "minecraft:bell", name: "Bell", desc: "Gold Sheets + Stone" },
+            { id: "minecraft:minecart", name: "Minecart", desc: "4 Iron Sheets + 1 Cogwheel" },
+            { id: "minecraft:rail", name: "Rail", desc: "Iron Sheets" },
+            { id: "minecraft:powered_rail", name: "Powered Rail", desc: "Gold Sheets" },
+            { id: "minecraft:oak_boat", name: "Oak Boat", desc: "5 Planks + Wooden Shovel" },
+            { id: "minecraft:tnt", name: "TNT", desc: "Gunpowder + Sand + String" },
+            { id: "minecraft:bow", name: "Bow", desc: "3 Sticks + 3 Strings + Leather" },
+            { id: "minecraft:crossbow", name: "Crossbow", desc: "Stick + Iron Sheet + String + Cogwheel + Log" },
+            { id: "minecraft:shield", name: "Shield", desc: "Planks + Iron Sheet" }
+        ]
+    },
+    {
+        category: "5. Aether — Armor & Tools",
+        items: [
+            { id: "aether:leather_gloves", name: "Aether Leather Gloves", desc: "Leather + String" },
+            { id: "aether:iron_gloves", name: "Aether Iron Gloves", desc: "Iron Sheets" },
+            { id: "aether:golden_gloves", name: "Aether Golden Gloves", desc: "Gold Sheets" },
+            { id: "aether:diamond_gloves", name: "Aether Diamond Gloves", desc: "Diamond + Breeze Rod" },
+            { id: "aether:netherite_gloves", name: "Aether Netherite Gloves", desc: "Smithing (Diamond Gloves + Netherite Template + Netherite Ingot)" },
+            { id: "aether:gravitite_sword", name: "Gravitite Sword", desc: "+ Breeze Rod" },
+            { id: "aether:gravitite_pickaxe", name: "Gravitite Pickaxe", desc: "+ Breeze Rod" },
+            { id: "aether:gravitite_axe", name: "Gravitite Axe", desc: "+ Breeze Rod" },
+            { id: "aether:gravitite_shovel", name: "Gravitite Shovel", desc: "+ Breeze Rod" },
+            { id: "aether:gravitite_hoe", name: "Gravitite Hoe", desc: "+ Breeze Rod" },
+            { id: "aether:gravitite_helmet", name: "Gravitite Helmet", desc: "+ Gold Sheet + Breeze Rod" },
+            { id: "aether:gravitite_chestplate", name: "Gravitite Chestplate", desc: "+ Gold Sheet + Breeze Rod" },
+            { id: "aether:gravitite_leggings", name: "Gravitite Leggings", desc: "+ Gold Sheet + Breeze Rod" },
+            { id: "aether:gravitite_boots", name: "Gravitite Boots", desc: "+ Gold Sheet + Breeze Rod" },
+            { id: "aether:phoenix_helmet", name: "Phoenix Helmet", desc: "+ Blaze Rod" },
+            { id: "aether:phoenix_chestplate", name: "Phoenix Chestplate", desc: "+ Blaze Rod" },
+            { id: "aether:phoenix_leggings", name: "Phoenix Leggings", desc: "+ Blaze Rod" },
+            { id: "aether:phoenix_boots", name: "Phoenix Boots", desc: "+ Blaze Rod" }
+        ]
+    },
+    {
+        category: "6. Better Copper",
+        items: [
+            { id: "bettercopper:copper_sword", name: "Copper Sword (Better Copper)", desc: "Copper Sheets + Stick" },
+            { id: "bettercopper:copper_axe", name: "Copper Axe (Better Copper)", desc: "Copper Sheets + Stick" },
+            { id: "bettercopper:copper_pickaxe", name: "Copper Pickaxe (Better Copper)", desc: "Copper Sheets + Stick" },
+            { id: "bettercopper:copper_shovel", name: "Copper Shovel (Better Copper)", desc: "Copper Sheets + Stick" },
+            { id: "bettercopper:copper_hoe", name: "Copper Hoe (Better Copper)", desc: "Copper Sheets + Stick" },
+            { id: "bettercopper:copper_helmet", name: "Copper Helmet (Better Copper)", desc: "Copper Sheets" },
+            { id: "bettercopper:copper_chestplate", name: "Copper Chestplate (Better Copper)", desc: "Copper Sheets" },
+            { id: "bettercopper:copper_leggings", name: "Copper Leggings (Better Copper)", desc: "Copper Sheets" },
+            { id: "bettercopper:copper_boots", name: "Copper Boots (Better Copper)", desc: "Copper Sheets" }
+        ]
+    },
+    {
+        category: "7. Mekanism — Tier 1 Machines",
+        items: [
+            { id: "mekanism:enrichment_chamber", name: "Enrichment Chamber", desc: "+ Iron Sheet" },
+            { id: "mekanism:osmium_compressor", name: "Osmium Compressor", desc: "+ Brass Casing" },
+            { id: "mekanism:combiner", name: "Combiner", desc: "+ Cogwheel" },
+            { id: "mekanism:crusher", name: "Crusher", desc: "+ Cogwheel" },
+            { id: "mekanism:metallurgic_infuser", name: "Metallurgic Infuser", desc: "+ Precision Mechanism" }
+        ]
+    },
+    {
+        category: "8. Mekanism — Tier 2+ / Endgame",
+        items: [
+            { id: "mekanism:purification_chamber", name: "Purification Chamber", desc: "TFMG Steel + PM + Mek Alloy Reinforced" },
+            { id: "mekanism:chemical_injection_chamber", name: "Chemical Injection Chamber", desc: "Mek Alloy Reinforced + PM + Elite Circuit" },
+            { id: "mekanism:pressurized_reaction_chamber", name: "Pressurized Reaction Chamber", desc: "MC 3x3 + Arcane Circuit" },
+            { id: "mekanism:thermal_evaporation_controller", name: "Thermal Evaporation Controller", desc: "+ TFMG Steel + Brass Casing" },
+            { id: "mekanism:solar_neutron_activator", name: "Solar Neutron Activator", desc: "+ Mek Alloy Atomic" },
+            { id: "mekanism:advanced_control_circuit", name: "Advanced Control Circuit", desc: "+ Arcane Circuit" },
+            { id: "mekanism:ultimate_control_circuit", name: "Ultimate Control Circuit", desc: "Sequenced Assembly 4 loops" },
+            { id: "mekanism:digital_miner", name: "Digital Miner", desc: "MC 5x5 apex : Industrial Heart + Rune Matrix + Atomic Alloy" },
+            { id: "mekanism:teleporter", name: "Teleporter", desc: "MC 5x5 + Source Gem Block + Ender Eye + Atomic Alloy" },
+            { id: "mekanism:teleportation_core", name: "Teleportation Core", desc: "Mixing heated + Atomic Alloy + Ender Pearl + Source Gem" },
+            { id: "mekanism:qio_drive_array", name: "QIO Drive Array", desc: "MC 5x5 + Atomic Alloy + Arcane Circuit + Elite Circuit" },
+            { id: "mekanism:qio_dashboard", name: "QIO Dashboard", desc: "+ PM + Atomic Alloy" },
+            { id: "mekanism:antiprotonic_nucleosynthesizer", name: "Antiprotonic Nucleosynthesizer", desc: "MC 7x7 APEX : Fusion Matrix + Rune Matrix + Nether Star" },
+            { id: "mekanism:sps_casing", name: "SPS Casing", desc: "+ Atomic Alloy + Structural Glass + Brass Casing" },
+            { id: "mekanismgenerators:fusion_reactor_controller", name: "Fusion Reactor Controller", desc: "MC 7x7 APEX : Plasma Cell + Fusion Matrix + Containment Field + Industrial Heart" }
+        ]
+    },
+    {
+        category: "9. Mekanism Tools — Refined Tier",
+        items: [
+            { id: "mekanismtools:refined_glowstone_sword", name: "Refined Glowstone Sword", desc: "+ Breeze Rod" },
+            { id: "mekanismtools:refined_glowstone_pickaxe", name: "Refined Glowstone Pickaxe", desc: "+ Breeze Rod" },
+            { id: "mekanismtools:refined_obsidian_sword", name: "Refined Obsidian Sword", desc: "+ Breeze Rod" },
+            { id: "mekanismtools:refined_obsidian_pickaxe", name: "Refined Obsidian Pickaxe", desc: "+ Breeze Rod" },
+            { id: "mekanismtools:lapis_lazuli_sword", name: "Lapis Lazuli Sword", desc: "Lapis + Stick" },
+            { id: "mekanismtools:steel_sword", name: "Steel Sword (Mek Tools)", desc: "Iron Sheet" }
+        ]
+    },
+    {
+        category: "10. TFMG (The Factory Must Grow)",
+        items: [
+            { id: "tfmg:transistor_item", name: "Transistor", desc: "+ Copper Spool" },
+            { id: "tfmg:converter", name: "Converter", desc: "+ Copper Spool" },
+            { id: "tfmg:industrial_mixer", name: "Industrial Mixer", desc: "MC 3x3 + Heavy Plate + PM + Mechanical Mixer" },
+            { id: "tfmg:centrifuge", name: "Centrifuge", desc: "MC + Heavy Plate + Steel Mechanism + Alloy Reinforced" },
+            { id: "tfmg:heavy_machinery_casing", name: "Heavy Machinery Casing", desc: "+ Industrial Heart (gate endgame)" },
+            { id: "tfmg:large_engine", name: "Large Engine", desc: "+ Industrial Heart + PM + Copper Spool" },
+            { id: "tfmg:radial_engine", name: "Radial Engine", desc: "+ Industrial Heart + PM" },
+            { id: "tfmg:turbine_engine", name: "Turbine Engine", desc: "+ Industrial Heart + PM" },
+            { id: "tfmg:steel_distillation_controller", name: "Steel Distillation Controller", desc: "+ PM + Steel Mechanism" },
+            { id: "tfmg:blast_furnace_hatch", name: "Blast Furnace Hatch", desc: "+ Heavy Plate" }
+        ]
+    },
+    {
+        category: "11. Immersive Engineering",
+        items: [
+            { id: "immersiveengineering:hammer", name: "Engineer's Hammer", desc: "+ Iron Sheet" },
+            { id: "immersiveengineering:light_engineering", name: "Light Engineering Block", desc: "+ Iron Sheet" },
+            { id: "immersiveengineering:heavy_engineering", name: "Heavy Engineering Block", desc: "+ TFMG Heavy Plate" },
+            { id: "immersiveengineering:revolver", name: "Revolver", desc: "+ PM + Brass Sheet + MV Coil" },
+            { id: "immersiveengineering:drill", name: "Drill", desc: "MC 5x5 + Industrial Heart + Heavy Engineering + PM" },
+            { id: "immersiveengineering:railgun", name: "Railgun", desc: "MC 5x5 + Industrial Heart + Atomic Alloy + HV Capacitor" },
+            { id: "immersiveengineering:excavator", name: "Excavator", desc: "MC 3x3 + Industrial Heart + Atomic Alloy" },
+            { id: "immersiveengineering:arc_furnace", name: "Arc Furnace", desc: "MC 3x3 + Heavy Engineering + Brass Casing" }
+        ]
+    },
+    {
+        category: "12. Create Addition",
+        items: [
+            { id: "createaddition:capacitor", name: "Capacitor", desc: "+ Brass Sheet + Electron Tube + Copper Wire" },
+            { id: "createaddition:modular_accumulator", name: "Modular Accumulator", desc: "MC 3x3 + Gold Sheet + Capacitor + Arcane Circuit" },
+            { id: "createaddition:portable_energy_interface", name: "Portable Energy Interface", desc: "+ PM" },
+            { id: "createaddition:tesla_coil", name: "Tesla Coil", desc: "MC + Capacitor + Heavy Plate + Atomic Alloy + PM" },
+            { id: "createaddition:alternator", name: "Alternator", desc: "+ Brass Sheet + Copper Spool + Andesite Casing" },
+            { id: "createaddition:rolling_mill", name: "Rolling Mill", desc: "+ PM" },
+            { id: "createaddition:electric_motor", name: "Electric Motor", desc: "Mechanical Crafting : Transistor + Converter + Spool + Capacitor" }
+        ]
+    },
+    {
+        category: "13. Create Nuclear",
+        items: [
+            { id: "createnuclear:reactor_casing", name: "Reactor Casing", desc: "+ Heavy Plate + PM + Steel Block" },
+            { id: "createnuclear:reactor_controller", name: "Reactor Controller", desc: "MC 3x3 + Rune Matrix + Atomic Alloy" },
+            { id: "createnuclear:reactor_core", name: "Reactor Core", desc: "+ Reactor Casing + Uranium Rod + Reinforced Glass" },
+            { id: "createnuclear:reactor_frame", name: "Reactor Frame", desc: "+ Lead + Heavy Plate" },
+            { id: "createnuclear:reinforced_glass", name: "Reinforced Glass", desc: "+ Lead + Glass + PM" }
+        ]
+    },
+    {
+        category: "14. Create Diesel Generators",
+        items: [
+            { id: "createdieselgenerators:diesel_engine", name: "Diesel Engine", desc: "MC 3x3 + Heavy Plate + Industrial Heart + Copper Spool" },
+            { id: "createdieselgenerators:large_diesel_engine", name: "Large Diesel Engine", desc: "MC 3x3 + Diesel Engine + Industrial Heart" },
+            { id: "createdieselgenerators:huge_diesel_engine", name: "Huge Diesel Engine", desc: "MC 5x5 + 4× Large Diesel + Industrial Heart + Atomic Alloy" },
+            { id: "createdieselgenerators:distillation_controller", name: "Distillation Controller", desc: "+ Heavy Plate + PM + Steel Mechanism" }
+        ]
+    },
+    {
+        category: "15. Advanced Peripherals",
+        items: [
+            { id: "advancedperipherals:peripheral_casing", name: "Peripheral Casing", desc: "+ Heavy Plate + Steel Plate + Arcane Circuit" },
+            { id: "advancedperipherals:rs_bridge", name: "RS Bridge", desc: "MC 3x3 + Arcane Circuit + QEI" },
+            { id: "advancedperipherals:me_bridge", name: "ME Bridge", desc: "MC 3x3 + Arcane Circuit + Atomic Alloy" },
+            { id: "advancedperipherals:chunk_controller", name: "Chunk Controller", desc: "MC + Ender Pearl + Atomic Alloy" },
+            { id: "advancedperipherals:player_detector", name: "Player Detector", desc: "+ Ender Eye + Arcane Circuit + PM" }
+        ]
+    },
+    {
+        category: "16. Refined Storage + ExtraDisks",
+        items: [
+            { id: "refinedstorage:controller", name: "RS Controller", desc: "MC 5x5 + Brass Casing + QEI + Redstone Block + PM" },
+            { id: "refinedstorage:disk_drive", name: "Disk Drive", desc: "+ Brass Ingot + Glass + QEI" },
+            { id: "refinedstorage:importer", name: "Importer", desc: "+ Brass Ingot + QEI" },
+            { id: "refinedstorage:exporter", name: "Exporter", desc: "+ Brass Ingot + QEI" },
+            { id: "refinedstorage:autocrafter", name: "Autocrafter", desc: "+ PM + QEI" },
+            { id: "refinedstorage:wireless_transmitter", name: "Wireless Transmitter", desc: "+ Ender Pearl + Brass Ingot + QEI" },
+            { id: "refinedstorage:grid", name: "RS Grid", desc: "+ PM" },
+            { id: "refinedstorage:crafting_grid", name: "Crafting Grid", desc: "+ PM" },
+            { id: "refinedstorage:wireless_grid", name: "Wireless Grid", desc: "+ Brass Casing" },
+            { id: "refinedstorage:64k_storage_part", name: "64k Storage Part", desc: "MC + PM + Alloy Reinforced + 16k part" },
+            { id: "extradisks:1024k_item_storage_part", name: "1024k Item Storage Part", desc: "MC + Atomic Alloy + Source Gem Block" },
+            { id: "extradisks:4096k_item_storage_part", name: "4096k Item Storage Part", desc: "Sequenced Assembly 5 loops + Fusion Matrix" },
+            { id: "extradisks:infinite_item_storage_part", name: "Infinite Item Storage Part", desc: "MC 5x5 APEX + Fusion Core + Rune Matrix + Nether Star" }
+        ]
+    },
+    {
+        category: "17. Flux Networks",
+        items: [
+            { id: "fluxnetworks:flux_controller", name: "Flux Controller", desc: "MC + Source Gem Block + Ender Eye + Atomic Alloy + PM" },
+            { id: "fluxnetworks:basic_flux_storage", name: "Basic Flux Storage", desc: "+ Brass Casing + Flux Core + Heavy Plate + Steel" },
+            { id: "fluxnetworks:gargantuan_flux_storage", name: "Gargantuan Flux Storage", desc: "MC 5x5 APEX + Fusion Matrix + Atomic Alloy + Source Gem Block" }
+        ]
+    },
+    {
+        category: "18. Ars Nouveau",
+        items: [
+            { id: "ars_nouveau:source_jar", name: "Source Jar", desc: "Glass + Source Gem + Brass" },
+            { id: "ars_nouveau:imbuement_chamber", name: "Imbuement Chamber", desc: "TFMG Steel + Source Gem Block + Gold Sheet" },
+            { id: "ars_nouveau:relay", name: "Source Relay", desc: "+ Gold Sheet + Amethyst + Mek Alloy" },
+            { id: "ars_nouveau:enchanting_apparatus", name: "Enchanting Apparatus", desc: "MC 5x5 + PM + Gold Sheet + Archwood + Source Gems" },
+            { id: "ars_nouveau:storage_lectern", name: "Storage Lectern", desc: "MC 5x5 APEX : 4 Arcane Circuit + 4 Rune Matrix + 4 Ethereal Alloy + 4 Fusion Matrix + Industrial Heart" },
+            { id: "ars_nouveau:novice_spell_book", name: "Novice Spell Book", desc: "+ Gold Sheet + Leather" },
+            { id: "ars_nouveau:apprentice_spell_book", name: "Apprentice Spell Book", desc: "+ Magebloom + Arcane Circuit + Source Gem Block + PM" },
+            { id: "ars_nouveau:archmage_spell_book", name: "Archmage Spell Book", desc: "MC 3x3 + Rune Matrix" },
+            { id: "ars_nouveau:enchanters_sword", name: "Enchanter's Sword", desc: "+ Source Gem Block + Breeze Rod" },
+            { id: "ars_nouveau:enchanters_shield", name: "Enchanter's Shield", desc: "+ Ethereal Alloy + PM" },
+            { id: "ars_nouveau:enchanters_mirror", name: "Enchanter's Mirror", desc: "+ Rune Matrix + PM + Ender Eye" },
+            { id: "ars_nouveau:mob_jar", name: "Mob Jar", desc: "+ Ethereal Alloy + Brass Casing" },
+            { id: "ars_nouveau:alteration_table", name: "Alteration Table", desc: "+ Rune Matrix + Magebloom + Archwood" },
+            { id: "ars_nouveau:agronomic_sourcelink", name: "Agronomic Sourcelink", desc: "+ Source Gem Block + Archwood + Brass Casing" },
+            { id: "ars_nouveau:scribes_table", name: "Scribes Table", desc: "+ Cogwheel" },
+            { id: "ars_nouveau:wand", name: "Wand", desc: "+ Brass + Gold Sheet" }
+        ]
+    },
+    {
+        category: "19. Iron's Spellbooks",
+        items: [
+            { id: "irons_spellbooks:inscription_table", name: "Inscription Table", desc: "+ Source Gem + Gold Sheet + Archwood" },
+            { id: "irons_spellbooks:scroll_forge", name: "Scroll Forge", desc: "+ Source Gem + Gold Sheet + Mek Alloy + Obsidian" },
+            { id: "irons_spellbooks:arcane_anvil", name: "Arcane Anvil", desc: "MC + TFMG Steel + Brass Casing" },
+            { id: "irons_spellbooks:alchemist_cauldron", name: "Alchemist Cauldron", desc: "TFMG Steel (pas iron)" },
+            { id: "irons_spellbooks:netherite_spell_book", name: "Netherite Spell Book", desc: "MC + Rune Matrix + Atomic Alloy + Diamond Spell Book" },
+            { id: "irons_spellbooks:dragonskin_spell_book", name: "Dragonskin Spell Book", desc: "+ Source Gem Block + Rune Matrix" },
+            { id: "irons_spellbooks:archevoker_helmet", name: "Archevoker Helmet", desc: "arcane_ingot → Ethereal Alloy" },
+            { id: "irons_spellbooks:archevoker_chestplate", name: "Archevoker Chestplate", desc: "arcane_ingot → Ethereal Alloy" },
+            { id: "irons_spellbooks:archevoker_leggings", name: "Archevoker Leggings", desc: "arcane_ingot → Ethereal Alloy" },
+            { id: "irons_spellbooks:archevoker_boots", name: "Archevoker Boots", desc: "arcane_ingot → Ethereal Alloy" }
+        ]
+    },
+    {
+        category: "20. Occultism",
+        items: [
+            { id: "occultism:golden_sacrificial_bowl", name: "Golden Sacrificial Bowl", desc: "+ Gold Sheet + Source Gem + Gold Block + PM" },
+            { id: "occultism:sacrificial_bowl", name: "Sacrificial Bowl", desc: "+ Gold Sheet + Source Gem + Brass" },
+            { id: "occultism:chalk_white_impure", name: "Impure White Chalk", desc: "+ Magebloom + Bone Meal + Calcite" },
+            { id: "occultism:large_candle_white", name: "Large White Candle", desc: "+ Magebloom (pas regular materials)" },
+            { id: "occultism:spirit_fire", name: "Spirit Fire", desc: "+ Source Gem + Soul Sand + Flint & Steel" },
+            { id: "occultism:divination_rod", name: "Divination Rod", desc: "+ Gold Sheet + Arcane Circuit" },
+            { id: "occultism:infused_pickaxe", name: "Infused Pickaxe", desc: "iron_ingot → Ethereal Alloy" },
+            { id: "occultism:otherworld_goggles", name: "Otherworld Goggles", desc: "+ Ethereal Alloy + Source Gem + Obsidian" }
+        ]
+    },
+    {
+        category: "21. Apotheosis",
+        items: [
+            { id: "apotheosis:reforging_table", name: "Reforging Table", desc: "+ Netherite Scrap + Diamond Block + Gold Sheet" },
+            { id: "apotheosis:simple_reforging_table", name: "Simple Reforging Table", desc: "+ Iron Sheet + Anvil" },
+            { id: "apotheosis:salvaging_table", name: "Salvaging Table", desc: "+ Iron Sheet + Lava + Breeze Rod" },
+            { id: "apotheosis:gem_cutting_table", name: "Gem Cutting Table", desc: "+ Shears + Amethyst + Stonecutter" },
+            { id: "apotheosis:sigil_of_socketing", name: "Sigil of Socketing", desc: "+ Rare Material + Rune Matrix + PM" },
+            { id: "apotheosis:sigil_of_supremacy", name: "Sigil of Supremacy", desc: "MC 5x5 APEX : 4 Nether Star + 8 Arcane Circuit + 4 Rune Matrix + 4 Ethereal Alloy + 2 Fusion Matrix + 2 Industrial Heart + 1 Mythic Material" },
+            { id: "apotheosis:potion_charm", name: "Potion Charm", desc: "HSH/PRP/HTH : 4 HDPE Sheet + Rune Matrix + 2 Potions + Source Gem + Ghast Tear" }
+        ]
+    },
+    {
+        category: "22. Aquaculture — Neptunium",
+        items: [
+            { id: "aquaculture:neptunium_sword", name: "Neptunium Sword", desc: "+ Breeze Rod" },
+            { id: "aquaculture:neptunium_pickaxe", name: "Neptunium Pickaxe", desc: "+ Breeze Rod" },
+            { id: "aquaculture:neptunium_axe", name: "Neptunium Axe", desc: "+ Breeze Rod" },
+            { id: "aquaculture:neptunium_shovel", name: "Neptunium Shovel", desc: "+ Breeze Rod" },
+            { id: "aquaculture:neptunium_hoe", name: "Neptunium Hoe", desc: "+ Breeze Rod" },
+            { id: "aquaculture:neptunium_helmet", name: "Neptunium Helmet", desc: "+ Source Gem" },
+            { id: "aquaculture:neptunium_chestplate", name: "Neptunium Chestplate", desc: "+ Source Gem" },
+            { id: "aquaculture:neptunium_leggings", name: "Neptunium Leggings", desc: "+ Source Gem" },
+            { id: "aquaculture:neptunium_boots", name: "Neptunium Boots", desc: "+ Source Gem" }
+        ]
+    },
+    {
+        category: "23. Artifacts",
+        items: [
+            { id: "artifacts:crystal_heart", name: "Crystal Heart", desc: "+ Amethyst + Iron Sheet + Source Gem" },
+            { id: "artifacts:flame_pendant", name: "Flame Pendant", desc: "+ Gold Sheet + Blaze Rod + Source Gem + String" },
+            { id: "artifacts:night_vision_goggles", name: "Night Vision Goggles", desc: "+ Gold Sheet + Sculk Shrieker + Source Gem" },
+            { id: "artifacts:running_shoes", name: "Running Shoes", desc: "+ Rabbit Foot + Breeze Rod" },
+            { id: "artifacts:power_glove", name: "Power Glove", desc: "+ PM + Iron Block + Breeze Rod + Leather" },
+            { id: "artifacts:cross_necklace", name: "Cross Necklace", desc: "+ Gold Sheet + Netherite Scrap + Source Gem Block + Ender Pearl" }
+        ]
+    },
+    {
+        category: "24. Cross-Mod Bridges — Items Arcadia custom",
+        items: [
+            { id: "arcadia:arcane_circuit", name: "Arcane Circuit", desc: "MEDIUM bridge (Create + TFMG + Mek + Ars). Mixing heated : 2 PM + 2 Source Gem + 2 Transistor + 1 Mek Alloy Infused + 500mB Creosote" },
+            { id: "arcadia:ethereal_alloy", name: "Ethereal Alloy", desc: "HARD bridge (Ars + Mek + Occult + Create). Mixing heated : 4 Source Gem + 2 Alloy Reinforced + 1 Spirit Attuned Gem + 2 Brass Sheet + 1000mB Lava" },
+            { id: "arcadia:industrial_heart", name: "Industrial Heart", desc: "HARD bridge (Create + TFMG + Mek + IE). Sequenced Assembly 4 loops sur Heavy Plate" },
+            { id: "arcadia:rune_matrix", name: "Rune Matrix", desc: "ENDGAME bridge (Ars + Occult + Create + Apotheosis). MC 5x5 + Source Gem Block + Magebloom + Arcane Circuit + Rare Material + Echo Shard" }
+        ]
+    },
+    {
+        category: "25. Arcadia Fusion Core Chain — Tier 0 → Apex",
+        items: [
+            { id: "arcadia:alloy_blend", name: "Alloy Blend (T0)", desc: "Create Mixing heated" },
+            { id: "arcadia:diamond_matrix", name: "Compressed Diamond Matrix (T0)", desc: "Create Mixing" },
+            { id: "arcadia:infused_steel", name: "Infused Steel Bar (T0)", desc: "Create Mixing" },
+            { id: "arcadia:nether_concentrate", name: "Nether Concentrate (T0)", desc: "Create Mixing" },
+            { id: "arcadia:energized_dust", name: "Energized Dust (T0)", desc: "Create Mixing" },
+            { id: "arcadia:wiring_bundle", name: "Wiring Bundle (T0)", desc: "Create Mixing" },
+            { id: "arcadia:refined_alloy_ingot", name: "Refined Alloy Ingot (T1)", desc: "Mixing + MC 5x5" },
+            { id: "arcadia:hardened_steel_compound", name: "Hardened Steel Compound (T1)", desc: "Mixing + MC" },
+            { id: "arcadia:energized_crystal", name: "Energized Crystal (T1)", desc: "Mixing + MC" },
+            { id: "arcadia:treated_composite_plate", name: "Treated Composite Plate (T1)", desc: "Mixing + MC" },
+            { id: "arcadia:quantum_circuit", name: "Quantum Circuit (T2)", desc: "MC 5x5" },
+            { id: "arcadia:plasma_cell", name: "Plasma Cell (T2)", desc: "Sequenced Assembly 8 loops" },
+            { id: "arcadia:reinforced_casing", name: "Reinforced Casing (T2)", desc: "Sequenced Assembly 8 loops" },
+            { id: "arcadia:thermal_conductor", name: "Thermal Conductor (T2)", desc: "Create Mixing" },
+            { id: "arcadia:fusion_matrix", name: "Fusion Matrix (T3)", desc: "MC 7x7" },
+            { id: "arcadia:containment_field_generator", name: "Containment Field Generator (T3)", desc: "MC 7x7" },
+            { id: "arcadia:neutron_reflector", name: "Neutron Reflector (T3)", desc: "Sequenced Assembly 10 loops" },
+            { id: "arcadia:fusion_core", name: "Fusion Core (APEX)", desc: "MC 9x9 — ~100K Iron + 50K Diamonds + 20K Gold + 10K Netherite" }
+        ]
+    },
+    {
+        category: "26. Arcadia — Keys (tickets web)",
+        items: [
+            { id: "arcadia:basic_key", name: "Basic Key", desc: "Lore : 'A humble ticket, forged for the many. Redeem on the Arcadia website.'" },
+            { id: "arcadia:common_key", name: "Common Key", desc: "Lore : Common tier" },
+            { id: "arcadia:rare_key", name: "Rare Key", desc: "Lore : Rare tier" },
+            { id: "arcadia:legendary_key", name: "Legendary Key", desc: "Lore : Legendary tier" },
+            { id: "arcadia:arcadia_key", name: "Arcadia Key", desc: "Lore : Ultimate ticket — Epic rarity + glow" },
+            { id: "arcadia:vote_key", name: "Vote Key", desc: "Lore : Granted to voters" },
+            { id: "arcadia:token_casino", name: "Casino Token", desc: "Lore : Spend at in-game casino" }
+        ]
+    },
+    {
+        category: "27. Arcadia — Adept Armor (cultist)",
+        items: [
+            { id: "arcadia:adept_helmet", name: "Adept's Hood", desc: "Purple cultist armor" },
+            { id: "arcadia:adept_chestplate", name: "Adept's Robe", desc: "Purple cultist armor" },
+            { id: "arcadia:adept_leggings", name: "Adept's Vestments", desc: "Purple cultist armor" },
+            { id: "arcadia:adept_boots", name: "Adept's Wrappings", desc: "Purple cultist armor" }
+        ]
+    },
+    {
+        category: "28. Arcadia — Heretic Armor (rebel)",
+        items: [
+            { id: "arcadia:heretic_helmet", name: "Heretic Helmet", desc: "Red/bone armor" },
+            { id: "arcadia:heretic_chestplate", name: "Heretic Chestplate", desc: "Red/bone armor" },
+            { id: "arcadia:heretic_leggings", name: "Heretic Leggings", desc: "Red/bone armor" },
+            { id: "arcadia:heretic_boots", name: "Heretic Boots", desc: "Red/bone armor" }
+        ]
+    },
+    {
+        category: "29. Arcadia — Adept Unique Items (10)",
+        items: [
+            { id: "arcadia:adept_grimoire", name: "Adept Grimoire", desc: "Purple book with pentagram" },
+            { id: "arcadia:adept_pendant", name: "Adept Pendant", desc: "Amethyst pendant" },
+            { id: "arcadia:adept_candle", name: "Adept Candle", desc: "Purple candle" },
+            { id: "arcadia:adept_incense", name: "Adept Incense", desc: "Purple incense sticks" },
+            { id: "arcadia:adept_staff", name: "Adept Staff", desc: "Wooden staff + purple gem" },
+            { id: "arcadia:adept_seal", name: "Adept Seal", desc: "Wax seal sigil" },
+            { id: "arcadia:adept_chalice", name: "Adept Chalice", desc: "Ritual cup" },
+            { id: "arcadia:adept_orb", name: "Adept Orb", desc: "Floating glowing orb" },
+            { id: "arcadia:adept_scroll", name: "Adept Scroll", desc: "Parchment + red ribbon" },
+            { id: "arcadia:adept_relic", name: "Adept Relic", desc: "Ornate diamond frame" }
+        ]
+    },
+    {
+        category: "30. Arcadia — Heretic Unique Items (10)",
+        items: [
+            { id: "arcadia:heretic_tome", name: "Heretic Tome", desc: "Red book with skull" },
+            { id: "arcadia:heretic_blood_vial", name: "Heretic Blood Vial", desc: "Red blood vial" },
+            { id: "arcadia:heretic_dagger", name: "Heretic Dagger", desc: "Steel dagger + pommel gem" },
+            { id: "arcadia:heretic_chain", name: "Heretic Chain", desc: "Linked chain diagonal" },
+            { id: "arcadia:heretic_skull_totem", name: "Heretic Skull Totem", desc: "Bone skull on stick" },
+            { id: "arcadia:heretic_icon", name: "Heretic Icon", desc: "Framed bust" },
+            { id: "arcadia:heretic_crystal", name: "Heretic Crystal", desc: "Tall red crystal" },
+            { id: "arcadia:heretic_bone_charm", name: "Heretic Bone Charm", desc: "Crossbone charm" },
+            { id: "arcadia:heretic_poison_flask", name: "Heretic Poison Flask", desc: "Green poison flask" },
+            { id: "arcadia:heretic_mark", name: "Heretic Mark", desc: "Branded leather sigil" }
+        ]
+    },
+    {
+        category: "31. Arcadia — Music Discs (20)",
+        items: [
+            { id: "arcadia:music_disc_mike_le_loulou", name: "Music Disc: Mike le Loulou", desc: "Green wolf theme" },
+            { id: "arcadia:music_disc_vyrriox_trois_femmes", name: "Music Disc: Vyrriox's Dilemma", desc: "Purple/pink" },
+            { id: "arcadia:music_disc_vyrriox_sac_a_gros_pt1", name: "Music Disc: Miser's Burden Pt.1", desc: "Gold" },
+            { id: "arcadia:music_disc_vyrriox_sac_a_gros_pt2", name: "Music Disc: Miser's Burden Pt.2", desc: "Gold dark" },
+            { id: "arcadia:music_disc_vyrriox_patee", name: "Music Disc: Feast of Fortune", desc: "Orange" },
+            { id: "arcadia:music_disc_vyrriox_la_naine_pt1", name: "Music Disc: Odyssey Pt.1", desc: "Cyan" },
+            { id: "arcadia:music_disc_vyrriox_la_naine_pt2", name: "Music Disc: Odyssey Pt.2", desc: "Cyan mid" },
+            { id: "arcadia:music_disc_vyrriox_la_naine_pt3", name: "Music Disc: Odyssey Pt.3", desc: "Cyan dark" },
+            { id: "arcadia:music_disc_vyrriox_la_femme_de_joie", name: "Music Disc: Star of Joy", desc: "Pink" },
+            { id: "arcadia:music_disc_peter_le_frein_pt1", name: "Music Disc: Peter's Trumpet Pt.1", desc: "Brass" },
+            { id: "arcadia:music_disc_peter_le_frein_pt2", name: "Music Disc: Peter's Trumpet Pt.2", desc: "Brass" },
+            { id: "arcadia:music_disc_peter_le_frein_pt3", name: "Music Disc: Peter's Trumpet Pt.3", desc: "Brass" },
+            { id: "arcadia:music_disc_peter_le_frein_pt4", name: "Music Disc: Peter's Trumpet Pt.4", desc: "Brass" },
+            { id: "arcadia:music_disc_peter_le_frein_pt5", name: "Music Disc: Peter's Trumpet Pt.5", desc: "Brass" },
+            { id: "arcadia:music_disc_boit_ton_picher", name: "Music Disc: Drink Your Pitcher", desc: "Amber beer" },
+            { id: "arcadia:music_disc_dans_la_tavern_lulu", name: "Music Disc: In Lulu's Tavern", desc: "Red wood" },
+            { id: "arcadia:music_disc_janette", name: "Music Disc: Janette", desc: "Soft pink" },
+            { id: "arcadia:music_disc_la_boulette_pt1", name: "Music Disc: The Meatball Pt.1", desc: "Brown" },
+            { id: "arcadia:music_disc_la_boulette_pt2", name: "Music Disc: The Meatball Pt.2", desc: "Brown" },
+            { id: "arcadia:music_disc_au_pactole", name: "Music Disc: Jackpot", desc: "Bright gold glitter" }
+        ]
+    },
+    {
+        category: "32. Flight Potions (Apothic Attributes)",
+        items: [
+            { id: "apothic_attributes:flying", name: "Potion of Flying (creative flight)", desc: "Levitation + Dragon's Breath (GATE : Ender Dragon kill)" },
+            { id: "apothic_attributes:long_flying", name: "Long Potion of Flying", desc: "Flying + Redstone Block" },
+            { id: "apothic_attributes:extra_long_flying", name: "Extra Long Potion of Flying", desc: "Long Flying + Nether Star (GATE : Wither kill)" }
+        ]
+    },
+    {
+        category: "33. Mekanism HDPE (endgame)",
+        items: [
+            { id: "mekanism:hdpe_sheet", name: "HDPE Sheet", desc: "Sequenced Assembly 5 loops x 6 steps : Rod + Brass + Heavy Plate + Alloy Reinforced + Molten Steel 500mB + Press" },
+            { id: "mekanism:hdpe_rod", name: "HDPE Rod", desc: "4 Pellets + 1 Brass Sheet (pattern 2x3)" }
+        ]
+    },
+    {
+        category: "34. Items bannis — NE DOIVENT PAS avoir de craft",
+        items: [
+            { id: "mekanism:jetpack", name: "Mekanism Jetpack", desc: "BANNI — aucun craft dispo" },
+            { id: "mekanism:mekasuit_helmet", name: "Mekasuit Helmet", desc: "BANNI" },
+            { id: "mekanism:mekasuit_bodyarmor", name: "Mekasuit Chestplate", desc: "BANNI" },
+            { id: "mekanism:meka_tool", name: "Meka-Tool", desc: "BANNI" },
+            { id: "mekanism:atomic_disassembler", name: "Atomic Disassembler", desc: "BANNI" },
+            { id: "create_jetpack:jetpack", name: "Create Jetpack", desc: "BANNI" },
+            { id: "create_jetpack:netherite_jetpack", name: "Create Netherite Jetpack", desc: "BANNI" },
+            { id: "create:copper_backtank", name: "Copper Backtank", desc: "BANNI (air exploit)" },
+            { id: "create:netherite_backtank", name: "Netherite Backtank", desc: "BANNI" },
+            { id: "ars_nouveau:planarium", name: "Planarium", desc: "BANNI (farm abuse)" },
+            { id: "computercraft:turtle_normal", name: "CC Turtle", desc: "BANNI (server wrecker)" },
+            { id: "computercraft:turtle_advanced", name: "CC Advanced Turtle", desc: "BANNI" },
+            { id: "easy_villagers:iron_farm", name: "Easy Villagers Iron Farm", desc: "BANNI (OP)" },
+            { id: "occultism:storage_controller", name: "Occultism Storage Controller", desc: "BANNI (conflict RS)" },
+            { id: "occultism:iesnium_anvil", name: "Iesnium Anvil", desc: "BANNI" },
+            { id: "sophisticatedbackpacks:infinity_upgrade", name: "Infinity Upgrade", desc: "BANNI (infinite storage)" },
+            { id: "supplementaries:cannon_boat_oak", name: "Cannon Boat Oak", desc: "BANNI (server crash on fire)" }
+        ]
+    },
+    {
+        category: "35. Mobs bannis des spawners Apotheosis",
+        items: [
+            { id: "animalgarden_alligatorgar:alligatorgar", name: "Alligator Gar", desc: "Spawn egg doit être refusé sur spawner" },
+            { id: "animalgarden_bullshark:bullshark", name: "Bull Shark", desc: "Spawn egg doit être refusé" },
+            { id: "animalgarden_commonraven:commonraven", name: "Common Raven", desc: "Spawn egg doit être refusé" },
+            { id: "animalgarden_fennecfox:fennecfox", name: "Fennec Fox", desc: "Spawn egg doit être refusé" },
+            { id: "animalgarden_manatee:manatee", name: "Manatee", desc: "Spawn egg doit être refusé" },
+            { id: "animalgarden_meerkat:meerkat", name: "Meerkat", desc: "Spawn egg doit être refusé" },
+            { id: "animalgarden_mouse:mouse", name: "Mouse", desc: "Spawn egg doit être refusé" },
+            { id: "animalgarden_owl:owl", name: "Owl", desc: "Spawn egg doit être refusé" },
+            { id: "animalgarden_porcupine:porcupine", name: "Porcupine", desc: "Spawn egg doit être refusé" },
+            { id: "animalgarden_prairiedog:prairiedog", name: "Prairie Dog", desc: "Spawn egg doit être refusé" },
+            { id: "animalgarden_redpanda:redpanda", name: "Red Panda", desc: "Spawn egg doit être refusé" },
+            { id: "animalgarden_redpanda:himalayan_redpanda", name: "Himalayan Red Panda", desc: "Spawn egg doit être refusé" },
+            { id: "animalgarden_seaotter:seaotter", name: "Sea Otter", desc: "Spawn egg doit être refusé" },
+            { id: "animalgarden_spottedhyena:spottedhyena", name: "Spotted Hyena", desc: "Spawn egg doit être refusé" },
+            { id: "animalgarden_sugarglider:sugarglider", name: "Sugar Glider", desc: "Spawn egg doit être refusé" },
+            { id: "animalgarden_westerngorilla:westerngorilla", name: "Western Gorilla", desc: "Spawn egg doit être refusé" },
+            { id: "animalgarden_whiterhinoceros:whiterhinoceros", name: "White Rhinoceros", desc: "Spawn egg doit être refusé" },
+            { id: "minecraft:turtle", name: "Turtle (vanilla)", desc: "Spawn egg doit être refusé" },
+            { id: "aquaculture:arrau_turtle", name: "Arrau Turtle", desc: "Spawn egg doit être refusé" },
+            { id: "aquaculture:box_turtle", name: "Box Turtle", desc: "Spawn egg doit être refusé" },
+            { id: "aquaculture:starshell_turtle", name: "Starshell Turtle", desc: "Spawn egg doit être refusé" },
+            { id: "twilightforest:naga", name: "Naga (Twilight Forest)", desc: "BOSS — spawn egg doit être refusé" },
+            { id: "twilightforest:lich", name: "Lich", desc: "BOSS — spawn egg doit être refusé" },
+            { id: "twilightforest:minoshroom", name: "Minoshroom", desc: "BOSS — spawn egg doit être refusé" },
+            { id: "twilightforest:hydra", name: "Hydra", desc: "BOSS — spawn egg doit être refusé" },
+            { id: "twilightforest:knight_phantom", name: "Knight Phantom", desc: "BOSS — spawn egg doit être refusé" },
+            { id: "twilightforest:ur_ghast", name: "Ur-Ghast", desc: "BOSS — spawn egg doit être refusé" },
+            { id: "twilightforest:yeti", name: "Alpha Yeti", desc: "BOSS — spawn egg doit être refusé" },
+            { id: "twilightforest:snow_queen", name: "Snow Queen", desc: "BOSS — spawn egg doit être refusé" },
+            { id: "twilightforest:plateau_boss", name: "Plateau Boss", desc: "BOSS — spawn egg doit être refusé" },
+            { id: "minecraft:ender_dragon", name: "Ender Dragon", desc: "BOSS vanilla — spawn egg doit être refusé" },
+            { id: "minecraft:wither", name: "Wither", desc: "BOSS vanilla — spawn egg doit être refusé" },
+            { id: "knightquest:netherman", name: "Netherman — Architect of Chaos", desc: "BOSS — spawn egg doit être refusé" },
+            { id: "occultism:possessed_warden", name: "Possessed Warden", desc: "BOSS — spawn egg doit être refusé" },
+            { id: "occultism:possessed_elder_guardian", name: "Possessed Elder Guardian", desc: "BOSS — spawn egg doit être refusé" },
+            { id: "irons_spellbooks:pyromancer", name: "Pyromancer", desc: "BOSS — spawn egg doit être refusé" },
+            { id: "mowziesmobs:naga", name: "Naga (Mowzie's Mobs)", desc: "BOSS — spawn egg doit être refusé" }
+        ]
+    },
+    {
+        category: "36. KubeJS scripts — vérification logs serveur",
+        items: [
+            { id: "script:recipe_overhaul.js", name: "recipe_overhaul.js", desc: "Log attendu : '[Arcadia V2] Harder Recipes Script (Fin) Loaded!' — 0 erreur" },
+            { id: "script:recipe_remover.js", name: "recipe_remover.js", desc: "Log attendu : '[Arcadia V2] Removed recipes for 151/151 banned items'" },
+            { id: "script:fusion_core_chain.js", name: "fusion_core_chain.js", desc: "Toute la chaîne Fusion Core doit loader sans erreur" },
+            { id: "script:item_entity_tags.js", name: "item_entity_tags.js", desc: "Log : '[Arcadia V2] Global Tags Refined'" },
+            { id: "script:loot_table_nerfs.js", name: "loot_table_nerfs.js", desc: "Log : '[Arcadia V2] Loot Nerf Applied'" },
+            { id: "script:precision_mechanism_fix.js", name: "precision_mechanism_fix.js", desc: "Fix Create 6.0.10 bug #10203" },
+            { id: "script:create_things_and_misc_fix.js", name: "create_things_and_misc_fix.js", desc: "Log : 'X recipes rebuilt, Y skipped'" },
+            { id: "script:netherite_sequenced_assembly.js", name: "netherite_sequenced_assembly.js", desc: "Décrafting 9 ingots" },
+            { id: "script:arcadia_custom_crafts.js", name: "arcadia_custom_crafts.js", desc: "ATM recipe" },
+            { id: "script:tfmg_recipe_tweaks.js", name: "tfmg_recipe_tweaks.js", desc: "TFMG custom recipes" },
+            { id: "script:basin_casting_fix.js", name: "basin_casting_fix.js", desc: "Log : 'Capped X casting recipes'" },
+            { id: "script:item_stat_tweaks.js", name: "item_stat_tweaks.js", desc: "Diesel Generators Hammer durability" },
+            { id: "script:arcadia_item_tooltips.js", name: "arcadia_item_tooltips.js (client)", desc: "Tooltips sur keys + fusion items" },
+            { id: "script:item_registry.js", name: "item_registry.js (startup)", desc: "Tous les items custom enregistrés" }
+        ]
+    },
+    {
+        category: "37. Apotheosis — Rarity & Balance",
+        items: [
+            { id: "rarity:haven", name: "Haven tier — drop rates", desc: "780 Common, 210 Uncommon, 10 Rare, 0 Epic, 0 Mythic" },
+            { id: "rarity:frontier", name: "Frontier tier", desc: "450 Common, 500 Uncommon, 50 Rare, 0 Epic, 0 Mythic" },
+            { id: "rarity:ascent", name: "Ascent tier", desc: "220 Common, 500 Uncommon, 250 Rare, 30 Epic, 0 Mythic" },
+            { id: "rarity:summit", name: "Summit tier", desc: "60 Common, 350 Uncommon, 400 Rare, 180 Epic, 10 Mythic" },
+            { id: "rarity:pinnacle", name: "Pinnacle tier", desc: "0 Common, 100 Uncommon, 350 Rare, 450 Epic, 100 Mythic" },
+            { id: "affix:winged", name: "Winged affix (creative flight)", desc: "Weight 3 (était 25), mythic only" },
+            { id: "cfg:charms_curios_only", name: "Charms restrict to Curios", desc: "true — charms ne fonctionnent que dans slot Curios" },
+            { id: "cfg:upgrade_sigil_cost", name: "Upgrade Sigil Cost", desc: "10 (était 5)" },
+            { id: "cfg:upgrade_level_cost", name: "Upgrade Level XP Cost", desc: "1200 (était 500)" }
+        ]
+    },
+    {
+        category: "38. Loot Table Nerfs (vérifier drops)",
+        items: [
+            { id: "loot:diamond", name: "Diamond drops", desc: "0.5% chance (était ~20%+ selon loot)" },
+            { id: "loot:netherite_ingot", name: "Netherite Ingot drops", desc: "0.01% chance dans coffres/vaults" },
+            { id: "loot:netherite_template", name: "Netherite Template", desc: "Drop normal (non nerfé)" },
+            { id: "loot:artifacts", name: "Artifacts drops", desc: "0% (craft uniquement)" },
+            { id: "loot:sophisticatedbackpacks", name: "Sophisticated Backpacks drops", desc: "15% chance" },
+            { id: "loot:twilightforest", name: "Twilight Forest drops", desc: "20% chance" },
+            { id: "loot:mob_equipment", name: "Mob Equipment", desc: "5% drop rate (nerfé)" }
+        ]
+    },
+    {
+        category: "39. Music Discs — son playback (jukebox)",
+        items: [
+            { id: "sound:mike_le_loulou", name: "Mike le Loulou (Wolf of the Forest)", desc: "Pose sur jukebox, vérifie que le son joue" },
+            { id: "sound:vyrriox_trois_femmes", name: "Vyrriox's Dilemma", desc: "Son doit jouer sur jukebox" },
+            { id: "sound:vyrriox_sac_a_gros_pt1", name: "Miser's Burden Pt.1", desc: "Son doit jouer" },
+            { id: "sound:vyrriox_sac_a_gros_pt2", name: "Miser's Burden Pt.2", desc: "Son doit jouer" },
+            { id: "sound:vyrriox_patee", name: "Feast of Fortune", desc: "Son doit jouer" },
+            { id: "sound:vyrriox_la_naine_pt1", name: "Odyssey Pt.1", desc: "Son doit jouer" },
+            { id: "sound:vyrriox_la_naine_pt2", name: "Odyssey Pt.2", desc: "Son doit jouer" },
+            { id: "sound:vyrriox_la_naine_pt3", name: "Odyssey Pt.3", desc: "Son doit jouer" },
+            { id: "sound:vyrriox_la_femme_de_joie", name: "Star of Joy", desc: "Son doit jouer" },
+            { id: "sound:peter_le_frein_pt1", name: "Peter's Trumpet Pt.1", desc: "Son doit jouer" },
+            { id: "sound:peter_le_frein_pt2", name: "Peter's Trumpet Pt.2", desc: "Son doit jouer" },
+            { id: "sound:peter_le_frein_pt3", name: "Peter's Trumpet Pt.3", desc: "Son doit jouer" },
+            { id: "sound:peter_le_frein_pt4", name: "Peter's Trumpet Pt.4", desc: "Son doit jouer" },
+            { id: "sound:peter_le_frein_pt5", name: "Peter's Trumpet Pt.5", desc: "Son doit jouer" },
+            { id: "sound:boit_ton_picher", name: "Drink Your Pitcher", desc: "Son doit jouer" },
+            { id: "sound:dans_la_tavern_lulu", name: "In Lulu's Tavern", desc: "Son doit jouer" },
+            { id: "sound:janette", name: "Janette", desc: "Son doit jouer" },
+            { id: "sound:la_boulette_pt1", name: "The Meatball Pt.1", desc: "Son doit jouer" },
+            { id: "sound:la_boulette_pt2", name: "The Meatball Pt.2", desc: "Son doit jouer" },
+            { id: "sound:au_pactole", name: "Jackpot", desc: "Son doit jouer" }
+        ]
+    },
+    {
+        category: "40. Mob HP — valeurs absolues (vanilla)",
+        items: [
+            { id: "hp:minecraft:wither", name: "Wither HP", desc: "Doit avoir exactement 500.0 HP (modifié)" },
+            { id: "hp:minecraft:ender_dragon", name: "Ender Dragon HP", desc: "Doit avoir exactement 2000.0 HP" },
+            { id: "hp:minecraft:warden", name: "Warden HP", desc: "Doit avoir exactement 1000.0 HP" }
+        ]
+    },
+    {
+        category: "41. Mob HP — multiplicateurs (bosses modded)",
+        items: [
+            { id: "hp:twilightforest:naga", name: "Naga (Twilight)", desc: "HP × 2.5" },
+            { id: "hp:twilightforest:lich", name: "Lich", desc: "HP × 2.5" },
+            { id: "hp:twilightforest:minoshroom", name: "Minoshroom", desc: "HP × 2.5" },
+            { id: "hp:twilightforest:hydra", name: "Hydra", desc: "HP × 2.5" },
+            { id: "hp:twilightforest:knight_phantom", name: "Knight Phantom", desc: "HP × 2.5" },
+            { id: "hp:twilightforest:ur_ghast", name: "Ur-Ghast", desc: "HP × 2.5" },
+            { id: "hp:twilightforest:alpha_yeti", name: "Alpha Yeti", desc: "HP × 2.5" },
+            { id: "hp:twilightforest:snow_queen", name: "Snow Queen", desc: "HP × 2.5" },
+            { id: "hp:twilight_forest_final_boss:castle_keeper", name: "Castle Keeper", desc: "HP × 8.0 (très dur)" },
+            { id: "hp:aether:slider", name: "Slider (Aether)", desc: "HP × 1.2" },
+            { id: "hp:aether:valkyrie_queen", name: "Valkyrie Queen", desc: "HP × 3.0" },
+            { id: "hp:aether:sun_spirit", name: "Sun Spirit", desc: "HP × 3.0" },
+            { id: "hp:ars_nouveau:wilden_boss", name: "Wilden Boss (Chimera)", desc: "HP × 1.2" },
+            { id: "hp:ars_nouveau:wilden_guardian", name: "Wilden Guardian", desc: "HP × 1.2" },
+            { id: "hp:ars_nouveau:wilden_stalker", name: "Wilden Stalker", desc: "HP × 1.2" },
+            { id: "hp:ars_nouveau:wilden_hunter", name: "Wilden Hunter", desc: "HP × 1.2" },
+            { id: "hp:deeperdarker:shriek_worm", name: "Shriek Worm", desc: "HP × 1.8" },
+            { id: "hp:deeperdarker:stalker", name: "Stalker (Deeper Darker)", desc: "HP × 1.8" },
+            { id: "hp:deeperdarker:sculk_snapper", name: "Sculk Snapper", desc: "HP × 1.8" },
+            { id: "hp:deeperdarker:shattered", name: "Shattered", desc: "HP × 1.8" },
+            { id: "hp:irons_spellbooks:dead_king", name: "Dead King", desc: "HP × 1.9" },
+            { id: "hp:irons_spellbooks:dead_king_corpse", name: "Dead King Corpse", desc: "HP × 1.9" },
+            { id: "hp:irons_spellbooks:archevoker", name: "Archevoker", desc: "HP × 1.9" },
+            { id: "hp:irons_spellbooks:necromancer", name: "Necromancer", desc: "HP × 1.9" },
+            { id: "hp:irons_spellbooks:priest", name: "Priest (Iron's Spellbooks)", desc: "HP × 1.9" },
+            { id: "hp:irons_spellbooks:citadel_keeper", name: "Citadel Keeper", desc: "HP × 1.9" },
+            { id: "hp:mutantmonsters:mutant_creeper", name: "Mutant Creeper", desc: "HP × 1.2" },
+            { id: "hp:mutantmonsters:mutant_zombie", name: "Mutant Zombie", desc: "HP × 1.2" },
+            { id: "hp:mutantmonsters:mutant_skeleton", name: "Mutant Skeleton", desc: "HP × 1.2" },
+            { id: "hp:mutantmonsters:mutant_enderman", name: "Mutant Enderman", desc: "HP × 1.2" },
+            { id: "hp:mutantmonsters:mutant_snow_golem", name: "Mutant Snow Golem", desc: "HP × 1.2" },
+            { id: "hp:mutantmonsters:spider_pig", name: "Spider Pig", desc: "HP × 1.2" },
+            { id: "hp:mowziesmobs:ferrous_wroughtnaut", name: "Ferrous Wroughtnaut", desc: "HP × 4.0 (gros boss)" },
+            { id: "hp:mowziesmobs:frostmaw", name: "Frostmaw", desc: "HP × 4.0" },
+            { id: "hp:mowziesmobs:naga", name: "Naga (Mowzie's)", desc: "HP × 4.0" },
+            { id: "hp:mowziesmobs:umvuthi", name: "Umvuthi", desc: "HP × 4.0" },
+            { id: "hp:knightquest:netherman", name: "Netherman (Knight Quest)", desc: "HP × 1.5" },
+            { id: "hp:knightquest:eldknight", name: "Eld Knight", desc: "HP × 1.5" },
+            { id: "hp:knightquest:ratman", name: "Rat Man", desc: "HP × 1.5" },
+            { id: "hp:knightquest:swampman", name: "Swamp Man", desc: "HP × 1.5" }
+        ]
+    },
+    {
+        category: "42. Caps globaux mobs",
+        items: [
+            { id: "cap:max_health", name: "MAX_HEALTH cap (10000 HP)", desc: "Aucun mob ne doit dépasser 10000 HP" },
+            { id: "cap:max_damage", name: "MAX_DAMAGE cap (50 dmg)", desc: "Aucun mob ne doit faire plus de 50 damage" },
+            { id: "cap:max_armor", name: "MAX_ARMOR cap (50 armor)", desc: "Aucun mob ne doit dépasser 50 armor" },
+            { id: "cap:equipment_drop", name: "Mob equipment drop", desc: "5% max (via mob_damage_nerfs.js)" }
+        ]
+    },
+    {
+        category: "43. Items custom — rendu & tooltips (client)",
+        items: [
+            { id: "visual:basic_key", name: "Basic Key — texture + tooltip", desc: "Sprite clé grise + 3 lignes lore (flavor, 'Redeem on Arcadia website', 'Exchange for common rewards')" },
+            { id: "visual:common_key", name: "Common Key — texture + tooltip", desc: "Sprite clé verte + lore multi-ligne" },
+            { id: "visual:rare_key", name: "Rare Key — texture + tooltip", desc: "Sprite clé bleue + lore" },
+            { id: "visual:legendary_key", name: "Legendary Key — texture + tooltip", desc: "Sprite clé violet + lore" },
+            { id: "visual:arcadia_key", name: "Arcadia Key — texture + glow + tooltip", desc: "Sprite doré avec glow + lore epic" },
+            { id: "visual:vote_key", name: "Vote Key — texture + tooltip", desc: "Sprite cyan + lore" },
+            { id: "visual:token_casino", name: "Casino Token — texture + tooltip", desc: "Sprite jeton or + lore casino" },
+            { id: "visual:fusion_core", name: "Fusion Core — texture + tooltip", desc: "Sprite noyau plasma + 3 lignes tooltip" },
+            { id: "visual:heart_of_arcadia", name: "Heart of Arcadia — texture + glow", desc: "Sprite cœur doré + gemme rouge + lore 'cannot be crafted'" },
+            { id: "visual:arcane_circuit", name: "Arcane Circuit (bridge)", desc: "Sprite PCB violet avec chip doré + glow" },
+            { id: "visual:ethereal_alloy", name: "Ethereal Alloy (bridge)", desc: "Sprite ingot violet spectrale + wisps teal" },
+            { id: "visual:industrial_heart", name: "Industrial Heart (bridge)", desc: "Sprite cœur mécanique acier/brass + core rouge" },
+            { id: "visual:rune_matrix", name: "Rune Matrix (bridge)", desc: "Sprite grille 3x3 runes violettes + amethyst center" },
+            { id: "visual:adept_grimoire", name: "Adept Grimoire", desc: "Livre violet avec pentagramme doré" },
+            { id: "visual:heretic_tome", name: "Heretic Tome", desc: "Livre rouge avec crâne" },
+            { id: "visual:all_discs_64x64", name: "Music discs (20) — textures vinyles", desc: "Tous doivent avoir une texture vinyle colorée 64x64 (pas la texture rose)" },
+            { id: "visual:disc_spin_jukebox", name: "Disc qui tourne sur jukebox", desc: "Quand le disque joue, il doit tourner visuellement sur la jukebox (mod Amendments) sans texture rose" }
+        ]
+    },
+    {
+        category: "44. Localization — FR vs EN (client)",
+        items: [
+            { id: "lang:items_fr", name: "Noms items FR", desc: "Avec client en Français : items arcadia ont nom traduit (Clé basique, Ticket, etc.)" },
+            { id: "lang:items_en", name: "Noms items EN", desc: "Avec client en English : items ont nom anglais (Basic Key, etc.)" },
+            { id: "lang:tooltips_fr", name: "Tooltips FR", desc: "Lore multi-ligne en français pour clés + fusion chain" },
+            { id: "lang:tooltips_en", name: "Tooltips EN", desc: "Lore multi-ligne en anglais" },
+            { id: "lang:ftbquests_fr", name: "FTB Quests FR", desc: "Toutes quêtes affichent en français avec client FR" },
+            { id: "lang:ftbquests_en_us", name: "FTB Quests en_us", desc: "Toutes quêtes affichent en anglais avec client en_us" },
+            { id: "lang:ftbquests_en_gb", name: "FTB Quests en_gb (UK)", desc: "Client British English affiche aussi en anglais (pas français)" },
+            { id: "lang:fallback", name: "Fallback locales autres", desc: "Client de_de/ja_jp/nl_nl affiche en anglais (pas français)" }
+        ]
+    },
+    {
+        category: "45. Starterkit — 10 kits bilingues",
+        items: [
+            { id: "kit:Bucheron", name: "Kit Bûcheron (FR)", desc: "Stone Axe + Wooden Sword + 16 Bread + FTB Book" },
+            { id: "kit:Combattant", name: "Kit Combattant (FR)", desc: "Wooden Sword + Shield + 16 Bread" },
+            { id: "kit:Explorateur", name: "Kit Explorateur (FR)", desc: "Wooden Sword + 32 Bread + Compass" },
+            { id: "kit:Ingenieur", name: "Kit Ingénieur (FR)", desc: "Wooden Sword + Wrench + Water Bucket + Crafting Table + 16 Bread" },
+            { id: "kit:Mineur", name: "Kit Mineur (FR)", desc: "Wooden Sword + Stone Pickaxe + 16 Bread" },
+            { id: "kit:Woodcutter", name: "Kit Woodcutter (EN)", desc: "Identique Bûcheron, nom anglais" },
+            { id: "kit:Fighter", name: "Kit Fighter (EN)", desc: "Identique Combattant, nom anglais" },
+            { id: "kit:Explorer", name: "Kit Explorer (EN)", desc: "Identique Explorateur, nom anglais" },
+            { id: "kit:Engineer", name: "Kit Engineer (EN)", desc: "Identique Ingénieur, nom anglais" },
+            { id: "kit:Miner", name: "Kit Miner (EN)", desc: "Identique Mineur, nom anglais" },
+            { id: "kit:choice_on_join", name: "Choix sur première connexion", desc: "Nouveau joueur doit voir les 10 kits et pouvoir en choisir un" }
+        ]
+    }
+];
+
+// ============================================================
+// STATE
+// ============================================================
+const STATE_KEY = 'arcadia_v2_test_state';
+const STATUSES = {
+    'untested': { label: 'Non testé', badge: 'untested' },
+    'ok': { label: 'OK', badge: 'ok' },
+    'missing': { label: 'Manquant', badge: 'missing' },
+    'hard': { label: 'Trop difficile', badge: 'hard' },
+    'bug': { label: 'Bug', badge: 'bug' }
+};
+
+let state = loadState();
+
+function loadState() {
+    try {
+        return JSON.parse(localStorage.getItem(STATE_KEY)) || {};
+    } catch { return {}; }
+}
+
+function saveState() {
+    localStorage.setItem(STATE_KEY, JSON.stringify(state));
+}
+
+function getItemState(id) {
+    return state[id] || { status: 'untested', comment: '' };
+}
+
+function setItemState(id, status, comment) {
+    state[id] = { status, comment };
+    saveState();
+    updateProgress();
+    applyFilters();
+}
+
+// ============================================================
+// RENDER
+// ============================================================
+function render() {
+    const content = document.getElementById('content');
+    content.innerHTML = DATA.map((cat, catIdx) => {
+        const itemsHTML = cat.items.map(it => {
+            const st = getItemState(it.id);
+            const statusOpts = Object.keys(STATUSES).map(k =>
+                `<option value="${k}" ${st.status === k ? 'selected' : ''}>${STATUSES[k].label}</option>`
+            ).join('');
+            return `
+                <div class="item status-${st.status}" data-id="${it.id}" data-status="${st.status}" data-has-comment="${st.comment ? '1' : '0'}">
+                    <span class="badge ${STATUSES[st.status].badge}">${STATUSES[st.status].label}</span>
+                    <div>
+                        <div class="name">${it.name}</div>
+                        <div class="id">${it.id}</div>
+                        <div class="desc">${it.desc}</div>
+                    </div>
+                    <div class="controls">
+                        <select onchange="updateStatus('${it.id}', this.value)">${statusOpts}</select>
+                        <textarea placeholder="Commentaire (optionnel)" oninput="updateComment('${it.id}', this.value)">${escapeHtml(st.comment || '')}</textarea>
+                    </div>
+                </div>
+            `;
+        }).join('');
+        return `
+            <section data-cat-idx="${catIdx}">
+                <div class="section-header" onclick="this.parentNode.classList.toggle('collapsed')">
+                    <h2>${cat.category}</h2>
+                    <span class="counts" id="counts-${catIdx}"></span>
+                </div>
+                <div class="section-body">${itemsHTML}</div>
+            </section>
+        `;
+    }).join('');
+    updateProgress();
+    updateAllCounts();
+}
+
+function escapeHtml(s) {
+    return (s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function updateStatus(id, status) {
+    const it = getItemState(id);
+    setItemState(id, status, it.comment);
+    render();
+}
+
+function updateComment(id, comment) {
+    const it = getItemState(id);
+    state[id] = { status: it.status, comment };
+    saveState();
+    const el = document.querySelector(`.item[data-id="${CSS.escape(id)}"]`);
+    if (el) el.setAttribute('data-has-comment', comment ? '1' : '0');
+    applyFilters();
+}
+
+function updateProgress() {
+    const total = DATA.reduce((s, c) => s + c.items.length, 0);
+    const tested = Object.values(state).filter(s => s.status && s.status !== 'untested').length;
+    document.getElementById('progress-fill').style.width = (total ? (tested / total * 100) : 0) + '%';
+    document.getElementById('progress-text').textContent = `${tested} testés / ${total} total`;
+    updateAllCounts();
+}
+
+function updateAllCounts() {
+    DATA.forEach((cat, idx) => {
+        const tested = cat.items.filter(it => {
+            const s = getItemState(it.id);
+            return s.status && s.status !== 'untested';
+        }).length;
+        const el = document.getElementById(`counts-${idx}`);
+        if (el) el.textContent = `${tested}/${cat.items.length}`;
+    });
+}
+
+function applyFilters() {
+    const search = document.getElementById('search').value.toLowerCase();
+    const filter = document.getElementById('filter-status').value;
+    document.querySelectorAll('.item').forEach(el => {
+        const id = el.getAttribute('data-id');
+        const status = el.getAttribute('data-status');
+        const hasComment = el.getAttribute('data-has-comment') === '1';
+        const text = el.textContent.toLowerCase();
+        let show = true;
+        if (search && !text.includes(search) && !id.toLowerCase().includes(search)) show = false;
+        if (filter) {
+            if (filter === 'has_comment' && !hasComment) show = false;
+            else if (filter !== 'has_comment' && status !== filter) show = false;
+        }
+        el.classList.toggle('hidden', !show);
+    });
+}
+
+// ============================================================
+// EXPORT
+// ============================================================
+function exportJSON() {
+    const report = {
+        metadata: {
+            modpack: 'Arcadia V2',
+            generated_at: new Date().toISOString(),
+            tester: prompt('Ton pseudo / nom ?') || 'anonymous',
+            version: '1.0'
+        },
+        summary: computeSummary(),
+        categories: DATA.map(cat => ({
+            category: cat.category,
+            items: cat.items.map(it => {
+                const st = getItemState(it.id);
+                return {
+                    id: it.id,
+                    name: it.name,
+                    status: st.status,
+                    comment: st.comment || null
+                };
+            }).filter(it => it.status !== 'untested' || it.comment)
+        })).filter(c => c.items.length > 0)
+    };
+    const json = JSON.stringify(report, null, 2);
+    document.getElementById('export-output').textContent = json;
+    return json;
+}
+
+function copyJSON() {
+    const json = exportJSON();
+    navigator.clipboard.writeText(json).then(() => alert('✅ JSON copié dans le presse-papier !'));
+}
+
+function computeSummary() {
+    const counts = { ok: 0, missing: 0, hard: 0, bug: 0, untested: 0 };
+    DATA.forEach(cat => cat.items.forEach(it => {
+        const st = getItemState(it.id);
+        counts[st.status]++;
+    }));
+    return counts;
+}
+
+function saveProgress() {
+    saveState();
+    alert('✅ Sauvegardé');
+}
+
+function loadProgress() {
+    state = loadState();
+    render();
+    alert('📂 Rechargé');
+}
+
+function resetAll() {
+    if (!confirm('⚠️ Tout effacer ?')) return;
+    state = {};
+    saveState();
+    render();
+}
+
+function toggleAll(open) {
+    document.querySelectorAll('section').forEach(s => {
+        s.classList.toggle('collapsed', !open);
+    });
+}
+
+// ============================================================
+// INIT
+// ============================================================
+render();
+</script>
+
+</body>
+</html>

@@ -10,11 +10,3 @@
 	perm_mvp = "arcadia.grade.mvp"
 	#Permission node for Founder cosmetic rank (particle effects only, not a gameplay tier).
 	perm_founder = "arcadia.grade.founder"
-
-#Server identity settings.
-#These only matter when running multiple servers that share the same AH database.
-[server]
-	#Unique identifier for this server.
-	#AH listings are tagged with this ID so buyers can see which server the item is from.
-	#Must be unique across all servers sharing the same database.
-	server_id = "server1"

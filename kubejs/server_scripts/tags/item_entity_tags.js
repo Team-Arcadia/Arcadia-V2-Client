@@ -97,22 +97,7 @@ ServerEvents.tags('item', event => {
     ]);
 });
 
-// ===== Entity Tags =====
-ServerEvents.tags('entity_type', event => {
-    // Blacklist Twilight Forest bosses from Apothic Spawners
-    event.add('apothic_spawners:blacklisted_from_spawners', [
-        'twilightforest:naga',
-        'twilightforest:lich',
-        'twilightforest:minoshroom',
-        'twilightforest:hydra',
-        'twilightforest:knight_phantom',
-        'twilightforest:ur_ghast',
-        'twilightforest:yeti',
-        'twilightforest:snow_queen',
-        'twilightforest:plateau_boss',
-        'minecraft:ender_dragon',
-        'minecraft:wither'
-    ]);
-});
+// Entity blacklist for Apothic Spawners moved to datapack:
+// kubejs/data/apothic_spawners/tags/entity_type/blacklisted_from_spawners.json
 
 console.info("[Arcadia V2] Global Tags Refined: Standardized tags applied.");

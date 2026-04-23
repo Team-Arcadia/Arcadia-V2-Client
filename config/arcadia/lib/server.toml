@@ -1,0 +1,10 @@
+#Server identity settings.
+#Only matters when multiple Minecraft servers share the same MySQL database.
+#Every Arcadia module that stores data in MySQL tags its rows with this ID
+#so rows from different servers do not collide (auction listings, leaderboards, ...).
+[server]
+	#Unique identifier for this server instance.
+	#Leave empty to use the JVM system property -Darcadia.server_id=... (default: server1).
+	#Set a different value per Minecraft server sharing the same MySQL database
+	#(e.g. "hub", "pvp", "creative").
+	server_id = ""

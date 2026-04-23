@@ -8,6 +8,13 @@
 	# Default: 30
 	# Range: 1 ~ 500
 	max_listings_per_player = 30
+	#Listing fee taken upfront from the seller's balance when creating a listing.
+	#Expressed as a percentage of the listing price (10 = 10%).
+	#Acts as a money sink and discourages spam listings.
+	#Set to 0 to disable the fee entirely.
+	# Default: 10
+	# Range: 0 ~ 100
+	listing_fee_percent = 10
 
 #Item blacklist — items that cannot be listed on the AH.
 #Use registry IDs (e.g. 'minecraft:bedrock', 'arcadia_pets:pet_item').
