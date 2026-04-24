@@ -2573,7 +2573,7 @@ ServerEvents.recipes((event) => {
         [
             " NAN ",
             "AFMFA",
-            "NM4MN",
+            "NMXMN",
             "AFMFA",
             " NAN "
         ], {
@@ -2581,7 +2581,7 @@ ServerEvents.recipes((event) => {
             A: MEK_ALLOY_ATOMIC,
             F: 'arcadia:fusion_core',
             M: RUNE_MATRIX,
-            '4': 'extradisks:4096k_item_storage_part'
+            X: 'extradisks:4096k_item_storage_part'
         }
     ).id('arcadia:rs_infinite_part');
 
