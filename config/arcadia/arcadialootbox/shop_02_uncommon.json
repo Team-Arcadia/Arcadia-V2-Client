@@ -232,7 +232,13 @@
   "giveToInventoryOnly": false,
   "openTitle": "§a✦ Shop II ✦",
   "openSubtitle": "§7Good luck!",
-  "commandRewards": [],
+  "commandRewards": [
+    {
+      "command": "give {player} arcadia_pets:star_essence 2",
+      "chance": 100,
+      "asConsole": true
+    }
+  ],
   "experienceReward": 20,
   "requiredBiome": "",
   "requiredLevel": 0,

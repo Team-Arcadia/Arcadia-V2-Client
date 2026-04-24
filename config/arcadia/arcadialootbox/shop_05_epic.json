@@ -313,7 +313,13 @@
   "giveToInventoryOnly": false,
   "openTitle": "§5✦ Shop V ✦",
   "openSubtitle": "§7Good luck!",
-  "commandRewards": [],
+  "commandRewards": [
+    {
+      "command": "give {player} arcadia_pets:star_essence 8",
+      "chance": 100,
+      "asConsole": true
+    }
+  ],
   "experienceReward": 75,
   "requiredBiome": "",
   "requiredLevel": 0,
