@@ -2618,11 +2618,9 @@ ServerEvents.recipes((event) => {
     event.recipes.create.mechanical_crafting(
         'fluxnetworks:gargantuan_flux_storage',
         [
-            "HFHFH",
-            "FAAAF",
-            "HASAH",
-            "FAAAF",
-            "HFHFH"
+            "HFH",
+            "FSF",
+            "HAH"
         ], {
             H: 'fluxnetworks:herculean_flux_storage',
             F: 'arcadia:fusion_matrix',
@@ -2778,7 +2776,7 @@ ServerEvents.recipes((event) => {
     // ============================================================
 
     event.remove({ output: 'apotheosis:sigil_of_socketing' });
-    event.shaped('apotheosis:sigil_of_socketing', ['GRG', 'RPR', 'GRG'], {
+    event.shaped('apotheosis:sigil_of_socketing', [' G ', 'RPR', ' G '], {
         G: 'apotheosis:rare_material',
         R: RUNE_MATRIX,
         P: 'create:precision_mechanism'

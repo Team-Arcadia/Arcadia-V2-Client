@@ -187,6 +187,9 @@ ServerEvents.recipes(event => {
     // Easy Villagers (OP/exploit)
     'easy_villagers:iron_farm',
 
+    // Advanced Peripherals (chunk loading exploit)
+    'advancedperipherals:chunk_controller',
+
     // DnDesires
     'dndesires:gold_mixer'
   ];

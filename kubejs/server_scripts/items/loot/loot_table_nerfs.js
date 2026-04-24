@@ -329,6 +329,9 @@ LootJS.modifiers((event) => {
     "creategoggles:iron_backtank",
     "creategoggles:leather_backtank",
     "create:netherite_backtank",
+
+    // Advanced Peripherals (chunk loading exploit)
+    "advancedperipherals:chunk_controller",
   ];
   chest.removeLoot(bannedItems);
 

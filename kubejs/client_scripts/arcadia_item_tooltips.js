@@ -58,6 +58,28 @@ ItemEvents.modifyTooltips(event => {
         Text.translate('tooltip.arcadia.fusion_core.3').gray().italic()
     ]);
 
+    // === CROSS-MOD BRIDGES ===
+    event.add('arcadia:arcane_circuit', [
+        Text.translate('tooltip.arcadia.arcane_circuit.1').aqua(),
+        Text.translate('tooltip.arcadia.arcane_circuit.2').yellow(),
+        Text.translate('tooltip.arcadia.arcane_circuit.3').gray()
+    ]);
+    event.add('arcadia:ethereal_alloy', [
+        Text.translate('tooltip.arcadia.ethereal_alloy.1').lightPurple(),
+        Text.translate('tooltip.arcadia.ethereal_alloy.2').yellow(),
+        Text.translate('tooltip.arcadia.ethereal_alloy.3').gray()
+    ]);
+    event.add('arcadia:industrial_heart', [
+        Text.translate('tooltip.arcadia.industrial_heart.1').gold(),
+        Text.translate('tooltip.arcadia.industrial_heart.2').yellow(),
+        Text.translate('tooltip.arcadia.industrial_heart.3').gray()
+    ]);
+    event.add('arcadia:rune_matrix', [
+        Text.translate('tooltip.arcadia.rune_matrix.1').lightPurple(),
+        Text.translate('tooltip.arcadia.rune_matrix.2').yellow(),
+        Text.translate('tooltip.arcadia.rune_matrix.3').gray()
+    ]);
+
     // === HEART OF ARCADIA ===
     event.add('arcadia:heart_of_arcadia', [
         Text.translate('tooltip.arcadia.heart_of_arcadia.1').lightPurple().bold(),

@@ -182,6 +182,9 @@ StartupEvents.modifyCreativeTab("minecraft:search", (event) => {
 
         // Easy Villagers (OP/exploit)
         "easy_villagers:iron_farm",
+
+        // Advanced Peripherals (chunk loading exploit)
+        "advancedperipherals:chunk_controller",
     ];
 
     hiddenItems.forEach((item) => event.remove(item));
