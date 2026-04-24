@@ -1857,13 +1857,28 @@ ServerEvents.recipes((event) => {
 
     // T1 Machines — cross-mod Create gears (iron sheet + Create parts instead of raw ingots)
     event.replaceInput({ output: 'mekanism:enrichment_chamber' }, 'minecraft:redstone', IRON_SHEET);
-    event.replaceInput({ output: 'mekanism:enrichment_chamber' }, 'minecraft:iron_ingot', IRON_SHEET);
-    event.replaceInput({ output: 'mekanism:osmium_compressor' }, 'minecraft:redstone', 'create:brass_casing');
-    event.replaceInput({ output: 'mekanism:osmium_compressor' }, 'minecraft:iron_ingot', IRON_SHEET);
-    event.replaceInput({ output: 'mekanism:combiner' }, 'minecraft:redstone', COGWHEEL);
-    event.replaceInput({ output: 'mekanism:combiner' }, 'minecraft:iron_ingot', IRON_SHEET);
     event.replaceInput({ output: 'mekanism:crusher' }, 'minecraft:redstone', COGWHEEL);
     event.replaceInput({ output: 'mekanism:metallurgic_infuser' }, 'minecraft:redstone', 'create:precision_mechanism');
+
+    // osmium_compressor: original uses '#mekanism:alloys/infused', '#c:circuits/advanced', steel_casing, bucket.
+    // Replace bucket with IRON_SHEET for a visible hardening.
+    event.remove({ output: 'mekanism:osmium_compressor' });
+    event.shaped('mekanism:osmium_compressor', ['ACA', 'SXS', 'ACA'], {
+        A: '#mekanism:alloys/infused',
+        C: '#c:circuits/advanced',
+        S: IRON_SHEET,
+        X: 'mekanism:steel_casing'
+    }).id('arcadia:mek_osmium_compressor');
+
+    // combiner: original uses '#mekanism:alloys/reinforced', '#c:circuits/elite', steel_casing, stone_crafting_materials tag.
+    // Replace stone with deepslate (harder) for a visible hardening.
+    event.remove({ output: 'mekanism:combiner' });
+    event.shaped('mekanism:combiner', ['ACA', 'DXD', 'ACA'], {
+        A: '#mekanism:alloys/reinforced',
+        C: '#c:circuits/elite',
+        D: 'minecraft:deepslate',
+        X: 'mekanism:steel_casing'
+    }).id('arcadia:mek_combiner');
 
     // T2 Machines — require TFMG Steel + PM (harder)
     event.remove({ output: 'mekanism:purification_chamber' });
@@ -2100,10 +2115,23 @@ ServerEvents.recipes((event) => {
     // 14. TFMG HARDENING
     // ============================================================
 
-    event.replaceInput({ output: 'tfmg:transistor_item' }, 'minecraft:redstone', 'createaddition:copper_spool');
-    event.replaceInput({ output: 'tfmg:transistor_item' }, 'createaddition:copper_wire', 'createaddition:copper_spool');
     event.replaceInput({ output: 'tfmg:converter' }, 'minecraft:copper_ingot', 'createaddition:copper_spool');
     event.replaceInput({ output: 'tfmg:converter' }, 'createaddition:copper_wire', 'createaddition:copper_spool');
+
+    // Transistor: original sequenced_assembly uses '#c:wires/copper' tag. Rewrite to force copper_spool.
+    event.remove({ id: 'tfmg:sequenced_assembly/transistor' });
+    event.remove({ output: 'tfmg:transistor_item' });
+    const incompleteTransistor = 'tfmg:unfinished_transistor';
+    event.recipes.create.sequenced_assembly(
+        [ Item.of('tfmg:transistor_item', 4) ],
+        'tfmg:plastic_sheet',
+        [
+            event.recipes.createDeploying(incompleteTransistor, [incompleteTransistor, 'createaddition:copper_spool']),
+            event.recipes.createDeploying(incompleteTransistor, [incompleteTransistor, 'tfmg:n_semiconductor']),
+            event.recipes.createDeploying(incompleteTransistor, [incompleteTransistor, 'tfmg:p_semiconductor']),
+            event.recipes.createDeploying(incompleteTransistor, [incompleteTransistor, 'tfmg:n_semiconductor'])
+        ]
+    ).transitionalItem(incompleteTransistor).loops(1).id('arcadia:tfmg_transistor_fix');
 
     event.remove({ output: 'tfmg:industrial_mixer' });
     event.recipes.create.mechanical_crafting(
@@ -2581,7 +2609,7 @@ ServerEvents.recipes((event) => {
             A: MEK_ALLOY_ATOMIC,
             F: 'arcadia:fusion_core',
             M: RUNE_MATRIX,
-            X: 'extradisks:4096k_item_storage_part'
+            X: 'extradisks:1048576k_item_storage_part'
         }
     ).id('arcadia:rs_infinite_part');
 
@@ -2782,6 +2810,22 @@ ServerEvents.recipes((event) => {
         P: 'create:precision_mechanism'
     }).id('arcadia:apo_sigil_socketing');
 
+    // Sigil of Enhancement: add RUNE_MATRIX bridge + halve output count (2 instead of 4)
+    event.remove({ output: 'apotheosis:sigil_of_enhancement' });
+    event.shaped(Item.of('apotheosis:sigil_of_enhancement', 2), ['GEG', 'EME', 'GEG'], {
+        G: 'apotheosis:gem_dust',
+        E: 'apotheosis:gem_fused_slate',
+        M: RUNE_MATRIX
+    }).id('arcadia:apo_sigil_enhancement');
+
+    // Sigil of Rebirth: add ARCANE_CIRCUIT corners + halve output count (3 instead of 6)
+    event.remove({ output: 'apotheosis:sigil_of_rebirth' });
+    event.shaped(Item.of('apotheosis:sigil_of_rebirth', 3), ['AGA', 'EEE', 'AGA'], {
+        A: ARCANE_CIRCUIT,
+        G: 'apotheosis:gem_fused_slate',
+        E: 'apotheosis:gem_dust'
+    }).id('arcadia:apo_sigil_rebirth');
+
     // --- APEX: Sigil of Supremacy ---
     // The ultimate affix-upgrade sigil. Requires ALL 4 Arcadia bridges, the Fusion chain (tier 3),
     // Industrial Hearts, 4 Nether Stars and 1 Apotheosis Mythic Material.
@@ -2819,14 +2863,21 @@ ServerEvents.recipes((event) => {
     ];
     aetherGravititeTools.forEach(item => event.replaceInput({ output: item }, 'aether:skyroot_stick', REINFORCE_BLOCK));
 
-    // Gravitite armor: only harden the leather slot (keep gravitite gem as primary material)
+    // Gravitite armor: vanilla recipe uses only '#aether:processed/gravitite' tag.
+    // We rebuild each piece to add a gold_sheet hardening slot (visible change).
     const aetherGravititeArmor = [
-        'aether:gravitite_helmet', 'aether:gravitite_chestplate',
-        'aether:gravitite_leggings', 'aether:gravitite_boots',
-        'aether:gravitite_gloves'
+        { id: 'aether:gravitite_helmet',     pattern: ['GGG', 'GSG'] },
+        { id: 'aether:gravitite_chestplate', pattern: ['GSG', 'GGG', 'GGG'] },
+        { id: 'aether:gravitite_leggings',   pattern: ['GGG', 'GSG', 'G G'] },
+        { id: 'aether:gravitite_boots',      pattern: ['GSG', 'G G'] },
+        { id: 'aether:gravitite_gloves',     pattern: ['GSG'] }
     ];
-    aetherGravititeArmor.forEach(item => {
-        event.replaceInput({ output: item, allowEmpty: true }, 'minecraft:leather', GOLD_SHEET);
+    aetherGravititeArmor.forEach(armor => {
+        event.remove({ output: armor.id });
+        event.shaped(armor.id, armor.pattern, {
+            G: '#aether:processed/gravitite',
+            S: GOLD_SHEET
+        }).id('arcadia:' + armor.id.split(':')[1]);
     });
 
     // Phoenix armor: loot-only in current Aether build (no vanilla craft), nothing to harden.
