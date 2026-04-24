@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Procédure de re-test — Arcadia V2 (Fixes)</title>
+<style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #1a1a1f; color: #e0e0e8; padding: 20px; line-height: 1.5; }
+    h1 { color: #c59dff; border-bottom: 2px solid #4a3268; padding-bottom: 10px; margin-bottom: 10px; }
+    h2 { color: #ffa552; margin-top: 25px; margin-bottom: 8px; }
+    h3 { color: #78c4ff; margin-top: 15px; margin-bottom: 6px; font-size: 1.05rem; }
+    header { position: sticky; top: 0; background: #1a1a1f; border-bottom: 2px solid #4a3268; padding: 10px 0; z-index: 100; margin: -20px -20px 20px; padding: 15px 20px; }
+    #progress-bar { height: 8px; background: #2d2d38; border-radius: 4px; overflow: hidden; margin-top: 8px; }
+    #progress-fill { height: 100%; background: linear-gradient(90deg, #6be889, #78c4ff); transition: width 0.3s; }
+    #progress-text { font-size: 0.85rem; color: #a0a0b0; margin-top: 6px; }
+    .toolbar { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+    button { background: #4a3268; color: #fff; border: none; padding: 8px 14px; border-radius: 4px; cursor: pointer; font-size: 0.9rem; }
+    button:hover { background: #5d4080; }
+    button.primary { background: #78c4ff; color: #1a1a1f; font-weight: bold; }
+    button.primary:hover { background: #a0d8ff; }
+    button.danger { background: #c04040; }
+    input[type="text"], select { background: #2d2d38; color: #e0e0e8; border: 1px solid #4a3268; padding: 6px 10px; border-radius: 4px; font-size: 0.9rem; }
+    section { background: #23232e; border-radius: 6px; padding: 12px 16px; margin-bottom: 12px; border-left: 3px solid #4a3268; }
+    section.collapsed .section-body { display: none; }
+    .section-header { display: flex; justify-content: space-between; align-items: center; cursor: pointer; user-select: none; }
+    .section-header .counts { font-size: 0.85rem; color: #a0a0b0; }
+    .section-body { margin-top: 10px; }
+    .item { background: #2d2d38; padding: 10px 12px; border-radius: 4px; margin-bottom: 6px; display: grid; grid-template-columns: auto 1fr auto; gap: 12px; align-items: start; border-left: 3px solid transparent; }
+    .item.status-ok { border-left-color: #6be889; }
+    .item.status-missing { border-left-color: #ff6b6b; }
+    .item.status-hard { border-left-color: #ffb84d; }
+    .item.status-bug { border-left-color: #ff4d4d; }
+    .item.status-untested { border-left-color: #5a5a6e; }
+    .item .id { font-family: 'Consolas', 'Courier New', monospace; color: #78c4ff; font-size: 0.88rem; word-break: break-all; }
+    .item .name { font-weight: bold; color: #fff; }
+    .item .desc { font-size: 0.85rem; color: #a0a0b0; margin-top: 3px; }
+    .item .controls { display: flex; flex-direction: column; gap: 6px; min-width: 180px; }
+    .item .controls select { width: 100%; }
+    .item .controls textarea { width: 100%; min-height: 40px; background: #1a1a1f; color: #e0e0e8; border: 1px solid #4a3268; border-radius: 4px; padding: 6px 8px; font-family: inherit; font-size: 0.85rem; resize: vertical; }
+    .filter-bar { margin: 10px 0; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+    .filter-bar label { font-size: 0.88rem; color: #a0a0b0; }
+    .hidden { display: none !important; }
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 0.75rem; margin-left: 6px; font-weight: bold; }
+    .badge.ok { background: #6be889; color: #1a1a1f; }
+    .badge.missing { background: #ff6b6b; color: #fff; }
+    .badge.hard { background: #ffb84d; color: #1a1a1f; }
+    .badge.bug { background: #ff4d4d; color: #fff; }
+    .badge.untested { background: #5a5a6e; color: #fff; }
+    #export-output { background: #0d0d12; color: #6be889; padding: 12px; border-radius: 4px; font-family: monospace; white-space: pre-wrap; max-height: 400px; overflow: auto; font-size: 0.78rem; margin-top: 10px; }
+    .intro { background: #2d2346; border-left: 3px solid #c59dff; padding: 12px 16px; margin-bottom: 15px; border-radius: 4px; }
+    .intro p { margin-bottom: 6px; font-size: 0.92rem; }
+    .notice { background: #3d2d1a; border-left: 3px solid #ffa552; padding: 10px 14px; margin-bottom: 12px; border-radius: 4px; font-size: 0.88rem; }
+    .kbd { background: #1a1a1f; border: 1px solid #4a3268; padding: 1px 6px; border-radius: 3px; font-family: monospace; font-size: 0.85rem; }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>🔧 Re-test Fixes — Arcadia V2</h1>
+    <div id="progress-text">0 testés / 0 total</div>
+    <div id="progress-bar"><div id="progress-fill" style="width:0%"></div></div>
+    <div class="toolbar">
+        <button class="primary" onclick="exportJSON()">📤 Exporter JSON</button>
+        <button onclick="copyJSON()">📋 Copier JSON</button>
+        <button onclick="saveProgress()">💾 Sauvegarder</button>
+        <button onclick="loadProgress()">📂 Recharger</button>
+        <button class="danger" onclick="resetAll()">🗑 Tout reset</button>
+        <button onclick="toggleAll(true)">➕ Tout ouvrir</button>
+        <button onclick="toggleAll(false)">➖ Tout fermer</button>
+    </div>
+    <div class="filter-bar">
+        <label>🔎 Recherche :</label>
+        <input type="text" id="search" placeholder="Chercher un item ou un mod..." oninput="applyFilters()">
+        <label>Filtre :</label>
+        <select id="filter-status" onchange="applyFilters()">
+            <option value="">Tous</option>
+            <option value="untested">Non testés</option>
+            <option value="ok">OK</option>
+            <option value="missing">Manquants</option>
+            <option value="hard">Trop difficiles</option>
+            <option value="bug">Bugs</option>
+            <option value="has_comment">Avec commentaire</option>
+        </select>
+    </div>
+</header>
+
+<div class="intro">
+    <p><strong>🎯 Objectif :</strong> re-tester uniquement les corrections appliquées suite au rapport du staff. Cette procédure est un <em>delta</em> — ne couvre pas les items déjà validés précédemment.</p>
+    <p><strong>📝 Pour chaque entrée :</strong> sélectionne un statut (OK / Manquant / Trop difficile / Bug) et ajoute un commentaire si besoin.</p>
+    <p><strong>🔍 Comment tester un craft :</strong> tape l'ID dans JEI → clic droit (Usage) ou gauche (Recipe) → compare avec la description attendue.</p>
+    <p><strong>🚫 Items bannis :</strong> doivent apparaître <strong>vides</strong> dans JEI (aucun craft), absents du creative search, et être supprimés automatiquement de l'inventaire (≤ 5 min).</p>
+    <p><strong>⚡ Progression :</strong> sauvegardée automatiquement dans le navigateur. Export JSON pour transmission au staff.</p>
+</div>
+
+<div class="notice">
+    <strong>⚠️ Prérequis avant de commencer :</strong>
+    <ol style="margin-left:20px;margin-top:4px;">
+        <li>Restart complet du client Minecraft (les <em>startup_scripts</em> KubeJS ne rechargent pas avec <span class="kbd">/reload</span>)</li>
+        <li>En jeu : <span class="kbd">/reload</span> pour les <em>server_scripts</em></li>
+        <li><span class="kbd">F3+T</span> pour recharger les ressources client (tooltips, JEI)</li>
+        <li><strong>Jukebox disc rendering</strong> : si les disques Arcadia apparaissent encore avec le pattern vanilla violet/noir, supprime <span class="kbd">dynamic-resource-pack-cache/</span> dans le dossier d'instance puis restart — Amendments regénère le cache.</li>
+    </ol>
+</div>
+
+<div id="content"></div>
+
+<section>
+    <div class="section-header" onclick="this.parentNode.classList.toggle('collapsed')"><span>📦 Export JSON</span></div>
+    <div class="section-body">
+        <p style="font-size:0.88rem;color:#a0a0b0;margin-bottom:8px;">Clic sur <strong>Exporter JSON</strong> en haut pour générer le rapport. Copie le texte ci-dessous et envoie-le au staff.</p>
+        <pre id="export-output">(clique sur Exporter JSON)</pre>
+    </div>
+</section>
+
+<script>
+// ============================================================
+// DATA — FIXES ONLY (delta from previous test report)
+// ============================================================
+const DATA = [
+    {
+        category: "1. Aether — Gravitite Tools (breeze rod fix)",
+        items: [
+            { id: "aether:gravitite_sword", name: "Gravitite Sword", desc: "Doit utiliser minecraft:breeze_rod (fini les skyroot sticks)" },
+            { id: "aether:gravitite_pickaxe", name: "Gravitite Pickaxe", desc: "Breeze rod à la place du skyroot stick" },
+            { id: "aether:gravitite_axe", name: "Gravitite Axe", desc: "Breeze rod à la place du skyroot stick" },
+            { id: "aether:gravitite_shovel", name: "Gravitite Shovel", desc: "Breeze rod à la place du skyroot stick" },
+            { id: "aether:gravitite_hoe", name: "Gravitite Hoe", desc: "Breeze rod à la place du skyroot stick" }
+        ]
+    },
+    {
+        category: "2. Aether — Gravitite Armor (gold sheet fix)",
+        items: [
+            { id: "aether:gravitite_helmet", name: "Gravitite Helmet", desc: "Enchanted gravitite + create:golden_sheet (à la place du leather). Plus JUSTE breeze rod." },
+            { id: "aether:gravitite_chestplate", name: "Gravitite Chestplate", desc: "Enchanted gravitite + golden_sheet" },
+            { id: "aether:gravitite_leggings", name: "Gravitite Leggings", desc: "Enchanted gravitite + golden_sheet" },
+            { id: "aether:gravitite_boots", name: "Gravitite Boots", desc: "Enchanted gravitite + golden_sheet" },
+            { id: "aether:gravitite_gloves", name: "Gravitite Gloves", desc: "Enchanted gravitite + golden_sheet" }
+        ]
+    },
+    {
+        category: "3. Mekanism T1 — sheet à la place du lingot",
+        items: [
+            { id: "mekanism:enrichment_chamber", name: "Enrichment Chamber", desc: "Doit contenir create:iron_sheet (plus de minecraft:iron_ingot visible)" },
+            { id: "mekanism:osmium_compressor", name: "Osmium Compressor", desc: "Iron sheet + create:brass_casing" },
+            { id: "mekanism:combiner", name: "Combiner", desc: "Iron sheet + cogwheel" }
+        ]
+    },
+    {
+        category: "4. TFMG — wire remplacé par spool",
+        items: [
+            { id: "tfmg:transistor_item", name: "Transistor", desc: "Doit utiliser createaddition:copper_spool (plus de wire)" },
+            { id: "tfmg:converter", name: "Converter", desc: "Copper spool à la place du wire" }
+        ]
+    },
+    {
+        category: "5. Immersive Engineering — engineering blocks refaits",
+        items: [
+            { id: "immersiveengineering:light_engineering", name: "Light Engineering Block", desc: "Pattern SWS/ICI/SWS : iron_sheet + wirecoil + component_iron + cogwheel" },
+            { id: "immersiveengineering:heavy_engineering", name: "Heavy Engineering Block", desc: "Pattern SPS/PCP/SPS : tfmg:heavy_plate + precision_mechanism + component_steel" }
+        ]
+    },
+    {
+        category: "6. Create Addition — precision mechanism explicite",
+        items: [
+            { id: "createaddition:portable_energy_interface", name: "Portable Energy Interface", desc: "Contient explicitement create:precision_mechanism + capacitor + copper_casing" },
+            { id: "createaddition:rolling_mill", name: "Rolling Mill", desc: "Contient precision_mechanism + cogwheel + brass_casing" }
+        ]
+    },
+    {
+        category: "7. Refined Storage — grids refaits",
+        items: [
+            { id: "refinedstorage:grid", name: "RS Grid", desc: "iron_sheet + quartz + glass_pane + precision_mechanism + brass_casing" },
+            { id: "refinedstorage:crafting_grid", name: "Crafting Grid", desc: "crafting_table + refinedstorage:grid + precision_mechanism + glass_pane" },
+            { id: "refinedstorage:wireless_grid", name: "Wireless Grid", desc: "ender_pearl + refinedstorage:grid + brass_casing + glass_pane" }
+        ]
+    },
+    {
+        category: "8. Occultism — Infused Pickaxe refait",
+        items: [
+            { id: "occultism:infused_pickaxe", name: "Infused Pickaxe", desc: "Pattern pickaxe classique : 3× arcadia:ethereal_alloy + 2× breeze_rod" }
+        ]
+    },
+    {
+        category: "9. ExtraDisks — progression 256k → 1024k → 4096k → infinite",
+        items: [
+            { id: "extradisks:1024k_item_storage_part", name: "1024k Item Storage Part", desc: "Doit maintenant REQUÉRIR extradisks:256k_item_storage_part au centre (plus de saut de tier)" },
+            { id: "extradisks:infinite_item_storage_part", name: "Infinite Item Storage Part", desc: "Doit maintenant REQUÉRIR extradisks:4096k_item_storage_part au centre (progression complète)" }
+        ]
+    },
+    {
+        category: "10. Doublons de recette retirés",
+        items: [
+            { id: "irons_spellbooks:inscription_table", name: "Inscription Table", desc: "Un seul craft doit apparaître (la version avec source_gem + golden_sheet + ink_sac). Plus de doublon." },
+            { id: "minecraft:compass", name: "Compass", desc: "Un seul craft doit apparaître (la version cogwheel Create). Plus de variante avec gold_nugget." }
+        ]
+    },
+    {
+        category: "11. Overrides retirés — retour au craft vanilla",
+        items: [
+            { id: "minecraft:stick", name: "Stick", desc: "Retour au craft vanilla (2 planks → 4 sticks)" },
+            { id: "occultism:sacrificial_bowl", name: "Sacrificial Bowl", desc: "Retour au craft vanilla (plus de gold_ingot au centre)" },
+            { id: "artifacts:crystal_heart", name: "Crystal Heart", desc: "Craft Artifacts vanilla restauré (shop-only n'est plus strict)" },
+            { id: "artifacts:flame_pendant", name: "Flame Pendant", desc: "Craft Artifacts vanilla restauré" },
+            { id: "artifacts:night_vision_goggles", name: "Night Vision Goggles", desc: "Craft Artifacts vanilla restauré" },
+            { id: "artifacts:running_shoes", name: "Running Shoes", desc: "Craft Artifacts vanilla restauré" },
+            { id: "artifacts:power_glove", name: "Power Glove", desc: "Craft Artifacts vanilla restauré" },
+            { id: "artifacts:cross_necklace", name: "Cross Necklace", desc: "Craft Artifacts vanilla restauré" }
+        ]
+    },
+    {
+        category: "12. IE Multiblocs — NE DOIVENT PAS avoir de craft",
+        items: [
+            { id: "immersiveengineering:excavator", name: "IE Excavator", desc: "Pas de craft attendu (multibloc construit sur place)" },
+            { id: "immersiveengineering:arc_furnace", name: "IE Arc Furnace", desc: "Pas de craft attendu (multibloc construit sur place)" }
+        ]
+    },
+    {
+        category: "13. Nouveau ban — advancedperipherals:chunk_controller",
+        items: [
+            { id: "advancedperipherals:chunk_controller", name: "Chunk Controller", desc: "NE DOIT PAS avoir de craft. NE DOIT PAS apparaître dans creative. Doit être strip de l'inventaire (≤ 5 min). Caché de JEI." }
+        ]
+    },
+    {
+        category: "14. Bridge Tooltips (EN/FR)",
+        items: [
+            { id: "arcadia:arcane_circuit", name: "Arcane Circuit — tooltip", desc: "3 lignes de description (aqua/yellow/gray). Au survol dans JEI ou en inventaire." },
+            { id: "arcadia:ethereal_alloy", name: "Ethereal Alloy — tooltip", desc: "3 lignes (lightPurple/yellow/gray)" },
+            { id: "arcadia:industrial_heart", name: "Industrial Heart — tooltip", desc: "3 lignes (gold/yellow/gray)" },
+            { id: "arcadia:rune_matrix", name: "Rune Matrix — tooltip", desc: "3 lignes (lightPurple/yellow/gray)" }
+        ]
+    },
+    {
+        category: "15. FTB Quest — traduction sous-titre",
+        items: [
+            { id: "ftbquest:310969B8FE0A94DE", name: "Quest Apotheosis Spawner — sous-titre", desc: "Ouvrir FTB Quests > chapitre Apotheosis > quête \"Spawner\". Sous-titre doit apparaître en anglais (EN) dans client EN, et en français dans client FR. Plus de texte FR côté EN." }
+        ]
+    },
+    {
+        category: "16. Design rebalances",
+        items: [
+            { id: "apotheosis:sigil_of_socketing", name: "Sigil of Socketing — coût réduit", desc: "Ancienne recette : 4 rare_material + 4 rune_matrix + 1 PM. Nouvelle : 2 rare_material + 2 rune_matrix + 1 PM." },
+            { id: "fluxnetworks:gargantuan_flux_storage", name: "Gargantuan Flux Storage — coût réduit", desc: "Pattern 3×3 (au lieu de 5×5). 4 herculean + 2 fusion_matrix + 1 source_gem_block + 1 mek_alloy_atomic." }
+        ]
+    },
+    {
+        category: "17. Rendu jukebox — disques Arcadia",
+        items: [
+            { id: "visual:jukebox_disc_spin", name: "Disc Arcadia sur jukebox — rendu", desc: "Mettre un disque Arcadia dans un jukebox. La texture custom doit tourner (plus le pattern vanilla violet/noir). Si KO, suivre le prérequis #4 en haut (vider dynamic-resource-pack-cache)." }
+        ]
+    }
+];
+
+const STATE_KEY = 'arcadia_fixes_test_state_v1';
+const STATUSES = {
+    'untested': { label: 'Non testé', badge: 'untested' },
+    'ok': { label: 'OK', badge: 'ok' },
+    'missing': { label: 'Manquant', badge: 'missing' },
+    'hard': { label: 'Trop difficile', badge: 'hard' },
+    'bug': { label: 'Bug', badge: 'bug' }
+};
+
+let state = loadState();
+
+function loadState() {
+    try {
+        return JSON.parse(localStorage.getItem(STATE_KEY)) || {};
+    } catch { return {}; }
+}
+
+function saveState() {
+    localStorage.setItem(STATE_KEY, JSON.stringify(state));
+}
+
+function getItemState(id) {
+    return state[id] || { status: 'untested', comment: '' };
+}
+
+function setItemState(id, status, comment) {
+    state[id] = { status, comment };
+    saveState();
+    updateProgress();
+    applyFilters();
+}
+
+function render() {
+    const content = document.getElementById('content');
+    content.innerHTML = DATA.map((cat, catIdx) => {
+        const itemsHTML = cat.items.map(it => {
+            const st = getItemState(it.id);
+            const statusOpts = Object.keys(STATUSES).map(k =>
+                `<option value="${k}" ${st.status === k ? 'selected' : ''}>${STATUSES[k].label}</option>`
+            ).join('');
+            return `
+                <div class="item status-${st.status}" data-id="${it.id}" data-status="${st.status}" data-has-comment="${st.comment ? '1' : '0'}">
+                    <span class="badge ${STATUSES[st.status].badge}">${STATUSES[st.status].label}</span>
+                    <div>
+                        <div class="name">${it.name}</div>
+                        <div class="id">${it.id}</div>
+                        <div class="desc">${it.desc}</div>
+                    </div>
+                    <div class="controls">
+                        <select onchange="updateStatus('${it.id}', this.value)">${statusOpts}</select>
+                        <textarea placeholder="Commentaire (optionnel)" oninput="updateComment('${it.id}', this.value)">${escapeHtml(st.comment || '')}</textarea>
+                    </div>
+                </div>
+            `;
+        }).join('');
+        return `
+            <section data-cat-idx="${catIdx}">
+                <div class="section-header" onclick="this.parentNode.classList.toggle('collapsed')">
+                    <h2>${cat.category}</h2>
+                    <span class="counts" id="counts-${catIdx}"></span>
+                </div>
+                <div class="section-body">${itemsHTML}</div>
+            </section>
+        `;
+    }).join('');
+    updateProgress();
+    updateAllCounts();
+}
+
+function escapeHtml(s) {
+    return (s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function updateStatus(id, status) {
+    const it = getItemState(id);
+    setItemState(id, status, it.comment);
+    render();
+}
+
+function updateComment(id, comment) {
+    const it = getItemState(id);
+    state[id] = { status: it.status, comment };
+    saveState();
+    const el = document.querySelector(`.item[data-id="${CSS.escape(id)}"]`);
+    if (el) el.setAttribute('data-has-comment', comment ? '1' : '0');
+    applyFilters();
+}
+
+function updateProgress() {
+    const total = DATA.reduce((s, c) => s + c.items.length, 0);
+    const tested = Object.values(state).filter(s => s.status && s.status !== 'untested').length;
+    document.getElementById('progress-fill').style.width = (total ? (tested / total * 100) : 0) + '%';
+    document.getElementById('progress-text').textContent = `${tested} testés / ${total} total`;
+    updateAllCounts();
+}
+
+function updateAllCounts() {
+    DATA.forEach((cat, idx) => {
+        const tested = cat.items.filter(it => {
+            const s = getItemState(it.id);
+            return s.status && s.status !== 'untested';
+        }).length;
+        const el = document.getElementById(`counts-${idx}`);
+        if (el) el.textContent = `${tested}/${cat.items.length}`;
+    });
+}
+
+function applyFilters() {
+    const search = document.getElementById('search').value.toLowerCase();
+    const filter = document.getElementById('filter-status').value;
+    document.querySelectorAll('.item').forEach(el => {
+        const id = el.getAttribute('data-id');
+        const status = el.getAttribute('data-status');
+        const hasComment = el.getAttribute('data-has-comment') === '1';
+        const text = el.textContent.toLowerCase();
+        let show = true;
+        if (search && !text.includes(search) && !id.toLowerCase().includes(search)) show = false;
+        if (filter) {
+            if (filter === 'has_comment' && !hasComment) show = false;
+            else if (filter !== 'has_comment' && status !== filter) show = false;
+        }
+        el.classList.toggle('hidden', !show);
+    });
+}
+
+function exportJSON() {
+    const report = {
+        metadata: {
+            modpack: 'Arcadia V2',
+            scope: 'FIXES delta',
+            generated_at: new Date().toISOString(),
+            tester: prompt('Ton pseudo / nom ?') || 'anonymous',
+            version: '1.0'
+        },
+        summary: computeSummary(),
+        categories: DATA.map(cat => ({
+            category: cat.category,
+            items: cat.items.map(it => {
+                const st = getItemState(it.id);
+                return {
+                    id: it.id,
+                    name: it.name,
+                    status: st.status,
+                    comment: st.comment || null
+                };
+            }).filter(it => it.status !== 'untested' || it.comment)
+        })).filter(c => c.items.length > 0)
+    };
+    const json = JSON.stringify(report, null, 2);
+    document.getElementById('export-output').textContent = json;
+    return json;
+}
+
+function copyJSON() {
+    const json = exportJSON();
+    navigator.clipboard.writeText(json).then(() => alert('✅ JSON copié dans le presse-papier !'));
+}
+
+function computeSummary() {
+    const counts = { ok: 0, missing: 0, hard: 0, bug: 0, untested: 0 };
+    DATA.forEach(cat => cat.items.forEach(it => {
+        const st = getItemState(it.id);
+        counts[st.status]++;
+    }));
+    return counts;
+}
+
+function saveProgress() {
+    saveState();
+    alert('✅ Sauvegardé');
+}
+
+function loadProgress() {
+    state = loadState();
+    render();
+    alert('📂 Rechargé');
+}
+
+function resetAll() {
+    if (!confirm('⚠️ Tout effacer ?')) return;
+    state = {};
+    saveState();
+    render();
+}
+
+function toggleAll(open) {
+    document.querySelectorAll('section').forEach(s => {
+        s.classList.toggle('collapsed', !open);
+    });
+}
+
+render();
+</script>
+
+</body>
+</html>
+</content>
+</invoke>
