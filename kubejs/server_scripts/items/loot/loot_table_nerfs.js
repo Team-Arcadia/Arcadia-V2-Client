@@ -328,7 +328,6 @@ LootJS.modifiers((event) => {
     "creategoggles:golden_backtank",
     "creategoggles:iron_backtank",
     "creategoggles:leather_backtank",
-    "create:copper_backtank",
     "create:netherite_backtank",
   ];
   chest.removeLoot(bannedItems);

@@ -178,7 +178,6 @@ StartupEvents.modifyCreativeTab("minecraft:search", (event) => {
         "creategoggles:golden_backtank",
         "creategoggles:iron_backtank",
         "creategoggles:leather_backtank",
-        "create:copper_backtank",
         "create:netherite_backtank",
 
         // Easy Villagers (OP/exploit)
@@ -303,7 +302,7 @@ StartupEvents.modifyCreativeTab("bettercopper:bettercopper", (event) => {
 
 // Create (Backtanks)
 StartupEvents.modifyCreativeTab("create:base", (event) => {
-    ["create:copper_backtank", "create:netherite_backtank"].forEach(item => event.remove(item));
+    ["create:netherite_backtank"].forEach(item => event.remove(item));
 });
 
 // Easy Villagers (OP/exploit)

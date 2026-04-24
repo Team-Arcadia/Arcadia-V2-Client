@@ -183,7 +183,6 @@ const BANNED_ITEMS = [
   'creategoggles:golden_backtank',
   'creategoggles:iron_backtank',
   'creategoggles:leather_backtank',
-  'create:copper_backtank',
   'create:netherite_backtank',
 
   // Easy Villagers (OP/exploit)
