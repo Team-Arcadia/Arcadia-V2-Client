@@ -243,10 +243,10 @@ key_key.immersive_aircraft.fallback_control_push:key.keyboard.unknown:
 key_key.immersive_aircraft.fallback_use:key.keyboard.unknown:
 key_key.immersive_aircraft.dismount:key.keyboard.left.shift:
 key_key.immersive_aircraft.boost:key.keyboard.unknown:
-key_key.twilightforest.zoom:key.keyboard.unknown:
 key_key.twilightforest.red_thread_vision:key.keyboard.unknown:
-key_key.twilightforest.item_display_map_cycle:key.keyboard.unknown:
+key_key.twilightforest.zoom:key.keyboard.unknown:
 key_key.twilightforest.swap_hotbar:key.keyboard.unknown:
+key_key.twilightforest.item_display_map_cycle:key.keyboard.unknown:
 key_key.deeperdarker.boost:key.keyboard.unknown:
 key_key.deeperdarker.transmit:key.keyboard.unknown:
 key_key.observable.profile:key.keyboard.f6:
@@ -297,6 +297,9 @@ key_key.ponder.ponder:key.keyboard.w:
 key_create.keyinfo.toolmenu:key.keyboard.unknown:
 key_create.keyinfo.toolbelt:key.keyboard.unknown:
 key_create.keyinfo.rotate_menu:key.keyboard.unknown:
+key_create.keyinfo.shift_modifier:key.keyboard.left.shift:
+key_create.keyinfo.ctrl_modifier:key.keyboard.left.control:
+key_create.keyinfo.alt_modifier:key.keyboard.left.alt:
 key_dndesires.keyinfo.saw_active:key.keyboard.unknown:
 key_dndesires.keyinfo.drill_active:key.keyboard.unknown:
 key_framedblocks.key.update_cull:key.keyboard.f9:

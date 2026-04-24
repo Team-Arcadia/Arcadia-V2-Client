@@ -71,14 +71,14 @@
 
 ["Mob Spawning Rules"]
 	#Enable or disable spawning per mob category.
-	spawn_monsters = false
-	spawn_creatures = false
+	spawn_monsters = true
+	spawn_creatures = true
 	spawn_ambient = false
 	spawn_water_creatures = false
 	spawn_water_ambient = false
-	spawn_misc = false
 	spawn_underground_water_creatures = false
 	spawn_axolotls = false
+	spawn_misc = true
 
 ["RTP Settings"]
 	#Maximum radius from (0,0) for Random Teleport.
