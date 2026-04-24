@@ -25,20 +25,7 @@ ServerEvents.recipes((event) => {
     // 0. BASICS & WOOD
     // ==========================================
 
-    // Sticks (2 Logs -> 4 Sticks)
-    event.remove({ output: "minecraft:stick" });
-    event.shaped("4x minecraft:stick", ["L", "L"], { L: "#minecraft:logs" });
-
-    // Modded Sticks
-    event.remove({ output: "aether:skyroot_stick" });
-    event.shaped("4x aether:skyroot_stick", ["L", "L"], {
-        L: "#aether:skyroot_logs",
-    });
-
-    event.remove({ output: "immersiveengineering:stick_treated" });
-    event.shaped(Item.of("immersiveengineering:stick_treated", 2), ["P", "P"], {
-        P: "#immersiveengineering:treated_wood",
-    });
+    // Sticks: restored to vanilla (2 planks -> 4 sticks) after player feedback
 
     // Crafting Table: Requires Leather (Forces hunting)
     event.remove({ output: "minecraft:crafting_table" });
@@ -389,14 +376,6 @@ ServerEvents.recipes((event) => {
         F: "minecraft:flint",
         I: "minecraft:feather",
         L: "#minecraft:logs",
-    });
-
-    // Inscription Table (Irons Spellbooks) - Gold Sheets
-    event.remove({ output: "irons_spellbooks:inscription_table" });
-    event.shaped("irons_spellbooks:inscription_table", [" B ", "POP", "O O"], {
-        B: "minecraft:book",
-        P: GOLD_SHEET,
-        O: "minecraft:obsidian",
     });
 
     // Create Schematicannon
@@ -1396,18 +1375,6 @@ ServerEvents.recipes((event) => {
         P: 'create:precision_mechanism'
     }).id('arcadia:golden_sacrificial_bowl');
 
-    event.remove({ output: 'occultism:sacrificial_bowl' });
-    event.shaped('occultism:sacrificial_bowl', [
-        'G G',
-        'SAS',
-        ' B '
-    ], {
-        G: 'create:golden_sheet',
-        S: 'ars_nouveau:source_gem',
-        A: 'minecraft:gold_ingot',
-        B: 'create:brass_ingot'
-    }).id('arcadia:sacrificial_bowl');
-
     event.remove({ output: 'occultism:chalk_white_impure' });
     event.shaped('occultism:chalk_white_impure', [
         ' M ',
@@ -1888,10 +1855,13 @@ ServerEvents.recipes((event) => {
     //     T1 machines + brass/cogwheel; T2/T3 + PM; endgame + AA + bridges.
     // ============================================================
 
-    // T1 Machines — cross-mod Create gears
+    // T1 Machines — cross-mod Create gears (iron sheet + Create parts instead of raw ingots)
     event.replaceInput({ output: 'mekanism:enrichment_chamber' }, 'minecraft:redstone', IRON_SHEET);
+    event.replaceInput({ output: 'mekanism:enrichment_chamber' }, 'minecraft:iron_ingot', IRON_SHEET);
     event.replaceInput({ output: 'mekanism:osmium_compressor' }, 'minecraft:redstone', 'create:brass_casing');
+    event.replaceInput({ output: 'mekanism:osmium_compressor' }, 'minecraft:iron_ingot', IRON_SHEET);
     event.replaceInput({ output: 'mekanism:combiner' }, 'minecraft:redstone', COGWHEEL);
+    event.replaceInput({ output: 'mekanism:combiner' }, 'minecraft:iron_ingot', IRON_SHEET);
     event.replaceInput({ output: 'mekanism:crusher' }, 'minecraft:redstone', COGWHEEL);
     event.replaceInput({ output: 'mekanism:metallurgic_infuser' }, 'minecraft:redstone', 'create:precision_mechanism');
 
@@ -2131,7 +2101,9 @@ ServerEvents.recipes((event) => {
     // ============================================================
 
     event.replaceInput({ output: 'tfmg:transistor_item' }, 'minecraft:redstone', 'createaddition:copper_spool');
+    event.replaceInput({ output: 'tfmg:transistor_item' }, 'createaddition:copper_wire', 'createaddition:copper_spool');
     event.replaceInput({ output: 'tfmg:converter' }, 'minecraft:copper_ingot', 'createaddition:copper_spool');
+    event.replaceInput({ output: 'tfmg:converter' }, 'createaddition:copper_wire', 'createaddition:copper_spool');
 
     event.remove({ output: 'tfmg:industrial_mixer' });
     event.recipes.create.mechanical_crafting(
@@ -2217,8 +2189,20 @@ ServerEvents.recipes((event) => {
         S: 'minecraft:stick'
     }).id('arcadia:ie_hammer');
 
-    event.replaceInput({ output: 'immersiveengineering:light_engineering' }, 'minecraft:iron_ingot', IRON_SHEET);
-    event.replaceInput({ output: 'immersiveengineering:heavy_engineering' }, IE_PLATE_STEEL, TFMG_HEAVY_PLATE);
+    event.remove({ output: 'immersiveengineering:light_engineering' });
+    event.shaped('immersiveengineering:light_engineering', ['SWS', 'ICI', 'SWS'], {
+        S: IRON_SHEET,
+        W: 'immersiveengineering:wirecoil_copper',
+        I: 'immersiveengineering:component_iron',
+        C: COGWHEEL
+    }).id('arcadia:ie_light_engineering');
+
+    event.remove({ output: 'immersiveengineering:heavy_engineering' });
+    event.shaped('immersiveengineering:heavy_engineering', ['SPS', 'PCP', 'SPS'], {
+        S: TFMG_HEAVY_PLATE,
+        P: 'create:precision_mechanism',
+        C: IE_COMPONENT_STEEL
+    }).id('arcadia:ie_heavy_engineering');
 
     event.remove({ output: 'immersiveengineering:revolver' });
     event.shaped('immersiveengineering:revolver', [' GS', 'CPM', 'HB '], {
@@ -2269,36 +2253,7 @@ ServerEvents.recipes((event) => {
         }
     ).id('arcadia:ie_railgun');
 
-    event.remove({ output: 'immersiveengineering:excavator' });
-    event.recipes.create.mechanical_crafting(
-        'immersiveengineering:excavator',
-        [
-            "SHS",
-            "MAM",
-            "SPS"
-        ], {
-            S: IE_PLATE_STEEL,
-            H: INDUSTRIAL_HEART,
-            M: 'immersiveengineering:heavy_engineering',
-            A: MEK_ALLOY_ATOMIC,
-            P: 'create:precision_mechanism'
-        }
-    ).id('arcadia:ie_excavator');
-
-    event.remove({ output: 'immersiveengineering:arc_furnace' });
-    event.recipes.create.mechanical_crafting(
-        'immersiveengineering:arc_furnace',
-        [
-            "SHS",
-            "PCP",
-            "SHS"
-        ], {
-            S: TFMG_HEAVY_PLATE,
-            H: 'immersiveengineering:heavy_engineering',
-            P: 'create:precision_mechanism',
-            C: 'create:brass_casing'
-        }
-    ).id('arcadia:ie_arc_furnace');
+    // Note: IE Excavator and Arc Furnace are multiblocks, not crafted items — no override needed.
 
     // ============================================================
     // 16. CREATE ADDITION HARDENING
@@ -2328,7 +2283,13 @@ ServerEvents.recipes((event) => {
     ).id('arcadia:ca_modular_accumulator');
 
     // createaddition:charger item does not exist — removed.
-    event.replaceInput({ output: 'createaddition:portable_energy_interface' }, 'minecraft:iron_ingot', 'create:precision_mechanism');
+    event.remove({ output: 'createaddition:portable_energy_interface' });
+    event.shaped('createaddition:portable_energy_interface', ['SCS', 'PMP', 'SCS'], {
+        S: IRON_SHEET,
+        C: 'createaddition:capacitor',
+        P: 'create:precision_mechanism',
+        M: 'create:copper_casing'
+    }).id('arcadia:ca_portable_energy');
 
     event.remove({ output: 'createaddition:tesla_coil' });
     event.recipes.create.mechanical_crafting(
@@ -2353,7 +2314,13 @@ ServerEvents.recipes((event) => {
         A: 'create:andesite_casing'
     }).id('arcadia:ca_alternator');
 
-    event.replaceInput({ output: 'createaddition:rolling_mill' }, 'minecraft:iron_ingot', 'create:precision_mechanism');
+    event.remove({ output: 'createaddition:rolling_mill' });
+    event.shaped('createaddition:rolling_mill', [' S ', 'SCS', 'PBP'], {
+        S: IRON_SHEET,
+        C: COGWHEEL,
+        P: 'create:precision_mechanism',
+        B: 'create:brass_casing'
+    }).id('arcadia:ca_rolling_mill');
 
     // ============================================================
     // 17. CREATE NUCLEAR HARDENING
@@ -2532,9 +2499,30 @@ ServerEvents.recipes((event) => {
     // 20. REFINED STORAGE + EXTRADISKS HARDENING
     // ============================================================
 
-    event.replaceInput({ output: 'refinedstorage:grid' }, 'minecraft:iron_ingot', 'create:precision_mechanism');
-    event.replaceInput({ output: 'refinedstorage:crafting_grid' }, 'minecraft:iron_ingot', 'create:precision_mechanism');
-    event.replaceInput({ output: 'refinedstorage:wireless_grid' }, 'minecraft:iron_ingot', 'create:brass_casing');
+    event.remove({ output: 'refinedstorage:grid' });
+    event.shaped('refinedstorage:grid', ['SQS', 'GPG', 'SCS'], {
+        S: IRON_SHEET,
+        Q: 'minecraft:quartz',
+        G: 'minecraft:glass_pane',
+        P: 'create:precision_mechanism',
+        C: 'create:brass_casing'
+    }).id('arcadia:rs_grid');
+
+    event.remove({ output: 'refinedstorage:crafting_grid' });
+    event.shaped('refinedstorage:crafting_grid', [' C ', 'GRG', ' P '], {
+        C: 'minecraft:crafting_table',
+        G: 'minecraft:glass_pane',
+        R: 'refinedstorage:grid',
+        P: 'create:precision_mechanism'
+    }).id('arcadia:rs_crafting_grid');
+
+    event.remove({ output: 'refinedstorage:wireless_grid' });
+    event.shaped('refinedstorage:wireless_grid', [' E ', 'GRG', ' B '], {
+        E: 'minecraft:ender_pearl',
+        G: 'minecraft:glass_pane',
+        R: 'refinedstorage:grid',
+        B: 'create:brass_casing'
+    }).id('arcadia:rs_wireless_grid');
 
     event.remove({ output: 'refinedstorage:64k_storage_part' });
     event.recipes.create.mechanical_crafting(
@@ -2562,7 +2550,7 @@ ServerEvents.recipes((event) => {
             G: 'minecraft:glass',
             A: MEK_ALLOY_ATOMIC,
             P: 'create:precision_mechanism',
-            K: 'refinedstorage:64k_storage_part',
+            K: 'extradisks:256k_item_storage_part',
             S: SOURCE_GEM_BLOCK
         }
     ).id('arcadia:rs_1024k_part');
@@ -2584,16 +2572,16 @@ ServerEvents.recipes((event) => {
         'extradisks:infinite_item_storage_part',
         [
             " NAN ",
-            "AFCFA",
-            "NCRCN",
-            "AFCFA",
+            "AFMFA",
+            "NM4MN",
+            "AFMFA",
             " NAN "
         ], {
             N: 'minecraft:nether_star',
             A: MEK_ALLOY_ATOMIC,
             F: 'arcadia:fusion_core',
-            C: SOURCE_GEM_BLOCK,
-            R: RUNE_MATRIX
+            M: RUNE_MATRIX,
+            '4': 'extradisks:4096k_item_storage_part'
         }
     ).id('arcadia:rs_infinite_part');
 
@@ -2769,7 +2757,11 @@ ServerEvents.recipes((event) => {
         S: 'minecraft:stick'
     }).id('arcadia:occultism_divination_rod');
 
-    event.replaceInput({ output: 'occultism:infused_pickaxe' }, 'minecraft:iron_ingot', ETHEREAL_ALLOY);
+    event.remove({ output: 'occultism:infused_pickaxe' });
+    event.shaped('occultism:infused_pickaxe', ['EEE', ' S ', ' S '], {
+        E: ETHEREAL_ALLOY,
+        S: REINFORCE_BLOCK
+    }).id('arcadia:occultism_infused_pickaxe');
 
     event.remove({ output: 'occultism:otherworld_goggles' });
     event.shaped('occultism:otherworld_goggles', ['EGE', 'SES', ' O '], {
@@ -2827,8 +2819,9 @@ ServerEvents.recipes((event) => {
         'aether:gravitite_sword', 'aether:gravitite_pickaxe', 'aether:gravitite_axe',
         'aether:gravitite_shovel', 'aether:gravitite_hoe'
     ];
-    aetherGravititeTools.forEach(item => event.replaceInput({ output: item }, 'minecraft:stick', REINFORCE_BLOCK));
+    aetherGravititeTools.forEach(item => event.replaceInput({ output: item }, 'aether:skyroot_stick', REINFORCE_BLOCK));
 
+    // Gravitite armor: only harden the leather slot (keep gravitite gem as primary material)
     const aetherGravititeArmor = [
         'aether:gravitite_helmet', 'aether:gravitite_chestplate',
         'aether:gravitite_leggings', 'aether:gravitite_boots',
@@ -2836,15 +2829,9 @@ ServerEvents.recipes((event) => {
     ];
     aetherGravititeArmor.forEach(item => {
         event.replaceInput({ output: item, allowEmpty: true }, 'minecraft:leather', GOLD_SHEET);
-        event.replaceInput({ output: item, allowEmpty: true }, 'aether:enchanted_gravitite', REINFORCE_BLOCK);
     });
 
-    const aetherPhoenixArmor = [
-        'aether:phoenix_helmet', 'aether:phoenix_chestplate',
-        'aether:phoenix_leggings', 'aether:phoenix_boots',
-        'aether:phoenix_gloves'
-    ];
-    aetherPhoenixArmor.forEach(item => event.replaceInput({ output: item, allowEmpty: true }, 'minecraft:stick', 'minecraft:blaze_rod'));
+    // Phoenix armor: loot-only in current Aether build (no vanilla craft), nothing to harden.
 
     // ============================================================
     // 28. AQUACULTURE HARDENING (neptunium tier)
