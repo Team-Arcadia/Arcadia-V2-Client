@@ -52,18 +52,11 @@ function stripFromPlayer(player) {
   return found;
 }
 
-// Instant detection when any inventory slot changes
+// Instant detection when any inventory slot changes — no periodic tick scan
+// (to avoid TPS impact on a 30-50 player server).
 PlayerEvents.inventoryChanged(event => {
   if (stripFromStack(event.item)) {
     event.player.tell(Text.yellow('⚠ Life Mending retire des gants Aether (bug connu - crash quand soigne).'));
     event.player.inventoryMenu.broadcastChanges();
-  }
-});
-
-// Safety net: full scan every 5 minutes
-PlayerEvents.tick(event => {
-  if (event.player.tickCount % 6000 !== 0) return;
-  if (stripFromPlayer(event.player)) {
-    event.player.tell(Text.yellow('⚠ Life Mending retire de tes gants Aether (bug connu).'));
   }
 });
