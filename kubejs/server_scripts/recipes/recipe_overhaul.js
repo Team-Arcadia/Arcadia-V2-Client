@@ -581,14 +581,6 @@ ServerEvents.recipes((event) => {
         S: "minecraft:stick",
     });
 
-    // Compass (Iron Sheets + Gold Nugget)
-    event.remove({ output: "minecraft:compass" });
-    event.shaped("minecraft:compass", [" P ", "PRP", " N "], {
-        P: IRON_SHEET,
-        R: "minecraft:redstone",
-        N: "minecraft:gold_nugget",
-    });
-
     // Book (String)
     event.remove({ output: "minecraft:book" });
     event.shapeless("minecraft:book", [
@@ -2870,54 +2862,6 @@ ServerEvents.recipes((event) => {
         'aquaculture:neptunium_leggings', 'aquaculture:neptunium_boots'
     ];
     aquaNeptuniumArmor.forEach(item => event.replaceInput({ output: item, allowEmpty: true }, 'aquaculture:neptunium_ingot', SOURCE_GEM));
-
-    // ============================================================
-    // 29. ARTIFACTS HARDENING
-    // ============================================================
-
-    event.remove({ output: 'artifacts:crystal_heart' });
-    event.shaped('artifacts:crystal_heart', [' A ', 'ISI', ' A '], {
-        A: 'minecraft:amethyst_shard',
-        I: IRON_SHEET,
-        S: SOURCE_GEM
-    }).id('arcadia:artifacts_crystal_heart');
-
-    event.remove({ output: 'artifacts:flame_pendant' });
-    event.shaped('artifacts:flame_pendant', [' G ', 'SBS', ' R '], {
-        G: GOLD_SHEET,
-        S: 'minecraft:string',
-        B: 'minecraft:blaze_rod',
-        R: SOURCE_GEM
-    }).id('arcadia:artifacts_flame_pendant');
-
-    event.remove({ output: 'artifacts:night_vision_goggles' });
-    event.shaped('artifacts:night_vision_goggles', ['GSG', 'SCS', ' G '], {
-        G: GOLD_SHEET,
-        S: 'minecraft:sculk_shrieker',
-        C: SOURCE_GEM
-    }).id('arcadia:artifacts_night_vision');
-
-    event.remove({ output: 'artifacts:running_shoes' });
-    event.shaped('artifacts:running_shoes', ['R R', 'B B'], {
-        R: 'minecraft:rabbit_foot',
-        B: REINFORCE_BLOCK
-    }).id('arcadia:artifacts_running_shoes');
-
-    event.remove({ output: 'artifacts:power_glove' });
-    event.shaped('artifacts:power_glove', [' P ', 'IBI', ' L '], {
-        P: 'create:precision_mechanism',
-        I: 'minecraft:iron_block',
-        B: REINFORCE_BLOCK,
-        L: 'minecraft:leather'
-    }).id('arcadia:artifacts_power_glove');
-
-    event.remove({ output: 'artifacts:cross_necklace' });
-    event.shaped('artifacts:cross_necklace', [' G ', 'NSN', ' E '], {
-        G: GOLD_SHEET,
-        N: 'minecraft:netherite_scrap',
-        S: SOURCE_GEM_BLOCK,
-        E: 'minecraft:ender_pearl'
-    }).id('arcadia:artifacts_cross_necklace');
 
     console.info("[Arcadia V2] Harder Recipes Script (Fin) Loaded!");
 });
