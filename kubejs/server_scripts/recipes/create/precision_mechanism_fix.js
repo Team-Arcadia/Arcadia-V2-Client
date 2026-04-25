@@ -15,18 +15,18 @@ ServerEvents.recipes(event => {
 
     const incomplete = 'create:incomplete_precision_mechanism';
 
-    // Recreate identical to Create's default but using create:golden_sheet directly
+    // Recreate identical to Create's default but using create:golden_sheet directly.
+    // KubeJS 7 CreateItem.of expects chance in 0.0-1.0 range (not the 0-100 scale used in
+    // Create's native JSON). Primary output is guaranteed (1.0); bonuses keep original %.
     event.recipes.create.sequenced_assembly(
         [
-            CreateItem.of('create:precision_mechanism', 120.0),
-            CreateItem.of('create:golden_sheet', 8.0),
-            CreateItem.of('create:andesite_alloy', 8.0),
-            CreateItem.of('create:cogwheel', 5.0),
-            CreateItem.of('minecraft:gold_nugget', 3.0),
-            CreateItem.of('create:shaft', 2.0),
-            CreateItem.of('create:crushed_raw_gold', 2.0),
-            'minecraft:iron_ingot',
-            'minecraft:clock'
+            CreateItem.of('create:precision_mechanism', 1.0),
+            CreateItem.of('create:golden_sheet', 0.08),
+            CreateItem.of('create:andesite_alloy', 0.08),
+            CreateItem.of('create:cogwheel', 0.05),
+            CreateItem.of('minecraft:gold_nugget', 0.03),
+            CreateItem.of('create:shaft', 0.02),
+            CreateItem.of('create:crushed_raw_gold', 0.02)
         ],
         'create:golden_sheet',
         [
