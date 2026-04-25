@@ -1611,53 +1611,7 @@ ServerEvents.recipes((event) => {
         R: 'minecraft:redstone_block'
     }).id('arcadia:rs_wireless_transmitter');
 
-    // --- Sophisticatedbackpacks: Iron tier needs sheets ---
-    event.remove({ output: 'sophisticatedbackpacks:iron_backpack' });
-    event.shaped('sophisticatedbackpacks:iron_backpack', [
-        'SIS',
-        'IBI',
-        'SIS'
-    ], {
-        S: IRON_SHEET,
-        I: 'minecraft:iron_ingot',
-        B: 'sophisticatedbackpacks:backpack'
-    }).id('arcadia:iron_backpack');
-
-    // --- Sophisticatedbackpacks: Gold tier needs gold sheets ---
-    event.remove({ output: 'sophisticatedbackpacks:gold_backpack' });
-    event.shaped('sophisticatedbackpacks:gold_backpack', [
-        'SGS',
-        'GBG',
-        'SGS'
-    ], {
-        S: GOLD_SHEET,
-        G: 'minecraft:gold_ingot',
-        B: 'sophisticatedbackpacks:iron_backpack'
-    }).id('arcadia:gold_backpack');
-
-    // --- Sophisticatedbackpacks: Diamond tier needs precision mechanism ---
-    event.remove({ output: 'sophisticatedbackpacks:diamond_backpack' });
-    event.shaped('sophisticatedbackpacks:diamond_backpack', [
-        'DPD',
-        'DBD',
-        'DDD'
-    ], {
-        D: 'minecraft:diamond',
-        P: 'create:precision_mechanism',
-        B: 'sophisticatedbackpacks:gold_backpack'
-    }).id('arcadia:diamond_backpack');
-
-    // --- Sophisticatedbackpacks: Netherite tier needs TFMG steel ---
-    event.remove({ output: 'sophisticatedbackpacks:netherite_backpack' });
-    event.shaped('sophisticatedbackpacks:netherite_backpack', [
-        'SNS',
-        'NBN',
-        'SNS'
-    ], {
-        S: 'tfmg:steel_ingot',
-        N: 'minecraft:netherite_ingot',
-        B: 'sophisticatedbackpacks:diamond_backpack'
-    }).id('arcadia:netherite_backpack');
+    // Sophisticatedbackpacks: vanilla recipes restored (custom overrides removed).
 
     // --- Building Gadgets: Gadget needs Create + Mek ---
     event.remove({ output: 'buildinggadgets2:gadget_building' });
