@@ -1282,17 +1282,8 @@ ServerEvents.recipes((event) => {
         B: 'create:brass_ingot'
     }).id('arcadia:source_jar');
 
-    event.remove({ output: 'ars_nouveau:imbuement_chamber' });
-    event.shaped('ars_nouveau:imbuement_chamber', [
-        'SAS',
-        'G G',
-        'STS'
-    ], {
-        S: 'tfmg:steel_ingot',
-        A: 'ars_nouveau:source_gem_block',
-        G: 'create:golden_sheet',
-        T: '#c:logs/archwood'
-    }).id('arcadia:imbuement_chamber');
+    // Imbuement Chamber: vanilla recipe restored (custom required source_gem_block which
+    // soft-locked the Ars progression — source gems are made IN the imbuement chamber).
 
     event.remove({ output: 'ars_nouveau:relay' });
     event.shaped('ars_nouveau:relay', [
