@@ -100,7 +100,7 @@
 		#Changes the lowest speed the large generator can work on.
 		# Default: 70.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		largeGeneratorMinSpeed = 70.0
+		largeGeneratorMinSpeed = 32.0
 		#.
 		#Determines how powerful the generator is.
 		# Default: 1.399999976158142
@@ -110,7 +110,7 @@
 		#Changes the lowest speed the generator can work on.
 		# Default: 40.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		generatorMinSpeed = 40.0
+		generatorMinSpeed = 16.0
 
 	#.
 	#Blast Furnace
