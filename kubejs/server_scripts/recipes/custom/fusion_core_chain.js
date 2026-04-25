@@ -168,7 +168,7 @@ ServerEvents.recipes(event => {
         [
             "ERARE",
             "RCMCR",
-            "AMUAM",
+            "AMUMA",
             "RCMCR",
             "ERARE"
         ], {
