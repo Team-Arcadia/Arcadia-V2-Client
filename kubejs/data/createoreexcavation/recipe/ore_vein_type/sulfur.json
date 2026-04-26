@@ -1,0 +1,18 @@
+{
+  "type": "createoreexcavation:vein",
+  "amountMultiplierMax": 30.0,
+  "amountMultiplierMin": 10.0,
+  "biomeWhitelist": "minecraft:is_overworld",
+  "finite": "default",
+  "icon": {
+    "count": 1,
+    "id": "tfmg:sulfur"
+  },
+  "name": "{\"translate\": \"block.tfmg.sulfur\"}",
+  "placement": {
+    "salt": 573829461,
+    "separation": 7,
+    "spacing": 100
+  },
+  "priority": 0
+}
