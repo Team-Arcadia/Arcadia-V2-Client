@@ -424,7 +424,36 @@ ServerEvents.recipes((event) => {
         C: "createaddition:capacitor"
     });
 
-    // Apotheosis Tables: vanilla recipes restored (custom overrides removed — too hard / inconsistent).
+    // Apotheosis Tables: moderate cross-mod hardening (Create sheets / PM, no fusion-tier requirements).
+    event.remove({ output: "apotheosis:simple_reforging_table" });
+    event.shaped("apotheosis:simple_reforging_table", [" I ", "IAI", "PPP"], {
+        I: IRON_SHEET,
+        A: "minecraft:anvil",
+        P: "minecraft:smooth_stone",
+    }).id("arcadia:apo_simple_reforging_table");
+
+    event.remove({ output: "apotheosis:reforging_table" });
+    event.shaped("apotheosis:reforging_table", ["GDG", "DSD", "PPP"], {
+        G: GOLD_SHEET,
+        D: "minecraft:diamond",
+        S: "apotheosis:simple_reforging_table",
+        P: "create:precision_mechanism",
+    }).id("arcadia:apo_reforging_table");
+
+    event.remove({ output: "apotheosis:salvaging_table" });
+    event.shaped("apotheosis:salvaging_table", ["III", " S ", "PPP"], {
+        I: IRON_SHEET,
+        S: "minecraft:smithing_table",
+        P: "minecraft:smooth_stone",
+    }).id("arcadia:apo_salvaging_table");
+
+    event.remove({ output: "apotheosis:gem_cutting_table" });
+    event.shaped("apotheosis:gem_cutting_table", [" S ", "CAC", "III"], {
+        S: "minecraft:shears",
+        C: "minecraft:amethyst_shard",
+        A: "minecraft:stonecutter",
+        I: IRON_SHEET,
+    }).id("arcadia:apo_gem_cutting_table");
 
     // ==========================================
     // 4. DECORATION & UTILITIES
@@ -2659,8 +2688,30 @@ ServerEvents.recipes((event) => {
     // 26. APOTHEOSIS HARDENING
     // ============================================================
 
-    // Sigils of socketing / enhancement / rebirth: vanilla recipes restored.
-    // Only Sigil of Supremacy (no vanilla recipe) keeps its custom Arcadia mega-craft.
+    // Sigils: moderate cross-mod hardening — same output counts as vanilla, just one bridge ingredient
+    // added (ARCANE_CIRCUIT or precision_mechanism) so progression talks to Arcadia/Create.
+    event.remove({ output: 'apotheosis:sigil_of_socketing' });
+    event.shaped(Item.of('apotheosis:sigil_of_socketing', 3), ['GUG', 'EPE', 'GAG'], {
+        G: 'apotheosis:gem_fused_slate',
+        U: 'minecraft:gunpowder',
+        E: 'apotheosis:gem_dust',
+        P: 'create:precision_mechanism',
+        A: 'minecraft:amethyst_shard'
+    }).id('arcadia:apo_sigil_socketing');
+
+    event.remove({ output: 'apotheosis:sigil_of_enhancement' });
+    event.shaped(Item.of('apotheosis:sigil_of_enhancement', 4), ['GEG', 'EAE', 'GEG'], {
+        G: 'apotheosis:gem_dust',
+        E: 'apotheosis:gem_fused_slate',
+        A: ARCANE_CIRCUIT
+    }).id('arcadia:apo_sigil_enhancement');
+
+    event.remove({ output: 'apotheosis:sigil_of_rebirth' });
+    event.shaped(Item.of('apotheosis:sigil_of_rebirth', 6), ['GAG', 'EEE', 'GAG'], {
+        G: 'apotheosis:gem_fused_slate',
+        A: ARCANE_CIRCUIT,
+        E: 'apotheosis:gem_dust'
+    }).id('arcadia:apo_sigil_rebirth');
 
     // --- APEX: Sigil of Supremacy ---
     // The ultimate affix-upgrade sigil. Requires ALL 4 Arcadia bridges, the Fusion chain (tier 3),
