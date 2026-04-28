@@ -2497,66 +2497,8 @@ ServerEvents.recipes((event) => {
         B: 'create:brass_casing'
     }).id('arcadia:rs_wireless_grid');
 
-    event.remove({ output: 'refinedstorage:64k_storage_part' });
-    event.recipes.create.mechanical_crafting(
-        'refinedstorage:64k_storage_part',
-        [
-            "GPG",
-            "QRQ",
-            "GPG"
-        ], {
-            G: 'minecraft:glass',
-            P: 'create:precision_mechanism',
-            Q: 'refinedstorage:quartz_enriched_iron',
-            R: MEK_ALLOY_REINFORCED
-        }
-    ).id('arcadia:rs_64k_part');
-
-    event.remove({ output: 'extradisks:1024k_item_storage_part' });
-    event.recipes.create.mechanical_crafting(
-        'extradisks:1024k_item_storage_part',
-        [
-            "GAG",
-            "PKP",
-            "GSG"
-        ], {
-            G: 'minecraft:glass',
-            A: MEK_ALLOY_ATOMIC,
-            P: 'create:precision_mechanism',
-            K: 'extradisks:256k_item_storage_part',
-            S: SOURCE_GEM_BLOCK
-        }
-    ).id('arcadia:rs_1024k_part');
-
-    event.remove({ output: 'extradisks:4096k_item_storage_part' });
-    event.recipes.create.sequenced_assembly(
-        [Item.of('extradisks:4096k_item_storage_part', 1)],
-        'extradisks:1024k_item_storage_part',
-        [
-            event.recipes.createDeploying('extradisks:1024k_item_storage_part', ['extradisks:1024k_item_storage_part', MEK_ALLOY_ATOMIC]),
-            event.recipes.createDeploying('extradisks:1024k_item_storage_part', ['extradisks:1024k_item_storage_part', 'arcadia:fusion_matrix']),
-            event.recipes.createDeploying('extradisks:1024k_item_storage_part', ['extradisks:1024k_item_storage_part', 'create:precision_mechanism']),
-            event.recipes.createPressing('extradisks:1024k_item_storage_part', 'extradisks:1024k_item_storage_part')
-        ]
-    ).transitionalItem('extradisks:1024k_item_storage_part').loops(5).id('arcadia:rs_4096k_part');
-
-    event.remove({ output: 'extradisks:infinite_item_storage_part' });
-    event.recipes.create.mechanical_crafting(
-        'extradisks:infinite_item_storage_part',
-        [
-            " NAN ",
-            "AFMFA",
-            "NMXMN",
-            "AFMFA",
-            " NAN "
-        ], {
-            N: 'minecraft:nether_star',
-            A: MEK_ALLOY_ATOMIC,
-            F: 'arcadia:fusion_core',
-            M: RUNE_MATRIX,
-            X: 'extradisks:1048576k_item_storage_part'
-        }
-    ).id('arcadia:rs_infinite_part');
+    // Storage parts: vanilla recipes restored (custom overrides removed).
+    // Touched: refinedstorage:64k, extradisks:1024k/4096k/infinite_item_storage_part.
 
     // ============================================================
     // 21. FLUX NETWORKS HARDENING
