@@ -424,38 +424,7 @@ ServerEvents.recipes((event) => {
         C: "createaddition:capacitor"
     });
 
-    // Apotheosis Tables
-    event.remove({ output: "apotheosis:reforging_table" });
-    event.shaped("apotheosis:reforging_table", ["NDN", "DSD", "PPP"], {
-        N: "minecraft:netherite_scrap",
-        D: "minecraft:diamond_block",
-        S: "apotheosis:simple_reforging_table",
-        P: GOLD_SHEET,
-    });
-
-    event.remove({ output: "apotheosis:simple_reforging_table" });
-    event.shaped("apotheosis:simple_reforging_table", [" I ", "IAI", "PPP"], {
-        I: IRON_SHEET,
-        A: "minecraft:anvil",
-        P: "minecraft:smooth_stone",
-    });
-
-    event.remove({ output: "apotheosis:salvaging_table" });
-    event.shaped("apotheosis:salvaging_table", ["III", "LST", "PPP"], {
-        I: IRON_SHEET,
-        L: "minecraft:lava_bucket",
-        S: "minecraft:smithing_table",
-        T: "minecraft:iron_pickaxe",
-        P: REINFORCE_BLOCK,
-    });
-
-    event.remove({ output: "apotheosis:gem_cutting_table" });
-    event.shaped("apotheosis:gem_cutting_table", [" S ", "CAC", "PPP"], {
-        S: "minecraft:shears",
-        C: "minecraft:amethyst_shard",
-        A: "minecraft:stonecutter",
-        P: "#minecraft:planks",
-    });
+    // Apotheosis Tables: vanilla recipes restored (custom overrides removed — too hard / inconsistent).
 
     // ==========================================
     // 4. DECORATION & UTILITIES
@@ -2690,28 +2659,8 @@ ServerEvents.recipes((event) => {
     // 26. APOTHEOSIS HARDENING
     // ============================================================
 
-    event.remove({ output: 'apotheosis:sigil_of_socketing' });
-    event.shaped('apotheosis:sigil_of_socketing', [' G ', 'RPR', ' G '], {
-        G: 'apotheosis:rare_material',
-        R: RUNE_MATRIX,
-        P: 'create:precision_mechanism'
-    }).id('arcadia:apo_sigil_socketing');
-
-    // Sigil of Enhancement: add RUNE_MATRIX bridge + halve output count (2 instead of 4)
-    event.remove({ output: 'apotheosis:sigil_of_enhancement' });
-    event.shaped(Item.of('apotheosis:sigil_of_enhancement', 2), ['GEG', 'EME', 'GEG'], {
-        G: 'apotheosis:gem_dust',
-        E: 'apotheosis:gem_fused_slate',
-        M: RUNE_MATRIX
-    }).id('arcadia:apo_sigil_enhancement');
-
-    // Sigil of Rebirth: add ARCANE_CIRCUIT corners + halve output count (3 instead of 6)
-    event.remove({ output: 'apotheosis:sigil_of_rebirth' });
-    event.shaped(Item.of('apotheosis:sigil_of_rebirth', 3), ['AGA', 'EEE', 'AGA'], {
-        A: ARCANE_CIRCUIT,
-        G: 'apotheosis:gem_fused_slate',
-        E: 'apotheosis:gem_dust'
-    }).id('arcadia:apo_sigil_rebirth');
+    // Sigils of socketing / enhancement / rebirth: vanilla recipes restored.
+    // Only Sigil of Supremacy (no vanilla recipe) keeps its custom Arcadia mega-craft.
 
     // --- APEX: Sigil of Supremacy ---
     // The ultimate affix-upgrade sigil. Requires ALL 4 Arcadia bridges, the Fusion chain (tier 3),
