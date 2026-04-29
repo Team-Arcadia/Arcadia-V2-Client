@@ -111,6 +111,26 @@
 		# Default: 40.0
 		# Range: 0.0 ~ 3.4028234663852886E38
 		generatorMinSpeed = 16.0
+		#.
+		#Multiplier applied to the large generator's generation when computing output voltage. Raise it to push higher voltage (and therefore current) into low-resistance loads.
+		# Default: 3.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		largeGeneratorVoltageMultiplier = 3.0
+		#.
+		#Multiplier applied to the large generator's generation when computing output power. Raise it when the network reports 'Not Enough Power' under heavy loads.
+		# Default: 2.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		largeGeneratorPowerMultiplier = 2.0
+		#.
+		#Maximum output voltage of the large generator. Increase to extend the usable RPM range.
+		# Default: 10000
+		# Range: > 1
+		largeGeneratorMaxVoltage = 10000
+		#.
+		#Maximum output voltage of the regular generator. Increase to extend the usable RPM range.
+		# Default: 1000
+		# Range: > 1
+		generatorMaxVoltage = 1000
 
 	#.
 	#Blast Furnace
