@@ -1866,13 +1866,16 @@ ServerEvents.recipes((event) => {
 
     event.replaceInput({ output: 'mekanism:solar_neutron_activator' }, 'minecraft:iron_ingot', MEK_ALLOY_ATOMIC);
 
-    // T2 Control Circuit — gated behind Arcane Circuit
-    event.remove({ output: 'mekanism:advanced_control_circuit' });
-    event.shapeless('mekanism:advanced_control_circuit', [
-        'mekanism:basic_control_circuit', MEK_ALLOY_INFUSED, ARCANE_CIRCUIT
-    ]).id('arcadia:mek_advanced_circuit');
+    // T2 Control Circuit: vanilla recipes kept (table + infuser) — was too punishing as a hard gate.
 
-    // T3/Endgame
+    // T3 Control Circuit — single hardened recipe (replaces the vanilla table + infuser duplicates)
+    // gated behind Arcane Circuit + reinforced alloy. Shapeless = lenient.
+    event.remove({ output: 'mekanism:elite_control_circuit' });
+    event.shapeless('mekanism:elite_control_circuit', [
+        'mekanism:advanced_control_circuit', MEK_ALLOY_REINFORCED, ARCANE_CIRCUIT
+    ]).id('arcadia:mek_elite_circuit');
+
+    // T4/Endgame
     event.remove({ output: 'mekanism:ultimate_control_circuit' });
     event.recipes.create.sequenced_assembly(
         [Item.of('mekanism:ultimate_control_circuit', 1)],
