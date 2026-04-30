@@ -332,6 +332,9 @@ LootJS.modifiers((event) => {
 
     // Advanced Peripherals (chunk loading exploit)
     "advancedperipherals:chunk_controller",
+
+    // Ars Additions (server crash loop on use)
+    "ars_additions:exploration_warp_scroll",
   ];
   chest.removeLoot(bannedItems);
 
