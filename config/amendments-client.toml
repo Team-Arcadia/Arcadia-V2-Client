@@ -4,8 +4,6 @@
 	#Makes dynamically generated assets depend on texture packs too and not just vanilla files
 	texture_pack_support = false
 	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
-	#ALWAYS = regenerate every launch (slightly slower boot, but no stale-cache bugs).
-	#Set to ALWAYS to avoid corrupted cache (e.g. missing oak sign models making signs invisible).
 	dynamic_assets_generation_mode = "ALWAYS"
 
 [sign]
