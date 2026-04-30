@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "tag": "c:dyes"
+    },
+    "K": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    "KKK",
+    "GGG",
+    "KKK"
+  ],
+  "result": {
+    "id": "exposure_polaroid:instant_color_sheet",
+    "components": {
+      "exposure:film_frame_size": 512
+    }
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:false"
+    }
+  ]
+}

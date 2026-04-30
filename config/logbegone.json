@@ -2,11 +2,88 @@
   "logbegone": {
     "phrases": [
       "Disconnecting VANILLA connection attempt",
-      "Channels "
+      "Channels ",
+      "Couldn't load fusion metadata",
+      "Couldn't load pack metadata",
+      "Couldn't load features metadata",
+      "Couldn't load overlays metadata",
+      "Couldn't load neoforge:overlays metadata",
+      "Couldn't load filter metadata",
+      "Couldn't load language metadata",
+      "Couldn't load sodium metadata",
+      "Tried to save a non allocated texture image at",
+      "Failed to generate record item texture for",
+      "Found loot table element validation problem in",
+      "Invalid path in pack:",
+      "does not exist, cannot add it to event",
+      "Unknown sound in sound rate config",
+      "Founded directories but custom loading gif is missing",
+      "Failed to load plugin",
+      "fabric:any_mod_loaded",
+      "An interpreter is already registered for this: create:potion",
+      "An interpreter is already registered for this: create:flowing_potion",
+      "Discarding @Unique public method",
+      "Class version ",
+      "failed to parse due to an error on component",
+      "Couldn't parse data file",
+      "is not included in: mmv:villages",
+      "Cowardly refusing to send event",
+      "Failed to process update information",
+      "Could not find sound category",
+      "Permissions implementation LUCKPERMS isn't available",
+      "is using legacy invisible texture, please update",
+      "Invalid frame index on sprite ars_additions:item/undying_charm",
+      "Disabling fastItemComparison",
+      "Fabric API detected! This is not a Fabric mod",
+      "could not be read. If this is a development environment",
+      "Unreachable entry",
+      "Attempted to select",
+      "only has an old path for subPath:",
+      "does not have required mod ",
+      "overriden (by user configuration)",
+      "Index 0 out of bounds for length 0",
+      "com.google.gson.JsonParseException",
+      "com.google.gson.stream.MalformedJsonException",
+      "java.io.EOFException",
+      "(of type minecraft:crafting) not found",
+      "(of type occultism:ritual) not found",
+
+      "Network error in:packet_handler",
+      "Ignoring further traffic from:",
+      "Can't keep up! Is the server overloaded?",
+      "[Leaky/]: Detected:",
+      "Mismatch in destroy block pos:",
+      "Block-attached entity at invalid position:",
+      "Tried to load invalid item: 'Item must not be minecraft:air'",
+      "Tried to load invalid item: 'No key id in MapLike[{}]'",
+
+      "Encountered unknown or non-serializable data attachment armourers_workshop:",
+      "Encountered unknown or non-serializable data attachment neoforge:attachments",
+
+      "Unable to send data to the website: java.io.IOException: Unexpected HTTP error",
+      "Unable to send data to the website: java.net.SocketTimeoutException",
+      "Unable to send data to the website: java.net.ConnectException",
+      "Unable to send data to the website: java.net.UnknownHostException",
+
+      "is marked as reference inventory but getInfoReferenceInventory() returns null",
+      "Unable to fill loot container in arcadia:spawn",
+
+      "[net.minecraft.world.level.block.entity.SignBlockEntity/]: Failed to parse either",
+
+      "See JadeErrorOutput.txt for more information",
+      "Failed to load chunk for searcher cache:",
+
+      "Exception caught in connection",
+      "io.netty.handler.codec.DecoderException",
+      "java.io.IOException: Une connexion existante a"
     ],
     "regex": [
-      "Disconnecting VANILLA connection attempt",
-      "Channels "
+      "Failed to generate (texture|Item Shelf block texture|Sign Post item texture).*(twilightforest|mangrove)",
+      "Couldn't parse element ResourceKey\\[minecraft:root / minecraft:loot_table\\].*Unknown registry key",
+      "Couldn't parse element ResourceKey\\[minecraft:root / minecraft:loot_table\\].*Failed to parse either",
+      "Error loading class:.*(octolib|emojiful|hrznstudio|violetmoon)",
+      "Recipe occultism:ritual/.*not found",
+      "Recipe .* \\(of type .*\\) not found"
     ]
   }
 }

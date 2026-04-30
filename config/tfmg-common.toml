@@ -26,7 +26,7 @@
 	#The minimum electric current that will make electrolyzers operational.
 	# Default: 5
 	# Range: > 1
-	electrolysisMinimumCurrent = 10
+	electrolysisMinimumCurrent = 5
 	#.
 	#The maximum length of engines.
 	# Default: 5
@@ -100,17 +100,7 @@
 		#Changes the lowest speed the large generator can work on.
 		# Default: 70.0
 		# Range: 0.0 ~ 3.4028234663852886E38
-		largeGeneratorMinSpeed = 32.0
-		#.
-		#Determines how powerful the generator is.
-		# Default: 1.399999976158142
-		# Range: 0.0 ~ 3.4028234663852886E38
-		GeneratorModifier = 1.399999976158142
-		#.
-		#Changes the lowest speed the generator can work on.
-		# Default: 40.0
-		# Range: 0.0 ~ 3.4028234663852886E38
-		generatorMinSpeed = 16.0
+		largeGeneratorMinSpeed = 70.0
 		#.
 		#Multiplier applied to the large generator's generation when computing output voltage. Raise it to push higher voltage (and therefore current) into low-resistance loads.
 		# Default: 3.0
@@ -126,6 +116,16 @@
 		# Default: 10000
 		# Range: > 1
 		largeGeneratorMaxVoltage = 10000
+		#.
+		#Determines how powerful the generator is.
+		# Default: 1.399999976158142
+		# Range: 0.0 ~ 3.4028234663852886E38
+		GeneratorModifier = 1.399999976158142
+		#.
+		#Changes the lowest speed the generator can work on.
+		# Default: 40.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		generatorMinSpeed = 40.0
 		#.
 		#Maximum output voltage of the regular generator. Increase to extend the usable RPM range.
 		# Default: 1000

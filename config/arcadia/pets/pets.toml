@@ -28,5 +28,15 @@
 	epic = ["minecraft:iron_golem", "minecraft:enderman", "minecraft:blaze", "minecraft:wither_skeleton"]
 	#Mobs rollable at LEGENDARY rarity
 	legendary = ["minecraft:warden", "minecraft:ender_dragon", "minecraft:wither", "minecraft:elder_guardian", "minecraft:ravager", "minecraft:breeze", "minecraft:shulker"]
-	#Mobs rollable at MYTHIC rarity — Staff member pets (player-skin entities, to be implemented)
+	#Mobs rollable at MYTHIC rarity — Staff member pets (player-skin entities)
 	mythic = ["arcadia_prestige:staff_vyrriox", "arcadia_prestige:staff_siriust", "arcadia_prestige:staff_tyvrax", "arcadia_prestige:staff_jlpopeye", "arcadia_prestige:staff_gaspich"]
+
+#Pet Sniffer dig allowlist.
+#When a pet sniffer is equipped/active, any server-spawned item that lands within
+#1.5 blocks of it is cancelled UNLESS its registry id is in this list. This neutralizes
+#the vanilla sniffer_digging dupe path (and any datapack-extended drop tables) while
+#still letting players farm a controlled set of basic vanilla ores.
+[sniffer]
+	#Items the pet sniffer is allowed to drop. Use namespaced item ids.
+	#Anything not in this list will be cancelled when it spawns near a pet sniffer.
+	dig_allowlist = ["minecraft:coal", "minecraft:raw_iron", "minecraft:raw_gold", "minecraft:raw_copper", "minecraft:diamond", "minecraft:emerald", "minecraft:redstone", "minecraft:lapis_lazuli", "minecraft:quartz", "minecraft:netherite_scrap", "minecraft:coal_ore", "minecraft:deepslate_coal_ore", "minecraft:iron_ore", "minecraft:deepslate_iron_ore", "minecraft:gold_ore", "minecraft:deepslate_gold_ore", "minecraft:nether_gold_ore", "minecraft:diamond_ore", "minecraft:deepslate_diamond_ore", "minecraft:emerald_ore", "minecraft:deepslate_emerald_ore", "minecraft:copper_ore", "minecraft:deepslate_copper_ore", "minecraft:redstone_ore", "minecraft:deepslate_redstone_ore", "minecraft:lapis_ore", "minecraft:deepslate_lapis_ore", "minecraft:nether_quartz_ore", "minecraft:ancient_debris"]

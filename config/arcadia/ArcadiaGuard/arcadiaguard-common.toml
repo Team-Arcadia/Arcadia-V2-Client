@@ -4,6 +4,12 @@
 	# Default: 2
 	# Range: 0 ~ 4
 	bypass_op_level = 2
+	#Mode debug : si true, affiche tous les messages INFO d'ArcadiaGuard
+	#(boot, registrations handlers, migrations YAWP, force-loaded chunks...) ET
+	#laisse passer les warnings 'marked as removed' causes par d'autres mods (Hominid).
+	#Si false (defaut), seuls les WARN et ERROR sont affiches et les warnings tiers
+	#sont silencieusement supprimes.
+	debug = false
 
 [toggles]
 	enable_block_break = true
