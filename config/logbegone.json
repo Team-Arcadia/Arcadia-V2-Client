@@ -47,7 +47,6 @@
       "java.io.EOFException",
       "(of type minecraft:crafting) not found",
       "(of type occultism:ritual) not found",
-
       "Network error in:packet_handler",
       "Ignoring further traffic from:",
       "Can't keep up! Is the server overloaded?",
@@ -56,34 +55,176 @@
       "Block-attached entity at invalid position:",
       "Tried to load invalid item: 'Item must not be minecraft:air'",
       "Tried to load invalid item: 'No key id in MapLike[{}]'",
-
       "Encountered unknown or non-serializable data attachment armourers_workshop:",
       "Encountered unknown or non-serializable data attachment neoforge:attachments",
-
+      "Encountered unknown or non-serializable data attachment carryon:carry_on_data",
       "Unable to send data to the website: java.io.IOException: Unexpected HTTP error",
       "Unable to send data to the website: java.net.SocketTimeoutException",
       "Unable to send data to the website: java.net.ConnectException",
       "Unable to send data to the website: java.net.UnknownHostException",
-
       "is marked as reference inventory but getInfoReferenceInventory() returns null",
       "Unable to fill loot container in arcadia:spawn",
-
       "[net.minecraft.world.level.block.entity.SignBlockEntity/]: Failed to parse either",
-
       "See JadeErrorOutput.txt for more information",
       "Failed to load chunk for searcher cache:",
-
       "Exception caught in connection",
       "io.netty.handler.codec.DecoderException",
-      "java.io.IOException: Une connexion existante a"
+      "java.io.IOException: Une connexion existante a",
+
+      "Tried to load a DUMMY block entity",
+      "Tried to load a block entity for block Block{minecraft:air}",
+      "Refined Storage could not load a resource in storage",
+      "Tried to load invalid item: 'No component with type:",
+
+      "Ignored advancement '",
+      "Ignored advancement \"",
+
+      "Couldn't load tag ",
+      " as it is missing following references:",
+
+      "Skipping recipe ",
+      "Error parsing recipe ",
+      "error parsing conditions:",
+
+      "Empty or non-existent pool:",
+      "Tried to over-fill a container",
+      "Non-unique structure_set salt:",
+
+      "[mixin]: Error loading class:",
+      "@Mixin target ",
+      "was not found ",
+      "Static binding violation:",
+      "Method overwrite conflict for ",
+      "@Redirect conflict. Skipping",
+      "Mixin apply for mod arcadiaguard failed",
+
+      "Plugin dev.uncandango.kubejstweaks",
+      "does not load on server side, skipping",
+      "BuiltinKubeJSClientPlugin does not load",
+
+      "[Debug Manager] Detected debug log level",
+      "[Debug Manager] Adjusting log level",
+      "[Advanced Peripherals/]: Failed to load integration",
+      "[MELODY] Disabling Melody since it's loaded server-side",
+      "Configuration file ",
+      "is not correct. Correcting",
+
+      "Could not find Sign for wood ",
+      "Found data map file for non-existent data map type",
+
+      "Failed to read ingredient from ",
+      "Initial datapack load took",
+      "Dedicated server took ",
+
+      "Detected ",
+      "that was registered with ",
+      "mob category but was added under ",
+
+      "A new update of AzLink is available",
+      "You can download it on https://azuriom.com/azlink",
+      "Spell Configuration file ",
+      "outside of namespaced directory, will be ignored",
+
+      "[perf-restore] slow restore for ",
+      "[spark/]: Timed out waiting for world statistics",
+
+      "handleDisconnection() called twice",
+      "Ignoring unknown attribute 'forge:",
+
+      "Attempted to load class ",
+      "for invalid dist DEDICATED_SERVER",
+
+      "Assets URL 'union:",
+      "Skipping recipe ",
+      "unknown type: brewinandchewin:fermenting",
+      "unknown type: minecraft:smithing",
+
+      "Failed to parse either. First: Failed to parse either. First: Not a string: null",
+      "Failed to load integration for powah",
+      "Couldn't load advancements: [",
+      "Failed parsing enchanting_stats file ",
+      "Underlying Exception:",
+      "specified in data map for registry minecraft:item doesn't exist",
+      "Timed out waiting for world statistics",
+
+      "Error loading class: ",
+      "Replaced 1 calls to Enchantment#getMaxLevel()",
+      "Replaced 2 calls to Enchantment#getMaxLevel()",
+      "Replaced 3 calls to Enchantment#getMaxLevel()",
+      "Replaced 4 calls to Enchantment#getMaxLevel()",
+      "Replaced 5 calls to Enchantment#getMaxLevel()",
+      "Loaded config for: ",
+      "Patching FishingHook#catchingFish",
+      "AddonsLib Neoforge !",
+      "Setup is complete.",
+      "Registered class observable.net.",
+
+      "@Redirect conflict. Skipping",
+      "@Mixin target ",
+
+      "java.lang.Throwable:printStackTrace:",
+      "at TRANSFORMER/",
+      "at MC-BOOTSTRAP/",
+      "at cpw.mods.securejarhandler/",
+      "at java.base/java.util.concurrent.",
+      "at java.base/java.util.stream.",
+      "at java.base/java.lang.reflect.",
+      "at java.base/jdk.internal.reflect.",
+      "at java.base/java.lang.ClassLoader.",
+      "at java.base/java.lang.Class.forName",
+      "at java.base/java.util.ArrayList.forEach",
+      "at java.base/java.util.HashMap",
+      "at java.base/java.util.Spliterators",
+
+      "{re:mixin}",
+      "{re:classloading}",
+      "{re:computing_frames}",
+
+      "Disabling Melody since",
+      "[ImmediatelyFast]",
+
+      "Attempted to load class net/minecraft/client/",
+      "for invalid dist DEDICATED_SERVER",
+
+      "Couldn't fully analyze ",
+      "missing knowledge for {",
+
+      "Skipping schema ",
+      "for mod NOT loaded:",
+
+      "Discarding @Unique ",
+      "Registering server network message ",
+      "Registering client network message ",
+
+      "Couldn't parse element ResourceKey[",
+
+      "Reference map '",
+      ".refmap.json' for ",
+
+      "will be loaded as it matches versions:",
+      "Mixins added to allowed list:",
+      "Class dev.uncandango.alltheleaks.",
+
+      "Disabling fastItemComparison feature, due to the Owo mod",
+
+      "Decoding error: Not a map:",
+      "Data may be outdated - attempting V2 migration",
+      "Failed to deserialize stored item in storage",
+      "Not a list missed input:",
+      "Not a map: '{Name:"
     ],
     "regex": [
       "Failed to generate (texture|Item Shelf block texture|Sign Post item texture).*(twilightforest|mangrove)",
       "Couldn't parse element ResourceKey\\[minecraft:root / minecraft:loot_table\\].*Unknown registry key",
       "Couldn't parse element ResourceKey\\[minecraft:root / minecraft:loot_table\\].*Failed to parse either",
-      "Error loading class:.*(octolib|emojiful|hrznstudio|violetmoon)",
+      "Error loading class:.*ClassNotFoundException",
       "Recipe occultism:ritual/.*not found",
-      "Recipe .* \\(of type .*\\) not found"
+      "Recipe .* \\(of type .*\\) not found",
+      "@Mixin target .* was not found",
+      "in progress file .* it doesn't exist anymore",
+      "Couldn't load tag .* as it is missing following references",
+      "^\\s*at [a-zA-Z][a-zA-Z0-9_.$]*\\(.*\\)\\s*(\\[.*\\])?\\s*\\{?.*\\}?\\s*$",
+      "Discarding @Unique .* method .* in copycats.*because it already exists"
     ]
   }
 }
