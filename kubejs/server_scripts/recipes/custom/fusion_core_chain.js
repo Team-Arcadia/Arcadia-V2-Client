@@ -273,7 +273,7 @@ ServerEvents.recipes(event => {
             event.recipes.createDeploying('arcadia:incomplete_neutron_reflector', ['arcadia:incomplete_neutron_reflector', 'minecraft:diamond_block']),
             event.recipes.createDeploying('arcadia:incomplete_neutron_reflector', ['arcadia:incomplete_neutron_reflector', 'arcadia:hardened_steel_compound']),
             event.recipes.createDeploying('arcadia:incomplete_neutron_reflector', ['arcadia:incomplete_neutron_reflector', 'arcadia:energized_crystal']),
-            event.recipes.createFilling('arcadia:incomplete_neutron_reflector', ['arcadia:incomplete_neutron_reflector', Fluid.of('minecraft:lava', 2000)]),
+            event.recipes.createFilling('arcadia:incomplete_neutron_reflector', ['arcadia:incomplete_neutron_reflector', Fluid.of('minecraft:lava', 1000)]),
             event.recipes.createPressing('arcadia:incomplete_neutron_reflector', 'arcadia:incomplete_neutron_reflector')
         ]
     ).transitionalItem('arcadia:incomplete_neutron_reflector').loops(10).id('arcadia:neutron_reflector');
