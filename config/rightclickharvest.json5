@@ -12,7 +12,9 @@
 	*/
 	"experienceType": "NONE",
 	// - default: true
-	"showServerWarning": true,
+	// Disabled: warning logic has a timeout that triggers on world reload (singleplayer),
+	// causing visible delays (~1-2 min between warns) — the mod itself works fine.
+	"showServerWarning": false,
 	/* Modpack developers, set this to true to stop RCH telling users that they probably need to equip a hoe to harvest crops (if requireHoe is set to true). This message will only be displayed once.
 	   - default: false
 	*/

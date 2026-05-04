@@ -4,6 +4,8 @@
 	#Makes dynamically generated assets depend on texture packs too and not just vanilla files
 	texture_pack_support = false
 	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
+	#CACHED_ZIPPED = compressed cache, fastest boot. ALWAYS regenerates every launch (slow on modpacks with many sign mods).
+	#If signs become invisible/broken: delete dynamic-resource-pack-cache/amendments-generated_pack/ and relaunch once.
 	dynamic_assets_generation_mode = "CACHED_ZIPPED"
 
 [sign]
