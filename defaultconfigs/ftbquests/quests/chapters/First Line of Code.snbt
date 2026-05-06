@@ -1,0 +1,187 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "First Line of Code"
+	group: "70AB2085E1434295"
+	id: "3C7E4230327D47D2"
+	images: [{
+		height: 20.0d
+		image: "resourcefulconfig:textures/gui/sprites/icons/code.png"
+		rotation: 0.0d
+		width: 20.0d
+		x: -0.5d
+		y: -0.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1EC96B81D46D02DA"
+			rewards: [{
+				id: "09E43A4515FD441E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7F12CFF6F9686D1A"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			id: "48F19F6D47988804"
+			rewards: [{
+				id: "633BD68DDCE8A21B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "79EEC8D8904A6BB4"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "6647D4FC69D0963F"
+			rewards: [{
+				id: "73EF2A55BCA064B5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4D4B6480BCB9B6F1"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "7647D4FC69D09640"
+			rewards: [{
+				id: "31D5C207886A9D24"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5D4B6480BCB9B6F2"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "62FEAE3499CF2181"
+			rewards: [{
+				id: "5C79F36243C6FC02"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "73357EF1E28FFF8B"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "2EC96B81D46D02DB"
+			rewards: [{
+				id: "498AD77B440AA339"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "04E119155D327F59"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			id: "3EC96B81D46D02DC"
+			rewards: [{
+				id: "364E0CF8193F9D66"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4BA618DBB65F3DC9"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "6EC96B81D46D02DF"
+			rewards: [{
+				id: "6B5326A24D636BB7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "20303DFFE60463E9"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "5647D4FC69D0963E"
+			rewards: [{
+				id: "40582ADA397E0AE0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3D4B6480BCB9B6F0"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "24D97D62C72206A2"
+			rewards: [{
+				id: "5AA34F81A3D8EA3B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "052530396767782A"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			id: "4EC96B81D46D02DD"
+			rewards: [{
+				id: "47D0032E5D8B2F84"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1C8D4B6E94460668"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			id: "5EC96B81D46D02DE"
+			rewards: [{
+				id: "7EE74FFB81BCBB26"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "43A406CB72A07DEA"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+	]
+}

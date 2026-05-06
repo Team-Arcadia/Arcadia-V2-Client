@@ -1,0 +1,162 @@
+{
+  "_schemaVersion": 7,
+  "_lastMCVersionId": 767,
+  "generalSettings": {
+    "detectATLauncherInstance": false,
+    "detectCurseManifest": false,
+    "detectMultiMCManifest": false,
+    "detectMCUpdaterInstance": false,
+    "detectTechnicPack": false,
+    "detectModrinthPack": false,
+    "detectBiomeData": true,
+    "detectDimensionData": true,
+    "detectWorldData": true,
+    "clientId": "450485984333660181",
+    "defaultIcon": "herobrine",
+    "enableJoinRequests": true,
+    "preferredClientLevel": 3,
+    "resetTimeOnInit": false,
+    "autoRegister": false
+  },
+  "biomeSettings": {
+    "fallbackBiomeIcon": "dungeons",
+    "biomeData": {
+      "default": {
+        "textOverride": "Joue dans le biom {biome.name}"
+      }
+    }
+  },
+  "dimensionSettings": {
+    "fallbackDimensionIcon": "dungeons",
+    "dimensionData": {
+      "default": {
+        "textOverride": "Dans la dimension : {dimension.name}"
+      }
+    }
+  },
+  "serverSettings": {
+    "fallbackServerIcon": "launcher_grass",
+    "fallbackServerName": "Arcadia: Echoes Of Power",
+    "fallbackServerMotd": "Arcadia: Echoes Of Power",
+    "serverData": {
+      "default": {
+        "textOverride": "Joue sur : {server.motd.raw}"
+      }
+    },
+    "pingRateInterval": 5,
+    "pingRateUnit": "minutes"
+  },
+  "statusMessages": {
+    "mainMenuData": {
+      "textOverride": "Dans le menu",
+      "iconOverride": "steve"
+    },
+    "loadingData": {
+      "textOverride": "Chargement...",
+      "iconOverride": "steve"
+    },
+    "lanData": {
+      "textOverride": "Joue sur un serveur LAN",
+      "iconOverride": "steve"
+    },
+    "singleplayerData": {
+      "textOverride": "Joue en solo",
+      "iconOverride": "steve"
+    },
+    "realmData": {
+      "textOverride": "Joue sur {server.motd.raw}",
+      "iconOverride": "steve"
+    }
+  },
+  "advancedSettings": {
+    "enablePerGui": false,
+    "enablePerItem": false,
+    "enablePerEntity": false,
+    "formatWords": true,
+    "debugMode": false,
+    "verboseMode": false,
+    "refreshRate": 2,
+    "allowPlaceholderPreviews": false,
+    "guiSettings": {
+      "fallbackGuiIcon": "unknown",
+      "guiData": {
+        "default": {
+          "textOverride": "Dans {screen.name}"
+        }
+      }
+    },
+    "itemMessages": {
+      "default": "Tient {item.message.holding}"
+    },
+    "entitySettings": {
+      "fallbackEntityIcon": "unknown",
+      "targetData": {
+        "default": {
+          "textOverride": "Cible {entity.target.name}"
+        }
+      },
+      "ridingData": {
+        "default": {
+          "textOverride": "Chevauche {entity.riding.name}"
+        }
+      }
+    },
+    "allowEndpointIcons": true,
+    "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
+    "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}",
+    "allowDuplicatePackets": false,
+    "maxConnectionAttempts": 10,
+    "enableClassGraph": false
+  },
+  "accessibilitySettings": {
+    "languageId": "fr_fr",
+    "stripTranslationColors": false,
+    "stripTranslationFormatting": false,
+    "stripExtraGuiElements": false,
+    "configKeyCode": -1
+  },
+  "displaySettings": {
+    "presenceData": {
+      "enabled": true,
+      "useAsMain": false,
+      "isInstance": false,
+      "activityType": 0,
+      "statusDisplayType": 0,
+      "partyPrivacy": 1,
+      "details": "{getFirst(menu.message, dimension.message)}",
+      "detailsUrl": "",
+      "gameState": "Arcadia: Echoes Of Power",
+      "gameStateUrl": "",
+      "appName": "",
+      "largeImageKey": "{getFirst(menu.icon, dimension.icon)}",
+      "largeImageText": "{getFirst(menu.message, dimension.message)}",
+      "largeImageUrl": "",
+      "smallImageKey": "{getFirst(server.icon, pack.icon)}",
+      "smallImageText": "Arcadia: Echoes Of Power",
+      "smallImageUrl": "",
+      "startTimestamp": "{data.general.time}",
+      "endTimestamp": "",
+      "buttons": {}
+    },
+    "dynamicIcons": {
+      "57.128.100.254": "https://www.arcadia-echoes-of-power.fr/storage/img/arcadialogotransparent.png",
+      "pm-exploration.gl.joinmc.link": "https://api.mcsrvstat.us/icon/pm-exploration.gl.joinmc.link",
+      "51.210.178.102": "https://api.mcsrvstat.us/icon/51.210.178.102",
+      "51.195.235.74": "https://api.mcsrvstat.us/icon/51.195.235.74",
+      "51.195.235.151": "https://api.mcsrvstat.us/icon/51.195.235.151",
+      "127.0.0.1": "https://api.mcsrvstat.us/icon/127.0.0.1",
+      "curveo.fr": "https://api.mcsrvstat.us/icon/curveo.fr"
+    },
+    "dynamicVariables": {
+      "mods": "{general.mods} Mod(s)",
+      "player_info_coordinate": "En {player.position.x}, {player.position.z}",
+      "players": "{server.players.current} / {server.players.max} Joueurs",
+      "player_info_in": "({custom.player_info.health})",
+      "player_info_items": "Objets : {item.main_hand.message}",
+      "player_info_out": "En tant que {player.name}",
+      "player_info_health": "Santé : {player.health.current}/{player.health.max}",
+      "world_info": "Sur {world.name}",
+      "pack": "{pack.name}"
+    }
+  }
+}

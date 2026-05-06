@@ -1,0 +1,13 @@
+#Economy settings for the Arcadia Auction House and future mods.
+#Change the provider to switch between currency systems.
+[economy]
+	#Economy provider to use.
+	#Options: 'numismatics' (Create: Numismatics), 'items' (vanilla item currency), 'none' (free)
+	provider = "numismatics"
+	#Display name for the currency (used in messages)
+	currency_name = "Coins"
+	#Short symbol for the currency (used in compact displays)
+	currency_symbol = "¤"
+	#When provider is 'items', this is the registry ID of the item used as currency.
+	#Examples: 'minecraft:gold_ingot', 'minecraft:diamond', 'minecraft:emerald'
+	item_currency_id = "minecraft:emerald"

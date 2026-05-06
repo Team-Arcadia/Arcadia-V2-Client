@@ -1,0 +1,142 @@
+{
+  "displayName": "§fBoss I",
+  "color": "white",
+  "keyItem": "arcadialootbox:boss_key_minor",
+  "openSound": "minecraft:block.chest.open",
+  "openMessage": "",
+  "lootTable": [
+    {
+      "item": "minecraft:iron_ingot",
+      "minCount": 8,
+      "maxCount": 16,
+      "chance": 0.5,
+      "rarity": "common",
+      "displayName": "Iron Ingot",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "minCount": 4,
+      "maxCount": 10,
+      "chance": 0.4,
+      "rarity": "common",
+      "displayName": "Gold Ingot",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:copper_ingot",
+      "minCount": 8,
+      "maxCount": 16,
+      "chance": 0.4,
+      "rarity": "common",
+      "displayName": "Copper Ingot",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:coal_block",
+      "minCount": 4,
+      "maxCount": 8,
+      "chance": 0.4,
+      "rarity": "common",
+      "displayName": "Coal Block",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:redstone_block",
+      "minCount": 2,
+      "maxCount": 5,
+      "chance": 0.35,
+      "rarity": "common",
+      "displayName": "Redstone Block",
+      "broadcast": false
+    },
+    {
+      "item": "create:brass_ingot",
+      "minCount": 4,
+      "maxCount": 10,
+      "chance": 0.3,
+      "rarity": "uncommon",
+      "displayName": "Create Brass Ingot",
+      "broadcast": false
+    },
+    {
+      "item": "mekanism:ingot_osmium",
+      "minCount": 4,
+      "maxCount": 8,
+      "chance": 0.25,
+      "rarity": "uncommon",
+      "displayName": "Osmium Ingot",
+      "broadcast": false
+    },
+    {
+      "item": "tfmg:steel_ingot",
+      "minCount": 3,
+      "maxCount": 8,
+      "chance": 0.25,
+      "rarity": "uncommon",
+      "displayName": "TFMG Steel Ingot",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:experience_bottle",
+      "minCount": 4,
+      "maxCount": 8,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "XP Bottle",
+      "broadcast": false
+    },
+    {
+      "item": "arcadialootbox:boss_key_major",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.03,
+      "rarity": "legendary",
+      "displayName": "Next Tier Key (Boss)",
+      "broadcast": true
+    }
+  ],
+  "particles": [
+    "minecraft:flame"
+  ],
+  "type": "guaranteed",
+  "guaranteedItem": "minecraft:iron_block",
+  "guaranteedMinCount": 2,
+  "guaranteedMaxCount": 4,
+  "rarity": "common",
+  "broadcastRare": true,
+  "broadcastMessage": "",
+  "destroyOnOpen": false,
+  "maxUses": -1,
+  "permission": "",
+  "animation": {
+    "type": "burst",
+    "durationTicks": 20,
+    "particleCount": 10,
+    "particleSpeed": 0.05,
+    "particleRadius": 0.3,
+    "particleType": "minecraft:flame",
+    "playTitleAnimation": true
+  },
+  "requireSneakToOpen": false,
+  "cooldownTicks": 20,
+  "closeSound": "",
+  "giveToInventoryOnly": false,
+  "openTitle": "§f✦ Boss I ✦",
+  "openSubtitle": "§7Good luck!",
+  "commandRewards": [],
+  "experienceReward": 10,
+  "requiredBiome": "",
+  "requiredLevel": 0,
+  "logOpening": true,
+  "sortOrder": 600,
+  "displayNameFR": "§fBoss I",
+  "openMessageFR": "",
+  "openTitleFR": "§f✦ Boss I ✦",
+  "openSubtitleFR": "§7Bonne chance !",
+  "freeEnabled": false,
+  "freeCooldownHours": 72,
+  "freePermission": "",
+  "freeReducedCooldownHours": 48,
+  "freeReducedPermission": ""
+}

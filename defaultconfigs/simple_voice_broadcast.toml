@@ -1,0 +1,8 @@
+#General settings
+[general]
+	#The name of the group that will be broadcast
+	broadcast_group_name = "broadcast"
+	#The permission level required to use the broadcast command
+	# Default: 2
+	# Range: 0 ~ 4
+	permission_level = 2

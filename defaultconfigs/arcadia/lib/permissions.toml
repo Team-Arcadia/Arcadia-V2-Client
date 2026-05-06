@@ -1,0 +1,11 @@
+#Grade permission nodes used by all Arcadia mods.
+#These are LuckPerms permission nodes checked to determine a player's rank.
+[grades]
+	#Permission node for VIP grade
+	vip = "arcadia.grade.vip"
+	#Permission node for VIP+ grade
+	vip_plus = "arcadia.grade.vipplus"
+	#Permission node for MVP grade
+	mvp = "arcadia.grade.mvp"
+	#Permission node for Founder cosmetic rank
+	founder = "arcadia.grade.founder"

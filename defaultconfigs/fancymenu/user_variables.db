@@ -1,0 +1,32 @@
+type = user_variables
+
+variable {
+  name = flag
+  value = 1
+  reset_on_launch = false
+}
+
+variable {
+  name = newsX
+  value = -40
+  reset_on_launch = false
+}
+
+variable {
+  name = systemX
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = hehe
+  value = 80
+  reset_on_launch = false
+}
+
+variable {
+  name = modpackX
+  value = 0
+  reset_on_launch = false
+}
+

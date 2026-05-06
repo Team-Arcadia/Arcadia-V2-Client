@@ -1,0 +1,169 @@
+{
+  "displayName": "§9Rare Vote",
+  "color": "white",
+  "keyItem": "arcadialootbox:vote_key_rare",
+  "openSound": "minecraft:block.chest.open",
+  "openMessage": "",
+  "lootTable": [
+    {
+      "item": "minecraft:cooked_beef",
+      "minCount": 6,
+      "maxCount": 12,
+      "chance": 0.4,
+      "rarity": "common",
+      "displayName": "Cooked Beef",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:cooked_salmon",
+      "minCount": 4,
+      "maxCount": 8,
+      "chance": 0.35,
+      "rarity": "common",
+      "displayName": "Cooked Salmon",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:apple",
+      "minCount": 8,
+      "maxCount": 16,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "Apple",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:cookie",
+      "minCount": 16,
+      "maxCount": 32,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "Cookie",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "minCount": 5,
+      "maxCount": 12,
+      "chance": 0.35,
+      "rarity": "common",
+      "displayName": "Iron Ingot",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "minCount": 2,
+      "maxCount": 5,
+      "chance": 0.25,
+      "rarity": "common",
+      "displayName": "Gold Ingot",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:experience_bottle",
+      "minCount": 6,
+      "maxCount": 12,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "XP Bottle",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_vyrriox_trois_femmes",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "uncommon",
+      "displayName": "Music Disc - Trois Femmes",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_vyrriox_patee",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "uncommon",
+      "displayName": "Music Disc - Patee",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_la_boulette_pt1",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.08,
+      "rarity": "uncommon",
+      "displayName": "Music Disc - La Boulette Pt1",
+      "broadcast": false
+    },
+    {
+      "item": "arcadialootbox:vote_key_superior",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.02,
+      "rarity": "legendary",
+      "displayName": "Next Tier Key (Vote)",
+      "broadcast": true
+    },
+    {
+      "item": "minecraft:ender_chest",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.01,
+      "rarity": "rare",
+      "displayName": "Ender Chest",
+      "broadcast": false
+    },
+    {
+      "item": "xpbook:xp_tome",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.02,
+      "rarity": "uncommon",
+      "displayName": "XP Tome",
+      "broadcast": false
+    }
+  ],
+  "particles": [
+    "minecraft:flame"
+  ],
+  "type": "guaranteed",
+  "guaranteedItem": "minecraft:cooked_beef",
+  "guaranteedMinCount": 4,
+  "guaranteedMaxCount": 8,
+  "rarity": "rare",
+  "broadcastRare": true,
+  "broadcastMessage": "",
+  "destroyOnOpen": false,
+  "maxUses": -1,
+  "permission": "",
+  "animation": {
+    "type": "burst",
+    "durationTicks": 31,
+    "particleCount": 21,
+    "particleSpeed": 0.106,
+    "particleRadius": 0.52,
+    "particleType": "minecraft:flame",
+    "playTitleAnimation": true
+  },
+  "requireSneakToOpen": false,
+  "cooldownTicks": 20,
+  "closeSound": "",
+  "giveToInventoryOnly": false,
+  "openTitle": "§9✦ Rare Vote ✦",
+  "openSubtitle": "§7Good luck!",
+  "commandRewards": [],
+  "experienceReward": 30,
+  "requiredBiome": "",
+  "requiredLevel": 0,
+  "logOpening": true,
+  "sortOrder": 302,
+  "displayNameFR": "§9Vote Rare",
+  "openMessageFR": "",
+  "openTitleFR": "§9✦ Vote Rare ✦",
+  "openSubtitleFR": "§7Bonne chance !",
+  "freeEnabled": false,
+  "freeCooldownHours": 72,
+  "freePermission": "",
+  "freeReducedCooldownHours": 48,
+  "freeReducedPermission": ""
+}

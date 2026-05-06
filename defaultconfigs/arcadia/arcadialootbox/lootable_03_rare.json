@@ -1,0 +1,142 @@
+{
+  "displayName": "§9Lootable III",
+  "color": "white",
+  "keyItem": "arcadialootbox:lootable_key_rare",
+  "openSound": "minecraft:block.chest.open",
+  "openMessage": "",
+  "lootTable": [
+    {
+      "item": "minecraft:iron_ingot",
+      "minCount": 6,
+      "maxCount": 16,
+      "chance": 0.4,
+      "rarity": "common",
+      "displayName": "Iron Ingot",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:coal_block",
+      "minCount": 2,
+      "maxCount": 5,
+      "chance": 0.35,
+      "rarity": "common",
+      "displayName": "Coal Block",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:torch",
+      "minCount": 32,
+      "maxCount": 64,
+      "chance": 0.4,
+      "rarity": "common",
+      "displayName": "Torch",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:bread",
+      "minCount": 6,
+      "maxCount": 12,
+      "chance": 0.35,
+      "rarity": "common",
+      "displayName": "Bread",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:arrow",
+      "minCount": 24,
+      "maxCount": 48,
+      "chance": 0.35,
+      "rarity": "common",
+      "displayName": "Arrow",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "minCount": 2,
+      "maxCount": 6,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "Gold Ingot",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:copper_ingot",
+      "minCount": 8,
+      "maxCount": 16,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "Copper Ingot",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:book",
+      "minCount": 2,
+      "maxCount": 4,
+      "chance": 0.25,
+      "rarity": "common",
+      "displayName": "Book",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:experience_bottle",
+      "minCount": 4,
+      "maxCount": 8,
+      "chance": 0.25,
+      "rarity": "common",
+      "displayName": "XP Bottle",
+      "broadcast": false
+    },
+    {
+      "item": "arcadialootbox:lootable_key_superior",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.02,
+      "rarity": "legendary",
+      "displayName": "Next Tier Key (Lootable)",
+      "broadcast": true
+    }
+  ],
+  "particles": [
+    "minecraft:flame"
+  ],
+  "type": "guaranteed",
+  "guaranteedItem": "minecraft:iron_ingot",
+  "guaranteedMinCount": 3,
+  "guaranteedMaxCount": 8,
+  "rarity": "rare",
+  "broadcastRare": true,
+  "broadcastMessage": "",
+  "destroyOnOpen": false,
+  "maxUses": -1,
+  "permission": "",
+  "animation": {
+    "type": "burst",
+    "durationTicks": 31,
+    "particleCount": 21,
+    "particleSpeed": 0.106,
+    "particleRadius": 0.52,
+    "particleType": "minecraft:flame",
+    "playTitleAnimation": true
+  },
+  "requireSneakToOpen": false,
+  "cooldownTicks": 20,
+  "closeSound": "",
+  "giveToInventoryOnly": false,
+  "openTitle": "§9✦ Lootable III ✦",
+  "openSubtitle": "§7Good luck!",
+  "commandRewards": [],
+  "experienceReward": 30,
+  "requiredBiome": "",
+  "requiredLevel": 0,
+  "logOpening": true,
+  "sortOrder": 402,
+  "displayNameFR": "§9Lootable III",
+  "openMessageFR": "",
+  "openTitleFR": "§9✦ Lootable III ✦",
+  "openSubtitleFR": "§7Bonne chance !",
+  "freeEnabled": false,
+  "freeCooldownHours": 72,
+  "freePermission": "",
+  "freeReducedCooldownHours": 48,
+  "freeReducedPermission": ""
+}

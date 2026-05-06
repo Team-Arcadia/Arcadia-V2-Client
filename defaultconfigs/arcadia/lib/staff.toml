@@ -1,0 +1,8 @@
+#Staff permission nodes for moderation features.
+[staff]
+	#Permission node for Admin role
+	admin = "arcadia.staff.admin"
+	#Permission node for Moderator role
+	mod = "arcadia.staff.mod"
+	#Permission node for Helper role
+	helper = "arcadia.staff.helper"

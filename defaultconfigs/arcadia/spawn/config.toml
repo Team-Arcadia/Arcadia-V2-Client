@@ -1,0 +1,127 @@
+["Dimension Properties"]
+	#Configuration for the spawn dimension properties.
+	#If true, water evaporates like in the Nether.
+	ultrawarm = false
+	#If false, compasses spin randomly.
+	natural = true
+	#Coordinate scale multiplier.
+	coordinate_scale = 1.0
+	#If the dimension has sky and skylight.
+	has_skylight = true
+	#If the dimension has a bedrock ceiling.
+	has_ceiling = false
+	#Ambient light level (0.0 to 1.0).
+	# Default: 0.0
+	# Range: 0.0 ~ 1.0
+	ambient_light = 0.0
+	#Light level for monster spawning.
+	# Default: 0
+	# Range: 0 ~ 15
+	monster_spawn_light_level = 0
+	#Block light limit for monster spawning.
+	# Default: 0
+	# Range: 0 ~ 15
+	monster_spawn_block_light_limit = 0
+	#If Piglins do not zombify.
+	piglin_safe = false
+	#If beds work without exploding.
+	bed_works = false
+	#If respawn anchors work.
+	respawn_anchor_works = false
+	#If raids can trigger.
+	has_raids = false
+	#Logical world height.
+	# Default: 384
+	# Range: 0 ~ 2048
+	logical_height = 384
+	#Minimum Y coordinate.
+	# Default: -64
+	# Range: -2048 ~ 2048
+	min_y = -64
+	#Total world height (multiple of 16).
+	# Default: 384
+	# Range: 16 ~ 2048
+	height = 384
+	#Tag for infinitely burning blocks.
+	infiniburn = "#minecraft:infiniburn_overworld"
+	#Dimension effects (e.g. minecraft:overworld).
+	effects = "minecraft:overworld"
+
+["Time Management"]
+	#If true, time is frozen at 'fixed_time'.
+	time_locked = false
+	#Fixed time value (6000 = Noon, 18000 = Midnight).
+	# Default: 6000
+	# Range: 0 ~ 24000
+	fixed_time = 6000
+
+[Weather]
+	#Allow rain in the dimension.
+	allow_rain = false
+	#Allow thunder in the dimension.
+	allow_thunder = false
+
+["World Generation"]
+	#Biome ID for single-biome generation.
+	biome = "minecraft:the_void"
+	#Flat world layers. Format: 'count*block_id'. Bottom to top.
+	layers = ["1*minecraft:bedrock", "2*minecraft:dirt", "1*minecraft:grass_block"]
+	#Allow lakes and features generation.
+	generate_features = false
+
+["Mob Spawning Rules"]
+	#Enable or disable spawning per mob category.
+	spawn_monsters = true
+	spawn_creatures = true
+	spawn_ambient = false
+	spawn_water_creatures = false
+	spawn_water_ambient = false
+	spawn_underground_water_creatures = false
+	spawn_axolotls = false
+	spawn_misc = true
+
+["RTP Settings"]
+	#Maximum radius from (0,0) for Random Teleport.
+	# Default: 50000
+	# Range: 1000 ~ 1000000
+	rtp_radius = 50000
+	#Maximum RTP uses before reusing last position.
+	# Default: 1
+	# Range: 0 ~ 100
+	rtp_max_usage = 1
+	#Cooldown between RTP uses (seconds).
+	# Default: 60
+	# Range: 0 ~ 3600
+	rtp_cooldown_seconds = 60
+	#Warmup delay before RTP teleport (ticks, 20 = 1s).
+	# Default: 60
+	# Range: 0 ~ 200
+	rtp_warmup_ticks = 60
+	#Maximum attempts to find a safe position.
+	# Default: 50
+	# Range: 10 ~ 200
+	rtp_max_attempts = 50
+
+["Teleport Settings"]
+	#Warmup ticks for /spawn teleport (20 = 1s).
+	# Default: 60
+	# Range: 0 ~ 200
+	spawn_tp_warmup_ticks = 60
+	#Cooldown for /spawn (seconds).
+	# Default: 30
+	# Range: 0 ~ 3600
+	spawn_tp_cooldown_seconds = 30
+	#Warmup ticks for lobby teleport.
+	# Default: 40
+	# Range: 0 ~ 200
+	lobby_tp_warmup_ticks = 40
+	#Cooldown for lobby teleport (seconds).
+	# Default: 15
+	# Range: 0 ~ 3600
+	lobby_tp_cooldown_seconds = 15
+
+["First Join"]
+	#Teleport new players to spawn dimension on first join.
+	force_spawn_on_first_join = true
+	#Teleport players to spawn on respawn (no bed/anchor).
+	force_spawn_on_respawn = true

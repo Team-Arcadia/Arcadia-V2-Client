@@ -1,0 +1,11 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:gray_stained_glass"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:gray_stained_glass_pane","components":{"minecraft:custom_name":"\" \""}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createoreexcavation:ore_vein_type/iron","value":{"amountMultiplierMax":30000.0,"placement":{"spacing":5,"separation":3,"salt":0},"icon":{"id":"minecraft:raw_iron","count":1},"finite":"never","amountMultiplierMin":10000.0,"name":"{\"translate\":\"item.minecraft.raw_iron\"}","priority":0,"biomeWhitelist":"minecraft:is_overworld"}},"type":"com.tom.createores.jei.Vein","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createoreexcavation:ore_vein_type/emerald","value":{"amountMultiplierMax":1000.0,"placement":{"spacing":5,"separation":3,"salt":0},"icon":{"id":"createoreexcavation:raw_emerald","count":1},"finite":"never","amountMultiplierMin":200.0,"name":"{\"translate\":\"item.createoreexcavation.raw_emerald\"}","priority":0,"biomeWhitelist":"minecraft:is_overworld"}},"type":"com.tom.createores.jei.Vein","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"createoreexcavation:ore_vein_type/iesnium","value":{"amountMultiplierMax":12000.0,"placement":{"spacing":5,"separation":3,"salt":0},"icon":{"id":"occultism:raw_iesnium","count":1},"finite":"never","amountMultiplierMin":4000.0,"name":"{\"translate\":\"item.occultism.raw_iesnium\"}","priority":0,"biomeWhitelist":"minecraft:is_overworld"}},"type":"com.tom.createores.jei.Vein","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"arcadia:heretic_icon"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"arcadia_pets:pet_collection_book"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"arcadia:atm"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

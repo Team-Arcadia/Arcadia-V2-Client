@@ -1,0 +1,99 @@
+#Arcadia Lootbox v1.2.0 - Global Configuration
+[general]
+	#Default cooldown in ticks (20 = 1s)
+	# Default: 20
+	# Range: 1 ~ 6000
+	defaultCooldownTicks = 20
+	#Max lootboxes per chunk (0 = unlimited)
+	# Default: 0
+	# Range: 0 ~ 256
+	maxLootboxesPerChunk = 0
+	#Destroy lootbox block after opening by default
+	destroyOnOpenDefault = false
+	#Log all openings to server log
+	logAllOpenings = true
+	#Require sneaking to open by default
+	requireSneakDefault = false
+
+#Broadcast settings
+[broadcast]
+	enabled = true
+	format = "§6⚙ §e{player} §7opened §e{lootbox} §7and got §f{count}x §e{item}§7!"
+	rareFormat = "§6⚙ §d✦ §e{player} §7found {rarity_color}{rarity} §7item: §f{count}x §e{item} §7from §e{lootbox}§7! §d✦"
+	#Min rarity for broadcast (0=common..5=mythic)
+	# Default: 2
+	# Range: 0 ~ 5
+	minRarity = 2
+
+#Arcadia Hub & Shop
+[hub]
+	enabled = true
+	shopUrl = "https://www.arcadia-echoes-of-power.fr/shop/categories/lootbox"
+	shopDisplayName = "Buy Lootbox Keys"
+
+#Performance
+[performance]
+	# Default: 15
+	# Range: 1 ~ 100
+	particleLimit = 15
+	# Default: 10
+	# Range: 1 ~ 54
+	maxDropsPerOpen = 10
+	asyncConfigReload = true
+	# Default: 100
+	# Range: 0 ~ 10000
+	historyMaxEntries = 100
+
+#Security
+[security]
+	# Default: 8.0
+	# Range: 1.0 ~ 64.0
+	maxInteractionDistance = 8.0
+	antiAutoclicker = true
+	# Default: 10
+	# Range: 1 ~ 100
+	antiAutoclickerThreshold = 10
+
+#Animation
+[animation]
+	enabled = true
+	titleOnOpen = true
+	# Default: 5
+	# Range: 0 ~ 100
+	titleFadeIn = 5
+	# Default: 30
+	# Range: 0 ~ 200
+	titleStay = 30
+	# Default: 10
+	# Range: 0 ~ 100
+	titleFadeOut = 10
+
+#Sounds
+[sounds]
+	defaultOpenSound = "minecraft:block.chest.open"
+	defaultCloseSound = ""
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	volume = 1.0
+	# Default: 1.0
+	# Range: 0.1 ~ 2.0
+	pitch = 1.0
+
+#Free timed lootbox system
+[free]
+	#Enable free timed lootboxes globally
+	enabled = true
+	#Default cooldown in hours between free claims (72 = 3 days)
+	# Default: 72
+	# Range: 1 ~ 8760
+	defaultCooldownHours = 72
+	#Reduced cooldown for players with the reduced permission
+	# Default: 48
+	# Range: 1 ~ 8760
+	reducedCooldownHours = 48
+	#Permission node for reduced cooldown (empty = disabled)
+	reducedPermission = "arcadialootbox.free.reduced"
+	#Auto-save free claim data interval in minutes
+	# Default: 5
+	# Range: 1 ~ 60
+	autosaveMinutes = 5

@@ -1,0 +1,456 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "never_end"
+	group: "70AB2085E1434295"
+	icon: {
+		id: "irons_spellbooks:ender_upgrade_orb"
+	}
+	id: "1CA674828FA25CF1"
+	images: [
+		{
+			height: 20.0d
+			image: "rechiseled:block/obsidian_chiseled_circles"
+			order: 1
+			rotation: 0.0d
+			width: 20.0d
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			height: 300.0d
+			image: "apothic_enchanting:textures/advancements/bg/apoth.png"
+			rotation: 0.0d
+			width: 300.0d
+			x: 12.0d
+			y: 3.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["61C49BC2B384FB80"]
+			id: "2000000000000001"
+			rewards: [{
+				id: "315F3106E7B2D4FB"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "2000000000000002"
+				type: "dimension"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2000000000000001"]
+			id: "2000000000000003"
+			rewards: [
+				{
+					id: "2000000000000101"
+					item: {
+						count: 1
+						id: "minecraft:dragon_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "3D8993245866A333"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "2000000000000004"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2000000000000003"]
+			id: "2000000000000005"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000000103"
+					item: {
+						count: 1
+						id: "minecraft:dragon_breath"
+					}
+					type: "item"
+				}
+				{
+					id: "0B14ECDA5FC66724"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "2000000000000006"
+				item: { count: 1, id: "minecraft:dragon_breath" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["095765EF276633D5"]
+			id: "2000000000000010"
+			rewards: [
+				{
+					count: 16
+					id: "2000000000000104"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "5CAE598F63D4A21F"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+				id: "2000000000000011"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2000000000000010"]
+			id: "2000000000000020"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000000105"
+					item: {
+						count: 1
+						id: "minecraft:shulker_shell"
+					}
+					type: "item"
+				}
+				{
+					id: "5C91F5AE336E0446"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "2000000000000021"
+				structure: "minecraft:end_city"
+				type: "structure"
+			}]
+			x: 16.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2000000000000020"]
+			id: "2000000000000022"
+			rewards: [
+				{
+					count: 64
+					id: "2000000000000106"
+					item: {
+						count: 1
+						id: "minecraft:firework_rocket"
+					}
+					type: "item"
+				}
+				{
+					id: "44D746E5726AAFDA"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2000000000000023"
+					item: { count: 1, id: "minecraft:elytra" }
+					type: "item"
+				}
+				{
+					id: "68214294ACF6A66B"
+					item: { count: 1, id: "minecraft:elytra" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2000000000000020"]
+			id: "2000000000000024"
+			rewards: [
+				{
+					count: 2
+					id: "2000000000000107"
+					item: {
+						count: 1
+						id: "minecraft:shulker_box"
+					}
+					type: "item"
+				}
+				{
+					id: "35377F2B51910E73"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "2000000000000025"
+				type: "kill"
+				value: 5L
+			}]
+			x: 16.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2000000000000005"]
+			id: "2000000000000030"
+			rewards: [
+				{
+					count: 4
+					id: "2000000000000108"
+					item: {
+						count: 1
+						id: "minecraft:popped_chorus_fruit"
+					}
+					type: "item"
+				}
+				{
+					id: "63C90DCC48C1DB12"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "2000000000000031"
+				item: { count: 1, id: "minecraft:chorus_fruit" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2000000000000010"]
+			id: "2171A5DE8FED4218"
+			rewards: [{
+				id: "2000000000000110"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "2000000000000111"
+					structure: "mes:ender_spire"
+					type: "structure"
+				}
+				{
+					id: "2000000000000112"
+					structure: "mes:enderbloom_grove"
+					type: "structure"
+				}
+				{
+					id: "2000000000000113"
+					structure: "mes:enderkeep_courtyard"
+					type: "structure"
+				}
+				{
+					id: "2000000000000114"
+					structure: "mes:enderpin_spikes"
+					type: "structure"
+				}
+				{
+					id: "2000000000000115"
+					structure: "mes:enderskog"
+					type: "structure"
+				}
+				{
+					id: "2000000000000116"
+					structure: "mes:enderwatch_tower"
+					type: "structure"
+				}
+				{
+					id: "2000000000000117"
+					structure: "mvs:end_well"
+					type: "structure"
+				}
+			]
+			x: 14.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2000000000000020"]
+			id: "2000000000000200"
+			rewards: [
+				{
+					id: "2000000000000201"
+					item: {
+						count: 1
+						id: "minecraft:totem_of_undying"
+					}
+					type: "item"
+				}
+				{
+					id: "71F17C2635730A51"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					id: "2000000000000202"
+					structure: "mes:endscraps"
+					type: "structure"
+				}
+				{
+					id: "2000000000000203"
+					structure: "mvs:end_scraps_1"
+					type: "structure"
+				}
+				{
+					id: "2000000000000204"
+					structure: "mvs:end_scraps_2"
+					type: "structure"
+				}
+				{
+					id: "2000000000000205"
+					structure: "mvs:end_scraps_3"
+					type: "structure"
+				}
+				{
+					id: "2000000000000206"
+					structure: "mvs:end_scraps_4"
+					type: "structure"
+				}
+			]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2000000000000010"]
+			id: "2000000000000300"
+			rewards: [
+				{
+					id: "2000000000000301"
+					item: {
+						count: 1
+						id: "minecraft:end_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "2F08212CBE272DD7"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					id: "2000000000000302"
+					structure: "endersdelight:end_house"
+					type: "structure"
+				}
+				{
+					id: "2000000000000303"
+					structure: "structory_towers:end/end_tower"
+					type: "structure"
+				}
+			]
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["011AA225E68028D2"]
+			hide_until_deps_visible: false
+			id: "61C49BC2B384FB80"
+			rewards: [
+				{
+					count: 4
+					id: "2B6D859AC045608E"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "5D52E6CA0E809256"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				count: 12L
+				id: "2BF525CB7074AF2A"
+				item: { count: 1, id: "minecraft:ender_eye" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			id: "011AA225E68028D2"
+			rewards: [
+				{
+					id: "2D6768B1097713AC"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 4
+					id: "238F293F1FAFF724"
+					item: {
+						count: 1
+						id: "minecraft:blaze_powder"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "55B9350C4B262C23"
+				structure: "minecraft:stronghold"
+				type: "structure"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2000000000000003"]
+			id: "095765EF276633D5"
+			rewards: [{
+				id: "228563800B865071"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "32A4E8C9E6C89D6E"
+				item: { count: 1, id: "minecraft:dragon_egg" }
+				type: "item"
+			}]
+			x: 12.73809523809527d
+			y: 4.983333333333377d
+		}
+	]
+}

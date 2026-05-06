@@ -1,0 +1,142 @@
+{
+  "displayName": "§dLootable VII",
+  "color": "white",
+  "keyItem": "arcadialootbox:lootable_key_mythic",
+  "openSound": "minecraft:block.chest.open",
+  "openMessage": "",
+  "lootTable": [
+    {
+      "item": "minecraft:diamond",
+      "minCount": 2,
+      "maxCount": 5,
+      "chance": 0.15,
+      "rarity": "uncommon",
+      "displayName": "Diamond",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:emerald_block",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.15,
+      "rarity": "uncommon",
+      "displayName": "Emerald Block",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:ender_pearl",
+      "minCount": 3,
+      "maxCount": 6,
+      "chance": 0.2,
+      "rarity": "uncommon",
+      "displayName": "Ender Pearl",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:blaze_rod",
+      "minCount": 2,
+      "maxCount": 5,
+      "chance": 0.15,
+      "rarity": "uncommon",
+      "displayName": "Blaze Rod",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:book",
+      "minCount": 4,
+      "maxCount": 8,
+      "chance": 0.25,
+      "rarity": "common",
+      "displayName": "Book",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:gold_block",
+      "minCount": 2,
+      "maxCount": 4,
+      "chance": 0.25,
+      "rarity": "uncommon",
+      "displayName": "Gold Block",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:iron_block",
+      "minCount": 4,
+      "maxCount": 8,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "Iron Block",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:experience_bottle",
+      "minCount": 16,
+      "maxCount": 32,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "XP Bottle",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:redstone_block",
+      "minCount": 4,
+      "maxCount": 8,
+      "chance": 0.25,
+      "rarity": "common",
+      "displayName": "Redstone Block",
+      "broadcast": false
+    },
+    {
+      "item": "arcadialootbox:lootable_key_divine",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.005,
+      "rarity": "legendary",
+      "displayName": "Next Tier Key (Lootable)",
+      "broadcast": true
+    }
+  ],
+  "particles": [
+    "minecraft:flame"
+  ],
+  "type": "guaranteed",
+  "guaranteedItem": "minecraft:emerald",
+  "guaranteedMinCount": 5,
+  "guaranteedMaxCount": 12,
+  "rarity": "epic",
+  "broadcastRare": true,
+  "broadcastMessage": "",
+  "destroyOnOpen": false,
+  "maxUses": -1,
+  "permission": "",
+  "animation": {
+    "type": "burst",
+    "durationTicks": 53,
+    "particleCount": 43,
+    "particleSpeed": 0.217,
+    "particleRadius": 0.97,
+    "particleType": "minecraft:flame",
+    "playTitleAnimation": true
+  },
+  "requireSneakToOpen": false,
+  "cooldownTicks": 20,
+  "closeSound": "",
+  "giveToInventoryOnly": false,
+  "openTitle": "§d✦ Lootable VII ✦",
+  "openSubtitle": "§7Good luck!",
+  "commandRewards": [],
+  "experienceReward": 150,
+  "requiredBiome": "",
+  "requiredLevel": 0,
+  "logOpening": true,
+  "sortOrder": 406,
+  "displayNameFR": "§dLootable VII",
+  "openMessageFR": "",
+  "openTitleFR": "§d✦ Lootable VII ✦",
+  "openSubtitleFR": "§7Bonne chance !",
+  "freeEnabled": false,
+  "freeCooldownHours": 72,
+  "freePermission": "",
+  "freeReducedCooldownHours": 48,
+  "freeReducedPermission": ""
+}

@@ -17,7 +17,7 @@ gamma:0.5
 graphicsMode:1
 guiScale:2
 maxFps:80
-mipmapLevels:4
+mipmapLevels:2
 narrator:0
 particles:0
 reducedDebugInfo:false
@@ -48,8 +48,8 @@ mouseSensitivity:0.5
 damageTiltStrength:0.5070422535211268
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","file/ArcadiaLanguages","supplementaries:darker_ropes","black_icons","file/hud.zip","builtin/client/deep_aether_tooltips","twilightdelight:shader_compatible_fiery"]
-incompatibleResourcePacks:["file/ArcadiaLanguages","supplementaries:darker_ropes","builtin/client/deep_aether_tooltips","twilightdelight:shader_compatible_fiery"]
+resourcePacks:["vanilla","fabric","mod_resources","moonlight:merged_pack","builtin/client/deep_aether_tooltips","supplementaries:darker_ropes","twilightdelight:shader_compatible_fiery","black_icons","file/hud.zip","file/ArcadiaLanguages"]
+incompatibleResourcePacks:["builtin/client/deep_aether_tooltips","supplementaries:darker_ropes","twilightdelight:shader_compatible_fiery","file/ArcadiaLanguages"]
 lastServer:curveo.fr:25566
 lang:en_us
 chatVisibility:0
@@ -176,10 +176,10 @@ key_placebo.toggleWings:key.keyboard.unknown
 key_key.sophisticatedbackpacks.open_backpack:key.keyboard.semicolon
 key_key.sophisticatedbackpacks.inventory_interaction:key.keyboard.unknown
 key_key.sophisticatedbackpacks.tool_swap:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
-key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_1:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_3:key.keyboard.unknown
+key_key.sophisticatedbackpacks.toggle_upgrade_4:key.keyboard.unknown
 key_key.sophisticatedbackpacks.toggle_upgrade_5:key.keyboard.unknown
 key_key.spyglass-improvements.use:key.keyboard.z
 key_keyinfo.copycats.fill_copycat:key.keyboard.left.alt
@@ -331,8 +331,8 @@ key_key.immersive_aircraft.fallback_control_push:key.keyboard.unknown
 key_key.immersive_aircraft.fallback_use:key.keyboard.unknown
 key_key.immersive_aircraft.dismount:key.keyboard.left.shift
 key_key.immersive_aircraft.boost:key.keyboard.unknown
-key_key.twilightforest.red_thread_vision:key.keyboard.unknown
 key_key.twilightforest.zoom:key.keyboard.unknown
+key_key.twilightforest.red_thread_vision:key.keyboard.unknown
 key_key.twilightforest.swap_hotbar:key.keyboard.unknown
 key_key.twilightforest.item_display_map_cycle:key.keyboard.unknown
 key_key.deeperdarker.boost:key.keyboard.unknown

@@ -1,0 +1,234 @@
+{
+	id: "6C3D4E5F6A7B8C92"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			id: "3D0EBDE860F98290"
+			item: {
+				count: 1
+				id: "minecraft:netherite_ingot"
+			}
+			weight: 3.0f
+		}
+		{
+			id: "1CA7EB8E50BFF872"
+			item: {
+				count: 1
+				id: "minecraft:enchanted_golden_apple"
+			}
+			weight: 5.0f
+		}
+		{ id: "70EBC4A31231D021", item: { count: 1, id: "minecraft:nether_star" } }
+		{
+			id: "362D0769D895BF78"
+			item: {
+				count: 1
+				id: "minecraft:elytra"
+			}
+			weight: 0.5f
+		}
+		{
+			id: "2B915F69D4B9644A"
+			item: {
+				count: 1
+				id: "minecraft:dragon_breath"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 4
+			id: "44F7AD61B0EC442D"
+			item: {
+				count: 1
+				id: "minecraft:netherite_scrap"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "779262A0FD3DF45B"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:sharpness": 5
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "62C5E262DBCD0B1A"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:protection": 4
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "7EF30D748FF018A1"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:mending": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 3.0f
+		}
+		{
+			id: "1BF45CA945BA235C"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:fortune": 3
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "4BF137CDB8CB5A21"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:looting": 3
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "111E3A0525F75616"
+			item: {
+				count: 1
+				id: "minecraft:totem_of_undying"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 4
+			id: "7D4FECCF820126C3"
+			item: {
+				count: 1
+				id: "create:precision_mechanism"
+			}
+			weight: 8.0f
+		}
+		{
+			count: 2
+			id: "260C8ECC130ED483"
+			item: {
+				count: 1
+				id: "mekanism:alloy_reinforced"
+			}
+			weight: 8.0f
+		}
+		{
+			id: "78154C7F63D773EE"
+			item: {
+				count: 1
+				id: "mekanism:alloy_atomic"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 2
+			id: "4DCAA8ECC82FC0AB"
+			item: {
+				count: 1
+				id: "mekanism:ingot_refined_obsidian"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 4
+			id: "6484E401A30DE950"
+			item: {
+				count: 1
+				id: "ars_nouveau:source_gem_block"
+			}
+			weight: 8.0f
+		}
+		{
+			id: "4A9E77154D2E168E"
+			item: {
+				count: 1
+				id: "ars_nouveau:wilden_tribute"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 2
+			id: "71D956B48D15577F"
+			item: {
+				count: 1
+				id: "immersiveengineering:ingot_steel"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "33C87F16E895F40D"
+			item: {
+				count: 1
+				id: "refinedstorage:4k_storage_part"
+			}
+			weight: 8.0f
+		}
+		{
+			id: "6A1C670A2917BB19"
+			item: {
+				count: 1
+				id: "refinedstorage:64k_storage_part"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 32
+			id: "2C189FBF73894816"
+			item: {
+				count: 1
+				id: "minecraft:experience_bottle"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "0C8A257B2F9D4A42"
+			item: {
+				count: 1
+				id: "minecraft:diamond_block"
+			}
+			weight: 8.0f
+		}
+		{
+			id: "6A969B68805718F7"
+			item: {
+				count: 1
+				id: "minecraft:emerald_block"
+			}
+			weight: 8.0f
+		}
+	]
+}

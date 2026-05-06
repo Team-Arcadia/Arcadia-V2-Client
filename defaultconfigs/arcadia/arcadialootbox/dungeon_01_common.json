@@ -1,0 +1,142 @@
+{
+  "displayName": "§fDungeon I",
+  "color": "white",
+  "keyItem": "arcadialootbox:dungeon_key_common",
+  "openSound": "minecraft:block.chest.open",
+  "openMessage": "",
+  "lootTable": [
+    {
+      "item": "minecraft:iron_sword",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.4,
+      "rarity": "common",
+      "displayName": "Iron Sword",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:iron_axe",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.35,
+      "rarity": "common",
+      "displayName": "Iron Axe",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:bow",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "Bow",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:arrow",
+      "minCount": 8,
+      "maxCount": 32,
+      "chance": 0.5,
+      "rarity": "common",
+      "displayName": "Arrow",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:potion",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "Potion",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:enchanted_book",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.15,
+      "rarity": "uncommon",
+      "displayName": "Enchanted Book",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "minCount": 3,
+      "maxCount": 8,
+      "chance": 0.4,
+      "rarity": "common",
+      "displayName": "Iron Ingot",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "minCount": 2,
+      "maxCount": 5,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "Gold Ingot",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:heart_of_arcadia",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.001,
+      "rarity": "mythic",
+      "displayName": "Heart of Arcadia",
+      "broadcast": true
+    },
+    {
+      "item": "arcadialootbox:dungeon_key_uncommon",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.03,
+      "rarity": "legendary",
+      "displayName": "Next Tier Key (Dungeon)",
+      "broadcast": true
+    }
+  ],
+  "particles": [
+    "minecraft:flame"
+  ],
+  "type": "guaranteed",
+  "guaranteedItem": "minecraft:potion",
+  "guaranteedMinCount": 1,
+  "guaranteedMaxCount": 2,
+  "rarity": "common",
+  "broadcastRare": true,
+  "broadcastMessage": "",
+  "destroyOnOpen": false,
+  "maxUses": -1,
+  "permission": "",
+  "animation": {
+    "type": "burst",
+    "durationTicks": 20,
+    "particleCount": 10,
+    "particleSpeed": 0.05,
+    "particleRadius": 0.3,
+    "particleType": "minecraft:flame",
+    "playTitleAnimation": true
+  },
+  "requireSneakToOpen": false,
+  "cooldownTicks": 20,
+  "closeSound": "",
+  "giveToInventoryOnly": false,
+  "openTitle": "§f✦ Dungeon I ✦",
+  "openSubtitle": "§7Good luck!",
+  "commandRewards": [],
+  "experienceReward": 10,
+  "requiredBiome": "",
+  "requiredLevel": 0,
+  "logOpening": true,
+  "sortOrder": 200,
+  "displayNameFR": "§fDungeon I",
+  "openMessageFR": "",
+  "openTitleFR": "§f✦ Dungeon I ✦",
+  "openSubtitleFR": "§7Bonne chance !",
+  "freeEnabled": false,
+  "freeCooldownHours": 72,
+  "freePermission": "",
+  "freeReducedCooldownHours": 48,
+  "freeReducedPermission": ""
+}

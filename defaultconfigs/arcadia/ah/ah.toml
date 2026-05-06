@@ -1,0 +1,23 @@
+#Auction House listing settings.
+[listings]
+	#How many hours a listing stays active before expiring and returning to the seller's mailbox.
+	# Default: 48
+	# Range: 1 ~ 336
+	listing_duration_hours = 48
+	#Maximum number of active listings a single player can have at once.
+	# Default: 30
+	# Range: 1 ~ 500
+	max_listings_per_player = 30
+	#Listing fee taken upfront from the seller's balance when creating a listing.
+	#Expressed as a percentage of the listing price (10 = 10%).
+	#Acts as a money sink and discourages spam listings.
+	#Set to 0 to disable the fee entirely.
+	# Default: 10
+	# Range: 0 ~ 100
+	listing_fee_percent = 10
+
+#Item blacklist — items that cannot be listed on the AH.
+#Use registry IDs (e.g. 'minecraft:bedrock', 'arcadia_pets:pet_item').
+[blacklist]
+	#List of item registry IDs that are blocked from being sold.
+	items = ["minecraft:bedrock", "minecraft:command_block", "minecraft:barrier"]

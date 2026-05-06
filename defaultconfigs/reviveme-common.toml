@@ -1,0 +1,185 @@
+#If debug mode should be activated (just for testing and troubleshooting)
+Debug_Mode = false
+
+	["Self-Revive Settings"."General Settings"]
+		#List of all your self-revive options (Duplicate options are allowed). Self-revive options refresh from this list when the revive penalty ends. OPTIONS: CHANCE, RANDOM_ITEMS, SPECIFIC_ITEM, KILL, STATUS_EFFECTS, EXPERIENCE
+		SELF_REVIVE_OPTIONS = ["SPECIFIC_ITEM", "RANDOM_ITEMS", "CHANCE", "KILL", "STATUS_EFFECTS", "EXPERIENCE"]
+		#Max self revives (setting to 0 will disable self-revive) (setting to -1 will disable the self-revive max) (In multiplayer self-revive will only be disabled when you reach the max) Refreshes when penalty timer ends.
+		# Default: 3
+		# Range: > -1
+		Max_Self_revives = 0
+		#If self-revive should be disabled if a player places you in the fallen state
+		Disable_Self_Revive_On_PVP = false
+		#If the chosen self-revive options are picked randomly.
+		Randomize_Self_Revive_Options = true
+		#If the mod should only pick self-revive options that you would meet the requirements for (when possible)
+		Only_Use_Available_Options = false
+		#Increases the cost of self-revival options each time you self-revive. Stacks additively. Resets to 0 on fallen penalty timer expiration.
+		# Default: 0.25
+		# Range: 0.0 ~ 1.0
+		Self_Penalty_Percentage = 0.25
+
+		["Self-Revive Settings"."Revive Type Settings".Chance]
+			#How high your chance is to revive. (Affected by penalty)
+			# Default: 0.75
+			# Range: 0.0 ~ 1.0
+			Revive_Chance = 0.75
+			#If you should die instantly if you fail the chance check.
+			Kill_On_Fail = false
+
+		["Self-Revive Settings"."Revive Type Settings"."Random Items"]
+			#Percentage to lose for sacrificial items. (Affected by penalty)
+			# Default: 0.25
+			# Range: 0.0 ~ 1.0
+			Item_Loss_Percentage = 0.25
+			#Should check hotbar when sacrificing items
+			Include_Hotbar_Items = false
+
+		["Self-Revive Settings"."Revive Type Settings"."Specific Item"]
+			#Item that you wish to sacrifice. Usage: MODID:ITEM
+			Item_ID = "minecraft:golden_apple"
+			#If the item name should show
+			Show_Item_Name = true
+			#How much of the specific item is needed.
+			# Default: 1
+			# Range: > 0
+			Item_Count = 3
+			#NBT Data for the specific item (stored in the CUSTOM_DATA Data component) (Don't forget the curly brackets! {})
+			Item_Data = "{}"
+
+		["Self-Revive Settings"."Revive Type Settings".Kill]
+			#Amount of Living Entities you must kill before the death timer runs out.
+			# Default: 2
+			# Range: > 0
+			Kill_Count = 2
+			#Time in SECONDS you have to kill the needed amount of Living Entities. (Affected by penalty)
+			# Default: 30
+			# Range: > 0
+			Kill_Time = 20
+
+		["Self-Revive Settings"."Revive Type Settings"."Status Effects"]
+			#List of harmful effects that shouldn't be chosen. Add "//" to make it a whitelist instead. You can also use parts of an effect Usage: (ModId:PotionEffect) 'minecraft:slowness' or 'slowness' or 'minecraft'
+			Harmful_Effects_Blacklist = ["minecraft:unluck", "minecraft:instant_damage"]
+			#How long the harmful effects will last for. (Affected by penalty)
+			# Default: 15
+			# Range: > 0
+			Effect_Duration = 12
+			#If Revive effects should be disabled when reviving with this self-revive type.
+			Disable_Revive_Effects = true
+
+		["Self-Revive Settings"."Revive Type Settings".XP]
+			#Percentage of XP you should lose to revive. (Affected by penalty)
+			# Default: 0.4000000059604645
+			# Range: 0.0 ~ 1.0
+			XP_Loss_Percentage = 0.4000000059604645
+			#The minimum amount of XP levels needed.
+			# Default: 15
+			# Range: > 0
+			Minimum_XP_Level = 15
+
+	["Fallen State Settings"."General Settings"]
+		#If the regular Death Event should run first before this mod does (if Death event runs first and player death is cancelled, Revive-Me code will not execute. Same thing vice-versa.)
+		Run_Death_Event_First = true
+		#If you can give up and die
+		Can_Give_Up = true
+		#If you should die instantly if you disconnect while in the fallen state
+		Die_On_Disconnect = false
+		#If the player can use their inventory while fallen
+		#Allowed Values: NO, LOOK_ONLY, YES
+		Interact_With_Inventory = "LOOK_ONLY"
+		#Potion effects the player has while fallen (ModId:PotionEffect:Amplification)(minecraft:slowness:0)
+		Downed_Effects = ["minecraft:slowness:3"]
+		#Commands the player isn't allowed to use while fallen. Type "/" to block all commands. Type "//" to make this a whitelist.
+		Blocked_Commands = []
+		#Keybinds that you can use while in the fallen state. (You can put a piece or the full name of a keybind. (Check the translation json for keybinding names (en_us.json for example))
+		#Example of binding: 'key.fullscreen' or 'fullscreen' will let you use the 'Toggle Fullscreen' keybinding while in the fallen state)
+		Allowed_Keybinds = []
+		#How long the Help call effects will last in SECONDS
+		# Default: 10.0
+		# Range: 1.0 ~ 1.7976931348623157E308
+		Revive_Help_Duration = 10.0
+		#How far you can see glowing players
+		# Default: 80.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		Revive_Glow_Max_Distance = 80.0
+		#How far you can see the death timer for a player in the fallen state.
+		# Default: 40.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		Death_Timer_Max_Distance = 40.0
+
+	["Fallen State Settings"."Timer Settings"]
+		#How long you have before death. Setting to 0 will disable the timer
+		# Default: 60
+		# Range: > 0
+		Time_Left = 60
+		#How much time (in seconds) your death timer loses each time you fall. (Less than 1 is a percentage of max death time, -1 will take away the max)
+		# Default: 5.0
+		# Range: -1.0 ~ 1.7976931348623157E308
+		Time_Reduction_Penalty = 5.0
+		#how long the revive penalty effects will last in SECONDS
+		# Default: 45.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		Revive_Penalty_Timer = 45.0
+		#How much time (in seconds) must pass before you may be killed by other players. Affected by time reduction penalty. Setting to -1 will disable this
+		# Default: 10
+		# Range: > -1
+		PVP_Timer = 10
+
+	["Fallen State Settings"."Movement Settings"]
+		#What pose you have whilst fallen
+		#Allowed Values: CROUCH, PRONE, SLEEP
+		Fallen_Pose = "CROUCH"
+		#If the player may jump while fallen
+		#Allowed Values: YES, LIQUID_ONLY, NO
+		Can_Jump = "YES"
+		#If the player may move while fallen
+		Can_Move = true
+
+	["Revive Settings"."Revivee Settings"]
+		#How much health you will be revived with, -1 is max health, Less than 1 is percentage
+		# Default: 10.0
+		# Range: -1.0 ~ 2.147483647E9
+		Revive_Health = 5.0
+		#How much food you will be revived with, -1 is max food, Less than 1 is percentage
+		# Default: 6.0
+		# Range: -1.0 ~ 2.147483647E9
+		Revive_Food = 6.0
+		#How many seconds of invulnerability you have on revive
+		# Default: 5.0
+		# Range: 0.0 ~ 3.4028234663852886E38
+		Revive_Invuln_Time = 2.0
+		#Give back all of the potion effects the player had before entering the fallen state
+		Revert_Effects_On_Revive = false
+
+	["Revive Settings"."Reviver Settings"]
+		#How long to revive someone
+		# Default: 3
+		# Range: > 0
+		Revive_Time = 10
+		#What the reviver will lose
+		#Allowed Values: NONE, HEALTH, EXPERIENCE, FOOD, ITEM
+		Penalty_Type = "FOOD"
+		#Amount that will be taken from reviver, Numbers below 1 and greater than 0 will turn it into a percentage
+		Penalty_Amount = 5.0
+		#Item used to revive fallen players (Only if you selected ITEM as penalty type). Usage: MODID:ITEM
+		Revive_Item = "minecraft:golden_apple"
+		#Item data used to revive fallen players (Only if you selected ITEM as penalty type) (stored in the CUSTOM_DATA Data component) (Don't forget the curly brackets! {}).
+		Revive_Item_Data = "{}"
+		#If revive should be cancelled when taking damage
+		Cancel_Revive_On_Damage = false
+
+["Chat Settings"]
+	#Silence the revive and fallen chat messages
+	Silence_Regular_Messages = false
+	#Silence command chat messages
+	Silence_Command_Messages = false
+	#If chat messages from this mod should be sent to everyone. If false, will only send to those nearby
+	Universal_Chat_Messages = true
+
+["Client Settings"]
+	#Makes self-revive UI smaller, more compact
+	Compact_UI = false
+	#Controls how loud Revive Me! sounds are
+	# Default: 0.699999988079071
+	# Range: 0.0 ~ 1.0
+	Sound_Level = 0.699999988079071

@@ -1,0 +1,42 @@
+#Rarity balancing — weights and stat floors.
+#Order: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY, MYTHIC
+[rarities]
+	#Roll weight for each rarity. Higher = more common.
+	#The weights are relative — e.g. [4500,3000,1500,700,250,50]
+	#means COMMON is 4500/(sum) likely when rolling from COMMON floor.
+	weights = [4500, 3000, 1500, 700, 250, 50]
+	#Minimum stat star per rarity (1–5). Pets cannot roll below this floor.
+	#Order: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY, MYTHIC
+	stat_floors = [1, 1, 2, 2, 3, 4]
+
+#Stat rolling — base weights for each star level.
+#Index 0 = 1★, index 4 = 5★. Redistributed upward for rarities with a floor > 1.
+[stats]
+	#Base probability weights for 1★ through 5★.
+	star_weights = [40, 30, 18, 9, 3]
+
+#Mob pools — which entity types can appear at each rarity.
+#Use namespaced IDs, e.g. "minecraft:fox" or "mymod:custom_mob".
+[pools]
+	#Mobs rollable at COMMON rarity
+	common = ["minecraft:chicken", "minecraft:pig", "minecraft:cow", "minecraft:sheep", "minecraft:rabbit", "minecraft:cat", "minecraft:fox", "minecraft:bee"]
+	#Mobs rollable at UNCOMMON rarity
+	uncommon = ["minecraft:wolf", "minecraft:axolotl", "minecraft:panda", "minecraft:frog", "minecraft:turtle"]
+	#Mobs rollable at RARE rarity
+	rare = ["minecraft:allay", "minecraft:sniffer", "minecraft:strider"]
+	#Mobs rollable at EPIC rarity
+	epic = ["minecraft:iron_golem", "minecraft:enderman", "minecraft:blaze", "minecraft:wither_skeleton"]
+	#Mobs rollable at LEGENDARY rarity
+	legendary = ["minecraft:warden", "minecraft:ender_dragon", "minecraft:wither", "minecraft:elder_guardian", "minecraft:ravager", "minecraft:breeze", "minecraft:shulker"]
+	#Mobs rollable at MYTHIC rarity — Staff member pets (player-skin entities)
+	mythic = ["arcadia_prestige:staff_vyrriox", "arcadia_prestige:staff_siriust", "arcadia_prestige:staff_tyvrax", "arcadia_prestige:staff_jlpopeye", "arcadia_prestige:staff_gaspich"]
+
+#Pet Sniffer dig allowlist.
+#When a pet sniffer is equipped/active, any server-spawned item that lands within
+#1.5 blocks of it is cancelled UNLESS its registry id is in this list. This neutralizes
+#the vanilla sniffer_digging dupe path (and any datapack-extended drop tables) while
+#still letting players farm a controlled set of basic vanilla ores.
+[sniffer]
+	#Items the pet sniffer is allowed to drop. Use namespaced item ids.
+	#Anything not in this list will be cancelled when it spawns near a pet sniffer.
+	dig_allowlist = ["minecraft:coal", "minecraft:raw_iron", "minecraft:raw_gold", "minecraft:raw_copper", "minecraft:diamond", "minecraft:emerald", "minecraft:redstone", "minecraft:lapis_lazuli", "minecraft:quartz", "minecraft:netherite_scrap", "minecraft:coal_ore", "minecraft:deepslate_coal_ore", "minecraft:iron_ore", "minecraft:deepslate_iron_ore", "minecraft:gold_ore", "minecraft:deepslate_gold_ore", "minecraft:nether_gold_ore", "minecraft:diamond_ore", "minecraft:deepslate_diamond_ore", "minecraft:emerald_ore", "minecraft:deepslate_emerald_ore", "minecraft:copper_ore", "minecraft:deepslate_copper_ore", "minecraft:redstone_ore", "minecraft:deepslate_redstone_ore", "minecraft:lapis_ore", "minecraft:deepslate_lapis_ore", "minecraft:nether_quartz_ore", "minecraft:ancient_debris"]

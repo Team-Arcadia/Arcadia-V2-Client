@@ -1,0 +1,23 @@
+#MySQL connection settings for the Arcadia Prestige mod.
+[database]
+	#Enable MySQL database storage. When false, all data is stored in-memory/world files.
+	#Set to false for singleplayer or servers that do not need cross-server persistence.
+	#When running on an integrated server (singleplayer), the database is automatically
+	#disabled regardless of this setting.
+	enabled = true
+	#Database host address
+	host = "localhost"
+	#Database port
+	# Default: 3306
+	# Range: 1 ~ 65535
+	port = 3306
+	#Database name
+	name = "arcadia_prestige"
+	#Database username
+	user = "arcadia_prestige"
+	#Database password
+	password = "arcadia_prestige"
+	#HikariCP connection pool size
+	# Default: 10
+	# Range: 1 ~ 64
+	max_pool_size = 10

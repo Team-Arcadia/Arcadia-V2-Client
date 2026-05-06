@@ -1,0 +1,169 @@
+{
+  "displayName": "§5Event V",
+  "color": "white",
+  "keyItem": "arcadialootbox:event_key_diamond",
+  "openSound": "minecraft:block.chest.open",
+  "openMessage": "",
+  "lootTable": [
+    {
+      "item": "minecraft:netherite_scrap",
+      "minCount": 1,
+      "maxCount": 3,
+      "chance": 0.1,
+      "rarity": "epic",
+      "displayName": "Netherite Scrap",
+      "broadcast": false
+    },
+    {
+      "item": "simplyswords:emberblade",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.04,
+      "rarity": "legendary",
+      "displayName": "Emberblade",
+      "broadcast": true
+    },
+    {
+      "item": "simplyswords:frostfall",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.04,
+      "rarity": "legendary",
+      "displayName": "Frostfall",
+      "broadcast": true
+    },
+    {
+      "item": "simplyswords:tempest",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.03,
+      "rarity": "legendary",
+      "displayName": "Tempest",
+      "broadcast": true
+    },
+    {
+      "item": "artifacts:fire_gauntlet",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "epic",
+      "displayName": "Fire Gauntlet",
+      "broadcast": false
+    },
+    {
+      "item": "artifacts:power_glove",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "epic",
+      "displayName": "Power Glove",
+      "broadcast": false
+    },
+    {
+      "item": "artifacts:everlasting_beef",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.04,
+      "rarity": "legendary",
+      "displayName": "Everlasting Beef",
+      "broadcast": true
+    },
+    {
+      "item": "minecraft:firework_rocket",
+      "minCount": 32,
+      "maxCount": 64,
+      "chance": 0.4,
+      "rarity": "common",
+      "displayName": "Firework Rocket",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:cake",
+      "minCount": 4,
+      "maxCount": 8,
+      "chance": 0.3,
+      "rarity": "common",
+      "displayName": "Cake",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:diamond_block",
+      "minCount": 2,
+      "maxCount": 4,
+      "chance": 0.15,
+      "rarity": "rare",
+      "displayName": "Diamond Block",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_vyrriox_la_femme_de_joie",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.06,
+      "rarity": "rare",
+      "displayName": "Music Disc - La Femme De Joie",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_la_boulette_pt2",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.06,
+      "rarity": "rare",
+      "displayName": "Music Disc - La Boulette Pt2",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_peter_le_frein_pt5",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.06,
+      "rarity": "rare",
+      "displayName": "Music Disc - Peter Le Frein Pt5",
+      "broadcast": false
+    }
+  ],
+  "particles": [
+    "minecraft:flame"
+  ],
+  "type": "guaranteed",
+  "guaranteedItem": "minecraft:cake",
+  "guaranteedMinCount": 3,
+  "guaranteedMaxCount": 6,
+  "rarity": "legendary",
+  "broadcastRare": true,
+  "broadcastMessage": "",
+  "destroyOnOpen": false,
+  "maxUses": -1,
+  "permission": "",
+  "animation": {
+    "type": "burst",
+    "durationTicks": 70,
+    "particleCount": 60,
+    "particleSpeed": 0.3,
+    "particleRadius": 1.3,
+    "particleType": "minecraft:flame",
+    "playTitleAnimation": true
+  },
+  "requireSneakToOpen": false,
+  "cooldownTicks": 20,
+  "closeSound": "",
+  "giveToInventoryOnly": false,
+  "openTitle": "§5✦ Event V ✦",
+  "openSubtitle": "§7Good luck!",
+  "commandRewards": [],
+  "experienceReward": 200,
+  "requiredBiome": "",
+  "requiredLevel": 0,
+  "logOpening": true,
+  "sortOrder": 504,
+  "displayNameFR": "§5Event V",
+  "openMessageFR": "",
+  "openTitleFR": "§5✦ Event V ✦",
+  "openSubtitleFR": "§7Bonne chance !",
+  "freeEnabled": false,
+  "freeCooldownHours": 72,
+  "freePermission": "",
+  "freeReducedCooldownHours": 48,
+  "freeReducedPermission": ""
+}

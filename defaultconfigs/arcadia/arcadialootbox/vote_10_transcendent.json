@@ -1,0 +1,457 @@
+{
+  "displayName": "§4Transcendent Vote",
+  "color": "white",
+  "keyItem": "arcadialootbox:vote_key_transcendent",
+  "openSound": "minecraft:block.chest.open",
+  "openMessage": "",
+  "lootTable": [
+    {
+      "item": "minecraft:enchanted_golden_apple",
+      "minCount": 3,
+      "maxCount": 5,
+      "chance": 0.2,
+      "rarity": "epic",
+      "displayName": "Enchanted Golden Apple",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:golden_carrot",
+      "minCount": 32,
+      "maxCount": 64,
+      "chance": 0.4,
+      "rarity": "uncommon",
+      "displayName": "Golden Carrot",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:suspicious_stew",
+      "minCount": 3,
+      "maxCount": 5,
+      "chance": 0.18,
+      "rarity": "rare",
+      "displayName": "Suspicious Stew",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:cake",
+      "minCount": 3,
+      "maxCount": 6,
+      "chance": 0.2,
+      "rarity": "uncommon",
+      "displayName": "Cake",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:diamond_block",
+      "minCount": 1,
+      "maxCount": 2,
+      "chance": 0.1,
+      "rarity": "rare",
+      "displayName": "Diamond Block",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:experience_bottle",
+      "minCount": 64,
+      "maxCount": 64,
+      "chance": 0.4,
+      "rarity": "common",
+      "displayName": "XP Bottle",
+      "broadcast": false
+    },
+    {
+      "item": "farmersdelight:stuffed_pumpkin",
+      "minCount": 3,
+      "maxCount": 6,
+      "chance": 0.18,
+      "rarity": "uncommon",
+      "displayName": "Stuffed Pumpkin",
+      "broadcast": false
+    },
+    {
+      "item": "farmersdelight:honey_glazed_ham",
+      "minCount": 3,
+      "maxCount": 6,
+      "chance": 0.18,
+      "rarity": "uncommon",
+      "displayName": "Honey Glazed Ham",
+      "broadcast": false
+    },
+    {
+      "item": "farmersdelight:pasta_with_meatballs",
+      "minCount": 3,
+      "maxCount": 6,
+      "chance": 0.18,
+      "rarity": "uncommon",
+      "displayName": "Pasta with Meatballs",
+      "broadcast": false
+    },
+    {
+      "item": "farmersdelight:roast_chicken",
+      "minCount": 3,
+      "maxCount": 6,
+      "chance": 0.18,
+      "rarity": "uncommon",
+      "displayName": "Roast Chicken",
+      "broadcast": false
+    },
+    {
+      "item": "farmersdelight:steak_and_potatoes",
+      "minCount": 3,
+      "maxCount": 6,
+      "chance": 0.18,
+      "rarity": "uncommon",
+      "displayName": "Steak and Potatoes",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_mike_le_loulou",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "rare",
+      "displayName": "Music Disc - Mike Le Loulou",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_vyrriox_trois_femmes",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "rare",
+      "displayName": "Music Disc - Trois Femmes",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_vyrriox_sac_a_gros_pt1",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "rare",
+      "displayName": "Music Disc - Sac A Gros Pt1",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_vyrriox_sac_a_gros_pt2",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "rare",
+      "displayName": "Music Disc - Sac A Gros Pt2",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_vyrriox_patee",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "rare",
+      "displayName": "Music Disc - Patee",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_vyrriox_la_naine_pt1",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "rare",
+      "displayName": "Music Disc - La Naine Pt1",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_vyrriox_la_naine_pt2",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "rare",
+      "displayName": "Music Disc - La Naine Pt2",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_vyrriox_la_naine_pt3",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "rare",
+      "displayName": "Music Disc - La Naine Pt3",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_vyrriox_la_femme_de_joie",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "rare",
+      "displayName": "Music Disc - La Femme De Joie",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_peter_le_frein_pt1",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "rare",
+      "displayName": "Music Disc - Peter Le Frein Pt1",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_peter_le_frein_pt2",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "rare",
+      "displayName": "Music Disc - Peter Le Frein Pt2",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_peter_le_frein_pt3",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "rare",
+      "displayName": "Music Disc - Peter Le Frein Pt3",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_peter_le_frein_pt4",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "rare",
+      "displayName": "Music Disc - Peter Le Frein Pt4",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_peter_le_frein_pt5",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "rare",
+      "displayName": "Music Disc - Peter Le Frein Pt5",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_boit_ton_picher",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "rare",
+      "displayName": "Music Disc - Boit Ton Picher",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_dans_la_tavern_lulu",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "rare",
+      "displayName": "Music Disc - Dans La Tavern Lulu",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_janette",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "rare",
+      "displayName": "Music Disc - Janette",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_la_boulette_pt1",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "rare",
+      "displayName": "Music Disc - La Boulette Pt1",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_la_boulette_pt2",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "rare",
+      "displayName": "Music Disc - La Boulette Pt2",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_au_pactole",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.05,
+      "rarity": "rare",
+      "displayName": "Music Disc - Au Pactole",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:totem_of_undying",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.005,
+      "rarity": "legendary",
+      "displayName": "Totem of Undying",
+      "broadcast": true
+    },
+    {
+      "item": "voidtotem:totem_of_void_undying",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.005,
+      "rarity": "legendary",
+      "displayName": "Totem of Void Undying",
+      "broadcast": true
+    },
+    {
+      "item": "betterarcheology:torrent_totem",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.005,
+      "rarity": "legendary",
+      "displayName": "Torrent Totem",
+      "broadcast": true
+    },
+    {
+      "item": "betterarcheology:soul_totem",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.005,
+      "rarity": "legendary",
+      "displayName": "Soul Totem",
+      "broadcast": true
+    },
+    {
+      "item": "betterarcheology:growth_totem",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.0025,
+      "rarity": "mythic",
+      "displayName": "Growth Totem",
+      "broadcast": true
+    },
+    {
+      "item": "betterarcheology:radiance_totem",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.0025,
+      "rarity": "mythic",
+      "displayName": "Radiance Totem",
+      "broadcast": true
+    },
+    {
+      "item": "artifacts:crystal_heart",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.008,
+      "rarity": "epic",
+      "displayName": "Crystal Heart",
+      "broadcast": true
+    },
+    {
+      "item": "minecraft:netherite_upgrade_smithing_template",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.01,
+      "rarity": "legendary",
+      "displayName": "Netherite Upgrade Template",
+      "broadcast": true
+    },
+    {
+      "item": "immersive_melodies:flute",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.005,
+      "rarity": "rare",
+      "displayName": "Flute",
+      "broadcast": false
+    },
+    {
+      "item": "immersive_melodies:lute",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.005,
+      "rarity": "rare",
+      "displayName": "Lute",
+      "broadcast": false
+    },
+    {
+      "item": "immersive_melodies:piano",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.003,
+      "rarity": "epic",
+      "displayName": "Piano",
+      "broadcast": true
+    },
+    {
+      "item": "minecraft:ender_chest",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.01,
+      "rarity": "rare",
+      "displayName": "Ender Chest",
+      "broadcast": false
+    },
+    {
+      "item": "waystones:waystone",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.008,
+      "rarity": "epic",
+      "displayName": "Waystone",
+      "broadcast": true
+    },
+    {
+      "item": "xpbook:xp_tome",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 0.02,
+      "rarity": "uncommon",
+      "displayName": "XP Tome",
+      "broadcast": false
+    }
+  ],
+  "particles": [
+    "minecraft:flame"
+  ],
+  "type": "guaranteed",
+  "guaranteedItem": "minecraft:enchanted_golden_apple",
+  "guaranteedMinCount": 1,
+  "guaranteedMaxCount": 2,
+  "rarity": "mythic",
+  "broadcastRare": true,
+  "broadcastMessage": "",
+  "destroyOnOpen": false,
+  "maxUses": -1,
+  "permission": "",
+  "animation": {
+    "type": "burst",
+    "durationTicks": 70,
+    "particleCount": 60,
+    "particleSpeed": 0.3,
+    "particleRadius": 1.3,
+    "particleType": "minecraft:flame",
+    "playTitleAnimation": true
+  },
+  "requireSneakToOpen": false,
+  "cooldownTicks": 20,
+  "closeSound": "",
+  "giveToInventoryOnly": false,
+  "openTitle": "§4✦ Transcendent Vote ✦",
+  "openSubtitle": "§7Good luck!",
+  "commandRewards": [],
+  "experienceReward": 500,
+  "requiredBiome": "",
+  "requiredLevel": 0,
+  "logOpening": true,
+  "sortOrder": 309,
+  "displayNameFR": "§4Vote Transcendante",
+  "openMessageFR": "",
+  "openTitleFR": "§4✦ Vote Transcendante ✦",
+  "openSubtitleFR": "§7Bonne chance !",
+  "freeEnabled": false,
+  "freeCooldownHours": 72,
+  "freePermission": "",
+  "freeReducedCooldownHours": 48,
+  "freeReducedPermission": ""
+}

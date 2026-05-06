@@ -1,0 +1,12 @@
+#LuckPerms permission nodes for each Arcadia rank.
+#Change these to match your server's existing permission setup.
+#Players need the listed permission (directly or via group inheritance) to be recognized as that rank.
+[grades]
+	#Permission node for VIP rank.
+	perm_vip = "arcadia.grade.vip"
+	#Permission node for VIP+ rank.
+	perm_vip_plus = "arcadia.grade.vipplus"
+	#Permission node for MVP rank.
+	perm_mvp = "arcadia.grade.mvp"
+	#Permission node for Founder cosmetic rank (particle effects only, not a gameplay tier).
+	perm_founder = "arcadia.grade.founder"
