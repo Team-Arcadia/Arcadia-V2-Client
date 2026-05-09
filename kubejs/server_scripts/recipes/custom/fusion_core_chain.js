@@ -188,7 +188,7 @@ ServerEvents.recipes(event => {
         [
             event.recipes.createDeploying('arcadia:incomplete_plasma_cell', ['arcadia:incomplete_plasma_cell', 'arcadia:refined_alloy_ingot']),
             event.recipes.createDeploying('arcadia:incomplete_plasma_cell', ['arcadia:incomplete_plasma_cell', 'arcadia:nether_concentrate']),
-            event.recipes.createFilling('arcadia:incomplete_plasma_cell', ['arcadia:incomplete_plasma_cell', Fluid.of('minecraft:lava', 1000)]),
+            event.recipes.createFilling('arcadia:incomplete_plasma_cell', ['arcadia:incomplete_plasma_cell', Fluid.of('minecraft:lava', 250)]),
             event.recipes.createPressing('arcadia:incomplete_plasma_cell', 'arcadia:incomplete_plasma_cell'),
             event.recipes.createDeploying('arcadia:incomplete_plasma_cell', ['arcadia:incomplete_plasma_cell', 'minecraft:blaze_rod'])
         ]
@@ -201,13 +201,14 @@ ServerEvents.recipes(event => {
         [
             event.recipes.createDeploying('arcadia:incomplete_reinforced_casing', ['arcadia:incomplete_reinforced_casing', 'arcadia:treated_composite_plate']),
             event.recipes.createDeploying('arcadia:incomplete_reinforced_casing', ['arcadia:incomplete_reinforced_casing', 'arcadia:infused_steel']),
-            event.recipes.createFilling('arcadia:incomplete_reinforced_casing', ['arcadia:incomplete_reinforced_casing', Fluid.of('tfmg:molten_steel', 500)]),
+            event.recipes.createFilling('arcadia:incomplete_reinforced_casing', ['arcadia:incomplete_reinforced_casing', Fluid.of('tfmg:molten_steel', 250)]),
             event.recipes.createPressing('arcadia:incomplete_reinforced_casing', 'arcadia:incomplete_reinforced_casing'),
             event.recipes.createDeploying('arcadia:incomplete_reinforced_casing', ['arcadia:incomplete_reinforced_casing', 'arcadia:wiring_bundle'])
         ]
     ).transitionalItem('arcadia:incomplete_reinforced_casing').loops(8).id('arcadia:reinforced_casing');
 
     // 2D. THERMAL CONDUCTOR
+    // Reduced lava 2000 -> 1000mB: Create Basin holds max 1 bucket per fluid in a single cycle
     event.recipes.create.mixing(
         'arcadia:thermal_conductor',
         [
@@ -215,7 +216,7 @@ ServerEvents.recipes(event => {
             '8x arcadia:nether_concentrate',
             '4x arcadia:energized_crystal',
             '8x minecraft:blaze_rod',
-            Fluid.of('minecraft:lava', 2000)
+            Fluid.of('minecraft:lava', 1000)
         ]
     ).heated().id('arcadia:thermal_conductor');
 
@@ -273,7 +274,7 @@ ServerEvents.recipes(event => {
             event.recipes.createDeploying('arcadia:incomplete_neutron_reflector', ['arcadia:incomplete_neutron_reflector', 'minecraft:diamond_block']),
             event.recipes.createDeploying('arcadia:incomplete_neutron_reflector', ['arcadia:incomplete_neutron_reflector', 'arcadia:hardened_steel_compound']),
             event.recipes.createDeploying('arcadia:incomplete_neutron_reflector', ['arcadia:incomplete_neutron_reflector', 'arcadia:energized_crystal']),
-            event.recipes.createFilling('arcadia:incomplete_neutron_reflector', ['arcadia:incomplete_neutron_reflector', Fluid.of('minecraft:lava', 1000)]),
+            event.recipes.createFilling('arcadia:incomplete_neutron_reflector', ['arcadia:incomplete_neutron_reflector', Fluid.of('minecraft:lava', 250)]),
             event.recipes.createPressing('arcadia:incomplete_neutron_reflector', 'arcadia:incomplete_neutron_reflector')
         ]
     ).transitionalItem('arcadia:incomplete_neutron_reflector').loops(10).id('arcadia:neutron_reflector');

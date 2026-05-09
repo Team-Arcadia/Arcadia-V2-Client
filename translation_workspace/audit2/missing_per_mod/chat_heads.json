@@ -1,0 +1,14 @@
+{
+	"modmenu.descriptionTranslation.chat_heads": "See who are you chatting with!\nThis mod adds player heads next to their chat messages.",
+	"text.autoconfig.chat_heads.option.renderPosition": "Render Position",
+	"text.autoconfig.chat_heads.option.renderPosition.@Tooltip": "Where to render the chat heads\n\nNote: \"Before Name\" may be incompatible with certain mods.\nFor Caxton and Modern UI, \"Before Line\" will automatically be used.",
+	"text.autoconfig.chat_heads.option.renderPosition.BEFORE_LINE": "Before Line",
+	"text.autoconfig.chat_heads.option.renderPosition.BEFORE_NAME": "Before Name",
+	"text.autoconfig.chat_heads.option.threeDeeNess": "3Dness",
+	"text.autoconfig.chat_heads.option.threeDeeNess.@Tooltip": "Renders the hat layer slightly bigger\nto make chat heads appear less flat.\nThis can cause some rendering issues.",
+	"text.autoconfig.chat_heads.option.handleSystemMessages": "Handle system messages",
+	"text.autoconfig.chat_heads.option.handleSystemMessages.@Tooltip": "Whether heads can be added to \"pure\" server messages.\nNote that many servers (e.g. running the FreedomChat plugin)\nturn player messages into server messages!\nOnly disable this option if you know what you are doing!",
+	"text.autoconfig.chat_heads.option.detectNameAliases": "Auto-detect Name Aliases",
+	"text.autoconfig.chat_heads.option.detectNameAliases.@Tooltip": "This will look for responses to /realname commands on\nEssentialsX servers and automatically add an alias for it.",
+	"text.autoconfig.chat_heads.option.drawShadow": "Render Shadow"
+}

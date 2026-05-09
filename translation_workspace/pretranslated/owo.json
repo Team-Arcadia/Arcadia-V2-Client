@@ -1,0 +1,100 @@
+{
+	"text.owo.itemGroup.tab_template": [
+		{
+			"index": 0
+		},
+		{
+			"text": " > ",
+			"color": "gray"
+		},
+		{
+			"index": 1,
+			"color": "dark_gray"
+		}
+	],
+	"text.owo.itemGroup.select_hint": {
+		"text": "Shift-click to select multiple",
+		"color": "gray"
+	},
+	"text.owo.configure_hot_reload.choose_file": "Choisir un fichier",
+	"text.owo.configure_hot_reload.save": "Sauvegarder",
+	"text.owo.configure_hot_reload.model": [
+		{
+			"text": "Model: ",
+			"color": "yellow"
+		},
+		{
+			"index": 0,
+			"color": "gray"
+		}
+	],
+	"text.owo.configure_hot_reload.reload_from": [
+		{
+			"text": "Reload from: ",
+			"color": "yellow"
+		},
+		{
+			"index": 0,
+			"color": "gray"
+		}
+	],
+	"text.owo.config.search": "Rechercher...",
+	"text.owo.config.button.exit_minecraft": "Quitter Minecraft",
+	"text.owo.config.applies_after_restart": [
+		{
+			"text": "⏻ ",
+			"color": "#FAEA48"
+		},
+		{
+			"text": "This option applies after a restart",
+			"color": "gray"
+		}
+	],
+	"text.owo.config.managed_by_server": [
+		{
+			"text": "⚑ ",
+			"color": "#EB1D36"
+		},
+		{
+			"text": "This option is being managed by the server\n   Disconnect to edit it",
+			"color": "gray"
+		}
+	],
+	"text.owo.config.button.done": "Terminé",
+	"text.owo.config.sections": {
+		"text": "Sections",
+		"underlined": true
+	},
+	"text.owo.config.boolean_toggle.enabled": [
+		"",
+		{
+			"text": "[",
+			"color": "gray"
+		},
+		{
+			"text": "✔",
+			"color": "#28FFBF"
+		},
+		{
+			"text": "]",
+			"color": "gray"
+		},
+		" Enabled"
+	],
+	"text.owo.config.boolean_toggle.disabled": [
+		"",
+		{
+			"text": "[",
+			"color": "gray"
+		},
+		{
+			"text": "❌",
+			"color": "#EB1D36"
+		},
+		{
+			"text": "]",
+			"color": "gray"
+		},
+		" Disabled"
+	]
+}
