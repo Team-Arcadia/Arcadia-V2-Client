@@ -1,0 +1,948 @@
+[
+  {
+    "id": "1000000000000001",
+    "icon": null,
+    "shape": "gear",
+    "tasks": [
+      {
+        "type": "dimension"
+      }
+    ],
+    "rewards": [],
+    "deps": [
+      "1000000000000011",
+      "1000000000000021"
+    ],
+    "en": {
+      "title": "&b&lCelestial Ascension",
+      "subtitle": "&6Arrival in the Aether",
+      "desc": [
+        "I don't know how I got here. The portal of water and light spat me out onto this floating island. The air is thin, the sun doesn't move. It's beautiful... and terrifying. My earthly tools seem useless here. I must adapt or fall into the void."
+      ]
+    },
+    "fr": {
+      "title": "&b&lAscension Céleste",
+      "subtitle": "&6Arrivée dans l'Aether",
+      "desc": [
+        "Je ne sais pas comment je suis arrivé ici. Le portail d'eau et de lumière m'a recraché sur cette île flottante. L'air est rare, le soleil ne bouge pas. C'est magnifique... et terrifiant. Mes outils terrestres semblent inutiles ici. Je dois m'adapter ou tomber dans le vide."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1000000000000002",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "1000000000000001",
+      "1000000000000012",
+      "1000000000000022",
+      "1000000000000032",
+      "1000000000000042",
+      "1000000000000052",
+      "1000000000000062"
+    ],
+    "en": {
+      "title": "&eSkyroot Origins",
+      "subtitle": "&aPrimitive Tools",
+      "desc": [
+        "Skyroot wood is strange. It's light, almost too light, but incredibly resistant to this world's energies. I've crafted a full set. It's the only way to survive the wild Moas and hunger."
+      ]
+    },
+    "fr": {
+      "title": "&eOrigines de Racineciel",
+      "subtitle": "&aOutils Primitifs",
+      "desc": [
+        "Le bois de Racines-ciel est étrange. Léger, presque trop, mais incroyablement résistant aux énergies de ce monde. J'en ai fait un set complet. C'est le seul moyen de survivre aux Moas sauvages et à la faim."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1000000000000003",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "1000000000000002",
+      "1000000000000013",
+      "1000000000000023",
+      "1000000000000033",
+      "1000000000000043",
+      "1000000000000053",
+      "1000000000000063"
+    ],
+    "en": {
+      "title": "&7Stone of the Ancients",
+      "subtitle": "&7The Holy Stone",
+      "desc": [
+        "I've dug into the island's rock. It's called Holystone. A pickaxe made of this material is the only thing capable of scratching more precious ores like Zanite. I've forged a full set for every situation."
+      ]
+    },
+    "fr": {
+      "title": "&7Pierre des Anciens",
+      "subtitle": "&7La Pierre Sacrée",
+      "desc": [
+        "J'ai creusé dans la roche de l'île. On l'appelle Holystone. Une pioche faite de ce matériau est la seule chose capable d'égratigner des minerais plus précieux comme la Zanite. J'ai forgé un ensemble complet pour chaque situation."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1000000000000004",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "1000000000000003",
+      "1000000000000014",
+      "30159B2337B2C041",
+      "1000000000000024"
+    ],
+    "en": {
+      "title": "&6Fuel of the Gods",
+      "subtitle": "&6Golden Essence",
+      "desc": [
+        "This yellow rock glows with a warm light. It's called Ambrosium. It serves as fuel, currency, and even a source of magic. Without it, I can't cook anything, transform anything. It is the blood of the Aether."
+      ]
+    },
+    "fr": {
+      "title": "&6Carburant des Dieux",
+      "subtitle": "&6Essence Dorée",
+      "desc": [
+        "Cette roche jaune brille chaudement. C'est l'Ambrosium. Carburant, monnaie, magie. Sans lui, rien ne cuit ni ne change. C'est le sang de l'Aether."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1000000000000005",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "1000000000000001",
+      "1000000000000015",
+      "1000000000000025"
+    ],
+    "en": {
+      "title": "&bSafety Net",
+      "subtitle": "&bAerial Security",
+      "desc": [
+        "These blue clouds are solid but soft. If I fall from a height, they will cushion my landing. Better keep a few on me when exploring islands hundreds of meters above the void."
+      ]
+    },
+    "fr": {
+      "title": "&bFilet de Sécurité",
+      "subtitle": "&bSécurité Aérienne",
+      "desc": [
+        "Ces nuages bleus sont solides mais mous. Ils amortissent les chutes. Mieux vaut en avoir en explorant au-dessus du vide."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "3C6AB1E04AE2BA01",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "1000000000000003",
+      "5D3D741155F3C0FA",
+      "09309F74116B94AF"
+    ],
+    "en": {
+      "title": "Zanite Gemstone",
+      "subtitle": "Sky high treasures.",
+      "desc": [
+        "§bZanite Gemstone§r — Above the clouds lies a realm of wonder. Explore the Aether's unique biomes and conquer its dungeons."
+      ]
+    },
+    "fr": {
+      "title": "Gemme de Zanite",
+      "subtitle": "Trésors de haut vol.",
+      "desc": [
+        "§bZanite Gemstone§r — Au-dessus des nuages se trouve un royaume merveilleux. Explorez les biomes uniques de l'Aether et conquérez ses donjons."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "31BF04F3FF4D6343",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "2000000000000001",
+      "3C6AB1E04AE2BA01",
+      "2000000000000012",
+      "011708AA6E5B62A5",
+      "2000000000000032",
+      "2000000000000042",
+      "2000000000000052",
+      "2000000000000062",
+      "2000000000000072",
+      "2000000000000082"
+    ],
+    "en": {
+      "title": "Zanite Ring",
+      "subtitle": "Celestial wonder.",
+      "desc": [
+        "§bZanite Ring§r — The Aether is a heavenly dimension of floating islands, new mobs, and challenging dungeons. Build a portal and ascend!"
+      ]
+    },
+    "fr": {
+      "title": "Anneau de Zanite",
+      "subtitle": "Merveille céleste.",
+      "desc": [
+        "§bZanite Ring§r — L'Aether est une dimension céleste d'îles flottantes, de nouvelles créatures et de donjons stimulants. Construisez un portail et montez !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4C3BE7C21DD86197",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "1000000000000005",
+      "2000000000000013",
+      "25140584071C942B"
+    ],
+    "en": {
+      "title": "Blue Aercloud",
+      "subtitle": "Above the clouds.",
+      "desc": [
+        "§bBlue Aercloud§r — Above the clouds lies a realm of wonder. Explore the Aether's unique biomes and conquer its dungeons."
+      ]
+    },
+    "fr": {
+      "title": "Aéronuage Bleu",
+      "subtitle": "Au-dessus des nuages.",
+      "desc": [
+        "§bAéronuage Bleu§r — Au-dessus des nuages se trouve un royaume merveilleux. Explorez les biomes uniques de l'Aether et conquérez ses donjons."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "3000000000000001",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [
+      {
+        "type": "structure"
+      }
+    ],
+    "rewards": [],
+    "deps": [
+      "2000000000000002",
+      "31BF04F3FF4D6343",
+      "3000000000000011",
+      "3000000000000021"
+    ],
+    "en": {
+      "title": "&6Bronze Labyrinth",
+      "subtitle": "&6The Forbidden Entrance",
+      "desc": [
+        "I've found a massive entrance. It's a Bronze Dungeon. They say an indestructible stone creature lives there. I can't break the walls, I must follow the path."
+      ]
+    },
+    "fr": {
+      "title": "&6Labyrinthe de Bronze",
+      "subtitle": "&6L'Entrée Interdite",
+      "desc": [
+        "J'ai trouvé une entrée massive. C'est un Donjon de Bronze. On dit qu'une créature de pierre indestructible y vit. Je ne peux pas briser les murs, je dois suivre le chemin."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "3000000000000002",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [
+      {
+        "type": "kill",
+        "entity": "aether:slider"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 10
+      }
+    ],
+    "deps": [
+      "3000000000000001",
+      "2D95CDE861EDAC04",
+      "3000000000000022"
+    ],
+    "en": {
+      "title": "&cThe Slider",
+      "subtitle": "&cThe Stone Killer",
+      "desc": [
+        "The strategy is brutal: you must hit it with a PICKAXE. The more damage it takes, the redder and faster it gets. It's a test of survival and tool mastery."
+      ]
+    },
+    "fr": {
+      "title": "&cLe Glisseur",
+      "subtitle": "&cLe Tueur de Pierre",
+      "desc": [
+        "La stratégie est brutale : frappez avec une PIOCHE. Plus il prend de dégâts, plus il rougit et accélère. Un test de survie."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "3000000000000003",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "3000000000000002",
+      "3000000000000013",
+      "3000000000000023",
+      "3000000000000033",
+      "3000000000000043",
+      "3000000000000053"
+    ],
+    "en": {
+      "title": "&6Legacy of the Slider",
+      "subtitle": "&6Tools of the Ancients",
+      "desc": [
+        "The chest contained legendary weapons. A lance, a hammer that shoots projectiles, and magical artifacts like this cloud staff. I'm starting to feel powerful."
+      ]
+    },
+    "fr": {
+      "title": "&6Héritage du Glisseur",
+      "subtitle": "&6Outils des Anciens",
+      "desc": [
+        "Le coffre contenait des armes légendaires. Une lance, un marteau à projectiles, et des artefacts comme ce bâton de nuage. Je commence à me sentir puissant."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "3000000000000004",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "3000000000000002",
+      "3000000000000014",
+      "4BAC8648FC08629E",
+      "3000000000000024",
+      "3000000000000034",
+      "3000000000000044",
+      "3000000000000054",
+      "3000000000000064",
+      "3000000000000074",
+      "3000000000000084"
+    ],
+    "en": {
+      "title": "&dThe Super Jump",
+      "subtitle": "&dGravity Mastered",
+      "desc": [
+        "With Gravitite ore (enchanted at the altar), I've forged this equipment. If I wear the full armor, I can make prodigious leaps. My tools also seem lighter."
+      ]
+    },
+    "fr": {
+      "title": "&dLe Super saut",
+      "subtitle": "&dGravité Maîtrisée",
+      "desc": [
+        "Avec le minerai de Gravitite (enchanté), j'ai forgé cet équipement. L'armure complète permet des sauts prodigieux. Mes outils semblent plus légers."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "6000000000000001",
+    "icon": null,
+    "shape": "gear",
+    "tasks": [
+      {
+        "type": "biome"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "3000000000000003",
+      "51246F4DF4B6CD12",
+      "0B45155C04342882",
+      "6000000000000021"
+    ],
+    "en": {
+      "title": "&5To the Celestial Depths",
+      "subtitle": "&5New Horizons",
+      "desc": [
+        "Before challenging the Valkyries, I must toughen up. This portal led me into the lower layers of the Aether: Deep Aether. It's a hostile jungle."
+      ]
+    },
+    "fr": {
+      "title": "&5Vers les Profondeurs Célestes",
+      "subtitle": "&5Nouveaux Horizons",
+      "desc": [
+        "Avant de défier les Valkyries, je dois m'endurcir. Ce portail m'a mené aux couches inférieures de l'Aether : l'Aether Profond. Une jungle hostile."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "6000000000000002",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [
+      {
+        "type": "structure"
+      }
+    ],
+    "rewards": [],
+    "deps": [
+      "6000000000000001",
+      "6000000000000012",
+      "6000000000000022"
+    ],
+    "en": {
+      "title": "&eThe Brass Typhoon",
+      "subtitle": "The brass Dungeon",
+      "desc": [
+        ""
+      ]
+    },
+    "fr": {
+      "title": "&eLe Typhon de Laiton",
+      "subtitle": "Le Donjon de laiton",
+      "desc": [
+        ""
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4000000000000001",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "47F14A31158F2D9E",
+      "4000000000000011",
+      "4000000000000021"
+    ],
+    "en": {
+      "title": "&bThe Valkyrie Challenge",
+      "subtitle": "&bWorthy to Fight",
+      "desc": [
+        "Strengthened by my experience in the Brass, I am ready. The Valkyries require 10 victory medals to open their dungeon."
+      ]
+    },
+    "fr": {
+      "title": "&bLe Défi de la Valkyrie",
+      "subtitle": "&bDigne de Combattre",
+      "desc": [
+        "Renforcé par mon expérience avec le Laiton, je suis prêt. Les Valkyries demandent 10 médailles de victoire pour ouvrir leur donjon."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4000000000000002",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [
+      {
+        "type": "kill",
+        "entity": "aether:valkyrie_queen"
+      }
+    ],
+    "rewards": [],
+    "deps": [
+      "4000000000000001",
+      "4000000000000012",
+      "4000000000000022"
+    ],
+    "en": {
+      "title": "&bAerial Duel",
+      "subtitle": "&bThe Warrior Queen",
+      "desc": [
+        "She flies and throws ice. I must use the Valkyrie Lance to hit her from afar. It's a duel of precision and mobility."
+      ]
+    },
+    "fr": {
+      "title": "&bDuel Aérien",
+      "subtitle": "&bLa Reine Guerrière",
+      "desc": [
+        "Elle vole et lance de la glace. Je dois utiliser la Lance Valkyrie pour l'atteindre de loin. C'est un duel de précision et de mobilité."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4000000000000003",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "4000000000000002",
+      "4000000000000013",
+      "4000000000000023",
+      "4000000000000033",
+      "4000000000000043",
+      "4000000000000053",
+      "4000000000000063",
+      "4000000000000073",
+      "4000000000000083",
+      "4000000000000093"
+    ],
+    "en": {
+      "title": "&bFinal Ascension",
+      "subtitle": "&bWings of Freedom",
+      "desc": [
+        "With this armor, I fly. I've also forged the sacred tools of the Valkyries and found swords capable of summoning lightning. Valkyrie armor is indispensable for what comes next."
+      ]
+    },
+    "fr": {
+      "title": "&bAscension Finale",
+      "subtitle": "&bAiles de la Liberté",
+      "desc": [
+        "Avec cette armure, je vole. J'ai aussi forgé les outils sacrés des Valkyries et trouvé des épées de foudre. L'armure Valkyrie est indispensable pour la suite."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "5000000000000001",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [
+      {
+        "type": "structure"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "4000000000000003",
+      "5000000000000011",
+      "0E0024D18BB8F40B",
+      "5000000000000021"
+    ],
+    "en": {
+      "title": "&6The Golden Island",
+      "subtitle": "&6Heart of the Sun",
+      "desc": [
+        "This is the Gold Dungeon. I must cross an island filled with lava. My Valkyrie armor allowed me to reach the entrance without melting."
+      ]
+    },
+    "fr": {
+      "title": "&6L'Île Dorée",
+      "subtitle": "&6Cœur du Soleil",
+      "desc": [
+        "C'est le Donjon d'Or. Je dois traverser la lave. Mon armure Valkyrie m'a permis d'atteindre l'entrée."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "5000000000000002",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [
+      {
+        "type": "kill",
+        "entity": "aether:sun_spirit"
+      }
+    ],
+    "rewards": [],
+    "deps": [
+      "5000000000000001",
+      "5000000000000012",
+      "5000000000000022"
+    ],
+    "en": {
+      "title": "&cTwilight of the Gods",
+      "subtitle": "&cThe Solar God",
+      "desc": [
+        "The Final Boss. He throws ice balls that I must deflect back at him! Once hit, he melts. Patience and reflexes are key."
+      ]
+    },
+    "fr": {
+      "title": "&cCrépuscule des Dieux",
+      "subtitle": "&cLe Dieu Solaire",
+      "desc": [
+        "Le Boss Final. Il lance des boules de glace à renvoyer ! Une fois touché, il fond. Patience et réflexes sont clés."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "5000000000000003",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "5000000000000002",
+      "5000000000000013",
+      "5000000000000023",
+      "5000000000000033",
+      "5000000000000043",
+      "5000000000000053",
+      "5000000000000063",
+      "5000000000000073"
+    ],
+    "en": {
+      "title": "&cFlame Armor",
+      "subtitle": "&cRebirth of the Phoenix",
+      "desc": [
+        "I've unlocked the Day/Night cycle. I've forged phoenix armor to swim in lava, as well as a bow and sword of eternal flames."
+      ]
+    },
+    "fr": {
+      "title": "&cArmure de Flammes",
+      "subtitle": "&cRenaissance du Phénix",
+      "desc": [
+        "J'ai débloqué le cycle Jour/Nuit. J'ai forgé une armure phénix pour nager dans la lave, ainsi qu'un arc et une épée de flammes éternelles."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "5000000000000004",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 307
+      }
+    ],
+    "deps": [
+      "5000000000000003",
+      "3B437158BE279A0F",
+      "5000000000000024",
+      "5000000000000034",
+      "5000000000000044",
+      "5000000000000054"
+    ],
+    "en": {
+      "title": "&5The Ultimate Tank",
+      "subtitle": "&5Secret of Obsidian (Hidden)",
+      "desc": [
+        "I dipped my Phoenix armor in water. It became pure Obsidian. I am a living fortress."
+      ]
+    },
+    "fr": {
+      "title": "&5Le Réservoir Ultime",
+      "subtitle": "&5Secret de l'Obsidienne (Caché)",
+      "desc": [
+        "J'ai trempé mon armure Phénix dans l'eau. Elle est devenue de l'Obsidienne pure. Je suis une forteresse vivante."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "6000000000000003",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "5000000000000004",
+      "6000000000000013",
+      "6000000000000023"
+    ],
+    "en": {
+      "title": "&aJewel of the Sky",
+      "subtitle": "&aCelestial Jade",
+      "desc": [
+        "Skyjade is hidden deep within this dimension. It's the celestial equivalent of Netherite."
+      ]
+    },
+    "fr": {
+      "title": "&aJoyau du Ciel",
+      "subtitle": "&aCelestial Jade",
+      "desc": [
+        "Le Skyjade est caché au fond de cette dimension. C'est l'équivalent céleste de la Netherite."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "6000000000000004",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "6000000000000003",
+      "6000000000000014",
+      "6000000000000024",
+      "6000000000000034",
+      "6000000000000044",
+      "6000000000000054",
+      "6000000000000064",
+      "6000000000000074",
+      "6000000000000084",
+      "6000000000000094"
+    ],
+    "en": {
+      "title": "&9Blade of the Dawn",
+      "subtitle": "&9Final Arsenal",
+      "desc": [
+        "My Skyjade tools slice through reality. I've also discovered storm and luck weapons in these depths."
+      ]
+    },
+    "fr": {
+      "title": "&9Lame de l'Aube",
+      "subtitle": "&9Arsenal Final",
+      "desc": [
+        "Mes outils en Skyjade tranchent la réalité. J'ai aussi découvert des armes de tempête et de chance dans ces profondeurs."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "6000000000000005",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 307
+      },
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "6000000000000004",
+      "12B8629B13606DC9",
+      "508641CBEB02B5FA",
+      "6000000000000025",
+      "6000000000000035",
+      "6000000000000045",
+      "6000000000000055",
+      "6000000000000065",
+      "6000000000000075",
+      "6000000000000085"
+    ],
+    "en": {
+      "title": "&5Stratus Armor",
+      "subtitle": "&5Cloud Walker",
+      "desc": [
+        "Stratus armor reduces gravity. It's the culmination of my Zero to Hero journey. I am the Celestial Architect."
+      ]
+    },
+    "fr": {
+      "title": "&5Armure de Stratus",
+      "subtitle": "&5Marcheur de Nuages",
+      "desc": [
+        "L'armure Stratus réduit la gravité. C'est l'apogée de mon voyage de Zéro à Héros. Je suis l'Architecte Céleste."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "7000000000000001",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "3000000000000003",
+      "7000000000000011",
+      "7000000000000021",
+      "7000000000000031",
+      "7000000000000041"
+    ],
+    "en": {
+      "title": "&dStrange Collections",
+      "subtitle": "&dInsolent Weapons",
+      "desc": [
+        "I've found weapons with strange properties. One that slaughters pigs, one made of candy cane, and a cursed blade that drinks life. The Aether has a sense of humor."
+      ]
+    },
+    "fr": {
+      "title": "&dCollections Étranges",
+      "subtitle": "&dArmes Insolentes",
+      "desc": [
+        "J'ai trouvé des armes aux propriétés étranges. Une qui massacre les cochons, une faite de sucre d'orge, et une lame maudite qui boit la vie. L'Aether a le sens de l'humour."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "47F14A31158F2D9E",
+    "icon": null,
+    "shape": null,
+    "tasks": [
+      {
+        "type": "kill",
+        "entity": "deep_aether:eots_controller"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "6000000000000002",
+      "27F122ED50496B1B",
+      "5BEAAFBB3FEB1678"
+    ],
+    "en": {
+      "title": "&eThe Eye of the Storm",
+      "subtitle": "This Brass Dungeon is a mechanical marvel. The boss, the Eye of the Storm, is formidable. Its key might grant me access to riches to prepare for my fight against the Valkyries.",
+      "desc": [
+        "The Aether is a heavenly dimension of floating islands, new mobs, and challenging dungeons. Build a portal and ascend!"
+      ]
+    },
+    "fr": {
+      "title": "&eL'Oeil de la Tempête",
+      "subtitle": "Ce Donjon Laiton est une merveille. Le Boss, Œil de la Tempête, est redoutable. Sa clé ouvre vers des richesses avant les Valkyries.",
+      "desc": [
+        "L'Aether est une dimension céleste d'îles flottantes, nouveaux mobs et donjons. Construisez un portail et élevez-vous !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  }
+]

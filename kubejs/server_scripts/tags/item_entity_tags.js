@@ -97,7 +97,111 @@ ServerEvents.tags('item', event => {
     ]);
 });
 
-// Entity blacklist for Apothic Spawners moved to datapack:
-// kubejs/data/apothic_spawners/tags/entity_type/blacklisted_from_spawners.json
+// =============================================================================
+// MOB FARM PROTECTION — Centralized Blacklist
+// =============================================================================
+// Applied to every mod-specific capture/farm mechanism in the modpack:
+//   - Apothic Spawners (placing spawn egg into spawner)
+//   - Ars Nouveau Drygmy (passive mob-drop farming)
+//   - Ars Nouveau Jar (mob capture in jar)
+//   - Ars Additions Source Spawner (passive spawner)
+//   - Occultism Soul Gem (mob capture in gem)
+//   - Supplementaries Bottle/Cage (mob capture)
+//   - Carry On (carrying mob in hands)
+//   - PneumaticCraft Vacuum Trap
+// =============================================================================
+const ARCADIA_FARM_BLACKLIST = [
+    // Animal Garden — passive animals (cosmetic, not for farms)
+    'animalgarden_alligatorgar:alligatorgar',
+    'animalgarden_bullshark:bullshark',
+    'animalgarden_commonraven:commonraven',
+    'animalgarden_fennecfox:fennecfox',
+    'animalgarden_manatee:manatee',
+    'animalgarden_meerkat:meerkat',
+    'animalgarden_mouse:mouse',
+    'animalgarden_owl:owl',
+    'animalgarden_porcupine:porcupine',
+    'animalgarden_prairiedog:prairiedog',
+    'animalgarden_redpanda:redpanda',
+    'animalgarden_redpanda:himalayan_redpanda',
+    'animalgarden_seaotter:seaotter',
+    'animalgarden_spottedhyena:spottedhyena',
+    'animalgarden_sugarglider:sugarglider',
+    'animalgarden_westerngorilla:westerngorilla',
+    'animalgarden_whiterhinoceros:whiterhinoceros',
 
-console.info("[Arcadia V2] Global Tags Refined: Standardized tags applied.");
+    // Vanilla turtles + Aquaculture turtles (scute farms exploit)
+    'minecraft:turtle',
+    'aquaculture:arrau_turtle',
+    'aquaculture:box_turtle',
+    'aquaculture:starshell_turtle',
+
+    // Bosses
+    'minecraft:ender_dragon',
+    'minecraft:wither',
+    'twilightforest:naga',
+    'twilightforest:lich',
+    'twilightforest:minoshroom',
+    'twilightforest:hydra',
+    'twilightforest:knight_phantom',
+    'twilightforest:ur_ghast',
+    'twilightforest:yeti',
+    'twilightforest:snow_queen',
+    'twilightforest:plateau_boss',
+    'knightquest:netherman',
+    'occultism:possessed_warden',
+    'occultism:possessed_elder_guardian',
+    'irons_spellbooks:pyromancer',
+    'mowziesmobs:naga',
+    'mowziesmobs:frostmaw',
+    'mowziesmobs:ferrous_wroughtnaut',
+    'mowziesmobs:umvuthi',
+    'mowziesmobs:sculptor',
+    'deep_aether:eots_controller',
+    'deep_aether:eots_segment',
+    'aether:slider',
+    'aether:valkyrie_queen',
+    'aether:sun_spirit',
+    'ars_nouveau:wilden_boss',
+    'irons_spellbooks:dead_king',
+    'irons_spellbooks:fire_boss',
+
+    // Mutant Monsters (expanded inline instead of tag-forward for reliability)
+    'mutantmonsters:mutant_creeper',
+    'mutantmonsters:mutant_enderman',
+    'mutantmonsters:mutant_skeleton',
+    'mutantmonsters:mutant_snow_golem',
+    'mutantmonsters:mutant_zombie'
+];
+
+ServerEvents.tags('entity_type', event => {
+    // Apothic Spawners — placing spawn egg into Apothic Spawner block
+    event.add('apothic_spawners:blacklisted_from_spawners', ARCADIA_FARM_BLACKLIST);
+
+    // Ars Nouveau Drygmy — passive mob-drop farming familiar
+    event.add('ars_nouveau:drygmy_blacklist', ARCADIA_FARM_BLACKLIST);
+
+    // Ars Nouveau Jar — capturing mobs in jar
+    event.add('ars_nouveau:jar_blacklist', ARCADIA_FARM_BLACKLIST);
+
+    // Ars Nouveau Jar Release — preventing release of captured mobs
+    event.add('ars_nouveau:jar_release_blacklist', ARCADIA_FARM_BLACKLIST);
+
+    // Ars Additions Source Spawner — Ars Nouveau spawner variant
+    event.add('ars_additions:source_spawner_denylist', ARCADIA_FARM_BLACKLIST);
+
+    // Occultism Soul Gem — capturing mobs in gem
+    event.add('occultism:soul_gem_deny_list', ARCADIA_FARM_BLACKLIST);
+    event.add('occultism:fragile_soul_gem_deny_list', ARCADIA_FARM_BLACKLIST);
+
+    // Supplementaries — bottle / cage / soap mob capture
+    event.add('supplementaries:capture_blacklist', ARCADIA_FARM_BLACKLIST);
+
+    // Carry On — carrying mob in hands (also a farm exploit vector)
+    event.add('carryon:entity_blacklist', ARCADIA_FARM_BLACKLIST);
+
+    // PneumaticCraft — Vacuum Trap mob capture
+    event.add('pneumaticcraft:vacuum_trap_blacklisted', ARCADIA_FARM_BLACKLIST);
+});
+
+console.info("[Arcadia V2] Global Tags Refined: Standardized tags + Farm protection blacklist (Apothic, Drygmy, Jar, Source Spawner, Soul Gem, Supplementaries, Carry On, Vacuum Trap).");

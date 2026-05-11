@@ -1,3 +1,12 @@
 {
-  "schema_version": "2"
+  "schema_version": "2",
+  "overrides": {
+    "file/ArcadiaLanguages": {
+      "required": true,
+      "hidden": false,
+      "default_position": "TOP",
+      "fixed_position": true,
+      "description": "Arcadia menu translations (FancyMenu). Required for proper localized menus."
+    }
+  }
 }

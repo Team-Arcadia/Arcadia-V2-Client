@@ -1,0 +1,2143 @@
+[
+  {
+    "id": "4193303999597249",
+    "icon": null,
+    "shape": "octagon",
+    "tasks": [
+      {
+        "type": "advancement",
+        "advancement": "twilightforest:root"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "1C0B624437947A5B",
+      "695EA135D2B5FDC8"
+    ],
+    "en": {
+      "title": "&2&l2726 Enter the Twilight 2726",
+      "subtitle": "&7Step through the portal...",
+      "desc": [
+        "The Twilight Forest is a magical dimension filled with unique bosses, structures, and treasures. Every corner holds a new mystery!"
+      ]
+    },
+    "fr": {
+      "title": "Chapitre de Quête",
+      "subtitle": "Dans le crépuscule.",
+      "desc": [
+        "La Forêt du Crépuscule est magique, pleine de boss, structures et trésors. Mystère à chaque coin !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "575E405B270BBCBC",
+    "icon": null,
+    "shape": null,
+    "tasks": [
+      {
+        "type": "advancement",
+        "advancement": "twilightforest:twilight_hunter"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 10
+      }
+    ],
+    "deps": [
+      "4193303999597249",
+      "2D7EEE6D9AB073A0",
+      "49C77D4CDAE03481"
+    ],
+    "en": {
+      "title": "&aTwilight Hunter",
+      "subtitle": "&7Slay your first Twilight creature.",
+      "desc": [
+        "The Twilight Forest is a magical dimension filled with unique bosses, structures, and treasures. Every corner holds a new mystery!"
+      ]
+    },
+    "fr": {
+      "title": "Chapitre de Quête",
+      "subtitle": "Forêt des merveilles.",
+      "desc": [
+        "La Forêt du Crépuscule est magique, pleine de boss, structures et trésors. Mystère à chaque coin !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "57940981E8DE55D4",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 25
+      }
+    ],
+    "deps": [
+      "575E405B270BBCBC",
+      "2B674BF0B9517A4F",
+      "6CDB5FB3000FB0AE"
+    ],
+    "en": {
+      "title": "Raven Feather",
+      "subtitle": "Mystic forest lore.",
+      "desc": [
+        "§2Raven Feather§r — The Twilight Forest is a magical dimension filled with unique bosses, structures, and treasures. Every corner holds a new mystery!"
+      ]
+    },
+    "fr": {
+      "title": "Plume de Corbeau",
+      "subtitle": "Légende de la forêt mystique.",
+      "desc": [
+        "§2Plume de Corbeau§r — La Forêt du Crépuscule est magique. Mystères à chaque coin !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4F66DF6B494BEFF3",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 50
+      }
+    ],
+    "deps": [
+      "57940981E8DE55D4",
+      "104344E0925D3B1D",
+      "2C1541144C200928",
+      "6C3B980F96579633"
+    ],
+    "en": {
+      "title": "Magic Map Focus",
+      "subtitle": "Dark forest tales.",
+      "desc": [
+        "§2Magic Map Focus§r — The Twilight Forest is a magical dimension filled with unique bosses, structures, and treasures. Every corner holds a new mystery!"
+      ]
+    },
+    "fr": {
+      "title": "Focalisateur de Carte Magique",
+      "subtitle": "Contes de la forêt sombre.",
+      "desc": [
+        "§2Focalisateur de Carte Magique§r — La Forêt du Crépuscule est une dimension magique remplie de boss uniques, de structures et de trésors. Chaque coin cache un nouveau mystère !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "0990D6CEE042F44E",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "4F66DF6B494BEFF3",
+      "6D7C21A48CD96B58",
+      "0EBD4A2BF8DE117D"
+    ],
+    "en": {
+      "title": "Magic Map",
+      "subtitle": "Boss trophy.",
+      "desc": [
+        "§2Magic Map§r — From the Naga to the Lich King — the Twilight Forest's bosses demand cunning and strength to defeat."
+      ]
+    },
+    "fr": {
+      "title": "Carte Magique",
+      "subtitle": "Trophée de Boss.",
+      "desc": [
+        "§2Magic Map§r — Du Naga au Roi Liche — les boss de la Forêt du Crépuscule demandent ruse et force pour être vaincus."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "3531B28F14CF72A2",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "4193303999597249",
+      "31C7455838E9B507",
+      "0317E874F595ECFE",
+      "5D567A4631D5D3A2"
+    ],
+    "en": {
+      "title": "&2&lNaga",
+      "subtitle": "&7The Serpent King of the courtyard.",
+      "desc": [
+        "§2Naga Scale§r — The Twilight Forest is a magical dimension filled with unique bosses, structures, and treasures. Every corner holds a new mystery!"
+      ]
+    },
+    "fr": {
+      "title": "Écaille de Naga",
+      "subtitle": "Trophée de Boss.",
+      "desc": [
+        "§2Naga Scale§r — La Forêt du Crépuscule est une dimension magique remplie de boss uniques, de structures et de trésors. Chaque coin cache un nouveau mystère !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4D4AB60B3B1CD437",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "random"
+      },
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "3531B28F14CF72A2",
+      "401B0639D103957C",
+      "6E342C5980013BCE",
+      "529D27B9675CBD7F",
+      "3B252125FD56FC27"
+    ],
+    "en": {
+      "title": "Naga Chestplate",
+      "subtitle": "Dark forest tales.",
+      "desc": [
+        "§2Naga Chestplate§r — From the Naga to the Lich King — the Twilight Forest's bosses demand cunning and strength to defeat."
+      ]
+    },
+    "fr": {
+      "title": "Plastron de Naga",
+      "subtitle": "Contes de la forêt sombre.",
+      "desc": [
+        "§2Naga Chestplate§r — Du Naga au Roi Liche — les boss de la Forêt du Crépuscule demandent ruse et force pour être vaincus."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "0107D516E038E0DB",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "3531B28F14CF72A2",
+      "7AFE97BA7DD6FAD1",
+      "5EA993D898FBE022",
+      "4FB6BB3F61AD8D6B"
+    ],
+    "en": {
+      "title": "Lich Trophy",
+      "subtitle": "&7The undead sorcerer and his dark tower.",
+      "desc": [
+        "§2Lich Trophy§r — From the Naga to the Lich King — the Twilight Forest's bosses demand cunning and strength to defeat."
+      ]
+    },
+    "fr": {
+      "title": "Trophée du Lich",
+      "subtitle": "Lié au Crépuscule.",
+      "desc": [
+        "§2Trophée du Lich§r — Du Naga au Roi Liche — les boss de la Forêt du Crépuscule demandent ruse et force pour être vaincus."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "212EC1F41227184D",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "0107D516E038E0DB",
+      "20567937363CD1F1",
+      "7766237BE70A1AD0",
+      "54F8AB4DDD68C94A"
+    ],
+    "en": {
+      "title": "Twilight Scepter",
+      "subtitle": "Into the twilight.",
+      "desc": [
+        "§2Twilight Scepter§r — From the Naga to the Lich King — the Twilight Forest's bosses demand cunning and strength to defeat."
+      ]
+    },
+    "fr": {
+      "title": "Sceptre du Crépuscule",
+      "subtitle": "Dans le crépuscule.",
+      "desc": [
+        "§2Sceptre du Crépuscule§r — Du Naga au Roi Liche — les boss de la Forêt du Crépuscule demandent ruse et force pour être vaincus."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "6CB1BFBA10DF24E4",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "0107D516E038E0DB",
+      "3970CC74E6AA5566",
+      "744D34BB9F996D94",
+      "4FBA38F3FB4B7C28"
+    ],
+    "en": {
+      "title": "Lifedrain Scepter",
+      "subtitle": "Forest of wonder.",
+      "desc": [
+        "§2Lifedrain Scepter§r — From the Naga to the Lich King — the Twilight Forest's bosses demand cunning and strength to defeat."
+      ]
+    },
+    "fr": {
+      "title": "Sceptre de Vol de Vie",
+      "subtitle": "Forêt des merveilles.",
+      "desc": [
+        "§2Sceptre de Vol de Vie§r — Du Naga au Roi Liche — les boss de la Forêt du Crépuscule demandent ruse et force pour être vaincus."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "3908F7C80154D9CA",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "0107D516E038E0DB",
+      "02A569F306882648",
+      "578E76B265555F87",
+      "3146C0D222FADF31"
+    ],
+    "en": {
+      "title": "Zombie Scepter",
+      "subtitle": "Enchanted woods.",
+      "desc": [
+        "§2Zombie Scepter§r — From the Naga to the Lich King — the Twilight Forest's bosses demand cunning and strength to defeat."
+      ]
+    },
+    "fr": {
+      "title": "Sceptre Zombie",
+      "subtitle": "Bois enchantés.",
+      "desc": [
+        "§2Sceptre Zombie§r — Du Naga au Roi Liche — les boss de la Forêt du Crépuscule demandent ruse et force pour être vaincus."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "3371570F189DF994",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "0107D516E038E0DB",
+      "5557BEAAA052774B",
+      "25A91E4CB8753F94",
+      "3CCC28F4BEAAC162"
+    ],
+    "en": {
+      "title": "Fortification Scepter",
+      "subtitle": "Twilight treasure.",
+      "desc": [
+        "§2Fortification Scepter§r — From the Naga to the Lich King — the Twilight Forest's bosses demand cunning and strength to defeat."
+      ]
+    },
+    "fr": {
+      "title": "Sceptre de Fortification",
+      "subtitle": "Trésor du Crépuscule.",
+      "desc": [
+        "§2Sceptre de Fortification§r — Du Naga au Roi Liche — les boss de la Forêt du Crépuscule demandent ruse et force pour être vaincus."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "twilightforest:maze_map",
+    "icon": "twilightforest:maze_map",
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "0107D516E038E0DB",
+      "4B95D48D7525FFAD",
+      "0EBC5DE2494689BB",
+      "7AA9D1C39C51F20F",
+      "1779F067AD7CDA50"
+    ],
+    "en": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "fr": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "issues": {
+      "title": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "subtitle": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "desc": [
+        "EMPTY",
+        "MISSING"
+      ]
+    }
+  },
+  {
+    "id": "610F9E9D0B5131C7",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "4B95D48D7525FFAD",
+      "4CA93BA5E85DAA73",
+      "69F49433EDA8F189"
+    ],
+    "en": {
+      "title": "Charm Of Keeping 1",
+      "subtitle": "Twilight bound.",
+      "desc": [
+        "§2Charm Of Keeping 1§r — The Twilight Forest is a magical dimension filled with unique bosses, structures, and treasures. Every corner holds a new mystery!"
+      ]
+    },
+    "fr": {
+      "title": "Charme de Conservation 1",
+      "subtitle": "Lié au Crépuscule.",
+      "desc": [
+        "§2Charme de Conservation 1§r — La Forêt du Crépuscule est magique. Mystères à chaque coin !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4665E6FD0AAED164",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "610F9E9D0B5131C7",
+      "5BAC92C56DB3B58E",
+      "146FE418E4077B1D"
+    ],
+    "en": {
+      "title": "Charm Of Keeping 2",
+      "subtitle": "Dark forest tales.",
+      "desc": [
+        "§2Charm Of Keeping 2§r — The Twilight Forest is a magical dimension filled with unique bosses, structures, and treasures. Every corner holds a new mystery!"
+      ]
+    },
+    "fr": {
+      "title": "Charme de Conservation 2",
+      "subtitle": "Contes de la forêt sombre.",
+      "desc": [
+        "§2Charme de Conservation 2§r — La Forêt du Crépuscule est une dimension magique remplie de boss uniques, de structures et de trésors. Chaque coin cache un nouveau mystère !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "3A3ED88027331A6C",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 300
+      }
+    ],
+    "deps": [
+      "4665E6FD0AAED164",
+      "07A4510994964585",
+      "2FB00B8498F8E8E3"
+    ],
+    "en": {
+      "title": "Charm Of Keeping 3",
+      "subtitle": "&6Ultimate protection for your inventory.",
+      "desc": [
+        "§2Charm Of Keeping 3§r — The Twilight Forest is a magical dimension filled with unique bosses, structures, and treasures. Every corner holds a new mystery!"
+      ]
+    },
+    "fr": {
+      "title": "Charme de Conservation 3",
+      "subtitle": "Dans le crépuscule.",
+      "desc": [
+        "§2Charme de Conservation 3§r — La Forêt du Crépuscule est une dimension magique remplie de boss uniques, de structures et de trésors. Chaque coin cache un nouveau mystère !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "51BC981AB4CFAD95",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "4B95D48D7525FFAD",
+      "43613B9B3AED5AEC",
+      "37FB4455E15C55FF"
+    ],
+    "en": {
+      "title": "Mazebreaker Pickaxe",
+      "subtitle": "Mystic forest lore.",
+      "desc": [
+        "§2Mazebreaker Pickaxe§r — From the Naga to the Lich King — the Twilight Forest's bosses demand cunning and strength to defeat."
+      ]
+    },
+    "fr": {
+      "title": "Pioche Brise-Labyrinthe",
+      "subtitle": "Légende de la forêt mystique.",
+      "desc": [
+        "§2Mazebreaker Pickaxe§r — Du Naga au Roi Liche — les boss de la Forêt du Crépuscule demandent ruse et force pour être vaincus."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "6F957D07AA74F16E",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "4B95D48D7525FFAD",
+      "236BDEA2E1F47BAB",
+      "19F17291B47DC7B0"
+    ],
+    "en": {
+      "title": "Ore Map",
+      "subtitle": "Twilight bound.",
+      "desc": [
+        "§2Ore Map§r — From the Naga to the Lich King — the Twilight Forest's bosses demand cunning and strength to defeat."
+      ]
+    },
+    "fr": {
+      "title": "Carte des Minerais",
+      "subtitle": "Lié au Crépuscule.",
+      "desc": [
+        "§2Ore Map§r — Du Naga au Roi Liche — les boss de la Forêt du Crépuscule demandent ruse et force pour être vaincus."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "twilightforest:minoshroom_trophy",
+    "icon": "twilightforest:minoshroom_trophy",
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "4B95D48D7525FFAD",
+      "04440BB2EFFD6DD9",
+      "67DC6097D79B82E7",
+      "1B7B1CBC5F610AEC",
+      "2CD3DF9A97F31897",
+      "15B1513233BE274B"
+    ],
+    "en": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "fr": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "issues": {
+      "title": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "subtitle": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "desc": [
+        "EMPTY",
+        "MISSING"
+      ]
+    }
+  },
+  {
+    "id": "730AF9210F00018E",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "04440BB2EFFD6DD9",
+      "5D4F5E0EFB90BB72",
+      "63527819961CF742"
+    ],
+    "en": {
+      "title": "Diamond Minotaur Axe",
+      "subtitle": "Forest of wonder.",
+      "desc": [
+        "§2Diamond Minotaur Axe§r — The Twilight Forest is a magical dimension filled with unique bosses, structures, and treasures. Every corner holds a new mystery!"
+      ]
+    },
+    "fr": {
+      "title": "Hache de Minotaure en Diamant",
+      "subtitle": "Forêt des merveilles.",
+      "desc": [
+        "§2Diamond Minotaur Axe§r — La Forêt du Crépuscule est une dimension magique remplie de boss uniques, de structures et de trésors. Chaque coin cache un nouveau mystère !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "7026E46FD8B3A81D",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "04440BB2EFFD6DD9",
+      "3544BC55EB91F451",
+      "6769D44048131034",
+      "6D9D134621F8FA36"
+    ],
+    "en": {
+      "title": "Hydra Trophy",
+      "subtitle": "&7A multi-headed beast of pure fire.",
+      "desc": [
+        "§2Hydra Trophy§r — From the Naga to the Lich King — the Twilight Forest's bosses demand cunning and strength to defeat."
+      ]
+    },
+    "fr": {
+      "title": "Trophée de l'Hydre",
+      "subtitle": "Dans le crépuscule.",
+      "desc": [
+        "§2Trophée de l'Hydre§r — Du Naga au Roi Liche, les boss exigent ruse et force."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1FF5906DF721D091",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "7026E46FD8B3A81D",
+      "0A911E20E3333975",
+      "2FEDD15056569151",
+      "48F5F5BE01C792CE",
+      "761CF4D721CB22DF",
+      "384D339F85C2F6CC",
+      "1559426B94209449"
+    ],
+    "en": {
+      "title": "Fiery Ingot",
+      "subtitle": "Into the twilight.",
+      "desc": [
+        "§2Fiery Ingot§r — The Twilight Forest is a magical dimension filled with unique bosses, structures, and treasures. Every corner holds a new mystery!"
+      ]
+    },
+    "fr": {
+      "title": "Lingot de Feu",
+      "subtitle": "Dans le crépuscule.",
+      "desc": [
+        "§2Lingot Ardent§r — La Forêt du Crépuscule est magique. Mystères à chaque coin !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "111F2EE85FB0A455",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "7026E46FD8B3A81D",
+      "456AB7F117F94A10",
+      "79C089EFB620EC43",
+      "1ACA91C37E113066",
+      "5FA41AF43B32B189"
+    ],
+    "en": {
+      "title": "Fiery Ingot",
+      "subtitle": "Into the twilight.",
+      "desc": [
+        "§2Fiery Ingot§r — From the Naga to the Lich King — the Twilight Forest's bosses demand cunning and strength to defeat."
+      ]
+    },
+    "fr": {
+      "title": "Lingot de Feu",
+      "subtitle": "Dans le crépuscule.",
+      "desc": [
+        "§2Lingot de Feu§r — Du Naga au Roi Liche — les boss de la Forêt du Crépuscule demandent ruse et force pour être vaincus."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "3DCF26B53AE1EBF6",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "7026E46FD8B3A81D",
+      "6EE52E6A38061EF8",
+      "4E03E4FCB1B4DE05"
+    ],
+    "en": {
+      "title": "Knight Phantom Trophy",
+      "subtitle": "&7Ghostly knights haunt the dark tower.",
+      "desc": [
+        "§2Knight Phantom Trophy§r — From the Naga to the Lich King — the Twilight Forest's bosses demand cunning and strength to defeat."
+      ]
+    },
+    "fr": {
+      "title": "Trophée du Chevalier Spectral",
+      "subtitle": "Forêt des merveilles.",
+      "desc": [
+        "§2Knight Phantom Trophy§r — Du Naga au Roi Liche — les boss de la Forêt du Crépuscule demandent ruse et force pour être vaincus."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "0A207A437AF153AA",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "3DCF26B53AE1EBF6",
+      "6B70258C158B3CB9",
+      "2429F7C568231ED7",
+      "0C2C788F3061A7D3"
+    ],
+    "en": {
+      "title": "Phantom Helmet",
+      "subtitle": "Forest of wonder.",
+      "desc": [
+        "§2Phantom Helmet§r — The Twilight Forest is a magical dimension filled with unique bosses, structures, and treasures. Every corner holds a new mystery!"
+      ]
+    },
+    "fr": {
+      "title": "Casque Fantôme",
+      "subtitle": "Forêt des merveilles.",
+      "desc": [
+        "§2Phantom Helmet§r — La Forêt du Crépuscule est une dimension magique remplie de boss uniques, de structures et de trésors. Chaque coin cache un nouveau mystère !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "25906B43A198B72F",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "3DCF26B53AE1EBF6",
+      "7BE348E1702445A3",
+      "15A88D29988FC26C",
+      "095092712EA93AD4",
+      "44E7089F08F757D4",
+      "1A137AF836AFC3C0",
+      "33789178B086D262"
+    ],
+    "en": {
+      "title": "Knightmetal Ingot",
+      "subtitle": "Enchanted woods.",
+      "desc": [
+        "§2Knightmetal Ingot§r — The Twilight Forest is a magical dimension filled with unique bosses, structures, and treasures. Every corner holds a new mystery!"
+      ]
+    },
+    "fr": {
+      "title": "Lingot de Métal-Chevalier",
+      "subtitle": "Bois enchantés.",
+      "desc": [
+        "§2Knightmetal Ingot§r — La Forêt du Crépuscule est une dimension magique remplie de boss uniques, de structures et de trésors. Chaque coin cache un nouveau mystère !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "607D592CE102C82E",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "3DCF26B53AE1EBF6",
+      "4E8CD2691B5C171E",
+      "497A02C66178E179",
+      "036BA11CFAF4A837",
+      "48F928D65370BC9B",
+      "2CC995B62A954D96",
+      "141CFE131162447F",
+      "2C4EE242D93E2F75"
+    ],
+    "en": {
+      "title": "Knightmetal Ingot",
+      "subtitle": "Enchanted woods.",
+      "desc": [
+        "§2Knightmetal Ingot§r — The Twilight Forest is a magical dimension filled with unique bosses, structures, and treasures. Every corner holds a new mystery!"
+      ]
+    },
+    "fr": {
+      "title": "Lingot de Métal-Chevalier",
+      "subtitle": "Bois enchantés.",
+      "desc": [
+        "§2Knightmetal Ingot§r — La Forêt du Crépuscule est une dimension magique remplie de boss uniques, de structures et de trésors. Chaque coin cache un nouveau mystère !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "688C911ECFB2F134",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "3DCF26B53AE1EBF6",
+      "30312A819C8EB06B",
+      "1C2FD3A887512A1B",
+      "64B931AE43EA1E92"
+    ],
+    "en": {
+      "title": "Ur-Ghast Trophy",
+      "subtitle": "&7The titanic ghast atop the Dark Tower.",
+      "desc": [
+        "§2Ur-Ghast Trophy§r — The Twilight Forest is a magical dimension filled with unique bosses, structures, and treasures. Every corner holds a new mystery!"
+      ]
+    },
+    "fr": {
+      "title": "Trophée de l'Ur-Ghast",
+      "subtitle": "Bois enchantés.",
+      "desc": [
+        "§2Trophée de l'Ur-Ghast§r — La Forêt du Crépuscule est magique. Mystères à chaque coin !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "01748C2CD9C97523",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "688C911ECFB2F134",
+      "65A660B743E78378",
+      "05595C69D4B07698",
+      "68116414705FC569",
+      "6F4BFD3CF4F593DE",
+      "543D6787030477B0"
+    ],
+    "en": {
+      "title": "Reappearing Block",
+      "subtitle": "Twilight treasure.",
+      "desc": [
+        "§2Reappearing Block§r — From the Naga to the Lich King — the Twilight Forest's bosses demand cunning and strength to defeat."
+      ]
+    },
+    "fr": {
+      "title": "Bloc Réapparaissant",
+      "subtitle": "Trésor du Crépuscule.",
+      "desc": [
+        "§2Reappearing Block§r — Du Naga au Roi Liche — les boss de la Forêt du Crépuscule demandent ruse et force pour être vaincus."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "7B4A687EB505C2FF",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "688C911ECFB2F134",
+      "0D02ECED660F78F5",
+      "6C64F1AE3C2E080B",
+      "65BE4468EE5852FE",
+      "56287EDCE7111CDA",
+      "3777E5BC42A44D9A"
+    ],
+    "en": {
+      "title": "Carminite Builder",
+      "subtitle": "Mystic forest lore.",
+      "desc": [
+        "§2Carminite Builder§r — From the Naga to the Lich King — the Twilight Forest's bosses demand cunning and strength to defeat."
+      ]
+    },
+    "fr": {
+      "title": "Constructeur de Carminite",
+      "subtitle": "Légende de la forêt mystique.",
+      "desc": [
+        "§2Constructeur de Carminite§r — Du Naga au Roi Liche, les boss exigent ruse et force."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "31BB7EB95CE73C1A",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "688C911ECFB2F134",
+      "77DB2D707E806ABF",
+      "1CCC628589B904A2",
+      "45C67776B86B2301"
+    ],
+    "en": {
+      "title": "&b&lAlpha Yeti",
+      "subtitle": "&7The frozen king of the Snowy Forest.",
+      "desc": [
+        "§2Alpha Yeti Fur§r — The Twilight Forest is a magical dimension filled with unique bosses, structures, and treasures. Every corner holds a new mystery!"
+      ]
+    },
+    "fr": {
+      "title": "Fourrure de Yéti Alpha",
+      "subtitle": "Trésor du Crépuscule.",
+      "desc": [
+        "§2Fourrure de Yéti Alpha§r — La Forêt du Crépuscule est magique. Mystères à chaque coin !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "3C8724C3A9459507",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "31BB7EB95CE73C1A",
+      "1FEAA27CD4EFD9BB",
+      "68057AC10A7997BA",
+      "45D0FCAC69264C9B",
+      "4F6C2CBFE11B14D2",
+      "1D7E23359B11FB50",
+      "34E0A02434E3B41C"
+    ],
+    "en": {
+      "title": "Alpha Yeti Fur",
+      "subtitle": "Enchanted woods.",
+      "desc": [
+        "§2Alpha Yeti Fur§r — The Twilight Forest is a magical dimension filled with unique bosses, structures, and treasures. Every corner holds a new mystery!"
+      ]
+    },
+    "fr": {
+      "title": "Fourrure de Yéti Alpha",
+      "subtitle": "Bois enchantés.",
+      "desc": [
+        "§2Fourrure de Yéti Alpha§r — La Forêt du Crépuscule est magique. Mystères à chaque coin !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2A0B3C91D72E8B75",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "31BB7EB95CE73C1A",
+      "31A072C3AA970E88",
+      "689DC27A06683E6B",
+      "74DE768958A1DF0E",
+      "28805490ED9B650D",
+      "7E45C2C500C51BCB",
+      "09422C5CD2A93FDD"
+    ],
+    "en": {
+      "title": "Arctic Fur",
+      "subtitle": "Twilight treasure.",
+      "desc": [
+        "§2Arctic Fur§r — From the Naga to the Lich King — the Twilight Forest's bosses demand cunning and strength to defeat."
+      ]
+    },
+    "fr": {
+      "title": "Arctic Fourrure",
+      "subtitle": "Trésor du Crépuscule.",
+      "desc": [
+        "§2Fourrure Arctique§r — Du Naga au Roi Liche, les boss exigent ruse et force."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "6FD41DF7704466A4",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "31BB7EB95CE73C1A",
+      "31345650D69459AF",
+      "1997CE8D805B6EB6"
+    ],
+    "en": {
+      "title": "Snow Queen Trophy",
+      "subtitle": "&7The icy monarch of the Aurora Palace.",
+      "desc": [
+        "§2Snow Queen Trophy§r — From the Naga to the Lich King — the Twilight Forest's bosses demand cunning and strength to defeat."
+      ]
+    },
+    "fr": {
+      "title": "Trophée de la Reine des Neiges",
+      "subtitle": "Légende de la forêt mystique.",
+      "desc": [
+        "§2Snow Queen Trophy§r — Du Naga au Roi Liche — les boss de la Forêt du Crépuscule demandent ruse et force pour être vaincus."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "53A79338994088FD",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "6FD41DF7704466A4",
+      "54E3D070D70BFB95",
+      "64D192E45B9E8E6C"
+    ],
+    "en": {
+      "title": "Triple Bow",
+      "subtitle": "Boss trophy.",
+      "desc": [
+        "§2Triple Bow§r — From the Naga to the Lich King — the Twilight Forest's bosses demand cunning and strength to defeat."
+      ]
+    },
+    "fr": {
+      "title": "Triple Arc",
+      "subtitle": "Trophée de Boss.",
+      "desc": [
+        "§2Triple Bow§r — Du Naga au Roi Liche — les boss de la Forêt du Crépuscule demandent ruse et force pour être vaincus."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "7509E4093010EA4C",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "6FD41DF7704466A4",
+      "636B14E966C8E82E",
+      "5423C2517A5D133B"
+    ],
+    "en": {
+      "title": "Seeker Bow",
+      "subtitle": "Twilight bound.",
+      "desc": [
+        "§2Seeker Bow§r — From the Naga to the Lich King — the Twilight Forest's bosses demand cunning and strength to defeat."
+      ]
+    },
+    "fr": {
+      "title": "Arc Chercheur",
+      "subtitle": "Lié au Crépuscule.",
+      "desc": [
+        "§2Seeker Bow§r — Du Naga au Roi Liche — les boss de la Forêt du Crépuscule demandent ruse et force pour être vaincus."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "twilightforest:magic_beans",
+    "icon": "twilightforest:magic_beans",
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "6FD41DF7704466A4",
+      "58BD1063A19777DC",
+      "7DBCA6F6A6C2F6CD",
+      "71103D3E1C6E494D",
+      "03833E1286B5C7BC",
+      "21A2013F7DDAE1B6"
+    ],
+    "en": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "fr": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "issues": {
+      "title": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "subtitle": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "desc": [
+        "EMPTY",
+        "MISSING"
+      ]
+    }
+  },
+  {
+    "id": "twilightforest:giant_pickaxe",
+    "icon": "twilightforest:giant_pickaxe",
+    "shape": "pentagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "58BD1063A19777DC",
+      "20436AFCC7E6855D",
+      "502BFC98B3530104",
+      "671EEE3BD0D051FD"
+    ],
+    "en": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "fr": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "issues": {
+      "title": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "subtitle": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "desc": [
+        "EMPTY",
+        "MISSING"
+      ]
+    }
+  },
+  {
+    "id": "twilightforest:lamp_of_cinders",
+    "icon": "twilightforest:lamp_of_cinders",
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "20436AFCC7E6855D",
+      "5CBA8C89FE717B9C",
+      "297971829C1A7D58",
+      "6A7D2364EE1680C0",
+      "54FEB8B303070725"
+    ],
+    "en": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "fr": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "issues": {
+      "title": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "subtitle": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "desc": [
+        "EMPTY",
+        "MISSING"
+      ]
+    }
+  },
+  {
+    "id": "2951B1D7080C5EF9",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "5CBA8C89FE717B9C",
+      "57AB867D53333E1A",
+      "5F0A10AAC2220CFF"
+    ],
+    "en": {
+      "title": "Thorn Rose",
+      "subtitle": "&7Gather roses from the Thorn Fortress.",
+      "desc": [
+        "§2Thorn Rose§r — The Twilight Forest is a magical dimension filled with unique bosses, structures, and treasures. Every corner holds a new mystery!"
+      ]
+    },
+    "fr": {
+      "title": "Rose Épineuse",
+      "subtitle": "Lié au Crépuscule.",
+      "desc": [
+        "§2Thorn Rose§r — La Forêt du Crépuscule est une dimension magique remplie de boss uniques, de structures et de trésors. Chaque coin cache un nouveau mystère !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "420158B1736A1354",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 500
+      }
+    ],
+    "deps": [
+      "2951B1D7080C5EF9",
+      "282DFA78ACFF2F6C",
+      "0BB84A1074D7D214",
+      "02D55A14580DBDE9",
+      "24BB0DB1D0CEE3AE",
+      "3011B112DB273913"
+    ],
+    "en": {
+      "title": "&dCastle Doors",
+      "subtitle": "&7Collect all four colored doors.",
+      "desc": [
+        "§2Pink Castle Door§r — From the Naga to the Lich King — the Twilight Forest's bosses demand cunning and strength to defeat."
+      ]
+    },
+    "fr": {
+      "title": "Porte de Château Rose",
+      "subtitle": "Bois enchantés.",
+      "desc": [
+        "§2Pink Castle Door§r — Du Naga au Roi Liche — les boss de la Forêt du Crépuscule demandent ruse et force pour être vaincus."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4B53D0523CB4A8ED",
+    "icon": null,
+    "shape": "gear",
+    "tasks": [
+      {
+        "type": "kill",
+        "entity": "twilight_forest_final_boss:castle_keeper"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 1000
+      }
+    ],
+    "deps": [
+      "420158B1736A1354",
+      "3C9311F99DF5F2EA",
+      "126E8915C45D1EFA"
+    ],
+    "en": {
+      "title": "&4&l2694 Castle Keeper 2694",
+      "subtitle": "&c&oThe final guardian. End this.",
+      "desc": [
+        "The Twilight Forest is a magical dimension filled with unique bosses, structures, and treasures. Every corner holds a new mystery!"
+      ]
+    },
+    "fr": {
+      "title": "Chapitre de Quête",
+      "subtitle": "Contes de la forêt sombre.",
+      "desc": [
+        "La Forêt du Crépuscule est magique, pleine de boss, structures et trésors. Mystère à chaque coin !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4DA0725E089D7C91",
+    "icon": null,
+    "shape": "heart",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "4193303999597249",
+      "1BF594BADCE267FA",
+      "0DC327E6F70EE1C1"
+    ],
+    "en": {
+      "title": "Quest Ram Trophy",
+      "subtitle": "&d&oBring 16 unique wool colors to the Ram.",
+      "desc": [
+        "§2Quest Ram Trophy§r — From the Naga to the Lich King — the Twilight Forest's bosses demand cunning and strength to defeat."
+      ]
+    },
+    "fr": {
+      "title": "Trophée du Bélier de Quête",
+      "subtitle": "Trésor du Crépuscule.",
+      "desc": [
+        "§2Quest Ram Trophy§r — Du Naga au Roi Liche — les boss de la Forêt du Crépuscule demandent ruse et force pour être vaincus."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "twilightforest:experiment_115",
+    "icon": "twilightforest:experiment_115",
+    "shape": "diamond",
+    "tasks": [
+      {
+        "type": "advancement",
+        "advancement": "twilightforest:twilight_dinner"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "4193303999597249",
+      "604F2B68B27885BF",
+      "2661628F6222794D",
+      "5D1D9C6EE805BD76",
+      "70A3CED85106362F",
+      "6E028B1374EB57AB",
+      "07581F27FE61BBB0",
+      "45A70662D54D46F7",
+      "3039460B9A037CFD",
+      "74B7BA7AA89EEECD"
+    ],
+    "en": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "fr": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "issues": {
+      "title": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "subtitle": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "desc": [
+        "EMPTY",
+        "MISSING"
+      ]
+    }
+  },
+  {
+    "id": "6F67079A453DAABE",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "4193303999597249",
+      "2C507B67069584C5",
+      "094B33E114AA17B6",
+      "5F7D02D164E85469"
+    ],
+    "en": {
+      "title": "Charm Of Life 1",
+      "subtitle": "Mystic forest lore.",
+      "desc": [
+        "§2Charm Of Life 1§r — From the Naga to the Lich King — the Twilight Forest's bosses demand cunning and strength to defeat."
+      ]
+    },
+    "fr": {
+      "title": "Charme de Vie 1",
+      "subtitle": "Légende de la forêt mystique.",
+      "desc": [
+        "§2Charme de Vie 1§r — Du Naga au Roi Liche — les boss de la Forêt du Crépuscule demandent ruse et force pour être vaincus."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "15006CF73F8CAB7C",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "6F67079A453DAABE",
+      "5109036BEE29F34B",
+      "30C1F6251EFF150C",
+      "1AF2A8D21E2C64FE"
+    ],
+    "en": {
+      "title": "Charm Of Life 1",
+      "subtitle": "Boss trophy.",
+      "desc": [
+        "§2Charm Of Life 1§r — The Twilight Forest is a magical dimension filled with unique bosses, structures, and treasures. Every corner holds a new mystery!"
+      ]
+    },
+    "fr": {
+      "title": "Charme de Vie 1",
+      "subtitle": "Trophée de Boss.",
+      "desc": [
+        "§2Charme de Vie 1§r — La Forêt du Crépuscule est une dimension magique remplie de boss uniques, de structures et de trésors. Chaque coin cache un nouveau mystère !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2BEBF66D7EA594FA",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "4193303999597249",
+      "4DC6E4E7C6FFB69D",
+      "7075BD32AA90F7D5",
+      "41286D909D0A6867",
+      "569238D13FE4BEDE",
+      "465948D752178FD8",
+      "29B138097231BC9F"
+    ],
+    "en": {
+      "title": "Steeleaf Ingot",
+      "subtitle": "Twilight bound.",
+      "desc": [
+        "§2Steeleaf Ingot§r — From the Naga to the Lich King — the Twilight Forest's bosses demand cunning and strength to defeat."
+      ]
+    },
+    "fr": {
+      "title": "Lingot de Feuille-Acier",
+      "subtitle": "Lié au Crépuscule.",
+      "desc": [
+        "§2Steeleaf Ingot§r — Du Naga au Roi Liche — les boss de la Forêt du Crépuscule demandent ruse et force pour être vaincus."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "40258842B0359A2D",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "4193303999597249",
+      "58261ADFF3E4DB51",
+      "7A64D032717A2238",
+      "5B86279AE9E62F55",
+      "60033D60F21A2145",
+      "48D0CAE437234AC6",
+      "1D94DFBBCD46D84B"
+    ],
+    "en": {
+      "title": "Ironwood Ingot",
+      "subtitle": "Dark forest tales.",
+      "desc": [
+        "§2Ironwood Ingot§r — From the Naga to the Lich King — the Twilight Forest's bosses demand cunning and strength to defeat."
+      ]
+    },
+    "fr": {
+      "title": "Lingot de Bois-Fer",
+      "subtitle": "Contes de la forêt sombre.",
+      "desc": [
+        "§2Ironwood Ingot§r — Du Naga au Roi Liche — les boss de la Forêt du Crépuscule demandent ruse et force pour être vaincus."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "49EE6D2A3684A510",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "4193303999597249",
+      "6BCB7D180D92A1AB",
+      "52E28B85293DE45A"
+    ],
+    "en": {
+      "title": "Ice Bow",
+      "subtitle": "Dark forest tales.",
+      "desc": [
+        "§2Ice Bow§r — From the Naga to the Lich King — the Twilight Forest's bosses demand cunning and strength to defeat."
+      ]
+    },
+    "fr": {
+      "title": "Arc de Glace",
+      "subtitle": "Contes de la forêt sombre.",
+      "desc": [
+        "§2Ice Bow§r — Du Naga au Roi Liche — les boss de la Forêt du Crépuscule demandent ruse et force pour être vaincus."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "3D29EF7F150F5334",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "4193303999597249",
+      "3051ABF9B41E8CDA",
+      "37A1612D95C34DF2"
+    ],
+    "en": {
+      "title": "Ender Bow",
+      "subtitle": "Into the twilight.",
+      "desc": [
+        "§2Ender Bow§r — The Twilight Forest is a magical dimension filled with unique bosses, structures, and treasures. Every corner holds a new mystery!"
+      ]
+    },
+    "fr": {
+      "title": "Arc de l'Ender",
+      "subtitle": "Dans le crépuscule.",
+      "desc": [
+        "§2Ender Bow§r — La Forêt du Crépuscule est une dimension magique remplie de boss uniques, de structures et de trésors. Chaque coin cache un nouveau mystère !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "5FE4DAE8F41B1437",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "4193303999597249",
+      "73C722B92E712713",
+      "7B5C5A02D22359AF"
+    ],
+    "en": {
+      "title": "Ore Magnet",
+      "subtitle": "Forest of wonder.",
+      "desc": [
+        "§2Ore Magnet§r — The Twilight Forest is a magical dimension filled with unique bosses, structures, and treasures. Every corner holds a new mystery!"
+      ]
+    },
+    "fr": {
+      "title": "Aimant à Minerai",
+      "subtitle": "Forêt des merveilles.",
+      "desc": [
+        "§2Ore Magnet§r — La Forêt du Crépuscule est une dimension magique remplie de boss uniques, de structures et de trésors. Chaque coin cache un nouveau mystère !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "38ADDF7FF4E4892D",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "4193303999597249",
+      "0FFBA24EB9CD17E3",
+      "68A6B72FD1DF6A75"
+    ],
+    "en": {
+      "title": "Glass Sword",
+      "subtitle": "Enchanted woods.",
+      "desc": [
+        "§2Glass Sword§r — The Twilight Forest is a magical dimension filled with unique bosses, structures, and treasures. Every corner holds a new mystery!"
+      ]
+    },
+    "fr": {
+      "title": "Épée en Verre",
+      "subtitle": "Bois enchantés.",
+      "desc": [
+        "§2Épée en Verre§r — La Forêt du Crépuscule est une dimension magique remplie de boss uniques, de structures et de trésors. Chaque coin cache un nouveau mystère !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "78CE2ECEF0B651DA",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "4193303999597249",
+      "1EDFE99AD36463BB",
+      "2E37E73B5297E0F7"
+    ],
+    "en": {
+      "title": "Ice Sword",
+      "subtitle": "Twilight treasure.",
+      "desc": [
+        "§2Ice Sword§r — The Twilight Forest is a magical dimension filled with unique bosses, structures, and treasures. Every corner holds a new mystery!"
+      ]
+    },
+    "fr": {
+      "title": "Épée de Glace",
+      "subtitle": "Trésor du Crépuscule.",
+      "desc": [
+        "§2Ice Sword§r — La Forêt du Crépuscule est une dimension magique remplie de boss uniques, de structures et de trésors. Chaque coin cache un nouveau mystère !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "60FC2DAEA954A849",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "4193303999597249",
+      "13A5729B3DF5AEAA",
+      "0BE7DD735B1FB717"
+    ],
+    "en": {
+      "title": "Moonworm Queen",
+      "subtitle": "Mystic forest lore.",
+      "desc": [
+        "§2Moonworm Queen§r — From the Naga to the Lich King — the Twilight Forest's bosses demand cunning and strength to defeat."
+      ]
+    },
+    "fr": {
+      "title": "Reine Ver-Lune",
+      "subtitle": "Légende de la forêt mystique.",
+      "desc": [
+        "§2Moonworm Queen§r — Du Naga au Roi Liche — les boss de la Forêt du Crépuscule demandent ruse et force pour être vaincus."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "0E9DE6293DF611E1",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "4193303999597249",
+      "585C6465B69B2781",
+      "220F1E09B54E7ECA"
+    ],
+    "en": {
+      "title": "Transformation Powder",
+      "subtitle": "Boss trophy.",
+      "desc": [
+        "§2Transformation Powder§r — The Twilight Forest is a magical dimension filled with unique bosses, structures, and treasures. Every corner holds a new mystery!"
+      ]
+    },
+    "fr": {
+      "title": "Poudre de Transformation",
+      "subtitle": "Trophée de Boss.",
+      "desc": [
+        "§2Transformation Powder§r — La Forêt du Crépuscule est une dimension magique remplie de boss uniques, de structures et de trésors. Chaque coin cache un nouveau mystère !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1464D45C474464DB",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "4193303999597249",
+      "25991402B38AFA2A",
+      "13C31B864EC1DE9B"
+    ],
+    "en": {
+      "title": "Peacock Feather Fan",
+      "subtitle": "Forest of wonder.",
+      "desc": [
+        "§2Peacock Feather Fan§r — From the Naga to the Lich King — the Twilight Forest's bosses demand cunning and strength to defeat."
+      ]
+    },
+    "fr": {
+      "title": "Éventail en Plumes de Paon",
+      "subtitle": "Forêt des merveilles.",
+      "desc": [
+        "§2Peacock Feather Fan§r — Du Naga au Roi Liche — les boss de la Forêt du Crépuscule demandent ruse et force pour être vaincus."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  }
+]

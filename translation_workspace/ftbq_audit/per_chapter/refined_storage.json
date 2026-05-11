@@ -1,0 +1,2053 @@
+[
+  {
+    "id": "refinedstorage:creative_controller",
+    "icon": "refinedstorage:creative_controller",
+    "shape": "octagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      },
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "01F18150EC923482",
+      "10F2E29D1E8D5FD4",
+      "3FC26C4C1BBFFD25",
+      "196B8B6D59ABFC74"
+    ],
+    "en": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "fr": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "issues": {
+      "title": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "subtitle": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "desc": [
+        "EMPTY",
+        "MISSING"
+      ]
+    }
+  },
+  {
+    "id": "4101F8275B41C79B",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "7604D8B3C9FCCFD9",
+      "4EA76B54BD9EF2BD",
+      "1121780C6403D660"
+    ],
+    "en": {
+      "title": "1k Storage Part",
+      "subtitle": "Organize everything.",
+      "desc": [
+        "§91k Storage Part§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "1k Stockage Part",
+      "subtitle": "Organisez tout.",
+      "desc": [
+        "§91k Storage Part§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "3FD801D7DE9176FB",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "4101F8275B41C79B",
+      "4F35C8DEBBDA5578",
+      "1420D2099CBB6833"
+    ],
+    "en": {
+      "title": "4k Storage Part",
+      "subtitle": "Network node.",
+      "desc": [
+        "§94k Storage Part§r — Refined Storage provides a digital storage network for all your items. No more messy chests!"
+      ]
+    },
+    "fr": {
+      "title": "4k Stockage Part",
+      "subtitle": "Réseau node.",
+      "desc": [
+        "§94k Storage Part§r — Refined Storage fournit un réseau de stockage numérique pour tous vos objets. Plus de coffres encombrés !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "03C78165C5CBD9E1",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "3FD801D7DE9176FB",
+      "47E37BCF93711C79",
+      "0346A00E2F8F7532"
+    ],
+    "en": {
+      "title": "16k Storage Part",
+      "subtitle": "Autocrafting dreams.",
+      "desc": [
+        "§916k Storage Part§r — Refined Storage provides a digital storage network for all your items. No more messy chests!"
+      ]
+    },
+    "fr": {
+      "title": "16k Stockage Part",
+      "subtitle": "Autocrafting dreams.",
+      "desc": [
+        "§916k Storage Part§r — Refined Storage fournit un réseau de stockage numérique pour tous vos objets. Plus de coffres encombrés !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "3F8EEE1AD4420702",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "03C78165C5CBD9E1",
+      "3546C659EAE2260B",
+      "02A8CBA1DAC84DAE"
+    ],
+    "en": {
+      "title": "64k Storage Part",
+      "subtitle": "Disk drive ambition.",
+      "desc": [
+        "§964k Storage Part§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "64k Stockage Part",
+      "subtitle": "Ambition du lecteur de disque.",
+      "desc": [
+        "§964k Storage Part§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "44881E39AB1D62AA",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "65C8A43FEDBA3835",
+      "3351B9B6898579ED",
+      "64FE9FFF8E0382EC",
+      "67DD297C9649EFAB"
+    ],
+    "en": {
+      "title": "Autocrafter",
+      "subtitle": "Grid access.",
+      "desc": [
+        "§9Autocrafter§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "Autocrafter",
+      "subtitle": "Grid access.",
+      "desc": [
+        "§9Autocrafter§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "6904EC449FBEE387",
+    "icon": null,
+    "shape": "octagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "01F18150EC923482",
+      "3940AD01E5D76358",
+      "203F8DAC39F5B97D",
+      "1A2C2B95FDA9D2DA"
+    ],
+    "en": {
+      "title": "Cable",
+      "subtitle": "Sort and store.",
+      "desc": [
+        "§9Cable§r — Refined Storage provides a digital storage network for all your items. No more messy chests!"
+      ]
+    },
+    "fr": {
+      "title": "Câble",
+      "subtitle": "Trier et stocker.",
+      "desc": [
+        "§9Cable§r — Refined Storage fournit un réseau de stockage numérique pour tous vos objets. Plus de coffres encombrés !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "532229D285CA4858",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "6904EC449FBEE387",
+      "5628EF5D829022FA",
+      "0E57EE9B975D05C3"
+    ],
+    "en": {
+      "title": "Importer",
+      "subtitle": "Digital revolution.",
+      "desc": [
+        "§9Importer§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "Importateur",
+      "subtitle": "Révolution numérique.",
+      "desc": [
+        "§9Importer§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "6092490EC9008A05",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "6904EC449FBEE387",
+      "04713175B42C5611",
+      "5762E9CE9A7D3FCA"
+    ],
+    "en": {
+      "title": "Destructor",
+      "subtitle": "Digital storage.",
+      "desc": [
+        "§9Destructor§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "Destructeur",
+      "subtitle": "Digital Stockage.",
+      "desc": [
+        "§9Destructor§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2CFEE04BA574921E",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "6904EC449FBEE387",
+      "2CF01DC5ADA6E17A",
+      "2BB33FEBA2B071DF"
+    ],
+    "en": {
+      "title": "Constructor",
+      "subtitle": "Organize everything.",
+      "desc": [
+        "§9Constructor§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "Constructeur",
+      "subtitle": "Organisez tout.",
+      "desc": [
+        "§9Constructor§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4CD83943865018EA",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "6904EC449FBEE387",
+      "0211A5FBD68F1D49",
+      "528F054C15BB7191"
+    ],
+    "en": {
+      "title": "Exporter",
+      "subtitle": "Network node.",
+      "desc": [
+        "§9Exporter§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "Exporter",
+      "subtitle": "Réseau node.",
+      "desc": [
+        "§9Exporter§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4B81E84CAE814BA9",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "7604D8B3C9FCCFD9",
+      "47BD5E194EA0EDEE",
+      "6410853BCEFF3894"
+    ],
+    "en": {
+      "title": "64b Fluid Storage Part",
+      "subtitle": "Autocrafting dreams.",
+      "desc": [
+        "§964b Fluid Storage Part§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "64b Fluid Stockage Part",
+      "subtitle": "Autocrafting dreams.",
+      "desc": [
+        "§964b Fluid Storage Part§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "39C8E1705EF1CD31",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "4B81E84CAE814BA9",
+      "251C558BDD954A54",
+      "440737C224526B0B"
+    ],
+    "en": {
+      "title": "256b Fluid Storage Part",
+      "subtitle": "Disk drive ambition.",
+      "desc": [
+        "§9256b Fluid Storage Part§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "256b Fluid Stockage Part",
+      "subtitle": "Ambition du lecteur de disque.",
+      "desc": [
+        "§9256b Fluid Storage Part§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "60244F26B9ABED49",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "39C8E1705EF1CD31",
+      "3670992F068BD72C",
+      "40AEA1CE52FAFCAB"
+    ],
+    "en": {
+      "title": "1024b Fluid Storage Part",
+      "subtitle": "Grid access.",
+      "desc": [
+        "§91024b Fluid Storage Part§r — Refined Storage provides a digital storage network for all your items. No more messy chests!"
+      ]
+    },
+    "fr": {
+      "title": "1024b Fluid Stockage Part",
+      "subtitle": "Grid access.",
+      "desc": [
+        "§91024b Fluid Storage Part§r — Refined Storage fournit un réseau de stockage numérique pour tous vos objets. Plus de coffres encombrés !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "3751015CD5C84134",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "60244F26B9ABED49",
+      "2D28AAA7C1490E8B",
+      "2B57DE504688FC8D"
+    ],
+    "en": {
+      "title": "4096b Fluid Storage Part",
+      "subtitle": "Sort and store.",
+      "desc": [
+        "§94096b Fluid Storage Part§r — Refined Storage provides a digital storage network for all your items. No more messy chests!"
+      ]
+    },
+    "fr": {
+      "title": "4096b Fluid Stockage Part",
+      "subtitle": "Trier et stocker.",
+      "desc": [
+        "§94096b Fluid Storage Part§r — Refined Storage fournit un réseau de stockage numérique pour tous vos objets. Plus de coffres encombrés !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "253657BE5D9D9162",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "6904EC449FBEE387",
+      "15451998CC91B786",
+      "4D9E7CCF420BDE8C"
+    ],
+    "en": {
+      "title": "External Storage",
+      "subtitle": "Digital revolution.",
+      "desc": [
+        "§9External Storage§r — Refined Storage provides a digital storage network for all your items. No more messy chests!"
+      ]
+    },
+    "fr": {
+      "title": "External Stockage",
+      "subtitle": "Révolution numérique.",
+      "desc": [
+        "§9External Storage§r — Refined Storage fournit un réseau de stockage numérique pour tous vos objets. Plus de coffres encombrés !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "3B84215240D9F2CB",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "01F18150EC923482",
+      "03E85C433BFA3B18",
+      "16B6D09B0B5E5352",
+      "20F3020C07C9D22B"
+    ],
+    "en": {
+      "title": "Security Card",
+      "subtitle": "Digital storage.",
+      "desc": [
+        "§9Security Card§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "Carte de Sécurité",
+      "subtitle": "Digital Stockage.",
+      "desc": [
+        "§9Security Card§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "43E8912CB307E421",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      },
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "12A43F82FC67A289",
+      "0379A8ABC3B46807",
+      "5217600C22923B7B",
+      "68A80F00CAFF427D"
+    ],
+    "en": {
+      "title": "Grid",
+      "subtitle": "Organize everything.",
+      "desc": [
+        "§9Grid§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "Grid",
+      "subtitle": "Organisez tout.",
+      "desc": [
+        "§9Grid§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "0F00BBDF3618B3BA",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      },
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "43E8912CB307E421",
+      "4AD5C9271F7E08FC",
+      "11FF9B0BC55658CA",
+      "5B74E6CB7AB75F92"
+    ],
+    "en": {
+      "title": "Crafting Grid",
+      "subtitle": "Network node.",
+      "desc": [
+        "§9Crafting Grid§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "Grille de Fabrication",
+      "subtitle": "Réseau node.",
+      "desc": [
+        "§9Crafting Grid§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "65C8A43FEDBA3835",
+    "icon": null,
+    "shape": "square",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "59F5ED931FD70C55",
+      "31CADCC01CB15BBA",
+      "79E70744DBC24777"
+    ],
+    "en": {
+      "title": "Pattern Grid",
+      "subtitle": "Autocrafting dreams.",
+      "desc": [
+        "§9Pattern Grid§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "Grille de patrons",
+      "subtitle": "Autocrafting dreams.",
+      "desc": [
+        "§9Pattern Grid§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "refinedstorage:creative_wireless_grid",
+    "icon": "refinedstorage:creative_wireless_grid",
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      },
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "6B04FC81351CD1AB",
+      "15ECBC8E174FA39B",
+      "489B041002C7C88B",
+      "0306EA20B6213714",
+      "1488D961F51ED182"
+    ],
+    "en": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "fr": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "issues": {
+      "title": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "subtitle": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "desc": [
+        "EMPTY",
+        "MISSING"
+      ]
+    }
+  },
+  {
+    "id": "refinedstorage:creative_wireless_autocrafting_monitor",
+    "icon": "refinedstorage:creative_wireless_autocrafting_monitor",
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      },
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "6B04FC81351CD1AB",
+      "7044EAB5EDF32BBC",
+      "7FA85713C86166DA",
+      "0A911C001277809D",
+      "1809ECB0DCD1761F",
+      "03F3863C67EE04DF"
+    ],
+    "en": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "fr": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "issues": {
+      "title": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "subtitle": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "desc": [
+        "EMPTY",
+        "MISSING"
+      ]
+    }
+  },
+  {
+    "id": "refinedstorage_quartz_arsenal:creative_wireless_crafting_grid",
+    "icon": "refinedstorage_quartz_arsenal:creative_wireless_crafting_grid",
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      },
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "6B04FC81351CD1AB",
+      "0F00BBDF3618B3BA",
+      "744842B2AED28344",
+      "111F807FD50FABC0",
+      "77026A56CE4BE5EA",
+      "67472642471E64AF"
+    ],
+    "en": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "fr": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "issues": {
+      "title": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "subtitle": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "desc": [
+        "EMPTY",
+        "MISSING"
+      ]
+    }
+  },
+  {
+    "id": "refinedstorage:creative_portable_grid",
+    "icon": "refinedstorage:creative_portable_grid",
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "43E8912CB307E421",
+      "66D85424EC74EDCC",
+      "736119C317A27F37",
+      "301E0669A3CD84EF"
+    ],
+    "en": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "fr": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "issues": {
+      "title": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "subtitle": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "desc": [
+        "EMPTY",
+        "MISSING"
+      ]
+    }
+  },
+  {
+    "id": "12A43F82FC67A289",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      },
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "01F18150EC923482",
+      "15A7017416EBA80A",
+      "4ABA80A8AEC73450",
+      "3724447C3E0F9942"
+    ],
+    "en": {
+      "title": "Disk Drive",
+      "subtitle": "Digital storage.",
+      "desc": [
+        "§9Disk Drive§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "Lecteur de Disque",
+      "subtitle": "Digital Stockage.",
+      "desc": [
+        "§9Disk Drive§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "59F5ED931FD70C55",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "43E8912CB307E421",
+      "4348758E87B788AE",
+      "191AE2C426304D83",
+      "45359CC3EC90B74B"
+    ],
+    "en": {
+      "title": "Pattern",
+      "subtitle": "Organize everything.",
+      "desc": [
+        "§9Pattern§r — Refined Storage provides a digital storage network for all your items. No more messy chests!"
+      ]
+    },
+    "fr": {
+      "title": "Patron",
+      "subtitle": "Organisez tout.",
+      "desc": [
+        "§9Pattern§r — Refined Storage fournit un réseau de stockage numérique pour tous vos objets. Plus de coffres encombrés !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "64E85274D24FE394",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "6904EC449FBEE387",
+      "5333C4725FA4FBC7",
+      "59E1432B592B686C"
+    ],
+    "en": {
+      "title": "Storage Monitor",
+      "subtitle": "Network node.",
+      "desc": [
+        "§9Storage Monitor§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "Stockage Monitor",
+      "subtitle": "Réseau node.",
+      "desc": [
+        "§9Storage Monitor§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "6B04FC81351CD1AB",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      },
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "43E8912CB307E421",
+      "0B3FFAAF4D255414",
+      "6E08AACE9FB7691D",
+      "48935A6041672A29"
+    ],
+    "en": {
+      "title": "Wireless Transmitter",
+      "subtitle": "Autocrafting dreams.",
+      "desc": [
+        "§9Wireless Transmitter§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "Transmetteur Sans Fil",
+      "subtitle": "Autocrafting dreams.",
+      "desc": [
+        "§9Wireless Transmitter§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "7604D8B3C9FCCFD9",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      },
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "12A43F82FC67A289",
+      "6F41BEE6E3890FB8",
+      "3F4BF0700FFACD2A",
+      "546B04909ABE8383"
+    ],
+    "en": {
+      "title": "Storage Housing",
+      "subtitle": "Disk drive ambition.",
+      "desc": [
+        "§9Storage Housing§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "Stockage Housing",
+      "subtitle": "Ambition du lecteur de disque.",
+      "desc": [
+        "§9Storage Housing§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "3E890BABC4C41370",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "01F18150EC923482",
+      "7D644616E6416286",
+      "08B2C0835754C3C2",
+      "2E028480454ECBB5",
+      "1CB0AFE99559C1B5"
+    ],
+    "en": {
+      "title": "Network Card",
+      "subtitle": "Grid access.",
+      "desc": [
+        "§9Network Card§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "Réseau Card",
+      "subtitle": "Grid access.",
+      "desc": [
+        "§9Network Card§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "787415570026FFAA",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "6904EC449FBEE387",
+      "1CB784F8CAE7E239",
+      "416E0011066156D2",
+      "086992D773D34C15"
+    ],
+    "en": {
+      "title": "Silk Touch Upgrade",
+      "subtitle": "Sort and store.",
+      "desc": [
+        "§9Silk Touch Upgrade§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration Toucher de Soie",
+      "subtitle": "Trier et stocker.",
+      "desc": [
+        "§9Silk Touch Upgrade§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2B27E4E04A628C60",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "6904EC449FBEE387",
+      "4B859F9679182D36",
+      "15F5BE083A94793E",
+      "0B3AB478E6493DBC",
+      "2B39C12AEFA55C59"
+    ],
+    "en": {
+      "title": "Speed Upgrade",
+      "subtitle": "Digital revolution.",
+      "desc": [
+        "§9Speed Upgrade§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Vitesse",
+      "subtitle": "Révolution numérique.",
+      "desc": [
+        "§9Speed Upgrade§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2E2811D1A0F2A492",
+    "icon": null,
+    "shape": "circle",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      },
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "6B04FC81351CD1AB",
+      "56D7CD357A4D790B",
+      "0C6AD83AAB82714F",
+      "607018C924A126B0",
+      "7AB53C2469B768E0"
+    ],
+    "en": {
+      "title": "Range Upgrade",
+      "subtitle": "Digital storage.",
+      "desc": [
+        "§9Range Upgrade§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Portée",
+      "subtitle": "Digital Stockage.",
+      "desc": [
+        "§9Range Upgrade§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "30700E99091B712A",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "6904EC449FBEE387",
+      "085EEF00946EFDB6",
+      "684D20A983D190DB",
+      "4E2E9F1EC7463917",
+      "33CE02A9C852D835",
+      "37BB3E6C1BF5560C"
+    ],
+    "en": {
+      "title": "Regulator Upgrade",
+      "subtitle": "Organize everything.",
+      "desc": [
+        "§9Regulator Upgrade§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Régulateur",
+      "subtitle": "Organisez tout.",
+      "desc": [
+        "§9Regulator Upgrade§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "7044EAB5EDF32BBC",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "65C8A43FEDBA3835",
+      "65DD866EDC370D17",
+      "413B151826D14E2C"
+    ],
+    "en": {
+      "title": "Autocrafting Monitor",
+      "subtitle": "Network node.",
+      "desc": [
+        "§9Autocrafting Monitor§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "Autocrafting Monitor",
+      "subtitle": "Réseau node.",
+      "desc": [
+        "§9Autocrafting Monitor§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1187F9D4F4E0D254",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "01F18150EC923482",
+      "7A831C5C175DBBEE",
+      "5EF5F78F14C5BEC0"
+    ],
+    "en": {
+      "title": "Wrench",
+      "subtitle": "Autocrafting dreams.",
+      "desc": [
+        "§9Wrench§r — Refined Storage provides a digital storage network for all your items. No more messy chests!"
+      ]
+    },
+    "fr": {
+      "title": "Cl00e9",
+      "subtitle": "Autocrafting dreams.",
+      "desc": [
+        "§9Wrench§r — Refined Storage fournit un réseau de stockage numérique pour tous vos objets. Plus de coffres encombrés !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "22F80D267321BFC5",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "44881E39AB1D62AA",
+      "5DF832F3B9125642",
+      "20360EB78ADCBA8A"
+    ],
+    "en": {
+      "title": "Autocrafter Manager",
+      "subtitle": "Disk drive ambition.",
+      "desc": [
+        "§9Autocrafter Manager§r — Refined Storage provides a digital storage network for all your items. No more messy chests!"
+      ]
+    },
+    "fr": {
+      "title": "Autocrafter Manager",
+      "subtitle": "Ambition du lecteur de disque.",
+      "desc": [
+        "§9Autocrafter Manager§r — Refined Storage fournit un réseau de stockage numérique pour tous vos objets. Plus de coffres encombrés !"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "23F691FC053F2319",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "loot"
+      }
+    ],
+    "deps": [
+      "12A43F82FC67A289",
+      "0046DD08640C7D06",
+      "7CC838D8B0402514"
+    ],
+    "en": {
+      "title": "Disk Interface",
+      "subtitle": "Grid access.",
+      "desc": [
+        "§9Disk Interface§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "Interface de Disque",
+      "subtitle": "Grid access.",
+      "desc": [
+        "§9Disk Interface§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "00B05EB64D6FE53A",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "3F8EEE1AD4420702",
+      "323E5AFA3DD3B7F5",
+      "6A878E1190A52DBC"
+    ],
+    "en": {
+      "title": "256k Item Storage Part",
+      "subtitle": "Sort and store.",
+      "desc": [
+        "§9256k Item Storage Part§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "256k Item Stockage Part",
+      "subtitle": "Trier et stocker.",
+      "desc": [
+        "§9256k Item Storage Part§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "6A904D643697F513",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "00B05EB64D6FE53A",
+      "57F3FD64BC86B521",
+      "046C34F94632CC75"
+    ],
+    "en": {
+      "title": "1024k Item Storage Part",
+      "subtitle": "Digital revolution.",
+      "desc": [
+        "§91024k Item Storage Part§r — Refined Storage provides a digital storage network for all your items. No more messy chests!"
+      ]
+    },
+    "fr": {
+      "title": "1024k Item Stockage Part",
+      "subtitle": "Révolution numérique.",
+      "desc": [
+        "§91024k Item Storage Part§r — Refined Storage fournit un réseau de stockage numérique pour tous vos objets. Plus de coffres encombrés !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "5AEDA5C8BDD706ED",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "6A904D643697F513",
+      "52B1B531EB563F5B",
+      "10A586C962B6DC41"
+    ],
+    "en": {
+      "title": "4096k Item Storage Part",
+      "subtitle": "Digital storage.",
+      "desc": [
+        "§94096k Item Storage Part§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "4096k Item Stockage Part",
+      "subtitle": "Digital Stockage.",
+      "desc": [
+        "§94096k Item Storage Part§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "7824E63A26F6D70E",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "5AEDA5C8BDD706ED",
+      "6000157E733E5194",
+      "10C141852430FA20"
+    ],
+    "en": {
+      "title": "16384k Item Storage Part",
+      "subtitle": "Organize everything.",
+      "desc": [
+        "§916384k Item Storage Part§r — Refined Storage provides a digital storage network for all your items. No more messy chests!"
+      ]
+    },
+    "fr": {
+      "title": "16384k Item Stockage Part",
+      "subtitle": "Organisez tout.",
+      "desc": [
+        "§916384k Item Storage Part§r — Refined Storage fournit un réseau de stockage numérique pour tous vos objets. Plus de coffres encombrés !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "5F0907AB61486816",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "7824E63A26F6D70E",
+      "0F21DAAD6358A1D8",
+      "5D529A7A1B879AF8"
+    ],
+    "en": {
+      "title": "65536k Item Storage Part",
+      "subtitle": "Network node.",
+      "desc": [
+        "§965536k Item Storage Part§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "65536k Item Stockage Part",
+      "subtitle": "Réseau node.",
+      "desc": [
+        "§965536k Item Storage Part§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2062DA5599074BAE",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "5F0907AB61486816",
+      "61B1016CCF117185",
+      "33BB91C9B196BA77"
+    ],
+    "en": {
+      "title": "262144k Item Storage Part",
+      "subtitle": "Autocrafting dreams.",
+      "desc": [
+        "§9262144k Item Storage Part§r — Refined Storage provides a digital storage network for all your items. No more messy chests!"
+      ]
+    },
+    "fr": {
+      "title": "262144k Item Stockage Part",
+      "subtitle": "Autocrafting dreams.",
+      "desc": [
+        "§9262144k Item Storage Part§r — Refined Storage fournit un réseau de stockage numérique pour tous vos objets. Plus de coffres encombrés !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "0E3E12E17F5EB699",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "2062DA5599074BAE",
+      "19F71379D9081E0A",
+      "1FC26251660BD4B5"
+    ],
+    "en": {
+      "title": "1048576k Item Storage Part",
+      "subtitle": "Disk drive ambition.",
+      "desc": [
+        "§91048576k Item Storage Part§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "1048576k Item Stockage Part",
+      "subtitle": "Ambition du lecteur de disque.",
+      "desc": [
+        "§91048576k Item Storage Part§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1172E136299164FC",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "0E3E12E17F5EB699",
+      "6D3D508D2C2111A5",
+      "06A8BE8E0CAD2191"
+    ],
+    "en": {
+      "title": "Infinite Item Storage Part",
+      "subtitle": "Grid access.",
+      "desc": [
+        "§9Infinite Item Storage Part§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "Infinite Item Stockage Part",
+      "subtitle": "Grid access.",
+      "desc": [
+        "§9Infinite Item Storage Part§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "3B4C7EA3EC34DA3B",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "3751015CD5C84134",
+      "7AA6DB1320876DA9",
+      "02121D4F5C21221B"
+    ],
+    "en": {
+      "title": "16384b Fluid Storage Part",
+      "subtitle": "Sort and store.",
+      "desc": [
+        "§916384b Fluid Storage Part§r — Build a network of storage disks and crafters to automate your entire item management system."
+      ]
+    },
+    "fr": {
+      "title": "16384b Fluid Stockage Part",
+      "subtitle": "Trier et stocker.",
+      "desc": [
+        "§916384b Fluid Storage Part§r — Construisez un réseau de disques de stockage et d'assembleurs pour automatiser tout votre système de gestion d'objets."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "59B835CE4FCBC284",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "3B4C7EA3EC34DA3B",
+      "1F039FA10D98B608",
+      "178BAAAE1C45546B"
+    ],
+    "en": {
+      "title": "65536b Fluid Storage Part",
+      "subtitle": "Digital revolution.",
+      "desc": [
+        "§965536b Fluid Storage Part§r — Refined Storage provides a digital storage network for all your items. No more messy chests!"
+      ]
+    },
+    "fr": {
+      "title": "65536b Fluid Stockage Part",
+      "subtitle": "Révolution numérique.",
+      "desc": [
+        "§965536b Fluid Storage Part§r — Refined Storage fournit un réseau de stockage numérique pour tous vos objets. Plus de coffres encombrés !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "315E083A7C34976C",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "59B835CE4FCBC284",
+      "25D3A574D52C4D27",
+      "3D6C826DA6928D26"
+    ],
+    "en": {
+      "title": "262144b Fluid Storage Part",
+      "subtitle": "Digital storage.",
+      "desc": [
+        "§9262144b Fluid Storage Part§r — Refined Storage provides a digital storage network for all your items. No more messy chests!"
+      ]
+    },
+    "fr": {
+      "title": "262144b Fluid Stockage Part",
+      "subtitle": "Digital Stockage.",
+      "desc": [
+        "§9262144b Fluid Storage Part§r — Refined Storage fournit un réseau de stockage numérique pour tous vos objets. Plus de coffres encombrés !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "63E17946F65F4262",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "315E083A7C34976C",
+      "56EEA9AF770D9072",
+      "2FB6200879EB9083"
+    ],
+    "en": {
+      "title": "1048576b Fluid Storage Part",
+      "subtitle": "Organize everything.",
+      "desc": [
+        "§91048576b Fluid Storage Part§r — Refined Storage provides a digital storage network for all your items. No more messy chests!"
+      ]
+    },
+    "fr": {
+      "title": "1048576b Fluid Stockage Part",
+      "subtitle": "Organisez tout.",
+      "desc": [
+        "§91048576b Fluid Storage Part§r — Refined Storage fournit un réseau de stockage numérique pour tous vos objets. Plus de coffres encombrés !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "123E851A6B90F11C",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "63E17946F65F4262",
+      "0E580C98432884D8",
+      "16143CB32A788C3F"
+    ],
+    "en": {
+      "title": "Infinite Fluid Storage Part",
+      "subtitle": "Network node.",
+      "desc": [
+        "§9Infinite Fluid Storage Part§r — Refined Storage provides a digital storage network for all your items. No more messy chests!"
+      ]
+    },
+    "fr": {
+      "title": "Infinite Fluid Stockage Part",
+      "subtitle": "Réseau node.",
+      "desc": [
+        "§9Infinite Fluid Storage Part§r — Refined Storage fournit un réseau de stockage numérique pour tous vos objets. Plus de coffres encombrés !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1C5B24ADF5F4C733",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "7604D8B3C9FCCFD9",
+      "1B08CEEF4D036227"
+    ],
+    "en": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "fr": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "issues": {
+      "title": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "subtitle": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "desc": [
+        "EMPTY",
+        "MISSING"
+      ]
+    }
+  },
+  {
+    "id": "5B9C0C5574045CFD",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "1C5B24ADF5F4C733",
+      "31FC5D6303BF96EA"
+    ],
+    "en": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "fr": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "issues": {
+      "title": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "subtitle": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "desc": [
+        "EMPTY",
+        "MISSING"
+      ]
+    }
+  },
+  {
+    "id": "52791144EFCC2885",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "5B9C0C5574045CFD",
+      "5F5EF816BCAC9622"
+    ],
+    "en": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "fr": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "issues": {
+      "title": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "subtitle": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "desc": [
+        "EMPTY",
+        "MISSING"
+      ]
+    }
+  },
+  {
+    "id": "00211BF73C6E5826",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "52791144EFCC2885",
+      "6DA64B6710417567"
+    ],
+    "en": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "fr": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "issues": {
+      "title": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "subtitle": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "desc": [
+        "EMPTY",
+        "MISSING"
+      ]
+    }
+  }
+]

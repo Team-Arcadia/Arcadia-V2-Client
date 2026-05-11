@@ -1,0 +1,126 @@
+[
+  {
+    "id": "11E8B427BA24DA42",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "3C4EB48924A813F5",
+      "50D6F77A3FB4A666",
+      "2BFC9A2698230ECB"
+    ],
+    "en": {
+      "title": "Flux Core",
+      "subtitle": "Flux flows freely.",
+      "desc": [
+        "§9Flux Core§r — Flux Networks enables wireless energy transfer across any distance. No more ugly cable runs!"
+      ]
+    },
+    "fr": {
+      "title": "Flux Noyau",
+      "subtitle": "Flux flows freely.",
+      "desc": [
+        "§9Flux Core§r — Flux Networks permet le transfert d'énergie sans fil sur n'importe quelle distance. Plus de câle runs!"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "465117C1025B2857",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      },
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "07113EF8E9530D8C",
+      "4486827C9AD91EF4",
+      "2540D5A448C5A9C6",
+      "190D708C06D96E43"
+    ],
+    "en": {
+      "title": "Flux Point",
+      "subtitle": "Energize everything.",
+      "desc": [
+        "§9Flux Point§r — Connect your entire base with a single flux network. Wireless power has never been this elegant."
+      ]
+    },
+    "fr": {
+      "title": "Flux Point",
+      "subtitle": "Énergisez tout.",
+      "desc": [
+        "§9Flux Point§r — Connectez toute votre base avec un seul réseau de flux. L'énergie sans fil n'a jamais été aussi élégante."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4CD1842569E64898",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      },
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "07113EF8E9530D8C",
+      "50492CD7D14577E6",
+      "4248DDAEFCBDE6F1",
+      "2BFD6186C47291D6"
+    ],
+    "en": {
+      "title": "Flux Plug",
+      "subtitle": "Beyond cables.",
+      "desc": [
+        "§9Flux Plug§r — Connect your entire base with a single flux network. Wireless power has never been this elegant."
+      ]
+    },
+    "fr": {
+      "title": "Flux Plug",
+      "subtitle": "Au-delà des câbles.",
+      "desc": [
+        "§9Flux Plug§r — Connectez toute votre base avec un seul réseau de flux. L'énergie sans fil n'a jamais été aussi élégante."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  }
+]

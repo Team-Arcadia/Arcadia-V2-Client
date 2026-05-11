@@ -1,0 +1,4077 @@
+[
+  {
+    "id": "3F3BCAF854FFDB42",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "54BB7BED50C75868",
+      "3FFBA46B177E35E8",
+      "4A1D77ABC11182C6"
+    ],
+    "en": {
+      "title": "Barrel",
+      "subtitle": "Smart storage.",
+      "desc": [
+        "§6Barrel§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Tonneau",
+      "subtitle": "Smart Stockage.",
+      "desc": [
+        "§6Tonneau§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "14A6E252C45F83B8",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "3F3BCAF854FFDB42",
+      "74DF6ABD6BCD9034",
+      "1F0B8A9910D1A98C",
+      "76AFA3C8F3FFBFE6"
+    ],
+    "en": {
+      "title": "Copper Barrel",
+      "subtitle": "Upgrade your carry.",
+      "desc": [
+        "§6Copper Barrel§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Tonneau en Cuivre",
+      "subtitle": "Améliorez votre port.",
+      "desc": [
+        "§6Tonneau en Cuivre§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2C87409D4C84359B",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "14A6E252C45F83B8",
+      "48C56285535427A4",
+      "3BDA8EC6B24B4D10",
+      "18E0DF0B847C4A82"
+    ],
+    "en": {
+      "title": "Iron Barrel",
+      "subtitle": "Pack it better.",
+      "desc": [
+        "§6Iron Barrel§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Tonneau en Fer",
+      "subtitle": "Emballez mieux.",
+      "desc": [
+        "§6Tonneau en Fer§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2BA6944853FEFC1E",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "2C87409D4C84359B",
+      "2BA1581D982124C2",
+      "1FC861F11EBB31AB",
+      "3217F86AD584E18B"
+    ],
+    "en": {
+      "title": "Gold Barrel",
+      "subtitle": "Backpack evolution.",
+      "desc": [
+        "§6Gold Barrel§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Tonneau en Or",
+      "subtitle": "Backpack evolution.",
+      "desc": [
+        "§6Tonneau en Or§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "1486F1A123B7FE84",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "2BA6944853FEFC1E",
+      "69F0B92F742E7EB7",
+      "61DADCE9D7C882C0",
+      "63EDEE0EFACF6E44"
+    ],
+    "en": {
+      "title": "Diamond Barrel",
+      "subtitle": "Storage innovation.",
+      "desc": [
+        "§6Diamond Barrel§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Tonneau en Diamant",
+      "subtitle": "Stockage innovation.",
+      "desc": [
+        "§6Tonneau en Diamant§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "0C256F7C80318051",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      },
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "1486F1A123B7FE84",
+      "0360B8D5475137D3",
+      "6F924C7FB79154E6",
+      "5417FE1B33CD530D"
+    ],
+    "en": {
+      "title": "Netherite Barrel",
+      "subtitle": "Organize and thrive.",
+      "desc": [
+        "§6Netherite Barrel§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Tonneau en Netherite",
+      "subtitle": "Organisez et prospérez.",
+      "desc": [
+        "§6Netherite Barrel§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "078A67E1F6A18027",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "4C39E818002AE6F2",
+      "083FAC4F7EB1E909",
+      "42688CA1DCD3F877"
+    ],
+    "en": {
+      "title": "Basic to Copper Tier Upgrade",
+      "subtitle": "Carry the world.",
+      "desc": [
+        "§6Basic to Copper Tier Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration Basique vers Cuivre",
+      "subtitle": "Portez le monde.",
+      "desc": [
+        "§6Amélioration Basique vers Cuivre§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "7136AFD204CDC4BB",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "078A67E1F6A18027",
+      "2AF5947D40658D01",
+      "6D9DFF23AD6B4317",
+      "68D1B54B8EA748D2"
+    ],
+    "en": {
+      "title": "Copper Chest",
+      "subtitle": "Upgrade installed.",
+      "desc": [
+        "§6Copper Chest§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Coffre en Cuivre",
+      "subtitle": "Amélioration installée.",
+      "desc": [
+        "§6Coffre en Cuivre§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "16B385D341F3531F",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "7136AFD204CDC4BB",
+      "25F0C5001C0C3427",
+      "716ED2EB99156363",
+      "1AEF9DBDC9287626"
+    ],
+    "en": {
+      "title": "Iron Chest",
+      "subtitle": "Smart storage.",
+      "desc": [
+        "§6Iron Chest§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Coffre en Fer",
+      "subtitle": "Smart Stockage.",
+      "desc": [
+        "§6Coffre en Fer§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "0A93D938DB277BC1",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "16B385D341F3531F",
+      "3FD8BBF5D12E392D",
+      "4AB55DD5C822D74F",
+      "6C9F0F9192943C9E"
+    ],
+    "en": {
+      "title": "Gold Chest",
+      "subtitle": "Upgrade your carry.",
+      "desc": [
+        "§6Gold Chest§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Coffre en Or",
+      "subtitle": "Améliorez votre port.",
+      "desc": [
+        "§6Coffre en Or§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4B5DBC05BAA38058",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "0A93D938DB277BC1",
+      "5ACF8F64CF7C077C",
+      "63E4F4E74D012ED6",
+      "6E3834B85810976E"
+    ],
+    "en": {
+      "title": "Diamond Chest",
+      "subtitle": "Pack it better.",
+      "desc": [
+        "§6Diamond Chest§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Coffre en Diamant",
+      "subtitle": "Emballez mieux.",
+      "desc": [
+        "§6Coffre en Diamant§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "3FCF82DE54B6038F",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      },
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "4B5DBC05BAA38058",
+      "44EE9090AC63CFAD",
+      "0B80899E6AE2009A",
+      "400B5B7DD40A7179"
+    ],
+    "en": {
+      "title": "Netherite Chest",
+      "subtitle": "Backpack evolution.",
+      "desc": [
+        "§6Netherite Chest§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Coffre en Netherite",
+      "subtitle": "Backpack evolution.",
+      "desc": [
+        "§6Netherite Chest§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "1D713A58E17C2C32",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "4AACA939B7D2100B",
+      "444B54EDE4C07DA0"
+    ],
+    "en": {
+      "title": "Backpack",
+      "subtitle": "Storage innovation.",
+      "desc": [
+        "§6Backpack§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Backpack",
+      "subtitle": "Stockage innovation.",
+      "desc": [
+        "§6Backpack§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "3FD2E140744CA7DD",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "1D713A58E17C2C32",
+      "2AB140B521A5D90E",
+      "458FD55ECD9F9DD0"
+    ],
+    "en": {
+      "title": "Copper Backpack",
+      "subtitle": "Organize and thrive.",
+      "desc": [
+        "§6Copper Backpack§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Sac à Dos en Cuivre",
+      "subtitle": "Organisez et prospérez.",
+      "desc": [
+        "§6Copper Backpack§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2B56650DE346679A",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "3FD2E140744CA7DD",
+      "572B6EF697CF52B7",
+      "245FE2A6DE3625A0"
+    ],
+    "en": {
+      "title": "Iron Backpack",
+      "subtitle": "Carry the world.",
+      "desc": [
+        "§6Iron Backpack§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Sac à Dos en Fer",
+      "subtitle": "Portez le monde.",
+      "desc": [
+        "§6Iron Backpack§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "65766D05E70BA60A",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "2B56650DE346679A",
+      "209F609F95BB86A6",
+      "68F1407ECAED1FC0"
+    ],
+    "en": {
+      "title": "Gold Backpack",
+      "subtitle": "Upgrade installed.",
+      "desc": [
+        "§6Gold Backpack§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Gold Backpack",
+      "subtitle": "Amélioration installée.",
+      "desc": [
+        "§6Gold Backpack§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "5762DAEB4AB1C0AB",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "65766D05E70BA60A",
+      "2529BF95CB6753AD",
+      "163BF2127B57877E"
+    ],
+    "en": {
+      "title": "Diamond Backpack",
+      "subtitle": "Smart storage.",
+      "desc": [
+        "§6Diamond Backpack§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Sac à Dos en Diamant",
+      "subtitle": "Smart Stockage.",
+      "desc": [
+        "§6Diamond Backpack§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "591530F202A85E14",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      },
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "5762DAEB4AB1C0AB",
+      "42A881A564527E8D",
+      "12A399628EDC2F0A",
+      "2BD83DA895D6F5C5"
+    ],
+    "en": {
+      "title": "Netherite Backpack",
+      "subtitle": "Upgrade your carry.",
+      "desc": [
+        "§6Netherite Backpack§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Sac à Dos en Netherite",
+      "subtitle": "Améliorez votre port.",
+      "desc": [
+        "§6Netherite Backpack§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "114734CC270E9618",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "56047A2ED6F92A70",
+      "5D099DE177E1CAF9"
+    ],
+    "en": {
+      "title": "Pickup Upgrade",
+      "subtitle": "Pack it better.",
+      "desc": [
+        "§6Pickup Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Ramassage",
+      "subtitle": "Emballez mieux.",
+      "desc": [
+        "§6Pickup Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "5D4BF684FEF1B4AC",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "3B879FFF7592F9B3",
+      "671191BB8D3D7737"
+    ],
+    "en": {
+      "title": "Advanced Pickup Upgrade",
+      "subtitle": "Backpack evolution.",
+      "desc": [
+        "§6Advanced Pickup Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Ramassage Avancée",
+      "subtitle": "Backpack evolution.",
+      "desc": [
+        "§6Advanced Pickup Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "453A178684FEE8ED",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "3179B455CED1DEC3",
+      "686FE43B817F54B0"
+    ],
+    "en": {
+      "title": "Filter Upgrade",
+      "subtitle": "Storage innovation.",
+      "desc": [
+        "§6Filter Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Filter Upgrade",
+      "subtitle": "Stockage innovation.",
+      "desc": [
+        "§6Filter Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "7A8BCF4426EB62B9",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "359B5350332BD91C",
+      "58D100698D2D643F"
+    ],
+    "en": {
+      "title": "Advanced Filter Upgrade",
+      "subtitle": "Organize and thrive.",
+      "desc": [
+        "§6Advanced Filter Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Filtre Avancée",
+      "subtitle": "Organisez et prospérez.",
+      "desc": [
+        "§6Advanced Filter Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "462A89915E379594",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "799DF8BE6AD22DC8",
+      "0B7CEAB841276CFF"
+    ],
+    "en": {
+      "title": "Magnet Upgrade",
+      "subtitle": "Carry the world.",
+      "desc": [
+        "§6Magnet Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration Aimant",
+      "subtitle": "Portez le monde.",
+      "desc": [
+        "§6Magnet Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "7267097D64E98122",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "35C1251263A30049",
+      "326404849923CC0F"
+    ],
+    "en": {
+      "title": "Advanced Magnet Upgrade",
+      "subtitle": "Upgrade installed.",
+      "desc": [
+        "§6Advanced Magnet Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration d'Aimant Avancée",
+      "subtitle": "Amélioration installée.",
+      "desc": [
+        "§6Advanced Magnet Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "501CFE760784733D",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "030000F40FE4B925",
+      "375888E54749F4C2"
+    ],
+    "en": {
+      "title": "Feeding Upgrade",
+      "subtitle": "Smart storage.",
+      "desc": [
+        "§6Feeding Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Feeding Upgrade",
+      "subtitle": "Smart Stockage.",
+      "desc": [
+        "§6Feeding Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2A2F340D44A383D7",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "1F648DDEA04BBF64",
+      "622B98D99626340E"
+    ],
+    "en": {
+      "title": "Advanced Feeding Upgrade",
+      "subtitle": "Upgrade your carry.",
+      "desc": [
+        "§6Advanced Feeding Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration d'Alimentation Avancée",
+      "subtitle": "Améliorez votre port.",
+      "desc": [
+        "§6Advanced Feeding Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "6D13ECFBD49E7D0C",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "3925903DAF804F35",
+      "32D306443719B794"
+    ],
+    "en": {
+      "title": "Compacting Upgrade",
+      "subtitle": "Pack it better.",
+      "desc": [
+        "§6Compacting Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Compactage",
+      "subtitle": "Emballez mieux.",
+      "desc": [
+        "§6Compacting Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "5C9D9962F2FA0E06",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "73BBF9A2FA7467F9",
+      "4E187A70FEF3692A"
+    ],
+    "en": {
+      "title": "Advanced Compacting Upgrade",
+      "subtitle": "Backpack evolution.",
+      "desc": [
+        "§6Advanced Compacting Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Compactage Avancée",
+      "subtitle": "Backpack evolution.",
+      "desc": [
+        "§6Advanced Compacting Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "2A89029AC855DB7B",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "5BCF6DE1AF5079C1",
+      "5639DE2003F9454C"
+    ],
+    "en": {
+      "title": "Void Upgrade",
+      "subtitle": "Storage innovation.",
+      "desc": [
+        "§6Void Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration du Vide",
+      "subtitle": "Stockage innovation.",
+      "desc": [
+        "§6Void Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "07436BF29A9339CC",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "58E5F6E98157062C",
+      "571826946DF7155C"
+    ],
+    "en": {
+      "title": "Advanced Void Upgrade",
+      "subtitle": "Organize and thrive.",
+      "desc": [
+        "§6Advanced Void Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Vide Avancée",
+      "subtitle": "Organisez et prospérez.",
+      "desc": [
+        "§6Advanced Void Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "199B9FC85D5715C0",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "1A5EA821DB013E51",
+      "150B014F8FFB37A5"
+    ],
+    "en": {
+      "title": "Restock Upgrade",
+      "subtitle": "Carry the world.",
+      "desc": [
+        "§6Restock Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Réapprovisionnement",
+      "subtitle": "Portez le monde.",
+      "desc": [
+        "§6Restock Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "27CBC3BF25E736A1",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "0394090758948027",
+      "23EFD4E65A892F46"
+    ],
+    "en": {
+      "title": "Advanced Restock Upgrade",
+      "subtitle": "Upgrade installed.",
+      "desc": [
+        "§6Advanced Restock Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Réapprovisionnement Avancée",
+      "subtitle": "Amélioration installée.",
+      "desc": [
+        "§6Advanced Restock Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "517403575177D1CD",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "53369067C60C851E",
+      "4905ABBFC2E1C9D0"
+    ],
+    "en": {
+      "title": "Deposit Upgrade",
+      "subtitle": "Smart storage.",
+      "desc": [
+        "§6Deposit Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Dépôt",
+      "subtitle": "Smart Stockage.",
+      "desc": [
+        "§6Deposit Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2CE82497C62DC21F",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "09209613F90B8C3B",
+      "1B991587E56726A7"
+    ],
+    "en": {
+      "title": "Advanced Deposit Upgrade",
+      "subtitle": "Upgrade your carry.",
+      "desc": [
+        "§6Advanced Deposit Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Dépôt Avancée",
+      "subtitle": "Améliorez votre port.",
+      "desc": [
+        "§6Advanced Deposit Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2BB7F87D8C306847",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "380CB3AD77E07A82",
+      "01B75D483A453DDA"
+    ],
+    "en": {
+      "title": "Refill Upgrade",
+      "subtitle": "Pack it better.",
+      "desc": [
+        "§6Refill Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Remplissage",
+      "subtitle": "Emballez mieux.",
+      "desc": [
+        "§6Refill Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "29C3F49471D01D9A",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "7348D7E22B539059",
+      "5CD03B5908D2BA86"
+    ],
+    "en": {
+      "title": "Advanced Refill Upgrade",
+      "subtitle": "Backpack evolution.",
+      "desc": [
+        "§6Advanced Refill Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Remplissage Avancée",
+      "subtitle": "Backpack evolution.",
+      "desc": [
+        "§6Advanced Refill Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "17695C65B1ED3CD4",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "47A5C54F4BF7A7FE",
+      "51F9321C332D1AC3"
+    ],
+    "en": {
+      "title": "Inception Upgrade",
+      "subtitle": "Storage innovation.",
+      "desc": [
+        "§6Inception Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration Inception",
+      "subtitle": "Stockage innovation.",
+      "desc": [
+        "§6Inception Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "7877B46C9B4E9B0F",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "2792FCD588FDC1F5",
+      "1072ED396795684F"
+    ],
+    "en": {
+      "title": "Everlasting Upgrade",
+      "subtitle": "Organize and thrive.",
+      "desc": [
+        "§6Everlasting Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Everlasting Upgrade",
+      "subtitle": "Organisez et prospérez.",
+      "desc": [
+        "§6Everlasting Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "19D58B8C5DA30356",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "2E641C5A80ED97A5",
+      "76503EF5509A2086"
+    ],
+    "en": {
+      "title": "Smelting Upgrade",
+      "subtitle": "Carry the world.",
+      "desc": [
+        "§6Smelting Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Fonte",
+      "subtitle": "Portez le monde.",
+      "desc": [
+        "§6Smelting Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2A35901E42F9A536",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "1BFC21D65D3388F7",
+      "7180A7986D277564"
+    ],
+    "en": {
+      "title": "Auto Smelting Upgrade",
+      "subtitle": "Upgrade installed.",
+      "desc": [
+        "§6Auto Smelting Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Auto Smelting Upgrade",
+      "subtitle": "Amélioration installée.",
+      "desc": [
+        "§6Auto Smelting Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "15B439C8A1A3C406",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "7DA9E9BC33BF8CC2",
+      "0626393F426CDFF9"
+    ],
+    "en": {
+      "title": "Smoking Upgrade",
+      "subtitle": "Smart storage.",
+      "desc": [
+        "§6Smoking Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Fumage",
+      "subtitle": "Smart Stockage.",
+      "desc": [
+        "§6Smoking Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "7884B6A5F494A8C6",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "37E6E0922F5D4A08",
+      "04E41FFDABDB52B0"
+    ],
+    "en": {
+      "title": "Auto Smoking Upgrade",
+      "subtitle": "Upgrade your carry.",
+      "desc": [
+        "§6Auto Smoking Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Auto Smoking Upgrade",
+      "subtitle": "Améliorez votre port.",
+      "desc": [
+        "§6Auto Smoking Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2A7A94C257BD73B5",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "23A31ABD9C33D388",
+      "1296CDE8996FFE69"
+    ],
+    "en": {
+      "title": "Blasting Upgrade",
+      "subtitle": "Pack it better.",
+      "desc": [
+        "§6Blasting Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Soufflage",
+      "subtitle": "Emballez mieux.",
+      "desc": [
+        "§6Blasting Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "05457AD507E9CAF9",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "745CF7F7DE912D2D",
+      "3B8EBC72D1DE71FB"
+    ],
+    "en": {
+      "title": "Auto Blasting Upgrade",
+      "subtitle": "Backpack evolution.",
+      "desc": [
+        "§6Auto Blasting Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Auto Blasting Upgrade",
+      "subtitle": "Backpack evolution.",
+      "desc": [
+        "§6Auto Blasting Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "794C8876AAC5368D",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "4068DD1AA0CE8258",
+      "15C6BF00648E7FC0"
+    ],
+    "en": {
+      "title": "Crafting Upgrade",
+      "subtitle": "Storage innovation.",
+      "desc": [
+        "§6Crafting Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Fabrication",
+      "subtitle": "Stockage innovation.",
+      "desc": [
+        "§6Crafting Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "774834C8411CBB86",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "49767D2733DD0E20",
+      "15164B16AB4B739B"
+    ],
+    "en": {
+      "title": "Stonecutter Upgrade",
+      "subtitle": "Organize and thrive.",
+      "desc": [
+        "§6Stonecutter Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Tailleur de Pierre",
+      "subtitle": "Organisez et prospérez.",
+      "desc": [
+        "§6Stonecutter Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "697E4E3E199836F2",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "4D5D9D4DCAC772BA",
+      "369937F332A61F7D"
+    ],
+    "en": {
+      "title": "Stack Upgrade Starter Tier",
+      "subtitle": "Carry the world.",
+      "desc": [
+        "§6Stack Upgrade Starter Tier§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Pile Niveau Débutant",
+      "subtitle": "Portez le monde.",
+      "desc": [
+        "§6Stack Upgrade Starter Tier§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2F11568F631B0858",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "697E4E3E199836F2",
+      "049B970D1842D2E1",
+      "46DF32680C223A29"
+    ],
+    "en": {
+      "title": "Stack Upgrade Tier 1",
+      "subtitle": "Upgrade installed.",
+      "desc": [
+        "§6Stack Upgrade Tier 1§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Pile Niveau 1",
+      "subtitle": "Amélioration installée.",
+      "desc": [
+        "§6Stack Upgrade Tier 1§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "63149ED8CAF67BAC",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "2F11568F631B0858",
+      "0952DEA80360948B",
+      "7B66161845472F31"
+    ],
+    "en": {
+      "title": "Stack Upgrade Tier 2",
+      "subtitle": "Smart storage.",
+      "desc": [
+        "§6Stack Upgrade Tier 2§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Pile Niveau 2",
+      "subtitle": "Smart Stockage.",
+      "desc": [
+        "§6Stack Upgrade Tier 2§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "79218680D962D752",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "63149ED8CAF67BAC",
+      "2CD49E9154E5BCE6",
+      "7AFF3EDA10DE3AFF"
+    ],
+    "en": {
+      "title": "Stack Upgrade Tier 3",
+      "subtitle": "Upgrade your carry.",
+      "desc": [
+        "§6Stack Upgrade Tier 3§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Pile Niveau 3",
+      "subtitle": "Améliorez votre port.",
+      "desc": [
+        "§6Stack Upgrade Tier 3§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "5BA6B0EBD15F4F49",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      },
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "79218680D962D752",
+      "20F19A23E03BDC3F",
+      "7858B823FE2BEAED",
+      "30364848AD1471DD"
+    ],
+    "en": {
+      "title": "Stack Upgrade Tier 4",
+      "subtitle": "Pack it better.",
+      "desc": [
+        "§6Stack Upgrade Tier 4§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Pile Niveau 4",
+      "subtitle": "Emballez mieux.",
+      "desc": [
+        "§6Stack Upgrade Tier 4§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "315287B0237F91F9",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "6F5D0E7AA64C1A6D",
+      "4A6E6C473785C5D9"
+    ],
+    "en": {
+      "title": "Stack Downgrade Tier 1",
+      "subtitle": "Backpack evolution.",
+      "desc": [
+        "§6Stack Downgrade Tier 1§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Rétrogradation de Pile Niveau 1",
+      "subtitle": "Backpack evolution.",
+      "desc": [
+        "§6Stack Downgrade Tier 1§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "47D5BD33AE9B2EA7",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "315287B0237F91F9",
+      "146E8030A434422F",
+      "5257F3FBEEB8461E"
+    ],
+    "en": {
+      "title": "Stack Downgrade Tier 2",
+      "subtitle": "Storage innovation.",
+      "desc": [
+        "§6Stack Downgrade Tier 2§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Rétrogradation de Pile Niveau 2",
+      "subtitle": "Stockage innovation.",
+      "desc": [
+        "§6Stack Downgrade Tier 2§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "669742DD733553F2",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      },
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "47D5BD33AE9B2EA7",
+      "0B1A85B8E7CCD66B",
+      "3AC75B038C235926",
+      "2AFC2C2E6AC1068F"
+    ],
+    "en": {
+      "title": "Stack Downgrade Tier 3",
+      "subtitle": "Organize and thrive.",
+      "desc": [
+        "§6Stack Downgrade Tier 3§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Rétrogradation de Pile Niveau 3",
+      "subtitle": "Organisez et prospérez.",
+      "desc": [
+        "§6Stack Downgrade Tier 3§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "22B9A980939DFEDF",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "5CE4C2CF2101E9FB",
+      "168C5C6EB28AB590"
+    ],
+    "en": {
+      "title": "Stack Upgrade Omega Tier",
+      "subtitle": "Carry the world.",
+      "desc": [
+        "§6Stack Upgrade Omega Tier§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Pile Niveau Oméga",
+      "subtitle": "Portez le monde.",
+      "desc": [
+        "§6Stack Upgrade Omega Tier§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "7CCE71D831D8CAF1",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "75E55D71801ED818",
+      "04F5C4AC2E666240"
+    ],
+    "en": {
+      "title": "Jukebox Upgrade",
+      "subtitle": "Upgrade installed.",
+      "desc": [
+        "§6Jukebox Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration Jukebox",
+      "subtitle": "Amélioration installée.",
+      "desc": [
+        "§6Jukebox Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "648B6590FEE16376",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "3503D1CD4FD73B4E",
+      "3B03EF7824EA9F75"
+    ],
+    "en": {
+      "title": "Advanced Jukebox Upgrade",
+      "subtitle": "Smart storage.",
+      "desc": [
+        "§6Advanced Jukebox Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Jukebox Avancée",
+      "subtitle": "Smart Stockage.",
+      "desc": [
+        "§6Advanced Jukebox Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "0CC9E05DAB1B684D",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "17B03C96388EF63F",
+      "390CBCE1CA15C66D"
+    ],
+    "en": {
+      "title": "Tool Swapper Upgrade",
+      "subtitle": "Upgrade your carry.",
+      "desc": [
+        "§6Tool Swapper Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration Échangeur d'Outils",
+      "subtitle": "Améliorez votre port.",
+      "desc": [
+        "§6Tool Swapper Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4D32DEA8354A4B99",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "453910207CAC0946",
+      "5BF331666A4B27A7"
+    ],
+    "en": {
+      "title": "Advanced Tool Swapper Upgrade",
+      "subtitle": "Pack it better.",
+      "desc": [
+        "§6Advanced Tool Swapper Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration d'Échange d'Outils Avancée",
+      "subtitle": "Emballez mieux.",
+      "desc": [
+        "§6Advanced Tool Swapper Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "70E647BDF793B950",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "4190DA97B1352B75",
+      "3469C4E2D43DC571"
+    ],
+    "en": {
+      "title": "Tank Upgrade",
+      "subtitle": "Backpack evolution.",
+      "desc": [
+        "§6Tank Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Réservoir",
+      "subtitle": "Backpack evolution.",
+      "desc": [
+        "§6Tank Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "6D8AA40A15536F01",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "78D64648CC1F1053",
+      "5EA05E193D91074A"
+    ],
+    "en": {
+      "title": "Battery Upgrade",
+      "subtitle": "Storage innovation.",
+      "desc": [
+        "§6Battery Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Battery Upgrade",
+      "subtitle": "Stockage innovation.",
+      "desc": [
+        "§6Battery Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "40DEE20FC31A48C7",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "18F7DE0B9E74AD75",
+      "76BA771BDDF0A5A1"
+    ],
+    "en": {
+      "title": "Pump Upgrade",
+      "subtitle": "Organize and thrive.",
+      "desc": [
+        "§6Pump Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Pompe",
+      "subtitle": "Organisez et prospérez.",
+      "desc": [
+        "§6Pump Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4F606E7A7B4CFB70",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "19FAAD4831E95C39",
+      "4A42228531244671"
+    ],
+    "en": {
+      "title": "Advanced Pump Upgrade",
+      "subtitle": "Carry the world.",
+      "desc": [
+        "§6Advanced Pump Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Pompe Avancée",
+      "subtitle": "Portez le monde.",
+      "desc": [
+        "§6Advanced Pump Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "72525C12A18EB16F",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "768659721A16DCC4",
+      "47150E75249D8150"
+    ],
+    "en": {
+      "title": "Xp Pump Upgrade",
+      "subtitle": "Upgrade installed.",
+      "desc": [
+        "§6Xp Pump Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration Pompe XP",
+      "subtitle": "Amélioration installée.",
+      "desc": [
+        "§6Xp Pump Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2FAA2748773E70A2",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "5FACB66C208E67B0",
+      "7DE2F9970F5F33EE"
+    ],
+    "en": {
+      "title": "Anvil Upgrade",
+      "subtitle": "Smart storage.",
+      "desc": [
+        "§6Anvil Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration d'Enclume",
+      "subtitle": "Smart Stockage.",
+      "desc": [
+        "§6Anvil Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4D5E53BF9FB3455F",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "7C480B12077BCC40",
+      "77D7D09F3EEBCAE6"
+    ],
+    "en": {
+      "title": "Smithing Upgrade",
+      "subtitle": "Upgrade your carry.",
+      "desc": [
+        "§6Smithing Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Forgeron",
+      "subtitle": "Améliorez votre port.",
+      "desc": [
+        "§6Smithing Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "652F00825BC5D089",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "13A8A70AD18BE6FA",
+      "148C79AEA350CA0F"
+    ],
+    "en": {
+      "title": "Alchemy Upgrade",
+      "subtitle": "Storage innovation.",
+      "desc": [
+        "§6Alchemy Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Alchemy Upgrade",
+      "subtitle": "Stockage innovation.",
+      "desc": [
+        "§6Alchemy Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "777F9AEC761209C2",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "4A39E9C300D7BECC",
+      "587932EF6A5FE0DB"
+    ],
+    "en": {
+      "title": "Advanced Alchemy Upgrade",
+      "subtitle": "Organize and thrive.",
+      "desc": [
+        "§6Advanced Alchemy Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration d'Alchimie Avancée",
+      "subtitle": "Organisez et prospérez.",
+      "desc": [
+        "§6Advanced Alchemy Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "7D17828D751065C1",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "798DFFA0A143058E",
+      "3952C245E5FFB581",
+      "63A18C6B82DF39EA"
+    ],
+    "en": {
+      "title": "Basic To Copper Tier Upgrade",
+      "subtitle": "Carry the world.",
+      "desc": [
+        "§6Basic To Copper Tier Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration Basique vers Cuivre",
+      "subtitle": "Portez le monde.",
+      "desc": [
+        "§6Basic To Copper Tier Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1794FC7503686B9A",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "7D17828D751065C1",
+      "349ECCE8C811A0DC",
+      "7EDA2B648A806AB2"
+    ],
+    "en": {
+      "title": "Basic To Iron Tier Upgrade",
+      "subtitle": "Upgrade installed.",
+      "desc": [
+        "§6Basic To Iron Tier Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration Basique vers Fer",
+      "subtitle": "Amélioration installée.",
+      "desc": [
+        "§6Basic To Iron Tier Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2544342ED0E1C6F2",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "1794FC7503686B9A",
+      "6F46AB31300FE83C",
+      "2D290A1B965BA971"
+    ],
+    "en": {
+      "title": "Basic To Gold Tier Upgrade",
+      "subtitle": "Smart storage.",
+      "desc": [
+        "§6Basic To Gold Tier Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration Basique vers Or",
+      "subtitle": "Smart Stockage.",
+      "desc": [
+        "§6Basic To Gold Tier Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "46872503B100F38D",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "2544342ED0E1C6F2",
+      "284A6891847DCB75",
+      "136FC2CB80DBF445"
+    ],
+    "en": {
+      "title": "Basic To Diamond Tier Upgrade",
+      "subtitle": "Upgrade your carry.",
+      "desc": [
+        "§6Basic To Diamond Tier Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration Basique vers Diamant",
+      "subtitle": "Améliorez votre port.",
+      "desc": [
+        "§6Basic To Diamond Tier Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "0300307C7FB9E47C",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      },
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "46872503B100F38D",
+      "26307E568608CC90",
+      "235E39FE0EF9FBE1",
+      "50313AD0981E6745"
+    ],
+    "en": {
+      "title": "Basic To Netherite Tier Upgrade",
+      "subtitle": "Pack it better.",
+      "desc": [
+        "§6Basic To Netherite Tier Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration Basique vers Netherite",
+      "subtitle": "Emballez mieux.",
+      "desc": [
+        "§6Basic To Netherite Tier Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4BF1E275D9E5199E",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "702402447D332DA1",
+      "5A16FDE0493DD15E"
+    ],
+    "en": {
+      "title": "Stack Upgrade Tier 1",
+      "subtitle": "Backpack evolution.",
+      "desc": [
+        "§6Stack Upgrade Tier 1§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Pile Niveau 1",
+      "subtitle": "Backpack evolution.",
+      "desc": [
+        "§6Stack Upgrade Tier 1§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "672E50D05CDA7361",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "4BF1E275D9E5199E",
+      "378029E6306B1B8E",
+      "57679F8434960C79"
+    ],
+    "en": {
+      "title": "Stack Upgrade Tier 1 Plus",
+      "subtitle": "Storage innovation.",
+      "desc": [
+        "§6Stack Upgrade Tier 1 Plus§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Pile Niveau 1 Plus",
+      "subtitle": "Stockage innovation.",
+      "desc": [
+        "§6Stack Upgrade Tier 1 Plus§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "00E52E8C4BBC5E9B",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "672E50D05CDA7361",
+      "5F06E062F79552B9",
+      "0164C76CE8026AB7"
+    ],
+    "en": {
+      "title": "Stack Upgrade Tier 2",
+      "subtitle": "Organize and thrive.",
+      "desc": [
+        "§6Stack Upgrade Tier 2§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Pile Niveau 2",
+      "subtitle": "Organisez et prospérez.",
+      "desc": [
+        "§6Stack Upgrade Tier 2§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "36E126551DFD0B05",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "00E52E8C4BBC5E9B",
+      "493C80D67D256912",
+      "5FDA1AC901C36F43"
+    ],
+    "en": {
+      "title": "Stack Upgrade Tier 3",
+      "subtitle": "Carry the world.",
+      "desc": [
+        "§6Stack Upgrade Tier 3§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Pile Niveau 3",
+      "subtitle": "Portez le monde.",
+      "desc": [
+        "§6Stack Upgrade Tier 3§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "599C2D93447A2AB0",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "36E126551DFD0B05",
+      "6D79C0B45375706B",
+      "5008E79B43849B82"
+    ],
+    "en": {
+      "title": "Stack Upgrade Tier 4",
+      "subtitle": "Upgrade installed.",
+      "desc": [
+        "§6Stack Upgrade Tier 4§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Pile Niveau 4",
+      "subtitle": "Amélioration installée.",
+      "desc": [
+        "§6Stack Upgrade Tier 4§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2C8A97ABBCB54ADB",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      },
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "599C2D93447A2AB0",
+      "756BD8A415938194",
+      "015FF2D59E42F051",
+      "6D2D79395262C8EB"
+    ],
+    "en": {
+      "title": "Stack Upgrade Tier 5",
+      "subtitle": "Smart storage.",
+      "desc": [
+        "§6Stack Upgrade Tier 5§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Pile Niveau 5",
+      "subtitle": "Smart Stockage.",
+      "desc": [
+        "§6Stack Upgrade Tier 5§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "798DFFA0A143058E",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "21932CD1B36DA116",
+      "18DCF8941F9CBE52"
+    ],
+    "en": {
+      "title": "Basic Tier Upgrade",
+      "subtitle": "Pack it better.",
+      "desc": [
+        "§6Basic Tier Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Basic Tier Upgrade",
+      "subtitle": "Emballez mieux.",
+      "desc": [
+        "§6Basic Tier Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "525DCF7A5C10DA9E",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "4005EFE69F01771B",
+      "0310E484D3E10DAF"
+    ],
+    "en": {
+      "title": "Pickup Upgrade",
+      "subtitle": "Backpack evolution.",
+      "desc": [
+        "§6Pickup Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Ramassage",
+      "subtitle": "Backpack evolution.",
+      "desc": [
+        "§6Pickup Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "2916C86934114C07",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "0E9D65DA784AFC96",
+      "76D5CCE263F10F15"
+    ],
+    "en": {
+      "title": "Advanced Pickup Upgrade",
+      "subtitle": "Storage innovation.",
+      "desc": [
+        "§6Advanced Pickup Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Ramassage Avancée",
+      "subtitle": "Stockage innovation.",
+      "desc": [
+        "§6Advanced Pickup Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "67948EA0C509E135",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "2E7E6C5F87E16E78",
+      "4BDD1D912D037E4B"
+    ],
+    "en": {
+      "title": "Filter Upgrade",
+      "subtitle": "Organize and thrive.",
+      "desc": [
+        "§6Filter Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Filter Upgrade",
+      "subtitle": "Organisez et prospérez.",
+      "desc": [
+        "§6Filter Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4BCC14615DA7CA1D",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "254F23E7B8B1067C",
+      "2D75FCC7B109D0F8"
+    ],
+    "en": {
+      "title": "Advanced Filter Upgrade",
+      "subtitle": "Carry the world.",
+      "desc": [
+        "§6Advanced Filter Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Filtre Avancée",
+      "subtitle": "Portez le monde.",
+      "desc": [
+        "§6Advanced Filter Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4CF71DB0F9B70978",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "5EBDD56816CA74A9",
+      "379003D9744B320C"
+    ],
+    "en": {
+      "title": "Magnet Upgrade",
+      "subtitle": "Upgrade installed.",
+      "desc": [
+        "§6Magnet Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration Aimant",
+      "subtitle": "Amélioration installée.",
+      "desc": [
+        "§6Magnet Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "39FBD82FCD8FD1E0",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "53B3DC247C9A60C3",
+      "1F94DD7F50D86752"
+    ],
+    "en": {
+      "title": "Advanced Magnet Upgrade",
+      "subtitle": "Smart storage.",
+      "desc": [
+        "§6Advanced Magnet Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration d'Aimant Avancée",
+      "subtitle": "Smart Stockage.",
+      "desc": [
+        "§6Advanced Magnet Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "3FFB850F8F0B1200",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "642D31DAA12EC4D3",
+      "5FAC8BA7D85B8BFF"
+    ],
+    "en": {
+      "title": "Feeding Upgrade",
+      "subtitle": "Upgrade your carry.",
+      "desc": [
+        "§6Feeding Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Feeding Upgrade",
+      "subtitle": "Améliorez votre port.",
+      "desc": [
+        "§6Feeding Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1A3B88961713D9A6",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "03FF266ED8F668BD",
+      "62AE9993452A0363"
+    ],
+    "en": {
+      "title": "Advanced Feeding Upgrade",
+      "subtitle": "Pack it better.",
+      "desc": [
+        "§6Advanced Feeding Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration d'Alimentation Avancée",
+      "subtitle": "Emballez mieux.",
+      "desc": [
+        "§6Advanced Feeding Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "7158E0DDBACCFB8F",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "59597EB445D8D602",
+      "7AA5C506DC432F9C"
+    ],
+    "en": {
+      "title": "Compacting Upgrade",
+      "subtitle": "Backpack evolution.",
+      "desc": [
+        "§6Compacting Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Compactage",
+      "subtitle": "Backpack evolution.",
+      "desc": [
+        "§6Compacting Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "32B721940CE1A439",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "50BEDA6D78B92AA8",
+      "7C766016BC52EC3E"
+    ],
+    "en": {
+      "title": "Advanced Compacting Upgrade",
+      "subtitle": "Storage innovation.",
+      "desc": [
+        "§6Advanced Compacting Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Compactage Avancée",
+      "subtitle": "Stockage innovation.",
+      "desc": [
+        "§6Advanced Compacting Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4DFB78F17F3C9BF3",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "2B84FA0DD25E1285",
+      "2E11AF158A0A9032"
+    ],
+    "en": {
+      "title": "Void Upgrade",
+      "subtitle": "Organize and thrive.",
+      "desc": [
+        "§6Void Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration du Vide",
+      "subtitle": "Organisez et prospérez.",
+      "desc": [
+        "§6Void Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "755DEA4A94154912",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "0F0758E5DF31956C",
+      "21E0EB9C80DB7409"
+    ],
+    "en": {
+      "title": "Advanced Void Upgrade",
+      "subtitle": "Carry the world.",
+      "desc": [
+        "§6Advanced Void Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Vide Avancée",
+      "subtitle": "Portez le monde.",
+      "desc": [
+        "§6Advanced Void Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2D5E17FA2F976235",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "57793CACB58615CE",
+      "60D4463D54FBBDA5"
+    ],
+    "en": {
+      "title": "Smelting Upgrade",
+      "subtitle": "Upgrade installed.",
+      "desc": [
+        "§6Smelting Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Fonte",
+      "subtitle": "Amélioration installée.",
+      "desc": [
+        "§6Smelting Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4B92C913AE9EE345",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "0D8AD66616F8B9A0",
+      "7B607A3A58F115BB"
+    ],
+    "en": {
+      "title": "Auto Smelting Upgrade",
+      "subtitle": "Smart storage.",
+      "desc": [
+        "§6Auto Smelting Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Auto Smelting Upgrade",
+      "subtitle": "Smart Stockage.",
+      "desc": [
+        "§6Auto Smelting Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "43F6864962F0F52A",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "7EAA6F4CF57A85CA",
+      "7F2A22279248095C"
+    ],
+    "en": {
+      "title": "Smoking Upgrade",
+      "subtitle": "Upgrade your carry.",
+      "desc": [
+        "§6Smoking Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Fumage",
+      "subtitle": "Améliorez votre port.",
+      "desc": [
+        "§6Smoking Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "67116868F3376796",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "088100E548AFFDBE",
+      "6A31CB39ED015780"
+    ],
+    "en": {
+      "title": "Auto Smoking Upgrade",
+      "subtitle": "Pack it better.",
+      "desc": [
+        "§6Auto Smoking Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Auto Smoking Upgrade",
+      "subtitle": "Emballez mieux.",
+      "desc": [
+        "§6Auto Smoking Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "6CE2F3286AE73CF3",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "1ABAFB0F877B9637",
+      "3CDB3ABB68AF68A4"
+    ],
+    "en": {
+      "title": "Blasting Upgrade",
+      "subtitle": "Backpack evolution.",
+      "desc": [
+        "§6Blasting Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Soufflage",
+      "subtitle": "Backpack evolution.",
+      "desc": [
+        "§6Blasting Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "784D5B30D3E1892D",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "423D395977DF9795",
+      "0B262CC9EED2E593"
+    ],
+    "en": {
+      "title": "Auto Blasting Upgrade",
+      "subtitle": "Storage innovation.",
+      "desc": [
+        "§6Auto Blasting Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Auto Blasting Upgrade",
+      "subtitle": "Stockage innovation.",
+      "desc": [
+        "§6Auto Blasting Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "02A6A7A0D88B3F82",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "60687561ECBC12FE",
+      "67383ACD55C4FD50"
+    ],
+    "en": {
+      "title": "Crafting Upgrade",
+      "subtitle": "Organize and thrive.",
+      "desc": [
+        "§6Crafting Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Fabrication",
+      "subtitle": "Organisez et prospérez.",
+      "desc": [
+        "§6Crafting Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "314E41E82F844459",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "6C761BC35725D752",
+      "3C361BE84A811DFC"
+    ],
+    "en": {
+      "title": "Stonecutter Upgrade",
+      "subtitle": "Carry the world.",
+      "desc": [
+        "§6Stonecutter Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Tailleur de Pierre",
+      "subtitle": "Portez le monde.",
+      "desc": [
+        "§6Stonecutter Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "164FCDB100A13305",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "6512C053E83608A4",
+      "0EB27E0CDEB587A9"
+    ],
+    "en": {
+      "title": "Advanced Jukebox Upgrade",
+      "subtitle": "Upgrade installed.",
+      "desc": [
+        "§6Advanced Jukebox Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Jukebox Avancée",
+      "subtitle": "Amélioration installée.",
+      "desc": [
+        "§6Advanced Jukebox Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "6488D3F4747BB26B",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "4738E972A34AFCAC",
+      "602D841A44581FB5"
+    ],
+    "en": {
+      "title": "Jukebox Upgrade",
+      "subtitle": "Smart storage.",
+      "desc": [
+        "§6Jukebox Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration Jukebox",
+      "subtitle": "Smart Stockage.",
+      "desc": [
+        "§6Jukebox Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "488BCC5BB1A6318C",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "2D3646D51999B546",
+      "07E6CBFB48375B5E"
+    ],
+    "en": {
+      "title": "Pump Upgrade",
+      "subtitle": "Upgrade your carry.",
+      "desc": [
+        "§6Pump Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Pompe",
+      "subtitle": "Améliorez votre port.",
+      "desc": [
+        "§6Pump Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4893C2C0985652FB",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "065EE405DE327E51",
+      "5EC27A7D03A690A7"
+    ],
+    "en": {
+      "title": "Advanced Pump Upgrade",
+      "subtitle": "Pack it better.",
+      "desc": [
+        "§6Advanced Pump Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Pompe Avancée",
+      "subtitle": "Emballez mieux.",
+      "desc": [
+        "§6Advanced Pump Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "7706629B2DDE3065",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "3F3FCC76B10CB254",
+      "4E4A8066F058C8A3"
+    ],
+    "en": {
+      "title": "Xp Pump Upgrade",
+      "subtitle": "Backpack evolution.",
+      "desc": [
+        "§6Xp Pump Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration Pompe XP",
+      "subtitle": "Backpack evolution.",
+      "desc": [
+        "§6Xp Pump Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "1908C8D1B4D6A02F",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "52B7E4866B23C5A8",
+      "6794F84A26CC9648"
+    ],
+    "en": {
+      "title": "Compression Upgrade",
+      "subtitle": "Storage innovation.",
+      "desc": [
+        "§6Compression Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration de Compression",
+      "subtitle": "Stockage innovation.",
+      "desc": [
+        "§6Compression Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "335357255C9398AD",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "33150F0242790D8C",
+      "2F04F973418A7D5B"
+    ],
+    "en": {
+      "title": "Hopper Upgrade",
+      "subtitle": "Organize and thrive.",
+      "desc": [
+        "§6Hopper Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Hopper Upgrade",
+      "subtitle": "Organisez et prospérez.",
+      "desc": [
+        "§6Hopper Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4AF52AB5170D6C44",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "33117A0E94FBA48A"
+    ],
+    "en": {
+      "title": "Advanced Alchemy Upgrade",
+      "subtitle": "Carry the world.",
+      "desc": [
+        "§6Advanced Alchemy Upgrade§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Amélioration d'Alchimie Avancée",
+      "subtitle": "Portez le monde.",
+      "desc": [
+        "§6Advanced Alchemy Upgrade§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "5C413945211CB7FC",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "6F14766D2F56CE1D"
+    ],
+    "en": {
+      "title": "Alchemy Upgrade",
+      "subtitle": "Upgrade installed.",
+      "desc": [
+        "§6Alchemy Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Alchemy Upgrade",
+      "subtitle": "Amélioration installée.",
+      "desc": [
+        "§6Alchemy Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "0F910828BE6A5866",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "41AF1753E38240B1"
+    ],
+    "en": {
+      "title": "Advanced Hopper Upgrade",
+      "subtitle": "Smart storage.",
+      "desc": [
+        "§6Advanced Hopper Upgrade§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Amélioration d'Entonnoir Avancée",
+      "subtitle": "Smart Stockage.",
+      "desc": [
+        "§6Advanced Hopper Upgrade§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "6F224EB3268066E3",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "43713E422B305C9B",
+      "6E0679C358C5F16B",
+      "716D68B4639DC40A",
+      "783702D915E27F8E",
+      "701FE395572611EC",
+      "3FF25FD10F89ECCB"
+    ],
+    "en": {
+      "title": "Storage Io",
+      "subtitle": "Upgrade your carry.",
+      "desc": [
+        "§6Storage Io§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Stockage Io",
+      "subtitle": "Améliorez votre port.",
+      "desc": [
+        "§6Storage Io§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4B47FFBF60C1B476",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "07B51E90DF42A187",
+      "501412BD54DD6C9E",
+      "3DF72F1CB5A1545D"
+    ],
+    "en": {
+      "title": "Paintbrush",
+      "subtitle": "Pack it better.",
+      "desc": [
+        "§6Paintbrush§r — These aren't ordinary backpacks — they can filter, sort, and even auto-feed you while you explore."
+      ]
+    },
+    "fr": {
+      "title": "Pinceau",
+      "subtitle": "Emballez mieux.",
+      "desc": [
+        "§6Paintbrush§r — Ce ne sont pas des sacs à dos ordinaires — ils peuvent filtrer, trier et même vous nourrir pendant votre exploration."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "16CFF9B064E42D83",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "140633F2570478FC",
+      "5E5FD7AE9306F7E4"
+    ],
+    "en": {
+      "title": "Decoration Table",
+      "subtitle": "Backpack evolution.",
+      "desc": [
+        "§6Decoration Table§r — Sophisticated Backpacks and Storage bring intelligent container solutions. Upgrade and customize your storage!"
+      ]
+    },
+    "fr": {
+      "title": "Table de Décoration",
+      "subtitle": "Backpack evolution.",
+      "desc": [
+        "§6Decoration Table§r — Sophisticated Backpacks et Storage apportent des solutions de stockage intelligentes. Améliorez et personnalisez votre stockage !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  }
+]

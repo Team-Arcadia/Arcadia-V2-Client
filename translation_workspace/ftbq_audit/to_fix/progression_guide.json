@@ -1,0 +1,51 @@
+[
+  {
+    "id": "5625C24210840096",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [
+      {
+        "type": "checkmark"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 50
+      },
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "7383F55402069A00",
+      "0E270E690AC9D47C",
+      "7C44D64BCD164355",
+      "45CF3F6BD45FC614"
+    ],
+    "en": {
+      "title": "Ars Nouveau",
+      "subtitle": "",
+      "desc": [
+        "The heart of magic in Arcadia. Complete the 'Ars Nouveau' chapter to learn spellcasting, enchanting and magical automation. Foundation of the entire magic branch."
+      ]
+    },
+    "fr": {
+      "title": "Ars Nouveau",
+      "subtitle": "",
+      "desc": [
+        "Le coeur de la magie dans Arcadia. Completez le chapitre 'Ars Nouveau' pour apprendre les sorts, l'enchantement et l'automatisation magique. Base de toute la branche magie."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "desc": []
+    }
+  }
+]

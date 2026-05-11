@@ -1,4 +1,5 @@
 {
+    "_comment": "Mirror of ARCADIA_FARM_BLACKLIST defined in kubejs/server_scripts/tags/item_entity_tags.js — keep them in sync.",
     "replace": false,
     "values": [
         "animalgarden_alligatorgar:alligatorgar",
@@ -22,6 +23,8 @@
         "aquaculture:arrau_turtle",
         "aquaculture:box_turtle",
         "aquaculture:starshell_turtle",
+        "minecraft:ender_dragon",
+        "minecraft:wither",
         "twilightforest:naga",
         "twilightforest:lich",
         "twilightforest:minoshroom",
@@ -31,13 +34,27 @@
         "twilightforest:yeti",
         "twilightforest:snow_queen",
         "twilightforest:plateau_boss",
-        "minecraft:ender_dragon",
-        "minecraft:wither",
         "knightquest:netherman",
         "occultism:possessed_warden",
         "occultism:possessed_elder_guardian",
         "irons_spellbooks:pyromancer",
         "mowziesmobs:naga",
-        "#mutantmonsters:mutants"
+        "mowziesmobs:frostmaw",
+        "mowziesmobs:ferrous_wroughtnaut",
+        "mowziesmobs:umvuthi",
+        "mowziesmobs:sculptor",
+        "deep_aether:eots_controller",
+        "deep_aether:eots_segment",
+        "aether:slider",
+        "aether:valkyrie_queen",
+        "aether:sun_spirit",
+        "ars_nouveau:wilden_boss",
+        "irons_spellbooks:dead_king",
+        "irons_spellbooks:fire_boss",
+        "mutantmonsters:mutant_creeper",
+        "mutantmonsters:mutant_enderman",
+        "mutantmonsters:mutant_skeleton",
+        "mutantmonsters:mutant_snow_golem",
+        "mutantmonsters:mutant_zombie"
     ]
 }

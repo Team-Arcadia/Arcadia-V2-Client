@@ -79,7 +79,11 @@ Debug_Mode = false
 
 	["Fallen State Settings"."General Settings"]
 		#If the regular Death Event should run first before this mod does (if Death event runs first and player death is cancelled, Revive-Me code will not execute. Same thing vice-versa.)
-		Run_Death_Event_First = true
+		#Arcadia: set to false to fix incompatibility with Twilight Forest's Charm of Keeping (and similar death-save items).
+		#When true, vanilla LivingDeathEvent fires BEFORE Revive Me, so Charm of Keeping saves items, then Revive Me cancels death.
+		#Result: items get duplicated to the Charm and wiped from inventory; on second fall, the saved items get overwritten and lost forever.
+		#With false: Revive Me intercepts death first, cancels it, and Charm of Keeping never triggers.
+		Run_Death_Event_First = false
 		#If you can give up and die
 		Can_Give_Up = true
 		#If you should die instantly if you disconnect while in the fallen state

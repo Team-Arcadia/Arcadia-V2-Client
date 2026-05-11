@@ -1,0 +1,1787 @@
+[
+  {
+    "id": "7B0764DDE94E73D0",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "3D2B4D9FD2086B9B",
+      "1762EDDFC1D84595",
+      "25FB07BDEC8EE4EF",
+      "77211E454F98A72B",
+      "514207C426B8725F",
+      "63A070075644110C"
+    ],
+    "en": {
+      "title": "Fission Reactor Casing",
+      "subtitle": "Nuclear dawn.",
+      "desc": [
+        "§2Fission Reactor Casing§r — Mekanism Reactors bring fusion and fission to Minecraft. Generate massive amounts of energy — but handle with extreme care!"
+      ]
+    },
+    "fr": {
+      "title": "Fission Réacteur Casing",
+      "subtitle": "Aube nucléaire.",
+      "desc": [
+        "§2Boîtier de Réacteur à Fission§r — Réacteurs Mekanism : fusion et fission. Énergie massive, prudence extrême !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "71766BD7321FCB13",
+    "icon": null,
+    "shape": "circle",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "302E9BC711779A4A",
+      "7D279FC39DA5C630",
+      "14451F85B9466C23",
+      "10116ABDDEA3FCAC",
+      "7091063AB75E79FF"
+    ],
+    "en": {
+      "title": "Fuel Processing",
+      "subtitle": "Critical mass.",
+      "desc": [
+        "§2Fuel Processing§r — Mekanism Reactors bring fusion and fission to Minecraft. Generate massive amounts of energy — but handle with extreme care!"
+      ]
+    },
+    "fr": {
+      "title": "Traitement du Combustible",
+      "subtitle": "Masse critique.",
+      "desc": [
+        "§2Traitement du Combustible§r — Les réacteurs Mekanism apportent la fusion et la fission à Minecraft. Générez d'énorme quantités d'énergie — mais manipulez avec précaution !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "302E9BC711779A4A",
+    "icon": null,
+    "shape": "square",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "078B69E9362A5496",
+      "592C790CE030088D",
+      "103895C9792183DB",
+      "06547CA7D18AF8DE",
+      "43CE1470FB6E2812"
+    ],
+    "en": {
+      "title": "Uranium Processing",
+      "subtitle": "Fusion frontier.",
+      "desc": [
+        "§2Uranium Processing§r — Mekanism Reactors bring fusion and fission to Minecraft. Generate massive amounts of energy — but handle with extreme care!"
+      ]
+    },
+    "fr": {
+      "title": "Traitement de l'Uranium",
+      "subtitle": "Fusion frontier.",
+      "desc": [
+        "§2Traitement de l'Uranium§r — Les réacteurs Mekanism apportent la fusion et la fission à Minecraft. Générez d'énorme quantités d'énergie — mais manipulez avec précaution !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "mekanism:chemical_oxidizer",
+    "icon": "mekanism:chemical_oxidizer",
+    "shape": "gear",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 1
+      }
+    ],
+    "deps": [
+      "078B69E9362A5496",
+      "23FA8D2CB23719BE",
+      "57461A801D5631A4",
+      "5570C4953E1C8D3F",
+      "2F99C90ED3E9CD14",
+      "1F7C3D5DE3CE359D",
+      "7F9BB8A0E6B662B7"
+    ],
+    "en": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "fr": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "issues": {
+      "title": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "subtitle": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "desc": [
+        "EMPTY",
+        "MISSING"
+      ]
+    }
+  },
+  {
+    "id": "7D279FC39DA5C630",
+    "icon": null,
+    "shape": "square",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "078B69E9362A5496",
+      "0309F3EDC5431D7C",
+      "09C72A7EF91EA3F0",
+      "2329949C49F49896",
+      "5706A7343CD5C0B2",
+      "683A2E9D5B1E124F"
+    ],
+    "en": {
+      "title": "Fluorite Gem",
+      "subtitle": "Handle with care.",
+      "desc": [
+        "§2Fluorite Gem§r — Nuclear engineering at its finest. Build reactors to power your entire base and beyond."
+      ]
+    },
+    "fr": {
+      "title": "Fluorite Gem",
+      "subtitle": "Manipuler avec soin.",
+      "desc": [
+        "§2Fluorite Gem§r — L'ingénierie nucléaire à son apogée. Construisez des réacteurs pour alimenter votre base et au-delà."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "09D7D3CF61E156B1",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "71766BD7321FCB13",
+      "7EEDA4696EEE87F4",
+      "0616F93590FD15E0",
+      "515AB12A08EB4C3B",
+      "38277C87C47B2956"
+    ],
+    "en": {
+      "title": "Fission Fuel Assembly",
+      "subtitle": "Atomic precision.",
+      "desc": [
+        "§2Fission Fuel Assembly§r — Nuclear engineering at its finest. Build reactors to power your entire base and beyond."
+      ]
+    },
+    "fr": {
+      "title": "Fission Fuel Assembly",
+      "subtitle": "Atomic precision.",
+      "desc": [
+        "§2Assemblage de Combustible Fission§r — Le génie nucléaire. Alimentez toute votre base."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "3D2B4D9FD2086B9B",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "4F9A97FA346920B7",
+      "1FFA7054AE0730CC"
+    ],
+    "en": {
+      "title": "Fission Reactor Logic Adapter",
+      "subtitle": "Power of the atom.",
+      "desc": [
+        "§2Fission Reactor Logic Adapter§r — Nuclear engineering at its finest. Build reactors to power your entire base and beyond."
+      ]
+    },
+    "fr": {
+      "title": "Adaptateur Logique Réacteur à Fission",
+      "subtitle": "Puissance de l'atome.",
+      "desc": [
+        "§2Adaptateur Logique Réacteur à Fission§r — L'ingénierie nucléaire à son apogée. Construisez des réacteurs pour alimenter votre base et au-delà."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "5A088F8402230BA5",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "31EB458A27C8520E",
+      "188B99F1119A30C2"
+    ],
+    "en": {
+      "title": "Fission Reactor Port",
+      "subtitle": "Energy at scale.",
+      "desc": [
+        "§2Fission Reactor Port§r — Mekanism Reactors bring fusion and fission to Minecraft. Generate massive amounts of energy — but handle with extreme care!"
+      ]
+    },
+    "fr": {
+      "title": "Fission Réacteur Port",
+      "subtitle": "Énergie à l'échelle.",
+      "desc": [
+        "§2Port de Réacteur à Fission§r — Réacteurs Mekanism : fusion et fission. Énergie massive, prudence extrême !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "7E3C84D7FCEC9D52",
+    "icon": null,
+    "shape": "octagon",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "5A088F8402230BA5",
+      "3D2B4D9FD2086B9B",
+      "09D7D3CF61E156B1",
+      "710EC0EF1CE6BD37",
+      "374D246DFF8CEDA3",
+      "494F164FCB1493C2",
+      "0BD683FA7B328B3A",
+      "724A504C041AC7D1",
+      "3917421D27C651E4",
+      "485901683F26B1F5"
+    ],
+    "en": {
+      "title": "Fissile Fuel",
+      "subtitle": "Nuclear dawn.",
+      "desc": [
+        "§2Fissile Fuel§r — Mekanism Reactors bring fusion and fission to Minecraft. Generate massive amounts of energy — but handle with extreme care!"
+      ]
+    },
+    "fr": {
+      "title": "Fissile Fuel",
+      "subtitle": "Aube nucléaire.",
+      "desc": [
+        "§2Fissile Fuel§r — Les réacteurs Mekanism apportent la fusion et la fission à Minecraft. Générez d'énorme quantités d'énergie — mais manipulez avec précaution !"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "5AEA705D6A64A982",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "3D2B4D9FD2086B9B",
+      "0CE03DEE00B7DC1F",
+      "1B78002379BEC2D5",
+      "557074D4BFBAB82E"
+    ],
+    "en": {
+      "title": "Automation Control",
+      "subtitle": "Critical mass.",
+      "desc": [
+        "§2Automation Control§r — Mekanism Reactors bring fusion and fission to Minecraft. Generate massive amounts of energy — but handle with extreme care!"
+      ]
+    },
+    "fr": {
+      "title": "Contrôle d'Automatisation",
+      "subtitle": "Masse critique.",
+      "desc": [
+        "§2Contrôle d'Automatisation§r — Réacteurs Mekanism : fusion et fission. Énergie massive, prudence extrême !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "03840E4C74731E0C",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "5A088F8402230BA5",
+      "186F9353FF867178",
+      "72EB5C59BC2A05EA",
+      "001AE9EED80856A7"
+    ],
+    "en": {
+      "title": "Fission Fuel Assembly",
+      "subtitle": "Fusion frontier.",
+      "desc": [
+        "§2Fission Fuel Assembly§r — Nuclear engineering at its finest. Build reactors to power your entire base and beyond."
+      ]
+    },
+    "fr": {
+      "title": "Fission Fuel Assembly",
+      "subtitle": "Fusion frontier.",
+      "desc": [
+        "§2Assemblage de Combustible Fission§r — Le génie nucléaire. Alimentez toute votre base."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "17E2C05C48B03043",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "5A088F8402230BA5",
+      "760D3CABBC4F83BD",
+      "11A66EA238D05A24",
+      "0BE623827F600CC7",
+      "313D42E4ACB2CFE0",
+      "71F75D90BE8E965E",
+      "126B3D11A754B899"
+    ],
+    "en": {
+      "title": "Fission Fuel Assembly",
+      "subtitle": "Reactor engineering.",
+      "desc": [
+        "§2Fission Fuel Assembly§r — Mekanism Reactors bring fusion and fission to Minecraft. Generate massive amounts of energy — but handle with extreme care!"
+      ]
+    },
+    "fr": {
+      "title": "Fission Fuel Assembly",
+      "subtitle": "Réacteur engineering.",
+      "desc": [
+        "§2Assemblage de Combustible Fission§r — Réacteurs Mekanism : fusion et fission. Énergie massive, prudence extrême !"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "593CB120B657126C",
+    "icon": null,
+    "shape": "circle",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "7E3C84D7FCEC9D52",
+      "099D87D24F3719E1",
+      "067ED94826CF2346"
+    ],
+    "en": {
+      "title": "Radioactive Waste Barrel",
+      "subtitle": "Handle with care.",
+      "desc": [
+        "§2Radioactive Waste Barrel§r — Nuclear engineering at its finest. Build reactors to power your entire base and beyond."
+      ]
+    },
+    "fr": {
+      "title": "Baril de Déchets Radioactifs",
+      "subtitle": "Manipuler avec soin.",
+      "desc": [
+        "§2Baril de Déchets Radioactifs§r — Le génie nucléaire. Alimentez toute votre base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "7B385FD1CBE02C85",
+    "icon": null,
+    "shape": "circle",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "7E3C84D7FCEC9D52",
+      "03CF08F17179AC69",
+      "4175AC54AFE1DFCF",
+      "3563498293CD3BF7"
+    ],
+    "en": {
+      "title": "Basic Chemical Tank",
+      "subtitle": "Atomic precision.",
+      "desc": [
+        "§2Basic Chemical Tank§r — Nuclear engineering at its finest. Build reactors to power your entire base and beyond."
+      ]
+    },
+    "fr": {
+      "title": "Réservoir Chimique Basique",
+      "subtitle": "Atomic precision.",
+      "desc": [
+        "§2Réservoir Chimique Basique§r — L'ingénierie nucléaire à son apogée. Construisez des réacteurs pour alimenter votre base et au-delà."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "67A9329C05F98633",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "7B385FD1CBE02C85",
+      "51395C4E467986D4",
+      "3B3CDE9FB2B79352"
+    ],
+    "en": {
+      "title": "Ultimate Trash Can",
+      "subtitle": "Power of the atom.",
+      "desc": [
+        "§2Ultimate Trash Can§r — Mekanism Reactors bring fusion and fission to Minecraft. Generate massive amounts of energy — but handle with extreme care!"
+      ]
+    },
+    "fr": {
+      "title": "Poubelle Ultime",
+      "subtitle": "Puissance de l'atome.",
+      "desc": [
+        "§2Ultimate Trash Can§r — Les réacteurs Mekanism apportent la fusion et la fission à Minecraft. Générez d'énorme quantités d'énergie — mais manipulez avec précaution !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "5194A067BEA98E79",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "593CB120B657126C",
+      "690B0C794ECDBEE0",
+      "76E0D8A5EB11FB71"
+    ],
+    "en": {
+      "title": "Isotopic Centrifuge",
+      "subtitle": "Energy at scale.",
+      "desc": [
+        "§2Isotopic Centrifuge§r — Mekanism Reactors bring fusion and fission to Minecraft. Generate massive amounts of energy — but handle with extreme care!"
+      ]
+    },
+    "fr": {
+      "title": "Centrifugeuse Isotopique",
+      "subtitle": "Énergie à l'échelle.",
+      "desc": [
+        "§2Centrifugeuse Isotopique§r — Les réacteurs Mekanism apportent la fusion et la fission à Minecraft. Générez d'énorme quantités d'énergie — mais manipulez avec précaution !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "20054D077AFE3F56",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 10
+      }
+    ],
+    "deps": [
+      "5194A067BEA98E79",
+      "014EFD36AEC93A3A",
+      "28EE5C3BB49CFFD4",
+      "4A89F09182DA11F0"
+    ],
+    "en": {
+      "title": "Pellet Plutonium",
+      "subtitle": "Nuclear dawn.",
+      "desc": [
+        "§2Pellet Plutonium§r — Nuclear engineering at its finest. Build reactors to power your entire base and beyond."
+      ]
+    },
+    "fr": {
+      "title": "Pellet de Plutonium",
+      "subtitle": "Aube nucléaire.",
+      "desc": [
+        "§2Pellet Plutonium§r — L'ingénierie nucléaire à son apogée. Construisez des réacteurs pour alimenter votre base et au-delà."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "438F734D16DA9638",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 10
+      }
+    ],
+    "deps": [
+      "4BAF44FCA0894DE8",
+      "230234980349F369",
+      "2BF96179A943F1CF",
+      "7BAFAA3EE0F162E3"
+    ],
+    "en": {
+      "title": "Pellet Polonium",
+      "subtitle": "Critical mass.",
+      "desc": [
+        "§2Pellet Polonium§r — Mekanism Reactors bring fusion and fission to Minecraft. Generate massive amounts of energy — but handle with extreme care!"
+      ]
+    },
+    "fr": {
+      "title": "Pellet de Polonium",
+      "subtitle": "Masse critique.",
+      "desc": [
+        "§2Pellet Polonium§r — Les réacteurs Mekanism apportent la fusion et la fission à Minecraft. Générez d'énorme quantités d'énergie — mais manipulez avec précaution !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4E18E28BDF6B7983",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "438F734D16DA9638",
+      "702026DD60AC9E69",
+      "7A8FCB8C69FECF2F"
+    ],
+    "en": {
+      "title": "Fusion Reactor Frame",
+      "subtitle": "Fusion frontier.",
+      "desc": [
+        "§2Fusion Reactor Frame§r — Nuclear engineering at its finest. Build reactors to power your entire base and beyond."
+      ]
+    },
+    "fr": {
+      "title": "Fusion Réacteur Frame",
+      "subtitle": "Fusion frontier.",
+      "desc": [
+        "§2Cadre de Réacteur à Fusion§r — Le génie nucléaire. Alimentez toute votre base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "5B18676A77CD6069",
+    "icon": null,
+    "shape": "octagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 3
+      }
+    ],
+    "deps": [
+      "07F6B3F548879A26",
+      "1E438DE1052A5CCC",
+      "6B1CE2F64552C75F"
+    ],
+    "en": {
+      "title": "QIO Drive Array",
+      "subtitle": "Reactor engineering.",
+      "desc": [
+        "§2QIO Drive Array§r — Mekanism Reactors bring fusion and fission to Minecraft. Generate massive amounts of energy — but handle with extreme care!"
+      ]
+    },
+    "fr": {
+      "title": "Matrice QIO Drive",
+      "subtitle": "Réacteur engineering.",
+      "desc": [
+        "§2Matrice QIO Drive§r — Les réacteurs Mekanism apportent la fusion et la fission à Minecraft. Générez d'énorme quantités d'énergie — mais manipulez avec précaution !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "011D8CADA29C9C70",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "5B18676A77CD6069",
+      "7384A181AFF9772E",
+      "11151860F09B78E1"
+    ],
+    "en": {
+      "title": "Qio Drive Base",
+      "subtitle": "Handle with care.",
+      "desc": [
+        "§2Qio Drive Base§r — Mekanism Reactors bring fusion and fission to Minecraft. Generate massive amounts of energy — but handle with extreme care!"
+      ]
+    },
+    "fr": {
+      "title": "Base de Lecteur Qio",
+      "subtitle": "Manipuler avec soin.",
+      "desc": [
+        "§2Qio Drive Base§r — Les réacteurs Mekanism apportent la fusion et la fission à Minecraft. Générez d'énorme quantités d'énergie — mais manipulez avec précaution !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "53E929BF89209CFC",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "5B18676A77CD6069",
+      "333D714483A091E6",
+      "4B4872B2C369FF45",
+      "119A544C4E895CFC",
+      "0A383B138F6AD6FA"
+    ],
+    "en": {
+      "title": "Qio Exporter",
+      "subtitle": "Atomic precision.",
+      "desc": [
+        "§2Qio Exporter§r — Mekanism Reactors bring fusion and fission to Minecraft. Generate massive amounts of energy — but handle with extreme care!"
+      ]
+    },
+    "fr": {
+      "title": "Exportateur Qio",
+      "subtitle": "Atomic precision.",
+      "desc": [
+        "§2Qio Exporter§r — Les réacteurs Mekanism apportent la fusion et la fission à Minecraft. Générez d'énorme quantités d'énergie — mais manipulez avec précaution !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "7310BBC4A90EDA9D",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "13A5748DF69D832E",
+      "3129E411B3AF960B",
+      "7DC8D7D5F195BE0F"
+    ],
+    "en": {
+      "title": "Qio Dashboard",
+      "subtitle": "Power of the atom.",
+      "desc": [
+        "§2Qio Dashboard§r — Nuclear engineering at its finest. Build reactors to power your entire base and beyond."
+      ]
+    },
+    "fr": {
+      "title": "Tableau de Bord Qio",
+      "subtitle": "Puissance de l'atome.",
+      "desc": [
+        "§2Qio Dashboard§r — L'ingénierie nucléaire à son apogée. Construisez des réacteurs pour alimenter votre base et au-delà."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "6A1174845810C7A1",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "06086F015331A666",
+      "221507726A43C981"
+    ],
+    "en": {
+      "title": "Modification Station",
+      "subtitle": "Energy at scale.",
+      "desc": [
+        "§2Modification Station§r — Mekanism Reactors bring fusion and fission to Minecraft. Generate massive amounts of energy — but handle with extreme care!"
+      ]
+    },
+    "fr": {
+      "title": "Station de Modification",
+      "subtitle": "Énergie à l'échelle.",
+      "desc": [
+        "§2Station de Modification§r — Les réacteurs Mekanism apportent la fusion et la fission à Minecraft. Générez d'énorme quantités d'énergie — mais manipulez avec précaution !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "50F23B2688D7E699",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 50
+      }
+    ],
+    "deps": [
+      "008E65AF545A706E",
+      "104765330BD7F89B",
+      "5787720F79BBBC03",
+      "2CE676AC2AF13098"
+    ],
+    "en": {
+      "title": "Pellet Antimatter",
+      "subtitle": "Handle with care.",
+      "desc": [
+        "§2Pellet Antimatter§r — Nuclear engineering at its finest. Build reactors to power your entire base and beyond."
+      ]
+    },
+    "fr": {
+      "title": "Pellet d'Antimatière",
+      "subtitle": "Manipuler avec soin.",
+      "desc": [
+        "§2Pellet Antimatter§r — L'ingénierie nucléaire à son apogée. Construisez des réacteurs pour alimenter votre base et au-delà."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4B2835706B593E9A",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "50F23B2688D7E699",
+      "2098D142B403D10B",
+      "74C1623469AD3952"
+    ],
+    "en": {
+      "title": "Antiprotonic Nucleosynthesizer",
+      "subtitle": "Atomic precision.",
+      "desc": [
+        "§2Antiprotonic Nucleosynthesizer§r — Nuclear engineering at its finest. Build reactors to power your entire base and beyond."
+      ]
+    },
+    "fr": {
+      "title": "Nucléosynthétiseur Antiprotonique",
+      "subtitle": "Atomic precision.",
+      "desc": [
+        "§2Nucléosynthétiseur Antiprotonique§r — L'ingénierie nucléaire à son apogée. Construisez des réacteurs pour alimenter votre base et au-delà."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "3B936CA3F0F7B26B",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "05DA7F48E2A1B77F",
+      "227A8AC1810E169B",
+      "3DB36E9E622A556B"
+    ],
+    "en": {
+      "title": "Digital Miner",
+      "subtitle": "Power of the atom.",
+      "desc": [
+        "§2Digital Miner§r — Nuclear engineering at its finest. Build reactors to power your entire base and beyond."
+      ]
+    },
+    "fr": {
+      "title": "Mineur Digital",
+      "subtitle": "Puissance de l'atome.",
+      "desc": [
+        "§2Mineur Digital§r — L'ingénierie nucléaire à son apogée. Construisez des réacteurs pour alimenter votre base et au-delà."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "05DA7F48E2A1B77F",
+    "icon": null,
+    "shape": "circle",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "22C8811103D47CEE",
+      "37CB3E85DE5321EA"
+    ],
+    "en": {
+      "title": "Robit",
+      "subtitle": "Energy at scale.",
+      "desc": [
+        "§2Robit§r — Mekanism Reactors bring fusion and fission to Minecraft. Generate massive amounts of energy — but handle with extreme care!"
+      ]
+    },
+    "fr": {
+      "title": "Robit",
+      "subtitle": "Énergie à l'échelle.",
+      "desc": [
+        "§2Robit§r — Réacteurs Mekanism : fusion et fission. Énergie massive, prudence extrême !"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "55702BE0151D33FE",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "57107C46E0B4778C",
+      "4BC8C6CD95C13721"
+    ],
+    "en": {
+      "title": "Induction Casing",
+      "subtitle": "Nuclear dawn.",
+      "desc": [
+        "§2Induction Casing§r — Mekanism Reactors bring fusion and fission to Minecraft. Generate massive amounts of energy — but handle with extreme care!"
+      ]
+    },
+    "fr": {
+      "title": "Boîtier d'Induction",
+      "subtitle": "Aube nucléaire.",
+      "desc": [
+        "§2Boîtier d'Induction§r — Réacteurs Mekanism : fusion et fission. Énergie massive, prudence extrême !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "298A7BED5C2C7582",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "49692794F83384CF",
+      "151AF2F49AAEBBDA"
+    ],
+    "en": {
+      "title": "Advanced Induction Cell",
+      "subtitle": "Critical mass.",
+      "desc": [
+        "§2Advanced Induction Cell§r — Nuclear engineering at its finest. Build reactors to power your entire base and beyond."
+      ]
+    },
+    "fr": {
+      "title": "Cellule d'Induction Avancée",
+      "subtitle": "Masse critique.",
+      "desc": [
+        "§2Cellule d'Induction Avancée§r — Le génie nucléaire. Alimentez toute votre base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "6B3BD54A34EB02C2",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "1F1A839794C5EB23",
+      "496C4FDD2515EB24"
+    ],
+    "en": {
+      "title": "Advanced Induction Provider",
+      "subtitle": "Fusion frontier.",
+      "desc": [
+        "§2Advanced Induction Provider§r — Nuclear engineering at its finest. Build reactors to power your entire base and beyond."
+      ]
+    },
+    "fr": {
+      "title": "Fournisseur d'Induction Avancé",
+      "subtitle": "Fusion frontier.",
+      "desc": [
+        "§2Fournisseur d'Induction Avancé§r — Le génie nucléaire. Alimentez toute votre base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "54E0B946BAC13654",
+    "icon": null,
+    "shape": "octagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 3
+      }
+    ],
+    "deps": [
+      "55702BE0151D33FE",
+      "6B3BD54A34EB02C2",
+      "298A7BED5C2C7582",
+      "75895272C72BBDF7",
+      "7946863F2067C980",
+      "6FB33B55A75E4B51",
+      "517FC41DE11BB012",
+      "5CD030B6B8A747B6"
+    ],
+    "en": {
+      "title": "Induction Casing",
+      "subtitle": "Reactor engineering.",
+      "desc": [
+        "§2Induction Casing§r — Mekanism Reactors bring fusion and fission to Minecraft. Generate massive amounts of energy — but handle with extreme care!"
+      ]
+    },
+    "fr": {
+      "title": "Boîtier d'Induction",
+      "subtitle": "Réacteur engineering.",
+      "desc": [
+        "§2Boîtier d'Induction§r — Réacteurs Mekanism : fusion et fission. Énergie massive, prudence extrême !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "7846B7FFC3DD85C5",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "438F734D16DA9638",
+      "20054D077AFE3F56",
+      "6906BE44B1A45829",
+      "3D3D36354DB42A63",
+      "179A7908B0481D37"
+    ],
+    "en": {
+      "title": "Sps Port",
+      "subtitle": "Handle with care.",
+      "desc": [
+        "§2Sps Port§r — Mekanism Reactors bring fusion and fission to Minecraft. Generate massive amounts of energy — but handle with extreme care!"
+      ]
+    },
+    "fr": {
+      "title": "Port SPS",
+      "subtitle": "Manipuler avec soin.",
+      "desc": [
+        "§2Sps Port§r — Les réacteurs Mekanism apportent la fusion et la fission à Minecraft. Générez d'énorme quantités d'énergie — mais manipulez avec précaution !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "3CCBE9BBCA8ADA38",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "438F734D16DA9638",
+      "7F132D3999365023",
+      "5AC7BCDBEC2CA34A"
+    ],
+    "en": {
+      "title": "Supercharged Coil",
+      "subtitle": "Atomic precision.",
+      "desc": [
+        "§2Supercharged Coil§r — Nuclear engineering at its finest. Build reactors to power your entire base and beyond."
+      ]
+    },
+    "fr": {
+      "title": "Bobine Surchargée",
+      "subtitle": "Atomic precision.",
+      "desc": [
+        "§2Bobine Surchargée§r — L'ingénierie nucléaire à son apogée. Construisez des réacteurs pour alimenter votre base et au-delà."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "008E65AF545A706E",
+    "icon": null,
+    "shape": "octagon",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "7846B7FFC3DD85C5",
+      "3CCBE9BBCA8ADA38",
+      "437C6A1F35D712B5",
+      "378F455AE8FE9BA2",
+      "0306A871DAEA7580",
+      "29EE89C4A23638AC",
+      "7E73902DDCD128C7",
+      "235027FF75455CEB",
+      "35D437CE90158B46",
+      "7A7018026E464DF3"
+    ],
+    "en": {
+      "title": "Ultimate Energy Cube",
+      "subtitle": "Power of the atom.",
+      "desc": [
+        "§2Ultimate Energy Cube§r — Mekanism Reactors bring fusion and fission to Minecraft. Generate massive amounts of energy — but handle with extreme care!"
+      ]
+    },
+    "fr": {
+      "title": "Cube d'Énergie Ultime",
+      "subtitle": "Puissance de l'atome.",
+      "desc": [
+        "§2Ultimate Energy Cube§r — Les réacteurs Mekanism apportent la fusion et la fission à Minecraft. Générez d'énorme quantités d'énergie — mais manipulez avec précaution !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4BAF44FCA0894DE8",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "593CB120B657126C",
+      "5D1116CD24DFE940",
+      "4605DCE4DAB1F52A"
+    ],
+    "en": {
+      "title": "Solar Neutron Activator",
+      "subtitle": "Energy at scale.",
+      "desc": [
+        "§2Solar Neutron Activator§r — Mekanism Reactors bring fusion and fission to Minecraft. Generate massive amounts of energy — but handle with extreme care!"
+      ]
+    },
+    "fr": {
+      "title": "Activateur Neutronique Solaire",
+      "subtitle": "Énergie à l'échelle.",
+      "desc": [
+        "§2Activateur Neutronique Solaire§r — Les réacteurs Mekanism apportent la fusion et la fission à Minecraft. Générez d'énorme quantités d'énergie — mais manipulez avec précaution !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2DC4446A644A4079",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "593CB120B657126C",
+      "50B39DB9A0BAC888",
+      "472CC67DC0A9B198",
+      "1ADF38997F6DA60B",
+      "74BA87D346B753E5",
+      "39561A9A902D83F0"
+    ],
+    "en": {
+      "title": "Hazmat Mask",
+      "subtitle": "Nuclear dawn.",
+      "desc": [
+        "§2Hazmat Mask§r — Mekanism Reactors bring fusion and fission to Minecraft. Generate massive amounts of energy — but handle with extreme care!"
+      ]
+    },
+    "fr": {
+      "title": "Hazmat Mask",
+      "subtitle": "Aube nucléaire.",
+      "desc": [
+        "§2Hazmat Mask§r — Les réacteurs Mekanism apportent la fusion et la fission à Minecraft. Générez d'énorme quantités d'énergie — mais manipulez avec précaution !"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "13A5748DF69D832E",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "5B18676A77CD6069",
+      "6E530E3EFB7DEBE7",
+      "368357600C1322F8",
+      "62183402AD52AE35",
+      "454D07A4AE1D66DD"
+    ],
+    "en": {
+      "title": "QIO Dashboard",
+      "subtitle": "Critical mass.",
+      "desc": [
+        "§2QIO Dashboard§r — Nuclear engineering at its finest. Build reactors to power your entire base and beyond."
+      ]
+    },
+    "fr": {
+      "title": "Tableau de Bord QIO",
+      "subtitle": "Masse critique.",
+      "desc": [
+        "§2Tableau de Bord QIO§r — Le génie nucléaire. Alimentez toute votre base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "0306D25C7407FE88",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "1C87535D3CDCDA5F",
+      "7DEDD56909E2B4DA",
+      "2EFE0D22FDE2E62D"
+    ],
+    "en": {
+      "title": "Laser Focus Matrix",
+      "subtitle": "Fusion frontier.",
+      "desc": [
+        "§2Laser Focus Matrix§r — Nuclear engineering at its finest. Build reactors to power your entire base and beyond."
+      ]
+    },
+    "fr": {
+      "title": "Matrice de Focalisation Laser",
+      "subtitle": "Fusion frontier.",
+      "desc": [
+        "§2Matrice de Focalisation Laser§r — Le génie nucléaire. Alimentez toute votre base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "1C87535D3CDCDA5F",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "4926C95DD02F1410",
+      "561BCAB252DFA6FA",
+      "1272480D3DA4CB61",
+      "2B63C860A004A859"
+    ],
+    "en": {
+      "title": "Laser Amplifier",
+      "subtitle": "Reactor engineering.",
+      "desc": [
+        "§2Laser Amplifier§r — Nuclear engineering at its finest. Build reactors to power your entire base and beyond."
+      ]
+    },
+    "fr": {
+      "title": "Amplificateur Laser",
+      "subtitle": "Réacteur engineering.",
+      "desc": [
+        "§2Amplificateur Laser§r — Le génie nucléaire. Alimentez toute votre base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4926C95DD02F1410",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "5AD407A3503FF999",
+      "28117DB85E6D7298"
+    ],
+    "en": {
+      "title": "Laser",
+      "subtitle": "Handle with care.",
+      "desc": [
+        "§2Laser§r — Nuclear engineering at its finest. Build reactors to power your entire base and beyond."
+      ]
+    },
+    "fr": {
+      "title": "Laser",
+      "subtitle": "Manipuler avec soin.",
+      "desc": [
+        "§2Laser§r — Le génie nucléaire. Alimentez toute votre base."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "40E8940C92668D4F",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "50FFE40278E30E0F",
+      "39E654180C19EC88",
+      "533879E84DC7CAEB",
+      "724532DF134A4C9D",
+      "43063168AB07D6FC"
+    ],
+    "en": {
+      "title": "Electric Pump",
+      "subtitle": "Atomic precision.",
+      "desc": [
+        "§2Electric Pump§r — Nuclear engineering at its finest. Build reactors to power your entire base and beyond."
+      ]
+    },
+    "fr": {
+      "title": "Pompe Électrique",
+      "subtitle": "Atomic precision.",
+      "desc": [
+        "§2Electric Pump§r — L'ingénierie nucléaire à son apogée. Construisez des réacteurs pour alimenter votre base et au-delà."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "369DADE3B3D8416F",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "0EAFDEECDAA2216C",
+      "04D83AA40F859F85",
+      "555D6EE9775EC7FA",
+      "70112973D7C24BD3",
+      "025EB7AD11DBB865",
+      "44CA11954DBDD9EF",
+      "569325A85FB1C540"
+    ],
+    "en": {
+      "title": "Thermal Evaporation Block",
+      "subtitle": "Power of the atom.",
+      "desc": [
+        "§2Thermal Evaporation Block§r — Mekanism Reactors bring fusion and fission to Minecraft. Generate massive amounts of energy — but handle with extreme care!"
+      ]
+    },
+    "fr": {
+      "title": "Bloc d'Évaporation Thermique",
+      "subtitle": "Puissance de l'atome.",
+      "desc": [
+        "§2Thermal Evaporation Block§r — Les réacteurs Mekanism apportent la fusion et la fission à Minecraft. Générez d'énorme quantités d'énergie — mais manipulez avec précaution !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "7177653B736AB10E",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "369DADE3B3D8416F",
+      "40E8940C92668D4F",
+      "6BA54F0398F49E5D",
+      "49FD3E265DCAA577",
+      "534A2589DF835EDE"
+    ],
+    "en": {
+      "title": "Fusion Fuel",
+      "subtitle": "Energy at scale.",
+      "desc": [
+        "§2Fusion Fuel§r — Nuclear engineering at its finest. Build reactors to power your entire base and beyond."
+      ]
+    },
+    "fr": {
+      "title": "Fusion Fuel",
+      "subtitle": "Énergie à l'échelle.",
+      "desc": [
+        "§2Fusion Fuel§r — L'ingénierie nucléaire à son apogée. Construisez des réacteurs pour alimenter votre base et au-delà."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "3561A33758A1E8C3",
+    "icon": null,
+    "shape": "octagon",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "0306D25C7407FE88",
+      "7177653B736AB10E",
+      "4E18E28BDF6B7983",
+      "402AA367D93747DB",
+      "5F9B00328053117D",
+      "51F0E8D979CE14E2",
+      "319CA3483A4E93BF",
+      "66D8218A17480ACA",
+      "3F6D20EC9FF77E13",
+      "1B4A8602A625C107"
+    ],
+    "en": {
+      "title": "Elite Induction Provider",
+      "subtitle": "Nuclear dawn.",
+      "desc": [
+        "§2Elite Induction Provider§r — Mekanism Reactors bring fusion and fission to Minecraft. Generate massive amounts of energy — but handle with extreme care!"
+      ]
+    },
+    "fr": {
+      "title": "Fournisseur d'Induction Élite",
+      "subtitle": "Aube nucléaire.",
+      "desc": [
+        "§2Elite Induction Provider§r — Les réacteurs Mekanism apportent la fusion et la fission à Minecraft. Générez d'énorme quantités d'énergie — mais manipulez avec précaution !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "3E5BE6D6422F682C",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "7B385FD1CBE02C85",
+      "00F06E1FC92F0FD3",
+      "301546BBBC57E74D",
+      "4ADBCE26247048B5",
+      "61E563C851CEAE9C"
+    ],
+    "en": {
+      "title": "Turbine Vent",
+      "subtitle": "Critical mass.",
+      "desc": [
+        "§2Turbine Vent§r — Nuclear engineering at its finest. Build reactors to power your entire base and beyond."
+      ]
+    },
+    "fr": {
+      "title": "Évent de Turbine",
+      "subtitle": "Masse critique.",
+      "desc": [
+        "§2Ventilation de Turbine§r — Le génie nucléaire. Alimentez toute votre base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4211F29561F21643",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "7B385FD1CBE02C85",
+      "64B83C91CED87CEC",
+      "41F7C191E11198AB",
+      "3C99BB935A826521",
+      "41C0E546A0619C41"
+    ],
+    "en": {
+      "title": "Turbine Rotor",
+      "subtitle": "Fusion frontier.",
+      "desc": [
+        "§2Turbine Rotor§r — Mekanism Reactors bring fusion and fission to Minecraft. Generate massive amounts of energy — but handle with extreme care!"
+      ]
+    },
+    "fr": {
+      "title": "Rotor de Turbine",
+      "subtitle": "Fusion frontier.",
+      "desc": [
+        "§2Rotor de Turbine§r — Réacteurs Mekanism : fusion et fission. Énergie massive, prudence extrême !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "02C6132919DEAF2A",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "7B385FD1CBE02C85",
+      "007781116E4E6179",
+      "3899C343AE22A6CA",
+      "09AF0D9FFDA03B27",
+      "0E9ED9986642A7FF",
+      "3F75EBCFA03736AB",
+      "6EF78719DB78382F"
+    ],
+    "en": {
+      "title": "Pressure Disperser",
+      "subtitle": "Reactor engineering.",
+      "desc": [
+        "§2Pressure Disperser§r — Nuclear engineering at its finest. Build reactors to power your entire base and beyond."
+      ]
+    },
+    "fr": {
+      "title": "Disperseur de Pression",
+      "subtitle": "Réacteur engineering.",
+      "desc": [
+        "§2Disperseur de Pression§r — Le génie nucléaire. Alimentez toute votre base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "6CCE920735187234",
+    "icon": null,
+    "shape": "octagon",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "4211F29561F21643",
+      "02C6132919DEAF2A",
+      "3E5BE6D6422F682C",
+      "7EB682A4A4503100",
+      "04213708A015D94F",
+      "0DB3F0526FED9FBA",
+      "3A10B05685CB2D73",
+      "5D8D61F0070CE37F",
+      "3045BF441AC70B19",
+      "48BD16ACD9A30857"
+    ],
+    "en": {
+      "title": "Turbine Casing",
+      "subtitle": "Handle with care.",
+      "desc": [
+        "§2Turbine Casing§r — Nuclear engineering at its finest. Build reactors to power your entire base and beyond."
+      ]
+    },
+    "fr": {
+      "title": "Boîtier de Turbine",
+      "subtitle": "Manipuler avec soin.",
+      "desc": [
+        "§2Boîtier de Turbine§r — Le génie nucléaire. Alimentez toute votre base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "6B7E13AB3BF2C5C8",
+    "icon": null,
+    "shape": "octagon",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "141D68BAD039784B",
+      "5B9F3F32AB28A83A",
+      "6AFE2A09609B5FC1",
+      "7AE9A2F6153B1667",
+      "2FCC7E1377CDDC68",
+      "60E9A6B22623DC4E",
+      "70D379B935C0FE7E",
+      "569D59AF13AF6B4E",
+      "492B866023128B7B",
+      "15E1D36E2CE6FA0D"
+    ],
+    "en": {
+      "title": "Pressure Disperser",
+      "subtitle": "Atomic precision.",
+      "desc": [
+        "§2Pressure Disperser§r — Nuclear engineering at its finest. Build reactors to power your entire base and beyond."
+      ]
+    },
+    "fr": {
+      "title": "Disperseur de Pression",
+      "subtitle": "Atomic precision.",
+      "desc": [
+        "§2Disperseur de Pression§r — Le génie nucléaire. Alimentez toute votre base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "141D68BAD039784B",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "17E2C05C48B03043",
+      "51ACB3D084D22D63",
+      "2D6A5B51E7B9DD9F"
+    ],
+    "en": {
+      "title": "Boiler Casing",
+      "subtitle": "Power of the atom.",
+      "desc": [
+        "§2Boiler Casing§r — Nuclear engineering at its finest. Build reactors to power your entire base and beyond."
+      ]
+    },
+    "fr": {
+      "title": "Boîtier de Chaudière",
+      "subtitle": "Puissance de l'atome.",
+      "desc": [
+        "§2Boîtier de Chaudière§r — Le génie nucléaire. Alimentez toute votre base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "5B9F3F32AB28A83A",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "37A927C2B371D24F",
+      "64B7DC6996AE42E8",
+      "18DBF948D3B19634"
+    ],
+    "en": {
+      "title": "Superheating Element",
+      "subtitle": "Energy at scale.",
+      "desc": [
+        "§2Superheating Element§r — Mekanism Reactors bring fusion and fission to Minecraft. Generate massive amounts of energy — but handle with extreme care!"
+      ]
+    },
+    "fr": {
+      "title": "Élément de Surchauffe",
+      "subtitle": "Énergie à l'échelle.",
+      "desc": [
+        "§2Élément de Surchauffe§r — Réacteurs Mekanism : fusion et fission. Énergie massive, prudence extrême !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  }
+]

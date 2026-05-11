@@ -1,0 +1,84 @@
+[
+  {
+    "id": "2000000000000020",
+    "icon": null,
+    "shape": null,
+    "tasks": [
+      {
+        "type": "structure"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "2000000000000010",
+      "2000000000000105",
+      "5C91F5AE336E0446",
+      "2000000000000021"
+    ],
+    "en": {
+      "title": "City Hunter",
+      "subtitle": "§7Dragon's domain§r",
+      "desc": [
+        "Find an End City."
+      ]
+    },
+    "fr": {
+      "title": "City Chasseur",
+      "subtitle": "§7La frontière finale§r",
+      "desc": [
+        "Find an End City."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": [
+        "IDENTICAL_TO_EN"
+      ]
+    }
+  },
+  {
+    "id": "2000000000000030",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "2000000000000005",
+      "2000000000000108",
+      "63C90DCC48C1DB12",
+      "2000000000000031"
+    ],
+    "en": {
+      "title": "Alien Food",
+      "subtitle": "§7Into the void§r",
+      "desc": [
+        "Collect Chorus Fruit."
+      ]
+    },
+    "fr": {
+      "title": "Alien Food",
+      "subtitle": "§7Au-delà du portail§r",
+      "desc": [
+        "Récoltez du Fruit de Chorus."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  }
+]

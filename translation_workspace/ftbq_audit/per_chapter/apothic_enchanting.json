@@ -1,0 +1,1701 @@
+[
+  {
+    "id": "1FAFDB20F504688E",
+    "icon": null,
+    "shape": "gear",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 1
+      }
+    ],
+    "deps": [
+      "60F215C2152F90F5",
+      "07A1BED0B55C47C6",
+      "79FB7E7194336B30"
+    ],
+    "en": {
+      "title": "Enchanting Table",
+      "subtitle": "Words of power.",
+      "desc": [
+        "§5Enchanting Table§r — The library holds secrets of immense power. Use Apothic Enchanting to unlock them all."
+      ]
+    },
+    "fr": {
+      "title": "Table d'Enchantement",
+      "subtitle": "Mots de pouvoir.",
+      "desc": [
+        "§5Table d'Enchantement§r — La bibliothèque recèle des secrets d'une puissance immense. Utilisez l'enchantement Apothic pour tous les débloquer."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "minecraft:bookshelf",
+    "icon": "minecraft:bookshelf",
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 2
+      }
+    ],
+    "deps": [
+      "1FAFDB20F504688E",
+      "79AF63E77AD70A93",
+      "370E5EEE1BB89C66",
+      "41FE2B719EFB9FBB",
+      "3D62C020980A2DEC"
+    ],
+    "en": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "fr": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "issues": {
+      "title": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "subtitle": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "desc": [
+        "EMPTY",
+        "MISSING"
+      ]
+    }
+  },
+  {
+    "id": "31E7F7464D79F881",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 3
+      }
+    ],
+    "deps": [
+      "6C2C135B9B7B9402",
+      "66676D590EF9622E",
+      "3F82A941E304DC1A",
+      "7330FAC338D718B8"
+    ],
+    "en": {
+      "title": "Lapis Lazuli",
+      "subtitle": "Shelf of secrets.",
+      "desc": [
+        "§5Lapis Lazuli§r — The library holds secrets of immense power. Use Apothic Enchanting to unlock them all."
+      ]
+    },
+    "fr": {
+      "title": "Lapis Lazuli",
+      "subtitle": "Étagère des secrets.",
+      "desc": [
+        "§5Lapis Lazuli§r — La bibliothèque recèle des secrets d'une puissance immense. Utilisez l'enchantement Apothic pour tous les débloquer."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "minecraft:trident",
+    "icon": "minecraft:trident",
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "31E7F7464D79F881",
+      "24C757B8AA6841F6",
+      "0645A7EF1DF5FD77",
+      "5301BBAED48857AF"
+    ],
+    "en": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "fr": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "issues": {
+      "title": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "subtitle": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "desc": [
+        "EMPTY",
+        "MISSING"
+      ]
+    }
+  },
+  {
+    "id": "6884E25641A1020C",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 3
+      }
+    ],
+    "deps": [
+      "0A0A23D83E1C9F91",
+      "1D1FCAFE83051C18",
+      "08199BBE587F9712"
+    ],
+    "en": {
+      "title": "Library",
+      "subtitle": "Inscribe your destiny.",
+      "desc": [
+        "§5Library§r — The library holds secrets of immense power. Use Apothic Enchanting to unlock them all."
+      ]
+    },
+    "fr": {
+      "title": "Bibliothèque",
+      "subtitle": "Inscrivez votre destin.",
+      "desc": [
+        "§5Bibliothèque§r — La bibliothèque recèle des secrets d'une puissance immense. Utilisez l'enchantement Apothic pour tous les débloquer."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "42746659C66CF17F",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 10
+      }
+    ],
+    "deps": [
+      "6884E25641A1020C",
+      "31E7F7464D79F881",
+      "08B1BA95E0489794",
+      "271F738AA3CDE608",
+      "153AFC342BD8CEB5"
+    ],
+    "en": {
+      "title": "Ender Library",
+      "subtitle": "Ancient enchantments.",
+      "desc": [
+        "§5Ender Library§r — Apothic Enchanting expands the enchantment system far beyond vanilla limitations."
+      ]
+    },
+    "fr": {
+      "title": "Bibliothèque de l'Ender",
+      "subtitle": "Enchantements anciens.",
+      "desc": [
+        "§5Bibliothèque de l'Ender§r — L'enchantement Apothic étend le système d'enchantement bien au-delà des limites de la version de base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "78FEDE6FA4845585",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 5
+      }
+    ],
+    "deps": [
+      "62D39F68DE6E44A4",
+      "586D5DE28EEC8014",
+      "0F3A0A4DC18E5E55",
+      "34A3260C7B0CCD7F",
+      "555FBF9779D921D1",
+      "5EF1526352FCBF67",
+      "4CD8A5E34AE4172F",
+      "6F7BC0A869415EBF"
+    ],
+    "en": {
+      "title": "Special Bookshelves",
+      "subtitle": "Bookshelf of wonders.",
+      "desc": [
+        "§5Special Bookshelves§r — The library holds secrets of immense power. Use Apothic Enchanting to unlock them all."
+      ]
+    },
+    "fr": {
+      "title": "Étagères Spéciales",
+      "subtitle": "Bibliothèque des merveilles.",
+      "desc": [
+        "§5Étagères Spéciales§r — La bibliothèque recèle des secrets d'une puissance immense. Utilisez l'enchantement Apothic pour tous les débloquer."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "0A3C464EF7CDD5F6",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 2
+      }
+    ],
+    "deps": [
+      "6C2C135B9B7B9402",
+      "58356C984C4A57AB",
+      "150984E8D987A97F",
+      "41DDAAE32C45DF79"
+    ],
+    "en": {
+      "title": "Hellshelf",
+      "subtitle": "Words of power.",
+      "desc": [
+        "§5Hellshelf§r — Apothic Enchanting expands the enchantment system far beyond vanilla limitations."
+      ]
+    },
+    "fr": {
+      "title": "Hellshelf",
+      "subtitle": "Mots de pouvoir.",
+      "desc": [
+        "§5Hellshelf§r — L'enchantement Apothic étend le système d'enchantement bien au-delà des limites de la version de base."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "45161821C221EF0B",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 5
+      }
+    ],
+    "deps": [
+      "0A3C464EF7CDD5F6",
+      "5EA31425E6857271",
+      "5D46DA9635EF6DEB",
+      "129FC7396A82D377"
+    ],
+    "en": {
+      "title": "Infused Hellshelf",
+      "subtitle": "Enchant beyond limits.",
+      "desc": [
+        "§5Infused Hellshelf§r — The library holds secrets of immense power. Use Apothic Enchanting to unlock them all."
+      ]
+    },
+    "fr": {
+      "title": "Étagère Infernale Infusée",
+      "subtitle": "Enchantez au-delà des limites.",
+      "desc": [
+        "§5Infused Hellshelf§r — La bibliothèque recèle des secrets d'une puissance immense. Utilisez l'enchantement Apothic pour tous les débloquer."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "60850E717C747A78",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 5
+      }
+    ],
+    "deps": [
+      "45161821C221EF0B",
+      "5B7770C70016E1AE",
+      "16BEA93581C90855",
+      "52E874AC63EA495C"
+    ],
+    "en": {
+      "title": "Sightshelf",
+      "subtitle": "The arcane library.",
+      "desc": [
+        "§5Sightshelf§r — Apothic Enchanting expands the enchantment system far beyond vanilla limitations."
+      ]
+    },
+    "fr": {
+      "title": "Étagère de Vue",
+      "subtitle": "La bibliothèque arcanique.",
+      "desc": [
+        "§5Sightshelf§r — L'enchantement Apothic étend le système d'enchantement bien au-delà des limites de la version de base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "51E554305FFEBA1D",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 3
+      }
+    ],
+    "deps": [
+      "4918BD152EFE6067",
+      "48F995AC80ADFEB6",
+      "0FF6548CFF6FA8E0"
+    ],
+    "en": {
+      "title": "Blazing Hellshelf",
+      "subtitle": "Shelf of secrets.",
+      "desc": [
+        "§5Blazing Hellshelf§r — The library holds secrets of immense power. Use Apothic Enchanting to unlock them all."
+      ]
+    },
+    "fr": {
+      "title": "Étagère Infernale Flamboyante",
+      "subtitle": "Étagère des secrets.",
+      "desc": [
+        "§5Blazing Hellshelf§r — La bibliothèque recèle des secrets d'une puissance immense. Utilisez l'enchantement Apothic pour tous les débloquer."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "7C758209D06ED0E3",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 3
+      }
+    ],
+    "deps": [
+      "45161821C221EF0B",
+      "0C38C1AA12ADB7B2",
+      "057EB8575E0E6127",
+      "603467A3762BE456"
+    ],
+    "en": {
+      "title": "Glowing Hellshelf",
+      "subtitle": "Knowledge is power.",
+      "desc": [
+        "§5Glowing Hellshelf§r — Apothic Enchanting expands the enchantment system far beyond vanilla limitations."
+      ]
+    },
+    "fr": {
+      "title": "Étagère Infernale Luisante",
+      "subtitle": "Le savoir est le pouvoir.",
+      "desc": [
+        "§5Étagère Infernale Luisante§r — L'enchantement Apothic étend le système d'enchantement bien au-delà des limites de la version de base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "235E3C386E8D36A3",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 7
+      }
+    ],
+    "deps": [
+      "7C758209D06ED0E3",
+      "191A7F3C9FBA4C13",
+      "6027E4C2801FA4F4",
+      "2B9F99F6035232B2",
+      "376DFA51F445EEA9",
+      "676F0822F9E6A253"
+    ],
+    "en": {
+      "title": "Deepshelf",
+      "subtitle": "Inscribe your destiny.",
+      "desc": [
+        "§5Deepshelf§r — Apothic Enchanting expands the enchantment system far beyond vanilla limitations."
+      ]
+    },
+    "fr": {
+      "title": "Étagère Profonde",
+      "subtitle": "Inscrivez votre destin.",
+      "desc": [
+        "§5Deepshelf§r — L'enchantement Apothic étend le système d'enchantement bien au-delà des limites de la version de base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "6852BEFDD4DE4E4B",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 5
+      }
+    ],
+    "deps": [
+      "235E3C386E8D36A3",
+      "7BD13B30F24025B9",
+      "0E6ADF2CE4802855",
+      "6FDF93BA303BB934"
+    ],
+    "en": {
+      "title": "Soul Touched Deepshelf",
+      "subtitle": "Ancient enchantments.",
+      "desc": [
+        "§5Soul Touched Deepshelf§r — The library holds secrets of immense power. Use Apothic Enchanting to unlock them all."
+      ]
+    },
+    "fr": {
+      "title": "Étagère Profonde Touchée par l'Âme",
+      "subtitle": "Enchantements anciens.",
+      "desc": [
+        "§5Étagère Profonde Touchée par l'Âme§r — La bibliothèque recèle des secrets d'une puissance immense. Utilisez l'enchantement Apothic pour tous les débloquer."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "24FCFF18296ED907",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 6
+      }
+    ],
+    "deps": [
+      "6852BEFDD4DE4E4B",
+      "3D1E8ADA0BC7BF95",
+      "2CCB96E5C5659751",
+      "73E92F9C6CF389A4"
+    ],
+    "en": {
+      "title": "Soul Touched Sculkshelf",
+      "subtitle": "Bookshelf of wonders.",
+      "desc": [
+        "§5Soul Touched Sculkshelf§r — Apothic Enchanting expands the enchantment system far beyond vanilla limitations."
+      ]
+    },
+    "fr": {
+      "title": "Étagère de Sculk Touchée par l'Âme",
+      "subtitle": "Bibliothèque des merveilles.",
+      "desc": [
+        "§5Étagère de Sculk Touchée par l'Âme§r — L'enchantement Apothic étend le système d'enchantement bien au-delà des limites de la version de base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "0518551637F76C50",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 5
+      }
+    ],
+    "deps": [
+      "235E3C386E8D36A3",
+      "6D6B0BDD5DA11489",
+      "185F1411A4D5A331",
+      "2F976A158520C050"
+    ],
+    "en": {
+      "title": "Echoing Deepshelf",
+      "subtitle": "Words of power.",
+      "desc": [
+        "§5Echoing Deepshelf§r — Apothic Enchanting expands the enchantment system far beyond vanilla limitations."
+      ]
+    },
+    "fr": {
+      "title": "Étagère Profonde Résonnante",
+      "subtitle": "Mots de pouvoir.",
+      "desc": [
+        "§5Étagère Profonde Résonnante§r — L'enchantement Apothic étend le système d'enchantement bien au-delà des limites de la version de base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2EC2FA680076C07D",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 6
+      }
+    ],
+    "deps": [
+      "0518551637F76C50",
+      "73DCB0321FD4233A",
+      "7D5AA30CF1C50663",
+      "1A60908731AA9DD9"
+    ],
+    "en": {
+      "title": "Echoing Sculkshelf",
+      "subtitle": "Enchant beyond limits.",
+      "desc": [
+        "§5Echoing Sculkshelf§r — The library holds secrets of immense power. Use Apothic Enchanting to unlock them all."
+      ]
+    },
+    "fr": {
+      "title": "Étagère de Sculk Résonnante",
+      "subtitle": "Enchantez au-delà des limites.",
+      "desc": [
+        "§5Étagère de Sculk Résonnante§r — La bibliothèque recèle des secrets d'une puissance immense. Utilisez l'enchantement Apothic pour tous les débloquer."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "apothic_enchanting:endshelf",
+    "icon": "apothic_enchanting:endshelf",
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 15
+      }
+    ],
+    "deps": [
+      "158F872A3A2C3650",
+      "1873205CF5247E3E",
+      "559570AE815E6072",
+      "499BB7C526DE40F3",
+      "331C93F7B2DD10FD",
+      "7EADF4C1C40C16EA"
+    ],
+    "en": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "fr": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "issues": {
+      "title": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "subtitle": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "desc": [
+        "EMPTY",
+        "MISSING"
+      ]
+    }
+  },
+  {
+    "id": "523DC411241B470A",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 5
+      }
+    ],
+    "deps": [
+      "6C2C135B9B7B9402",
+      "7DE054859211C26E",
+      "488A567AC95255D9"
+    ],
+    "en": {
+      "title": "Geode Shelf",
+      "subtitle": "Shelf of secrets.",
+      "desc": [
+        "§5Geode Shelf§r — The library holds secrets of immense power. Use Apothic Enchanting to unlock them all."
+      ]
+    },
+    "fr": {
+      "title": "Geode Shelf",
+      "subtitle": "Étagère des secrets.",
+      "desc": [
+        "§5Geode Shelf§r — La bibliothèque recèle des secrets d'une puissance immense. Utilisez l'enchantement Apothic pour tous les débloquer."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "5DE45BC0258D1B0B",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 5
+      }
+    ],
+    "deps": [
+      "1873205CF5247E3E",
+      "4E3CC8746E6C849A",
+      "0AA868ED6C5DB39D",
+      "7BC2506AE56FB86A",
+      "0424B7572BEF5801"
+    ],
+    "en": {
+      "title": "Ender Pearl",
+      "subtitle": "Knowledge is power.",
+      "desc": [
+        "§5Ender Pearl§r — Apothic Enchanting expands the enchantment system far beyond vanilla limitations."
+      ]
+    },
+    "fr": {
+      "title": "Perle de l'Ender",
+      "subtitle": "Le savoir est le pouvoir.",
+      "desc": [
+        "§5Ender Pearl§r — L'enchantement Apothic étend le système d'enchantement bien au-delà des limites de la version de base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "148A33CC36B2563A",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 15
+      }
+    ],
+    "deps": [
+      "1873205CF5247E3E",
+      "2154DCB475A5379E",
+      "487FC0DEB241B15C",
+      "0A0B123E455860A7"
+    ],
+    "en": {
+      "title": "Draconic Endshelf",
+      "subtitle": "Inscribe your destiny.",
+      "desc": [
+        "§5Draconic Endshelf§r — Apothic Enchanting expands the enchantment system far beyond vanilla limitations."
+      ]
+    },
+    "fr": {
+      "title": "Étagère de l'End Draconique",
+      "subtitle": "Inscrivez votre destin.",
+      "desc": [
+        "§5Draconic Endshelf§r — L'enchantement Apothic étend le système d'enchantement bien au-delà des limites de la version de base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "apothic_enchanting:treasure_shelf",
+    "icon": "apothic_enchanting:treasure_shelf",
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 30
+      }
+    ],
+    "deps": [
+      "148A33CC36B2563A",
+      "5DE45BC0258D1B0B",
+      "7C9D9D1C054874A7",
+      "34591069EBCE4916",
+      "4888557D509D668F",
+      "4721AE1E6279934B",
+      "1F985EE897C559DA",
+      "7E52C8FAC7C1773C",
+      "1CB04FAC692B7887",
+      "0BB099AA11E08F8B"
+    ],
+    "en": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "fr": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "issues": {
+      "title": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "subtitle": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "desc": [
+        "EMPTY",
+        "MISSING"
+      ]
+    }
+  },
+  {
+    "id": "6A07D09831428CB9",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 2
+      }
+    ],
+    "deps": [
+      "6C2C135B9B7B9402",
+      "65D2F0763236ECB7",
+      "0A3F731F39009DCF",
+      "44707F07C3FB9F95"
+    ],
+    "en": {
+      "title": "Seashelf",
+      "subtitle": "Bookshelf of wonders.",
+      "desc": [
+        "§5Seashelf§r — Apothic Enchanting expands the enchantment system far beyond vanilla limitations."
+      ]
+    },
+    "fr": {
+      "title": "Étagère Marine",
+      "subtitle": "Bibliothèque des merveilles.",
+      "desc": [
+        "§5Seashelf§r — L'enchantement Apothic étend le système d'enchantement bien au-delà des limites de la version de base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "24391162F4FF0587",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 5
+      }
+    ],
+    "deps": [
+      "6A07D09831428CB9",
+      "278C636BE43918C4",
+      "097B289500B5F265",
+      "698677C8CBD26D6A"
+    ],
+    "en": {
+      "title": "Infused Seashelf",
+      "subtitle": "Words of power.",
+      "desc": [
+        "§5Infused Seashelf§r — Apothic Enchanting expands the enchantment system far beyond vanilla limitations."
+      ]
+    },
+    "fr": {
+      "title": "Étagère Marine Infusée",
+      "subtitle": "Mots de pouvoir.",
+      "desc": [
+        "§5Infused Seashelf§r — L'enchantement Apothic étend le système d'enchantement bien au-delà des limites de la version de base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "5C73247A48E72FB3",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 5
+      }
+    ],
+    "deps": [
+      "24391162F4FF0587",
+      "7DC486EF3B6FAC81",
+      "58CAE81FA383C5D3",
+      "2ED050EAE9420AC3",
+      "278EF752D20A846E"
+    ],
+    "en": {
+      "title": "Filtering Shelf",
+      "subtitle": "Enchant beyond limits.",
+      "desc": [
+        "§5Filtering Shelf§r — Apothic Enchanting expands the enchantment system far beyond vanilla limitations."
+      ]
+    },
+    "fr": {
+      "title": "Étagère de Filtrage",
+      "subtitle": "Enchantez au-delà des limites.",
+      "desc": [
+        "§5Étagère de Filtrage§r — L'enchantement Apothic étend le système d'enchantement bien au-delà des limites de la version de base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "70D2C5FAC661E01A",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 3
+      }
+    ],
+    "deps": [
+      "24391162F4FF0587",
+      "190AEA8659AF3F1C",
+      "10A235C2C86BA00A",
+      "37021196BD126D2A"
+    ],
+    "en": {
+      "title": "Heart Seashelf",
+      "subtitle": "The arcane library.",
+      "desc": [
+        "§5Heart Seashelf§r — The library holds secrets of immense power. Use Apothic Enchanting to unlock them all."
+      ]
+    },
+    "fr": {
+      "title": "Cœur Seashelf",
+      "subtitle": "La bibliothèque arcanique.",
+      "desc": [
+        "§5Heart Seashelf§r — La bibliothèque recèle des secrets d'une puissance immense. Utilisez l'enchantement Apothic pour tous les débloquer."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "191A7F3C9FBA4C13",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 3
+      }
+    ],
+    "deps": [
+      "24391162F4FF0587",
+      "43BC63F425C13BCF",
+      "20E67466B420AC72",
+      "75C2FE61F9DC6234"
+    ],
+    "en": {
+      "title": "Crystal Seashelf",
+      "subtitle": "Shelf of secrets.",
+      "desc": [
+        "§5Crystal Seashelf§r — The library holds secrets of immense power. Use Apothic Enchanting to unlock them all."
+      ]
+    },
+    "fr": {
+      "title": "Étagère en Cristal de Mer",
+      "subtitle": "Étagère des secrets.",
+      "desc": [
+        "§5Étagère en Cristal de Mer§r — La bibliothèque recèle des secrets d'une puissance immense. Utilisez l'enchantement Apothic pour tous les débloquer."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "62D39F68DE6E44A4",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 3
+      }
+    ],
+    "deps": [
+      "6C2C135B9B7B9402",
+      "42050152BB940A49",
+      "5CF75A59CCBC0850",
+      "631CC0E52639A297"
+    ],
+    "en": {
+      "title": "Seashelf",
+      "subtitle": "Knowledge is power.",
+      "desc": [
+        "§5Seashelf§r — The library holds secrets of immense power. Use Apothic Enchanting to unlock them all."
+      ]
+    },
+    "fr": {
+      "title": "Étagère Marine",
+      "subtitle": "Le savoir est le pouvoir.",
+      "desc": [
+        "§5Seashelf§r — La bibliothèque recèle des secrets d'une puissance immense. Utilisez l'enchantement Apothic pour tous les débloquer."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "0F3A0A4DC18E5E55",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 3
+      }
+    ],
+    "deps": [
+      "6C2C135B9B7B9402",
+      "6C7F38A4E08B04E8",
+      "138718EDC725F246",
+      "432FCFECDAA542F1"
+    ],
+    "en": {
+      "title": "Bookshelf",
+      "subtitle": "Inscribe your destiny.",
+      "desc": [
+        "§5Bookshelf§r — Apothic Enchanting expands the enchantment system far beyond vanilla limitations."
+      ]
+    },
+    "fr": {
+      "title": "Bibliothèque",
+      "subtitle": "Inscrivez votre destin.",
+      "desc": [
+        "§5Bookshelf§r — L'enchantement Apothic étend le système d'enchantement bien au-delà des limites de la version de base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "586D5DE28EEC8014",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 3
+      }
+    ],
+    "deps": [
+      "6C2C135B9B7B9402",
+      "742FE230577514BF",
+      "0230DA5A19566EE5",
+      "75D4164F2F0CF721"
+    ],
+    "en": {
+      "title": "Hellshelf",
+      "subtitle": "Ancient enchantments.",
+      "desc": [
+        "§5Hellshelf§r — The library holds secrets of immense power. Use Apothic Enchanting to unlock them all."
+      ]
+    },
+    "fr": {
+      "title": "Hellshelf",
+      "subtitle": "Enchantements anciens.",
+      "desc": [
+        "§5Hellshelf§r — La bibliothèque recèle des secrets d'une puissance immense. Utilisez l'enchantement Apothic pour tous les débloquer."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "158F872A3A2C3650",
+    "icon": null,
+    "shape": "circle",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 10
+      }
+    ],
+    "deps": [
+      "2EC2FA680076C07D",
+      "24FCFF18296ED907",
+      "523DC411241B470A",
+      "5F7374AE0CE2E02E",
+      "16C9FBF745699858",
+      "7A94571B129BE259"
+    ],
+    "en": {
+      "title": "Dragon Breath",
+      "subtitle": "Bookshelf of wonders.",
+      "desc": [
+        "§5Dragon Breath§r — The library holds secrets of immense power. Use Apothic Enchanting to unlock them all."
+      ]
+    },
+    "fr": {
+      "title": "Souffle de Dragon",
+      "subtitle": "Bibliothèque des merveilles.",
+      "desc": [
+        "§5Dragon Breath§r — La bibliothèque recèle des secrets d'une puissance immense. Utilisez l'enchantement Apothic pour tous les débloquer."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "001A348054127235",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "31E7F7464D79F881",
+      "3266092032FDFA9B",
+      "403BAAF46F798051",
+      "534457B54999863B"
+    ],
+    "en": {
+      "title": "Budding Amethyst",
+      "subtitle": "Words of power.",
+      "desc": [
+        "§5Budding Amethyst§r — Apothic Enchanting expands the enchantment system far beyond vanilla limitations."
+      ]
+    },
+    "fr": {
+      "title": "Géode d'Améthyste",
+      "subtitle": "Mots de pouvoir.",
+      "desc": [
+        "§5Budding Amethyst§r — L'enchantement Apothic étend le système d'enchantement bien au-delà des limites de la version de base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "78E66F1DE42C747A",
+    "icon": null,
+    "shape": "circle",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "31E7F7464D79F881",
+      "3D6F437F4E276207",
+      "2F3D51FDCAEE0410"
+    ],
+    "en": {
+      "title": "Echo Shard",
+      "subtitle": "Enchant beyond limits.",
+      "desc": [
+        "§5Echo Shard§r — Apothic Enchanting expands the enchantment system far beyond vanilla limitations."
+      ]
+    },
+    "fr": {
+      "title": "Éclat d'Écho",
+      "subtitle": "Enchantez au-delà des limites.",
+      "desc": [
+        "§5Echo Shard§r — L'enchantement Apothic étend le système d'enchantement bien au-delà des limites de la version de base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "6220EDE42C813C1B",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 5
+      },
+      {
+        "type": "toast"
+      }
+    ],
+    "deps": [
+      "31E7F7464D79F881",
+      "494A850E97475C16",
+      "5990C633ED14DC48",
+      "4644C76CEC129AA4"
+    ],
+    "en": {
+      "title": "Charm Potion",
+      "subtitle": "§7Ancient enchantments§r",
+      "desc": [
+        "§5Smart Filter§r — Apothic Enchanting expands the enchantment system far beyond vanilla limitations."
+      ]
+    },
+    "fr": {
+      "title": "Potion de Charme",
+      "subtitle": "§7Mots de pouvoir§r",
+      "desc": [
+        "§5Smart Filter§r — L'enchantement Apothic étend le système d'enchantement bien au-delà des limites de la version de base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "105442DA79829777",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "4E895C54651A3CB3",
+      "37153A219BBE8466",
+      "605D32323A61DDD7"
+    ],
+    "en": {
+      "title": "Scrap Tome",
+      "subtitle": "The arcane library.",
+      "desc": [
+        "§5Scrap Tome§r — Apothic Enchanting expands the enchantment system far beyond vanilla limitations."
+      ]
+    },
+    "fr": {
+      "title": "Tome de Récupération",
+      "subtitle": "La bibliothèque arcanique.",
+      "desc": [
+        "§5Tome de Récupération§r — L'enchantement Apothic étend le système d'enchantement bien au-delà des limites de la version de base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4E895C54651A3CB3",
+    "icon": null,
+    "shape": "pentagon",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "6C2C135B9B7B9402",
+      "583154B1FC32C8A9",
+      "5E3BC5BA8E70EBDF",
+      "32E6C837728B2EF1"
+    ],
+    "en": {
+      "title": "Book",
+      "subtitle": "Shelf of secrets.",
+      "desc": [
+        "§5Book§r — Apothic Enchanting expands the enchantment system far beyond vanilla limitations."
+      ]
+    },
+    "fr": {
+      "title": "Livre",
+      "subtitle": "Étagère des secrets.",
+      "desc": [
+        "§5Livre§r — L'enchantement Apothic étend le système d'enchantement bien au-delà des limites de la version de base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "377D6CF86BC1C64F",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 2
+      }
+    ],
+    "deps": [
+      "31E7F7464D79F881",
+      "105442DA79829777",
+      "458FB5C6E2A88FA7",
+      "2585EAFD4FC93104"
+    ],
+    "en": {
+      "title": "Improved Scrap Tome",
+      "subtitle": "Knowledge is power.",
+      "desc": [
+        "§5Improved Scrap Tome§r — The library holds secrets of immense power. Use Apothic Enchanting to unlock them all."
+      ]
+    },
+    "fr": {
+      "title": "Tome de Ferraille Amélioré",
+      "subtitle": "Le savoir est le pouvoir.",
+      "desc": [
+        "§5Improved Scrap Tome§r — La bibliothèque recèle des secrets d'une puissance immense. Utilisez l'enchantement Apothic pour tous les débloquer."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "3D31B94CC42BCE43",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 4
+      }
+    ],
+    "deps": [
+      "31E7F7464D79F881",
+      "377D6CF86BC1C64F",
+      "2679849D231F2044",
+      "25D6D39D4C5E62DD"
+    ],
+    "en": {
+      "title": "Extraction Tome",
+      "subtitle": "Inscribe your destiny.",
+      "desc": [
+        "§5Extraction Tome§r — Apothic Enchanting expands the enchantment system far beyond vanilla limitations."
+      ]
+    },
+    "fr": {
+      "title": "Extraction Tome",
+      "subtitle": "Inscrivez votre destin.",
+      "desc": [
+        "§5Extraction Tome§r — L'enchantement Apothic étend le système d'enchantement bien au-delà des limites de la version de base."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "224716A537F2FFA0",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "4E895C54651A3CB3",
+      "3AA6589F33924CFC",
+      "5AB4C41B6800D7FA"
+    ],
+    "en": {
+      "title": "Enchanted Book",
+      "subtitle": "Ancient enchantments.",
+      "desc": [
+        "§5Enchanted Book§r — Apothic Enchanting expands the enchantment system far beyond vanilla limitations."
+      ]
+    },
+    "fr": {
+      "title": "Livre Enchanté",
+      "subtitle": "Enchantements anciens.",
+      "desc": [
+        "§5Enchanted Book§r — L'enchantement Apothic étend le système d'enchantement bien au-delà des limites de la version de base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "516E66BE01EE5B31",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "4E895C54651A3CB3",
+      "0C6E361734890FB4",
+      "52C6DC68BF096122"
+    ],
+    "en": {
+      "title": "Enchanted Book",
+      "subtitle": "Bookshelf of wonders.",
+      "desc": [
+        "§5Enchanted Book§r — Apothic Enchanting expands the enchantment system far beyond vanilla limitations."
+      ]
+    },
+    "fr": {
+      "title": "Livre Enchanté",
+      "subtitle": "Bibliothèque des merveilles.",
+      "desc": [
+        "§5Enchanted Book§r — L'enchantement Apothic étend le système d'enchantement bien au-delà des limites de la version de base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "43167C59036E79A7",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "4E895C54651A3CB3",
+      "1548701F30A2726D",
+      "598F1FCB5B5ED8FC"
+    ],
+    "en": {
+      "title": "Enchanted Book",
+      "subtitle": "Words of power.",
+      "desc": [
+        "§5Enchanted Book§r — Apothic Enchanting expands the enchantment system far beyond vanilla limitations."
+      ]
+    },
+    "fr": {
+      "title": "Livre Enchanté",
+      "subtitle": "Mots de pouvoir.",
+      "desc": [
+        "§5Enchanted Book§r — L'enchantement Apothic étend le système d'enchantement bien au-delà des limites de la version de base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "6C57D64518FF22C0",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "4E895C54651A3CB3",
+      "5041C6C262713616",
+      "4FB7A103659539EA"
+    ],
+    "en": {
+      "title": "Tome of Extraction",
+      "subtitle": "Enchant beyond limits.",
+      "desc": [
+        "§5Tome of Extraction§r — Apothic Enchanting expands the enchantment system far beyond vanilla limitations."
+      ]
+    },
+    "fr": {
+      "title": "Tome d'Extraction",
+      "subtitle": "Enchantez au-delà des limites.",
+      "desc": [
+        "§5Tome d'Extraction§r — L'enchantement Apothic étend le système d'enchantement bien au-delà des limites de la version de base."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "695889817162EFC7",
+    "icon": null,
+    "shape": "circle",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "31E7F7464D79F881",
+      "43FEFBD448F0AD37",
+      "65D6DA1FFF0EEF80"
+    ],
+    "en": {
+      "title": "Experience Bottle",
+      "subtitle": "The arcane library.",
+      "desc": [
+        "§5Experience Bottle§r — Apothic Enchanting expands the enchantment system far beyond vanilla limitations."
+      ]
+    },
+    "fr": {
+      "title": "Experience Bottle",
+      "subtitle": "La bibliothèque arcanique.",
+      "desc": [
+        "§5Experience Bottle§r — L'enchantement Apothic étend le système d'enchantement bien au-delà des limites de la version de base."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "784466C3813AA506",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 1
+      }
+    ],
+    "deps": [
+      "4FBFC58F080233B7",
+      "4D996EFF17A3491A",
+      "24949068EC6DAD83"
+    ],
+    "en": {
+      "title": "Flimsy Ender Lead",
+      "subtitle": "Shelf of secrets.",
+      "desc": [
+        "§5Flimsy Ender Lead§r — The library holds secrets of immense power. Use Apothic Enchanting to unlock them all."
+      ]
+    },
+    "fr": {
+      "title": "Flimsy Ender Lead",
+      "subtitle": "Étagère des secrets.",
+      "desc": [
+        "§5Flimsy Ender Lead§r — La bibliothèque recèle des secrets d'une puissance immense. Utilisez l'enchantement Apothic pour tous les débloquer."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "78BFDD3A9B996655",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 3
+      }
+    ],
+    "deps": [
+      "31E7F7464D79F881",
+      "784466C3813AA506",
+      "0A2D6DFB0AB8D6F4",
+      "2CA66D05CAFD351E",
+      "75251BD315DE1E50"
+    ],
+    "en": {
+      "title": "Ender Lead",
+      "subtitle": "Knowledge is power.",
+      "desc": [
+        "§5Ender Lead§r — The library holds secrets of immense power. Use Apothic Enchanting to unlock them all."
+      ]
+    },
+    "fr": {
+      "title": "Laisse de l'Ender",
+      "subtitle": "Le savoir est le pouvoir.",
+      "desc": [
+        "§5Ender Lead§r — La bibliothèque recèle des secrets d'une puissance immense. Utilisez l'enchantement Apothic pour tous les débloquer."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "61217D80BFF8A858",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 5
+      }
+    ],
+    "deps": [
+      "31E7F7464D79F881",
+      "78BFDD3A9B996655",
+      "241B02242A3D5D04",
+      "435FDF9CB893D6EA",
+      "565FEFC8EDC85C13"
+    ],
+    "en": {
+      "title": "Occult Ender Lead",
+      "subtitle": "Inscribe your destiny.",
+      "desc": [
+        "§5Occult Ender Lead§r — The library holds secrets of immense power. Use Apothic Enchanting to unlock them all."
+      ]
+    },
+    "fr": {
+      "title": "Laisse Occulte de l'Ender",
+      "subtitle": "Inscrivez votre destin.",
+      "desc": [
+        "§5Laisse Occulte de l'Ender§r — La bibliothèque recèle des secrets d'une puissance immense. Utilisez l'enchantement Apothic pour tous les débloquer."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  }
+]

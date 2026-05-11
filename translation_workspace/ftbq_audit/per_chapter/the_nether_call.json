@@ -1,0 +1,2249 @@
+[
+  {
+    "id": "minecraft:nether_star",
+    "icon": "minecraft:nether_star",
+    "shape": "gear",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 250
+      }
+    ],
+    "deps": [
+      "4A4C71C43519D5FE",
+      "69A517AB8A801939",
+      "1C1320B4266DCB86",
+      "76C41881A02F2098"
+    ],
+    "en": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "fr": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "issues": {
+      "title": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "subtitle": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "desc": [
+        "EMPTY",
+        "MISSING"
+      ]
+    }
+  },
+  {
+    "id": "03A1750399F9460E",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [
+      {
+        "type": "dimension"
+      }
+    ],
+    "rewards": [],
+    "deps": [
+      "0F3D51FFD2FE8DCB",
+      "1000000000000100",
+      "71DCC285ED0238CD"
+    ],
+    "en": {
+      "title": "Hell's Gate",
+      "subtitle": "§7Hellish adventure§r",
+      "desc": [
+        "Welcome to the Nether. It's hot, dangerous, and full of loot.",
+        "Make sure you have at least one piece of Gold armor to avoid being attacked by Piglins immediately."
+      ]
+    },
+    "fr": {
+      "title": "Hell's Gate",
+      "subtitle": "§7Le Nether ou jamais§r",
+      "desc": [
+        "Bienvenue dans le Nether. Chaud, dangereux et plein de butin.",
+        "Ayez au moins une pièce d'armure en Or pour éviter les Piglins."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1000000000000010",
+    "icon": null,
+    "shape": null,
+    "tasks": [
+      {
+        "type": "advancement",
+        "advancement": "minecraft:nether/distract_piglin"
+      }
+    ],
+    "rewards": [],
+    "deps": [
+      "1000000000000001",
+      "1000000000000101",
+      "5080024EE7A4366E"
+    ],
+    "en": {
+      "title": "Ooh Shiny!",
+      "subtitle": "§7Nether or never§r",
+      "desc": [
+        "Piglins love Gold. Throw them ingots to get random items."
+      ]
+    },
+    "fr": {
+      "title": "Ooh Brillant !",
+      "subtitle": "§7Feu et soufre§r",
+      "desc": [
+        "Les Piglins aiment l'Or. Jetez-leur des lingots pour avoir des objets."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4615915B4FE7967F",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 50
+      }
+    ],
+    "deps": [
+      "1000000000000010",
+      "1000000000000102",
+      "0CA602EC2C23C987"
+    ],
+    "en": {
+      "title": "Crying Obsidian",
+      "subtitle": "§7Survive the heat§r",
+      "desc": [
+        "Obtained from Bartering. Needed for Respawn Anchors."
+      ]
+    },
+    "fr": {
+      "title": "Obsidienne Pleureuse",
+      "subtitle": "§7Survivre à la chaleur§r",
+      "desc": [
+        "Obtenu par Troc. Nécessaire pour les Ancres de Réapparition."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "7893CEB32191C7C3",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "4615915B4FE7967F",
+      "1000000000000103",
+      "795D63B7403CE170"
+    ],
+    "en": {
+      "title": "Nether Bed",
+      "subtitle": "§7Hellish adventure§r",
+      "desc": [
+        "Set your spawn point in the Nether. NEEDS GLOWSTONE CHARGES!"
+      ]
+    },
+    "fr": {
+      "title": "Lit du Nether",
+      "subtitle": "§7Survivre à la chaleur§r",
+      "desc": [
+        "Définissez votre point d'apparition dans le Nether. BESOIN DE CHARGES DE GLOWSTONE !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1000000000000016",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "1000000000000010",
+      "1000000000000104",
+      "1000000000000017"
+    ],
+    "en": {
+      "title": "Fire Proof",
+      "subtitle": "§7Fire and brimstone§r",
+      "desc": [
+        "Essential for exploring lava lakes."
+      ]
+    },
+    "fr": {
+      "title": "Fire Proof",
+      "subtitle": "§7Le Nether ou jamais§r",
+      "desc": [
+        "Essentiel pour explorer les lacs de lave."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1000000000000020",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 10
+      }
+    ],
+    "deps": [
+      "03A1750399F9460E",
+      "1000000000000105",
+      "2DD4CBA5FDF0598F",
+      "637D83EB2822DA3D",
+      "036077B9BBC7E90E",
+      "445E46370B421093"
+    ],
+    "en": {
+      "title": "Nether Basics",
+      "subtitle": "§7Survive the heat§r",
+      "desc": [
+        "Collect the basic blocks of the Nether."
+      ]
+    },
+    "fr": {
+      "title": "Bases du Nether",
+      "subtitle": "§7Feu et soufre§r",
+      "desc": [
+        "Collectez les blocs de base du Nether."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "5FCA7209EF8CB54B",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "1000000000000020",
+      "1000000000000106",
+      "1000000000000026",
+      "1000000000000027"
+    ],
+    "en": {
+      "title": "Fungal Woods",
+      "subtitle": "§7Fire and brimstone§r",
+      "desc": [
+        "Flora of the Nether."
+      ]
+    },
+    "fr": {
+      "title": "Fungal Woods",
+      "subtitle": "§7Aventure infernale§r",
+      "desc": [
+        "Flore du Nether."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1000000000000028",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "1000000000000020",
+      "1000000000000107",
+      "1000000000000029",
+      "1000000000000030"
+    ],
+    "en": {
+      "title": "Dark Rocks",
+      "subtitle": "§7Hellish adventure§r",
+      "desc": [
+        "Hard rocks for building."
+      ]
+    },
+    "fr": {
+      "title": "Roches Sombres",
+      "subtitle": "§7Aventure infernale§r",
+      "desc": [
+        "Roches dures pour bâtir."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1000000000000031",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "1000000000000020",
+      "1000000000000108",
+      "744AA86069B0A962",
+      "5ED095C6BB19C5C3",
+      "1000000000000034"
+    ],
+    "en": {
+      "title": "Shiny Things",
+      "subtitle": "§7Fire and brimstone§r",
+      "desc": [
+        "Precious resources."
+      ]
+    },
+    "fr": {
+      "title": "Choses Brillantes",
+      "subtitle": "§7Survivre à la chaleur§r",
+      "desc": [
+        "Ressources précieuses."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1000000000000040",
+    "icon": "minecraft:crimson_fungus",
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 5
+      }
+    ],
+    "deps": [
+      "1000000000000001",
+      "03A1750399F9460E",
+      "1000000000000109",
+      "1000000000000041",
+      "3515281F92F44894",
+      "463E682E86E121FB",
+      "1000000000000044",
+      "1000000000000045"
+    ],
+    "en": {
+      "title": "Tourist",
+      "subtitle": "§7The underworld beckons§r",
+      "desc": [
+        "Visit all Nether Biomes."
+      ]
+    },
+    "fr": {
+      "title": "Touriste",
+      "subtitle": "§7Le monde souterrain appelle§r",
+      "desc": [
+        "Visitez tous les biomes du Nether."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1000000000000050",
+    "icon": null,
+    "shape": null,
+    "tasks": [
+      {
+        "type": "structure"
+      }
+    ],
+    "rewards": [],
+    "deps": [
+      "1000000000000040",
+      "1000000000000110",
+      "1000000000000051"
+    ],
+    "en": {
+      "title": "Nether Fortress",
+      "subtitle": "§7Survive the heat§r",
+      "desc": [
+        "Find a Nether Fortress."
+      ]
+    },
+    "fr": {
+      "title": "Forteresse du Nether",
+      "subtitle": "§7Le monde souterrain appelle§r",
+      "desc": [
+        "Trouver une Forteresse du Nether."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "3FAF5DE432E71EBF",
+    "icon": null,
+    "shape": null,
+    "tasks": [
+      {
+        "type": "structure"
+      }
+    ],
+    "rewards": [],
+    "deps": [
+      "1000000000000040",
+      "1000000000000111",
+      "58D5FCEA6BC6B2BB"
+    ],
+    "en": {
+      "title": "Bastion Raider",
+      "subtitle": "§7Hellish adventure§r",
+      "desc": [
+        "Find a Bastion Remnant."
+      ]
+    },
+    "fr": {
+      "title": "Bastion Raider",
+      "subtitle": "§7Feu et soufre§r",
+      "desc": [
+        "Trouver un Vestige de Bastion."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1000000000000093",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 30
+      }
+    ],
+    "deps": [
+      "1000000000000001",
+      "1000000000000010",
+      "1000000000000122",
+      "1000000000000094"
+    ],
+    "en": {
+      "title": "Lava Walker",
+      "subtitle": "§7Hellish adventure§r",
+      "desc": [
+        "Ride a Strider over lava."
+      ]
+    },
+    "fr": {
+      "title": "Marcheur de Lave",
+      "subtitle": "§7Aventure infernale§r",
+      "desc": [
+        "Chevauchez un Arpenteur sur la lave."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1000000000000200",
+    "icon": null,
+    "shape": null,
+    "tasks": [
+      {
+        "type": "structure"
+      },
+      {
+        "type": "structure"
+      },
+      {
+        "type": "structure"
+      },
+      {
+        "type": "structure"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "1000000000000040",
+      "1000000000000201",
+      "1000000000000202",
+      "1000000000000203",
+      "1000000000000204",
+      "1000000000000205"
+    ],
+    "en": {
+      "title": "Nether Expanded",
+      "subtitle": "§7Survive the heat§r",
+      "desc": [
+        "Structures from More Nether Structures."
+      ]
+    },
+    "fr": {
+      "title": "Nether Étendu",
+      "subtitle": "§7Le Nether ou jamais§r",
+      "desc": [
+        "Structures de More Nether Structures."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1000000000000300",
+    "icon": null,
+    "shape": null,
+    "tasks": [
+      {
+        "type": "structure"
+      },
+      {
+        "type": "structure"
+      },
+      {
+        "type": "structure"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "1000000000000040",
+      "1000000000000301",
+      "1000000000000302",
+      "1000000000000303",
+      "1000000000000304"
+    ],
+    "en": {
+      "title": "Towers of Hell",
+      "subtitle": "§7Survive the heat§r",
+      "desc": [
+        "Towers from Structory."
+      ]
+    },
+    "fr": {
+      "title": "Tours de l'Enfer",
+      "subtitle": "§7Survivre à la chaleur§r",
+      "desc": [
+        "Tours de Structory."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1000000000000400",
+    "icon": null,
+    "shape": null,
+    "tasks": [
+      {
+        "type": "structure"
+      },
+      {
+        "type": "structure"
+      },
+      {
+        "type": "structure"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "1000000000000040",
+      "1000000000000401",
+      "1000000000000402",
+      "1000000000000404",
+      "1000000000000405"
+    ],
+    "en": {
+      "title": "Nether Anomalies",
+      "subtitle": "§7Survive the heat§r",
+      "desc": [
+        "Strange occurrences in the Nether."
+      ]
+    },
+    "fr": {
+      "title": "Anomalies du Nether",
+      "subtitle": "§7Survivre à la chaleur§r",
+      "desc": [
+        "Événements étranges dans le Nether."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1000000000000500",
+    "icon": null,
+    "shape": null,
+    "tasks": [
+      {
+        "type": "structure"
+      },
+      {
+        "type": "structure"
+      },
+      {
+        "type": "structure"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "1000000000000040",
+      "1000000000000501",
+      "1000000000000502",
+      "1000000000000503",
+      "1000000000000504"
+    ],
+    "en": {
+      "title": "Vile Places",
+      "subtitle": "§7The underworld beckons§r",
+      "desc": [
+        "Vile structures deep in the Nether."
+      ]
+    },
+    "fr": {
+      "title": "Lieux Vils",
+      "subtitle": "§7Le Nether ou jamais§r",
+      "desc": [
+        "Structures viles au fond du Nether."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "235D48F86CC8C947",
+    "icon": null,
+    "shape": "square",
+    "tasks": [
+      {
+        "type": "structure"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "03A1750399F9460E",
+      "5046E304ACB3D4D2",
+      "26306B3384ED5E2F"
+    ],
+    "en": {
+      "title": "Wither Skeleton Skull",
+      "subtitle": "Hellfire forged.",
+      "desc": [
+        "§cWither Skeleton Skull§r — Brave the flames and explore the Nether's expanded content. Fortune favors the bold!"
+      ]
+    },
+    "fr": {
+      "title": "Crâne de Squelette Wither",
+      "subtitle": "Forgé dans le feu de l'enfer.",
+      "desc": [
+        "§cWither Skeleton Skull§r — Affrontez les flammes et explorez le contenu étendu du Nether. La fortune sourit aux audacieux !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "minecraft:wither_skeleton_skull",
+    "icon": "minecraft:wither_skeleton_skull",
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "235D48F86CC8C947",
+      "4A4C71C43519D5FE",
+      "1E652F9EA091A842",
+      "178C4C3288503A66",
+      "14C0350713AC4214"
+    ],
+    "en": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "fr": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "issues": {
+      "title": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "subtitle": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "desc": [
+        "EMPTY",
+        "MISSING"
+      ]
+    }
+  },
+  {
+    "id": "minecraft:flint_and_steel",
+    "icon": "minecraft:flint_and_steel",
+    "shape": "square",
+    "tasks": [
+      {
+        "type": "advancement",
+        "advancement": "minecraft:story/enter_the_nether"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 50
+      }
+    ],
+    "deps": [
+      "0F3D51FFD2FE8DCB",
+      "75F8E6B513937C9B",
+      "27BFB09994F1A168",
+      "6206DC761D4CDDFE",
+      "6FF63A559722919C"
+    ],
+    "en": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "fr": {
+      "title": "",
+      "subtitle": "",
+      "desc": ""
+    },
+    "issues": {
+      "title": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "subtitle": [
+        "EMPTY",
+        "MISSING"
+      ],
+      "desc": [
+        "EMPTY",
+        "MISSING"
+      ]
+    }
+  },
+  {
+    "id": "1E1EB7DC19DDCFB7",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "6A8F6212EFA9E2C9",
+      "35CDC7E5C0EE5EDE",
+      "54CBBF7EEDEE91E7",
+      "363806ECF99CBE88"
+    ],
+    "en": {
+      "title": "Netherite Upgrade Smithing Template",
+      "subtitle": "Dark metal.",
+      "desc": [
+        "§cNetherite Upgrade Smithing Template§r — The Nether is a hostile dimension of fire, lava, and dangerous mobs. Are you prepared?"
+      ]
+    },
+    "fr": {
+      "title": "Netherite Upgrade Smithing Template",
+      "subtitle": "Métal sombre.",
+      "desc": [
+        "§cNetherite Upgrade Smithing Template§r — Le Nether est une dimension hostile faite de feu, de lave et de créatures dangereuses. Êtes-vous prêt ?"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "0F026D5A17CCCF51",
+    "icon": null,
+    "shape": "square",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 50
+      },
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "2EC9668ED4EA47CB",
+      "1E1EB7DC19DDCFB7",
+      "05FE76F501B0D1CA",
+      "69F398684E9040D4",
+      "5E9A9268382E51D8",
+      "6F1E09F6A6013BE7"
+    ],
+    "en": {
+      "title": "Netherite Scrap",
+      "subtitle": "Upgraded netherite.",
+      "desc": [
+        "§cNetherite Scrap§r — Brave the flames and explore the Nether's expanded content. Fortune favors the bold!"
+      ]
+    },
+    "fr": {
+      "title": "Netherite Scrap",
+      "subtitle": "Netherite améliorée.",
+      "desc": [
+        "§cNetherite Scrap§r — Affrontez les flammes et explorez le contenu étendu du Nether. La fortune sourit aux audacieux !"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2EC9668ED4EA47CB",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 50
+      }
+    ],
+    "deps": [
+      "6A8F6212EFA9E2C9",
+      "317DD048EF0D4A8E",
+      "4BFB127D1C0C7F48",
+      "652E7B3B389E8A3E",
+      "26587B63A006D497",
+      "247F8B60580038BA"
+    ],
+    "en": {
+      "title": "Deployer",
+      "subtitle": "Beyond the flames.",
+      "desc": [
+        "§cDeployer§r — The Nether is a hostile dimension of fire, lava, and dangerous mobs. Are you prepared?"
+      ]
+    },
+    "fr": {
+      "title": "Déployeur",
+      "subtitle": "Au-delà des flammes.",
+      "desc": [
+        "§cDéployeur§r — Le Nether est une dimension hostile faite de feu, de lave et de créatures dangereuses. Êtes-vous prêt ?"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "71184494C85C359F",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 175
+      }
+    ],
+    "deps": [
+      "0F026D5A17CCCF51",
+      "3CFEDD3C497A53BC",
+      "005CA0659394ED05"
+    ],
+    "en": {
+      "title": "Netherite Helmet",
+      "subtitle": "Nether mastery.",
+      "desc": [
+        "§cNetherite Helmet§r — Brave the flames and explore the Nether's expanded content. Fortune favors the bold!"
+      ]
+    },
+    "fr": {
+      "title": "Casque en Netherite",
+      "subtitle": "Maîtrise du Nether.",
+      "desc": [
+        "§cCasque en Netherite§r — Affrontez les flammes et explorez le contenu étendu du Nether. La fortune sourit aux audacieux !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "78D8690C88C6B735",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 175
+      }
+    ],
+    "deps": [
+      "71184494C85C359F",
+      "31C4937C3859259D",
+      "08E7264B8F31998F"
+    ],
+    "en": {
+      "title": "Netherite Chestplate",
+      "subtitle": "Hellfire forged.",
+      "desc": [
+        "§cNetherite Chestplate§r — The Nether is a hostile dimension of fire, lava, and dangerous mobs. Are you prepared?"
+      ]
+    },
+    "fr": {
+      "title": "Plastron en Netherite",
+      "subtitle": "Forgé dans le feu de l'enfer.",
+      "desc": [
+        "§cPlastron en Netherite§r — Le Nether est une dimension hostile faite de feu, de lave et de créatures dangereuses. Êtes-vous prêt ?"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "00A22A7D013E9CD7",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 175
+      }
+    ],
+    "deps": [
+      "7ED09F7843B9D847",
+      "67156CD4D7804AA3",
+      "0B5EC75C643100F2"
+    ],
+    "en": {
+      "title": "Netherite Boots",
+      "subtitle": "Nether's bounty.",
+      "desc": [
+        "§cNetherite Boots§r — The Nether is a hostile dimension of fire, lava, and dangerous mobs. Are you prepared?"
+      ]
+    },
+    "fr": {
+      "title": "Bottes en Netherite",
+      "subtitle": "Butin du Nether.",
+      "desc": [
+        "§cBottes en Netherite§r — Le Nether est une dimension hostile faite de feu, de lave et de créatures dangereuses. Êtes-vous prêt ?"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "7ED09F7843B9D847",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 175
+      }
+    ],
+    "deps": [
+      "78D8690C88C6B735",
+      "33FEEA60441F7BDE",
+      "60869E53681D7E87"
+    ],
+    "en": {
+      "title": "Netherite Leggings",
+      "subtitle": "Infernal upgrade.",
+      "desc": [
+        "§cNetherite Leggings§r — The Nether is a hostile dimension of fire, lava, and dangerous mobs. Are you prepared?"
+      ]
+    },
+    "fr": {
+      "title": "Jambières en Netherite",
+      "subtitle": "Amélioration infernale.",
+      "desc": [
+        "§cJambières en Netherite§r — Le Nether est une dimension hostile faite de feu, de lave et de créatures dangereuses. Êtes-vous prêt ?"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2A70717AD9D92CBD",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 175
+      }
+    ],
+    "deps": [
+      "0F026D5A17CCCF51",
+      "7DD3AA825A1930F3",
+      "5B057FC0DC9434C6",
+      "4F522CFEB19C0C6B",
+      "1CB848629C7ADE26",
+      "3D586C8262A93F0B",
+      "5B5E91A73BEF744A"
+    ],
+    "en": {
+      "title": "Netherite Tools",
+      "subtitle": "Blazing ambition.",
+      "desc": [
+        "§cNetherite Tools§r — Brave the flames and explore the Nether's expanded content. Fortune favors the bold!"
+      ]
+    },
+    "fr": {
+      "title": "Outils en Netherite",
+      "subtitle": "Ambition flamboyante.",
+      "desc": [
+        "§cOutils en Netherite§r — Affrontez les flammes et explorez le contenu étendu du Nether. La fortune sourit aux audacieux !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "5E799B92358A8732",
+    "icon": null,
+    "shape": "square",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 175
+      },
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "0F026D5A17CCCF51",
+      "279B7449DF7F3842",
+      "760D44E5E264FFE3",
+      "1200E630DC9A72E9"
+    ],
+    "en": {
+      "title": "Netherite Iron Ingot",
+      "subtitle": "Dark metal.",
+      "desc": [
+        "§cNetherite Iron Ingot§r — The Nether is a hostile dimension of fire, lava, and dangerous mobs. Are you prepared?"
+      ]
+    },
+    "fr": {
+      "title": "Lingot de Netherite de Fer",
+      "subtitle": "Métal sombre.",
+      "desc": [
+        "§cLingot de Netherite de Fer§r — Le Nether est une dimension hostile faite de feu, de lave et de créatures dangereuses. Êtes-vous prêt ?"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1132D226B858C077",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 175
+      }
+    ],
+    "deps": [
+      "5E799B92358A8732",
+      "3F997A308F8B7217",
+      "2DA36812D84FE8B2"
+    ],
+    "en": {
+      "title": "Netherite Iron Helmet",
+      "subtitle": "Upgraded netherite.",
+      "desc": [
+        "§cNetherite Iron Helmet§r — The Nether is a hostile dimension of fire, lava, and dangerous mobs. Are you prepared?"
+      ]
+    },
+    "fr": {
+      "title": "Casque en Netherite de Fer",
+      "subtitle": "Netherite améliorée.",
+      "desc": [
+        "§cCasque en Netherite de Fer§r — Le Nether est une dimension hostile faite de feu, de lave et de créatures dangereuses. Êtes-vous prêt ?"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "16E5121EEFF33622",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 175
+      }
+    ],
+    "deps": [
+      "1132D226B858C077",
+      "52705875316078F6",
+      "3D5EF30EFDBA0D9C"
+    ],
+    "en": {
+      "title": "Netherite Iron Chestplate",
+      "subtitle": "Beyond the flames.",
+      "desc": [
+        "§cNetherite Iron Chestplate§r — The Nether is a hostile dimension of fire, lava, and dangerous mobs. Are you prepared?"
+      ]
+    },
+    "fr": {
+      "title": "Plastron en Netherite de Fer",
+      "subtitle": "Au-delà des flammes.",
+      "desc": [
+        "§cPlastron en Netherite de Fer§r — Le Nether est une dimension hostile faite de feu, de lave et de créatures dangereuses. Êtes-vous prêt ?"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "129190BA74B56B02",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 175
+      }
+    ],
+    "deps": [
+      "16E5121EEFF33622",
+      "272C50BA10C8A0B3",
+      "547840AE4E5C37EA"
+    ],
+    "en": {
+      "title": "Netherite Iron Leggings",
+      "subtitle": "Nether mastery.",
+      "desc": [
+        "§cNetherite Iron Leggings§r — Brave the flames and explore the Nether's expanded content. Fortune favors the bold!"
+      ]
+    },
+    "fr": {
+      "title": "Jambières en Netherite de Fer",
+      "subtitle": "Maîtrise du Nether.",
+      "desc": [
+        "§cJambières en Netherite de Fer§r — Affrontez les flammes et explorez le contenu étendu du Nether. La fortune sourit aux audacieux !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "33BED23CBC0E85F2",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 175
+      }
+    ],
+    "deps": [
+      "129190BA74B56B02",
+      "596E760E185F0C24",
+      "23236DB64D919EB4"
+    ],
+    "en": {
+      "title": "Netherite Iron Boots",
+      "subtitle": "Hellfire forged.",
+      "desc": [
+        "§cNetherite Iron Boots§r — Brave the flames and explore the Nether's expanded content. Fortune favors the bold!"
+      ]
+    },
+    "fr": {
+      "title": "Bottes en Netherite de Fer",
+      "subtitle": "Forgé dans le feu de l'enfer.",
+      "desc": [
+        "§cBottes en Netherite de Fer§r — Affrontez les flammes et explorez le contenu étendu du Nether. La fortune sourit aux audacieux !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "5C2AD9E7FFC8DB29",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 175
+      }
+    ],
+    "deps": [
+      "1312F582EF4B9381",
+      "4198BF3C2122F841",
+      "2F0304138A145ECE"
+    ],
+    "en": {
+      "title": "Netherite Emerald Leggings",
+      "subtitle": "Nether's bounty.",
+      "desc": [
+        "§cNetherite Emerald Leggings§r — Brave the flames and explore the Nether's expanded content. Fortune favors the bold!"
+      ]
+    },
+    "fr": {
+      "title": "Jambières en Netherite d'Émeraude",
+      "subtitle": "Butin du Nether.",
+      "desc": [
+        "§cJambières en Netherite d'Émeraude§r — Affrontez les flammes et explorez le contenu étendu du Nether. La fortune sourit aux audacieux !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1312F582EF4B9381",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "650E33365EFB7EA4",
+      "6B99711F2A351B30",
+      "771A2B0FFEF34EB0"
+    ],
+    "en": {
+      "title": "Netherite Emerald Chestplate",
+      "subtitle": "Infernal upgrade.",
+      "desc": [
+        "§cNetherite Emerald Chestplate§r — Brave the flames and explore the Nether's expanded content. Fortune favors the bold!"
+      ]
+    },
+    "fr": {
+      "title": "Plastron en Netherite d'Émeraude",
+      "subtitle": "Amélioration infernale.",
+      "desc": [
+        "§cPlastron en Netherite d'Émeraude§r — Affrontez les flammes et explorez le contenu étendu du Nether. La fortune sourit aux audacieux !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2B5F778AA879F79A",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "5C2AD9E7FFC8DB29",
+      "254FFF3B88ABC875",
+      "7C994ADB536C4C8E"
+    ],
+    "en": {
+      "title": "Netherite Emerald Boots",
+      "subtitle": "Blazing ambition.",
+      "desc": [
+        "§cNetherite Emerald Boots§r — Brave the flames and explore the Nether's expanded content. Fortune favors the bold!"
+      ]
+    },
+    "fr": {
+      "title": "Bottes en Netherite d'Émeraude",
+      "subtitle": "Ambition flamboyante.",
+      "desc": [
+        "§cBottes en Netherite d'Émeraude§r — Affrontez les flammes et explorez le contenu étendu du Nether. La fortune sourit aux audacieux !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "650E33365EFB7EA4",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 175
+      }
+    ],
+    "deps": [
+      "3FDA8E9EFFBA0427",
+      "15272194D5C1D1A0",
+      "42C7BE2110F5F0C1"
+    ],
+    "en": {
+      "title": "Netherite Emerald Helmet",
+      "subtitle": "Dark metal.",
+      "desc": [
+        "§cNetherite Emerald Helmet§r — Brave the flames and explore the Nether's expanded content. Fortune favors the bold!"
+      ]
+    },
+    "fr": {
+      "title": "Casque en Netherite d'Émeraude",
+      "subtitle": "Métal sombre.",
+      "desc": [
+        "§cCasque en Netherite d'Émeraude§r — Affrontez les flammes et explorez le contenu étendu du Nether. La fortune sourit aux audacieux !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "3FDA8E9EFFBA0427",
+    "icon": null,
+    "shape": "square",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 175
+      },
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "100FB710CE475AE4",
+      "4EB8820601B3CC81",
+      "22D29C400B8721BB",
+      "7FEE132CDBF2A59C"
+    ],
+    "en": {
+      "title": "Netherite Emerald Ingot",
+      "subtitle": "Upgraded netherite.",
+      "desc": [
+        "§cNetherite Emerald Ingot§r — Brave the flames and explore the Nether's expanded content. Fortune favors the bold!"
+      ]
+    },
+    "fr": {
+      "title": "Lingot de Netherite d'Émeraude",
+      "subtitle": "Netherite améliorée.",
+      "desc": [
+        "§cLingot de Netherite d'Émeraude§r — Affrontez les flammes et explorez le contenu étendu du Nether. La fortune sourit aux audacieux !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "27125E3CF31526F9",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 175
+      }
+    ],
+    "deps": [
+      "6E4785A7A2FD19A2",
+      "03FF5305EFCA8DA8",
+      "08908E4FAF5D37BF",
+      "6A63F0AAAB4355E0",
+      "6FFBBD136E2ECEDF",
+      "74144DCEE4EBC2D1",
+      "1DEE18927502D90A"
+    ],
+    "en": {
+      "title": "Netherite Diamond Tools",
+      "subtitle": "Beyond the flames.",
+      "desc": [
+        "§cNetherite Diamond Tools§r — The Nether is a hostile dimension of fire, lava, and dangerous mobs. Are you prepared?"
+      ]
+    },
+    "fr": {
+      "title": "Outils Netherite-Diamant",
+      "subtitle": "Au-delà des flammes.",
+      "desc": [
+        "§cOutils Netherite-Diamant§r — Le Nether est une dimension hostile faite de feu, de lave et de créatures dangereuses. Êtes-vous prêt ?"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1C92D68E55B42C18",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 175
+      }
+    ],
+    "deps": [
+      "100FB710CE475AE4",
+      "2E7F81D96948EFA0",
+      "0E0711401C59F021",
+      "266798D10130DBA8",
+      "14037B53CC3CF8B3",
+      "4E019DFCED15FF58"
+    ],
+    "en": {
+      "title": "Netherite Gold Tools",
+      "subtitle": "Nether mastery.",
+      "desc": [
+        "§cNetherite Gold Tools§r — Brave the flames and explore the Nether's expanded content. Fortune favors the bold!"
+      ]
+    },
+    "fr": {
+      "title": "Outils Netherite-Or",
+      "subtitle": "Maîtrise du Nether.",
+      "desc": [
+        "§cOutils Netherite-Or§r — Affrontez les flammes et explorez le contenu étendu du Nether. La fortune sourit aux audacieux !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "100FB710CE475AE4",
+    "icon": null,
+    "shape": "square",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 175
+      },
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "5E799B92358A8732",
+      "78AAB2E3D0F316DE",
+      "11E3CF8E46B22BE1",
+      "388EB978F73542BA"
+    ],
+    "en": {
+      "title": "Netherite Gold Ingot",
+      "subtitle": "Hellfire forged.",
+      "desc": [
+        "§cNetherite Gold Ingot§r — The Nether is a hostile dimension of fire, lava, and dangerous mobs. Are you prepared?"
+      ]
+    },
+    "fr": {
+      "title": "Lingot de Netherite d'Or",
+      "subtitle": "Forgé dans le feu de l'enfer.",
+      "desc": [
+        "§cLingot de Netherite d'Or§r — Le Nether est une dimension hostile faite de feu, de lave et de créatures dangereuses. Êtes-vous prêt ?"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "6F698189FD554158",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 175
+      }
+    ],
+    "deps": [
+      "5E799B92358A8732",
+      "6E33F66D8DA51883",
+      "02DA440FCFBC1443",
+      "22999E2DB4DC184D",
+      "74571E887118F367",
+      "07DAEC70BF2046B8",
+      "602F5A66D2B92812"
+    ],
+    "en": {
+      "title": "Netherite Iron Tools",
+      "subtitle": "Nether's bounty.",
+      "desc": [
+        "§cNetherite Iron Tools§r — The Nether is a hostile dimension of fire, lava, and dangerous mobs. Are you prepared?"
+      ]
+    },
+    "fr": {
+      "title": "Outils Netherite-Fer",
+      "subtitle": "Butin du Nether.",
+      "desc": [
+        "§cOutils Netherite-Fer§r — Le Nether est une dimension hostile faite de feu, de lave et de créatures dangereuses. Êtes-vous prêt ?"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "0C3665E01F328D68",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 175
+      }
+    ],
+    "deps": [
+      "3FDA8E9EFFBA0427",
+      "1072674C06FD0A81",
+      "7175059A24C5C231",
+      "3CB8E5F032815265",
+      "23211A1BE8269326",
+      "5CECDCFAC0C1065D",
+      "5E5458725437CE69"
+    ],
+    "en": {
+      "title": "Netherite Emerald Tools",
+      "subtitle": "Infernal upgrade.",
+      "desc": [
+        "§cNetherite Emerald Tools§r — Brave the flames and explore the Nether's expanded content. Fortune favors the bold!"
+      ]
+    },
+    "fr": {
+      "title": "Outils Netherite-Émeraude",
+      "subtitle": "Amélioration infernale.",
+      "desc": [
+        "§cOutils Netherite-Émeraude§r — Affrontez les flammes et explorez le contenu étendu du Nether. La fortune sourit aux audacieux !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "6E4785A7A2FD19A2",
+    "icon": null,
+    "shape": "square",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 175
+      },
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "3FDA8E9EFFBA0427",
+      "0A8EB86170EBB386",
+      "67F56395FDBCF8A2",
+      "2075EAE04EAC3CE9"
+    ],
+    "en": {
+      "title": "Netherite Diamond Ingot",
+      "subtitle": "Blazing ambition.",
+      "desc": [
+        "§cNetherite Diamond Ingot§r — The Nether is a hostile dimension of fire, lava, and dangerous mobs. Are you prepared?"
+      ]
+    },
+    "fr": {
+      "title": "Lingot de Netherite en Diamant",
+      "subtitle": "Ambition flamboyante.",
+      "desc": [
+        "§cLingot de Netherite en Diamant§r — Le Nether est une dimension hostile faite de feu, de lave et de créatures dangereuses. Êtes-vous prêt ?"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "11391BE41D1BD209",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 175
+      }
+    ],
+    "deps": [
+      "6E4785A7A2FD19A2",
+      "129FF92F29E5011B",
+      "19C546EFE0CA2B06"
+    ],
+    "en": {
+      "title": "Netherite Diamond Helmet",
+      "subtitle": "Dark metal.",
+      "desc": [
+        "§cNetherite Diamond Helmet§r — Brave the flames and explore the Nether's expanded content. Fortune favors the bold!"
+      ]
+    },
+    "fr": {
+      "title": "Casque en Netherite de Diamant",
+      "subtitle": "Métal sombre.",
+      "desc": [
+        "§cCasque en Netherite de Diamant§r — Affrontez les flammes et explorez le contenu étendu du Nether. La fortune sourit aux audacieux !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "732DBAB1EE69FA37",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 175
+      }
+    ],
+    "deps": [
+      "11391BE41D1BD209",
+      "67852A1765B46298",
+      "670A5824A7C3FD2F"
+    ],
+    "en": {
+      "title": "Netherite Diamond Chestplate",
+      "subtitle": "Upgraded netherite.",
+      "desc": [
+        "§cNetherite Diamond Chestplate§r — Brave the flames and explore the Nether's expanded content. Fortune favors the bold!"
+      ]
+    },
+    "fr": {
+      "title": "Plastron en Netherite de Diamant",
+      "subtitle": "Netherite améliorée.",
+      "desc": [
+        "§cPlastron en Netherite de Diamant§r — Affrontez les flammes et explorez le contenu étendu du Nether. La fortune sourit aux audacieux !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "04BD346468EFB18F",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 175
+      }
+    ],
+    "deps": [
+      "732DBAB1EE69FA37",
+      "695FC9CE198A2794",
+      "5CA5AEAEC4DCC3F5"
+    ],
+    "en": {
+      "title": "Netherite Diamond Leggings",
+      "subtitle": "Beyond the flames.",
+      "desc": [
+        "§cNetherite Diamond Leggings§r — Brave the flames and explore the Nether's expanded content. Fortune favors the bold!"
+      ]
+    },
+    "fr": {
+      "title": "Jambières en Netherite de Diamant",
+      "subtitle": "Au-delà des flammes.",
+      "desc": [
+        "§cJambières en Netherite de Diamant§r — Affrontez les flammes et explorez le contenu étendu du Nether. La fortune sourit aux audacieux !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "040B5158D75FA05F",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 175
+      }
+    ],
+    "deps": [
+      "04BD346468EFB18F",
+      "3FA5C145B4E23461",
+      "449439DBD8370B24"
+    ],
+    "en": {
+      "title": "Netherite Diamond Boots",
+      "subtitle": "Nether mastery.",
+      "desc": [
+        "§cNetherite Diamond Boots§r — The Nether is a hostile dimension of fire, lava, and dangerous mobs. Are you prepared?"
+      ]
+    },
+    "fr": {
+      "title": "Bottes en Netherite de Diamant",
+      "subtitle": "Maîtrise du Nether.",
+      "desc": [
+        "§cBottes en Netherite de Diamant§r — Le Nether est une dimension hostile faite de feu, de lave et de créatures dangereuses. Êtes-vous prêt ?"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "699364140257E650",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 175
+      }
+    ],
+    "deps": [
+      "4A97E9495168ACCF",
+      "44AB8B473ADC1788",
+      "4FD2D4FCDE8BF5BF"
+    ],
+    "en": {
+      "title": "Netherite Gold Boots",
+      "subtitle": "Hellfire forged.",
+      "desc": [
+        "§cNetherite Gold Boots§r — The Nether is a hostile dimension of fire, lava, and dangerous mobs. Are you prepared?"
+      ]
+    },
+    "fr": {
+      "title": "Bottes en Netherite d'Or",
+      "subtitle": "Forgé dans le feu de l'enfer.",
+      "desc": [
+        "§cBottes en Netherite d'Or§r — Le Nether est une dimension hostile faite de feu, de lave et de créatures dangereuses. Êtes-vous prêt ?"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4A97E9495168ACCF",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 175
+      }
+    ],
+    "deps": [
+      "51676C66D568BC15",
+      "2301B363CF178B4E",
+      "36FEEFE7D0C44C08"
+    ],
+    "en": {
+      "title": "Netherite Gold Leggings",
+      "subtitle": "Nether's bounty.",
+      "desc": [
+        "§cNetherite Gold Leggings§r — Brave the flames and explore the Nether's expanded content. Fortune favors the bold!"
+      ]
+    },
+    "fr": {
+      "title": "Jambières en Netherite d'Or",
+      "subtitle": "Butin du Nether.",
+      "desc": [
+        "§cJambières en Netherite d'Or§r — Affrontez les flammes et explorez le contenu étendu du Nether. La fortune sourit aux audacieux !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "51676C66D568BC15",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 175
+      }
+    ],
+    "deps": [
+      "1B3610576BF388FC",
+      "033935A62BAC38DA",
+      "43A8E4F3ECEC92C2"
+    ],
+    "en": {
+      "title": "Netherite Gold Chestplate",
+      "subtitle": "Infernal upgrade.",
+      "desc": [
+        "§cNetherite Gold Chestplate§r — Brave the flames and explore the Nether's expanded content. Fortune favors the bold!"
+      ]
+    },
+    "fr": {
+      "title": "Plastron en Netherite d'Or",
+      "subtitle": "Amélioration infernale.",
+      "desc": [
+        "§cPlastron en Netherite d'Or§r — Affrontez les flammes et explorez le contenu étendu du Nether. La fortune sourit aux audacieux !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1B3610576BF388FC",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 175
+      }
+    ],
+    "deps": [
+      "100FB710CE475AE4",
+      "359835B6F450C4EF",
+      "23E4140CAEBD4617"
+    ],
+    "en": {
+      "title": "Netherite Gold Helmet",
+      "subtitle": "Blazing ambition.",
+      "desc": [
+        "§cNetherite Gold Helmet§r — The Nether is a hostile dimension of fire, lava, and dangerous mobs. Are you prepared?"
+      ]
+    },
+    "fr": {
+      "title": "Casque en Netherite d'Or",
+      "subtitle": "Ambition flamboyante.",
+      "desc": [
+        "§cCasque en Netherite d'Or§r — Le Nether est une dimension hostile faite de feu, de lave et de créatures dangereuses. Êtes-vous prêt ?"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "6A8F6212EFA9E2C9",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      },
+      {
+        "type": "random"
+      }
+    ],
+    "deps": [
+      "03A1750399F9460E",
+      "1EF71E0C9C828063",
+      "5D753728A229D78A",
+      "400606436A5BE6F8"
+    ],
+    "en": {
+      "title": "Ancient Debris",
+      "subtitle": "Dark metal.",
+      "desc": [
+        "§cAncient Debris§r — Brave the flames and explore the Nether's expanded content. Fortune favors the bold!"
+      ]
+    },
+    "fr": {
+      "title": "Débris Antiques",
+      "subtitle": "Métal sombre.",
+      "desc": [
+        "§cAncient Debris§r — Affrontez les flammes et explorez le contenu étendu du Nether. La fortune sourit aux audacieux !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "0A7D2C9BB684C539",
+    "icon": null,
+    "shape": "octagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 307
+      }
+    ],
+    "deps": [
+      "6B92E3F404994373",
+      "56E2479CECB775BB"
+    ],
+    "en": {
+      "title": "Netherite Block",
+      "subtitle": "Upgraded netherite.",
+      "desc": [
+        "§cNetherite Block§r — The Nether is a hostile dimension of fire, lava, and dangerous mobs. Are you prepared?"
+      ]
+    },
+    "fr": {
+      "title": "Bloc de Netherite",
+      "subtitle": "Netherite améliorée.",
+      "desc": [
+        "§cNetherite Block§r — Le Nether est une dimension hostile faite de feu, de lave et de créatures dangereuses. Êtes-vous prêt ?"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "374D5D26744C8F20",
+    "icon": null,
+    "shape": "octagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 307
+      }
+    ],
+    "deps": [
+      "0A7D2C9BB684C539",
+      "2DA592FB4B6B7DD3",
+      "1675E42AB53F11E6"
+    ],
+    "en": {
+      "title": "Netherite Iron Block",
+      "subtitle": "Beyond the flames.",
+      "desc": [
+        "§cNetherite Iron Block§r — Brave the flames and explore the Nether's expanded content. Fortune favors the bold!"
+      ]
+    },
+    "fr": {
+      "title": "Netherite de Fer Bloc",
+      "subtitle": "Au-delà des flammes.",
+      "desc": [
+        "§cNetherite Iron Block§r — Affrontez les flammes et explorez le contenu étendu du Nether. La fortune sourit aux audacieux !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "73C9052C765F8D6A",
+    "icon": null,
+    "shape": "octagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 307
+      }
+    ],
+    "deps": [
+      "374D5D26744C8F20",
+      "6B7F7A934C74F124",
+      "54C2ED529D00F2AF"
+    ],
+    "en": {
+      "title": "Netherite Gold Block",
+      "subtitle": "Nether mastery.",
+      "desc": [
+        "§cNetherite Gold Block§r — Brave the flames and explore the Nether's expanded content. Fortune favors the bold!"
+      ]
+    },
+    "fr": {
+      "title": "Netherite d'Or Bloc",
+      "subtitle": "Maîtrise du Nether.",
+      "desc": [
+        "§cNetherite Gold Block§r — Affrontez les flammes et explorez le contenu étendu du Nether. La fortune sourit aux audacieux !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "593A785C2F548D3F",
+    "icon": null,
+    "shape": "octagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 307
+      }
+    ],
+    "deps": [
+      "73C9052C765F8D6A",
+      "0D6CDC39BE8338A3",
+      "44EABE9996FEFC44"
+    ],
+    "en": {
+      "title": "Netherite Emerald Block",
+      "subtitle": "Hellfire forged.",
+      "desc": [
+        "§cNetherite Emerald Block§r — The Nether is a hostile dimension of fire, lava, and dangerous mobs. Are you prepared?"
+      ]
+    },
+    "fr": {
+      "title": "Netherite d'Émeraude Bloc",
+      "subtitle": "Forgé dans le feu de l'enfer.",
+      "desc": [
+        "§cNetherite Emerald Block§r — Le Nether est une dimension hostile faite de feu, de lave et de créatures dangereuses. Êtes-vous prêt ?"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "7CA5B25764CACD81",
+    "icon": null,
+    "shape": "octagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 307
+      }
+    ],
+    "deps": [
+      "593A785C2F548D3F",
+      "3F5BDECDAC1A3C8F",
+      "74094FCBA2D4DBC5"
+    ],
+    "en": {
+      "title": "Netherite Diamond Block",
+      "subtitle": "Nether's bounty.",
+      "desc": [
+        "§cNetherite Diamond Block§r — Brave the flames and explore the Nether's expanded content. Fortune favors the bold!"
+      ]
+    },
+    "fr": {
+      "title": "Netherite de Diamant Bloc",
+      "subtitle": "Butin du Nether.",
+      "desc": [
+        "§cNetherite Diamond Block§r — Affrontez les flammes et explorez le contenu étendu du Nether. La fortune sourit aux audacieux !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  }
+]

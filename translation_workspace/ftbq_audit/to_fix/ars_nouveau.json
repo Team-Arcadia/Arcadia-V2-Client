@@ -1,0 +1,3261 @@
+[
+  {
+    "id": "7ACE7A6A71D3F4D2",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "6F3602F5600A6221",
+      "5380945A05E398B2",
+      "569B0D7ABC091612"
+    ],
+    "en": {
+      "title": "Glyph Intangible",
+      "subtitle": "Arcane discovery.",
+      "desc": [
+        "&7The &dIntangible&7 glyph allows you to pass through blocks temporarily.",
+        "",
+        "&bMana Cost:&7 Medium",
+        "&eTip:&7 Be careful not to suffocate when the effect ends!"
+      ]
+    },
+    "fr": {
+      "title": "Glyph Intangible",
+      "subtitle": "Découverte arcanique.",
+      "desc": [
+        "&7Le glyphe &dIntangible&7 permet de traverser les blocs temporairement.",
+        "",
+        "&bMana Cost:&7 Medium",
+        "&eConseil :&7 Attention à ne pas suffoquer à la fin de l'effet !"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "58EBEC3DDE47DAC7",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "441C0659ED28D935",
+      "2CC33A87CF1F6EF1",
+      "55B5FAA746D6C829"
+    ],
+    "en": {
+      "title": "Glyph Ignite",
+      "subtitle": "Channel the source.",
+      "desc": [
+        "&7Applies the vanilla fire effect to the target.",
+        "",
+        "&bMana Cost:&7 Low",
+        "&eCombo:&7 Combine with &bProjectile&7 for a fireball, or &bTouch&7 for a lighter."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Ignite",
+      "subtitle": "Canalisez la source.",
+      "desc": [
+        "&7Applique l'effet de feu vanilla à la cible.",
+        "",
+        "&bMana Cost:&7 Low",
+        "&eCombo :&7 Combinez avec &bProjectile&7 pour boule de feu, ou &bToucher&7 pour briquet."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "79146466E43A2B99",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 150
+      }
+    ],
+    "deps": [
+      "63DD7F5A4441ACE7",
+      "180B4B5D8087A19D",
+      "615188F5D6F85423"
+    ],
+    "en": {
+      "title": "Glyph Flare",
+      "subtitle": "Magic flows through you.",
+      "desc": [
+        "&7A powerful offensive glyph that hits everything around the target point.",
+        "",
+        "&bMana Cost:&7 High",
+        "&eTip:&7 Great for handling groups of mobs. Be careful not to hit pets!"
+      ]
+    },
+    "fr": {
+      "title": "Glyph Flare",
+      "subtitle": "La magie coule en vous.",
+      "desc": [
+        "&7Un puissant glyphe offensif qui frappe tout autour du point ciblé.",
+        "",
+        "&bMana Cost:&7 High",
+        "&eConseil :&7 Super contre les groupes. Attention aux familiers !"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "05C2A6E54898C963",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 150
+      }
+    ],
+    "deps": [
+      "63DD7F5A4441ACE7",
+      "04FC211787AEC5BD",
+      "20E81CE5B5665DAF"
+    ],
+    "en": {
+      "title": "Glyph Cold Snap",
+      "subtitle": "Summon your power.",
+      "desc": [
+        "&7Chills enemies, slowing them down significantly.",
+        "",
+        "&bMana Cost:&7 Medium",
+        "&eCombo:&7 Use with &bAOE&7 to create a freezing zone."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Cold Snap",
+      "subtitle": "Invoquez votre puissance.",
+      "desc": [
+        "&7Chills enemies, slowing them down significantly.",
+        "",
+        "&bMana Cost:&7 Medium",
+        "&eCombo :&7 Utilisez avec &bAOE&7 pour zone gelée."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "6C4E72C0BF98E8DD",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "441C0659ED28D935",
+      "0579B03379C21F12",
+      "17D156865446035D"
+    ],
+    "en": {
+      "title": "Glyph Rune",
+      "subtitle": "Weave the arcana.",
+      "desc": [
+        "&7Creates a magical trap that activates when stepped on.",
+        "",
+        "&eUsage:&7 Cast a spell *into* the rune to store it. When triggered, the stored spell is released."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Rune",
+      "subtitle": "Tissez l'arcane.",
+      "desc": [
+        "&7Crée un piège magique activé par le pas.",
+        "",
+        "&eUsage :&7 Lancez un sort *dans* la rune pour le stocker. Déclenché, il est libéré."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "67A207CF6900F232",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "441C0659ED28D935",
+      "4C1EFACFEBA74106",
+      "3472B3099BD5EE5D"
+    ],
+    "en": {
+      "title": "Glyph Snare",
+      "subtitle": "Master the glyphs.",
+      "desc": [
+        "&7Applies the Slowness potion effect.",
+        "",
+        "&bMana Cost:&7 Low",
+        "&eTip:&7 Good for keeping creepers at bay."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Snare",
+      "subtitle": "Maîtrisez les glyphes.",
+      "desc": [
+        "&7Applique l'effet de potion Lenteur.",
+        "",
+        "&bMana Cost:&7 Low",
+        "&eConseil :&7 Bon pour repousser les creepers."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "295703FC5B92D0E6",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 150
+      }
+    ],
+    "deps": [
+      "441C0659ED28D935",
+      "7331621CFCEB6185",
+      "6A60A533BDBCCAD9"
+    ],
+    "en": {
+      "title": "Glyph Slowfall",
+      "subtitle": "Spell of wonder.",
+      "desc": [
+        "&7Grants Slow Falling effect.",
+        "",
+        "&bMana Cost:&7 Low",
+        "&eUsage:&7 Cast &bSelf&7 + &bSlowfall&7 before hitting the ground."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Slowfall",
+      "subtitle": "Sort d'émerveillement.",
+      "desc": [
+        "&7Grants Slow Falling effect.",
+        "",
+        "&bMana Cost:&7 Low",
+        "&eUsage :&7 Lancez &bSoi&7 + &bChute Lente&7 avant de toucher le sol."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "5BB155110168DF92",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "441C0659ED28D935",
+      "2134B56DB249DD4D",
+      "12CE4920DABD0F98"
+    ],
+    "en": {
+      "title": "Glyph Freeze",
+      "subtitle": "Arcane discovery.",
+      "desc": [
+        "&7Encases the target in ice blocks.",
+        "",
+        "&bMana Cost:&7 High",
+        "&cWarning:&7 Bosses might be immune or break out quickly."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Freeze",
+      "subtitle": "Découverte arcanique.",
+      "desc": [
+        "&7Enferme la cible dans des blocs de glace.",
+        "",
+        "&bMana Cost:&7 High",
+        "&cAttention :&7 Les Boss peuvent être immunisés ou se libérer rapidement."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "00143D4FC12AEFD9",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "6F3602F5600A6221",
+      "382749097CE9D9BA",
+      "2CBB0C0E32E58128"
+    ],
+    "en": {
+      "title": "Glyph Split",
+      "subtitle": "Channel the source.",
+      "desc": [
+        "&7Multiplies the effect of the spell.",
+        "",
+        "&bMana Cost:&7 Varies (Multiplies total cost)",
+        "&eCombo:&7 &bProjectile&7 + &bSplit&7 + &cHarm&7 = Shotgun blast."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Split",
+      "subtitle": "Canalisez la source.",
+      "desc": [
+        "&7Multiplie l'effet du sort.",
+        "",
+        "&bMana Cost:&7 Varies (Multiplies total cost)",
+        "&eCombo:&7 &bProjectile&7 + &bSplit&7 + &cHarm&7 = Shotgun blast."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "73D19C0C1836CD03",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 150
+      }
+    ],
+    "deps": [
+      "63DD7F5A4441ACE7",
+      "30C8E586A46FD0CD",
+      "05AD66530B699FA0"
+    ],
+    "en": {
+      "title": "Glyph Crush",
+      "subtitle": "Magic flows through you.",
+      "desc": [
+        "&7Crushes the target with gravitational force.",
+        "",
+        "&bMana Cost:&7 High",
+        "&eTip:&7 Deals partial armor-piercing damage."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Crush",
+      "subtitle": "La magie coule en vous.",
+      "desc": [
+        "&7Écrase la cible avec une force gravitationnelle.",
+        "",
+        "&bMana Cost:&7 High",
+        "&eTip:&7 Deals partial armor-piercing damage."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "18BC056B55C25EB5",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 150
+      }
+    ],
+    "deps": [
+      "63DD7F5A4441ACE7",
+      "74A23A5B54BD7E5E",
+      "21E1D29B5CD3372A"
+    ],
+    "en": {
+      "title": "Glyph Smelt",
+      "subtitle": "A novice's journey.",
+      "desc": [
+        "&7Instantly smelts the target block or item drops.",
+        "",
+        "&bMana Cost:&7 Medium",
+        "&eCombo:&7 &bTouch&7 + &6Smelt&7 on an Iron Ore block = Iron Ingot."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Smelt",
+      "subtitle": "Le voyage d'un novice.",
+      "desc": [
+        "&7Cuit instantanément le bloc cible ou les objets lâchés.",
+        "",
+        "&bMana Cost:&7 Medium",
+        "&eCombo :&7 &bToucher&7 + &6Cuire&7 sur un minerai de Fer = Lingot de Fer."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "5F75215CB5956290",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 150
+      }
+    ],
+    "deps": [
+      "63DD7F5A4441ACE7",
+      "48DD2081936F2CF0",
+      "761F5F98E18E824D"
+    ],
+    "en": {
+      "title": "Glyph Accelerate",
+      "subtitle": "Summon your power.",
+      "desc": [
+        "&7Accelerates tile entities (furnaces, machines) and crop growth.",
+        "",
+        "&bMana Cost:&7 High",
+        "&eUsage:&7 Great for speeding up production lines."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Accelerate",
+      "subtitle": "Invoquez votre puissance.",
+      "desc": [
+        "&7Accélère les entités (fours, machines) et la croissance des cultures.",
+        "",
+        "&bMana Cost:&7 High",
+        "&eUsage :&7 Super pour accélérer les lignes de production."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2714EE46B4DF620E",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "6F3602F5600A6221",
+      "1D092894859BB4C9",
+      "0AD6A125820795DE"
+    ],
+    "en": {
+      "title": "Glyph Summon Vex",
+      "subtitle": "Weave the arcana.",
+      "desc": [
+        "&7Calls forth a Vex spirit ally.",
+        "",
+        "&bMana Cost:&7 High",
+        "&eTip:&7 They are aggressive but have low health."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Summon Vex",
+      "subtitle": "Tissez l'arcane.",
+      "desc": [
+        "&7Invoque un allié esprit Vex.",
+        "",
+        "&bMana Cost:&7 High",
+        "&eConseil :&7 Ils sont agressifs mais ont peu de vie."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "0EC08C5BBFA83A51",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "6F3602F5600A6221",
+      "62411BF4000B671D",
+      "59CE7EAEA0C25808"
+    ],
+    "en": {
+      "title": "Glyph Lightning",
+      "subtitle": "Master the glyphs.",
+      "desc": [
+        "&7Summons a lightning bolt from the sky.",
+        "",
+        "&bMana Cost:&7 High",
+        "&cWarning:&7 Can charge creepers or start fires!"
+      ]
+    },
+    "fr": {
+      "title": "Glyph Lightning",
+      "subtitle": "Maîtrisez les glyphes.",
+      "desc": [
+        "&7Invoque un éclair du ciel.",
+        "",
+        "&bMana Cost:&7 High",
+        "&cAttention :&7 Peut charger les creepers ou déclencher des incendies !"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "7F97805EE8DFC9F6",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 150
+      }
+    ],
+    "deps": [
+      "63DD7F5A4441ACE7",
+      "7CC0459E8657617D",
+      "54E317444AF31DA0"
+    ],
+    "en": {
+      "title": "Glyph Grow",
+      "subtitle": "Spell of wonder.",
+      "desc": [
+        "&7Bonemeals the target area.",
+        "",
+        "&bMana Cost:&7 Medium",
+        "&eCombo:&7 &bAOE&7 + &aGrow&7 = Instant farm."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Grow",
+      "subtitle": "Sort d'émerveillement.",
+      "desc": [
+        "&7Fertilise la zone cible.",
+        "",
+        "&bMana Cost:&7 Medium",
+        "&eCombo:&7 &bAOE&7 + &aGrow&7 = Instant farm."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "62A9FD6138446A17",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 150
+      }
+    ],
+    "deps": [
+      "63DD7F5A4441ACE7",
+      "053FF9E8C45060D6",
+      "3512BC20229693CD"
+    ],
+    "en": {
+      "title": "Glyph Dampen",
+      "subtitle": "Arcane discovery.",
+      "desc": [
+        "&7Used to soften spells (e.g., prevent block breaking while harvesting).",
+        "",
+        "&eUsage:&7 Useful when you only want the secondary effects of a spell."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Dampen",
+      "subtitle": "Découverte arcanique.",
+      "desc": [
+        "&7Utilisé pour adoucir les sorts (ex : éviter de casser les blocs en récoltant).",
+        "",
+        "&eUsage :&7 Utile pour juste les effets secondaires d'un sort."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "36183375DAA54408",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 150
+      }
+    ],
+    "deps": [
+      "63DD7F5A4441ACE7",
+      "144ACC0A8CA605B9",
+      "05BAF8FF07FD6A10"
+    ],
+    "en": {
+      "title": "Glyph Invisibility",
+      "subtitle": "Channel the source.",
+      "desc": [
+        "&7Grants the Invisibility potion effect.",
+        "",
+        "&bMana Cost:&7 Medium",
+        "&eTip:&7 Mobs decrease their detection range."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Invisibility",
+      "subtitle": "Canalisez la source.",
+      "desc": [
+        "&7Donne l'effet d'Invisibilité.",
+        "",
+        "&bMana Cost:&7 Medium",
+        "&eAstuce :&7 Les créatures réduisent leur portée de détection."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "46469E3A8AF0CB80",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 150
+      }
+    ],
+    "deps": [
+      "63DD7F5A4441ACE7",
+      "6BE322E2E17CC091",
+      "6E473A397B0824E4"
+    ],
+    "en": {
+      "title": "Glyph Extract",
+      "subtitle": "Magic flows through you.",
+      "desc": [
+        "&7Harvests blocks as if using a Silk Touch tool.",
+        "",
+        "&bMana Cost:&7 High",
+        "&eCombo:&7 &bTouch&7 + &6Extract&7 = Glass/Ice harvester."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Extract",
+      "subtitle": "La magie coule en vous.",
+      "desc": [
+        "&7Récolte les blocs comme avec Toucher de Soie.",
+        "",
+        "&bMana Cost:&7 High",
+        "&eCombo:&7 &bTouch&7 + &6Extract&7 = Glass/Ice harvester."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "430CAC90C8B34A17",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "33CBB61F5D1C72FE",
+      "312250C813E89B54"
+    ],
+    "en": {
+      "title": "Glyph Delay",
+      "subtitle": "A novice's journey.",
+      "desc": [
+        "&7Adds a time delay before the next glyph activates.",
+        "",
+        "&eUsage:&7 Good for complex ritual-like spells or traps."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Delay",
+      "subtitle": "Le voyage d'un novice.",
+      "desc": [
+        "&7Ajoute un délai avant l'activation du prochain glyphe.",
+        "",
+        "&eUsage :&7 Bon pour sorts complexes type rituel ou pièges."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "73C9BE065B1F094B",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "441C0659ED28D935",
+      "002DBEDD1338DB6E",
+      "3F20F6E300F8E095"
+    ],
+    "en": {
+      "title": "Glyph Light",
+      "subtitle": "Summon your power.",
+      "desc": [
+        "&7Creates a Mage Light block that emits light level 15.",
+        "",
+        "&bMana Cost:&7 Low",
+        "&eTip:&7 You can color the light by using dye on it!"
+      ]
+    },
+    "fr": {
+      "title": "Glyph Light",
+      "subtitle": "Invoquez votre puissance.",
+      "desc": [
+        "&7Crée un bloc de Lumière Mage émettant un niveau 15.",
+        "",
+        "&bMana Cost:&7 Low",
+        "&eConseil :&7 Colorez la lumière avec un colorant !"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "5F7A07D0F71044D2",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 150
+      }
+    ],
+    "deps": [
+      "63DD7F5A4441ACE7",
+      "5C4373D170DB6506",
+      "353BF5D2B4D53BF5"
+    ],
+    "en": {
+      "title": "Glyph Duration Down",
+      "subtitle": "Weave the arcana.",
+      "desc": [
+        "&7Shortens status effects on the target.",
+        "",
+        "&eUsage:&7 Can be used to cure poisons or reduce debuff times."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Duration Down",
+      "subtitle": "Tissez l'arcane.",
+      "desc": [
+        "&7Raccourcit les effets de statut sur la cible.",
+        "",
+        "&eUsage :&7 Soigne poisons ou réduit durée des debuffs."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2CD1B2BCEDA0D473",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 150
+      }
+    ],
+    "deps": [
+      "63DD7F5A4441ACE7",
+      "53C8DDD39BC82F31",
+      "4294AF5D0428F2FB"
+    ],
+    "en": {
+      "title": "Glyph Exchange",
+      "subtitle": "Master the glyphs.",
+      "desc": [
+        "&7Replaces the block you're looking at with the one in your offhand/hotbar.",
+        "",
+        "&eUsage:&7 Excellent for building or upgrading walls."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Exchange",
+      "subtitle": "Maîtrisez les glyphes.",
+      "desc": [
+        "&7Remplace le bloc visé par celui en main secondaire/barre.",
+        "",
+        "&eUsage :&7 Excellent pour bâtir ou améliorer des murs."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "0641F45BEA6C67E5",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 150
+      }
+    ],
+    "deps": [
+      "63DD7F5A4441ACE7",
+      "7D15D979F2646C06",
+      "5C9BC3699A5762CA"
+    ],
+    "en": {
+      "title": "Glyph Conjure Water",
+      "subtitle": "Arcane discovery.",
+      "desc": [
+        "&7Summons a water block.",
+        "",
+        "&bMana Cost:&7 Low",
+        "&eUsage:&7 Infinite water everywhere, or flood your enemies."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Conjure Water",
+      "subtitle": "Découverte arcanique.",
+      "desc": [
+        "&7Invoque un bloc d'eau.",
+        "",
+        "&bMana Cost:&7 Low",
+        "&eUsage :&7 Eau infinie partout, ou noyez vos ennemis."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "515001313775DCFC",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "441C0659ED28D935",
+      "6E6F7FDB76B6718C",
+      "651B06E6873F34CF"
+    ],
+    "en": {
+      "title": "Glyph Cut",
+      "subtitle": "Channel the source.",
+      "desc": [
+        "&7Acts as Shears on the target.",
+        "",
+        "&bMana Cost:&7 Low",
+        "&eUsage:&7 Harvest wool without killing sheep."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Cut",
+      "subtitle": "Canalisez la source.",
+      "desc": [
+        "&7Agit comme des Cisailles sur la cible.",
+        "",
+        "&bMana Cost:&7 Low",
+        "&eUsage:&7 Harvest wool without killing sheep."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "00ABBF2CB07D573C",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "441C0659ED28D935",
+      "58343DFDAE1210BF",
+      "545B39FB8B2627AD"
+    ],
+    "en": {
+      "title": "Glyph Harm",
+      "subtitle": "Magic flows through you.",
+      "desc": [
+        "&7The basic offensive glyph.",
+        "",
+        "&bMana Cost:&7 Low",
+        "&eTip:&7 Augment with &bAmplify&7 to increase damage."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Harm",
+      "subtitle": "La magie coule en vous.",
+      "desc": [
+        "&7The basic offensive glyph.",
+        "",
+        "&bMana Cost:&7 Low",
+        "&eConseil :&7 Augmentez avec &bAmplification&7 pour plus de dégâts."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2EB88ABC7017D5FE",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "441C0659ED28D935",
+      "234238D75E11C869",
+      "6B7078A98D08EC1F"
+    ],
+    "en": {
+      "title": "Glyph Interact",
+      "subtitle": "A novice's journey.",
+      "desc": [
+        "&7Use items, open doors, or flip levers remotely.",
+        "",
+        "&eCombo:&7 &bProjectile&7 + &bInteract&7 = Remote Control."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Interact",
+      "subtitle": "Le voyage d'un novice.",
+      "desc": [
+        "&7Utilise des objets ou active des leviers à distance.",
+        "",
+        "&eCombo:&7 &bProjectile&7 + &bInteract&7 = Remote Control."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "7AAD3CE642A34A0C",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "6F3602F5600A6221",
+      "38102A2A0F8DA5A6",
+      "32C20AFC9A4A0E0E"
+    ],
+    "en": {
+      "title": "Glyph Blink",
+      "subtitle": "Summon your power.",
+      "desc": [
+        "&7Instant transportation in the direction you are looking.",
+        "",
+        "&bMana Cost:&7 Medium",
+        "&eTip:&7 Can blink through walls if the destination is safe."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Blink",
+      "subtitle": "Invoquez votre puissance.",
+      "desc": [
+        "&7Transport instantané dans la direction où vous regardez.",
+        "",
+        "&bMana Cost:&7 Medium",
+        "&eConseil :&7 Peut traverser les murs si la destination est sûre."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "073FD3884B2B11F7",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "441C0659ED28D935",
+      "18A7D6E21342AC84",
+      "41EF535B718F674F"
+    ],
+    "en": {
+      "title": "Glyph Amplify",
+      "subtitle": "Weave the arcana.",
+      "desc": [
+        "&7Boosts the effect of the previous glyph.",
+        "",
+        "&eEffect:&7 +Damage, +Range, +Radius depending on the spell."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Amplify",
+      "subtitle": "Tissez l'arcane.",
+      "desc": [
+        "&7Booste l'effet du glyphe précédent.",
+        "",
+        "&eEffet :&7 +Dégâts, +Portée, +Rayon selon le sort."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4CAC87774C1B15C0",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 150
+      }
+    ],
+    "deps": [
+      "63DD7F5A4441ACE7",
+      "114B29A303FE72F8",
+      "7F2FC5D08E7B548B"
+    ],
+    "en": {
+      "title": "Glyph Fell",
+      "subtitle": "Spell of wonder.",
+      "desc": [
+        "&7Chops down the entire tree when hitting a log.",
+        "",
+        "&bMana Cost:&7 Varies by tree size",
+        "&eTip:&7 Saves a lot of durability/mana compared to breaking block by block."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Fell",
+      "subtitle": "Sort d'émerveillement.",
+      "desc": [
+        "&7Abat l'arbre entier en frappant une bûche.",
+        "",
+        "&bCoût en Mana :&7 Varie selon la taille de l'arbre",
+        "&eConseil :&7 Économise durabilité/mana comparé au cassage bloc par bloc."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1038054E334AC792",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 150
+      }
+    ],
+    "deps": [
+      "63DD7F5A4441ACE7",
+      "3F7B8E2EB23772FB",
+      "56F8DEF68AA8B41C"
+    ],
+    "en": {
+      "title": "Glyph Extend Time",
+      "subtitle": "Arcane discovery.",
+      "desc": [
+        "&7Makes buffs or debuffs last longer.",
+        "",
+        "&eExample:&7 &bOrbit&7 + &aExtend Time&7 keeps the shield up longer."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Extend Time",
+      "subtitle": "Découverte arcanique.",
+      "desc": [
+        "&7Prolonge la durée des bonus ou malus.",
+        "",
+        "&eExemple :&7 &bOrbite&7 + &aExtension Temps&7 maintient le bouclier plus longtemps."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "30B8E8169EAE1C01",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 150
+      }
+    ],
+    "deps": [
+      "63DD7F5A4441ACE7",
+      "0A9F52565D3A1C88",
+      "53250785A630D303"
+    ],
+    "en": {
+      "title": "Glyph Heal",
+      "subtitle": "Channel the source.",
+      "desc": [
+        "&7Heals the target entity.",
+        "",
+        "&bMana Cost:&7 Medium",
+        "&eCombo:&7 &bSelf&7 + &aHeal&7 = Survival essential."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Heal",
+      "subtitle": "Canalisez la source.",
+      "desc": [
+        "&7Soigne l'entité cible.",
+        "",
+        "&bMana Cost:&7 Medium",
+        "&eCombo:&7 &bSelf&7 + &aHeal&7 = Survival essential."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "00D329407250AC7B",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "441C0659ED28D935",
+      "78BB5F978CE1F7D5",
+      "38003743B695C5C1"
+    ],
+    "en": {
+      "title": "Glyph Leap",
+      "subtitle": "Magic flows through you.",
+      "desc": [
+        "§5Glyph Leap§r — Channel the arcane source to create powerful spell combinations. Every glyph unlocks new potential."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Leap",
+      "subtitle": "La magie coule en vous.",
+      "desc": [
+        "§5Glyph Leap§r — Canalisez la source arcane pour créer de puissantes combinaisons de sorts. Chaque glyphe débloque un nouveau potentiel."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "495990C8C95A955B",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "441C0659ED28D935",
+      "3C9E29A9FC03AF29",
+      "23921DC99D9F19D8"
+    ],
+    "en": {
+      "title": "Glyph Redstone Signal",
+      "subtitle": "A novice's journey.",
+      "desc": [
+        "§5Glyph Redstone Signal§r — Ars Nouveau lets you craft custom spells using glyphs and source energy. The possibilities are endless!"
+      ]
+    },
+    "fr": {
+      "title": "Glyph Redstone Signal",
+      "subtitle": "Le voyage d'un novice.",
+      "desc": [
+        "§5Glyph Redstone Signal§r — Ars Nouveau vous permet de créer des sorts personnalisés à l'aide de glyphes et d'énergie source. Les possibilités sont infinies !"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "290F943A1FF52070",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 150
+      }
+    ],
+    "deps": [
+      "63DD7F5A4441ACE7",
+      "159A57D370A30070",
+      "04E0C481BB6ABD87"
+    ],
+    "en": {
+      "title": "Glyph Pierce",
+      "subtitle": "Summon your power.",
+      "desc": [
+        "§5Glyph Pierce§r — Ars Nouveau lets you craft custom spells using glyphs and source energy. The possibilities are endless!"
+      ]
+    },
+    "fr": {
+      "title": "Glyph Pierce",
+      "subtitle": "Invoquez votre puissance.",
+      "desc": [
+        "§5Glyph Pierce§r — Ars Nouveau vous permet de créer des sorts personnalisés à l'aide de glyphes et d'énergie source. Les possibilités sont infinies !"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "496639EC3DC0165C",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "441C0659ED28D935",
+      "538981D001CEF01F",
+      "10D3703D3C415FC3"
+    ],
+    "en": {
+      "title": "Glyph Harvest",
+      "subtitle": "Weave the arcana.",
+      "desc": [
+        "§5Glyph Harvest§r — Ars Nouveau lets you craft custom spells using glyphs and source energy. The possibilities are endless!"
+      ]
+    },
+    "fr": {
+      "title": "Glyph Harvest",
+      "subtitle": "Tissez l'arcane.",
+      "desc": [
+        "§5Glyph Harvest§r — Ars Nouveau vous permet de créer des sorts personnalisés à l'aide de glyphes et d'énergie source. Les possibilités sont infinies !"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "66D63DC37FCDD268",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 150
+      }
+    ],
+    "deps": [
+      "63DD7F5A4441ACE7",
+      "689041E40D7B21AD",
+      "55DA99DF01D9C37C"
+    ],
+    "en": {
+      "title": "Glyph Fortune",
+      "subtitle": "Master the glyphs.",
+      "desc": [
+        "§5Glyph Fortune§r — Channel the arcane source to create powerful spell combinations. Every glyph unlocks new potential."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Fortune",
+      "subtitle": "Maîtrisez les glyphes.",
+      "desc": [
+        "§5Glyph Fortune§r — Canalisez la source arcane pour créer de puissantes combinaisons de sorts. Chaque glyphe débloque un nouveau potentiel."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1EAE42D3A2162339",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "441C0659ED28D935",
+      "157C46CA34F1665F",
+      "696076AA28E02C89"
+    ],
+    "en": {
+      "title": "Glyph Break",
+      "subtitle": "Spell of wonder.",
+      "desc": [
+        "§5Glyph Break§r — Channel the arcane source to create powerful spell combinations. Every glyph unlocks new potential."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Break",
+      "subtitle": "Sort d'émerveillement.",
+      "desc": [
+        "§5Glyph Break§r — Canalisez la source arcane pour créer de puissantes combinaisons de sorts. Chaque glyphe débloque un nouveau potentiel."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "1EEC5622F2A9A163",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "441C0659ED28D935",
+      "3345878DB26C9352",
+      "44C797F6DFAF95D9"
+    ],
+    "en": {
+      "title": "Glyph Pickup",
+      "subtitle": "Arcane discovery.",
+      "desc": [
+        "&7Picks up items in a radius around the target.",
+        "",
+        "&bMana Cost:&7 Medium",
+        "&eCombo:&7 &bSelf&7 + &dPickup&7 = Magnet."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Pickup",
+      "subtitle": "Découverte arcanique.",
+      "desc": [
+        "&7Ramasse les objets dans un rayon autour de la cible.",
+        "",
+        "&bMana Cost:&7 Medium",
+        "&eCombo:&7 &bSelf&7 + &dPickup&7 = Magnet."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "7862778F8424419B",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "441C0659ED28D935",
+      "1345D7C50ED45695",
+      "486CF16F4F5C860E"
+    ],
+    "en": {
+      "title": "Glyph Launch",
+      "subtitle": "Channel the source.",
+      "desc": [
+        "&7Flings the entity upwards.",
+        "",
+        "&bMana Cost:&7 Medium",
+        "&eUsage:&7 Cast &bSelf&7 + &bLaunch&7 for a super jump."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Launch",
+      "subtitle": "Canalisez la source.",
+      "desc": [
+        "&7Projette l'entité vers le haut.",
+        "",
+        "&bMana Cost:&7 Medium",
+        "&eUsage :&7 Lancez &bSoi&7 + &bLancement&7 pour un super saut."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "0671915D3BDDD07D",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "441C0659ED28D935",
+      "2D178271A4983D6D",
+      "54AED59019A9FC16"
+    ],
+    "en": {
+      "title": "Glyph Dispel",
+      "subtitle": "Magic flows through you.",
+      "desc": [
+        "&7Negates other spell effects or debuffs.",
+        "",
+        "&bMana Cost:&7 High",
+        "&eUsage:&7 Useful for PvP or removing accidental spell walls."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Dispel",
+      "subtitle": "La magie coule en vous.",
+      "desc": [
+        "&7Annule les effets de sorts ou les malus.",
+        "",
+        "&bMana Cost:&7 High",
+        "&eUsage :&7 Utile en PvP ou pour retirer des murs magiques."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "3A44DCF5B7D5024C",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 150
+      }
+    ],
+    "deps": [
+      "63DD7F5A4441ACE7",
+      "089F4370DF1DC77E",
+      "3EBC8A668657B7E1"
+    ],
+    "en": {
+      "title": "Glyph Ender Inventory",
+      "subtitle": "A novice's journey.",
+      "desc": [
+        "&7Opens your Ender Chest inventory.",
+        "",
+        "&bMana Cost:&7 Medium",
+        "&eUsage:&7 &bSelf&7 + &dEnder Inventory&7 = Portable storage."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Ender Inventory",
+      "subtitle": "Le voyage d'un novice.",
+      "desc": [
+        "&7Ouvre votre inventaire d'Ender Chest.",
+        "",
+        "&bMana Cost:&7 Medium",
+        "&eUsage:&7 &bSelf&7 + &dEnder Inventory&7 = Portable storage."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "392869A1DEB7EE20",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "441C0659ED28D935",
+      "0DA7CDD79CBEAE32",
+      "41A6ED0A1538D0A8"
+    ],
+    "en": {
+      "title": "Glyph Pull",
+      "subtitle": "Summon your power.",
+      "desc": [
+        "&7Yanks the target closer.",
+        "",
+        "&bMana Cost:&7 Low",
+        "&eCombo:&7 &bProjectile&7 + &bPull&7 = Hookshot."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Pull",
+      "subtitle": "Invoquez votre puissance.",
+      "desc": [
+        "&7Attire la cible plus près.",
+        "",
+        "&bMana Cost:&7 Low",
+        "&eCombo:&7 &bProjectile&7 + &bPull&7 = Hookshot."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "5DE36D1C9F29F931",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 150
+      }
+    ],
+    "deps": [
+      "63DD7F5A4441ACE7",
+      "6E337A59B9B26F03",
+      "2626959A926C1054"
+    ],
+    "en": {
+      "title": "Glyph Explosion",
+      "subtitle": "Weave the arcana.",
+      "desc": [
+        "&7Creates an explosion at the target.",
+        "",
+        "&bMana Cost:&7 High",
+        "&cWarning:&7 Can break blocks unless dampened."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Explosion",
+      "subtitle": "Tissez l'arcane.",
+      "desc": [
+        "&7Crée une explosion sur la cible.",
+        "",
+        "&bMana Cost:&7 High",
+        "&cAttention :&7 Peut briser des blocs sans amorti."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "16C47409C0A411EF",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "6F3602F5600A6221",
+      "7054D9D4D6E90D6C",
+      "624F70371F036C65"
+    ],
+    "en": {
+      "title": "Glyph Fangs",
+      "subtitle": "Master the glyphs.",
+      "desc": [
+        "&7Calls forth fangs from the ground to bite enemies.",
+        "",
+        "&bMana Cost:&7 Medium",
+        "&eTip:&7 Ignores armor."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Fangs",
+      "subtitle": "Maîtrisez les glyphes.",
+      "desc": [
+        "&7Invoque des crocs du sol pour mordre les ennemis.",
+        "",
+        "&bMana Cost:&7 Medium",
+        "&eTip:&7 Ignores armor."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "3801E818308438FF",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 150
+      }
+    ],
+    "deps": [
+      "63DD7F5A4441ACE7",
+      "534EF07A33B6FE24",
+      "03829269308C4BC8"
+    ],
+    "en": {
+      "title": "Glyph Aoe",
+      "subtitle": "Spell of wonder.",
+      "desc": [
+        "&7Any glyph following AOE applies to all targets in a radius.",
+        "",
+        "&bMana Cost:&7 Multiplies cost significantly",
+        "&eUsage:&7 &bTouch&7 + &dAOE&7 + &cHarm&7."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Aoe",
+      "subtitle": "Sort d'émerveillement.",
+      "desc": [
+        "&7Tout glyphe suivant AOE s'applique à toutes les cibles dans un rayon.",
+        "",
+        "&bMana Cost:&7 Multiplies cost significantly",
+        "&eUsage:&7 &bTouch&7 + &dAOE&7 + &cHarm&7."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "485EE9E6C6F59826",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 150
+      }
+    ],
+    "deps": [
+      "63DD7F5A4441ACE7",
+      "0ACADF4272139938",
+      "27987EFDAC19DE52"
+    ],
+    "en": {
+      "title": "Glyph Gravity",
+      "subtitle": "Arcane discovery.",
+      "desc": [
+        "&7Makes entities fall faster and unable to jump.",
+        "",
+        "&bMana Cost:&7 Medium",
+        "&eUsage:&7 Ground flying mobs."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Gravity",
+      "subtitle": "Découverte arcanique.",
+      "desc": [
+        "&7Fait tomber les entités plus vite et les empêche de sauter.",
+        "",
+        "&bMana Cost:&7 Medium",
+        "&eUsage:&7 Ground flying mobs."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4F5FCEBB16B5B6F5",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "6F3602F5600A6221",
+      "066F2B1886D6A5CB",
+      "589EE0FDB1FB0FA9"
+    ],
+    "en": {
+      "title": "Glyph Wither",
+      "subtitle": "Channel the source.",
+      "desc": [
+        "&7Inflicts Wither damage over time.",
+        "",
+        "&bMana Cost:&7 High",
+        "&eTip:&7 Good against high-armor targets."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Wither",
+      "subtitle": "Canalisez la source.",
+      "desc": [
+        "&7Inflicts Wither damage over time.",
+        "",
+        "&bMana Cost:&7 High",
+        "&eTip:&7 Good against high-armor targets."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": [
+        "IDENTICAL_TO_EN"
+      ]
+    }
+  },
+  {
+    "id": "3EAC7600113F9AAB",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "441C0659ED28D935",
+      "4E130026AC47622B",
+      "3270B8D5C37F7F34"
+    ],
+    "en": {
+      "title": "Glyph Gust",
+      "subtitle": "Magic flows through you.",
+      "desc": [
+        "&7Pushes entities away or clears grass.",
+        "",
+        "&bMana Cost:&7 Low",
+        "&eTip:&7 Can perform a double jump if cast underfoot."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Gust",
+      "subtitle": "La magie coule en vous.",
+      "desc": [
+        "&7Repousse les entités ou nettoie l'herbe.",
+        "",
+        "&bMana Cost:&7 Low",
+        "&eConseil :&7 Peut faire un double saut si lancé sous les pieds."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "6F3602F5600A6221",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [
+      {
+        "type": "checkmark"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 20
+      }
+    ],
+    "deps": [
+      "3D4D88B8BE881351",
+      "606A80F8EB776A14",
+      "65D68BEEB36FC805"
+    ],
+    "en": {
+      "title": "Enchanting Apparatus",
+      "subtitle": "Weave the arcana.",
+      "desc": [
+        "&7The most powerful glyphs.",
+        "&7Requires an &6Archmage Spell Book&7."
+      ]
+    },
+    "fr": {
+      "title": "Appareil d'Enchantement",
+      "subtitle": "Tissez l'arcane.",
+      "desc": [
+        "&7The most powerful glyphs.",
+        "&7Requires an &6Archmage Spell Book&7."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": [
+        "IDENTICAL_TO_EN"
+      ]
+    }
+  },
+  {
+    "id": "1D3471FCA8B3BE36",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "441C0659ED28D935",
+      "5DDFF0D49AF679D4",
+      "5A03F82C6B50D548"
+    ],
+    "en": {
+      "title": "Glyph Summon Steed",
+      "subtitle": "Arcane discovery.",
+      "desc": [
+        "&7Calls a temporary spirit horse.",
+        "",
+        "&bMana Cost:&7 High",
+        "&eTip:&7 Use &aExtend Time&7 to ride longer."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Summon Steed",
+      "subtitle": "Découverte arcanique.",
+      "desc": [
+        "&7Appelle un cheval spirituel temporaire.",
+        "",
+        "&bMana Cost:&7 High",
+        "&eConseil :&7 Utilisez &aExtension Temps&7 pour chevaucher plus longtemps."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "779C2162C69DAE8E",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "441C0659ED28D935",
+      "2903B75395F0A1A8",
+      "29E06B429B4AE176"
+    ],
+    "en": {
+      "title": "Glyph Summon Wolves",
+      "subtitle": "Channel the source.",
+      "desc": [
+        "&7Summons Spirit Wolves.",
+        "",
+        "&bMana Cost:&7 High",
+        "&eTip:&7 Good distraction for mobs."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Summon Wolves",
+      "subtitle": "Canalisez la source.",
+      "desc": [
+        "&7Summons Spirit Wolves.",
+        "",
+        "&bMana Cost:&7 High",
+        "&eConseil :&7 Bonne distraction pour les mobs."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "69A04EB462756EED",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "441C0659ED28D935",
+      "408EBF04460254C7",
+      "17413068980A17B1"
+    ],
+    "en": {
+      "title": "Glyph Underfoot",
+      "subtitle": "Magic flows through you.",
+      "desc": [
+        "&7Targets the block directly under you.",
+        "",
+        "&eCombo:&7 &bUnderfoot&7 + &bLaunch&7 = Super Jump."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Underfoot",
+      "subtitle": "La magie coule en vous.",
+      "desc": [
+        "&7Cible le bloc directement sous vous.",
+        "",
+        "&eCombo:&7 &bUnderfoot&7 + &bLaunch&7 = Super Jump."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "29E3DD9A3F85CE80",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "6F3602F5600A6221",
+      "76FB217022944E1A",
+      "72D77A51A69EDA71"
+    ],
+    "en": {
+      "title": "Glyph Summon Decoy",
+      "subtitle": "A novice's journey.",
+      "desc": [
+        "&7Effectively a target dummy that draws aggro.",
+        "",
+        "&bMana Cost:&7 Medium",
+        "&eUsage:&7 Drop one and run away!"
+      ]
+    },
+    "fr": {
+      "title": "Glyph Summon Decoy",
+      "subtitle": "Le voyage d'un novice.",
+      "desc": [
+        "&7Efficacement un mannequin qui attire l'aggro.",
+        "",
+        "&bMana Cost:&7 Medium",
+        "&eUsage :&7 Posez-en un et fuyez !"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "44D5ABE34271D7FE",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "6F3602F5600A6221",
+      "444FA834D132920C",
+      "2A80E3849EB6A71D"
+    ],
+    "en": {
+      "title": "Glyph Hex",
+      "subtitle": "Summon your power.",
+      "desc": [
+        "&7Increases damage taken by the target.",
+        "",
+        "&bMana Cost:&7 High",
+        "&eTip:&7 Cast before your main damage spell."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Hex",
+      "subtitle": "Invoquez votre puissance.",
+      "desc": [
+        "&7Augmente les dégâts reçus par la cible.",
+        "",
+        "&bMana Cost:&7 High",
+        "&eAstuce :&7 Lancez avant votre sort de dégâts principal."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "6D8C9D7D9DF9A6DD",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "457DE8C154641437",
+      "57678662241C1F28",
+      "11D8B50355018821"
+    ],
+    "en": {
+      "title": "Ritual Challenge",
+      "subtitle": "A novice's journey.",
+      "desc": [
+        "&7Starts a raid-like event. Survive for loot.",
+        "",
+        ""
+      ]
+    },
+    "fr": {
+      "title": "Ritual Challenge",
+      "subtitle": "Le voyage d'un novice.",
+      "desc": [
+        "&7Lance un événement type raid. Survivez pour le butin.",
+        "",
+        ""
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "4F8119B6298EA753",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "457DE8C154641437",
+      "01791B429C845B87",
+      "51A93C01E6E8F960"
+    ],
+    "en": {
+      "title": "Ritual Cloudshaping",
+      "subtitle": "Summon your power.",
+      "desc": [
+        "&7Toggles rain/storm.",
+        "",
+        ""
+      ]
+    },
+    "fr": {
+      "title": "Rituel de Façonnage de Nuages",
+      "subtitle": "Invoquez votre puissance.",
+      "desc": [
+        "&7Toggles rain/storm.",
+        "",
+        ""
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": [
+        "IDENTICAL_TO_EN"
+      ]
+    }
+  },
+  {
+    "id": "40407D2CDC660866",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "457DE8C154641437",
+      "0D2B4D31125D117F",
+      "1FBAFEB74535EFAE"
+    ],
+    "en": {
+      "title": "Ritual Disintegration",
+      "subtitle": "Weave the arcana.",
+      "desc": [
+        "&7Destroys blocks in a radius (mining).",
+        "",
+        ""
+      ]
+    },
+    "fr": {
+      "title": "Ritual Disintegration",
+      "subtitle": "Tissez l'arcane.",
+      "desc": [
+        "&7Détruit les blocs dans un rayon (minage).",
+        "",
+        ""
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "17D7D34F519F7E5F",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 500
+      }
+    ],
+    "deps": [
+      "0D330FAD6C993DBC",
+      "59CAE0E4B3339A4E",
+      "5E7DBDDD97BA8F13"
+    ],
+    "en": {
+      "title": "Archmage Spell Book",
+      "subtitle": "A novice's journey.",
+      "desc": [
+        "§5Archmage Spell Book§r — Ars Nouveau lets you craft custom spells using glyphs and source energy. The possibilities are endless!"
+      ]
+    },
+    "fr": {
+      "title": "Archmage Spell Book",
+      "subtitle": "Le voyage d'un novice.",
+      "desc": [
+        "§5Archmage Spell Book§r — Ars Nouveau vous permet de créer des sorts personnalisés à l'aide de glyphes et d'énergie source. Les possibilités sont infinies !"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "73C7A44F05AB6FAC",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "6F3602F5600A6221",
+      "59E41F4B85D1DF72",
+      "0DB8F107D55B420F"
+    ],
+    "en": {
+      "title": "Glyph Orbit",
+      "subtitle": "Summon your power.",
+      "desc": [
+        "&7Projectiles spin around the caster.",
+        "",
+        "&eCombo:&7 &bOrbit&7 + &6Splitting&7 + &cHarm&7 = Shield of damaging projectiles."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Orbit",
+      "subtitle": "Invoquez votre puissance.",
+      "desc": [
+        "&7Les projectiles tournent autour du lanceur.",
+        "",
+        "&eCombo :&7 &bOrbite&7 + &6Division&7 + &cDégâts&7 = Bouclier de projectiles."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2F5AECF5CDC8D8DB",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "441C0659ED28D935",
+      "6550E19AA8FD30EE",
+      "21C6D6FA46FCE9E9"
+    ],
+    "en": {
+      "title": "Glyph Sensitive",
+      "subtitle": "Weave the arcana.",
+      "desc": [
+        "&7Homing projectile modifier.",
+        "",
+        "&eUsage:&7 Ensures your spells don't miss moving targets."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Sensitive",
+      "subtitle": "Tissez l'arcane.",
+      "desc": [
+        "&7Homing projectile modifier.",
+        "",
+        "&eUtilisation :&7 Empêche vos sorts de rater les cibles mobiles."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "407AD700892ADBF1",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 150
+      }
+    ],
+    "deps": [
+      "63DD7F5A4441ACE7",
+      "77C4576E4E086331",
+      "3282190E6DF860F4"
+    ],
+    "en": {
+      "title": "Glyph Decelerate",
+      "subtitle": "Master the glyphs.",
+      "desc": [
+        "&7Reduces the velocity of entities.",
+        "",
+        "&bMana Cost:&7 Low"
+      ]
+    },
+    "fr": {
+      "title": "Glyph Decelerate",
+      "subtitle": "Maîtrisez les glyphes.",
+      "desc": [
+        "&7Réduit la vélocité des entités.",
+        "",
+        "&bMana Cost:&7 Low"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "0E88FDAE4CB5561B",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "457DE8C154641437",
+      "5F98BE3FBC552B4E",
+      "5018B75946EB5FA4"
+    ],
+    "en": {
+      "title": "Ritual Awakening",
+      "subtitle": "Arcane discovery.",
+      "desc": [
+        "&7Turns blocks into entities.",
+        "",
+        "",
+        ""
+      ]
+    },
+    "fr": {
+      "title": "Rituel d'Éveil",
+      "subtitle": "Découverte arcanique.",
+      "desc": [
+        "&7Turns blocks into entities.",
+        "",
+        "",
+        ""
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": [
+        "IDENTICAL_TO_EN"
+      ]
+    }
+  },
+  {
+    "id": "7471CDF5166D38F0",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "457DE8C154641437",
+      "4D67EB7ADBFC424E",
+      "6CF702640DFC9FBA"
+    ],
+    "en": {
+      "title": "Ritual Flight",
+      "subtitle": "Channel the source.",
+      "desc": [
+        "&7Provides temporary creative flight.",
+        "",
+        ""
+      ]
+    },
+    "fr": {
+      "title": "Rituel de Vol",
+      "subtitle": "Canalisez la source.",
+      "desc": [
+        "&7Provides temporary creative flight.",
+        "",
+        ""
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": [
+        "IDENTICAL_TO_EN"
+      ]
+    }
+  },
+  {
+    "id": "26D2183E27E1273A",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "457DE8C154641437",
+      "6BA754E04EFF326E",
+      "0577B2F9A78434A0"
+    ],
+    "en": {
+      "title": "Ritual Scrying",
+      "subtitle": "A novice's journey.",
+      "desc": [
+        "&7Highlights nearby valuable blocks.",
+        "",
+        ""
+      ]
+    },
+    "fr": {
+      "title": "Rituel de Scrutation",
+      "subtitle": "Le voyage d'un novice.",
+      "desc": [
+        "&7Highlights nearby valuable blocks.",
+        "",
+        ""
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": [
+        "IDENTICAL_TO_EN"
+      ]
+    }
+  },
+  {
+    "id": "4A41FCBFE985D81E",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "6F3602F5600A6221",
+      "0E6F07E3325EF0AC",
+      "496294EBE15C66AD"
+    ],
+    "en": {
+      "title": "Glyph Glide",
+      "subtitle": "Weave the arcana.",
+      "desc": [
+        "&7Allows you to glide like an Elytra.",
+        "",
+        "&bMana Cost:&7 Low",
+        "&eUsage:&7 Cast while in the air to activate."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Glide",
+      "subtitle": "Tissez l'arcane.",
+      "desc": [
+        "&7Permet de planer comme avec des Élytres.",
+        "",
+        "&bMana Cost:&7 Low",
+        "&eUsage :&7 Lancez en l'air pour activer."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "790C77898FED4E5D",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 150
+      }
+    ],
+    "deps": [
+      "63DD7F5A4441ACE7",
+      "451B7BA1CEBF45FE",
+      "6EA660C81B613163"
+    ],
+    "en": {
+      "title": "Glyph Wind Shear",
+      "subtitle": "Master the glyphs.",
+      "desc": [
+        "&7Knocks back enemies or items.",
+        "",
+        "&bMana Cost:&7 Low",
+        "&eUsage:&7 Good for spacing in combat."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Wind Shear",
+      "subtitle": "Maîtrisez les glyphes.",
+      "desc": [
+        "&7Repousse les ennemis ou les objets.",
+        "",
+        "&bMana Cost:&7 Low",
+        "&eUsage :&7 Bon pour espacer le combat."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "7F3EB3F473DF8385",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "6F3602F5600A6221",
+      "565B6C2496F15D99",
+      "598ED65E5C450F82"
+    ],
+    "en": {
+      "title": "Glyph Summon Undead",
+      "subtitle": "Spell of wonder.",
+      "desc": [
+        "&7Summons skeletons or zombies to fight for you.",
+        "",
+        "&bMana Cost:&7 High",
+        "&eRequires:&7 Specific Augments to choose the mob type."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Summon Undead",
+      "subtitle": "Sort d'émerveillement.",
+      "desc": [
+        "&7Invoque squelettes ou zombies pour combattre pour vous.",
+        "",
+        "&bMana Cost:&7 High",
+        "&eRequis :&7 Augments spécifiques pour choisir le type de mob."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "08B6FA532A136AF2",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "6F3602F5600A6221",
+      "60370B165A4B1C74",
+      "46FA84B093CC1151"
+    ],
+    "en": {
+      "title": "Glyph Linger",
+      "subtitle": "Arcane discovery.",
+      "desc": [
+        "&7Creates a lingering cloud of the spell.",
+        "",
+        "&eCombo:&7 &bProjectile&7 + &dLinger&7 + &cHarm&7 = Poison Cloud."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Linger",
+      "subtitle": "Découverte arcanique.",
+      "desc": [
+        "&7Crée un nuage persistant du sort.",
+        "",
+        "&eCombo:&7 &bProjectile&7 + &dLinger&7 + &cHarm&7 = Poison Cloud."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "59BD06DB42E0219F",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "441C0659ED28D935",
+      "302E439520101E75",
+      "5DA75E54FF1EFE89"
+    ],
+    "en": {
+      "title": "Glyph Evaporate",
+      "subtitle": "Channel the source.",
+      "desc": [
+        "&7Evaporates water or lava in the area.",
+        "",
+        "&bMana Cost:&7 Low",
+        "&eUsage:&7 Clearing underground floods."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Evaporate",
+      "subtitle": "Canalisez la source.",
+      "desc": [
+        "&7Évapore l'eau ou la lave dans la zone.",
+        "",
+        "&bMana Cost:&7 Low",
+        "&eUsage:&7 Clearing underground floods."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "12A70E00A63A7154",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "441C0659ED28D935",
+      "771FA1C73778FDCB",
+      "024EA8646EFADFF5"
+    ],
+    "en": {
+      "title": "Glyph Bounce",
+      "subtitle": "Magic flows through you.",
+      "desc": [
+        "&7Causes spell projectiles to ricochet.",
+        "",
+        "&eUsage:&7 Tricky shots around corners."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Bounce",
+      "subtitle": "La magie coule en vous.",
+      "desc": [
+        "&7Fait ricocher les projectiles de sort.",
+        "",
+        "&eUsage:&7 Tricky shots around corners."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "11C2D56F3D382573",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 150
+      }
+    ],
+    "deps": [
+      "63DD7F5A4441ACE7",
+      "5DCB4B1724B70622",
+      "352317A2806A9855"
+    ],
+    "en": {
+      "title": "Glyph Sense Magic",
+      "subtitle": "A novice's journey.",
+      "desc": [
+        "&7Reveals nearby source jars, spawners, etc.",
+        "",
+        "&bMana Cost:&7 Low"
+      ]
+    },
+    "fr": {
+      "title": "Glyph Sense Magic",
+      "subtitle": "Le voyage d'un novice.",
+      "desc": [
+        "&7Reveals nearby source jars, spawners, etc.",
+        "",
+        "&bMana Cost:&7 Low"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": [
+        "IDENTICAL_TO_EN"
+      ]
+    }
+  },
+  {
+    "id": "3D00118E2760D129",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 150
+      }
+    ],
+    "deps": [
+      "63DD7F5A4441ACE7",
+      "7DCD14914CCFD3AD",
+      "34C8EB5C0EEE98DD"
+    ],
+    "en": {
+      "title": "Glyph Name",
+      "subtitle": "Summon your power.",
+      "desc": [
+        "&7Renames a mob or item.",
+        "",
+        "&eUsage:&7 Apply a name tag without the item cost."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Name",
+      "subtitle": "Invoquez votre puissance.",
+      "desc": [
+        "&7Renomme un mob ou un objet.",
+        "",
+        "&eUsage :&7 Appliquez une étiquette sans coût d'objet."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "7F69A7CD6ACA97D7",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 150
+      }
+    ],
+    "deps": [
+      "63DD7F5A4441ACE7",
+      "34428D088F52BB36",
+      "7DCF09E4EFEC5D64"
+    ],
+    "en": {
+      "title": "Glyph Firework",
+      "subtitle": "Weave the arcana.",
+      "desc": [
+        "&7Decorative spell.",
+        "",
+        "&eUsage:&7 Celebratory effects."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Firework",
+      "subtitle": "Tissez l'arcane.",
+      "desc": [
+        "&7Decorative spell.",
+        "",
+        "&eUsage:&7 Celebratory effects."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": [
+        "IDENTICAL_TO_EN"
+      ]
+    }
+  },
+  {
+    "id": "29742AAF8DF419BF",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "441C0659ED28D935",
+      "282A4F66165A7A37",
+      "12EA0487A7DD255B"
+    ],
+    "en": {
+      "title": "Glyph Toss",
+      "subtitle": "Master the glyphs.",
+      "desc": [
+        "&7Launches an item from your inventory.",
+        "",
+        "&eUsage:&7 Automating item disposal or feeding."
+      ]
+    },
+    "fr": {
+      "title": "Glyph Toss",
+      "subtitle": "Maîtrisez les glyphes.",
+      "desc": [
+        "&7Lance un objet de votre inventaire.",
+        "",
+        "&eUtilisation :&7 Automatisation des déchets ou de la nourriture."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2D0CF18C8B2ABB7D",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "227DBA8836021B0B",
+      "37079BCFF87D14B7",
+      "7CEAACDBB77206CC"
+    ],
+    "en": {
+      "title": "Agronomic Sourcelink",
+      "subtitle": "Summon your power.",
+      "desc": [
+        "&7Generates source when crops grow nearby.",
+        "",
+        "&eSetup:&7 Perfect for magical farms."
+      ]
+    },
+    "fr": {
+      "title": "Agronomic Sourcelink",
+      "subtitle": "Invoquez votre puissance.",
+      "desc": [
+        "&7Generates source when crops grow nearby.",
+        "",
+        "&eSetup :&7 Parfait pour les fermes magiques."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "111649D7E16D869F",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "random"
+      },
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "3D862A3D3F83CA26",
+      "6454B3C1B9D00E59",
+      "28634FD5549CE826",
+      "3CF6151060ADB889"
+    ],
+    "en": {
+      "title": "Wand",
+      "subtitle": "Arcane discovery.",
+      "desc": [
+        "&7Your first spell focus.",
+        "&7Stores one spell."
+      ]
+    },
+    "fr": {
+      "title": "Baguette",
+      "subtitle": "Découverte arcanique.",
+      "desc": [
+        "&7Your first spell focus.",
+        "&7Stores one spell."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": [
+        "IDENTICAL_TO_EN"
+      ]
+    }
+  }
+]

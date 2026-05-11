@@ -1,0 +1,604 @@
+[
+  {
+    "id": "2000000000000001",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [
+      {
+        "type": "dimension"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "61C49BC2B384FB80",
+      "315F3106E7B2D4FB",
+      "2000000000000002"
+    ],
+    "en": {
+      "title": "The End?",
+      "subtitle": "&dViolet Gemstone",
+      "desc": [
+        "Jump into the portal found in the Stronghold."
+      ]
+    },
+    "fr": {
+      "title": "La Fin ?",
+      "subtitle": "&dPierre Précieuse Violette",
+      "desc": [
+        "Sautez dans le portail trouvé dans le Stronghold."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2000000000000003",
+    "icon": null,
+    "shape": "gear",
+    "tasks": [
+      {
+        "type": "kill",
+        "entity": "minecraft:ender_dragon"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "2000000000000001",
+      "2000000000000101",
+      "3D8993245866A333",
+      "2000000000000004"
+    ],
+    "en": {
+      "title": "Free the End",
+      "subtitle": "&bGiant Leap",
+      "desc": [
+        "Defeat the Ender Dragon to free the End."
+      ]
+    },
+    "fr": {
+      "title": "Libérez l'End",
+      "subtitle": "&bBond de Géant",
+      "desc": [
+        "Vainquez l'Ender Dragon pour libérer l'End."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2000000000000005",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "2000000000000003",
+      "2000000000000103",
+      "0B14ECDA5FC66724",
+      "2000000000000006"
+    ],
+    "en": {
+      "title": "Spicy Breath",
+      "subtitle": "§7Into the void§r",
+      "desc": [
+        "Collect the breath of the dragon."
+      ]
+    },
+    "fr": {
+      "title": "Souffle Épicé",
+      "subtitle": "§7Le domaine du dragon§r",
+      "desc": [
+        "Collectez le souffle du dragon."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2000000000000010",
+    "icon": null,
+    "shape": null,
+    "tasks": [
+      {
+        "type": "advancement",
+        "advancement": "minecraft:end/enter_end_gateway"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "095765EF276633D5",
+      "2000000000000104",
+      "5CAE598F63D4A21F",
+      "2000000000000011"
+    ],
+    "en": {
+      "title": "The Outer Islands",
+      "subtitle": "§7End of the line§r",
+      "desc": [
+        "Throw an Ender Pearl through the gateway."
+      ]
+    },
+    "fr": {
+      "title": "Les Îles Extérieures",
+      "subtitle": "§7Dans le vide§r",
+      "desc": [
+        "Lancez une Ender Pearl à travers le portail."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2000000000000020",
+    "icon": null,
+    "shape": null,
+    "tasks": [
+      {
+        "type": "structure"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "2000000000000010",
+      "2000000000000105",
+      "5C91F5AE336E0446",
+      "2000000000000021"
+    ],
+    "en": {
+      "title": "City Hunter",
+      "subtitle": "§7Dragon's domain§r",
+      "desc": [
+        "Find an End City."
+      ]
+    },
+    "fr": {
+      "title": "City Chasseur",
+      "subtitle": "§7La frontière finale§r",
+      "desc": [
+        "Find an End City."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": [
+        "IDENTICAL_TO_EN"
+      ]
+    }
+  },
+  {
+    "id": "2000000000000022",
+    "icon": null,
+    "shape": "diamond",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "2000000000000020",
+      "2000000000000106",
+      "44D746E5726AAFDA",
+      "2000000000000023",
+      "68214294ACF6A66B"
+    ],
+    "en": {
+      "title": "Sky's the Limit",
+      "subtitle": "§7The final frontier§r",
+      "desc": [
+        "The ultimate flight gear."
+      ]
+    },
+    "fr": {
+      "title": "Le Ciel est la Limite",
+      "subtitle": "§7L'endgame vous attend§r",
+      "desc": [
+        "L'équipement de vol ultime."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2000000000000024",
+    "icon": null,
+    "shape": null,
+    "tasks": [
+      {
+        "type": "kill",
+        "entity": "minecraft:shulker"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "2000000000000020",
+      "2000000000000107",
+      "35377F2B51910E73",
+      "2000000000000025"
+    ],
+    "en": {
+      "title": "Portable Storage",
+      "subtitle": "§7The final frontier§r",
+      "desc": [
+        "Kill Shulkers for their shells."
+      ]
+    },
+    "fr": {
+      "title": "Portable Stockage",
+      "subtitle": "§7Au-delà du portail§r",
+      "desc": [
+        "Tuez des Shulkers pour leurs carapaces."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2000000000000030",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "2000000000000005",
+      "2000000000000108",
+      "63C90DCC48C1DB12",
+      "2000000000000031"
+    ],
+    "en": {
+      "title": "Alien Food",
+      "subtitle": "§7Into the void§r",
+      "desc": [
+        "Collect Chorus Fruit."
+      ]
+    },
+    "fr": {
+      "title": "Alien Food",
+      "subtitle": "§7Au-delà du portail§r",
+      "desc": [
+        "Récoltez du Fruit de Chorus."
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2171A5DE8FED4218",
+    "icon": null,
+    "shape": null,
+    "tasks": [
+      {
+        "type": "structure"
+      },
+      {
+        "type": "structure"
+      },
+      {
+        "type": "structure"
+      },
+      {
+        "type": "structure"
+      },
+      {
+        "type": "structure"
+      },
+      {
+        "type": "structure"
+      },
+      {
+        "type": "structure"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 5
+      }
+    ],
+    "deps": [
+      "2000000000000010",
+      "2000000000000110",
+      "2000000000000111",
+      "2000000000000112",
+      "2000000000000113",
+      "2000000000000114",
+      "2000000000000115",
+      "2000000000000116",
+      "2000000000000117"
+    ],
+    "en": {
+      "title": "End Expansion",
+      "subtitle": "§7Beyond the portal§r",
+      "desc": [
+        "Discover the wonders of More End Structures (MES) and MVS."
+      ]
+    },
+    "fr": {
+      "title": "Extension de l'End",
+      "subtitle": "§7Dans le vide§r",
+      "desc": [
+        "Découvrez les merveilles de More End Structures (MES) et MVS."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2000000000000200",
+    "icon": null,
+    "shape": null,
+    "tasks": [
+      {
+        "type": "structure"
+      },
+      {
+        "type": "structure"
+      },
+      {
+        "type": "structure"
+      },
+      {
+        "type": "structure"
+      },
+      {
+        "type": "structure"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "2000000000000020",
+      "2000000000000201",
+      "71F17C2635730A51",
+      "2000000000000202",
+      "2000000000000203",
+      "2000000000000204",
+      "2000000000000205",
+      "2000000000000206"
+    ],
+    "en": {
+      "title": "Ruins and Scraps",
+      "subtitle": "§7Dragon's domain§r",
+      "desc": [
+        "Scattered remnants of the past."
+      ]
+    },
+    "fr": {
+      "title": "Ruines et Ferrailles",
+      "subtitle": "§7La frontière finale§r",
+      "desc": [
+        "Vestiges épars du passé."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "2000000000000300",
+    "icon": null,
+    "shape": null,
+    "tasks": [
+      {
+        "type": "structure"
+      },
+      {
+        "type": "structure"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "2000000000000010",
+      "2000000000000301",
+      "2F08212CBE272DD7",
+      "2000000000000302",
+      "2000000000000303"
+    ],
+    "en": {
+      "title": "End Civilization",
+      "subtitle": "§7Endgame awaits§r",
+      "desc": [
+        "Signs of civilization in the void."
+      ]
+    },
+    "fr": {
+      "title": "Civilisation de l'End",
+      "subtitle": "§7La frontière finale§r",
+      "desc": [
+        "Signes de civilisation dans le vide."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "61C49BC2B384FB80",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "011AA225E68028D2",
+      "2B6D859AC045608E",
+      "5D52E6CA0E809256",
+      "2BF525CB7074AF2A"
+    ],
+    "en": {
+      "title": "Ender Pearl",
+      "subtitle": "The final frontier.",
+      "desc": [
+        "§5Ender Pearl§r — The End is just the beginning of endgame content. Push further into the void."
+      ]
+    },
+    "fr": {
+      "title": "Perle de l'Ender",
+      "subtitle": "La frontière finale.",
+      "desc": [
+        "§5Ender Pearl§r — L'End n'est que le début du contenu de fin de jeu. Poussez plus loin dans le vide."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "011AA225E68028D2",
+    "icon": null,
+    "shape": null,
+    "tasks": [
+      {
+        "type": "structure"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 200
+      }
+    ],
+    "deps": [
+      "2D6768B1097713AC",
+      "238F293F1FAFF724",
+      "55B9350C4B262C23"
+    ],
+    "en": {
+      "title": "Blaze Powder",
+      "subtitle": "Beyond the portal.",
+      "desc": [
+        "§5Blaze Powder§r — The End dimension holds its own secrets and challenges. Explore beyond the dragon fight!"
+      ]
+    },
+    "fr": {
+      "title": "Poudre de Blaze",
+      "subtitle": "Au-delà du portail.",
+      "desc": [
+        "§5Blaze Powder§r — La dimension de l'End cache ses propres secrets et défis. Explorez au-delà du combat contre le dragon !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "095765EF276633D5",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "2000000000000003",
+      "228563800B865071",
+      "32A4E8C9E6C89D6E"
+    ],
+    "en": {
+      "title": "Dragon Egg",
+      "subtitle": "End of the line.",
+      "desc": [
+        "§5Dragon Egg§r — The End is just the beginning of endgame content. Push further into the void."
+      ]
+    },
+    "fr": {
+      "title": "Œuf de Dragon",
+      "subtitle": "Fin de la ligne.",
+      "desc": [
+        "§5Dragon Egg§r — L'End n'est que le début du contenu de fin de jeu. Poussez plus loin dans le vide."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": []
+    }
+  }
+]

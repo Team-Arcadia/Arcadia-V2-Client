@@ -10,11 +10,9 @@
 	cycle_trades_button_location = "TOP_LEFT"
 	#Disables rendering any contents of the villager blocks when set to false
 	#Set to false if you have performance issues with the mod
-	#Arcadia: kept enabled for visual feedback, but render distance reduced (see below)
 	render_block_contents = true
 	#The distance in blocks at which the block contents are rendered
 	#This has no effect if 'render_block_contents' is disabled
 	# Default: 32
 	# Range: 1 ~ 256
-	#Arcadia: reduced from 32 to 8 to fix FPS drops near villager farms
 	block_render_distance = 8

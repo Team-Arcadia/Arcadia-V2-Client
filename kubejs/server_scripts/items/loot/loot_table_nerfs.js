@@ -153,9 +153,10 @@ LootJS.modifiers((event) => {
     .removeLoot("@twilightforest")
     .randomChance(0.80);
 
-  // Artifacts Removal - ABSOLUTE (0% drop rate)
+  // Artifacts (20% drop rate / 80% Remove)
   event.addTableModifier([LootType.CHEST, LootType.VAULT])
-    .removeLoot("@artifacts");
+    .removeLoot("@artifacts")
+    .randomChance(0.80);
 
   /**
    * =========================================
@@ -349,6 +350,6 @@ LootJS.modifiers((event) => {
     .randomChance(0.99);
 
   console.info(
-    "[Arcadia V2] Loot Nerf Applied: Global loot nerf active with probability tiers (0.01% to 50%).",
+    "[Arcadia V2] Loot Nerf Applied: Global loot nerf active with probability tiers (0.01% to 50%, Artifacts 20%).",
   );
 });

@@ -1,0 +1,188 @@
+[
+  {
+    "id": "6667638252DB9C74",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "166CE4243896A0CD",
+      "7BB489A1DC5CE07D",
+      "50A9E29B1AA796F4",
+      "75D9B77957E05997"
+    ],
+    "en": {
+      "title": "Gem Fused Slate",
+      "subtitle": "Forge the extraordinary.",
+      "desc": [
+        "§dGem Fused Slate§r — Apotheosis gear takes enchanting to the next level. Socket gems and forge legendary equipment!"
+      ]
+    },
+    "fr": {
+      "title": "Gem Fused Slate",
+      "subtitle": "Forge l'extraordinaire.",
+      "desc": [
+        "§dGem Fused Slate§r — L'équipement d'Apotheosis porte l'enchantement au niveau supérieur. Insérez des gemmes et forgez des équipements légendaires !"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  },
+  {
+    "id": "6EF206A0BD5BAC0A",
+    "icon": null,
+    "shape": null,
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 4
+      }
+    ],
+    "deps": [
+      "1CD05CB4A3DB112A",
+      "7E90610981FEDD4B",
+      "523B6676B1206AFF",
+      "2A1FC2E2E0C01055"
+    ],
+    "en": {
+      "title": "Epic Material",
+      "subtitle": "Gemcraft mastery.",
+      "desc": [
+        "§dEpic Material§r — Only the finest materials can produce gear of this caliber. Craft it and dominate!"
+      ]
+    },
+    "fr": {
+      "title": "Epic Material",
+      "subtitle": "Gemcraft mastery.",
+      "desc": [
+        "§dEpic Material§r — Seuls les meilleurs matériaux peuvent produire des équipements de ce calibre. Fabriquez-les et dominez !"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "24D11ED5F4EEDC48",
+    "icon": null,
+    "shape": "rsquare",
+    "tasks": [],
+    "rewards": [],
+    "deps": [
+      "6667638252DB9C74",
+      "1EFFC47E86BAF0FB",
+      "62B040B3CB6E67D7"
+    ],
+    "en": {
+      "title": "Sigil Of Socketing",
+      "subtitle": "Gear of legends.",
+      "desc": [
+        "§dSigil Of Socketing§r — Apotheosis gear takes enchanting to the next level. Socket gems and forge legendary equipment!"
+      ]
+    },
+    "fr": {
+      "title": "Sceau de Sertissage",
+      "subtitle": "Équipement de légende.",
+      "desc": [
+        "§dSceau d'EnchÃ¢ssement§r — L'équipement d'Apotheosis porte l'enchantement au niveau supérieur. Insérez des gemmes et forgez des équipements légendaires !"
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [],
+      "desc": [
+        "MOJIBAKE"
+      ]
+    }
+  },
+  {
+    "id": "57BB2CC6D9D2AE87",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 5
+      }
+    ],
+    "deps": [
+      "45647395169978ED",
+      "70E05481298C3185",
+      "7E139757E921E73C",
+      "62FEBB7B94E2DA49",
+      "30628EF8836E341E"
+    ],
+    "en": {
+      "title": "Augmenting Table",
+      "subtitle": "Gemcraft mastery.",
+      "desc": [
+        "§dAugmenting Table§r — Craft the Augmenting Table to upgrade and enhance your gear with special affixes."
+      ]
+    },
+    "fr": {
+      "title": "Table d'Augmentation",
+      "subtitle": "Gemcraft mastery.",
+      "desc": [
+        "§dTable d'Augmentation§r — Fabriquez la Table d'Augmentation pour améliorer votre équipement avec des affixes spéciaux."
+      ]
+    },
+    "issues": {
+      "title": [],
+      "subtitle": [
+        "IDENTICAL_TO_EN"
+      ],
+      "desc": []
+    }
+  },
+  {
+    "id": "166CE4243896A0CD",
+    "icon": null,
+    "shape": "hexagon",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 100
+      }
+    ],
+    "deps": [
+      "45647395169978ED",
+      "5C0754FEA27F06CA",
+      "5B4B74090A6D2218"
+    ],
+    "en": {
+      "title": "Gem Cutting Table",
+      "subtitle": "Forge the extraordinary.",
+      "desc": [
+        "§dGem Cutting Table§r — Apotheosis gear takes enchanting to the next level. Socket gems and forge legendary equipment!"
+      ]
+    },
+    "fr": {
+      "title": "Gem Cutting Table",
+      "subtitle": "Forge l'extraordinaire.",
+      "desc": [
+        "§dGem Cutting Table§r — L'équipement d'Apotheosis porte l'enchantement au niveau supérieur. Insérez des gemmes et forgez des équipements légendaires !"
+      ]
+    },
+    "issues": {
+      "title": [
+        "IDENTICAL_TO_EN"
+      ],
+      "subtitle": [],
+      "desc": []
+    }
+  }
+]

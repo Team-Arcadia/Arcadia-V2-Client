@@ -1,0 +1,118 @@
+[
+  {
+    "id": "minecraft:wooden_sword",
+    "chapter": "apotheosis_gear",
+    "icon": "minecraft:wooden_sword",
+    "tasks": [
+      {
+        "type": "advancement",
+        "advancement": "minecraft:story/root"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 1
+      }
+    ],
+    "shape": "octagon",
+    "reason": "NO_LANG_BUT_HAS_CONTEXT",
+    "en_title": "",
+    "en_subtitle": "",
+    "en_desc": ""
+  },
+  {
+    "id": "minecraft:stone_sword",
+    "chapter": "apotheosis_gear",
+    "icon": "minecraft:stone_sword",
+    "tasks": [
+      {
+        "type": "advancement",
+        "advancement": "apotheosis:progression/frontier"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 2
+      }
+    ],
+    "shape": "octagon",
+    "reason": "NO_LANG_BUT_HAS_CONTEXT",
+    "en_title": "",
+    "en_subtitle": "",
+    "en_desc": ""
+  },
+  {
+    "id": "minecraft:iron_sword",
+    "chapter": "apotheosis_gear",
+    "icon": "minecraft:iron_sword",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 3
+      }
+    ],
+    "shape": "octagon",
+    "reason": "NO_LANG_BUT_HAS_CONTEXT",
+    "en_title": "",
+    "en_subtitle": "",
+    "en_desc": ""
+  },
+  {
+    "id": "minecraft:diamond_sword",
+    "chapter": "apotheosis_gear",
+    "icon": "minecraft:diamond_sword",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 4
+      }
+    ],
+    "shape": "octagon",
+    "reason": "NO_LANG_BUT_HAS_CONTEXT",
+    "en_title": "",
+    "en_subtitle": "",
+    "en_desc": ""
+  },
+  {
+    "id": "minecraft:netherite_sword",
+    "chapter": "apotheosis_gear",
+    "icon": "minecraft:netherite_sword",
+    "tasks": [],
+    "rewards": [
+      {
+        "type": "xp_levels",
+        "xp_levels": 5
+      }
+    ],
+    "shape": "octagon",
+    "reason": "NO_LANG_BUT_HAS_CONTEXT",
+    "en_title": "",
+    "en_subtitle": "",
+    "en_desc": ""
+  },
+  {
+    "id": "apotheosis:boss_summoner",
+    "chapter": "apotheosis_gear",
+    "icon": "apotheosis:boss_summoner",
+    "tasks": [
+      {
+        "type": "checkmark"
+      }
+    ],
+    "rewards": [
+      {
+        "type": "xp",
+        "xp": 150
+      }
+    ],
+    "shape": null,
+    "reason": "NO_LANG_BUT_HAS_CONTEXT",
+    "en_title": "",
+    "en_subtitle": "",
+    "en_desc": ""
+  }
+]
