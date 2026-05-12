@@ -8,17 +8,18 @@
   into CurseForge's "Description" editor (HTML mode). Keep in sync at each release.
 
   Design notes (v2):
-    - Trimmed GIFs from ~36 down to ~10 (each shown once) for faster page load.
-    - Removed header / hero GIFs (features.gif). Kept gameplay showcase GIFs
-      (machinerie, magie, combat, exploration, world, quest, gameplay) — these
-      demonstrate actual mechanics and earn their bandwidth cost.
+    - Trimmed GIFs from ~36 down to 11 (each shown once) for faster page load.
+    - Removed all header / branding GIFs (Arcadia_Gif_transparent.gif, features.gif).
+      Kept only gameplay showcase GIFs (machinerie, magie, combat, exploration,
+      world, quest, gameplay, serveur) — these demonstrate actual mechanics and
+      earn their bandwidth cost.
     - EN and FR sections are now strictly parallel in structure and asset count.
     - Fixed broken LordHosting button (img had no src in v1).
     - Added a quick-stats badge row (MC version, NeoForge, Java, mod count, quest count, langs).
 -->
 
-<p style="text-align: center;"><img src="https://arcadia-echoes-of-power.fr/storage/curseforge/Arcadia_Gif_transparent.gif" alt="Arcadia Logo" width="450"></p>
-<h1 style="text-align: center;"><span style="color: #ffa500;">⚡ Where Magic Meets Machinery ⚡</span></h1>
+<h1 style="text-align: center;"><span style="color: #ffa500;">🌟 ARCADIA V2 — ECHOES OF POWER 🌟</span></h1>
+<h2 style="text-align: center;"><span style="color: #ffa500;">⚡ Where Magic Meets Machinery ⚡</span></h2>
 <p style="text-align: center;"><span style="font-size: large;"><em>The Ultimate Industrial Fantasy Experience Awaits You!</em></span></p>
 
 <p style="text-align: center;"><a href="https://link.me/vyrriox" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Author-vyrriox-FFA500?style=for-the-badge&amp;logo=curseforge&amp;logoColor=white" alt="Author"></a> &nbsp; <a href="https://arcadia-echoes-of-power.fr/discord" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/discord/1346965857288589472?label=Online&amp;logo=discord&amp;style=for-the-badge&amp;color=5865F2&amp;labelColor=0f172a" alt="Discord"></a> &nbsp; <a href="https://www.arcadia-echoes-of-power.fr/" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Website-Arcadia-FFA500?style=for-the-badge&amp;logo=google-chrome&amp;logoColor=white" alt="Website"></a></p>
