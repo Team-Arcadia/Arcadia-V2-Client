@@ -1,17 +1,77 @@
-# Claude Code
+# =============================================================================
+# Arcadia V2 — Git ignore rules
+# =============================================================================
+
+# --- Claude / AI assistants ---
 .claude/
 CLAUDE.md
 
-# Logs, crash reports & command history
+# --- Logs, crash reports, debug output ---
 logs/
 crash-reports/
+debug/
 command_history.txt
 debug.log
+*.log
 *.log.gz
 
-# Local runtime data (player/server state)
-local/
+# --- Worlds (NEVER commit player worlds) ---
+saves/
 
-# Ars Nouveau Lucene search index (regenerated at runtime)
+# --- Screenshots & user captures ---
+screenshots/
+
+# --- Schematics (user-generated) ---
+schematics/
+
+# --- Runtime caches & generated state ---
+.mixin.out/
+.tmp_search/
+dynamic-data-pack-cache/
+dynamic-resource-pack-cache/
+moonlight-global-datapacks/
+emojiful/
+emotes/
+immersive_paintings_cache/
+fancymenu_data/
+moddata/
+midi_files/
+patchouli_books/
+downloads/
+data/fabricDefaultResourcePacks.dat
+
+# --- Ars Nouveau Lucene search index (regenerated at runtime) ---
 config/ars_nouveau/search_index/
 
+# --- Per-user mod state ---
+easy_npc/
+ESM/
+spiffy_instance_data/
+TrashSlotSaveState.json
+patchouli_data.json
+observable_announce
+emi.json
+
+# --- CurseForge / launcher metadata ---
+.curseclient
+minecraftinstance.json
+
+# --- Per-user Minecraft files (regenerated locally) ---
+servers.dat
+servers.dat_old
+user-prefs.json
+usercache.json
+usernamecache.json
+options.txt
+
+# --- Local runtime data ---
+local/
+
+# --- Translation / refactor scratch workspace ---
+translation_workspace/
+_unique_strings.txt
+rapport_test/
+
+# --- Backup snapshots accidentally created ---
+*.snbt.bak_*
+*_backup.snbt
