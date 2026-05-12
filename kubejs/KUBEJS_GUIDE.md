@@ -53,24 +53,32 @@ kubejs/
 │   │   └── item_entity_tags.js                     # c: convention item tags (consolidated)
 │   │
 │   ├── recipes/
-│   │   ├── recipe_overhaul.js                      # 2900+ line main hardening — vanilla + all mods
+│   │   ├── overhaul/                               # Recipe hardening — split by theme (was monolithic recipe_overhaul.js)
+│   │   │   ├── 01_vanilla_tools_storage.js         # Vanilla 0-6: tools, armor, storage, workstations, decoration, redstone, combat
+│   │   │   ├── 02_crossmod_general.js              # Cross-mod 7/10/11/12: storage, magic, tech, light touches, bridges
+│   │   │   ├── 03_mekanism.js                      # Mekanism T1-T3 machine cross-Create gating
+│   │   │   ├── 04_tfmg.js                          # TFMG industrial components
+│   │   │   ├── 05_immersive_engineering.js         # IE multiblocks gated behind Create
+│   │   │   ├── 06_create_addons.js                 # Addition, Nuclear, Diesel hardening
+│   │   │   ├── 07_storage_peripherals_flux.js      # AdvancedPeripherals, RefinedStorage, FluxNetworks
+│   │   │   ├── 08_magic_mods.js                    # Ars Nouveau/Creo/Technica, Iron's Spellbooks, Occultism
+│   │   │   └── 09_adventure_mods.js                # Apotheosis, Aether, Aquaculture
 │   │   ├── create/
 │   │   │   ├── netherite_sequenced_assembly.js     # Netherite block decrafting via sequenced assembly
-│   │   │   ├── basin_casting_fix.js                # Basin capacity cap (140mB)
 │   │   │   ├── precision_mechanism_fix.js          # Fix Create 6.0.10 bug #10203 (tag Either-codec)
 │   │   │   └── create_things_and_misc_fix.js       # Auto-rebuilds 39 recipes broken in 1.21 (legacy format)
 │   │   ├── custom/
-│   │   │   ├── arcadia_custom_crafts.js            # ATM recipe
+│   │   │   ├── misc_custom_crafts.js               # ATM recipe + iron_sheet hand-craft fallback (early-game unblock)
 │   │   │   ├── armor_crafts.js                     # Adept/Heretic armor recipes
 │   │   │   └── fusion_core_chain.js                # Fusion Core mega-chain (5 tiers, 9x9 final)
 │   │   └── mods/
-│   │       ├── botanypots_modded_trees.js          # BOP + Twilight + Ars tree compat
-│   │       └── tfmg_recipe_tweaks.js               # TFMG mod adjustments
+│   │       └── botanypots_modded_trees.js          # BOP + Twilight + Ars tree compat
 │   │
 │   ├── items/
 │   │   ├── banned/
 │   │   │   ├── recipe_remover.js                   # 152 banned items — recipe removal
-│   │   │   └── inventory_scanner.js                # Strips banned items from inventories (given/picked)
+│   │   │   ├── inventory_scanner.js                # Strips banned items from inventories (given/picked)
+│   │   │   └── strip_life_mending_gloves.js        # Strips Life Mending enchant on iron_gloves drops
 │   │   └── loot/
 │   │       └── loot_table_nerfs.js                 # Diamond/Netherite/Artifacts drop nerfs
 │   │
@@ -81,8 +89,10 @@ kubejs/
 │   │
 │   └── fixes/
 │       └── compat/
-│           ├── blaze_burner_patch.js               # Create blaze burner compat
-│           └── cannon_boat_crash_fix.js            # Supplementaries cannon_boat crash fix
+│           ├── blaze_burner_patch.js                       # Create blaze burner compat
+│           ├── cannon_boat_crash_fix.js                    # Supplementaries cannon_boat crash fix
+│           ├── mowziesmobs_elokosa_paw_crashfix.js         # Mowzie's Mobs Elokosa paw crash fix
+│           └── occultengineering_pulverizer_dupe_fix.js    # Replaces broken upgrade_tier recipe (6 shapeless tier crafts)
 │
 ├── startup_scripts/
 │   └── registry/
@@ -141,7 +151,7 @@ Custom jukebox tracks. Each disc has:
 - Same texture duplicated in `textures/block/music_discs/` for Amendments jukebox renderer
 - Registered jukebox song + sound event
 
-### Cross-Mod Bridges (`registry/item_registry.js` + `recipe_overhaul.js`)
+### Cross-Mod Bridges (`registry/item_registry.js` + `recipes/overhaul/02_crossmod_general.js`)
 4 custom items that bind multiple mods together. Progressive difficulty gate.
 
 | Item | Tier | Mods | Recipe |
@@ -183,11 +193,14 @@ Red/bone rebel armor. 4 pieces + 10 unique items (tome, blood_vial, dagger, chai
 
 ## Key Systems
 
-### Item Banning (3-layer)
+### Item Banning (4-layer)
 1. **`recipe_remover.js`** — removes the craft recipe at server load (152 items banned)
 2. **`inventory_scanner.js`** — strips banned items from inventories on pickup + periodic scan
 3. **`config/jei/blacklist.json`** — hides from JEI completely
 4. **`ui/hide_banned_from_creative.js`** — hides from all creative tabs
+
+### Enchantment Stripping
+- **`strip_life_mending_gloves.js`** — strips the Life Mending enchant from any Aether iron_gloves drop (prevents an exploit combo with the modded gloves slot).
 
 ### Apotheosis Tuning (datapack)
 - **Rarity weights** rebalanced per world tier → less epic/mythic spam
@@ -226,9 +239,29 @@ Several broken recipes from mod authors fixed via KubeJS:
 
 | Fix | File | Reason |
 |-----|------|--------|
-| **Create Precision Mechanism** | `precision_mechanism_fix.js` | Create 6.0.10 bug #10203 (tag Either-codec) |
-| **create_things_and_misc** (39 recipes) | `create_things_and_misc_fix.js` | Legacy 1.20 format (`result.item` → `result.id`) + numeric pattern keys + `forge:` tags |
-| **Netherite decrafting** | `netherite_sequenced_assembly.js` | Allows turning Netherite Block back into 9 ingots (4 loops) |
+| **Create Precision Mechanism** | `recipes/create/precision_mechanism_fix.js` | Create 6.0.10 bug #10203 (tag Either-codec) |
+| **create_things_and_misc** (39 recipes) | `recipes/create/create_things_and_misc_fix.js` | Legacy 1.20 format (`result.item` → `result.id`) + numeric pattern keys + `forge:` tags |
+| **Netherite decrafting** | `recipes/create/netherite_sequenced_assembly.js` | Allows turning Netherite Block back into 9 ingots (4 loops) |
+| **Occult Engineering Pulverizer dupe** | `fixes/compat/occultengineering_pulverizer_dupe_fix.js` | Removes broken `upgrade_tier` recipe (shift-craft duped output), replaces with 6 explicit shapeless tier transitions |
+| **Iron sheet hand-craft fallback** | `recipes/custom/misc_custom_crafts.js` | Adds 3 iron_ingot → 1 iron_sheet vanilla craft so solo players are not gated by the Mechanical Press for their first iron tools |
+
+## Recipe Overhaul Split (`recipes/overhaul/`)
+
+The original `recipe_overhaul.js` (2793 lines) was split into 9 themed files for maintainability. All run at `// Priority: 100` and each declares its own shared constants inside its own `ServerEvents.recipes` callback, so files are fully self-contained — order between them does not matter for correctness, only the numeric prefix preserves the original section reading order.
+
+| File | Original sections | Scope |
+|------|-------------------|-------|
+| `01_vanilla_tools_storage.js` | 0–6 | Wood/sticks, tools/armor, storage, workstations, decoration, redstone, combat |
+| `02_crossmod_general.js` | 7, 10, 11, 12 | General mod compat + cross-mod hardening + bridge components |
+| `03_mekanism.js` | 13 | Mekanism T1/T2/T3 machines gated behind Create |
+| `04_tfmg.js` | 14 | TFMG industrial components |
+| `05_immersive_engineering.js` | 15 | IE multiblocks |
+| `06_create_addons.js` | 16, 17, 18 | Create Addition, Nuclear, Diesel |
+| `07_storage_peripherals_flux.js` | 19, 20, 21 | AdvancedPeripherals, RefinedStorage, FluxNetworks |
+| `08_magic_mods.js` | 22, 23, 24, 25 | Ars Nouveau, Ars Creo/Technica, Iron's Spellbooks, Occultism |
+| `09_adventure_mods.js` | 26, 27, 28 | Apotheosis, Aether, Aquaculture |
+
+**Adding a new recipe override:** pick the file whose theme matches (or create a new one in the same folder); the priority and constant set are already in place.
 
 ## Naming Conventions
 
