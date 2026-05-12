@@ -316,6 +316,8 @@
 </tbody>
 </table>
 
+<p>&nbsp;</p>
+
 <p style="text-align: center;"><a href="https://www.arcadia-echoes-of-power.fr/roadmap" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/View_Full_Roadmap-arcadia--echoes--of--power.fr-FFA500?style=for-the-badge&amp;logo=googlemaps&amp;logoColor=white" alt="View full roadmap"></a></p>
 
 <p>&nbsp;</p>
@@ -369,6 +371,8 @@
 </tr>
 </tbody>
 </table>
+
+<p>&nbsp;</p>
 
 <p style="text-align: center;"><a href="https://www.arcadia-echoes-of-power.fr/review" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Read_All_Reviews-arcadia--echoes--of--power.fr-FFA500?style=for-the-badge&amp;logo=star&amp;logoColor=white" alt="Read all reviews"></a></p>
 
@@ -735,6 +739,8 @@
 </tbody>
 </table>
 
+<p>&nbsp;</p>
+
 <p style="text-align: center;"><a href="https://www.arcadia-echoes-of-power.fr/roadmap" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Roadmap_Compl%C3%A8te-arcadia--echoes--of--power.fr-FFA500?style=for-the-badge&amp;logo=googlemaps&amp;logoColor=white" alt="Roadmap complète"></a></p>
 
 <p>&nbsp;</p>
@@ -788,6 +794,8 @@
 </tr>
 </tbody>
 </table>
+
+<p>&nbsp;</p>
 
 <p style="text-align: center;"><a href="https://www.arcadia-echoes-of-power.fr/review" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Lire_tous_les_avis-arcadia--echoes--of--power.fr-FFA500?style=for-the-badge&amp;logo=star&amp;logoColor=white" alt="Lire tous les avis"></a></p>
 
