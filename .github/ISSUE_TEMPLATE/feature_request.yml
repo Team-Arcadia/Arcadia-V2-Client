@@ -1,0 +1,69 @@
+name: "Feature Request / Demande de fonctionnalite"
+description: "Suggest a new feature, balance tweak or content addition | Proposer une fonctionnalite, un reequilibrage ou un ajout de contenu"
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **English:** Thanks for the idea! Please describe it precisely so we can evaluate scope and balance impact.
+        **Francais:** Merci pour l'idee ! Decrivez-la precisement pour qu'on puisse evaluer la portee et l'impact sur l'equilibre.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Feature Description / Description"
+      description: "What do you want to see in the pack? | Que voulez-vous voir dans le pack ?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: "Motivation / Why? / Pourquoi ?"
+      description: "What problem does this solve? What gameplay does it enable? | Quel probleme cela resout-il ? Quel gameplay cela permet-il ?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Alternatives Considered / Alternatives envisagees"
+      description: "Existing mods, recipes, or configs that already partially cover this? | Mods, recettes ou configs existants qui couvrent deja partiellement ?"
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: "Scope / Portee"
+      options:
+        - Custom recipe / KubeJS
+        - New custom item or block (arcadia:*)
+        - FTB Quests content (new quest / chapter)
+        - Mob balance / stats
+        - Loot / drop rate tuning
+        - Banned items list
+        - Localization (new language or fix)
+        - Resource pack (visuals / branding)
+        - Cross-mod bridge / progression gate
+        - Performance / optimization
+        - New mod to add (must include CurseForge link)
+        - Other / Autre
+    validations:
+      required: true
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: "Impact / Impact"
+      description: "How invasive is this change? | A quel point ce changement est-il intrusif ?"
+      options:
+        - Cosmetic only / Cosmetique
+        - Minor balance / Equilibrage mineur
+        - Major balance / Equilibrage majeur (breaks existing progression)
+        - New gameplay loop / Nouvelle boucle de gameplay
+        - Performance impact expected / Impact perf attendu
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: "Additional Context / Contexte supplementaire"
+      description: "Mockups, references, links... | Maquettes, references, liens..."

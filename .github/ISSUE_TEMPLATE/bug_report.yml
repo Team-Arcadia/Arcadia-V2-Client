@@ -1,0 +1,112 @@
+name: "Bug Report / Rapport de Bug"
+description: "Report a bug in the Arcadia V2 modpack | Signaler un bug du modpack Arcadia V2"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **English:** Thank you for reporting a bug! Please fill in the details below.
+        Reminder: bugs **caused by a single third-party mod** should be reported on that mod's own tracker (CurseForge / Modrinth / GitHub). This template is for **Arcadia-specific** bugs — our KubeJS scripts, configs, recipes, quests, or pack-level interactions.
+
+        **Francais:** Merci de signaler un bug ! Veuillez remplir les details ci-dessous.
+        Rappel : les bugs **causes par un mod tiers seul** doivent etre signales sur le tracker de ce mod (CurseForge / Modrinth / GitHub). Ce template concerne les bugs **specifiques a Arcadia** — nos scripts KubeJS, configs, recettes, quetes, ou interactions au niveau du pack.
+
+  - type: input
+    id: pack-version
+    attributes:
+      label: "Pack Version / Version du pack"
+      description: "Which version of Arcadia V2? | Quelle version d'Arcadia V2 ?"
+      placeholder: "2.0.10"
+    validations:
+      required: true
+
+  - type: input
+    id: mc-version
+    attributes:
+      label: "Minecraft / NeoForge Version"
+      description: "From your launcher | Depuis votre launcher"
+      placeholder: "MC 1.21.1 / NeoForge 21.1.221"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: side
+    attributes:
+      label: "Side / Cote"
+      options:
+        - Client (Singleplayer)
+        - Client connected to a server / Client sur serveur
+        - Dedicated server / Serveur dedie
+        - Both / Les deux
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Category / Categorie"
+      description: "Which area of the pack is involved? | Quel domaine du pack est concerne ?"
+      options:
+        - Custom recipe / KubeJS
+        - FTB Quests content / Quetes
+        - Custom item or block (arcadia:*)
+        - Mob balance / stats
+        - Loot / drop rates
+        - Banned items / ban enforcement
+        - Localization / lang file
+        - Resource pack (ArcadiaLanguages, FancyMenu branding)
+        - Performance / crash / freeze
+        - Cross-mod interaction
+        - Other / Autre
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Bug Description / Description du bug"
+      description: "What happens? | Qu'est-ce qui se passe ?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to Reproduce / Etapes pour reproduire"
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected Behavior / Comportement attendu"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: "Actual Behavior / Comportement reel"
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Crash Log / Stacktrace / KubeJS errors"
+      description: "Paste relevant log lines. For long logs, use a paste service (mclo.gs, gist) and link here. | Collez les lignes de log pertinentes. Pour les longs logs, utilisez un service (mclo.gs, gist) et liez ici."
+      render: text
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots / Captures d'ecran"
+      description: "Drag and drop images here if relevant. | Glissez-deposez des images ici si pertinent."
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: "Additional Context / Contexte supplementaire"
+      description: "Anything else? Other mods you suspect, resource packs, shaders, JVM args... | Autre chose ? Mods suspects, packs, shaders, args JVM..."

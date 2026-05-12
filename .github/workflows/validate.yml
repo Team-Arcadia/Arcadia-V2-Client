@@ -1,0 +1,140 @@
+name: Validate Pack Content
+
+on:
+  push:
+    branches: [ "2.0.X" ]
+    paths:
+      - 'manifest.json'
+      - 'kubejs/**'
+      - 'config/ftbquests/quests/lang/**'
+      - 'config/arcadia*/**'
+      - '.github/workflows/validate.yml'
+  pull_request:
+    branches: [ "2.0.X" ]
+
+permissions:
+  contents: read
+
+jobs:
+  manifest:
+    name: Validate manifest.json
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Parse manifest.json
+        run: |
+          python3 - <<'EOF'
+          import json, sys
+          with open('manifest.json', encoding='utf-8') as f:
+              m = json.load(f)
+          required = {'minecraft', 'manifestType', 'manifestVersion', 'name', 'version', 'files', 'overrides'}
+          missing = required - set(m.keys())
+          assert not missing, f'manifest.json missing keys: {missing}'
+          assert m['manifestType'] == 'minecraftModpack', f"manifestType must be 'minecraftModpack', got {m['manifestType']!r}"
+          assert isinstance(m['files'], list) and m['files'], 'files must be a non-empty list'
+          for i, f in enumerate(m['files']):
+              for k in ('projectID', 'fileID', 'required'):
+                  assert k in f, f'files[{i}] missing key {k!r}'
+          print(f'manifest.json OK: {len(m["files"])} mods, MC {m["minecraft"]["version"]}')
+          EOF
+
+  json-files:
+    name: Validate all JSON files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Parse every .json under kubejs/ and config/arcadia*
+        run: |
+          python3 - <<'EOF'
+          import json, sys, os, glob
+          paths = []
+          for pattern in ('kubejs/**/*.json', 'config/arcadia*/**/*.json'):
+              paths.extend(glob.glob(pattern, recursive=True))
+          failures = []
+          for p in paths:
+              try:
+                  with open(p, encoding='utf-8') as f:
+                      json.load(f)
+              except Exception as e:
+                  failures.append((p, str(e)))
+          if failures:
+              for p, e in failures:
+                  print(f'::error file={p}::Invalid JSON: {e}')
+              sys.exit(1)
+          print(f'{len(paths)} JSON files validated successfully')
+          EOF
+
+  snbt-lang:
+    name: Validate FTB Quests lang SNBT
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check bracket balance and key format
+        run: |
+          python3 - <<'EOF'
+          import re, sys, os, glob
+          # FTB Quests lang files must have balanced brackets and well-formed keys.
+          # A malformed lang file silently breaks ALL quest titles in-game (see ERROR_LOG.md).
+          failures = []
+          for path in glob.glob('config/ftbquests/quests/lang/*.snbt'):
+              with open(path, encoding='utf-8') as f:
+                  content = f.read()
+              opens, closes = content.count('['), content.count(']')
+              ocurly, ccurly = content.count('{'), content.count('}')
+              # Brackets may differ by up to a few from `]` inside quoted strings; >5 is suspicious.
+              if abs(opens - closes) > 5:
+                  failures.append((path, f'square bracket imbalance: [={opens} ]={closes}'))
+              if ocurly != ccurly:
+                  failures.append((path, f'curly bracket imbalance: {{={ocurly} }}={ccurly}'))
+              # Malformed keys: `quest.<mod>:<item>.field` (item ID as key) is the signature
+              # of the corruption we caught in 2026-05.
+              malformed = re.findall(r'^\s*(quest|task|chapter|chapter_group)\.[a-z_][a-z0-9_]*:[a-z0-9_]+\.', content, re.MULTILINE)
+              if malformed:
+                  failures.append((path, f'{len(malformed)} malformed keys with item-id format (use hex UUID instead)'))
+          if failures:
+              for p, msg in failures:
+                  print(f'::error file={p}::{msg}')
+              sys.exit(1)
+          print('All FTB Quests lang SNBT files are structurally valid')
+          EOF
+
+  kubejs-syntax:
+    name: KubeJS scripts smoke check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Smoke-parse each .js file
+        run: |
+          # Acorn parser is permissive on KubeJS dialect; we only catch hard syntax errors
+          # (unclosed braces, broken string literals). KubeJS-specific globals are not resolved.
+          npm install --no-save acorn@8
+          node - <<'EOF'
+          const fs = require('fs');
+          const path = require('path');
+          const acorn = require('acorn');
+          let failures = [];
+          function walk(dir) {
+            for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+              const full = path.join(dir, entry.name);
+              if (entry.isDirectory()) walk(full);
+              else if (entry.name.endsWith('.js')) {
+                try {
+                  acorn.parse(fs.readFileSync(full, 'utf-8'), { ecmaVersion: 'latest' });
+                } catch (e) {
+                  failures.push([full, e.message]);
+                }
+              }
+            }
+          }
+          ['kubejs/server_scripts', 'kubejs/startup_scripts', 'kubejs/client_scripts']
+            .filter(d => fs.existsSync(d)).forEach(walk);
+          if (failures.length) {
+            for (const [p, m] of failures) console.log(`::error file=${p}::${m}`);
+            process.exit(1);
+          }
+          console.log('KubeJS scripts parse cleanly');
+          EOF
