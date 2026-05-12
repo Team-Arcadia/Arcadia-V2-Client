@@ -39,12 +39,12 @@
 <td style="padding: 14px 18px; vertical-align: top; width: 50%; border-right: 1px solid #E74C3C; text-align: center;">
 <p><span style="color: #E74C3C; font-size: large;"><strong>⚔️ EXPERT MODPACK — Multiplayer-First</strong></span></p>
 <p>Arcadia V2 is <strong>designed and tuned for community servers (30–50 players)</strong>. Expect a steep progression curve, cross-mod gating, and dungeons that scale brutally. Late-game encounters reward coordinated groups, but the <strong>entire pack remains fully clearable solo</strong> with patience.</p>
-<p>✅ <strong>Solo is fully viable</strong> — the FTB Quests book guides you step by step. Plan on 150–300 hours to reach end-game. Recommended for players who already know one or more of: <strong>Create, Mekanism, Ars Nouveau, Apotheosis</strong>.</p>
+<p>✅ <strong>Solo is fully viable</strong> — the FTB Quests book hand-holds you through every mod's progression. <strong>Beginners are welcome</strong>; veterans of <strong>Create, Mekanism, Ars Nouveau or Apotheosis</strong> will feel right at home. Plan on 150–300 hours to reach end-game.</p>
 </td>
 <td style="padding: 14px 18px; vertical-align: top; width: 50%; text-align: center;">
 <p><span style="color: #E74C3C; font-size: large;"><strong>⚔️ MODPACK EXPERT — Pensé Multijoueur</strong></span></p>
 <p>Arcadia V2 est <strong>conçu et calibré pour les serveurs communautaires (30 à 50 joueurs)</strong>. Attendez-vous à une courbe de progression abrupte, du gating cross-mod, et des donjons qui scalent brutalement. Les rencontres endgame récompensent les groupes coordonnés, mais <strong>l'intégralité du pack reste clôturable en solo</strong> avec de la patience.</p>
-<p>✅ <strong>Le solo reste totalement jouable</strong> — le livre FTB Quests vous guide étape par étape. Comptez 150 à 300 heures pour atteindre l'endgame. Recommandé aux joueurs qui connaissent déjà <strong>Create, Mekanism, Ars Nouveau, Apotheosis</strong>.</p>
+<p>✅ <strong>Le solo reste totalement jouable</strong> — le livre FTB Quests vous guide à travers la progression de chaque mod. <strong>Les débutants sont les bienvenus</strong> ; les vétérans de <strong>Create, Mekanism, Ars Nouveau ou Apotheosis</strong> se sentiront tout de suite à l'aise. Comptez 150 à 300 heures pour atteindre l'endgame.</p>
 </td>
 </tr>
 </tbody>
