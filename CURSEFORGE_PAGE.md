@@ -37,12 +37,12 @@
 <tbody>
 <tr>
 <td style="padding: 14px 18px; vertical-align: top; width: 50%; border-right: 1px solid #E74C3C; text-align: center;">
-<p><span style="color: #E74C3C; font-size: large;"><strong>⚔️ EXPERT MODPACK — Multiplayer-First</strong></span></p>
+<p><span style="color: #E74C3C; font-size: large;"><strong>⚔️ EXPERT MODPACK</strong></span></p>
 <p>Arcadia V2 is <strong>designed and tuned for community servers (30–50 players)</strong>. Expect a steep progression curve, cross-mod gating, and dungeons that scale brutally. Late-game encounters reward coordinated groups, but the <strong>entire pack remains fully clearable solo</strong> with patience.</p>
 <p>✅ <strong>Solo is fully viable</strong> — the FTB Quests book hand-holds you through every mod's progression. <strong>Beginners are welcome</strong>; veterans of <strong>Create, Mekanism, Ars Nouveau or Apotheosis</strong> will feel right at home. Plan on 150–300 hours to reach end-game.</p>
 </td>
 <td style="padding: 14px 18px; vertical-align: top; width: 50%; text-align: center;">
-<p><span style="color: #E74C3C; font-size: large;"><strong>⚔️ MODPACK EXPERT — Pensé Multijoueur</strong></span></p>
+<p><span style="color: #E74C3C; font-size: large;"><strong>⚔️ MODPACK EXPERT</strong></span></p>
 <p>Arcadia V2 est <strong>conçu et calibré pour les serveurs communautaires (30 à 50 joueurs)</strong>. Attendez-vous à une courbe de progression abrupte, du gating cross-mod, et des donjons qui scalent brutalement. Les rencontres endgame récompensent les groupes coordonnés, mais <strong>l'intégralité du pack reste clôturable en solo</strong> avec de la patience.</p>
 <p>✅ <strong>Le solo reste totalement jouable</strong> — le livre FTB Quests vous guide à travers la progression de chaque mod. <strong>Les débutants sont les bienvenus</strong> ; les vétérans de <strong>Create, Mekanism, Ars Nouveau ou Apotheosis</strong> se sentiront tout de suite à l'aise. Comptez 150 à 300 heures pour atteindre l'endgame.</p>
 </td>
@@ -53,6 +53,8 @@
 <p>&nbsp;</p>
 
 <p style="text-align: center;"><span style="color: #ffa500;">⚠️ <strong>REDISTRIBUTION PROHIBITED</strong> ⚠️</span><br><span style="font-size: small;">It is strictly forbidden to edit or redistribute this modpack under another name or form.</span></p>
+
+<p>&nbsp;</p>
 
 <hr style="border: 1px solid #FFA500;">
 
@@ -166,6 +168,8 @@
 </tbody>
 </table>
 
+<p>&nbsp;</p>
+
 <hr style="border: 1px solid #FFA500;">
 
 <p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>⚔️ A Living & Hostile World</strong></span></p>
@@ -213,6 +217,8 @@
 </tr>
 </tbody>
 </table>
+
+<p>&nbsp;</p>
 
 <hr style="border: 1px solid #FFA500;">
 
@@ -314,6 +320,8 @@
 
 <p>&nbsp;</p>
 
+<p>&nbsp;</p>
+
 <p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>💻 Technical Excellence</strong></span></p>
 <p style="text-align: center;">Making <strong>490 mods</strong> coexist demands absolute rigor. We focused on two pillars:</p>
 
@@ -364,6 +372,10 @@
 
 <p style="text-align: center;"><a href="https://www.arcadia-echoes-of-power.fr/review" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Read_All_Reviews-arcadia--echoes--of--power.fr-FFA500?style=for-the-badge&amp;logo=star&amp;logoColor=white" alt="Read all reviews"></a></p>
 
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
 <hr style="border: 1px solid #FFA500;">
 
 <p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🖥️ System Requirements</strong></span></p>
@@ -396,6 +408,8 @@
 <p style="text-align: center;"><span style="color: #ffa500;"><strong>☕ Optimized JVM Arguments (Aikar's flags)</strong></span><br>Recommended for the best performance. <strong>⚡ Maximum FPS, zero lag. ⚡</strong></p>
 <p style="text-align: center;"><code style="display: block; color: #ffa500; border: 1px solid #FFA500; text-align: left; padding: 10px; background-color: rgba(0,0,0,0.03);">-XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true</code></p>
 
+<p>&nbsp;</p>
+
 <hr style="border: 1px solid #FFA500;">
 
 <p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🤝 Official Hosting Partner</strong></span></p>
@@ -408,6 +422,8 @@
 <p>&nbsp;</p>
 
 <p style="text-align: center;"><a href="https://wabbanode.com/partner/vyrriox" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Host_with-WabbaNode-FFA500?style=for-the-badge&amp;logo=server&amp;logoColor=white" alt="Host with WabbaNode"></a></p>
+
+<p>&nbsp;</p>
 
 <hr style="border: 1px solid #FFA500;">
 
@@ -438,6 +454,8 @@
 </table>
 
 <p style="text-align: center;"><em>Pick the region with the lowest ping. Cross-server economy and shared community across all 5 instances.</em></p>
+
+<p>&nbsp;</p>
 
 <hr style="border: 1px solid #FFA500;">
 
@@ -573,6 +591,8 @@
 </tbody>
 </table>
 
+<p>&nbsp;</p>
+
 <hr style="border: 1px solid #FFA500;">
 
 <p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>⚔️ Un Monde Vivant & Hostile</strong></span></p>
@@ -616,6 +636,8 @@
 </tr>
 </tbody>
 </table>
+
+<p>&nbsp;</p>
 
 <hr style="border: 1px solid #FFA500;">
 
@@ -717,6 +739,8 @@
 
 <p>&nbsp;</p>
 
+<p>&nbsp;</p>
+
 <p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>💻 L'Excellence Technique</strong></span></p>
 <p style="text-align: center;">Faire cohabiter <strong>490 mods</strong> demande une rigueur absolue. Nous avons mis l'accent sur deux piliers :</p>
 
@@ -767,6 +791,10 @@
 
 <p style="text-align: center;"><a href="https://www.arcadia-echoes-of-power.fr/review" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Lire_tous_les_avis-arcadia--echoes--of--power.fr-FFA500?style=for-the-badge&amp;logo=star&amp;logoColor=white" alt="Lire tous les avis"></a></p>
 
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
 <hr style="border: 1px solid #FFA500;">
 
 <p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🖥️ Configuration Requise</strong></span></p>
@@ -799,6 +827,8 @@
 <p style="text-align: center;"><span style="color: #ffa500;"><strong>☕ Arguments Java (JVM) Optimisés — Aikar's flags</strong></span><br>Recommandés pour des performances optimales. <strong>⚡ FPS maximum, zéro lag. ⚡</strong></p>
 <p style="text-align: center;"><code style="display: block; color: #ffa500; border: 1px solid #FFA500; text-align: left; padding: 10px; background-color: rgba(0,0,0,0.03);">-XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true</code></p>
 
+<p>&nbsp;</p>
+
 <hr style="border: 1px solid #FFA500;">
 
 <p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🤝 Hébergeur Officiel Partenaire</strong></span></p>
@@ -811,6 +841,8 @@
 <p>&nbsp;</p>
 
 <p style="text-align: center;"><a href="https://lordhosting.fr/gaming/serveur-minecraft?ref=arcadia" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/H%C3%A9berger_avec-LordHosting-FFA500?style=for-the-badge&amp;logo=server&amp;logoColor=white" alt="Héberger avec LordHosting"></a></p>
+
+<p>&nbsp;</p>
 
 <hr style="border: 1px solid #FFA500;">
 
@@ -841,6 +873,8 @@
 </table>
 
 <p style="text-align: center;"><em>Choisissez la région avec le meilleur ping. Économie cross-serveur et communauté partagée sur les 5 instances.</em></p>
+
+<p>&nbsp;</p>
 
 <hr style="border: 1px solid #FFA500;">
 
