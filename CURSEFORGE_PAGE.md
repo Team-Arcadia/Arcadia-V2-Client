@@ -1,363 +1,337 @@
 <!--
   Arcadia V2 — Echoes Of Power: CurseForge page description.
 
-  This file is the source of truth for the modpack description shown on
-  https://www.curseforge.com/minecraft/modpacks/arcadia-v2-echoes-of-power
-  Paste the HTML below into CurseForge's "Description" editor (HTML mode).
-  Keep this file in sync with each pack release.
+  Source of truth for the modpack description shown on:
+    https://www.curseforge.com/minecraft/modpacks/arcadia-v2-echoes-of-power
+
+  Paste the HTML below (everything from the first <p> to the last </details>)
+  into CurseForge's "Description" editor (HTML mode). Keep in sync at each release.
+
+  Design notes (v2):
+    - Trimmed GIFs from ~36 down to ~10 (each shown once) for faster page load.
+    - Removed header / hero GIFs (features.gif). Kept gameplay showcase GIFs
+      (machinerie, magie, combat, exploration, world, quest, gameplay) — these
+      demonstrate actual mechanics and earn their bandwidth cost.
+    - EN and FR sections are now strictly parallel in structure and asset count.
+    - Fixed broken LordHosting button (img had no src in v1).
+    - Added a quick-stats badge row (MC version, NeoForge, Java, mod count, quest count, langs).
 -->
 
 <p style="text-align: center;"><img src="https://arcadia-echoes-of-power.fr/storage/curseforge/Arcadia_Gif_transparent.gif" alt="Arcadia Logo" width="450"></p>
 <h1 style="text-align: center;"><span style="color: #ffa500;">⚡ Where Magic Meets Machinery ⚡</span></h1>
-<p style="text-align: center;"><span style="font-size: large;"><em>The Ultimate Industrial Fantasy Experience Awaits You!<br></em></span></p>
-<p>&nbsp;</p>
+<p style="text-align: center;"><span style="font-size: large;"><em>The Ultimate Industrial Fantasy Experience Awaits You!</em></span></p>
+
+<p style="text-align: center;"><a href="https://link.me/vyrriox" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Author-vyrriox-FFA500?style=for-the-badge&amp;logo=curseforge&amp;logoColor=white" alt="Author"></a> &nbsp; <a href="https://arcadia-echoes-of-power.fr/discord" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/discord/1346965857288589472?label=Online&amp;logo=discord&amp;style=for-the-badge&amp;color=5865F2&amp;labelColor=0f172a" alt="Discord"></a> &nbsp; <a href="https://www.arcadia-echoes-of-power.fr/" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Website-Arcadia-FFA500?style=for-the-badge&amp;logo=google-chrome&amp;logoColor=white" alt="Website"></a></p>
+
+<p style="text-align: center;"><img src="https://img.shields.io/badge/Minecraft-1.21.1-62B47A?style=flat-square&amp;logo=minecraft&amp;logoColor=white" alt="MC 1.21.1"> <img src="https://img.shields.io/badge/NeoForge-21.1.221+-F16436?style=flat-square" alt="NeoForge"> <img src="https://img.shields.io/badge/Java-21-007396?style=flat-square&amp;logo=openjdk&amp;logoColor=white" alt="Java 21"> <img src="https://img.shields.io/badge/Mods-490+-FFA500?style=flat-square" alt="490+ mods"> <img src="https://img.shields.io/badge/Quests-3000+-9C27B0?style=flat-square" alt="3000+ quests"> <img src="https://img.shields.io/badge/Languages-EN%20%2F%20FR-2196F3?style=flat-square" alt="EN / FR"></p>
+
 <p style="text-align: center;"><span style="color: #ffa500; font-size: medium;">⚠️ <strong>REDISTRIBUTION PROHIBITED</strong> ⚠️</span><br><span style="font-size: small;">It is strictly forbidden to edit or redistribute this modpack under another name or form.</span></p>
-<p>&nbsp;</p>
-<p style="text-align: center;"><a href="https://link.me/vyrriox" target="_blank" rel="nofollow noopener"> <img src="https://img.shields.io/badge/Author-vyrriox-FFA500?style=for-the-badge&amp;logo=curseforge&amp;logoColor=white" alt="Author"> </a> &nbsp; <a href="https://arcadia-echoes-of-power.fr/discord" target="_blank" rel="nofollow noopener"> <img src="https://img.shields.io/discord/1346965857288589472?label=Online&amp;logo=discord&amp;style=for-the-badge&amp;color=5865F2&amp;labelColor=0f172a" alt="Discord"> </a> &nbsp; <a href="https://www.arcadia-echoes-of-power.fr/" target="_blank" rel="nofollow noopener"> <img src="https://img.shields.io/badge/Website-Arcadia-FFA500?style=for-the-badge&amp;logo=google-chrome&amp;logoColor=white" alt="Website"> </a></p>
-<p>&nbsp;</p>
+
 <hr style="border: 1px solid #FFA500;">
-<p>&nbsp;</p>
+
 <h1 style="text-align: center;"><span style="color: #ffa500;">🇺🇸 Description (English) 🇺🇸</span></h1>
-<p style="text-align: center;"><a rel="nofollow"><img></a></p>
-<p style="text-align: center;"><a href="https://www.youtube.com/watch?v=lOkYRDm9W2Q" target="_blank" rel="nofollow noopener"><strong>▶️ Click here to watch the Trailer</strong></a></p>
-<p style="text-align: center;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/features.gif" width="800"></p>
-<p style="text-align: center;"><span style="font-size: large;"><strong>🌟 Ready to forge your legend? Dive into a world where your factory powers ancient rituals! 🌟</strong></span></p>
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: xx-large;"><strong>⚙️ The Missing Link</strong></span></p>
-<p style="text-align: center;">After a first industrial era, we identified the "missing link": <strong>the symbiosis between iron and spell</strong>. <br><br><strong>Arcadia</strong> is not just a list of mods, it is an interconnected experience where steam meets the astral.</p>
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: x-large;"><strong>🏗️ Industry at the Heart of Magic</strong></span></p>
-<p style="text-align: center;">The DNA remains technical (<strong>Create</strong>, <strong>Mekanism</strong>), but with a major twist: <strong>Interoperability</strong>.</p>
+
+<p style="text-align: center;"><a href="https://www.youtube.com/watch?v=lOkYRDm9W2Q" target="_blank" rel="nofollow noopener"><strong>▶️ Watch the official Trailer</strong></a></p>
+
+<p style="text-align: center;"><span style="font-size: large;"><strong>🌟 Ready to forge your legend? Dive into a world where your factory powers ancient rituals. 🌟</strong></span></p>
+
+<h2 style="text-align: center;"><span style="color: #ffa500;">⚙️ The Missing Link</span></h2>
+<p style="text-align: center;">After a first industrial era, we identified the "missing link": <strong>the symbiosis between iron and spell</strong>.<br><strong>Arcadia</strong> is not just a list of mods — it is an interconnected experience where steam meets the astral.</p>
+
+<h2 style="text-align: center;"><span style="color: #ffa500;">🏗️ Industry at the Heart of Magic</span></h2>
+<p style="text-align: center;">The DNA stays technical (<strong>Create</strong>, <strong>Mekanism</strong>), with one major twist: <strong>interoperability</strong>.</p>
+
 <table>
 <tbody>
 <tr>
-<td style="border-color: transparent;">
-<p style="text-align: center;"><span style="color: #ffa500; font-size: large;"><strong>🔮 Technological Mastery</strong></span></p>
+<td style="border-color: transparent; vertical-align: top; width: 50%;">
+<h3 style="text-align: center;"><span style="color: #ffa500;">🔮 Technological Mastery</span></h3>
 <ul>
-<li>🏭 <strong>Mass Production &amp; Automation</strong><br>Build complex, aesthetic assembly lines with <strong>Create</strong> and its massive suite of addons.<br><em>Included:</em> <strong>Diesel Generators</strong>, <strong>Encased</strong>, <strong>Enchantment Industry</strong>, <strong>Ore Excavation</strong>.<br>Automate everything from tree farms to precision mechanisms with rotating power.</li>
-</ul>
-<br>
-<ul>
-<li>☢️ <strong>The High-Tech Era</strong><br>Master the atomic age, process nuclear waste, and generate insane power.<br><em>Goal:</em> Build a Fusion Reactor with <strong>Mekanism</strong> and <strong>Mekanism Generators</strong>.<br>Process ores up to 5x efficiency for maximum output.</li>
-</ul>
-<br>
-<ul>
-<li>🛠️ <strong>Heavy Industry Engineering</strong><br>Construct massive, multi-block heavy machinery and realistic high-voltage power grids.<br><strong>Immersive Engineering</strong> adds a gritty, realistic feel to your factories with hanging wires and loud crushers.</li>
-</ul>
-<br>
-<ul>
-<li>📦 <strong>Digital Logistics &amp; Storage</strong><br>Stop organizing chests manually. Store millions of items digitally.<br>Access your inventory from anywhere with <strong>Refined Storage</strong>, transmit power wirelessly with <strong>Flux Networks</strong>, and enjoy per-player loot with <strong>Lootr</strong>.</li>
+<li>🏭 <strong>Mass Production & Automation</strong> — Build aesthetic assembly lines with <strong>Create</strong> and its addon suite (<em>Diesel Generators, Encased, Enchantment Industry, Ore Excavation</em>). Automate everything from tree farms to precision mechanisms.</li>
+<li>☢️ <strong>The High-Tech Era</strong> — Master the atomic age, process nuclear waste, generate insane power. Build a Fusion Reactor with <strong>Mekanism</strong>. Process ores up to 5× efficiency.</li>
+<li>🛠️ <strong>Heavy Industry Engineering</strong> — Multi-block heavy machinery and realistic high-voltage power grids via <strong>Immersive Engineering</strong>.</li>
+<li>📦 <strong>Digital Logistics</strong> — Store millions of items via <strong>Refined Storage</strong>, transmit power wirelessly with <strong>Flux Networks</strong>, per-player loot with <strong>Lootr</strong>.</li>
 </ul>
 </td>
-<td style="border-color: transparent;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/machinerie1.gif" width="100%"> <br><br><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/machinerie2.gif" width="100%"></td>
+<td style="border-color: transparent; vertical-align: top; width: 50%;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/machinerie1.gif" width="100%" alt="Industrial automation showcase"></td>
 </tr>
 </tbody>
 </table>
-<p>&nbsp;</p>
+
 <table>
 <tbody>
 <tr>
-<td style="border-color: transparent;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/magie1.gif" width="100%"> <br><br><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/magie2.gif" width="100%"></td>
-<td style="border-color: transparent;">
-<p style="text-align: center;"><span style="color: #ffa500; font-size: large;"><strong>✨ Deep Magical Arts</strong></span></p>
+<td style="border-color: transparent; vertical-align: top; width: 50%;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/magie1.gif" width="100%" alt="Magic and rituals showcase"></td>
+<td style="border-color: transparent; vertical-align: top; width: 50%;">
+<h3 style="text-align: center;"><span style="color: #ffa500;">✨ Deep Magical Arts</span></h3>
 <ul>
-<li>🧙‍♂️ <strong>Custom Spell Crafting</strong><br>Become a high mage, crafting your own unique spells, rituals, and magical artifacts.<br><strong>Ars Nouveau</strong> allows you to combine glyphs to create mining lazers, farming turrets, or combat fireballs.<br>Automatize your base with adorable magical servants: the Starbuncles and Whirlisprigs.</li>
-</ul>
-<br>
-<ul>
-<li>🔥 <strong>Devastating Combat Magic</strong><br>Unleash elemental attacks and wear powerful magical armor sets with <strong>Iron's Spellbooks</strong>.<br>Use scrolls to cast spells or inscribe them into your spellbook for permanent access.</li>
-</ul>
-<br>
-<ul>
-<li>👻 <strong>Occultism &amp; Spirit Control</strong><br>Summon otherworldly spirits and demons to mine ores in void dimensions or automate heavy tasks.<br>Access a massive dimensional storage system using your demon servants.</li>
-</ul>
-<br>
-<ul>
-<li>⚔️ <strong>God-Tier Rpg Gear</strong><br>Ascend to godhood by affixing gems and reforging your equipment with the <strong>Apotheosis</strong> system.<br>Find items with rarities from Common to Mythic, socket gems, and become unstoppable.</li>
+<li>🧙‍♂️ <strong>Custom Spell Crafting</strong> — Combine glyphs in <strong>Ars Nouveau</strong> to create mining lasers, farming turrets, or combat fireballs. Automate your base with Starbuncles and Whirlisprigs.</li>
+<li>🔥 <strong>Devastating Combat Magic</strong> — Elemental attacks and full mage armor sets via <strong>Iron's Spellbooks</strong>. Inscribe scrolls into your spellbook for permanent access.</li>
+<li>👻 <strong>Occultism & Spirit Control</strong> — Summon spirits to mine in void dimensions or automate heavy tasks. Massive dimensional storage via demon servants.</li>
+<li>⚔️ <strong>God-Tier RPG Gear</strong> — Affix gems and reforge equipment with <strong>Apotheosis</strong>. Rarities from Common to Mythic, socketed gems, unstoppable builds.</li>
 </ul>
 </td>
 </tr>
 </tbody>
 </table>
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: large;"><strong>🌾 Magical Automation</strong></span></p>
-<p style="text-align: center;">Automate your magical harvests thanks to precision mechanics from <strong>Create</strong> and <strong>Botany Pots</strong>.</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: large;"><strong>🗺️ Forced Exploration</strong></span></p>
-<p style="text-align: center;">Progression is tied to your discoveries. Some key components cannot be crafted, they must be earned at the ends of the earth.<br>Explore dimensions like <strong>The Aether</strong>, <strong>The Twilight Forest</strong>, and the terrifying <strong>Deeper and Darker</strong>.</p>
-<p>&nbsp;</p>
+
+<h3 style="text-align: center;"><span style="color: #ffa500;">🌾 Magical Automation</span></h3>
+<p style="text-align: center;">Automate your magical harvests with <strong>Create</strong> precision and <strong>Botany Pots</strong>.</p>
+
+<h3 style="text-align: center;"><span style="color: #ffa500;">🗺️ Forced Exploration</span></h3>
+<p style="text-align: center;">Progression is tied to discovery. Some key components are not crafted — they are earned at the ends of the earth.<br>Explore <strong>The Aether</strong>, <strong>The Twilight Forest</strong>, and the terrifying <strong>Deeper and Darker</strong>.</p>
+
 <hr style="border: 1px solid #FFA500;">
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: xx-large;"><strong>🎒 Quality of Life &amp; Decoration</strong></span></p>
-<p style="text-align: center;">Cook delicious meals with <strong>Farmer's Delight</strong> and its many addons.<br>Store everything with <strong>Sophisticated Backpacks</strong>, <strong>Sophisticated Storage</strong>, and <strong>Trash Cans</strong>.<br>Decorate your base with <strong>Macaw's</strong> suite, <strong>Chipped</strong>, and <strong>Handcrafted</strong>.<br>Communicate with your friends using <strong>Simple Voice Chat</strong>.</p>
-<p style="text-align: center;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/fishing.gif" width="600"></p>
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: large;"><strong>🍳 Culinary Arts &amp; Banquets</strong></span></p>
-<p style="text-align: center;">Become a <strong>MasterChef</strong> with <strong>Farmer's Delight</strong> and its 12+ addons (Cuisine, Miner's, Ender's Delight...).<br>Prepare complex feasts to boost your stats.</p>
-<p style="text-align: center;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/cooking.gif" width="600"></p>
-<p>&nbsp;</p>
-<p style="text-align: center;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/gameplay.gif" width="800"></p>
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: x-large;"><strong>⚔️ A Living &amp; Hostile World</strong></span></p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: large;"><strong>⚖️ Balanced Progression</strong></span></p>
-<p style="text-align: center;">Reworked recipes to offer a constant challenge, without ever falling into discouraging "grind".</p>
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: large;"><strong>⚔️ Advanced Combat &amp; RPG</strong></span></p>
-<p style="text-align: center;">Experience realistic combat with <strong>Better Combat</strong> and wield legendary weapons from <strong>Simply Swords</strong>.<br>Equip powerful artifacts with <strong>Curios</strong> and <strong>Artifacts</strong> to customize your playstyle.</p>
+
+<h2 style="text-align: center;"><span style="color: #ffa500;">⚔️ A Living & Hostile World</span></h2>
+
 <table>
 <tbody>
 <tr>
-<td style="border-color: transparent;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/combat1.gif" width="100%"></td>
-<td style="border-color: transparent;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/apparation_boss.gif" width="100%"></td>
-<td style="border-color: transparent;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/combat2.gif" width="100%"></td>
+<td style="border-color: transparent; vertical-align: top; width: 50%;">
+<h3 style="text-align: center;"><span style="color: #ffa500;">⚖️ Balanced Progression</span></h3>
+<p>Reworked recipes deliver constant challenge without ever falling into discouraging grind. Cross-mod bridges (Arcane Circuit, Industrial Heart, Rune Matrix...) tie all tech and magic mods together.</p>
+<h3 style="text-align: center;"><span style="color: #ffa500;">⚔️ Advanced Combat & RPG</span></h3>
+<p>Realistic combat with <strong>Better Combat</strong>, legendary weapons from <strong>Simply Swords</strong>, powerful artifacts via <strong>Curios</strong> and <strong>Artifacts</strong>.</p>
+<h3 style="text-align: center;"><span style="color: #ffa500;">🐲 Epic Battles</span></h3>
+<p>Every boss is scaled to face your tech arsenal and devastating spells: <strong>Mowzie's Mobs</strong>, <strong>Mutant Monsters</strong>, <strong>Twilight Forest</strong>, <strong>Deeper and Darker</strong>.</p>
+</td>
+<td style="border-color: transparent; vertical-align: top; width: 50%;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/combat1.gif" width="100%" alt="Combat and boss showcase"></td>
 </tr>
 </tbody>
 </table>
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: large;"><strong>🐲 Epic Battles</strong></span></p>
-<p style="text-align: center;">All bosses have been scaled to face your technological arsenal and devastating spells (<strong>Mowzie's Mobs</strong>, <strong>Mutant Monsters</strong>, <strong>Twilight Forest</strong>, <strong>Deeper and Darker</strong>).</p>
-<p>&nbsp;</p>
-<p style="text-align: center;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/world.gif" width="800"></p>
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: large;"><strong>🏰 Rich Exploration</strong></span></p>
-<p style="text-align: center;">With <strong>547 unique structures</strong> from <strong>Dungeons Arise</strong>, <strong>Moog's Structures</strong>, <strong>Structory</strong>, and <strong>Towns and Towers</strong>, every biome tells a story.<br>Loot tables have been completely rebalanced to reward adventurers.</p>
-<table>
+
+<h3 style="text-align: center;"><span style="color: #ffa500;">🏰 Rich Exploration — 547 Unique Structures</span></h3>
+<p style="text-align: center;"><strong>Dungeons Arise</strong>, <strong>Moog's Structures</strong>, <strong>Structory</strong>, <strong>Towns and Towers</strong>. Every biome tells a story. Loot tables fully rebalanced to reward adventurers.</p>
+<p style="text-align: center;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/world.gif" width="800" alt="World exploration showcase"></p>
+
+<h3 style="text-align: center;"><span style="color: #ffa500;">📜 3000+ Quests Across 31 Chapters</span></h3>
+<p style="text-align: center;">The FTB Quests book is your ultimate guide — fully bilingual EN/FR plus 5 more languages.<br>New quests are added in every update.</p>
+<p style="text-align: center;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/quest.gif" width="800" alt="Quest book showcase"></p>
+
+<hr style="border: 1px solid #FFA500;">
+
+<h2 style="text-align: center;"><span style="color: #ffa500;">🎒 Quality of Life & Decoration</span></h2>
+<p style="text-align: center;">Cook delicious meals with <strong>Farmer's Delight</strong> and its 12+ addons. Store everything with <strong>Sophisticated Backpacks/Storage</strong> and <strong>Trash Cans</strong>. Decorate with the <strong>Macaw's</strong> suite, <strong>Chipped</strong>, and <strong>Handcrafted</strong>. Voice with <strong>Simple Voice Chat</strong>.</p>
+
+<h2 style="text-align: center;"><span style="color: #ffa500;">🌐 Multiplayer & Economy</span></h2>
+<p style="text-align: center;">Tailored for community. Integrated economy encourages trade; exclusive progressive-difficulty dungeons (some impossible solo!) will test your coordination.<br><strong>💎 Trade, conquer, and build your empire with friends. 💎</strong></p>
+
+<h2 style="text-align: center;"><span style="color: #ffa500;">💻 Technical Excellence</span></h2>
+<p style="text-align: center;">Making <strong>490 mods</strong> coexist demands absolute rigor. We focused on two pillars:</p>
+<p style="text-align: center;"><strong>🗣️ Zero Franglais</strong> — If your game is in French, every quest, item and interface is in French. No language mixing.<br><strong>⚡ Peak Optimization</strong> — <strong>Sodium</strong>, <strong>Indium</strong>, <strong>ModernFix</strong>. Stable FPS, low MS/tick. No server-breaker item survives our stress tests.</p>
+
+<hr style="border: 1px solid #FFA500;">
+
+<h2 style="text-align: center;"><span style="color: #ffa500;">🖥️ System Requirements</span></h2>
+
+<table style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align: center; padding: 8px 24px;"><span style="color: #ffa500;">⚠️ Minimal</span></th>
+<th style="text-align: center; padding: 8px 24px;"><span style="color: #0f0;">✅ Recommended</span></th>
+</tr>
+</thead>
 <tbody>
 <tr>
-<td style="border-color: transparent;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/exploration1.gif" width="100%"></td>
-<td style="border-color: transparent;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/exploration2.gif" width="100%"></td>
-<td style="border-color: transparent;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/exploration3.gif" width="100%"></td>
+<td style="text-align: center;"><strong>RAM:</strong> 4 GB allocated</td>
+<td style="text-align: center;"><strong>RAM:</strong> 8 GB allocated</td>
 </tr>
-</tbody>
-</table>
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: large;"><strong>📜 3000+ Quests &amp; Lore</strong></span></p>
-<p style="text-align: center;">Complete over <strong>3000+ quests</strong> spread across <strong>31 chapters</strong>! The quest book is your ultimate guide.<br>New quests are added in every single update.</p>
-<p style="text-align: center;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/quest.gif" width="800"></p>
-<p><br><br></p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: xx-large;"><strong>🌐 Multiplayer &amp; Economy</strong></span></p>
-<p style="text-align: center;">The pack is tailored for the community. An integrated economy encourages trade, while exclusive progressive difficulty dungeons (some impossible solo!) will test your coordination.<br><br><strong>💎 Trade, conquer, and build your empire with friends! 💎</strong></p>
-<table>
-<tbody>
 <tr>
-<td style="border-color: transparent;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/market_serveur.gif" width="100%"></td>
-<td style="border-color: transparent;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/parkour1.gif" width="100%"></td>
-<td style="border-color: transparent;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/parkour2.gif" width="100%"></td>
+<td style="text-align: center;"><strong>GPU:</strong> RTX 2060 / GTX 1660 Ti</td>
+<td style="text-align: center;"><strong>GPU:</strong> RTX 4060</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CPU:</strong> Ryzen 5 5600X</td>
+<td style="text-align: center;"><strong>CPU:</strong> Ryzen 7 7800X3D</td>
 </tr>
 </tbody>
 </table>
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: xx-large;"><strong>💻 Technical Excellence</strong></span></p>
-<p style="text-align: center;">Making <strong>490 mods</strong> coexist requires absolute rigor. We focused on two pillars:</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: large;"><strong>🗣️ Zero Franglais</strong></span></p>
-<p style="text-align: center;">Total immersion guaranteed. Quests, items, interfaces... If your game is in French, everything will be in French. Goodbye to language mixtures that break the experience.</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: large;"><strong>⚡ Peak Optimization</strong></span></p>
-<p style="text-align: center;">Titanic work has been done on biome and structure generation (<strong>Terrablender</strong>, <strong>Biomes O' Plenty</strong>). The result? A stunning world that preserves your <strong>FPS</strong> and your <strong>MS/tick</strong> via <strong>Sodium</strong>, <strong>Indium</strong>, and <strong>ModernFix</strong>. No "server-breaker" item has survived our stress tests.</p>
-<p>&nbsp;</p>
+
+<p style="text-align: center;"><span style="color: #ffa500;"><strong>☕ Optimized JVM Arguments (Aikar's flags)</strong></span><br>Recommended for the best performance. <strong>⚡ Maximum FPS, zero lag. ⚡</strong></p>
+<p style="text-align: center;"><code style="display: block; color: #ffa500; border: 1px solid #FFA500; text-align: left; padding: 8px;">-XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true</code></p>
+
 <hr style="border: 1px solid #FFA500;">
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: xx-large;"><strong>🖥️ System Requirements</strong></span></p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: large;"><strong>⚠️ Minimal Config</strong></span><br><strong>RAM:</strong> 4GB (Allocated)<br><strong>GPU:</strong> RTX 2060 / GTX 1660 Ti<br><strong>CPU:</strong> Ryzen 5 5600X</p>
-<p style="text-align: center;"><span style="color: #0f0; font-size: large;"><strong>✅ Recommended Config</strong></span><br><strong>RAM:</strong> 8GB (Allocated)<br><strong>GPU:</strong> RTX 4060<br><strong>CPU:</strong> Ryzen 7 7800X3D</p>
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: large;"><strong>☕ Optimized JVM Arguments</strong></span></p>
-<p style="text-align: center;">We highly recommend using these Aikar's flags for the best performance:<br><strong>⚡ Maximum FPS, Zero Lag! ⚡</strong></p>
-<p style="text-align: center;"><code style="display: block; color: #ffa500; border: 1px solid #FFA500; text-align: left;">
-    -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true
-  </code></p>
-<p>&nbsp;</p>
+
+<h2 style="text-align: center;"><span style="color: #ffa500;">🤝 Official Hosting Partners</span></h2>
+<p style="text-align: center;">Looking to host your own Arcadia server? Our official partners offer high-performance Minecraft hosting optimized for modpacks.</p>
+
+<p style="text-align: center;"><a href="https://wabbanode.com/partner/vyrriox" target="_blank" rel="nofollow noopener"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/bannerwab.png" alt="WabbaNode — Official Hosting Partner" width="800"></a></p>
+<p style="text-align: center;"><a href="https://wabbanode.com/partner/vyrriox" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Host_with-WabbaNode-FFA500?style=for-the-badge&amp;logo=server&amp;logoColor=white" alt="Host with WabbaNode"></a></p>
+
+<p style="text-align: center;"><a href="https://lordhosting.fr/gaming/serveur-minecraft?ref=arcadia" target="_blank" rel="nofollow noopener"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/bannerlord.png" alt="LordHosting — Official Hosting Partner" width="800"></a></p>
+<p style="text-align: center;"><a href="https://lordhosting.fr/gaming/serveur-minecraft?ref=arcadia" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Host_with-LordHosting-FFA500?style=for-the-badge&amp;logo=server&amp;logoColor=white" alt="Host with LordHosting"></a></p>
+
 <hr style="border: 1px solid #FFA500;">
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: xx-large;"><strong>🤝 Official Hosting Partner</strong></span></p>
-<p style="text-align: center;"><span style="font-size: medium;">Looking to host your own Arcadia server? Our official partner offers high-performance Minecraft hosting optimized for modpacks!</span></p>
-<p style="text-align: center;"><a href="https://wabbanode.com/partner/vyrriox" target="_blank" rel="nofollow noopener"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/bannerwab.png" alt="WabbaNode - Official Hosting Partner" width="800"></a></p>
-<p style="text-align: center;"><a href="https://wabbanode.com/partner/vyrriox" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Host_Your_Server-WabbaNode-FFA500?style=for-the-badge&amp;logo=server&amp;logoColor=white" alt="Host with WabbaNode"></a></p>
-<p>&nbsp;</p>
+
+<h2 style="text-align: center;"><span style="color: #ffa500;">🚀 Join the Official Arcadia Server</span></h2>
+<p style="text-align: center;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/serveur.gif" width="600" alt="Official Arcadia server"></p>
+<p style="text-align: center;">A massive world with custom dungeons, player economy, and a friendly community.<br><span style="color: #0f0;"><strong>✅ Launch the modpack → Multiplayer → Join Official Server.</strong></span></p>
+
+<p style="text-align: center;"><span style="font-size: x-large;"><strong>🎮 JOIN THE ADVENTURE NOW 🎮</strong></span><br><em>490 mods, unlimited possibilities, one epic journey.</em></p>
+
+<p style="text-align: center;"><a href="https://arcadia-echoes-of-power.fr/discord" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/discord/1346965857288589472?label=Join%20Discord&amp;logo=discord&amp;style=for-the-badge&amp;color=5865F2&amp;labelColor=0f172a" alt="Join Discord"></a> &nbsp; <a href="https://www.arcadia-echoes-of-power.fr/" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Official-Website-FFA500?style=for-the-badge&amp;logo=google-chrome&amp;logoColor=white" alt="Website"></a></p>
+
+<p style="text-align: center;"><a href="https://www.arcadia-echoes-of-power.fr/changelog" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Changelog-Scroll-orange?style=for-the-badge&amp;logo=readme&amp;logoColor=white" alt="Changelog"></a> <a href="https://www.arcadia-echoes-of-power.fr/support/tickets" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Support-Ticket-blue?style=for-the-badge&amp;logo=ticket&amp;logoColor=white" alt="Support"></a> <a href="https://www.arcadia-echoes-of-power.fr/suggest" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Suggestions-Idea-yellow?style=for-the-badge&amp;logo=gitbook&amp;logoColor=white" alt="Suggestions"></a> <a href="https://www.arcadia-echoes-of-power.fr/partenariat" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Partners-Handshake-red?style=for-the-badge&amp;logo=ko-fi&amp;logoColor=white" alt="Partners"></a> <a href="https://www.arcadia-echoes-of-power.fr/staff" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Staff-Team-blueviolet?style=for-the-badge&amp;logo=person&amp;logoColor=white" alt="Staff"></a> <a href="https://buy.stripe.com/3cI3co6X97Vy4IK50QfIs00" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Donate-Support_Us-9C27B0?style=for-the-badge&amp;logo=stripe&amp;logoColor=white" alt="Donate"></a></p>
+
 <hr style="border: 1px solid #FFA500;">
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: x-large;"><strong>🚀 Join the Official Arcadia Server! 🚀</strong></span></p>
-<p style="text-align: center;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/serveur.gif" width="600"></p>
-<p style="text-align: center;"><span style="font-size: medium;">Explore a massive world with custom dungeons, player economy, and a friendly community.</span><br><span style="color: #0f0; font-size: large;"><strong>✅ Launch the modpack &gt; Multiplayer &gt; Join Official Server!<br><br></strong></span></p>
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="font-size: x-large;"><strong>🎮 JOIN THE ADVENTURE NOW! 🎮</strong></span><br><span style="font-size: medium;"><em>490 mods, unlimited possibilities, one epic journey!</em></span></p>
-<p style="text-align: center;"><img src="https://img.shields.io/discord/1346965857288589472?label=Join Discord&amp;logo=discord&amp;style=for-the-badge&amp;color=5865F2&amp;labelColor=0f172a" alt="Join Discord"> &nbsp; <a href="https://www.arcadia-echoes-of-power.fr/" target="_blank" rel="nofollow noopener"> <img src="https://img.shields.io/badge/Official-Website-FFA500?style=for-the-badge&amp;logo=google-chrome&amp;logoColor=white" alt="Website"> </a></p>
-<p style="text-align: center;"><a href="https://www.arcadia-echoes-of-power.fr/changelog" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Changelog-Scroll-orange?style=for-the-badge&amp;logo=readme&amp;logoColor=white" alt="Changelog"></a> <a href="https://www.arcadia-echoes-of-power.fr/support/tickets" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Support-Ticket-blue?style=for-the-badge&amp;logo=ticket&amp;logoColor=white" alt="Support"></a> <a href="https://www.arcadia-echoes-of-power.fr/suggest" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Suggestions-Idea-yellow?style=for-the-badge&amp;logo=gitbook&amp;logoColor=white" alt="Suggestions"></a> <a href="https://www.arcadia-echoes-of-power.fr/partenariat" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Partners-Handshake-red?style=for-the-badge&amp;logo=ko-fi&amp;logoColor=white" alt="Partners"></a> <a href="https://www.arcadia-echoes-of-power.fr/staff" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Staff-Team-blueviolet?style=for-the-badge&amp;logo=person&amp;logoColor=white" alt="Staff"></a> <a href="https://buy.stripe.com/3cI3co6X97Vy4IK50QfIs00" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Donate-Support_Us-3cI3co?style=for-the-badge&amp;logo=stripe&amp;logoColor=white" alt="Donate"></a></p>
-<p><br><br></p>
-<hr style="border: 1px solid #FFA500;">
-<p><br><br></p>
+
 <h1 style="text-align: center;"><span style="color: #0055a4;">🇫🇷 Description (Français) 🇫🇷</span></h1>
-<p style="text-align: center;"><a href="#" rel="nofollow"><img src="https://img.shields.io/badge/Changer_Langue-English-FFA500?style=for-the-badge&amp;logo=google-translate&amp;logoColor=white"></a></p>
-<p style="text-align: center;"><a href="https://www.youtube.com/watch?v=3JFl7S7YQkQ" target="_blank" rel="nofollow noopener"><strong>▶️ Cliquez ici pour voir le Trailer</strong></a></p>
-<p style="text-align: center;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/features.gif" width="800"></p>
-<p style="text-align: center;"><span style="font-size: large;"><strong>🌟 Prêt à forger votre légende ? Plongez dans un monde où votre usine alimente des rituels ancestraux ! 🌟</strong></span></p>
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: xx-large;"><strong>⚙️ Le Chaînon Manquant</strong></span></p>
-<p style="text-align: center;">Après une première épopée industrielle, nous avons identifié le "chaînon manquant" : <strong>la symbiose entre le fer et le sortilège</strong>. <br><br><strong>Arcadia</strong> n'est pas qu'une simple liste de mods, c'est une expérience interconnectée où la vapeur côtoie l'astral.</p>
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: xx-large;"><strong>🏗️ L'Industrie au Cœur de la Magie</strong></span></p>
-<p style="text-align: center;">L'ADN reste technique (<strong>Create</strong>, <strong>Mekanism</strong>), mais avec un tournant majeur : <strong>l'interopérabilité</strong>.</p>
+
+<p style="text-align: center;"><a href="https://www.youtube.com/watch?v=3JFl7S7YQkQ" target="_blank" rel="nofollow noopener"><strong>▶️ Voir le Trailer officiel</strong></a></p>
+
+<p style="text-align: center;"><span style="font-size: large;"><strong>🌟 Prêt à forger votre légende ? Plongez dans un monde où votre usine alimente des rituels ancestraux. 🌟</strong></span></p>
+
+<h2 style="text-align: center;"><span style="color: #ffa500;">⚙️ Le Chaînon Manquant</span></h2>
+<p style="text-align: center;">Après une première épopée industrielle, nous avons identifié le « chaînon manquant » : <strong>la symbiose entre le fer et le sortilège</strong>.<br><strong>Arcadia</strong> n'est pas qu'une simple liste de mods — c'est une expérience interconnectée où la vapeur côtoie l'astral.</p>
+
+<h2 style="text-align: center;"><span style="color: #ffa500;">🏗️ L'Industrie au Cœur de la Magie</span></h2>
+<p style="text-align: center;">L'ADN reste technique (<strong>Create</strong>, <strong>Mekanism</strong>), avec un tournant majeur : <strong>l'interopérabilité</strong>.</p>
+
 <table>
 <tbody>
 <tr>
-<td style="border-color: transparent;">
-<p style="text-align: center;"><span style="color: #ffa500; font-size: large;"><strong>🔮 Maîtrise Technologique</strong></span></p>
+<td style="border-color: transparent; vertical-align: top; width: 50%;">
+<h3 style="text-align: center;"><span style="color: #ffa500;">🔮 Maîtrise Technologique</span></h3>
 <ul>
-<li>🏭 <strong>Production de Masse &amp; Automatisation</strong><br>Construisez des chaînes de montage complexes avec <strong>Create</strong> et sa suite d'addons.<br><em>Inclus :</em> <strong>Diesel Generators</strong>, <strong>Encased</strong>, <strong>Enchantment Industry</strong>...<br>Automatisez tout, des fermes à arbres aux mécanismes de précision avec l'énergie cinétique.</li>
-</ul>
-<br>
-<ul>
-<li>☢️ <strong>L'Ère High-Tech &amp; Nucléaire</strong><br>Maîtrisez l'âge atomique, traitez les déchets nucléaires et générez une puissance folle.<br><em>Objectif :</em> Construisez le Réacteur à Fusion ultime de <strong>Mekanism</strong>.<br>Traitez vos minerais pour quintupler (x5) votre rendement.</li>
-</ul>
-<br>
-<ul>
-<li>🛠️ <strong>Ingénierie Lourde &amp; Réaliste</strong><br>Érigez des machines multi-blocs massives et des réseaux électriques haute tension.<br><strong>Immersive Engineering</strong> apporte un style industriel brut avec ses câbles suspendus et ses broyeurs bruyants.</li>
-</ul>
-<br>
-<ul>
-<li>📦 <strong>Logistique Digitale &amp; Stockage Infini</strong><br>Arrêtez de ranger vos coffres à la main. Stockez des millions d'items numériquement.<br>Accédez à tout via <strong>Refined Storage</strong>, sans fil avec <strong>Flux Networks</strong>, et profitez de coffres instanciés avec <strong>Lootr</strong>.</li>
+<li>🏭 <strong>Production de Masse & Automatisation</strong> — Construisez des chaînes esthétiques avec <strong>Create</strong> et sa suite d'addons (<em>Diesel Generators, Encased, Enchantment Industry, Ore Excavation</em>). Automatisez tout, des fermes à arbres aux mécanismes de précision.</li>
+<li>☢️ <strong>L'Ère High-Tech</strong> — Maîtrisez l'âge atomique, traitez les déchets nucléaires, générez une puissance folle. Construisez un Réacteur à Fusion avec <strong>Mekanism</strong>. Traitement des minerais ×5.</li>
+<li>🛠️ <strong>Ingénierie Lourde</strong> — Machines multi-blocs et réseaux haute tension réalistes via <strong>Immersive Engineering</strong>.</li>
+<li>📦 <strong>Logistique Digitale</strong> — Stockez des millions d'items via <strong>Refined Storage</strong>, transmettez l'énergie sans fil avec <strong>Flux Networks</strong>, coffres instanciés avec <strong>Lootr</strong>.</li>
 </ul>
 </td>
-<td style="border-color: transparent;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/machinerie2.gif" width="100%"> <br><br><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/machinerie1.gif" width="100%"></td>
+<td style="border-color: transparent; vertical-align: top; width: 50%;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/machinerie2.gif" width="100%" alt="Industrie et automatisation"></td>
 </tr>
 </tbody>
 </table>
-<p>&nbsp;</p>
+
 <table>
 <tbody>
 <tr>
-<td style="border-color: transparent;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/magie2.gif" width="100%"> <br><br><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/magie1.gif" width="100%"></td>
-<td style="border-color: transparent;">
-<p style="text-align: center;"><span style="color: #ffa500; font-size: large;"><strong>✨ Arts Magiques Profonds</strong></span></p>
+<td style="border-color: transparent; vertical-align: top; width: 50%;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/magie2.gif" width="100%" alt="Magie et rituels"></td>
+<td style="border-color: transparent; vertical-align: top; width: 50%;">
+<h3 style="text-align: center;"><span style="color: #ffa500;">✨ Arts Magiques Profonds</span></h3>
 <ul>
-<li>🧙‍♂️ <strong>Création de Sorts Personnalisés</strong><br>Devenez un archimage en créant vos propres sorts et rituels uniques grâce à <strong>Ars Nouveau</strong>.<br>Combinez des glyphes pour créer des lasers de minage, des tourelles agricoles ou des boules de feu.<br>Automatisez votre base avec des serviteurs magiques mignons : les Starbuncles et les Whirlisprigs.</li>
-</ul>
-<br>
-<ul>
-<li>🔥 <strong>Magie de Combat Dévastatrice</strong><br>Déchaînez des attaques élémentaires et portez des armures de mage avec <strong>Iron's Spellbooks</strong>.<br>Utilisez des parchemins pour lancer des sorts ou inscrivez-les dans votre grimoire pour les garder.</li>
-</ul>
-<br>
-<ul>
-<li>👻 <strong>Occultisme &amp; Contrôle des Esprits</strong><br>Invoquez des esprits et démons pour miner dans le vide ou automatiser des tâches lourdes.<br>Accédez à un système de stockage dimensionnel massif grâce à vos démons serviteurs via <strong>Occultism</strong>.</li>
-</ul>
-<br>
-<ul>
-<li>⚔️ <strong>Équipement RPG Divin</strong><br>Atteignez la divinité en sertissant des gemmes et en reforgeant votre stuff avec <strong>Apotheosis</strong>.<br>Trouvez des items aux raretés variées (de Commun à Mythique), ajoutez des châsses et devenez invicible.</li>
+<li>🧙‍♂️ <strong>Création de Sorts Personnalisés</strong> — Combinez des glyphes dans <strong>Ars Nouveau</strong> pour créer des lasers de minage, des tourelles agricoles ou des boules de feu. Automatisez avec Starbuncles et Whirlisprigs.</li>
+<li>🔥 <strong>Magie de Combat Dévastatrice</strong> — Attaques élémentaires et armures de mage avec <strong>Iron's Spellbooks</strong>. Inscrivez les parchemins dans votre grimoire pour un accès permanent.</li>
+<li>👻 <strong>Occultisme & Contrôle des Esprits</strong> — Invoquez des esprits pour miner dans le vide ou automatiser des tâches lourdes. Stockage dimensionnel via démons serviteurs.</li>
+<li>⚔️ <strong>Équipement RPG Divin</strong> — Sertissez des gemmes et reforgez votre stuff avec <strong>Apotheosis</strong>. Raretés Commun → Mythique, châsses, builds invincibles.</li>
 </ul>
 </td>
 </tr>
 </tbody>
 </table>
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: large;"><strong>🌾 Agriculture de Précision</strong></span></p>
-<p style="text-align: center;">Automatisez vos récoltes magiques grâce à la mécanique de précision de <strong>Create</strong> et <strong>Botany Pots</strong>.</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: large;"><strong>🗺️ Exploration Forcée</strong></span></p>
-<p style="text-align: center;">La progression est liée à vos découvertes. Certains composants clés ne se craftent pas, ils se méritent au bout du monde.<br>Explorez des dimensions comme <strong>L'Aether</strong>, <strong>La Forêt du Crépuscule</strong> (<strong>Twilight Forest</strong>) et le terrifiant <strong>Deeper and Darker</strong>.</p>
-<p>&nbsp;</p>
+
+<h3 style="text-align: center;"><span style="color: #ffa500;">🌾 Agriculture Magique</span></h3>
+<p style="text-align: center;">Automatisez vos récoltes magiques avec la précision de <strong>Create</strong> et <strong>Botany Pots</strong>.</p>
+
+<h3 style="text-align: center;"><span style="color: #ffa500;">🗺️ Exploration Forcée</span></h3>
+<p style="text-align: center;">La progression est liée à la découverte. Certains composants clés ne se craftent pas — ils se méritent au bout du monde.<br>Explorez <strong>L'Aether</strong>, <strong>La Forêt du Crépuscule</strong> et le terrifiant <strong>Deeper and Darker</strong>.</p>
+
 <hr style="border: 1px solid #FFA500;">
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: xx-large;"><strong>🎒 Qualité de Vie &amp; Décoration</strong></span></p>
-<p style="text-align: center;">Cuisinez de délicieux repas avec <strong>Farmer's Delight</strong> et ses nombreux addons.<br>Stockez tout avec <strong>Sophisticated Backpacks</strong>, <strong>Sophisticated Storage</strong> et <strong>Trash Cans</strong>.<br>Décorez votre base avec la suite de <strong>Macaw</strong>, <strong>Chipped</strong> et <strong>Handcrafted</strong>.<br>Communiquez avec vos amis grâce à <strong>Simple Voice Chat</strong>.</p>
-<p style="text-align: center;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/fishing.gif" width="600"></p>
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: large;"><strong>🍳 Arts Culinaires &amp; Banquets</strong></span></p>
-<p style="text-align: center;">Devenez un <strong>MasterChef</strong> grâce à <strong>Farmer's Delight</strong> et ses 12+ addons (Cuisine, Miner's, Ender's Delight...).<br>Préparez des festins complexes pour booster vos statistiques.</p>
-<p style="text-align: center;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/cooking.gif" width="600"></p>
-<p>&nbsp;</p>
-<p style="text-align: center;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/gameplay.gif" width="800"></p>
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: x-large;"><strong>⚔️ Un Monde Vivant &amp; Hostile</strong></span></p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: large;"><strong>⚖️ Progression Équilibrée</strong></span></p>
-<p style="text-align: center;">Des recettes retravaillées pour offrir un défi constant, sans jamais tomber dans le "grind" décourageant.</p>
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: large;"><strong>⚔️ Combat Avancé &amp; RPG</strong></span></p>
-<p style="text-align: center;">Découvrez des combats réalistes avec <strong>Better Combat</strong> et maniez des armes légendaires de <strong>Simply Swords</strong>.<br>Équipez de puissants artefacts via <strong>Curios</strong> et <strong>Artifacts</strong> pour personnaliser votre style de jeu.</p>
+
+<h2 style="text-align: center;"><span style="color: #ffa500;">⚔️ Un Monde Vivant & Hostile</span></h2>
+
 <table>
 <tbody>
 <tr>
-<td style="border-color: transparent;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/combat1.gif" width="100%"></td>
-<td style="border-color: transparent;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/apparation_boss.gif" width="100%"></td>
-<td style="border-color: transparent;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/combat2.gif" width="100%"></td>
+<td style="border-color: transparent; vertical-align: top; width: 50%;">
+<h3 style="text-align: center;"><span style="color: #ffa500;">⚖️ Progression Équilibrée</span></h3>
+<p>Des recettes retravaillées pour offrir un défi constant, sans jamais tomber dans le grind décourageant. Des ponts cross-mod (Circuit Arcane, Cœur Industriel, Matrice de Runes...) relient tech et magie.</p>
+<h3 style="text-align: center;"><span style="color: #ffa500;">⚔️ Combat Avancé & RPG</span></h3>
+<p>Combats réalistes avec <strong>Better Combat</strong>, armes légendaires de <strong>Simply Swords</strong>, artefacts puissants via <strong>Curios</strong> et <strong>Artifacts</strong>.</p>
+<h3 style="text-align: center;"><span style="color: #ffa500;">🐲 Combats Épiques</span></h3>
+<p>Tous les boss sont scalés pour affronter votre arsenal technologique et vos sorts dévastateurs : <strong>Mowzie's Mobs</strong>, <strong>Mutant Monsters</strong>, <strong>Twilight Forest</strong>, <strong>Deeper and Darker</strong>.</p>
+</td>
+<td style="border-color: transparent; vertical-align: top; width: 50%;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/combat2.gif" width="100%" alt="Combats et boss"></td>
 </tr>
 </tbody>
 </table>
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: large;"><strong>🐲 Combats Épiques</strong></span></p>
-<p style="text-align: center;">Tous les boss ont été "scalés" pour faire face à votre arsenal technologique et vos sorts dévastateurs (<strong>Mowzie's Mobs</strong>, <strong>Mutant Monsters</strong>, <strong>Twilight Forest</strong>, <strong>Deeper and Darker</strong>).</p>
-<p>&nbsp;</p>
-<p style="text-align: center;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/world.gif" width="800"></p>
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: large;"><strong>🏰 Exploration Riche</strong></span></p>
-<p style="text-align: center;">Avec <strong>547 structures uniques</strong> issues de <strong>Dungeons Arise</strong>, <strong>Moog's Structures</strong>, <strong>Structory</strong> et <strong>Towns and Towers</strong>, chaque biome raconte une histoire.<br>Les tables de loot ont été entièrement rééquilibrées pour récompenser les aventuriers.</p>
-<table>
-<tbody>
-<tr>
-<td style="border-color: transparent;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/exploration1.gif" width="100%"></td>
-<td style="border-color: transparent;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/exploration2.gif" width="100%"></td>
-<td style="border-color: transparent;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/exploration3.gif" width="100%"></td>
-</tr>
-</tbody>
-</table>
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: large;"><strong>📜 3000+ Quêtes &amp; Lore</strong></span></p>
-<p style="text-align: center;">Complétez plus de <strong>3000 quêtes</strong> réparties sur <strong>31 chapitres</strong> ! Le livre de quêtes est votre guide ultime.<br>Des nouvelles quêtes sont ajoutées à chaque mise à jour.</p>
-<p style="text-align: center;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/quest.gif" width="800"></p>
-<p><br><br></p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: xx-large;"><strong>🌐 Multijoueur &amp; Économie</strong></span></p>
-<p style="text-align: center;">Le pack est taillé pour la communauté. Une économie intégrée favorise les échanges, tandis que des donjons exclusifs à difficulté progressive (dont certains impossibles en solo !) mettront votre coordination à l'épreuve.<br><br><strong>💎 Échangez, conquérez et bâtissez votre empire entre amis ! 💎</strong></p>
-<table>
-<tbody>
-<tr>
-<td style="border-color: transparent;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/market_serveur.gif" width="100%"></td>
-<td style="border-color: transparent;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/parkour1.gif" width="100%"></td>
-<td style="border-color: transparent;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/parkour2.gif" width="100%"></td>
-</tr>
-</tbody>
-</table>
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: xx-large;"><strong>💻 L'Excellence Technique</strong></span></p>
+
+<h3 style="text-align: center;"><span style="color: #ffa500;">🏰 Exploration Riche — 547 Structures Uniques</span></h3>
+<p style="text-align: center;"><strong>Dungeons Arise</strong>, <strong>Moog's Structures</strong>, <strong>Structory</strong>, <strong>Towns and Towers</strong>. Chaque biome raconte une histoire. Tables de loot entièrement rééquilibrées.</p>
+<p style="text-align: center;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/exploration1.gif" width="800" alt="Exploration du monde"></p>
+
+<h3 style="text-align: center;"><span style="color: #ffa500;">📜 3000+ Quêtes sur 31 Chapitres</span></h3>
+<p style="text-align: center;">Le livre FTB Quests est votre guide ultime — entièrement bilingue FR/EN plus 5 autres langues.<br>De nouvelles quêtes sont ajoutées à chaque mise à jour.</p>
+<p style="text-align: center;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/gameplay.gif" width="800" alt="Livre de quêtes"></p>
+
+<hr style="border: 1px solid #FFA500;">
+
+<h2 style="text-align: center;"><span style="color: #ffa500;">🎒 Qualité de Vie & Décoration</span></h2>
+<p style="text-align: center;">Cuisinez avec <strong>Farmer's Delight</strong> et ses 12+ addons. Stockez avec <strong>Sophisticated Backpacks/Storage</strong> et <strong>Trash Cans</strong>. Décorez avec la suite <strong>Macaw's</strong>, <strong>Chipped</strong>, <strong>Handcrafted</strong>. Vocal avec <strong>Simple Voice Chat</strong>.</p>
+
+<h2 style="text-align: center;"><span style="color: #ffa500;">🌐 Multijoueur & Économie</span></h2>
+<p style="text-align: center;">Conçu pour la communauté. L'économie intégrée favorise les échanges ; les donjons à difficulté progressive (dont certains impossibles en solo !) testeront votre coordination.<br><strong>💎 Échangez, conquérez et bâtissez votre empire entre amis. 💎</strong></p>
+
+<h2 style="text-align: center;"><span style="color: #ffa500;">💻 L'Excellence Technique</span></h2>
 <p style="text-align: center;">Faire cohabiter <strong>490 mods</strong> demande une rigueur absolue. Nous avons mis l'accent sur deux piliers :</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: large;"><strong>🗣️ Le Zéro Franglais</strong></span></p>
-<p style="text-align: center;">Immersion totale garantie. Quêtes, items, interfaces... Si votre jeu est en français, tout sera en français. Adieu les mélanges de langues qui brisent l'expérience.</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: large;"><strong>⚡ Optimisation de Pointe</strong></span></p>
-<p style="text-align: center;">Un travail titanesque a été fait sur la génération des biomes et structures via <strong>Terrablender</strong> et <strong>Biomes O' Plenty</strong>. Le résultat ? Un monde magnifique qui préserve vos <strong>FPS</strong> et vos <strong>MS/tick</strong> grâce à <strong>Sodium</strong>, <strong>Indium</strong> et <strong>ModernFix</strong>. Aucun item "casse-serveur" n'a survécu à nos tests de stress.</p>
-<p>&nbsp;</p>
+<p style="text-align: center;"><strong>🗣️ Zéro Franglais</strong> — Si votre jeu est en français, toutes les quêtes, items et interfaces sont en français. Aucun mélange de langues.<br><strong>⚡ Optimisation de Pointe</strong> — <strong>Sodium</strong>, <strong>Indium</strong>, <strong>ModernFix</strong>. FPS stables, MS/tick bas. Aucun item « casse-serveur » ne survit à nos tests de stress.</p>
+
 <hr style="border: 1px solid #FFA500;">
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: xx-large;"><strong>🖥️ Configuration Requise</strong></span></p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: large;"><strong>⚠️ Minimal</strong></span><br><strong>RAM :</strong> 4 Go (Alloués)<br><strong>GPU :</strong> RTX 2060 / GTX 1660 Ti<br><strong>CPU :</strong> Ryzen 5 5600X</p>
-<p style="text-align: center;"><span style="color: #0f0; font-size: large;"><strong>✅ Recommandé</strong></span><br><strong>RAM :</strong> 8 Go (Alloués)<br><strong>GPU :</strong> RTX 4060<br><strong>CPU :</strong> Ryzen 7 7800X3D</p>
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: large;"><strong>☕ Arguments Java (JVM) Optimisés</strong></span></p>
-<p style="text-align: center;">Nous recommandons fortement d'utiliser ces arguments (Aikar's flags) pour des performances optimales :<br><strong>⚡ FPS Maximum, Zéro Lag ! ⚡</strong></p>
-<p style="text-align: center;"><code style="display: block; color: #ffa500; border: 1px solid #FFA500; text-align: left;">
-    -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true
-  </code></p>
-<p>&nbsp;</p>
+
+<h2 style="text-align: center;"><span style="color: #ffa500;">🖥️ Configuration Requise</span></h2>
+
+<table style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align: center; padding: 8px 24px;"><span style="color: #ffa500;">⚠️ Minimale</span></th>
+<th style="text-align: center; padding: 8px 24px;"><span style="color: #0f0;">✅ Recommandée</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>RAM :</strong> 4 Go alloués</td>
+<td style="text-align: center;"><strong>RAM :</strong> 8 Go alloués</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>GPU :</strong> RTX 2060 / GTX 1660 Ti</td>
+<td style="text-align: center;"><strong>GPU :</strong> RTX 4060</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CPU :</strong> Ryzen 5 5600X</td>
+<td style="text-align: center;"><strong>CPU :</strong> Ryzen 7 7800X3D</td>
+</tr>
+</tbody>
+</table>
+
+<p style="text-align: center;"><span style="color: #ffa500;"><strong>☕ Arguments Java (JVM) Optimisés — Aikar's flags</strong></span><br>Recommandés pour des performances optimales. <strong>⚡ FPS maximum, zéro lag. ⚡</strong></p>
+<p style="text-align: center;"><code style="display: block; color: #ffa500; border: 1px solid #FFA500; text-align: left; padding: 8px;">-XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true</code></p>
+
 <hr style="border: 1px solid #FFA500;">
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: xx-large;"><strong>🤝 Hébergeur Officiel Partenaire</strong></span></p>
-<p style="text-align: center;"><span style="font-size: medium;">Vous souhaitez héberger votre propre serveur Arcadia ? Notre partenaire officiel propose un hébergement Minecraft haute performance optimisé pour les modpacks !</span></p>
-<p style="text-align: center;"><a href="https://lordhosting.fr/gaming/serveur-minecraft?ref=arcadia" target="_blank" rel="nofollow noopener"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/bannerlord.png" alt="LordHosting - Hébergeur Officiel Partenaire" width="800"></a></p>
-<p style="text-align: center;"><a href="https://lordhosting.fr/gaming/serveur-minecraft?ref=arcadia" target="_blank" rel="nofollow noopener"><img alt="Héberger avec LordHosting"></a></p>
-<p>&nbsp;</p>
+
+<h2 style="text-align: center;"><span style="color: #ffa500;">🤝 Hébergeurs Officiels Partenaires</span></h2>
+<p style="text-align: center;">Vous souhaitez héberger votre propre serveur Arcadia ? Nos partenaires officiels proposent un hébergement Minecraft haute performance optimisé pour les modpacks.</p>
+
+<p style="text-align: center;"><a href="https://wabbanode.com/partner/vyrriox" target="_blank" rel="nofollow noopener"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/bannerwab.png" alt="WabbaNode — Hébergeur Officiel Partenaire" width="800"></a></p>
+<p style="text-align: center;"><a href="https://wabbanode.com/partner/vyrriox" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/H%C3%A9berger_avec-WabbaNode-FFA500?style=for-the-badge&amp;logo=server&amp;logoColor=white" alt="Héberger avec WabbaNode"></a></p>
+
+<p style="text-align: center;"><a href="https://lordhosting.fr/gaming/serveur-minecraft?ref=arcadia" target="_blank" rel="nofollow noopener"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/bannerlord.png" alt="LordHosting — Hébergeur Officiel Partenaire" width="800"></a></p>
+<p style="text-align: center;"><a href="https://lordhosting.fr/gaming/serveur-minecraft?ref=arcadia" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/H%C3%A9berger_avec-LordHosting-FFA500?style=for-the-badge&amp;logo=server&amp;logoColor=white" alt="Héberger avec LordHosting"></a></p>
+
 <hr style="border: 1px solid #FFA500;">
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="color: #ffa500; font-size: x-large;"><strong>🚀 Rejoignez le Serveur Officiel Arcadia ! 🚀</strong></span></p>
-<p style="text-align: center;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/serveur.gif" width="600"></p>
-<p style="text-align: center;"><span style="font-size: medium;">Explorez un monde immense avec des donjons personnalisés, une économie entre joueurs et une communauté accueillante.</span><br><span style="color: #0f0; font-size: large;"><strong>✅ Lancez le modpack &gt; Multijoueur &gt; Rejoindre Serveur Officiel !</strong></span></p>
-<p>&nbsp;</p>
-<p style="text-align: center;"><img src="https://img.shields.io/discord/1346965857288589472?label=Rejoindre Discord&amp;logo=discord&amp;style=for-the-badge&amp;color=5865F2&amp;labelColor=0f172a" alt="Rejoindre Discord"> &nbsp; <a href="https://www.arcadia-echoes-of-power.fr/" target="_blank" rel="nofollow noopener"> <img src="https://img.shields.io/badge/Site Officiel-Arcadia-orange?style=for-the-badge&amp;logo=google-chrome&amp;logoColor=white" alt="Site Officiel"> </a></p>
-<p style="text-align: center;"><a href="https://www.arcadia-echoes-of-power.fr/changelog" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Changelog-Parchemin-orange?style=for-the-badge&amp;logo=readme&amp;logoColor=white" alt="Changelog"></a> <a href="https://www.arcadia-echoes-of-power.fr/support/tickets" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Support-Ticket-blue?style=for-the-badge&amp;logo=ticket&amp;logoColor=white" alt="Support"></a> <a href="https://www.arcadia-echoes-of-power.fr/suggest" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Suggestions-Idee-yellow?style=for-the-badge&amp;logo=gitbook&amp;logoColor=white" alt="Suggestions"></a> <a href="https://www.arcadia-echoes-of-power.fr/partenariat" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Partenaires-Partage-red?style=for-the-badge&amp;logo=ko-fi&amp;logoColor=white" alt="Partenaires"></a> <a href="https://www.arcadia-echoes-of-power.fr/staff" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/L_Equipe-Staff-blueviolet?style=for-the-badge&amp;logo=person&amp;logoColor=white" alt="L'Équipe"></a> <a href="https://buy.stripe.com/3cI3co6X97Vy4IK50QfIs00" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Nous_Soutenir-Don-3cI3co?style=for-the-badge&amp;logo=stripe&amp;logoColor=white" alt="Nous Soutenir"></a></p>
+
+<h2 style="text-align: center;"><span style="color: #ffa500;">🚀 Rejoignez le Serveur Officiel Arcadia</span></h2>
+<p style="text-align: center;">Un monde immense avec des donjons personnalisés, une économie entre joueurs et une communauté accueillante.<br><span style="color: #0f0;"><strong>✅ Lancez le modpack → Multijoueur → Rejoindre Serveur Officiel.</strong></span></p>
+
+<p style="text-align: center;"><span style="font-size: x-large;"><strong>🎮 REJOIGNEZ L'AVENTURE 🎮</strong></span><br><em>490 mods, possibilités infinies, une épopée épique.</em></p>
+
+<p style="text-align: center;"><a href="https://arcadia-echoes-of-power.fr/discord" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/discord/1346965857288589472?label=Rejoindre%20Discord&amp;logo=discord&amp;style=for-the-badge&amp;color=5865F2&amp;labelColor=0f172a" alt="Rejoindre Discord"></a> &nbsp; <a href="https://www.arcadia-echoes-of-power.fr/" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Site_Officiel-Arcadia-FFA500?style=for-the-badge&amp;logo=google-chrome&amp;logoColor=white" alt="Site Officiel"></a></p>
+
+<p style="text-align: center;"><a href="https://www.arcadia-echoes-of-power.fr/changelog" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Changelog-Parchemin-orange?style=for-the-badge&amp;logo=readme&amp;logoColor=white" alt="Changelog"></a> <a href="https://www.arcadia-echoes-of-power.fr/support/tickets" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Support-Ticket-blue?style=for-the-badge&amp;logo=ticket&amp;logoColor=white" alt="Support"></a> <a href="https://www.arcadia-echoes-of-power.fr/suggest" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Suggestions-Id%C3%A9e-yellow?style=for-the-badge&amp;logo=gitbook&amp;logoColor=white" alt="Suggestions"></a> <a href="https://www.arcadia-echoes-of-power.fr/partenariat" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Partenaires-Partage-red?style=for-the-badge&amp;logo=ko-fi&amp;logoColor=white" alt="Partenaires"></a> <a href="https://www.arcadia-echoes-of-power.fr/staff" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/L%27%C3%89quipe-Staff-blueviolet?style=for-the-badge&amp;logo=person&amp;logoColor=white" alt="L'Équipe"></a> <a href="https://buy.stripe.com/3cI3co6X97Vy4IK50QfIs00" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Nous_Soutenir-Don-9C27B0?style=for-the-badge&amp;logo=stripe&amp;logoColor=white" alt="Nous Soutenir"></a></p>
+
 <hr style="border: 1px solid #FFA500;">
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="font-size: x-large;"><strong>📜 Mod Credits / Crédits des Mods</strong></span></p>
-<p style="text-align: center;"><span style="font-size: medium;"><em>This modpack proudly includes 490+ mods from talented developers worldwide. Thank you for making this adventure possible!</em></span> <br><span style="font-size: medium;"><em>Ce modpack inclut fièrement 490+ mods créés par des développeurs talentueux du monde entier. Merci d'avoir rendu cette aventure possible !</em></span></p>
-<p>&nbsp;</p>
+
+<h2 style="text-align: center;"><span style="font-size: x-large;">📜 Mod Credits / Crédits des Mods</span></h2>
+<p style="text-align: center;"><em>This modpack proudly includes 490+ mods from talented developers worldwide. Thank you for making this adventure possible!</em><br><em>Ce modpack inclut fièrement 490+ mods créés par des développeurs talentueux du monde entier. Merci d'avoir rendu cette aventure possible !</em></p>
+
 <details>
-<summary><strong>🔽 Click to view full mod list / Cliquez pour voir la liste complète 🔽</strong></summary>
-<br>
-- 3d Placeable Food - AI Improvements - Advancement Plaques - Aether Villages - Almanac - Ambient Sounds - Apotheosis - Apothic Attributes - Apothic Enchanting - Apothic Spawners - Aquaculture - Better Copper - BetterF3 - Better Third Person - Biomes O' Plenty - Chunky - Clumps - Controlling - Cosmetic Armours - Cosmetic Weapons - CraftPresence - Create Encased - Create Numismatics - CreativeCore - Design n-Decor - DnDesires - Dungeons Arise - Dungeons Arise Seven Seas - Dusty Decorations - Emojiful - Extra Disks - Extreme Sound Muffler - Falling Tree - Farmer's Delight - Fast Furnace - Fast Suite - Fast Workbench - Flux Networks - Forge Config API Port - Framed Blocks - Glitchcore - Hellish Trials - Highlighter - Iceberg - Immediately Fast - Immersive Engineering - Immersive UI - Item Borders - Ixeris - Jade - Jade Addons - Just Enough Professions - Just Enough Resources - Legendary Tooltips - Longer Chat History - Mekanism (+ Generators + Tools) - Moog's Structures (End, Missing Villages, Nether, Soaring, Voyager) - Mouse Tweaks - Mutant Monsters - Miner's Delight - Nature's Compass - No Chat Reports - Octolib - Parcool - Patchouli - Pehkui - Pickup Notifier - Placebo - Prism - Puzzles Lib - Resourcepack Overrides - Searchables - Smart Brain Lib - Some More Blocks - Spice of Life Onion - Straw Statues - Structory (+ Towers) - Towns and Towers - Terrablender - Twilight Forest (+ Final Boss + Delight) - Twilight Treehouses - Underground Bunkers - Unilib - Visual Workbench - Security Craft - Accessories - Addons Lib - Advanced Netherite - The Aether - Amendments - Animal Garden (15 species) - Another Furniture - Anvians Lib - Apothic Sups Enchanting - AppleSkin - Aquaculture Delight - Aquarius Libs - Architectury - Armourer's Workshop - Ars Additions - Ars Creo - Ars Nouveau - Ars Ocultas - Ars Technica - Ars Delight - Artifacts - Athena - Attribute Fix - Baguette Lib - Balm - Barbeque's Delight - Bells and Whistles - Better Lib - Better Archeology - Better Combat - Better FPS Dist - Bookshelf - Botany Pots - Botany Trees - Building Gadgets 2 - Burger Mod - Cable Facades - Caelus - Carpet Score - Carry On - Charging Gadgets - Charm of Undying - Chat Heads - Chef's Delight - Chipped - Chunk Activity Tracker - Clean Swing - Client Crafting - Cloth Config - Collective - Colorful Hearts - Colorwheel (+ Patcher) - Comforts - Connected Glass - Connectivity - Construction Blocks - Copper Deco - Copycats - Corn Delight - CoroUtil - Corpse (+ Curios Compat + Cosmetic Compat) - Cosmetic Armor Reworked - Crabber's Delight - Crate Delight - Create (1.21.1-6.0.9) + 25+ addons - Cristel Lib - Critter Armory - Cuisine Delight - Cultural Delights - Cupboard - Curios - Customizable Elytra - Deep Aether - Deeper Darker - Default Options - DG JS - Does It Tick - Double Doors - Dragon Drops Elytra - Drippy Loading Screen - Dummmmmmy - Durability Tooltip - Easy NPC (Bundle) - Ecologics - Elevator ID - Elytra Slot - Emotecraft - Enchantment Descriptions - Ender's Delight - End's Delight - Entity Culling - Escalated - Exposure (+ Catalog + Expanded + Polaroid) - Fancy Entity Renderer - FancyMenu - Farmer's Knives - Farsight - Fast Boot - Fast Paintings - Ferrite Core - Forgified Fabric API - Framework - FTB (Chunks, Essentials, Library, Quests, Teams, etc.) - Fusion - Fzzy Config - GeckoLib - GPU Mem Leak Fix - Guard Villagers - Handcrafted - Hidden Names - Immersive Aircraft - Immersive Melodies - Immersive Paintings - Invocore - Inventory Tweaks - Iris Shaders - Iron's Spellbooks (+ Irons Spells JS) - Item Collectors - JamLib - JAVD - JE Archaeology - JEED - JEI - Just Enough Breeding - Just Zoom - KJS Botany Pots - Knight Lib - Knight Quest - Konkrete - Kotlin for Forge - KubeJS (+ Create + Mekanism + Curios + Ars Nouveau + Delight + Tweaks) - Let Me Despawn - Log Begone - Loot Integrations (+ WDA + Moog + Structory) - LootJS - Lootr - Man of Many Planes - Macaw's (Bridges, Doors, Furniture, Lights, Fences, Paths, Stairs, Windows, Paintings, Roofs, Trapdoors + Biomes O' Plenty) - Mechanical Botany - Mechanicals - Melody - Mimi Mod - Model Fix - ModernFix - Modonomicon - Moog's Structures - Moonlight Lib - Mowzie's Mobs - MSS - Mysterious Mountain Lib - Neoncraft - Netherite Horse Armor - Nether Portal Fix - No Mo Wanderer - Not Enough Animations - Observable - Occult Engineering - Occultism (+ KubeJS) - Ocean's Delight - Owo Lib - Particle Core - Particular - Pipe Organs - Player Animation Lib - Polymorph - Prickle - RCH Supplementaries Compat - Recipes from Joe - Rechiseled (+ Create) - Recipe Essentials - Reese's Sodium Options - Refined Storage (Core + Curios + JEI + Mekanism + Quartz Arsenal) - Refurbished Furniture - Resourceful Config - Resourceful Lib - Revive Me - Rhino - Right Click Harvest - RS Infinity Booster - Screenshot to Clipboard - Self Expression (Main + New Edge + Romashka + Slim) - Simple Voice Broadcast - Simple Hats - Simply Swords - Sit - Skin Restorer - Slice and Dice - Smooth Chunk - Sneak Through Berries - Sodium (+ Extras + Leaf Culling + Options API + Mod Compat) - Sophisticated (Backpacks + Storage + Core + Create Integration + In Motion) - Sound Physics Remastered - Spark - Spawn Animations - Spiffy HUD - Spyglass Improvements - Starter Kit - Storage Delight - Structure Essentials - Supermartijn (Config Lib + Core Lib) - Supplementaries (+ Squared) - TFBR - TFMG - TF Thread Safety Addon - Titanium - Too Fast - Torchmaster - Trade Cycling - Trading Floor - Trail and Tales Delight - Trash Cans - Trash Slot - Trenzalore - Txni Lib - Underground Village - Simple Voice Chat - Void Totem - WaterFrames - WaterMedia (+ YouTube Plugin) - Water Vision - WATUT - Waystones - WorldEdit (+ Hang Fix + Items) - XP Tome - YAWP - Yeetus Experimentus - And many more libraries and dependencies!
+<summary style="text-align: center; cursor: pointer;"><strong>🔽 Click to view the full mod list / Cliquez pour voir la liste complète 🔽</strong></summary>
+<p style="margin-top: 12px;">
+3d Placeable Food &middot; AI Improvements &middot; Advancement Plaques &middot; Aether Villages &middot; Almanac &middot; Ambient Sounds &middot; Apotheosis &middot; Apothic Attributes &middot; Apothic Enchanting &middot; Apothic Spawners &middot; Aquaculture &middot; Better Copper &middot; BetterF3 &middot; Better Third Person &middot; Biomes O' Plenty &middot; Chunky &middot; Clumps &middot; Controlling &middot; Cosmetic Armours &middot; Cosmetic Weapons &middot; CraftPresence &middot; Create Encased &middot; Create Numismatics &middot; CreativeCore &middot; Design n-Decor &middot; DnDesires &middot; Dungeons Arise &middot; Dungeons Arise Seven Seas &middot; Dusty Decorations &middot; Emojiful &middot; Extra Disks &middot; Extreme Sound Muffler &middot; Falling Tree &middot; Farmer's Delight &middot; Fast Furnace &middot; Fast Suite &middot; Fast Workbench &middot; Flux Networks &middot; Forge Config API Port &middot; Framed Blocks &middot; Glitchcore &middot; Hellish Trials &middot; Highlighter &middot; Iceberg &middot; Immediately Fast &middot; Immersive Engineering &middot; Immersive UI &middot; Item Borders &middot; Ixeris &middot; Jade &middot; Jade Addons &middot; Just Enough Professions &middot; Just Enough Resources &middot; Legendary Tooltips &middot; Longer Chat History &middot; Mekanism (+ Generators + Tools) &middot; Moog's Structures (End, Missing Villages, Nether, Soaring, Voyager) &middot; Mouse Tweaks &middot; Mutant Monsters &middot; Miner's Delight &middot; Nature's Compass &middot; No Chat Reports &middot; Octolib &middot; Parcool &middot; Patchouli &middot; Pehkui &middot; Pickup Notifier &middot; Placebo &middot; Prism &middot; Puzzles Lib &middot; Resourcepack Overrides &middot; Searchables &middot; Smart Brain Lib &middot; Some More Blocks &middot; Spice of Life Onion &middot; Straw Statues &middot; Structory (+ Towers) &middot; Towns and Towers &middot; Terrablender &middot; Twilight Forest (+ Final Boss + Delight) &middot; Twilight Treehouses &middot; Underground Bunkers &middot; Unilib &middot; Visual Workbench &middot; Security Craft &middot; Accessories &middot; Addons Lib &middot; Advanced Netherite &middot; The Aether &middot; Amendments &middot; Animal Garden (15 species) &middot; Another Furniture &middot; Anvians Lib &middot; Apothic Sups Enchanting &middot; AppleSkin &middot; Aquaculture Delight &middot; Aquarius Libs &middot; Architectury &middot; Armourer's Workshop &middot; Ars Additions &middot; Ars Creo &middot; Ars Nouveau &middot; Ars Ocultas &middot; Ars Technica &middot; Ars Delight &middot; Artifacts &middot; Athena &middot; Attribute Fix &middot; Baguette Lib &middot; Balm &middot; Barbeque's Delight &middot; Bells and Whistles &middot; Better Lib &middot; Better Archeology &middot; Better Combat &middot; Better FPS Dist &middot; Bookshelf &middot; Botany Pots &middot; Botany Trees &middot; Building Gadgets 2 &middot; Burger Mod &middot; Cable Facades &middot; Caelus &middot; Carpet Score &middot; Carry On &middot; Charging Gadgets &middot; Charm of Undying &middot; Chat Heads &middot; Chef's Delight &middot; Chipped &middot; Chunk Activity Tracker &middot; Clean Swing &middot; Client Crafting &middot; Cloth Config &middot; Collective &middot; Colorful Hearts &middot; Colorwheel (+ Patcher) &middot; Comforts &middot; Connected Glass &middot; Connectivity &middot; Construction Blocks &middot; Copper Deco &middot; Copycats &middot; Corn Delight &middot; CoroUtil &middot; Corpse (+ Curios Compat + Cosmetic Compat) &middot; Cosmetic Armor Reworked &middot; Crabber's Delight &middot; Crate Delight &middot; Create (1.21.1) + 25+ addons &middot; Cristel Lib &middot; Critter Armory &middot; Cuisine Delight &middot; Cultural Delights &middot; Cupboard &middot; Curios &middot; Customizable Elytra &middot; Deep Aether &middot; Deeper Darker &middot; Default Options &middot; DG JS &middot; Does It Tick &middot; Double Doors &middot; Dragon Drops Elytra &middot; Drippy Loading Screen &middot; Dummmmmmy &middot; Durability Tooltip &middot; Easy NPC &middot; Ecologics &middot; Elevator ID &middot; Elytra Slot &middot; Emotecraft &middot; Enchantment Descriptions &middot; Ender's Delight &middot; End's Delight &middot; Entity Culling &middot; Escalated &middot; Exposure (+ Catalog + Expanded + Polaroid) &middot; Fancy Entity Renderer &middot; FancyMenu &middot; Farmer's Knives &middot; Farsight &middot; Fast Boot &middot; Fast Paintings &middot; Ferrite Core &middot; Forgified Fabric API &middot; Framework &middot; FTB (Chunks, Essentials, Library, Quests, Teams) &middot; Fusion &middot; Fzzy Config &middot; GeckoLib &middot; GPU Mem Leak Fix &middot; Guard Villagers &middot; Handcrafted &middot; Hidden Names &middot; Immersive Aircraft &middot; Immersive Melodies &middot; Immersive Paintings &middot; Invocore &middot; Inventory Tweaks &middot; Iris Shaders &middot; Iron's Spellbooks &middot; Item Collectors &middot; JamLib &middot; JAVD &middot; JE Archaeology &middot; JEED &middot; JEI &middot; Just Enough Breeding &middot; Just Zoom &middot; KJS Botany Pots &middot; Knight Lib &middot; Knight Quest &middot; Konkrete &middot; Kotlin for Forge &middot; KubeJS (+ Create + Mekanism + Curios + Ars + Delight + Tweaks) &middot; Let Me Despawn &middot; Log Begone &middot; Loot Integrations &middot; LootJS &middot; Lootr &middot; Man of Many Planes &middot; Macaw's (Bridges, Doors, Furniture, Lights, Fences, Paths, Stairs, Windows, Paintings, Roofs, Trapdoors) &middot; Mechanical Botany &middot; Mechanicals &middot; Melody &middot; Mimi Mod &middot; Model Fix &middot; ModernFix &middot; Modonomicon &middot; Moonlight Lib &middot; Mowzie's Mobs &middot; MSS &middot; Mysterious Mountain Lib &middot; Neoncraft &middot; Netherite Horse Armor &middot; Nether Portal Fix &middot; No Mo Wanderer &middot; Not Enough Animations &middot; Observable &middot; Occult Engineering &middot; Occultism &middot; Ocean's Delight &middot; Owo Lib &middot; Particle Core &middot; Particular &middot; Pipe Organs &middot; Player Animation Lib &middot; Polymorph &middot; Prickle &middot; Rechiseled (+ Create) &middot; Recipes from Joe &middot; Recipe Essentials &middot; Reese's Sodium Options &middot; Refined Storage (Core + Curios + JEI + Mekanism + Quartz Arsenal) &middot; Refurbished Furniture &middot; Resourceful Config &middot; Resourceful Lib &middot; Revive Me &middot; Rhino &middot; Right Click Harvest &middot; RS Infinity Booster &middot; Screenshot to Clipboard &middot; Self Expression (Main + New Edge + Romashka + Slim) &middot; Simple Voice Broadcast &middot; Simple Hats &middot; Simply Swords &middot; Sit &middot; Skin Restorer &middot; Slice and Dice &middot; Smooth Chunk &middot; Sneak Through Berries &middot; Sodium (+ Extras + Leaf Culling + Options API + Mod Compat) &middot; Sophisticated (Backpacks + Storage + Core + Create Integration + In Motion) &middot; Sound Physics Remastered &middot; Spark &middot; Spawn Animations &middot; Spiffy HUD &middot; Spyglass Improvements &middot; Starter Kit &middot; Storage Delight &middot; Structure Essentials &middot; Supermartijn (Config Lib + Core Lib) &middot; Supplementaries (+ Squared) &middot; TFBR &middot; TFMG &middot; TF Thread Safety Addon &middot; Titanium &middot; Too Fast &middot; Torchmaster &middot; Trade Cycling &middot; Trading Floor &middot; Trail and Tales Delight &middot; Trash Cans &middot; Trash Slot &middot; Trenzalore &middot; Txni Lib &middot; Underground Village &middot; Simple Voice Chat &middot; Void Totem &middot; WaterFrames &middot; WaterMedia (+ YouTube Plugin) &middot; Water Vision &middot; WATUT &middot; Waystones &middot; WorldEdit (+ Hang Fix + Items) &middot; XP Tome &middot; YAWP &middot; Yeetus Experimentus &middot; <em>and many more libraries and dependencies.</em>
+</p>
 </details>
-<p>&nbsp;</p>
-<p style="text-align: center;"><span style="font-size: medium;">⚙️ All mod translations (🇫🇷 French) done by the Arcadia team</span> <br><span style="font-size: medium;">⚙️ Toutes les traductions de mods (🇫🇷 Français) réalisées par l'équipe Arcadia</span></p>
-<p>&nbsp;</p>
+
+<p style="text-align: center;"><span style="font-size: medium;">⚙️ All mod translations (🇫🇷 French) done by the Arcadia team</span><br><span style="font-size: medium;">⚙️ Toutes les traductions de mods (🇫🇷 Français) réalisées par l'équipe Arcadia</span></p>
+
 <p style="text-align: center;"><span style="font-size: small;">&copy; 2025 Arcadia: Echoes of Power | Created by vyrriox | Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft.</span></p>
