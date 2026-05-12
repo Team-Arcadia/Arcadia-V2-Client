@@ -1,266 +1,127 @@
-# Arcadia V2 Client
+# Arcadia V2 — Echoes Of Power
 
-Une installation Minecraft complète et optimisée pour la version **1.21.1**, mettant en avant exploration, création et découverte.
+A curated NeoForge 1.21.1 modpack designed for the **Arcadia** community server (30–50 players). Heavy cross-mod hardening, custom KubeJS content, bilingual EN/FR localization, and a complete FTB Quests progression.
 
-## 📋 Table des matières
+## Features
 
-- [À propos](#à-propos)
-- [Version](#version)
-- [Installation](#installation)
-- [Caractéristiques principales](#caractéristiques-principales)
-- [Catégories de mods](#catégories-de-mods)
-- [Structure du projet](#structure-du-projet)
-- [Configuration](#configuration)
-- [Support](#support)
+- **Cross-mod recipe overhaul** — Iron/Gold/Diamond tools gated behind Create sheets, every tech mod (Mekanism, TFMG, Immersive Engineering, Refined Storage, Create addons) interlinked via bridge components
+- **4 Custom bridge items** — Arcane Circuit, Ethereal Alloy, Industrial Heart, Rune Matrix progressively gate cross-mod progression
+- **Fusion Core mega-chain** — 5-tier endgame crafting chain culminating in a 9×9 Mechanical Crafting recipe
+- **Custom Adept & Heretic armor sets** — 4 pieces + 10 unique companion items each, full lore textures
+- **20 custom music discs** — Original tracks with dedicated vinyl textures and jukebox-song integration
+- **FTB Quests pack** — 7 languages (EN-US, EN-GB, FR, ES, PT-BR, RU, ZH-CN), 25 000+ translation entries
+- **152 banned items** — 3-layer enforcement (recipe removal + inventory scan + JEI/creative hide)
+- **Mob rebalance** — Boss HP ×2.5 to ×8, twilight/mowzie/iron-spellbook bosses individually tuned
+- **Loot nerfs** — Diamond 0.5%, Netherite 0.01%, Artifacts craft-only, backpacks/twilight scaled
+- **Apotheosis tuning** — Rarity weights, mythic-only Winged affix, gated flight potions (Dragon's Breath + Nether Star)
+- **FancyMenu branding** — Localized main menu, server selection, loading screens
+- **ArcadiaLanguages resource pack** — Forced load via ResourcePackOverrides, fixes EN-leak gaps from upstream mods
 
-## À propos
+## Requirements
 
-**Arcadia V2 Client** est une pack de mods soigneusement sélectionnés pour Minecraft 1.21.1 utilisant NeoForge. Ce projet offre une expérience enrichie avec plus de 300 mods couvrant:
-
-- **Exploration**: nouvelles structures, biomes et dimensions
-- **Création**: améliorations de la mécanique de crafting et des machines
-- **Qualité de vie**: améliorations d'interface et de gameplay
-- **Décoration**: blocs et features de design supplémentaires
-- **Performance**: optimisations et corrections pour une meilleure expérience
-
-## Version
-
-- **Minecraft**: 1.21.1
-- **Loader**: NeoForge
-- **Client Type**: MultiPlayer Ready
+| Dependency | Version |
+|------------|---------|
+| Minecraft  | 1.21.1  |
+| NeoForge   | 21.1.221+ |
+| Java       | 21      |
+| CurseForge or Prism Launcher | Required for manifest-based install |
 
 ## Installation
 
-### Prérequis
-
-- Java 21 (recommandé)
-- Un launcher Minecraft compatible (Curse Client, Prism Launcher, etc.)
-- Environ 12-15 GB d'espace disque
-
-### Étapes
-
-1. **Cloner ou télécharger le projet**
-
-   ```bash
-   git clone <repository-url>
-   cd Arcadia-V2-Client
-   ```
-
-2. **Utiliser un launcher compatible**
-   - Importez le dossier complet dans votre launcher
-   - Ou utilisez le launcher Curse Client directement
-
-3. **Lancer le client**
-   - Assurez-vous que Java 21 est sélectionné
-   - Lancez l'instance Minecraft
-   - Profitez !
-
-## Caractéristiques principales
-
-### 🎨 Visuels & Ambiance
-
-- Améliorations graphiques (Sodium, Iris, Sound Physics)
-- Shaders supportés (dossier `shaderpacks/`)
-- Packs de ressources custom (dossier `resourcepacks/`)
-- Effets visuels améliorés (Better Third Person, Exposure, etc.)
-
-### ⚙️ Mécanique de jeu
-
-- **Create**: système d'ingénierie et d'automatisation avancé
-- **Mekanism**: traitement des minerais et machines industrielles
-- **Ars Nouveau**: magie et sorts
-- **Twilight Forest**: nouvelle dimension épique avec boss
-- **Aether**: dimension céleste avec biomes flottants
-
-### 🏗️ Construction & Décoration
-
-- Blocs décorés supplémentaires (MCW Mod series)
-- Outils de construction améliorés (Building Gadgets)
-- Système de frames (Framed Blocks)
-- Meubles et housewares (Handcrafted, Another Furniture)
-
-### 📚 Exploration & Aventure
-
-- Structures générées (Dungeon Arise, Structory, Moogs)
-- Villages et donjons augmentés
-- Biomes enrichis (Biomes O'Plenty, Ecologics)
-- Boss et créatures supplémentaires (Mowzie's Mobs, Mutant Monsters)
-
-### 🎯 Qualité de vie
-
-- JEI (Just Enough Items) pour la recherche de recettes
-- Waystones pour les téléportations rapides
-- Jade pour les infos des blocs
-- Villagers améliorés
-- Organisation d'inventaire (Sophisticated Backpacks)
-
-### ⚡ Performance & Optimisations
-
-- Sodium pour une meilleure frame rate
-- ModernFix, FastFurnace, FastWorkbench
-- Entity Culling pour moins de lag
-- Ferritecore pour l'optimisation mémoire
-
-## Catégories de mods
-
-### Mods Core & Dépendances
-
-- NeoForge Core, Architectury, Bookshelf, Balm
-- Cloth Config, ForgeConfig API Port
-
-### Exploration & Structures
-
-- Dungeon Arise, Structory, Moogs Voyager Structures
-- Twilight Forest Final Boss
-- Empty Villages, Underground Bunkers
-
-### Création & Automatisation
-
-- Create + 30+ addons Create
-- Mekanism + Generators + Tools
-- Ars Nouveau, Ars Technica, Ars Creo
-- Refined Storage
-
-### Dimension
-
-- Aether, Deep Aether
-- Twilight Forest
-- Various caves and nether structures
-
-### Décoration & Bâtiment
-
-- MCW Series (Bridges, Windows, Doors, Roofs, etc.)
-- Framed Blocks, Chipped, Rechiseled
-- Another Furniture, Handcrafted, Buildcraft
-
-### Électronique & Programation
-
-- CC:Tweaked (ComputerCraft)
-- Immersive Engineering
-
-### Magie & Enchants
-
-- Irons Spellbooks
-- Apotheosis (enchantements)
-
-### Mobs & Créatures
-
-- Mowzie's Mobs, Mutant Monsters
-- Animal Garden
-- Easy NPCs, Corpse
-
-### Nourriture & Agriculture
-
-- Farmer's Delight + addons
-- Aquaculture, Botanypots
-- Various delight addons (Nether, Twilight, Crate, etc.)
-
-### Interface & Affichage
-
-- JEI (Just Enough Items)
-- Jade + JadeAddons
-- Waystones, Legenday Tooltips
-- Better F3, Spiffy HUD
-
-### Optimisation
-
-- Sodium + Sodiumoptionsapi
-- Iris (Shaders)
-- ImmediatelyFast, EntityCulling
-- ModernFix, Ferritecore
-
-### Client Quality of Life
-
-- Inventory Tweaks
-- MouseTweaks
-- EMI (Empty and Miscellaneous Items)
-- Controlling
-
-## Structure du projet
-
-```
-Arcadia-V2-Client/
-├── mods/                          # 300+ fichiers JAR de mods
-├── config/                         # Configuration de tous les mods
-├── saves/                          # Mondes sauvegardés
-├── resourcepacks/                 # Packs de textures personnalisés
-├── shaderpacks/                   # Shaders graphiques
-├── kubejs/                        # Scripts KubeJS personnalisés
-├── local/                         # Données locales
-├── easy_npc/                      # Configuration des NPCs
-├── crash-reports/                 # Rapports de crash (diagnostic)
-├── logs/                          # Fichiers de logs
-├── screenshots/                   # Captures d'écran
-├── minecraftinstance.json         # Métadonnées d'instance
-├── options.txt                    # Options de jeu
-├── servers.dat                    # Serveurs sauvegardés
-└── README.md                      # Ce fichier
-```
-
-## Configuration
-
-### Mods
-
-Chaque mod préférence peut être configurée via :
-
-- **In-game**: Menu de configuration (Mod Menu, etc.)
-- **Fichiers**: Dossier `config/` pour les fichiers `.toml` et `.json`
-
-### Changer les Shaders
-
-1. Utilisez `shaderpacks/` pour ajouter des shaders
-2. En jeu: Shader selection (avec Iris)
-
-### Ajouter des Packs de Ressources
-
-1. Ajoutez les fichiers `.zip` dans `resourcepacks/`
-2. Activez via les options graphiques
-
-### Ajouter des Mods
-
-1. Téléchargez le `.jar` compatible 1.21.1 NeoForge
-2. Ajoutez-le au dossier `mods/`
-3. Redémarrez le client
-
-## Dépannage
-
-### Le jeu crash au démarrage
-
-- Vérifiez que vous avez Java 21+ d'installé
-- Consultez `crash-reports/` pour les erreurs
-- Essayez de supprimer le dossier `.mixin.out/` et relancez
-
-### Faible performance (FPS)
-
-- Activez Sodium et Iris si ce n'est pas fait
-- Réduisez la distance de rendu (Render Distance)
-- Désactivez les fancy graphics
-- Vérifiez votre allocation RAM (6-8 GB recommandés)
-
-### Mod incompatible
-
-- Vérifiez la version du mod (1.21.1 NeoForge)
-- Consultez le fichier log pour le message d'erreur exact
-- Supprimez le mod problématique du dossier `mods/`
-
-## Support
-
-Pour des problèmes ou suggestions :
-
-1. Vérifiez les logs dans le dossier `logs/`
-2. Consultez la documentation des mods individuels
-3. Signalez les problèmes via Git issues
-
-## Licence
-
-Veuillez consulter le fichier [LICENSE](LICENSE) pour les détails de licence.
-
-## Crédits
-
-Ce projet est une compilation de mods créés par de talentueux développeurs Minecraft. Merci à tous les créateurs de mods qui rendent cette expérience possible.
+### Players (CurseForge)
+1. Open CurseForge launcher
+2. Import the `manifest.json` from this repository (or download the official pack from CurseForge)
+3. Launcher resolves all 449 mods automatically
+4. Launch and join `arcadia.echoes-of-power.fr`
+
+### Server admins
+1. Clone this repository
+2. Use the included `manifest.json` to fetch all mods via CurseForge Core / packwiz
+3. Apply the `config/`, `defaultconfigs/`, `kubejs/`, `resourcepacks/ArcadiaLanguages/` overrides
+4. Start your NeoForge 21.1.221+ server
+
+## Repository Contents
+
+This repo ships only what we author or maintain. Third-party mod jars are resolved via `manifest.json` on CurseForge import.
+
+| Path | Purpose |
+|------|---------|
+| `manifest.json` | CurseForge modpack manifest (449 mods) |
+| `config/` | Modpack-shipped configurations (overrides upstream defaults) |
+| `defaultconfigs/` | Canonical defaults distributed by DefaultOptions |
+| `kubejs/` | Custom scripts, items, recipes, tags, lang files |
+| `resourcepacks/ArcadiaLanguages/` | In-house localization pack |
+| `LICENSE` | MIT for our originals + scope/third-party/affiliation disclaimers |
+
+## Credits
+
+- **Author** — vyrriox
+- **Organization** — Team Arcadia
+- **License** — MIT (our originals only — see `LICENSE` for scope and third-party content)
+- **Discord** — [discord.gg/xjF8Rtzyd4](https://discord.gg/xjF8Rtzyd4)
+- **Website** — [arcadia-echoes-of-power.fr](https://arcadia-echoes-of-power.fr/)
 
 ---
 
-**Dernière mise à jour**: Avril 2026  
-**Version Minecraft**: 1.21.1  
-**Nombre de mods**: 300+
+# Arcadia V2 — Echoes Of Power (Version Francaise)
+
+Un modpack NeoForge 1.21.1 curate, conu pour le serveur communautaire **Arcadia** (30 a 50 joueurs). Hardening cross-mod massif, contenu KubeJS custom, localisation bilingue EN/FR, et une progression FTB Quests complete.
+
+## Caracteristiques
+
+- **Refonte des recettes cross-mod** — Outils Fer/Or/Diamant gates derriere les plaques Create, chaque mod tech (Mekanism, TFMG, Immersive Engineering, Refined Storage, addons Create) interconnecte via des composants pont
+- **4 items pont custom** — Circuit Arcane, Alliage Etheree, Coeur Industriel, Matrice de Runes pour gater progressivement la progression cross-mod
+- **Mega-chaine Fusion Core** — 5 tiers de crafting endgame culminant en recette 9x9 Mechanical Crafting
+- **Sets d armures Adept et Heretique** — 4 pieces + 10 items compagnons uniques chacun, textures completes
+- **20 disques de musique customs** — Pistes originales avec textures vinyle dediees et integration jukebox-song
+- **Pack FTB Quests** — 7 langues (EN-US, EN-GB, FR, ES, PT-BR, RU, ZH-CN), 25 000+ entrees de traduction
+- **152 items bannis** — Application 3 couches (suppression de recette + scan d inventaire + masquage JEI/creatif)
+- **Rebalance des mobs** — HP des boss x2.5 a x8, boss twilight/mowzie/iron-spellbook regles individuellement
+- **Nerfs de loot** — Diamant 0.5%, Netherite 0.01%, Artifacts craft uniquement, sacs/twilight reduits
+- **Tuning Apotheosis** — Poids des raretes, affixe Winged mythique uniquement, potions de vol gatees (Dragon Breath + Etoile Nether)
+- **Branding FancyMenu** — Menu principal localise, selection de serveur, ecrans de chargement
+- **Resource pack ArcadiaLanguages** — Chargement force via ResourcePackOverrides, corrige les fuites EN des mods upstream
+
+## Prerequis
+
+| Dependance | Version |
+|------------|---------|
+| Minecraft  | 1.21.1  |
+| NeoForge   | 21.1.221+ |
+| Java       | 21      |
+| CurseForge ou Prism Launcher | Requis pour installation via manifest |
+
+## Installation
+
+### Joueurs (CurseForge)
+1. Ouvrir le launcher CurseForge
+2. Importer le `manifest.json` de ce depot (ou telecharger le pack officiel depuis CurseForge)
+3. Le launcher resout les 449 mods automatiquement
+4. Lancer et rejoindre `arcadia.echoes-of-power.fr`
+
+### Admins serveur
+1. Cloner ce depot
+2. Utiliser le `manifest.json` fourni pour recuperer tous les mods via CurseForge Core / packwiz
+3. Appliquer les overrides `config/`, `defaultconfigs/`, `kubejs/`, `resourcepacks/ArcadiaLanguages/`
+4. Demarrer un serveur NeoForge 21.1.221+
+
+## Contenu du depot
+
+Ce depot ne contient que ce que nous avons ecrit ou maintenons. Les jars de mods tiers sont resolus via `manifest.json` lors de l import CurseForge.
+
+| Chemin | Role |
+|--------|------|
+| `manifest.json` | Manifest CurseForge du modpack (449 mods) |
+| `config/` | Configurations livrees par le modpack (override les defauts amont) |
+| `defaultconfigs/` | Defauts canoniques distribues par DefaultOptions |
+| `kubejs/` | Scripts, items, recettes, tags, fichiers lang customs |
+| `resourcepacks/ArcadiaLanguages/` | Pack de localisation maison |
+| `LICENSE` | MIT pour nos originaux + clauses de portee/tiers/non-affiliation |
+
+## Credits
+
+- **Auteur** — vyrriox
+- **Organisation** — Team Arcadia
+- **Licence** — MIT (originaux uniquement — voir `LICENSE` pour portee et contenu tiers)
+- **Discord** — [discord.gg/xjF8Rtzyd4](https://discord.gg/xjF8Rtzyd4)
+- **Site web** — [arcadia-echoes-of-power.fr](https://arcadia-echoes-of-power.fr/)

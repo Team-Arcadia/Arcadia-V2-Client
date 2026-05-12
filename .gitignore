@@ -75,3 +75,14 @@ rapport_test/
 # --- Backup snapshots accidentally created ---
 *.snbt.bak_*
 *_backup.snbt
+
+# --- Third-party mod jars (resolved via manifest.json on CurseForge import) ---
+# License: most mod authors prohibit redistribution. We ship a CurseForge
+# manifest.json instead — the launcher pulls each jar directly from CurseForge.
+mods/
+
+# --- Third-party shader packs (non-redistributable) ---
+shaderpacks/
+
+# --- Third-party resource packs (only ArcadiaLanguages is ours) ---
+resourcepacks/hud.zip
