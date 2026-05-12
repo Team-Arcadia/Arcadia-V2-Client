@@ -12,18 +12,18 @@
 
 <p>&nbsp;</p>
 
-<p style="text-align: center;"><img src="https://img.shields.io/badge/%F0%9F%9A%A7_WORK_IN_PROGRESS_%F0%9F%9A%A7-Modpack_still_in_active_development-FFC107?style=for-the-badge" alt="Work In Progress"></p>
+<p style="text-align: center;"><img src="https://img.shields.io/badge/WORK_IN_PROGRESS-Modpack_still_in_active_development-FFC107?style=for-the-badge" alt="Work In Progress"></p>
 
 <table style="margin-left: auto; margin-right: auto; max-width: 850px; border: 2px solid #FFC107; background-color: rgba(255, 193, 7, 0.05);">
 <tbody>
 <tr>
 <td style="padding: 14px 18px; vertical-align: top; width: 50%; border-right: 1px solid #FFC107;">
-<p><span style="color: #FFC107; font-size: large;"><strong>🇺🇸 Active Development</strong></span></p>
+<p><span style="color: #FFC107; font-size: large;"><strong>[EN] Active Development</strong></span></p>
 <p>This modpack is <strong>still in active development</strong>. Expect regular content updates, balance tweaks, new quests, and occasional breaking changes between versions. <strong>Always back up your world before updating.</strong></p>
 <p>Bug reports and feedback are warmly welcomed on our <a href="https://arcadia-echoes-of-power.fr/discord" rel="nofollow noopener">Discord</a> and via the <a href="https://www.arcadia-echoes-of-power.fr/suggest" rel="nofollow noopener">suggestion form</a>.</p>
 </td>
 <td style="padding: 14px 18px; vertical-align: top; width: 50%;">
-<p><span style="color: #FFC107; font-size: large;"><strong>🇫🇷 En Développement Actif</strong></span></p>
+<p><span style="color: #FFC107; font-size: large;"><strong>[FR] En Developpement Actif</strong></span></p>
 <p>Ce modpack est <strong>toujours en développement actif</strong>. Attendez-vous à des mises à jour régulières, des ajustements d'équilibrage, de nouvelles quêtes et occasionnellement des changements rompant la rétrocompatibilité. <strong>Sauvegardez votre monde avant chaque mise à jour.</strong></p>
 <p>Les rapports de bug et retours sont les bienvenus sur notre <a href="https://arcadia-echoes-of-power.fr/discord" rel="nofollow noopener">Discord</a> et via le <a href="https://www.arcadia-echoes-of-power.fr/suggest" rel="nofollow noopener">formulaire de suggestions</a>.</p>
 </td>
@@ -745,7 +745,7 @@
 
 <p>&nbsp;</p>
 
-<p style="text-align: center;"><a href="https://www.arcadia-echoes-of-power.fr/roadmap" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Roadmap_Compl%C3%A8te-arcadia--echoes--of--power.fr-FFA500?style=for-the-badge&amp;logo=googlemaps&amp;logoColor=white" alt="Roadmap complète"></a></p>
+<p style="text-align: center;"><a href="https://www.arcadia-echoes-of-power.fr/roadmap" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Roadmap_Complete-arcadia--echoes--of--power.fr-FFA500?style=for-the-badge&amp;logo=googlemaps&amp;logoColor=white" alt="Roadmap complète"></a></p>
 
 <p>&nbsp;</p>
 
@@ -852,7 +852,7 @@
 
 <p>&nbsp;</p>
 
-<p style="text-align: center;"><a href="https://lordhosting.fr/gaming/serveur-minecraft?ref=arcadia" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/H%C3%A9berger_avec-LordHosting-FFA500?style=for-the-badge&amp;logo=server&amp;logoColor=white" alt="Héberger avec LordHosting"></a></p>
+<p style="text-align: center;"><a href="https://lordhosting.fr/gaming/serveur-minecraft?ref=arcadia" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Heberger_avec-LordHosting-FFA500?style=for-the-badge&amp;logo=server&amp;logoColor=white" alt="Héberger avec LordHosting"></a></p>
 
 <p>&nbsp;</p>
 
@@ -903,11 +903,11 @@
 
 <p>&nbsp;</p>
 
-<p style="text-align: center;"><a href="https://www.arcadia-echoes-of-power.fr/wiki" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Wiki-Guides_%26_Recettes-2196F3?style=for-the-badge&amp;logo=bookstack&amp;logoColor=white" alt="Wiki"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.arcadia-echoes-of-power.fr/changelog" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Changelog-Parchemin-orange?style=for-the-badge&amp;logo=readme&amp;logoColor=white" alt="Changelog"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.arcadia-echoes-of-power.fr/support/tickets" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Support-Ticket-blue?style=for-the-badge&amp;logo=ticket&amp;logoColor=white" alt="Support"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.arcadia-echoes-of-power.fr/suggest" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Suggestions-Id%C3%A9e-yellow?style=for-the-badge&amp;logo=gitbook&amp;logoColor=white" alt="Suggestions"></a></p>
+<p style="text-align: center;"><a href="https://www.arcadia-echoes-of-power.fr/wiki" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Wiki-Guides_%26_Recettes-2196F3?style=for-the-badge&amp;logo=bookstack&amp;logoColor=white" alt="Wiki"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.arcadia-echoes-of-power.fr/changelog" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Changelog-Parchemin-orange?style=for-the-badge&amp;logo=readme&amp;logoColor=white" alt="Changelog"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.arcadia-echoes-of-power.fr/support/tickets" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Support-Ticket-blue?style=for-the-badge&amp;logo=ticket&amp;logoColor=white" alt="Support"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.arcadia-echoes-of-power.fr/suggest" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Suggestions-Idee-yellow?style=for-the-badge&amp;logo=gitbook&amp;logoColor=white" alt="Suggestions"></a></p>
 
 <p>&nbsp;</p>
 
-<p style="text-align: center;"><a href="https://www.arcadia-echoes-of-power.fr/partenariat" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Partenaires-Partage-red?style=for-the-badge&amp;logo=ko-fi&amp;logoColor=white" alt="Partenaires"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.arcadia-echoes-of-power.fr/staff" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/L%27%C3%89quipe-Staff-blueviolet?style=for-the-badge&amp;logo=person&amp;logoColor=white" alt="L'Équipe"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://buy.stripe.com/3cI3co6X97Vy4IK50QfIs00" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Nous_Soutenir-Don-9C27B0?style=for-the-badge&amp;logo=stripe&amp;logoColor=white" alt="Nous Soutenir"></a></p>
+<p style="text-align: center;"><a href="https://www.arcadia-echoes-of-power.fr/partenariat" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Partenaires-Partage-red?style=for-the-badge&amp;logo=ko-fi&amp;logoColor=white" alt="Partenaires"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.arcadia-echoes-of-power.fr/staff" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/L_Equipe-Staff-blueviolet?style=for-the-badge&amp;logo=person&amp;logoColor=white" alt="L'Équipe"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://buy.stripe.com/3cI3co6X97Vy4IK50QfIs00" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Nous_Soutenir-Don-9C27B0?style=for-the-badge&amp;logo=stripe&amp;logoColor=white" alt="Nous Soutenir"></a></p>
 
 <p>&nbsp;</p>
 
