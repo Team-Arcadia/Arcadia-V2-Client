@@ -8,7 +8,7 @@
 
 <p>&nbsp;</p>
 
-<p style="text-align: center;"><img src="https://img.shields.io/badge/Minecraft-1.21.1-62B47A?style=flat-square&amp;logo=minecraft&amp;logoColor=white" alt="MC 1.21.1">&nbsp; <img src="https://img.shields.io/badge/NeoForge-21.1.221+-F16436?style=flat-square" alt="NeoForge">&nbsp; <img src="https://img.shields.io/badge/Java-21-007396?style=flat-square&amp;logo=openjdk&amp;logoColor=white" alt="Java 21">&nbsp; <img src="https://img.shields.io/badge/Mods-490+-FFA500?style=flat-square" alt="490+ mods">&nbsp; <img src="https://img.shields.io/badge/Quests-3000+-9C27B0?style=flat-square" alt="3000+ quests">&nbsp; <img src="https://img.shields.io/badge/Languages-EN%20%2F%20FR-2196F3?style=flat-square" alt="EN / FR">&nbsp; <img src="https://img.shields.io/badge/Status-In_Development-FFC107?style=flat-square" alt="In Development"></p>
+<p style="text-align: center;"><img src="https://img.shields.io/badge/Minecraft-1.21.1-62B47A?style=flat-square&amp;logo=minecraft&amp;logoColor=white" alt="MC 1.21.1">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/NeoForge-21.1.221+-F16436?style=flat-square" alt="NeoForge">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Java-21-007396?style=flat-square&amp;logo=openjdk&amp;logoColor=white" alt="Java 21">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Mods-490+-FFA500?style=flat-square" alt="490+ mods">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Quests-3000+-9C27B0?style=flat-square" alt="3000+ quests">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Languages-EN%20%2F%20FR-2196F3?style=flat-square" alt="EN / FR">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Status-In_Development-FFC107?style=flat-square" alt="In Development"></p>
 
 <p>&nbsp;</p>
 
@@ -78,7 +78,7 @@
 </tr>
 <tr>
 <td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
-<p><span style="color: #ffa500;"><strong>🎮 Curated Server Experience</strong></span><br>In-house mods: <strong>Arcadia Pets</strong> (collectibles + PvP duels + ELO ladder), Lootbox, Guard, Prestige, ATMs, web reward keys, casino. Not mods bolted together — a tailored ecosystem.</p>
+<p><span style="color: #ffa500;"><strong>🎮 Curated Server Experience</strong></span><br>In-house mods built for Arcadia: <strong>Arcadia Pets</strong> (collectibles + PvP duels + ELO ladder), Arcadia Guard moderation toolkit, the Prestige progression system, and the legendary Heart of Arcadia. Not mods bolted together — a tailored ecosystem.</p>
 </td>
 <td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
 <p><span style="color: #ffa500;"><strong>📜 3,000+ Quest-Guided Journey</strong></span><br>31 chapters of FTB Quests covering every mod's progression path. Whether you're a fresh player or a 1000-hour veteran, you always know what to do next.</p>
@@ -264,24 +264,18 @@
 <table style="margin-left: auto; margin-right: auto; max-width: 950px;">
 <tbody>
 <tr>
-<td style="padding: 12px 16px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center;">
+<td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
 <p><span style="color: #ffa500;"><strong>🐾 Arcadia Pets</strong></span><br>Collectible pet system with skills, fusion, ELO-ranked PvP duels, collection book, history tracking. 6 rarity tiers.</p>
 </td>
-<td style="padding: 12px 16px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center;">
-<p><span style="color: #ffa500;"><strong>🎁 Server Lootboxes</strong></span><br>Earn keys in-game or via web rewards. Open lootboxes for cosmetics, currency, rare loot. Server economy hook.</p>
-</td>
-<td style="padding: 12px 16px; vertical-align: top; width: 34%; border: 1px solid #FFA500; text-align: center;">
+<td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
 <p><span style="color: #ffa500;"><strong>🏆 Prestige System</strong></span><br>Reset and ascend for permanent bonuses. Tracks long-term player engagement past the main quest line.</p>
 </td>
 </tr>
 <tr>
-<td style="padding: 12px 16px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center;">
+<td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
 <p><span style="color: #ffa500;"><strong>🛡️ Arcadia Guard</strong></span><br>Built-in moderation, anti-grief tools, custom punishment GUIs. A complete admin toolkit shipped with the pack.</p>
 </td>
-<td style="padding: 12px 16px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center;">
-<p><span style="color: #ffa500;"><strong>🎰 In-Game ATM &amp; Casino</strong></span><br>Numismatics economy with ATMs, casino tokens, trading floors. Drives a real server-side gameplay loop.</p>
-</td>
-<td style="padding: 12px 16px; vertical-align: top; width: 34%; border: 1px solid #FFA500; text-align: center;">
+<td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
 <p><span style="color: #ffa500;"><strong>💎 Heart of Arcadia</strong></span><br>The legendary uncraftable item. Earned through specific feats, never bought. The true endgame trophy.</p>
 </td>
 </tr>
@@ -293,20 +287,24 @@
 <p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🚀 Roadmap — What's Coming Next</strong></span></p>
 <p style="text-align: center;">A glimpse of the planned content. This is <strong>the minimum</strong> — much more is in the pipeline. Full roadmap at <a href="https://www.arcadia-echoes-of-power.fr/roadmap" target="_blank" rel="nofollow noopener">arcadia-echoes-of-power.fr/roadmap</a>.</p>
 
-<table style="margin-left: auto; margin-right: auto; max-width: 950px;">
+<table style="margin-left: auto; margin-right: auto; max-width: 1000px;">
 <tbody>
 <tr>
-<td style="padding: 14px 18px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center; background-color: rgba(0, 200, 0, 0.05);">
+<td style="padding: 14px 16px; vertical-align: top; width: 25%; border: 1px solid #FFA500; text-align: center; background-color: rgba(0, 200, 0, 0.05);">
 <p><span style="color: #00cc00; font-size: large;"><strong>🔧 v2.1 — Coming Soon</strong></span></p>
 <p>• Intelligent merchant system (supply &amp; demand)<br>• Additional quests<br>• New dungeon<br>• Player-suggested mods</p>
 </td>
-<td style="padding: 14px 18px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center; background-color: rgba(255, 165, 0, 0.05);">
+<td style="padding: 14px 16px; vertical-align: top; width: 25%; border: 1px solid #FFA500; text-align: center; background-color: rgba(255, 165, 0, 0.05);">
 <p><span style="color: #ffa500; font-size: large;"><strong>📋 v2.2 — Planned</strong></span></p>
 <p>• New armor sets<br>• New ores<br>• Meteorite system<br>• New workbench for ore fusion<br>• Additional quests &amp; dungeon</p>
 </td>
-<td style="padding: 14px 18px; vertical-align: top; width: 34%; border: 1px solid #FFA500; text-align: center; background-color: rgba(156, 39, 176, 0.05);">
+<td style="padding: 14px 16px; vertical-align: top; width: 25%; border: 1px solid #FFA500; text-align: center; background-color: rgba(156, 39, 176, 0.05);">
 <p><span style="color: #9C27B0; font-size: large;"><strong>🔮 v2.3 — Under Consideration</strong></span></p>
 <p>• Profession system<br>• New ores<br>• New add-ons<br>• Additional quests &amp; dungeon</p>
+</td>
+<td style="padding: 14px 16px; vertical-align: top; width: 25%; border: 1px solid #FFA500; text-align: center; background-color: rgba(33, 150, 243, 0.05);">
+<p><span style="color: #2196F3; font-size: large;"><strong>🌌 v2.4 — Beyond</strong></span></p>
+<p>Even more surprising content — kept secret for now. Stay tuned!</p>
 </td>
 </tr>
 </tbody>
@@ -344,21 +342,21 @@
 <tr>
 <td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.03);">
 <p><span style="color: #ffa500;"><strong>⭐⭐⭐⭐⭐ Smily12345</strong> <em>(Member)</em></span></p>
-<p><em>« Je m'étais prévu une heure de jeu avant de dormir… mais le serveur est tellement addictif que j'ai fini par y passer la nuit. »</em></p>
+<p><em>"I planned one hour of play before sleep… but the server is so addictive I ended up spending the whole night there."</em></p>
 </td>
 <td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.03);">
 <p><span style="color: #ffa500;"><strong>⭐⭐⭐⭐⭐ Shad0w25101</strong> <em>(Member)</em></span></p>
-<p><em>« Un vrai serveur Minecraft moddé, avec un bon modpack, un staff réactif… Tout ce qu'on cherche dans une communauté. »</em></p>
+<p><em>"A real modded Minecraft server, with a great modpack, a responsive staff… Everything you want in a community."</em></p>
 </td>
 </tr>
 <tr>
 <td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.03);">
 <p><span style="color: #ffa500;"><strong>⭐⭐⭐⭐⭐ V4mpyress</strong> <em>(Helper)</em></span></p>
-<p><em>« Le Modpack est fun mais sur le serv c'est encore mieux, les gens mais surtout l'ambiance — j'y reviens chaque soir. »</em></p>
+<p><em>"The modpack is fun, but on the server it's even better — the people, and above all the vibe. I come back every night."</em></p>
 </td>
 <td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.03);">
 <p><span style="color: #ffa500;"><strong>⭐⭐⭐⭐⭐ SoulkingII9</strong> <em>(VIP)</em></span></p>
-<p><em>« Serveur avec une très bonne ambiance entre tous, avec un staff très sympathique. Une vraie famille. »</em></p>
+<p><em>"Server with a great atmosphere between everyone, with a very friendly staff. A real family."</em></p>
 </td>
 </tr>
 </tbody>
@@ -487,7 +485,7 @@
 </tr>
 <tr>
 <td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
-<p><span style="color: #ffa500;"><strong>🎮 Expérience Serveur Curatée</strong></span><br>Mods maison : <strong>Arcadia Pets</strong> (collectibles + duels PvP + classement ELO), Lootbox, Guard, Prestige, ATM, clés web, casino. Pas un assemblage de mods — un écosystème conçu pour vous.</p>
+<p><span style="color: #ffa500;"><strong>🎮 Expérience Serveur Curatée</strong></span><br>Mods maison conçus pour Arcadia : <strong>Arcadia Pets</strong> (collectibles + duels PvP + classement ELO), Arcadia Guard pour la modération, le système de Prestige, et le légendaire Heart of Arcadia. Pas un assemblage de mods — un écosystème conçu pour vous.</p>
 </td>
 <td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
 <p><span style="color: #ffa500;"><strong>📜 3 000+ Quêtes Guidées</strong></span><br>31 chapitres FTB Quests couvrant la progression de chaque mod. Que vous soyez débutant ou vétéran à 1000 heures, vous savez toujours quoi faire ensuite.</p>
@@ -669,24 +667,18 @@
 <table style="margin-left: auto; margin-right: auto; max-width: 950px;">
 <tbody>
 <tr>
-<td style="padding: 12px 16px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center;">
+<td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
 <p><span style="color: #ffa500;"><strong>🐾 Arcadia Pets</strong></span><br>Système de familiers collectibles avec compétences, fusion, duels PvP classés ELO, livre de collection, historique. 6 niveaux de rareté.</p>
 </td>
-<td style="padding: 12px 16px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center;">
-<p><span style="color: #ffa500;"><strong>🎁 Lootbox Serveur</strong></span><br>Gagnez des clés en jeu ou via les récompenses web. Ouvrez des lootbox pour cosmétiques, monnaie, loot rare. Pilier de l'économie serveur.</p>
-</td>
-<td style="padding: 12px 16px; vertical-align: top; width: 34%; border: 1px solid #FFA500; text-align: center;">
+<td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
 <p><span style="color: #ffa500;"><strong>🏆 Système de Prestige</strong></span><br>Reset et ascension pour des bonus permanents. Suivi de l'engagement long-terme au-delà de la quête principale.</p>
 </td>
 </tr>
 <tr>
-<td style="padding: 12px 16px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center;">
+<td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
 <p><span style="color: #ffa500;"><strong>🛡️ Arcadia Guard</strong></span><br>Modération intégrée, outils anti-grief, GUI de sanctions custom. Un toolkit admin complet livré avec le pack.</p>
 </td>
-<td style="padding: 12px 16px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center;">
-<p><span style="color: #ffa500;"><strong>🎰 ATM &amp; Casino In-Game</strong></span><br>Économie Numismatics avec ATM, jetons casino, étals de marché. Une vraie boucle de gameplay côté serveur.</p>
-</td>
-<td style="padding: 12px 16px; vertical-align: top; width: 34%; border: 1px solid #FFA500; text-align: center;">
+<td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
 <p><span style="color: #ffa500;"><strong>💎 Heart of Arcadia</strong></span><br>L'item légendaire incraftable. Gagné par exploits spécifiques, jamais acheté. Le vrai trophée endgame.</p>
 </td>
 </tr>
@@ -698,20 +690,24 @@
 <p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🚀 Roadmap — Ce qui Arrive</strong></span></p>
 <p style="text-align: center;">Un aperçu du contenu prévu. C'est <strong>le minimum</strong> — bien plus est en préparation. Roadmap complète sur <a href="https://www.arcadia-echoes-of-power.fr/roadmap" target="_blank" rel="nofollow noopener">arcadia-echoes-of-power.fr/roadmap</a>.</p>
 
-<table style="margin-left: auto; margin-right: auto; max-width: 950px;">
+<table style="margin-left: auto; margin-right: auto; max-width: 1000px;">
 <tbody>
 <tr>
-<td style="padding: 14px 18px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center; background-color: rgba(0, 200, 0, 0.05);">
+<td style="padding: 14px 16px; vertical-align: top; width: 25%; border: 1px solid #FFA500; text-align: center; background-color: rgba(0, 200, 0, 0.05);">
 <p><span style="color: #00cc00; font-size: large;"><strong>🔧 v2.1 — Bientôt</strong></span></p>
 <p>• Système de marchands intelligents (offre/demande)<br>• Nouvelles quêtes<br>• Nouveau donjon<br>• Mods suggérés par les joueurs</p>
 </td>
-<td style="padding: 14px 18px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center; background-color: rgba(255, 165, 0, 0.05);">
+<td style="padding: 14px 16px; vertical-align: top; width: 25%; border: 1px solid #FFA500; text-align: center; background-color: rgba(255, 165, 0, 0.05);">
 <p><span style="color: #ffa500; font-size: large;"><strong>📋 v2.2 — Planifié</strong></span></p>
 <p>• Nouveaux sets d'armure<br>• Nouveaux minerais<br>• Système de météorites<br>• Établi de fusion de minerai<br>• Nouvelles quêtes et donjon</p>
 </td>
-<td style="padding: 14px 18px; vertical-align: top; width: 34%; border: 1px solid #FFA500; text-align: center; background-color: rgba(156, 39, 176, 0.05);">
+<td style="padding: 14px 16px; vertical-align: top; width: 25%; border: 1px solid #FFA500; text-align: center; background-color: rgba(156, 39, 176, 0.05);">
 <p><span style="color: #9C27B0; font-size: large;"><strong>🔮 v2.3 — À l'Étude</strong></span></p>
 <p>• Système de métiers<br>• Nouveaux minerais<br>• Nouveaux add-ons<br>• Nouvelles quêtes et donjon</p>
+</td>
+<td style="padding: 14px 16px; vertical-align: top; width: 25%; border: 1px solid #FFA500; text-align: center; background-color: rgba(33, 150, 243, 0.05);">
+<p><span style="color: #2196F3; font-size: large;"><strong>🌌 v2.4 — Au-delà</strong></span></p>
+<p>D'autre contenu encore plus surprenant — gardé secret pour le moment. Restez à l'écoute !</p>
 </td>
 </tr>
 </tbody>
