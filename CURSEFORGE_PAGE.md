@@ -14,10 +14,10 @@
 
 <p style="text-align: center;"><img src="https://img.shields.io/badge/WORK_IN_PROGRESS-Modpack_still_in_active_development-FFC107?style=for-the-badge" alt="Work In Progress"></p>
 
-<table style="margin-left: auto; margin-right: auto; max-width: 850px; border: 2px solid #FFC107; background-color: rgba(255, 193, 7, 0.05);">
+<table style="margin-left: auto; margin-right: auto; max-width: 850px; border: 2px solid #FFC107; background-color: rgba(255, 193, 7, 0.15);">
 <tbody>
 <tr>
-<td style="padding: 14px 18px; vertical-align: top; width: 50%; border-right: 1px solid #FFC107;">
+<td style="padding: 14px 18px; vertical-align: top; width: 50%; border-right: 2px solid #FFC107;">
 <p><span style="color: #FFC107; font-size: large;"><strong>[EN] Active Development</strong></span></p>
 <p>This modpack is <strong>still in active development</strong>. Expect regular content updates, balance tweaks, new quests, and occasional breaking changes between versions. <strong>Always back up your world before updating.</strong></p>
 <p>Bug reports and feedback are warmly welcomed on our <a href="https://arcadia-echoes-of-power.fr/discord" rel="nofollow noopener">Discord</a> and via the <a href="https://www.arcadia-echoes-of-power.fr/suggest" rel="nofollow noopener">suggestion form</a>.</p>
@@ -33,10 +33,10 @@
 
 <p>&nbsp;</p>
 
-<table style="margin-left: auto; margin-right: auto; max-width: 850px; border: 2px solid #E74C3C; background-color: rgba(231, 76, 60, 0.05);">
+<table style="margin-left: auto; margin-right: auto; max-width: 850px; border: 2px solid #E74C3C; background-color: rgba(231, 76, 60, 0.15);">
 <tbody>
 <tr>
-<td style="padding: 14px 18px; vertical-align: top; width: 50%; border-right: 1px solid #E74C3C; text-align: center;">
+<td style="padding: 14px 18px; vertical-align: top; width: 50%; border-right: 2px solid #E74C3C; text-align: center;">
 <p><span style="color: #E74C3C; font-size: large;"><strong>⚔️ EXPERT MODPACK</strong></span></p>
 <p>Arcadia V2 is <strong>designed and tuned for community servers (30–50 players)</strong>. Expect a steep progression curve, cross-mod gating, and dungeons that scale brutally. Late-game encounters reward coordinated groups, but the <strong>entire pack remains fully clearable solo</strong> with patience.</p>
 <p>✅ <strong>Solo is fully viable</strong> — the FTB Quests book hand-holds you through every mod's progression. <strong>Beginners are welcome</strong>; veterans of <strong>Create, Mekanism, Ars Nouveau or Apotheosis</strong> will feel right at home. Plan on 150–300 hours to reach end-game.</p>
@@ -206,7 +206,7 @@
 
 <p>&nbsp;</p>
 
-<table style="margin-left: auto; margin-right: auto; max-width: 700px; border: 2px solid #FFA500; background-color: rgba(255, 165, 0, 0.04);">
+<table style="margin-left: auto; margin-right: auto; max-width: 700px; border: 2px solid #FFA500; background-color: rgba(255, 165, 0, 0.10);">
 <tbody>
 <tr>
 <td style="padding: 16px; text-align: center;">
@@ -296,20 +296,20 @@
 <table style="margin-left: auto; margin-right: auto; max-width: 1000px;">
 <tbody>
 <tr>
-<td style="padding: 14px 16px; vertical-align: top; width: 25%; border: 1px solid #FFA500; text-align: center; background-color: rgba(0, 200, 0, 0.05);">
-<p><span style="color: #00cc00; font-size: large;"><strong>🔧 v2.1 — Coming Soon</strong></span></p>
+<td style="padding: 14px 16px; vertical-align: top; width: 25%; border: 1px solid #FFA500; text-align: center; background-color: rgba(0, 200, 0, 0.12);">
+<p><span style="color: #00cc00; font-size: large;"><strong>🔧 v2.1<br>Coming Soon</strong></span></p>
 <p>• Intelligent merchant system (supply &amp; demand)<br>• Additional quests<br>• New dungeon<br>• Player-suggested mods</p>
 </td>
-<td style="padding: 14px 16px; vertical-align: top; width: 25%; border: 1px solid #FFA500; text-align: center; background-color: rgba(255, 165, 0, 0.05);">
-<p><span style="color: #ffa500; font-size: large;"><strong>📋 v2.2 — Planned</strong></span></p>
+<td style="padding: 14px 16px; vertical-align: top; width: 25%; border: 1px solid #FFA500; text-align: center; background-color: rgba(255, 165, 0, 0.12);">
+<p><span style="color: #ffa500; font-size: large;"><strong>📋 v2.2<br>Planned</strong></span></p>
 <p>• New armor sets<br>• New ores<br>• Meteorite system<br>• New workbench for ore fusion<br>• Additional quests &amp; dungeon</p>
 </td>
-<td style="padding: 14px 16px; vertical-align: top; width: 25%; border: 1px solid #FFA500; text-align: center; background-color: rgba(156, 39, 176, 0.05);">
-<p><span style="color: #9C27B0; font-size: large;"><strong>🔮 v2.3 — Under Consideration</strong></span></p>
+<td style="padding: 14px 16px; vertical-align: top; width: 25%; border: 1px solid #FFA500; text-align: center; background-color: rgba(156, 39, 176, 0.12);">
+<p><span style="color: #9C27B0; font-size: large;"><strong>🔮 v2.3<br>Under Consideration</strong></span></p>
 <p>• Profession system<br>• New ores<br>• New add-ons<br>• Additional quests &amp; dungeon</p>
 </td>
-<td style="padding: 14px 16px; vertical-align: top; width: 25%; border: 1px solid #FFA500; text-align: center; background-color: rgba(33, 150, 243, 0.05);">
-<p><span style="color: #2196F3; font-size: large;"><strong>🌌 v2.4 — Beyond</strong></span></p>
+<td style="padding: 14px 16px; vertical-align: top; width: 25%; border: 1px solid #FFA500; text-align: center; background-color: rgba(33, 150, 243, 0.12);">
+<p><span style="color: #2196F3; font-size: large;"><strong>🌌 v2.4<br>Beyond</strong></span></p>
 <p>Even more surprising content — kept secret for now. Stay tuned!</p>
 </td>
 </tr>
@@ -327,10 +327,10 @@
 <p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>💻 Technical Excellence</strong></span></p>
 <p style="text-align: center;">Making <strong>490 mods</strong> coexist demands absolute rigor. We focused on two pillars:</p>
 
-<table style="margin-left: auto; margin-right: auto; max-width: 850px; border: 2px solid #FFA500; background-color: rgba(255, 165, 0, 0.04);">
+<table style="margin-left: auto; margin-right: auto; max-width: 850px; border: 2px solid #FFA500; background-color: rgba(255, 165, 0, 0.10);">
 <tbody>
 <tr>
-<td style="padding: 14px 18px; vertical-align: top; width: 50%; border-right: 1px solid #FFA500; text-align: center;">
+<td style="padding: 14px 18px; vertical-align: top; width: 50%; border-right: 2px solid #FFA500; text-align: center;">
 <p><span style="color: #ffa500; font-size: large;"><strong>🗣️ Zero Franglais</strong></span></p>
 <p>If your game is in French, every quest, item and interface is in French. <strong>25 000+ translation entries</strong> across 7 languages. No mid-sentence English fallback. Full localization audited by the Arcadia team.</p>
 </td>
@@ -350,21 +350,21 @@
 <table style="margin-left: auto; margin-right: auto; max-width: 950px;">
 <tbody>
 <tr>
-<td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.03);">
+<td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.08);">
 <p><span style="color: #ffa500;"><strong>⭐⭐⭐⭐⭐ Smily12345</strong> <em>(Member)</em></span></p>
 <p><em>"I planned one hour of play before sleep… but the server is so addictive I ended up spending the whole night there."</em></p>
 </td>
-<td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.03);">
+<td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.08);">
 <p><span style="color: #ffa500;"><strong>⭐⭐⭐⭐⭐ Shad0w25101</strong> <em>(Member)</em></span></p>
 <p><em>"A real modded Minecraft server, with a great modpack, a responsive staff… Everything you want in a community."</em></p>
 </td>
 </tr>
 <tr>
-<td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.03);">
+<td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.08);">
 <p><span style="color: #ffa500;"><strong>⭐⭐⭐⭐⭐ V4mpyress</strong> <em>(Helper)</em></span></p>
 <p><em>"The modpack is fun, but on the server it's even better — the people, and above all the vibe. I come back every night."</em></p>
 </td>
-<td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.03);">
+<td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.08);">
 <p><span style="color: #ffa500;"><strong>⭐⭐⭐⭐⭐ SoulkingII9</strong> <em>(VIP)</em></span></p>
 <p><em>"Server with a great atmosphere between everyone, with a very friendly staff. A real family."</em></p>
 </td>
@@ -386,7 +386,7 @@
 
 <table style="margin-left: auto; margin-right: auto; max-width: 700px; border-collapse: collapse;">
 <thead>
-<tr style="background-color: rgba(255, 165, 0, 0.1);">
+<tr style="background-color: rgba(255, 165, 0, 0.18);">
 <th style="text-align: center; padding: 10px 24px; border: 1px solid #FFA500;"><span style="color: #ffa500;">⚠️ Minimal</span></th>
 <th style="text-align: center; padding: 10px 24px; border: 1px solid #FFA500;"><span style="color: #00cc00;">✅ Recommended</span></th>
 </tr>
@@ -396,7 +396,7 @@
 <td style="text-align: center; padding: 8px; border: 1px solid #FFA500;"><strong>RAM:</strong> 4 GB allocated</td>
 <td style="text-align: center; padding: 8px; border: 1px solid #FFA500;"><strong>RAM:</strong> 8 GB allocated</td>
 </tr>
-<tr style="background-color: rgba(255, 165, 0, 0.04);">
+<tr style="background-color: rgba(255, 165, 0, 0.10);">
 <td style="text-align: center; padding: 8px; border: 1px solid #FFA500;"><strong>GPU:</strong> RTX 2060 / GTX 1660 Ti</td>
 <td style="text-align: center; padding: 8px; border: 1px solid #FFA500;"><strong>GPU:</strong> RTX 4060</td>
 </tr>
@@ -434,18 +434,18 @@
 
 <p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🌍 A Living Network — 5 Servers Across 2 Regions</strong></span></p>
 
-<table style="margin-left: auto; margin-right: auto; max-width: 900px; border: 2px solid #FFA500; background-color: rgba(255, 165, 0, 0.04);">
+<table style="margin-left: auto; margin-right: auto; max-width: 900px; border: 2px solid #FFA500; background-color: rgba(255, 165, 0, 0.10);">
 <tbody>
 <tr>
-<td style="padding: 16px 20px; vertical-align: middle; width: 25%; border-right: 1px solid #FFA500; text-align: center;">
+<td style="padding: 16px 20px; vertical-align: middle; width: 25%; border-right: 2px solid #FFA500; text-align: center;">
 <p><span style="color: #ffa500; font-size: xx-large;"><strong>5</strong></span></p>
 <p><strong>Active Servers</strong></p>
 </td>
-<td style="padding: 16px 20px; vertical-align: middle; width: 25%; border-right: 1px solid #FFA500; text-align: center;">
+<td style="padding: 16px 20px; vertical-align: middle; width: 25%; border-right: 2px solid #FFA500; text-align: center;">
 <p><span style="color: #ffa500; font-size: xx-large;"><strong>40–80</strong></span></p>
 <p><strong>Players Online</strong></p>
 </td>
-<td style="padding: 16px 20px; vertical-align: middle; width: 25%; border-right: 1px solid #FFA500; text-align: center;">
+<td style="padding: 16px 20px; vertical-align: middle; width: 25%; border-right: 2px solid #FFA500; text-align: center;">
 <p><span style="color: #ffa500; font-size: xx-large;"><strong>3 🇫🇷</strong></span></p>
 <p><strong>French Servers</strong></p>
 </td>
@@ -633,7 +633,7 @@
 
 <p>&nbsp;</p>
 
-<table style="margin-left: auto; margin-right: auto; max-width: 700px; border: 2px solid #FFA500; background-color: rgba(255, 165, 0, 0.04);">
+<table style="margin-left: auto; margin-right: auto; max-width: 700px; border: 2px solid #FFA500; background-color: rgba(255, 165, 0, 0.10);">
 <tbody>
 <tr>
 <td style="padding: 16px; text-align: center;">
@@ -723,20 +723,20 @@
 <table style="margin-left: auto; margin-right: auto; max-width: 1000px;">
 <tbody>
 <tr>
-<td style="padding: 14px 16px; vertical-align: top; width: 25%; border: 1px solid #FFA500; text-align: center; background-color: rgba(0, 200, 0, 0.05);">
-<p><span style="color: #00cc00; font-size: large;"><strong>🔧 v2.1 — Bientôt</strong></span></p>
+<td style="padding: 14px 16px; vertical-align: top; width: 25%; border: 1px solid #FFA500; text-align: center; background-color: rgba(0, 200, 0, 0.12);">
+<p><span style="color: #00cc00; font-size: large;"><strong>🔧 v2.1<br>Bientôt</strong></span></p>
 <p>• Système de marchands intelligents (offre/demande)<br>• Nouvelles quêtes<br>• Nouveau donjon<br>• Mods suggérés par les joueurs</p>
 </td>
-<td style="padding: 14px 16px; vertical-align: top; width: 25%; border: 1px solid #FFA500; text-align: center; background-color: rgba(255, 165, 0, 0.05);">
-<p><span style="color: #ffa500; font-size: large;"><strong>📋 v2.2 — Planifié</strong></span></p>
+<td style="padding: 14px 16px; vertical-align: top; width: 25%; border: 1px solid #FFA500; text-align: center; background-color: rgba(255, 165, 0, 0.12);">
+<p><span style="color: #ffa500; font-size: large;"><strong>📋 v2.2<br>Planifié</strong></span></p>
 <p>• Nouveaux sets d'armure<br>• Nouveaux minerais<br>• Système de météorites<br>• Établi de fusion de minerai<br>• Nouvelles quêtes et donjon</p>
 </td>
-<td style="padding: 14px 16px; vertical-align: top; width: 25%; border: 1px solid #FFA500; text-align: center; background-color: rgba(156, 39, 176, 0.05);">
-<p><span style="color: #9C27B0; font-size: large;"><strong>🔮 v2.3 — À l'Étude</strong></span></p>
+<td style="padding: 14px 16px; vertical-align: top; width: 25%; border: 1px solid #FFA500; text-align: center; background-color: rgba(156, 39, 176, 0.12);">
+<p><span style="color: #9C27B0; font-size: large;"><strong>🔮 v2.3<br>À l'Étude</strong></span></p>
 <p>• Système de métiers<br>• Nouveaux minerais<br>• Nouveaux add-ons<br>• Nouvelles quêtes et donjon</p>
 </td>
-<td style="padding: 14px 16px; vertical-align: top; width: 25%; border: 1px solid #FFA500; text-align: center; background-color: rgba(33, 150, 243, 0.05);">
-<p><span style="color: #2196F3; font-size: large;"><strong>🌌 v2.4 — Au-delà</strong></span></p>
+<td style="padding: 14px 16px; vertical-align: top; width: 25%; border: 1px solid #FFA500; text-align: center; background-color: rgba(33, 150, 243, 0.12);">
+<p><span style="color: #2196F3; font-size: large;"><strong>🌌 v2.4<br>Au-delà</strong></span></p>
 <p>D'autre contenu encore plus surprenant — gardé secret pour le moment. Restez à l'écoute !</p>
 </td>
 </tr>
@@ -754,10 +754,10 @@
 <p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>💻 L'Excellence Technique</strong></span></p>
 <p style="text-align: center;">Faire cohabiter <strong>490 mods</strong> demande une rigueur absolue. Nous avons mis l'accent sur deux piliers :</p>
 
-<table style="margin-left: auto; margin-right: auto; max-width: 850px; border: 2px solid #FFA500; background-color: rgba(255, 165, 0, 0.04);">
+<table style="margin-left: auto; margin-right: auto; max-width: 850px; border: 2px solid #FFA500; background-color: rgba(255, 165, 0, 0.10);">
 <tbody>
 <tr>
-<td style="padding: 14px 18px; vertical-align: top; width: 50%; border-right: 1px solid #FFA500; text-align: center;">
+<td style="padding: 14px 18px; vertical-align: top; width: 50%; border-right: 2px solid #FFA500; text-align: center;">
 <p><span style="color: #ffa500; font-size: large;"><strong>🗣️ Zéro Franglais</strong></span></p>
 <p>Si votre jeu est en français, toutes les quêtes, items et interfaces sont en français. <strong>25 000+ entrées de traduction</strong> sur 7 langues. Aucun fallback anglais en plein milieu d'une phrase. Localisation auditée par l'équipe Arcadia.</p>
 </td>
@@ -777,21 +777,21 @@
 <table style="margin-left: auto; margin-right: auto; max-width: 950px;">
 <tbody>
 <tr>
-<td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.03);">
+<td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.08);">
 <p><span style="color: #ffa500;"><strong>⭐⭐⭐⭐⭐ Smily12345</strong> <em>(Membre)</em></span></p>
 <p><em>« Je m'étais prévu une heure de jeu avant de dormir… mais le serveur est tellement addictif que j'ai fini par y passer la nuit. »</em></p>
 </td>
-<td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.03);">
+<td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.08);">
 <p><span style="color: #ffa500;"><strong>⭐⭐⭐⭐⭐ Shad0w25101</strong> <em>(Membre)</em></span></p>
 <p><em>« Un vrai serveur Minecraft moddé, avec un bon modpack, un staff réactif… Tout ce qu'on cherche dans une communauté. »</em></p>
 </td>
 </tr>
 <tr>
-<td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.03);">
+<td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.08);">
 <p><span style="color: #ffa500;"><strong>⭐⭐⭐⭐⭐ V4mpyress</strong> <em>(Helper)</em></span></p>
 <p><em>« Le Modpack est fun mais sur le serv c'est encore mieux, les gens mais surtout l'ambiance — j'y reviens chaque soir. »</em></p>
 </td>
-<td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.03);">
+<td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.08);">
 <p><span style="color: #ffa500;"><strong>⭐⭐⭐⭐⭐ SoulkingII9</strong> <em>(VIP)</em></span></p>
 <p><em>« Serveur avec une très bonne ambiance entre tous, avec un staff très sympathique. Une vraie famille. »</em></p>
 </td>
@@ -813,7 +813,7 @@
 
 <table style="margin-left: auto; margin-right: auto; max-width: 700px; border-collapse: collapse;">
 <thead>
-<tr style="background-color: rgba(255, 165, 0, 0.1);">
+<tr style="background-color: rgba(255, 165, 0, 0.18);">
 <th style="text-align: center; padding: 10px 24px; border: 1px solid #FFA500;"><span style="color: #ffa500;">⚠️ Minimale</span></th>
 <th style="text-align: center; padding: 10px 24px; border: 1px solid #FFA500;"><span style="color: #00cc00;">✅ Recommandée</span></th>
 </tr>
@@ -823,7 +823,7 @@
 <td style="text-align: center; padding: 8px; border: 1px solid #FFA500;"><strong>RAM :</strong> 4 Go alloués</td>
 <td style="text-align: center; padding: 8px; border: 1px solid #FFA500;"><strong>RAM :</strong> 8 Go alloués</td>
 </tr>
-<tr style="background-color: rgba(255, 165, 0, 0.04);">
+<tr style="background-color: rgba(255, 165, 0, 0.10);">
 <td style="text-align: center; padding: 8px; border: 1px solid #FFA500;"><strong>GPU :</strong> RTX 2060 / GTX 1660 Ti</td>
 <td style="text-align: center; padding: 8px; border: 1px solid #FFA500;"><strong>GPU :</strong> RTX 4060</td>
 </tr>
@@ -861,18 +861,18 @@
 
 <p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🌍 Un Réseau Vivant — 5 Serveurs sur 2 Régions</strong></span></p>
 
-<table style="margin-left: auto; margin-right: auto; max-width: 900px; border: 2px solid #FFA500; background-color: rgba(255, 165, 0, 0.04);">
+<table style="margin-left: auto; margin-right: auto; max-width: 900px; border: 2px solid #FFA500; background-color: rgba(255, 165, 0, 0.10);">
 <tbody>
 <tr>
-<td style="padding: 16px 20px; vertical-align: middle; width: 25%; border-right: 1px solid #FFA500; text-align: center;">
+<td style="padding: 16px 20px; vertical-align: middle; width: 25%; border-right: 2px solid #FFA500; text-align: center;">
 <p><span style="color: #ffa500; font-size: xx-large;"><strong>5</strong></span></p>
 <p><strong>Serveurs Actifs</strong></p>
 </td>
-<td style="padding: 16px 20px; vertical-align: middle; width: 25%; border-right: 1px solid #FFA500; text-align: center;">
+<td style="padding: 16px 20px; vertical-align: middle; width: 25%; border-right: 2px solid #FFA500; text-align: center;">
 <p><span style="color: #ffa500; font-size: xx-large;"><strong>40–80</strong></span></p>
 <p><strong>Joueurs en Ligne</strong></p>
 </td>
-<td style="padding: 16px 20px; vertical-align: middle; width: 25%; border-right: 1px solid #FFA500; text-align: center;">
+<td style="padding: 16px 20px; vertical-align: middle; width: 25%; border-right: 2px solid #FFA500; text-align: center;">
 <p><span style="color: #ffa500; font-size: xx-large;"><strong>3 🇫🇷</strong></span></p>
 <p><strong>Serveurs Français</strong></p>
 </td>
