@@ -38,12 +38,12 @@
 <tr>
 <td style="padding: 14px 18px; vertical-align: top; width: 50%; border-right: 1px solid #E74C3C; text-align: center;">
 <p><span style="color: #E74C3C; font-size: large;"><strong>⚔️ EXPERT MODPACK — Multiplayer-First</strong></span></p>
-<p>Arcadia V2 is <strong>designed and tuned for community servers (30–50 players)</strong>. Expect a steep progression curve, cross-mod gating, and dungeons that scale brutally. A few late-game encounters are <strong>impossible solo</strong> by design.</p>
+<p>Arcadia V2 is <strong>designed and tuned for community servers (30–50 players)</strong>. Expect a steep progression curve, cross-mod gating, and dungeons that scale brutally. Late-game encounters reward coordinated groups, but the <strong>entire pack remains fully clearable solo</strong> with patience.</p>
 <p>✅ <strong>Solo is fully viable</strong> — the FTB Quests book guides you step by step. Plan on 150–300 hours to reach end-game. Recommended for players who already know one or more of: <strong>Create, Mekanism, Ars Nouveau, Apotheosis</strong>.</p>
 </td>
 <td style="padding: 14px 18px; vertical-align: top; width: 50%; text-align: center;">
 <p><span style="color: #E74C3C; font-size: large;"><strong>⚔️ MODPACK EXPERT — Pensé Multijoueur</strong></span></p>
-<p>Arcadia V2 est <strong>conçu et calibré pour les serveurs communautaires (30 à 50 joueurs)</strong>. Attendez-vous à une courbe de progression abrupte, du gating cross-mod, et des donjons qui scalent brutalement. Quelques rencontres endgame sont <strong>impossibles en solo</strong> par design.</p>
+<p>Arcadia V2 est <strong>conçu et calibré pour les serveurs communautaires (30 à 50 joueurs)</strong>. Attendez-vous à une courbe de progression abrupte, du gating cross-mod, et des donjons qui scalent brutalement. Les rencontres endgame récompensent les groupes coordonnés, mais <strong>l'intégralité du pack reste clôturable en solo</strong> avec de la patience.</p>
 <p>✅ <strong>Le solo reste totalement jouable</strong> — le livre FTB Quests vous guide étape par étape. Comptez 150 à 300 heures pour atteindre l'endgame. Recommandé aux joueurs qui connaissent déjà <strong>Create, Mekanism, Ars Nouveau, Apotheosis</strong>.</p>
 </td>
 </tr>
@@ -242,13 +242,13 @@
 <p>&nbsp;</p>
 
 <p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🌐 Multiplayer & Economy</strong></span></p>
-<p style="text-align: center;">Tailored for community. Integrated economy encourages trade; exclusive progressive-difficulty dungeons (some impossible solo!) will test your coordination.</p>
+<p style="text-align: center;">Tailored for community. Integrated economy encourages trade; exclusive progressive-difficulty dungeons scale with your party and will test your coordination.</p>
 
 <table style="margin-left: auto; margin-right: auto; max-width: 950px;">
 <tbody>
 <tr>
 <td style="padding: 10px 14px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center;"><span style="color: #ffa500;"><strong>💰 Integrated Economy</strong></span><br>Player trades, market stalls, Numismatics currency.</td>
-<td style="padding: 10px 14px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center;"><span style="color: #ffa500;"><strong>🏟️ Co-op Dungeons</strong></span><br>Scaled difficulty, some impossible solo. Coordination required.</td>
+<td style="padding: 10px 14px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center;"><span style="color: #ffa500;"><strong>🏟️ Co-op Dungeons</strong></span><br>Difficulty scales with your party. Tougher solo, faster &amp; richer in group.</td>
 <td style="padding: 10px 14px; vertical-align: top; width: 34%; border: 1px solid #FFA500; text-align: center;"><span style="color: #ffa500;"><strong>👥 Team Play</strong></span><br>FTB Teams, FTB Chunks, Waystones for fast travel.</td>
 </tr>
 </tbody>
@@ -647,13 +647,13 @@
 <p>&nbsp;</p>
 
 <p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🌐 Multijoueur & Économie</strong></span></p>
-<p style="text-align: center;">Conçu pour la communauté. L'économie intégrée favorise les échanges ; les donjons à difficulté progressive (dont certains impossibles en solo !) testeront votre coordination.</p>
+<p style="text-align: center;">Conçu pour la communauté. L'économie intégrée favorise les échanges ; les donjons à difficulté progressive scalent avec votre groupe et testeront votre coordination.</p>
 
 <table style="margin-left: auto; margin-right: auto; max-width: 950px;">
 <tbody>
 <tr>
 <td style="padding: 10px 14px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center;"><span style="color: #ffa500;"><strong>💰 Économie Intégrée</strong></span><br>Échanges joueurs, étals de marché, monnaie Numismatics.</td>
-<td style="padding: 10px 14px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center;"><span style="color: #ffa500;"><strong>🏟️ Donjons Coop</strong></span><br>Difficulté scalée, certains impossibles en solo. Coordination requise.</td>
+<td style="padding: 10px 14px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center;"><span style="color: #ffa500;"><strong>🏟️ Donjons Coop</strong></span><br>Difficulté scalée selon votre groupe. Plus dur en solo, plus rapide à plusieurs.</td>
 <td style="padding: 10px 14px; vertical-align: top; width: 34%; border: 1px solid #FFA500; text-align: center;"><span style="color: #ffa500;"><strong>👥 Jeu en Équipe</strong></span><br>FTB Teams, FTB Chunks, Waystones pour le téléport rapide.</td>
 </tr>
 </tbody>
