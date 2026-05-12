@@ -33,6 +33,25 @@
 
 <p>&nbsp;</p>
 
+<table style="margin-left: auto; margin-right: auto; max-width: 850px; border: 2px solid #E74C3C; background-color: rgba(231, 76, 60, 0.05);">
+<tbody>
+<tr>
+<td style="padding: 14px 18px; vertical-align: top; width: 50%; border-right: 1px solid #E74C3C; text-align: center;">
+<p><span style="color: #E74C3C; font-size: large;"><strong>⚔️ EXPERT MODPACK — Multiplayer-First</strong></span></p>
+<p>Arcadia V2 is <strong>designed and tuned for community servers (30–50 players)</strong>. Expect a steep progression curve, cross-mod gating, and dungeons that scale brutally. A few late-game encounters are <strong>impossible solo</strong> by design.</p>
+<p>✅ <strong>Solo is fully viable</strong> — the FTB Quests book guides you step by step. Plan on 150–300 hours to reach end-game. Recommended for players who already know one or more of: <strong>Create, Mekanism, Ars Nouveau, Apotheosis</strong>.</p>
+</td>
+<td style="padding: 14px 18px; vertical-align: top; width: 50%; text-align: center;">
+<p><span style="color: #E74C3C; font-size: large;"><strong>⚔️ MODPACK EXPERT — Pensé Multijoueur</strong></span></p>
+<p>Arcadia V2 est <strong>conçu et calibré pour les serveurs communautaires (30 à 50 joueurs)</strong>. Attendez-vous à une courbe de progression abrupte, du gating cross-mod, et des donjons qui scalent brutalement. Quelques rencontres endgame sont <strong>impossibles en solo</strong> par design.</p>
+<p>✅ <strong>Le solo reste totalement jouable</strong> — le livre FTB Quests vous guide étape par étape. Comptez 150 à 300 heures pour atteindre l'endgame. Recommandé aux joueurs qui connaissent déjà <strong>Create, Mekanism, Ars Nouveau, Apotheosis</strong>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<p>&nbsp;</p>
+
 <p style="text-align: center;"><span style="color: #ffa500;">⚠️ <strong>REDISTRIBUTION PROHIBITED</strong> ⚠️</span><br><span style="font-size: small;">It is strictly forbidden to edit or redistribute this modpack under another name or form.</span></p>
 
 <hr style="border: 1px solid #FFA500;">
@@ -42,6 +61,31 @@
 <p style="text-align: center;"><a href="https://www.youtube.com/watch?v=lOkYRDm9W2Q" target="_blank" rel="nofollow noopener"><strong>▶️ Watch the official Trailer</strong></a></p>
 
 <p style="text-align: center;"><span style="font-size: large;"><strong>🌟 Ready to forge your legend? Dive into a world where your factory powers ancient rituals. 🌟</strong></span></p>
+
+<p>&nbsp;</p>
+
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🤔 Why Arcadia V2?</strong></span></p>
+
+<table style="margin-left: auto; margin-right: auto; max-width: 950px;">
+<tbody>
+<tr>
+<td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
+<p><span style="color: #ffa500;"><strong>🔗 True Cross-Mod Progression</strong></span><br>Tech and magic don't live in separate silos. Every late-game craft needs <strong>both</strong> ecosystems. 4 custom bridge items (Arcane Circuit, Ethereal Alloy, Industrial Heart, Rune Matrix) tie everything together.</p>
+</td>
+<td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
+<p><span style="color: #ffa500;"><strong>🌐 100% Bilingual EN/FR</strong></span><br><strong>25,000+ translation entries</strong> across the entire pack. Quests, items, custom UIs, every bridge — fully translated. Zero franglais policy enforced by audit pipeline.</p>
+</td>
+</tr>
+<tr>
+<td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
+<p><span style="color: #ffa500;"><strong>🎮 Curated Server Experience</strong></span><br>In-house mods: <strong>Arcadia Pets</strong> (collectibles + PvP duels + ELO ladder), Lootbox, Guard, Prestige, ATMs, web reward keys, casino. Not mods bolted together — a tailored ecosystem.</p>
+</td>
+<td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
+<p><span style="color: #ffa500;"><strong>📜 3,000+ Quest-Guided Journey</strong></span><br>31 chapters of FTB Quests covering every mod's progression path. Whether you're a fresh player or a 1000-hour veteran, you always know what to do next.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <p>&nbsp;</p>
 
@@ -214,6 +258,64 @@
 
 <p>&nbsp;</p>
 
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🌟 Arcadia Exclusive Content</strong></span></p>
+<p style="text-align: center;">Custom in-house mods you won't find in any other pack. Built specifically for Arcadia V2.</p>
+
+<table style="margin-left: auto; margin-right: auto; max-width: 950px;">
+<tbody>
+<tr>
+<td style="padding: 12px 16px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center;">
+<p><span style="color: #ffa500;"><strong>🐾 Arcadia Pets</strong></span><br>Collectible pet system with skills, fusion, ELO-ranked PvP duels, collection book, history tracking. 6 rarity tiers.</p>
+</td>
+<td style="padding: 12px 16px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center;">
+<p><span style="color: #ffa500;"><strong>🎁 Server Lootboxes</strong></span><br>Earn keys in-game or via web rewards. Open lootboxes for cosmetics, currency, rare loot. Server economy hook.</p>
+</td>
+<td style="padding: 12px 16px; vertical-align: top; width: 34%; border: 1px solid #FFA500; text-align: center;">
+<p><span style="color: #ffa500;"><strong>🏆 Prestige System</strong></span><br>Reset and ascend for permanent bonuses. Tracks long-term player engagement past the main quest line.</p>
+</td>
+</tr>
+<tr>
+<td style="padding: 12px 16px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center;">
+<p><span style="color: #ffa500;"><strong>🛡️ Arcadia Guard</strong></span><br>Built-in moderation, anti-grief tools, custom punishment GUIs. A complete admin toolkit shipped with the pack.</p>
+</td>
+<td style="padding: 12px 16px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center;">
+<p><span style="color: #ffa500;"><strong>🎰 In-Game ATM &amp; Casino</strong></span><br>Numismatics economy with ATMs, casino tokens, trading floors. Drives a real server-side gameplay loop.</p>
+</td>
+<td style="padding: 12px 16px; vertical-align: top; width: 34%; border: 1px solid #FFA500; text-align: center;">
+<p><span style="color: #ffa500;"><strong>💎 Heart of Arcadia</strong></span><br>The legendary uncraftable item. Earned through specific feats, never bought. The true endgame trophy.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🚀 Roadmap — What's Coming Next</strong></span></p>
+<p style="text-align: center;">A glimpse of the planned content. This is <strong>the minimum</strong> — much more is in the pipeline. Full roadmap at <a href="https://www.arcadia-echoes-of-power.fr/roadmap" target="_blank" rel="nofollow noopener">arcadia-echoes-of-power.fr/roadmap</a>.</p>
+
+<table style="margin-left: auto; margin-right: auto; max-width: 950px;">
+<tbody>
+<tr>
+<td style="padding: 14px 18px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center; background-color: rgba(0, 200, 0, 0.05);">
+<p><span style="color: #00cc00; font-size: large;"><strong>🔧 v2.1 — Coming Soon</strong></span></p>
+<p>• Intelligent merchant system (supply &amp; demand)<br>• Additional quests<br>• New dungeon<br>• Player-suggested mods</p>
+</td>
+<td style="padding: 14px 18px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center; background-color: rgba(255, 165, 0, 0.05);">
+<p><span style="color: #ffa500; font-size: large;"><strong>📋 v2.2 — Planned</strong></span></p>
+<p>• New armor sets<br>• New ores<br>• Meteorite system<br>• New workbench for ore fusion<br>• Additional quests &amp; dungeon</p>
+</td>
+<td style="padding: 14px 18px; vertical-align: top; width: 34%; border: 1px solid #FFA500; text-align: center; background-color: rgba(156, 39, 176, 0.05);">
+<p><span style="color: #9C27B0; font-size: large;"><strong>🔮 v2.3 — Under Consideration</strong></span></p>
+<p>• Profession system<br>• New ores<br>• New add-ons<br>• Additional quests &amp; dungeon</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<p style="text-align: center;"><a href="https://www.arcadia-echoes-of-power.fr/roadmap" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/View_Full_Roadmap-arcadia--echoes--of--power.fr-FFA500?style=for-the-badge&amp;logo=googlemaps&amp;logoColor=white" alt="View full roadmap"></a></p>
+
+<p>&nbsp;</p>
+
 <p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>💻 Technical Excellence</strong></span></p>
 <p style="text-align: center;">Making <strong>490 mods</strong> coexist demands absolute rigor. We focused on two pillars:</p>
 
@@ -231,6 +333,38 @@
 </tr>
 </tbody>
 </table>
+
+<p>&nbsp;</p>
+
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>💬 What Players Say</strong></span></p>
+<p style="text-align: center;">Real reviews from real players on <a href="https://www.arcadia-echoes-of-power.fr/review" target="_blank" rel="nofollow noopener">arcadia-echoes-of-power.fr/review</a></p>
+
+<table style="margin-left: auto; margin-right: auto; max-width: 950px;">
+<tbody>
+<tr>
+<td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.03);">
+<p><span style="color: #ffa500;"><strong>⭐⭐⭐⭐⭐ Smily12345</strong> <em>(Member)</em></span></p>
+<p><em>« Je m'étais prévu une heure de jeu avant de dormir… mais le serveur est tellement addictif que j'ai fini par y passer la nuit. »</em></p>
+</td>
+<td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.03);">
+<p><span style="color: #ffa500;"><strong>⭐⭐⭐⭐⭐ Shad0w25101</strong> <em>(Member)</em></span></p>
+<p><em>« Un vrai serveur Minecraft moddé, avec un bon modpack, un staff réactif… Tout ce qu'on cherche dans une communauté. »</em></p>
+</td>
+</tr>
+<tr>
+<td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.03);">
+<p><span style="color: #ffa500;"><strong>⭐⭐⭐⭐⭐ V4mpyress</strong> <em>(Helper)</em></span></p>
+<p><em>« Le Modpack est fun mais sur le serv c'est encore mieux, les gens mais surtout l'ambiance — j'y reviens chaque soir. »</em></p>
+</td>
+<td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.03);">
+<p><span style="color: #ffa500;"><strong>⭐⭐⭐⭐⭐ SoulkingII9</strong> <em>(VIP)</em></span></p>
+<p><em>« Serveur avec une très bonne ambiance entre tous, avec un staff très sympathique. Une vraie famille. »</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<p style="text-align: center;"><a href="https://www.arcadia-echoes-of-power.fr/review" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Read_All_Reviews-arcadia--echoes--of--power.fr-FFA500?style=for-the-badge&amp;logo=star&amp;logoColor=white" alt="Read all reviews"></a></p>
 
 <hr style="border: 1px solid #FFA500;">
 
@@ -279,6 +413,36 @@
 
 <hr style="border: 1px solid #FFA500;">
 
+
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🌍 A Living Network — 5 Servers Across 2 Regions</strong></span></p>
+
+<table style="margin-left: auto; margin-right: auto; max-width: 900px; border: 2px solid #FFA500; background-color: rgba(255, 165, 0, 0.04);">
+<tbody>
+<tr>
+<td style="padding: 16px 20px; vertical-align: middle; width: 25%; border-right: 1px solid #FFA500; text-align: center;">
+<p><span style="color: #ffa500; font-size: xx-large;"><strong>5</strong></span></p>
+<p><strong>Active Servers</strong></p>
+</td>
+<td style="padding: 16px 20px; vertical-align: middle; width: 25%; border-right: 1px solid #FFA500; text-align: center;">
+<p><span style="color: #ffa500; font-size: xx-large;"><strong>40–80</strong></span></p>
+<p><strong>Players Online</strong></p>
+</td>
+<td style="padding: 16px 20px; vertical-align: middle; width: 25%; border-right: 1px solid #FFA500; text-align: center;">
+<p><span style="color: #ffa500; font-size: xx-large;"><strong>3 🇫🇷</strong></span></p>
+<p><strong>French Servers</strong></p>
+</td>
+<td style="padding: 16px 20px; vertical-align: middle; width: 25%; text-align: center;">
+<p><span style="color: #ffa500; font-size: xx-large;"><strong>2 🇺🇸</strong></span></p>
+<p><strong>US Servers</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<p style="text-align: center;"><em>Pick the region with the lowest ping. Cross-server economy and shared community across all 5 instances.</em></p>
+
+<hr style="border: 1px solid #FFA500;">
+
 <p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🚀 Join the Official Arcadia Server</strong></span></p>
 <p style="text-align: center;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/serveur.gif" width="600" alt="Official Arcadia server"></p>
 <p style="text-align: center;">A massive world with custom dungeons, player economy, and a friendly community.<br><span style="color: #00cc00;"><strong>✅ Launch the modpack → Multiplayer → Join Official Server.</strong></span></p>
@@ -306,6 +470,31 @@
 <p style="text-align: center;"><a href="https://www.youtube.com/watch?v=3JFl7S7YQkQ" target="_blank" rel="nofollow noopener"><strong>▶️ Voir le Trailer officiel</strong></a></p>
 
 <p style="text-align: center;"><span style="font-size: large;"><strong>🌟 Prêt à forger votre légende ? Plongez dans un monde où votre usine alimente des rituels ancestraux. 🌟</strong></span></p>
+
+<p>&nbsp;</p>
+
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🤔 Pourquoi Arcadia V2 ?</strong></span></p>
+
+<table style="margin-left: auto; margin-right: auto; max-width: 950px;">
+<tbody>
+<tr>
+<td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
+<p><span style="color: #ffa500;"><strong>🔗 Vraie Progression Cross-Mod</strong></span><br>Tech et magie ne vivent pas en silos séparés. Chaque craft endgame demande <strong>les deux</strong> écosystèmes. 4 items pont custom (Circuit Arcane, Alliage Éthéré, Cœur Industriel, Matrice de Runes) relient le tout.</p>
+</td>
+<td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
+<p><span style="color: #ffa500;"><strong>🌐 100% Bilingue EN/FR</strong></span><br><strong>25 000+ entrées de traduction</strong> dans tout le pack. Quêtes, items, UI custom, chaque pont — tout est traduit. Politique zéro franglais appliquée par pipeline d'audit.</p>
+</td>
+</tr>
+<tr>
+<td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
+<p><span style="color: #ffa500;"><strong>🎮 Expérience Serveur Curatée</strong></span><br>Mods maison : <strong>Arcadia Pets</strong> (collectibles + duels PvP + classement ELO), Lootbox, Guard, Prestige, ATM, clés web, casino. Pas un assemblage de mods — un écosystème conçu pour vous.</p>
+</td>
+<td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
+<p><span style="color: #ffa500;"><strong>📜 3 000+ Quêtes Guidées</strong></span><br>31 chapitres FTB Quests couvrant la progression de chaque mod. Que vous soyez débutant ou vétéran à 1000 heures, vous savez toujours quoi faire ensuite.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <p>&nbsp;</p>
 
@@ -474,6 +663,64 @@
 
 <p>&nbsp;</p>
 
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🌟 Contenu Exclusif Arcadia</strong></span></p>
+<p style="text-align: center;">Des mods maison que vous ne trouverez dans aucun autre pack. Conçus spécifiquement pour Arcadia V2.</p>
+
+<table style="margin-left: auto; margin-right: auto; max-width: 950px;">
+<tbody>
+<tr>
+<td style="padding: 12px 16px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center;">
+<p><span style="color: #ffa500;"><strong>🐾 Arcadia Pets</strong></span><br>Système de familiers collectibles avec compétences, fusion, duels PvP classés ELO, livre de collection, historique. 6 niveaux de rareté.</p>
+</td>
+<td style="padding: 12px 16px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center;">
+<p><span style="color: #ffa500;"><strong>🎁 Lootbox Serveur</strong></span><br>Gagnez des clés en jeu ou via les récompenses web. Ouvrez des lootbox pour cosmétiques, monnaie, loot rare. Pilier de l'économie serveur.</p>
+</td>
+<td style="padding: 12px 16px; vertical-align: top; width: 34%; border: 1px solid #FFA500; text-align: center;">
+<p><span style="color: #ffa500;"><strong>🏆 Système de Prestige</strong></span><br>Reset et ascension pour des bonus permanents. Suivi de l'engagement long-terme au-delà de la quête principale.</p>
+</td>
+</tr>
+<tr>
+<td style="padding: 12px 16px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center;">
+<p><span style="color: #ffa500;"><strong>🛡️ Arcadia Guard</strong></span><br>Modération intégrée, outils anti-grief, GUI de sanctions custom. Un toolkit admin complet livré avec le pack.</p>
+</td>
+<td style="padding: 12px 16px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center;">
+<p><span style="color: #ffa500;"><strong>🎰 ATM &amp; Casino In-Game</strong></span><br>Économie Numismatics avec ATM, jetons casino, étals de marché. Une vraie boucle de gameplay côté serveur.</p>
+</td>
+<td style="padding: 12px 16px; vertical-align: top; width: 34%; border: 1px solid #FFA500; text-align: center;">
+<p><span style="color: #ffa500;"><strong>💎 Heart of Arcadia</strong></span><br>L'item légendaire incraftable. Gagné par exploits spécifiques, jamais acheté. Le vrai trophée endgame.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🚀 Roadmap — Ce qui Arrive</strong></span></p>
+<p style="text-align: center;">Un aperçu du contenu prévu. C'est <strong>le minimum</strong> — bien plus est en préparation. Roadmap complète sur <a href="https://www.arcadia-echoes-of-power.fr/roadmap" target="_blank" rel="nofollow noopener">arcadia-echoes-of-power.fr/roadmap</a>.</p>
+
+<table style="margin-left: auto; margin-right: auto; max-width: 950px;">
+<tbody>
+<tr>
+<td style="padding: 14px 18px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center; background-color: rgba(0, 200, 0, 0.05);">
+<p><span style="color: #00cc00; font-size: large;"><strong>🔧 v2.1 — Bientôt</strong></span></p>
+<p>• Système de marchands intelligents (offre/demande)<br>• Nouvelles quêtes<br>• Nouveau donjon<br>• Mods suggérés par les joueurs</p>
+</td>
+<td style="padding: 14px 18px; vertical-align: top; width: 33%; border: 1px solid #FFA500; text-align: center; background-color: rgba(255, 165, 0, 0.05);">
+<p><span style="color: #ffa500; font-size: large;"><strong>📋 v2.2 — Planifié</strong></span></p>
+<p>• Nouveaux sets d'armure<br>• Nouveaux minerais<br>• Système de météorites<br>• Établi de fusion de minerai<br>• Nouvelles quêtes et donjon</p>
+</td>
+<td style="padding: 14px 18px; vertical-align: top; width: 34%; border: 1px solid #FFA500; text-align: center; background-color: rgba(156, 39, 176, 0.05);">
+<p><span style="color: #9C27B0; font-size: large;"><strong>🔮 v2.3 — À l'Étude</strong></span></p>
+<p>• Système de métiers<br>• Nouveaux minerais<br>• Nouveaux add-ons<br>• Nouvelles quêtes et donjon</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<p style="text-align: center;"><a href="https://www.arcadia-echoes-of-power.fr/roadmap" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Roadmap_Compl%C3%A8te-arcadia--echoes--of--power.fr-FFA500?style=for-the-badge&amp;logo=googlemaps&amp;logoColor=white" alt="Roadmap complète"></a></p>
+
+<p>&nbsp;</p>
+
 <p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>💻 L'Excellence Technique</strong></span></p>
 <p style="text-align: center;">Faire cohabiter <strong>490 mods</strong> demande une rigueur absolue. Nous avons mis l'accent sur deux piliers :</p>
 
@@ -491,6 +738,38 @@
 </tr>
 </tbody>
 </table>
+
+<p>&nbsp;</p>
+
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>💬 Ce que Disent les Joueurs</strong></span></p>
+<p style="text-align: center;">De vrais avis de vrais joueurs sur <a href="https://www.arcadia-echoes-of-power.fr/review" target="_blank" rel="nofollow noopener">arcadia-echoes-of-power.fr/review</a></p>
+
+<table style="margin-left: auto; margin-right: auto; max-width: 950px;">
+<tbody>
+<tr>
+<td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.03);">
+<p><span style="color: #ffa500;"><strong>⭐⭐⭐⭐⭐ Smily12345</strong> <em>(Membre)</em></span></p>
+<p><em>« Je m'étais prévu une heure de jeu avant de dormir… mais le serveur est tellement addictif que j'ai fini par y passer la nuit. »</em></p>
+</td>
+<td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.03);">
+<p><span style="color: #ffa500;"><strong>⭐⭐⭐⭐⭐ Shad0w25101</strong> <em>(Membre)</em></span></p>
+<p><em>« Un vrai serveur Minecraft moddé, avec un bon modpack, un staff réactif… Tout ce qu'on cherche dans une communauté. »</em></p>
+</td>
+</tr>
+<tr>
+<td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.03);">
+<p><span style="color: #ffa500;"><strong>⭐⭐⭐⭐⭐ V4mpyress</strong> <em>(Helper)</em></span></p>
+<p><em>« Le Modpack est fun mais sur le serv c'est encore mieux, les gens mais surtout l'ambiance — j'y reviens chaque soir. »</em></p>
+</td>
+<td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.03);">
+<p><span style="color: #ffa500;"><strong>⭐⭐⭐⭐⭐ SoulkingII9</strong> <em>(VIP)</em></span></p>
+<p><em>« Serveur avec une très bonne ambiance entre tous, avec un staff très sympathique. Une vraie famille. »</em></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<p style="text-align: center;"><a href="https://www.arcadia-echoes-of-power.fr/review" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/Lire_tous_les_avis-arcadia--echoes--of--power.fr-FFA500?style=for-the-badge&amp;logo=star&amp;logoColor=white" alt="Lire tous les avis"></a></p>
 
 <hr style="border: 1px solid #FFA500;">
 
@@ -536,6 +815,36 @@
 <p>&nbsp;</p>
 
 <p style="text-align: center;"><a href="https://lordhosting.fr/gaming/serveur-minecraft?ref=arcadia" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/H%C3%A9berger_avec-LordHosting-FFA500?style=for-the-badge&amp;logo=server&amp;logoColor=white" alt="Héberger avec LordHosting"></a></p>
+
+<hr style="border: 1px solid #FFA500;">
+
+
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🌍 Un Réseau Vivant — 5 Serveurs sur 2 Régions</strong></span></p>
+
+<table style="margin-left: auto; margin-right: auto; max-width: 900px; border: 2px solid #FFA500; background-color: rgba(255, 165, 0, 0.04);">
+<tbody>
+<tr>
+<td style="padding: 16px 20px; vertical-align: middle; width: 25%; border-right: 1px solid #FFA500; text-align: center;">
+<p><span style="color: #ffa500; font-size: xx-large;"><strong>5</strong></span></p>
+<p><strong>Serveurs Actifs</strong></p>
+</td>
+<td style="padding: 16px 20px; vertical-align: middle; width: 25%; border-right: 1px solid #FFA500; text-align: center;">
+<p><span style="color: #ffa500; font-size: xx-large;"><strong>40–80</strong></span></p>
+<p><strong>Joueurs en Ligne</strong></p>
+</td>
+<td style="padding: 16px 20px; vertical-align: middle; width: 25%; border-right: 1px solid #FFA500; text-align: center;">
+<p><span style="color: #ffa500; font-size: xx-large;"><strong>3 🇫🇷</strong></span></p>
+<p><strong>Serveurs Français</strong></p>
+</td>
+<td style="padding: 16px 20px; vertical-align: middle; width: 25%; text-align: center;">
+<p><span style="color: #ffa500; font-size: xx-large;"><strong>2 🇺🇸</strong></span></p>
+<p><strong>Serveurs US</strong></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<p style="text-align: center;"><em>Choisissez la région avec le meilleur ping. Économie cross-serveur et communauté partagée sur les 5 instances.</em></p>
 
 <hr style="border: 1px solid #FFA500;">
 
