@@ -1,4 +1,28 @@
+================================================================================
+SCOPE OF THIS LICENSE
+================================================================================
+
+The MIT License below applies ONLY to original works authored by the Arcadia V2
+team (vyrriox and contributors). Specifically, it covers:
+
+  - KubeJS scripts written for this modpack (kubejs/server_scripts,
+    kubejs/startup_scripts, kubejs/client_scripts)
+  - Custom KubeJS assets we authored (textures, sounds, lang files
+    under kubejs/assets/arcadia/ and related arcadia_* namespaces)
+  - Custom data files we authored (datapack overrides under kubejs/data/,
+    config overlays under config/arcadia*, defaultconfigs/arcadia*)
+  - The FTB Quests pack contents written by the team
+    (config/ftbquests/quests/*)
+  - In-house mods built for Arcadia and shipped under our control
+    (arcadia-patch-create, arcadia-* mod jars where we are the authors)
+  - Documentation, guides, READMEs and CHANGELOGs in this repository
+
+It DOES NOT apply to anything we did not author. See the THIRD-PARTY CONTENT
+section below.
+
+================================================================================
 MIT License
+================================================================================
 
 Copyright (c) 2026 vyrriox
 
@@ -18,4 +42,108 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE..
+SOFTWARE.
+
+================================================================================
+THIRD-PARTY CONTENT
+================================================================================
+
+This modpack bundles content authored by third parties. That content is NOT
+covered by the MIT License above and remains the property of its respective
+authors. Each item is governed by its own license, which you must consult
+before redistributing or modifying:
+
+  - Minecraft and all base game assets are the property of Mojang Studios
+    and Microsoft Corporation. Use is subject to the Minecraft End User
+    License Agreement (EULA): https://www.minecraft.net/en-us/eula
+
+  - Every mod jar in the mods/ directory is the property of its respective
+    author(s) and is licensed under the terms each author has chosen
+    (open-source, all-rights-reserved, CurseForge non-commercial, etc.).
+    Refer to the META-INF/LICENSE, mods.toml, or the mod's CurseForge /
+    Modrinth page for the applicable license. The Arcadia team does not
+    grant any rights over those mods.
+
+  - Third-party resource packs, shader packs, and any non-Arcadia textures,
+    sounds, or models bundled in resourcepacks/, shaderpacks/, and similar
+    locations remain under their original creators' licenses.
+
+  - Third-party configuration files (config/) that ship with mods remain
+    under those mods' licenses; only Arcadia-authored overlays are MIT.
+
+================================================================================
+NO AFFILIATION DISCLAIMER
+================================================================================
+
+This project (Arcadia V2 "Echoes Of Power") is an independent fan-made
+Minecraft modpack. It is NOT affiliated with, endorsed by, sponsored by,
+or otherwise officially connected to:
+
+  - Mojang Studios or Microsoft Corporation, the developers and publishers
+    of Minecraft.
+  - CurseForge, Overwolf, or any of their parent or affiliated companies.
+    Distribution via the CurseForge platform does not imply any partnership.
+  - NeoForged or the MinecraftForge teams.
+  - Any of the individual mod authors whose work is bundled in this pack.
+
+All trademarks, logos, brand names, and registered marks are the property
+of their respective owners. References to mods, mod authors, or platforms
+are descriptive and used solely for compatibility, attribution, and
+identification purposes.
+
+================================================================================
+LICENCE — Version Française
+================================================================================
+
+PORTÉE DE CETTE LICENCE
+
+La Licence MIT ci-dessus s'applique UNIQUEMENT aux œuvres originales créées
+par l'équipe Arcadia V2 (vyrriox et contributeurs). Cela couvre :
+
+  - Les scripts KubeJS écrits pour ce modpack
+  - Les assets KubeJS que nous avons créés (textures, sons, fichiers de
+    langue dans kubejs/assets/arcadia/ et les namespaces arcadia_*)
+  - Les fichiers de données que nous avons écrits (datapacks personnalisés,
+    overlays de configuration arcadia*)
+  - Le contenu du pack FTB Quests écrit par l'équipe
+  - Les mods développés en interne pour Arcadia
+  - La documentation, les guides, READMEs et CHANGELOGs du dépôt
+
+Elle NE couvre PAS le contenu que nous n'avons pas créé.
+
+CONTENU TIERS
+
+Ce modpack embarque du contenu créé par des tiers. Ce contenu N'EST PAS
+couvert par la licence MIT et reste la propriété de ses auteurs respectifs.
+Chaque élément est régi par sa propre licence :
+
+  - Minecraft et tous les assets du jeu de base sont la propriété de
+    Mojang Studios et Microsoft Corporation, soumis au CLUF Minecraft
+    (https://www.minecraft.net/fr-fr/eula).
+  - Chaque mod dans mods/ appartient à son ou ses auteurs et est régi par
+    la licence que chaque auteur a choisie. Consulter le META-INF/LICENSE
+    du jar, le mods.toml ou la page CurseForge/Modrinth du mod. L'équipe
+    Arcadia n'accorde aucun droit sur ces mods.
+  - Les resource packs, shader packs et textures/sons/modèles non-Arcadia
+    embarqués restent sous la licence d'origine de leurs créateurs.
+  - Les fichiers de configuration tiers (config/) livrés avec les mods
+    restent sous la licence de ces mods ; seuls les overlays Arcadia sont
+    sous MIT.
+
+AVERTISSEMENT — AUCUNE AFFILIATION
+
+Ce projet (Arcadia V2 « Echoes Of Power ») est un modpack Minecraft
+indépendant créé par des fans. Il N'EST PAS affilié, approuvé, sponsorisé
+ni officiellement connecté à :
+
+  - Mojang Studios ou Microsoft Corporation, développeurs et éditeurs
+    de Minecraft.
+  - CurseForge, Overwolf ou leurs sociétés mères ou affiliées. La
+    distribution via la plateforme CurseForge n'implique aucun partenariat.
+  - NeoForged ou les équipes MinecraftForge.
+  - Les auteurs individuels des mods inclus dans ce pack.
+
+Toutes les marques de commerce, logos, noms de marques et marques déposées
+sont la propriété de leurs détenteurs respectifs. Les références aux mods,
+auteurs de mods ou plateformes sont descriptives et utilisées uniquement
+à des fins de compatibilité, d'attribution et d'identification.
