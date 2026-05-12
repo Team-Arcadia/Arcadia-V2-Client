@@ -22,7 +22,7 @@
 -->
 
 <h1 style="text-align: center;"><span style="color: #ffa500;">🌟 ARCADIA V2 — ECHOES OF POWER 🌟</span></h1>
-<h2 style="text-align: center;"><span style="color: #ffa500;">⚡ Where Magic Meets Machinery ⚡</span></h2>
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>⚡ Where Magic Meets Machinery ⚡</strong></span></p>
 <p style="text-align: center;"><span style="font-size: large;"><em>The Ultimate Industrial Fantasy Experience Awaits You!</em></span></p>
 
 <p>&nbsp;</p>
@@ -68,12 +68,12 @@
 
 <p>&nbsp;</p>
 
-<h2 style="text-align: center;"><span style="color: #ffa500;">⚙️ The Missing Link</span></h2>
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>⚙️ The Missing Link</strong></span></p>
 <p style="text-align: center;">After a first industrial era, we identified the "missing link": <strong>the symbiosis between iron and spell</strong>.<br><strong>Arcadia</strong> is not just a list of mods — it is an interconnected experience where steam meets the astral.</p>
 
 <p>&nbsp;</p>
 
-<h2 style="text-align: center;"><span style="color: #ffa500;">🏗️ Industry at the Heart of Magic</span></h2>
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🏗️ Industry at the Heart of Magic</strong></span></p>
 <p style="text-align: center;">The DNA stays technical (<strong>Create</strong>, <strong>Mekanism</strong>), with one major twist: <strong>interoperability</strong>.</p>
 
 <table>
@@ -147,7 +147,7 @@
 
 <hr style="border: 1px solid #FFA500;">
 
-<h2 style="text-align: center;"><span style="color: #ffa500;">⚔️ A Living & Hostile World</span></h2>
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>⚔️ A Living & Hostile World</strong></span></p>
 
 <table>
 <tbody>
@@ -195,7 +195,7 @@
 
 <hr style="border: 1px solid #FFA500;">
 
-<h2 style="text-align: center;"><span style="color: #ffa500;">🎒 Quality of Life</span></h2>
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🎒 Quality of Life</strong></span></p>
 
 <table style="margin-left: auto; margin-right: auto; max-width: 950px;">
 <tbody>
@@ -220,7 +220,7 @@
 
 <p>&nbsp;</p>
 
-<h2 style="text-align: center;"><span style="color: #ffa500;">🌐 Multiplayer & Economy</span></h2>
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🌐 Multiplayer & Economy</strong></span></p>
 <p style="text-align: center;">Tailored for community. Integrated economy encourages trade; exclusive progressive-difficulty dungeons (some impossible solo!) will test your coordination.</p>
 
 <table style="margin-left: auto; margin-right: auto; max-width: 950px;">
@@ -237,7 +237,7 @@
 
 <p>&nbsp;</p>
 
-<h2 style="text-align: center;"><span style="color: #ffa500;">💻 Technical Excellence</span></h2>
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>💻 Technical Excellence</strong></span></p>
 <p style="text-align: center;">Making <strong>490 mods</strong> coexist demands absolute rigor. We focused on two pillars:</p>
 
 <table style="margin-left: auto; margin-right: auto; max-width: 850px; border: 2px solid #FFA500; background-color: rgba(255, 165, 0, 0.04);">
@@ -257,7 +257,7 @@
 
 <hr style="border: 1px solid #FFA500;">
 
-<h2 style="text-align: center;"><span style="color: #ffa500;">🖥️ System Requirements</span></h2>
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🖥️ System Requirements</strong></span></p>
 
 <table style="margin-left: auto; margin-right: auto; max-width: 700px; border-collapse: collapse;">
 <thead>
@@ -289,7 +289,7 @@
 
 <hr style="border: 1px solid #FFA500;">
 
-<h2 style="text-align: center;"><span style="color: #ffa500;">🤝 Official Hosting Partner</span></h2>
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🤝 Official Hosting Partner</strong></span></p>
 <p style="text-align: center;">Looking to host your own Arcadia server? Our official US/international partner offers high-performance Minecraft hosting optimized for modpacks.</p>
 
 <p>&nbsp;</p>
@@ -302,7 +302,7 @@
 
 <hr style="border: 1px solid #FFA500;">
 
-<h2 style="text-align: center;"><span style="color: #ffa500;">🚀 Join the Official Arcadia Server</span></h2>
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🚀 Join the Official Arcadia Server</strong></span></p>
 <p style="text-align: center;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/serveur.gif" width="600" alt="Official Arcadia server"></p>
 <p style="text-align: center;">A massive world with custom dungeons, player economy, and a friendly community.<br><span style="color: #00cc00;"><strong>✅ Launch the modpack → Multiplayer → Join Official Server.</strong></span></p>
 
@@ -333,12 +333,12 @@
 
 <p>&nbsp;</p>
 
-<h2 style="text-align: center;"><span style="color: #ffa500;">⚙️ Le Chaînon Manquant</span></h2>
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>⚙️ Le Chaînon Manquant</strong></span></p>
 <p style="text-align: center;">Après une première épopée industrielle, nous avons identifié le « chaînon manquant » : <strong>la symbiose entre le fer et le sortilège</strong>.<br><strong>Arcadia</strong> n'est pas qu'une simple liste de mods — c'est une expérience interconnectée où la vapeur côtoie l'astral.</p>
 
 <p>&nbsp;</p>
 
-<h2 style="text-align: center;"><span style="color: #ffa500;">🏗️ L'Industrie au Cœur de la Magie</span></h2>
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🏗️ L'Industrie au Cœur de la Magie</strong></span></p>
 <p style="text-align: center;">L'ADN reste technique (<strong>Create</strong>, <strong>Mekanism</strong>), avec un tournant majeur : <strong>l'interopérabilité</strong>.</p>
 
 <table>
@@ -412,7 +412,7 @@
 
 <hr style="border: 1px solid #FFA500;">
 
-<h2 style="text-align: center;"><span style="color: #ffa500;">⚔️ Un Monde Vivant & Hostile</span></h2>
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>⚔️ Un Monde Vivant & Hostile</strong></span></p>
 
 <table>
 <tbody>
@@ -456,7 +456,7 @@
 
 <hr style="border: 1px solid #FFA500;">
 
-<h2 style="text-align: center;"><span style="color: #ffa500;">🎒 Qualité de Vie</span></h2>
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🎒 Qualité de Vie</strong></span></p>
 
 <table style="margin-left: auto; margin-right: auto; max-width: 950px;">
 <tbody>
@@ -481,7 +481,7 @@
 
 <p>&nbsp;</p>
 
-<h2 style="text-align: center;"><span style="color: #ffa500;">🌐 Multijoueur & Économie</span></h2>
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🌐 Multijoueur & Économie</strong></span></p>
 <p style="text-align: center;">Conçu pour la communauté. L'économie intégrée favorise les échanges ; les donjons à difficulté progressive (dont certains impossibles en solo !) testeront votre coordination.</p>
 
 <table style="margin-left: auto; margin-right: auto; max-width: 950px;">
@@ -498,7 +498,7 @@
 
 <p>&nbsp;</p>
 
-<h2 style="text-align: center;"><span style="color: #ffa500;">💻 L'Excellence Technique</span></h2>
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>💻 L'Excellence Technique</strong></span></p>
 <p style="text-align: center;">Faire cohabiter <strong>490 mods</strong> demande une rigueur absolue. Nous avons mis l'accent sur deux piliers :</p>
 
 <table style="margin-left: auto; margin-right: auto; max-width: 850px; border: 2px solid #FFA500; background-color: rgba(255, 165, 0, 0.04);">
@@ -518,7 +518,7 @@
 
 <hr style="border: 1px solid #FFA500;">
 
-<h2 style="text-align: center;"><span style="color: #ffa500;">🖥️ Configuration Requise</span></h2>
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🖥️ Configuration Requise</strong></span></p>
 
 <table style="margin-left: auto; margin-right: auto; max-width: 700px; border-collapse: collapse;">
 <thead>
@@ -550,7 +550,7 @@
 
 <hr style="border: 1px solid #FFA500;">
 
-<h2 style="text-align: center;"><span style="color: #ffa500;">🤝 Hébergeur Officiel Partenaire</span></h2>
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🤝 Hébergeur Officiel Partenaire</strong></span></p>
 <p style="text-align: center;">Vous souhaitez héberger votre propre serveur Arcadia ? Notre partenaire officiel français propose un hébergement Minecraft haute performance optimisé pour les modpacks.</p>
 
 <p>&nbsp;</p>
@@ -563,7 +563,7 @@
 
 <hr style="border: 1px solid #FFA500;">
 
-<h2 style="text-align: center;"><span style="color: #ffa500;">🚀 Rejoignez le Serveur Officiel Arcadia</span></h2>
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🚀 Rejoignez le Serveur Officiel Arcadia</strong></span></p>
 <p style="text-align: center;">Un monde immense avec des donjons personnalisés, une économie entre joueurs et une communauté accueillante.<br><span style="color: #00cc00;"><strong>✅ Lancez le modpack → Multijoueur → Rejoindre Serveur Officiel.</strong></span></p>
 
 <p>&nbsp;</p>
@@ -584,7 +584,7 @@
 
 <p>&nbsp;</p>
 
-<h2 style="text-align: center;"><span style="font-size: x-large;">📜 Mod Credits / Crédits des Mods</span></h2>
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large;"><strong>📜 Mod Credits / Crédits des Mods</strong></span></p>
 <p style="text-align: center;"><em>This modpack proudly includes 490+ mods from talented developers worldwide. Thank you for making this adventure possible!</em><br><em>Ce modpack inclut fièrement 490+ mods créés par des développeurs talentueux du monde entier. Merci d'avoir rendu cette aventure possible !</em></p>
 
 <details>
