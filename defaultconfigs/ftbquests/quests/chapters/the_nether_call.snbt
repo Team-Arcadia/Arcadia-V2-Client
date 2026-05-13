@@ -585,25 +585,7 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["03A1750399F9460E"]
-			id: "235D48F86CC8C947"
-			rewards: [{
-				id: "5046E304ACB3D4D2"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "square"
-			tasks: [{
-				id: "26306B3384ED5E2F"
-				structure: "minecraft:fortress"
-				type: "structure"
-			}]
-			x: 9.777721088435378d
-			y: -1.9886054421768726d
-		}
-		{
-			dependencies: ["235D48F86CC8C947"]
-			hide_until_deps_visible: false
+						hide_until_deps_visible: false
 			icon: {
 				id: "minecraft:wither_skeleton_skull"
 			}
@@ -641,7 +623,7 @@
 			hide_dependency_lines: false
 			hide_until_deps_visible: false
 			icon: {
-				id: "minecraft:nether_star"
+				id: "minecraft:obsidian"
 			}
 			id: "69A517AB8A801939"
 			rewards: [{
@@ -654,7 +636,7 @@
 			tasks: [{
 				entity: "minecraft:wither"
 				icon: {
-					id: "minecraft:wither_skeleton_skull"
+					id: "minecraft:nether_star"
 				}
 				id: "76C41881A02F2098"
 				type: "kill"
@@ -732,7 +714,7 @@
 		}
 		{
 			dependencies: [
-				"2EC9668ED4EA47CB"
+				
 				"1E1EB7DC19DDCFB7"
 			]
 			id: "0F026D5A17CCCF51"
@@ -766,49 +748,6 @@
 			}]
 			x: 8.0d
 			y: 3.1071428571428577d
-		}
-		{
-			dependencies: ["6A8F6212EFA9E2C9"]
-			id: "2EC9668ED4EA47CB"
-			rewards: [
-				{
-					id: "317DD048EF0D4A8E"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "4BFB127D1C0C7F48"
-					item: {
-						count: 1
-						id: "minecraft:netherite_scrap"
-					}
-					type: "item"
-				}
-				{
-					count: 48
-					id: "652E7B3B389E8A3E"
-					item: {
-						count: 1
-						id: "minecraft:gold_nugget"
-					}
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			tasks: [
-				{
-					id: "26587B63A006D497"
-					item: { count: 1, id: "create:brass_hand" }
-					type: "item"
-				}
-				{
-					id: "247F8B60580038BA"
-					item: { count: 1, id: "create:deployer" }
-					type: "item"
-				}
-			]
-			x: 6.5d
-			y: 1.6071428571428577d
 		}
 		{
 			dependencies: ["0F026D5A17CCCF51"]
