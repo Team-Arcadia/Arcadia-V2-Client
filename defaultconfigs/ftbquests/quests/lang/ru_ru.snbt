@@ -1863,9 +1863,19 @@
 		quest.1EBB6875B49E0DBA.title: "Guardian Fossil Head"
 		quest.1EBB6875B49E0DBA.quest_subtitle: "Guardian Fossil Head v dorogu."
 		quest.1EBB6875B49E0DBA.quest_desc: ["Zakroyte Guardian Fossil Head. Semena dlya snezhnogo koma."]
-		quest.1EC96B81D46D02DA.title: "/sethome"
-		quest.1EC96B81D46D02DA.quest_subtitle: "Ustanovite dom kak otpravnuyu tochku"
-		quest.1EC96B81D46D02DA.quest_desc: ["Vvedite /sethome chtoby zakrepit tochku doma na tekushchem meste. Vernites k nej v lyuboe vremya cherez /home. Bezopasnaya baza - pervoe, chto nuzhno kazhdomu ranu."]
+		quest.1EC96B81D46D02DA.title: "&a/sethome"
+		quest.1EC96B81D46D02DA.quest_subtitle: "&7Zakrepite bezopasnuyu tochku vozvrata"
+		quest.1EC96B81D46D02DA.quest_desc: [
+			"&2&l» Ustanovit Dom"
+			"&8&m                                "
+			""
+			"&7Soxranyaet vashu tekushchuyu poziciyu kak lichnuyu"
+			"&7tochku doma - bezopasnyj yakor dlya vozvrata."
+			""
+			"&a&lSintaksis:&r  &f/sethome"
+			""
+			"&e&l★ Sovet:&r &7Zapustite, kak tolko pervaya baza budet bezopasna. Mozhno perezapisat v lyuboe vremya, vvedya snova."
+		]
 		quest.1ED96DB273944435.title: "Wither"
 		quest.1ED96DB273944435.quest_subtitle: "Na vetke Wither."
 		quest.1ED96DB273944435.quest_desc: ["Otmette Wither kak gotovyj. Nesushchij, ne yarkij."]
@@ -2160,9 +2170,19 @@
 		quest.24D11ED5F4EEDC48.title: "Sigil Of Socketing"
 		quest.24D11ED5F4EEDC48.quest_subtitle: "Nesite Sigil Of Socketing."
 		quest.24D11ED5F4EEDC48.quest_desc: ["Zarabotajte Sigil Of Socketing trudom. Glava krutitsya vokrug etogo."]
-		quest.24D97D62C72206A2.title: "/ftbchunks unclaim"
-		quest.24D97D62C72206A2.quest_subtitle: "Snimite zakreplenie s chanka"
-		quest.24D97D62C72206A2.quest_desc: ["Vvedite /ftbchunks unclaim chtoby osvobodit chank, v kotorom stoite. Eto osvobozhdaet ego dlya drugix i umenshaet vash schet zakreplenij."]
+		quest.24D97D62C72206A2.title: "&b/ftbchunks unclaim"
+		quest.24D97D62C72206A2.quest_subtitle: "&7Osvobodite zakreplennyj chank"
+		quest.24D97D62C72206A2.quest_desc: [
+			"&3&l» Osvobodit Chank"
+			"&8&m                                "
+			""
+			"&7Osvobozhdaet chank, v kotorom vy stoite. On snova"
+			"&7svoboden dlya vsex i vozvrashchaet odno zakreplenie."
+			""
+			"&b&lSintaksis:&r  &f/ftbchunks unclaim"
+			""
+			"&e&l★ Sovet:&r &7Zakrepleniya ogranicheny. Osvobozhdajte neispolzuemye chanki, chtoby zashchitit vazhnoe."
+		]
 		quest.24DBCCC9F0377909.title: "Sheetmetal Steel"
 		quest.24DBCCC9F0377909.quest_subtitle: "Stroyte tsep Sheetmetal Steel."
 		quest.24DBCCC9F0377909.quest_desc: ["Zarabotajte Sheetmetal Steel. Sebya okupaet."]
@@ -2661,9 +2681,19 @@
 		quest.2EC2FA680076C07D.title: "Echoing Sculkshelf"
 		quest.2EC2FA680076C07D.quest_subtitle: "Echoing Sculkshelf opravdyvaet sebya."
 		quest.2EC2FA680076C07D.quest_desc: ["Zavernite Echoing Sculkshelf. Melkie pobedy summiruyutsya."]
-		quest.2EC96B81D46D02DB.title: "/home"
-		quest.2EC96B81D46D02DB.quest_subtitle: "Vernites domoj"
-		quest.2EC96B81D46D02DB.quest_desc: ["Vvedite /home chtoby teleportirovatsya v tochku, soxranennuyu cherez /sethome. Vash samyj bystryj vyhod iz bedy - i vozvrat k xranilishchu."]
+		quest.2EC96B81D46D02DB.title: "&a/home"
+		quest.2EC96B81D46D02DB.quest_subtitle: "&7Teleportirujtes obratno domoj"
+		quest.2EC96B81D46D02DB.quest_desc: [
+			"&2&l» Domoj"
+			"&8&m                                "
+			""
+			"&7Teleportiruet vas pryamo k tochke, soxranennoj"
+			"&7cherez /sethome. Vash samyj bystryj put otstupleniya."
+			""
+			"&a&lSintaksis:&r  &f/home"
+			""
+			"&e&l★ Sovet:&r &7Kogda boj idet ploxo, snachala /home, voprosy potom. Xranilishche i lechenie zhdut tam."
+		]
 		quest.2F11568F631B0858.title: "Stack Upgrade Tier 1"
 		quest.2F11568F631B0858.quest_subtitle: "Priz bditelnyj: Stack Upgrade Tier 1."
 		quest.2F11568F631B0858.quest_desc: ["Sxvatite Stack Upgrade Tier 1. Tixij kapital."]
@@ -3399,9 +3429,19 @@
 		quest.3EC8A0B89788D079.title: "Flippers"
 		quest.3EC8A0B89788D079.quest_subtitle: "Flippers: kivok glavy."
 		quest.3EC8A0B89788D079.quest_desc: ["Zarabotajte Flippers trudom. Snezhnyj kom otsyuda."]
-		quest.3EC96B81D46D02DC.title: "/tpdeny"
-		quest.3EC96B81D46D02DC.quest_subtitle: "Otklonite zapros na teleportatsiyu"
-		quest.3EC96B81D46D02DC.quest_desc: ["Vvedite /tpdeny chtoby otklonit ozhidayushchij zapros na teleportatsiyu. Ispolzujte, kogda ne hotite, chtoby vas bespokoili sejchas."]
+		quest.3EC96B81D46D02DC.title: "&d/tpdeny"
+		quest.3EC96B81D46D02DC.quest_subtitle: "&7Otklonite zapros teleportacii"
+		quest.3EC96B81D46D02DC.quest_desc: [
+			"&5&l» Otklonit Teleportaciyu"
+			"&8&m                                "
+			""
+			"&7Otklonyaet ozhidayushchij zapros teleportacii."
+			"&7Ispolzujte, kogda ne xotite, chtoby vas bespokoili."
+			""
+			"&d&lSintaksis:&r  &f/tpdeny"
+			""
+			"&e&l★ Sovet:&r &7Ignorirovanie zaprosa tozhe rabotaet - on istechet sam - no /tpdeny chetko soobshchaet igroku."
+		]
 		quest.3EFDD3F3EA8C9F24.title: "Apple Must"
 		quest.3EFDD3F3EA8C9F24.quest_subtitle: "Otmette Apple Must."
 		quest.3EFDD3F3EA8C9F24.quest_desc: ["Vnesite Apple Must v dnevnik. Korotkogo puti zdes net."]
@@ -3930,9 +3970,19 @@
 		quest.48DAFA0BB8A74C96.title: "Spider"
 		quest.48DAFA0BB8A74C96.quest_subtitle: "Zarabotajte: Spider."
 		quest.48DAFA0BB8A74C96.quest_desc: ["Spider: eshchyo odna stupen'. Spokojstvie pobezhdaet speshku."]
-		quest.48F19F6D47988804.title: "/tpahere"
-		quest.48F19F6D47988804.quest_subtitle: "Teleportirujte kogo-to k sebe"
-		quest.48F19F6D47988804.quest_desc: ["Vvedite /tpahere <igrok> chtoby poprosit drugogo igroka pribyt k vashemu mestu. On podtverzhdaet cherez /tpaccept pered pryzhkom."]
+		quest.48F19F6D47988804.title: "&d/tpahere"
+		quest.48F19F6D47988804.quest_subtitle: "&7Poprosite igroka pribyt k vam"
+		quest.48F19F6D47988804.quest_desc: [
+			"&5&l» Prizvat Igroka K Sebe"
+			"&8&m                                "
+			""
+			"&7Prosit drugogo igroka teleportirovatsya k vam."
+			"&7On podtverzhdaet cherez /tpaccept pered pryzhkom."
+			""
+			"&d&lSintaksis:&r  &f/tpahere <igrok>"
+			""
+			"&e&l★ Sovet:&r &7Idealno, chtoby privesti druga na bazu, ne nazyvaya koordinaty vsluh."
+		]
 		quest.48FA730408B171E8.title: "Andesite Scaffolding"
 		quest.48FA730408B171E8.quest_subtitle: "Andesite Scaffolding otkryvaet bolshe."
 		quest.48FA730408B171E8.quest_desc: ["Voz'mite Andesite Scaffolding mimoxodom. Stabil'no - bystro."]
@@ -4260,9 +4310,19 @@
 		quest.4EBEF9550FDE4DA2.title: "Bogged"
 		quest.4EBEF9550FDE4DA2.quest_subtitle: "akkuratnyj pryzhok: Bogged."
 		quest.4EBEF9550FDE4DA2.quest_desc: ["Zarabotajte Bogged shag za shagom. Skromen seychas, moshchen potom."]
-		quest.4EC96B81D46D02DD.title: "/ftbchunks claim-radius"
-		quest.4EC96B81D46D02DD.quest_subtitle: "Zakrepite neskolko chankov srazu"
-		quest.4EC96B81D46D02DD.quest_desc: ["Vvedite /ftbchunks claim-radius <n> chtoby zakrepit kvadrat chankov vokrug vas odnoj komandoj. Bystryj sposob obezopasit tseluyu bazu."]
+		quest.4EC96B81D46D02DD.title: "&b/ftbchunks claim-radius"
+		quest.4EC96B81D46D02DD.quest_subtitle: "&7Zakrepite celuyu zonu srazu"
+		quest.4EC96B81D46D02DD.quest_desc: [
+			"&3&l» Zakrepit Chanki V Radiuse"
+			"&8&m                                "
+			""
+			"&7Zakreplyaet kvadrat chankov s centrom na vas odnoj"
+			"&7komandoj - bystraya zashchita bazy."
+			""
+			"&b&lSintaksis:&r  &f/ftbchunks claim-radius <n>"
+			""
+			"&e&l★ Sovet:&r &7Radius 1 zakreplyaet kvadrat 3x3 (9 chankov). Sledite za limitom, prezhde chem brat bolshe."
+		]
 		quest.4EDD96EB60EF5814.title: "Advanced Solar Generator"
 		quest.4EDD96EB60EF5814.quest_subtitle: "Advanced Solar Generator opravdyvaet sebya."
 		quest.4EDD96EB60EF5814.quest_desc: ["Otlozhite Advanced Solar Generator. Snezhnyj kom otsyuda."]
@@ -4584,9 +4644,21 @@
 		quest.5625C24210840096.title: "Uzel progressa"
 		quest.5625C24210840096.quest_subtitle: "Derzhite liniyu i prodvigajtes."
 		quest.5625C24210840096.quest_desc: ["Tochka na vashem rane. Soxranite snaryazhenie, sosch'tajte pobedy i idite k sleduyushchemu etapu."]
-		quest.5647D4FC69D0963E.title: "/ftbchunks claim"
-		quest.5647D4FC69D0963E.quest_subtitle: "Zakrepite chank chtoby zashchitit ego"
-		quest.5647D4FC69D0963E.quest_desc: ["Vvedite /ftbchunks claim chtoby zashchitit chank, v kotorom stoite. Predpochitaete kartu? Otkrojte inventar i nazhmite na znachok FTB Chunks chtoby zakreplyat kletki vizualno."]
+		quest.5647D4FC69D0963E.title: "&b/ftbchunks claim"
+		quest.5647D4FC69D0963E.quest_subtitle: "&7Zashchitite zemlyu pod nogami"
+		quest.5647D4FC69D0963E.quest_desc: [
+			"&3&l» Zakrepit Chank"
+			"&8&m                                "
+			""
+			"&7Zashchishchaet chank, v kotorom vy stoite, ot"
+			"&7drugix igrokov - bez grifa, bez krazhi."
+			""
+			"&b&lSintaksis:&r  &f/ftbchunks claim"
+			""
+			"&e&l★ Sovet:&r &7Predpochitaete kartu? Otkrojte inventar i nazhmite znachok FTB Chunks, chtoby zakreplyat kletki."
+			""
+			"&8&l● Zametka:&r &8Chank - eto kolonna 16x16 blokov. Nazhmite F3+G, chtoby uvidet granicy."
+		]
 		quest.5647D63564924EEC.title: "Umvuthana"
 		quest.5647D63564924EEC.quest_subtitle: "Voz'mite Umvuthana v etot ran."
 		quest.5647D63564924EEC.quest_desc: ["Umvuthana: nesushchij, ne gromkij. Tixij kapital."]
@@ -4932,9 +5004,19 @@
 		quest.5EB7CE3A1DCD3E9B.title: "Universal Attractor"
 		quest.5EB7CE3A1DCD3E9B.quest_subtitle: "Kirpich: Universal Attractor."
 		quest.5EB7CE3A1DCD3E9B.quest_desc: ["Razblokirujte Universal Attractor. Myagkij rubezh."]
-		quest.5EC96B81D46D02DE.title: "/ftbchunks info"
-		quest.5EC96B81D46D02DE.quest_subtitle: "Prosmotrite vashi zakreplennye chanki"
-		quest.5EC96B81D46D02DE.quest_desc: ["Vvedite /ftbchunks info chtoby uvidet detali chanka, v kotorom stoite - kto im vladeet i zakreplen li on ili prinuditelno zagruzhen."]
+		quest.5EC96B81D46D02DE.title: "&b/ftbchunks info"
+		quest.5EC96B81D46D02DE.quest_subtitle: "&7Osmotrite chank pod nogami"
+		quest.5EC96B81D46D02DE.quest_desc: [
+			"&3&l» Osmotret Chank"
+			"&8&m                                "
+			""
+			"&7Pokazyvaet detali chanka, v kotorom vy stoite - kto"
+			"&7vladeet i zakreplen li on ili prinuditelno zagruzhen."
+			""
+			"&b&lSintaksis:&r  &f/ftbchunks info"
+			""
+			"&e&l★ Sovet:&r &7Ispolzujte pered strojkoj, chtoby proverit svobodno li mesto, ili uznat vladelca zemli."
+		]
 		quest.5ECA82D3CE884738.title: "Blaze"
 		quest.5ECA82D3CE884738.quest_subtitle: "Otmette Blaze."
 		quest.5ECA82D3CE884738.quest_desc: ["Zakroyte Blaze. Stabil'no - bystro."]
@@ -5157,9 +5239,19 @@
 		quest.62FC819D78183B8B.title: "Umvuthana Crane"
 		quest.62FC819D78183B8B.quest_subtitle: "Odin Umvuthana Crane, spokojnyj pobeda."
 		quest.62FC819D78183B8B.quest_desc: ["Dobav'te Umvuthana Crane v kit. Vy sebe potom skazhete spasibo."]
-		quest.62FEAE3499CF2181.title: "/tpaccept"
-		quest.62FEAE3499CF2181.quest_subtitle: "Primite zapros na teleportatsiyu"
-		quest.62FEAE3499CF2181.quest_desc: ["Vvedite /tpaccept chtoby odobrit ozhidayushchij zapros na teleportatsiyu k vam. Drugoj igrok budet dostavlen k vashej storone."]
+		quest.62FEAE3499CF2181.title: "&d/tpaccept"
+		quest.62FEAE3499CF2181.quest_subtitle: "&7Odobrite zapros teleportacii"
+		quest.62FEAE3499CF2181.quest_desc: [
+			"&5&l» Prinyat Teleportaciyu"
+			"&8&m                                "
+			""
+			"&7Odobryaet ozhidayushchij zapros teleportacii k vam."
+			"&7Drugoj igrok budet dostavlen k vashej storone."
+			""
+			"&d&lSintaksis:&r  &f/tpaccept"
+			""
+			"&e&l★ Sovet:&r &7Zaprosy istekayut cherez korotkoe vremya, primite poka on eshche na ekrane."
+		]
 		quest.6307A9228082ED4D.title: "Roving Cube"
 		quest.6307A9228082ED4D.quest_subtitle: "Na puti k Roving Cube."
 		quest.6307A9228082ED4D.quest_desc: ["Polozhite Roving Cube v inventar. Eshchyo odin kirpich v stene."]
@@ -5319,9 +5411,19 @@
 		quest.6639EA70C5834AB6.title: "Ghast"
 		quest.6639EA70C5834AB6.quest_subtitle: "Kruk za Ghast stoit."
 		quest.6639EA70C5834AB6.quest_desc: ["Razblokirujte Ghast. Glava proshla polputi s vami."]
-		quest.6647D4FC69D0963F.title: "/back"
-		quest.6647D4FC69D0963F.quest_subtitle: "Vernites na poslednee mesto"
-		quest.6647D4FC69D0963F.quest_desc: ["Vvedite /back chtoby vernutsya tuda, gde vy byli do poslednej teleportatsii ili smerti. Netsenimo dlya vozvrata vypavshix predmetov posle padeniya."]
+		quest.6647D4FC69D0963F.title: "&a/back"
+		quest.6647D4FC69D0963F.quest_subtitle: "&7Vernites na poslednee mesto"
+		quest.6647D4FC69D0963F.quest_desc: [
+			"&2&l» Nazad"
+			"&8&m                                "
+			""
+			"&7Vozvrashchaet vas tuda, gde vy byli pryamo pered"
+			"&7poslednej teleportaciej - ili poslednej smertyu."
+			""
+			"&a&lSintaksis:&r  &f/back"
+			""
+			"&e&l★ Sovet:&r &7Pogibli v glubokoj peshchere? /back vernet vas tuda, gde vy upali, chtoby zabrat snaryazhenie."
+		]
 		quest.6667638252DB9C74.title: "Gem Fused Slate"
 		quest.6667638252DB9C74.quest_subtitle: "V karmane: Gem Fused Slate."
 		quest.6667638252DB9C74.quest_desc: ["Zafiksirujte Gem Fused Slate. Malenkij shag na dolgom puti."]
@@ -5778,9 +5880,19 @@
 		quest.6EC6579BCB387185.title: "Foliaath"
 		quest.6EC6579BCB387185.quest_subtitle: "Na puti k Foliaath."
 		quest.6EC6579BCB387185.quest_desc: ["Foliaath - chast' tsepi. Stoit zakrepit'."]
-		quest.6EC96B81D46D02DF.title: "/tpa"
-		quest.6EC96B81D46D02DF.quest_subtitle: "Otpravte zapros na teleportatsiyu"
-		quest.6EC96B81D46D02DF.quest_desc: ["Vvedite /tpa <igrok> chtoby poprosit teleportirovatsya k komu-to. On dolzhen prinyat do vashego peremeshcheniya - bez vneza pnyx vizitov."]
+		quest.6EC96B81D46D02DF.title: "&d/tpa"
+		quest.6EC96B81D46D02DF.quest_subtitle: "&7Poprosite teleport k igroku"
+		quest.6EC96B81D46D02DF.quest_desc: [
+			"&5&l» Teleportaciya K Igroku"
+			"&8&m                                "
+			""
+			"&7Otpravlyaet zapros na teleportaciyu k drugomu"
+			"&7igroku. On dolzhen prinyat do vashego peremeshcheniya."
+			""
+			"&d&lSintaksis:&r  &f/tpa <igrok>"
+			""
+			"&e&l★ Sovet:&r &7Bez vneza pnyx vizitov - drugoj igrok vsegda podtverzhdaet cherez /tpaccept ili /tpdeny."
+		]
 		quest.6ECE9EFDAD5AEAD9.title: "Redcap Sapper"
 		quest.6ECE9EFDAD5AEAD9.quest_subtitle: "Odin Redcap Sapper, izmerennyj pobeda."
 		quest.6ECE9EFDAD5AEAD9.quest_desc: ["Sxvatite Redcap Sapper. Most mezhdu sdelannym i predstoyashchim."]
@@ -6195,9 +6307,19 @@
 		quest.764303F7078E8D84.title: "Objective"
 		quest.764303F7078E8D84.quest_subtitle: "greben opravdyvaet sebya."
 		quest.764303F7078E8D84.quest_desc: ["greben: nesushchij, ne gromkij. Korotkogo puti zdes net."]
-		quest.7647D4FC69D09640.title: "/spawn"
-		quest.7647D4FC69D09640.quest_subtitle: "Otpravtes k tochke vozrozhdeniya mira"
-		quest.7647D4FC69D09640.quest_desc: ["Vvedite /spawn chtoby teleportirovatsya v zonu spauna servera. Obshchij xab, gde sobirayutsya torgovlya, info-doski i drugie igroki."]
+		quest.7647D4FC69D09640.title: "&a/spawn"
+		quest.7647D4FC69D09640.quest_subtitle: "&7Teleportirujtes k spaunu mira"
+		quest.7647D4FC69D09640.quest_desc: [
+			"&2&l» K Spaunu"
+			"&8&m                                "
+			""
+			"&7Teleportiruet vas v zonu spauna servera - obshchij"
+			"&7xab dlya torgovli i vstrech s igrokami."
+			""
+			"&a&lSintaksis:&r  &f/spawn"
+			""
+			"&e&l★ Sovet:&r &7Vpervye na servere? Na spaune est info-doski, magaziny i igroki. Osmotrites zdes."
+		]
 		quest.764E38C743E34E38.title: "Endermite"
 		quest.764E38C743E34E38.quest_subtitle: "Nesite Endermite."
 		quest.764E38C743E34E38.quest_desc: ["Polozhite Endermite v inventar. Eshchyo odin kirpich v stene."]

@@ -1863,9 +1863,19 @@
 		quest.1EBB6875B49E0DBA.title: "Guardian Fossil Head"
 		quest.1EBB6875B49E0DBA.quest_subtitle: "Un Guardian Fossil Head para el camino."
 		quest.1EBB6875B49E0DBA.quest_desc: ["Cierra el Guardian Fossil Head. Una semilla para la bola de nieve."]
-		quest.1EC96B81D46D02DA.title: "/sethome"
-		quest.1EC96B81D46D02DA.quest_subtitle: "Fija tu hogar como punto de partida"
-		quest.1EC96B81D46D02DA.quest_desc: ["Escribe /sethome para anclar un punto de hogar en tu posicion actual. Vuelve a el cuando quieras con /home. Una base segura es lo primero que necesita toda partida."]
+		quest.1EC96B81D46D02DA.title: "&a/sethome"
+		quest.1EC96B81D46D02DA.quest_subtitle: "&7Ancla un punto de regreso seguro"
+		quest.1EC96B81D46D02DA.quest_desc: [
+			"&2&l» Fijar Tu Hogar"
+			"&8&m                                "
+			""
+			"&7Guarda tu posicion actual como punto de hogar"
+			"&7personal - un ancla segura a la que siempre volver."
+			""
+			"&a&lUso:&r  &f/sethome"
+			""
+			"&e&l★ Consejo:&r &7Usalo en cuanto tu primera base sea segura. Puedes sobrescribirlo en cualquier momento volviendo a escribirlo."
+		]
 		quest.1ED96DB273944435.title: "Wither"
 		quest.1ED96DB273944435.quest_subtitle: "En la rama del Wither."
 		quest.1ED96DB273944435.quest_desc: ["Marca el Wither hecho. Estructural, no llamativo."]
@@ -2160,9 +2170,19 @@
 		quest.24D11ED5F4EEDC48.title: "Sigil Of Socketing"
 		quest.24D11ED5F4EEDC48.quest_subtitle: "Lleva el Sigil Of Socketing."
 		quest.24D11ED5F4EEDC48.quest_desc: ["Ganate el Sigil Of Socketing con esfuerzo. El capitulo gira en torno a esto."]
-		quest.24D97D62C72206A2.title: "/ftbchunks unclaim"
-		quest.24D97D62C72206A2.quest_subtitle: "Quita la reclamacion de un chunk"
-		quest.24D97D62C72206A2.quest_desc: ["Escribe /ftbchunks unclaim para liberar el chunk donde estas. Lo deja libre para otros y reduce tu numero de reclamaciones."]
+		quest.24D97D62C72206A2.title: "&b/ftbchunks unclaim"
+		quest.24D97D62C72206A2.quest_subtitle: "&7Libera un chunk reclamado"
+		quest.24D97D62C72206A2.quest_desc: [
+			"&3&l» Liberar Un Chunk"
+			"&8&m                                "
+			""
+			"&7Libera el chunk donde estas. Vuelve a estar libre"
+			"&7para todos y recuperas una reclamacion."
+			""
+			"&b&lUso:&r  &f/ftbchunks unclaim"
+			""
+			"&e&l★ Consejo:&r &7Las reclamaciones son limitadas. Libera los chunks que ya no uses para proteger lo importante."
+		]
 		quest.24DBCCC9F0377909.title: "Sheetmetal Steel"
 		quest.24DBCCC9F0377909.quest_subtitle: "Refuerza la cadena del Sheetmetal Steel."
 		quest.24DBCCC9F0377909.quest_desc: ["Gana el Sheetmetal Steel. Paga su propio flete."]
@@ -2661,9 +2681,19 @@
 		quest.2EC2FA680076C07D.title: "Echoing Sculkshelf"
 		quest.2EC2FA680076C07D.quest_subtitle: "El Echoing Sculkshelf se paga solo."
 		quest.2EC2FA680076C07D.quest_desc: ["Envuelve el Echoing Sculkshelf. Las victorias chicas suman."]
-		quest.2EC96B81D46D02DB.title: "/home"
-		quest.2EC96B81D46D02DB.quest_subtitle: "Vuelve a tu hogar"
-		quest.2EC96B81D46D02DB.quest_desc: ["Escribe /home para teletransportarte al punto guardado con /sethome. Tu salida mas rapida de un apuro - y de vuelta a tu almacen."]
+		quest.2EC96B81D46D02DB.title: "&a/home"
+		quest.2EC96B81D46D02DB.quest_subtitle: "&7Teletransportate a tu hogar"
+		quest.2EC96B81D46D02DB.quest_desc: [
+			"&2&l» Ir A Casa"
+			"&8&m                                "
+			""
+			"&7Te teletransporta directo al punto que guardaste"
+			"&7con /sethome. Tu ruta de escape mas rapida."
+			""
+			"&a&lUso:&r  &f/home"
+			""
+			"&e&l★ Consejo:&r &7Cuando una pelea se complica, /home primero y preguntas despues. El almacen y la cura te esperan."
+		]
 		quest.2F11568F631B0858.title: "Stack Upgrade Tier 1"
 		quest.2F11568F631B0858.quest_subtitle: "Premio vigilante: el Stack Upgrade Tier 1."
 		quest.2F11568F631B0858.quest_desc: ["Aferra el Stack Upgrade Tier 1. Capital silencioso."]
@@ -3399,9 +3429,19 @@
 		quest.3EC8A0B89788D079.title: "Flippers"
 		quest.3EC8A0B89788D079.quest_subtitle: "El Flippers: guino del capitulo."
 		quest.3EC8A0B89788D079.quest_desc: ["Ganate el Flippers con esfuerzo. Bola de nieve desde aqui."]
-		quest.3EC96B81D46D02DC.title: "/tpdeny"
-		quest.3EC96B81D46D02DC.quest_subtitle: "Rechaza una solicitud de teletransporte"
-		quest.3EC96B81D46D02DC.quest_desc: ["Escribe /tpdeny para rechazar una solicitud de teletransporte pendiente. Usalo cuando prefieres no ser molestado ahora mismo."]
+		quest.3EC96B81D46D02DC.title: "&d/tpdeny"
+		quest.3EC96B81D46D02DC.quest_subtitle: "&7Rechaza una solicitud de teleport"
+		quest.3EC96B81D46D02DC.quest_desc: [
+			"&5&l» Rechazar Un Teletransporte"
+			"&8&m                                "
+			""
+			"&7Rechaza una solicitud de teletransporte pendiente."
+			"&7Usalo cuando prefieres no ser molestado ahora."
+			""
+			"&d&lUso:&r  &f/tpdeny"
+			""
+			"&e&l★ Consejo:&r &7Ignorar la solicitud tambien sirve - caduca sola - pero /tpdeny avisa claramente al jugador."
+		]
 		quest.3EFDD3F3EA8C9F24.title: "Apple Must"
 		quest.3EFDD3F3EA8C9F24.quest_subtitle: "Marca el Apple Must."
 		quest.3EFDD3F3EA8C9F24.quest_desc: ["Anota el Apple Must en tu bitacora. El atajo no esta aqui."]
@@ -3930,9 +3970,19 @@
 		quest.48DAFA0BB8A74C96.title: "Spider"
 		quest.48DAFA0BB8A74C96.quest_subtitle: "Ganatelo: el Spider."
 		quest.48DAFA0BB8A74C96.quest_desc: ["El Spider: un peldano mas. La calma vence al apuro."]
-		quest.48F19F6D47988804.title: "/tpahere"
-		quest.48F19F6D47988804.quest_subtitle: "Teletransporta a alguien hacia ti"
-		quest.48F19F6D47988804.quest_desc: ["Escribe /tpahere <jugador> para pedir a otro jugador que venga a tu ubicacion. Confirma con /tpaccept antes del salto."]
+		quest.48F19F6D47988804.title: "&d/tpahere"
+		quest.48F19F6D47988804.quest_subtitle: "&7Pide a un jugador que venga"
+		quest.48F19F6D47988804.quest_desc: [
+			"&5&l» Traer A Un Jugador Hacia Ti"
+			"&8&m                                "
+			""
+			"&7Pide a otro jugador que se teletransporte a tu"
+			"&7ubicacion. Confirma con /tpaccept antes del salto."
+			""
+			"&d&lUso:&r  &f/tpahere <jugador>"
+			""
+			"&e&l★ Consejo:&r &7Ideal para guiar a un amigo a tu base sin decir tus coordenadas en voz alta."
+		]
 		quest.48FA730408B171E8.title: "Andesite Scaffolding"
 		quest.48FA730408B171E8.quest_subtitle: "El Andesite Scaffolding abre mas."
 		quest.48FA730408B171E8.quest_desc: ["Recoge el Andesite Scaffolding de pasada. Constante es rapido."]
@@ -4260,9 +4310,19 @@
 		quest.4EBEF9550FDE4DA2.title: "Bogged"
 		quest.4EBEF9550FDE4DA2.quest_subtitle: "Salto prolijo: el Bogged."
 		quest.4EBEF9550FDE4DA2.quest_desc: ["Gana el Bogged paso a paso. Modesto ahora, poderoso despues."]
-		quest.4EC96B81D46D02DD.title: "/ftbchunks claim-radius"
-		quest.4EC96B81D46D02DD.quest_subtitle: "Reclama varios chunks de una vez"
-		quest.4EC96B81D46D02DD.quest_desc: ["Escribe /ftbchunks claim-radius <n> para reclamar un cuadrado de chunks a tu alrededor en un solo comando. La forma rapida de asegurar una base entera."]
+		quest.4EC96B81D46D02DD.title: "&b/ftbchunks claim-radius"
+		quest.4EC96B81D46D02DD.quest_subtitle: "&7Reclama un area entera de golpe"
+		quest.4EC96B81D46D02DD.quest_desc: [
+			"&3&l» Reclamar Chunks En Radio"
+			"&8&m                                "
+			""
+			"&7Reclama un cuadrado de chunks centrado en ti con"
+			"&7un solo comando - proteccion rapida de la base."
+			""
+			"&b&lUso:&r  &f/ftbchunks claim-radius <n>"
+			""
+			"&e&l★ Consejo:&r &7Un radio de 1 reclama un cuadrado 3x3 (9 chunks). Vigila tu limite antes de ir a lo grande."
+		]
 		quest.4EDD96EB60EF5814.title: "Advanced Solar Generator"
 		quest.4EDD96EB60EF5814.quest_subtitle: "El Advanced Solar Generator se paga solo."
 		quest.4EDD96EB60EF5814.quest_desc: ["Reserva el Advanced Solar Generator. Bola de nieve desde aqui."]
@@ -4584,9 +4644,21 @@
 		quest.5625C24210840096.title: "Nodo de progreso"
 		quest.5625C24210840096.quest_subtitle: "Manten la linea, luego avanza."
 		quest.5625C24210840096.quest_desc: ["Un punto en tu ruta. Guarda el equipo, cuenta las victorias y empuja hacia la siguiente etapa."]
-		quest.5647D4FC69D0963E.title: "/ftbchunks claim"
-		quest.5647D4FC69D0963E.quest_subtitle: "Reclama un chunk para protegerlo"
-		quest.5647D4FC69D0963E.quest_desc: ["Escribe /ftbchunks claim para proteger el chunk donde estas. Prefieres un mapa? Abre el inventario y pulsa el icono de FTB Chunks para reclamar casillas de forma visual."]
+		quest.5647D4FC69D0963E.title: "&b/ftbchunks claim"
+		quest.5647D4FC69D0963E.quest_subtitle: "&7Protege el suelo donde estas"
+		quest.5647D4FC69D0963E.quest_desc: [
+			"&3&l» Reclamar Un Chunk"
+			"&8&m                                "
+			""
+			"&7Protege el chunk donde estas de otros jugadores"
+			"&7- sin griefing, sin robos."
+			""
+			"&b&lUso:&r  &f/ftbchunks claim"
+			""
+			"&e&l★ Consejo:&r &7Prefieres un mapa? Abre el inventario y pulsa el icono de FTB Chunks para reclamar casillas."
+			""
+			"&8&l● Nota:&r &8Un chunk es una columna de 16x16 bloques. Pulsa F3+G para ver los bordes."
+		]
 		quest.5647D63564924EEC.title: "Umvuthana"
 		quest.5647D63564924EEC.quest_subtitle: "Pesca el Umvuthana esta partida."
 		quest.5647D63564924EEC.quest_desc: ["El Umvuthana: estructural, no ruidoso. Capital silencioso."]
@@ -4932,9 +5004,19 @@
 		quest.5EB7CE3A1DCD3E9B.title: "Universal Attractor"
 		quest.5EB7CE3A1DCD3E9B.quest_subtitle: "Ladrillo: el Universal Attractor."
 		quest.5EB7CE3A1DCD3E9B.quest_desc: ["Desbloquea el Universal Attractor. Hito suave."]
-		quest.5EC96B81D46D02DE.title: "/ftbchunks info"
-		quest.5EC96B81D46D02DE.quest_subtitle: "Consulta tus chunks reclamados"
-		quest.5EC96B81D46D02DE.quest_desc: ["Escribe /ftbchunks info para ver detalles del chunk donde estas - quien lo posee y si esta reclamado o cargado a la fuerza."]
+		quest.5EC96B81D46D02DE.title: "&b/ftbchunks info"
+		quest.5EC96B81D46D02DE.quest_subtitle: "&7Inspecciona el chunk donde estas"
+		quest.5EC96B81D46D02DE.quest_desc: [
+			"&3&l» Inspeccionar Un Chunk"
+			"&8&m                                "
+			""
+			"&7Muestra detalles del chunk donde estas - quien lo"
+			"&7posee, y si esta reclamado o cargado a la fuerza."
+			""
+			"&b&lUso:&r  &f/ftbchunks info"
+			""
+			"&e&l★ Consejo:&r &7Usalo antes de construir para ver si un sitio esta libre, o para saber quien posee la tierra."
+		]
 		quest.5ECA82D3CE884738.title: "Blaze"
 		quest.5ECA82D3CE884738.quest_subtitle: "Marca el Blaze."
 		quest.5ECA82D3CE884738.quest_desc: ["Cierra el Blaze. Constante es rapido."]
@@ -5157,9 +5239,19 @@
 		quest.62FC819D78183B8B.title: "Umvuthana Crane"
 		quest.62FC819D78183B8B.quest_subtitle: "Un Umvuthana Crane, victoria calmo."
 		quest.62FC819D78183B8B.quest_desc: ["Sumalo a tu kit: el Umvuthana Crane. El futuro te lo agradecera."]
-		quest.62FEAE3499CF2181.title: "/tpaccept"
-		quest.62FEAE3499CF2181.quest_subtitle: "Acepta una solicitud de teletransporte"
-		quest.62FEAE3499CF2181.quest_desc: ["Escribe /tpaccept para aprobar una solicitud de teletransporte pendiente que te enviaron. El otro jugador es traido a tu lado."]
+		quest.62FEAE3499CF2181.title: "&d/tpaccept"
+		quest.62FEAE3499CF2181.quest_subtitle: "&7Aprueba una solicitud de teleport"
+		quest.62FEAE3499CF2181.quest_desc: [
+			"&5&l» Aceptar Un Teletransporte"
+			"&8&m                                "
+			""
+			"&7Aprueba una solicitud de teletransporte pendiente."
+			"&7El otro jugador es traido a tu lado."
+			""
+			"&d&lUso:&r  &f/tpaccept"
+			""
+			"&e&l★ Consejo:&r &7Las solicitudes caducan tras poco tiempo, acepta mientras siga en pantalla."
+		]
 		quest.6307A9228082ED4D.title: "Roving Cube"
 		quest.6307A9228082ED4D.quest_subtitle: "En ruta al Roving Cube."
 		quest.6307A9228082ED4D.quest_desc: ["Mete el Roving Cube en el inventario. Un ladrillo mas en una pared."]
@@ -5319,9 +5411,19 @@
 		quest.6639EA70C5834AB6.title: "Ghast"
 		quest.6639EA70C5834AB6.quest_subtitle: "Vale el desvio por el Ghast."
 		quest.6639EA70C5834AB6.quest_desc: ["Desbloquea el Ghast. Medio camino hecho contigo."]
-		quest.6647D4FC69D0963F.title: "/back"
-		quest.6647D4FC69D0963F.quest_subtitle: "Vuelve a tu ultima ubicacion"
-		quest.6647D4FC69D0963F.quest_desc: ["Escribe /back para volver a donde estabas antes de tu ultimo teletransporte o muerte. Util para recuperar objetos perdidos tras una mala caida."]
+		quest.6647D4FC69D0963F.title: "&a/back"
+		quest.6647D4FC69D0963F.quest_subtitle: "&7Regresa a tu ultima ubicacion"
+		quest.6647D4FC69D0963F.quest_desc: [
+			"&2&l» Volver Atras"
+			"&8&m                                "
+			""
+			"&7Te devuelve a donde estabas justo antes de tu"
+			"&7ultimo teletransporte - o tu ultima muerte."
+			""
+			"&a&lUso:&r  &f/back"
+			""
+			"&e&l★ Consejo:&r &7Moriste en una cueva profunda? /back te deja donde caiste para recuperar tu equipo."
+		]
 		quest.6667638252DB9C74.title: "Gem Fused Slate"
 		quest.6667638252DB9C74.quest_subtitle: "En el bolsillo: el Gem Fused Slate."
 		quest.6667638252DB9C74.quest_desc: ["Asegura el Gem Fused Slate. Un paso chico en un camino largo."]
@@ -5778,9 +5880,19 @@
 		quest.6EC6579BCB387185.title: "Foliaath"
 		quest.6EC6579BCB387185.quest_subtitle: "En ruta al Foliaath."
 		quest.6EC6579BCB387185.quest_desc: ["El Foliaath es parte de la cadena. Vale anotarlo."]
-		quest.6EC96B81D46D02DF.title: "/tpa"
-		quest.6EC96B81D46D02DF.quest_subtitle: "Envia una solicitud de teletransporte"
-		quest.6EC96B81D46D02DF.quest_desc: ["Escribe /tpa <jugador> para pedir teletransportarte hacia alguien. Debe aceptar antes de que te muevas - sin visitas sorpresa."]
+		quest.6EC96B81D46D02DF.title: "&d/tpa"
+		quest.6EC96B81D46D02DF.quest_subtitle: "&7Pide teletransportarte a un jugador"
+		quest.6EC96B81D46D02DF.quest_desc: [
+			"&5&l» Teletransportarte A Un Jugador"
+			"&8&m                                "
+			""
+			"&7Envia una solicitud para teletransportarte hacia"
+			"&7otro jugador. Debe aceptar antes de moverte."
+			""
+			"&d&lUso:&r  &f/tpa <jugador>"
+			""
+			"&e&l★ Consejo:&r &7Sin visitas sorpresa - el otro jugador siempre confirma con /tpaccept o /tpdeny."
+		]
 		quest.6ECE9EFDAD5AEAD9.title: "Redcap Sapper"
 		quest.6ECE9EFDAD5AEAD9.quest_subtitle: "Un Redcap Sapper, victoria medido."
 		quest.6ECE9EFDAD5AEAD9.quest_desc: ["Aferra el Redcap Sapper. Puente entre lo hecho y lo siguiente."]
@@ -6195,9 +6307,19 @@
 		quest.764303F7078E8D84.title: "Objective"
 		quest.764303F7078E8D84.quest_subtitle: "El cresta se paga solo."
 		quest.764303F7078E8D84.quest_desc: ["El cresta: estructural, no ruidoso. El atajo no esta aqui."]
-		quest.7647D4FC69D09640.title: "/spawn"
-		quest.7647D4FC69D09640.quest_subtitle: "Ve al punto de aparicion del mundo"
-		quest.7647D4FC69D09640.quest_desc: ["Escribe /spawn para teletransportarte a la zona de aparicion del servidor. El centro comun donde se reunen el comercio, los tableros y otros jugadores."]
+		quest.7647D4FC69D09640.title: "&a/spawn"
+		quest.7647D4FC69D09640.quest_subtitle: "&7Teletransportate al spawn del mundo"
+		quest.7647D4FC69D09640.quest_desc: [
+			"&2&l» Ir Al Spawn"
+			"&8&m                                "
+			""
+			"&7Te teletransporta al area de spawn del servidor -"
+			"&7el centro comun para comerciar y conocer gente."
+			""
+			"&a&lUso:&r  &f/spawn"
+			""
+			"&e&l★ Consejo:&r &7Nuevo en el servidor? El spawn tiene tableros, tiendas y jugadores. Orientate aqui."
+		]
 		quest.764E38C743E34E38.title: "Endermite"
 		quest.764E38C743E34E38.quest_subtitle: "Lleva el Endermite."
 		quest.764E38C743E34E38.quest_desc: ["Mete el Endermite en el inventario. Un ladrillo mas en una pared."]
