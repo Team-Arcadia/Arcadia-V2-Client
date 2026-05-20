@@ -1864,9 +1864,9 @@
 		quest.1EBB6875B49E0DBA.title: "Guardian Fossil Head"
 		quest.1EBB6875B49E0DBA.quest_subtitle: "A Guardian Fossil Head for the road."
 		quest.1EBB6875B49E0DBA.quest_desc: ["The Guardian Fossil Head: a useful checkpoint on this branch. A seed for the snowball."]
-		quest.1EC96B81D46D02DA.title: "Pillar"
-		quest.1EC96B81D46D02DA.quest_subtitle: "The path tilts again from here."
-		quest.1EC96B81D46D02DA.quest_desc: ["Progression checkpoint. Nothing to grind here - just confirmation that the prior work counts."]
+		quest.1EC96B81D46D02DA.title: "/sethome"
+		quest.1EC96B81D46D02DA.quest_subtitle: "Set your home as a starting point"
+		quest.1EC96B81D46D02DA.quest_desc: ["Type /sethome to anchor a home point at your current location. Return to it any time with /home. A safe base is the first thing every run needs."]
 		quest.1ED96DB273944435.title: "Wither"
 		quest.1ED96DB273944435.quest_subtitle: "On the Wither branch."
 		quest.1ED96DB273944435.quest_desc: ["Pick up the Wither on your way through. Load-bearing, not flashy."]
@@ -2161,9 +2161,9 @@
 		quest.24D11ED5F4EEDC48.title: "Sigil Of Socketing"
 		quest.24D11ED5F4EEDC48.quest_subtitle: "Carry the Sigil Of Socketing forward."
 		quest.24D11ED5F4EEDC48.quest_desc: ["Earn the Sigil Of Socketing. The chapter pivots around it."]
-		quest.24D97D62C72206A2.title: "Vantage"
-		quest.24D97D62C72206A2.quest_subtitle: "Take a breath before the next step."
-		quest.24D97D62C72206A2.quest_desc: ["This stone marks the road so far. Acknowledge it, then keep walking."]
+		quest.24D97D62C72206A2.title: "/ftbchunks unclaim"
+		quest.24D97D62C72206A2.quest_subtitle: "Remove a claim from a chunk"
+		quest.24D97D62C72206A2.quest_desc: ["Type /ftbchunks unclaim to release the chunk you stand in. Frees it for others and trims your claim count."]
 		quest.24DBCCC9F0377909.title: "Sheetmetal Steel"
 		quest.24DBCCC9F0377909.quest_subtitle: "Build out the Sheetmetal Steel chain."
 		quest.24DBCCC9F0377909.quest_desc: ["Mark the Sheetmetal Steel done. Pays its own freight."]
@@ -2662,9 +2662,9 @@
 		quest.2EC2FA680076C07D.title: "Echoing Sculkshelf"
 		quest.2EC2FA680076C07D.quest_subtitle: "The Echoing Sculkshelf pays its way."
 		quest.2EC2FA680076C07D.quest_desc: ["The Echoing Sculkshelf is a quiet milestone. Tiny wins stack into runs."]
-		quest.2EC96B81D46D02DB.title: "Step Above"
-		quest.2EC96B81D46D02DB.quest_subtitle: "A line under what came before."
-		quest.2EC96B81D46D02DB.quest_desc: ["A line in the campaign. Drawn quietly, but it counts."]
+		quest.2EC96B81D46D02DB.title: "/home"
+		quest.2EC96B81D46D02DB.quest_subtitle: "Return to your home"
+		quest.2EC96B81D46D02DB.quest_desc: ["Type /home to teleport back to the point you saved with /sethome. Your fastest way out of trouble - and back to your storage."]
 		quest.2F11568F631B0858.title: "Stack Upgrade Tier 1"
 		quest.2F11568F631B0858.quest_subtitle: "watchful prize: the Stack Upgrade Tier 1."
 		quest.2F11568F631B0858.quest_desc: ["Snag the Stack Upgrade Tier 1 on the way. Quiet capital."]
@@ -3400,9 +3400,9 @@
 		quest.3EC8A0B89788D079.title: "Flippers"
 		quest.3EC8A0B89788D079.quest_subtitle: "The Flippers: the chapter nudge."
 		quest.3EC8A0B89788D079.quest_desc: ["Take possession of the Flippers. Snowballs after this."]
-		quest.3EC96B81D46D02DC.title: "Ascent"
-		quest.3EC96B81D46D02DC.quest_subtitle: "A glance back, then forward."
-		quest.3EC96B81D46D02DC.quest_desc: ["A flag in the campaign. Plant it, then look ahead."]
+		quest.3EC96B81D46D02DC.title: "/tpdeny"
+		quest.3EC96B81D46D02DC.quest_subtitle: "Deny a teleport request"
+		quest.3EC96B81D46D02DC.quest_desc: ["Type /tpdeny to reject a pending teleport request. Use it when you would rather not be disturbed right now."]
 		quest.3EFDD3F3EA8C9F24.title: "Apple Must"
 		quest.3EFDD3F3EA8C9F24.quest_subtitle: "Bookmark the Apple Must."
 		quest.3EFDD3F3EA8C9F24.quest_desc: ["Set sights on the Apple Must. The shortcut is not here."]
@@ -3931,9 +3931,9 @@
 		quest.48DAFA0BB8A74C96.title: "Spider"
 		quest.48DAFA0BB8A74C96.quest_subtitle: "Earn it: the Spider."
 		quest.48DAFA0BB8A74C96.quest_desc: ["Pack the Spider. Calm focus beats rushing."]
-		quest.48F19F6D47988804.title: "Way-Marker"
-		quest.48F19F6D47988804.quest_subtitle: "Acknowledge the road so far."
-		quest.48F19F6D47988804.quest_desc: ["Treat this like a saved checkpoint. Move on when ready."]
+		quest.48F19F6D47988804.title: "/tpahere"
+		quest.48F19F6D47988804.quest_subtitle: "Teleport someone to you"
+		quest.48F19F6D47988804.quest_desc: ["Type /tpahere <player> to ask another player to come to your location. They confirm with /tpaccept before the jump."]
 		quest.48FA730408B171E8.title: "Andesite Scaffolding"
 		quest.48FA730408B171E8.quest_subtitle: "The Andesite Scaffolding unlocks more."
 		quest.48FA730408B171E8.quest_desc: ["Secure the Andesite Scaffolding before moving deeper. Steady is fast."]
@@ -4261,9 +4261,9 @@
 		quest.4EBEF9550FDE4DA2.title: "Bogged"
 		quest.4EBEF9550FDE4DA2.quest_subtitle: "tidy hop: the Bogged."
 		quest.4EBEF9550FDE4DA2.quest_desc: ["Add the Bogged to your dossier. Modest now, mighty later."]
-		quest.4EC96B81D46D02DD.title: "Vantage"
-		quest.4EC96B81D46D02DD.quest_subtitle: "The chapter recognises your work."
-		quest.4EC96B81D46D02DD.quest_desc: ["Treat this like a saved checkpoint. Move on when ready."]
+		quest.4EC96B81D46D02DD.title: "/ftbchunks claim-radius"
+		quest.4EC96B81D46D02DD.quest_subtitle: "Claim several chunks at once"
+		quest.4EC96B81D46D02DD.quest_desc: ["Type /ftbchunks claim-radius <n> to claim a square of chunks around you in one command. The fast way to secure a whole base."]
 		quest.4EDD96EB60EF5814.title: "Advanced Solar Generator"
 		quest.4EDD96EB60EF5814.quest_subtitle: "The Advanced Solar Generator pays its way."
 		quest.4EDD96EB60EF5814.quest_desc: ["Earn the Advanced Solar Generator the hard way. Snowballs after this."]
@@ -4585,9 +4585,9 @@
 		quest.5625C24210840096.title: "Progress Node"
 		quest.5625C24210840096.quest_subtitle: "Hold the line, then advance."
 		quest.5625C24210840096.quest_desc: ["A waypoint on your run. Save your gear, count your wins, and press on toward the next stage."]
-		quest.5647D4FC69D0963E.title: "Step Above"
-		quest.5647D4FC69D0963E.quest_subtitle: "Press onward when ready."
-		quest.5647D4FC69D0963E.quest_desc: ["A flag in the campaign. Plant it, then look ahead."]
+		quest.5647D4FC69D0963E.title: "/ftbchunks claim"
+		quest.5647D4FC69D0963E.quest_subtitle: "Claim a chunk to protect it"
+		quest.5647D4FC69D0963E.quest_desc: ["Type /ftbchunks claim to protect the chunk you stand in. Prefer a map? Open your inventory and click the FTB Chunks icon to claim tiles visually."]
 		quest.5647D63564924EEC.title: "Umvuthana"
 		quest.5647D63564924EEC.quest_subtitle: "Snag the Umvuthana this run."
 		quest.5647D63564924EEC.quest_desc: ["Pack the Umvuthana. Quiet capital."]
@@ -4933,9 +4933,9 @@
 		quest.5EB7CE3A1DCD3E9B.title: "Universal Attractor"
 		quest.5EB7CE3A1DCD3E9B.quest_subtitle: "Brick: the Universal Attractor."
 		quest.5EB7CE3A1DCD3E9B.quest_desc: ["Cross the Universal Attractor off. Soft milestone."]
-		quest.5EC96B81D46D02DE.title: "Crest"
-		quest.5EC96B81D46D02DE.quest_subtitle: "Pause, then push on."
-		quest.5EC96B81D46D02DE.quest_desc: ["Acknowledge the climb. The next section opens once this is claimed."]
+		quest.5EC96B81D46D02DE.title: "/ftbchunks info"
+		quest.5EC96B81D46D02DE.quest_subtitle: "View your claimed chunks"
+		quest.5EC96B81D46D02DE.quest_desc: ["Type /ftbchunks info to see details about the chunk you stand in - who owns it and whether it is claimed or force-loaded."]
 		quest.5ECA82D3CE884738.title: "Blaze"
 		quest.5ECA82D3CE884738.quest_subtitle: "Bookmark the Blaze."
 		quest.5ECA82D3CE884738.quest_desc: ["Pin the Blaze to your inventory. Steady is fast."]
@@ -5158,9 +5158,9 @@
 		quest.62FC819D78183B8B.title: "Umvuthana Crane"
 		quest.62FC819D78183B8B.quest_subtitle: "One Umvuthana Crane, one calm win."
 		quest.62FC819D78183B8B.quest_desc: ["Pick up the Umvuthana Crane. Future you will thank present you."]
-		quest.62FEAE3499CF2181.title: "Outpost"
-		quest.62FEAE3499CF2181.quest_subtitle: "Memory beats momentum here."
-		quest.62FEAE3499CF2181.quest_desc: ["Tick the marker. Future quests will reference this rung, so do not skip it."]
+		quest.62FEAE3499CF2181.title: "/tpaccept"
+		quest.62FEAE3499CF2181.quest_subtitle: "Accept a teleport request"
+		quest.62FEAE3499CF2181.quest_desc: ["Type /tpaccept to approve a pending teleport request sent to you. The other player is then brought to your side."]
 		quest.6307A9228082ED4D.title: "Roving Cube"
 		quest.6307A9228082ED4D.quest_subtitle: "On the route to the Roving Cube."
 		quest.6307A9228082ED4D.quest_desc: ["Cross the Roving Cube off. One brick in a larger wall."]
@@ -5320,9 +5320,9 @@
 		quest.6639EA70C5834AB6.title: "Ghast"
 		quest.6639EA70C5834AB6.quest_subtitle: "Worth the Ghast detour."
 		quest.6639EA70C5834AB6.quest_desc: ["Add the Ghast to your run. Halfway done with you."]
-		quest.6647D4FC69D0963F.title: "Cap Stone"
-		quest.6647D4FC69D0963F.quest_subtitle: "A glance back, then forward."
-		quest.6647D4FC69D0963F.quest_desc: ["This stone marks the road so far. Acknowledge it, then keep walking."]
+		quest.6647D4FC69D0963F.title: "/back"
+		quest.6647D4FC69D0963F.quest_subtitle: "Return to your last location"
+		quest.6647D4FC69D0963F.quest_desc: ["Type /back to return to where you were before your last teleport or death. Invaluable for recovering dropped items after a bad fall."]
 		quest.6667638252DB9C74.title: "Gem Fused Slate"
 		quest.6667638252DB9C74.quest_subtitle: "Pocketed: the Gem Fused Slate."
 		quest.6667638252DB9C74.quest_desc: ["The Gem Fused Slate is the price of the next door. A small step on a long road."]
@@ -5779,9 +5779,9 @@
 		quest.6EC6579BCB387185.title: "Foliaath"
 		quest.6EC6579BCB387185.quest_subtitle: "On the route to the Foliaath."
 		quest.6EC6579BCB387185.quest_desc: ["Stockpile the Foliaath. Worth pinning."]
-		quest.6EC96B81D46D02DF.title: "Cap Stone"
-		quest.6EC96B81D46D02DF.quest_subtitle: "From this stone, the next path branches."
-		quest.6EC96B81D46D02DF.quest_desc: ["Acknowledged. The campaign continues at your pace."]
+		quest.6EC96B81D46D02DF.title: "/tpa"
+		quest.6EC96B81D46D02DF.quest_subtitle: "Send a teleport request"
+		quest.6EC96B81D46D02DF.quest_desc: ["Type /tpa <player> to ask to teleport to someone. They must accept before you are moved - no surprise visits."]
 		quest.6ECE9EFDAD5AEAD9.title: "Redcap Sapper"
 		quest.6ECE9EFDAD5AEAD9.quest_subtitle: "One Redcap Sapper, one measured win."
 		quest.6ECE9EFDAD5AEAD9.quest_desc: ["The Redcap Sapper is the price of the next door. Bridges what you did with what is next."]
@@ -6196,9 +6196,9 @@
 		quest.764303F7078E8D84.title: "Objective"
 		quest.764303F7078E8D84.quest_subtitle: "The crest pays its way."
 		quest.764303F7078E8D84.quest_desc: ["Add the crest to your run. The shortcut is not here."]
-		quest.7647D4FC69D09640.title: "Stride"
-		quest.7647D4FC69D09640.quest_subtitle: "A line under what came before."
-		quest.7647D4FC69D09640.quest_desc: ["Acknowledge the climb. The next section opens once this is claimed."]
+		quest.7647D4FC69D09640.title: "/spawn"
+		quest.7647D4FC69D09640.quest_subtitle: "Go to the world spawn point"
+		quest.7647D4FC69D09640.quest_desc: ["Type /spawn to teleport to the server spawn area. The shared hub where trading, info boards and other players gather."]
 		quest.764E38C743E34E38.title: "Endermite"
 		quest.764E38C743E34E38.quest_subtitle: "Carry the Endermite forward."
 		quest.764E38C743E34E38.quest_desc: ["Reach for the Endermite. One brick in a larger wall."]
