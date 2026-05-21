@@ -1688,9 +1688,19 @@
 			""
 			"&e&l★ Consejo:&r &7Los libros superiores guardan mas hechizos y mas ranuras."
 		]
-		quest.0D6D45DBA64E612D.title: "Clock"
-		quest.0D6D45DBA64E612D.quest_subtitle: "En el bolsillo: el Clock."
-		quest.0D6D45DBA64E612D.quest_desc: ["El Clock abre mas puertas de las que parece. Un peldano mas escalado."]
+		quest.0D6D45DBA64E612D.title: "&6&lReloj"
+		quest.0D6D45DBA64E612D.quest_subtitle: "&7Recorta el retraso de spawn"
+		quest.0D6D45DBA64E612D.quest_desc: [
+			"&6&lReloj"
+			"&8&m                            "
+			""
+			"&7Reune un reloj. Aplicalo a un spawner Apotheosis para"
+			"&7bajar su retraso maximo y un flujo de mobs mas constante."
+			""
+			"&6&lCategoria:&r &fRitmo de Spawn"
+			""
+			"&e&l★ Consejo:&r &7Combina relojes y azucar para el ritmo mas veloz del spawner."
+		]
 		quest.0D83F8DE343CC692.title: "Charm Of Shrinking"
 		quest.0D83F8DE343CC692.quest_subtitle: "Anade un Charm Of Shrinking."
 		quest.0D83F8DE343CC692.quest_desc: ["Cierra el Charm Of Shrinking. Cuenta."]
@@ -1716,9 +1726,19 @@
 			""
 			"&e&l★ Consejo:&r &7Sosten la hoja y usa la tecla de habilidad para desatar su poder."
 		]
-		quest.0E02CE4469FCA4C9.title: "Comparator"
-		quest.0E02CE4469FCA4C9.quest_subtitle: "Meta de hoy: el Comparator."
-		quest.0E02CE4469FCA4C9.quest_desc: ["Asegura el Comparator. El desvio vale la pena."]
+		quest.0E02CE4469FCA4C9.title: "&b&lComparador"
+		quest.0E02CE4469FCA4C9.quest_subtitle: "&7Conecta el spawner a la redstone"
+		quest.0E02CE4469FCA4C9.quest_desc: [
+			"&b&lComparador"
+			"&8&m                            "
+			""
+			"&7Fabrica un comparador. Aplicalo a un spawner Apotheosis"
+			"&7para darle control de redstone, encendiendolo y apagandolo."
+			""
+			"&b&lCategoria:&r &fReglas de Spawn"
+			""
+			"&e&l★ Consejo:&r &7Conectalo a una palanca o temporizador para pausar el spawner."
+		]
 		quest.0E095E5559854AAB.title: "Ender Dragon"
 		quest.0E095E5559854AAB.quest_subtitle: "Guarda el Ender Dragon para luego."
 		quest.0E095E5559854AAB.quest_desc: ["El Ender Dragon esta cerrando la siguiente quest. El progreso tranquilo gana."]
@@ -1897,9 +1917,19 @@
 		quest.0F787CCED84DB48D.title: "Objective"
 		quest.0F787CCED84DB48D.quest_subtitle: "Marca el mojon."
 		quest.0F787CCED84DB48D.quest_desc: ["Conserva el mojon. La calma vence al apuro."]
-		quest.0F89BFD4A3F63A48.title: "Soul Lantern"
-		quest.0F89BFD4A3F63A48.quest_subtitle: "Pequeno paso: el Soul Lantern."
-		quest.0F89BFD4A3F63A48.quest_desc: ["Resuelve el Soul Lantern pronto. Te has ganado una pausa."]
+		quest.0F89BFD4A3F63A48.title: "&b&lLinterna de Almas"
+		quest.0F89BFD4A3F63A48.quest_subtitle: "&7Genera sin nadie cerca"
+		quest.0F89BFD4A3F63A48.quest_desc: [
+			"&b&lLinterna de Almas"
+			"&8&m                            "
+			""
+			"&7Fabrica una linterna de almas. Aplicala a un spawner"
+			"&7Apotheosis para que siga activo sin un jugador cerca."
+			""
+			"&b&lCategoria:&r &fReglas de Spawn"
+			""
+			"&e&l★ Consejo:&r &7Esencial para una granja lejos de la base. Funciona en tu ausencia."
+		]
 		quest.0F8B349EBC9110D6.title: "&e&lBaston Pararrayos"
 		quest.0F8B349EBC9110D6.quest_subtitle: "&7Canaliza la tormenta misma"
 		quest.0F8B349EBC9110D6.quest_desc: [
@@ -2730,9 +2760,19 @@
 		quest.167BCC9C9AE9736C.title: "Skeleton"
 		quest.167BCC9C9AE9736C.quest_subtitle: "Un Skeleton, victoria medido."
 		quest.167BCC9C9AE9736C.quest_desc: ["Fija el Skeleton al inventario. Una semilla para la bola de nieve."]
-		quest.167E1474644C9908.title: "Quartz"
-		quest.167E1474644C9908.quest_subtitle: "Ganatelo: el Quartz."
-		quest.167E1474644C9908.quest_desc: ["Lleva el Quartz contigo. Puente entre lo hecho y lo siguiente."]
+		quest.167E1474644C9908.title: "&6&lCuarzo"
+		quest.167E1474644C9908.quest_subtitle: "&7Sube el limite de mobs"
+		quest.167E1474644C9908.quest_desc: [
+			"&6&lCuarzo"
+			"&8&m                            "
+			""
+			"&7Mina cuarzo del Nether. Aplicalo a un spawner Apotheosis"
+			"&7para subir cuantos mobs pueden agolparse antes de que pare."
+			""
+			"&6&lCategoria:&r &fRitmo de Spawn"
+			""
+			"&e&l★ Consejo:&r &7Un limite mayor mantiene activo el spawner en una granja llena."
+		]
 		quest.168216694210556B.title: "Elder Guardian"
 		quest.168216694210556B.quest_subtitle: "El Elder Guardian se paga solo."
 		quest.168216694210556B.quest_desc: ["Anade el Elder Guardian al dossier. Estructural, no llamativo."]
@@ -2880,9 +2920,19 @@
 		quest.18572E6D7DAA98AC.title: "Towerwood Borer"
 		quest.18572E6D7DAA98AC.quest_subtitle: "Salto perspicaz: el Towerwood Borer."
 		quest.18572E6D7DAA98AC.quest_desc: ["Adquiere el Towerwood Borer. Las victorias chicas suman."]
-		quest.186593EBCE3FE8D8.title: "Piston"
-		quest.186593EBCE3FE8D8.quest_subtitle: "Marca el Piston hecho."
-		quest.186593EBCE3FE8D8.quest_desc: ["Cierra el Piston. Un paso chico en un camino largo."]
+		quest.186593EBCE3FE8D8.title: "&d&lPiston"
+		quest.186593EBCE3FE8D8.quest_subtitle: "&7Un modificador del modulo de spawner"
+		quest.186593EBCE3FE8D8.quest_desc: [
+			"&d&lPiston"
+			"&8&m                            "
+			""
+			"&7Fabrica un piston. Es uno de los objetos que el modulo"
+			"&7de spawner de Apotheosis pide para la mejora."
+			""
+			"&d&lCategoria:&r &fAjuste del Spawner"
+			""
+			"&e&l★ Consejo:&r &7Ten unos pistones de repuesto. El kit de spawner los aprovecha."
+		]
 		quest.1873205CF5247E3E.title: "&b&lEndshelf"
 		quest.1873205CF5247E3E.quest_subtitle: "&7La Endshelf, una estanteria magica"
 		quest.1873205CF5247E3E.quest_desc: [
@@ -2943,9 +2993,19 @@
 			""
 			"&e&l★ Consejo:&r &7Inscribe glifos en la Mesa de Escriba. Mezcla formas y efectos."
 		]
-		quest.18E0F5A78F696FA3.title: "Echo Shard"
-		quest.18E0F5A78F696FA3.quest_subtitle: "Un Echo Shard, victoria robusto."
-		quest.18E0F5A78F696FA3.quest_desc: ["Apunta el Echo Shard en el dossier. La cadena aguanta."]
+		quest.18E0F5A78F696FA3.title: "&d&lFragmento de Eco"
+		quest.18E0F5A78F696FA3.quest_subtitle: "&7Un modificador del modulo de spawner"
+		quest.18E0F5A78F696FA3.quest_desc: [
+			"&d&lFragmento de Eco"
+			"&8&m                            "
+			""
+			"&7Recupera un fragmento de eco de una Ciudad Antigua. Es"
+			"&7uno de los objetos raros que el modulo de spawner pide."
+			""
+			"&d&lCategoria:&r &fAjuste del Spawner"
+			""
+			"&e&l★ Consejo:&r &7Los fragmentos de eco estan en el botin de las ciudades. Evita al Warden."
+		]
 		quest.18FC884DB14888E3.title: "Umvuthana Mask Faith"
 		quest.18FC884DB14888E3.quest_subtitle: "Ganatelo: el Umvuthana Mask Faith."
 		quest.18FC884DB14888E3.quest_desc: ["Gana el Umvuthana Mask Faith con justicia. La calma vence al apuro."]
@@ -3136,9 +3196,19 @@
 		quest.1AD5E6EAE95C41A9.title: "Carminite Golem"
 		quest.1AD5E6EAE95C41A9.quest_subtitle: "El Carminite Golem: guino del capitulo."
 		quest.1AD5E6EAE95C41A9.quest_desc: ["Reserva el Carminite Golem. Paga su propio flete."]
-		quest.1AD87CB3226ED224.title: "Wool"
-		quest.1AD87CB3226ED224.quest_subtitle: "El Wool es un punto de control."
-		quest.1AD87CB3226ED224.quest_desc: ["Asegura el Wool. Un buen paso adelante en este capitulo."]
+		quest.1AD87CB3226ED224.title: "&d&lLana"
+		quest.1AD87CB3226ED224.quest_subtitle: "&7Silencia el spawner"
+		quest.1AD87CB3226ED224.quest_desc: [
+			"&d&lLana"
+			"&8&m                            "
+			""
+			"&7Reune lana de cualquier color. Aplicala a un spawner"
+			"&7Apotheosis para callar su sonido y ocultar sus particulas."
+			""
+			"&d&lCategoria:&r &fAjuste del Spawner"
+			""
+			"&e&l★ Consejo:&r &7Un spawner silencioso molesta mucho menos en una granja junto a la base."
+		]
 		quest.1AEFF93A398B8BBF.title: "Alloy Reinforced"
 		quest.1AEFF93A398B8BBF.quest_subtitle: "Refuerza la cadena del Alloy Reinforced."
 		quest.1AEFF93A398B8BBF.quest_desc: ["Encuentra tu ruta al Alloy Reinforced. La contabilidad importa."]
@@ -5322,15 +5392,35 @@
 		quest.30E9F12E63802E7C.title: "Lantern"
 		quest.30E9F12E63802E7C.quest_subtitle: "El Lantern es un checkpoint."
 		quest.30E9F12E63802E7C.quest_desc: ["Anota el Lantern como adquirido. Un peldano mas escalado."]
-		quest.30EB438C66324213.title: "Nether Star"
-		quest.30EB438C66324213.quest_subtitle: "El Nether Star: guino del capitulo."
-		quest.30EB438C66324213.quest_desc: ["Recoge el Nether Star de pasada. La ruta ensena tanto como el premio."]
+		quest.30EB438C66324213.title: "&6&lEstrella del Nether"
+		quest.30EB438C66324213.quest_subtitle: "&7Genera mas de una vez"
+		quest.30EB438C66324213.quest_desc: [
+			"&6&lEstrella del Nether"
+			"&8&m                            "
+			""
+			"&7Consigue una estrella del Nether. Aplicala a un spawner"
+			"&7Apotheosis para subir su recuento de mobs por ciclo."
+			""
+			"&6&lCategoria:&r &fRitmo de Spawn"
+			""
+			"&e&l★ Consejo:&r &7Una estrella del Nether cuesta. Gastala en tu mejor spawner."
+		]
 		quest.31063A56A57D4821.title: "Death Tome"
 		quest.31063A56A57D4821.quest_subtitle: "Refuerza la cadena del Death Tome."
 		quest.31063A56A57D4821.quest_desc: ["El Death Tome: un punto util en esta rama. Habito chico, gran resultado."]
-		quest.310969B8FE0A94DE.title: "Spawner"
-		quest.310969B8FE0A94DE.quest_subtitle: "Meta de hoy: el Spawner."
-		quest.310969B8FE0A94DE.quest_desc: ["Suma el Spawner. Medio camino hecho contigo."]
+		quest.310969B8FE0A94DE.title: "&c&lGenerador de Monstruos"
+		quest.310969B8FE0A94DE.quest_subtitle: "&7Captura tu propio spawner"
+		quest.310969B8FE0A94DE.quest_desc: [
+			"&c&lGenerador de Monstruos"
+			"&8&m                            "
+			""
+			"&7Mina un generador de monstruos con un pico de Toque de"
+			"&7Seda para conservarlo. Apotheosis te deja llevarlo y mejorarlo."
+			""
+			"&c&lCategoria:&r &fEl Spawner"
+			""
+			"&e&l★ Consejo:&r &7Recoger un spawner cuesta 1000 de durabilidad al pico. Usa uno de repuesto."
+		]
 		quest.3142A40E1EAEBAA3.title: "&e&lVara de Zahori"
 		quest.3142A40E1EAEBAA3.quest_subtitle: "&7Revela las criaturas ocultas"
 		quest.3142A40E1EAEBAA3.quest_desc: [
@@ -6606,9 +6696,19 @@
 		quest.3E1D9F3EF26D6AC7.title: "Piglin Brute"
 		quest.3E1D9F3EF26D6AC7.quest_subtitle: "El Piglin Brute: estructural."
 		quest.3E1D9F3EF26D6AC7.quest_desc: ["El Piglin Brute es el precio de la proxima puerta. Estructural, no llamativo."]
-		quest.3E2A411FF5B4B0E7.title: "Prismarine Crystals"
-		quest.3E2A411FF5B4B0E7.quest_subtitle: "Salto paciente: el Prismarine Crystals."
-		quest.3E2A411FF5B4B0E7.quest_desc: ["Hazte con el Prismarine Crystals. Mas cerca de lo que el mapa sugiere."]
+		quest.3E2A411FF5B4B0E7.title: "&a&lCristales de Prismarina"
+		quest.3E2A411FF5B4B0E7.quest_subtitle: "&7Amplia el alcance del jugador"
+		quest.3E2A411FF5B4B0E7.quest_desc: [
+			"&a&lCristales de Prismarina"
+			"&8&m                            "
+			""
+			"&7Reune cristales de prismarina. Aplicalos a un spawner"
+			"&7Apotheosis para ampliar el rango desde el que lo activas."
+			""
+			"&a&lCategoria:&r &fAlcance de Spawn"
+			""
+			"&e&l★ Consejo:&r &7Un rango amplio activa el spawner en cuanto llegas."
+		]
 		quest.3E5BE6D6422F682C.title: "Turbine Valve"
 		quest.3E5BE6D6422F682C.quest_subtitle: "El Turbine Valve: estructural."
 		quest.3E5BE6D6422F682C.quest_desc: ["Gana el Turbine Valve. El futuro te lo agradecera."]
@@ -6806,9 +6906,19 @@
 		quest.4005DA1BA51C0C68.title: "Ghast"
 		quest.4005DA1BA51C0C68.quest_subtitle: "El Ghast se paga solo."
 		quest.4005DA1BA51C0C68.quest_desc: ["El Ghast es parte de la cadena. Medio camino hecho contigo."]
-		quest.40096ED0B04C3EC5.title: "Conduit"
-		quest.40096ED0B04C3EC5.quest_subtitle: "Un Conduit para el camino."
-		quest.40096ED0B04C3EC5.quest_desc: ["Encuentra un camino hacia el Conduit. Progreso modular, pasos cortos."]
+		quest.40096ED0B04C3EC5.title: "&a&lConducto"
+		quest.40096ED0B04C3EC5.quest_subtitle: "&7Amplia la zona de spawn"
+		quest.40096ED0B04C3EC5.quest_desc: [
+			"&a&lConducto"
+			"&8&m                            "
+			""
+			"&7Construye un conducto. Aplicalo a un spawner Apotheosis"
+			"&7para ampliar el area en que aparecen los mobs."
+			""
+			"&a&lCategoria:&r &fAlcance de Spawn"
+			""
+			"&e&l★ Consejo:&r &7Un area amplia ayuda a llenar una gran sala de recoleccion."
+		]
 		quest.4015B7E2B1264E70.title: "Fire Beetle"
 		quest.4015B7E2B1264E70.quest_subtitle: "El Fire Beetle se paga solo."
 		quest.4015B7E2B1264E70.quest_desc: ["Termina la tarea del Fire Beetle. La contabilidad importa."]
@@ -7130,9 +7240,19 @@
 		quest.42CBD3F878D39425.title: "Vindicator"
 		quest.42CBD3F878D39425.quest_subtitle: "El Vindicator se paga solo."
 		quest.42CBD3F878D39425.quest_desc: ["Atrapa el Vindicator. Puente entre lo hecho y lo siguiente."]
-		quest.42D7C8CD8E6F5CD7.title: "Chorus Fruit"
-		quest.42D7C8CD8E6F5CD7.quest_subtitle: "Anade un Chorus Fruit."
-		quest.42D7C8CD8E6F5CD7.quest_desc: ["Anade un Chorus Fruit a las provisiones. Aviso amistoso."]
+		quest.42D7C8CD8E6F5CD7.title: "&d&lFruta Coral"
+		quest.42D7C8CD8E6F5CD7.quest_subtitle: "&7Un modificador del modulo de spawner"
+		quest.42D7C8CD8E6F5CD7.quest_desc: [
+			"&d&lFruta Coral"
+			"&8&m                            "
+			""
+			"&7Cosecha fruta coral en el End. Es uno de los objetos"
+			"&7que el modulo de spawner de Apotheosis pide."
+			""
+			"&d&lCategoria:&r &fAjuste del Spawner"
+			""
+			"&e&l★ Consejo:&r &7Las plantas de coral crecen por las islas exteriores del End."
+		]
 		quest.42E2025549FD4750.title: "Naga"
 		quest.42E2025549FD4750.quest_subtitle: "Un Naga, victoria listo."
 		quest.42E2025549FD4750.quest_desc: ["Toma el Naga. Puente entre lo hecho y lo siguiente."]
@@ -8124,9 +8244,19 @@
 		quest.4CF71DB0F9B70978.title: "Magnet Upgrade"
 		quest.4CF71DB0F9B70978.quest_subtitle: "El Magnet Upgrade: estructural."
 		quest.4CF71DB0F9B70978.quest_desc: ["Tacha el Magnet Upgrade. La calma vence al apuro."]
-		quest.4D07B0A4A2E77CDA.title: "Ghast Tear"
-		quest.4D07B0A4A2E77CDA.quest_subtitle: "Ganancia modesta: el Ghast Tear."
-		quest.4D07B0A4A2E77CDA.quest_desc: ["Se te pide el Ghast Tear. Bola de nieve desde aqui."]
+		quest.4D07B0A4A2E77CDA.title: "&b&lLagrima de Ghast"
+		quest.4D07B0A4A2E77CDA.quest_subtitle: "&7Genera con cualquier luz"
+		quest.4D07B0A4A2E77CDA.quest_desc: [
+			"&b&lLagrima de Ghast"
+			"&8&m                            "
+			""
+			"&7Reune una lagrima de ghast. Aplicala a un spawner"
+			"&7Apotheosis para que ignore por completo la luz."
+			""
+			"&b&lCategoria:&r &fReglas de Spawn"
+			""
+			"&e&l★ Consejo:&r &7Se acabo mover antorchas. Una sala iluminada ya no detiene el spawn."
+		]
 		quest.4D32DEA8354A4B99.title: "Advanced Tool Swapper Upgrade"
 		quest.4D32DEA8354A4B99.quest_subtitle: "Marca el Advanced Tool Swapper Upgrade hecho."
 		quest.4D32DEA8354A4B99.quest_desc: ["El Advanced Tool Swapper Upgrade esta en el menu. La contabilidad importa."]
@@ -8409,9 +8539,19 @@
 		quest.4F7E3A553E7E4278.title: "Adherent"
 		quest.4F7E3A553E7E4278.quest_subtitle: "Pesca el Adherent esta partida."
 		quest.4F7E3A553E7E4278.quest_desc: ["Recoge el Adherent de pasada. El capitulo gira en torno a esto."]
-		quest.4F7F8F4ED1CA0550.title: "Campfire"
-		quest.4F7F8F4ED1CA0550.quest_subtitle: "Ganancia modesta: el Campfire."
-		quest.4F7F8F4ED1CA0550.quest_desc: ["Asegura el Campfire. Una semilla para la bola de nieve."]
+		quest.4F7F8F4ED1CA0550.title: "&d&lFogata"
+		quest.4F7F8F4ED1CA0550.quest_subtitle: "&7Un modificador del modulo de spawner"
+		quest.4F7F8F4ED1CA0550.quest_desc: [
+			"&d&lFogata"
+			"&8&m                            "
+			""
+			"&7Fabrica una fogata. Es uno de los objetos que el modulo"
+			"&7de spawner de Apotheosis pide para el ajuste."
+			""
+			"&d&lCategoria:&r &fAjuste del Spawner"
+			""
+			"&e&l★ Consejo:&r &7Una fogata es barata y rapida. Ten un par a mano."
+		]
 		quest.4F8119B6298EA753.title: "&5&lCloudshaping Ritual"
 		quest.4F8119B6298EA753.quest_subtitle: "&7El Cloudshaping Ritual, un rito de poder"
 		quest.4F8119B6298EA753.quest_desc: [
@@ -11072,9 +11212,19 @@
 		quest.6A452BFC8A967C39.title: "Feral Claws"
 		quest.6A452BFC8A967C39.quest_subtitle: "Ladrillo: el Feral Claws."
 		quest.6A452BFC8A967C39.quest_desc: ["Reserva el Feral Claws. Modesto ahora, poderoso despues."]
-		quest.6A497B063CF32A5C.title: "Fermented Spider Eye"
-		quest.6A497B063CF32A5C.quest_subtitle: "En la rama del Fermented Spider Eye."
-		quest.6A497B063CF32A5C.quest_desc: ["El Fermented Spider Eye: objeto pequeno, progreso real. Confia en la cadena."]
+		quest.6A497B063CF32A5C.title: "&b&lOjo de Arana Fermentado"
+		quest.6A497B063CF32A5C.quest_subtitle: "&7Ignora las condiciones de spawn"
+		quest.6A497B063CF32A5C.quest_desc: [
+			"&b&lOjo de Arana Fermentado"
+			"&8&m                            "
+			""
+			"&7Prepara un ojo de arana fermentado. Aplicalo a un"
+			"&7spawner Apotheosis para que ignore luz y bloques."
+			""
+			"&b&lCategoria:&r &fReglas de Spawn"
+			""
+			"&e&l★ Consejo:&r &7Deja a un spawner funcionar en una sala iluminada y pavimentada."
+		]
 		quest.6A6EB161789593C2.title: "Evoker"
 		quest.6A6EB161789593C2.quest_subtitle: "Salto ahorrativo: el Evoker."
 		quest.6A6EB161789593C2.quest_desc: ["Caza el Evoker. Sigue."]
@@ -11556,9 +11706,19 @@
 			""
 			"&e&l★ Consejo:&r &7Eficiencia e irrompibilidad hacen durar este juego."
 		]
-		quest.6F71FD826C29C31A.title: "Turtle Egg"
-		quest.6F71FD826C29C31A.quest_subtitle: "Ladrillo: el Turtle Egg."
-		quest.6F71FD826C29C31A.quest_desc: ["Desbloquea el Turtle Egg. El progreso tranquilo gana."]
+		quest.6F71FD826C29C31A.title: "&d&lHuevo de Tortuga"
+		quest.6F71FD826C29C31A.quest_subtitle: "&7Un modificador del modulo de spawner"
+		quest.6F71FD826C29C31A.quest_desc: [
+			"&d&lHuevo de Tortuga"
+			"&8&m                            "
+			""
+			"&7Reune un huevo de tortuga. Es uno de los objetos que el"
+			"&7modulo de spawner de Apotheosis pide para el ajuste."
+			""
+			"&d&lCategoria:&r &fAjuste del Spawner"
+			""
+			"&e&l★ Consejo:&r &7Los huevos de tortuga vienen de nidos de playa. Llevalos con cuidado."
+		]
 		quest.6F957D07AA74F16E.title: "&a&lMapa de Minerales"
 		quest.6F957D07AA74F16E.quest_subtitle: "&7Ve las riquezas en la roca"
 		quest.6F957D07AA74F16E.quest_desc: [
@@ -12753,9 +12913,19 @@
 		quest.7A8BCF4426EB62B9.title: "Advanced Filter Upgrade"
 		quest.7A8BCF4426EB62B9.quest_subtitle: "Marca el Advanced Filter Upgrade hecho."
 		quest.7A8BCF4426EB62B9.quest_desc: ["Marca el Advanced Filter Upgrade como obtenido. Modesto ahora, poderoso despues."]
-		quest.7A9AE63998BB41FF.title: "Sugar"
-		quest.7A9AE63998BB41FF.quest_subtitle: "Pequeno paso: el Sugar."
-		quest.7A9AE63998BB41FF.quest_desc: ["Lleva el Sugar. Las runs pacientes ganan."]
+		quest.7A9AE63998BB41FF.title: "&6&lAzucar"
+		quest.7A9AE63998BB41FF.quest_subtitle: "&7Acelera la generacion"
+		quest.7A9AE63998BB41FF.quest_desc: [
+			"&6&lAzucar"
+			"&8&m                            "
+			""
+			"&7Reune azucar. Aplicalo a un spawner Apotheosis para"
+			"&7bajar su retraso minimo, los mobs aparecen mas rapido."
+			""
+			"&6&lCategoria:&r &fRitmo de Spawn"
+			""
+			"&e&l★ Consejo:&r &7Acumula azucar en un spawner para volverlo una granja rapida."
+		]
 		quest.7AA78ED72A3C22EC.title: "Harbinger Cube"
 		quest.7AA78ED72A3C22EC.quest_subtitle: "Salto prolijo: el Harbinger Cube."
 		quest.7AA78ED72A3C22EC.quest_desc: ["Trae el Harbinger Cube a casa. Util antes de lo que crees."]
@@ -13235,9 +13405,19 @@
 			""
 			"&e&l★ Consejo:&r &7Inscribe glifos en la Mesa de Escriba. Mezcla formas y efectos."
 		]
-		quest.7F6B66566C211735.title: "Pointed Dripstone"
-		quest.7F6B66566C211735.quest_subtitle: "Premio prolijo: el Pointed Dripstone."
-		quest.7F6B66566C211735.quest_desc: ["Anade el Pointed Dripstone al run. Modesto ahora, poderoso despues."]
+		quest.7F6B66566C211735.title: "&d&lRoca de Goteo Puntiaguda"
+		quest.7F6B66566C211735.quest_subtitle: "&7Un modificador del modulo de spawner"
+		quest.7F6B66566C211735.quest_desc: [
+			"&d&lRoca de Goteo Puntiaguda"
+			"&8&m                            "
+			""
+			"&7Reune roca de goteo puntiaguda. Es uno de los objetos"
+			"&7que el modulo de spawner de Apotheosis pide."
+			""
+			"&d&lCategoria:&r &fAjuste del Spawner"
+			""
+			"&e&l★ Consejo:&r &7La roca de goteo crece en cuevas de goteo. Mina racimos de ella."
+		]
 		quest.7F6CA73E36693198.title: "&d&lBrimstone Claymore"
 		quest.7F6CA73E36693198.quest_subtitle: "&7Brimstone Claymore, una hoja legendaria unica"
 		quest.7F6CA73E36693198.quest_desc: [
