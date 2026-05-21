@@ -485,9 +485,19 @@
 		quest.01119871B1D5C576.title: "Structure"
 		quest.01119871B1D5C576.quest_subtitle: "Earn it: the Structure."
 		quest.01119871B1D5C576.quest_desc: ["Capture the Structure. Quiet progress beats loud setbacks."]
-		quest.011AA225E68028D2.title: "Structure"
-		quest.011AA225E68028D2.quest_subtitle: "neat hop: the Structure."
-		quest.011AA225E68028D2.quest_desc: ["Add the Structure to your run-log. The chain holds."]
+		quest.011AA225E68028D2.title: "&b&lThe Stronghold"
+		quest.011AA225E68028D2.quest_subtitle: "&7Find the gate to another world"
+		quest.011AA225E68028D2.quest_desc: [
+			"&b&lThe Stronghold"
+			"&8&m                            "
+			""
+			"&7Locate a Stronghold buried deep underground. Its end"
+			"&7portal room is the only door to the End dimension."
+			""
+			"&b&lCategory:&r &fJourney"
+			""
+			"&e&l★ Tip:&r &7Follow your thrown Eyes of Ender. They converge on the stronghold."
+		]
 		quest.011D8CADA29C9C70.title: "QIO Drive"
 		quest.011D8CADA29C9C70.quest_subtitle: "Secure the QIO Drive."
 		quest.011D8CADA29C9C70.quest_desc: ["Stock up on the QIO Drive. Later quests here will call for it."]
@@ -951,9 +961,19 @@
 		quest.0941952276BB3626.title: "Ocelot Fossil Body"
 		quest.0941952276BB3626.quest_subtitle: "A Ocelot Fossil Body for the road."
 		quest.0941952276BB3626.quest_desc: ["Get the Ocelot Fossil Body sorted early. Useful sooner than you think."]
-		quest.095765EF276633D5.title: "Dragon Egg"
-		quest.095765EF276633D5.quest_subtitle: "Carry the Dragon Egg forward."
-		quest.095765EF276633D5.quest_desc: ["Earn the Dragon Egg. Worth the detour."]
+		quest.095765EF276633D5.title: "&5&lThe Dragon Egg"
+		quest.095765EF276633D5.quest_subtitle: "&7The rarest trophy in the game"
+		quest.095765EF276633D5.quest_desc: [
+			"&5&lThe Dragon Egg"
+			"&8&m                            "
+			""
+			"&7Claim the Dragon Egg that appears atop the portal"
+			"&7after the first dragon kill. A unique, one-of-a-kind prize."
+			""
+			"&5&lCategory:&r &fThe Dragon"
+			""
+			"&e&l★ Tip:&r &7It teleports when clicked directly. Mine the block beneath it instead."
+		]
 		quest.097FDC136BC843A7.title: "Objective"
 		quest.097FDC136BC843A7.quest_subtitle: "Today goal: the mark."
 		quest.097FDC136BC843A7.quest_desc: ["The mark is part of the chain. Worth pinning."]
@@ -2320,36 +2340,136 @@
 		quest.1FF5906DF721D091.title: "Fiery Helmet"
 		quest.1FF5906DF721D091.quest_subtitle: "The Fiery Helmet: load-bearing."
 		quest.1FF5906DF721D091.quest_desc: ["Take possession of the Fiery Helmet. Bridges what you did with what is next."]
-		quest.2000000000000001.title: "Dimension"
-		quest.2000000000000001.quest_subtitle: "Snag the Dimension this run."
-		quest.2000000000000001.quest_desc: ["Bag the Dimension. Bookkeeping matters."]
-		quest.2000000000000003.title: "Ender Dragon"
-		quest.2000000000000003.quest_subtitle: "Today goal: the Ender Dragon."
-		quest.2000000000000003.quest_desc: ["Pull the Ender Dragon into your kit. Load-bearing, not flashy."]
-		quest.2000000000000005.title: "Dragon Breath"
-		quest.2000000000000005.quest_subtitle: "Worth the Dragon Breath detour."
-		quest.2000000000000005.quest_desc: ["Bring back the Dragon Breath. Saved for later use."]
-		quest.2000000000000010.title: "Advancement"
-		quest.2000000000000010.quest_subtitle: "bright run, single Advancement."
-		quest.2000000000000010.quest_desc: ["Mark the Advancement done. Quiet progress beats loud setbacks."]
-		quest.2000000000000020.title: "Structure"
-		quest.2000000000000020.quest_subtitle: "Earn it: the Structure."
-		quest.2000000000000020.quest_desc: ["Stamp the Structure into your dossier. Halfway done with you."]
-		quest.2000000000000022.title: "Objective"
-		quest.2000000000000022.quest_subtitle: "The crest pays its way."
-		quest.2000000000000022.quest_desc: ["Carry the crest forward. Future you will thank present you."]
-		quest.2000000000000024.title: "Shulker"
-		quest.2000000000000024.quest_subtitle: "alert run, single Shulker."
-		quest.2000000000000024.quest_desc: ["Bring the Shulker home. Steady is fast."]
-		quest.2000000000000030.title: "Chorus Fruit"
-		quest.2000000000000030.quest_subtitle: "Stash the Chorus Fruit for later."
-		quest.2000000000000030.quest_desc: ["Score the Chorus Fruit. Calm focus beats rushing."]
-		quest.2000000000000200.title: "Structure"
-		quest.2000000000000200.quest_subtitle: "The Structure is a checkpoint."
-		quest.2000000000000200.quest_desc: ["Bring the Structure into the fold. Worth pinning."]
-		quest.2000000000000300.title: "Structure"
-		quest.2000000000000300.quest_subtitle: "Build out the Structure chain."
-		quest.2000000000000300.quest_desc: ["Hold onto the Structure. Aim for the next thing."]
+		quest.2000000000000001.title: "&b&lEnter the End"
+		quest.2000000000000001.quest_subtitle: "&7Step into the final dimension"
+		quest.2000000000000001.quest_desc: [
+			"&b&lEnter the End"
+			"&8&m                            "
+			""
+			"&7Fill the end portal with Eyes of Ender and jump"
+			"&7through. There is no easy way back, so come prepared."
+			""
+			"&b&lCategory:&r &fJourney"
+			""
+			"&e&l★ Tip:&r &7Bring blocks, a bow and plenty of food. The dragon is waiting."
+		]
+		quest.2000000000000003.title: "&5&lSlay the Ender Dragon"
+		quest.2000000000000003.quest_subtitle: "&7Defeat the guardian of the End"
+		quest.2000000000000003.quest_desc: [
+			"&5&lSlay the Ender Dragon"
+			"&8&m                            "
+			""
+			"&7Destroy the end crystals, then bring down the Ender"
+			"&7Dragon itself. The fight that defines a world."
+			""
+			"&5&lCategory:&r &fThe Dragon"
+			""
+			"&e&l★ Tip:&r &7Knock out every crystal first or the dragon keeps healing."
+		]
+		quest.2000000000000005.title: "&5&lDragon Breath"
+		quest.2000000000000005.quest_subtitle: "&7Bottle the dragon fury"
+		quest.2000000000000005.quest_desc: [
+			"&5&lDragon Breath"
+			"&8&m                            "
+			""
+			"&7Scoop Dragon Breath into a glass bottle from the"
+			"&7dragon swirling purple cloud attacks."
+			""
+			"&5&lCategory:&r &fThe Dragon"
+			""
+			"&e&l★ Tip:&r &7Dragon Breath is the key to brewing lingering potions."
+		]
+		quest.2000000000000010.title: "&d&lEnd Gateway"
+		quest.2000000000000010.quest_subtitle: "&7Travel to the outer islands"
+		quest.2000000000000010.quest_desc: [
+			"&d&lEnd Gateway"
+			"&8&m                            "
+			""
+			"&7Step through an End Gateway. These small portals fling"
+			"&7you out to the far End islands beyond the central one."
+			""
+			"&d&lCategory:&r &fOuter End"
+			""
+			"&e&l★ Tip:&r &7Throw an ender pearl into the gateway to be carried across."
+		]
+		quest.2000000000000020.title: "&d&lEnd City"
+		quest.2000000000000020.quest_subtitle: "&7Raid the towers of the void"
+		quest.2000000000000020.quest_desc: [
+			"&d&lEnd City"
+			"&8&m                            "
+			""
+			"&7Find an End City among the outer islands. Tall purple"
+			"&7towers packed with shulkers and powerful loot."
+			""
+			"&d&lCategory:&r &fOuter End"
+			""
+			"&e&l★ Tip:&r &7Shulkers blink you into the air. Watch your footing over the void."
+		]
+		quest.2000000000000022.title: "&d&lWings of the End"
+		quest.2000000000000022.quest_subtitle: "&7Earn your elytra"
+		quest.2000000000000022.quest_desc: [
+			"&d&lWings of the End"
+			"&8&m                            "
+			""
+			"&7Find an End Ship docked beside an End City. The elytra"
+			"&7waiting aboard grants the gift of true flight."
+			""
+			"&d&lCategory:&r &fOuter End"
+			""
+			"&e&l★ Tip:&r &7Fireworks boost your elytra. Stock up before your first long glide."
+		]
+		quest.2000000000000024.title: "&d&lShulker"
+		quest.2000000000000024.quest_subtitle: "&7Hunt the box that bites"
+		quest.2000000000000024.quest_desc: [
+			"&d&lShulker"
+			"&8&m                            "
+			""
+			"&7Defeat shulkers inside End Cities. Their shells craft"
+			"&7into shulker boxes, the best portable storage there is."
+			""
+			"&d&lCategory:&r &fOuter End"
+			""
+			"&e&l★ Tip:&r &7Two shells make one shulker box. Farm enough for your whole base."
+		]
+		quest.2000000000000030.title: "&d&lChorus Fruit"
+		quest.2000000000000030.quest_subtitle: "&7The fruit that teleports you"
+		quest.2000000000000030.quest_desc: [
+			"&d&lChorus Fruit"
+			"&8&m                            "
+			""
+			"&7Harvest chorus fruit from the tall chorus plants that"
+			"&7grow across the End islands."
+			""
+			"&d&lCategory:&r &fOuter End"
+			""
+			"&e&l★ Tip:&r &7Eating it teleports you a short distance. Handy and risky at once."
+		]
+		quest.2000000000000200.title: "&e&lEnd Ruins"
+		quest.2000000000000200.quest_subtitle: "&7Sift through the wreckage"
+		quest.2000000000000200.quest_desc: [
+			"&e&lEnd Ruins"
+			"&8&m                            "
+			""
+			"&7Explore the End scrap sites: broken ruins and debris"
+			"&7fields scattered across the void islands."
+			""
+			"&e&lCategory:&r &fExploration"
+			""
+			"&e&l★ Tip:&r &7Ruins reward a careful search. Bring blocks to bridge the gaps."
+		]
+		quest.2000000000000300.title: "&e&lEnd Settlements"
+		quest.2000000000000300.quest_subtitle: "&7Where life clings to the void"
+		quest.2000000000000300.quest_desc: [
+			"&e&lEnd Settlements"
+			"&8&m                            "
+			""
+			"&7Visit the rare End settlements: a lonely end house and"
+			"&7a towering end outpost."
+			""
+			"&e&lCategory:&r &fExploration"
+			""
+			"&e&l★ Tip:&r &7Settlements are scarce. A map of the islands helps you find them."
+		]
 		quest.2000724FB89A4200.title: "Fire Beetle"
 		quest.2000724FB89A4200.quest_subtitle: "Tiny step: the Fire Beetle."
 		quest.2000724FB89A4200.quest_desc: ["The Fire Beetle is part of the chain. Worth more than its tooltip says."]
@@ -2401,9 +2521,19 @@
 		quest.212EC1F41227184D.title: "Twilight Scepter"
 		quest.212EC1F41227184D.quest_subtitle: "A tidy step toward the Twilight Scepter."
 		quest.212EC1F41227184D.quest_desc: ["Set sights on the Twilight Scepter. Worth more than its tooltip says."]
-		quest.2171A5DE8FED4218.title: "Structure"
-		quest.2171A5DE8FED4218.quest_subtitle: "Brick: the Structure."
-		quest.2171A5DE8FED4218.quest_desc: ["Bag the Structure. A small step on a long road."]
+		quest.2171A5DE8FED4218.title: "&e&lEnd Structures"
+		quest.2171A5DE8FED4218.quest_subtitle: "&7Explore the expanded End"
+		quest.2171A5DE8FED4218.quest_desc: [
+			"&e&lEnd Structures"
+			"&8&m                            "
+			""
+			"&7Discover the added End structures: spires, blooming"
+			"&7groves, keeps, spike fields, watch towers and hidden wells."
+			""
+			"&e&lCategory:&r &fExploration"
+			""
+			"&e&l★ Tip:&r &7These mod structures scatter new loot across the outer islands."
+		]
 		quest.218A1432F7C219E1.title: "Red Grape Crate"
 		quest.218A1432F7C219E1.quest_subtitle: "The Red Grape Crate pays its way."
 		quest.218A1432F7C219E1.quest_desc: ["Get the Red Grape Crate. Quiet progress beats loud setbacks."]
@@ -6029,9 +6159,19 @@
 		quest.6187837A51BA09DC.title: "Structure"
 		quest.6187837A51BA09DC.quest_subtitle: "Quiet milestone with the Structure."
 		quest.6187837A51BA09DC.quest_desc: ["Earn the Structure step by step. Counts."]
-		quest.61C49BC2B384FB80.title: "Ender Eye"
-		quest.61C49BC2B384FB80.quest_subtitle: "The Ender Eye: the chapter nudge."
-		quest.61C49BC2B384FB80.quest_desc: ["Add the Ender Eye to your dossier. A small step on a long road."]
+		quest.61C49BC2B384FB80.title: "&b&lEye of Ender"
+		quest.61C49BC2B384FB80.quest_subtitle: "&7The compass to the End"
+		quest.61C49BC2B384FB80.quest_desc: [
+			"&b&lEye of Ender"
+			"&8&m                            "
+			""
+			"&7Craft Eyes of Ender from blaze powder and ender"
+			"&7pearls. Thrown, they point toward the nearest stronghold."
+			""
+			"&b&lCategory:&r &fJourney"
+			""
+			"&e&l★ Tip:&r &7Eyes can shatter when thrown. Make a good stack before you search."
+		]
 		quest.6206199795B316A0.title: "Enderman"
 		quest.6206199795B316A0.quest_subtitle: "On the Enderman branch."
 		quest.6206199795B316A0.quest_desc: ["Score one Enderman. Useful sooner than you think."]

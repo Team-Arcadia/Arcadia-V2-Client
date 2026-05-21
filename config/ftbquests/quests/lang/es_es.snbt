@@ -484,9 +484,19 @@
 		quest.01119871B1D5C576.title: "Structure"
 		quest.01119871B1D5C576.quest_subtitle: "Ganatelo: el Structure."
 		quest.01119871B1D5C576.quest_desc: ["Atrapa el Structure. El progreso tranquilo gana."]
-		quest.011AA225E68028D2.title: "Structure"
-		quest.011AA225E68028D2.quest_subtitle: "Salto limpio: el Structure."
-		quest.011AA225E68028D2.quest_desc: ["El Structure: un hito tranquilo. La cadena aguanta."]
+		quest.011AA225E68028D2.title: "&b&lLa Fortaleza"
+		quest.011AA225E68028D2.quest_subtitle: "&7Halla la puerta a otro mundo"
+		quest.011AA225E68028D2.quest_desc: [
+			"&b&lLa Fortaleza"
+			"&8&m                            "
+			""
+			"&7Localiza una Fortaleza enterrada bajo tierra. Su sala"
+			"&7del portal es la unica puerta a la dimension del End."
+			""
+			"&b&lCategoria:&r &fViaje"
+			""
+			"&e&l★ Consejo:&r &7Sigue tus Ojos de Ender lanzados. Convergen en la fortaleza."
+		]
 		quest.011D8CADA29C9C70.title: "QIO Drive"
 		quest.011D8CADA29C9C70.quest_subtitle: "Asegura el QIO Drive."
 		quest.011D8CADA29C9C70.quest_desc: ["Acumula el QIO Drive. Las siguientes quests lo pediran."]
@@ -950,9 +960,19 @@
 		quest.0941952276BB3626.title: "Ocelot Fossil Body"
 		quest.0941952276BB3626.quest_subtitle: "Un Ocelot Fossil Body para el camino."
 		quest.0941952276BB3626.quest_desc: ["Toma el Ocelot Fossil Body. Util antes de lo que crees."]
-		quest.095765EF276633D5.title: "Dragon Egg"
-		quest.095765EF276633D5.quest_subtitle: "Lleva el Dragon Egg."
-		quest.095765EF276633D5.quest_desc: ["Asegura el Dragon Egg. El desvio vale la pena."]
+		quest.095765EF276633D5.title: "&5&lEl Huevo de Dragon"
+		quest.095765EF276633D5.quest_subtitle: "&7El trofeo mas raro del juego"
+		quest.095765EF276633D5.quest_desc: [
+			"&5&lEl Huevo de Dragon"
+			"&8&m                            "
+			""
+			"&7Reclama el Huevo de Dragon que aparece sobre el portal"
+			"&7tras matar al primer dragon. Un premio unico e irrepetible."
+			""
+			"&5&lCategoria:&r &fEl Dragon"
+			""
+			"&e&l★ Consejo:&r &7Se teletransporta al pulsarlo. Mejor mina el bloque de debajo."
+		]
 		quest.097FDC136BC843A7.title: "Objective"
 		quest.097FDC136BC843A7.quest_subtitle: "Meta de hoy: el referencia."
 		quest.097FDC136BC843A7.quest_desc: ["Envuelve el referencia. Vale anotarlo."]
@@ -2319,36 +2339,136 @@
 		quest.1FF5906DF721D091.title: "Fiery Helmet"
 		quest.1FF5906DF721D091.quest_subtitle: "El Fiery Helmet: estructural."
 		quest.1FF5906DF721D091.quest_desc: ["El Fiery Helmet: un punto util en esta rama. Puente entre lo hecho y lo siguiente."]
-		quest.2000000000000001.title: "Dimension"
-		quest.2000000000000001.quest_subtitle: "Pesca el Dimension esta partida."
-		quest.2000000000000001.quest_desc: ["Gana el Dimension. La contabilidad importa."]
-		quest.2000000000000003.title: "Ender Dragon"
-		quest.2000000000000003.quest_subtitle: "Meta de hoy: el Ender Dragon."
-		quest.2000000000000003.quest_desc: ["El Ender Dragon es el proximo pivote. Estructural, no llamativo."]
-		quest.2000000000000005.title: "Dragon Breath"
-		quest.2000000000000005.quest_subtitle: "Vale el desvio por el Dragon Breath."
-		quest.2000000000000005.quest_desc: ["Encuentra el Dragon Breath. Guardado para luego."]
-		quest.2000000000000010.title: "Advancement"
-		quest.2000000000000010.quest_subtitle: "Run luminoso, un solo Advancement."
-		quest.2000000000000010.quest_desc: ["Toma el Advancement. El progreso tranquilo gana."]
-		quest.2000000000000020.title: "Structure"
-		quest.2000000000000020.quest_subtitle: "Ganatelo: el Structure."
-		quest.2000000000000020.quest_desc: ["El Structure se paga solo. Medio camino hecho contigo."]
-		quest.2000000000000022.title: "Objective"
-		quest.2000000000000022.quest_subtitle: "El cresta se paga solo."
-		quest.2000000000000022.quest_desc: ["Aferra el cresta. El futuro te lo agradecera."]
-		quest.2000000000000024.title: "Shulker"
-		quest.2000000000000024.quest_subtitle: "Run alerta, un solo Shulker."
-		quest.2000000000000024.quest_desc: ["Conserva el Shulker. Constante es rapido."]
-		quest.2000000000000030.title: "Chorus Fruit"
-		quest.2000000000000030.quest_subtitle: "Guarda el Chorus Fruit para luego."
-		quest.2000000000000030.quest_desc: ["El Chorus Fruit esta en el menu. La calma vence al apuro."]
-		quest.2000000000000200.title: "Structure"
-		quest.2000000000000200.quest_subtitle: "El Structure es un checkpoint."
-		quest.2000000000000200.quest_desc: ["Estira la mano al Structure. Vale anotarlo."]
-		quest.2000000000000300.title: "Structure"
-		quest.2000000000000300.quest_subtitle: "Refuerza la cadena del Structure."
-		quest.2000000000000300.quest_desc: ["Marca un Structure. Apunta a lo siguiente."]
+		quest.2000000000000001.title: "&b&lEntrar al End"
+		quest.2000000000000001.quest_subtitle: "&7Adentrate en la dimension final"
+		quest.2000000000000001.quest_desc: [
+			"&b&lEntrar al End"
+			"&8&m                            "
+			""
+			"&7Llena el portal con Ojos de Ender y salta. No hay un"
+			"&7regreso facil, asi que ven bien preparado."
+			""
+			"&b&lCategoria:&r &fViaje"
+			""
+			"&e&l★ Consejo:&r &7Lleva bloques, un arco y mucha comida. El dragon te espera."
+		]
+		quest.2000000000000003.title: "&5&lMatar al Dragon del End"
+		quest.2000000000000003.quest_subtitle: "&7Vence al guardian del End"
+		quest.2000000000000003.quest_desc: [
+			"&5&lMatar al Dragon del End"
+			"&8&m                            "
+			""
+			"&7Destruye los cristales del End, luego derriba al"
+			"&7mismo Dragon del End. La pelea que define un mundo."
+			""
+			"&5&lCategoria:&r &fEl Dragon"
+			""
+			"&e&l★ Consejo:&r &7Destruye cada cristal primero o el dragon seguira curandose."
+		]
+		quest.2000000000000005.title: "&5&lAliento de Dragon"
+		quest.2000000000000005.quest_subtitle: "&7Embotella la furia del dragon"
+		quest.2000000000000005.quest_desc: [
+			"&5&lAliento de Dragon"
+			"&8&m                            "
+			""
+			"&7Recoge el Aliento de Dragon en una botella desde las"
+			"&7nubes purpura que el dragon lanza."
+			""
+			"&5&lCategoria:&r &fEl Dragon"
+			""
+			"&e&l★ Consejo:&r &7El Aliento de Dragon es la clave de las pociones persistentes."
+		]
+		quest.2000000000000010.title: "&d&lPasaje del End"
+		quest.2000000000000010.quest_subtitle: "&7Viaja a las islas exteriores"
+		quest.2000000000000010.quest_desc: [
+			"&d&lPasaje del End"
+			"&8&m                            "
+			""
+			"&7Cruza un Pasaje del End. Esos pequenos portales te"
+			"&7lanzan a las islas lejanas mas alla de la central."
+			""
+			"&d&lCategoria:&r &fEnd Exterior"
+			""
+			"&e&l★ Consejo:&r &7Lanza una perla de ender al pasaje para que te transporte."
+		]
+		quest.2000000000000020.title: "&d&lCiudad del End"
+		quest.2000000000000020.quest_subtitle: "&7Saquea las torres del vacio"
+		quest.2000000000000020.quest_desc: [
+			"&d&lCiudad del End"
+			"&8&m                            "
+			""
+			"&7Encuentra una Ciudad del End en las islas exteriores."
+			"&7Altas torres purpura llenas de shulkers y gran botin."
+			""
+			"&d&lCategoria:&r &fEnd Exterior"
+			""
+			"&e&l★ Consejo:&r &7Los shulkers te lanzan al aire. Cuida tus pasos sobre el vacio."
+		]
+		quest.2000000000000022.title: "&d&lAlas del End"
+		quest.2000000000000022.quest_subtitle: "&7Gana tu elitra"
+		quest.2000000000000022.quest_desc: [
+			"&d&lAlas del End"
+			"&8&m                            "
+			""
+			"&7Encuentra un Barco del End amarrado junto a una Ciudad."
+			"&7El elitra a bordo te concede el don del vuelo real."
+			""
+			"&d&lCategoria:&r &fEnd Exterior"
+			""
+			"&e&l★ Consejo:&r &7Los fuegos artificiales impulsan el elitra. Abastecete antes de planear."
+		]
+		quest.2000000000000024.title: "&d&lShulker"
+		quest.2000000000000024.quest_subtitle: "&7Caza la caja que muerde"
+		quest.2000000000000024.quest_desc: [
+			"&d&lShulker"
+			"&8&m                            "
+			""
+			"&7Derrota shulkers en las Ciudades del End. Sus caparazones"
+			"&7crean cajas de shulker, el mejor almacenamiento portatil."
+			""
+			"&d&lCategoria:&r &fEnd Exterior"
+			""
+			"&e&l★ Consejo:&r &7Dos caparazones hacen una caja de shulker. Farmea para toda la base."
+		]
+		quest.2000000000000030.title: "&d&lFruta Coral"
+		quest.2000000000000030.quest_subtitle: "&7La fruta que te teletransporta"
+		quest.2000000000000030.quest_desc: [
+			"&d&lFruta Coral"
+			"&8&m                            "
+			""
+			"&7Cosecha fruta coral de las altas plantas de coral que"
+			"&7crecen por las islas del End."
+			""
+			"&d&lCategoria:&r &fEnd Exterior"
+			""
+			"&e&l★ Consejo:&r &7Comerla te teletransporta una corta distancia. Util y arriesgado."
+		]
+		quest.2000000000000200.title: "&e&lRuinas del End"
+		quest.2000000000000200.quest_subtitle: "&7Rebusca entre los restos"
+		quest.2000000000000200.quest_desc: [
+			"&e&lRuinas del End"
+			"&8&m                            "
+			""
+			"&7Explora los sitios de chatarra del End: ruinas rotas"
+			"&7y campos de escombros por las islas del vacio."
+			""
+			"&e&lCategoria:&r &fExploracion"
+			""
+			"&e&l★ Consejo:&r &7Las ruinas premian una busqueda cuidadosa. Lleva bloques para puentes."
+		]
+		quest.2000000000000300.title: "&e&lAsentamientos del End"
+		quest.2000000000000300.quest_subtitle: "&7Donde la vida se aferra al vacio"
+		quest.2000000000000300.quest_desc: [
+			"&e&lAsentamientos del End"
+			"&8&m                            "
+			""
+			"&7Visita los raros asentamientos del End: una casa"
+			"&7solitaria y un puesto avanzado elevado."
+			""
+			"&e&lCategoria:&r &fExploracion"
+			""
+			"&e&l★ Consejo:&r &7Los asentamientos son escasos. Un mapa de las islas ayuda a hallarlos."
+		]
 		quest.2000724FB89A4200.title: "Fire Beetle"
 		quest.2000724FB89A4200.quest_subtitle: "Pequeno paso: el Fire Beetle."
 		quest.2000724FB89A4200.quest_desc: ["Gana el Fire Beetle. Vale mas que su descripcion."]
@@ -2400,9 +2520,19 @@
 		quest.212EC1F41227184D.title: "Twilight Scepter"
 		quest.212EC1F41227184D.quest_subtitle: "Un paso prolijo hacia el Twilight Scepter."
 		quest.212EC1F41227184D.quest_desc: ["Anota el Twilight Scepter en tu bitacora. Vale mas que su descripcion."]
-		quest.2171A5DE8FED4218.title: "Structure"
-		quest.2171A5DE8FED4218.quest_subtitle: "Ladrillo: el Structure."
-		quest.2171A5DE8FED4218.quest_desc: ["Tacha el Structure de tu lista. Un paso chico en un camino largo."]
+		quest.2171A5DE8FED4218.title: "&e&lEstructuras del End"
+		quest.2171A5DE8FED4218.quest_subtitle: "&7Explora el End ampliado"
+		quest.2171A5DE8FED4218.quest_desc: [
+			"&e&lEstructuras del End"
+			"&8&m                            "
+			""
+			"&7Descubre las estructuras anadidas: agujas, arboledas"
+			"&7florecientes, fuertes, campos de picos, atalayas y pozos."
+			""
+			"&e&lCategoria:&r &fExploracion"
+			""
+			"&e&l★ Consejo:&r &7Estas estructuras de mods esparcen botin por las islas exteriores."
+		]
 		quest.218A1432F7C219E1.title: "Red Grape Crate"
 		quest.218A1432F7C219E1.quest_subtitle: "El Red Grape Crate se paga solo."
 		quest.218A1432F7C219E1.quest_desc: ["Asegura el Red Grape Crate antes de avanzar. El progreso tranquilo gana."]
@@ -6028,9 +6158,19 @@
 		quest.6187837A51BA09DC.title: "Structure"
 		quest.6187837A51BA09DC.quest_subtitle: "Hito tranquilo con el Structure."
 		quest.6187837A51BA09DC.quest_desc: ["Consigue el Structure. Cuenta."]
-		quest.61C49BC2B384FB80.title: "Ender Eye"
-		quest.61C49BC2B384FB80.quest_subtitle: "El Ender Eye: guino del capitulo."
-		quest.61C49BC2B384FB80.quest_desc: ["Tacha el Ender Eye de tu lista. Un paso chico en un camino largo."]
+		quest.61C49BC2B384FB80.title: "&b&lOjo de Ender"
+		quest.61C49BC2B384FB80.quest_subtitle: "&7La brujula hacia el End"
+		quest.61C49BC2B384FB80.quest_desc: [
+			"&b&lOjo de Ender"
+			"&8&m                            "
+			""
+			"&7Fabrica Ojos de Ender con polvo de blaze y perlas de"
+			"&7ender. Al lanzarlos, senalan el bastion mas cercano."
+			""
+			"&b&lCategoria:&r &fViaje"
+			""
+			"&e&l★ Consejo:&r &7Los ojos pueden romperse al lanzarlos. Haz una buena pila antes."
+		]
 		quest.6206199795B316A0.title: "Enderman"
 		quest.6206199795B316A0.quest_subtitle: "En la rama del Enderman."
 		quest.6206199795B316A0.quest_desc: ["Asegura el Enderman antes de avanzar. Util antes de lo que crees."]

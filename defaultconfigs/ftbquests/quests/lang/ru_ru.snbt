@@ -484,9 +484,19 @@
 		quest.01119871B1D5C576.title: "Structure"
 		quest.01119871B1D5C576.quest_subtitle: "Zarabotajte: Structure."
 		quest.01119871B1D5C576.quest_desc: ["Xvatajte Structure. Tixij progress pobezhdaet."]
-		quest.011AA225E68028D2.title: "Structure"
-		quest.011AA225E68028D2.quest_subtitle: "chistyj pryzhok: Structure."
-		quest.011AA225E68028D2.quest_desc: ["Structure: tixij rubezh. Tsep' derzhit."]
+		quest.011AA225E68028D2.title: "&b&lTverdynya"
+		quest.011AA225E68028D2.quest_subtitle: "&7Najdite vrata v drugoj mir"
+		quest.011AA225E68028D2.quest_desc: [
+			"&b&lTverdynya"
+			"&8&m                            "
+			""
+			"&7Najdite Tverdynyu, zaryotuyu gluboko pod zemlyoj. Eyo"
+			"&7komnata portala edinstvennaya dver v izmerenie End."
+			""
+			"&b&lKategoriya:&r &fPuteshestvie"
+			""
+			"&e&l★ Sovet:&r &7Sledujte za broshennymi Okami Edema. Oni shodyatsya u tverdyni."
+		]
 		quest.011D8CADA29C9C70.title: "QIO Drive"
 		quest.011D8CADA29C9C70.quest_subtitle: "Dobudte QIO Drive."
 		quest.011D8CADA29C9C70.quest_desc: ["Sdelajte zapas QIO Drive. Sleduyushchie kvesty ego potrebuyut."]
@@ -950,9 +960,19 @@
 		quest.0941952276BB3626.title: "Ocelot Fossil Body"
 		quest.0941952276BB3626.quest_subtitle: "Ocelot Fossil Body v dorogu."
 		quest.0941952276BB3626.quest_desc: ["Voz'mite Ocelot Fossil Body. Polezno ran'she, chem kazhetsya."]
-		quest.095765EF276633D5.title: "Dragon Egg"
-		quest.095765EF276633D5.quest_subtitle: "Nesite Dragon Egg."
-		quest.095765EF276633D5.quest_desc: ["Zafiksirujte Dragon Egg. Kruk okupaetsya."]
+		quest.095765EF276633D5.title: "&5&lYajco Drakona"
+		quest.095765EF276633D5.quest_subtitle: "&7Redchajshij trofej v igre"
+		quest.095765EF276633D5.quest_desc: [
+			"&5&lYajco Drakona"
+			"&8&m                            "
+			""
+			"&7Zaberite Yajco Drakona, poyavivsheesya nad portalom"
+			"&7posle pervogo ubijstva drakona. Unikalnyj priz."
+			""
+			"&5&lKategoriya:&r &fDrakon"
+			""
+			"&e&l★ Sovet:&r &7Ono teleportiruetsya pri klike. Luchshe vykopajte blok pod nim."
+		]
 		quest.097FDC136BC843A7.title: "Objective"
 		quest.097FDC136BC843A7.quest_subtitle: "Tsel na sevodnya: oriyentir."
 		quest.097FDC136BC843A7.quest_desc: ["Zavernite oriyentir. Stoit zakrepit'."]
@@ -2319,36 +2339,136 @@
 		quest.1FF5906DF721D091.title: "Fiery Helmet"
 		quest.1FF5906DF721D091.quest_subtitle: "Fiery Helmet: nesushchee zveno."
 		quest.1FF5906DF721D091.quest_desc: ["Fiery Helmet: poleznaya tochka na vetke. Most mezhdu sdelannym i predstoyashchim."]
-		quest.2000000000000001.title: "Dimension"
-		quest.2000000000000001.quest_subtitle: "Voz'mite Dimension v etot ran."
-		quest.2000000000000001.quest_desc: ["Zarabotajte Dimension. Uchet vazhen."]
-		quest.2000000000000003.title: "Ender Dragon"
-		quest.2000000000000003.quest_subtitle: "Tsel na sevodnya: Ender Dragon."
-		quest.2000000000000003.quest_desc: ["Ender Dragon, sleduyushchij povorot. Nesushchij, ne yarkij."]
-		quest.2000000000000005.title: "Dragon Breath"
-		quest.2000000000000005.quest_subtitle: "Kruk za Dragon Breath stoit."
-		quest.2000000000000005.quest_desc: ["Najdite Dragon Breath. Otlozheno na potom."]
-		quest.2000000000000010.title: "Advancement"
-		quest.2000000000000010.quest_subtitle: "yarkij ran, odin Advancement."
-		quest.2000000000000010.quest_desc: ["Voz'mite Advancement. Tixij progress pobezhdaet."]
-		quest.2000000000000020.title: "Structure"
-		quest.2000000000000020.quest_subtitle: "Zarabotajte: Structure."
-		quest.2000000000000020.quest_desc: ["Structure oplachivaet sebya. Glava proshla polputi s vami."]
-		quest.2000000000000022.title: "Objective"
-		quest.2000000000000022.quest_subtitle: "greben opravdyvaet sebya."
-		quest.2000000000000022.quest_desc: ["Sxvatite greben. Vy sebe potom skazhete spasibo."]
-		quest.2000000000000024.title: "Shulker"
-		quest.2000000000000024.quest_subtitle: "vnimatelnyj ran, odin Shulker."
-		quest.2000000000000024.quest_desc: ["Sokhranite Shulker. Stabil'no, bystro."]
-		quest.2000000000000030.title: "Chorus Fruit"
-		quest.2000000000000030.quest_subtitle: "Otlozhite Chorus Fruit na potom."
-		quest.2000000000000030.quest_desc: ["Chorus Fruit v menyu. Spokojstvie pobezhdaet speshku."]
-		quest.2000000000000200.title: "Structure"
-		quest.2000000000000200.quest_subtitle: "Structure, kontrolnaya tochka."
-		quest.2000000000000200.quest_desc: ["Potyanites k Structure. Stoit zakrepit'."]
-		quest.2000000000000300.title: "Structure"
-		quest.2000000000000300.quest_subtitle: "Stroyte tsep Structure."
-		quest.2000000000000300.quest_desc: ["Otmette odin Structure. Stremites' k sleduyushchemu."]
+		quest.2000000000000001.title: "&b&lVojti v End"
+		quest.2000000000000001.quest_subtitle: "&7Shagnite v finalnoe izmerenie"
+		quest.2000000000000001.quest_desc: [
+			"&b&lVojti v End"
+			"&8&m                            "
+			""
+			"&7Zapolnite portal Okami Edema i prygnite. Lyogkogo"
+			"&7puti nazad net, tak chto idite podgotovlennym."
+			""
+			"&b&lKategoriya:&r &fPuteshestvie"
+			""
+			"&e&l★ Sovet:&r &7Voz mite bloki, luk i mnogo edy. Drakon uzhe zhdyot."
+		]
+		quest.2000000000000003.title: "&5&lUbit Drakona Edema"
+		quest.2000000000000003.quest_subtitle: "&7Pobedite strazha Edema"
+		quest.2000000000000003.quest_desc: [
+			"&5&lUbit Drakona Edema"
+			"&8&m                            "
+			""
+			"&7Unichtozhte kristally Edema, zatem srazite samogo"
+			"&7Drakona Edema. Bitva, opredelyayushchaya mir."
+			""
+			"&5&lKategoriya:&r &fDrakon"
+			""
+			"&e&l★ Sovet:&r &7Snachala vybejte vse kristally, inache drakon budet lechitsya."
+		]
+		quest.2000000000000005.title: "&5&lDyhanie Drakona"
+		quest.2000000000000005.quest_subtitle: "&7Zakuporte yarost drakona"
+		quest.2000000000000005.quest_desc: [
+			"&5&lDyhanie Drakona"
+			"&8&m                            "
+			""
+			"&7Soberite Dyhanie Drakona v steklyannuyu butylku iz"
+			"&7fioletovyx oblakov, kotorye mechet drakon."
+			""
+			"&5&lKategoriya:&r &fDrakon"
+			""
+			"&e&l★ Sovet:&r &7Dyhanie Drakona klyuch k varke nastoichivyx zelij."
+		]
+		quest.2000000000000010.title: "&d&lVrata Edema"
+		quest.2000000000000010.quest_subtitle: "&7Otpravtes na vneshnie ostrova"
+		quest.2000000000000010.quest_desc: [
+			"&d&lVrata Edema"
+			"&8&m                            "
+			""
+			"&7Projdite skvoz Vrata Edema. Eti malenkie portaly"
+			"&7vybrasyvayut vas na dalnie ostrova za centralnym."
+			""
+			"&d&lKategoriya:&r &fVneshnij End"
+			""
+			"&e&l★ Sovet:&r &7Brosьte zhemchug Edema vo vrata, chtoby vas pereneslo."
+		]
+		quest.2000000000000020.title: "&d&lGorod Edema"
+		quest.2000000000000020.quest_subtitle: "&7Razgrabte bashni pustoty"
+		quest.2000000000000020.quest_desc: [
+			"&d&lGorod Edema"
+			"&8&m                            "
+			""
+			"&7Najdite Gorod Edema sredi vneshnih ostrovov. Vysokie"
+			"&7fioletovye bashni, polnye shulkerov i moshchnoj dobychi."
+			""
+			"&d&lKategoriya:&r &fVneshnij End"
+			""
+			"&e&l★ Sovet:&r &7Shulkery podbrasyvayut vas v vozdux. Sledite za nogami nad pustotoj."
+		]
+		quest.2000000000000022.title: "&d&lKrylya Edema"
+		quest.2000000000000022.quest_subtitle: "&7Zasluzhite svoj elitr"
+		quest.2000000000000022.quest_desc: [
+			"&d&lKrylya Edema"
+			"&8&m                            "
+			""
+			"&7Najdite Korabl Edema, prishvartovannyj u Goroda Edema."
+			"&7Elitr na ego bortu daruet dar nastoyashchego polyota."
+			""
+			"&d&lKategoriya:&r &fVneshnij End"
+			""
+			"&e&l★ Sovet:&r &7Fejerverki uskoryayut elitr. Sdelajte zapas pered pervym polyotom."
+		]
+		quest.2000000000000024.title: "&d&lShulker"
+		quest.2000000000000024.quest_subtitle: "&7Ohotites na kusayushchijsya yashchik"
+		quest.2000000000000024.quest_desc: [
+			"&d&lShulker"
+			"&8&m                            "
+			""
+			"&7Pobedite shulkerov v Gorodax Edema. Ix pancyri"
+			"&7kraftyatsya v yashchiki, luchshee perenosnoe hranilishche."
+			""
+			"&d&lKategoriya:&r &fVneshnij End"
+			""
+			"&e&l★ Sovet:&r &7Dva pancirya dayut odin yashchik shulkera. Nafarmite na vsyu bazu."
+		]
+		quest.2000000000000030.title: "&d&lPlod Horusa"
+		quest.2000000000000030.quest_subtitle: "&7Plod, kotoryj vas teleportiruet"
+		quest.2000000000000030.quest_desc: [
+			"&d&lPlod Horusa"
+			"&8&m                            "
+			""
+			"&7Soberite plod horusa s vysokix rastenij horusa,"
+			"&7kotorye rastut po ostrovam Edema."
+			""
+			"&d&lKategoriya:&r &fVneshnij End"
+			""
+			"&e&l★ Sovet:&r &7Sedenie teleportiruet vas na korotkoe rasstoyanie. Udobno i riskovanno."
+		]
+		quest.2000000000000200.title: "&e&lRuiny Edema"
+		quest.2000000000000200.quest_subtitle: "&7Proseite oblomki"
+		quest.2000000000000200.quest_desc: [
+			"&e&lRuiny Edema"
+			"&8&m                            "
+			""
+			"&7Issledujte mesta oblomkov Edema: razrushennye ruiny"
+			"&7i polya musora po ostrovam pustoty."
+			""
+			"&e&lKategoriya:&r &fIssledovanie"
+			""
+			"&e&l★ Sovet:&r &7Ruiny nagrazhdayut za tshchatelnyj poisk. Voz mite bloki dlya mostov."
+		]
+		quest.2000000000000300.title: "&e&lPoseleniya Edema"
+		quest.2000000000000300.quest_subtitle: "&7Gde zhizn cepljaetsya za pustotu"
+		quest.2000000000000300.quest_desc: [
+			"&e&lPoseleniya Edema"
+			"&8&m                            "
+			""
+			"&7Posetite redkie poseleniya Edema: odinokij dom Edema"
+			"&7i vysokij forpost Edema."
+			""
+			"&e&lKategoriya:&r &fIssledovanie"
+			""
+			"&e&l★ Sovet:&r &7Poseleniya redki. Karta ostrovov pomogaet ix najti."
+		]
 		quest.2000724FB89A4200.title: "Fire Beetle"
 		quest.2000724FB89A4200.quest_subtitle: "Malen'kij shag: Fire Beetle."
 		quest.2000724FB89A4200.quest_desc: ["Zarabotajte Fire Beetle. Stoit bolshe opisaniya."]
@@ -2400,9 +2520,19 @@
 		quest.212EC1F41227184D.title: "Twilight Scepter"
 		quest.212EC1F41227184D.quest_subtitle: "akkuratnyj shag k Twilight Scepter."
 		quest.212EC1F41227184D.quest_desc: ["Vnesite Twilight Scepter v dnevnik. Stoit bolshe opisaniya."]
-		quest.2171A5DE8FED4218.title: "Structure"
-		quest.2171A5DE8FED4218.quest_subtitle: "Kirpich: Structure."
-		quest.2171A5DE8FED4218.quest_desc: ["Vycherknite Structure iz spiska. Malenkij shag na dolgom puti."]
+		quest.2171A5DE8FED4218.title: "&e&lStruktury Edema"
+		quest.2171A5DE8FED4218.quest_subtitle: "&7Issledujte rasshirennyj End"
+		quest.2171A5DE8FED4218.quest_desc: [
+			"&e&lStruktury Edema"
+			"&8&m                            "
+			""
+			"&7Otkrojte dobavlennye struktury: shpili, cvetushchie"
+			"&7roshchi, forty, polya shipov, dozornye bashni i kolodcy."
+			""
+			"&e&lKategoriya:&r &fIssledovanie"
+			""
+			"&e&l★ Sovet:&r &7Eti struktury modov razbrasyvayut dobychu po vneshnim ostrovam."
+		]
 		quest.218A1432F7C219E1.title: "Red Grape Crate"
 		quest.218A1432F7C219E1.quest_subtitle: "Red Grape Crate opravdyvaet sebya."
 		quest.218A1432F7C219E1.quest_desc: ["Dobudte Red Grape Crate, prezhde chem idti dalshe. Tixij progress pobezhdaet."]
@@ -6028,9 +6158,19 @@
 		quest.6187837A51BA09DC.title: "Structure"
 		quest.6187837A51BA09DC.quest_subtitle: "Tixij rubezh s Structure."
 		quest.6187837A51BA09DC.quest_desc: ["Najdite Structure. Schitaet."]
-		quest.61C49BC2B384FB80.title: "Ender Eye"
-		quest.61C49BC2B384FB80.quest_subtitle: "Ender Eye: kivok glavy."
-		quest.61C49BC2B384FB80.quest_desc: ["Vycherknite Ender Eye iz spiska. Malenkij shag na dolgom puti."]
+		quest.61C49BC2B384FB80.title: "&b&lOko Edema"
+		quest.61C49BC2B384FB80.quest_subtitle: "&7Kompas k Edemu"
+		quest.61C49BC2B384FB80.quest_desc: [
+			"&b&lOko Edema"
+			"&8&m                            "
+			""
+			"&7Sozdajte Oka Edema iz ognennogo poroshka i zhemchuga."
+			"&7Brosennye, oni ukazyvayut na blizhajshuyu tverdynyu."
+			""
+			"&b&lKategoriya:&r &fPuteshestvie"
+			""
+			"&e&l★ Sovet:&r &7Oka mogut razbitsya pri broske. Sdelajte horoshuyu stopku."
+		]
 		quest.6206199795B316A0.title: "Enderman"
 		quest.6206199795B316A0.quest_subtitle: "Na vetke Enderman."
 		quest.6206199795B316A0.quest_desc: ["Dobudte Enderman, prezhde chem idti dalshe. Polezno ran'she, chem kazhetsya."]

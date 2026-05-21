@@ -484,9 +484,19 @@
 		quest.01119871B1D5C576.title: "Structure"
 		quest.01119871B1D5C576.quest_subtitle: "Conquiste-o: o Structure."
 		quest.01119871B1D5C576.quest_desc: ["Agarre o Structure. Progresso tranquilo vence."]
-		quest.011AA225E68028D2.title: "Structure"
-		quest.011AA225E68028D2.quest_subtitle: "Salto limpo: o Structure."
-		quest.011AA225E68028D2.quest_desc: ["O Structure: um marco tranquilo. A cadeia aguenta."]
+		quest.011AA225E68028D2.title: "&b&lA Fortaleza"
+		quest.011AA225E68028D2.quest_subtitle: "&7Ache o portao para outro mundo"
+		quest.011AA225E68028D2.quest_desc: [
+			"&b&lA Fortaleza"
+			"&8&m                            "
+			""
+			"&7Localize uma Fortaleza enterrada no subsolo. Sua sala"
+			"&7do portal e a unica porta para a dimensao do End."
+			""
+			"&b&lCategoria:&r &fJornada"
+			""
+			"&e&l★ Dica:&r &7Siga seus Olhos de Ender lancados. Eles convergem na fortaleza."
+		]
 		quest.011D8CADA29C9C70.title: "QIO Drive"
 		quest.011D8CADA29C9C70.quest_subtitle: "Garanta o QIO Drive."
 		quest.011D8CADA29C9C70.quest_desc: ["Estoque o QIO Drive. As proximas quests vao pedir por ele."]
@@ -950,9 +960,19 @@
 		quest.0941952276BB3626.title: "Ocelot Fossil Body"
 		quest.0941952276BB3626.quest_subtitle: "Um Ocelot Fossil Body para a estrada."
 		quest.0941952276BB3626.quest_desc: ["Pegue o Ocelot Fossil Body. Util mais cedo do que voce pensa."]
-		quest.095765EF276633D5.title: "Dragon Egg"
-		quest.095765EF276633D5.quest_subtitle: "Leve o Dragon Egg."
-		quest.095765EF276633D5.quest_desc: ["Trave o Dragon Egg. O desvio compensa."]
+		quest.095765EF276633D5.title: "&5&lO Ovo de Dragao"
+		quest.095765EF276633D5.quest_subtitle: "&7O trofeu mais raro do jogo"
+		quest.095765EF276633D5.quest_desc: [
+			"&5&lO Ovo de Dragao"
+			"&8&m                            "
+			""
+			"&7Reivindique o Ovo de Dragao que surge sobre o portal"
+			"&7apos a primeira morte do dragao. Um premio unico."
+			""
+			"&5&lCategoria:&r &fO Dragao"
+			""
+			"&e&l★ Dica:&r &7Ele se teleporta ao ser clicado. Minere o bloco abaixo dele."
+		]
 		quest.097FDC136BC843A7.title: "Objective"
 		quest.097FDC136BC843A7.quest_subtitle: "Meta de hoje: o referencia."
 		quest.097FDC136BC843A7.quest_desc: ["Embrulhe o referencia. Vale anotar."]
@@ -2319,36 +2339,136 @@
 		quest.1FF5906DF721D091.title: "Fiery Helmet"
 		quest.1FF5906DF721D091.quest_subtitle: "O Fiery Helmet: estrutural."
 		quest.1FF5906DF721D091.quest_desc: ["O Fiery Helmet: um checkpoint util neste ramo. Ponte entre o feito e o que vem."]
-		quest.2000000000000001.title: "Dimension"
-		quest.2000000000000001.quest_subtitle: "Pegue o Dimension nesta run."
-		quest.2000000000000001.quest_desc: ["Ganhe o Dimension. A contabilidade conta."]
-		quest.2000000000000003.title: "Ender Dragon"
-		quest.2000000000000003.quest_subtitle: "Meta de hoje: o Ender Dragon."
-		quest.2000000000000003.quest_desc: ["O Ender Dragon e o proximo pivo. Estrutural, nao chamativo."]
-		quest.2000000000000005.title: "Dragon Breath"
-		quest.2000000000000005.quest_subtitle: "Vale o desvio do Dragon Breath."
-		quest.2000000000000005.quest_desc: ["Encontre o Dragon Breath. Guardado para depois."]
-		quest.2000000000000010.title: "Advancement"
-		quest.2000000000000010.quest_subtitle: "Run luminoso, um Advancement so."
-		quest.2000000000000010.quest_desc: ["Pegue o Advancement. Progresso tranquilo vence."]
-		quest.2000000000000020.title: "Structure"
-		quest.2000000000000020.quest_subtitle: "Conquiste-o: o Structure."
-		quest.2000000000000020.quest_desc: ["O Structure se paga. Meio caminho feito com voce."]
-		quest.2000000000000022.title: "Objective"
-		quest.2000000000000022.quest_subtitle: "O crista se paga."
-		quest.2000000000000022.quest_desc: ["Segure o crista. Voce vai se agradecer depois."]
-		quest.2000000000000024.title: "Shulker"
-		quest.2000000000000024.quest_subtitle: "Run atento, um Shulker so."
-		quest.2000000000000024.quest_desc: ["Segure o Shulker. Constante e rapido."]
-		quest.2000000000000030.title: "Chorus Fruit"
-		quest.2000000000000030.quest_subtitle: "Guarde o Chorus Fruit para depois."
-		quest.2000000000000030.quest_desc: ["O Chorus Fruit esta no menu. A calma vence a pressa."]
-		quest.2000000000000200.title: "Structure"
-		quest.2000000000000200.quest_subtitle: "O Structure e um checkpoint."
-		quest.2000000000000200.quest_desc: ["Estique a mao ao Structure. Vale anotar."]
-		quest.2000000000000300.title: "Structure"
-		quest.2000000000000300.quest_subtitle: "Reforce a cadeia do Structure."
-		quest.2000000000000300.quest_desc: ["Marque um Structure. Mire no proximo objetivo."]
+		quest.2000000000000001.title: "&b&lEntrar no End"
+		quest.2000000000000001.quest_subtitle: "&7Adentre a dimensao final"
+		quest.2000000000000001.quest_desc: [
+			"&b&lEntrar no End"
+			"&8&m                            "
+			""
+			"&7Encha o portal com Olhos de Ender e pule. Nao ha um"
+			"&7retorno facil, entao venha bem preparado."
+			""
+			"&b&lCategoria:&r &fJornada"
+			""
+			"&e&l★ Dica:&r &7Leve blocos, um arco e bastante comida. O dragao espera."
+		]
+		quest.2000000000000003.title: "&5&lMatar o Dragao do End"
+		quest.2000000000000003.quest_subtitle: "&7Derrote o guardiao do End"
+		quest.2000000000000003.quest_desc: [
+			"&5&lMatar o Dragao do End"
+			"&8&m                            "
+			""
+			"&7Destrua os cristais do End, depois derrube o proprio"
+			"&7Dragao do End. A luta que define um mundo."
+			""
+			"&5&lCategoria:&r &fO Dragao"
+			""
+			"&e&l★ Dica:&r &7Destrua cada cristal primeiro ou o dragao continua se curando."
+		]
+		quest.2000000000000005.title: "&5&lSopro do Dragao"
+		quest.2000000000000005.quest_subtitle: "&7Engarrafe a furia do dragao"
+		quest.2000000000000005.quest_desc: [
+			"&5&lSopro do Dragao"
+			"&8&m                            "
+			""
+			"&7Recolha o Sopro do Dragao numa garrafa de vidro das"
+			"&7nuvens roxas que o dragao lanca."
+			""
+			"&5&lCategoria:&r &fO Dragao"
+			""
+			"&e&l★ Dica:&r &7O Sopro do Dragao e a chave das pocoes persistentes."
+		]
+		quest.2000000000000010.title: "&d&lPortal do End"
+		quest.2000000000000010.quest_subtitle: "&7Viaje para as ilhas exteriores"
+		quest.2000000000000010.quest_desc: [
+			"&d&lPortal do End"
+			"&8&m                            "
+			""
+			"&7Atravesse um Portal do End. Esses pequenos portais te"
+			"&7lancam para as ilhas distantes alem da central."
+			""
+			"&d&lCategoria:&r &fEnd Exterior"
+			""
+			"&e&l★ Dica:&r &7Jogue uma perola de ender no portal para ser levado."
+		]
+		quest.2000000000000020.title: "&d&lCidade do End"
+		quest.2000000000000020.quest_subtitle: "&7Saqueie as torres do vazio"
+		quest.2000000000000020.quest_desc: [
+			"&d&lCidade do End"
+			"&8&m                            "
+			""
+			"&7Encontre uma Cidade do End nas ilhas exteriores. Altas"
+			"&7torres roxas cheias de shulkers e loot poderoso."
+			""
+			"&d&lCategoria:&r &fEnd Exterior"
+			""
+			"&e&l★ Dica:&r &7Shulkers te lancam ao ar. Cuidado ao pisar sobre o vazio."
+		]
+		quest.2000000000000022.title: "&d&lAsas do End"
+		quest.2000000000000022.quest_subtitle: "&7Conquiste seu elitro"
+		quest.2000000000000022.quest_desc: [
+			"&d&lAsas do End"
+			"&8&m                            "
+			""
+			"&7Encontre um Navio do End atracado ao lado de uma"
+			"&7Cidade. O elitro a bordo concede o dom do voo real."
+			""
+			"&d&lCategoria:&r &fEnd Exterior"
+			""
+			"&e&l★ Dica:&r &7Fogos de artificio impulsionam o elitro. Estoque antes de planar."
+		]
+		quest.2000000000000024.title: "&d&lShulker"
+		quest.2000000000000024.quest_subtitle: "&7Cace a caixa que morde"
+		quest.2000000000000024.quest_desc: [
+			"&d&lShulker"
+			"&8&m                            "
+			""
+			"&7Derrote shulkers nas Cidades do End. Suas cascas viram"
+			"&7caixas de shulker, o melhor armazenamento portatil."
+			""
+			"&d&lCategoria:&r &fEnd Exterior"
+			""
+			"&e&l★ Dica:&r &7Duas cascas fazem uma caixa de shulker. Farme para toda a base."
+		]
+		quest.2000000000000030.title: "&d&lFruta Coral"
+		quest.2000000000000030.quest_subtitle: "&7A fruta que te teleporta"
+		quest.2000000000000030.quest_desc: [
+			"&d&lFruta Coral"
+			"&8&m                            "
+			""
+			"&7Colha fruta coral das altas plantas de coral que"
+			"&7crescem pelas ilhas do End."
+			""
+			"&d&lCategoria:&r &fEnd Exterior"
+			""
+			"&e&l★ Dica:&r &7Come-la te teleporta uma curta distancia. Util e arriscado ao mesmo tempo."
+		]
+		quest.2000000000000200.title: "&e&lRuinas do End"
+		quest.2000000000000200.quest_subtitle: "&7Vasculhe os escombros"
+		quest.2000000000000200.quest_desc: [
+			"&e&lRuinas do End"
+			"&8&m                            "
+			""
+			"&7Explore os sitios de sucata do End: ruinas quebradas"
+			"&7e campos de destrocos pelas ilhas do vazio."
+			""
+			"&e&lCategoria:&r &fExploracao"
+			""
+			"&e&l★ Dica:&r &7Ruinas recompensam uma busca cuidadosa. Leve blocos para pontes."
+		]
+		quest.2000000000000300.title: "&e&lAssentamentos do End"
+		quest.2000000000000300.quest_subtitle: "&7Onde a vida se agarra ao vazio"
+		quest.2000000000000300.quest_desc: [
+			"&e&lAssentamentos do End"
+			"&8&m                            "
+			""
+			"&7Visite os raros assentamentos do End: uma casa"
+			"&7solitaria e um posto avancado elevado."
+			""
+			"&e&lCategoria:&r &fExploracao"
+			""
+			"&e&l★ Dica:&r &7Assentamentos sao escassos. Um mapa das ilhas ajuda a acha-los."
+		]
 		quest.2000724FB89A4200.title: "Fire Beetle"
 		quest.2000724FB89A4200.quest_subtitle: "Passo pequeno: o Fire Beetle."
 		quest.2000724FB89A4200.quest_desc: ["Ganhe o Fire Beetle. Vale mais que a descricao."]
@@ -2400,9 +2520,19 @@
 		quest.212EC1F41227184D.title: "Twilight Scepter"
 		quest.212EC1F41227184D.quest_subtitle: "Um passo asseado rumo ao Twilight Scepter."
 		quest.212EC1F41227184D.quest_desc: ["Anote o Twilight Scepter no seu diario. Vale mais que a descricao."]
-		quest.2171A5DE8FED4218.title: "Structure"
-		quest.2171A5DE8FED4218.quest_subtitle: "Tijolo: o Structure."
-		quest.2171A5DE8FED4218.quest_desc: ["Risque o Structure da lista. Um passo pequeno numa estrada longa."]
+		quest.2171A5DE8FED4218.title: "&e&lEstruturas do End"
+		quest.2171A5DE8FED4218.quest_subtitle: "&7Explore o End ampliado"
+		quest.2171A5DE8FED4218.quest_desc: [
+			"&e&lEstruturas do End"
+			"&8&m                            "
+			""
+			"&7Descubra as estruturas adicionadas: pinaculos, bosques"
+			"&7floridos, fortes, campos de espinhos, torres e pocos ocultos."
+			""
+			"&e&lCategoria:&r &fExploracao"
+			""
+			"&e&l★ Dica:&r &7Essas estruturas de mods espalham loot pelas ilhas exteriores."
+		]
 		quest.218A1432F7C219E1.title: "Red Grape Crate"
 		quest.218A1432F7C219E1.quest_subtitle: "O Red Grape Crate se paga."
 		quest.218A1432F7C219E1.quest_desc: ["Garanta o Red Grape Crate antes de avancar. Progresso tranquilo vence."]
@@ -6028,9 +6158,19 @@
 		quest.6187837A51BA09DC.title: "Structure"
 		quest.6187837A51BA09DC.quest_subtitle: "Marco tranquilo com o Structure."
 		quest.6187837A51BA09DC.quest_desc: ["Encontre o Structure. Conta."]
-		quest.61C49BC2B384FB80.title: "Ender Eye"
-		quest.61C49BC2B384FB80.quest_subtitle: "O Ender Eye: aceno do capitulo."
-		quest.61C49BC2B384FB80.quest_desc: ["Risque o Ender Eye da lista. Um passo pequeno numa estrada longa."]
+		quest.61C49BC2B384FB80.title: "&b&lOlho de Ender"
+		quest.61C49BC2B384FB80.quest_subtitle: "&7A bussola para o End"
+		quest.61C49BC2B384FB80.quest_desc: [
+			"&b&lOlho de Ender"
+			"&8&m                            "
+			""
+			"&7Crie Olhos de Ender com po de blaze e perolas de"
+			"&7ender. Ao lancar, apontam para a fortaleza mais proxima."
+			""
+			"&b&lCategoria:&r &fJornada"
+			""
+			"&e&l★ Dica:&r &7Os olhos podem quebrar ao lancar. Faca uma boa pilha antes de buscar."
+		]
 		quest.6206199795B316A0.title: "Enderman"
 		quest.6206199795B316A0.quest_subtitle: "No ramo do Enderman."
 		quest.6206199795B316A0.quest_desc: ["Garanta o Enderman antes de avancar. Util mais cedo do que voce pensa."]
