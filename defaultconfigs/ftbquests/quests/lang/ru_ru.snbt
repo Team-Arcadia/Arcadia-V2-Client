@@ -500,9 +500,19 @@
 		quest.008CF128DF4A54A5.title: "Neptunium Helmet"
 		quest.008CF128DF4A54A5.quest_subtitle: "Otmette Neptunium Helmet."
 		quest.008CF128DF4A54A5.quest_desc: ["Dobavte Neptunium Helmet v zapas. Idite dalshe."]
-		quest.008E65AF545A706E.title: "Sps Casing"
-		quest.008E65AF545A706E.quest_subtitle: "Priz ostorozhnyj: Sps Casing."
-		quest.008E65AF545A706E.quest_desc: ["Zakroyte Sps Casing. Tixij kapital."]
+		quest.008E65AF545A706E.title: "&5&lSdvigatel Faz"
+		quest.008E65AF545A706E.quest_subtitle: "&7Vykujte antimateriyu iz poloniya"
+		quest.008E65AF545A706E.quest_desc: [
+			"&5&lSdvigatel Faz"
+			"&8&m                            "
+			""
+			"&7Postrojte Sverhkriticheskij Sdvigatel Faz iz korpusa, stekla,"
+			"&7portov i katushek. Pitaemyj lazerami, on dayot antimateriyu."
+			""
+			"&5&lKategoriya:&r &fSdvigatel Faz"
+			""
+			"&e&l★ Sovet:&r &7Antimateriya, eto redchajshij i moshchnejshij material Mekanism."
+		]
 		quest.0095422BC87AA135.title: "&2&lUtroenie Rudy"
 		quest.0095422BC87AA135.quest_subtitle: "&7Ochistite rudu radi trojnogo metalla"
 		quest.0095422BC87AA135.quest_desc: [
@@ -639,9 +649,19 @@
 			""
 			"&e&l★ Sovet:&r &7Sledujte za broshennymi Okami Edema. Oni shodyatsya u tverdyni."
 		]
-		quest.011D8CADA29C9C70.title: "QIO Drive"
-		quest.011D8CADA29C9C70.quest_subtitle: "Dobudte QIO Drive."
-		quest.011D8CADA29C9C70.quest_desc: ["Sdelajte zapas QIO Drive. Sleduyushchie kvesty ego potrebuyut."]
+		quest.011D8CADA29C9C70.title: "&3&lDiski QIO"
+		quest.011D8CADA29C9C70.quest_subtitle: "&7Reshite, skolko hranit set"
+		quest.011D8CADA29C9C70.quest_desc: [
+			"&3&lDiski QIO"
+			"&8&m                            "
+			""
+			"&7Diski QIO vstavlyayutsya v massiv, zadavaya yomkost. Ot"
+			"&7bazovogo do sverhmassivnogo kazhdyj uroven hranit bolshe."
+			""
+			"&3&lKategoriya:&r &fSistema QIO"
+			""
+			"&e&l★ Sovet:&r &7Smeshivajte urovni diskov, balansiruya tipy i kolichestvo."
+		]
 		quest.0162C52F3CEFC932.title: "Lower Goblin Knight"
 		quest.0162C52F3CEFC932.quest_subtitle: "Nesite Lower Goblin Knight."
 		quest.0162C52F3CEFC932.quest_desc: ["Polozhite Lower Goblin Knight v karman. Stoit zakrepit'."]
@@ -727,18 +747,38 @@
 		quest.02C20D2B7605CBC8.title: "Carminite Broodling"
 		quest.02C20D2B7605CBC8.quest_subtitle: "Na puti k Carminite Broodling."
 		quest.02C20D2B7605CBC8.quest_desc: ["Otmette Carminite Broodling kak priobretennyj. Korotkogo puti zdes net."]
-		quest.02C6132919DEAF2A.title: "Pressure Disperser"
-		quest.02C6132919DEAF2A.quest_subtitle: "Pressure Disperser opravdyvaet sebya."
-		quest.02C6132919DEAF2A.quest_desc: ["Potyanites k Pressure Disperser. Doverjajte tsepi."]
+		quest.02C6132919DEAF2A.title: "&6&lVnutrennosti Turbiny"
+		quest.02C6132919DEAF2A.quest_subtitle: "&7Dispersery, katushki i kondensatory"
+		quest.02C6132919DEAF2A.quest_desc: [
+			"&6&lVnutrennosti Turbiny"
+			"&8&m                            "
+			""
+			"&7Dispersery Davleniya ravnomerno raspredelyayut par, Katushki"
+			"&7sobirayut vrashchenie, a Kondensatory vozvrashchayut vodu."
+			""
+			"&6&lKategoriya:&r &fPromyshlennaya Turbina"
+			""
+			"&e&l★ Sovet:&r &7Eti detali reshayut, skolko energii vydast turbina."
+		]
 		quest.02E5E8D22DF49C31.title: "Treated Wood Horizontal"
 		quest.02E5E8D22DF49C31.quest_subtitle: "Treated Wood Horizontal otkryvaet bolshe."
 		quest.02E5E8D22DF49C31.quest_desc: ["Derzhite Treated Wood Horizontal pri sebe. Stoit zakrepit'."]
 		quest.0300307C7FB9E47C.title: "Basic To Netherite Tier Upgrade"
 		quest.0300307C7FB9E47C.quest_subtitle: "Na puti k Basic To Netherite Tier Upgrade."
 		quest.0300307C7FB9E47C.quest_desc: ["Zafiksirujte Basic To Netherite Tier Upgrade. Melkaya privychka, krupnyj rezultat."]
-		quest.0306D25C7407FE88.title: "Laser Focus Matrix"
-		quest.0306D25C7407FE88.quest_subtitle: "Laser Focus Matrix otkryvaet bolshe."
-		quest.0306D25C7407FE88.quest_desc: ["Nesite Laser Focus Matrix. Modulnyj progress, melkie shagi."]
+		quest.0306D25C7407FE88.title: "&b&lLazernaya Fokusiruyushchaya Matrica"
+		quest.0306D25C7407FE88.quest_subtitle: "&7Iskra, zazhigayushchaya sintez"
+		quest.0306D25C7407FE88.quest_desc: [
+			"&b&lLazernaya Fokusiruyushchaya Matrica"
+			"&8&m                            "
+			""
+			"&7Lazernaya Matrica ustanavlivaetsya na reaktor sinteza. Lazer,"
+			"&7popadayushchij po nej, vlivaet energiyu podzhiga."
+			""
+			"&b&lKategoriya:&r &fReaktor Sinteza"
+			""
+			"&e&l★ Sovet:&r &7Navedite moshchnyj lazer na matricu, chtoby zapustit reaktor."
+		]
 		quest.030CD7F23D6BB669.title: "Wither"
 		quest.030CD7F23D6BB669.quest_subtitle: "Nesite Wither."
 		quest.030CD7F23D6BB669.quest_desc: ["U vas prosjat Wither. Patient runs vyigrayut."]
@@ -764,9 +804,19 @@
 		quest.03838DA866F24122.title: "Ghast"
 		quest.03838DA866F24122.quest_subtitle: "rovnyj ran, odin Ghast."
 		quest.03838DA866F24122.quest_desc: ["Otlozhite Ghast. Uchet vazhen."]
-		quest.03840E4C74731E0C.title: "Fission Fuel Assembly"
-		quest.03840E4C74731E0C.quest_subtitle: "Skromnaya pribyl: Fission Fuel Assembly."
-		quest.03840E4C74731E0C.quest_desc: ["Uxodite s Fission Fuel Assembly. Blizhe, chem podskazyvaet karta."]
+		quest.03840E4C74731E0C.title: "&c&lToplivnaya Sborka Deleniya"
+		quest.03840E4C74731E0C.quest_subtitle: "&7Sterzhen, derzhashchij toplivo"
+		quest.03840E4C74731E0C.quest_desc: [
+			"&c&lToplivnaya Sborka Deleniya"
+			"&8&m                            "
+			""
+			"&7Toplivnaya Sborka Deleniya, eto vysokij sterzhen v reaktore,"
+			"&7derzhashchij delyashcheesya toplivo, poka ono gorit."
+			""
+			"&c&lKategoriya:&r &fReaktor Deleniya"
+			""
+			"&e&l★ Sovet:&r &7Stavte bolshe sborok dlya bolee goryachego reaktora."
+		]
 		quest.03A1750399F9460E.title: "&c&lVojti v Nezer"
 		quest.03A1750399F9460E.quest_subtitle: "&7Projdite skvoz obsidianovye vrata"
 		quest.03A1750399F9460E.quest_desc: [
@@ -1066,9 +1116,19 @@
 			""
 			"&e&l★ Sovet:&r &7Nachertyvajte glify na Stole Pisarya. Sochetajte formy i effekty."
 		]
-		quest.05DA7F48E2A1B77F.title: "Robit"
-		quest.05DA7F48E2A1B77F.quest_subtitle: "Otmette Robit kak gotovyj."
-		quest.05DA7F48E2A1B77F.quest_desc: ["Najdite svoj put k Robit. Patient runs vyigrayut."]
+		quest.05DA7F48E2A1B77F.title: "&9&lRobit"
+		quest.05DA7F48E2A1B77F.quest_subtitle: "&7Vernyj robot-pomoshchnik"
+		quest.05DA7F48E2A1B77F.quest_desc: [
+			"&9&lRobit"
+			"&8&m                            "
+			""
+			"&7Robit hodit za vami, otkryvaetsya kak perenosnoj verstak i"
+			"&7inventar i sam zaryazhaetsya na Zaryadnoj Plite."
+			""
+			"&9&lKategoriya:&r &fSnaryazhenie"
+			""
+			"&e&l★ Sovet:&r &7Nazovite ego i pokraste. Robit, eto vash sputnik v pohode."
+		]
 		quest.05DBDD86FCFF3BA8.title: "&d&lLightning Upgrade Orb"
 		quest.05DBDD86FCFF3BA8.quest_subtitle: "&7Privyazhite silu zaklinanij k snaryazheniyu"
 		quest.05DBDD86FCFF3BA8.quest_desc: [
@@ -1295,9 +1355,19 @@
 		quest.078A67E1F6A18027.title: "Objective"
 		quest.078A67E1F6A18027.quest_subtitle: "Zarabotajte signal lovkij putem."
 		quest.078A67E1F6A18027.quest_desc: ["Polozhite signal v inventar. Idite dalshe."]
-		quest.078B69E9362A5496.title: "Chemical Oxidizer"
-		quest.078B69E9362A5496.quest_subtitle: "Kruk za Chemical Oxidizer stoit."
-		quest.078B69E9362A5496.quest_desc: ["Dobavte Chemical Oxidizer. Idite dalshe."]
+		quest.078B69E9362A5496.title: "&2&lCep Uranovogo Gaza"
+		quest.078B69E9362A5496.quest_subtitle: "&7Prevratite keks v uranovyj gaz"
+		quest.078B69E9362A5496.quest_desc: [
+			"&2&lCep Uranovogo Gaza"
+			"&8&m                            "
+			""
+			"&7Okislyajte, razdelyajte i soedinyajte himiyu vmeste, chtoby"
+			"&7vesti uran k gazoobraznomu geksaftoridu urana."
+			""
+			"&2&lKategoriya:&r &fYadernoe Toplivo"
+			""
+			"&e&l★ Sovet:&r &7Eti tri mashiny perevodyat tvyordyj uran v gazovuyu stadiyu."
+		]
 		quest.07D0067DCADA462B.title: "Hostile Wolf"
 		quest.07D0067DCADA462B.quest_subtitle: "Hostile Wolf: kivok glavy."
 		quest.07D0067DCADA462B.quest_desc: ["Otmette Hostile Wolf kak poluchennyj. Spokojstvie pobezhdaet speshku."]
@@ -1609,9 +1679,19 @@
 		quest.09D7AD70408B4D6C.title: "Skeleton Druid"
 		quest.09D7AD70408B4D6C.quest_subtitle: "umerennyj shag k Skeleton Druid."
 		quest.09D7AD70408B4D6C.quest_desc: ["Razblokirujte Skeleton Druid. Doroga uchit ne men'she pribyli."]
-		quest.09D7D3CF61E156B1.title: "Fission Fuel Assembly"
-		quest.09D7D3CF61E156B1.quest_subtitle: "Fission Fuel Assembly, kontrolnaya tochka."
-		quest.09D7D3CF61E156B1.quest_desc: ["Otmette Fission Fuel Assembly v dossier. Stoit bolshe opisaniya."]
+		quest.09D7D3CF61E156B1.title: "&c&lDetali Aktivnoj Zony"
+		quest.09D7D3CF61E156B1.quest_subtitle: "&7Toplivnye sborki i upravlyayushchie sterzhni"
+		quest.09D7D3CF61E156B1.quest_desc: [
+			"&c&lDetali Aktivnoj Zony"
+			"&8&m                            "
+			""
+			"&7Toplivnye Sborki Deleniya derzhat goryashchee toplivo, a"
+			"&7Sborki Upravlyayushchih Sterzhnej upravlyayut reakciej."
+			""
+			"&c&lKategoriya:&r &fReaktor Deleniya"
+			""
+			"&e&l★ Sovet:&r &7Eti dve detali obrazuyut aktivnuyu zonu reaktora."
+		]
 		quest.09E116C1CF9E4FB6.title: "Minotaur"
 		quest.09E116C1CF9E4FB6.quest_subtitle: "Na puti k Minotaur."
 		quest.09E116C1CF9E4FB6.quest_desc: ["Otmette odin Minotaur. Otlozheno na potom."]
@@ -2790,9 +2870,19 @@
 		quest.13419B8C65769C69.title: "Stable Ice Core"
 		quest.13419B8C65769C69.quest_subtitle: "Stable Ice Core: kivok glavy."
 		quest.13419B8C65769C69.quest_desc: ["Stable Ice Core, chast' tsepi. Nesushchij, ne yarkij."]
-		quest.13A5748DF69D832E.title: "Qio Dashboard"
-		quest.13A5748DF69D832E.quest_subtitle: "Kruk za Qio Dashboard stoit."
-		quest.13A5748DF69D832E.quest_desc: ["Vycherknite Qio Dashboard. Korotkogo puti zdes net."]
+		quest.13A5748DF69D832E.title: "&3&lPanel QIO"
+		quest.13A5748DF69D832E.quest_subtitle: "&7Prosmatrivajte i krafte iz seti"
+		quest.13A5748DF69D832E.quest_desc: [
+			"&3&lPanel QIO"
+			"&8&m                            "
+			""
+			"&7Panel QIO, eto ustanovlennyj terminal seti QIO. Ishchite,"
+			"&7snimajte i krafte pryamo iz besprovodnogo hraneniya."
+			""
+			"&3&lKategoriya:&r &fSistema QIO"
+			""
+			"&e&l★ Sovet:&r &7Eto ekran, cherez kotoryj rabotaet vsya vasha avtobaza."
+		]
 		quest.13B3B15CB7744E20.title: "Harbinger Cube"
 		quest.13B3B15CB7744E20.quest_subtitle: "Voz'mite Harbinger Cube v etot ran."
 		quest.13B3B15CB7744E20.quest_desc: ["Harbinger Cube, tot predmet, chto raskruchivaetsya. Tixij kapital."]
@@ -2834,9 +2924,19 @@
 			""
 			"&e&l★ Sovet:&r &7Uluchshenie prostogo stola. On pererollit vysshie redkosti."
 		]
-		quest.141D68BAD039784B.title: "Boiler Valve"
-		quest.141D68BAD039784B.quest_subtitle: "Boiler Valve opravdyvaet sebya."
-		quest.141D68BAD039784B.quest_desc: ["Vylovite Boiler Valve. Uchet vazhen."]
+		quest.141D68BAD039784B.title: "&e&lKlapany Kotla"
+		quest.141D68BAD039784B.quest_subtitle: "&7Podavajte vodu i otbirajte par"
+		quest.141D68BAD039784B.quest_desc: [
+			"&e&lKlapany Kotla"
+			"&8&m                            "
+			""
+			"&7Klapany Kotla, eto otverstiya steny kotla. Voda vhodit"
+			"&7cherez nih, a napornyj par vyhodit."
+			""
+			"&e&lKategoriya:&r &fTermoelektricheskij Kotel"
+			""
+			"&e&l★ Sovet:&r &7Stavte klapany na storony, kotorye budete podklyuchat."
+		]
 		quest.14551AFCCCD2748F.title: "Hedge Spider"
 		quest.14551AFCCCD2748F.quest_subtitle: "Zarabotajte: Hedge Spider."
 		quest.14551AFCCCD2748F.quest_desc: ["Zarabotajte Hedge Spider. Stoit bolshe opisaniya. Malenkij shag na dolgom puti."]
@@ -3290,9 +3390,19 @@
 		quest.17DB7276924C5054.title: "Flux Configurator"
 		quest.17DB7276924C5054.quest_subtitle: "Malen'kij shag: Flux Configurator."
 		quest.17DB7276924C5054.quest_desc: ["Zakroyte Flux Configurator. Vy zasluzhili pauzu."]
-		quest.17E2C05C48B03043.title: "Thermal Evaporation Block"
-		quest.17E2C05C48B03043.quest_subtitle: "Skromnaya pribyl: Thermal Evaporation Block."
-		quest.17E2C05C48B03043.quest_desc: ["Thermal Evaporation Block, vasha sleduyushchaya nagrada. Spokojstvie pobezhdaet speshku."]
+		quest.17E2C05C48B03043.title: "&2&lHimiya Ohlazhdeniya"
+		quest.17E2C05C48B03043.quest_subtitle: "&7Vyparivajte vodu dlya nuzhd reaktora"
+		quest.17E2C05C48B03043.quest_desc: [
+			"&2&lHimiya Ohlazhdeniya"
+			"&8&m                            "
+			""
+			"&7Bashnya Termoispareniya s Elektroliticheskim Separatorom"
+			"&7dobyvaet rassoly i gazy, nuzhnye reaktornoj ustanovke."
+			""
+			"&2&lKategoriya:&r &fYadernoe Toplivo"
+			""
+			"&e&l★ Sovet:&r &7Zapustite eyo do rosta, reaktory zhadny do himii."
+		]
 		quest.17E4CD046F24E589.title: "Snow Guardian"
 		quest.17E4CD046F24E589.quest_subtitle: "Tixij rubezh s Snow Guardian."
 		quest.17E4CD046F24E589.quest_desc: ["Prinesite Snow Guardian domoj. Modulnyj progress, melkie shagi."]
@@ -3762,9 +3872,19 @@
 			""
 			"&e&l★ Sovet:&r &7Redkie cherepki lyubyat glubokie i otdalyonnye raskopki."
 		]
-		quest.1C87535D3CDCDA5F.title: "Laser Amplifier"
-		quest.1C87535D3CDCDA5F.quest_subtitle: "Otlozhite Laser Amplifier na potom."
-		quest.1C87535D3CDCDA5F.quest_desc: ["Voz'mite Laser Amplifier. Uchet vazhen."]
+		quest.1C87535D3CDCDA5F.title: "&b&lLazernyj Usilitel"
+		quest.1C87535D3CDCDA5F.quest_subtitle: "&7Hranite i vypuskajte lazernyj zalp"
+		quest.1C87535D3CDCDA5F.quest_desc: [
+			"&b&lLazernyj Usilitel"
+			"&8&m                            "
+			""
+			"&7Lazernyj Usilitel kopit lazernuyu energiyu do zadannogo"
+			"&7poroga, zatem vypuskaet eyo srazu odnim impulsom."
+			""
+			"&b&lKategoriya:&r &fReaktor Sinteza"
+			""
+			"&e&l★ Sovet:&r &7Ispolzujte ego, chtoby nanesti rezkij udar po matrice."
+		]
 		quest.1C92D68E55B42C18.title: "&e&lNetherite-Gold Instrumenty"
 		quest.1C92D68E55B42C18.quest_subtitle: "&7Nabor instrumentov Netherite-Gold."
 		quest.1C92D68E55B42C18.quest_desc: [
@@ -4250,9 +4370,19 @@
 			""
 			"&e&l★ Sovet:&r &7Naklady vajte usileniya na idealnyj brosok, chtoby usilit ego."
 		]
-		quest.20054D077AFE3F56.title: "Pellet Plutonium"
-		quest.20054D077AFE3F56.quest_subtitle: "lovkij shag k Pellet Plutonium."
-		quest.20054D077AFE3F56.quest_desc: ["Pellet Plutonium: malenkij predmet, nastoyashchij progress. V svoyom rite."]
+		quest.20054D077AFE3F56.title: "&c&lGranula Plutoniya"
+		quest.20054D077AFE3F56.quest_subtitle: "&7Plotnaya granula iz othodov"
+		quest.20054D077AFE3F56.quest_desc: [
+			"&c&lGranula Plutoniya"
+			"&8&m                            "
+			""
+			"&7Pererabotajte radioaktivnye othody v Izotopnoj Centrifuge,"
+			"&7chtoby vyzhat Granuly Plutoniya, shag k antimaterii."
+			""
+			"&c&lKategoriya:&r &fReaktor Deleniya"
+			""
+			"&e&l★ Sovet:&r &7Plutonij prevrashchaet problemu reaktora v cennyj resurs."
+		]
 		quest.2009BFA881ED3447.title: "Sheetmetal Iron"
 		quest.2009BFA881ED3447.quest_subtitle: "Odin Sheetmetal Iron, iskrennij pobeda."
 		quest.2009BFA881ED3447.quest_desc: ["Sheetmetal Iron: malenkij predmet, nastoyashchij progress. Schitaet."]
@@ -5242,9 +5372,19 @@
 			""
 			"&e&l★ Sovet:&r &7Derzhite klinok i nazhmite klavishu sposobnosti, chtoby vysvobodit silu."
 		]
-		quest.298A7BED5C2C7582.title: "Induction Cell"
-		quest.298A7BED5C2C7582.quest_subtitle: "Induction Cell: tixo neobhodim."
-		quest.298A7BED5C2C7582.quest_desc: ["Najdite Induction Cell. Usiliya vpolne stoyat nagrady."]
+		quest.298A7BED5C2C7582.title: "&d&lIndukcionnye Yachejki"
+		quest.298A7BED5C2C7582.quest_subtitle: "&7Reshite, skolko energii hranite"
+		quest.298A7BED5C2C7582.quest_desc: [
+			"&d&lIndukcionnye Yachejki"
+			"&8&m                            "
+			""
+			"&7Indukcionnye Yachejki zadayut yomkost Indukcionnoj Matricy."
+			"&7Ot bazovoj do velikoj kazhdyj uroven hranit gorazdo bolshe."
+			""
+			"&d&lKategoriya:&r &fIndukcionnaya Matrica"
+			""
+			"&e&l★ Sovet:&r &7Zapolnite matricu yachejkami, podognav obyom hraneniya."
+		]
 		quest.29B70877FAE1013E.title: "Skeleton"
 		quest.29B70877FAE1013E.quest_subtitle: "V karmane: Skeleton."
 		quest.29B70877FAE1013E.quest_desc: ["Skeleton otmechaet kontrolnuyu tochku. Doverjajte tsepi."]
@@ -5757,9 +5897,19 @@
 		quest.2DC2DA7DBC111E5F.title: "Hoglin"
 		quest.2DC2DA7DBC111E5F.quest_subtitle: "Otlozhite Hoglin na potom."
 		quest.2DC2DA7DBC111E5F.quest_desc: ["Voz'mite Hoglin. Stoit bolshe opisaniya."]
-		quest.2DC4446A644A4079.title: "Hazmat Mask"
-		quest.2DC4446A644A4079.quest_subtitle: "Kruk za Hazmat Mask stoit."
-		quest.2DC4446A644A4079.quest_desc: ["Najdite Hazmat Mask. Skromen seychas, moshchen potom."]
+		quest.2DC4446A644A4079.title: "&9&lKostyum Himzashchity"
+		quest.2DC4446A644A4079.quest_subtitle: "&7Polnaya bronya protiv radiacii"
+		quest.2DC4446A644A4079.quest_desc: [
+			"&9&lKostyum Himzashchity"
+			"&8&m                            "
+			""
+			"&7Maska, Halat, Shtany i Botinki himzashchity vmeste izoliruyut"
+			"&7vas ot smertelnoj radiacii vokrug reaktorov i othodov."
+			""
+			"&9&lKategoriya:&r &fSnaryazhenie"
+			""
+			"&e&l★ Sovet:&r &7Nikogda ne trogajte yadernoe bez polnogo kostyuma."
+		]
 		quest.2DEE60485B5FBED3.title: "Zinfandel"
 		quest.2DEE60485B5FBED3.quest_subtitle: "Priz userdnyj: Zinfandel."
 		quest.2DEE60485B5FBED3.quest_desc: ["Sprachte Zinfandel v bezopasnoe mesto. Glava krutitsya vokrug etogo."]
@@ -6037,9 +6187,19 @@
 			""
 			"&e&l★ Sovet:&r &7Essenciya cenna. Trate eyo na samye vazhnye uluchsheniya."
 		]
-		quest.302E9BC711779A4A.title: "Enrichment Chamber"
-		quest.302E9BC711779A4A.quest_subtitle: "chistyj pryzhok: Enrichment Chamber."
-		quest.302E9BC711779A4A.quest_desc: ["Voz'mite Enrichment Chamber v vladenie. Korotkogo puti zdes net."]
+		quest.302E9BC711779A4A.title: "&2&lUranovyj Zhyoltyj Keks"
+		quest.302E9BC711779A4A.quest_subtitle: "&7Ochistite syroj uran v zhyoltyj keks"
+		quest.302E9BC711779A4A.quest_desc: [
+			"&2&lUranovyj Zhyoltyj Keks"
+			"&8&m                            "
+			""
+			"&7Obogatite uranovuyu rudu v Kamere, zatem propustite eyo"
+			"&7cherez Himicheskij Okislitel k Zhyoltomu Keksu."
+			""
+			"&2&lKategoriya:&r &fYadernoe Toplivo"
+			""
+			"&e&l★ Sovet:&r &7Zhyoltyj keks, eto pervyj shag na puti k toplivu reaktora."
+		]
 		quest.306301D195E6B8C1.title: "Roving Cube"
 		quest.306301D195E6B8C1.quest_subtitle: "akkuratnyj rubezh: Roving Cube."
 		quest.306301D195E6B8C1.quest_desc: ["Potyanites k Roving Cube. Malenkij shag na dolgom puti."]
@@ -6662,9 +6822,19 @@
 			""
 			"&e&l★ Sovet:&r &7Horoshaya dobycha menyaet ves ran. Izuchite sistemu."
 		]
-		quest.3561A33758A1E8C3.title: "Fusion Reactor Controller"
-		quest.3561A33758A1E8C3.quest_subtitle: "Zarabotajte: Fusion Reactor Controller."
-		quest.3561A33758A1E8C3.quest_desc: ["Upakujte Fusion Reactor Controller. Glava proshla polputi s vami."]
+		quest.3561A33758A1E8C3.title: "&b&lReaktor Sinteza"
+		quest.3561A33758A1E8C3.quest_subtitle: "&7Vykujte zvezdu vnutri ramy"
+		quest.3561A33758A1E8C3.quest_desc: [
+			"&b&lReaktor Sinteza"
+			"&8&m                            "
+			""
+			"&7Postrojte ramu sinteza iz ram, stekla, portov, kontrollera"
+			"&7i lazernoj fokusiruyushchej matricy dlya podzhiga."
+			""
+			"&b&lKategoriya:&r &fReaktor Sinteza"
+			""
+			"&e&l★ Sovet:&r &7Lazer dolzhen porazit matricu, chtoby nachat reakciyu."
+		]
 		quest.357B093F2DE1411C.title: "Carminite Golem"
 		quest.357B093F2DE1411C.quest_subtitle: "Nesite Carminite Golem."
 		quest.357B093F2DE1411C.quest_desc: ["Otmette Carminite Golem v dossier. Doverjajte tsepi."]
@@ -6728,9 +6898,19 @@
 		quest.368D9EC39BF7C354.title: "Enderman"
 		quest.368D9EC39BF7C354.quest_subtitle: "Dobavte odin Enderman."
 		quest.368D9EC39BF7C354.quest_desc: ["Otmette Enderman kak poluchennyj. Eshchyo odna preodolennaya stupen'."]
-		quest.369DADE3B3D8416F.title: "Thermal Evaporation Block"
-		quest.369DADE3B3D8416F.quest_subtitle: "Thermal Evaporation Block, kontrolnaya tochka."
-		quest.369DADE3B3D8416F.quest_desc: ["Vnesite Thermal Evaporation Block v dnevnik. Uchet vazhen."]
+		quest.369DADE3B3D8416F.title: "&b&lProizvodstvo Tritiya"
+		quest.369DADE3B3D8416F.quest_subtitle: "&7Aktivirujte litij v toplivo sinteza"
+		quest.369DADE3B3D8416F.quest_desc: [
+			"&b&lProizvodstvo Tritiya"
+			"&8&m                            "
+			""
+			"&7Vyparite rassol radi litiya, skondensirujte ego, zatem"
+			"&7iskupajte v Solnechnom Aktivatore radi tritiya."
+			""
+			"&b&lKategoriya:&r &fReaktor Sinteza"
+			""
+			"&e&l★ Sovet:&r &7Tritij, eto vtoroj gaz, nuzhnyj reaktoru sinteza."
+		]
 		quest.36AF4B5123EB4B25.title: "Shulker"
 		quest.36AF4B5123EB4B25.quest_subtitle: "Skromnaya pribyl: Shulker."
 		quest.36AF4B5123EB4B25.quest_desc: ["Potyanites k Shulker. Melkaya privychka, krupnyj rezultat."]
@@ -7233,9 +7413,19 @@
 		quest.3B84215240D9F2CB.title: "Security Manager"
 		quest.3B84215240D9F2CB.quest_subtitle: "Security Manager: kivok glavy."
 		quest.3B84215240D9F2CB.quest_desc: ["Xvatajte Security Manager. Otlozheno na potom."]
-		quest.3B936CA3F0F7B26B.title: "Digital Miner"
-		quest.3B936CA3F0F7B26B.quest_subtitle: "Digital Miner otkryvaet bolshe."
-		quest.3B936CA3F0F7B26B.quest_desc: ["Prinesite Digital Miner. Vy sebe potom skazhete spasibo."]
+		quest.3B936CA3F0F7B26B.title: "&9&lCifrovoj Shahtyor"
+		quest.3B936CA3F0F7B26B.quest_subtitle: "&7Dobyvajte celyj rajon po filtru"
+		quest.3B936CA3F0F7B26B.quest_desc: [
+			"&9&lCifrovoj Shahtyor"
+			"&8&m                            "
+			""
+			"&7Cifrovoj Shahtyor skaniruet ogromnuyu zonu i vykapyvaet"
+			"&7kazhdyj blok, podhodyashchij pod zadannye filtry, sam."
+			""
+			"&9&lKategoriya:&r &fSnaryazhenie"
+			""
+			"&e&l★ Sovet:&r &7On dazhe mozhet zamenyat dobytoe, ostavlyaya zemlyu chistoj."
+		]
 		quest.3B9E16A5743B069C.title: "Blockchain Goblin"
 		quest.3B9E16A5743B069C.quest_subtitle: "Blockchain Goblin opravdyvaet sebya."
 		quest.3B9E16A5743B069C.quest_desc: ["Blockchain Goblin otmechaet kontrolnuyu tochku. Modulnyj progress, melkie shagi."]
@@ -7344,9 +7534,19 @@
 		quest.3CCAA2F6A7700A66.title: "Carminite Broodling"
 		quest.3CCAA2F6A7700A66.quest_subtitle: "Malen'kij shag: Carminite Broodling."
 		quest.3CCAA2F6A7700A66.quest_desc: ["Otmette Carminite Broodling kak priobretennyj. Eshchyo odna preodolennaya stupen'."]
-		quest.3CCBE9BBCA8ADA38.title: "Supercharged Coil"
-		quest.3CCBE9BBCA8ADA38.quest_subtitle: "Voz'mite Supercharged Coil v etot ran."
-		quest.3CCBE9BBCA8ADA38.quest_desc: ["Otmette Supercharged Coil kak priobretennyj. Polezno ran'she, chem kazhetsya."]
+		quest.3CCBE9BBCA8ADA38.title: "&5&lSverhzaryazhennaya Katushka"
+		quest.3CCBE9BBCA8ADA38.quest_subtitle: "&7Lejte lazernuyu energiyu v Sdvigatel"
+		quest.3CCBE9BBCA8ADA38.quest_desc: [
+			"&5&lSverhzaryazhennaya Katushka"
+			"&8&m                            "
+			""
+			"&7Sverhzaryazhennaya Katushka stavitsya na Sdvigatel Faz i"
+			"&7pitaet ego lazernoj energiej, prevrashchayushchej polonij."
+			""
+			"&5&lKategoriya:&r &fSdvigatel Faz"
+			""
+			"&e&l★ Sovet:&r &7Navedite lazery na katushki, chtoby pitat preobrazovanie."
+		]
 		quest.3CD1F849ACF96659.title: "Helmet Crab"
 		quest.3CD1F849ACF96659.quest_subtitle: "yarkij shag k Helmet Crab."
 		quest.3CD1F849ACF96659.quest_desc: ["Zakroyte Helmet Crab. Tsep' derzhit."]
@@ -7416,9 +7616,19 @@
 			""
 			"&e&l★ Sovet:&r &7Chetyre cherepka soedinyayutsya na verstake v dekorativnyj gorshok."
 		]
-		quest.3D2B4D9FD2086B9B.title: "Fission Reactor Logic Adapter"
-		quest.3D2B4D9FD2086B9B.quest_subtitle: "Voz'mite Fission Reactor Logic Adapter v etot ran."
-		quest.3D2B4D9FD2086B9B.quest_desc: ["Zarabotajte Fission Reactor Logic Adapter. Doverjajte tsepi."]
+		quest.3D2B4D9FD2086B9B.title: "&c&lLogicheskij Adapter"
+		quest.3D2B4D9FD2086B9B.quest_subtitle: "&7Podklyuchite reaktor k redstounu"
+		quest.3D2B4D9FD2086B9B.quest_desc: [
+			"&c&lLogicheskij Adapter"
+			"&8&m                            "
+			""
+			"&7Logicheskij Adapter Reaktora soobshchaet status reaktora"
+			"&7signalom redstouna i mozhet prinimat komandy v otvet."
+			""
+			"&c&lKategoriya:&r &fReaktor Deleniya"
+			""
+			"&e&l★ Sovet:&r &7Tak vy chitaete uron i opasnost s bezopasnogo rasstoyaniya."
+		]
 		quest.3D31B94CC42BCE43.title: "&d&lTom Izvlecheniya"
 		quest.3D31B94CC42BCE43.quest_subtitle: "&7Soxranite zacharovanie celikom"
 		quest.3D31B94CC42BCE43.quest_desc: [
@@ -7597,9 +7807,19 @@
 			""
 			"&e&l★ Sovet:&r &7Kazhdoe primenenie dobavlyaet 4 bloka, do maksimuma 48."
 		]
-		quest.3E5BE6D6422F682C.title: "Turbine Valve"
-		quest.3E5BE6D6422F682C.quest_subtitle: "Turbine Valve: nesushchee zveno."
-		quest.3E5BE6D6422F682C.quest_desc: ["Zarabotajte Turbine Valve. Vy sebe potom skazhete spasibo."]
+		quest.3E5BE6D6422F682C.title: "&6&lKlapany i Otdushiny Turbiny"
+		quest.3E5BE6D6422F682C.quest_subtitle: "&7Dvigajte par vnutr i naruzhu"
+		quest.3E5BE6D6422F682C.quest_desc: [
+			"&6&lKlapany i Otdushiny Turbiny"
+			"&8&m                            "
+			""
+			"&7Klapany Turbiny nesut par v turbinu i energiyu naruzhu, a"
+			"&7Otdushiny vypuskayut otrabotannyj par posle ispolzovaniya."
+			""
+			"&6&lKategoriya:&r &fPromyshlennaya Turbina"
+			""
+			"&e&l★ Sovet:&r &7Balansirujte klapany i otdushiny radi rovnogo potoka para."
+		]
 		quest.3E8077AB45C79E6A.title: "&a&lKotyol Alhimika"
 		quest.3E8077AB45C79E6A.quest_subtitle: "&7Varite chernila magii"
 		quest.3E8077AB45C79E6A.quest_desc: [
@@ -7939,9 +8159,19 @@
 		quest.40DEE20FC31A48C7.title: "Pump Upgrade"
 		quest.40DEE20FC31A48C7.quest_subtitle: "Otmette Pump Upgrade."
 		quest.40DEE20FC31A48C7.quest_desc: ["Prinesite Pump Upgrade domoj. Uchet vazhen."]
-		quest.40E8940C92668D4F.title: "Electric Pump"
-		quest.40E8940C92668D4F.quest_subtitle: "Electric Pump, kontrolnaya tochka."
-		quest.40E8940C92668D4F.quest_desc: ["Voz'mite Electric Pump. Uchet vazhen."]
+		quest.40E8940C92668D4F.title: "&b&lProizvodstvo Dejteriya"
+		quest.40E8940C92668D4F.quest_subtitle: "&7Kachajte tyazhyoluyu vodu dlya topliva"
+		quest.40E8940C92668D4F.quest_desc: [
+			"&b&lProizvodstvo Dejteriya"
+			"&8&m                            "
+			""
+			"&7Postavte Uluchshenie Filtra na Elektronasos, chtoby on bral"
+			"&7tyazhyoluyu vodu, razdelyonnuyu v Separatore na dejterij."
+			""
+			"&b&lKategoriya:&r &fReaktor Sinteza"
+			""
+			"&e&l★ Sovet:&r &7Dejterij, eto odin iz dvuh gazov, kotorye zhzhyot reaktor sinteza."
+		]
 		quest.4101F8275B41C79B.title: "1k Storage Part"
 		quest.4101F8275B41C79B.quest_subtitle: "Malen'kij shag: 1k Storage Part."
 		quest.4101F8275B41C79B.quest_desc: ["Najdite 1k Storage Part. Eshchyo odna preodolennaya stupen'."]
@@ -8086,9 +8316,19 @@
 			""
 			"&e&l★ Sovet:&r &7Horoshij vybor blizhnego boya dlya kriomanta."
 		]
-		quest.4211F29561F21643.title: "Turbine Rotor"
-		quest.4211F29561F21643.quest_subtitle: "Zarabotajte Turbine Rotor vnimatelnyj putem."
-		quest.4211F29561F21643.quest_desc: ["Razdobudte Turbine Rotor. Otlozheno na potom."]
+		quest.4211F29561F21643.title: "&6&lVal Rotora Turbiny"
+		quest.4211F29561F21643.quest_subtitle: "&7Vrashchayushcheesya yadro turbiny"
+		quest.4211F29561F21643.quest_desc: [
+			"&6&lVal Rotora Turbiny"
+			"&8&m                            "
+			""
+			"&7Rotory Turbiny skladyvayutsya v centralnyj val, a"
+			"&7Rotacionnyj Kompleks venchaet ego, vrashchaya katushki."
+			""
+			"&6&lKategoriya:&r &fPromyshlennaya Turbina"
+			""
+			"&e&l★ Sovet:&r &7Bolee vysokij val prevrashchaet bolshe para v bolshe energii."
+		]
 		quest.421AAE8C9F8208D1.title: "Snow Guardian"
 		quest.421AAE8C9F8208D1.quest_subtitle: "Otmette Snow Guardian kak gotovyj."
 		quest.421AAE8C9F8208D1.quest_desc: ["Zarabotajte Snow Guardian shag za shagom. Most mezhdu sdelannym i predstoyashchim."]
@@ -8283,9 +8523,19 @@
 		quest.43830AB36EEA4B21.title: "Fire Beetle"
 		quest.43830AB36EEA4B21.quest_subtitle: "Fire Beetle, kontrolnaya tochka."
 		quest.43830AB36EEA4B21.quest_desc: ["Fire Beetle, tot predmet, chto raskruchivaetsya. Polezno ran'she, chem kazhetsya."]
-		quest.438F734D16DA9638.title: "Pellet Polonium"
-		quest.438F734D16DA9638.quest_subtitle: "Na puti k Pellet Polonium."
-		quest.438F734D16DA9638.quest_desc: ["Otmette Pellet Polonium kak priobretennyj. Glava krutitsya vokrug etogo."]
+		quest.438F734D16DA9638.title: "&c&lGranula Poloniya"
+		quest.438F734D16DA9638.quest_subtitle: "&7Aktivirujte othody v polonij"
+		quest.438F734D16DA9638.quest_desc: [
+			"&c&lGranula Poloniya"
+			"&8&m                            "
+			""
+			"&7Solnechnyj Nejtronnyj Aktivator kupaet yadernye othody v"
+			"&7solnce, prevrashchaya ih v polonij, szhatyj v granuly."
+			""
+			"&c&lKategoriya:&r &fReaktor Deleniya"
+			""
+			"&e&l★ Sovet:&r &7Granuly poloniya vedut put k Sdvigatelyu Faz."
+		]
 		quest.43DD5FC24E2B66A9.title: "Mosquito Swarm"
 		quest.43DD5FC24E2B66A9.quest_subtitle: "Dobavte odin Mosquito Swarm."
 		quest.43DD5FC24E2B66A9.quest_desc: ["Mosquito Swarm otmechaet kontrolnuyu tochku. Melkie pobedy summiruyutsya."]
@@ -8942,9 +9192,19 @@
 		quest.4924798E2CB9B39A.title: "Umvuthana Mask Misery"
 		quest.4924798E2CB9B39A.quest_subtitle: "bditelnyj ran, odin Umvuthana Mask Misery."
 		quest.4924798E2CB9B39A.quest_desc: ["Vycherknite Umvuthana Mask Misery. Doverjajte tsepi."]
-		quest.4926C95DD02F1410.title: "Laser"
-		quest.4926C95DD02F1410.quest_subtitle: "terpelivyj pryzhok: Laser."
-		quest.4926C95DD02F1410.quest_desc: ["Zarabotajte Laser shag za shagom. Eshchyo odin kirpich v stene."]
+		quest.4926C95DD02F1410.title: "&b&lLazer"
+		quest.4926C95DD02F1410.quest_subtitle: "&7Rezhte, kopajte i podzhigajte svetom"
+		quest.4926C95DD02F1410.quest_desc: [
+			"&b&lLazer"
+			"&8&m                            "
+			""
+			"&7Lazer streljaet skoncentrirovannym luchom energii, kotoryj"
+			"&7dobyvaet bloki, ranit mobov i pitaet lazernye mashiny."
+			""
+			"&b&lKategoriya:&r &fReaktor Sinteza"
+			""
+			"&e&l★ Sovet:&r &7Soedinyajte lazery i usiliteli, chtoby zazhech reaktor sinteza."
+		]
 		quest.493197FEE8284DA3.title: "Adherent"
 		quest.493197FEE8284DA3.quest_subtitle: "Priz yarkij: Adherent."
 		quest.493197FEE8284DA3.quest_desc: ["Najdite Adherent. Kruk okupaetsya."]
@@ -9178,9 +9438,19 @@
 		quest.4B013127D9CE4CA1.title: "Redcap Sapper"
 		quest.4B013127D9CE4CA1.quest_subtitle: "V karmane: Redcap Sapper."
 		quest.4B013127D9CE4CA1.quest_desc: ["Ulozhite Redcap Sapper. Otlozheno na potom."]
-		quest.4B2835706B593E9A.title: "Antiprotonic Nucleosynthesizer"
-		quest.4B2835706B593E9A.quest_subtitle: "Malen'kij shag: Antiprotonic Nucleosynthesizer."
-		quest.4B2835706B593E9A.quest_desc: ["Dobav'te Antiprotonic Nucleosynthesizer v kit. Malenkij shag na dolgom puti."]
+		quest.4B2835706B593E9A.title: "&5&lAntiprotonnyj Nukleosintezator"
+		quest.4B2835706B593E9A.quest_subtitle: "&7Trate antimateriyu na redkie veshchi"
+		quest.4B2835706B593E9A.quest_desc: [
+			"&5&lAntiprotonnyj Nukleosintezator"
+			"&8&m                            "
+			""
+			"&7Nukleosintezator zhzhyot granuly antimaterii kak toplivo,"
+			"&7prevrashchaya obychnye vhody v redkie, inache nedostupnye predmety."
+			""
+			"&5&lKategoriya:&r &fSdvigatel Faz"
+			""
+			"&e&l★ Sovet:&r &7Eto finalnaya kraftovaya mashina dereva tehnologij Mekanism."
+		]
 		quest.4B35C01F5D0AAC58.title: "&e&lStalnoj Slitok"
 		quest.4B35C01F5D0AAC58.quest_subtitle: "&7Prochnyj metall dlya nadyozhnyh mashin"
 		quest.4B35C01F5D0AAC58.quest_desc: [
@@ -9257,9 +9527,19 @@
 		quest.4B9E96C1694246EA.title: "Blockchain Goblin"
 		quest.4B9E96C1694246EA.quest_subtitle: "Na puti k Blockchain Goblin."
 		quest.4B9E96C1694246EA.quest_desc: ["Polozhite Blockchain Goblin v karman. Melkaya privychka, krupnyj rezultat."]
-		quest.4BAF44FCA0894DE8.title: "Solar Neutron Activator"
-		quest.4BAF44FCA0894DE8.quest_subtitle: "Solar Neutron Activator otkryvaet bolshe."
-		quest.4BAF44FCA0894DE8.quest_desc: ["Dobavte Solar Neutron Activator v zapas. Tsep' derzhit."]
+		quest.4BAF44FCA0894DE8.title: "&b&lSolnechnyj Nejtronnyj Aktivator"
+		quest.4BAF44FCA0894DE8.quest_subtitle: "&7Obluchajte himiyu solnechnym svetom"
+		quest.4BAF44FCA0894DE8.quest_desc: [
+			"&b&lSolnechnyj Nejtronnyj Aktivator"
+			"&8&m                            "
+			""
+			"&7Solnechnyj Nejtronnyj Aktivator obluchaet gaz dnevnym"
+			"&7svetom, prevrashchaya litij v tritij, a othody v polonij."
+			""
+			"&b&lKategoriya:&r &fReaktor Sinteza"
+			""
+			"&e&l★ Sovet:&r &7Stavte ego vysoko pod chistym nebom radi bystroj aktivacii."
+		]
 		quest.4BCC14615DA7CA1D.title: "Advanced Filter Upgrade"
 		quest.4BCC14615DA7CA1D.quest_subtitle: "Nesite Advanced Filter Upgrade."
 		quest.4BCC14615DA7CA1D.quest_desc: ["Sxvatite Advanced Filter Upgrade. Kruk okupaetsya."]
@@ -9539,9 +9819,19 @@
 		quest.4E1696F8AB19005F.title: "Cabernet Sauvignon"
 		quest.4E1696F8AB19005F.quest_subtitle: "Cabernet Sauvignon otkryvaet bolshe."
 		quest.4E1696F8AB19005F.quest_desc: ["Sokhranite Cabernet Sauvignon. Vy zasluzhili pauzu."]
-		quest.4E18E28BDF6B7983.title: "Fusion Reactor Port"
-		quest.4E18E28BDF6B7983.quest_subtitle: "Stroyte tsep Fusion Reactor Port."
-		quest.4E18E28BDF6B7983.quest_desc: ["Dobudte Fusion Reactor Port. Patient runs vyigrayut."]
+		quest.4E18E28BDF6B7983.title: "&b&lPort Reaktora Sinteza"
+		quest.4E18E28BDF6B7983.quest_subtitle: "&7Vrata ramy sinteza"
+		quest.4E18E28BDF6B7983.quest_desc: [
+			"&b&lPort Reaktora Sinteza"
+			"&8&m                            "
+			""
+			"&7Port Reaktora Sinteza nesyot toplivo, ohladitel i energiyu"
+			"&7cherez stenu ramy reaktora sinteza."
+			""
+			"&b&lKategoriya:&r &fReaktor Sinteza"
+			""
+			"&e&l★ Sovet:&r &7Nuzhno neskolko, zadannyh pod kazhdyj vhod i vyhod."
+		]
 		quest.4E279EDF2A924106.title: "Piglin"
 		quest.4E279EDF2A924106.quest_subtitle: "Dobavte odin Piglin."
 		quest.4E279EDF2A924106.quest_desc: ["Voz'mite Piglin. Tixij kapital."]
@@ -9876,9 +10166,19 @@
 		quest.50E55183B49E4DEA.title: "Pillager"
 		quest.50E55183B49E4DEA.quest_subtitle: "Stroyte tsep Pillager."
 		quest.50E55183B49E4DEA.quest_desc: ["Vycherknite Pillager. Stremites' k sleduyushchemu."]
-		quest.50F23B2688D7E699.title: "Pellet Antimatter"
-		quest.50F23B2688D7E699.quest_subtitle: "rovnyj shag k Pellet Antimatter."
-		quest.50F23B2688D7E699.quest_desc: ["Polozhite Pellet Antimatter v karman. Tixij progress pobezhdaet."]
+		quest.50F23B2688D7E699.title: "&5&lGranula Antimaterii"
+		quest.50F23B2688D7E699.quest_subtitle: "&7Zhemchuzhina Mekanism"
+		quest.50F23B2688D7E699.quest_desc: [
+			"&5&lGranula Antimaterii"
+			"&8&m                            "
+			""
+			"&7Sdvigatel Faz szhimaet antimateriyu v tvyordye Granuly,"
+			"&7redchajshij resurs i klyuch k samomu luchshemu snaryazheniyu."
+			""
+			"&5&lKategoriya:&r &fSdvigatel Faz"
+			""
+			"&e&l★ Sovet:&r &7Odna granula, eto trud celoj cepi reaktorov i lazerov."
+		]
 		quest.50F2A5ED5ABA41AF.title: "Foliaath"
 		quest.50F2A5ED5ABA41AF.quest_subtitle: "Zarabotajte Foliaath userdnyj putem."
 		quest.50F2A5ED5ABA41AF.quest_desc: ["Vycherknite Foliaath. Modulnyj progress, melkie shagi."]
@@ -9991,9 +10291,19 @@
 		quest.5192E206E3AA455C.title: "Hoglin"
 		quest.5192E206E3AA455C.quest_subtitle: "Stroyte tsep Hoglin."
 		quest.5192E206E3AA455C.quest_desc: ["Xvatajte Hoglin. Stabil'no, bystro."]
-		quest.5194A067BEA98E79.title: "Isotopic Centrifuge"
-		quest.5194A067BEA98E79.quest_subtitle: "Tsel na sevodnya: Isotopic Centrifuge."
-		quest.5194A067BEA98E79.quest_desc: ["Razdobudte Isotopic Centrifuge. Patient runs vyigrayut."]
+		quest.5194A067BEA98E79.title: "&2&lIzotopnaya Centrifuga"
+		quest.5194A067BEA98E79.quest_subtitle: "&7Mashina, obogashchayushchaya toplivo"
+		quest.5194A067BEA98E79.quest_desc: [
+			"&2&lIzotopnaya Centrifuga"
+			"&8&m                            "
+			""
+			"&7Izotopnaya Centrifuga vrashchaet himiyu, chtoby obogatit"
+			"&7eyo, finalnaya mashina, prevrashchayushchaya gaz v toplivo."
+			""
+			"&2&lKategoriya:&r &fYadernoe Toplivo"
+			""
+			"&e&l★ Sovet:&r &7Ona takzhe pomogaet pererabatyvat othody v poleznye izotopy."
+		]
 		quest.51BC981AB4CFAD95.title: "&e&lKirka Labirintoloma"
 		quest.51BC981AB4CFAD95.quest_subtitle: "&7Klyuch k labirintu"
 		quest.51BC981AB4CFAD95.quest_desc: [
@@ -10183,9 +10493,19 @@
 			""
 			"&e&l★ Sovet:&r &7Samyj slozhnyj nabor. Grabьte monumenty i ohotites na utoplennikov."
 		]
-		quest.53E929BF89209CFC.title: "Qio Exporter"
-		quest.53E929BF89209CFC.quest_subtitle: "Malen'kij shag: Qio Exporter."
-		quest.53E929BF89209CFC.quest_desc: ["Otmette odin Qio Exporter. Stabil'no, bystro."]
+		quest.53E929BF89209CFC.title: "&3&lImport i Eksport QIO"
+		quest.53E929BF89209CFC.quest_subtitle: "&7Dvigajte predmety v set i iz neyo"
+		quest.53E929BF89209CFC.quest_desc: [
+			"&3&lImport i Eksport QIO"
+			"&8&m                            "
+			""
+			"&7Importyor QIO tyanet predmety iz sunduka v set, a Eksportyor"
+			"&7QIO vytalkivaet ih obratno tuda, gde nuzhno."
+			""
+			"&3&lKategoriya:&r &fSistema QIO"
+			""
+			"&e&l★ Sovet:&r &7Filtrujte ih dlya avtosortirovki pryamo v besprovodnoe hranenie."
+		]
 		quest.54107693798A4DB8.title: "Warden"
 		quest.54107693798A4DB8.quest_subtitle: "Dobavte odin Warden."
 		quest.54107693798A4DB8.quest_desc: ["Zavernite Warden. Kruk okupaetsya."]
@@ -10243,9 +10563,19 @@
 		quest.54BEFAE40C9C495A.title: "Vex"
 		quest.54BEFAE40C9C495A.quest_subtitle: "V karmane: Vex."
 		quest.54BEFAE40C9C495A.quest_desc: ["Reshite Vex poran'she. Kruk okupaetsya."]
-		quest.54E0B946BAC13654.title: "Induction Casing"
-		quest.54E0B946BAC13654.quest_subtitle: "chistyj ran, odin Induction Casing."
-		quest.54E0B946BAC13654.quest_desc: ["Zarabotajte Induction Casing shag za shagom. Doroga uchit ne men'she pribyli."]
+		quest.54E0B946BAC13654.title: "&d&lIndukcionnaya Matrica"
+		quest.54E0B946BAC13654.quest_subtitle: "&7Postrojte kolossalnyj bank energii"
+		quest.54E0B946BAC13654.quest_desc: [
+			"&d&lIndukcionnaya Matrica"
+			"&8&m                            "
+			""
+			"&7Obramite Indukcionnuyu Matricu korpusom i portami, zatem"
+			"&7zapolnite eyo yachejkami i postavshchikami radi ogromnoj moshchi."
+			""
+			"&d&lKategoriya:&r &fIndukcionnaya Matrica"
+			""
+			"&e&l★ Sovet:&r &7Eto krupnejshee hranilishche energii v Mekanism."
+		]
 		quest.54F8C8CD1F3CAE96.title: "&d&lEnigma"
 		quest.54F8C8CD1F3CAE96.quest_subtitle: "&7Enigma, unikalnyj legendarnyj klinok"
 		quest.54F8C8CD1F3CAE96.quest_desc: [
@@ -10326,9 +10656,19 @@
 		quest.555F8DBE0E72F15E.title: "Umvuthana Crane"
 		quest.555F8DBE0E72F15E.quest_subtitle: "izmerennyj pryzhok: Umvuthana Crane."
 		quest.555F8DBE0E72F15E.quest_desc: ["Zavernite Umvuthana Crane. Otlozheno na potom."]
-		quest.55702BE0151D33FE.title: "Induction Port"
-		quest.55702BE0151D33FE.quest_subtitle: "Stroyte tsep Induction Port."
-		quest.55702BE0151D33FE.quest_desc: ["Zafiksirujte Induction Port. Melkaya privychka, krupnyj rezultat."]
+		quest.55702BE0151D33FE.title: "&d&lPort Indukcionnoj Matricy"
+		quest.55702BE0151D33FE.quest_subtitle: "&7Lejte energiyu v matricu i iz neyo"
+		quest.55702BE0151D33FE.quest_desc: [
+			"&d&lPort Indukcionnoj Matricy"
+			"&8&m                            "
+			""
+			"&7Indukcionnyj Port, eto vrata Indukcionnoj Matricy. Energiya"
+			"&7vhodit dlya zaryadki i vyhodit, chtoby pitat bazu."
+			""
+			"&d&lKategoriya:&r &fIndukcionnaya Matrica"
+			""
+			"&e&l★ Sovet:&r &7Zadajte port na vhod ili vyhod Konfiguratorom."
+		]
 		quest.55A9CDA0970A51AD.title: "Stable Ice Core"
 		quest.55A9CDA0970A51AD.quest_subtitle: "Stable Ice Core, kontrolnaya tochka."
 		quest.55A9CDA0970A51AD.quest_desc: ["Prinesite Stable Ice Core domoj. Patient runs vyigrayut."]
@@ -10694,9 +11034,19 @@
 			""
 			"&e&l★ Sovet:&r &7Devyat slitkov vnutr, devyat obratno. Akkuratno i bezopasno."
 		]
-		quest.593CB120B657126C.title: "Radioactive Waste Barrel"
-		quest.593CB120B657126C.quest_subtitle: "Radioactive Waste Barrel: kivok glavy."
-		quest.593CB120B657126C.quest_desc: ["Prinesite Radioactive Waste Barrel. Schitaet."]
+		quest.593CB120B657126C.title: "&c&lBochka Radioaktivnyh Othodov"
+		quest.593CB120B657126C.quest_subtitle: "&7Hranite othody, ostavlennye reaktorom"
+		quest.593CB120B657126C.quest_desc: [
+			"&c&lBochka Radioaktivnyh Othodov"
+			"&8&m                            "
+			""
+			"&7Reaktor deleniya vydelyaet radioaktivnye othody. Bochka"
+			"&7hranit ih bezopasno i daet im medlenno raspadatsya."
+			""
+			"&c&lKategoriya:&r &fReaktor Deleniya"
+			""
+			"&e&l★ Sovet:&r &7Ne dopuskajte utechki othodov. Vedite ih pryamo v bochki."
+		]
 		quest.5954DAFD7446B363.title: "Phantom"
 		quest.5954DAFD7446B363.quest_subtitle: "Voz'mite Phantom v etot ran."
 		quest.5954DAFD7446B363.quest_desc: ["Zarabotajte Phantom chestno. Tixij progress pobezhdaet."]
@@ -10768,9 +11118,19 @@
 		quest.59FCC86BBD5157F4.title: "Vindicator"
 		quest.59FCC86BBD5157F4.quest_subtitle: "Vindicator v dorogu."
 		quest.59FCC86BBD5157F4.quest_desc: ["Vycherknite Vindicator. Most mezhdu sdelannym i predstoyashchim."]
-		quest.5A088F8402230BA5.title: "Fission Reactor Port"
-		quest.5A088F8402230BA5.quest_subtitle: "V karmane: Fission Reactor Port."
-		quest.5A088F8402230BA5.quest_desc: ["Fission Reactor Port blokiruet sleduyushchij kvest. Skromen seychas, moshchen potom."]
+		quest.5A088F8402230BA5.title: "&c&lPorty Reaktora Deleniya"
+		quest.5A088F8402230BA5.quest_subtitle: "&7Dvigajte toplivo, ohladitel i othody"
+		quest.5A088F8402230BA5.quest_desc: [
+			"&c&lPorty Reaktora Deleniya"
+			"&8&m                            "
+			""
+			"&7Porty Reaktora, eto dveri steny. Cherez nih vhodit toplivo"
+			"&7i ohladitel, vyhodit par ili othody."
+			""
+			"&c&lKategoriya:&r &fReaktor Deleniya"
+			""
+			"&e&l★ Sovet:&r &7Zadajte kazhdyj port na vhod ili vyhod Konfiguratorom."
+		]
 		quest.5A2580CCE62044CE.title: "Hostile Wolf"
 		quest.5A2580CCE62044CE.quest_subtitle: "Hostile Wolf, kontrolnaya tochka."
 		quest.5A2580CCE62044CE.quest_desc: ["Zaxvatite Hostile Wolf. Eshchyo odna preodolennaya stupen'."]
@@ -10827,9 +11187,19 @@
 			""
 			"&e&l★ Sovet:&r &7Ona izbavlyaet ot beskonechnoj vozni s inventaryom. Sdelajte rano."
 		]
-		quest.5AEA705D6A64A982.title: "Daylight Detector"
-		quest.5AEA705D6A64A982.quest_subtitle: "Na puti k Daylight Detector."
-		quest.5AEA705D6A64A982.quest_desc: ["Voz'mite Daylight Detector. Most mezhdu sdelannym i predstoyashchim."]
+		quest.5AEA705D6A64A982.title: "&c&lDnevnaya Avtomatika"
+		quest.5AEA705D6A64A982.quest_subtitle: "&7Sinhronizirujte mashiny s solncem"
+		quest.5AEA705D6A64A982.quest_desc: [
+			"&c&lDnevnaya Avtomatika"
+			"&8&m                            "
+			""
+			"&7Datchik Dnevnogo Sveta i redstoun pozvolyayut mashinam"
+			"&7reagirovat na den i noch, polezno dlya rutin po vremeni."
+			""
+			"&c&lKategoriya:&r &fReaktor Deleniya"
+			""
+			"&e&l★ Sovet:&r &7Pereklyuchite datchik dlya avtomatiki tolko nochyu."
+		]
 		quest.5AEDA5C8BDD706ED.title: "4096k Item Storage Part"
 		quest.5AEDA5C8BDD706ED.quest_subtitle: "Voz'mite 4096k Item Storage Part v etot ran."
 		quest.5AEDA5C8BDD706ED.quest_desc: ["Vklyuchite 4096k Item Storage Part. Malenkij shag na dolgom puti."]
@@ -10852,9 +11222,19 @@
 		quest.5B1175C0ADE0648A.title: "Redcap Sapper"
 		quest.5B1175C0ADE0648A.quest_subtitle: "Skromnaya pribyl: Redcap Sapper."
 		quest.5B1175C0ADE0648A.quest_desc: ["Najdite put k Redcap Sapper. Nesushchij, ne yarkij."]
-		quest.5B18676A77CD6069.title: "Qio Drive Array"
-		quest.5B18676A77CD6069.quest_subtitle: "Zarabotajte Qio Drive Array rovnyj putem."
-		quest.5B18676A77CD6069.quest_desc: ["Qio Drive Array: nesushchij, ne gromkij. Stabil'no, bystro."]
+		quest.5B18676A77CD6069.title: "&3&lMassiv Diskov QIO"
+		quest.5B18676A77CD6069.quest_subtitle: "&7Yadro besprovodnogo hraneniya"
+		quest.5B18676A77CD6069.quest_desc: [
+			"&3&lMassiv Diskov QIO"
+			"&8&m                            "
+			""
+			"&7Massiv Diskov QIO derzhit vashi diski hraneniya i obrazuet"
+			"&7serdce seti Kvantovoj Orkestrovki Predmetov."
+			""
+			"&3&lKategoriya:&r &fSistema QIO"
+			""
+			"&e&l★ Sovet:&r &7Vsyo ostalnoe v sisteme QIO podklyuchaetsya k etomu massivu."
+		]
 		quest.5B556192F060F3F1.title: "&e&lPyl Ochishchennogo Obsidiana"
 		quest.5B556192F060F3F1.quest_subtitle: "&7Pyl pered slitkom"
 		quest.5B556192F060F3F1.quest_desc: [
@@ -10885,9 +11265,19 @@
 		quest.5B9C0C5574045CFD.title: "256b Chemical Storage Part"
 		quest.5B9C0C5574045CFD.quest_subtitle: "Priz vnimatelnyj: 256b Chemical Storage Part."
 		quest.5B9C0C5574045CFD.quest_desc: ["Dobudte 256b Chemical Storage Part. Melkie pobedy summiruyutsya."]
-		quest.5B9F3F32AB28A83A.title: "Superheating Element"
-		quest.5B9F3F32AB28A83A.quest_subtitle: "Odin Superheating Element, rovnyj pobeda."
-		quest.5B9F3F32AB28A83A.quest_desc: ["Dobudte Superheating Element. Sleduyushchaya dver' vidna."]
+		quest.5B9F3F32AB28A83A.title: "&e&lVnutrennosti Kotla"
+		quest.5B9F3F32AB28A83A.quest_subtitle: "&7Peregrevateli i disperser"
+		quest.5B9F3F32AB28A83A.quest_desc: [
+			"&e&lVnutrennosti Kotla"
+			"&8&m                            "
+			""
+			"&7Peregrevayushchie Elementy vlivayut teplo v vodu, a Disperser"
+			"&7Davleniya ravnomerno raspredelyaet ego po kotlu."
+			""
+			"&e&lKategoriya:&r &fTermoelektricheskij Kotel"
+			""
+			"&e&l★ Sovet:&r &7Bolshe peregrevatelej, bolshe para v sekundu iz kotla."
+		]
 		quest.5BA2B036717AC1D6.title: "&d&lWraithfang"
 		quest.5BA2B036717AC1D6.quest_subtitle: "&7Wraithfang, unikalnyj legendarnyj klinok"
 		quest.5BA2B036717AC1D6.quest_desc: [
@@ -12306,9 +12696,19 @@
 			""
 			"&e&l★ Sovet:&r &7Vysshie metallicheskie urovni dayut bolshe slotov zaklinanij."
 		]
-		quest.67A9329C05F98633.title: "Ultimate Trash Can"
-		quest.67A9329C05F98633.quest_subtitle: "Ultimate Trash Can v dorogu."
-		quest.67A9329C05F98633.quest_desc: ["Ultimate Trash Can, sleduyushchij povorot. Polezno ran'she, chem kazhetsya."]
+		quest.67A9329C05F98633.title: "&c&lUnichtozhenie Othodov"
+		quest.67A9329C05F98633.quest_subtitle: "&7Unichtozhajte othody, kotorye ne hranit"
+		quest.67A9329C05F98633.quest_desc: [
+			"&c&lUnichtozhenie Othodov"
+			"&8&m                            "
+			""
+			"&7Velikoe Vedro Musora navsegda unichtozhaet lyuboj predmet"
+			"&7ili gaz, bezopasnyj poslednij vyhod dlya izlishka othodov."
+			""
+			"&c&lKategoriya:&r &fReaktor Deleniya"
+			""
+			"&e&l★ Sovet:&r &7Ispolzujte ekonomno. Dat othodam raspastsya chishche."
+		]
 		quest.67AB5059B17D8305.title: "Helmet Crab"
 		quest.67AB5059B17D8305.quest_subtitle: "Otmette Helmet Crab kak gotovyj."
 		quest.67AB5059B17D8305.quest_desc: ["Dobav'te Helmet Crab v kit. Otlozheno na potom."]
@@ -12706,9 +13106,19 @@
 			""
 			"&e&l★ Sovet:&r &7Silnye polki otkryvayut silnye zachary. Smeshivajte tipy polok."
 		]
-		quest.6A1174845810C7A1.title: "Modification Station"
-		quest.6A1174845810C7A1.quest_subtitle: "Zarabotajte: Modification Station."
-		quest.6A1174845810C7A1.quest_desc: ["Ulozhite Modification Station. Modulnyj progress, melkie shagi."]
+		quest.6A1174845810C7A1.title: "&9&lStanciya Modifikacii"
+		quest.6A1174845810C7A1.quest_subtitle: "&7Ustanavlivajte moduli v snaryazhenie"
+		quest.6A1174845810C7A1.quest_desc: [
+			"&9&lStanciya Modifikacii"
+			"&8&m                            "
+			""
+			"&7Stanciya Modifikacii vstavlyaet moduli v bronyu MekaSuit i"
+			"&7Meka-Tool, otkryvaya polyot, dobychu i bolshe."
+			""
+			"&9&lKategoriya:&r &fSnaryazhenie"
+			""
+			"&e&l★ Sovet:&r &7Zdes snaryazhenie Mekanism stanovitsya po-nastoyashchemu vashim."
+		]
 		quest.6A1C0B17B22CE50F.title: "&e&lAmulety Many"
 		quest.6A1C0B17B22CE50F.quest_subtitle: "&7Amulety arkannoj vynoslivosti"
 		quest.6A1C0B17B22CE50F.quest_desc: [
@@ -12831,15 +13241,35 @@
 		quest.6B2F4635D9E058CA.title: "Mutant Enderman"
 		quest.6B2F4635D9E058CA.quest_subtitle: "Mutant Enderman: kivok glavy."
 		quest.6B2F4635D9E058CA.quest_desc: ["Razdobudte Mutant Enderman. Stoit bolshe opisaniya."]
-		quest.6B3BD54A34EB02C2.title: "Induction Provider"
-		quest.6B3BD54A34EB02C2.quest_subtitle: "Otlozhite Induction Provider na potom."
-		quest.6B3BD54A34EB02C2.quest_desc: ["Zaberite Induction Provider. Eshchyo odna stupen na etoj vetke."]
+		quest.6B3BD54A34EB02C2.title: "&d&lIndukcionnye Postavshchiki"
+		quest.6B3BD54A34EB02C2.quest_subtitle: "&7Reshite, kak bystro techyot energiya"
+		quest.6B3BD54A34EB02C2.quest_desc: [
+			"&d&lIndukcionnye Postavshchiki"
+			"&8&m                            "
+			""
+			"&7Indukcionnye Postavshchiki zadayut, kak bystro Matrica"
+			"&7prinimaet i otdayot energiyu. Vysshie urovni techut bystree."
+			""
+			"&d&lKategoriya:&r &fIndukcionnaya Matrica"
+			""
+			"&e&l★ Sovet:&r &7Sochetajte bolshie yachejki s silnymi postavshchikami."
+		]
 		quest.6B4A233611174F51.title: "Phantom"
 		quest.6B4A233611174F51.quest_subtitle: "Zarabotajte Phantom skromnyj putem."
 		quest.6B4A233611174F51.quest_desc: ["Polozhite Phantom v karman. Polezno ran'she, chem kazhetsya."]
-		quest.6B7E13AB3BF2C5C8.title: "Boiler Casing"
-		quest.6B7E13AB3BF2C5C8.quest_subtitle: "Zarabotajte: Boiler Casing."
-		quest.6B7E13AB3BF2C5C8.quest_desc: ["U vas prosjat Boiler Casing. Korotkogo puti zdes net."]
+		quest.6B7E13AB3BF2C5C8.title: "&e&lTermoelektricheskij Kotel"
+		quest.6B7E13AB3BF2C5C8.quest_subtitle: "&7Kipyatite vodu v par reaktornogo urovnya"
+		quest.6B7E13AB3BF2C5C8.quest_desc: [
+			"&e&lTermoelektricheskij Kotel"
+			"&8&m                            "
+			""
+			"&7Postrojte kotel iz korpusa, klapanov, dispersera davleniya i"
+			"&7peregrevayushchih elementov dlya polucheniya napornogo para."
+			""
+			"&e&lKategoriya:&r &fTermoelektricheskij Kotel"
+			""
+			"&e&l★ Sovet:&r &7Ego par krutit turbinu kuda silnee bazovogo istochnika tepla."
+		]
 		quest.6B8040401B512E50.title: "&a&lKamera Himicheskogo Rastvoreniya"
 		quest.6B8040401B512E50.quest_subtitle: "&7Rastvorite rudu v mineralnuyu pulpu"
 		quest.6B8040401B512E50.quest_desc: [
@@ -12956,9 +13386,19 @@
 		quest.6CCCDB0C38DC3751.title: "Helmet Crab"
 		quest.6CCCDB0C38DC3751.quest_subtitle: "Malen'kij shag: Helmet Crab."
 		quest.6CCCDB0C38DC3751.quest_desc: ["Polozhite ruki na Helmet Crab. Sleduyushchaya dver' vidna."]
-		quest.6CCE920735187234.title: "Turbine Casing"
-		quest.6CCE920735187234.quest_subtitle: "Odin Turbine Casing, terpelivyj pobeda."
-		quest.6CCE920735187234.quest_desc: ["Dobudte Turbine Casing, prezhde chem idti dalshe. Sleduyushchaya dver' vidna."]
+		quest.6CCE920735187234.title: "&6&lPromyshlennaya Turbina"
+		quest.6CCE920735187234.quest_subtitle: "&7Prevratite par v ogromnuyu energiyu"
+		quest.6CCE920735187234.quest_desc: [
+			"&6&lPromyshlennaya Turbina"
+			"&8&m                            "
+			""
+			"&7Soberite korpus, rotory, lopasti, otdushiny, klapany,"
+			"&7dispersery, katushki i kondensatory v gigantskuyu turbinu."
+			""
+			"&6&lKategoriya:&r &fPromyshlennaya Turbina"
+			""
+			"&e&l★ Sovet:&r &7Soedinite eyo s kotlom ili reaktorom radi nastoyashchej stancii."
+		]
 		quest.6CD1720B76F47806.title: "&c&lBiogenerator"
 		quest.6CD1720B76F47806.quest_subtitle: "&7Zhgite vozobnovlyaemoe biotoplivo"
 		quest.6CD1720B76F47806.quest_desc: [
@@ -13594,15 +14034,35 @@
 		quest.7162EE6CCA3F4949.title: "Adherent"
 		quest.7162EE6CCA3F4949.quest_subtitle: "Na puti k Adherent."
 		quest.7162EE6CCA3F4949.quest_desc: ["Dobav'te Adherent v kit. Melkie pobedy summiruyutsya."]
-		quest.71766BD7321FCB13.title: "Chemical Infuser"
-		quest.71766BD7321FCB13.quest_subtitle: "Zarabotajte Chemical Infuser chestnyj putem."
-		quest.71766BD7321FCB13.quest_desc: ["U vas prosjat Chemical Infuser. Doverjajte tsepi."]
+		quest.71766BD7321FCB13.title: "&2&lObogashchenie Delyashchegosya Topliva"
+		quest.71766BD7321FCB13.quest_subtitle: "&7Prevratite gaz v toplivo reaktora"
+		quest.71766BD7321FCB13.quest_desc: [
+			"&2&lObogashchenie Delyashchegosya Topliva"
+			"&8&m                            "
+			""
+			"&7Propustite geksaftorid urana cherez Himicheskij Infuser i"
+			"&7Izotopnuyu Centrifugu, chtoby obogatit ego v Delyashcheesya."
+			""
+			"&2&lKategoriya:&r &fYadernoe Toplivo"
+			""
+			"&e&l★ Sovet:&r &7Delyashcheesya Toplivo, eto to, chto sozhzhyot Reaktor Deleniya."
+		]
 		quest.7176A7E0D1B576E5.title: "Piglin"
 		quest.7176A7E0D1B576E5.quest_subtitle: "Zarabotajte Piglin nepodvizhnyj putem."
 		quest.7176A7E0D1B576E5.quest_desc: ["Potyanites k Piglin. Spokojstvie pobezhdaet speshku."]
-		quest.7177653B736AB10E.title: "Chemical Infuser"
-		quest.7177653B736AB10E.quest_subtitle: "Tixij rubezh s Chemical Infuser."
-		quest.7177653B736AB10E.quest_desc: ["Zarabotajte Chemical Infuser, igraya dolgo. Uchet vazhen."]
+		quest.7177653B736AB10E.title: "&b&lToplivo Sinteza"
+		quest.7177653B736AB10E.quest_subtitle: "&7Smeshajte dejterij i tritij"
+		quest.7177653B736AB10E.quest_desc: [
+			"&b&lToplivo Sinteza"
+			"&8&m                            "
+			""
+			"&7Soedinite dejterij i tritij v Himicheskom Infusere, chtoby"
+			"&7poluchit Toplivo Sinteza, zaryazhennyj gaz reaktora."
+			""
+			"&b&lKategoriya:&r &fReaktor Sinteza"
+			""
+			"&e&l★ Sovet:&r &7Reaktor pyot toplivo medlenno, no vozvrashchaet ogromnuyu energiyu."
+		]
 		quest.71869B1D81D6A7EF.title: "&a&lKamera Napornoj Reakcii"
 		quest.71869B1D81D6A7EF.quest_subtitle: "&7Soedinite predmet, zhidkost i gaz srazu"
 		quest.71869B1D81D6A7EF.quest_desc: [
@@ -13814,9 +14274,19 @@
 		quest.73108492D8F1E456.title: "Ravager"
 		quest.73108492D8F1E456.quest_subtitle: "Kirpich: Ravager."
 		quest.73108492D8F1E456.quest_desc: ["Dobavte odin Ravager k zapasam. Sleduyushchaya dver' vidna."]
-		quest.7310BBC4A90EDA9D.title: "Portable Qio Dashboard"
-		quest.7310BBC4A90EDA9D.quest_subtitle: "Priz terpelivyj: Portable Qio Dashboard."
-		quest.7310BBC4A90EDA9D.quest_desc: ["Zakrepite Portable Qio Dashboard v inventare. Melkie pobedy summiruyutsya."]
+		quest.7310BBC4A90EDA9D.title: "&3&lPerenosnaya Panel QIO"
+		quest.7310BBC4A90EDA9D.quest_subtitle: "&7Dostante hranilishche otkuda ugodno"
+		quest.7310BBC4A90EDA9D.quest_desc: [
+			"&3&lPerenosnaya Panel QIO"
+			"&8&m                            "
+			""
+			"&7Perenosnaya Panel QIO, eto ruchnoe okno v vashu set, chtoby"
+			"&7prosmatrivat i tyanut predmety na hodu."
+			""
+			"&3&lKategoriya:&r &fSistema QIO"
+			""
+			"&e&l★ Sovet:&r &7Privyazhite eyo k chastote, i vsyo hranilishche s vami."
+		]
 		quest.731CBF19DAE16579.title: "Witch"
 		quest.731CBF19DAE16579.quest_subtitle: "Voz'mite Witch v etot ran."
 		quest.731CBF19DAE16579.quest_desc: ["Najdite Witch. Stoit bolshe opisaniya."]
@@ -14448,9 +14918,19 @@
 		quest.78463C5B9CD6C3E7.title: "Zombie"
 		quest.78463C5B9CD6C3E7.quest_subtitle: "Zarabotajte: Zombie."
 		quest.78463C5B9CD6C3E7.quest_desc: ["Zaxvatite Zombie. Tixij kapital."]
-		quest.7846B7FFC3DD85C5.title: "Sps Port"
-		quest.7846B7FFC3DD85C5.quest_subtitle: "Zarabotajte Sps Port stojkij putem."
-		quest.7846B7FFC3DD85C5.quest_desc: ["Razblokirujte Sps Port. Eshchyo odin kirpich v stene."]
+		quest.7846B7FFC3DD85C5.title: "&5&lPort SPS"
+		quest.7846B7FFC3DD85C5.quest_subtitle: "&7Vrata Sdvigatelya Faz"
+		quest.7846B7FFC3DD85C5.quest_desc: [
+			"&5&lPort SPS"
+			"&8&m                            "
+			""
+			"&7Port SPS nesyot polonij vnutr i antimateriyu naruzhu cherez"
+			"&7stenu Sverhkriticheskogo Sdvigatelya Faz."
+			""
+			"&5&lKategoriya:&r &fSdvigatel Faz"
+			""
+			"&e&l★ Sovet:&r &7Zadajte porty tochno, etot multiblok dayot redchajshij material."
+		]
 		quest.784D5B30D3E1892D.title: "Auto Blasting Upgrade"
 		quest.784D5B30D3E1892D.quest_subtitle: "chestnyj rubezh: Auto Blasting Upgrade."
 		quest.784D5B30D3E1892D.quest_desc: ["Zafiksirujte Auto Blasting Upgrade. Schitaet."]
@@ -14906,9 +15386,19 @@
 		quest.7B06882A42014F7F.title: "Umvuthana"
 		quest.7B06882A42014F7F.quest_subtitle: "Skromnaya pribyl: Umvuthana."
 		quest.7B06882A42014F7F.quest_desc: ["Vnesite Umvuthana v dnevnik. Stoit zakrepit'."]
-		quest.7B0764DDE94E73D0.title: "Fission Reactor Logic Adapter"
-		quest.7B0764DDE94E73D0.quest_subtitle: "Voz'mite Fission Reactor Logic Adapter v etot ran."
-		quest.7B0764DDE94E73D0.quest_desc: ["Vylovite Fission Reactor Logic Adapter. Tsep' derzhit."]
+		quest.7B0764DDE94E73D0.title: "&c&lProvodka Bezopasnosti"
+		quest.7B0764DDE94E73D0.quest_subtitle: "&7Postrojte redstoun-cep avarijnogo otklyucheniya"
+		quest.7B0764DDE94E73D0.quest_desc: [
+			"&c&lProvodka Bezopasnosti"
+			"&8&m                            "
+			""
+			"&7Soedinite logicheskie adaptery s redstounom, faktelom i"
+			"&7povtoritelyami v cep, gasyashchuyu reaktor do otkaza."
+			""
+			"&c&lKategoriya:&r &fReaktor Deleniya"
+			""
+			"&e&l★ Sovet:&r &7Bezopasnyj reaktor sam vyklyuchaetsya pri peregreve."
+		]
 		quest.7B0DFA55B4D8B16D.title: "&2&lTeleporter"
 		quest.7B0DFA55B4D8B16D.quest_subtitle: "&7Shagnite cherez mir v mgnovenie"
 		quest.7B0DFA55B4D8B16D.quest_desc: [
@@ -14925,9 +15415,19 @@
 		quest.7B1847A6E9E47F37.title: "Snow Guardian"
 		quest.7B1847A6E9E47F37.quest_subtitle: "Snow Guardian, kontrolnaya tochka."
 		quest.7B1847A6E9E47F37.quest_desc: ["Snow Guardian, cena sleduyushchej dveri. Idite dalshe."]
-		quest.7B385FD1CBE02C85.title: "Basic Chemical Tank"
-		quest.7B385FD1CBE02C85.quest_subtitle: "Priz chistyj: Basic Chemical Tank."
-		quest.7B385FD1CBE02C85.quest_desc: ["Zarabotajte Basic Chemical Tank. Idite dalshe."]
+		quest.7B385FD1CBE02C85.title: "&2&lHimicheskij Bak Reaktora"
+		quest.7B385FD1CBE02C85.quest_subtitle: "&7Bufirujte gazy reaktora"
+		quest.7B385FD1CBE02C85.quest_desc: [
+			"&2&lHimicheskij Bak Reaktora"
+			"&8&m                            "
+			""
+			"&7Himicheskij Bak derzhit toplivo, ohladitel i othodnye gazy,"
+			"&7tekushchie cherez reaktor, sglazhivaya kazhdyj vsplеsk."
+			""
+			"&2&lKategoriya:&r &fYadernoe Toplivo"
+			""
+			"&e&l★ Sovet:&r &7Bufernyj bak derzhit reaktor rovnym pri skachkah sprosa."
+		]
 		quest.7B4A687EB505C2FF.title: "&b&lUstrojstva iz Karminita"
 		quest.7B4A687EB505C2FF.quest_subtitle: "&7Vladejte magiej tyomnoj bashni"
 		quest.7B4A687EB505C2FF.quest_desc: [
@@ -15152,9 +15652,19 @@
 		quest.7D17828D751065C1.title: "Basic To Copper Tier Upgrade"
 		quest.7D17828D751065C1.quest_subtitle: "Basic To Copper Tier Upgrade: nesushchee zveno."
 		quest.7D17828D751065C1.quest_desc: ["Prinesite Basic To Copper Tier Upgrade domoj. Melkaya privychka, krupnyj rezultat."]
-		quest.7D279FC39DA5C630.title: "Rotary Condensentrator"
-		quest.7D279FC39DA5C630.quest_subtitle: "Rotary Condensentrator: kivok glavy."
-		quest.7D279FC39DA5C630.quest_desc: ["Zaxvatite Rotary Condensentrator. Sebya okupaet."]
+		quest.7D279FC39DA5C630.title: "&2&lPlavikovaya Kislota"
+		quest.7D279FC39DA5C630.quest_subtitle: "&7Svarite kislotu, chto obrabatyvaet toplivo"
+		quest.7D279FC39DA5C630.quest_desc: [
+			"&2&lPlavikovaya Kislota"
+			"&8&m                            "
+			""
+			"&7Dobudte Flyuorit, rastvorite ego i skondensirujte rezultat"
+			"&7v plavikovuyu kislotu, klyuchevoj reagent obrabotki urana."
+			""
+			"&2&lKategoriya:&r &fYadernoe Toplivo"
+			""
+			"&e&l★ Sovet:&r &7Ruda flyuorita lezhit gluboko. Zapasite pobolshe samocvetov."
+		]
 		quest.7D31B4827202E428.title: "Bogged"
 		quest.7D31B4827202E428.quest_subtitle: "Bogged opravdyvaet sebya."
 		quest.7D31B4827202E428.quest_desc: ["Najdite put k Bogged. Eshchyo odin kirpich v stene."]
@@ -15200,9 +15710,19 @@
 			""
 			"&e&l★ Sovet:&r &7Derzhite klinok i nazhmite klavishu sposobnosti, chtoby vysvobodit silu."
 		]
-		quest.7E3C84D7FCEC9D52.title: "Fission Reactor Casing"
-		quest.7E3C84D7FCEC9D52.quest_subtitle: "Fission Reactor Casing opravdyvaet sebya."
-		quest.7E3C84D7FCEC9D52.quest_desc: ["Dobavte Fission Reactor Casing v ran. Vy sebe potom skazhete spasibo."]
+		quest.7E3C84D7FCEC9D52.title: "&c&lReaktor Deleniya"
+		quest.7E3C84D7FCEC9D52.quest_subtitle: "&7Soberite serdce yadernoj energii"
+		quest.7E3C84D7FCEC9D52.quest_desc: [
+			"&c&lReaktor Deleniya"
+			"&8&m                            "
+			""
+			"&7Postrojte reaktor iz korpusa, portov, logicheskogo adaptera,"
+			"&7toplivnyh sborok i sterzhnej v odin germetichnyj multiblok."
+			""
+			"&c&lKategoriya:&r &fReaktor Deleniya"
+			""
+			"&e&l★ Sovet:&r &7Reaktor deleniya mozhet rasplavitsya. Snachala provodka bezopasnosti."
+		]
 		quest.7E3F99CF30884EE4.title: "Umvuthana"
 		quest.7E3F99CF30884EE4.quest_subtitle: "V karmane: Umvuthana."
 		quest.7E3F99CF30884EE4.quest_desc: ["Vylovite Umvuthana. Polezno ran'she, chem kazhetsya."]

@@ -500,9 +500,19 @@
 		quest.008CF128DF4A54A5.title: "Neptunium Helmet"
 		quest.008CF128DF4A54A5.quest_subtitle: "Bookmark the Neptunium Helmet."
 		quest.008CF128DF4A54A5.quest_desc: ["Pack the Neptunium Helmet. Press on."]
-		quest.008E65AF545A706E.title: "Sps Casing"
-		quest.008E65AF545A706E.quest_subtitle: "wary prize: the Sps Casing."
-		quest.008E65AF545A706E.quest_desc: ["Bag the Sps Casing. Quiet capital."]
+		quest.008E65AF545A706E.title: "&5&lThe Phase Shifter"
+		quest.008E65AF545A706E.quest_subtitle: "&7Forge antimatter from polonium"
+		quest.008E65AF545A706E.quest_desc: [
+			"&5&lThe Phase Shifter"
+			"&8&m                            "
+			""
+			"&7Build the Supercritical Phase Shifter from casing, glass,"
+			"&7ports and coils. Powered by lasers, it makes antimatter."
+			""
+			"&5&lCategory:&r &fPhase Shifter"
+			""
+			"&e&l★ Tip:&r &7Antimatter is the rarest, most powerful material in Mekanism."
+		]
 		quest.0095422BC87AA135.title: "&2&lOre Tripling"
 		quest.0095422BC87AA135.quest_subtitle: "&7Purify ore for triple the metal"
 		quest.0095422BC87AA135.quest_desc: [
@@ -639,9 +649,19 @@
 			""
 			"&e&l★ Tip:&r &7Follow your thrown Eyes of Ender. They converge on the stronghold."
 		]
-		quest.011D8CADA29C9C70.title: "QIO Drive"
-		quest.011D8CADA29C9C70.quest_subtitle: "Secure the QIO Drive."
-		quest.011D8CADA29C9C70.quest_desc: ["Stock up on the QIO Drive. Later quests here will call for it."]
+		quest.011D8CADA29C9C70.title: "&3&lQIO Drives"
+		quest.011D8CADA29C9C70.quest_subtitle: "&7Decide how much the network holds"
+		quest.011D8CADA29C9C70.quest_desc: [
+			"&3&lQIO Drives"
+			"&8&m                            "
+			""
+			"&7QIO Drives plug into the array to set storage capacity. From"
+			"&7base to supermassive, each tier holds far more than the last."
+			""
+			"&3&lCategory:&r &fQIO System"
+			""
+			"&e&l★ Tip:&r &7Mix drive tiers to balance item types against raw count."
+		]
 		quest.0162C52F3CEFC932.title: "Lower Goblin Knight"
 		quest.0162C52F3CEFC932.quest_subtitle: "Carry the Lower Goblin Knight forward."
 		quest.0162C52F3CEFC932.quest_desc: ["Snag the Lower Goblin Knight. Worth pinning."]
@@ -727,18 +747,38 @@
 		quest.02C20D2B7605CBC8.title: "Carminite Broodling"
 		quest.02C20D2B7605CBC8.quest_subtitle: "On the route to the Carminite Broodling."
 		quest.02C20D2B7605CBC8.quest_desc: ["Stash the Carminite Broodling somewhere safe. The shortcut is not here."]
-		quest.02C6132919DEAF2A.title: "Pressure Disperser"
-		quest.02C6132919DEAF2A.quest_subtitle: "The Pressure Disperser pays its way."
-		quest.02C6132919DEAF2A.quest_desc: ["Carry the Pressure Disperser with you. Trust the chain."]
+		quest.02C6132919DEAF2A.title: "&6&lTurbine Internals"
+		quest.02C6132919DEAF2A.quest_subtitle: "&7Dispersers, coils and condensers"
+		quest.02C6132919DEAF2A.quest_desc: [
+			"&6&lTurbine Internals"
+			"&8&m                            "
+			""
+			"&7Pressure Dispersers spread steam evenly, Electromagnetic"
+			"&7Coils harvest the spin, and Condensers recover the water."
+			""
+			"&6&lCategory:&r &fIndustrial Turbine"
+			""
+			"&e&l★ Tip:&r &7These parts decide how much energy a turbine truly yields."
+		]
 		quest.02E5E8D22DF49C31.title: "Treated Wood Horizontal"
 		quest.02E5E8D22DF49C31.quest_subtitle: "The Treated Wood Horizontal unlocks more."
 		quest.02E5E8D22DF49C31.quest_desc: ["The Treated Wood Horizontal is the next pivot. Worth pinning."]
 		quest.0300307C7FB9E47C.title: "Basic To Netherite Tier Upgrade"
 		quest.0300307C7FB9E47C.quest_subtitle: "On the route to the Basic To Netherite Tier Upgrade."
 		quest.0300307C7FB9E47C.quest_desc: ["Take time to obtain the Basic To Netherite Tier Upgrade. Small habit, big result."]
-		quest.0306D25C7407FE88.title: "Laser Focus Matrix"
-		quest.0306D25C7407FE88.quest_subtitle: "The Laser Focus Matrix unlocks more."
-		quest.0306D25C7407FE88.quest_desc: ["The Laser Focus Matrix is the next pivot. Modular progress, small steps."]
+		quest.0306D25C7407FE88.title: "&b&lLaser Focus Matrix"
+		quest.0306D25C7407FE88.quest_subtitle: "&7The spark that lights a fusion"
+		quest.0306D25C7407FE88.quest_desc: [
+			"&b&lLaser Focus Matrix"
+			"&8&m                            "
+			""
+			"&7The Laser Focus Matrix is mounted on the fusion reactor."
+			"&7A laser striking it pours energy in to ignite the fuel."
+			""
+			"&b&lCategory:&r &fFusion Reactor"
+			""
+			"&e&l★ Tip:&r &7Aim a strong laser at the matrix to start your reactor."
+		]
 		quest.030CD7F23D6BB669.title: "Wither"
 		quest.030CD7F23D6BB669.quest_subtitle: "Carry the Wither forward."
 		quest.030CD7F23D6BB669.quest_desc: ["Add the Wither to your run. Patient runs win."]
@@ -764,9 +804,19 @@
 		quest.03838DA866F24122.title: "Ghast"
 		quest.03838DA866F24122.quest_subtitle: "even run, single Ghast."
 		quest.03838DA866F24122.quest_desc: ["Find your way to the Ghast. Bookkeeping matters."]
-		quest.03840E4C74731E0C.title: "Fission Fuel Assembly"
-		quest.03840E4C74731E0C.quest_subtitle: "Modest gain: the Fission Fuel Assembly."
-		quest.03840E4C74731E0C.quest_desc: ["The Fission Fuel Assembly: load-bearing, not loud. Closer than the map suggests."]
+		quest.03840E4C74731E0C.title: "&c&lFission Fuel Assembly"
+		quest.03840E4C74731E0C.quest_subtitle: "&7The rod that holds the fuel"
+		quest.03840E4C74731E0C.quest_desc: [
+			"&c&lFission Fuel Assembly"
+			"&8&m                            "
+			""
+			"&7A Fission Fuel Assembly is a tall rod inside the reactor"
+			"&7that holds fissile fuel as it burns and gives off heat."
+			""
+			"&c&lCategory:&r &fFission Reactor"
+			""
+			"&e&l★ Tip:&r &7Stack more assemblies for a hotter, hungrier reactor."
+		]
 		quest.03A1750399F9460E.title: "&c&lEnter the Nether"
 		quest.03A1750399F9460E.quest_subtitle: "&7Step through the obsidian gate"
 		quest.03A1750399F9460E.quest_desc: [
@@ -1066,9 +1116,19 @@
 			""
 			"&e&l★ Tip:&r &7Inscribe glyphs at the Scribes Table. Mix forms, effects and augments."
 		]
-		quest.05DA7F48E2A1B77F.title: "Robit"
-		quest.05DA7F48E2A1B77F.quest_subtitle: "Mark the Robit done."
-		quest.05DA7F48E2A1B77F.quest_desc: ["Add one Robit to your supplies. Patient runs win."]
+		quest.05DA7F48E2A1B77F.title: "&9&lRobit"
+		quest.05DA7F48E2A1B77F.quest_subtitle: "&7A loyal robot helper"
+		quest.05DA7F48E2A1B77F.quest_desc: [
+			"&9&lRobit"
+			"&8&m                            "
+			""
+			"&7The Robit follows you around, opens as a portable crafting"
+			"&7table and inventory, and recharges itself at a Chargepad."
+			""
+			"&9&lCategory:&r &fEquipment"
+			""
+			"&e&l★ Tip:&r &7Name it and dye it. The Robit is your companion in the field."
+		]
 		quest.05DBDD86FCFF3BA8.title: "&d&lLightning Upgrade Orb"
 		quest.05DBDD86FCFF3BA8.quest_subtitle: "&7Bind spell power onto your gear"
 		quest.05DBDD86FCFF3BA8.quest_desc: [
@@ -1295,9 +1355,19 @@
 		quest.078A67E1F6A18027.title: "Objective"
 		quest.078A67E1F6A18027.quest_subtitle: "Earn the cue, the spry way."
 		quest.078A67E1F6A18027.quest_desc: ["Get the cue sorted early. Press on."]
-		quest.078B69E9362A5496.title: "Chemical Oxidizer"
-		quest.078B69E9362A5496.quest_subtitle: "Worth the Chemical Oxidizer detour."
-		quest.078B69E9362A5496.quest_desc: ["Add the Chemical Oxidizer to your run. Press on."]
+		quest.078B69E9362A5496.title: "&2&lUranium Gas Chain"
+		quest.078B69E9362A5496.quest_subtitle: "&7Turn yellowcake into uranium gas"
+		quest.078B69E9362A5496.quest_desc: [
+			"&2&lUranium Gas Chain"
+			"&8&m                            "
+			""
+			"&7Oxidize, separate and infuse chemicals together to drive"
+			"&7uranium toward the gaseous uranium hexafluoride."
+			""
+			"&2&lCategory:&r &fNuclear Fuel"
+			""
+			"&e&l★ Tip:&r &7These three machines bridge solid uranium into the gas stage."
+		]
 		quest.07D0067DCADA462B.title: "Hostile Wolf"
 		quest.07D0067DCADA462B.quest_subtitle: "The Hostile Wolf: the chapter nudge."
 		quest.07D0067DCADA462B.quest_desc: ["Mark the Hostile Wolf obtained. Calm focus beats rushing."]
@@ -1609,9 +1679,19 @@
 		quest.09D7AD70408B4D6C.title: "Skeleton Druid"
 		quest.09D7AD70408B4D6C.quest_subtitle: "A tempered step toward the Skeleton Druid."
 		quest.09D7AD70408B4D6C.quest_desc: ["Take time to obtain the Skeleton Druid. The route teaches as much as the prize."]
-		quest.09D7D3CF61E156B1.title: "Fission Fuel Assembly"
-		quest.09D7D3CF61E156B1.quest_subtitle: "The Fission Fuel Assembly is a checkpoint."
-		quest.09D7D3CF61E156B1.quest_desc: ["Mark the Fission Fuel Assembly obtained. Worth more than its tooltip says."]
+		quest.09D7D3CF61E156B1.title: "&c&lReactor Core Parts"
+		quest.09D7D3CF61E156B1.quest_subtitle: "&7Fuel assemblies and control rods"
+		quest.09D7D3CF61E156B1.quest_desc: [
+			"&c&lReactor Core Parts"
+			"&8&m                            "
+			""
+			"&7Fission Fuel Assemblies hold the burning fuel, and Control"
+			"&7Rod Assemblies cap them to steer the reaction."
+			""
+			"&c&lCategory:&r &fFission Reactor"
+			""
+			"&e&l★ Tip:&r &7These two parts form the active core of the reactor."
+		]
 		quest.09E116C1CF9E4FB6.title: "Minotaur"
 		quest.09E116C1CF9E4FB6.quest_subtitle: "On the route to the Minotaur."
 		quest.09E116C1CF9E4FB6.quest_desc: ["Capture the Minotaur. Saved for later use."]
@@ -2790,9 +2870,19 @@
 		quest.13419B8C65769C69.title: "Stable Ice Core"
 		quest.13419B8C65769C69.quest_subtitle: "The Stable Ice Core: the chapter nudge."
 		quest.13419B8C65769C69.quest_desc: ["Acquire the Stable Ice Core. Load-bearing, not flashy."]
-		quest.13A5748DF69D832E.title: "Qio Dashboard"
-		quest.13A5748DF69D832E.quest_subtitle: "Worth the Qio Dashboard detour."
-		quest.13A5748DF69D832E.quest_desc: ["The Qio Dashboard is part of the chain. The shortcut is not here."]
+		quest.13A5748DF69D832E.title: "&3&lQIO Dashboard"
+		quest.13A5748DF69D832E.quest_subtitle: "&7Browse and craft from your network"
+		quest.13A5748DF69D832E.quest_desc: [
+			"&3&lQIO Dashboard"
+			"&8&m                            "
+			""
+			"&7The QIO Dashboard is the placed terminal of the QIO network."
+			"&7Search, withdraw and craft straight from wireless storage."
+			""
+			"&3&lCategory:&r &fQIO System"
+			""
+			"&e&l★ Tip:&r &7It is the screen your whole automated base will work through."
+		]
 		quest.13B3B15CB7744E20.title: "Harbinger Cube"
 		quest.13B3B15CB7744E20.quest_subtitle: "Snag the Harbinger Cube this run."
 		quest.13B3B15CB7744E20.quest_desc: ["Hunt down the Harbinger Cube. Quiet capital."]
@@ -2834,9 +2924,19 @@
 			""
 			"&e&l★ Tip:&r &7The upgrade from the simple table. It rerolls higher rarities."
 		]
-		quest.141D68BAD039784B.title: "Boiler Valve"
-		quest.141D68BAD039784B.quest_subtitle: "The Boiler Valve pays its way."
-		quest.141D68BAD039784B.quest_desc: ["Wrap up the Boiler Valve task. Bookkeeping matters."]
+		quest.141D68BAD039784B.title: "&e&lBoiler Valves"
+		quest.141D68BAD039784B.quest_subtitle: "&7Feed water and tap the steam"
+		quest.141D68BAD039784B.quest_desc: [
+			"&e&lBoiler Valves"
+			"&8&m                            "
+			""
+			"&7Boiler Valves are the openings of the boiler wall. Water"
+			"&7goes in through them and pressured steam comes out."
+			""
+			"&e&lCategory:&r &fThermoelectric Boiler"
+			""
+			"&e&l★ Tip:&r &7Place valves on the sides you plan to pipe in and out."
+		]
 		quest.14551AFCCCD2748F.title: "Hedge Spider"
 		quest.14551AFCCCD2748F.quest_subtitle: "Earn it: the Hedge Spider."
 		quest.14551AFCCCD2748F.quest_desc: ["Reach for the Hedge Spider. A small step on a long road."]
@@ -3290,9 +3390,19 @@
 		quest.17DB7276924C5054.title: "Flux Configurator"
 		quest.17DB7276924C5054.quest_subtitle: "Tiny step: the Flux Configurator."
 		quest.17DB7276924C5054.quest_desc: ["Earn the Flux Configurator. Worth more than the tooltip says. You earned a pause."]
-		quest.17E2C05C48B03043.title: "Thermal Evaporation Block"
-		quest.17E2C05C48B03043.quest_subtitle: "Modest gain: the Thermal Evaporation Block."
-		quest.17E2C05C48B03043.quest_desc: ["Bring home the Thermal Evaporation Block. Calm focus beats rushing."]
+		quest.17E2C05C48B03043.title: "&2&lCoolant Chemistry"
+		quest.17E2C05C48B03043.quest_subtitle: "&7Evaporate water for reactor supplies"
+		quest.17E2C05C48B03043.quest_desc: [
+			"&2&lCoolant Chemistry"
+			"&8&m                            "
+			""
+			"&7A Thermal Evaporation tower feeding an Electrolytic Separator"
+			"&7draws the brines and gases a reactor setup quietly needs."
+			""
+			"&2&lCategory:&r &fNuclear Fuel"
+			""
+			"&e&l★ Tip:&r &7Run it before scaling up, reactors are thirsty for chemicals."
+		]
 		quest.17E4CD046F24E589.title: "Snow Guardian"
 		quest.17E4CD046F24E589.quest_subtitle: "Quiet milestone with the Snow Guardian."
 		quest.17E4CD046F24E589.quest_desc: ["The Snow Guardian: another rung climbed. Modular progress, small steps."]
@@ -3762,9 +3872,19 @@
 			""
 			"&e&l★ Tip:&r &7Rarer sherds favor deeper and more remote dig sites."
 		]
-		quest.1C87535D3CDCDA5F.title: "Laser Amplifier"
-		quest.1C87535D3CDCDA5F.quest_subtitle: "Stash the Laser Amplifier for later."
-		quest.1C87535D3CDCDA5F.quest_desc: ["Pick up the Laser Amplifier. Bookkeeping matters."]
+		quest.1C87535D3CDCDA5F.title: "&b&lLaser Amplifier"
+		quest.1C87535D3CDCDA5F.quest_subtitle: "&7Store and release a laser burst"
+		quest.1C87535D3CDCDA5F.quest_desc: [
+			"&b&lLaser Amplifier"
+			"&8&m                            "
+			""
+			"&7The Laser Amplifier holds incoming laser energy until a set"
+			"&7threshold, then fires it all at once in a single pulse."
+			""
+			"&b&lCategory:&r &fFusion Reactor"
+			""
+			"&e&l★ Tip:&r &7Use it to deliver a hard, instant hit to a focus matrix."
+		]
 		quest.1C92D68E55B42C18.title: "&e&lNetherite-Gold Tools"
 		quest.1C92D68E55B42C18.quest_subtitle: "&7The Netherite-Gold toolset."
 		quest.1C92D68E55B42C18.quest_desc: [
@@ -4250,9 +4370,19 @@
 			""
 			"&e&l★ Tip:&r &7Stack enhancements on a perfect roll to make it truly mighty."
 		]
-		quest.20054D077AFE3F56.title: "Pellet Plutonium"
-		quest.20054D077AFE3F56.quest_subtitle: "A spry step toward the Pellet Plutonium."
-		quest.20054D077AFE3F56.quest_desc: ["Snag the Pellet Plutonium on the way. Pace yourself."]
+		quest.20054D077AFE3F56.title: "&c&lPlutonium Pellet"
+		quest.20054D077AFE3F56.quest_subtitle: "&7A dense pellet from spent waste"
+		quest.20054D077AFE3F56.quest_desc: [
+			"&c&lPlutonium Pellet"
+			"&8&m                            "
+			""
+			"&7Process radioactive waste in the Isotopic Centrifuge to"
+			"&7press out Plutonium Pellets, a step toward antimatter."
+			""
+			"&c&lCategory:&r &fFission Reactor"
+			""
+			"&e&l★ Tip:&r &7Plutonium turns a reactor problem into a valuable resource."
+		]
 		quest.2009BFA881ED3447.title: "Sheetmetal Iron"
 		quest.2009BFA881ED3447.quest_subtitle: "One Sheetmetal Iron, one earnest win."
 		quest.2009BFA881ED3447.quest_desc: ["The Sheetmetal Iron is part of the chain. Counts."]
@@ -5242,9 +5372,19 @@
 			""
 			"&e&l★ Tip:&r &7Hold the blade and use the ability key to unleash its power."
 		]
-		quest.298A7BED5C2C7582.title: "Induction Cell"
-		quest.298A7BED5C2C7582.quest_subtitle: "The Induction Cell: quietly essential."
-		quest.298A7BED5C2C7582.quest_desc: ["Track down the Induction Cell. The effort is well worth the reward."]
+		quest.298A7BED5C2C7582.title: "&d&lInduction Cells"
+		quest.298A7BED5C2C7582.quest_subtitle: "&7Decide how much power you store"
+		quest.298A7BED5C2C7582.quest_desc: [
+			"&d&lInduction Cells"
+			"&8&m                            "
+			""
+			"&7Induction Cells set the capacity of an Induction Matrix."
+			"&7Basic up to ultimate, each tier holds vastly more energy."
+			""
+			"&d&lCategory:&r &fInduction Matrix"
+			""
+			"&e&l★ Tip:&r &7Fill the matrix with cells to size its storage to your needs."
+		]
 		quest.29B70877FAE1013E.title: "Skeleton"
 		quest.29B70877FAE1013E.quest_subtitle: "Pocketed: the Skeleton."
 		quest.29B70877FAE1013E.quest_desc: ["Bring the Skeleton into the fold. Trust the chain."]
@@ -5757,9 +5897,19 @@
 		quest.2DC2DA7DBC111E5F.title: "Hoglin"
 		quest.2DC2DA7DBC111E5F.quest_subtitle: "Stash the Hoglin for later."
 		quest.2DC2DA7DBC111E5F.quest_desc: ["Cross the Hoglin off your list. Worth more than its tooltip says."]
-		quest.2DC4446A644A4079.title: "Hazmat Mask"
-		quest.2DC4446A644A4079.quest_subtitle: "Worth the Hazmat Mask detour."
-		quest.2DC4446A644A4079.quest_desc: ["Bring home the Hazmat Mask. Modest now, mighty later."]
+		quest.2DC4446A644A4079.title: "&9&lHazmat Suit"
+		quest.2DC4446A644A4079.quest_subtitle: "&7Full armor against radiation"
+		quest.2DC4446A644A4079.quest_desc: [
+			"&9&lHazmat Suit"
+			"&8&m                            "
+			""
+			"&7The Hazmat Mask, Gown, Pants and Boots together seal you"
+			"&7off from the deadly radiation around reactors and waste."
+			""
+			"&9&lCategory:&r &fEquipment"
+			""
+			"&e&l★ Tip:&r &7Never handle nuclear materials without the complete suit."
+		]
 		quest.2DEE60485B5FBED3.title: "Zinfandel"
 		quest.2DEE60485B5FBED3.quest_subtitle: "diligent prize: the Zinfandel."
 		quest.2DEE60485B5FBED3.quest_desc: ["Snag the Zinfandel. The chapter pivots around it."]
@@ -6037,9 +6187,19 @@
 			""
 			"&e&l★ Tip:&r &7Essence is precious. Spend it on the upgrades that matter most."
 		]
-		quest.302E9BC711779A4A.title: "Enrichment Chamber"
-		quest.302E9BC711779A4A.quest_subtitle: "neat hop: the Enrichment Chamber."
-		quest.302E9BC711779A4A.quest_desc: ["The Enrichment Chamber pays for itself. The shortcut is not here."]
+		quest.302E9BC711779A4A.title: "&2&lUranium Yellowcake"
+		quest.302E9BC711779A4A.quest_subtitle: "&7Refine raw uranium into yellowcake"
+		quest.302E9BC711779A4A.quest_desc: [
+			"&2&lUranium Yellowcake"
+			"&8&m                            "
+			""
+			"&7Enrich uranium ore in the Enrichment Chamber, then run it"
+			"&7through a Chemical Oxidizer toward Yellowcake Uranium."
+			""
+			"&2&lCategory:&r &fNuclear Fuel"
+			""
+			"&e&l★ Tip:&r &7Yellowcake is the first step on the road to reactor fuel."
+		]
 		quest.306301D195E6B8C1.title: "Roving Cube"
 		quest.306301D195E6B8C1.quest_subtitle: "tidy milestone: the Roving Cube."
 		quest.306301D195E6B8C1.quest_desc: ["Pick up the Roving Cube. A small step on a long road."]
@@ -6662,9 +6822,19 @@
 			""
 			"&e&l★ Tip:&r &7Strong, well-built loot reshapes an entire run. Learn the system."
 		]
-		quest.3561A33758A1E8C3.title: "Fusion Reactor Controller"
-		quest.3561A33758A1E8C3.quest_subtitle: "Earn it: the Fusion Reactor Controller."
-		quest.3561A33758A1E8C3.quest_desc: ["Add one Fusion Reactor Controller to your supplies. Halfway done with you."]
+		quest.3561A33758A1E8C3.title: "&b&lThe Fusion Reactor"
+		quest.3561A33758A1E8C3.quest_subtitle: "&7Forge a star inside a frame"
+		quest.3561A33758A1E8C3.quest_desc: [
+			"&b&lThe Fusion Reactor"
+			"&8&m                            "
+			""
+			"&7Build the fusion frame from frames, glass, ports, a"
+			"&7controller and a laser focus matrix to ignite the fuel."
+			""
+			"&b&lCategory:&r &fFusion Reactor"
+			""
+			"&e&l★ Tip:&r &7A laser must strike the matrix to start the reaction."
+		]
 		quest.357B093F2DE1411C.title: "Carminite Golem"
 		quest.357B093F2DE1411C.quest_subtitle: "Carry the Carminite Golem forward."
 		quest.357B093F2DE1411C.quest_desc: ["Add the Carminite Golem to your dossier. Trust the chain."]
@@ -6728,9 +6898,19 @@
 		quest.368D9EC39BF7C354.title: "Enderman"
 		quest.368D9EC39BF7C354.quest_subtitle: "Add one Enderman."
 		quest.368D9EC39BF7C354.quest_desc: ["Hold onto the Enderman. One more rung climbed."]
-		quest.369DADE3B3D8416F.title: "Thermal Evaporation Block"
-		quest.369DADE3B3D8416F.quest_subtitle: "The Thermal Evaporation Block is a checkpoint."
-		quest.369DADE3B3D8416F.quest_desc: ["Wrap up the Thermal Evaporation Block. Bookkeeping matters."]
+		quest.369DADE3B3D8416F.title: "&b&lProducing Tritium"
+		quest.369DADE3B3D8416F.quest_subtitle: "&7Activate lithium into fusion fuel"
+		quest.369DADE3B3D8416F.quest_desc: [
+			"&b&lProducing Tritium"
+			"&8&m                            "
+			""
+			"&7Evaporate brine for lithium, condense it, then bathe it in"
+			"&7a Solar Neutron Activator to make tritium."
+			""
+			"&b&lCategory:&r &fFusion Reactor"
+			""
+			"&e&l★ Tip:&r &7Tritium is the second gas your fusion reactor needs."
+		]
 		quest.36AF4B5123EB4B25.title: "Shulker"
 		quest.36AF4B5123EB4B25.quest_subtitle: "Modest gain: the Shulker."
 		quest.36AF4B5123EB4B25.quest_desc: ["Stamp the Shulker into your dossier. Small habit, big result."]
@@ -7233,9 +7413,19 @@
 		quest.3B84215240D9F2CB.title: "Security Manager"
 		quest.3B84215240D9F2CB.quest_subtitle: "The Security Manager: the chapter nudge."
 		quest.3B84215240D9F2CB.quest_desc: ["Earn the Security Manager step by step. Saved for later use."]
-		quest.3B936CA3F0F7B26B.title: "Digital Miner"
-		quest.3B936CA3F0F7B26B.quest_subtitle: "The Digital Miner unlocks more."
-		quest.3B936CA3F0F7B26B.quest_desc: ["Acquire the Digital Miner. Future you will thank present you."]
+		quest.3B936CA3F0F7B26B.title: "&9&lDigital Miner"
+		quest.3B936CA3F0F7B26B.quest_subtitle: "&7Mine a whole region by filter"
+		quest.3B936CA3F0F7B26B.quest_desc: [
+			"&9&lDigital Miner"
+			"&8&m                            "
+			""
+			"&7The Digital Miner scans a vast area and digs out every block"
+			"&7that matches the filters you set, all on its own."
+			""
+			"&9&lCategory:&r &fEquipment"
+			""
+			"&e&l★ Tip:&r &7It can even replace what it mines to leave the land tidy."
+		]
 		quest.3B9E16A5743B069C.title: "Blockchain Goblin"
 		quest.3B9E16A5743B069C.quest_subtitle: "The Blockchain Goblin pays its way."
 		quest.3B9E16A5743B069C.quest_desc: ["Find your way to the Blockchain Goblin. Modular progress, small steps."]
@@ -7344,9 +7534,19 @@
 		quest.3CCAA2F6A7700A66.title: "Carminite Broodling"
 		quest.3CCAA2F6A7700A66.quest_subtitle: "Tiny step: the Carminite Broodling."
 		quest.3CCAA2F6A7700A66.quest_desc: ["Score the Carminite Broodling. One more rung climbed."]
-		quest.3CCBE9BBCA8ADA38.title: "Supercharged Coil"
-		quest.3CCBE9BBCA8ADA38.quest_subtitle: "Snag the Supercharged Coil this run."
-		quest.3CCBE9BBCA8ADA38.quest_desc: ["Get the Supercharged Coil. Useful sooner than you think."]
+		quest.3CCBE9BBCA8ADA38.title: "&5&lSupercharged Coil"
+		quest.3CCBE9BBCA8ADA38.quest_subtitle: "&7Pour laser power into the Shifter"
+		quest.3CCBE9BBCA8ADA38.quest_desc: [
+			"&5&lSupercharged Coil"
+			"&8&m                            "
+			""
+			"&7A Supercharged Coil mounts on the Phase Shifter and feeds it"
+			"&7the laser energy that drives polonium into antimatter."
+			""
+			"&5&lCategory:&r &fPhase Shifter"
+			""
+			"&e&l★ Tip:&r &7Aim your lasers at the coils to power the conversion."
+		]
 		quest.3CD1F849ACF96659.title: "Helmet Crab"
 		quest.3CD1F849ACF96659.quest_subtitle: "A bright step toward the Helmet Crab."
 		quest.3CD1F849ACF96659.quest_desc: ["Add the Helmet Crab to your stockpile. The chain holds."]
@@ -7416,9 +7616,19 @@
 			""
 			"&e&l★ Tip:&r &7Four sherds combine on a crafting grid into one decorated pot."
 		]
-		quest.3D2B4D9FD2086B9B.title: "Fission Reactor Logic Adapter"
-		quest.3D2B4D9FD2086B9B.quest_subtitle: "Snag the Fission Reactor Logic Adapter this run."
-		quest.3D2B4D9FD2086B9B.quest_desc: ["Bring home the Fission Reactor Logic Adapter. Trust the chain."]
+		quest.3D2B4D9FD2086B9B.title: "&c&lReactor Logic Adapter"
+		quest.3D2B4D9FD2086B9B.quest_subtitle: "&7Wire the reactor into redstone"
+		quest.3D2B4D9FD2086B9B.quest_desc: [
+			"&c&lReactor Logic Adapter"
+			"&8&m                            "
+			""
+			"&7The Fission Reactor Logic Adapter reports reactor status"
+			"&7as a redstone signal, and can accept commands in return."
+			""
+			"&c&lCategory:&r &fFission Reactor"
+			""
+			"&e&l★ Tip:&r &7It is how you read damage and danger from a safe distance."
+		]
 		quest.3D31B94CC42BCE43.title: "&d&lExtraction Tome"
 		quest.3D31B94CC42BCE43.quest_subtitle: "&7Save an enchantment whole"
 		quest.3D31B94CC42BCE43.quest_desc: [
@@ -7597,9 +7807,19 @@
 			""
 			"&e&l★ Tip:&r &7Each use adds 4 blocks, up to a maximum range of 48."
 		]
-		quest.3E5BE6D6422F682C.title: "Turbine Valve"
-		quest.3E5BE6D6422F682C.quest_subtitle: "The Turbine Valve: load-bearing."
-		quest.3E5BE6D6422F682C.quest_desc: ["The Turbine Valve: small object, real progress. Future you will thank present you."]
+		quest.3E5BE6D6422F682C.title: "&6&lTurbine Valves and Vents"
+		quest.3E5BE6D6422F682C.quest_subtitle: "&7Move steam in and out"
+		quest.3E5BE6D6422F682C.quest_desc: [
+			"&6&lTurbine Valves and Vents"
+			"&8&m                            "
+			""
+			"&7Turbine Valves carry steam into the turbine and energy out,"
+			"&7while Turbine Vents release the spent steam after use."
+			""
+			"&6&lCategory:&r &fIndustrial Turbine"
+			""
+			"&e&l★ Tip:&r &7Balance valves and vents to keep steam flowing smoothly."
+		]
 		quest.3E8077AB45C79E6A.title: "&a&lAlchemist Cauldron"
 		quest.3E8077AB45C79E6A.quest_subtitle: "&7Brew the inks of magic"
 		quest.3E8077AB45C79E6A.quest_desc: [
@@ -7939,9 +8159,19 @@
 		quest.40DEE20FC31A48C7.title: "Pump Upgrade"
 		quest.40DEE20FC31A48C7.quest_subtitle: "Bookmark the Pump Upgrade."
 		quest.40DEE20FC31A48C7.quest_desc: ["The Pump Upgrade is a quiet milestone. Bookkeeping matters."]
-		quest.40E8940C92668D4F.title: "Electric Pump"
-		quest.40E8940C92668D4F.quest_subtitle: "The Electric Pump is a checkpoint."
-		quest.40E8940C92668D4F.quest_desc: ["Wrap up the Electric Pump. Bookkeeping matters."]
+		quest.40E8940C92668D4F.title: "&b&lProducing Deuterium"
+		quest.40E8940C92668D4F.quest_subtitle: "&7Pump heavy water for fusion fuel"
+		quest.40E8940C92668D4F.quest_desc: [
+			"&b&lProducing Deuterium"
+			"&8&m                            "
+			""
+			"&7Fit a Filter Upgrade to an Electric Pump so it gathers heavy"
+			"&7water, then split it in an Electrolytic Separator for deuterium."
+			""
+			"&b&lCategory:&r &fFusion Reactor"
+			""
+			"&e&l★ Tip:&r &7Deuterium is one of the two gases your fusion reactor burns."
+		]
 		quest.4101F8275B41C79B.title: "1k Storage Part"
 		quest.4101F8275B41C79B.quest_subtitle: "Tiny step: the 1k Storage Part."
 		quest.4101F8275B41C79B.quest_desc: ["The 1k Storage Part is your next reward for steady progress. One more rung climbed."]
@@ -8086,9 +8316,19 @@
 			""
 			"&e&l★ Tip:&r &7A good melee pick for a cryomancer who closes in."
 		]
-		quest.4211F29561F21643.title: "Turbine Rotor"
-		quest.4211F29561F21643.quest_subtitle: "Earn the Turbine Rotor, the alert way."
-		quest.4211F29561F21643.quest_desc: ["Bring back the Turbine Rotor. Saved for later use."]
+		quest.4211F29561F21643.title: "&6&lTurbine Rotor Shaft"
+		quest.4211F29561F21643.quest_subtitle: "&7The spinning core of the turbine"
+		quest.4211F29561F21643.quest_desc: [
+			"&6&lTurbine Rotor Shaft"
+			"&8&m                            "
+			""
+			"&7Turbine Rotors stack into a central shaft, and the"
+			"&7Rotational Complex caps it to drive the coils below."
+			""
+			"&6&lCategory:&r &fIndustrial Turbine"
+			""
+			"&e&l★ Tip:&r &7A taller rotor shaft spins more steam into more power."
+		]
 		quest.421AAE8C9F8208D1.title: "Snow Guardian"
 		quest.421AAE8C9F8208D1.quest_subtitle: "Mark the Snow Guardian done."
 		quest.421AAE8C9F8208D1.quest_desc: ["The Snow Guardian pays for itself. Bridges what you did with what is next."]
@@ -8283,9 +8523,19 @@
 		quest.43830AB36EEA4B21.title: "Fire Beetle"
 		quest.43830AB36EEA4B21.quest_subtitle: "The Fire Beetle is a checkpoint."
 		quest.43830AB36EEA4B21.quest_desc: ["Get the Fire Beetle into your inventory. Useful sooner than you think."]
-		quest.438F734D16DA9638.title: "Pellet Polonium"
-		quest.438F734D16DA9638.quest_subtitle: "On the route to the Pellet Polonium."
-		quest.438F734D16DA9638.quest_desc: ["Get hands on the Pellet Polonium. The chapter pivots around it."]
+		quest.438F734D16DA9638.title: "&c&lPolonium Pellet"
+		quest.438F734D16DA9638.quest_subtitle: "&7Activate waste into polonium"
+		quest.438F734D16DA9638.quest_desc: [
+			"&c&lPolonium Pellet"
+			"&8&m                            "
+			""
+			"&7A Solar Neutron Activator bathes nuclear waste in sunlight"
+			"&7to turn it into polonium, pressed into dense Pellets."
+			""
+			"&c&lCategory:&r &fFission Reactor"
+			""
+			"&e&l★ Tip:&r &7Polonium pellets feed the path to the Phase Shifter."
+		]
 		quest.43DD5FC24E2B66A9.title: "Mosquito Swarm"
 		quest.43DD5FC24E2B66A9.quest_subtitle: "Add one Mosquito Swarm."
 		quest.43DD5FC24E2B66A9.quest_desc: ["Bring home the Mosquito Swarm. Tiny wins stack into runs."]
@@ -8942,9 +9192,19 @@
 		quest.4924798E2CB9B39A.title: "Umvuthana Mask Misery"
 		quest.4924798E2CB9B39A.quest_subtitle: "watchful run, single Umvuthana Mask Misery."
 		quest.4924798E2CB9B39A.quest_desc: ["Bring the Umvuthana Mask Misery into the fold. Trust the chain."]
-		quest.4926C95DD02F1410.title: "Laser"
-		quest.4926C95DD02F1410.quest_subtitle: "patient hop: the Laser."
-		quest.4926C95DD02F1410.quest_desc: ["Snag the Laser on the way. One brick in a larger wall."]
+		quest.4926C95DD02F1410.title: "&b&lLaser"
+		quest.4926C95DD02F1410.quest_subtitle: "&7Cut, dig and ignite with light"
+		quest.4926C95DD02F1410.quest_desc: [
+			"&b&lLaser"
+			"&8&m                            "
+			""
+			"&7The Laser fires a focused beam of energy that mines blocks,"
+			"&7damages mobs and powers the laser-based machines."
+			""
+			"&b&lCategory:&r &fFusion Reactor"
+			""
+			"&e&l★ Tip:&r &7Chain lasers and amplifiers to ignite a fusion reactor."
+		]
 		quest.493197FEE8284DA3.title: "Adherent"
 		quest.493197FEE8284DA3.quest_subtitle: "bright prize: the Adherent."
 		quest.493197FEE8284DA3.quest_desc: ["Add the Adherent to your run-log. Worth the detour."]
@@ -9178,9 +9438,19 @@
 		quest.4B013127D9CE4CA1.title: "Redcap Sapper"
 		quest.4B013127D9CE4CA1.quest_subtitle: "Pocketed: the Redcap Sapper."
 		quest.4B013127D9CE4CA1.quest_desc: ["Add one Redcap Sapper to your supplies. Saved for later use."]
-		quest.4B2835706B593E9A.title: "Antiprotonic Nucleosynthesizer"
-		quest.4B2835706B593E9A.quest_subtitle: "Tiny step: the Antiprotonic Nucleosynthesizer."
-		quest.4B2835706B593E9A.quest_desc: ["Pull the Antiprotonic Nucleosynthesizer into your kit. A small step on a long road."]
+		quest.4B2835706B593E9A.title: "&5&lAntiprotonic Nucleosynthesizer"
+		quest.4B2835706B593E9A.quest_subtitle: "&7Spend antimatter to forge rare goods"
+		quest.4B2835706B593E9A.quest_desc: [
+			"&5&lAntiprotonic Nucleosynthesizer"
+			"&8&m                            "
+			""
+			"&7The Nucleosynthesizer burns antimatter pellets as fuel to"
+			"&7transform ordinary inputs into rare, otherwise unobtainable items."
+			""
+			"&5&lCategory:&r &fPhase Shifter"
+			""
+			"&e&l★ Tip:&r &7It is the final crafting machine of the Mekanism tech tree."
+		]
 		quest.4B35C01F5D0AAC58.title: "&e&lSteel Ingot"
 		quest.4B35C01F5D0AAC58.quest_subtitle: "&7Tough metal for sturdy machines"
 		quest.4B35C01F5D0AAC58.quest_desc: [
@@ -9257,9 +9527,19 @@
 		quest.4B9E96C1694246EA.title: "Blockchain Goblin"
 		quest.4B9E96C1694246EA.quest_subtitle: "On the route to the Blockchain Goblin."
 		quest.4B9E96C1694246EA.quest_desc: ["Pick up the Blockchain Goblin. Small habit, big result."]
-		quest.4BAF44FCA0894DE8.title: "Solar Neutron Activator"
-		quest.4BAF44FCA0894DE8.quest_subtitle: "The Solar Neutron Activator unlocks more."
-		quest.4BAF44FCA0894DE8.quest_desc: ["Track down the Solar Neutron Activator. The chain holds."]
+		quest.4BAF44FCA0894DE8.title: "&b&lSolar Neutron Activator"
+		quest.4BAF44FCA0894DE8.quest_subtitle: "&7Irradiate chemicals with sunlight"
+		quest.4BAF44FCA0894DE8.quest_desc: [
+			"&b&lSolar Neutron Activator"
+			"&8&m                            "
+			""
+			"&7The Solar Neutron Activator uses open sunlight to irradiate"
+			"&7a gas, turning lithium into tritium and waste into polonium."
+			""
+			"&b&lCategory:&r &fFusion Reactor"
+			""
+			"&e&l★ Tip:&r &7Place it high under clear sky for the fastest activation."
+		]
 		quest.4BCC14615DA7CA1D.title: "Advanced Filter Upgrade"
 		quest.4BCC14615DA7CA1D.quest_subtitle: "Carry the Advanced Filter Upgrade forward."
 		quest.4BCC14615DA7CA1D.quest_desc: ["Bring the Advanced Filter Upgrade along. Worth the detour."]
@@ -9539,9 +9819,19 @@
 		quest.4E1696F8AB19005F.title: "Cabernet Sauvignon"
 		quest.4E1696F8AB19005F.quest_subtitle: "The Cabernet Sauvignon unlocks more."
 		quest.4E1696F8AB19005F.quest_desc: ["The Cabernet Sauvignon is asked of you. You earned a pause."]
-		quest.4E18E28BDF6B7983.title: "Fusion Reactor Port"
-		quest.4E18E28BDF6B7983.quest_subtitle: "Build out the Fusion Reactor Port chain."
-		quest.4E18E28BDF6B7983.quest_desc: ["Mark the Fusion Reactor Port done. Patient runs win."]
+		quest.4E18E28BDF6B7983.title: "&b&lFusion Reactor Port"
+		quest.4E18E28BDF6B7983.quest_subtitle: "&7The gateway of the fusion frame"
+		quest.4E18E28BDF6B7983.quest_desc: [
+			"&b&lFusion Reactor Port"
+			"&8&m                            "
+			""
+			"&7A Fusion Reactor Port carries fuel, coolant and energy"
+			"&7through the wall of the fusion reactor frame."
+			""
+			"&b&lCategory:&r &fFusion Reactor"
+			""
+			"&e&l★ Tip:&r &7You need several, set for each input and output you plan."
+		]
 		quest.4E279EDF2A924106.title: "Piglin"
 		quest.4E279EDF2A924106.quest_subtitle: "Add one Piglin."
 		quest.4E279EDF2A924106.quest_desc: ["Stockpile the Piglin. Quiet capital."]
@@ -9876,9 +10166,19 @@
 		quest.50E55183B49E4DEA.title: "Pillager"
 		quest.50E55183B49E4DEA.quest_subtitle: "Build out the Pillager chain."
 		quest.50E55183B49E4DEA.quest_desc: ["Get the Pillager sorted early. Aim for the next thing."]
-		quest.50F23B2688D7E699.title: "Pellet Antimatter"
-		quest.50F23B2688D7E699.quest_subtitle: "A steady step toward the Pellet Antimatter."
-		quest.50F23B2688D7E699.quest_desc: ["Pocket the Pellet Antimatter. Quiet progress beats loud setbacks."]
+		quest.50F23B2688D7E699.title: "&5&lAntimatter Pellet"
+		quest.50F23B2688D7E699.quest_subtitle: "&7The crown jewel of Mekanism"
+		quest.50F23B2688D7E699.quest_desc: [
+			"&5&lAntimatter Pellet"
+			"&8&m                            "
+			""
+			"&7The Phase Shifter compresses antimatter into solid Pellets,"
+			"&7the rarest resource and the key to the very best gear."
+			""
+			"&5&lCategory:&r &fPhase Shifter"
+			""
+			"&e&l★ Tip:&r &7One pellet is the work of an entire reactor and laser chain."
+		]
 		quest.50F2A5ED5ABA41AF.title: "Foliaath"
 		quest.50F2A5ED5ABA41AF.quest_subtitle: "Earn the Foliaath, the diligent way."
 		quest.50F2A5ED5ABA41AF.quest_desc: ["Take time to obtain the Foliaath. Modular progress, small steps."]
@@ -9991,9 +10291,19 @@
 		quest.5192E206E3AA455C.title: "Hoglin"
 		quest.5192E206E3AA455C.quest_subtitle: "Build out the Hoglin chain."
 		quest.5192E206E3AA455C.quest_desc: ["The Hoglin is asked of you. Steady is fast."]
-		quest.5194A067BEA98E79.title: "Isotopic Centrifuge"
-		quest.5194A067BEA98E79.quest_subtitle: "Today goal: the Isotopic Centrifuge."
-		quest.5194A067BEA98E79.quest_desc: ["Add the Isotopic Centrifuge to your stockpile. Patient runs win."]
+		quest.5194A067BEA98E79.title: "&2&lIsotopic Centrifuge"
+		quest.5194A067BEA98E79.quest_subtitle: "&7The spinner that enriches fuel"
+		quest.5194A067BEA98E79.quest_desc: [
+			"&2&lIsotopic Centrifuge"
+			"&8&m                            "
+			""
+			"&7The Isotopic Centrifuge spins a chemical to enrich it,"
+			"&7the final machine that turns uranium gas into fuel."
+			""
+			"&2&lCategory:&r &fNuclear Fuel"
+			""
+			"&e&l★ Tip:&r &7It also helps process spent waste into useful isotopes."
+		]
 		quest.51BC981AB4CFAD95.title: "&e&lMazebreaker Pickaxe"
 		quest.51BC981AB4CFAD95.quest_subtitle: "&7The key to the labyrinth"
 		quest.51BC981AB4CFAD95.quest_desc: [
@@ -10183,9 +10493,19 @@
 			""
 			"&e&l★ Tip:&r &7The hardest bundle here. Raid ocean monuments and hunt drowned."
 		]
-		quest.53E929BF89209CFC.title: "Qio Exporter"
-		quest.53E929BF89209CFC.quest_subtitle: "Tiny step: the Qio Exporter."
-		quest.53E929BF89209CFC.quest_desc: ["Find the Qio Exporter. Steady is fast."]
+		quest.53E929BF89209CFC.title: "&3&lQIO Import and Export"
+		quest.53E929BF89209CFC.quest_subtitle: "&7Move items in and out of the network"
+		quest.53E929BF89209CFC.quest_desc: [
+			"&3&lQIO Import and Export"
+			"&8&m                            "
+			""
+			"&7The QIO Importer pulls items from a chest into the network,"
+			"&7and the QIO Exporter pushes them back out where you need them."
+			""
+			"&3&lCategory:&r &fQIO System"
+			""
+			"&e&l★ Tip:&r &7Filter them to automate sorting straight into wireless storage."
+		]
 		quest.54107693798A4DB8.title: "Warden"
 		quest.54107693798A4DB8.quest_subtitle: "Add one Warden."
 		quest.54107693798A4DB8.quest_desc: ["Pocket the Warden. Worth the detour."]
@@ -10243,9 +10563,19 @@
 		quest.54BEFAE40C9C495A.title: "Vex"
 		quest.54BEFAE40C9C495A.quest_subtitle: "Pocketed: the Vex."
 		quest.54BEFAE40C9C495A.quest_desc: ["Score one Vex. Worth the detour."]
-		quest.54E0B946BAC13654.title: "Induction Casing"
-		quest.54E0B946BAC13654.quest_subtitle: "neat run, single Induction Casing."
-		quest.54E0B946BAC13654.quest_desc: ["Walk away with the Induction Casing. The route teaches as much as the prize."]
+		quest.54E0B946BAC13654.title: "&d&lThe Induction Matrix"
+		quest.54E0B946BAC13654.quest_subtitle: "&7Build a colossal energy bank"
+		quest.54E0B946BAC13654.quest_desc: [
+			"&d&lThe Induction Matrix"
+			"&8&m                            "
+			""
+			"&7Frame the Induction Matrix with casing and ports, then fill"
+			"&7it with cells and providers to bank enormous power."
+			""
+			"&d&lCategory:&r &fInduction Matrix"
+			""
+			"&e&l★ Tip:&r &7It is the largest energy store Mekanism can offer."
+		]
 		quest.54F8C8CD1F3CAE96.title: "&d&lEnigma"
 		quest.54F8C8CD1F3CAE96.quest_subtitle: "&7Enigma, a unique legendary blade"
 		quest.54F8C8CD1F3CAE96.quest_desc: [
@@ -10326,9 +10656,19 @@
 		quest.555F8DBE0E72F15E.title: "Umvuthana Crane"
 		quest.555F8DBE0E72F15E.quest_subtitle: "measured hop: the Umvuthana Crane."
 		quest.555F8DBE0E72F15E.quest_desc: ["Pocket the Umvuthana Crane. Saved for later use."]
-		quest.55702BE0151D33FE.title: "Induction Port"
-		quest.55702BE0151D33FE.quest_subtitle: "Build out the Induction Port chain."
-		quest.55702BE0151D33FE.quest_desc: ["Take possession of the Induction Port. Small habit, big result."]
+		quest.55702BE0151D33FE.title: "&d&lInduction Matrix Port"
+		quest.55702BE0151D33FE.quest_subtitle: "&7Pour power in and out of the matrix"
+		quest.55702BE0151D33FE.quest_desc: [
+			"&d&lInduction Matrix Port"
+			"&8&m                            "
+			""
+			"&7An Induction Port is the gateway of the Induction Matrix."
+			"&7Energy flows in to charge, and out to feed your base."
+			""
+			"&d&lCategory:&r &fInduction Matrix"
+			""
+			"&e&l★ Tip:&r &7Set a port to input or output with a Configurator."
+		]
 		quest.55A9CDA0970A51AD.title: "Stable Ice Core"
 		quest.55A9CDA0970A51AD.quest_subtitle: "The Stable Ice Core is a checkpoint."
 		quest.55A9CDA0970A51AD.quest_desc: ["Mark the Stable Ice Core done. Patient runs win."]
@@ -10694,9 +11034,19 @@
 			""
 			"&e&l★ Tip:&r &7Nine ingots in, nine back out. Tidy and safe."
 		]
-		quest.593CB120B657126C.title: "Radioactive Waste Barrel"
-		quest.593CB120B657126C.quest_subtitle: "The Radioactive Waste Barrel: the chapter nudge."
-		quest.593CB120B657126C.quest_desc: ["The Radioactive Waste Barrel unlocks more than it looks. Counts."]
+		quest.593CB120B657126C.title: "&c&lRadioactive Waste Barrel"
+		quest.593CB120B657126C.quest_subtitle: "&7Store the waste a reactor leaves"
+		quest.593CB120B657126C.quest_desc: [
+			"&c&lRadioactive Waste Barrel"
+			"&8&m                            "
+			""
+			"&7A fission reactor gives off radioactive waste. The Waste"
+			"&7Barrel holds it safely and lets it slowly decay away."
+			""
+			"&c&lCategory:&r &fFission Reactor"
+			""
+			"&e&l★ Tip:&r &7Never let waste leak. Pipe it straight into sealed barrels."
+		]
 		quest.5954DAFD7446B363.title: "Phantom"
 		quest.5954DAFD7446B363.quest_subtitle: "Snag the Phantom this run."
 		quest.5954DAFD7446B363.quest_desc: ["Bring back the Phantom. Quiet progress beats loud setbacks."]
@@ -10768,9 +11118,19 @@
 		quest.59FCC86BBD5157F4.title: "Vindicator"
 		quest.59FCC86BBD5157F4.quest_subtitle: "A Vindicator for the road."
 		quest.59FCC86BBD5157F4.quest_desc: ["Cross the Vindicator off. Bridges what you did with what is next."]
-		quest.5A088F8402230BA5.title: "Fission Reactor Port"
-		quest.5A088F8402230BA5.quest_subtitle: "Pocketed: the Fission Reactor Port."
-		quest.5A088F8402230BA5.quest_desc: ["The Fission Reactor Port is gating the next quest. Modest now, mighty later."]
+		quest.5A088F8402230BA5.title: "&c&lFission Reactor Ports"
+		quest.5A088F8402230BA5.quest_subtitle: "&7Move fuel, coolant and waste"
+		quest.5A088F8402230BA5.quest_desc: [
+			"&c&lFission Reactor Ports"
+			"&8&m                            "
+			""
+			"&7Reactor Ports are the doors of the reactor wall. Through"
+			"&7them flow fuel in, coolant in and steam or waste out."
+			""
+			"&c&lCategory:&r &fFission Reactor"
+			""
+			"&e&l★ Tip:&r &7Set each port to input or output with a Configurator."
+		]
 		quest.5A2580CCE62044CE.title: "Hostile Wolf"
 		quest.5A2580CCE62044CE.quest_subtitle: "The Hostile Wolf is a checkpoint."
 		quest.5A2580CCE62044CE.quest_desc: ["Pull the Hostile Wolf into your kit. One more rung climbed."]
@@ -10827,9 +11187,19 @@
 			""
 			"&e&l★ Tip:&r &7It saves endless inventory shuffling. Build it as soon as you can."
 		]
-		quest.5AEA705D6A64A982.title: "Daylight Detector"
-		quest.5AEA705D6A64A982.quest_subtitle: "On the route to the Daylight Detector."
-		quest.5AEA705D6A64A982.quest_desc: ["Acquire the Daylight Detector. Bridges what you did with what is next."]
+		quest.5AEA705D6A64A982.title: "&c&lDaylight Automation"
+		quest.5AEA705D6A64A982.quest_subtitle: "&7Time machines with the sun"
+		quest.5AEA705D6A64A982.quest_desc: [
+			"&c&lDaylight Automation"
+			"&8&m                            "
+			""
+			"&7A Daylight Detector and redstone let machines react to day"
+			"&7and night, useful for timed reactor and farm routines."
+			""
+			"&c&lCategory:&r &fFission Reactor"
+			""
+			"&e&l★ Tip:&r &7Flip the detector to invert it for night-only automation."
+		]
 		quest.5AEDA5C8BDD706ED.title: "4096k Item Storage Part"
 		quest.5AEDA5C8BDD706ED.quest_subtitle: "Snag the 4096k Item Storage Part this run."
 		quest.5AEDA5C8BDD706ED.quest_desc: ["Pin the 4096k Item Storage Part to your inventory. A small step on a long road."]
@@ -10852,9 +11222,19 @@
 		quest.5B1175C0ADE0648A.title: "Redcap Sapper"
 		quest.5B1175C0ADE0648A.quest_subtitle: "Modest gain: the Redcap Sapper."
 		quest.5B1175C0ADE0648A.quest_desc: ["Get the Redcap Sapper into your inventory. Load-bearing, not flashy."]
-		quest.5B18676A77CD6069.title: "Qio Drive Array"
-		quest.5B18676A77CD6069.quest_subtitle: "Earn the Qio Drive Array, the even way."
-		quest.5B18676A77CD6069.quest_desc: ["The Qio Drive Array is on the menu. Steady is fast."]
+		quest.5B18676A77CD6069.title: "&3&lQIO Drive Array"
+		quest.5B18676A77CD6069.quest_subtitle: "&7The core of wireless storage"
+		quest.5B18676A77CD6069.quest_desc: [
+			"&3&lQIO Drive Array"
+			"&8&m                            "
+			""
+			"&7The QIO Drive Array holds your storage drives and forms the"
+			"&7heart of the Quantum Item Orchestration network."
+			""
+			"&3&lCategory:&r &fQIO System"
+			""
+			"&e&l★ Tip:&r &7Everything else in the QIO system connects back to this array."
+		]
 		quest.5B556192F060F3F1.title: "&e&lRefined Obsidian Dust"
 		quest.5B556192F060F3F1.quest_subtitle: "&7The dust before the ingot"
 		quest.5B556192F060F3F1.quest_desc: [
@@ -10885,9 +11265,19 @@
 		quest.5B9C0C5574045CFD.title: "256b Chemical Storage Part"
 		quest.5B9C0C5574045CFD.quest_subtitle: "alert prize: the 256b Chemical Storage Part."
 		quest.5B9C0C5574045CFD.quest_desc: ["The 256b Chemical Storage Part is gating the next quest. Tiny wins stack into runs."]
-		quest.5B9F3F32AB28A83A.title: "Superheating Element"
-		quest.5B9F3F32AB28A83A.quest_subtitle: "One Superheating Element, one steady win."
-		quest.5B9F3F32AB28A83A.quest_desc: ["Get the Superheating Element into your inventory. Next door is in sight."]
+		quest.5B9F3F32AB28A83A.title: "&e&lBoiler Internals"
+		quest.5B9F3F32AB28A83A.quest_subtitle: "&7Superheaters and the disperser"
+		quest.5B9F3F32AB28A83A.quest_desc: [
+			"&e&lBoiler Internals"
+			"&8&m                            "
+			""
+			"&7Superheating Elements pour heat into the water, and the"
+			"&7Pressure Disperser spreads that heat evenly across the boiler."
+			""
+			"&e&lCategory:&r &fThermoelectric Boiler"
+			""
+			"&e&l★ Tip:&r &7More superheaters mean more steam per second from the boiler."
+		]
 		quest.5BA2B036717AC1D6.title: "&d&lWraithfang"
 		quest.5BA2B036717AC1D6.quest_subtitle: "&7Wraithfang, a unique legendary blade"
 		quest.5BA2B036717AC1D6.quest_desc: [
@@ -12306,9 +12696,19 @@
 			""
 			"&e&l★ Tip:&r &7Higher metal tiers hold more spell slots. Upgrade when you can."
 		]
-		quest.67A9329C05F98633.title: "Ultimate Trash Can"
-		quest.67A9329C05F98633.quest_subtitle: "A Ultimate Trash Can for the road."
-		quest.67A9329C05F98633.quest_desc: ["Lock in the Ultimate Trash Can. Useful sooner than you think."]
+		quest.67A9329C05F98633.title: "&c&lVoiding Nuclear Waste"
+		quest.67A9329C05F98633.quest_subtitle: "&7Destroy waste you cannot store"
+		quest.67A9329C05F98633.quest_desc: [
+			"&c&lVoiding Nuclear Waste"
+			"&8&m                            "
+			""
+			"&7An Ultimate Trash Can permanently voids any item or gas you"
+			"&7feed it, the safe last resort for excess radioactive waste."
+			""
+			"&c&lCategory:&r &fFission Reactor"
+			""
+			"&e&l★ Tip:&r &7Use it sparingly. Waste left to decay is cleaner than voiding."
+		]
 		quest.67AB5059B17D8305.title: "Helmet Crab"
 		quest.67AB5059B17D8305.quest_subtitle: "Mark the Helmet Crab done."
 		quest.67AB5059B17D8305.quest_desc: ["Earn the Helmet Crab step by step. Saved for later use."]
@@ -12706,9 +13106,19 @@
 			""
 			"&e&l★ Tip:&r &7Stronger shelves enable stronger enchantments. Mix shelf types freely."
 		]
-		quest.6A1174845810C7A1.title: "Modification Station"
-		quest.6A1174845810C7A1.quest_subtitle: "Earn it: the Modification Station."
-		quest.6A1174845810C7A1.quest_desc: ["The Modification Station is gating the next quest. Modular progress, small steps."]
+		quest.6A1174845810C7A1.title: "&9&lModification Station"
+		quest.6A1174845810C7A1.quest_subtitle: "&7Install modules into your gear"
+		quest.6A1174845810C7A1.quest_desc: [
+			"&9&lModification Station"
+			"&8&m                            "
+			""
+			"&7The Modification Station fits special modules into MekaSuit"
+			"&7armor and the Meka-Tool, unlocking flight, mining and more."
+			""
+			"&9&lCategory:&r &fEquipment"
+			""
+			"&e&l★ Tip:&r &7It is where Mekanism gear becomes truly your own."
+		]
 		quest.6A1C0B17B22CE50F.title: "&e&lMana Amulets"
 		quest.6A1C0B17B22CE50F.quest_subtitle: "&7Amulets of arcane endurance"
 		quest.6A1C0B17B22CE50F.quest_desc: [
@@ -12831,15 +13241,35 @@
 		quest.6B2F4635D9E058CA.title: "Mutant Enderman"
 		quest.6B2F4635D9E058CA.quest_subtitle: "The Mutant Enderman: the chapter nudge."
 		quest.6B2F4635D9E058CA.quest_desc: ["Bag the Mutant Enderman. Worth more than its tooltip says."]
-		quest.6B3BD54A34EB02C2.title: "Induction Provider"
-		quest.6B3BD54A34EB02C2.quest_subtitle: "Bank the Induction Provider for later."
-		quest.6B3BD54A34EB02C2.quest_desc: ["Claim the Induction Provider. One more rung climbed on this branch."]
+		quest.6B3BD54A34EB02C2.title: "&d&lInduction Providers"
+		quest.6B3BD54A34EB02C2.quest_subtitle: "&7Decide how fast power flows"
+		quest.6B3BD54A34EB02C2.quest_desc: [
+			"&d&lInduction Providers"
+			"&8&m                            "
+			""
+			"&7Induction Providers set how quickly an Induction Matrix can"
+			"&7take in and give out energy. Higher tiers flow far faster."
+			""
+			"&d&lCategory:&r &fInduction Matrix"
+			""
+			"&e&l★ Tip:&r &7Pair big cells with strong providers, or storage just sits idle."
+		]
 		quest.6B4A233611174F51.title: "Phantom"
 		quest.6B4A233611174F51.quest_subtitle: "Earn the Phantom, the modest way."
 		quest.6B4A233611174F51.quest_desc: ["Bag the Phantom. Useful sooner than you think."]
-		quest.6B7E13AB3BF2C5C8.title: "Boiler Casing"
-		quest.6B7E13AB3BF2C5C8.quest_subtitle: "Earn it: the Boiler Casing."
-		quest.6B7E13AB3BF2C5C8.quest_desc: ["Add the Boiler Casing to your run-log. The shortcut is not here."]
+		quest.6B7E13AB3BF2C5C8.title: "&e&lThe Thermoelectric Boiler"
+		quest.6B7E13AB3BF2C5C8.quest_subtitle: "&7Boil water into reactor-grade steam"
+		quest.6B7E13AB3BF2C5C8.quest_desc: [
+			"&e&lThe Thermoelectric Boiler"
+			"&8&m                            "
+			""
+			"&7Build the boiler from casing, valves, a pressure disperser"
+			"&7and superheating elements to turn water into pressured steam."
+			""
+			"&e&lCategory:&r &fThermoelectric Boiler"
+			""
+			"&e&l★ Tip:&r &7Its steam drives a turbine far harder than a basic heat source."
+		]
 		quest.6B8040401B512E50.title: "&a&lChemical Dissolution Chamber"
 		quest.6B8040401B512E50.quest_subtitle: "&7Dissolve ore into mineral slurry"
 		quest.6B8040401B512E50.quest_desc: [
@@ -12956,9 +13386,19 @@
 		quest.6CCCDB0C38DC3751.title: "Helmet Crab"
 		quest.6CCCDB0C38DC3751.quest_subtitle: "Tiny step: the Helmet Crab."
 		quest.6CCCDB0C38DC3751.quest_desc: ["Wrap up the Helmet Crab. Next door is in sight."]
-		quest.6CCE920735187234.title: "Turbine Casing"
-		quest.6CCE920735187234.quest_subtitle: "One Turbine Casing, one patient win."
-		quest.6CCE920735187234.quest_desc: ["Bank the Turbine Casing. Next door is in sight."]
+		quest.6CCE920735187234.title: "&6&lThe Industrial Turbine"
+		quest.6CCE920735187234.quest_subtitle: "&7Spin steam into vast energy"
+		quest.6CCE920735187234.quest_desc: [
+			"&6&lThe Industrial Turbine"
+			"&8&m                            "
+			""
+			"&7Assemble casing, rotors, blades, vents, valves, dispersers,"
+			"&7coils and condensers into one giant turbine multiblock."
+			""
+			"&6&lCategory:&r &fIndustrial Turbine"
+			""
+			"&e&l★ Tip:&r &7Pair it with a boiler or reactor for a true power plant."
+		]
 		quest.6CD1720B76F47806.title: "&c&lBio-Generator"
 		quest.6CD1720B76F47806.quest_subtitle: "&7Burn renewable bio fuel"
 		quest.6CD1720B76F47806.quest_desc: [
@@ -13594,15 +14034,35 @@
 		quest.7162EE6CCA3F4949.title: "Adherent"
 		quest.7162EE6CCA3F4949.quest_subtitle: "On the route to the Adherent."
 		quest.7162EE6CCA3F4949.quest_desc: ["Bring back the Adherent. Tiny wins stack into runs."]
-		quest.71766BD7321FCB13.title: "Chemical Infuser"
-		quest.71766BD7321FCB13.quest_subtitle: "Earn the Chemical Infuser, the honest way."
-		quest.71766BD7321FCB13.quest_desc: ["The Chemical Infuser: load-bearing, not loud. Trust the chain."]
+		quest.71766BD7321FCB13.title: "&2&lEnriching Fissile Fuel"
+		quest.71766BD7321FCB13.quest_subtitle: "&7Spin uranium gas into reactor fuel"
+		quest.71766BD7321FCB13.quest_desc: [
+			"&2&lEnriching Fissile Fuel"
+			"&8&m                            "
+			""
+			"&7Feed uranium hexafluoride through a Chemical Infuser and an"
+			"&7Isotopic Centrifuge to enrich it into Fissile Fuel."
+			""
+			"&2&lCategory:&r &fNuclear Fuel"
+			""
+			"&e&l★ Tip:&r &7Fissile Fuel is the chemical your Fission Reactor will burn."
+		]
 		quest.7176A7E0D1B576E5.title: "Piglin"
 		quest.7176A7E0D1B576E5.quest_subtitle: "Earn the Piglin, the still way."
 		quest.7176A7E0D1B576E5.quest_desc: ["Add the Piglin. Calm focus beats rushing."]
-		quest.7177653B736AB10E.title: "Chemical Infuser"
-		quest.7177653B736AB10E.quest_subtitle: "Quiet milestone with the Chemical Infuser."
-		quest.7177653B736AB10E.quest_desc: ["Wrap up the Chemical Infuser. Bookkeeping matters."]
+		quest.7177653B736AB10E.title: "&b&lFusion Fuel"
+		quest.7177653B736AB10E.quest_subtitle: "&7Blend deuterium and tritium"
+		quest.7177653B736AB10E.quest_desc: [
+			"&b&lFusion Fuel"
+			"&8&m                            "
+			""
+			"&7Combine deuterium and tritium in a Chemical Infuser to make"
+			"&7Fusion Fuel, the charged gas a fusion reactor consumes."
+			""
+			"&b&lCategory:&r &fFusion Reactor"
+			""
+			"&e&l★ Tip:&r &7A reactor sips fuel slowly but returns immense energy."
+		]
 		quest.71869B1D81D6A7EF.title: "&a&lPressurized Reaction Chamber"
 		quest.71869B1D81D6A7EF.quest_subtitle: "&7React item, fluid and gas at once"
 		quest.71869B1D81D6A7EF.quest_desc: [
@@ -13814,9 +14274,19 @@
 		quest.73108492D8F1E456.title: "Ravager"
 		quest.73108492D8F1E456.quest_subtitle: "Brick: the Ravager."
 		quest.73108492D8F1E456.quest_desc: ["Add the Ravager to your dossier. Next door is in sight."]
-		quest.7310BBC4A90EDA9D.title: "Portable Qio Dashboard"
-		quest.7310BBC4A90EDA9D.quest_subtitle: "patient prize: the Portable Qio Dashboard."
-		quest.7310BBC4A90EDA9D.quest_desc: ["Bring home the Portable Qio Dashboard. Tiny wins stack into runs."]
+		quest.7310BBC4A90EDA9D.title: "&3&lPortable QIO Dashboard"
+		quest.7310BBC4A90EDA9D.quest_subtitle: "&7Reach your storage from anywhere"
+		quest.7310BBC4A90EDA9D.quest_desc: [
+			"&3&lPortable QIO Dashboard"
+			"&8&m                            "
+			""
+			"&7The Portable QIO Dashboard is a hand-held window into your"
+			"&7network, so you can browse and pull items on the move."
+			""
+			"&3&lCategory:&r &fQIO System"
+			""
+			"&e&l★ Tip:&r &7Bind it to a frequency and your whole storage travels with you."
+		]
 		quest.731CBF19DAE16579.title: "Witch"
 		quest.731CBF19DAE16579.quest_subtitle: "Snag the Witch this run."
 		quest.731CBF19DAE16579.quest_desc: ["The Witch is asked of you. Worth more than its tooltip says."]
@@ -14448,9 +14918,19 @@
 		quest.78463C5B9CD6C3E7.title: "Zombie"
 		quest.78463C5B9CD6C3E7.quest_subtitle: "Earn it: the Zombie."
 		quest.78463C5B9CD6C3E7.quest_desc: ["Get the Zombie into your inventory. Quiet capital."]
-		quest.7846B7FFC3DD85C5.title: "Sps Port"
-		quest.7846B7FFC3DD85C5.quest_subtitle: "Earn the Sps Port, the stoic way."
-		quest.7846B7FFC3DD85C5.quest_desc: ["Track down the Sps Port. One brick in a larger wall."]
+		quest.7846B7FFC3DD85C5.title: "&5&lSPS Port"
+		quest.7846B7FFC3DD85C5.quest_subtitle: "&7The gateway of the Phase Shifter"
+		quest.7846B7FFC3DD85C5.quest_desc: [
+			"&5&lSPS Port"
+			"&8&m                            "
+			""
+			"&7An SPS Port carries polonium in and antimatter out through"
+			"&7the wall of the Supercritical Phase Shifter."
+			""
+			"&5&lCategory:&r &fPhase Shifter"
+			""
+			"&e&l★ Tip:&r &7Set ports carefully, this multiblock makes the rarest material."
+		]
 		quest.784D5B30D3E1892D.title: "Auto Blasting Upgrade"
 		quest.784D5B30D3E1892D.quest_subtitle: "honest milestone: the Auto Blasting Upgrade."
 		quest.784D5B30D3E1892D.quest_desc: ["The Auto Blasting Upgrade: load-bearing, not loud. Counts."]
@@ -14906,9 +15386,19 @@
 		quest.7B06882A42014F7F.title: "Umvuthana"
 		quest.7B06882A42014F7F.quest_subtitle: "Modest gain: the Umvuthana."
 		quest.7B06882A42014F7F.quest_desc: ["Stow the Umvuthana. Worth pinning."]
-		quest.7B0764DDE94E73D0.title: "Fission Reactor Logic Adapter"
-		quest.7B0764DDE94E73D0.quest_subtitle: "Snag the Fission Reactor Logic Adapter this run."
-		quest.7B0764DDE94E73D0.quest_desc: ["Score the Fission Reactor Logic Adapter. The chain holds."]
+		quest.7B0764DDE94E73D0.title: "&c&lReactor Safety Wiring"
+		quest.7B0764DDE94E73D0.quest_subtitle: "&7Build a redstone shutdown circuit"
+		quest.7B0764DDE94E73D0.quest_desc: [
+			"&c&lReactor Safety Wiring"
+			"&8&m                            "
+			""
+			"&7Wire logic adapters with redstone, a torch and repeaters"
+			"&7into a circuit that scrams the reactor before it fails."
+			""
+			"&c&lCategory:&r &fFission Reactor"
+			""
+			"&e&l★ Tip:&r &7A safe reactor is one that shuts itself off when it overheats."
+		]
 		quest.7B0DFA55B4D8B16D.title: "&2&lTeleporter"
 		quest.7B0DFA55B4D8B16D.quest_subtitle: "&7Step across the world in an instant"
 		quest.7B0DFA55B4D8B16D.quest_desc: [
@@ -14925,9 +15415,19 @@
 		quest.7B1847A6E9E47F37.title: "Snow Guardian"
 		quest.7B1847A6E9E47F37.quest_subtitle: "The Snow Guardian is a checkpoint."
 		quest.7B1847A6E9E47F37.quest_desc: ["Add one Snow Guardian to your supplies. Press on."]
-		quest.7B385FD1CBE02C85.title: "Basic Chemical Tank"
-		quest.7B385FD1CBE02C85.quest_subtitle: "neat prize: the Basic Chemical Tank."
-		quest.7B385FD1CBE02C85.quest_desc: ["Pack the Basic Chemical Tank away. Press on."]
+		quest.7B385FD1CBE02C85.title: "&2&lReactor Chemical Tank"
+		quest.7B385FD1CBE02C85.quest_subtitle: "&7Buffer the gases of a reactor"
+		quest.7B385FD1CBE02C85.quest_desc: [
+			"&2&lReactor Chemical Tank"
+			"&8&m                            "
+			""
+			"&7A Chemical Tank holds the fuel, coolant and waste gases"
+			"&7that flow through a reactor, smoothing every surge."
+			""
+			"&2&lCategory:&r &fNuclear Fuel"
+			""
+			"&e&l★ Tip:&r &7A buffer tank keeps a reactor steady when demand spikes."
+		]
 		quest.7B4A687EB505C2FF.title: "&b&lCarminite Devices"
 		quest.7B4A687EB505C2FF.quest_subtitle: "&7Wield the dark tower magic"
 		quest.7B4A687EB505C2FF.quest_desc: [
@@ -15152,9 +15652,19 @@
 		quest.7D17828D751065C1.title: "Basic To Copper Tier Upgrade"
 		quest.7D17828D751065C1.quest_subtitle: "The Basic To Copper Tier Upgrade: load-bearing."
 		quest.7D17828D751065C1.quest_desc: ["The Basic To Copper Tier Upgrade is the next pivot. Small habit, big result."]
-		quest.7D279FC39DA5C630.title: "Rotary Condensentrator"
-		quest.7D279FC39DA5C630.quest_subtitle: "The Rotary Condensentrator: the chapter nudge."
-		quest.7D279FC39DA5C630.quest_desc: ["Find your way to the Rotary Condensentrator. Pays its own freight."]
+		quest.7D279FC39DA5C630.title: "&2&lHydrofluoric Acid"
+		quest.7D279FC39DA5C630.quest_subtitle: "&7Brew the acid that processes fuel"
+		quest.7D279FC39DA5C630.quest_desc: [
+			"&2&lHydrofluoric Acid"
+			"&8&m                            "
+			""
+			"&7Mine Fluorite, dissolve it and condense the result to make"
+			"&7hydrofluoric acid, a key reagent for uranium processing."
+			""
+			"&2&lCategory:&r &fNuclear Fuel"
+			""
+			"&e&l★ Tip:&r &7Fluorite ore is found deep underground. Stock plenty of gems."
+		]
 		quest.7D31B4827202E428.title: "Bogged"
 		quest.7D31B4827202E428.quest_subtitle: "The Bogged pays its way."
 		quest.7D31B4827202E428.quest_desc: ["The Bogged unlocks more than it looks. One brick in a larger wall."]
@@ -15200,9 +15710,19 @@
 			""
 			"&e&l★ Tip:&r &7Hold the blade and use the ability key to unleash its power."
 		]
-		quest.7E3C84D7FCEC9D52.title: "Fission Reactor Casing"
-		quest.7E3C84D7FCEC9D52.quest_subtitle: "The Fission Reactor Casing pays its way."
-		quest.7E3C84D7FCEC9D52.quest_desc: ["Hold onto the Fission Reactor Casing. Future you will thank present you."]
+		quest.7E3C84D7FCEC9D52.title: "&c&lThe Fission Reactor"
+		quest.7E3C84D7FCEC9D52.quest_subtitle: "&7Assemble the heart of nuclear power"
+		quest.7E3C84D7FCEC9D52.quest_desc: [
+			"&c&lThe Fission Reactor"
+			"&8&m                            "
+			""
+			"&7Build the reactor from casing, ports, a logic adapter, fuel"
+			"&7assemblies and control rods into one sealed multiblock."
+			""
+			"&c&lCategory:&r &fFission Reactor"
+			""
+			"&e&l★ Tip:&r &7A fission reactor can melt down. Build safety wiring first."
+		]
 		quest.7E3F99CF30884EE4.title: "Umvuthana"
 		quest.7E3F99CF30884EE4.quest_subtitle: "Pocketed: the Umvuthana."
 		quest.7E3F99CF30884EE4.quest_desc: ["The Umvuthana: small object, real progress. Useful sooner than you think."]
