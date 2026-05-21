@@ -1246,9 +1246,19 @@
 			""
 			"&e&l★ Astuce:&r &7L armure la plus solide du chapitre. Elle vaut chaque carapace."
 		]
-		quest.07113EF8E9530D8C.title: "Flux Block"
-		quest.07113EF8E9530D8C.quest_subtitle: "Petit pas : le Flux Block."
-		quest.07113EF8E9530D8C.quest_desc: ["Notez le Flux Block comme acquis. Vaut plus que son texte annonce."]
+		quest.07113EF8E9530D8C.title: "&e&lBloc de Flux"
+		quest.07113EF8E9530D8C.quest_subtitle: "&7Un bloc solide de flux pur"
+		quest.07113EF8E9530D8C.quest_desc: [
+			"&e&lBloc de Flux"
+			"&8&m                            "
+			""
+			"&7Le Bloc de Flux compresse la poussiere de flux en un bloc"
+			"&7de rangement pratique, utile au stockage et aux recettes."
+			""
+			"&e&lCategorie:&r &fMateriaux"
+			""
+			"&e&l★ Astuce:&r &7Neuf poussieres par bloc. Il compacte vos reserves."
+		]
 		quest.072F2B9A7BF94E35.title: "Blockchain Goblin"
 		quest.072F2B9A7BF94E35.quest_subtitle: "Petit pas : le Blockchain Goblin."
 		quest.072F2B9A7BF94E35.quest_desc: ["Gagnez le Blockchain Goblin loyalement. Le chapitre a fait la moitie avec vous."]
@@ -2651,9 +2661,19 @@
 		quest.11D160DFB64D4753.title: "Minotaur"
 		quest.11D160DFB64D4753.quest_subtitle: "Reservez le Minotaur pour plus tard."
 		quest.11D160DFB64D4753.quest_desc: ["Trouvez le Minotaur. Cap intermediaire."]
-		quest.11E8B427BA24DA42.title: "Flux Core"
-		quest.11E8B427BA24DA42.quest_subtitle: "Le Flux Core paye son chemin."
-		quest.11E8B427BA24DA42.quest_desc: ["Gagnez le Flux Core. Porteur, pas voyant."]
+		quest.11E8B427BA24DA42.title: "&e&lNoyau de Flux"
+		quest.11E8B427BA24DA42.quest_subtitle: "&7Le coeur de chaque appareil de flux"
+		quest.11E8B427BA24DA42.quest_desc: [
+			"&e&lNoyau de Flux"
+			"&8&m                            "
+			""
+			"&7Le Noyau de Flux se fabrique a partir de poussiere de flux"
+			"&7et trone au coeur des prises, points, controleurs et stockages."
+			""
+			"&e&lCategorie:&r &fMateriaux"
+			""
+			"&e&l★ Astuce:&r &7Gardez une pile prete avant de fabriquer les blocs de flux."
+		]
 		quest.120572510F525930.title: "&2&lTour d Evaporation"
 		quest.120572510F525930.quest_subtitle: "&7Empilez les blocs d une usine d evaporation"
 		quest.120572510F525930.quest_desc: [
@@ -3324,9 +3344,19 @@
 			""
 			"&e&l★ Astuce:&r &7Les grimoires superieurs contiennent plus de sorts et d emplacements."
 		]
-		quest.17DB7276924C5054.title: "Flux Configurator"
-		quest.17DB7276924C5054.quest_subtitle: "Petit pas : le Flux Configurator."
-		quest.17DB7276924C5054.quest_desc: ["Bouclez le Flux Configurator. Vous avez merite une pause."]
+		quest.17DB7276924C5054.title: "&a&lConfigurateur de Flux"
+		quest.17DB7276924C5054.quest_subtitle: "&7Connectez et reglez votre reseau"
+		quest.17DB7276924C5054.quest_desc: [
+			"&a&lConfigurateur de Flux"
+			"&8&m                            "
+			""
+			"&7Le Configurateur de Flux relie les appareils a un reseau et"
+			"&7vous laisse lire ses stats et changer les reglages en route."
+			""
+			"&a&lCategorie:&r &fOutils"
+			""
+			"&e&l★ Astuce:&r &7Gardez-le en barre pour gerer la grille de partout."
+		]
 		quest.17E2C05C48B03043.title: "&2&lChimie de Refroidissement"
 		quest.17E2C05C48B03043.quest_subtitle: "&7Evaporez l eau pour les besoins du reacteur"
 		quest.17E2C05C48B03043.quest_desc: [
@@ -7007,9 +7037,19 @@
 			""
 			"&e&l★ Astuce:&r &7Inscrivez les glyphes a la Table de Scribe. Melez formes et effets."
 		]
-		quest.38196E5D73DCEC05.title: "Herculean Flux Storage"
-		quest.38196E5D73DCEC05.quest_subtitle: "Decrochez le Herculean Flux Storage ce run."
-		quest.38196E5D73DCEC05.quest_desc: ["Chassez le Herculean Flux Storage. Cap intermediaire."]
+		quest.38196E5D73DCEC05.title: "&d&lStockage de Flux Herculeen"
+		quest.38196E5D73DCEC05.quest_subtitle: "&7Une reserve d energie bien plus vaste"
+		quest.38196E5D73DCEC05.quest_desc: [
+			"&d&lStockage de Flux Herculeen"
+			"&8&m                            "
+			""
+			"&7Le Stockage de Flux Herculeen contient bien plus d energie"
+			"&7que le bloc basique, une reserve solide pour une base qui grandit."
+			""
+			"&d&lCategorie:&r &fStockage d Energie"
+			""
+			"&e&l★ Astuce:&r &7Passez-y des qu un stockage basique ne suffit plus."
+		]
 		quest.385D3CAF967A23D8.title: "Drowned"
 		quest.385D3CAF967A23D8.quest_subtitle: "Le detour Drowned en vaut la peine."
 		quest.385D3CAF967A23D8.quest_desc: ["Attrapez le Drowned. Les petites victoires s additionnent."]
@@ -7411,9 +7451,19 @@
 		quest.3C22628EFECA7BC2.title: "Skeleton Druid"
 		quest.3C22628EFECA7BC2.quest_subtitle: "Le Skeleton Druid ouvre plus."
 		quest.3C22628EFECA7BC2.quest_desc: ["Reservez le Skeleton Druid. Progres modulaire, petits pas."]
-		quest.3C4EB48924A813F5.title: "Flux Dust"
-		quest.3C4EB48924A813F5.quest_subtitle: "Brique : le Flux Dust."
-		quest.3C4EB48924A813F5.quest_desc: ["Emportez le Flux Dust. Mis de cote pour plus tard."]
+		quest.3C4EB48924A813F5.title: "&e&lPoussiere de Flux"
+		quest.3C4EB48924A813F5.quest_subtitle: "&7La poussiere fondatrice du reseau"
+		quest.3C4EB48924A813F5.quest_desc: [
+			"&e&lPoussiere de Flux"
+			"&8&m                            "
+			""
+			"&7La Poussiere de Flux se fait en compressant la redstone"
+			"&7avec du bedrock et de l obsidienne. Base de chaque appareil."
+			""
+			"&e&lCategorie:&r &fMateriaux"
+			""
+			"&e&l★ Astuce:&r &7Mettez en place une production reguliere, tout en depend."
+		]
 		quest.3C4ECF5741837953.title: "Drowned"
 		quest.3C4ECF5741837953.quest_subtitle: "Etape calme avec le Drowned."
 		quest.3C4ECF5741837953.quest_desc: ["Sortez le Drowned de sa cache. Progres modulaire, petits pas."]
@@ -8616,9 +8666,19 @@
 			""
 			"&e&l★ Astuce:&r &7Les colis font voyager la logistique sans courroies sans fin."
 		]
-		quest.44D070EA81D251B1.title: "Flux Controller"
-		quest.44D070EA81D251B1.quest_subtitle: "Cap vigilant : le Flux Controller."
-		quest.44D070EA81D251B1.quest_desc: ["Trouvez un chemin vers le Flux Controller. Le detour en vaut la peine."]
+		quest.44D070EA81D251B1.title: "&b&lControleur de Flux"
+		quest.44D070EA81D251B1.quest_subtitle: "&7Gerez le reseau et rechargez votre equipement"
+		quest.44D070EA81D251B1.quest_desc: [
+			"&b&lControleur de Flux"
+			"&8&m                            "
+			""
+			"&7Un Controleur de Flux par reseau vous donne la gestion"
+			"&7complete et active la recharge sans fil de vos objets."
+			""
+			"&b&lCategorie:&r &fLe Reseau"
+			""
+			"&e&l★ Astuce:&r &7Batissez un controleur des que la grille depasse prise et point."
+		]
 		quest.44D4A7D5AC7A6E60.title: "&d&lSac a Dos"
 		quest.44D4A7D5AC7A6E60.quest_subtitle: "&7Portez plus, voyagez plus loin"
 		quest.44D4A7D5AC7A6E60.quest_desc: [
@@ -8835,9 +8895,19 @@
 			""
 			"&e&l★ Astuce:&r &7Inscrivez les glyphes a la Table de Scribe. Melez formes et effets."
 		]
-		quest.465117C1025B2857.title: "Flux Point"
-		quest.465117C1025B2857.quest_subtitle: "Le detour Flux Point en vaut la peine."
-		quest.465117C1025B2857.quest_desc: ["Gagnez le Flux Point. Il vaut plus que son texte annonce. Modeste maintenant, puissant plus tard."]
+		quest.465117C1025B2857.title: "&b&lPoint de Flux"
+		quest.465117C1025B2857.quest_subtitle: "&7Tirez l energie hors du reseau"
+		quest.465117C1025B2857.quest_desc: [
+			"&b&lPoint de Flux"
+			"&8&m                            "
+			""
+			"&7Posez un Point de Flux contre une machine ou un bloc de"
+			"&7stockage. Il pousse activement l energie du reseau vers eux."
+			""
+			"&b&lCategorie:&r &fLe Reseau"
+			""
+			"&e&l★ Astuce:&r &7Les points sont les sorties. Posez-en un ou une machine a soif."
+		]
 		quest.4658CFBD248043E3.title: "Creeper"
 		quest.4658CFBD248043E3.quest_subtitle: "Le Creeper est un point d etape."
 		quest.4658CFBD248043E3.quest_desc: ["Empochez le Creeper. La porte suivante est en vue."]
@@ -9579,9 +9649,19 @@
 			""
 			"&e&l★ Astuce:&r &7Portez la panoplie complete pour maximiser cette ecole."
 		]
-		quest.4CD1842569E64898.title: "Flux Plug"
-		quest.4CD1842569E64898.quest_subtitle: "Petit pas : le Flux Plug."
-		quest.4CD1842569E64898.quest_desc: ["Le Flux Plug est votre prochaine recompense. Le progres tranquille bat les revers bruyants."]
+		quest.4CD1842569E64898.title: "&b&lPrise de Flux"
+		quest.4CD1842569E64898.quest_subtitle: "&7Injectez l energie dans le reseau"
+		quest.4CD1842569E64898.quest_desc: [
+			"&b&lPrise de Flux"
+			"&8&m                            "
+			""
+			"&7Posez une Prise de Flux contre un generateur ou un bloc"
+			"&7d energie. Elle aspire leur puissance vers votre Reseau de Flux."
+			""
+			"&b&lCategorie:&r &fLe Reseau"
+			""
+			"&e&l★ Astuce:&r &7Les prises sont les entrees. Une par generateur nourrit la grille."
+		]
 		quest.4CD746C4D7A67B82.title: "Mutant Skeleton Skull"
 		quest.4CD746C4D7A67B82.quest_subtitle: "Sur la route du Mutant Skeleton Skull."
 		quest.4CD746C4D7A67B82.quest_desc: ["Le Mutant Skeleton Skull : porteur, pas tonitruant. Visez la chose d apres."]
@@ -10190,9 +10270,19 @@
 			""
 			"&e&l★ Astuce:&r &7Pratique sur une carriere ou tout build avide de pierre."
 		]
-		quest.516644A9126D961D.title: "Gargantuan Flux Storage"
-		quest.516644A9126D961D.quest_subtitle: "Ajoutez un Gargantuan Flux Storage."
-		quest.516644A9126D961D.quest_desc: ["Recuperez le Gargantuan Flux Storage en chemin. Plus proche que la carte ne suggere."]
+		quest.516644A9126D961D.title: "&d&lStockage de Flux Gargantuesque"
+		quest.516644A9126D961D.quest_subtitle: "&7La plus grande batterie de toutes"
+		quest.516644A9126D961D.quest_desc: [
+			"&d&lStockage de Flux Gargantuesque"
+			"&8&m                            "
+			""
+			"&7Le Stockage de Flux Gargantuesque est le palier supreme, un"
+			"&7immense coffre d energie pour les reseaux les plus exigeants."
+			""
+			"&d&lCategorie:&r &fStockage d Energie"
+			""
+			"&e&l★ Astuce:&r &7Un seul bloc gargantuesque alimente une base automatisee entiere."
+		]
 		quest.51676C66D568BC15.title: "&e&lNetherite-Gold Plastron"
 		quest.51676C66D568BC15.quest_subtitle: "&7Plastron de la panoplie Netherite-Gold."
 		quest.51676C66D568BC15.quest_desc: [
@@ -12852,9 +12942,19 @@
 			""
 			"&e&l★ Astuce:&r &7Une amelioration eclatante. Elle remplace plusieurs couleurs a la fois."
 		]
-		quest.6911DEE509503900.title: "Basic Flux Storage"
-		quest.6911DEE509503900.quest_subtitle: "Gain modeste : le Basic Flux Storage."
-		quest.6911DEE509503900.quest_desc: ["Trouvez le Basic Flux Storage. Visez la chose d apres."]
+		quest.6911DEE509503900.title: "&d&lStockage de Flux Basique"
+		quest.6911DEE509503900.quest_subtitle: "&7La premiere batterie de la grille"
+		quest.6911DEE509503900.quest_desc: [
+			"&d&lStockage de Flux Basique"
+			"&8&m                            "
+			""
+			"&7Le Stockage de Flux Basique met l energie en reserve et"
+			"&7sert lui-meme de point de connexion au reseau."
+			""
+			"&d&lCategorie:&r &fStockage d Energie"
+			""
+			"&e&l★ Astuce:&r &7Il tamponne la grille pour que rien ne manque en cas de creux."
+		]
 		quest.69201356960A4B99.title: "Hoglin"
 		quest.69201356960A4B99.quest_subtitle: "Le Hoglin paye son chemin."
 		quest.69201356960A4B99.quest_desc: ["Le Hoglin bloque la quete suivante. Vaut le coup de noter."]
