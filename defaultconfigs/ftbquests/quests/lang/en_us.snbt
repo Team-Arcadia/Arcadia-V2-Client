@@ -434,9 +434,19 @@
 			""
 			"&e&l★ Tip:&r &7Rare materials get scarce. Spend them on gear you mean to keep."
 		]
-		quest.001DE8028CAF0A08.title: "Upgrade Muffling"
-		quest.001DE8028CAF0A08.quest_subtitle: "Earn it: the Upgrade Muffling."
-		quest.001DE8028CAF0A08.quest_desc: ["Pack the Upgrade Muffling. Closer than the map suggests."]
+		quest.001DE8028CAF0A08.title: "&d&lMuffling Upgrade"
+		quest.001DE8028CAF0A08.quest_subtitle: "&7Silence a noisy machine"
+		quest.001DE8028CAF0A08.quest_desc: [
+			"&d&lMuffling Upgrade"
+			"&8&m                            "
+			""
+			"&7A Muffling Upgrade quiets the running sound of a machine,"
+			"&7a small comfort for a factory built next to your base."
+			""
+			"&d&lCategory:&r &fUpgrades"
+			""
+			"&e&l★ Tip:&r &7Fill the upgrade slots with these near where you live and sleep."
+		]
 		quest.00211BF73C6E5826.title: "8192b Chemical Storage Part"
 		quest.00211BF73C6E5826.quest_subtitle: "tempered milestone: the 8192b Chemical Storage Part."
 		quest.00211BF73C6E5826.quest_desc: ["Set sights on the 8192b Chemical Storage Part. Next door is in sight."]
@@ -494,9 +504,19 @@
 		quest.008E65AF545A706E.title: "Sps Casing"
 		quest.008E65AF545A706E.quest_subtitle: "wary prize: the Sps Casing."
 		quest.008E65AF545A706E.quest_desc: ["Bag the Sps Casing. Quiet capital."]
-		quest.0095422BC87AA135.title: "Purification Chamber"
-		quest.0095422BC87AA135.quest_subtitle: "The Purification Chamber is a checkpoint."
-		quest.0095422BC87AA135.quest_desc: ["Bring the Purification Chamber into your inventory. Steady progress pays off."]
+		quest.0095422BC87AA135.title: "&2&lOre Tripling"
+		quest.0095422BC87AA135.quest_subtitle: "&7Purify ore for triple the metal"
+		quest.0095422BC87AA135.quest_desc: [
+			"&2&lOre Tripling"
+			"&8&m                            "
+			""
+			"&7Add a Purification Chamber to the line. Fed with oxygen, it"
+			"&7turns ore into three clumps, crushed and smelted into ingots."
+			""
+			"&2&lCategory:&r &fStructures"
+			""
+			"&e&l★ Tip:&r &7Purifier, Crusher, Enrichment Chamber and Smelter triple your ore."
+		]
 		quest.00A22A7D013E9CD7.title: "&5&lNetherite Boots"
 		quest.00A22A7D013E9CD7.quest_subtitle: "&7Boots of the Netherite set."
 		quest.00A22A7D013E9CD7.quest_desc: [
@@ -659,9 +679,19 @@
 			""
 			"&e&l★ Tip:&r &7Place them in fast-flowing water on as many sides as you can."
 		]
-		quest.01A90E2541C91DB2.title: "Structural Glass"
-		quest.01A90E2541C91DB2.quest_subtitle: "A alert step toward the Structural Glass."
-		quest.01A90E2541C91DB2.quest_desc: ["Pin the Structural Glass to your inventory. Useful sooner than you think."]
+		quest.01A90E2541C91DB2.title: "&e&lStructural Glass"
+		quest.01A90E2541C91DB2.quest_subtitle: "&7Clear walls for multiblocks"
+		quest.01A90E2541C91DB2.quest_desc: [
+			"&e&lStructural Glass"
+			"&8&m                            "
+			""
+			"&7Structural Glass lets you see inside a multiblock while"
+			"&7still sealing it. It is the window of every big build."
+			""
+			"&e&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7Mix glass walls into tanks and towers to watch them work."
+		]
 		quest.01D53A4DCADB491B.title: "Bogged"
 		quest.01D53A4DCADB491B.quest_subtitle: "Earn it: the Bogged."
 		quest.01D53A4DCADB491B.quest_desc: ["Add the Bogged to your dossier. Tiny wins stack into runs."]
@@ -817,9 +847,19 @@
 			""
 			"&e&l★ Tip:&r &7Wear the complete set for its strongest defense."
 		]
-		quest.041365A540BF5A03.title: "Dictionary"
-		quest.041365A540BF5A03.quest_subtitle: "The Dictionary is a checkpoint."
-		quest.041365A540BF5A03.quest_desc: ["Add the Dictionary to your dossier. Closer than the map suggests."]
+		quest.041365A540BF5A03.title: "&9&lDictionary"
+		quest.041365A540BF5A03.quest_subtitle: "&7Look up the tags of any item"
+		quest.041365A540BF5A03.quest_desc: [
+			"&9&lDictionary"
+			"&8&m                            "
+			""
+			"&7Right-click the Dictionary on any block or item to read"
+			"&7every tag it carries, the key to filters and recipes."
+			""
+			"&9&lCategory:&r &fTools"
+			""
+			"&e&l★ Tip:&r &7Use it when a filter or recipe will not accept the item you expect."
+		]
 		quest.0436DF3308681913.title: "&c&lDead King"
 		quest.0436DF3308681913.quest_subtitle: "&7Defeat a hostile spellcaster"
 		quest.0436DF3308681913.quest_desc: [
@@ -900,9 +940,19 @@
 			""
 			"&e&l★ Tip:&r &7Each companion has its own task. Give it a good home to thrive."
 		]
-		quest.0498A578D0EC3254.title: "Basic Control Circuit"
-		quest.0498A578D0EC3254.quest_subtitle: "The Basic Control Circuit: load-bearing."
-		quest.0498A578D0EC3254.quest_desc: ["Find your way to the Basic Control Circuit. Counts."]
+		quest.0498A578D0EC3254.title: "&6&lBasic Control Circuit"
+		quest.0498A578D0EC3254.quest_subtitle: "&7The brain of every machine"
+		quest.0498A578D0EC3254.quest_desc: [
+			"&6&lBasic Control Circuit"
+			"&8&m                            "
+			""
+			"&7The Basic Control Circuit is infused from osmium and"
+			"&7redstone. Almost every Mekanism machine needs at least one."
+			""
+			"&6&lCategory:&r &fControl Circuits"
+			""
+			"&e&l★ Tip:&r &7Set up steady osmium and redstone, you will craft many of these."
+		]
 		quest.04A629ED5DCC2B33.title: "Blaze"
 		quest.04A629ED5DCC2B33.quest_subtitle: "Today goal: the Blaze."
 		quest.04A629ED5DCC2B33.quest_desc: ["Earn the Blaze by playing the long game. Pace yourself."]
@@ -1045,9 +1095,19 @@
 		quest.061BD32FD40C5098.title: "Evoker"
 		quest.061BD32FD40C5098.quest_subtitle: "On the route to the Evoker."
 		quest.061BD32FD40C5098.quest_desc: ["The Evoker: a useful checkpoint on this branch. Saved for later use."]
-		quest.06210B6FD0F9989B.title: "Ultimate Control Circuit"
-		quest.06210B6FD0F9989B.quest_subtitle: "Tiny step: the Ultimate Control Circuit."
-		quest.06210B6FD0F9989B.quest_desc: ["Find the Ultimate Control Circuit. Calm focus beats rushing."]
+		quest.06210B6FD0F9989B.title: "&6&lUltimate Control Circuit"
+		quest.06210B6FD0F9989B.quest_subtitle: "&7The peak circuit of Mekanism"
+		quest.06210B6FD0F9989B.quest_desc: [
+			"&6&lUltimate Control Circuit"
+			"&8&m                            "
+			""
+			"&7The Ultimate Control Circuit is built on Atomic Alloy,"
+			"&7infused with refined obsidian. It powers the highest tiers."
+			""
+			"&6&lCategory:&r &fControl Circuits"
+			""
+			"&e&l★ Tip:&r &7This is the last circuit tier. The best machines are now in reach."
+		]
 		quest.0624CAFEE8A54EC2.title: "Witch"
 		quest.0624CAFEE8A54EC2.quest_subtitle: "The Witch: load-bearing."
 		quest.0624CAFEE8A54EC2.quest_desc: ["Unlock the Witch. Bookkeeping matters."]
@@ -1094,9 +1154,19 @@
 			""
 			"&e&l★ Tip:&r &7Temples are well guarded. Come prepared for a serious fight."
 		]
-		quest.0650996C7818ADB5.title: "Heat Generator"
-		quest.0650996C7818ADB5.quest_subtitle: "earnest run, single Heat Generator."
-		quest.0650996C7818ADB5.quest_desc: ["The Heat Generator is gating the next quest. Trust the chain."]
+		quest.0650996C7818ADB5.title: "&c&lHeat Generator"
+		quest.0650996C7818ADB5.quest_subtitle: "&7Burn fuel or sip nearby lava"
+		quest.0650996C7818ADB5.quest_desc: [
+			"&c&lHeat Generator"
+			"&8&m                            "
+			""
+			"&7The Heat Generator makes energy from burnable fuel, and"
+			"&7also draws power from lava placed against its sides."
+			""
+			"&c&lCategory:&r &fPower"
+			""
+			"&e&l★ Tip:&r &7Surround it with lava buckets for hands-off early power."
+		]
 		quest.0671915D3BDDD07D.title: "&d&lDispel Glyph"
 		quest.0671915D3BDDD07D.quest_subtitle: "&7The Dispel Glyph, a word of magic"
 		quest.0671915D3BDDD07D.quest_desc: [
@@ -1154,9 +1224,19 @@
 		quest.06F93E29AC23E6F5.title: "Wither"
 		quest.06F93E29AC23E6F5.quest_subtitle: "Stash the Wither for later."
 		quest.06F93E29AC23E6F5.quest_desc: ["Note the Wither acquired. Calm focus beats rushing."]
-		quest.07084582F9562740.title: "Pigment Extractor"
-		quest.07084582F9562740.quest_subtitle: "Brick: the Pigment Extractor."
-		quest.07084582F9562740.quest_desc: ["The Pigment Extractor: load-bearing, not loud. Useful sooner than you think."]
+		quest.07084582F9562740.title: "&b&lPigment and Painting"
+		quest.07084582F9562740.quest_subtitle: "&7Extract pigment and paint blocks"
+		quest.07084582F9562740.quest_desc: [
+			"&b&lPigment and Painting"
+			"&8&m                            "
+			""
+			"&7The Pigment Extractor pulls color from dyes and flowers,"
+			"&7the Mixer blends shades, and the Painting Machine colors blocks."
+			""
+			"&b&lCategory:&r &fMachines"
+			""
+			"&e&l★ Tip:&r &7Pigment colors machines and blocks far cheaper than dye alone."
+		]
 		quest.0710C950A0A11ED2.title: "&b&lWarden Armor"
 		quest.0710C950A0A11ED2.quest_subtitle: "&7Wear the strength of the Warden"
 		quest.0710C950A0A11ED2.quest_desc: [
@@ -1265,9 +1345,19 @@
 			""
 			"&e&l★ Tip:&r &7Perfect if you prefer casting over swinging a sword."
 		]
-		quest.081DC030A0546549.title: "Bio Fuel"
-		quest.081DC030A0546549.quest_subtitle: "A calm step toward the Bio Fuel."
-		quest.081DC030A0546549.quest_desc: ["Cross the Bio Fuel off. Pays its own freight."]
+		quest.081DC030A0546549.title: "&e&lBio Fuel"
+		quest.081DC030A0546549.quest_subtitle: "&7Fuel grown from plants"
+		quest.081DC030A0546549.quest_desc: [
+			"&e&lBio Fuel"
+			"&8&m                            "
+			""
+			"&7Bio Fuel is crushed from crops, saplings and other plant"
+			"&7matter. It feeds the Bio-Generator and Heat Generator."
+			""
+			"&e&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7Run a farm into a Crusher for a steady supply of fuel."
+		]
 		quest.0820409225406D62.title: "Zombie"
 		quest.0820409225406D62.quest_subtitle: "Add one Zombie."
 		quest.0820409225406D62.quest_desc: ["Snag the Zombie. Worth the detour."]
@@ -1375,18 +1465,38 @@
 			""
 			"&e&l★ Tip:&r &7Inscribe glyphs at the Scribes Table. Mix forms, effects and augments."
 		]
-		quest.08DDE018A804BFE7.title: "Enrichment Chamber"
-		quest.08DDE018A804BFE7.quest_subtitle: "A calm step toward the Enrichment Chamber."
-		quest.08DDE018A804BFE7.quest_desc: ["Wrap the Enrichment Chamber up. The chain holds."]
+		quest.08DDE018A804BFE7.title: "&b&lEnrichment Chamber"
+		quest.08DDE018A804BFE7.quest_subtitle: "&7Double ores into mineral dust"
+		quest.08DDE018A804BFE7.quest_desc: [
+			"&b&lEnrichment Chamber"
+			"&8&m                            "
+			""
+			"&7The Enrichment Chamber turns one ore block into two units"
+			"&7of dust, and refines redstone, carbon and more."
+			""
+			"&b&lCategory:&r &fMachines"
+			""
+			"&e&l★ Tip:&r &7It is your first ore-doubling machine. Power it and feed it ore."
+		]
 		quest.08F1335318814E5C.title: "Vex"
 		quest.08F1335318814E5C.quest_subtitle: "Quiet milestone with the Vex."
 		quest.08F1335318814E5C.quest_desc: ["Stash the Vex somewhere safe. Small habit, big result."]
 		quest.08FBFC33B9338E43.title: "Hoglin"
 		quest.08FBFC33B9338E43.quest_subtitle: "steady hop: the Hoglin."
 		quest.08FBFC33B9338E43.quest_desc: ["Pick up the Hoglin. Counts."]
-		quest.090B564935D7A8F5.title: "Tier Installer"
-		quest.090B564935D7A8F5.quest_subtitle: "Bank the Tier Installer for later."
-		quest.090B564935D7A8F5.quest_desc: ["Obtain the Tier Installer. Quietly important for what comes next."]
+		quest.090B564935D7A8F5.title: "&d&lTier Installers"
+		quest.090B564935D7A8F5.quest_subtitle: "&7Upgrade machines where they stand"
+		quest.090B564935D7A8F5.quest_desc: [
+			"&d&lTier Installers"
+			"&8&m                            "
+			""
+			"&7A Tier Installer raises a machine or transfer block to the"
+			"&7next tier, basic up to ultimate, without rebuilding it."
+			""
+			"&d&lCategory:&r &fUpgrades"
+			""
+			"&e&l★ Tip:&r &7One installer per tier step, so plan the jumps you want."
+		]
 		quest.0924DA0393712DF5.title: "Wither"
 		quest.0924DA0393712DF5.quest_subtitle: "patient run, single Wither."
 		quest.0924DA0393712DF5.quest_desc: ["The Wither is part of the chain. Next door is in sight."]
@@ -1446,9 +1556,19 @@
 			""
 			"&e&l★ Tip:&r &7The grind is steep here. Every kill still counts."
 		]
-		quest.09830BB2A23E94B4.title: "Upgrade Chemical"
-		quest.09830BB2A23E94B4.quest_subtitle: "Worth the Upgrade Chemical detour."
-		quest.09830BB2A23E94B4.quest_desc: ["Add the Upgrade Chemical to your stockpile. One more rung climbed."]
+		quest.09830BB2A23E94B4.title: "&d&lChemical Upgrade"
+		quest.09830BB2A23E94B4.quest_subtitle: "&7Use less gas per operation"
+		quest.09830BB2A23E94B4.quest_desc: [
+			"&d&lChemical Upgrade"
+			"&8&m                            "
+			""
+			"&7A Chemical Upgrade lowers how much gas a machine spends on"
+			"&7each task, stretching your chemical supply much further."
+			""
+			"&d&lCategory:&r &fUpgrades"
+			""
+			"&e&l★ Tip:&r &7Great for the purifying and injecting machines that drink gas."
+		]
 		quest.0990D6CEE042F44E.title: "&a&lMagic Map"
 		quest.0990D6CEE042F44E.quest_subtitle: "&7Chart the enchanted realm"
 		quest.0990D6CEE042F44E.quest_desc: [
@@ -1612,12 +1732,32 @@
 			""
 			"&e&l★ Tip:&r &7Hold the blade and use the ability key to unleash its power."
 		]
-		quest.0AA9EF3981E9BA37.title: "Energy Cube"
-		quest.0AA9EF3981E9BA37.quest_subtitle: "Earn the Energy Cube."
-		quest.0AA9EF3981E9BA37.quest_desc: ["Craft or gather the Energy Cube. Another piece of the puzzle."]
-		quest.0ACE573560A19309.title: "Upgrade Energy"
-		quest.0ACE573560A19309.quest_subtitle: "Brick: the Upgrade Energy."
-		quest.0ACE573560A19309.quest_desc: ["The Upgrade Energy unlocks more than it looks. Tiny wins stack into runs."]
+		quest.0AA9EF3981E9BA37.title: "&c&lEnergy Cubes"
+		quest.0AA9EF3981E9BA37.quest_subtitle: "&7Store power in every tier"
+		quest.0AA9EF3981E9BA37.quest_desc: [
+			"&c&lEnergy Cubes"
+			"&8&m                            "
+			""
+			"&7Energy Cubes hold and share power. Basic, advanced, elite"
+			"&7and ultimate cubes each store far more than the last."
+			""
+			"&c&lCategory:&r &fPower"
+			""
+			"&e&l★ Tip:&r &7A cube buffers a generator so machines never starve at night."
+		]
+		quest.0ACE573560A19309.title: "&d&lEnergy Upgrade"
+		quest.0ACE573560A19309.quest_subtitle: "&7Cut power use and store more"
+		quest.0ACE573560A19309.quest_desc: [
+			"&d&lEnergy Upgrade"
+			"&8&m                            "
+			""
+			"&7An Energy Upgrade lowers how much power a machine draws"
+			"&7and widens its internal energy buffer."
+			""
+			"&d&lCategory:&r &fUpgrades"
+			""
+			"&e&l★ Tip:&r &7Pair it with Speed Upgrades to keep a fast machine fed."
+		]
 		quest.0AE35C4C38012C06.title: "Piglin Brute"
 		quest.0AE35C4C38012C06.quest_subtitle: "The Piglin Brute: load-bearing."
 		quest.0AE35C4C38012C06.quest_desc: ["Lock in the Piglin Brute. Aim for the next thing."]
@@ -1857,9 +1997,19 @@
 		quest.0E0EE9C887C4E5DC.title: "Pinch Beetle"
 		quest.0E0EE9C887C4E5DC.quest_subtitle: "Carry the Pinch Beetle forward."
 		quest.0E0EE9C887C4E5DC.quest_desc: ["Add the Pinch Beetle to your run. Quiet progress beats loud setbacks."]
-		quest.0E175356D43E6A10.title: "Electric Pump"
-		quest.0E175356D43E6A10.quest_subtitle: "Tiny step: the Electric Pump."
-		quest.0E175356D43E6A10.quest_desc: ["Carry the Electric Pump with you. Pays its own freight."]
+		quest.0E175356D43E6A10.title: "&2&lHydrogen Chloride Line"
+		quest.0E175356D43E6A10.quest_subtitle: "&7Build the gas for four-times ore"
+		quest.0E175356D43E6A10.quest_desc: [
+			"&2&lHydrogen Chloride Line"
+			"&8&m                            "
+			""
+			"&7Separate water into hydrogen, then combine it with chlorine"
+			"&7in a Chemical Infuser to make hydrogen chloride."
+			""
+			"&2&lCategory:&r &fStructures"
+			""
+			"&e&l★ Tip:&r &7Hydrogen chloride feeds the Injection Chamber for four-times ore."
+		]
 		quest.0E3E12E17F5EB699.title: "1048576k Item Storage Part"
 		quest.0E3E12E17F5EB699.quest_subtitle: "On the 1048576k Item Storage Part branch."
 		quest.0E3E12E17F5EB699.quest_desc: ["Earn the 1048576k Item Storage Part the hard way. Quiet capital."]
@@ -2437,9 +2587,19 @@
 		quest.1187F9D4F4E0D254.title: "Wrench"
 		quest.1187F9D4F4E0D254.quest_subtitle: "The Wrench unlocks more."
 		quest.1187F9D4F4E0D254.quest_desc: ["Pack the Wrench. Friendly nudge."]
-		quest.119BED334E331C25.title: "Enrichment Chamber"
-		quest.119BED334E331C25.quest_subtitle: "The Enrichment Chamber unlocks more."
-		quest.119BED334E331C25.quest_desc: ["Craft or gather the Enrichment Chamber. Another piece of the puzzle."]
+		quest.119BED334E331C25.title: "&2&lOre Doubling"
+		quest.119BED334E331C25.quest_subtitle: "&7Enrich and smelt for double output"
+		quest.119BED334E331C25.quest_desc: [
+			"&2&lOre Doubling"
+			"&8&m                            "
+			""
+			"&7Pair an Enrichment Chamber with an Energized Smelter. Ore"
+			"&7becomes two dust, and each dust smelts back into an ingot."
+			""
+			"&2&lCategory:&r &fStructures"
+			""
+			"&e&l★ Tip:&r &7This simple two-machine line doubles every ore you mine."
+		]
 		quest.11A0593C0E2E6A35.title: "&f&lGreen Ritual Chalk"
 		quest.11A0593C0E2E6A35.quest_subtitle: "&7Green chalk for summoning circles"
 		quest.11A0593C0E2E6A35.quest_desc: [
@@ -2478,9 +2638,19 @@
 		quest.11E8B427BA24DA42.title: "Flux Core"
 		quest.11E8B427BA24DA42.quest_subtitle: "The Flux Core pays its way."
 		quest.11E8B427BA24DA42.quest_desc: ["Get the Flux Core sorted early. Load-bearing, not flashy."]
-		quest.120572510F525930.title: "Thermal Evaporation Block"
-		quest.120572510F525930.quest_subtitle: "Worth the Thermal Evaporation Block detour."
-		quest.120572510F525930.quest_desc: ["Pocket the Thermal Evaporation Block. Worth more than its tooltip says."]
+		quest.120572510F525930.title: "&2&lEvaporation Tower"
+		quest.120572510F525930.quest_subtitle: "&7Stack the blocks of an evaporation plant"
+		quest.120572510F525930.quest_desc: [
+			"&2&lEvaporation Tower"
+			"&8&m                            "
+			""
+			"&7The tower is built from Thermal Evaporation Blocks with a"
+			"&7Controller on top and Valves to move fluids in and out."
+			""
+			"&2&lCategory:&r &fStructures"
+			""
+			"&e&l★ Tip:&r &7A taller tower evaporates faster, raise it as high as you can."
+		]
 		quest.1208040BB5A54A78.title: "King Spider"
 		quest.1208040BB5A54A78.quest_subtitle: "Snag the King Spider this run."
 		quest.1208040BB5A54A78.quest_desc: ["Mark the King Spider done. Trust the chain."]
@@ -2924,18 +3094,38 @@
 		quest.162CB5058493E2BF.title: "Carminite Golem"
 		quest.162CB5058493E2BF.quest_subtitle: "Snag the Carminite Golem this run."
 		quest.162CB5058493E2BF.quest_desc: ["Cross off the Carminite Golem. Press on."]
-		quest.162CE44400A63575.title: "Metallurgic Infuser"
-		quest.162CE44400A63575.quest_subtitle: "A deliberate step toward the Metallurgic Infuser."
-		quest.162CE44400A63575.quest_desc: ["Cross the Metallurgic Infuser off. One brick in a larger wall."]
+		quest.162CE44400A63575.title: "&b&lMetallurgic Infuser"
+		quest.162CE44400A63575.quest_subtitle: "&7Infuse metals into new materials"
+		quest.162CE44400A63575.quest_desc: [
+			"&b&lMetallurgic Infuser"
+			"&8&m                            "
+			""
+			"&7The Metallurgic Infuser drives an infusing material into"
+			"&7an item, the way you make steel, alloys and enriched ores."
+			""
+			"&b&lCategory:&r &fMachines"
+			""
+			"&e&l★ Tip:&r &7It is the first machine of Mekanism. Build it before all else."
+		]
 		quest.164FCDB100A13305.title: "Advanced Jukebox Upgrade"
 		quest.164FCDB100A13305.quest_subtitle: "Tiny step: the Advanced Jukebox Upgrade."
 		quest.164FCDB100A13305.quest_desc: ["The Advanced Jukebox Upgrade is gating the next quest. Quiet capital."]
 		quest.16524DC7A36FA0FE.title: "Blockchain Goblin"
 		quest.16524DC7A36FA0FE.quest_subtitle: "Tiny step: the Blockchain Goblin."
 		quest.16524DC7A36FA0FE.quest_desc: ["Earn the Blockchain Goblin. Worth more than the tooltip says. Worth the detour."]
-		quest.166971866A9234C7.title: "Alloy Infused"
-		quest.166971866A9234C7.quest_subtitle: "Earn the Alloy Infused, the watchful way."
-		quest.166971866A9234C7.quest_desc: ["Earn the Alloy Infused step by step. The chapter pivots around it."]
+		quest.166971866A9234C7.title: "&e&lInfused Alloy"
+		quest.166971866A9234C7.quest_subtitle: "&7The first alloy of Mekanism"
+		quest.166971866A9234C7.quest_desc: [
+			"&e&lInfused Alloy"
+			"&8&m                            "
+			""
+			"&7Infuse iron with redstone in the Metallurgic Infuser to"
+			"&7make Infused Alloy, the first of three crafting alloys."
+			""
+			"&e&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7Keep a steady supply, advanced recipes burn through it fast."
+		]
 		quest.166CE4243896A0CD.title: "&b&lGem Cutting Table"
 		quest.166CE4243896A0CD.quest_subtitle: "&7Refine your raw gems"
 		quest.166CE4243896A0CD.quest_desc: [
@@ -3066,9 +3256,19 @@
 		quest.1794FC7503686B9A.title: "Basic To Iron Tier Upgrade"
 		quest.1794FC7503686B9A.quest_subtitle: "Bookmark the Basic To Iron Tier Upgrade."
 		quest.1794FC7503686B9A.quest_desc: ["Pull the Basic To Iron Tier Upgrade from where it hides. Calm focus beats rushing."]
-		quest.1796E08BBDC09B84.title: "Dynamic Tank"
-		quest.1796E08BBDC09B84.quest_subtitle: "On the route to the Dynamic Tank."
-		quest.1796E08BBDC09B84.quest_desc: ["Score the Dynamic Tank. Bridges what you did with what is next."]
+		quest.1796E08BBDC09B84.title: "&2&lDynamic Tank"
+		quest.1796E08BBDC09B84.quest_subtitle: "&7A storage tank you size yourself"
+		quest.1796E08BBDC09B84.quest_desc: [
+			"&2&lDynamic Tank"
+			"&8&m                            "
+			""
+			"&7Dynamic Tank blocks and valves build a hollow box of any"
+			"&7size, storing huge amounts of one fluid or chemical."
+			""
+			"&2&lCategory:&r &fStructures"
+			""
+			"&e&l★ Tip:&r &7Bigger walls mean bigger storage. Add glass to see the level."
+		]
 		quest.17A58548FCEA4705.title: "Drowned"
 		quest.17A58548FCEA4705.quest_subtitle: "One Drowned, one thrifty win."
 		quest.17A58548FCEA4705.quest_desc: ["Add the Drowned to your run-log. Patient runs win."]
@@ -3138,9 +3338,19 @@
 			""
 			"&e&l★ Tip:&r &7Stronger shelves enable stronger enchantments. Mix shelf types freely."
 		]
-		quest.18783C62009934DB.title: "Electrolytic Separator"
-		quest.18783C62009934DB.quest_subtitle: "Snag the Electrolytic Separator this run."
-		quest.18783C62009934DB.quest_desc: ["The Electrolytic Separator marks a checkpoint. Bookkeeping matters."]
+		quest.18783C62009934DB.title: "&a&lElectrolytic Separator"
+		quest.18783C62009934DB.quest_subtitle: "&7Split a chemical into two"
+		quest.18783C62009934DB.quest_desc: [
+			"&a&lElectrolytic Separator"
+			"&8&m                            "
+			""
+			"&7The Electrolytic Separator runs power through a chemical to"
+			"&7split it, water into hydrogen and oxygen, brine into more."
+			""
+			"&a&lCategory:&r &fChemistry"
+			""
+			"&e&l★ Tip:&r &7It is the source of nearly every gas your factory will use."
+		]
 		quest.187BCCB05835468E.title: "Pinch Beetle"
 		quest.187BCCB05835468E.quest_subtitle: "One Pinch Beetle, one still win."
 		quest.187BCCB05835468E.quest_desc: ["Mark the Pinch Beetle done. Steady is fast."]
@@ -3220,12 +3430,32 @@
 			""
 			"&e&l★ Tip:&r &7Stronger shelves enable stronger enchantments. Mix shelf types freely."
 		]
-		quest.1922623A26E08078.title: "Chemical Tank"
-		quest.1922623A26E08078.quest_subtitle: "Earn the Chemical Tank."
-		quest.1922623A26E08078.quest_desc: ["Obtain the Chemical Tank. Quietly important for what comes next."]
-		quest.19341B01E048ACAB.title: "Redstone"
-		quest.19341B01E048ACAB.quest_subtitle: "The Redstone unlocks more."
-		quest.19341B01E048ACAB.quest_desc: ["Snag the Redstone on the way. Worth pinning."]
+		quest.1922623A26E08078.title: "&5&lChemical Tanks"
+		quest.1922623A26E08078.quest_subtitle: "&7Hold gases and chemicals in bulk"
+		quest.1922623A26E08078.quest_desc: [
+			"&5&lChemical Tanks"
+			"&8&m                            "
+			""
+			"&7Chemical Tanks store gases, slurries and other chemicals."
+			"&7Basic up to ultimate, each tier holds far more than the last."
+			""
+			"&5&lCategory:&r &fStorage"
+			""
+			"&e&l★ Tip:&r &7A buffer tank keeps a chemistry line steady through every surge."
+		]
+		quest.19341B01E048ACAB.title: "&6&lBasic Circuits and Redstone"
+		quest.19341B01E048ACAB.quest_subtitle: "&7Stockpile circuits and their core"
+		quest.19341B01E048ACAB.quest_desc: [
+			"&6&lBasic Circuits and Redstone"
+			"&8&m                            "
+			""
+			"&7Redstone is the heart of a Basic Control Circuit. Gather"
+			"&7both in bulk so machine crafting never stalls."
+			""
+			"&6&lCategory:&r &fControl Circuits"
+			""
+			"&e&l★ Tip:&r &7A deep redstone supply keeps your whole factory growing."
+		]
 		quest.19466B596F444A4A.title: "Foliaath"
 		quest.19466B596F444A4A.quest_subtitle: "Add one Foliaath."
 		quest.19466B596F444A4A.quest_desc: ["Earn the Foliaath by playing the long game. A seed for the snowball."]
@@ -3242,9 +3472,19 @@
 			""
 			"&e&l★ Tip:&r &7Wear a full matching set to maximise that school spell power."
 		]
-		quest.195729280394ABFB.title: "Osmium Compressor"
-		quest.195729280394ABFB.quest_subtitle: "Earn the Osmium Compressor, the tidy way."
-		quest.195729280394ABFB.quest_desc: ["Pick up the Osmium Compressor. Modular progress, small steps."]
+		quest.195729280394ABFB.title: "&b&lOsmium Compressor"
+		quest.195729280394ABFB.quest_subtitle: "&7Compress dust into refined ingots"
+		quest.195729280394ABFB.quest_desc: [
+			"&b&lOsmium Compressor"
+			"&8&m                            "
+			""
+			"&7The Osmium Compressor presses osmium onto enriched dusts"
+			"&7to finish glowstone, refined obsidian and other ingots."
+			""
+			"&b&lCategory:&r &fMachines"
+			""
+			"&e&l★ Tip:&r &7It is the final step for several high-tier materials."
+		]
 		quest.195C0250F4DAEC43.title: "Helmet Crab"
 		quest.195C0250F4DAEC43.quest_subtitle: "Bookmark the Helmet Crab."
 		quest.195C0250F4DAEC43.quest_desc: ["Acquire the Helmet Crab. The chain holds."]
@@ -3382,9 +3622,19 @@
 		quest.1A88DC22B451462D.title: "Magma Cube"
 		quest.1A88DC22B451462D.quest_subtitle: "Tiny step: the Magma Cube."
 		quest.1A88DC22B451462D.quest_desc: ["The Magma Cube is part of the chain. The route teaches as much as the prize."]
-		quest.1ABD22AA58E093A6.title: "Ultimate Control Circuit"
-		quest.1ABD22AA58E093A6.quest_subtitle: "resolute run, single Ultimate Control Circuit."
-		quest.1ABD22AA58E093A6.quest_desc: ["Wrap up the Ultimate Control Circuit task. Press on."]
+		quest.1ABD22AA58E093A6.title: "&6&lUltimate Circuitry"
+		quest.1ABD22AA58E093A6.quest_subtitle: "&7Circuits and Atomic Alloy"
+		quest.1ABD22AA58E093A6.quest_desc: [
+			"&6&lUltimate Circuitry"
+			"&8&m                            "
+			""
+			"&7Ultimate Control Circuits sit on Atomic Alloy, the final"
+			"&7alloy. With these in hand the whole tech tree opens up."
+			""
+			"&6&lCategory:&r &fControl Circuits"
+			""
+			"&e&l★ Tip:&r &7Atomic Alloy demands refined obsidian, the last material gate."
+		]
 		quest.1AD5E6EAE95C41A9.title: "Carminite Golem"
 		quest.1AD5E6EAE95C41A9.quest_subtitle: "The Carminite Golem: the chapter nudge."
 		quest.1AD5E6EAE95C41A9.quest_desc: ["Cross the Carminite Golem off. Pays its own freight."]
@@ -3401,9 +3651,19 @@
 			""
 			"&e&l★ Tip:&r &7A silent spawner is far less annoying in a farm beside your base."
 		]
-		quest.1AEFF93A398B8BBF.title: "Alloy Reinforced"
-		quest.1AEFF93A398B8BBF.quest_subtitle: "Build out the Alloy Reinforced chain."
-		quest.1AEFF93A398B8BBF.quest_desc: ["Pin the Alloy Reinforced to your inventory. Bookkeeping matters."]
+		quest.1AEFF93A398B8BBF.title: "&6&lElite Circuitry"
+		quest.1AEFF93A398B8BBF.quest_subtitle: "&7Circuits and Reinforced Alloy"
+		quest.1AEFF93A398B8BBF.quest_desc: [
+			"&6&lElite Circuitry"
+			"&8&m                            "
+			""
+			"&7Elite Control Circuits rest on Reinforced Alloy, infused"
+			"&7with diamond. Gather both for the tier-three machine line."
+			""
+			"&6&lCategory:&r &fControl Circuits"
+			""
+			"&e&l★ Tip:&r &7Diamonds become the bottleneck here, automate them if you can."
+		]
 		quest.1B0E807A5CF04F6D.title: "Red Grape Pomace"
 		quest.1B0E807A5CF04F6D.quest_subtitle: "deliberate run, single Red Grape Pomace."
 		quest.1B0E807A5CF04F6D.quest_desc: ["Snag the Red Grape Pomace when you next pass through. Future you will thank present you."]
@@ -3788,9 +4048,19 @@
 		quest.1F6BB7A462A6AE9D.title: "Objective"
 		quest.1F6BB7A462A6AE9D.quest_subtitle: "One objective, one diligent win."
 		quest.1F6BB7A462A6AE9D.quest_desc: ["Take possession of the objective. Friendly nudge."]
-		quest.1F8B4F648EB5A0DC.title: "Personal Storage"
-		quest.1F8B4F648EB5A0DC.quest_subtitle: "The Personal Storage is a checkpoint."
-		quest.1F8B4F648EB5A0DC.quest_desc: ["Add the Personal Storage to your stockpile. You will need it soon."]
+		quest.1F8B4F648EB5A0DC.title: "&5&lPersonal Storage"
+		quest.1F8B4F648EB5A0DC.quest_subtitle: "&7Carry your chest with you"
+		quest.1F8B4F648EB5A0DC.quest_desc: [
+			"&5&lPersonal Storage"
+			"&8&m                            "
+			""
+			"&7The Personal Barrel and Personal Chest keep their contents"
+			"&7when picked up, so you can move full storage anywhere."
+			""
+			"&5&lCategory:&r &fStorage"
+			""
+			"&e&l★ Tip:&r &7Open one from your inventory, no need to place it down first."
+		]
 		quest.1F92B25D976F4A89.title: "Death Tome"
 		quest.1F92B25D976F4A89.quest_subtitle: "Tiny step: the Death Tome."
 		quest.1F92B25D976F4A89.quest_desc: ["Wrap up the Death Tome task. Worth more than its tooltip says."]
@@ -4087,9 +4357,19 @@
 		quest.21C496AD00A94E7D.title: "Snow Guardian"
 		quest.21C496AD00A94E7D.quest_subtitle: "Earn the Snow Guardian, the watchful way."
 		quest.21C496AD00A94E7D.quest_desc: ["Find the Snow Guardian. Soft milestone."]
-		quest.21D8B88155648EA6.title: "Steel Casing"
-		quest.21D8B88155648EA6.quest_subtitle: "Pocketed: the Steel Casing."
-		quest.21D8B88155648EA6.quest_desc: ["Hold onto the Steel Casing. Snowballs after this."]
+		quest.21D8B88155648EA6.title: "&e&lSteel Casing"
+		quest.21D8B88155648EA6.quest_subtitle: "&7The shell of every machine"
+		quest.21D8B88155648EA6.quest_desc: [
+			"&e&lSteel Casing"
+			"&8&m                            "
+			""
+			"&7Steel Casing wraps steel and glass into the housing that"
+			"&7almost every Mekanism machine block is built around."
+			""
+			"&e&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7Mass-produce casings. You will need one for nearly each machine."
+		]
 		quest.21DA63D0CE74492E.title: "Umvuthana"
 		quest.21DA63D0CE74492E.quest_subtitle: "Pocketed: the Umvuthana."
 		quest.21DA63D0CE74492E.quest_desc: ["Cross off the Umvuthana. You earned a pause."]
@@ -4109,9 +4389,19 @@
 		quest.21ED7D09EFE93A91.title: "Carminite Golem"
 		quest.21ED7D09EFE93A91.quest_subtitle: "On the Carminite Golem branch."
 		quest.21ED7D09EFE93A91.quest_desc: ["Bank the Carminite Golem. Pace yourself."]
-		quest.21F3379C904BFD50.title: "Resistive Heater"
-		quest.21F3379C904BFD50.quest_subtitle: "sharp prize: the Resistive Heater."
-		quest.21F3379C904BFD50.quest_desc: ["Mark the Resistive Heater done. Tiny wins stack into runs."]
+		quest.21F3379C904BFD50.title: "&c&lResistive Heater"
+		quest.21F3379C904BFD50.quest_subtitle: "&7Turn energy straight into heat"
+		quest.21F3379C904BFD50.quest_desc: [
+			"&c&lResistive Heater"
+			"&8&m                            "
+			""
+			"&7The Resistive Heater converts electrical power directly"
+			"&7into heat, a clean source for boilers and reactors."
+			""
+			"&c&lCategory:&r &fPower"
+			""
+			"&e&l★ Tip:&r &7It scales smoothly, just give it as much power as you can spare."
+		]
 		quest.2215FB0777D7029D.title: "&b&lSteadfast Spikes"
 		quest.2215FB0777D7029D.quest_subtitle: "&7Stand your ground, no knockback"
 		quest.2215FB0777D7029D.quest_desc: [
@@ -4692,9 +4982,19 @@
 		quest.2741BA9AC8FF4130.title: "Carminite Broodling"
 		quest.2741BA9AC8FF4130.quest_subtitle: "The Carminite Broodling: load-bearing."
 		quest.2741BA9AC8FF4130.quest_desc: ["Mark the Carminite Broodling in your log. One brick in a larger wall."]
-		quest.27512B0434531195.title: "Chemical Injection Chamber"
-		quest.27512B0434531195.quest_subtitle: "One Chemical Injection Chamber, one sharp win."
-		quest.27512B0434531195.quest_desc: ["Pull the Chemical Injection Chamber from where it hides. Small habit, big result."]
+		quest.27512B0434531195.title: "&a&lChemical Injection Chamber"
+		quest.27512B0434531195.quest_subtitle: "&7Inject ore for a fourfold yield"
+		quest.27512B0434531195.quest_desc: [
+			"&a&lChemical Injection Chamber"
+			"&8&m                            "
+			""
+			"&7The Chemical Injection Chamber forces hydrogen chloride into"
+			"&7ore, turning one block into four shards."
+			""
+			"&a&lCategory:&r &fChemistry"
+			""
+			"&e&l★ Tip:&r &7It is the third ore-processing tier, and it drinks gas fast."
+		]
 		quest.276C14958CD316F4.title: "Umvuthana Raptor"
 		quest.276C14958CD316F4.quest_subtitle: "spry hop: the Umvuthana Raptor."
 		quest.276C14958CD316F4.quest_desc: ["The Umvuthana Raptor is the next pivot. A small step on a long road."]
@@ -5113,9 +5413,19 @@
 			""
 			"&e&l★ Tip:&r &7This is the heart of the spell system. Build it early."
 		]
-		quest.2A793B35FE25003C.title: "Chemical Oxidizer"
-		quest.2A793B35FE25003C.quest_subtitle: "One Chemical Oxidizer, one honest win."
-		quest.2A793B35FE25003C.quest_desc: ["Mark the Chemical Oxidizer done. Bridges what you did with what is next."]
+		quest.2A793B35FE25003C.title: "&a&lChemical Oxidizer"
+		quest.2A793B35FE25003C.quest_subtitle: "&7Turn solids into a usable gas"
+		quest.2A793B35FE25003C.quest_desc: [
+			"&a&lChemical Oxidizer"
+			"&8&m                            "
+			""
+			"&7The Chemical Oxidizer converts a solid item into its gas"
+			"&7form, the way you turn salt or sulfur into a chemical."
+			""
+			"&a&lCategory:&r &fChemistry"
+			""
+			"&e&l★ Tip:&r &7It bridges the solid world into your gas pipelines."
+		]
 		quest.2A7A94C257BD73B5.title: "Blasting Upgrade"
 		quest.2A7A94C257BD73B5.quest_subtitle: "The Blasting Upgrade: load-bearing."
 		quest.2A7A94C257BD73B5.quest_desc: ["Bring back the Blasting Upgrade. The route teaches as much as the prize."]
@@ -5412,9 +5722,19 @@
 		quest.2D1982EC1E9ACC77.title: "Wraith"
 		quest.2D1982EC1E9ACC77.quest_subtitle: "Carry the Wraith forward."
 		quest.2D1982EC1E9ACC77.quest_desc: ["Bring the Wraith home. Calm focus beats rushing."]
-		quest.2D1CBCEC82F1B37D.title: "Fuelwood Heater"
-		quest.2D1CBCEC82F1B37D.quest_subtitle: "Stash the Fuelwood Heater for later."
-		quest.2D1CBCEC82F1B37D.quest_desc: ["The Fuelwood Heater is a quiet milestone. Calm focus beats rushing."]
+		quest.2D1CBCEC82F1B37D.title: "&c&lFuelwood Heater"
+		quest.2D1CBCEC82F1B37D.quest_subtitle: "&7Burn solid fuel into heat"
+		quest.2D1CBCEC82F1B37D.quest_desc: [
+			"&c&lFuelwood Heater"
+			"&8&m                            "
+			""
+			"&7The Fuelwood Heater burns coal, wood and other solid fuel"
+			"&7to produce heat for boilers and heat-driven machines."
+			""
+			"&c&lCategory:&r &fPower"
+			""
+			"&e&l★ Tip:&r &7Pipe its heat out with Thermodynamic Conductors."
+		]
 		quest.2D5E17FA2F976235.title: "Smelting Upgrade"
 		quest.2D5E17FA2F976235.quest_subtitle: "The Smelting Upgrade: the chapter nudge."
 		quest.2D5E17FA2F976235.quest_desc: ["Capture the Smelting Upgrade. Steady is fast."]
@@ -5887,9 +6207,19 @@
 			""
 			"&e&l★ Tip:&r &7Hold the blade and use the ability key to unleash its power."
 		]
-		quest.31B73D16C0199785.title: "Ingot Refined Obsidian"
-		quest.31B73D16C0199785.quest_subtitle: "Today goal: the Ingot Refined Obsidian."
-		quest.31B73D16C0199785.quest_desc: ["The Ingot Refined Obsidian: a useful checkpoint on this branch. Friendly nudge."]
+		quest.31B73D16C0199785.title: "&e&lRefined Obsidian Ingot"
+		quest.31B73D16C0199785.quest_subtitle: "&7A glowing high-tier ingot"
+		quest.31B73D16C0199785.quest_desc: [
+			"&e&lRefined Obsidian Ingot"
+			"&8&m                            "
+			""
+			"&7Refined Obsidian is a glowing ingot used in elite gear,"
+			"&7teleporters and the Atomic Alloy of late-game Mekanism."
+			""
+			"&e&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7It starts as obsidian dust, enriched and then compressed."
+		]
 		quest.31BB7EB95CE73C1A.title: "&c&lAlpha Yeti"
 		quest.31BB7EB95CE73C1A.quest_subtitle: "&7Topple the lord of the lair"
 		quest.31BB7EB95CE73C1A.quest_desc: [
@@ -6045,9 +6375,19 @@
 			""
 			"&e&l★ Tip:&r &7A train network moves cargo across thousands of blocks."
 		]
-		quest.33415CB421F7620A.title: "Purification Chamber"
-		quest.33415CB421F7620A.quest_subtitle: "Tiny step: the Purification Chamber."
-		quest.33415CB421F7620A.quest_desc: ["Mark the Purification Chamber in your log. One brick in a larger wall."]
+		quest.33415CB421F7620A.title: "&a&lPurification Chamber"
+		quest.33415CB421F7620A.quest_subtitle: "&7Triple ore with a breath of oxygen"
+		quest.33415CB421F7620A.quest_desc: [
+			"&a&lPurification Chamber"
+			"&8&m                            "
+			""
+			"&7The Purification Chamber uses oxygen gas to turn one ore"
+			"&7into three clumps, the second tier of ore processing."
+			""
+			"&a&lCategory:&r &fChemistry"
+			""
+			"&e&l★ Tip:&r &7It must be fed both power and a steady stream of oxygen."
+		]
 		quest.335357255C9398AD.title: "Hopper Upgrade"
 		quest.335357255C9398AD.quest_subtitle: "Tiny step: the Hopper Upgrade."
 		quest.335357255C9398AD.quest_desc: ["Bank the Hopper Upgrade. Steady is fast."]
@@ -6134,9 +6474,19 @@
 			""
 			"&e&l★ Tip:&r &7Wear the complete set for its strongest defense."
 		]
-		quest.33C69B5934BE4D64.title: "Mechanical Pipe"
-		quest.33C69B5934BE4D64.quest_subtitle: "On the way to the Mechanical Pipe."
-		quest.33C69B5934BE4D64.quest_desc: ["Earn the Mechanical Pipe. It carries more weight than it first seems."]
+		quest.33C69B5934BE4D64.title: "&3&lMechanical Pipes"
+		quest.33C69B5934BE4D64.quest_subtitle: "&7Pump fluids where they are needed"
+		quest.33C69B5934BE4D64.quest_desc: [
+			"&3&lMechanical Pipes"
+			"&8&m                            "
+			""
+			"&7Mechanical Pipes carry water, lava and other fluids between"
+			"&7tanks and machines. Higher tiers move more per tick."
+			""
+			"&3&lCategory:&r &fTransfer"
+			""
+			"&e&l★ Tip:&r &7Add a Pump or pressure source to keep fluids actually flowing."
+		]
 		quest.33E233E506D28389.title: "Vindicator"
 		quest.33E233E506D28389.quest_subtitle: "steady run, single Vindicator."
 		quest.33E233E506D28389.quest_desc: ["Bag the Vindicator. Trust the chain."]
@@ -6480,9 +6830,19 @@
 		quest.3751A8B4E0804D07.title: "Mosquito Swarm"
 		quest.3751A8B4E0804D07.quest_subtitle: "Modest gain: the Mosquito Swarm."
 		quest.3751A8B4E0804D07.quest_desc: ["Unlock the Mosquito Swarm. One brick in a larger wall."]
-		quest.376532CD98D39781.title: "Chemical Infuser"
-		quest.376532CD98D39781.quest_subtitle: "Build out the Chemical Infuser chain."
-		quest.376532CD98D39781.quest_desc: ["The Chemical Infuser is the next pivot. Quiet progress beats loud setbacks."]
+		quest.376532CD98D39781.title: "&a&lChemical Infuser"
+		quest.376532CD98D39781.quest_subtitle: "&7Combine two gases into one"
+		quest.376532CD98D39781.quest_desc: [
+			"&a&lChemical Infuser"
+			"&8&m                            "
+			""
+			"&7The Chemical Infuser blends two chemicals into a third,"
+			"&7the way hydrogen and chlorine become hydrogen chloride."
+			""
+			"&a&lCategory:&r &fChemistry"
+			""
+			"&e&l★ Tip:&r &7It is the mixing bench of your whole chemistry network."
+		]
 		quest.377A41499D8218C9.title: "&e&lThe Journey Begins"
 		quest.377A41499D8218C9.quest_subtitle: "&7Step into the world of loot"
 		quest.377A41499D8218C9.quest_desc: [
@@ -6842,9 +7202,19 @@
 		quest.3AE9B0C648BA7E63.title: "Zoglin"
 		quest.3AE9B0C648BA7E63.quest_subtitle: "Pocketed: the Zoglin."
 		quest.3AE9B0C648BA7E63.quest_desc: ["Stow the Zoglin. Pace yourself."]
-		quest.3AF1DC02E9A0010C.title: "Pressurized Tube"
-		quest.3AF1DC02E9A0010C.quest_subtitle: "Secure the Pressurized Tube."
-		quest.3AF1DC02E9A0010C.quest_desc: ["Get hold of the Pressurized Tube. The chapter builds directly on it."]
+		quest.3AF1DC02E9A0010C.title: "&3&lPressurized Tubes"
+		quest.3AF1DC02E9A0010C.quest_subtitle: "&7Route chemicals through your factory"
+		quest.3AF1DC02E9A0010C.quest_desc: [
+			"&3&lPressurized Tubes"
+			"&8&m                            "
+			""
+			"&7Pressurized Tubes carry gases and other chemicals between"
+			"&7chemical machines and tanks. Higher tiers carry more."
+			""
+			"&3&lCategory:&r &fTransfer"
+			""
+			"&e&l★ Tip:&r &7Keep chemical lines separate from fluid pipes to avoid mix-ups."
+		]
 		quest.3B3BD39BA02DCA13.title: "&c&lPocket Piston"
 		quest.3B3BD39BA02DCA13.quest_subtitle: "&7Send enemies flying"
 		quest.3B3BD39BA02DCA13.quest_desc: [
@@ -6947,9 +7317,19 @@
 			""
 			"&e&l★ Tip:&r &7Yeti armor knocks back any enemy that dares to strike you."
 		]
-		quest.3C8D9278B81BB37A.title: "Upgrade Speed"
-		quest.3C8D9278B81BB37A.quest_subtitle: "Mark the Upgrade Speed done."
-		quest.3C8D9278B81BB37A.quest_desc: ["Snag the Upgrade Speed. Closer than the map suggests."]
+		quest.3C8D9278B81BB37A.title: "&d&lSpeed Upgrade"
+		quest.3C8D9278B81BB37A.quest_subtitle: "&7Make machines run faster"
+		quest.3C8D9278B81BB37A.quest_desc: [
+			"&d&lSpeed Upgrade"
+			"&8&m                            "
+			""
+			"&7Slot a Speed Upgrade into a machine to make it process"
+			"&7items quicker, at the cost of more energy drawn."
+			""
+			"&d&lCategory:&r &fUpgrades"
+			""
+			"&e&l★ Tip:&r &7Stack up to eight per machine, but feed it enough power."
+		]
 		quest.3C965473D9E94669.title: "Fire Beetle"
 		quest.3C965473D9E94669.quest_subtitle: "Today goal: the Fire Beetle."
 		quest.3C965473D9E94669.quest_desc: ["Bag the Fire Beetle. Calm focus beats rushing."]
@@ -7761,9 +8141,19 @@
 			""
 			"&e&l★ Tip:&r &7The top-tier knowledge block. Build it once you reach the End."
 		]
-		quest.4274E777FB60BA28.title: "Chargepad"
-		quest.4274E777FB60BA28.quest_subtitle: "Bookmark the Chargepad."
-		quest.4274E777FB60BA28.quest_desc: ["Hold onto the Chargepad. The chapter pivots around it."]
+		quest.4274E777FB60BA28.title: "&c&lChargepad"
+		quest.4274E777FB60BA28.quest_subtitle: "&7Recharge gear by standing on it"
+		quest.4274E777FB60BA28.quest_desc: [
+			"&c&lChargepad"
+			"&8&m                            "
+			""
+			"&7Stand on a powered Chargepad and it tops up the energy of"
+			"&7every charged item you carry, and powered armor too."
+			""
+			"&c&lCategory:&r &fPower"
+			""
+			"&e&l★ Tip:&r &7Place one by your door so you leave home fully charged."
+		]
 		quest.429B5A81DF6C43FE.title: "&6&lNether Reagents"
 		quest.429B5A81DF6C43FE.quest_subtitle: "&7Spoils of the burning realm"
 		quest.429B5A81DF6C43FE.quest_desc: [
@@ -7982,9 +8372,19 @@
 			""
 			"&e&l★ Tip:&r &7Enchant them once you have an enchanting table for a real boost."
 		]
-		quest.445CC9AAA6F8AAB6.title: "Purification Chamber"
-		quest.445CC9AAA6F8AAB6.quest_subtitle: "The Purification Chamber is a checkpoint."
-		quest.445CC9AAA6F8AAB6.quest_desc: ["Add the Purification Chamber to your stockpile. You will need it soon."]
+		quest.445CC9AAA6F8AAB6.title: "&2&lProducing Oxygen"
+		quest.445CC9AAA6F8AAB6.quest_subtitle: "&7Split water into a usable gas"
+		quest.445CC9AAA6F8AAB6.quest_desc: [
+			"&2&lProducing Oxygen"
+			"&8&m                            "
+			""
+			"&7Pump water, run it through an Electrolytic Separator to get"
+			"&7oxygen, then feed that gas to a Purification Chamber."
+			""
+			"&2&lCategory:&r &fStructures"
+			""
+			"&e&l★ Tip:&r &7Oxygen is the gas that unlocks three-times ore processing."
+		]
 		quest.445DDA399A8848E8.title: "Snow Guardian"
 		quest.445DDA399A8848E8.quest_subtitle: "Earn the Snow Guardian, the stout way."
 		quest.445DDA399A8848E8.quest_desc: ["The Snow Guardian is the price of the next door. Bridges what you did with what is next."]
@@ -8365,9 +8765,19 @@
 			""
 			"&e&l★ Tip:&r &7The storm never stops. Stay mobile and pick your moments to strike."
 		]
-		quest.47F38E606AD3FF53.title: "Dust"
-		quest.47F38E606AD3FF53.quest_subtitle: "Secure the Dust."
-		quest.47F38E606AD3FF53.quest_desc: ["Add the Dust to your stockpile. You will need it soon."]
+		quest.47F38E606AD3FF53.title: "&e&lMineral Dusts"
+		quest.47F38E606AD3FF53.quest_subtitle: "&7Crushed metal ready to smelt"
+		quest.47F38E606AD3FF53.quest_desc: [
+			"&e&lMineral Dusts"
+			"&8&m                            "
+			""
+			"&7Crushing ores and ingots yields fine mineral dusts."
+			"&7Smelting any dust gives back a clean ingot."
+			""
+			"&e&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7Dust is the heart of every ore-doubling setup in Mekanism."
+		]
 		quest.4802231F614DA385.title: "Illusioner"
 		quest.4802231F614DA385.quest_subtitle: "Brick: the Illusioner."
 		quest.4802231F614DA385.quest_desc: ["The Illusioner is a quiet milestone. Load-bearing, not flashy."]
@@ -8430,9 +8840,19 @@
 		quest.488BCC5BB1A6318C.title: "Pump Upgrade"
 		quest.488BCC5BB1A6318C.quest_subtitle: "Carry the Pump Upgrade forward."
 		quest.488BCC5BB1A6318C.quest_desc: ["Stamp the Pump Upgrade into your dossier. A seed for the snowball."]
-		quest.488DBE69595F38F8.title: "Energized Smelter"
-		quest.488DBE69595F38F8.quest_subtitle: "The Energized Smelter: the chapter nudge."
-		quest.488DBE69595F38F8.quest_desc: ["Stamp the Energized Smelter into your dossier. Patient runs win."]
+		quest.488DBE69595F38F8.title: "&b&lEnergized Smelter"
+		quest.488DBE69595F38F8.quest_subtitle: "&7An electric furnace that never stops"
+		quest.488DBE69595F38F8.quest_desc: [
+			"&b&lEnergized Smelter"
+			"&8&m                            "
+			""
+			"&7The Energized Smelter smelts items on electrical power"
+			"&7alone, with no fuel and no waiting on a furnace."
+			""
+			"&b&lCategory:&r &fMachines"
+			""
+			"&e&l★ Tip:&r &7Feed it dust to turn your ore-doubling chain into ingots."
+		]
 		quest.4893C2C0985652FB.title: "Advanced Pump Upgrade"
 		quest.4893C2C0985652FB.quest_subtitle: "One Advanced Pump Upgrade, one resolute win."
 		quest.4893C2C0985652FB.quest_desc: ["Note the Advanced Pump Upgrade obtained. Aim for the next thing."]
@@ -8542,9 +8962,19 @@
 			""
 			"&e&l★ Tip:&r &7It reacts to the first burn, so a lava dip is far less deadly."
 		]
-		quest.4935209D870E25F2.title: "Energy Tablet"
-		quest.4935209D870E25F2.quest_subtitle: "Stash the Energy Tablet for later."
-		quest.4935209D870E25F2.quest_desc: ["Bring the Energy Tablet into the fold. A seed for the snowball."]
+		quest.4935209D870E25F2.title: "&c&lEnergy Tablet"
+		quest.4935209D870E25F2.quest_subtitle: "&7A portable cell of power"
+		quest.4935209D870E25F2.quest_desc: [
+			"&c&lEnergy Tablet"
+			"&8&m                            "
+			""
+			"&7The Energy Tablet stores energy in a hand-held form and"
+			"&7is a core part of energy cubes and many tools."
+			""
+			"&c&lCategory:&r &fPower"
+			""
+			"&e&l★ Tip:&r &7Keep a charged one on your hotbar to top up gear in the field."
+		]
 		quest.493F913E64B6A174.title: "&d&lWatcher Claymore"
 		quest.493F913E64B6A174.quest_subtitle: "&7Watcher Claymore, a unique legendary blade"
 		quest.493F913E64B6A174.quest_desc: [
@@ -8752,9 +9182,19 @@
 		quest.4B2835706B593E9A.title: "Antiprotonic Nucleosynthesizer"
 		quest.4B2835706B593E9A.quest_subtitle: "Tiny step: the Antiprotonic Nucleosynthesizer."
 		quest.4B2835706B593E9A.quest_desc: ["Pull the Antiprotonic Nucleosynthesizer into your kit. A small step on a long road."]
-		quest.4B35C01F5D0AAC58.title: "Ingot Steel"
-		quest.4B35C01F5D0AAC58.quest_subtitle: "bright prize: the Ingot Steel."
-		quest.4B35C01F5D0AAC58.quest_desc: ["Bank the Ingot Steel. Bridges what you did with what is next."]
+		quest.4B35C01F5D0AAC58.title: "&e&lSteel Ingot"
+		quest.4B35C01F5D0AAC58.quest_subtitle: "&7Tough metal for sturdy machines"
+		quest.4B35C01F5D0AAC58.quest_desc: [
+			"&e&lSteel Ingot"
+			"&8&m                            "
+			""
+			"&7Steel is made by enriching iron into Enriched Iron, then"
+			"&7infusing it with carbon. It frames the heavier machines."
+			""
+			"&e&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7Both steps need the Metallurgic Infuser. Build that first."
+		]
 		quest.4B47FFBF60C1B476.title: "Paintbrush"
 		quest.4B47FFBF60C1B476.quest_subtitle: "The Paintbrush pays its way."
 		quest.4B47FFBF60C1B476.quest_desc: ["Add the Paintbrush to your stockpile. Saved for later use."]
@@ -9190,9 +9630,19 @@
 			""
 			"&e&l★ Tip:&r &7A radius of 1 claims a 3x3 square (9 chunks). Watch your claim limit before going big."
 		]
-		quest.4EDD96EB60EF5814.title: "Advanced Solar Generator"
-		quest.4EDD96EB60EF5814.quest_subtitle: "The Advanced Solar Generator pays its way."
-		quest.4EDD96EB60EF5814.quest_desc: ["Earn the Advanced Solar Generator the hard way. Snowballs after this."]
+		quest.4EDD96EB60EF5814.title: "&c&lAdvanced Solar Generator"
+		quest.4EDD96EB60EF5814.quest_subtitle: "&7A bigger harvest of sunlight"
+		quest.4EDD96EB60EF5814.quest_desc: [
+			"&c&lAdvanced Solar Generator"
+			"&8&m                            "
+			""
+			"&7The Advanced Solar Generator is a tall solar tower that"
+			"&7gathers far more energy than a basic panel."
+			""
+			"&c&lCategory:&r &fPower"
+			""
+			"&e&l★ Tip:&r &7It needs more materials, but one replaces a whole solar row."
+		]
 		quest.4F0B6E280CC55AE9.title: "Zombified Piglin"
 		quest.4F0B6E280CC55AE9.quest_subtitle: "alert prize: the Zombified Piglin."
 		quest.4F0B6E280CC55AE9.quest_desc: ["Lock in the Zombified Piglin. Pace yourself."]
@@ -9491,9 +9941,19 @@
 			""
 			"&e&l★ Tip:&r &7Inscribe glyphs at the Scribes Table. Mix forms, effects and augments."
 		]
-		quest.515A60B89ED5440D.title: "Upgrade Stone Generator"
-		quest.515A60B89ED5440D.quest_subtitle: "Tiny step: the Upgrade Stone Generator."
-		quest.515A60B89ED5440D.quest_desc: ["Bring the Upgrade Stone Generator along. Aim for the next thing."]
+		quest.515A60B89ED5440D.title: "&d&lStone Generator Upgrade"
+		quest.515A60B89ED5440D.quest_subtitle: "&7Turn a machine into a stone source"
+		quest.515A60B89ED5440D.quest_desc: [
+			"&d&lStone Generator Upgrade"
+			"&8&m                            "
+			""
+			"&7A Stone Generator Upgrade lets a machine quietly produce"
+			"&7stone over time as it runs."
+			""
+			"&d&lCategory:&r &fUpgrades"
+			""
+			"&e&l★ Tip:&r &7Handy on a quarry or any build that always wants more stone."
+		]
 		quest.516644A9126D961D.title: "Gargantuan Flux Storage"
 		quest.516644A9126D961D.quest_subtitle: "Add one Gargantuan Flux Storage."
 		quest.516644A9126D961D.quest_desc: ["Unlock the Gargantuan Flux Storage. Closer than the map suggests."]
@@ -9932,9 +10392,19 @@
 		quest.566009F7405F47F9.title: "Mist Wolf"
 		quest.566009F7405F47F9.quest_subtitle: "Pocketed: the Mist Wolf."
 		quest.566009F7405F47F9.quest_desc: ["Stockpile the Mist Wolf. Future you will thank present you."]
-		quest.566C1DBA9829E328.title: "Combiner"
-		quest.566C1DBA9829E328.quest_subtitle: "Pocketed: the Combiner."
-		quest.566C1DBA9829E328.quest_desc: ["Note the Combiner acquired. Worth pinning."]
+		quest.566C1DBA9829E328.title: "&b&lCombiner"
+		quest.566C1DBA9829E328.quest_subtitle: "&7Rebuild ores from dust"
+		quest.566C1DBA9829E328.quest_desc: [
+			"&b&lCombiner"
+			"&8&m                            "
+			""
+			"&7The Combiner presses dust back into ore blocks using"
+			"&7cobblestone, the reverse of crushing."
+			""
+			"&b&lCategory:&r &fMachines"
+			""
+			"&e&l★ Tip:&r &7It pairs with Fortune mining to stretch a dust supply further."
+		]
 		quest.56ABC259177E4C53.title: "Mosquito Swarm"
 		quest.56ABC259177E4C53.quest_subtitle: "On the Mosquito Swarm branch."
 		quest.56ABC259177E4C53.quest_desc: ["Lock in the Mosquito Swarm. Friendly nudge."]
@@ -10128,9 +10598,19 @@
 		quest.58B04228A59E40B7.title: "Vex"
 		quest.58B04228A59E40B7.quest_subtitle: "One Vex, one thrifty win."
 		quest.58B04228A59E40B7.quest_desc: ["Snag the Vex when you next pass through. Press on."]
-		quest.58B125BD4876054C.title: "Iron Ingot"
-		quest.58B125BD4876054C.quest_subtitle: "Modest gain: the Iron Ingot."
-		quest.58B125BD4876054C.quest_desc: ["Reserve the Iron Ingot. Worth pinning."]
+		quest.58B125BD4876054C.title: "&e&lIron Ingots"
+		quest.58B125BD4876054C.quest_subtitle: "&7The metal that starts it all"
+		quest.58B125BD4876054C.quest_desc: [
+			"&e&lIron Ingots"
+			"&8&m                            "
+			""
+			"&7Mekanism is built on metal. Smelt up a stock of iron"
+			"&7ingots, the base of your first machines and alloys."
+			""
+			"&e&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7A reliable iron supply makes the whole chapter smoother."
+		]
 		quest.58BD1063A19777DC.title: "&d&lMagic Beans"
 		quest.58BD1063A19777DC.quest_subtitle: "&7Grow a stalk to the clouds"
 		quest.58BD1063A19777DC.quest_desc: [
@@ -10376,9 +10856,19 @@
 		quest.5B18676A77CD6069.title: "Qio Drive Array"
 		quest.5B18676A77CD6069.quest_subtitle: "Earn the Qio Drive Array, the even way."
 		quest.5B18676A77CD6069.quest_desc: ["The Qio Drive Array is on the menu. Steady is fast."]
-		quest.5B556192F060F3F1.title: "Dust Refined Obsidian"
-		quest.5B556192F060F3F1.quest_subtitle: "Carry the Dust Refined Obsidian forward."
-		quest.5B556192F060F3F1.quest_desc: ["Pull the Dust Refined Obsidian from where it hides. One more rung climbed."]
+		quest.5B556192F060F3F1.title: "&e&lRefined Obsidian Dust"
+		quest.5B556192F060F3F1.quest_subtitle: "&7The dust before the ingot"
+		quest.5B556192F060F3F1.quest_desc: [
+			"&e&lRefined Obsidian Dust"
+			"&8&m                            "
+			""
+			"&7Enrich obsidian in the Enrichment Chamber to get Refined"
+			"&7Obsidian Dust, the step before the glowing ingot."
+			""
+			"&e&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7Compress the dust in an Osmium Compressor to finish the ingot."
+		]
 		quest.5B7691798717BA45.title: "&6&lMekanism"
 		quest.5B7691798717BA45.quest_subtitle: "&7Ore processing and nuclear power"
 		quest.5B7691798717BA45.quest_desc: [
@@ -10587,9 +11077,19 @@
 		quest.5E0BB5A531384827.title: "Winter Wolf"
 		quest.5E0BB5A531384827.quest_subtitle: "Pocketed: the Winter Wolf."
 		quest.5E0BB5A531384827.quest_desc: ["Track down the Winter Wolf. Worth the detour."]
-		quest.5E116409DC7D30BB.title: "Configurator"
-		quest.5E116409DC7D30BB.quest_subtitle: "deliberate run, single Configurator."
-		quest.5E116409DC7D30BB.quest_desc: ["Unlock the Configurator. Quiet capital."]
+		quest.5E116409DC7D30BB.title: "&9&lConfigurator"
+		quest.5E116409DC7D30BB.quest_subtitle: "&7Wrench, tune and rotate machines"
+		quest.5E116409DC7D30BB.quest_desc: [
+			"&9&lConfigurator"
+			"&8&m                            "
+			""
+			"&7The Configurator sets which side of a machine takes input"
+			"&7or output, rotates blocks, and picks them up to move them."
+			""
+			"&9&lCategory:&r &fTools"
+			""
+			"&e&l★ Tip:&r &7Cycle its modes with a key. It is the wrench of Mekanism."
+		]
 		quest.5E200EB9A1374816.title: "Zombie"
 		quest.5E200EB9A1374816.quest_subtitle: "Earn it: the Zombie."
 		quest.5E200EB9A1374816.quest_desc: ["Earn the Zombie. Worth more than the tooltip says. Calm focus beats rushing."]
@@ -10922,18 +11422,38 @@
 			""
 			"&e&l★ Tip:&r &7A full iron set is the safe baseline before any boss fight."
 		]
-		quest.602A6CF9D5B66AD3.title: "Chemical Crystallizer"
-		quest.602A6CF9D5B66AD3.quest_subtitle: "Pocketed: the Chemical Crystallizer."
-		quest.602A6CF9D5B66AD3.quest_desc: ["Stamp the Chemical Crystallizer into your dossier. Bridges what you did with what is next."]
+		quest.602A6CF9D5B66AD3.title: "&a&lChemical Crystallizer"
+		quest.602A6CF9D5B66AD3.quest_subtitle: "&7Crystallize slurry into pure crystals"
+		quest.602A6CF9D5B66AD3.quest_desc: [
+			"&a&lChemical Crystallizer"
+			"&8&m                            "
+			""
+			"&7The Chemical Crystallizer dries clean mineral slurry into"
+			"&7solid crystals, the final form before crushing and smelting."
+			""
+			"&a&lCategory:&r &fChemistry"
+			""
+			"&e&l★ Tip:&r &7It closes the five-times chain that began at dissolution."
+		]
 		quest.602DFC02A4BC5890.title: "Rose"
 		quest.602DFC02A4BC5890.quest_subtitle: "The Rose is a checkpoint."
 		quest.602DFC02A4BC5890.quest_desc: ["Earn the Rose step by step. Load-bearing, not flashy."]
 		quest.603296C0650B7DA9.title: "Watermill"
 		quest.603296C0650B7DA9.quest_subtitle: "Mark the Watermill done."
 		quest.603296C0650B7DA9.quest_desc: ["Acquire the Watermill. Snowballs after this."]
-		quest.603BEDD49070ECAD.title: "Rotary Condensentrator"
-		quest.603BEDD49070ECAD.quest_subtitle: "Tiny step: the Rotary Condensentrator."
-		quest.603BEDD49070ECAD.quest_desc: ["Get hands on the Rotary Condensentrator. One brick in a larger wall."]
+		quest.603BEDD49070ECAD.title: "&a&lRotary Condensentrator"
+		quest.603BEDD49070ECAD.quest_subtitle: "&7Switch a chemical between gas and fluid"
+		quest.603BEDD49070ECAD.quest_desc: [
+			"&a&lRotary Condensentrator"
+			"&8&m                            "
+			""
+			"&7The Rotary Condensentrator condenses a gas into a fluid or"
+			"&7evaporates a fluid back into a gas, on command."
+			""
+			"&a&lCategory:&r &fChemistry"
+			""
+			"&e&l★ Tip:&r &7It links your gas pipes to your fluid pipes and tanks."
+		]
 		quest.6046CA1F6AFE2AEA.title: "&e&lBlood Staff"
 		quest.6046CA1F6AFE2AEA.quest_subtitle: "&7Cast at the cost of life"
 		quest.6046CA1F6AFE2AEA.quest_desc: [
@@ -11001,15 +11521,35 @@
 		quest.60AD6605C9EDA6B3.title: "Harbinger Cube"
 		quest.60AD6605C9EDA6B3.quest_subtitle: "On the route to the Harbinger Cube."
 		quest.60AD6605C9EDA6B3.quest_desc: ["Add the Harbinger Cube to your run. The route teaches as much as the prize."]
-		quest.60B52705049D1BA5.title: "Chemical Washer"
-		quest.60B52705049D1BA5.quest_subtitle: "The Chemical Washer is a checkpoint."
-		quest.60B52705049D1BA5.quest_desc: ["Acquire the Chemical Washer. Worth more than its tooltip says."]
+		quest.60B52705049D1BA5.title: "&a&lChemical Washer"
+		quest.60B52705049D1BA5.quest_subtitle: "&7Wash dirty slurry clean"
+		quest.60B52705049D1BA5.quest_desc: [
+			"&a&lChemical Washer"
+			"&8&m                            "
+			""
+			"&7The Chemical Washer rinses dirty mineral slurry with water"
+			"&7into clean slurry, a key step of five-times ore processing."
+			""
+			"&a&lCategory:&r &fChemistry"
+			""
+			"&e&l★ Tip:&r &7Place it between the dissolution chamber and the crystallizer."
+		]
 		quest.60BD4C0B9B308ABF.title: "Umvuthana Mask Rage"
 		quest.60BD4C0B9B308ABF.quest_subtitle: "Add one Umvuthana Mask Rage."
 		quest.60BD4C0B9B308ABF.quest_desc: ["Snag the Umvuthana Mask Rage on the way. Bridges what you did with what is next."]
-		quest.60ECCCAB66AAC05D.title: "Logistical Transporter"
-		quest.60ECCCAB66AAC05D.quest_subtitle: "The Logistical Transporter: quietly essential."
-		quest.60ECCCAB66AAC05D.quest_desc: ["Add the Logistical Transporter to your stockpile. You will need it soon."]
+		quest.60ECCCAB66AAC05D.title: "&3&lLogistical Transporters"
+		quest.60ECCCAB66AAC05D.quest_subtitle: "&7Sort and route items by themselves"
+		quest.60ECCCAB66AAC05D.quest_desc: [
+			"&3&lLogistical Transporters"
+			"&8&m                            "
+			""
+			"&7Logistical Transporters move items between chests and"
+			"&7machines, and with filters they sort cargo automatically."
+			""
+			"&3&lCategory:&r &fTransfer"
+			""
+			"&e&l★ Tip:&r &7Diversion and sorter variants build a full hands-free network."
+		]
 		quest.60FAD8BF235E381B.title: "&a&lRare Ink"
 		quest.60FAD8BF235E381B.quest_subtitle: "&7Ink for inscribing spells"
 		quest.60FAD8BF235E381B.quest_desc: [
@@ -11139,15 +11679,35 @@
 			""
 			"&e&l★ Tip:&r &7More health buys more time to react. Never take it off."
 		]
-		quest.6263A27182B2CE3D.title: "Advanced Control Circuit"
-		quest.6263A27182B2CE3D.quest_subtitle: "A focused step toward the Advanced Control Circuit."
-		quest.6263A27182B2CE3D.quest_desc: ["Wrap the Advanced Control Circuit up. Saved for later use."]
+		quest.6263A27182B2CE3D.title: "&6&lAdvanced Control Circuit"
+		quest.6263A27182B2CE3D.quest_subtitle: "&7A smarter circuit for tier two"
+		quest.6263A27182B2CE3D.quest_desc: [
+			"&6&lAdvanced Control Circuit"
+			"&8&m                            "
+			""
+			"&7The Advanced Control Circuit is built on Infused Alloy."
+			"&7Tier-two machines and upgrades all demand it."
+			""
+			"&6&lCategory:&r &fControl Circuits"
+			""
+			"&e&l★ Tip:&r &7You need Infused Alloy first, so keep that line running."
+		]
 		quest.627183A00A9C4063.title: "Elder Guardian"
 		quest.627183A00A9C4063.quest_subtitle: "Mark the Elder Guardian done."
 		quest.627183A00A9C4063.quest_desc: ["The Elder Guardian is part of the chain. Counts."]
-		quest.62827AA1AD29A222.title: "Universal Cable"
-		quest.62827AA1AD29A222.quest_subtitle: "Earn the Universal Cable."
-		quest.62827AA1AD29A222.quest_desc: ["Craft or gather the Universal Cable. Another piece of the puzzle."]
+		quest.62827AA1AD29A222.title: "&3&lUniversal Cables"
+		quest.62827AA1AD29A222.quest_subtitle: "&7Carry energy across your base"
+		quest.62827AA1AD29A222.quest_desc: [
+			"&3&lUniversal Cables"
+			"&8&m                            "
+			""
+			"&7Universal Cables move energy between generators, cubes and"
+			"&7machines. Higher tiers push far more power per tick."
+			""
+			"&3&lCategory:&r &fTransfer"
+			""
+			"&e&l★ Tip:&r &7Match cable tier to your load so nothing throttles your network."
+		]
 		quest.629EC6DC52584170.title: "Evoker"
 		quest.629EC6DC52584170.quest_subtitle: "Quiet milestone with the Evoker."
 		quest.629EC6DC52584170.quest_desc: ["Bring home the Evoker. The chain holds."]
@@ -11591,9 +12151,19 @@
 		quest.66A1BA0AD8BB4A3C.title: "Lower Goblin Knight"
 		quest.66A1BA0AD8BB4A3C.quest_subtitle: "Carry the Lower Goblin Knight forward."
 		quest.66A1BA0AD8BB4A3C.quest_desc: ["Stash the Lower Goblin Knight somewhere safe. Pays its own freight."]
-		quest.66A450CAC07232E1.title: "Thermodynamic Conductor"
-		quest.66A450CAC07232E1.quest_subtitle: "On the way to the Thermodynamic Conductor."
-		quest.66A450CAC07232E1.quest_desc: ["Obtain the Thermodynamic Conductor. Quietly important for what comes next."]
+		quest.66A450CAC07232E1.title: "&3&lThermodynamic Conductors"
+		quest.66A450CAC07232E1.quest_subtitle: "&7Carry heat between machines"
+		quest.66A450CAC07232E1.quest_desc: [
+			"&3&lThermodynamic Conductors"
+			"&8&m                            "
+			""
+			"&7Thermodynamic Conductors move heat from heaters to boilers"
+			"&7and other heat-hungry machines without losing it to the air."
+			""
+			"&3&lCategory:&r &fTransfer"
+			""
+			"&e&l★ Tip:&r &7Insulated tiers waste less heat over long runs."
+		]
 		quest.66A9CC09149F4DB6.title: "Roving Cube"
 		quest.66A9CC09149F4DB6.quest_subtitle: "modest hop: the Roving Cube."
 		quest.66A9CC09149F4DB6.quest_desc: ["Get the Roving Cube. Small habit, big result."]
@@ -11762,9 +12332,19 @@
 			""
 			"&e&l★ Tip:&r &7Match the ink rarity to the rarity of the spell you inscribe."
 		]
-		quest.67E7A9A65B14C933.title: "Crusher"
-		quest.67E7A9A65B14C933.quest_subtitle: "The Crusher unlocks more."
-		quest.67E7A9A65B14C933.quest_desc: ["Bring the Crusher into your inventory. Steady progress pays off."]
+		quest.67E7A9A65B14C933.title: "&2&lThe Doubling Factory"
+		quest.67E7A9A65B14C933.quest_subtitle: "&7Crush, enrich and smelt as one line"
+		quest.67E7A9A65B14C933.quest_desc: [
+			"&2&lThe Doubling Factory"
+			"&8&m                            "
+			""
+			"&7Add a Crusher to the doubling line. Crusher, Enrichment"
+			"&7Chamber and Energized Smelter form a full closed loop."
+			""
+			"&2&lCategory:&r &fStructures"
+			""
+			"&e&l★ Tip:&r &7The crusher turns ingots back to dust so nothing is lost."
+		]
 		quest.67E97C93F0C146DD.title: "Iron Golem"
 		quest.67E97C93F0C146DD.quest_subtitle: "One Iron Golem, one stout win."
 		quest.67E97C93F0C146DD.quest_desc: ["Earn the Iron Golem. Listed early for a reason."]
@@ -12261,9 +12841,19 @@
 		quest.6B7E13AB3BF2C5C8.title: "Boiler Casing"
 		quest.6B7E13AB3BF2C5C8.quest_subtitle: "Earn it: the Boiler Casing."
 		quest.6B7E13AB3BF2C5C8.quest_desc: ["Add the Boiler Casing to your run-log. The shortcut is not here."]
-		quest.6B8040401B512E50.title: "Chemical Dissolution Chamber"
-		quest.6B8040401B512E50.quest_subtitle: "Mark the Chemical Dissolution Chamber done."
-		quest.6B8040401B512E50.quest_desc: ["Earn the Chemical Dissolution Chamber step by step. Small habit, big result."]
+		quest.6B8040401B512E50.title: "&a&lChemical Dissolution Chamber"
+		quest.6B8040401B512E50.quest_subtitle: "&7Dissolve ore into mineral slurry"
+		quest.6B8040401B512E50.quest_desc: [
+			"&a&lChemical Dissolution Chamber"
+			"&8&m                            "
+			""
+			"&7The Chemical Dissolution Chamber bathes ore in sulfuric acid"
+			"&7to dissolve it into dirty mineral slurry."
+			""
+			"&a&lCategory:&r &fChemistry"
+			""
+			"&e&l★ Tip:&r &7It opens the five-times ore chain, the richest yield in Mekanism."
+		]
 		quest.6B8B1D5E650D5409.title: "&e&lOnion Ring"
 		quest.6B8B1D5E650D5409.quest_subtitle: "&7A quick meal sharpens your tools"
 		quest.6B8B1D5E650D5409.quest_desc: [
@@ -12370,9 +12960,19 @@
 		quest.6CCE920735187234.title: "Turbine Casing"
 		quest.6CCE920735187234.quest_subtitle: "One Turbine Casing, one patient win."
 		quest.6CCE920735187234.quest_desc: ["Bank the Turbine Casing. Next door is in sight."]
-		quest.6CD1720B76F47806.title: "Bio Generator"
-		quest.6CD1720B76F47806.quest_subtitle: "The Bio Generator: the chapter nudge."
-		quest.6CD1720B76F47806.quest_desc: ["Bank the Bio Generator. Worth more than its tooltip says."]
+		quest.6CD1720B76F47806.title: "&c&lBio-Generator"
+		quest.6CD1720B76F47806.quest_subtitle: "&7Burn renewable bio fuel"
+		quest.6CD1720B76F47806.quest_desc: [
+			"&c&lBio-Generator"
+			"&8&m                            "
+			""
+			"&7The Bio-Generator turns Bio Fuel into energy. As long as"
+			"&7crops grow, the fuel and the power never run dry."
+			""
+			"&c&lCategory:&r &fPower"
+			""
+			"&e&l★ Tip:&r &7Feed it from an automated farm and Crusher for endless energy."
+		]
 		quest.6CE2F3286AE73CF3.title: "Blasting Upgrade"
 		quest.6CE2F3286AE73CF3.quest_subtitle: "Today goal: the Blasting Upgrade."
 		quest.6CE2F3286AE73CF3.quest_desc: ["Bring the Blasting Upgrade into the fold. Modular progress, small steps."]
@@ -12508,9 +13108,19 @@
 		quest.6DBB41C965E77655.title: "Kobold"
 		quest.6DBB41C965E77655.quest_subtitle: "Earn it: the Kobold."
 		quest.6DBB41C965E77655.quest_desc: ["Find a way to the Kobold. One more rung climbed."]
-		quest.6DC1E08D019FD543.title: "Electric Pump"
-		quest.6DC1E08D019FD543.quest_subtitle: "The Electric Pump pays its way."
-		quest.6DC1E08D019FD543.quest_desc: ["The Electric Pump marks a checkpoint. The route teaches as much as the prize."]
+		quest.6DC1E08D019FD543.title: "&2&lChlorine and Hydrogen Chloride"
+		quest.6DC1E08D019FD543.quest_subtitle: "&7The full four-times gas chain"
+		quest.6DC1E08D019FD543.quest_desc: [
+			"&2&lChlorine and Hydrogen Chloride"
+			"&8&m                            "
+			""
+			"&7Evaporate brine and separate it for chlorine, split water"
+			"&7for hydrogen, then infuse the two into hydrogen chloride."
+			""
+			"&2&lCategory:&r &fStructures"
+			""
+			"&e&l★ Tip:&r &7This complete chain keeps the Injection Chamber fed nonstop."
+		]
 		quest.6DD6ED721A564558.title: "Silverfish"
 		quest.6DD6ED721A564558.quest_subtitle: "Brick: the Silverfish."
 		quest.6DD6ED721A564558.quest_desc: ["Pick up the Silverfish on your way through. Saved for later use."]
@@ -12691,9 +13301,19 @@
 			""
 			"&e&l★ Tip:&r &7Keep a deep stack. Staves, scrolls and tools all need them."
 		]
-		quest.6F62B5510FA881CD.title: "Ingot Osmium"
-		quest.6F62B5510FA881CD.quest_subtitle: "On the Ingot Osmium branch."
-		quest.6F62B5510FA881CD.quest_desc: ["Add the Ingot Osmium. One more rung climbed."]
+		quest.6F62B5510FA881CD.title: "&e&lOsmium Ingot"
+		quest.6F62B5510FA881CD.quest_subtitle: "&7The signature metal of Mekanism"
+		quest.6F62B5510FA881CD.quest_desc: [
+			"&e&lOsmium Ingot"
+			"&8&m                            "
+			""
+			"&7Osmium is mined as ore and smelted into ingots. It runs"
+			"&7through almost every Mekanism recipe you will meet."
+			""
+			"&e&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7Find osmium ore at most depths. Mine it on every cave trip."
+		]
 		quest.6F67079A453DAABE.title: "&b&lCharm of Life I"
 		quest.6F67079A453DAABE.quest_subtitle: "&7A second chance at life"
 		quest.6F67079A453DAABE.quest_desc: [
@@ -12984,9 +13604,19 @@
 		quest.7177653B736AB10E.title: "Chemical Infuser"
 		quest.7177653B736AB10E.quest_subtitle: "Quiet milestone with the Chemical Infuser."
 		quest.7177653B736AB10E.quest_desc: ["Wrap up the Chemical Infuser. Bookkeeping matters."]
-		quest.71869B1D81D6A7EF.title: "Pressurized Reaction Chamber"
-		quest.71869B1D81D6A7EF.quest_subtitle: "Quiet milestone with the Pressurized Reaction Chamber."
-		quest.71869B1D81D6A7EF.quest_desc: ["The Pressurized Reaction Chamber: small object, real progress. Bookkeeping matters."]
+		quest.71869B1D81D6A7EF.title: "&a&lPressurized Reaction Chamber"
+		quest.71869B1D81D6A7EF.quest_subtitle: "&7React item, fluid and gas at once"
+		quest.71869B1D81D6A7EF.quest_desc: [
+			"&a&lPressurized Reaction Chamber"
+			"&8&m                            "
+			""
+			"&7The Pressurized Reaction Chamber combines a solid, a fluid"
+			"&7and a gas in one recipe, the way substrate and HDPE are made."
+			""
+			"&a&lCategory:&r &fChemistry"
+			""
+			"&e&l★ Tip:&r &7It is the only machine that takes all three inputs together."
+		]
 		quest.7188DC06A28AE30E.title: "&e&lGolden Hook"
 		quest.7188DC06A28AE30E.quest_subtitle: "&7Reap more XP from every kill"
 		quest.7188DC06A28AE30E.quest_desc: [
@@ -13028,9 +13658,19 @@
 			""
 			"&e&l★ Tip:&r &7Place one as a public departure hub. It comes in sixteen colors."
 		]
-		quest.71CF9E59F8F0B4A6.title: "Elite Control Circuit"
-		quest.71CF9E59F8F0B4A6.quest_subtitle: "A steady step toward the Elite Control Circuit."
-		quest.71CF9E59F8F0B4A6.quest_desc: ["Carry the Elite Control Circuit forward. A small step on a long road."]
+		quest.71CF9E59F8F0B4A6.title: "&6&lElite Control Circuit"
+		quest.71CF9E59F8F0B4A6.quest_subtitle: "&7The circuit of tier three"
+		quest.71CF9E59F8F0B4A6.quest_desc: [
+			"&6&lElite Control Circuit"
+			"&8&m                            "
+			""
+			"&7The Elite Control Circuit is built on Reinforced Alloy."
+			"&7Tier-three machines and upgrades cannot be made without it."
+			""
+			"&6&lCategory:&r &fControl Circuits"
+			""
+			"&e&l★ Tip:&r &7Reinforced Alloy needs diamonds, so plan your supply ahead."
+		]
 		quest.71D0A34796964D74.title: "Cave Spider"
 		quest.71D0A34796964D74.quest_subtitle: "Tiny step: the Cave Spider."
 		quest.71D0A34796964D74.quest_desc: ["The Cave Spider: load-bearing, not loud. Press on."]
@@ -13321,9 +13961,19 @@
 			""
 			"&e&l★ Tip:&r &7Special books drop from mobs or hide in loot. Stay watchful."
 		]
-		quest.73E6878553BA6908.title: "Bin"
-		quest.73E6878553BA6908.quest_subtitle: "The Bin is a checkpoint."
-		quest.73E6878553BA6908.quest_desc: ["Claim the Bin. One more rung climbed on this branch."]
+		quest.73E6878553BA6908.title: "&5&lBins"
+		quest.73E6878553BA6908.quest_subtitle: "&7Compact storage for one item type"
+		quest.73E6878553BA6908.quest_desc: [
+			"&5&lBins"
+			"&8&m                            "
+			""
+			"&7A Bin holds a vast stack of a single item. Basic up to"
+			"&7ultimate, each tier swallows far more than the last."
+			""
+			"&5&lCategory:&r &fStorage"
+			""
+			"&e&l★ Tip:&r &7Insert and pull with hoppers to build a bulk item warehouse."
+		]
 		quest.73FA10FDFA2EBDE1.title: "Armored Giant"
 		quest.73FA10FDFA2EBDE1.quest_subtitle: "Brick: the Armored Giant."
 		quest.73FA10FDFA2EBDE1.quest_desc: ["The Armored Giant pays for itself. One brick in a larger wall."]
@@ -13366,9 +14016,19 @@
 			""
 			"&e&l★ Tip:&r &7Make the impure chalk first, then purify it with a clean brush."
 		]
-		quest.74200A48498DD7F8.title: "Solar Generator"
-		quest.74200A48498DD7F8.quest_subtitle: "The Solar Generator: the chapter nudge."
-		quest.74200A48498DD7F8.quest_desc: ["Note the Solar Generator acquired. Useful sooner than you think."]
+		quest.74200A48498DD7F8.title: "&c&lSolar Generator"
+		quest.74200A48498DD7F8.quest_subtitle: "&7Free power from the daytime sky"
+		quest.74200A48498DD7F8.quest_desc: [
+			"&c&lSolar Generator"
+			"&8&m                            "
+			""
+			"&7The Solar Generator makes a steady trickle of energy"
+			"&7whenever it sits under open daylight."
+			""
+			"&c&lCategory:&r &fPower"
+			""
+			"&e&l★ Tip:&r &7It is your cleanest early power. Build a row of them on a roof."
+		]
 		quest.7446AF70EF7FB42D.title: "Objective"
 		quest.7446AF70EF7FB42D.quest_subtitle: "Worth the tile detour."
 		quest.7446AF70EF7FB42D.quest_desc: ["Wrap up the tile task. Halfway done with you."]
@@ -13394,9 +14054,19 @@
 			""
 			"&e&l★ Tip:&r &7Rituals are one-shot. Gather the source they need beforehand."
 		]
-		quest.7485BCBE366501DF.title: "Electric Pump"
-		quest.7485BCBE366501DF.quest_subtitle: "Modest gain: the Electric Pump."
-		quest.7485BCBE366501DF.quest_desc: ["Stash the Electric Pump somewhere safe. Next door is in sight."]
+		quest.7485BCBE366501DF.title: "&2&lThermal Evaporation Plant"
+		quest.7485BCBE366501DF.quest_subtitle: "&7Boil brine into precious chemicals"
+		quest.7485BCBE366501DF.quest_desc: [
+			"&2&lThermal Evaporation Plant"
+			"&8&m                            "
+			""
+			"&7The Thermal Evaporation tower heats pumped water into brine"
+			"&7and then lithium. A separator can split brine further."
+			""
+			"&2&lCategory:&r &fStructures"
+			""
+			"&e&l★ Tip:&r &7Build it tall and in a hot, dry biome for the fastest output."
+		]
 		quest.749F6BDD06134739.title: "Skeleton Druid"
 		quest.749F6BDD06134739.quest_subtitle: "Bookmark the Skeleton Druid."
 		quest.749F6BDD06134739.quest_desc: ["Add the Skeleton Druid to your dossier. Next door is in sight."]
@@ -13475,9 +14145,19 @@
 		quest.75D207AFE9994E4B.title: "Giant Miner"
 		quest.75D207AFE9994E4B.quest_subtitle: "The Giant Miner is a checkpoint."
 		quest.75D207AFE9994E4B.quest_desc: ["Wrap up the Giant Miner task. Snowballs after this."]
-		quest.75E4751F7A802A44.title: "Chemical Oxidizer"
-		quest.75E4751F7A802A44.quest_subtitle: "The Chemical Oxidizer: the chapter nudge."
-		quest.75E4751F7A802A44.quest_desc: ["Get the Chemical Oxidizer sorted early. Soft milestone."]
+		quest.75E4751F7A802A44.title: "&2&lSulfuric Acid Line"
+		quest.75E4751F7A802A44.quest_subtitle: "&7Brew the acid of the five-times chain"
+		quest.75E4751F7A802A44.quest_desc: [
+			"&2&lSulfuric Acid Line"
+			"&8&m                            "
+			""
+			"&7Oxidize sulfur into sulfur dioxide, infuse it toward sulfur"
+			"&7trioxide, and condense it into sulfuric acid."
+			""
+			"&2&lCategory:&r &fStructures"
+			""
+			"&e&l★ Tip:&r &7Sulfuric acid is the dissolving agent of five-times ore processing."
+		]
 		quest.75F99A483B5F1308.title: "Smallmouth Bass"
 		quest.75F99A483B5F1308.quest_subtitle: "The Smallmouth Bass is a checkpoint."
 		quest.75F99A483B5F1308.quest_desc: ["The Smallmouth Bass is asked of you. Worth pinning."]
@@ -13520,9 +14200,19 @@
 		quest.763420BE9AF2488F.title: "Hoglin"
 		quest.763420BE9AF2488F.quest_subtitle: "One Hoglin, one deliberate win."
 		quest.763420BE9AF2488F.quest_desc: ["Earn the Hoglin. Next door is in sight."]
-		quest.763FB27929E053BE.title: "Upgrade Filter"
-		quest.763FB27929E053BE.quest_subtitle: "ready milestone: the Upgrade Filter."
-		quest.763FB27929E053BE.quest_desc: ["Carry the Upgrade Filter forward. Saved for later use."]
+		quest.763FB27929E053BE.title: "&d&lFilter Upgrade"
+		quest.763FB27929E053BE.quest_subtitle: "&7Let a pump gather heavy water"
+		quest.763FB27929E053BE.quest_desc: [
+			"&d&lFilter Upgrade"
+			"&8&m                            "
+			""
+			"&7A Filter Upgrade in an Electric Pump lets it also draw up"
+			"&7heavy water, the special fluid that fission needs."
+			""
+			"&d&lCategory:&r &fUpgrades"
+			""
+			"&e&l★ Tip:&r &7Install it only when you need heavy water for a reactor."
+		]
 		quest.76406EFFF8CBA6B4.title: "&6&lDiamond"
 		quest.76406EFFF8CBA6B4.quest_subtitle: "&7Begin your real adventure"
 		quest.76406EFFF8CBA6B4.quest_desc: [
@@ -13669,9 +14359,19 @@
 		quest.776B1BD50B3A44A0.title: "Endermite"
 		quest.776B1BD50B3A44A0.quest_subtitle: "Modest gain: the Endermite."
 		quest.776B1BD50B3A44A0.quest_desc: ["Bring the Endermite along. You earned a pause."]
-		quest.7778937DF377C1B4.title: "Wind Generator"
-		quest.7778937DF377C1B4.quest_subtitle: "The Wind Generator: the chapter nudge."
-		quest.7778937DF377C1B4.quest_desc: ["Pull the Wind Generator into your kit. Bridges what you did with what is next."]
+		quest.7778937DF377C1B4.title: "&c&lWind Generator"
+		quest.7778937DF377C1B4.quest_subtitle: "&7Catch the power of high winds"
+		quest.7778937DF377C1B4.quest_desc: [
+			"&c&lWind Generator"
+			"&8&m                            "
+			""
+			"&7The Wind Generator spins for energy, and the higher you"
+			"&7place it the stronger and steadier its output grows."
+			""
+			"&c&lCategory:&r &fPower"
+			""
+			"&e&l★ Tip:&r &7Mount it on a tall tower far above your base for the best yield."
+		]
 		quest.777BFC0A71AC37AC.title: "Carminite Broodling"
 		quest.777BFC0A71AC37AC.quest_subtitle: "A Carminite Broodling for the road."
 		quest.777BFC0A71AC37AC.quest_desc: ["Find a way to the Carminite Broodling. Aim for the next thing."]
@@ -13711,9 +14411,19 @@
 			""
 			"&e&l★ Tip:&r &7Place it where long falls happen to soften your landings."
 		]
-		quest.77FB313845779AED.title: "Chemical Infuser"
-		quest.77FB313845779AED.quest_subtitle: "Add one Chemical Infuser."
-		quest.77FB313845779AED.quest_desc: ["Pull the Chemical Infuser into your kit. Modest now, mighty later."]
+		quest.77FB313845779AED.title: "&2&lThe Dissolution Chain"
+		quest.77FB313845779AED.quest_subtitle: "&7Process ore five times over"
+		quest.77FB313845779AED.quest_desc: [
+			"&2&lThe Dissolution Chain"
+			"&8&m                            "
+			""
+			"&7The dissolution chamber, washer and crystallizer dissolve"
+			"&7ore into slurry, clean it and crystallize it back into crystals."
+			""
+			"&2&lCategory:&r &fStructures"
+			""
+			"&e&l★ Tip:&r &7This chemical chain is the five-times peak of ore processing."
+		]
 		quest.7824E63A26F6D70E.title: "16384k Item Storage Part"
 		quest.7824E63A26F6D70E.quest_subtitle: "stout run, single 16384k Item Storage Part."
 		quest.7824E63A26F6D70E.quest_desc: ["Mark the 16384k Item Storage Part done. Aim for the next thing."]
@@ -13879,9 +14589,19 @@
 			""
 			"&e&l★ Tip:&r &7Wear the complete set for its strongest defense."
 		]
-		quest.78DD2A3DFF6D1613.title: "Hdpe Pellet"
-		quest.78DD2A3DFF6D1613.quest_subtitle: "The Hdpe Pellet is a checkpoint."
-		quest.78DD2A3DFF6D1613.quest_desc: ["Snag the Hdpe Pellet. Pays its own freight."]
+		quest.78DD2A3DFF6D1613.title: "&e&lHDPE Pellets"
+		quest.78DD2A3DFF6D1613.quest_subtitle: "&7The plastic of Mekanism"
+		quest.78DD2A3DFF6D1613.quest_desc: [
+			"&e&lHDPE Pellets"
+			"&8&m                            "
+			""
+			"&7HDPE Pellets are made from substrate and oxygen in the"
+			"&7Pressurized Reaction Chamber, then pressed into rods and sheets."
+			""
+			"&e&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7HDPE is needed for the jetpack, scuba gear and more."
+		]
 		quest.78E66F1DE42C747A.title: "&6&lEcho Shard"
 		quest.78E66F1DE42C747A.quest_subtitle: "&7A whisper of the deep dark"
 		quest.78E66F1DE42C747A.quest_desc: [
@@ -13959,9 +14679,19 @@
 		quest.792BAAEDB646A5F2.title: "Harbinger Cube"
 		quest.792BAAEDB646A5F2.quest_subtitle: "The Harbinger Cube is a checkpoint."
 		quest.792BAAEDB646A5F2.quest_desc: ["Wrap up the Harbinger Cube task. Listed early for a reason."]
-		quest.7934873E784C4B3C.title: "Purification Chamber"
-		quest.7934873E784C4B3C.quest_subtitle: "A step toward the Purification Chamber."
-		quest.7934873E784C4B3C.quest_desc: ["Add the Purification Chamber to your stockpile. You will need it soon."]
+		quest.7934873E784C4B3C.title: "&2&lThe Tripling Factory"
+		quest.7934873E784C4B3C.quest_subtitle: "&7A full chain with its own oxygen"
+		quest.7934873E784C4B3C.quest_desc: [
+			"&2&lThe Tripling Factory"
+			"&8&m                            "
+			""
+			"&7Combine the oxygen supply with the purifying line. Pump,"
+			"&7Separator, Purifier, Crusher, Enricher and Smelter run as one."
+			""
+			"&2&lCategory:&r &fStructures"
+			""
+			"&e&l★ Tip:&r &7Built right, it triples ore and feeds its own gas forever."
+		]
 		quest.7936AA168187A60A.title: "&6&lSoul Crystal"
 		quest.7936AA168187A60A.quest_subtitle: "&7Crystallized echoes of the deep"
 		quest.7936AA168187A60A.quest_desc: [
@@ -13994,9 +14724,19 @@
 			""
 			"&e&l★ Tip:&r &7Best in a cryomancer build. Pair it with the ice rune."
 		]
-		quest.7952DA35B4F5C598.title: "Fluid Tank"
-		quest.7952DA35B4F5C598.quest_subtitle: "Earn the Fluid Tank."
-		quest.7952DA35B4F5C598.quest_desc: ["Add the Fluid Tank to your stockpile. You will need it soon."]
+		quest.7952DA35B4F5C598.title: "&5&lFluid Tanks"
+		quest.7952DA35B4F5C598.quest_subtitle: "&7Store water, lava and more"
+		quest.7952DA35B4F5C598.quest_desc: [
+			"&5&lFluid Tanks"
+			"&8&m                            "
+			""
+			"&7Fluid Tanks hold large volumes of any liquid. Basic up to"
+			"&7ultimate, each tier stores far more than the one before."
+			""
+			"&5&lCategory:&r &fStorage"
+			""
+			"&e&l★ Tip:&r &7They can also fill and empty buckets right in your hand."
+		]
 		quest.7963005FB1904234.title: "Foliaath"
 		quest.7963005FB1904234.quest_subtitle: "The Foliaath: load-bearing."
 		quest.7963005FB1904234.quest_desc: ["The Foliaath is a quiet milestone. Bridges what you did with what is next."]
@@ -14151,18 +14891,38 @@
 			""
 			"&e&l★ Tip:&r &7Inscribe glyphs at the Scribes Table. Mix forms, effects and augments."
 		]
-		quest.7AE502EDB73BD57A.title: "Crusher"
-		quest.7AE502EDB73BD57A.quest_subtitle: "The Crusher unlocks more."
-		quest.7AE502EDB73BD57A.quest_desc: ["Stamp the Crusher into your dossier. Quiet progress beats loud setbacks."]
+		quest.7AE502EDB73BD57A.title: "&b&lCrusher"
+		quest.7AE502EDB73BD57A.quest_subtitle: "&7Crush ingots and blocks into dust"
+		quest.7AE502EDB73BD57A.quest_desc: [
+			"&b&lCrusher"
+			"&8&m                            "
+			""
+			"&7The Crusher grinds ingots into dust, blocks into items"
+			"&7and plant matter into Bio Fuel."
+			""
+			"&b&lCategory:&r &fMachines"
+			""
+			"&e&l★ Tip:&r &7Crusher plus Enrichment Chamber forms your full ore-doubling loop."
+		]
 		quest.7B06882A42014F7F.title: "Umvuthana"
 		quest.7B06882A42014F7F.quest_subtitle: "Modest gain: the Umvuthana."
 		quest.7B06882A42014F7F.quest_desc: ["Stow the Umvuthana. Worth pinning."]
 		quest.7B0764DDE94E73D0.title: "Fission Reactor Logic Adapter"
 		quest.7B0764DDE94E73D0.quest_subtitle: "Snag the Fission Reactor Logic Adapter this run."
 		quest.7B0764DDE94E73D0.quest_desc: ["Score the Fission Reactor Logic Adapter. The chain holds."]
-		quest.7B0DFA55B4D8B16D.title: "Teleporter Frame"
-		quest.7B0DFA55B4D8B16D.quest_subtitle: "thrifty prize: the Teleporter Frame."
-		quest.7B0DFA55B4D8B16D.quest_desc: ["Mark the Teleporter Frame in your log. Listed early for a reason."]
+		quest.7B0DFA55B4D8B16D.title: "&2&lTeleporter"
+		quest.7B0DFA55B4D8B16D.quest_subtitle: "&7Step across the world in an instant"
+		quest.7B0DFA55B4D8B16D.quest_desc: [
+			"&2&lTeleporter"
+			"&8&m                            "
+			""
+			"&7Ring a Teleporter with nine Teleporter Frames, power it and"
+			"&7link it to another. Step in to cross any distance at once."
+			""
+			"&2&lCategory:&r &fStructures"
+			""
+			"&e&l★ Tip:&r &7Both ends need power and a matching frequency to connect."
+		]
 		quest.7B1847A6E9E47F37.title: "Snow Guardian"
 		quest.7B1847A6E9E47F37.quest_subtitle: "The Snow Guardian is a checkpoint."
 		quest.7B1847A6E9E47F37.quest_desc: ["Add one Snow Guardian to your supplies. Press on."]
@@ -14243,9 +15003,19 @@
 		quest.7C58444D0E63CA01.title: "Industrial Gears"
 		quest.7C58444D0E63CA01.quest_subtitle: "Today goal: the Industrial Gears."
 		quest.7C58444D0E63CA01.quest_desc: ["Add one Industrial Gears to your supplies. The chapter pivots around it."]
-		quest.7C687DCF71D77761.title: "Alloy Infused"
-		quest.7C687DCF71D77761.quest_subtitle: "Mark the Alloy Infused done."
-		quest.7C687DCF71D77761.quest_desc: ["Cross off the Alloy Infused. Aim for the next thing."]
+		quest.7C687DCF71D77761.title: "&6&lAdvanced Circuitry"
+		quest.7C687DCF71D77761.quest_subtitle: "&7Circuits and the alloy behind them"
+		quest.7C687DCF71D77761.quest_desc: [
+			"&6&lAdvanced Circuitry"
+			"&8&m                            "
+			""
+			"&7Advanced Control Circuits ride on Infused Alloy. Stock"
+			"&7both so tier-two builds never wait on a missing part."
+			""
+			"&6&lCategory:&r &fControl Circuits"
+			""
+			"&e&l★ Tip:&r &7Automate Infused Alloy and the circuits follow almost free."
+		]
 		quest.7C758209D06ED0E3.title: "&b&lGlowing Hellshelf"
 		quest.7C758209D06ED0E3.quest_subtitle: "&7The Glowing Hellshelf, an enchanting shelf"
 		quest.7C758209D06ED0E3.quest_desc: [
@@ -14504,9 +15274,19 @@
 			""
 			"&e&l★ Tip:&r &7Resonarium ore glows faintly. Watch the walls as you explore."
 		]
-		quest.7ECA0633AF1AEC19.title: "Precision Sawmill"
-		quest.7ECA0633AF1AEC19.quest_subtitle: "Build out the Precision Sawmill chain."
-		quest.7ECA0633AF1AEC19.quest_desc: ["Lock in the Precision Sawmill. Worth pinning."]
+		quest.7ECA0633AF1AEC19.title: "&b&lPrecision Sawmill"
+		quest.7ECA0633AF1AEC19.quest_subtitle: "&7Cut wood with no waste"
+		quest.7ECA0633AF1AEC19.quest_desc: [
+			"&b&lPrecision Sawmill"
+			"&8&m                            "
+			""
+			"&7The Precision Sawmill cuts logs into more planks than a"
+			"&7crafting grid, and breaks down tools to recover materials."
+			""
+			"&b&lCategory:&r &fMachines"
+			""
+			"&e&l★ Tip:&r &7It also pulls sawdust and extra planks from wooden items."
+		]
 		quest.7ECC216BB8681483.title: "Troll"
 		quest.7ECC216BB8681483.quest_subtitle: "Worth the Troll detour."
 		quest.7ECC216BB8681483.quest_desc: ["Wrap up the Troll task. One more rung climbed."]
