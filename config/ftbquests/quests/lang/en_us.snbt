@@ -784,9 +784,19 @@
 		quest.064C0A09332DF38B.title: "Brass Funnel"
 		quest.064C0A09332DF38B.quest_subtitle: "Stash the Brass Funnel for later."
 		quest.064C0A09332DF38B.quest_desc: ["Walk away with the Brass Funnel. Load-bearing, not flashy."]
-		quest.064C54A1051A9C82.title: "Structure"
-		quest.064C54A1051A9C82.quest_subtitle: "Bookmark the Structure."
-		quest.064C54A1051A9C82.quest_desc: ["Bring the Structure along. Calm focus beats rushing."]
+		quest.064C54A1051A9C82.title: "&3&lAncient Temple"
+		quest.064C54A1051A9C82.quest_subtitle: "&7Delve into the heart of the Otherside"
+		quest.064C54A1051A9C82.quest_desc: [
+			"&3&lAncient Temple"
+			"&8&m                            "
+			""
+			"&7Find an Ancient Temple within the Otherside, a grand"
+			"&7structure holding the dimension greatest secrets."
+			""
+			"&3&lCategory:&r &fExploration"
+			""
+			"&e&l★ Tip:&r &7Temples are well guarded. Come prepared for a serious fight."
+		]
 		quest.0650996C7818ADB5.title: "Heat Generator"
 		quest.0650996C7818ADB5.quest_subtitle: "earnest run, single Heat Generator."
 		quest.0650996C7818ADB5.quest_desc: ["The Heat Generator is gating the next quest. Trust the chain."]
@@ -820,9 +830,19 @@
 		quest.07084582F9562740.title: "Pigment Extractor"
 		quest.07084582F9562740.quest_subtitle: "Brick: the Pigment Extractor."
 		quest.07084582F9562740.quest_desc: ["The Pigment Extractor: load-bearing, not loud. Useful sooner than you think."]
-		quest.0710C950A0A11ED2.title: "Warden Helmet"
-		quest.0710C950A0A11ED2.quest_subtitle: "The Warden Helmet unlocks more."
-		quest.0710C950A0A11ED2.quest_desc: ["Pack the Warden Helmet away. Quiet progress beats loud setbacks."]
+		quest.0710C950A0A11ED2.title: "&b&lWarden Armor"
+		quest.0710C950A0A11ED2.quest_subtitle: "&7Wear the strength of the Warden"
+		quest.0710C950A0A11ED2.quest_desc: [
+			"&b&lWarden Armor"
+			"&8&m                            "
+			""
+			"&7Forge the full Warden armor set: helmet, chestplate,"
+			"&7leggings and boots, built from Warden carapace."
+			""
+			"&b&lCategory:&r &fEquipment"
+			""
+			"&e&l★ Tip:&r &7The toughest armor in the chapter. Worth every carapace it costs."
+		]
 		quest.07113EF8E9530D8C.title: "Flux Block"
 		quest.07113EF8E9530D8C.quest_subtitle: "Tiny step: the Flux Block."
 		quest.07113EF8E9530D8C.quest_desc: ["The Flux Block: a useful checkpoint on this branch. Worth more than its tooltip says."]
@@ -955,9 +975,19 @@
 		quest.093037B9A713E531.title: "Minotaur"
 		quest.093037B9A713E531.quest_subtitle: "A ready step toward the Minotaur."
 		quest.093037B9A713E531.quest_desc: ["Lock in the Minotaur. Tiny wins stack into runs."]
-		quest.093E0A5EA7477C24.title: "Sonic Boom Protection Charm"
-		quest.093E0A5EA7477C24.quest_subtitle: "Snag the Sonic Boom Protection Charm this run."
-		quest.093E0A5EA7477C24.quest_desc: ["The Sonic Boom Protection Charm is a quiet milestone. Useful sooner than you think."]
+		quest.093E0A5EA7477C24.title: "&b&lSonic Boom Charm"
+		quest.093E0A5EA7477C24.quest_subtitle: "&7Silence the Warden roar"
+		quest.093E0A5EA7477C24.quest_desc: [
+			"&b&lSonic Boom Charm"
+			"&8&m                            "
+			""
+			"&7Craft the Sonic Boom Protection Charm. Worn as a curio,"
+			"&7it shields you from the Warden deadly sonic attack."
+			""
+			"&b&lCategory:&r &fEquipment"
+			""
+			"&e&l★ Tip:&r &7This charm can turn an unwinnable Warden fight into a fair one."
+		]
 		quest.0941952276BB3626.title: "Ocelot Fossil Body"
 		quest.0941952276BB3626.quest_subtitle: "A Ocelot Fossil Body for the road."
 		quest.0941952276BB3626.quest_desc: ["Get the Ocelot Fossil Body sorted early. Useful sooner than you think."]
@@ -1213,9 +1243,19 @@
 		quest.0E3E12E17F5EB699.title: "1048576k Item Storage Part"
 		quest.0E3E12E17F5EB699.quest_subtitle: "On the 1048576k Item Storage Part branch."
 		quest.0E3E12E17F5EB699.quest_desc: ["Earn the 1048576k Item Storage Part the hard way. Quiet capital."]
-		quest.0E402AA81DD22432.title: "Heart Of The Deep"
-		quest.0E402AA81DD22432.quest_subtitle: "One Heart Of The Deep, one spry win."
-		quest.0E402AA81DD22432.quest_desc: ["Get hands on the Heart Of The Deep. A seed for the snowball."]
+		quest.0E402AA81DD22432.title: "&6&lHeart of the Deep"
+		quest.0E402AA81DD22432.quest_subtitle: "&7The key to the Otherside"
+		quest.0E402AA81DD22432.quest_desc: [
+			"&6&lHeart of the Deep"
+			"&8&m                            "
+			""
+			"&7Obtain a Heart of the Deep. This pulsing relic powers"
+			"&7the portal that opens the way to the Otherside."
+			""
+			"&6&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7It comes from the Deep Dark. The Ancient City is the place to look."
+		]
 		quest.0E52A27C89BB4AD1.title: "Phantom"
 		quest.0E52A27C89BB4AD1.quest_subtitle: "Today goal: the Phantom."
 		quest.0E52A27C89BB4AD1.quest_desc: ["The Phantom is your next reward for steady progress. A seed for the snowball."]
@@ -1841,18 +1881,38 @@
 		quest.15EB768946D64062.title: "Giant Miner"
 		quest.15EB768946D64062.quest_subtitle: "wary run, single Giant Miner."
 		quest.15EB768946D64062.quest_desc: ["Stockpile the Giant Miner. Steady is fast."]
-		quest.15EC766C2216CC40.title: "Warden Carapace"
-		quest.15EC766C2216CC40.quest_subtitle: "Bookmark the Warden Carapace."
-		quest.15EC766C2216CC40.quest_desc: ["The Warden Carapace: load-bearing, not loud. The chain holds."]
+		quest.15EC766C2216CC40.title: "&6&lWarden Carapace"
+		quest.15EC766C2216CC40.quest_subtitle: "&7A fragment of the colossus"
+		quest.15EC766C2216CC40.quest_desc: [
+			"&6&lWarden Carapace"
+			"&8&m                            "
+			""
+			"&7Recover a Warden Carapace, a piece of the Warden own"
+			"&7armored hide."
+			""
+			"&6&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7Only the Warden yields this. You must face it to get one."
+		]
 		quest.15ECBC8E174FA39B.title: "Wireless Grid"
 		quest.15ECBC8E174FA39B.quest_subtitle: "Quiet milestone with the Wireless Grid."
 		quest.15ECBC8E174FA39B.quest_desc: ["Earn the Wireless Grid. Quiet capital."]
 		quest.15F78F6F73D54068.title: "Redcap"
 		quest.15F78F6F73D54068.quest_subtitle: "Today goal: the Redcap."
 		quest.15F78F6F73D54068.quest_desc: ["The Redcap unlocks more than it looks. The route teaches as much as the prize."]
-		quest.15FC220AE63ED2C5.title: "Advancement"
-		quest.15FC220AE63ED2C5.quest_subtitle: "Modest gain: the Advancement."
-		quest.15FC220AE63ED2C5.quest_desc: ["Lock in the Advancement. Steady is fast."]
+		quest.15FC220AE63ED2C5.title: "&3&lAncient City"
+		quest.15FC220AE63ED2C5.quest_subtitle: "&7Find the ruins in the Deep Dark"
+		quest.15FC220AE63ED2C5.quest_desc: [
+			"&3&lAncient City"
+			"&8&m                            "
+			""
+			"&7Locate an Ancient City deep underground in the Deep"
+			"&7Dark. Its silent halls hide priceless loot and the Warden."
+			""
+			"&3&lCategory:&r &fExploration"
+			""
+			"&e&l★ Tip:&r &7Carry wool to muffle your steps. The Warden hears everything."
+		]
 		quest.161477ABCC437BD2.title: "Objective"
 		quest.161477ABCC437BD2.quest_subtitle: "Earn it: the beat."
 		quest.161477ABCC437BD2.quest_desc: ["Wrap up the beat task. The chain holds."]
@@ -2638,9 +2698,19 @@
 		quest.2235C9FBE3DC2812.title: "Zoglin"
 		quest.2235C9FBE3DC2812.quest_subtitle: "The Zoglin is a checkpoint."
 		quest.2235C9FBE3DC2812.quest_desc: ["Secure the Zoglin before moving deeper. Small habit, big result."]
-		quest.22467723769C23DA.title: "Soul Dust"
-		quest.22467723769C23DA.quest_subtitle: "The Soul Dust: the chapter nudge."
-		quest.22467723769C23DA.quest_desc: ["Unlock the Soul Dust. A small step on a long road."]
+		quest.22467723769C23DA.title: "&6&lSoul Dust"
+		quest.22467723769C23DA.quest_subtitle: "&7The dust of bound souls"
+		quest.22467723769C23DA.quest_desc: [
+			"&6&lSoul Dust"
+			"&8&m                            "
+			""
+			"&7Collect soul dust, a fine crafting powder ground from"
+			"&7the remnants of the Deep Dark."
+			""
+			"&6&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7Soul dust is a staple ingredient. Keep a steady supply."
+		]
 		quest.224716A537F2FFA0.title: "Armor Tome"
 		quest.224716A537F2FFA0.quest_subtitle: "A step toward the Armor Tome."
 		quest.224716A537F2FFA0.quest_desc: ["Craft or gather the Armor Tome. Another piece of the puzzle."]
@@ -3694,9 +3764,19 @@
 		quest.34DC34EA5ED7C96D.title: "Ritual Moonfall"
 		quest.34DC34EA5ED7C96D.quest_subtitle: "Bookmark the Ritual Moonfall."
 		quest.34DC34EA5ED7C96D.quest_desc: ["Take possession of the Ritual Moonfall. Pace yourself."]
-		quest.34DF1985C8F49716.title: "Reinforced Echo Shard"
-		quest.34DF1985C8F49716.quest_subtitle: "Pocketed: the Reinforced Echo Shard."
-		quest.34DF1985C8F49716.quest_desc: ["Pick up the Reinforced Echo Shard on your way through. Small habit, big result."]
+		quest.34DF1985C8F49716.title: "&6&lReinforced Echo Shard"
+		quest.34DF1985C8F49716.quest_subtitle: "&7An echo shard, made stronger"
+		quest.34DF1985C8F49716.quest_desc: [
+			"&6&lReinforced Echo Shard"
+			"&8&m                            "
+			""
+			"&7Craft a reinforced echo shard, an upgraded version of"
+			"&7the shard found in Ancient Cities."
+			""
+			"&6&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7Reinforced shards are key to the strongest recipes here."
+		]
 		quest.34F570D49650E99C.title: "Stray"
 		quest.34F570D49650E99C.quest_subtitle: "On the Stray branch."
 		quest.34F570D49650E99C.quest_desc: ["Stockpile the Stray. Modular progress, small steps."]
@@ -3901,9 +3981,19 @@
 		quest.38E44223347DA798.title: "Glyph Place Block"
 		quest.38E44223347DA798.quest_subtitle: "Today goal: the Glyph Place Block."
 		quest.38E44223347DA798.quest_desc: ["Bank the Glyph Place Block. Modular progress, small steps."]
-		quest.38F31AD0B4DEAA71.title: "Sonorous Staff"
-		quest.38F31AD0B4DEAA71.quest_subtitle: "Bookmark the Sonorous Staff."
-		quest.38F31AD0B4DEAA71.quest_desc: ["Add the Sonorous Staff to your toolkit. Bookkeeping matters."]
+		quest.38F31AD0B4DEAA71.title: "&b&lSonorous Staff"
+		quest.38F31AD0B4DEAA71.quest_subtitle: "&7Wield the power of sound"
+		quest.38F31AD0B4DEAA71.quest_desc: [
+			"&b&lSonorous Staff"
+			"&8&m                            "
+			""
+			"&7Craft the Sonorous Staff, a weapon that strikes with"
+			"&7focused waves of sound."
+			""
+			"&b&lCategory:&r &fEquipment"
+			""
+			"&e&l★ Tip:&r &7The staff hits at range. A strong pick against packed foes."
+		]
 		quest.38F8BBD9F79D420D.title: "Snow Guardian"
 		quest.38F8BBD9F79D420D.quest_subtitle: "The Snow Guardian pays its way."
 		quest.38F8BBD9F79D420D.quest_desc: ["Get yourself the Snow Guardian. The shortcut is not here."]
@@ -3977,9 +4067,19 @@
 		quest.3A35188F910149EC.title: "Winter Wolf"
 		quest.3A35188F910149EC.quest_subtitle: "Quiet milestone with the Winter Wolf."
 		quest.3A35188F910149EC.quest_desc: ["Earn the Winter Wolf step by step. Pays its own freight."]
-		quest.3A3897CDB54D7081.title: "Sculk Transmitter"
-		quest.3A3897CDB54D7081.quest_subtitle: "Snag the Sculk Transmitter this run."
-		quest.3A3897CDB54D7081.quest_desc: ["Note the Sculk Transmitter acquired. Modular progress, small steps."]
+		quest.3A3897CDB54D7081.title: "&6&lSculk Transmitter"
+		quest.3A3897CDB54D7081.quest_subtitle: "&7Carry the sculk signal"
+		quest.3A3897CDB54D7081.quest_desc: [
+			"&6&lSculk Transmitter"
+			"&8&m                            "
+			""
+			"&7Craft a Sculk Transmitter. It relays the sculk"
+			"&7vibration signals across a distance."
+			""
+			"&6&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7Useful for sculk contraptions and silent alarm systems."
+		]
 		quest.3A3C8333F5024378.title: "Redcap"
 		quest.3A3C8333F5024378.quest_subtitle: "calm milestone: the Redcap."
 		quest.3A3C8333F5024378.quest_desc: ["Score the Redcap. Modest now, mighty later."]
@@ -4678,9 +4778,19 @@
 		quest.445DDA399A8848E8.title: "Snow Guardian"
 		quest.445DDA399A8848E8.quest_subtitle: "Earn the Snow Guardian, the stout way."
 		quest.445DDA399A8848E8.quest_desc: ["The Snow Guardian is the price of the next door. Bridges what you did with what is next."]
-		quest.446015C20770E417.title: "Resonarium Helmet"
-		quest.446015C20770E417.quest_subtitle: "thrifty milestone: the Resonarium Helmet."
-		quest.446015C20770E417.quest_desc: ["Earn the Resonarium Helmet by playing the long game. Tiny wins stack into runs."]
+		quest.446015C20770E417.title: "&b&lResonarium Armor"
+		quest.446015C20770E417.quest_subtitle: "&7Armor forged from the Otherside"
+		quest.446015C20770E417.quest_desc: [
+			"&b&lResonarium Armor"
+			"&8&m                            "
+			""
+			"&7Forge the full resonarium armor set: helmet,"
+			"&7chestplate, leggings and boots."
+			""
+			"&b&lCategory:&r &fEquipment"
+			""
+			"&e&l★ Tip:&r &7Resonarium armor is your reliable mid-tier protection here."
+		]
 		quest.448685A02F6A16FF.title: "Stable Ice Core"
 		quest.448685A02F6A16FF.quest_subtitle: "Build out the Stable Ice Core chain."
 		quest.448685A02F6A16FF.quest_desc: ["Lock in the Stable Ice Core. Modest now, mighty later."]
@@ -5268,9 +5378,19 @@
 		quest.4DA0725E089D7C91.title: "Quest Ram Trophy"
 		quest.4DA0725E089D7C91.quest_subtitle: "The Quest Ram Trophy is a checkpoint."
 		quest.4DA0725E089D7C91.quest_desc: ["Bring back the Quest Ram Trophy. Patient runs win."]
-		quest.4DC1163390A19929.title: "Resonarium Plate"
-		quest.4DC1163390A19929.quest_subtitle: "Worth the Resonarium Plate detour."
-		quest.4DC1163390A19929.quest_desc: ["Wrap the Resonarium Plate. Saved for later use."]
+		quest.4DC1163390A19929.title: "&6&lResonarium Plate"
+		quest.4DC1163390A19929.quest_subtitle: "&7Pressed and ready to forge"
+		quest.4DC1163390A19929.quest_desc: [
+			"&6&lResonarium Plate"
+			"&8&m                            "
+			""
+			"&7Press resonarium into plates. A refined component"
+			"&7needed to forge the resonarium armor set."
+			""
+			"&6&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7Plates bridge raw resonarium and the finished armor."
+		]
 		quest.4DCAD94FE7CA45FC.title: "King Spider"
 		quest.4DCAD94FE7CA45FC.quest_subtitle: "The King Spider: load-bearing."
 		quest.4DCAD94FE7CA45FC.quest_desc: ["Pin the King Spider to your inventory. Snowballs after this."]
@@ -6244,9 +6364,19 @@
 		quest.5FE507DAEE770507.title: "Iron Dust"
 		quest.5FE507DAEE770507.quest_subtitle: "A stoic step toward the Iron Dust."
 		quest.5FE507DAEE770507.quest_desc: ["Earn the Iron Dust step by step. The chapter pivots around it."]
-		quest.5FFE4ACE65F45C83.title: "Biome"
-		quest.5FFE4ACE65F45C83.quest_subtitle: "A Biome for the road."
-		quest.5FFE4ACE65F45C83.quest_desc: ["Bring the Biome home. The chain holds."]
+		quest.5FFE4ACE65F45C83.title: "&3&lOtherside Biomes"
+		quest.5FFE4ACE65F45C83.quest_subtitle: "&7Tour the four sculk regions"
+		quest.5FFE4ACE65F45C83.quest_desc: [
+			"&3&lOtherside Biomes"
+			"&8&m                            "
+			""
+			"&7Visit every Otherside biome: the deeplands, the echoing"
+			"&7forest, the overcast columns and the blooming caverns."
+			""
+			"&3&lCategory:&r &fExploration"
+			""
+			"&e&l★ Tip:&r &7Each biome has its own look and dangers. Map them as you go."
+		]
 		quest.6000000000000001.title: "&b&lAerlavender Fields"
 		quest.6000000000000001.quest_subtitle: "&7Wander the purple meadows"
 		quest.6000000000000001.quest_desc: [
@@ -6879,9 +7009,19 @@
 		quest.68E46499222940D3.title: "Phantom"
 		quest.68E46499222940D3.quest_subtitle: "Build out the Phantom chain."
 		quest.68E46499222940D3.quest_desc: ["Pack the Phantom. Quiet progress beats loud setbacks."]
-		quest.68E6A7EF458F22F0.title: "Dimension"
-		quest.68E6A7EF458F22F0.quest_subtitle: "steadfast hop: the Dimension."
-		quest.68E6A7EF458F22F0.quest_desc: ["Earn the Dimension. Bookkeeping matters."]
+		quest.68E6A7EF458F22F0.title: "&3&lThe Otherside"
+		quest.68E6A7EF458F22F0.quest_subtitle: "&7Survive the dimension of echoes"
+		quest.68E6A7EF458F22F0.quest_desc: [
+			"&3&lThe Otherside"
+			"&8&m                            "
+			""
+			"&7Explore the Otherside itself, a vast dark realm where"
+			"&7sculk covers everything and silence is your only ally."
+			""
+			"&3&lCategory:&r &fExploration"
+			""
+			"&e&l★ Tip:&r &7Light is scarce here. Bring plenty of torches and stay alert."
+		]
 		quest.68EAA68B812E82E6.title: "Gantry Carriage"
 		quest.68EAA68B812E82E6.quest_subtitle: "A Gantry Carriage for the road."
 		quest.68EAA68B812E82E6.quest_desc: ["The Gantry Carriage is on the menu. Quiet progress beats loud setbacks."]
@@ -8028,9 +8168,19 @@
 		quest.7934873E784C4B3C.title: "Purification Chamber"
 		quest.7934873E784C4B3C.quest_subtitle: "A step toward the Purification Chamber."
 		quest.7934873E784C4B3C.quest_desc: ["Add the Purification Chamber to your stockpile. You will need it soon."]
-		quest.7936AA168187A60A.title: "Soul Crystal"
-		quest.7936AA168187A60A.quest_subtitle: "Carry the Soul Crystal forward."
-		quest.7936AA168187A60A.quest_desc: ["Snag the Soul Crystal when you next pass through. Halfway done with you."]
+		quest.7936AA168187A60A.title: "&6&lSoul Crystal"
+		quest.7936AA168187A60A.quest_subtitle: "&7Crystallized echoes of the deep"
+		quest.7936AA168187A60A.quest_desc: [
+			"&6&lSoul Crystal"
+			"&8&m                            "
+			""
+			"&7Gather soul crystals, eerie gems that hum with the"
+			"&7trapped energy of the Deep Dark."
+			""
+			"&6&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7Soul crystals feed into several DeeperDarker recipes."
+		]
 		quest.793D5E982E13483F.title: "Drowned"
 		quest.793D5E982E13483F.quest_subtitle: "On the route to the Drowned."
 		quest.793D5E982E13483F.quest_desc: ["Pin the Drowned to your inventory. Modest now, mighty later."]
@@ -8064,9 +8214,19 @@
 		quest.79D1AB3F352FA3EA.title: "Objective"
 		quest.79D1AB3F352FA3EA.quest_subtitle: "Quiet milestone with the step."
 		quest.79D1AB3F352FA3EA.quest_desc: ["Take possession of the step. Pays its own freight."]
-		quest.79DF019CB23EC414.title: "Advancement"
-		quest.79DF019CB23EC414.quest_subtitle: "One Advancement, one diligent win."
-		quest.79DF019CB23EC414.quest_desc: ["Get yourself the Advancement. Calm focus beats rushing."]
+		quest.79DF019CB23EC414.title: "&3&lEnter the Otherside"
+		quest.79DF019CB23EC414.quest_subtitle: "&7Cross into the sculk dimension"
+		quest.79DF019CB23EC414.quest_desc: [
+			"&3&lEnter the Otherside"
+			"&8&m                            "
+			""
+			"&7Activate an Ancient City portal and step into the"
+			"&7Otherside, a dimension overgrown with sculk."
+			""
+			"&3&lCategory:&r &fExploration"
+			""
+			"&e&l★ Tip:&r &7You need a Heart of the Deep to open the portal. Find one first."
+		]
 		quest.79E48B654BB44301.title: "Carminite Golem"
 		quest.79E48B654BB44301.quest_subtitle: "Earn it: the Carminite Golem."
 		quest.79E48B654BB44301.quest_desc: ["Earn the Carminite Golem. Snowballs after this."]
@@ -8336,9 +8496,19 @@
 		quest.7EB191D528783976.title: "Hedge Spider"
 		quest.7EB191D528783976.quest_subtitle: "Earn the Hedge Spider, the stout way."
 		quest.7EB191D528783976.quest_desc: ["Add the Hedge Spider to your dossier. Pays its own freight."]
-		quest.7EBEC9C6E81DCD5A.title: "Resonarium"
-		quest.7EBEC9C6E81DCD5A.quest_subtitle: "Pocketed: the Resonarium."
-		quest.7EBEC9C6E81DCD5A.quest_desc: ["Get the Resonarium. Modest now, mighty later."]
+		quest.7EBEC9C6E81DCD5A.title: "&6&lResonarium"
+		quest.7EBEC9C6E81DCD5A.quest_subtitle: "&7The gem of the Otherside"
+		quest.7EBEC9C6E81DCD5A.quest_desc: [
+			"&6&lResonarium"
+			"&8&m                            "
+			""
+			"&7Mine resonarium, the signature gemstone of the"
+			"&7Otherside and the base of its mid-tier gear."
+			""
+			"&6&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7Resonarium ore glows faintly. Watch the walls as you explore."
+		]
 		quest.7ECA0633AF1AEC19.title: "Precision Sawmill"
 		quest.7ECA0633AF1AEC19.quest_subtitle: "Build out the Precision Sawmill chain."
 		quest.7ECA0633AF1AEC19.quest_desc: ["Lock in the Precision Sawmill. Worth pinning."]
