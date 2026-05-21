@@ -681,9 +681,19 @@
 		quest.017C88D938E7411D.title: "Ghast"
 		quest.017C88D938E7411D.quest_subtitle: "Mark the Ghast done."
 		quest.017C88D938E7411D.quest_desc: ["Cross the Ghast off your list. Pays its own freight."]
-		quest.019DC118E6B846FF.title: "Mold Plate"
-		quest.019DC118E6B846FF.quest_subtitle: "The Mold Plate is a checkpoint."
-		quest.019DC118E6B846FF.quest_desc: ["The Mold Plate is on the menu. Saved for later use."]
+		quest.019DC118E6B846FF.title: "&a&lPlate Mold"
+		quest.019DC118E6B846FF.quest_subtitle: "&7Stamp ingots into flat plates"
+		quest.019DC118E6B846FF.quest_desc: [
+			"&a&lPlate Mold"
+			"&8&m                            "
+			""
+			"&7The Plate Mold goes inside a Metal Press. With it, the press"
+			"&7flattens ingots into the metal plates IE recipes call for."
+			""
+			"&a&lCategory:&r &fTools"
+			""
+			"&e&l★ Tip:&r &7Plates are needed everywhere, from sheetmetal to machine parts."
+		]
 		quest.01A16753B407C7C8.title: "&c&lWater Wheels"
 		quest.01A16753B407C7C8.quest_subtitle: "&7Turn flowing water into rotation"
 		quest.01A16753B407C7C8.quest_desc: [
@@ -760,9 +770,19 @@
 			""
 			"&e&l★ Tip:&r &7These parts decide how much energy a turbine truly yields."
 		]
-		quest.02E5E8D22DF49C31.title: "Treated Wood Horizontal"
-		quest.02E5E8D22DF49C31.quest_subtitle: "The Treated Wood Horizontal unlocks more."
-		quest.02E5E8D22DF49C31.quest_desc: ["The Treated Wood Horizontal is the next pivot. Worth pinning."]
+		quest.02E5E8D22DF49C31.title: "&e&lTreated Wood"
+		quest.02E5E8D22DF49C31.quest_subtitle: "&7Weatherproof timber for industry"
+		quest.02E5E8D22DF49C31.quest_desc: [
+			"&e&lTreated Wood"
+			"&8&m                            "
+			""
+			"&7Soak planks in creosote oil to make Treated Wood, a tough"
+			"&7timber that will not rot. Nearly every IE recipe needs it."
+			""
+			"&e&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7Creosote oil drips out of the Coke Oven as a free byproduct."
+		]
 		quest.0300307C7FB9E47C.title: "Basic To Netherite Tier Upgrade"
 		quest.0300307C7FB9E47C.quest_subtitle: "On the route to the Basic To Netherite Tier Upgrade."
 		quest.0300307C7FB9E47C.quest_desc: ["Take time to obtain the Basic To Netherite Tier Upgrade. Small habit, big result."]
@@ -925,9 +945,19 @@
 		quest.043F760281444D3C.title: "Carminite Ghastguard"
 		quest.043F760281444D3C.quest_subtitle: "Snag the Carminite Ghastguard this run."
 		quest.043F760281444D3C.quest_desc: ["Earn the Carminite Ghastguard. Worth more than the tooltip says. Load-bearing, not flashy."]
-		quest.0441C8A0F8DCC3F6.title: "Windmill"
-		quest.0441C8A0F8DCC3F6.quest_subtitle: "A neat step toward the Windmill."
-		quest.0441C8A0F8DCC3F6.quest_desc: ["Reserve the Windmill. Worth pinning."]
+		quest.0441C8A0F8DCC3F6.title: "&c&lWindmill"
+		quest.0441C8A0F8DCC3F6.quest_subtitle: "&7Catch the breeze for free energy"
+		quest.0441C8A0F8DCC3F6.quest_desc: [
+			"&c&lWindmill"
+			"&8&m                            "
+			""
+			"&7A Windmill mounted on a Dynamo turns with the wind. The"
+			"&7higher you raise it, the stronger its output grows."
+			""
+			"&c&lCategory:&r &fPower"
+			""
+			"&e&l★ Tip:&r &7Open sky and great height make a windmill truly worthwhile."
+		]
 		quest.04440BB2EFFD6DD9.title: "&c&lThe Minoshroom"
 		quest.04440BB2EFFD6DD9.quest_subtitle: "&7Conquer the labyrinth guardian"
 		quest.04440BB2EFFD6DD9.quest_desc: [
@@ -958,9 +988,19 @@
 			""
 			"&e&l★ Tip:&r &7It pairs with blood and necrotic spells. A dark path of power."
 		]
-		quest.0474CE3D3813EDF7.title: "Cokebrick"
-		quest.0474CE3D3813EDF7.quest_subtitle: "Modest gain: the Cokebrick."
-		quest.0474CE3D3813EDF7.quest_desc: ["The Cokebrick pays for itself. Next door is in sight."]
+		quest.0474CE3D3813EDF7.title: "&b&lThe Coke Oven"
+		quest.0474CE3D3813EDF7.quest_subtitle: "&7Bake coal coke and tap creosote"
+		quest.0474CE3D3813EDF7.quest_desc: [
+			"&b&lThe Coke Oven"
+			"&8&m                            "
+			""
+			"&7Stack twenty-seven Coke Bricks into a cube to raise a Coke"
+			"&7Oven. It bakes coal into Coal Coke and drips Creosote Oil."
+			""
+			"&b&lCategory:&r &fFurnaces and Ovens"
+			""
+			"&e&l★ Tip:&r &7Coal coke fuels the Blast Furnace, creosote treats your wood."
+		]
 		quest.04845A8E364FDDC1.title: "Roving Cube"
 		quest.04845A8E364FDDC1.quest_subtitle: "stout prize: the Roving Cube."
 		quest.04845A8E364FDDC1.quest_desc: ["Walk away with the Roving Cube. A seed for the snowball."]
@@ -2906,9 +2946,19 @@
 		quest.13B3B15CB7744E20.title: "Harbinger Cube"
 		quest.13B3B15CB7744E20.quest_subtitle: "Snag the Harbinger Cube this run."
 		quest.13B3B15CB7744E20.quest_desc: ["Hunt down the Harbinger Cube. Quiet capital."]
-		quest.13B8CF4D8E7C71B8.title: "Blastbrick Reinforced"
-		quest.13B8CF4D8E7C71B8.quest_subtitle: "Stash the Blastbrick Reinforced for later."
-		quest.13B8CF4D8E7C71B8.quest_desc: ["Get the Blastbrick Reinforced. Useful sooner than you think."]
+		quest.13B8CF4D8E7C71B8.title: "&b&lImproved Blast Furnace"
+		quest.13B8CF4D8E7C71B8.quest_subtitle: "&7A faster, automatic steel forge"
+		quest.13B8CF4D8E7C71B8.quest_desc: [
+			"&b&lImproved Blast Furnace"
+			"&8&m                            "
+			""
+			"&7Twenty-seven Reinforced Blast Bricks and a hopper build the"
+			"&7Improved Blast Furnace, which works faster and feeds itself."
+			""
+			"&b&lCategory:&r &fFurnaces and Ovens"
+			""
+			"&e&l★ Tip:&r &7It accepts preheaters to push its steel output higher still."
+		]
 		quest.13C9EF5619D21BDC.title: "Umvuthi"
 		quest.13C9EF5619D21BDC.quest_subtitle: "Build out the Umvuthi chain."
 		quest.13C9EF5619D21BDC.quest_desc: ["Capture the Umvuthi. Friendly nudge."]
@@ -4413,9 +4463,19 @@
 			""
 			"&e&l★ Tip:&r &7Plutonium turns a reactor problem into a valuable resource."
 		]
-		quest.2009BFA881ED3447.title: "Sheetmetal Iron"
-		quest.2009BFA881ED3447.quest_subtitle: "One Sheetmetal Iron, one earnest win."
-		quest.2009BFA881ED3447.quest_desc: ["The Sheetmetal Iron is part of the chain. Counts."]
+		quest.2009BFA881ED3447.title: "&6&lThe Bottling Machine"
+		quest.2009BFA881ED3447.quest_subtitle: "&7Fill containers with any fluid"
+		quest.2009BFA881ED3447.quest_desc: [
+			"&6&lThe Bottling Machine"
+			"&8&m                            "
+			""
+			"&7Gather the light and redstone engineering blocks, conveyors,"
+			"&7fluid pumps, sheetmetal and scaffolding for the Bottling Machine."
+			""
+			"&6&lCategory:&r &fMultiblock Machines"
+			""
+			"&e&l★ Tip:&r &7Carry items across it and it fills every container from a tank."
+		]
 		quest.2037749C8F9A4F6F.title: "Vindicator"
 		quest.2037749C8F9A4F6F.quest_subtitle: "On the route to the Vindicator."
 		quest.2037749C8F9A4F6F.quest_desc: ["Get hands on the Vindicator. You earned a pause."]
@@ -4457,9 +4517,19 @@
 		quest.2097F7E1B41A47B2.title: "Slime Beetle"
 		quest.2097F7E1B41A47B2.quest_subtitle: "The Slime Beetle unlocks more."
 		quest.2097F7E1B41A47B2.quest_desc: ["Cross off the Slime Beetle. Quiet progress beats loud setbacks."]
-		quest.20990F328AED30F2.title: "Coil Lv"
-		quest.20990F328AED30F2.quest_subtitle: "The Coil Lv pays its way."
-		quest.20990F328AED30F2.quest_desc: ["The Coil Lv: another rung climbed. The shortcut is not here."]
+		quest.20990F328AED30F2.title: "&c&lLV Wire Coil"
+		quest.20990F328AED30F2.quest_subtitle: "&7Carry low-voltage power along wires"
+		quest.20990F328AED30F2.quest_desc: [
+			"&c&lLV Wire Coil"
+			"&8&m                            "
+			""
+			"&7The LV Wire Coil is copper wire strung between connectors"
+			"&7to carry low-voltage power across your base."
+			""
+			"&c&lCategory:&r &fPower"
+			""
+			"&e&l★ Tip:&r &7Mind the loss over long runs, step up to higher voltage tiers."
+		]
 		quest.20A731F245B10F88.title: "Box Turtle"
 		quest.20A731F245B10F88.quest_subtitle: "Today goal: the Box Turtle."
 		quest.20A731F245B10F88.quest_desc: ["The Box Turtle: small object, real progress. Useful sooner than you think."]
@@ -4678,9 +4748,19 @@
 		quest.233DCF799CFDA791.title: "Evoker"
 		quest.233DCF799CFDA791.quest_subtitle: "Brick: the Evoker."
 		quest.233DCF799CFDA791.quest_desc: ["Mark the Evoker obtained. A seed for the snowball."]
-		quest.23576F3FBE940739.title: "Blastbrick"
-		quest.23576F3FBE940739.quest_subtitle: "The Blastbrick unlocks more."
-		quest.23576F3FBE940739.quest_desc: ["Carry the Blastbrick forward. The chapter pivots around it."]
+		quest.23576F3FBE940739.title: "&b&lThe Blast Furnace"
+		quest.23576F3FBE940739.quest_subtitle: "&7Smelt iron into industrial steel"
+		quest.23576F3FBE940739.quest_desc: [
+			"&b&lThe Blast Furnace"
+			"&8&m                            "
+			""
+			"&7Build the Blast Furnace from twenty-seven Blast Bricks. Fed"
+			"&7iron and coal coke, it forges the Steel that IE runs on."
+			""
+			"&b&lCategory:&r &fFurnaces and Ovens"
+			""
+			"&e&l★ Tip:&r &7It also leaves Slag, a handy ingredient for concrete and more."
+		]
 		quest.235E3C386E8D36A3.title: "&b&lDeepshelf"
 		quest.235E3C386E8D36A3.quest_subtitle: "&7The Deepshelf, an enchanting shelf"
 		quest.235E3C386E8D36A3.quest_desc: [
@@ -4797,9 +4877,19 @@
 		quest.24B425A776AD4C18.title: "Redcap"
 		quest.24B425A776AD4C18.quest_subtitle: "The Redcap: the chapter nudge."
 		quest.24B425A776AD4C18.quest_desc: ["Score the Redcap. Calm focus beats rushing."]
-		quest.24B835A774FA1F72.title: "Steel Fence"
-		quest.24B835A774FA1F72.quest_subtitle: "Brick: the Steel Fence."
-		quest.24B835A774FA1F72.quest_desc: ["Get the Steel Fence into your inventory. Useful sooner than you think."]
+		quest.24B835A774FA1F72.title: "&6&lThe Squeezer"
+		quest.24B835A774FA1F72.quest_subtitle: "&7Press seeds into useful fluids"
+		quest.24B835A774FA1F72.quest_desc: [
+			"&6&lThe Squeezer"
+			"&8&m                            "
+			""
+			"&7Collect the light engineering blocks, wooden barrels, fluid"
+			"&7pipes, steel fence and piston that frame the Squeezer."
+			""
+			"&6&lCategory:&r &fMultiblock Machines"
+			""
+			"&e&l★ Tip:&r &7It crushes seeds into plant oil, the start of biodiesel."
+		]
 		quest.24B87A9A3C7C34AF.title: "Mutant Skeleton"
 		quest.24B87A9A3C7C34AF.quest_subtitle: "A Mutant Skeleton for the road."
 		quest.24B87A9A3C7C34AF.quest_desc: ["Earn the Mutant Skeleton the hard way. Aim for the next thing."]
@@ -4855,9 +4945,19 @@
 			""
 			"&e&l★ Tip:&r &7Claims are limited. Unclaim chunks you no longer use so you can protect what matters now."
 		]
-		quest.24DBCCC9F0377909.title: "Sheetmetal Steel"
-		quest.24DBCCC9F0377909.quest_subtitle: "Build out the Sheetmetal Steel chain."
-		quest.24DBCCC9F0377909.quest_desc: ["Mark the Sheetmetal Steel done. Pays its own freight."]
+		quest.24DBCCC9F0377909.title: "&6&lThe Arc Furnace"
+		quest.24DBCCC9F0377909.quest_subtitle: "&7Smelt and recycle at industrial scale"
+		quest.24DBCCC9F0377909.quest_desc: [
+			"&6&lThe Arc Furnace"
+			"&8&m                            "
+			""
+			"&7Build the Arc Furnace from heavy and light engineering"
+			"&7blocks, reinforced blast bricks, steel sheetmetal and slabs."
+			""
+			"&6&lCategory:&r &fMultiblock Machines"
+			""
+			"&e&l★ Tip:&r &7It smelts ore in bulk, forges alloys and recycles old gear."
+		]
 		quest.24FCFF18296ED907.title: "&b&lSoul Touched Sculkshelf"
 		quest.24FCFF18296ED907.quest_subtitle: "&7The Soul Touched Sculkshelf, an enchanting shelf"
 		quest.24FCFF18296ED907.quest_desc: [
@@ -5208,9 +5308,19 @@
 		quest.280BBEFAF6904531.title: "Magma Cube"
 		quest.280BBEFAF6904531.quest_subtitle: "Bookmark the Magma Cube."
 		quest.280BBEFAF6904531.quest_desc: ["The Magma Cube is the next pivot. One more rung climbed."]
-		quest.281E99039CF57672.title: "Dynamo"
-		quest.281E99039CF57672.quest_subtitle: "The Dynamo: load-bearing."
-		quest.281E99039CF57672.quest_desc: ["Bring the Dynamo home. Snowballs after this."]
+		quest.281E99039CF57672.title: "&c&lDynamo"
+		quest.281E99039CF57672.quest_subtitle: "&7Turn rotation into electricity"
+		quest.281E99039CF57672.quest_desc: [
+			"&c&lDynamo"
+			"&8&m                            "
+			""
+			"&7The Dynamo is the hub of kinetic power. Mount a Water Wheel"
+			"&7or Windmill on it and it converts the spin into LV power."
+			""
+			"&c&lCategory:&r &fPower"
+			""
+			"&e&l★ Tip:&r &7Wire its output away with an LV connector and wire coil."
+		]
 		quest.28264E03EBC7F081.title: "Naga"
 		quest.28264E03EBC7F081.quest_subtitle: "steadfast prize: the Naga."
 		quest.28264E03EBC7F081.quest_desc: ["Pin the Naga to your inventory. Soft milestone."]
@@ -5949,9 +6059,19 @@
 		quest.2E35A05ACAA717FD.title: "Umvuthana"
 		quest.2E35A05ACAA717FD.quest_subtitle: "Today goal: the Umvuthana."
 		quest.2E35A05ACAA717FD.quest_desc: ["Mark the Umvuthana in your log. One more rung climbed."]
-		quest.2E412014E2E5411C.title: "Sheetmetal Iron"
-		quest.2E412014E2E5411C.quest_subtitle: "Build out the Sheetmetal Iron chain."
-		quest.2E412014E2E5411C.quest_desc: ["The Sheetmetal Iron: a useful checkpoint on this branch. Tiny wins stack into runs."]
+		quest.2E412014E2E5411C.title: "&6&lThe Refinery"
+		quest.2E412014E2E5411C.quest_subtitle: "&7Blend fuels into biodiesel"
+		quest.2E412014E2E5411C.quest_desc: [
+			"&6&lThe Refinery"
+			"&8&m                            "
+			""
+			"&7Bring the light and redstone engineering blocks, sheetmetal,"
+			"&7fluid pipes, steel fence and scaffolding for the Refinery."
+			""
+			"&6&lCategory:&r &fMultiblock Machines"
+			""
+			"&e&l★ Tip:&r &7It mixes plant oil and ethanol into powerful biodiesel."
+		]
 		quest.2E68E1D96B25336D.title: "&f&lPink Ritual Chalk"
 		quest.2E68E1D96B25336D.quest_subtitle: "&7Pink chalk for summoning circles"
 		quest.2E68E1D96B25336D.quest_desc: [
@@ -8337,9 +8457,19 @@
 			""
 			"&e&l★ Tip:&r &7Pair it with First Line of Code, together they are your foundation."
 		]
-		quest.41F863AA255870FE.title: "Mold Rod"
-		quest.41F863AA255870FE.quest_subtitle: "Worth the Mold Rod detour."
-		quest.41F863AA255870FE.quest_desc: ["Stockpile the Mold Rod. Pace yourself."]
+		quest.41F863AA255870FE.title: "&a&lRod Mold"
+		quest.41F863AA255870FE.quest_subtitle: "&7Roll ingots into sturdy rods"
+		quest.41F863AA255870FE.quest_desc: [
+			"&a&lRod Mold"
+			"&8&m                            "
+			""
+			"&7The Rod Mold lets a Metal Press draw ingots out into rods,"
+			"&7the long sticks that brace machines and tools."
+			""
+			"&a&lCategory:&r &fTools"
+			""
+			"&e&l★ Tip:&r &7Metal rods are a quiet staple of countless IE recipes."
+		]
 		quest.420158B1736A1354.title: "&b&lCastle Doors"
 		quest.420158B1736A1354.quest_subtitle: "&7Unlock the final castle"
 		quest.420158B1736A1354.quest_desc: [
@@ -8550,9 +8680,19 @@
 			""
 			"&e&l★ Tip:&r &7Rituals are one-shot. Gather the source they need beforehand."
 		]
-		quest.437D7906276EDB05.title: "Rs Engineering"
-		quest.437D7906276EDB05.quest_subtitle: "Today goal: the Rs Engineering."
-		quest.437D7906276EDB05.quest_desc: ["Bring back the Rs Engineering. Load-bearing, not flashy."]
+		quest.437D7906276EDB05.title: "&6&lThe Metal Press"
+		quest.437D7906276EDB05.quest_subtitle: "&7Stamp ingots into precise parts"
+		quest.437D7906276EDB05.quest_desc: [
+			"&6&lThe Metal Press"
+			"&8&m                            "
+			""
+			"&7Gather the heavy and redstone engineering blocks, conveyors,"
+			"&7piston and scaffolding that build the Metal Press structure."
+			""
+			"&6&lCategory:&r &fMultiblock Machines"
+			""
+			"&e&l★ Tip:&r &7With a mold inside, it presses plates, gears, rods and wires."
+		]
 		quest.437DD22B148A43B5.title: "Phantom"
 		quest.437DD22B148A43B5.quest_subtitle: "Stash the Phantom for later."
 		quest.437DD22B148A43B5.quest_desc: ["Stockpile the Phantom. Worth the detour."]
@@ -9613,9 +9753,19 @@
 		quest.4BCC14615DA7CA1D.title: "Advanced Filter Upgrade"
 		quest.4BCC14615DA7CA1D.quest_subtitle: "Carry the Advanced Filter Upgrade forward."
 		quest.4BCC14615DA7CA1D.quest_desc: ["Bring the Advanced Filter Upgrade along. Worth the detour."]
-		quest.4BDC9837B41FC2BC.title: "Mold Gear"
-		quest.4BDC9837B41FC2BC.quest_subtitle: "Earn the Mold Gear, the calm way."
-		quest.4BDC9837B41FC2BC.quest_desc: ["Track down the Mold Gear. Aim for the next thing."]
+		quest.4BDC9837B41FC2BC.title: "&a&lGear Mold"
+		quest.4BDC9837B41FC2BC.quest_subtitle: "&7Press ingots into toothed gears"
+		quest.4BDC9837B41FC2BC.quest_desc: [
+			"&a&lGear Mold"
+			"&8&m                            "
+			""
+			"&7The Gear Mold lets a Metal Press shape ingots into gears,"
+			"&7the toothed wheels that drive heavier machinery."
+			""
+			"&a&lCategory:&r &fTools"
+			""
+			"&e&l★ Tip:&r &7Gears feed the engineering blocks and many machine recipes."
+		]
 		quest.4BE4FC1FE9F64583.title: "Towerwood Borer"
 		quest.4BE4FC1FE9F64583.quest_subtitle: "Bookmark the Towerwood Borer."
 		quest.4BE4FC1FE9F64583.quest_desc: ["Hold onto the Towerwood Borer. The route teaches as much as the prize."]
@@ -9798,9 +9948,19 @@
 		quest.4D4035E39518631D.title: "Giant Miner"
 		quest.4D4035E39518631D.quest_subtitle: "Snag the Giant Miner this run."
 		quest.4D4035E39518631D.quest_desc: ["Bring the Giant Miner into the fold. Quiet progress beats loud setbacks."]
-		quest.4D466EDB3E597904.title: "Sheetmetal Iron"
-		quest.4D466EDB3E597904.quest_subtitle: "Build out the Sheetmetal Iron chain."
-		quest.4D466EDB3E597904.quest_desc: ["Bring the Sheetmetal Iron into the fold. Bridges what you did with what is next."]
+		quest.4D466EDB3E597904.title: "&6&lThe Diesel Generator"
+		quest.4D466EDB3E597904.quest_subtitle: "&7Burn biodiesel for serious power"
+		quest.4D466EDB3E597904.quest_desc: [
+			"&6&lThe Diesel Generator"
+			"&8&m                            "
+			""
+			"&7Collect the heavy and light engineering blocks, sheetmetal,"
+			"&7fluid pipes and scaffolding that build the Diesel Generator."
+			""
+			"&6&lCategory:&r &fMultiblock Machines"
+			""
+			"&e&l★ Tip:&r &7Feed it biodiesel and it pours out a strong, steady current."
+		]
 		quest.4D48E646C1C14EE8.title: "Naga"
 		quest.4D48E646C1C14EE8.quest_subtitle: "patient hop: the Naga."
 		quest.4D48E646C1C14EE8.quest_desc: ["Mark the Naga done. Patient runs win."]
@@ -10064,9 +10224,19 @@
 			""
 			"&e&l★ Tip:&r &7Each totem is rare loot. Torrent and Souls are held, the others placed."
 		]
-		quest.4F507A3545BE5FEA.title: "Sheetmetal Iron"
-		quest.4F507A3545BE5FEA.quest_subtitle: "Worth the Sheetmetal Iron detour."
-		quest.4F507A3545BE5FEA.quest_desc: ["Score one Sheetmetal Iron. One more rung climbed."]
+		quest.4F507A3545BE5FEA.title: "&6&lThe Fermenter"
+		quest.4F507A3545BE5FEA.quest_subtitle: "&7Ferment crops into ethanol"
+		quest.4F507A3545BE5FEA.quest_desc: [
+			"&6&lThe Fermenter"
+			"&8&m                            "
+			""
+			"&7Gather the light and redstone engineering blocks, cauldrons,"
+			"&7sheetmetal, fluid pipes and scaffolding for the Fermenter."
+			""
+			"&6&lCategory:&r &fMultiblock Machines"
+			""
+			"&e&l★ Tip:&r &7It turns plant matter into ethanol, the other half of biodiesel."
+		]
 		quest.4F5FCEBB16B5B6F5.title: "&d&lWither Glyph"
 		quest.4F5FCEBB16B5B6F5.quest_subtitle: "&7The Wither Glyph, a word of magic"
 		quest.4F5FCEBB16B5B6F5.quest_desc: [
@@ -10869,9 +11039,19 @@
 		quest.56F3F012CEC34379.title: "Cave Spider"
 		quest.56F3F012CEC34379.quest_subtitle: "earnest prize: the Cave Spider."
 		quest.56F3F012CEC34379.quest_desc: ["Bring home the Cave Spider. Pace yourself."]
-		quest.57279FD482972842.title: "Workbench"
-		quest.57279FD482972842.quest_subtitle: "One Workbench, one stout win."
-		quest.57279FD482972842.quest_desc: ["Add the Workbench to your run. Patient runs win."]
+		quest.57279FD482972842.title: "&a&lEngineer s Workbench"
+		quest.57279FD482972842.quest_subtitle: "&7Assemble gear from blueprints"
+		quest.57279FD482972842.quest_desc: [
+			"&a&lEngineer s Workbench"
+			"&8&m                            "
+			""
+			"&7The Engineer s Workbench takes a blueprint and the right"
+			"&7parts to build tools, bullets and machine components."
+			""
+			"&a&lCategory:&r &fTools"
+			""
+			"&e&l★ Tip:&r &7Slide a blueprint in and the workbench shows what it can make."
+		]
 		quest.57282D7E31EE61EE.title: "&e&lIesnium Pickaxe"
 		quest.57282D7E31EE61EE.quest_subtitle: "&7A pick for the otherworld"
 		quest.57282D7E31EE61EE.quest_desc: [
@@ -10992,9 +11172,19 @@
 			""
 			"&e&l★ Tip:&r &7Hold the blade and use the ability key to unleash its power."
 		]
-		quest.5866C0528D1C3063.title: "Blastfurnace Preheater"
-		quest.5866C0528D1C3063.quest_subtitle: "Tiny step: the Blastfurnace Preheater."
-		quest.5866C0528D1C3063.quest_desc: ["Add the Blastfurnace Preheater to your toolkit. The shortcut is not here."]
+		quest.5866C0528D1C3063.title: "&b&lBlast Furnace Preheaters"
+		quest.5866C0528D1C3063.quest_subtitle: "&7Power up your steel output"
+		quest.5866C0528D1C3063.quest_desc: [
+			"&b&lBlast Furnace Preheaters"
+			"&8&m                            "
+			""
+			"&7Place Blast Furnace Preheaters against an Improved Blast"
+			"&7Furnace. Each one burns power to make it smelt much faster."
+			""
+			"&b&lCategory:&r &fFurnaces and Ovens"
+			""
+			"&e&l★ Tip:&r &7Two preheaters drive the furnace to its top speed."
+		]
 		quest.586D5DE28EEC8014.title: "&b&lHellshelf"
 		quest.586D5DE28EEC8014.quest_subtitle: "&7The Hellshelf, an enchanting shelf"
 		quest.586D5DE28EEC8014.quest_desc: [
@@ -11917,9 +12107,19 @@
 		quest.602DFC02A4BC5890.title: "Rose"
 		quest.602DFC02A4BC5890.quest_subtitle: "The Rose is a checkpoint."
 		quest.602DFC02A4BC5890.quest_desc: ["Earn the Rose step by step. Load-bearing, not flashy."]
-		quest.603296C0650B7DA9.title: "Watermill"
-		quest.603296C0650B7DA9.quest_subtitle: "Mark the Watermill done."
-		quest.603296C0650B7DA9.quest_desc: ["Acquire the Watermill. Snowballs after this."]
+		quest.603296C0650B7DA9.title: "&c&lWater Wheel"
+		quest.603296C0650B7DA9.quest_subtitle: "&7Spin power out of running water"
+		quest.603296C0650B7DA9.quest_desc: [
+			"&c&lWater Wheel"
+			"&8&m                            "
+			""
+			"&7A Water Wheel mounted on a Dynamo turns with flowing water"
+			"&7to make a quiet, steady trickle of power."
+			""
+			"&c&lCategory:&r &fPower"
+			""
+			"&e&l★ Tip:&r &7Three wheels on one dynamo give the smoothest output."
+		]
 		quest.603BEDD49070ECAD.title: "&a&lRotary Condensentrator"
 		quest.603BEDD49070ECAD.quest_subtitle: "&7Switch a chemical between gas and fluid"
 		quest.603BEDD49070ECAD.quest_desc: [
@@ -12126,9 +12326,20 @@
 		quest.6206199795B316A0.title: "Enderman"
 		quest.6206199795B316A0.quest_subtitle: "On the Enderman branch."
 		quest.6206199795B316A0.quest_desc: ["Score one Enderman. Useful sooner than you think."]
-		quest.62073FE3A817D611.title: "Heavy Engineering"
-		quest.62073FE3A817D611.quest_subtitle: "The Heavy Engineering: the chapter nudge."
-		quest.62073FE3A817D611.quest_desc: ["Get hands on the Heavy Engineering. Pace yourself."]
+		quest.62073FE3A817D611.title: "&e&lEngineering Blocks"
+		quest.62073FE3A817D611.quest_subtitle: "&7Heavy, light and redstone cores"
+		quest.62073FE3A817D611.quest_desc: [
+			"&e&lEngineering Blocks"
+			"&8&m                            "
+			""
+			"&7The Heavy, Light and Redstone Engineering Blocks are the"
+			"&7crafting cores of IE. Heavy frames brute machines, Light the"
+			"&7processing ones, and Redstone handles the control logic."
+			""
+			"&e&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7Stockpile all three, every multiblock in this chapter eats them."
+		]
 		quest.6220EDE42C813C1B.title: "&6&lApotheosis Charm"
 		quest.6220EDE42C813C1B.quest_subtitle: "&7A curio of the gear god"
 		quest.6220EDE42C813C1B.quest_desc: [
@@ -15777,9 +15988,20 @@
 		quest.7D5A30A5EA2B4061.title: "Kobold"
 		quest.7D5A30A5EA2B4061.quest_subtitle: "Today goal: the Kobold."
 		quest.7D5A30A5EA2B4061.quest_desc: ["The Kobold: a useful checkpoint on this branch. You earned a pause."]
-		quest.7D8FF6B40F3189CB.title: "&8&l⚙ The Engineer's Path ⚙"
-		quest.7D8FF6B40F3189CB.quest_subtitle: "§7Every great factory begins with a single page§r"
-		quest.7D8FF6B40F3189CB.quest_desc: ["Welcome to &6Immersive Engineering&r. Claim your &dEngineer's Manual&r and begin your journey into the industrial revolution. Every machine, every wire, every multiblock starts here."]
+		quest.7D8FF6B40F3189CB.title: "&d&lThe Engineer s Path"
+		quest.7D8FF6B40F3189CB.quest_subtitle: "&7Open the manual and begin"
+		quest.7D8FF6B40F3189CB.quest_desc: [
+			"&d&lThe Engineer s Path"
+			"&8&m                            "
+			""
+			"&7Welcome to Immersive Engineering, an age of treated wood,"
+			"&7coke ovens and roaring multiblock machines. Claim your"
+			"&7Engineer s Manual, it explains every device in this chapter."
+			""
+			"&d&lCategory:&r &fGetting Started"
+			""
+			"&e&l★ Tip:&r &7Read the manual often. It is the best guide this mod offers."
+		]
 		quest.7E0616C043BC975E.title: "Fire Beetle"
 		quest.7E0616C043BC975E.quest_subtitle: "Quiet milestone with the Fire Beetle."
 		quest.7E0616C043BC975E.quest_desc: ["Take time to obtain the Fire Beetle. Tiny wins stack into runs."]
