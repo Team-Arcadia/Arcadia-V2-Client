@@ -317,9 +317,19 @@
 	]
 	quest.00D80AA4CDD8335C.quest_subtitle: "&7Un plastron sacre pour mage de combat"
 	quest.00D80AA4CDD8335C.title: "&9&lPlastron de Paladin"
-	quest.00E52E8C4BBC5E9B.quest_desc: ["Trouvez le Stack Upgrade Tier 2. Une brique de plus dans un mur."]
-	quest.00E52E8C4BBC5E9B.quest_subtitle: "Sur la route du Stack Upgrade Tier 2."
-	quest.00E52E8C4BBC5E9B.title: "Stack Upgrade Tier 2"
+	quest.00E52E8C4BBC5E9B.quest_desc: [
+			"&5&lAmelioration de Pile"
+			"&8&m                            "
+			""
+			"&7Elle multiplie les piles par case du bloc de rangement par x4."
+			"&7Les ameliorations de pile se cumulent, montez les paliers en ordre."
+			""
+			"&5&lCategorie:&r &fCapacite de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations de capacite partagent l onglet d amelioration."
+		]
+	quest.00E52E8C4BBC5E9B.quest_subtitle: "&7Contenez x4 les piles par case"
+	quest.00E52E8C4BBC5E9B.title: "&5&lAmelioration de Pile"
 	quest.00F6402CF15FF5CD.quest_desc: ["Gagnez le Towerwood Borer. Allez-y a votre rythme."]
 	quest.00F6402CF15FF5CD.quest_subtitle: "Prise lumineux : le Towerwood Borer."
 	quest.00F6402CF15FF5CD.title: "Towerwood Borer"
@@ -474,9 +484,19 @@
 	quest.02843BEC215744D0.quest_desc: ["Notez le Piglin dans le journal. Petit rappel amical."]
 	quest.02843BEC215744D0.quest_subtitle: "Le Piglin : clin d oeil du chapitre."
 	quest.02843BEC215744D0.title: "Piglin"
-	quest.02A6A7A0D88B3F82.quest_desc: ["Gagnez le Crafting Upgrade pas a pas. Les petites victoires s additionnent."]
-	quest.02A6A7A0D88B3F82.quest_subtitle: "Ajoutez un Crafting Upgrade."
-	quest.02A6A7A0D88B3F82.title: "Crafting Upgrade"
+	quest.02A6A7A0D88B3F82.quest_desc: [
+			"&9&lArtisanat Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle ajoute un onglet etabli, un plan de travail dans le bloc de rangement."
+			"&7Glissez-la dans l onglet d amelioration d un tonneau ou coffre."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.02A6A7A0D88B3F82.quest_subtitle: "&7Fabriquez ou que vous soyez"
+	quest.02A6A7A0D88B3F82.title: "&9&lArtisanat Amelioration"
 	quest.02C20D2B7605CBC8.quest_desc: ["Notez le Carminite Broodling comme acquis. Le raccourci n est pas ici."]
 	quest.02C20D2B7605CBC8.quest_subtitle: "Sur la route du Carminite Broodling."
 	quest.02C20D2B7605CBC8.title: "Carminite Broodling"
@@ -506,9 +526,19 @@
 	]
 	quest.02E5E8D22DF49C31.quest_subtitle: "&7Du bois resistant aux intemperies"
 	quest.02E5E8D22DF49C31.title: "&e&lBois Traite"
-	quest.0300307C7FB9E47C.quest_desc: ["Verrouillez le Basic To Netherite Tier Upgrade. Petite habitude, grand resultat."]
-	quest.0300307C7FB9E47C.quest_subtitle: "Sur la route du Basic To Netherite Tier Upgrade."
-	quest.0300307C7FB9E47C.title: "Basic To Netherite Tier Upgrade"
+	quest.0300307C7FB9E47C.quest_desc: [
+			"&3&lAmelioration vers le Palier Netherite"
+			"&8&m                            "
+			""
+			"&7Elle monte un bloc de rangement au palier netherite, ajoutant"
+			"&7cases et place d amelioration sans tout reconstruire."
+			""
+			"&3&lCategorie:&r &fPaliers de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les paliers se cumulent, montez du cuivre jusqu a la netherite."
+		]
+	quest.0300307C7FB9E47C.quest_subtitle: "&7Montez un bloc d un palier"
+	quest.0300307C7FB9E47C.title: "&3&lAmelioration vers le Palier Netherite"
 	quest.0306D25C7407FE88.quest_desc: [
 		"&b&lMatrice de Focalisation"
 		"&8&m                            "
@@ -853,9 +883,19 @@
 	quest.052A82D29CA9A028.quest_desc: ["Rangez le Hedge Spider. Continuez."]
 	quest.052A82D29CA9A028.quest_subtitle: "Le Hedge Spider ouvre plus."
 	quest.052A82D29CA9A028.title: "Hedge Spider"
-	quest.05457AD507E9CAF9.quest_desc: ["Trouvez le Auto Blasting Upgrade. Le calme bat la precipitation."]
-	quest.05457AD507E9CAF9.quest_subtitle: "Le detour Auto Blasting Upgrade en vaut la peine."
-	quest.05457AD507E9CAF9.title: "Auto Blasting Upgrade"
+	quest.05457AD507E9CAF9.quest_desc: [
+			"&b&lCalcination Auto Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle ajoute un onglet haut-fourneau qui fond minerais et metaux seul."
+			"&7Glissez-la dans l onglet d amelioration d un sac libre."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.05457AD507E9CAF9.quest_subtitle: "&7Minerais raffines automatiquement"
+	quest.05457AD507E9CAF9.title: "&b&lCalcination Auto Amelioration"
 	quest.05510D11ABAA5C22.quest_desc: [
 		"&6&lRefined Storage"
 		"&8&m                                "
@@ -1144,9 +1184,19 @@
 	]
 	quest.073FD3884B2B11F7.quest_subtitle: "&7Le Amplify Glyph, un mot de magie"
 	quest.073FD3884B2B11F7.title: "&d&lAmplify Glyph"
-	quest.07436BF29A9339CC.quest_desc: ["Notez le Advanced Void Upgrade comme acquis. Modeste maintenant, puissant plus tard."]
-	quest.07436BF29A9339CC.quest_subtitle: "Le Advanced Void Upgrade est un point d etape."
-	quest.07436BF29A9339CC.title: "Advanced Void Upgrade"
+	quest.07436BF29A9339CC.quest_desc: [
+			"&b&lAvance Destruction Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle detruit tout objet marque dans son filtre des son arrivee."
+			"&7Ce modele avance ajoute plus de filtres et une plus grande portee."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.07436BF29A9339CC.quest_subtitle: "&7Jetez les dechets a l arrivee, avec un controle accru"
+	quest.07436BF29A9339CC.title: "&b&lAvance Destruction Amelioration"
 	quest.0744B2223618F9DE.quest_desc: ["Le Carminite Ghastguard ouvre plus de portes qu il n y parait. Le raccourci n est pas ici."]
 	quest.0744B2223618F9DE.quest_subtitle: "Reservez le Carminite Ghastguard pour plus tard."
 	quest.0744B2223618F9DE.title: "Carminite Ghastguard"
@@ -1175,9 +1225,20 @@
 	quest.076399D348AA54D5.quest_desc: ["Recuperez le Wither en chemin. Vaut le coup de noter."]
 	quest.076399D348AA54D5.quest_subtitle: "Gain modeste : le Wither."
 	quest.076399D348AA54D5.title: "Wither"
-	quest.078A67E1F6A18027.quest_desc: ["Mettez le signe dans l inventaire. Continuez."]
-	quest.078A67E1F6A18027.quest_subtitle: "Gagnez le signe, la voie agile."
-	quest.078A67E1F6A18027.title: "Objective"
+	quest.078A67E1F6A18027.quest_desc: [
+			"&e&lCoffre"
+			"&8&m                            "
+			""
+			"&7Un coffre range vos objets et peut s ouvrir en paire pour"
+			"&7le double d espace, avec les memes emplacements d amelioration."
+			"&7Cette premiere quete offre aussi une amelioration de palier."
+			""
+			"&e&lCategorie:&r &fCoffres"
+			""
+			"&e&l★ Astuce:&r &7Montez-le en palier plus tard avec une amelioration de palier."
+		]
+	quest.078A67E1F6A18027.quest_subtitle: "&7Votre premier coffre et sa premiere amelioration"
+	quest.078A67E1F6A18027.title: "&e&lCoffre"
 	quest.078B69E9362A5496.quest_desc: [
 		"&2&lChaine de Gaz d Uranium"
 		"&8&m                            "
@@ -1628,9 +1689,20 @@
 	]
 	quest.0A7D2C9BB684C539.quest_subtitle: "&7Netherite, compresse et range."
 	quest.0A7D2C9BB684C539.title: "&5&lNetherite Bloc"
-	quest.0A93D938DB277BC1.quest_desc: ["Le etape : petit objet, vraie progression. Allez-y a votre rythme."]
-	quest.0A93D938DB277BC1.quest_subtitle: "Prise tempere : le etape."
-	quest.0A93D938DB277BC1.title: "Objective"
+	quest.0A93D938DB277BC1.quest_desc: [
+			"&e&lCoffre en Or"
+			"&8&m                            "
+			""
+			"&7Un coffre range vos objets et peut s ouvrir en paire pour"
+			"&7le double d espace, avec les memes emplacements d amelioration."
+			"&7Le palier or apporte encore plus de cases et d ameliorations."
+			""
+			"&e&lCategorie:&r &fCoffres"
+			""
+			"&e&l★ Astuce:&r &7Montez-le en palier plus tard avec une amelioration de palier."
+		]
+	quest.0A93D938DB277BC1.quest_subtitle: "&7Un coffre classique, grandement ameliore"
+	quest.0A93D938DB277BC1.title: "&e&lCoffre en Or"
 	quest.0A993CDB83671E89.quest_desc: [
 		"&d&lLivyatan"
 		"&8&m                            "
@@ -1757,9 +1829,20 @@
 	quest.0C15FBA4BF9C4EBA.quest_desc: ["Le Umvuthana Crane se paie tout seul. Modeste maintenant, puissant plus tard."]
 	quest.0C15FBA4BF9C4EBA.quest_subtitle: "Le Umvuthana Crane ouvre plus."
 	quest.0C15FBA4BF9C4EBA.title: "Umvuthana Crane"
-	quest.0C256F7C80318051.quest_desc: ["Gagnez le cible. Porteur, pas voyant."]
-	quest.0C256F7C80318051.quest_subtitle: "Un cible, une victoire pret."
-	quest.0C256F7C80318051.title: "Objective"
+	quest.0C256F7C80318051.quest_desc: [
+			"&6&lTonneau en Netherite"
+			"&8&m                            "
+			""
+			"&7Un tonneau garde vos objets en un bloc solide et accepte des"
+			"&7ameliorations pour ramasser, trier, fondre et bien plus."
+			"&7Le palier netherite est le sommet, vaste et ignifuge."
+			""
+			"&6&lCategorie:&r &fTonneaux"
+			""
+			"&e&l★ Astuce:&r &7Clic droit sur la face du tonneau, aucun espace requis au-dessus."
+		]
+	quest.0C256F7C80318051.quest_subtitle: "&7Un bloc solide qui contient tout"
+	quest.0C256F7C80318051.title: "&6&lTonneau en Netherite"
 	quest.0C3657D2C7A9DFFF.quest_desc: ["Debloquez le Zombie. Vaut plus que son texte annonce."]
 	quest.0C3657D2C7A9DFFF.quest_subtitle: "Etape calme avec le Zombie."
 	quest.0C3657D2C7A9DFFF.title: "Zombie"
@@ -1791,9 +1874,19 @@
 	quest.0CC163F16EB84134.quest_desc: ["Bouclez le Piglin. Vaut le coup de noter."]
 	quest.0CC163F16EB84134.quest_subtitle: "Sur la route du Piglin."
 	quest.0CC163F16EB84134.title: "Piglin"
-	quest.0CC9E05DAB1B684D.quest_desc: ["Le Tool Swapper Upgrade : un cap tranquille. Continuez."]
-	quest.0CC9E05DAB1B684D.quest_subtitle: "Prise applique : le Tool Swapper Upgrade."
-	quest.0CC9E05DAB1B684D.title: "Tool Swapper Upgrade"
+	quest.0CC9E05DAB1B684D.quest_desc: [
+			"&b&lEchangeur d Outils Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle echange l objet en main pour le bon outil quand vous frappez."
+			"&7Glissez-la dans l onglet d amelioration d un sac libre."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.0CC9E05DAB1B684D.quest_subtitle: "&7Toujours le bon outil en main"
+	quest.0CC9E05DAB1B684D.title: "&b&lEchangeur d Outils Amelioration"
 	quest.0CCFE947AC5A60F9.quest_desc: [
 		"&6&lArbalete Lourde"
 		"&8&m                            "
@@ -2147,9 +2240,19 @@
 	quest.0F8F6164164F1246.quest_desc: ["Capturez le Snow Guardian. Petit rappel amical."]
 	quest.0F8F6164164F1246.quest_subtitle: "Cap lumineux : le Snow Guardian."
 	quest.0F8F6164164F1246.title: "Snow Guardian"
-	quest.0F910828BE6A5866.quest_desc: ["Procurez-vous le Advanced Hopper Upgrade. Porteur, pas voyant."]
-	quest.0F910828BE6A5866.quest_subtitle: "Petit pas : le Advanced Hopper Upgrade."
-	quest.0F910828BE6A5866.title: "Advanced Hopper Upgrade"
+	quest.0F910828BE6A5866.quest_desc: [
+			"&9&lAvance Entonnoir Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle tire les objets du bloc du dessus vers le bloc du dessous."
+			"&7Ce modele avance ajoute plus de filtres et une plus grande portee."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.0F910828BE6A5866.quest_subtitle: "&7Faites transiter les objets, avec un controle accru"
+	quest.0F910828BE6A5866.title: "&9&lAvance Entonnoir Amelioration"
 	quest.0FB58187938E4545.quest_desc: ["Rayez le Slime Beetle de votre liste. Le calme bat la precipitation."]
 	quest.0FB58187938E4545.quest_subtitle: "Un Slime Beetle, une victoire delibere."
 	quest.0FB58187938E4545.title: "Slime Beetle"
@@ -2490,9 +2593,19 @@
 	]
 	quest.11391BE41D1BD209.quest_subtitle: "&7Casque de la panoplie Netherite-Diamond."
 	quest.11391BE41D1BD209.title: "&b&lNetherite-Diamond Casque"
-	quest.114734CC270E9618.quest_desc: ["Mettez le Pickup Upgrade de cote. Le calme bat la precipitation."]
-	quest.114734CC270E9618.quest_subtitle: "Run pret, un seul Pickup Upgrade."
-	quest.114734CC270E9618.title: "Pickup Upgrade"
+	quest.114734CC270E9618.quest_desc: [
+			"&b&lRamassage Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle fait que le sac a dos ramasse les objets au sol tout seul."
+			"&7Glissez-la dans l onglet d amelioration d un sac libre."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.114734CC270E9618.quest_subtitle: "&7Aspirez le butin sans lever le petit doigt"
+	quest.114734CC270E9618.title: "&b&lRamassage Amelioration"
 	quest.1165078CE2454382.quest_desc: ["Debloquez le Minotaur. Plus proche que la carte ne suggere."]
 	quest.1165078CE2454382.quest_subtitle: "Empoche : le Minotaur."
 	quest.1165078CE2454382.title: "Minotaur"
@@ -2890,9 +3003,20 @@
 	quest.147A70AD6E9B4933.quest_desc: ["Le Hostile Wolf : un objet qui fait boule de neige. La porte suivante est en vue."]
 	quest.147A70AD6E9B4933.quest_subtitle: "Le Hostile Wolf est un point d etape."
 	quest.147A70AD6E9B4933.title: "Hostile Wolf"
-	quest.1486F1A123B7FE84.quest_desc: ["Le cible : petit objet, vraie progression. Progres modulaire, petits pas."]
-	quest.1486F1A123B7FE84.quest_subtitle: "Empoche : le cible."
-	quest.1486F1A123B7FE84.title: "Objective"
+	quest.1486F1A123B7FE84.quest_desc: [
+			"&6&lTonneau en Diamant"
+			"&8&m                            "
+			""
+			"&7Un tonneau garde vos objets en un bloc solide et accepte des"
+			"&7ameliorations pour ramasser, trier, fondre et bien plus."
+			"&7Le palier diamant offre un grand inventaire et maintes ameliorations."
+			""
+			"&6&lCategorie:&r &fTonneaux"
+			""
+			"&e&l★ Astuce:&r &7Clic droit sur la face du tonneau, aucun espace requis au-dessus."
+		]
+	quest.1486F1A123B7FE84.quest_subtitle: "&7Un bloc solide qui contient tout"
+	quest.1486F1A123B7FE84.title: "&6&lTonneau en Diamant"
 	quest.148A33CC36B2563A.quest_desc: [
 		"&b&lDraconic Endshelf"
 		"&8&m                            "
@@ -2906,9 +3030,20 @@
 	]
 	quest.148A33CC36B2563A.quest_subtitle: "&7La Draconic Endshelf, une etagere magique"
 	quest.148A33CC36B2563A.title: "&b&lDraconic Endshelf"
-	quest.14A6E252C45F83B8.quest_desc: ["Ajoutez un repere aux reserves. Porteur, pas voyant."]
-	quest.14A6E252C45F83B8.quest_subtitle: "Le repere ouvre plus."
-	quest.14A6E252C45F83B8.title: "Objective"
+	quest.14A6E252C45F83B8.quest_desc: [
+			"&6&lTonneau en Cuivre"
+			"&8&m                            "
+			""
+			"&7Un tonneau garde vos objets en un bloc solide et accepte des"
+			"&7ameliorations pour ramasser, trier, fondre et bien plus."
+			"&7Le palier cuivre ajoute des rangees de cases."
+			""
+			"&6&lCategorie:&r &fTonneaux"
+			""
+			"&e&l★ Astuce:&r &7Clic droit sur la face du tonneau, aucun espace requis au-dessus."
+		]
+	quest.14A6E252C45F83B8.quest_subtitle: "&7Un bloc solide qui contient tout"
+	quest.14A6E252C45F83B8.title: "&6&lTonneau en Cuivre"
 	quest.14C42151931BEFFE.quest_desc: ["Prenez possession du Cave Spider. Le chapitre a fait la moitie avec vous."]
 	quest.14C42151931BEFFE.quest_subtitle: "Decrochez le Cave Spider ce run."
 	quest.14C42151931BEFFE.title: "Cave Spider"
@@ -3011,9 +3146,19 @@
 	]
 	quest.159400BA9B7E3B04.quest_subtitle: "&7Bougez librement sous la mer"
 	quest.159400BA9B7E3B04.title: "&3&lJambieres en Neptunium"
-	quest.15B439C8A1A3C406.quest_desc: ["Le Smoking Upgrade est le prochain pivot. Faites confiance a la chaine."]
-	quest.15B439C8A1A3C406.quest_subtitle: "Objectif du jour : le Smoking Upgrade."
-	quest.15B439C8A1A3C406.title: "Smoking Upgrade"
+	quest.15B439C8A1A3C406.quest_desc: [
+			"&b&lFumage Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle ajoute un onglet fumoir pour cuire la nourriture du sac a dos."
+			"&7Glissez-la dans l onglet d amelioration d un sac libre."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.15B439C8A1A3C406.quest_subtitle: "&7Un fumoir pour repas rapides"
+	quest.15B439C8A1A3C406.title: "&b&lFumage Amelioration"
 	quest.15EB768946D64062.quest_desc: ["Gagnez le Giant Miner loyalement. Regulier est rapide."]
 	quest.15EB768946D64062.quest_subtitle: "Run prudent, un seul Giant Miner."
 	quest.15EB768946D64062.title: "Giant Miner"
@@ -3110,9 +3255,19 @@
 	]
 	quest.162CE44400A63575.quest_subtitle: "&7Infusez les metaux en nouveaux materiaux"
 	quest.162CE44400A63575.title: "&b&lInfuseur Metallurgique"
-	quest.164FCDB100A13305.quest_desc: ["Le Advanced Jukebox Upgrade : petit objet, vraie progression. Capital tranquille."]
-	quest.164FCDB100A13305.quest_subtitle: "Petit pas : le Advanced Jukebox Upgrade."
-	quest.164FCDB100A13305.title: "Advanced Jukebox Upgrade"
+	quest.164FCDB100A13305.quest_desc: [
+			"&9&lAvance Juke-box Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle change le bloc de rangement en juke-box portable pour vos disques."
+			"&7Ce modele avance ajoute plus de filtres et une plus grande portee."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.164FCDB100A13305.quest_subtitle: "&7Emportez votre musique, avec un controle accru"
+	quest.164FCDB100A13305.title: "&9&lAvance Juke-box Amelioration"
 	quest.16524DC7A36FA0FE.quest_desc: ["Obtenez le Blockchain Goblin avant d aller plus loin. Le detour en vaut la peine."]
 	quest.16524DC7A36FA0FE.quest_subtitle: "Petit pas : le Blockchain Goblin."
 	quest.16524DC7A36FA0FE.title: "Blockchain Goblin"
@@ -3164,9 +3319,20 @@
 	quest.1685089248C740DC.quest_desc: ["On vous demande le Witch. La chaine tient."]
 	quest.1685089248C740DC.quest_subtitle: "Le Witch est un point d etape."
 	quest.1685089248C740DC.title: "Witch"
-	quest.16B385D341F3531F.quest_desc: ["Decrochez le cible. Vous vous remercierez plus tard."]
-	quest.16B385D341F3531F.quest_subtitle: "Sur la route du cible."
-	quest.16B385D341F3531F.title: "Objective"
+	quest.16B385D341F3531F.quest_desc: [
+			"&e&lCoffre en Fer"
+			"&8&m                            "
+			""
+			"&7Un coffre range vos objets et peut s ouvrir en paire pour"
+			"&7le double d espace, avec les memes emplacements d amelioration."
+			"&7Le palier fer l elargit encore et ajoute un emplacement."
+			""
+			"&e&lCategorie:&r &fCoffres"
+			""
+			"&e&l★ Astuce:&r &7Montez-le en palier plus tard avec une amelioration de palier."
+		]
+	quest.16B385D341F3531F.quest_subtitle: "&7Un coffre classique, grandement ameliore"
+	quest.16B385D341F3531F.title: "&e&lCoffre en Fer"
 	quest.16C47409C0A411EF.quest_desc: [
 		"&d&lFangs Glyph"
 		"&8&m                            "
@@ -3193,9 +3359,19 @@
 	]
 	quest.16C74B5F99AD6724.quest_subtitle: "&7Le materiau d affixe de base"
 	quest.16C74B5F99AD6724.title: "&6&lMateriau Commun"
-	quest.16CFF9B064E42D83.quest_desc: ["Ajoutez le Decoration Table a votre journal. Capital tranquille."]
-	quest.16CFF9B064E42D83.quest_subtitle: "Mettez le Decoration Table en signet."
-	quest.16CFF9B064E42D83.title: "Decoration Table"
+	quest.16CFF9B064E42D83.quest_desc: [
+			"&2&lTable de Decoration"
+			"&8&m                            "
+			""
+			"&7La Table de Decoration permet d habiller tonneau ou coffre"
+			"&7avec materiaux, bordures et couleurs de votre choix."
+			""
+			"&2&lCategorie:&r &fOutils et Decor"
+			""
+			"&e&l★ Astuce:&r &7La fonction ne change pas, juste l aspect. Rangez avec style."
+		]
+	quest.16CFF9B064E42D83.quest_subtitle: "&7Restylez votre rangement a votre gout"
+	quest.16CFF9B064E42D83.title: "&2&lTable de Decoration"
 	quest.16D1378EDE2A4DE2.quest_desc: ["Trouvez le Harbinger Cube. Faites confiance a la chaine."]
 	quest.16D1378EDE2A4DE2.quest_subtitle: "Notez le Harbinger Cube comme fait."
 	quest.16D1378EDE2A4DE2.title: "Harbinger Cube"
@@ -3250,15 +3426,35 @@
 	quest.17483FAD1DEFF9E6.quest_desc: ["Rayez le Adherent. Une graine pour la boule de neige."]
 	quest.17483FAD1DEFF9E6.quest_subtitle: "Prise sincere : le Adherent."
 	quest.17483FAD1DEFF9E6.title: "Adherent"
-	quest.17695C65B1ED3CD4.quest_desc: ["Prenez le Inception Upgrade. Progres modulaire, petits pas."]
-	quest.17695C65B1ED3CD4.quest_subtitle: "Mettez le Inception Upgrade en signet."
-	quest.17695C65B1ED3CD4.title: "Inception Upgrade"
+	quest.17695C65B1ED3CD4.quest_desc: [
+			"&b&lInception Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle permet de ranger d autres sacs a dos dans ce sac."
+			"&7Glissez-la dans l onglet d amelioration d un sac libre."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.17695C65B1ED3CD4.quest_subtitle: "&7Un sac dans un sac"
+	quest.17695C65B1ED3CD4.title: "&b&lInception Amelioration"
 	quest.17762975BEAF4625.quest_desc: ["Le Warden : un point d etape utile. Cela compte."]
 	quest.17762975BEAF4625.quest_subtitle: "Objectif du jour : le Warden."
 	quest.17762975BEAF4625.title: "Warden"
-	quest.1794FC7503686B9A.quest_desc: ["Gagnez le Basic To Iron Tier Upgrade. Le calme bat la precipitation."]
-	quest.1794FC7503686B9A.quest_subtitle: "Mettez le Basic To Iron Tier Upgrade en signet."
-	quest.1794FC7503686B9A.title: "Basic To Iron Tier Upgrade"
+	quest.1794FC7503686B9A.quest_desc: [
+			"&3&lAmelioration vers le Palier Fer"
+			"&8&m                            "
+			""
+			"&7Elle monte un bloc de rangement au palier fer, ajoutant"
+			"&7cases et place d amelioration sans tout reconstruire."
+			""
+			"&3&lCategorie:&r &fPaliers de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les paliers se cumulent, montez du cuivre jusqu a la netherite."
+		]
+	quest.1794FC7503686B9A.quest_subtitle: "&7Montez un bloc d un palier"
+	quest.1794FC7503686B9A.title: "&3&lAmelioration vers le Palier Fer"
 	quest.1796E08BBDC09B84.quest_desc: [
 		"&2&lCuve Dynamique"
 		"&8&m                            "
@@ -3444,9 +3640,19 @@
 	quest.18FC884DB14888E3.quest_desc: ["Gagnez le Umvuthana Mask Faith loyalement. Le calme bat la precipitation."]
 	quest.18FC884DB14888E3.quest_subtitle: "Gagnez-le : le Umvuthana Mask Faith."
 	quest.18FC884DB14888E3.title: "Umvuthana Mask Faith"
-	quest.1908C8D1B4D6A02F.quest_desc: ["Tirez le Compression Upgrade dans votre kit. La porte suivante est en vue."]
-	quest.1908C8D1B4D6A02F.quest_subtitle: "Renforcez la chaine du Compression Upgrade."
-	quest.1908C8D1B4D6A02F.title: "Compression Upgrade"
+	quest.1908C8D1B4D6A02F.quest_desc: [
+			"&9&lCompression Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle compresse et decompresse seule les objets du bloc de rangement."
+			"&7Glissez-la dans l onglet d amelioration d un tonneau ou coffre."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.1908C8D1B4D6A02F.quest_subtitle: "&7Objets compresses tout seuls"
+	quest.1908C8D1B4D6A02F.title: "&9&lCompression Amelioration"
 	quest.190AAD16CCBF42C5.quest_desc: [
 		"&e&lHelice"
 		"&8&m                            "
@@ -3566,9 +3772,19 @@
 	quest.19765B99FCDBC16E.quest_desc: ["Gagnez le Helmet Crab a la sueur du front. Boule de neige a partir d ici."]
 	quest.19765B99FCDBC16E.quest_subtitle: "Sur la route du Helmet Crab."
 	quest.19765B99FCDBC16E.title: "Helmet Crab"
-	quest.199B9FC85D5715C0.quest_desc: ["Empochez le Restock Upgrade. Modeste maintenant, puissant plus tard."]
-	quest.199B9FC85D5715C0.quest_subtitle: "Le Restock Upgrade est un point d etape."
-	quest.199B9FC85D5715C0.title: "Restock Upgrade"
+	quest.199B9FC85D5715C0.quest_desc: [
+			"&b&lReapprovisionnement Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle remplit le sac a dos depuis tout inventaire en clic droit accroupi."
+			"&7Glissez-la dans l onglet d amelioration d un sac libre."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.199B9FC85D5715C0.quest_subtitle: "&7Regarnissez le sac en un clic"
+	quest.199B9FC85D5715C0.title: "&b&lReapprovisionnement Amelioration"
 	quest.19AA7C29308A8916.quest_desc: ["Mettez le Skeleton au chaud. Vaut le coup de noter."]
 	quest.19AA7C29308A8916.quest_subtitle: "Decrochez le Skeleton ce run."
 	quest.19AA7C29308A8916.title: "Skeleton"
@@ -3598,9 +3814,19 @@
 	]
 	quest.19D02325579F2AA8.quest_subtitle: "&7Le Volcanic Sourcelink, un generateur de source"
 	quest.19D02325579F2AA8.title: "&6&lVolcanic Sourcelink"
-	quest.19D58B8C5DA30356.quest_desc: ["On vous demande le Smelting Upgrade. Boule de neige a partir d ici."]
-	quest.19D58B8C5DA30356.quest_subtitle: "Renforcez la chaine du Smelting Upgrade."
-	quest.19D58B8C5DA30356.title: "Smelting Upgrade"
+	quest.19D58B8C5DA30356.quest_desc: [
+			"&b&lFonte Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle ajoute un onglet four pour fondre directement depuis le sac a dos."
+			"&7Glissez-la dans l onglet d amelioration d un sac libre."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.19D58B8C5DA30356.quest_subtitle: "&7Un four dans la poche"
+	quest.19D58B8C5DA30356.title: "&b&lFonte Amelioration"
 	quest.19E38E542A7A2CEC.quest_desc: [
 		"&e&lFerme a Vers"
 		"&8&m                            "
@@ -3633,9 +3859,19 @@
 	quest.1A33804E4A844270.quest_desc: ["Notez le Maze Slime comme acquis. Vaut le coup de noter."]
 	quest.1A33804E4A844270.quest_subtitle: "Cap prudent : le Maze Slime."
 	quest.1A33804E4A844270.title: "Maze Slime"
-	quest.1A3B88961713D9A6.quest_desc: ["Rangez le Advanced Feeding Upgrade. Cap intermediaire."]
-	quest.1A3B88961713D9A6.quest_subtitle: "Gain modeste : le Advanced Feeding Upgrade."
-	quest.1A3B88961713D9A6.title: "Advanced Feeding Upgrade"
+	quest.1A3B88961713D9A6.quest_desc: [
+			"&9&lAvance Alimentation Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle vous nourrit avec la nourriture du bloc de rangement des que vous avez faim."
+			"&7Ce modele avance ajoute plus de filtres et une plus grande portee."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.1A3B88961713D9A6.quest_subtitle: "&7Ne mourez plus de faim en voyage, avec un controle accru"
+	quest.1A3B88961713D9A6.title: "&9&lAvance Alimentation Amelioration"
 	quest.1A3CFDBAC3684605.quest_desc: ["Rangez le Iron Golem. Continuez."]
 	quest.1A3CFDBAC3684605.quest_subtitle: "Objectif du jour : le Iron Golem."
 	quest.1A3CFDBAC3684605.title: "Iron Golem"
@@ -3955,9 +4191,20 @@
 	]
 	quest.1D6C2786A1B7411D.quest_subtitle: "&7Tissez la laine en motifs riches"
 	quest.1D6C2786A1B7411D.title: "&b&lLa Table a Tisser"
-	quest.1D713A58E17C2C32.quest_desc: ["Ajoutez le repere a votre attirail. Vous vous remercierez plus tard."]
-	quest.1D713A58E17C2C32.quest_subtitle: "Un pas calme vers le repere."
-	quest.1D713A58E17C2C32.title: "Objective"
+	quest.1D713A58E17C2C32.quest_desc: [
+			"&a&lSac a Dos"
+			"&8&m                            "
+			""
+			"&7Un sac a dos se porte sur le dos et emporte votre inventaire"
+			"&7partout, avec son propre onglet d ameliorations."
+			"&7Ce palier basique est le debut du voyage."
+			""
+			"&a&lCategorie:&r &fSacs a Dos"
+			""
+			"&e&l★ Astuce:&r &7Ouvrez-le avec une touche ou posez-le et faites clic droit."
+		]
+	quest.1D713A58E17C2C32.quest_subtitle: "&7Un rangement qui voyage avec vous"
+	quest.1D713A58E17C2C32.title: "&a&lSac a Dos"
 	quest.1D7A5CDF78214F60.quest_desc: [
 		"&d&lMagiblade"
 		"&8&m                            "
@@ -4657,9 +4904,19 @@
 	quest.228F74717D24495E.quest_desc: ["Le Hedge Spider se paie tout seul. Les runs patients gagnent."]
 	quest.228F74717D24495E.quest_subtitle: "Le Hedge Spider : porteur."
 	quest.228F74717D24495E.title: "Hedge Spider"
-	quest.22B9A980939DFEDF.quest_desc: ["Emportez le Stack Upgrade Omega Tier. Allez-y a votre rythme."]
-	quest.22B9A980939DFEDF.quest_subtitle: "Etape calme avec le Stack Upgrade Omega Tier."
-	quest.22B9A980939DFEDF.title: "Stack Upgrade Omega Tier"
+	quest.22B9A980939DFEDF.quest_desc: [
+			"&d&lAmelioration de Pile"
+			"&8&m                            "
+			""
+			"&7Elle multiplie les piles par case du sac a dos par le maximum."
+			"&7Les ameliorations de pile se cumulent, montez les paliers en ordre."
+			""
+			"&d&lCategorie:&r &fCapacite de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations de capacite partagent l onglet d amelioration."
+		]
+	quest.22B9A980939DFEDF.quest_subtitle: "&7Contenez le maximum les piles par case"
+	quest.22B9A980939DFEDF.title: "&d&lAmelioration de Pile"
 	quest.22F80D267321BFC5.quest_desc: ["Empochez le Autocrafter Manager. Plus proche que la carte ne suggere."]
 	quest.22F80D267321BFC5.quest_subtitle: "Un Autocrafter Manager pour la route."
 	quest.22F80D267321BFC5.title: "Autocrafter Manager"
@@ -4965,9 +5222,19 @@
 	quest.253657BE5D9D9162.quest_desc: ["Cochez le External Storage. Visez la chose d apres."]
 	quest.253657BE5D9D9162.quest_subtitle: "Objectif du jour : le External Storage."
 	quest.253657BE5D9D9162.title: "External Storage"
-	quest.2544342ED0E1C6F2.quest_desc: ["Verrouillez le Basic To Gold Tier Upgrade. Continuez."]
-	quest.2544342ED0E1C6F2.quest_subtitle: "Gain modeste : le Basic To Gold Tier Upgrade."
-	quest.2544342ED0E1C6F2.title: "Basic To Gold Tier Upgrade"
+	quest.2544342ED0E1C6F2.quest_desc: [
+			"&3&lAmelioration vers le Palier Or"
+			"&8&m                            "
+			""
+			"&7Elle monte un bloc de rangement au palier or, ajoutant"
+			"&7cases et place d amelioration sans tout reconstruire."
+			""
+			"&3&lCategorie:&r &fPaliers de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les paliers se cumulent, montez du cuivre jusqu a la netherite."
+		]
+	quest.2544342ED0E1C6F2.quest_subtitle: "&7Montez un bloc d un palier"
+	quest.2544342ED0E1C6F2.title: "&3&lAmelioration vers le Palier Or"
 	quest.255D8ABA6911067C.quest_desc: [
 		"&6&lCanon Rotatif"
 		"&8&m                            "
@@ -5249,9 +5516,19 @@
 	quest.27AF01336466488C.quest_desc: ["Verrouillez le Cave Spider. Regulier est rapide."]
 	quest.27AF01336466488C.quest_subtitle: "Decrochez le Cave Spider ce run."
 	quest.27AF01336466488C.title: "Cave Spider"
-	quest.27CBC3BF25E736A1.quest_desc: ["Capturez le Advanced Restock Upgrade. Le raccourci n est pas ici."]
-	quest.27CBC3BF25E736A1.quest_subtitle: "Un Advanced Restock Upgrade, une victoire pret."
-	quest.27CBC3BF25E736A1.title: "Advanced Restock Upgrade"
+	quest.27CBC3BF25E736A1.quest_desc: [
+			"&b&lAvance Reapprovisionnement Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle remplit le sac a dos depuis tout inventaire en clic droit accroupi."
+			"&7Ce modele avance ajoute plus de filtres et une plus grande portee."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.27CBC3BF25E736A1.quest_subtitle: "&7Regarnissez le sac en un clic, avec un controle accru"
+	quest.27CBC3BF25E736A1.title: "&b&lAvance Reapprovisionnement Amelioration"
 	quest.27E951F4F4F6F847.quest_desc: [
 		"&c&lPendentif de Flammes"
 		"&8&m                            "
@@ -5368,9 +5645,19 @@
 	]
 	quest.290F943A1FF52070.quest_subtitle: "&7Le Pierce Glyph, un mot de magie"
 	quest.290F943A1FF52070.title: "&d&lPierce Glyph"
-	quest.2916C86934114C07.quest_desc: ["Rapportez le Advanced Pickup Upgrade. Continuez."]
-	quest.2916C86934114C07.quest_subtitle: "Sur la route du Advanced Pickup Upgrade."
-	quest.2916C86934114C07.title: "Advanced Pickup Upgrade"
+	quest.2916C86934114C07.quest_desc: [
+			"&9&lAvance Ramassage Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle fait que le bloc de rangement ramasse les objets au sol tout seul."
+			"&7Ce modele avance ajoute plus de filtres et une plus grande portee."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.2916C86934114C07.quest_subtitle: "&7Aspirez le butin sans lever le petit doigt, avec un controle accru"
+	quest.2916C86934114C07.title: "&9&lAvance Ramassage Amelioration"
 	quest.294418130521FDF4.quest_desc: [
 		"&6&lMithril Brut"
 		"&8&m                            "
@@ -5513,9 +5800,19 @@
 	quest.29C3D2930CFD9D86.quest_desc: ["Gagnez le Iron Golem loyalement. Continuez."]
 	quest.29C3D2930CFD9D86.quest_subtitle: "Un Iron Golem pour la route."
 	quest.29C3D2930CFD9D86.title: "Iron Golem"
-	quest.29C3F49471D01D9A.quest_desc: ["Rapportez le Advanced Refill Upgrade. Modeste maintenant, puissant plus tard."]
-	quest.29C3F49471D01D9A.quest_subtitle: "Reservez le Advanced Refill Upgrade pour plus tard."
-	quest.29C3F49471D01D9A.title: "Advanced Refill Upgrade"
+	quest.29C3F49471D01D9A.quest_desc: [
+			"&b&lAvance Recharge Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle garde une pile choisie pleine dans votre inventaire via le sac a dos."
+			"&7Ce modele avance ajoute plus de filtres et une plus grande portee."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.29C3F49471D01D9A.quest_subtitle: "&7Gardez votre barre garnie, avec un controle accru"
+	quest.29C3F49471D01D9A.title: "&b&lAvance Recharge Amelioration"
 	quest.29E3DD9A3F85CE80.quest_desc: [
 		"&d&lSummon Decoy Glyph"
 		"&8&m                            "
@@ -5603,12 +5900,32 @@
 	quest.2A299E4D99FBF36D.quest_desc: ["Pliez le badge. Vaut plus que son texte annonce."]
 	quest.2A299E4D99FBF36D.quest_subtitle: "Saut vigilant : le badge."
 	quest.2A299E4D99FBF36D.title: "Objective"
-	quest.2A2F340D44A383D7.quest_desc: ["Enveloppez le Advanced Feeding Upgrade. Boule de neige a partir d ici."]
-	quest.2A2F340D44A383D7.quest_subtitle: "Le Advanced Feeding Upgrade : porteur."
-	quest.2A2F340D44A383D7.title: "Advanced Feeding Upgrade"
-	quest.2A35901E42F9A536.quest_desc: ["Notez le Auto Smelting Upgrade comme acquis. La route en apprend autant que la prise."]
-	quest.2A35901E42F9A536.quest_subtitle: "Run tranquille, un seul Auto Smelting Upgrade."
-	quest.2A35901E42F9A536.title: "Auto Smelting Upgrade"
+	quest.2A2F340D44A383D7.quest_desc: [
+			"&b&lAvance Alimentation Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle vous nourrit avec la nourriture du sac a dos des que vous avez faim."
+			"&7Ce modele avance ajoute plus de filtres et une plus grande portee."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.2A2F340D44A383D7.quest_subtitle: "&7Ne mourez plus de faim en voyage, avec un controle accru"
+	quest.2A2F340D44A383D7.title: "&b&lAvance Alimentation Amelioration"
+	quest.2A35901E42F9A536.quest_desc: [
+			"&b&lFonte Auto Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle ajoute un onglet four qui fond les objets stockes tout seul."
+			"&7Glissez-la dans l onglet d amelioration d un sac libre."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.2A35901E42F9A536.quest_subtitle: "&7Fonte automatique en deplacement"
+	quest.2A35901E42F9A536.title: "&b&lFonte Auto Amelioration"
 	quest.2A3683BF7E50EF83.quest_desc: [
 		"&e&lPioche Infusee"
 		"&8&m                            "
@@ -5674,12 +5991,32 @@
 	]
 	quest.2A793B35FE25003C.quest_subtitle: "&7Changez les solides en un gaz utile"
 	quest.2A793B35FE25003C.title: "&a&lOxydeur Chimique"
-	quest.2A7A94C257BD73B5.quest_desc: ["Le Blasting Upgrade : un objet qui fait boule de neige. La route en apprend autant que la prise."]
-	quest.2A7A94C257BD73B5.quest_subtitle: "Le Blasting Upgrade : porteur."
-	quest.2A7A94C257BD73B5.title: "Blasting Upgrade"
-	quest.2A89029AC855DB7B.quest_desc: ["Rayez le Void Upgrade de votre liste. Un barreau de plus a gravir."]
-	quest.2A89029AC855DB7B.quest_subtitle: "Notez le Void Upgrade comme fait."
-	quest.2A89029AC855DB7B.title: "Void Upgrade"
+	quest.2A7A94C257BD73B5.quest_desc: [
+			"&b&lCalcination Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle ajoute un onglet haut-fourneau pour minerais et metaux du sac a dos."
+			"&7Glissez-la dans l onglet d amelioration d un sac libre."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.2A7A94C257BD73B5.quest_subtitle: "&7Un haut-fourneau pour le minerai"
+	quest.2A7A94C257BD73B5.title: "&b&lCalcination Amelioration"
+	quest.2A89029AC855DB7B.quest_desc: [
+			"&b&lDestruction Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle detruit tout objet marque dans son filtre des son arrivee."
+			"&7Glissez-la dans l onglet d amelioration d un sac libre."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.2A89029AC855DB7B.quest_subtitle: "&7Jetez les dechets a l arrivee"
+	quest.2A89029AC855DB7B.title: "&b&lDestruction Amelioration"
 	quest.2A98F9B7E94508A1.quest_desc: ["Trouvez le Witch. Le raccourci n est pas ici."]
 	quest.2A98F9B7E94508A1.quest_subtitle: "Prise agile : le Witch."
 	quest.2A98F9B7E94508A1.title: "Witch"
@@ -5760,9 +6097,20 @@
 	]
 	quest.2B345E47294A05E1.quest_subtitle: "&7L amelioration de machine Marid"
 	quest.2B345E47294A05E1.title: "&3&lMarid Upgrade"
-	quest.2B56650DE346679A.quest_desc: ["Le Iron Backpack est le prix de la prochaine porte. Regulier est rapide."]
-	quest.2B56650DE346679A.quest_subtitle: "Emportez le Iron Backpack."
-	quest.2B56650DE346679A.title: "Iron Backpack"
+	quest.2B56650DE346679A.quest_desc: [
+			"&a&lSac a Dos en Fer"
+			"&8&m                            "
+			""
+			"&7Un sac a dos se porte sur le dos et emporte votre inventaire"
+			"&7partout, avec son propre onglet d ameliorations."
+			"&7Le palier fer l elargit encore et ajoute un emplacement."
+			""
+			"&a&lCategorie:&r &fSacs a Dos"
+			""
+			"&e&l★ Astuce:&r &7Ouvrez-le avec une touche ou posez-le et faites clic droit."
+		]
+	quest.2B56650DE346679A.quest_subtitle: "&7Un rangement qui voyage avec vous"
+	quest.2B56650DE346679A.title: "&a&lSac a Dos en Fer"
 	quest.2B5F778AA879F79A.quest_desc: [
 		"&a&lNetherite-Emerald Bottes"
 		"&8&m                            "
@@ -5802,12 +6150,33 @@
 	]
 	quest.2B9DF670B021FEBE.quest_subtitle: "&7Twisted Blade, une lame legendaire unique"
 	quest.2B9DF670B021FEBE.title: "&d&lTwisted Blade"
-	quest.2BA6944853FEFC1E.quest_desc: ["Ajoutez le signe a vos reserves. Le progres tranquille bat les revers bruyants."]
-	quest.2BA6944853FEFC1E.quest_subtitle: "Gain modeste : le signe."
-	quest.2BA6944853FEFC1E.title: "Objective"
-	quest.2BB7F87D8C306847.quest_desc: ["Glissez le Refill Upgrade dans le dossier. Un petit pas sur une longue route."]
-	quest.2BB7F87D8C306847.quest_subtitle: "Objectif du jour : le Refill Upgrade."
-	quest.2BB7F87D8C306847.title: "Refill Upgrade"
+	quest.2BA6944853FEFC1E.quest_desc: [
+			"&6&lTonneau en Or"
+			"&8&m                            "
+			""
+			"&7Un tonneau garde vos objets en un bloc solide et accepte des"
+			"&7ameliorations pour ramasser, trier, fondre et bien plus."
+			"&7Le palier or apporte encore plus de cases et d ameliorations."
+			""
+			"&6&lCategorie:&r &fTonneaux"
+			""
+			"&e&l★ Astuce:&r &7Clic droit sur la face du tonneau, aucun espace requis au-dessus."
+		]
+	quest.2BA6944853FEFC1E.quest_subtitle: "&7Un bloc solide qui contient tout"
+	quest.2BA6944853FEFC1E.title: "&6&lTonneau en Or"
+	quest.2BB7F87D8C306847.quest_desc: [
+			"&b&lRecharge Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle garde une pile choisie pleine dans votre inventaire via le sac a dos."
+			"&7Glissez-la dans l onglet d amelioration d un sac libre."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.2BB7F87D8C306847.quest_subtitle: "&7Gardez votre barre garnie"
+	quest.2BB7F87D8C306847.title: "&b&lRecharge Amelioration"
 	quest.2BB910B217DF3A12.quest_desc: [
 		"&d&lEnder Upgrade Orb"
 		"&8&m                            "
@@ -5862,12 +6231,33 @@
 	quest.2C53B79A6C7F4A2E.quest_desc: ["Trouvez le Piglin. Un petit pas sur une longue route."]
 	quest.2C53B79A6C7F4A2E.quest_subtitle: "Petit pas : le Piglin."
 	quest.2C53B79A6C7F4A2E.title: "Piglin"
-	quest.2C87409D4C84359B.quest_desc: ["Empochez le etape. Faites confiance a la chaine."]
-	quest.2C87409D4C84359B.quest_subtitle: "Decrochez le etape ce run."
-	quest.2C87409D4C84359B.title: "Objective"
-	quest.2C8A97ABBCB54ADB.quest_desc: ["Procurez-vous le Stack Upgrade Tier 5. Petite habitude, grand resultat."]
-	quest.2C8A97ABBCB54ADB.quest_subtitle: "Etape calme avec le Stack Upgrade Tier 5."
-	quest.2C8A97ABBCB54ADB.title: "Stack Upgrade Tier 5"
+	quest.2C87409D4C84359B.quest_desc: [
+			"&6&lTonneau en Fer"
+			"&8&m                            "
+			""
+			"&7Un tonneau garde vos objets en un bloc solide et accepte des"
+			"&7ameliorations pour ramasser, trier, fondre et bien plus."
+			"&7Le palier fer l elargit encore et ajoute un emplacement."
+			""
+			"&6&lCategorie:&r &fTonneaux"
+			""
+			"&e&l★ Astuce:&r &7Clic droit sur la face du tonneau, aucun espace requis au-dessus."
+		]
+	quest.2C87409D4C84359B.quest_subtitle: "&7Un bloc solide qui contient tout"
+	quest.2C87409D4C84359B.title: "&6&lTonneau en Fer"
+	quest.2C8A97ABBCB54ADB.quest_desc: [
+			"&5&lAmelioration de Pile"
+			"&8&m                            "
+			""
+			"&7Elle multiplie les piles par case du bloc de rangement par x32."
+			"&7Les ameliorations de pile se cumulent, montez les paliers en ordre."
+			""
+			"&5&lCategorie:&r &fCapacite de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations de capacite partagent l onglet d amelioration."
+		]
+	quest.2C8A97ABBCB54ADB.quest_subtitle: "&7Contenez x32 les piles par case"
+	quest.2C8A97ABBCB54ADB.title: "&5&lAmelioration de Pile"
 	quest.2C8E7C1304CA1AFB.quest_desc: ["Cherchez le Endermite. Capital tranquille."]
 	quest.2C8E7C1304CA1AFB.quest_subtitle: "Prise sincere : le Endermite."
 	quest.2C8E7C1304CA1AFB.title: "Endermite"
@@ -5899,9 +6289,19 @@
 	quest.2CE3E17995BC4081.quest_desc: ["Sortez le Piglin Brute de sa cache. Le chapitre a fait la moitie avec vous."]
 	quest.2CE3E17995BC4081.quest_subtitle: "Brique : le Piglin Brute."
 	quest.2CE3E17995BC4081.title: "Piglin Brute"
-	quest.2CE82497C62DC21F.quest_desc: ["Chassez le Advanced Deposit Upgrade. Vaut plus que son texte annonce."]
-	quest.2CE82497C62DC21F.quest_subtitle: "Saut econome : le Advanced Deposit Upgrade."
-	quest.2CE82497C62DC21F.title: "Advanced Deposit Upgrade"
+	quest.2CE82497C62DC21F.quest_desc: [
+			"&b&lAvance Depot Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle vide le sac a dos dans tout inventaire en clic droit accroupi."
+			"&7Ce modele avance ajoute plus de filtres et une plus grande portee."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.2CE82497C62DC21F.quest_subtitle: "&7Videz vite le sac dans un coffre, avec un controle accru"
+	quest.2CE82497C62DC21F.title: "&b&lAvance Depot Amelioration"
 	quest.2CEDE8036624EB86.quest_desc: [
 		"&c&lOutils en Cuivre"
 		"&8&m                            "
@@ -5983,9 +6383,19 @@
 	]
 	quest.2D1CBCEC82F1B37D.quest_subtitle: "&7Brulez du combustible solide en chaleur"
 	quest.2D1CBCEC82F1B37D.title: "&c&lChauffe-bois"
-	quest.2D5E17FA2F976235.quest_desc: ["Emportez le Smelting Upgrade. Regulier est rapide."]
-	quest.2D5E17FA2F976235.quest_subtitle: "Le Smelting Upgrade : clin d oeil du chapitre."
-	quest.2D5E17FA2F976235.title: "Smelting Upgrade"
+	quest.2D5E17FA2F976235.quest_desc: [
+			"&9&lFonte Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle ajoute un onglet four pour fondre directement depuis le bloc de rangement."
+			"&7Glissez-la dans l onglet d amelioration d un tonneau ou coffre."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.2D5E17FA2F976235.quest_subtitle: "&7Un four dans la poche"
+	quest.2D5E17FA2F976235.title: "&9&lFonte Amelioration"
 	quest.2DA37686B8A3D2A7.quest_desc: ["Bouclez le Zombie. Un barreau de plus a gravir."]
 	quest.2DA37686B8A3D2A7.quest_subtitle: "Mettez le Zombie en signet."
 	quest.2DA37686B8A3D2A7.title: "Zombie"
@@ -6152,9 +6562,19 @@
 	]
 	quest.2EC96B81D46D02DB.quest_subtitle: "&7Teleportez-vous a votre maison"
 	quest.2EC96B81D46D02DB.title: "&a/home"
-	quest.2F11568F631B0858.quest_desc: ["Saisissez le Stack Upgrade Tier 1. Capital tranquille."]
-	quest.2F11568F631B0858.quest_subtitle: "Prise vigilant : le Stack Upgrade Tier 1."
-	quest.2F11568F631B0858.title: "Stack Upgrade Tier 1"
+	quest.2F11568F631B0858.quest_desc: [
+			"&d&lAmelioration de Pile"
+			"&8&m                            "
+			""
+			"&7Elle multiplie les piles par case du sac a dos par x2."
+			"&7Les ameliorations de pile se cumulent, montez les paliers en ordre."
+			""
+			"&d&lCategorie:&r &fCapacite de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations de capacite partagent l onglet d amelioration."
+		]
+	quest.2F11568F631B0858.quest_subtitle: "&7Contenez x2 les piles par case"
+	quest.2F11568F631B0858.title: "&d&lAmelioration de Pile"
 	quest.2F11B6421E9C4E79.quest_desc: ["Le Hedge Spider : porteur, pas tonitruant. La route en apprend autant que la prise."]
 	quest.2F11B6421E9C4E79.quest_subtitle: "Notez le Hedge Spider comme fait."
 	quest.2F11B6421E9C4E79.title: "Hedge Spider"
@@ -6194,9 +6614,19 @@
 	quest.2F9FB2A0041C19A3.quest_desc: ["Rayez le Stray de votre liste. Vous avez merite une pause."]
 	quest.2F9FB2A0041C19A3.quest_subtitle: "Un pas econome vers le Stray."
 	quest.2F9FB2A0041C19A3.title: "Stray"
-	quest.2FAA2748773E70A2.quest_desc: ["Decrochez le Anvil Upgrade. Vaut plus que son texte annonce."]
-	quest.2FAA2748773E70A2.quest_subtitle: "Le detour Anvil Upgrade en vaut la peine."
-	quest.2FAA2748773E70A2.title: "Anvil Upgrade"
+	quest.2FAA2748773E70A2.quest_desc: [
+			"&b&lEnclume Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle ajoute un onglet enclume pour reparer et nommer en route."
+			"&7Glissez-la dans l onglet d amelioration d un sac libre."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.2FAA2748773E70A2.quest_subtitle: "&7Reparez votre equipement partout"
+	quest.2FAA2748773E70A2.title: "&b&lEnclume Amelioration"
 	quest.2FAB12983DEFEB93.quest_desc: ["Mettez le Zombie de cote. La porte suivante est en vue."]
 	quest.2FAB12983DEFEB93.quest_subtitle: "Empoche : le Zombie."
 	quest.2FAB12983DEFEB93.title: "Zombie"
@@ -6442,12 +6872,32 @@
 	quest.314804E481A8487C.quest_desc: ["Prenez le temps d obtenir le Umvuthana. Le calme bat la precipitation."]
 	quest.314804E481A8487C.quest_subtitle: "Un pas tempere vers le Umvuthana."
 	quest.314804E481A8487C.title: "Umvuthana"
-	quest.314E41E82F844459.quest_desc: ["On vous demande le Stonecutter Upgrade. Allez-y a votre rythme."]
-	quest.314E41E82F844459.quest_subtitle: "Empoche : le Stonecutter Upgrade."
-	quest.314E41E82F844459.title: "Stonecutter Upgrade"
-	quest.315287B0237F91F9.quest_desc: ["Gardez le Stack Downgrade Tier 1. Boule de neige a partir d ici."]
-	quest.315287B0237F91F9.quest_subtitle: "Emportez le Stack Downgrade Tier 1."
-	quest.315287B0237F91F9.title: "Stack Downgrade Tier 1"
+	quest.314E41E82F844459.quest_desc: [
+			"&9&lTailleur de Pierre Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle ajoute un onglet tailleur pour faconner la pierre dans le bloc de rangement."
+			"&7Glissez-la dans l onglet d amelioration d un tonneau ou coffre."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.314E41E82F844459.quest_subtitle: "&7Faconnez la pierre sur place"
+	quest.314E41E82F844459.title: "&9&lTailleur de Pierre Amelioration"
+	quest.315287B0237F91F9.quest_desc: [
+			"&d&lReduction de Pile"
+			"&8&m                            "
+			""
+			"&7Elle abaisse le nombre de piles que chaque case du sac a dos contient."
+			"&7Un outil de niche pour annuler une amelioration de pile."
+			""
+			"&d&lCategorie:&r &fCapacite de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations de capacite partagent l onglet d amelioration."
+		]
+	quest.315287B0237F91F9.quest_subtitle: "&7Reduisez les piles par case"
+	quest.315287B0237F91F9.title: "&d&lReduction de Pile"
 	quest.3158D412FFDF18B8.quest_desc: ["Bouclez le Warden. Un petit pas sur une longue route."]
 	quest.3158D412FFDF18B8.quest_subtitle: "Un Warden pour la route."
 	quest.3158D412FFDF18B8.title: "Warden"
@@ -6632,9 +7082,19 @@
 	quest.32ADD497C5C64827.quest_desc: ["Cueillez le Blaze. Les petites victoires s additionnent."]
 	quest.32ADD497C5C64827.quest_subtitle: "Notez le Blaze comme fait."
 	quest.32ADD497C5C64827.title: "Blaze"
-	quest.32B721940CE1A439.quest_desc: ["Rayez le Advanced Compacting Upgrade. Visez la chose d apres."]
-	quest.32B721940CE1A439.quest_subtitle: "Sur la route du Advanced Compacting Upgrade."
-	quest.32B721940CE1A439.title: "Advanced Compacting Upgrade"
+	quest.32B721940CE1A439.quest_desc: [
+			"&9&lAvance Compactage Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle compacte les objets du bloc de rangement en blocs ou en forme compressee."
+			"&7Ce modele avance ajoute plus de filtres et une plus grande portee."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.32B721940CE1A439.quest_subtitle: "&7Compressez le vrac en blocs nets, avec un controle accru"
+	quest.32B721940CE1A439.title: "&9&lAvance Compactage Amelioration"
 	quest.32B8F164E5630FFF.quest_desc: [
 		"&b&lEtabli du Macon"
 		"&8&m                            "
@@ -6708,9 +7168,19 @@
 	]
 	quest.33415CB421F7620A.quest_subtitle: "&7Triplez le minerai avec de l oxygene"
 	quest.33415CB421F7620A.title: "&a&lChambre de Purification"
-	quest.335357255C9398AD.quest_desc: ["Trouvez le Hopper Upgrade. Regulier est rapide."]
-	quest.335357255C9398AD.quest_subtitle: "Petit pas : le Hopper Upgrade."
-	quest.335357255C9398AD.title: "Hopper Upgrade"
+	quest.335357255C9398AD.quest_desc: [
+			"&9&lEntonnoir Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle tire les objets du bloc du dessus vers le bloc du dessous."
+			"&7Glissez-la dans l onglet d amelioration d un tonneau ou coffre."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.335357255C9398AD.quest_subtitle: "&7Faites transiter les objets"
+	quest.335357255C9398AD.title: "&9&lEntonnoir Amelioration"
 	quest.33682F4B44950123.quest_desc: [
 		"&3&lBuches d Archebois"
 		"&8&m                            "
@@ -7097,9 +7567,19 @@
 	quest.36E0E04BAEBC4895.quest_desc: ["Verrouillez le Vex. Le chapitre a fait la moitie avec vous."]
 	quest.36E0E04BAEBC4895.quest_subtitle: "Brique : le Vex."
 	quest.36E0E04BAEBC4895.title: "Vex"
-	quest.36E126551DFD0B05.quest_desc: ["Glissez le Stack Upgrade Tier 3 dans le dossier. Visez la chose d apres."]
-	quest.36E126551DFD0B05.quest_subtitle: "Objectif du jour : le Stack Upgrade Tier 3."
-	quest.36E126551DFD0B05.title: "Stack Upgrade Tier 3"
+	quest.36E126551DFD0B05.quest_desc: [
+			"&5&lAmelioration de Pile"
+			"&8&m                            "
+			""
+			"&7Elle multiplie les piles par case du bloc de rangement par x8."
+			"&7Les ameliorations de pile se cumulent, montez les paliers en ordre."
+			""
+			"&5&lCategorie:&r &fCapacite de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations de capacite partagent l onglet d amelioration."
+		]
+	quest.36E126551DFD0B05.quest_subtitle: "&7Contenez x8 les piles par case"
+	quest.36E126551DFD0B05.title: "&5&lAmelioration de Pile"
 	quest.36F45ECD8C10FC5F.quest_desc: [
 			"&e&lMarc de Raisin Blanc"
 			"&8&m                            "
@@ -7479,9 +7959,19 @@
 	quest.39E77B8E98397A51.quest_desc: ["Glissez le Giant Miner dans le dossier. Les runs patients gagnent."]
 	quest.39E77B8E98397A51.quest_subtitle: "Sur la route du Giant Miner."
 	quest.39E77B8E98397A51.title: "Giant Miner"
-	quest.39FBD82FCD8FD1E0.quest_desc: ["Le Advanced Magnet Upgrade : un barreau de plus. Visez la chose d apres."]
-	quest.39FBD82FCD8FD1E0.quest_subtitle: "Brique : le Advanced Magnet Upgrade."
-	quest.39FBD82FCD8FD1E0.title: "Advanced Magnet Upgrade"
+	quest.39FBD82FCD8FD1E0.quest_desc: [
+			"&9&lAvance Aimant Amelioration"
+			"&8&m                            "
+			""
+			"&7Il attire de loin les objets au sol directement dans le bloc de rangement."
+			"&7Ce modele avance ajoute plus de filtres et une plus grande portee."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.39FBD82FCD8FD1E0.quest_subtitle: "&7Attirez le butin de loin, avec un controle accru"
+	quest.39FBD82FCD8FD1E0.title: "&9&lAvance Aimant Amelioration"
 	quest.3A31F5C6EA2F23BC.quest_desc: ["Gagnez le Mutant Skeleton Arms. Un petit pas sur une longue route."]
 	quest.3A31F5C6EA2F23BC.quest_subtitle: "Le detour Mutant Skeleton Arms en vaut la peine."
 	quest.3A31F5C6EA2F23BC.title: "Mutant Skeleton Arms"
@@ -8147,9 +8637,20 @@
 	quest.3F3791D4E5BAF10E.quest_desc: ["Notez le Harbinger Cube comme acquis. Le chapitre tourne autour."]
 	quest.3F3791D4E5BAF10E.quest_subtitle: "Reservez le Harbinger Cube pour plus tard."
 	quest.3F3791D4E5BAF10E.title: "Harbinger Cube"
-	quest.3F3BCAF854FFDB42.quest_desc: ["Empochez le mission. Vaut le coup de noter."]
-	quest.3F3BCAF854FFDB42.quest_subtitle: "Brique : le mission."
-	quest.3F3BCAF854FFDB42.title: "Objective"
+	quest.3F3BCAF854FFDB42.quest_desc: [
+			"&6&lTonneau"
+			"&8&m                            "
+			""
+			"&7Un tonneau garde vos objets en un bloc solide et accepte des"
+			"&7ameliorations pour ramasser, trier, fondre et bien plus."
+			"&7Ce palier basique est le debut du voyage."
+			""
+			"&6&lCategorie:&r &fTonneaux"
+			""
+			"&e&l★ Astuce:&r &7Clic droit sur la face du tonneau, aucun espace requis au-dessus."
+		]
+	quest.3F3BCAF854FFDB42.quest_subtitle: "&7Un bloc solide qui contient tout"
+	quest.3F3BCAF854FFDB42.title: "&6&lTonneau"
 	quest.3F4B3994DE6D4F4F.quest_desc: ["Le Witch est le prochain pivot. Mis de cote pour plus tard."]
 	quest.3F4B3994DE6D4F4F.quest_subtitle: "Gagnez-le : le Witch."
 	quest.3F4B3994DE6D4F4F.title: "Witch"
@@ -8199,12 +8700,34 @@
 	]
 	quest.3FBF1980F33B9C9F.quest_subtitle: "&7Treillis de metal solide"
 	quest.3FBF1980F33B9C9F.title: "&6&lBarreaux de Fer"
-	quest.3FCF82DE54B6038F.quest_desc: ["Le crete : petit objet, vraie progression. La porte suivante est en vue."]
-	quest.3FCF82DE54B6038F.quest_subtitle: "Gagnez-le : le crete."
-	quest.3FCF82DE54B6038F.title: "Objective"
-	quest.3FD2E140744CA7DD.quest_desc: ["Chassez le Copper Backpack. Paye son propre fret."]
-	quest.3FD2E140744CA7DD.quest_subtitle: "Brique : le Copper Backpack."
-	quest.3FD2E140744CA7DD.title: "Copper Backpack"
+	quest.3FCF82DE54B6038F.quest_desc: [
+			"&e&lCoffre en Netherite"
+			"&8&m                            "
+			""
+			"&7Un coffre range vos objets et peut s ouvrir en paire pour"
+			"&7le double d espace, avec les memes emplacements d amelioration."
+			"&7Le palier netherite est le sommet, vaste et ignifuge."
+			""
+			"&e&lCategorie:&r &fCoffres"
+			""
+			"&e&l★ Astuce:&r &7Montez-le en palier plus tard avec une amelioration de palier."
+		]
+	quest.3FCF82DE54B6038F.quest_subtitle: "&7Un coffre classique, grandement ameliore"
+	quest.3FCF82DE54B6038F.title: "&e&lCoffre en Netherite"
+	quest.3FD2E140744CA7DD.quest_desc: [
+			"&a&lSac a Dos en Cuivre"
+			"&8&m                            "
+			""
+			"&7Un sac a dos se porte sur le dos et emporte votre inventaire"
+			"&7partout, avec son propre onglet d ameliorations."
+			"&7Le palier cuivre ajoute des rangees de cases."
+			""
+			"&a&lCategorie:&r &fSacs a Dos"
+			""
+			"&e&l★ Astuce:&r &7Ouvrez-le avec une touche ou posez-le et faites clic droit."
+		]
+	quest.3FD2E140744CA7DD.quest_subtitle: "&7Un rangement qui voyage avec vous"
+	quest.3FD2E140744CA7DD.title: "&a&lSac a Dos en Cuivre"
 	quest.3FD702B5AB006402.quest_desc: [
 		"&e&lCeinture de Levitation"
 		"&8&m                            "
@@ -8234,9 +8757,19 @@
 	]
 	quest.3FDA8E9EFFBA0427.quest_subtitle: "&7Le coeur de l equipement Netherite-Emerald."
 	quest.3FDA8E9EFFBA0427.title: "&a&lNetherite-Emerald Lingot"
-	quest.3FFB850F8F0B1200.quest_desc: ["Trouvez votre route vers le Feeding Upgrade. Porteur, pas voyant."]
-	quest.3FFB850F8F0B1200.quest_subtitle: "Petit pas : le Feeding Upgrade."
-	quest.3FFB850F8F0B1200.title: "Feeding Upgrade"
+	quest.3FFB850F8F0B1200.quest_desc: [
+			"&9&lAlimentation Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle vous nourrit avec la nourriture du bloc de rangement des que vous avez faim."
+			"&7Glissez-la dans l onglet d amelioration d un tonneau ou coffre."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.3FFB850F8F0B1200.quest_subtitle: "&7Ne mourez plus de faim en voyage"
+	quest.3FFB850F8F0B1200.title: "&9&lAlimentation Amelioration"
 	quest.4000000000000001.quest_desc: [
 		"&6&lMedaille de Victoire"
 		"&8&m                            "
@@ -8400,9 +8933,19 @@
 	quest.40DAAA391CD3F934.quest_desc: ["Rapportez le Mist Wolf. Vous vous remercierez plus tard."]
 	quest.40DAAA391CD3F934.quest_subtitle: "Empoche : le Mist Wolf."
 	quest.40DAAA391CD3F934.title: "Mist Wolf"
-	quest.40DEE20FC31A48C7.quest_desc: ["Ramenez le Pump Upgrade a la base. La tenue de comptes compte."]
-	quest.40DEE20FC31A48C7.quest_subtitle: "Mettez le Pump Upgrade en signet."
-	quest.40DEE20FC31A48C7.title: "Pump Upgrade"
+	quest.40DEE20FC31A48C7.quest_desc: [
+			"&b&lPompe Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle pompe les fluides entre le Reservoir et les blocs voisins."
+			"&7Glissez-la dans l onglet d amelioration d un sac libre."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.40DEE20FC31A48C7.quest_subtitle: "&7Deplacez les fluides"
+	quest.40DEE20FC31A48C7.title: "&b&lPompe Amelioration"
 	quest.40E8940C92668D4F.quest_desc: [
 		"&b&lProduction de Deuterium"
 		"&8&m                            "
@@ -8826,9 +9369,19 @@
 	quest.43E8912CB307E421.quest_desc: ["Notez le Grid comme acquis. Progres modulaire, petits pas."]
 	quest.43E8912CB307E421.quest_subtitle: "Petit pas : le Grid."
 	quest.43E8912CB307E421.title: "Grid"
-	quest.43F6864962F0F52A.quest_desc: ["Prenez possession du Smoking Upgrade. Une brique de plus dans un mur."]
-	quest.43F6864962F0F52A.quest_subtitle: "Sur la route du Smoking Upgrade."
-	quest.43F6864962F0F52A.title: "Smoking Upgrade"
+	quest.43F6864962F0F52A.quest_desc: [
+			"&9&lFumage Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle ajoute un onglet fumoir pour cuire la nourriture du bloc de rangement."
+			"&7Glissez-la dans l onglet d amelioration d un tonneau ou coffre."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.43F6864962F0F52A.quest_subtitle: "&7Un fumoir pour repas rapides"
+	quest.43F6864962F0F52A.title: "&9&lFumage Amelioration"
 	quest.43F806B63271BC3A.quest_desc: ["Prenez possession du Kobold. Progres modulaire, petits pas."]
 	quest.43F806B63271BC3A.quest_subtitle: "Le Kobold ouvre plus."
 	quest.43F806B63271BC3A.title: "Kobold"
@@ -9057,9 +9610,19 @@
 	]
 	quest.4533EF27201A9578.quest_subtitle: "&7Automatisez l XP et l enchantement"
 	quest.4533EF27201A9578.title: "&d&lIndustrie de l Enchantement"
-	quest.453A178684FEE8ED.quest_desc: ["Tirez le Filter Upgrade dans votre kit. Le chapitre tourne autour."]
-	quest.453A178684FEE8ED.quest_subtitle: "Sur la branche du Filter Upgrade."
-	quest.453A178684FEE8ED.title: "Filter Upgrade"
+	quest.453A178684FEE8ED.quest_desc: [
+			"&b&lFiltre Amelioration"
+			"&8&m                            "
+			""
+			"&7Il decide quels objets peuvent entrer ou sortir du sac a dos par tuyau."
+			"&7Glissez-la dans l onglet d amelioration d un sac libre."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.453A178684FEE8ED.quest_subtitle: "&7Maitrisez ce qui entre et sort"
+	quest.453A178684FEE8ED.title: "&b&lFiltre Amelioration"
 	quest.45400821B9216460.quest_desc: ["Gagnez le Endermite a la sueur du front. Vous avez merite une pause."]
 	quest.45400821B9216460.quest_subtitle: "Etape calme avec le Endermite."
 	quest.45400821B9216460.title: "Endermite"
@@ -9186,9 +9749,19 @@
 	]
 	quest.4615915B4FE7967F.quest_subtitle: "&7L obsidienne qui pleure du violet"
 	quest.4615915B4FE7967F.title: "&6&lObsidienne Pleureuse"
-	quest.462A89915E379594.quest_desc: ["Trouvez le Magnet Upgrade. Fait le pont entre l avant et l apres."]
-	quest.462A89915E379594.quest_subtitle: "Sur la branche du Magnet Upgrade."
-	quest.462A89915E379594.title: "Magnet Upgrade"
+	quest.462A89915E379594.quest_desc: [
+			"&b&lAimant Amelioration"
+			"&8&m                            "
+			""
+			"&7Il attire de loin les objets au sol directement dans le sac a dos."
+			"&7Glissez-la dans l onglet d amelioration d un sac libre."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.462A89915E379594.quest_subtitle: "&7Attirez le butin de loin"
+	quest.462A89915E379594.title: "&b&lAimant Amelioration"
 	quest.46469E3A8AF0CB80.quest_desc: [
 		"&d&lExtract Glyph"
 		"&8&m                            "
@@ -9244,9 +9817,19 @@
 	]
 	quest.4665E6FD0AAED164.quest_subtitle: "&7Gardez plus quand vous tombez"
 	quest.4665E6FD0AAED164.title: "&b&lCharme de Conservation II"
-	quest.46872503B100F38D.quest_desc: ["Pliez le Basic To Diamond Tier Upgrade. Le raccourci n est pas ici."]
-	quest.46872503B100F38D.quest_subtitle: "Decrochez le Basic To Diamond Tier Upgrade ce run."
-	quest.46872503B100F38D.title: "Basic To Diamond Tier Upgrade"
+	quest.46872503B100F38D.quest_desc: [
+			"&3&lAmelioration vers le Palier Diamant"
+			"&8&m                            "
+			""
+			"&7Elle monte un bloc de rangement au palier diamant, ajoutant"
+			"&7cases et place d amelioration sans tout reconstruire."
+			""
+			"&3&lCategorie:&r &fPaliers de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les paliers se cumulent, montez du cuivre jusqu a la netherite."
+		]
+	quest.46872503B100F38D.quest_subtitle: "&7Montez un bloc d un palier"
+	quest.46872503B100F38D.title: "&3&lAmelioration vers le Palier Diamant"
 	quest.46A77361C8CAFD11.quest_desc: ["Procurez-vous le Blockchain Goblin. Les runs patients gagnent."]
 	quest.46A77361C8CAFD11.quest_subtitle: "Run stoique, un seul Blockchain Goblin."
 	quest.46A77361C8CAFD11.title: "Blockchain Goblin"
@@ -9299,9 +9882,19 @@
 	quest.47B80CE376D06676.quest_desc: ["Enveloppez le Troll. Un barreau de plus a gravir."]
 	quest.47B80CE376D06676.quest_subtitle: "Un Troll, une victoire serein."
 	quest.47B80CE376D06676.title: "Troll"
-	quest.47D5BD33AE9B2EA7.quest_desc: ["Ajoutez le Stack Downgrade Tier 2 au dossier. Le chapitre tourne autour."]
-	quest.47D5BD33AE9B2EA7.quest_subtitle: "Sur la branche du Stack Downgrade Tier 2."
-	quest.47D5BD33AE9B2EA7.title: "Stack Downgrade Tier 2"
+	quest.47D5BD33AE9B2EA7.quest_desc: [
+			"&d&lReduction de Pile"
+			"&8&m                            "
+			""
+			"&7Elle abaisse le nombre de piles que chaque case du sac a dos contient."
+			"&7Un outil de niche pour annuler une amelioration de pile."
+			""
+			"&d&lCategorie:&r &fCapacite de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations de capacite partagent l onglet d amelioration."
+		]
+	quest.47D5BD33AE9B2EA7.quest_subtitle: "&7Reduisez les piles par case"
+	quest.47D5BD33AE9B2EA7.title: "&d&lReduction de Pile"
 	quest.47EBD49B34B70B3D.quest_desc: [
 		"&b&lBottes Enracinees"
 		"&8&m                            "
@@ -9410,9 +10003,19 @@
 	]
 	quest.4883B6604F008596.quest_subtitle: "&7Pressez, melangez, tranchez et extrudez"
 	quest.4883B6604F008596.title: "&b&lMachines de Traitement"
-	quest.488BCC5BB1A6318C.quest_desc: ["Ajoutez le Pump Upgrade au run. Une graine pour la boule de neige."]
-	quest.488BCC5BB1A6318C.quest_subtitle: "Emportez le Pump Upgrade."
-	quest.488BCC5BB1A6318C.title: "Pump Upgrade"
+	quest.488BCC5BB1A6318C.quest_desc: [
+			"&9&lPompe Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle pompe les fluides entre le Reservoir et les blocs voisins."
+			"&7Glissez-la dans l onglet d amelioration d un tonneau ou coffre."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.488BCC5BB1A6318C.quest_subtitle: "&7Deplacez les fluides"
+	quest.488BCC5BB1A6318C.title: "&9&lPompe Amelioration"
 	quest.488DBE69595F38F8.quest_desc: [
 		"&b&lFondoir Energise"
 		"&8&m                            "
@@ -9426,9 +10029,19 @@
 	]
 	quest.488DBE69595F38F8.quest_subtitle: "&7Un four electrique qui ne s arrete jamais"
 	quest.488DBE69595F38F8.title: "&b&lFondoir Energise"
-	quest.4893C2C0985652FB.quest_desc: ["Epinglez le Advanced Pump Upgrade a l inventaire. Visez la chose d apres."]
-	quest.4893C2C0985652FB.quest_subtitle: "Un Advanced Pump Upgrade, une victoire resolu."
-	quest.4893C2C0985652FB.title: "Advanced Pump Upgrade"
+	quest.4893C2C0985652FB.quest_desc: [
+			"&9&lAvance Pompe Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle pompe les fluides entre le Reservoir et les blocs voisins."
+			"&7Ce modele avance ajoute plus de filtres et une plus grande portee."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.4893C2C0985652FB.quest_subtitle: "&7Deplacez les fluides, avec un controle accru"
+	quest.4893C2C0985652FB.title: "&9&lAvance Pompe Amelioration"
 	quest.489833A2A6C39151.quest_desc: [
 		"&9&lCryomancer Robes"
 		"&8&m                            "
@@ -9774,9 +10387,19 @@
 	quest.4AE71214BE124BF8.quest_desc: ["Gagnez le Stray pas a pas. Porteur, pas voyant."]
 	quest.4AE71214BE124BF8.quest_subtitle: "Le Stray ouvre plus."
 	quest.4AE71214BE124BF8.title: "Stray"
-	quest.4AF52AB5170D6C44.quest_desc: ["Gagnez le Advanced Alchemy Upgrade. Boule de neige a partir d ici."]
-	quest.4AF52AB5170D6C44.quest_subtitle: "Reservez le Advanced Alchemy Upgrade pour plus tard."
-	quest.4AF52AB5170D6C44.title: "Advanced Alchemy Upgrade"
+	quest.4AF52AB5170D6C44.quest_desc: [
+			"&9&lAvance Alchimie Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle utilise seule potions, aliments a effet et lait du bloc de rangement."
+			"&7Ce modele avance ajoute plus de filtres et une plus grande portee."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.4AF52AB5170D6C44.quest_subtitle: "&7Effets appliques tout seuls, avec un controle accru"
+	quest.4AF52AB5170D6C44.title: "&9&lAvance Alchimie Amelioration"
 	quest.4AF76667693FE6D1.quest_desc: ["Tirez le Zombie Villager dans votre kit. Vous vous remercierez plus tard."]
 	quest.4AF76667693FE6D1.quest_subtitle: "Reservez le Zombie Villager pour plus tard."
 	quest.4AF76667693FE6D1.title: "Zombie Villager"
@@ -9809,9 +10432,19 @@
 	]
 	quest.4B35C01F5D0AAC58.quest_subtitle: "&7Un metal solide pour machines robustes"
 	quest.4B35C01F5D0AAC58.title: "&e&lLingot d Acier"
-	quest.4B47FFBF60C1B476.quest_desc: ["Le Paintbrush se paie tout seul. Mis de cote pour plus tard."]
-	quest.4B47FFBF60C1B476.quest_subtitle: "Le Paintbrush paye son chemin."
-	quest.4B47FFBF60C1B476.title: "Paintbrush"
+	quest.4B47FFBF60C1B476.quest_desc: [
+			"&2&lOutils de Rangement"
+			"&8&m                            "
+			""
+			"&7Le Pinceau recolore un bloc de rangement, tandis que l Outil"
+			"&7de Rangement regle ses options sans l ouvrir."
+			""
+			"&2&lCategorie:&r &fOutils et Decor"
+			""
+			"&e&l★ Astuce:&r &7Les deux rendent la gestion d un mur de rangement rapide."
+		]
+	quest.4B47FFBF60C1B476.quest_subtitle: "&7Le pinceau et l outil de rangement"
+	quest.4B47FFBF60C1B476.title: "&2&lOutils de Rangement"
 	quest.4B53D0523CB4A8ED.quest_desc: [
 		"&c&lGardien du Chateau"
 		"&8&m                            "
@@ -9826,9 +10459,20 @@
 	]
 	quest.4B53D0523CB4A8ED.quest_subtitle: "&7Conquerez le chateau final"
 	quest.4B53D0523CB4A8ED.title: "&c&lGardien du Chateau"
-	quest.4B5DBC05BAA38058.quest_desc: ["Emportez le borne. Le chapitre a fait la moitie avec vous."]
-	quest.4B5DBC05BAA38058.quest_subtitle: "Empoche : le borne."
-	quest.4B5DBC05BAA38058.title: "Objective"
+	quest.4B5DBC05BAA38058.quest_desc: [
+			"&e&lCoffre en Diamant"
+			"&8&m                            "
+			""
+			"&7Un coffre range vos objets et peut s ouvrir en paire pour"
+			"&7le double d espace, avec les memes emplacements d amelioration."
+			"&7Le palier diamant offre un grand inventaire et maintes ameliorations."
+			""
+			"&e&lCategorie:&r &fCoffres"
+			""
+			"&e&l★ Astuce:&r &7Montez-le en palier plus tard avec une amelioration de palier."
+		]
+	quest.4B5DBC05BAA38058.quest_subtitle: "&7Un coffre classique, grandement ameliore"
+	quest.4B5DBC05BAA38058.title: "&e&lCoffre en Diamant"
 	quest.4B6B06C9A92D41C1.quest_desc: ["Prenez le Piglin Brute. Le raccourci n est pas ici."]
 	quest.4B6B06C9A92D41C1.quest_subtitle: "Petit pas : le Piglin Brute."
 	quest.4B6B06C9A92D41C1.title: "Piglin Brute"
@@ -9870,9 +10514,19 @@
 	quest.4B86AB8C21478C17.quest_desc: ["Trouvez le Foliaath. Vous vous remercierez plus tard."]
 	quest.4B86AB8C21478C17.quest_subtitle: "Le detour Foliaath en vaut la peine."
 	quest.4B86AB8C21478C17.title: "Foliaath"
-	quest.4B92C913AE9EE345.quest_desc: ["Cherchez le Auto Smelting Upgrade. Vaut plus que son texte annonce."]
-	quest.4B92C913AE9EE345.quest_subtitle: "Reservez le Auto Smelting Upgrade pour plus tard."
-	quest.4B92C913AE9EE345.title: "Auto Smelting Upgrade"
+	quest.4B92C913AE9EE345.quest_desc: [
+			"&9&lFonte Auto Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle ajoute un onglet four qui fond les objets stockes tout seul."
+			"&7Glissez-la dans l onglet d amelioration d un tonneau ou coffre."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.4B92C913AE9EE345.quest_subtitle: "&7Fonte automatique en deplacement"
+	quest.4B92C913AE9EE345.title: "&9&lFonte Auto Amelioration"
 	quest.4B93942194AA2B86.quest_desc: ["Gagnez le Breeze pas a pas. Fait le pont entre l avant et l apres."]
 	quest.4B93942194AA2B86.quest_subtitle: "Le detour Breeze en vaut la peine."
 	quest.4B93942194AA2B86.title: "Breeze"
@@ -9905,9 +10559,19 @@
 	]
 	quest.4BAF44FCA0894DE8.quest_subtitle: "&7Irradiez les produits au soleil"
 	quest.4BAF44FCA0894DE8.title: "&b&lActivateur Neutronique Solaire"
-	quest.4BCC14615DA7CA1D.quest_desc: ["Saisissez le Advanced Filter Upgrade. Le detour en vaut la peine."]
-	quest.4BCC14615DA7CA1D.quest_subtitle: "Emportez le Advanced Filter Upgrade."
-	quest.4BCC14615DA7CA1D.title: "Advanced Filter Upgrade"
+	quest.4BCC14615DA7CA1D.quest_desc: [
+			"&9&lAvance Filtre Amelioration"
+			"&8&m                            "
+			""
+			"&7Il decide quels objets peuvent entrer ou sortir du bloc de rangement par tuyau."
+			"&7Ce modele avance ajoute plus de filtres et une plus grande portee."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.4BCC14615DA7CA1D.quest_subtitle: "&7Maitrisez ce qui entre et sort, avec un controle accru"
+	quest.4BCC14615DA7CA1D.title: "&9&lAvance Filtre Amelioration"
 	quest.4BDC9837B41FC2BC.quest_desc: [
 		"&a&lMoule a Engrenage"
 		"&8&m                            "
@@ -9927,9 +10591,19 @@
 	quest.4BE7D8238D0F4687.quest_desc: ["Cueillez le King Spider. Les petites victoires s additionnent."]
 	quest.4BE7D8238D0F4687.quest_subtitle: "Le King Spider est un point d etape."
 	quest.4BE7D8238D0F4687.title: "King Spider"
-	quest.4BF1E275D9E5199E.quest_desc: ["Attrapez le Stack Upgrade Tier 1. Faites confiance a la chaine."]
-	quest.4BF1E275D9E5199E.quest_subtitle: "Brique : le Stack Upgrade Tier 1."
-	quest.4BF1E275D9E5199E.title: "Stack Upgrade Tier 1"
+	quest.4BF1E275D9E5199E.quest_desc: [
+			"&5&lAmelioration de Pile"
+			"&8&m                            "
+			""
+			"&7Elle multiplie les piles par case du bloc de rangement par x2."
+			"&7Les ameliorations de pile se cumulent, montez les paliers en ordre."
+			""
+			"&5&lCategorie:&r &fCapacite de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations de capacite partagent l onglet d amelioration."
+		]
+	quest.4BF1E275D9E5199E.quest_subtitle: "&7Contenez x2 les piles par case"
+	quest.4BF1E275D9E5199E.title: "&5&lAmelioration de Pile"
 	quest.4C0B4F5148F144FC.quest_desc: ["Le Wither est le prochain pivot. Le progres tranquille bat les revers bruyants."]
 	quest.4C0B4F5148F144FC.quest_subtitle: "Mettez le Wither en signet."
 	quest.4C0B4F5148F144FC.title: "Wither"
@@ -10055,9 +10729,19 @@
 	quest.4CEA8FD33114B48F.quest_desc: ["Capturez le Carminite Ghastling. Boule de neige a partir d ici."]
 	quest.4CEA8FD33114B48F.quest_subtitle: "Un Carminite Ghastling pour la route."
 	quest.4CEA8FD33114B48F.title: "Carminite Ghastling"
-	quest.4CF71DB0F9B70978.quest_desc: ["Rayez le Magnet Upgrade. Le calme bat la precipitation."]
-	quest.4CF71DB0F9B70978.quest_subtitle: "Le Magnet Upgrade : porteur."
-	quest.4CF71DB0F9B70978.title: "Magnet Upgrade"
+	quest.4CF71DB0F9B70978.quest_desc: [
+			"&9&lAimant Amelioration"
+			"&8&m                            "
+			""
+			"&7Il attire de loin les objets au sol directement dans le bloc de rangement."
+			"&7Glissez-la dans l onglet d amelioration d un tonneau ou coffre."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.4CF71DB0F9B70978.quest_subtitle: "&7Attirez le butin de loin"
+	quest.4CF71DB0F9B70978.title: "&9&lAimant Amelioration"
 	quest.4D07B0A4A2E77CDA.quest_desc: [
 		"&6&lLarme de Ghast"
 		"&8&m                            "
@@ -10071,9 +10755,19 @@
 	]
 	quest.4D07B0A4A2E77CDA.quest_subtitle: "&7Augmentez la limite de monstres"
 	quest.4D07B0A4A2E77CDA.title: "&6&lLarme de Ghast"
-	quest.4D32DEA8354A4B99.quest_desc: ["Le Advanced Tool Swapper Upgrade est au menu. La tenue de comptes compte."]
-	quest.4D32DEA8354A4B99.quest_subtitle: "Notez le Advanced Tool Swapper Upgrade comme fait."
-	quest.4D32DEA8354A4B99.title: "Advanced Tool Swapper Upgrade"
+	quest.4D32DEA8354A4B99.quest_desc: [
+			"&b&lAvance Echangeur d Outils Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle echange l objet en main pour le bon outil quand vous frappez."
+			"&7Ce modele avance ajoute plus de filtres et une plus grande portee."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.4D32DEA8354A4B99.quest_subtitle: "&7Toujours le bon outil en main, avec un controle accru"
+	quest.4D32DEA8354A4B99.title: "&b&lAvance Echangeur d Outils Amelioration"
 	quest.4D3379D38237F830.quest_desc: [
 		"&b&lBottes Aquatiques"
 		"&8&m                            "
@@ -10135,9 +10829,19 @@
 	quest.4D5741BF80C749CF.quest_desc: ["Gardez le Breeze. Vaut le coup de noter."]
 	quest.4D5741BF80C749CF.quest_subtitle: "Etape calme avec le Breeze."
 	quest.4D5741BF80C749CF.title: "Breeze"
-	quest.4D5E53BF9FB3455F.quest_desc: ["Gagnez le Smithing Upgrade. Le raccourci n est pas ici."]
-	quest.4D5E53BF9FB3455F.quest_subtitle: "Etape calme avec le Smithing Upgrade."
-	quest.4D5E53BF9FB3455F.title: "Smithing Upgrade"
+	quest.4D5E53BF9FB3455F.quest_desc: [
+			"&b&lForge Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle ajoute un onglet forge pour ornes et ameliorer l armure."
+			"&7Glissez-la dans l onglet d amelioration d un sac libre."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.4D5E53BF9FB3455F.quest_subtitle: "&7Une forge dans le sac"
+	quest.4D5E53BF9FB3455F.title: "&b&lForge Amelioration"
 	quest.4D714C031C724199.quest_desc: ["Ajoutez le Piglin a votre attirail. Utile plus tot que prevu."]
 	quest.4D714C031C724199.quest_subtitle: "Cap aiguise : le Piglin."
 	quest.4D714C031C724199.title: "Piglin"
@@ -10195,9 +10899,19 @@
 	]
 	quest.4DF0D7B85065ADC9.quest_subtitle: "&7Recoltez la chair demoniaque"
 	quest.4DF0D7B85065ADC9.title: "&e&lCouteau de Boucher"
-	quest.4DFB78F17F3C9BF3.quest_desc: ["Emportez le Void Upgrade. Cap intermediaire."]
-	quest.4DFB78F17F3C9BF3.quest_subtitle: "Etape calme avec le Void Upgrade."
-	quest.4DFB78F17F3C9BF3.title: "Void Upgrade"
+	quest.4DFB78F17F3C9BF3.quest_desc: [
+			"&9&lDestruction Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle detruit tout objet marque dans son filtre des son arrivee."
+			"&7Glissez-la dans l onglet d amelioration d un tonneau ou coffre."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.4DFB78F17F3C9BF3.quest_subtitle: "&7Jetez les dechets a l arrivee"
+	quest.4DFB78F17F3C9BF3.title: "&9&lDestruction Amelioration"
 	quest.4E0976E1DAF65FC9.quest_desc: [
 		"&5&lBurrowing Ritual"
 		"&8&m                            "
@@ -10416,9 +11130,19 @@
 	]
 	quest.4F5FCEBB16B5B6F5.quest_subtitle: "&7Le Wither Glyph, un mot de magie"
 	quest.4F5FCEBB16B5B6F5.title: "&d&lWither Glyph"
-	quest.4F606E7A7B4CFB70.quest_desc: ["Glissez le Advanced Pump Upgrade dans le dossier. Capital tranquille."]
-	quest.4F606E7A7B4CFB70.quest_subtitle: "Un Advanced Pump Upgrade pour la route."
-	quest.4F606E7A7B4CFB70.title: "Advanced Pump Upgrade"
+	quest.4F606E7A7B4CFB70.quest_desc: [
+			"&b&lAvance Pompe Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle pompe les fluides entre le Reservoir et les blocs voisins."
+			"&7Ce modele avance ajoute plus de filtres et une plus grande portee."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.4F606E7A7B4CFB70.quest_subtitle: "&7Deplacez les fluides, avec un controle accru"
+	quest.4F606E7A7B4CFB70.title: "&b&lAvance Pompe Amelioration"
 	quest.4F66DF6B494BEFF3.quest_desc: [
 		"&a&lFocus de Carte Magique"
 		"&8&m                            "
@@ -10545,9 +11269,19 @@
 	quest.5014471AEFB94727.quest_desc: ["Repartez avec le Carminite Ghastling. La porte suivante est en vue."]
 	quest.5014471AEFB94727.quest_subtitle: "Gagnez le Carminite Ghastling, la voie tempere."
 	quest.5014471AEFB94727.title: "Carminite Ghastling"
-	quest.501CFE760784733D.quest_desc: ["Le Feeding Upgrade : un cap tranquille. Les runs patients gagnent."]
-	quest.501CFE760784733D.quest_subtitle: "Run humble, un seul Feeding Upgrade."
-	quest.501CFE760784733D.title: "Feeding Upgrade"
+	quest.501CFE760784733D.quest_desc: [
+			"&b&lAlimentation Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle vous nourrit avec la nourriture du sac a dos des que vous avez faim."
+			"&7Glissez-la dans l onglet d amelioration d un sac libre."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.501CFE760784733D.quest_subtitle: "&7Ne mourez plus de faim en voyage"
+	quest.501CFE760784733D.title: "&b&lAlimentation Amelioration"
 	quest.502D16D5531E4D61.quest_desc: ["Ajoutez le Stable Ice Core a votre journal. Cela compte."]
 	quest.502D16D5531E4D61.quest_subtitle: "Le detour Stable Ice Core en vaut la peine."
 	quest.502D16D5531E4D61.title: "Stable Ice Core"
@@ -10718,9 +11452,19 @@
 	]
 	quest.516E66BE01EE5B31.quest_subtitle: "&7Des tomes d enchant pour le combat"
 	quest.516E66BE01EE5B31.title: "&d&lTomes d Arme"
-	quest.517403575177D1CD.quest_desc: ["Prenez le temps d obtenir le Deposit Upgrade. Un barreau de plus a gravir."]
-	quest.517403575177D1CD.quest_subtitle: "Le Deposit Upgrade ouvre plus."
-	quest.517403575177D1CD.title: "Deposit Upgrade"
+	quest.517403575177D1CD.quest_desc: [
+			"&b&lDepot Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle vide le sac a dos dans tout inventaire en clic droit accroupi."
+			"&7Glissez-la dans l onglet d amelioration d un sac libre."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.517403575177D1CD.quest_subtitle: "&7Videz vite le sac dans un coffre"
+	quest.517403575177D1CD.title: "&b&lDepot Amelioration"
 	quest.517B91100C8E48E5.quest_desc: ["Gagnez le Vex loyalement. Modeste maintenant, puissant plus tard."]
 	quest.517B91100C8E48E5.quest_subtitle: "Un Vex pour la route."
 	quest.517B91100C8E48E5.title: "Vex"
@@ -10788,9 +11532,19 @@
 	]
 	quest.523DC411241B470A.quest_subtitle: "&7La Geode Shelf, une etagere magique"
 	quest.523DC411241B470A.title: "&b&lGeode Shelf"
-	quest.525DCF7A5C10DA9E.quest_desc: ["Suivez la piste du Pickup Upgrade. Continuez."]
-	quest.525DCF7A5C10DA9E.quest_subtitle: "Le detour Pickup Upgrade en vaut la peine."
-	quest.525DCF7A5C10DA9E.title: "Pickup Upgrade"
+	quest.525DCF7A5C10DA9E.quest_desc: [
+			"&9&lRamassage Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle fait que le bloc de rangement ramasse les objets au sol tout seul."
+			"&7Glissez-la dans l onglet d amelioration d un tonneau ou coffre."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.525DCF7A5C10DA9E.quest_subtitle: "&7Aspirez le butin sans lever le petit doigt"
+	quest.525DCF7A5C10DA9E.title: "&9&lRamassage Amelioration"
 	quest.526D81479D2E1C6F.quest_desc: ["Notez le Towerwood Borer comme obtenu. Visez la chose d apres."]
 	quest.526D81479D2E1C6F.quest_subtitle: "Un Towerwood Borer pour la route."
 	quest.526D81479D2E1C6F.title: "Towerwood Borer"
@@ -11261,9 +12015,20 @@
 	]
 	quest.575E405B270BBCBC.quest_subtitle: "&7Eliminez les creatures du crepuscule"
 	quest.575E405B270BBCBC.title: "&a&lChasseur Crepusculaire"
-	quest.5762DAEB4AB1C0AB.quest_desc: ["Acquerez le Diamond Backpack. Plus proche que la carte ne suggere."]
-	quest.5762DAEB4AB1C0AB.quest_subtitle: "Gagnez-le : le Diamond Backpack."
-	quest.5762DAEB4AB1C0AB.title: "Diamond Backpack"
+	quest.5762DAEB4AB1C0AB.quest_desc: [
+			"&a&lSac a Dos en Diamant"
+			"&8&m                            "
+			""
+			"&7Un sac a dos se porte sur le dos et emporte votre inventaire"
+			"&7partout, avec son propre onglet d ameliorations."
+			"&7Le palier diamant offre un grand inventaire et maintes ameliorations."
+			""
+			"&a&lCategorie:&r &fSacs a Dos"
+			""
+			"&e&l★ Astuce:&r &7Ouvrez-le avec une touche ou posez-le et faites clic droit."
+		]
+	quest.5762DAEB4AB1C0AB.quest_subtitle: "&7Un rangement qui voyage avec vous"
+	quest.5762DAEB4AB1C0AB.title: "&a&lSac a Dos en Diamant"
 	quest.5766C8B9E850C186.quest_desc: [
 		"&3&lChambre d Impregnation"
 		"&8&m                            "
@@ -11455,9 +12220,20 @@
 	quest.5912BA7896F8F089.quest_desc: ["Gagnez le Carminite Golem. Continuez."]
 	quest.5912BA7896F8F089.quest_subtitle: "Un pas tranquille vers le Carminite Golem."
 	quest.5912BA7896F8F089.title: "Carminite Golem"
-	quest.591530F202A85E14.quest_desc: ["Empochez le Netherite Backpack. Allez-y a votre rythme."]
-	quest.591530F202A85E14.quest_subtitle: "Un Netherite Backpack, une victoire ferme."
-	quest.591530F202A85E14.title: "Netherite Backpack"
+	quest.591530F202A85E14.quest_desc: [
+			"&a&lSac a Dos en Netherite"
+			"&8&m                            "
+			""
+			"&7Un sac a dos se porte sur le dos et emporte votre inventaire"
+			"&7partout, avec son propre onglet d ameliorations."
+			"&7Le palier netherite est le sommet, vaste et ignifuge."
+			""
+			"&a&lCategorie:&r &fSacs a Dos"
+			""
+			"&e&l★ Astuce:&r &7Ouvrez-le avec une touche ou posez-le et faites clic droit."
+		]
+	quest.591530F202A85E14.quest_subtitle: "&7Un rangement qui voyage avec vous"
+	quest.591530F202A85E14.title: "&a&lSac a Dos en Netherite"
 	quest.591DA03FFC7E109F.quest_desc: [
 		"&d&lOccultism"
 		"&8&m                                "
@@ -11526,9 +12302,19 @@
 	quest.599919B37F96ED6B.quest_desc: ["Empochez le Carminite Ghastguard. Modeste maintenant, puissant plus tard."]
 	quest.599919B37F96ED6B.quest_subtitle: "Prise perspicace : le Carminite Ghastguard."
 	quest.599919B37F96ED6B.title: "Carminite Ghastguard"
-	quest.599C2D93447A2AB0.quest_desc: ["Le Stack Upgrade Tier 4 : un point d etape utile. Mis de cote pour plus tard."]
-	quest.599C2D93447A2AB0.quest_subtitle: "Un Stack Upgrade Tier 4 pour la route."
-	quest.599C2D93447A2AB0.title: "Stack Upgrade Tier 4"
+	quest.599C2D93447A2AB0.quest_desc: [
+			"&5&lAmelioration de Pile"
+			"&8&m                            "
+			""
+			"&7Elle multiplie les piles par case du bloc de rangement par x16."
+			"&7Les ameliorations de pile se cumulent, montez les paliers en ordre."
+			""
+			"&5&lCategorie:&r &fCapacite de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations de capacite partagent l onglet d amelioration."
+		]
+	quest.599C2D93447A2AB0.quest_subtitle: "&7Contenez x16 les piles par case"
+	quest.599C2D93447A2AB0.title: "&5&lAmelioration de Pile"
 	quest.599FA8D2FBA2725D.quest_desc: ["Mettez le Drowned au chaud. Cap intermediaire."]
 	quest.599FA8D2FBA2725D.quest_subtitle: "Un Drowned pour la route."
 	quest.599FA8D2FBA2725D.title: "Drowned"
@@ -11768,9 +12554,19 @@
 	]
 	quest.5BA2B036717AC1D6.quest_subtitle: "&7Wraithfang, une lame legendaire unique"
 	quest.5BA2B036717AC1D6.title: "&d&lWraithfang"
-	quest.5BA6B0EBD15F4F49.quest_desc: ["Notez le Stack Upgrade Tier 4 comme acquis. Liste tot pour une raison."]
-	quest.5BA6B0EBD15F4F49.quest_subtitle: "Petit pas : le Stack Upgrade Tier 4."
-	quest.5BA6B0EBD15F4F49.title: "Stack Upgrade Tier 4"
+	quest.5BA6B0EBD15F4F49.quest_desc: [
+			"&d&lAmelioration de Pile"
+			"&8&m                            "
+			""
+			"&7Elle multiplie les piles par case du sac a dos par x16."
+			"&7Les ameliorations de pile se cumulent, montez les paliers en ordre."
+			""
+			"&d&lCategorie:&r &fCapacite de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations de capacite partagent l onglet d amelioration."
+		]
+	quest.5BA6B0EBD15F4F49.quest_subtitle: "&7Contenez x16 les piles par case"
+	quest.5BA6B0EBD15F4F49.title: "&d&lAmelioration de Pile"
 	quest.5BB155110168DF92.quest_desc: [
 		"&d&lFreeze Glyph"
 		"&8&m                            "
@@ -11816,9 +12612,19 @@
 	]
 	quest.5C3FF43CF16BCF30.quest_subtitle: "&7La pierre de l arcane"
 	quest.5C3FF43CF16BCF30.title: "&3&lPierre de Source"
-	quest.5C413945211CB7FC.quest_desc: ["Gagnez le Alchemy Upgrade. Paye son propre fret."]
-	quest.5C413945211CB7FC.quest_subtitle: "Un Alchemy Upgrade, une victoire regulier."
-	quest.5C413945211CB7FC.title: "Alchemy Upgrade"
+	quest.5C413945211CB7FC.quest_desc: [
+			"&9&lAlchimie Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle utilise seule potions, aliments a effet et lait du bloc de rangement."
+			"&7Glissez-la dans l onglet d amelioration d un tonneau ou coffre."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.5C413945211CB7FC.quest_subtitle: "&7Effets appliques tout seuls"
+	quest.5C413945211CB7FC.title: "&9&lAlchimie Amelioration"
 	quest.5C72E96AA51F783C.quest_desc: ["Cochez le Phantom. La chaine tient."]
 	quest.5C72E96AA51F783C.quest_subtitle: "Brique : le Phantom."
 	quest.5C72E96AA51F783C.title: "Phantom"
@@ -11841,9 +12647,19 @@
 	quest.5C7D80514579A09C.quest_desc: ["Mettez la main sur le Spider. Fait le pont entre l avant et l apres."]
 	quest.5C7D80514579A09C.quest_subtitle: "Etape calme avec le Spider."
 	quest.5C7D80514579A09C.title: "Spider"
-	quest.5C9D9962F2FA0E06.quest_desc: ["Notez le Advanced Compacting Upgrade comme acquis. Le detour en vaut la peine."]
-	quest.5C9D9962F2FA0E06.quest_subtitle: "Renforcez la chaine du Advanced Compacting Upgrade."
-	quest.5C9D9962F2FA0E06.title: "Advanced Compacting Upgrade"
+	quest.5C9D9962F2FA0E06.quest_desc: [
+			"&b&lAvance Compactage Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle compacte les objets du sac a dos en blocs ou en forme compressee."
+			"&7Ce modele avance ajoute plus de filtres et une plus grande portee."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.5C9D9962F2FA0E06.quest_subtitle: "&7Compressez le vrac en blocs nets, avec un controle accru"
+	quest.5C9D9962F2FA0E06.title: "&b&lAvance Compactage Amelioration"
 	quest.5CA9998DD0124142.quest_desc: ["Rayez le Mutant Skeleton Shoulder Pad. Paye son propre fret."]
 	quest.5CA9998DD0124142.quest_subtitle: "Sur la route du Mutant Skeleton Shoulder Pad."
 	quest.5CA9998DD0124142.title: "Mutant Skeleton Shoulder Pad"
@@ -11889,9 +12705,19 @@
 	quest.5D3F264B8D4C4C92.quest_desc: ["Gagnez le Piglin. Petite habitude, grand resultat."]
 	quest.5D3F264B8D4C4C92.quest_subtitle: "Mettez le Piglin en signet."
 	quest.5D3F264B8D4C4C92.title: "Piglin"
-	quest.5D4BF684FEF1B4AC.quest_desc: ["Le Advanced Pickup Upgrade ouvre plus de portes qu il n y parait. Fait le pont entre l avant et l apres."]
-	quest.5D4BF684FEF1B4AC.quest_subtitle: "Le Advanced Pickup Upgrade est un point d etape."
-	quest.5D4BF684FEF1B4AC.title: "Advanced Pickup Upgrade"
+	quest.5D4BF684FEF1B4AC.quest_desc: [
+			"&b&lAvance Ramassage Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle fait que le sac a dos ramasse les objets au sol tout seul."
+			"&7Ce modele avance ajoute plus de filtres et une plus grande portee."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.5D4BF684FEF1B4AC.quest_subtitle: "&7Aspirez le butin sans lever le petit doigt, avec un controle accru"
+	quest.5D4BF684FEF1B4AC.title: "&b&lAvance Ramassage Amelioration"
 	quest.5D6BAF806808102A.quest_desc: ["Glissez le Mosquito Swarm dans le dossier. Petite habitude, grand resultat."]
 	quest.5D6BAF806808102A.quest_subtitle: "Saut ferme : le Mosquito Swarm."
 	quest.5D6BAF806808102A.title: "Mosquito Swarm"
@@ -12681,9 +13507,19 @@
 	]
 	quest.630CB3AE62376C39.quest_subtitle: "&7Emberlash, une lame legendaire unique"
 	quest.630CB3AE62376C39.title: "&d&lEmberlash"
-	quest.63149ED8CAF67BAC.quest_desc: ["Gardez le Stack Upgrade Tier 2. Boule de neige a partir d ici."]
-	quest.63149ED8CAF67BAC.quest_subtitle: "Un pas prudent vers le Stack Upgrade Tier 2."
-	quest.63149ED8CAF67BAC.title: "Stack Upgrade Tier 2"
+	quest.63149ED8CAF67BAC.quest_desc: [
+			"&d&lAmelioration de Pile"
+			"&8&m                            "
+			""
+			"&7Elle multiplie les piles par case du sac a dos par x4."
+			"&7Les ameliorations de pile se cumulent, montez les paliers en ordre."
+			""
+			"&d&lCategorie:&r &fCapacite de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations de capacite partagent l onglet d amelioration."
+		]
+	quest.63149ED8CAF67BAC.quest_subtitle: "&7Contenez x4 les piles par case"
+	quest.63149ED8CAF67BAC.title: "&d&lAmelioration de Pile"
 	quest.632BC46928CC9A8C.quest_desc: [
 		"&e&lMiroir d Enchanteur"
 		"&8&m                            "
@@ -12838,12 +13674,32 @@
 	quest.6435AEDDD13247A0.quest_desc: ["Gagnez le Ravager a la sueur du front. Une brique de plus dans un mur."]
 	quest.6435AEDDD13247A0.quest_subtitle: "Notez le Ravager comme fait."
 	quest.6435AEDDD13247A0.title: "Ravager"
-	quest.6488D3F4747BB26B.quest_desc: ["Le Jukebox Upgrade marque un point d etape. Allez-y a votre rythme."]
-	quest.6488D3F4747BB26B.quest_subtitle: "Sur la route du Jukebox Upgrade."
-	quest.6488D3F4747BB26B.title: "Jukebox Upgrade"
-	quest.648B6590FEE16376.quest_desc: ["Cueillez le Advanced Jukebox Upgrade en passant. Vaut le coup de noter."]
-	quest.648B6590FEE16376.quest_subtitle: "Le Advanced Jukebox Upgrade est un point d etape."
-	quest.648B6590FEE16376.title: "Advanced Jukebox Upgrade"
+	quest.6488D3F4747BB26B.quest_desc: [
+			"&9&lJuke-box Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle change le bloc de rangement en juke-box portable pour vos disques."
+			"&7Glissez-la dans l onglet d amelioration d un tonneau ou coffre."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.6488D3F4747BB26B.quest_subtitle: "&7Emportez votre musique"
+	quest.6488D3F4747BB26B.title: "&9&lJuke-box Amelioration"
+	quest.648B6590FEE16376.quest_desc: [
+			"&b&lAvance Juke-box Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle change le sac a dos en juke-box portable pour vos disques."
+			"&7Ce modele avance ajoute plus de filtres et une plus grande portee."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.648B6590FEE16376.quest_subtitle: "&7Emportez votre musique, avec un controle accru"
+	quest.648B6590FEE16376.title: "&b&lAvance Juke-box Amelioration"
 	quest.64A8C40D5D1D2026.quest_desc: ["Empochez le Zombified Piglin. Progres modulaire, petits pas."]
 	quest.64A8C40D5D1D2026.quest_subtitle: "Le Zombified Piglin paye son chemin."
 	quest.64A8C40D5D1D2026.title: "Zombified Piglin"
@@ -12918,9 +13774,19 @@
 	]
 	quest.652A14E17DDE97E6.quest_subtitle: "&7Un grimoire au caractere unique"
 	quest.652A14E17DDE97E6.title: "&d&lDragonskin Spell Book"
-	quest.652F00825BC5D089.quest_desc: ["Integrez le Alchemy Upgrade. Allez-y a votre rythme."]
-	quest.652F00825BC5D089.quest_subtitle: "Gagnez le Alchemy Upgrade, la voie aiguise."
-	quest.652F00825BC5D089.title: "Alchemy Upgrade"
+	quest.652F00825BC5D089.quest_desc: [
+			"&b&lAlchimie Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle utilise seule potions, aliments a effet et lait du sac a dos."
+			"&7Glissez-la dans l onglet d amelioration d un sac libre."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.652F00825BC5D089.quest_subtitle: "&7Effets appliques tout seuls"
+	quest.652F00825BC5D089.title: "&b&lAlchimie Amelioration"
 	quest.6541A86B8A56C52C.quest_desc: [
 		"&b&lAvion Economique"
 		"&8&m                            "
@@ -12937,9 +13803,20 @@
 	quest.6560ED582669453A.quest_desc: ["Ramenez le Winter Wolf a bon port. Vous vous remercierez plus tard."]
 	quest.6560ED582669453A.quest_subtitle: "Ajoutez un Winter Wolf."
 	quest.6560ED582669453A.title: "Winter Wolf"
-	quest.65766D05E70BA60A.quest_desc: ["Gagnez le Gold Backpack. Porteur, pas voyant."]
-	quest.65766D05E70BA60A.quest_subtitle: "Le Gold Backpack est un point d etape."
-	quest.65766D05E70BA60A.title: "Gold Backpack"
+	quest.65766D05E70BA60A.quest_desc: [
+			"&a&lSac a Dos en Or"
+			"&8&m                            "
+			""
+			"&7Un sac a dos se porte sur le dos et emporte votre inventaire"
+			"&7partout, avec son propre onglet d ameliorations."
+			"&7Le palier or apporte encore plus de cases et d ameliorations."
+			""
+			"&a&lCategorie:&r &fSacs a Dos"
+			""
+			"&e&l★ Astuce:&r &7Ouvrez-le avec une touche ou posez-le et faites clic droit."
+		]
+	quest.65766D05E70BA60A.quest_subtitle: "&7Un rangement qui voyage avec vous"
+	quest.65766D05E70BA60A.title: "&a&lSac a Dos en Or"
 	quest.6581D4AF1A6DE230.quest_desc: [
 		"&5&lBougies Rituelles"
 		"&8&m                            "
@@ -13093,9 +13970,19 @@
 	quest.668E346EDCC67432.quest_desc: ["Prenez possession du Evoker. Les petites victoires s additionnent."]
 	quest.668E346EDCC67432.quest_subtitle: "Empoche : le Evoker."
 	quest.668E346EDCC67432.title: "Evoker"
-	quest.669742DD733553F2.quest_desc: ["Enveloppez le Stack Downgrade Tier 3. Capital tranquille."]
-	quest.669742DD733553F2.quest_subtitle: "Le Stack Downgrade Tier 3 paye son chemin."
-	quest.669742DD733553F2.title: "Stack Downgrade Tier 3"
+	quest.669742DD733553F2.quest_desc: [
+			"&d&lReduction de Pile"
+			"&8&m                            "
+			""
+			"&7Elle abaisse le nombre de piles que chaque case du sac a dos contient."
+			"&7Un outil de niche pour annuler une amelioration de pile."
+			""
+			"&d&lCategorie:&r &fCapacite de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations de capacite partagent l onglet d amelioration."
+		]
+	quest.669742DD733553F2.quest_subtitle: "&7Reduisez les piles par case"
+	quest.669742DD733553F2.title: "&d&lReduction de Pile"
 	quest.669D3CAC79F149F0.quest_desc: [
 		"&d&lBoussole Naturelle"
 		"&8&m                            "
@@ -13170,12 +14057,32 @@
 	]
 	quest.670468931286CFDE.quest_subtitle: "&7Ecrivez et depensez des sauts uniques"
 	quest.670468931286CFDE.title: "&d&lParchemins Vierge et de Warp"
-	quest.67116868F3376796.quest_desc: ["Ajoutez le Auto Smoking Upgrade a votre journal. Utile plus tot que prevu."]
-	quest.67116868F3376796.quest_subtitle: "Cap prudent : le Auto Smoking Upgrade."
-	quest.67116868F3376796.title: "Auto Smoking Upgrade"
-	quest.672E50D05CDA7361.quest_desc: ["Emportez le Stack Upgrade Tier 1 Plus. La porte suivante est en vue."]
-	quest.672E50D05CDA7361.quest_subtitle: "Renforcez la chaine du Stack Upgrade Tier 1 Plus."
-	quest.672E50D05CDA7361.title: "Stack Upgrade Tier 1 Plus"
+	quest.67116868F3376796.quest_desc: [
+			"&9&lFumage Auto Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle ajoute un onglet fumoir qui cuit la nourriture stockee seul."
+			"&7Glissez-la dans l onglet d amelioration d un tonneau ou coffre."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.67116868F3376796.quest_subtitle: "&7Nourriture cuite sans effort"
+	quest.67116868F3376796.title: "&9&lFumage Auto Amelioration"
+	quest.672E50D05CDA7361.quest_desc: [
+			"&5&lAmelioration de Pile"
+			"&8&m                            "
+			""
+			"&7Elle multiplie les piles par case du bloc de rangement par x3."
+			"&7Les ameliorations de pile se cumulent, montez les paliers en ordre."
+			""
+			"&5&lCategorie:&r &fCapacite de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations de capacite partagent l onglet d amelioration."
+		]
+	quest.672E50D05CDA7361.quest_subtitle: "&7Contenez x3 les piles par case"
+	quest.672E50D05CDA7361.title: "&5&lAmelioration de Pile"
 	quest.67308C5DDF4A10D2.quest_desc: [
 		"&9&lWandering Magician Robes"
 		"&8&m                            "
@@ -13233,9 +14140,19 @@
 	quest.6792D89E394F40D9.quest_desc: ["Sortez le Pillager de sa cache. Allez-y a votre rythme."]
 	quest.6792D89E394F40D9.quest_subtitle: "Notez le Pillager comme fait."
 	quest.6792D89E394F40D9.title: "Pillager"
-	quest.67948EA0C509E135.quest_desc: ["Rayez le Filter Upgrade. La tenue de comptes compte."]
-	quest.67948EA0C509E135.quest_subtitle: "Le Filter Upgrade paye son chemin."
-	quest.67948EA0C509E135.title: "Filter Upgrade"
+	quest.67948EA0C509E135.quest_desc: [
+			"&9&lFiltre Amelioration"
+			"&8&m                            "
+			""
+			"&7Il decide quels objets peuvent entrer ou sortir du bloc de rangement par tuyau."
+			"&7Glissez-la dans l onglet d amelioration d un tonneau ou coffre."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.67948EA0C509E135.quest_subtitle: "&7Maitrisez ce qui entre et sort"
+	quest.67948EA0C509E135.title: "&9&lFiltre Amelioration"
 	quest.6798C669890E4ABA.quest_desc: ["Prenez le temps d obtenir le Naga. Vaut le coup de noter."]
 	quest.6798C669890E4ABA.quest_subtitle: "Le Naga ouvre plus."
 	quest.6798C669890E4ABA.title: "Naga"
@@ -13575,9 +14492,19 @@
 	]
 	quest.69763C2E2F454A73.quest_subtitle: "&7Une rune d une ecole de sorts"
 	quest.69763C2E2F454A73.title: "&d&lFire Rune"
-	quest.697E4E3E199836F2.quest_desc: ["Glissez le Stack Upgrade Starter Tier dans le dossier. Allez-y a votre rythme."]
-	quest.697E4E3E199836F2.quest_subtitle: "Ajoutez un Stack Upgrade Starter Tier."
-	quest.697E4E3E199836F2.title: "Stack Upgrade Starter Tier"
+	quest.697E4E3E199836F2.quest_desc: [
+			"&d&lAmelioration de Pile"
+			"&8&m                            "
+			""
+			"&7Elle multiplie les piles par case du sac a dos par x1.5."
+			"&7Les ameliorations de pile se cumulent, montez les paliers en ordre."
+			""
+			"&d&lCategorie:&r &fCapacite de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations de capacite partagent l onglet d amelioration."
+		]
+	quest.697E4E3E199836F2.quest_subtitle: "&7Contenez x1.5 les piles par case"
+	quest.697E4E3E199836F2.title: "&d&lAmelioration de Pile"
 	quest.697E782DA20EDEFE.quest_desc: [
 		"&9&lArmure en Diamant"
 		"&8&m                            "
@@ -14004,9 +14931,19 @@
 	]
 	quest.6CD1720B76F47806.quest_subtitle: "&7Brulez du biocarburant renouvelable"
 	quest.6CD1720B76F47806.title: "&c&lBio-Generateur"
-	quest.6CE2F3286AE73CF3.quest_desc: ["Bouclez la tache du Blasting Upgrade. Progres modulaire, petits pas."]
-	quest.6CE2F3286AE73CF3.quest_subtitle: "Objectif du jour : le Blasting Upgrade."
-	quest.6CE2F3286AE73CF3.title: "Blasting Upgrade"
+	quest.6CE2F3286AE73CF3.quest_desc: [
+			"&9&lCalcination Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle ajoute un onglet haut-fourneau pour minerais et metaux du bloc de rangement."
+			"&7Glissez-la dans l onglet d amelioration d un tonneau ou coffre."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.6CE2F3286AE73CF3.quest_subtitle: "&7Un haut-fourneau pour le minerai"
+	quest.6CE2F3286AE73CF3.title: "&9&lCalcination Amelioration"
 	quest.6CE4905E305CD0BC.quest_desc: ["Le Bogged bloque la quete suivante. Le chapitre a fait la moitie avec vous."]
 	quest.6CE4905E305CD0BC.quest_subtitle: "Le Bogged paye son chemin."
 	quest.6CE4905E305CD0BC.title: "Bogged"
@@ -14052,9 +14989,19 @@
 	]
 	quest.6D09511D64DDC282.quest_subtitle: "&7Affrontez le gardien des profondeurs"
 	quest.6D09511D64DDC282.title: "&e&lLe Warden"
-	quest.6D13ECFBD49E7D0C.quest_desc: ["Le Compacting Upgrade marque un point d etape. La porte suivante est en vue."]
-	quest.6D13ECFBD49E7D0C.quest_subtitle: "Run alerte, un seul Compacting Upgrade."
-	quest.6D13ECFBD49E7D0C.title: "Compacting Upgrade"
+	quest.6D13ECFBD49E7D0C.quest_desc: [
+			"&b&lCompactage Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle compacte les objets du sac a dos en blocs ou en forme compressee."
+			"&7Glissez-la dans l onglet d amelioration d un sac libre."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.6D13ECFBD49E7D0C.quest_subtitle: "&7Compressez le vrac en blocs nets"
+	quest.6D13ECFBD49E7D0C.title: "&b&lCompactage Amelioration"
 	quest.6D1FA14D6488CB09.quest_desc: ["Gagnez le Carminite Broodling. Petite habitude, grand resultat."]
 	quest.6D1FA14D6488CB09.quest_subtitle: "Petit pas : le Carminite Broodling."
 	quest.6D1FA14D6488CB09.title: "Carminite Broodling"
@@ -14091,9 +15038,19 @@
 	]
 	quest.6D3A0BA54AA22403.quest_subtitle: "&7Tuyautez, pompez et vannez vos liquides"
 	quest.6D3A0BA54AA22403.title: "&3&lPlomberie de Fluides"
-	quest.6D8AA40A15536F01.quest_desc: ["Suivez la piste du Battery Upgrade. Boule de neige a partir d ici."]
-	quest.6D8AA40A15536F01.quest_subtitle: "Brique : le Battery Upgrade."
-	quest.6D8AA40A15536F01.title: "Battery Upgrade"
+	quest.6D8AA40A15536F01.quest_desc: [
+			"&b&lBatterie Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle change une partie du sac en batterie a energie."
+			"&7Glissez-la dans l onglet d amelioration d un sac libre."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.6D8AA40A15536F01.quest_subtitle: "&7Alimentez votre equipement"
+	quest.6D8AA40A15536F01.title: "&b&lBatterie Amelioration"
 	quest.6D8C9D7D9DF9A6DD.quest_desc: [
 		"&5&lChallenge Ritual"
 		"&8&m                            "
@@ -14298,9 +15255,19 @@
 	]
 	quest.6EF206A0BD5BAC0A.quest_subtitle: "&7Pour les affixes de grade epique"
 	quest.6EF206A0BD5BAC0A.title: "&6&lMateriau Epique"
-	quest.6F224EB3268066E3.quest_desc: ["Rapportez le Storage Io. Le detour en vaut la peine."]
-	quest.6F224EB3268066E3.quest_subtitle: "Prise serein : le Storage Io."
-	quest.6F224EB3268066E3.title: "Storage Io"
+	quest.6F224EB3268066E3.quest_desc: [
+			"&c&lReseau de Rangement"
+			"&8&m                            "
+			""
+			"&7Le Controleur, le Lien, l Entree, la Sortie et le bloc E/S"
+			"&7relient tonneaux et coffres en un seul reseau connecte."
+			""
+			"&c&lCategorie:&r &fReseau de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Batissez un mur de rangement, puis gerez tout depuis un ecran."
+		]
+	quest.6F224EB3268066E3.quest_subtitle: "&7Reliez vos rangements en un systeme"
+	quest.6F224EB3268066E3.title: "&c&lReseau de Rangement"
 	quest.6F245246B8B3B666.quest_desc: ["Decrochez le Mutant Skeleton Leggings. Les runs patients gagnent."]
 	quest.6F245246B8B3B666.quest_subtitle: "Cap lumineux : le Mutant Skeleton Leggings."
 	quest.6F245246B8B3B666.title: "Mutant Skeleton Leggings"
@@ -14604,9 +15571,19 @@
 	quest.70D842FB324840E7.quest_desc: ["Le Stable Ice Core se paie tout seul. Le detour en vaut la peine."]
 	quest.70D842FB324840E7.quest_subtitle: "Renforcez la chaine du Stable Ice Core."
 	quest.70D842FB324840E7.title: "Stable Ice Core"
-	quest.70E647BDF793B950.quest_desc: ["Gagnez le Tank Upgrade. Capital tranquille."]
-	quest.70E647BDF793B950.quest_subtitle: "Objectif du jour : le Tank Upgrade."
-	quest.70E647BDF793B950.title: "Tank Upgrade"
+	quest.70E647BDF793B950.quest_desc: [
+			"&b&lReservoir Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle change une partie du sac en reservoir a fluides."
+			"&7Glissez-la dans l onglet d amelioration d un sac libre."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.70E647BDF793B950.quest_subtitle: "&7Transportez eau, lave et plus"
+	quest.70E647BDF793B950.title: "&b&lReservoir Amelioration"
 	quest.70FB349702A60C2E.quest_desc: ["Prenez le temps d obtenir le Hostile Wolf. Le chapitre a fait la moitie avec vous."]
 	quest.70FB349702A60C2E.quest_subtitle: "Petit pas : le Hostile Wolf."
 	quest.70FB349702A60C2E.title: "Hostile Wolf"
@@ -14649,9 +15626,20 @@
 	quest.71321EF6599185A8.quest_desc: ["Glissez le Umvuthana Crane dans le dossier. Paye son propre fret."]
 	quest.71321EF6599185A8.quest_subtitle: "Le Umvuthana Crane : porteur."
 	quest.71321EF6599185A8.title: "Umvuthana Crane"
-	quest.7136AFD204CDC4BB.quest_desc: ["Prenez le temps d obtenir le but. La route en apprend autant que la prise."]
-	quest.7136AFD204CDC4BB.quest_subtitle: "Emportez le but."
-	quest.7136AFD204CDC4BB.title: "Objective"
+	quest.7136AFD204CDC4BB.quest_desc: [
+			"&e&lCoffre en Cuivre"
+			"&8&m                            "
+			""
+			"&7Un coffre range vos objets et peut s ouvrir en paire pour"
+			"&7le double d espace, avec les memes emplacements d amelioration."
+			"&7Le palier cuivre ajoute des rangees de cases."
+			""
+			"&e&lCategorie:&r &fCoffres"
+			""
+			"&e&l★ Astuce:&r &7Montez-le en palier plus tard avec une amelioration de palier."
+		]
+	quest.7136AFD204CDC4BB.quest_subtitle: "&7Un coffre classique, grandement ameliore"
+	quest.7136AFD204CDC4BB.title: "&e&lCoffre en Cuivre"
 	quest.7137994189AA4678.quest_desc: ["Verrouillez le Piglin. Vaut le coup de noter."]
 	quest.7137994189AA4678.quest_subtitle: "Le Piglin : clin d oeil du chapitre."
 	quest.7137994189AA4678.title: "Piglin"
@@ -14661,9 +15649,19 @@
 	quest.7158742C177A45B3.quest_desc: ["Le Mist Wolf : un point d etape utile. La tenue de comptes compte."]
 	quest.7158742C177A45B3.quest_subtitle: "Petit pas : le Mist Wolf."
 	quest.7158742C177A45B3.title: "Mist Wolf"
-	quest.7158E0DDBACCFB8F.quest_desc: ["Empochez le Compacting Upgrade. Faites confiance a la chaine."]
-	quest.7158E0DDBACCFB8F.quest_subtitle: "Sur la branche du Compacting Upgrade."
-	quest.7158E0DDBACCFB8F.title: "Compacting Upgrade"
+	quest.7158E0DDBACCFB8F.quest_desc: [
+			"&9&lCompactage Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle compacte les objets du bloc de rangement en blocs ou en forme compressee."
+			"&7Glissez-la dans l onglet d amelioration d un tonneau ou coffre."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.7158E0DDBACCFB8F.quest_subtitle: "&7Compressez le vrac en blocs nets"
+	quest.7158E0DDBACCFB8F.title: "&9&lCompactage Amelioration"
 	quest.7162EE6CCA3F4949.quest_desc: ["Tirez le Adherent dans votre kit. Les petites victoires s additionnent."]
 	quest.7162EE6CCA3F4949.quest_subtitle: "Sur la route du Adherent."
 	quest.7162EE6CCA3F4949.title: "Adherent"
@@ -14792,15 +15790,35 @@
 	]
 	quest.71F0E9C36AA02B46.quest_subtitle: "&7Un baton de feu et d ames"
 	quest.71F0E9C36AA02B46.title: "&e&lAppelle-Ames Cendreux"
-	quest.72525C12A18EB16F.quest_desc: ["Gagnez le Xp Pump Upgrade pas a pas. Cela compte."]
-	quest.72525C12A18EB16F.quest_subtitle: "Un Xp Pump Upgrade, une victoire regulier."
-	quest.72525C12A18EB16F.title: "Xp Pump Upgrade"
+	quest.72525C12A18EB16F.quest_desc: [
+			"&b&lPompe a Experience Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle pompe l experience entre le Reservoir et vous-meme."
+			"&7Glissez-la dans l onglet d amelioration d un sac libre."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.72525C12A18EB16F.quest_subtitle: "&7Mettez votre XP en reserve"
+	quest.72525C12A18EB16F.title: "&b&lPompe a Experience Amelioration"
 	quest.725D6F1BA23346D9.quest_desc: ["Cueillez le Vindicator. Mis de cote pour plus tard."]
 	quest.725D6F1BA23346D9.quest_subtitle: "Emportez le Vindicator."
 	quest.725D6F1BA23346D9.title: "Vindicator"
-	quest.7267097D64E98122.quest_desc: ["Le Advanced Magnet Upgrade fait partie de la chaine. Boule de neige a partir d ici."]
-	quest.7267097D64E98122.quest_subtitle: "Objectif du jour : le Advanced Magnet Upgrade."
-	quest.7267097D64E98122.title: "Advanced Magnet Upgrade"
+	quest.7267097D64E98122.quest_desc: [
+			"&b&lAvance Aimant Amelioration"
+			"&8&m                            "
+			""
+			"&7Il attire de loin les objets au sol directement dans le sac a dos."
+			"&7Ce modele avance ajoute plus de filtres et une plus grande portee."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.7267097D64E98122.quest_subtitle: "&7Attirez le butin de loin, avec un controle accru"
+	quest.7267097D64E98122.title: "&b&lAvance Aimant Amelioration"
 	quest.7270A37E31A70C91.quest_desc: [
 		"&d&lHoly Rune"
 		"&8&m                            "
@@ -15241,9 +16259,19 @@
 	]
 	quest.7509E4093010EA4C.quest_subtitle: "&7Des fleches qui ne ratent jamais"
 	quest.7509E4093010EA4C.title: "&e&lArc Chercheur"
-	quest.755DEA4A94154912.quest_desc: ["Rayez le Advanced Void Upgrade. Le chapitre a fait la moitie avec vous."]
-	quest.755DEA4A94154912.quest_subtitle: "Le detour Advanced Void Upgrade en vaut la peine."
-	quest.755DEA4A94154912.title: "Advanced Void Upgrade"
+	quest.755DEA4A94154912.quest_desc: [
+			"&9&lAvance Destruction Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle detruit tout objet marque dans son filtre des son arrivee."
+			"&7Ce modele avance ajoute plus de filtres et une plus grande portee."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.755DEA4A94154912.quest_subtitle: "&7Jetez les dechets a l arrivee, avec un controle accru"
+	quest.755DEA4A94154912.title: "&9&lAvance Destruction Amelioration"
 	quest.7560CC4988D57CD2.quest_desc: ["Ramenez le Kobold a bon port. Le calme bat la precipitation."]
 	quest.7560CC4988D57CD2.quest_subtitle: "Notez le Kobold comme fait."
 	quest.7560CC4988D57CD2.title: "Kobold"
@@ -15438,9 +16466,19 @@
 	quest.76EC1FA26264D436.quest_desc: ["Gagnez le Wraith. Modeste maintenant, puissant plus tard."]
 	quest.76EC1FA26264D436.quest_subtitle: "Un Wraith, une victoire resolu."
 	quest.76EC1FA26264D436.title: "Wraith"
-	quest.7706629B2DDE3065.quest_desc: ["Empochez le Xp Pump Upgrade. Cap intermediaire."]
-	quest.7706629B2DDE3065.quest_subtitle: "Un pas econome vers le Xp Pump Upgrade."
-	quest.7706629B2DDE3065.title: "Xp Pump Upgrade"
+	quest.7706629B2DDE3065.quest_desc: [
+			"&9&lPompe a Experience Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle pompe l experience entre le Reservoir et vous-meme."
+			"&7Glissez-la dans l onglet d amelioration d un tonneau ou coffre."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.7706629B2DDE3065.quest_subtitle: "&7Mettez votre XP en reserve"
+	quest.7706629B2DDE3065.title: "&9&lPompe a Experience Amelioration"
 	quest.77145113CD5B26FB.quest_desc: [
 		"&6&lMycelial Sourcelink"
 		"&8&m                            "
@@ -15470,9 +16508,19 @@
 	]
 	quest.7741905EA8380B25.quest_subtitle: "&7Preparez-vous a l inconnu"
 	quest.7741905EA8380B25.title: "&d&lModele de Forgeron"
-	quest.774834C8411CBB86.quest_desc: ["Gardez le Stonecutter Upgrade sur vous. Continuez."]
-	quest.774834C8411CBB86.quest_subtitle: "Prise delibere : le Stonecutter Upgrade."
-	quest.774834C8411CBB86.title: "Stonecutter Upgrade"
+	quest.774834C8411CBB86.quest_desc: [
+			"&b&lTailleur de Pierre Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle ajoute un onglet tailleur pour faconner la pierre dans le sac a dos."
+			"&7Glissez-la dans l onglet d amelioration d un sac libre."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.774834C8411CBB86.quest_subtitle: "&7Faconnez la pierre sur place"
+	quest.774834C8411CBB86.title: "&b&lTailleur de Pierre Amelioration"
 	quest.775059D0E45E4433.quest_desc: ["Rayez le Lower Goblin Knight. Liste tot pour une raison."]
 	quest.775059D0E45E4433.quest_subtitle: "Objectif du jour : le Lower Goblin Knight."
 	quest.775059D0E45E4433.title: "Lower Goblin Knight"
@@ -15508,9 +16556,19 @@
 	quest.777BFC0A71AC37AC.quest_desc: ["Ajoutez un Carminite Broodling aux reserves. Visez la chose d apres."]
 	quest.777BFC0A71AC37AC.quest_subtitle: "Un Carminite Broodling pour la route."
 	quest.777BFC0A71AC37AC.title: "Carminite Broodling"
-	quest.777F9AEC761209C2.quest_desc: ["Le Advanced Alchemy Upgrade ouvre plus de portes qu il n y parait. Les petites victoires s additionnent."]
-	quest.777F9AEC761209C2.quest_subtitle: "Le Advanced Alchemy Upgrade : porteur."
-	quest.777F9AEC761209C2.title: "Advanced Alchemy Upgrade"
+	quest.777F9AEC761209C2.quest_desc: [
+			"&b&lAvance Alchimie Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle utilise seule potions, aliments a effet et lait du sac a dos."
+			"&7Ce modele avance ajoute plus de filtres et une plus grande portee."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.777F9AEC761209C2.quest_subtitle: "&7Effets appliques tout seuls, avec un controle accru"
+	quest.777F9AEC761209C2.title: "&b&lAvance Alchimie Amelioration"
 	quest.777FDD68D7200045.quest_desc: ["Mettez le Ravager dans l inventaire. Utile plus tot que prevu."]
 	quest.777FDD68D7200045.quest_subtitle: "Petit pas : le Ravager."
 	quest.777FDD68D7200045.title: "Ravager"
@@ -15595,9 +16653,19 @@
 	]
 	quest.7846B7FFC3DD85C5.quest_subtitle: "&7La porte du Decaleur de Phase"
 	quest.7846B7FFC3DD85C5.title: "&5&lPort du SPS"
-	quest.784D5B30D3E1892D.quest_desc: ["Verrouillez le Auto Blasting Upgrade. Cela compte."]
-	quest.784D5B30D3E1892D.quest_subtitle: "Cap honnete : le Auto Blasting Upgrade."
-	quest.784D5B30D3E1892D.title: "Auto Blasting Upgrade"
+	quest.784D5B30D3E1892D.quest_desc: [
+			"&9&lCalcination Auto Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle ajoute un onglet haut-fourneau qui fond minerais et metaux seul."
+			"&7Glissez-la dans l onglet d amelioration d un tonneau ou coffre."
+			""
+			"&9&lCategorie:&r &fAmeliorations de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.784D5B30D3E1892D.quest_subtitle: "&7Minerais raffines automatiquement"
+	quest.784D5B30D3E1892D.title: "&9&lCalcination Auto Amelioration"
 	quest.784F7F2C04C5A60C.quest_desc: ["Ramenez le Naga a la base. Regulier est rapide."]
 	quest.784F7F2C04C5A60C.quest_subtitle: "Petit pas : le Naga."
 	quest.784F7F2C04C5A60C.title: "Naga"
@@ -15623,9 +16691,19 @@
 	quest.787415570026FFAA.quest_desc: ["Mettez le Fortune Upgrade dans l inventaire. La progression reguliere paie."]
 	quest.787415570026FFAA.quest_subtitle: "Gardez le Fortune Upgrade pour plus tard."
 	quest.787415570026FFAA.title: "Fortune Upgrade"
-	quest.7877B46C9B4E9B0F.quest_desc: ["Cherchez le Everlasting Upgrade. Une graine pour la boule de neige."]
-	quest.7877B46C9B4E9B0F.quest_subtitle: "Le Everlasting Upgrade ouvre plus."
-	quest.7877B46C9B4E9B0F.title: "Everlasting Upgrade"
+	quest.7877B46C9B4E9B0F.quest_desc: [
+			"&b&lEternel Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle rend le sac a dos indestructible, a l abri de la lave et du feu."
+			"&7Glissez-la dans l onglet d amelioration d un sac libre."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.7877B46C9B4E9B0F.quest_subtitle: "&7Un sac qui ne se perd jamais"
+	quest.7877B46C9B4E9B0F.title: "&b&lEternel Amelioration"
 	quest.78791F4DAE8DA1A8.quest_desc: ["Rapportez le Hedge Spider. Modeste maintenant, puissant plus tard."]
 	quest.78791F4DAE8DA1A8.quest_subtitle: "Brique : le Hedge Spider."
 	quest.78791F4DAE8DA1A8.title: "Hedge Spider"
@@ -15642,9 +16720,19 @@
 	]
 	quest.787A04639A74D85A.quest_subtitle: "&7Votre premiere vraie canne de pecheur"
 	quest.787A04639A74D85A.title: "&b&lCanne en Fer"
-	quest.7884B6A5F494A8C6.quest_desc: ["Notez le Auto Smoking Upgrade comme acquis. Petit rappel amical."]
-	quest.7884B6A5F494A8C6.quest_subtitle: "Le Auto Smoking Upgrade paye son chemin."
-	quest.7884B6A5F494A8C6.title: "Auto Smoking Upgrade"
+	quest.7884B6A5F494A8C6.quest_desc: [
+			"&b&lFumage Auto Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle ajoute un onglet fumoir qui cuit la nourriture stockee seul."
+			"&7Glissez-la dans l onglet d amelioration d un sac libre."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.7884B6A5F494A8C6.quest_subtitle: "&7Nourriture cuite sans effort"
+	quest.7884B6A5F494A8C6.title: "&b&lFumage Auto Amelioration"
 	quest.7893CEB32191C7C3.quest_desc: [
 		"&2&lAncre de Spawn"
 		"&8&m                            "
@@ -15826,9 +16914,19 @@
 	]
 	quest.79146466E43A2B99.quest_subtitle: "&7Le Flare Glyph, un mot de magie"
 	quest.79146466E43A2B99.title: "&d&lFlare Glyph"
-	quest.79218680D962D752.quest_desc: ["Le Stack Upgrade Tier 3 est le prochain pivot. Plus proche que la carte ne suggere."]
-	quest.79218680D962D752.quest_subtitle: "Le Stack Upgrade Tier 3 : clin d oeil du chapitre."
-	quest.79218680D962D752.title: "Stack Upgrade Tier 3"
+	quest.79218680D962D752.quest_desc: [
+			"&d&lAmelioration de Pile"
+			"&8&m                            "
+			""
+			"&7Elle multiplie les piles par case du sac a dos par x8."
+			"&7Les ameliorations de pile se cumulent, montez les paliers en ordre."
+			""
+			"&d&lCategorie:&r &fCapacite de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations de capacite partagent l onglet d amelioration."
+		]
+	quest.79218680D962D752.quest_subtitle: "&7Contenez x8 les piles par case"
+	quest.79218680D962D752.title: "&d&lAmelioration de Pile"
 	quest.792BAAEDB646A5F2.quest_desc: ["Prenez le temps d obtenir le Harbinger Cube. Liste tot pour une raison."]
 	quest.792BAAEDB646A5F2.quest_subtitle: "Le Harbinger Cube est un point d etape."
 	quest.792BAAEDB646A5F2.title: "Harbinger Cube"
@@ -15861,9 +16959,19 @@
 	quest.793D5E982E13483F.quest_desc: ["Empochez le Drowned. Modeste maintenant, puissant plus tard."]
 	quest.793D5E982E13483F.quest_subtitle: "Sur la route du Drowned."
 	quest.793D5E982E13483F.title: "Drowned"
-	quest.794C8876AAC5368D.quest_desc: ["Mettez le Crafting Upgrade de cote. Regulier est rapide."]
-	quest.794C8876AAC5368D.quest_subtitle: "Un pas perspicace vers le Crafting Upgrade."
-	quest.794C8876AAC5368D.title: "Crafting Upgrade"
+	quest.794C8876AAC5368D.quest_desc: [
+			"&b&lArtisanat Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle ajoute un onglet etabli, un plan de travail dans le sac a dos."
+			"&7Glissez-la dans l onglet d amelioration d un sac libre."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.794C8876AAC5368D.quest_subtitle: "&7Fabriquez ou que vous soyez"
+	quest.794C8876AAC5368D.title: "&b&lArtisanat Amelioration"
 	quest.794D6F9B8DB31E7D.quest_desc: [
 		"&e&lBaton de Glace"
 		"&8&m                            "
@@ -15912,9 +17020,19 @@
 	quest.798D392817F54B5D.quest_desc: ["Decrochez le Skeleton. Fait le pont entre l avant et l apres."]
 	quest.798D392817F54B5D.quest_subtitle: "Petit pas : le Skeleton."
 	quest.798D392817F54B5D.title: "Skeleton"
-	quest.798DFFA0A143058E.quest_desc: ["Le Basic Tier Upgrade fait partie de la chaine. Porteur, pas voyant."]
-	quest.798DFFA0A143058E.quest_subtitle: "Un Basic Tier Upgrade pour la route."
-	quest.798DFFA0A143058E.title: "Basic Tier Upgrade"
+	quest.798DFFA0A143058E.quest_desc: [
+			"&3&lAmelioration de Palier Basique"
+			"&8&m                            "
+			""
+			"&7Elle transforme un coffre ou tonneau ordinaire en sa"
+			"&7version sophistiquee, en gardant tout le contenu."
+			""
+			"&3&lCategorie:&r &fPaliers de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Inutile de vider le coffre, le contenu est conserve."
+		]
+	quest.798DFFA0A143058E.quest_subtitle: "&7Convertissez un coffre vanilla sur place"
+	quest.798DFFA0A143058E.title: "&3&lAmelioration de Palier Basique"
 	quest.79AF63E77AD70A93.quest_desc: [
 		"&a&lBibliotheques"
 		"&8&m                            "
@@ -16006,9 +17124,19 @@
 	quest.7A6EF332788B4E64.quest_desc: ["Glissez le Spider dans le dossier. Cap intermediaire."]
 	quest.7A6EF332788B4E64.quest_subtitle: "Le Spider est un point d etape."
 	quest.7A6EF332788B4E64.title: "Spider"
-	quest.7A8BCF4426EB62B9.quest_desc: ["Notez le Advanced Filter Upgrade comme obtenu. Modeste maintenant, puissant plus tard."]
-	quest.7A8BCF4426EB62B9.quest_subtitle: "Notez le Advanced Filter Upgrade comme fait."
-	quest.7A8BCF4426EB62B9.title: "Advanced Filter Upgrade"
+	quest.7A8BCF4426EB62B9.quest_desc: [
+			"&b&lAvance Filtre Amelioration"
+			"&8&m                            "
+			""
+			"&7Il decide quels objets peuvent entrer ou sortir du sac a dos par tuyau."
+			"&7Ce modele avance ajoute plus de filtres et une plus grande portee."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.7A8BCF4426EB62B9.quest_subtitle: "&7Maitrisez ce qui entre et sort, avec un controle accru"
+	quest.7A8BCF4426EB62B9.title: "&b&lAvance Filtre Amelioration"
 	quest.7A9AE63998BB41FF.quest_desc: [
 		"&6&lSucre"
 		"&8&m                            "
@@ -16302,9 +17430,19 @@
 	quest.7CC90B914D6FB6E8.quest_desc: ["Prenez le temps d obtenir le Spider. Liste tot pour une raison."]
 	quest.7CC90B914D6FB6E8.quest_subtitle: "Petit pas : le Spider."
 	quest.7CC90B914D6FB6E8.title: "Spider"
-	quest.7CCE71D831D8CAF1.quest_desc: ["Trouvez le Jukebox Upgrade. Modeste maintenant, puissant plus tard."]
-	quest.7CCE71D831D8CAF1.quest_subtitle: "Le Jukebox Upgrade est un point d etape."
-	quest.7CCE71D831D8CAF1.title: "Jukebox Upgrade"
+	quest.7CCE71D831D8CAF1.quest_desc: [
+			"&b&lJuke-box Amelioration"
+			"&8&m                            "
+			""
+			"&7Elle change le sac a dos en juke-box portable pour vos disques."
+			"&7Glissez-la dans l onglet d amelioration d un sac libre."
+			""
+			"&b&lCategorie:&r &fAmeliorations de Sac"
+			""
+			"&e&l★ Astuce:&r &7Les ameliorations vont dans l onglet dedie, s il reste de la place."
+		]
+	quest.7CCE71D831D8CAF1.quest_subtitle: "&7Emportez votre musique"
+	quest.7CCE71D831D8CAF1.title: "&b&lJuke-box Amelioration"
 	quest.7CDA5595099C024E.quest_desc: [
 		"&e&lHelice Amelioree"
 		"&8&m                            "
@@ -16363,9 +17501,19 @@
 	]
 	quest.7D156AB6897F7D89.quest_subtitle: "&7Waxweaver, une lame legendaire unique"
 	quest.7D156AB6897F7D89.title: "&d&lWaxweaver"
-	quest.7D17828D751065C1.quest_desc: ["Ramenez le Basic To Copper Tier Upgrade a la base. Petite habitude, grand resultat."]
-	quest.7D17828D751065C1.quest_subtitle: "Le Basic To Copper Tier Upgrade : porteur."
-	quest.7D17828D751065C1.title: "Basic To Copper Tier Upgrade"
+	quest.7D17828D751065C1.quest_desc: [
+			"&3&lAmelioration vers le Palier Cuivre"
+			"&8&m                            "
+			""
+			"&7Elle monte un bloc de rangement au palier cuivre, ajoutant"
+			"&7cases et place d amelioration sans tout reconstruire."
+			""
+			"&3&lCategorie:&r &fPaliers de Rangement"
+			""
+			"&e&l★ Astuce:&r &7Les paliers se cumulent, montez du cuivre jusqu a la netherite."
+		]
+	quest.7D17828D751065C1.quest_subtitle: "&7Montez un bloc d un palier"
+	quest.7D17828D751065C1.title: "&3&lAmelioration vers le Palier Cuivre"
 	quest.7D279FC39DA5C630.quest_desc: [
 		"&2&lAcide Fluorhydrique"
 		"&8&m                            "

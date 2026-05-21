@@ -317,9 +317,19 @@
 	]
 	quest.00D80AA4CDD8335C.quest_subtitle: "&7Holy plate for a battle mage"
 	quest.00D80AA4CDD8335C.title: "&9&lPaladin Chestplate"
-	quest.00E52E8C4BBC5E9B.quest_desc: ["Hold onto the Stack Upgrade Tier 2. One brick in a larger wall."]
-	quest.00E52E8C4BBC5E9B.quest_subtitle: "On the route to the Stack Upgrade Tier 2."
-	quest.00E52E8C4BBC5E9B.title: "Stack Upgrade Tier 2"
+	quest.00E52E8C4BBC5E9B.quest_desc: [
+			"&5&lStack Upgrade"
+			"&8&m                            "
+			""
+			"&7It multiplies how many stacks each slot of the storage block holds by x4."
+			"&7Stack upgrades build on each other, climb the tiers in order."
+			""
+			"&5&lCategory:&r &fStorage Capacity"
+			""
+			"&e&l★ Tip:&r &7Capacity upgrades share the upgrade tab with the others."
+		]
+	quest.00E52E8C4BBC5E9B.quest_subtitle: "&7Hold x4 the stacks per slot"
+	quest.00E52E8C4BBC5E9B.title: "&5&lStack Upgrade"
 	quest.00F6402CF15FF5CD.quest_desc: ["Get the Towerwood Borer sorted early. Pace yourself."]
 	quest.00F6402CF15FF5CD.quest_subtitle: "bright prize: the Towerwood Borer."
 	quest.00F6402CF15FF5CD.title: "Towerwood Borer"
@@ -474,9 +484,19 @@
 	quest.02843BEC215744D0.quest_desc: ["Cross the Piglin off your list. Friendly nudge."]
 	quest.02843BEC215744D0.quest_subtitle: "The Piglin: the chapter nudge."
 	quest.02843BEC215744D0.title: "Piglin"
-	quest.02A6A7A0D88B3F82.quest_desc: ["Find a way to the Crafting Upgrade. Tiny wins stack into runs."]
-	quest.02A6A7A0D88B3F82.quest_subtitle: "Add one Crafting Upgrade."
-	quest.02A6A7A0D88B3F82.title: "Crafting Upgrade"
+	quest.02A6A7A0D88B3F82.quest_desc: [
+			"&9&lCrafting Upgrade"
+			"&8&m                            "
+			""
+			"&7It adds a crafting table tab, a full workbench inside the storage block."
+			"&7Slot it into the upgrade tab of a barrel or chest."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.02A6A7A0D88B3F82.quest_subtitle: "&7Craft anywhere you stand"
+	quest.02A6A7A0D88B3F82.title: "&9&lCrafting Upgrade"
 	quest.02C20D2B7605CBC8.quest_desc: ["Stash the Carminite Broodling somewhere safe. The shortcut is not here."]
 	quest.02C20D2B7605CBC8.quest_subtitle: "On the route to the Carminite Broodling."
 	quest.02C20D2B7605CBC8.title: "Carminite Broodling"
@@ -506,9 +526,19 @@
 	]
 	quest.02E5E8D22DF49C31.quest_subtitle: "&7Weatherproof timber for industry"
 	quest.02E5E8D22DF49C31.title: "&e&lTreated Wood"
-	quest.0300307C7FB9E47C.quest_desc: ["Take time to obtain the Basic To Netherite Tier Upgrade. Small habit, big result."]
-	quest.0300307C7FB9E47C.quest_subtitle: "On the route to the Basic To Netherite Tier Upgrade."
-	quest.0300307C7FB9E47C.title: "Basic To Netherite Tier Upgrade"
+	quest.0300307C7FB9E47C.quest_desc: [
+			"&3&lNetherite Tier Upgrade"
+			"&8&m                            "
+			""
+			"&7It raises a storage block up to the netherite tier, adding more"
+			"&7slots and upgrade room without rebuilding it from scratch."
+			""
+			"&3&lCategory:&r &fStorage Tiers"
+			""
+			"&e&l★ Tip:&r &7Tier upgrades stack, climb from copper all the way to netherite."
+		]
+	quest.0300307C7FB9E47C.quest_subtitle: "&7Raise a storage block one tier"
+	quest.0300307C7FB9E47C.title: "&3&lNetherite Tier Upgrade"
 	quest.0306D25C7407FE88.quest_desc: [
 		"&b&lLaser Focus Matrix"
 		"&8&m                            "
@@ -853,9 +883,19 @@
 	quest.052A82D29CA9A028.quest_desc: ["Get yourself the Hedge Spider. Press on."]
 	quest.052A82D29CA9A028.quest_subtitle: "The Hedge Spider unlocks more."
 	quest.052A82D29CA9A028.title: "Hedge Spider"
-	quest.05457AD507E9CAF9.quest_desc: ["The Auto Blasting Upgrade: a useful checkpoint on this branch. Calm focus beats rushing."]
-	quest.05457AD507E9CAF9.quest_subtitle: "Worth the Auto Blasting Upgrade detour."
-	quest.05457AD507E9CAF9.title: "Auto Blasting Upgrade"
+	quest.05457AD507E9CAF9.quest_desc: [
+			"&b&lAuto-Blasting Upgrade"
+			"&8&m                            "
+			""
+			"&7It adds a blast furnace tab that smelts ores and metal on its own."
+			"&7Slot it into the upgrade tab of any backpack with room."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.05457AD507E9CAF9.quest_subtitle: "&7Ores refined automatically"
+	quest.05457AD507E9CAF9.title: "&b&lAuto-Blasting Upgrade"
 	quest.05510D11ABAA5C22.quest_desc: [
 		"&6&lRefined Storage"
 		"&8&m                                "
@@ -1144,9 +1184,19 @@
 	]
 	quest.073FD3884B2B11F7.quest_subtitle: "&7The Amplify Glyph, a word of magic"
 	quest.073FD3884B2B11F7.title: "&d&lAmplify Glyph"
-	quest.07436BF29A9339CC.quest_desc: ["Score the Advanced Void Upgrade. Modest now, mighty later."]
-	quest.07436BF29A9339CC.quest_subtitle: "The Advanced Void Upgrade is a checkpoint."
-	quest.07436BF29A9339CC.title: "Advanced Void Upgrade"
+	quest.07436BF29A9339CC.quest_desc: [
+			"&b&lAdvanced Void Upgrade"
+			"&8&m                            "
+			""
+			"&7It destroys any item you mark in its filter the instant it arrives."
+			"&7This advanced model adds more filter slots and greater reach."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.07436BF29A9339CC.quest_subtitle: "&7Throw out the junk on arrival, with finer control"
+	quest.07436BF29A9339CC.title: "&b&lAdvanced Void Upgrade"
 	quest.0744B2223618F9DE.quest_desc: ["Get the Carminite Ghastguard sorted early. The shortcut is not here."]
 	quest.0744B2223618F9DE.quest_subtitle: "Stash the Carminite Ghastguard for later."
 	quest.0744B2223618F9DE.title: "Carminite Ghastguard"
@@ -1175,9 +1225,20 @@
 	quest.076399D348AA54D5.quest_desc: ["Lock in the Wither. Worth pinning."]
 	quest.076399D348AA54D5.quest_subtitle: "Modest gain: the Wither."
 	quest.076399D348AA54D5.title: "Wither"
-	quest.078A67E1F6A18027.quest_desc: ["Get the cue sorted early. Press on."]
-	quest.078A67E1F6A18027.quest_subtitle: "Earn the cue, the spry way."
-	quest.078A67E1F6A18027.title: "Objective"
+	quest.078A67E1F6A18027.quest_desc: [
+			"&e&lChest"
+			"&8&m                            "
+			""
+			"&7A chest stores your items and can be opened in pairs for a"
+			"&7double the space, with the same rich upgrade slots."
+			"&7This first quest also grants a tier upgrade to grow it."
+			""
+			"&e&lCategory:&r &fChests"
+			""
+			"&e&l★ Tip:&r &7Tier it up later with a tier upgrade instead of rebuilding."
+		]
+	quest.078A67E1F6A18027.quest_subtitle: "&7Your first chest and its first upgrade"
+	quest.078A67E1F6A18027.title: "&e&lChest"
 	quest.078B69E9362A5496.quest_desc: [
 		"&2&lUranium Gas Chain"
 		"&8&m                            "
@@ -1628,9 +1689,20 @@
 	]
 	quest.0A7D2C9BB684C539.quest_subtitle: "&7Netherite, compressed and stored."
 	quest.0A7D2C9BB684C539.title: "&5&lNetherite Block"
-	quest.0A93D938DB277BC1.quest_desc: ["Carry the step with you. Pace yourself."]
-	quest.0A93D938DB277BC1.quest_subtitle: "tempered prize: the step."
-	quest.0A93D938DB277BC1.title: "Objective"
+	quest.0A93D938DB277BC1.quest_desc: [
+			"&e&lGold Chest"
+			"&8&m                            "
+			""
+			"&7A chest stores your items and can be opened in pairs for a"
+			"&7double the space, with the same rich upgrade slots."
+			"&7The gold tier brings still more slots and upgrade room."
+			""
+			"&e&lCategory:&r &fChests"
+			""
+			"&e&l★ Tip:&r &7Tier it up later with a tier upgrade instead of rebuilding."
+		]
+	quest.0A93D938DB277BC1.quest_subtitle: "&7A classic chest, vastly improved"
+	quest.0A93D938DB277BC1.title: "&e&lGold Chest"
 	quest.0A993CDB83671E89.quest_desc: [
 		"&d&lLivyatan"
 		"&8&m                            "
@@ -1757,9 +1829,20 @@
 	quest.0C15FBA4BF9C4EBA.quest_desc: ["Bank the Umvuthana Crane. Modest now, mighty later."]
 	quest.0C15FBA4BF9C4EBA.quest_subtitle: "The Umvuthana Crane unlocks more."
 	quest.0C15FBA4BF9C4EBA.title: "Umvuthana Crane"
-	quest.0C256F7C80318051.quest_desc: ["Stamp the target into your dossier. Load-bearing, not flashy."]
-	quest.0C256F7C80318051.quest_subtitle: "One target, one ready win."
-	quest.0C256F7C80318051.title: "Objective"
+	quest.0C256F7C80318051.quest_desc: [
+			"&6&lNetherite Barrel"
+			"&8&m                            "
+			""
+			"&7A barrel holds your items in a single solid block, and accepts"
+			"&7upgrades to make it pick up, sort, smelt and far more."
+			"&7The netherite tier is the peak, vast and fireproof."
+			""
+			"&6&lCategory:&r &fBarrels"
+			""
+			"&e&l★ Tip:&r &7Right-click the barrel face to open it, no space above needed."
+		]
+	quest.0C256F7C80318051.quest_subtitle: "&7A solid block that holds it all"
+	quest.0C256F7C80318051.title: "&6&lNetherite Barrel"
 	quest.0C3657D2C7A9DFFF.quest_desc: ["The Zombie: small object, real progress. Worth more than its tooltip says."]
 	quest.0C3657D2C7A9DFFF.quest_subtitle: "Quiet milestone with the Zombie."
 	quest.0C3657D2C7A9DFFF.title: "Zombie"
@@ -1791,9 +1874,19 @@
 	quest.0CC163F16EB84134.quest_desc: ["The Piglin is a quiet milestone. Worth pinning."]
 	quest.0CC163F16EB84134.quest_subtitle: "On the route to the Piglin."
 	quest.0CC163F16EB84134.title: "Piglin"
-	quest.0CC9E05DAB1B684D.quest_desc: ["Take possession of the Tool Swapper Upgrade. Press on."]
-	quest.0CC9E05DAB1B684D.quest_subtitle: "diligent prize: the Tool Swapper Upgrade."
-	quest.0CC9E05DAB1B684D.title: "Tool Swapper Upgrade"
+	quest.0CC9E05DAB1B684D.quest_desc: [
+			"&b&lTool Swapper Upgrade"
+			"&8&m                            "
+			""
+			"&7It swaps your held item for the right tool when you hit a block."
+			"&7Slot it into the upgrade tab of any backpack with room."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.0CC9E05DAB1B684D.quest_subtitle: "&7Always the right tool in hand"
+	quest.0CC9E05DAB1B684D.title: "&b&lTool Swapper Upgrade"
 	quest.0CCFE947AC5A60F9.quest_desc: [
 		"&6&lHeavy Crossbow"
 		"&8&m                            "
@@ -2147,9 +2240,19 @@
 	quest.0F8F6164164F1246.quest_desc: ["Bag the Snow Guardian. Friendly nudge."]
 	quest.0F8F6164164F1246.quest_subtitle: "bright milestone: the Snow Guardian."
 	quest.0F8F6164164F1246.title: "Snow Guardian"
-	quest.0F910828BE6A5866.quest_desc: ["Bring back the Advanced Hopper Upgrade. Load-bearing, not flashy."]
-	quest.0F910828BE6A5866.quest_subtitle: "Tiny step: the Advanced Hopper Upgrade."
-	quest.0F910828BE6A5866.title: "Advanced Hopper Upgrade"
+	quest.0F910828BE6A5866.quest_desc: [
+			"&9&lAdvanced Hopper Upgrade"
+			"&8&m                            "
+			""
+			"&7It pulls items from the block above and pushes them to the block below."
+			"&7This advanced model adds more filter slots and greater reach."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.0F910828BE6A5866.quest_subtitle: "&7Move items through the storage, with finer control"
+	quest.0F910828BE6A5866.title: "&9&lAdvanced Hopper Upgrade"
 	quest.0FB58187938E4545.quest_desc: ["Take the Slime Beetle. Calm focus beats rushing."]
 	quest.0FB58187938E4545.quest_subtitle: "One Slime Beetle, one deliberate win."
 	quest.0FB58187938E4545.title: "Slime Beetle"
@@ -2490,9 +2593,19 @@
 	]
 	quest.11391BE41D1BD209.quest_subtitle: "&7Helmet of the Netherite-Diamond set."
 	quest.11391BE41D1BD209.title: "&b&lNetherite-Diamond Helmet"
-	quest.114734CC270E9618.quest_desc: ["Bag the Pickup Upgrade. Calm focus beats rushing."]
-	quest.114734CC270E9618.quest_subtitle: "ready run, single Pickup Upgrade."
-	quest.114734CC270E9618.title: "Pickup Upgrade"
+	quest.114734CC270E9618.quest_desc: [
+			"&b&lPickup Upgrade"
+			"&8&m                            "
+			""
+			"&7It makes the backpack pick up items off the ground all on its own."
+			"&7Slot it into the upgrade tab of any backpack with room."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.114734CC270E9618.quest_subtitle: "&7Hoover up loot without lifting a finger"
+	quest.114734CC270E9618.title: "&b&lPickup Upgrade"
 	quest.1165078CE2454382.quest_desc: ["Take possession of the Minotaur. Closer than the map suggests."]
 	quest.1165078CE2454382.quest_subtitle: "Pocketed: the Minotaur."
 	quest.1165078CE2454382.title: "Minotaur"
@@ -2890,9 +3003,20 @@
 	quest.147A70AD6E9B4933.quest_desc: ["Pick up the Hostile Wolf. Next door is in sight."]
 	quest.147A70AD6E9B4933.quest_subtitle: "The Hostile Wolf is a checkpoint."
 	quest.147A70AD6E9B4933.title: "Hostile Wolf"
-	quest.1486F1A123B7FE84.quest_desc: ["The target marks a checkpoint. Modular progress, small steps."]
-	quest.1486F1A123B7FE84.quest_subtitle: "Pocketed: the target."
-	quest.1486F1A123B7FE84.title: "Objective"
+	quest.1486F1A123B7FE84.quest_desc: [
+			"&6&lDiamond Barrel"
+			"&8&m                            "
+			""
+			"&7A barrel holds your items in a single solid block, and accepts"
+			"&7upgrades to make it pick up, sort, smelt and far more."
+			"&7The diamond tier offers a huge inventory and many upgrades."
+			""
+			"&6&lCategory:&r &fBarrels"
+			""
+			"&e&l★ Tip:&r &7Right-click the barrel face to open it, no space above needed."
+		]
+	quest.1486F1A123B7FE84.quest_subtitle: "&7A solid block that holds it all"
+	quest.1486F1A123B7FE84.title: "&6&lDiamond Barrel"
 	quest.148A33CC36B2563A.quest_desc: [
 		"&b&lDraconic Endshelf"
 		"&8&m                            "
@@ -2906,9 +3030,20 @@
 	]
 	quest.148A33CC36B2563A.quest_subtitle: "&7The Draconic Endshelf, an enchanting shelf"
 	quest.148A33CC36B2563A.title: "&b&lDraconic Endshelf"
-	quest.14A6E252C45F83B8.quest_desc: ["Cross the mark off your list. Load-bearing, not flashy."]
-	quest.14A6E252C45F83B8.quest_subtitle: "The mark unlocks more."
-	quest.14A6E252C45F83B8.title: "Objective"
+	quest.14A6E252C45F83B8.quest_desc: [
+			"&6&lCopper Barrel"
+			"&8&m                            "
+			""
+			"&7A barrel holds your items in a single solid block, and accepts"
+			"&7upgrades to make it pick up, sort, smelt and far more."
+			"&7The copper tier adds extra rows of slots."
+			""
+			"&6&lCategory:&r &fBarrels"
+			""
+			"&e&l★ Tip:&r &7Right-click the barrel face to open it, no space above needed."
+		]
+	quest.14A6E252C45F83B8.quest_subtitle: "&7A solid block that holds it all"
+	quest.14A6E252C45F83B8.title: "&6&lCopper Barrel"
 	quest.14C42151931BEFFE.quest_desc: ["Earn the Cave Spider step by step. Halfway done with you."]
 	quest.14C42151931BEFFE.quest_subtitle: "Snag the Cave Spider this run."
 	quest.14C42151931BEFFE.title: "Cave Spider"
@@ -3011,9 +3146,19 @@
 	]
 	quest.159400BA9B7E3B04.quest_subtitle: "&7Move freely under the sea"
 	quest.159400BA9B7E3B04.title: "&3&lNeptunium Leggings"
-	quest.15B439C8A1A3C406.quest_desc: ["Hunt down the Smoking Upgrade. Trust the chain."]
-	quest.15B439C8A1A3C406.quest_subtitle: "Today goal: the Smoking Upgrade."
-	quest.15B439C8A1A3C406.title: "Smoking Upgrade"
+	quest.15B439C8A1A3C406.quest_desc: [
+			"&b&lSmoking Upgrade"
+			"&8&m                            "
+			""
+			"&7It adds a smoker tab for cooking food straight from the backpack."
+			"&7Slot it into the upgrade tab of any backpack with room."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.15B439C8A1A3C406.quest_subtitle: "&7A smoker for quick meals"
+	quest.15B439C8A1A3C406.title: "&b&lSmoking Upgrade"
 	quest.15EB768946D64062.quest_desc: ["Stockpile the Giant Miner. Steady is fast."]
 	quest.15EB768946D64062.quest_subtitle: "wary run, single Giant Miner."
 	quest.15EB768946D64062.title: "Giant Miner"
@@ -3110,9 +3255,19 @@
 	]
 	quest.162CE44400A63575.quest_subtitle: "&7Infuse metals into new materials"
 	quest.162CE44400A63575.title: "&b&lMetallurgic Infuser"
-	quest.164FCDB100A13305.quest_desc: ["The Advanced Jukebox Upgrade is gating the next quest. Quiet capital."]
-	quest.164FCDB100A13305.quest_subtitle: "Tiny step: the Advanced Jukebox Upgrade."
-	quest.164FCDB100A13305.title: "Advanced Jukebox Upgrade"
+	quest.164FCDB100A13305.quest_desc: [
+			"&9&lAdvanced Jukebox Upgrade"
+			"&8&m                            "
+			""
+			"&7It turns the storage block into a portable jukebox for your music discs."
+			"&7This advanced model adds more filter slots and greater reach."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.164FCDB100A13305.quest_subtitle: "&7Carry your music with you, with finer control"
+	quest.164FCDB100A13305.title: "&9&lAdvanced Jukebox Upgrade"
 	quest.16524DC7A36FA0FE.quest_desc: ["Earn the Blockchain Goblin. Worth more than the tooltip says. Worth the detour."]
 	quest.16524DC7A36FA0FE.quest_subtitle: "Tiny step: the Blockchain Goblin."
 	quest.16524DC7A36FA0FE.title: "Blockchain Goblin"
@@ -3164,9 +3319,20 @@
 	quest.1685089248C740DC.quest_desc: ["Wrap up the Witch. The chain holds."]
 	quest.1685089248C740DC.quest_subtitle: "The Witch is a checkpoint."
 	quest.1685089248C740DC.title: "Witch"
-	quest.16B385D341F3531F.quest_desc: ["Secure the target before moving deeper. Future you will thank present you."]
-	quest.16B385D341F3531F.quest_subtitle: "On the route to the target."
-	quest.16B385D341F3531F.title: "Objective"
+	quest.16B385D341F3531F.quest_desc: [
+			"&e&lIron Chest"
+			"&8&m                            "
+			""
+			"&7A chest stores your items and can be opened in pairs for a"
+			"&7double the space, with the same rich upgrade slots."
+			"&7The iron tier widens it further and adds an upgrade slot."
+			""
+			"&e&lCategory:&r &fChests"
+			""
+			"&e&l★ Tip:&r &7Tier it up later with a tier upgrade instead of rebuilding."
+		]
+	quest.16B385D341F3531F.quest_subtitle: "&7A classic chest, vastly improved"
+	quest.16B385D341F3531F.title: "&e&lIron Chest"
 	quest.16C47409C0A411EF.quest_desc: [
 		"&d&lFangs Glyph"
 		"&8&m                            "
@@ -3193,9 +3359,19 @@
 	]
 	quest.16C74B5F99AD6724.quest_subtitle: "&7The base affix material"
 	quest.16C74B5F99AD6724.title: "&6&lCommon Material"
-	quest.16CFF9B064E42D83.quest_desc: ["Pack the Decoration Table. Quiet capital."]
-	quest.16CFF9B064E42D83.quest_subtitle: "Bookmark the Decoration Table."
-	quest.16CFF9B064E42D83.title: "Decoration Table"
+	quest.16CFF9B064E42D83.quest_desc: [
+			"&2&lDecoration Table"
+			"&8&m                            "
+			""
+			"&7The Decoration Table lets you reskin a barrel or chest with"
+			"&7custom materials, trims and colors of your choosing."
+			""
+			"&2&lCategory:&r &fTools and Decor"
+			""
+			"&e&l★ Tip:&r &7Function never changes, only the look. Build a storage room with style."
+		]
+	quest.16CFF9B064E42D83.quest_subtitle: "&7Restyle your storage to taste"
+	quest.16CFF9B064E42D83.title: "&2&lDecoration Table"
 	quest.16D1378EDE2A4DE2.quest_desc: ["Score the Harbinger Cube. Trust the chain."]
 	quest.16D1378EDE2A4DE2.quest_subtitle: "Mark the Harbinger Cube done."
 	quest.16D1378EDE2A4DE2.title: "Harbinger Cube"
@@ -3250,15 +3426,35 @@
 	quest.17483FAD1DEFF9E6.quest_desc: ["Earn the Adherent step by step. A seed for the snowball."]
 	quest.17483FAD1DEFF9E6.quest_subtitle: "earnest prize: the Adherent."
 	quest.17483FAD1DEFF9E6.title: "Adherent"
-	quest.17695C65B1ED3CD4.quest_desc: ["Earn the Inception Upgrade. Modular progress, small steps."]
-	quest.17695C65B1ED3CD4.quest_subtitle: "Bookmark the Inception Upgrade."
-	quest.17695C65B1ED3CD4.title: "Inception Upgrade"
+	quest.17695C65B1ED3CD4.quest_desc: [
+			"&b&lInception Upgrade"
+			"&8&m                            "
+			""
+			"&7It lets you store other backpacks inside this backpack."
+			"&7Slot it into the upgrade tab of any backpack with room."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.17695C65B1ED3CD4.quest_subtitle: "&7A backpack inside a backpack"
+	quest.17695C65B1ED3CD4.title: "&b&lInception Upgrade"
 	quest.17762975BEAF4625.quest_desc: ["Snag the Warden. Counts."]
 	quest.17762975BEAF4625.quest_subtitle: "Today goal: the Warden."
 	quest.17762975BEAF4625.title: "Warden"
-	quest.1794FC7503686B9A.quest_desc: ["Pull the Basic To Iron Tier Upgrade from where it hides. Calm focus beats rushing."]
-	quest.1794FC7503686B9A.quest_subtitle: "Bookmark the Basic To Iron Tier Upgrade."
-	quest.1794FC7503686B9A.title: "Basic To Iron Tier Upgrade"
+	quest.1794FC7503686B9A.quest_desc: [
+			"&3&lIron Tier Upgrade"
+			"&8&m                            "
+			""
+			"&7It raises a storage block up to the iron tier, adding more"
+			"&7slots and upgrade room without rebuilding it from scratch."
+			""
+			"&3&lCategory:&r &fStorage Tiers"
+			""
+			"&e&l★ Tip:&r &7Tier upgrades stack, climb from copper all the way to netherite."
+		]
+	quest.1794FC7503686B9A.quest_subtitle: "&7Raise a storage block one tier"
+	quest.1794FC7503686B9A.title: "&3&lIron Tier Upgrade"
 	quest.1796E08BBDC09B84.quest_desc: [
 		"&2&lDynamic Tank"
 		"&8&m                            "
@@ -3444,9 +3640,19 @@
 	quest.18FC884DB14888E3.quest_desc: ["Stockpile the Umvuthana Mask Faith. Calm focus beats rushing."]
 	quest.18FC884DB14888E3.quest_subtitle: "Earn it: the Umvuthana Mask Faith."
 	quest.18FC884DB14888E3.title: "Umvuthana Mask Faith"
-	quest.1908C8D1B4D6A02F.quest_desc: ["Hold onto the Compression Upgrade. Next door is in sight."]
-	quest.1908C8D1B4D6A02F.quest_subtitle: "Build out the Compression Upgrade chain."
-	quest.1908C8D1B4D6A02F.title: "Compression Upgrade"
+	quest.1908C8D1B4D6A02F.quest_desc: [
+			"&9&lCompression Upgrade"
+			"&8&m                            "
+			""
+			"&7It automatically compresses and decompresses items in the storage block."
+			"&7Slot it into the upgrade tab of a barrel or chest."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.1908C8D1B4D6A02F.quest_subtitle: "&7Items packed and unpacked on their own"
+	quest.1908C8D1B4D6A02F.title: "&9&lCompression Upgrade"
 	quest.190AAD16CCBF42C5.quest_desc: [
 		"&e&lPropeller"
 		"&8&m                            "
@@ -3566,9 +3772,19 @@
 	quest.19765B99FCDBC16E.quest_desc: ["The Helmet Crab is gating the next quest. Snowballs after this."]
 	quest.19765B99FCDBC16E.quest_subtitle: "On the route to the Helmet Crab."
 	quest.19765B99FCDBC16E.title: "Helmet Crab"
-	quest.199B9FC85D5715C0.quest_desc: ["Score one Restock Upgrade. Modest now, mighty later."]
-	quest.199B9FC85D5715C0.quest_subtitle: "The Restock Upgrade is a checkpoint."
-	quest.199B9FC85D5715C0.title: "Restock Upgrade"
+	quest.199B9FC85D5715C0.quest_desc: [
+			"&b&lRestock Upgrade"
+			"&8&m                            "
+			""
+			"&7It refills the backpack from any inventory you sneak right-click."
+			"&7Slot it into the upgrade tab of any backpack with room."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.199B9FC85D5715C0.quest_subtitle: "&7Top the pack back up in one click"
+	quest.199B9FC85D5715C0.title: "&b&lRestock Upgrade"
 	quest.19AA7C29308A8916.quest_desc: ["Bring the Skeleton home. Worth pinning."]
 	quest.19AA7C29308A8916.quest_subtitle: "Snag the Skeleton this run."
 	quest.19AA7C29308A8916.title: "Skeleton"
@@ -3598,9 +3814,19 @@
 	]
 	quest.19D02325579F2AA8.quest_subtitle: "&7The Volcanic Sourcelink, a source generator"
 	quest.19D02325579F2AA8.title: "&6&lVolcanic Sourcelink"
-	quest.19D58B8C5DA30356.quest_desc: ["Hunt down the Smelting Upgrade. Snowballs after this."]
-	quest.19D58B8C5DA30356.quest_subtitle: "Build out the Smelting Upgrade chain."
-	quest.19D58B8C5DA30356.title: "Smelting Upgrade"
+	quest.19D58B8C5DA30356.quest_desc: [
+			"&b&lSmelting Upgrade"
+			"&8&m                            "
+			""
+			"&7It adds a furnace tab so you can smelt straight from the backpack."
+			"&7Slot it into the upgrade tab of any backpack with room."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.19D58B8C5DA30356.quest_subtitle: "&7A furnace in your pocket"
+	quest.19D58B8C5DA30356.title: "&b&lSmelting Upgrade"
 	quest.19E38E542A7A2CEC.quest_desc: [
 		"&e&lWorm Farm"
 		"&8&m                            "
@@ -3633,9 +3859,19 @@
 	quest.1A33804E4A844270.quest_desc: ["Earn the Maze Slime. Worth pinning."]
 	quest.1A33804E4A844270.quest_subtitle: "wary milestone: the Maze Slime."
 	quest.1A33804E4A844270.title: "Maze Slime"
-	quest.1A3B88961713D9A6.quest_desc: ["Mark the Advanced Feeding Upgrade done. Soft milestone."]
-	quest.1A3B88961713D9A6.quest_subtitle: "Modest gain: the Advanced Feeding Upgrade."
-	quest.1A3B88961713D9A6.title: "Advanced Feeding Upgrade"
+	quest.1A3B88961713D9A6.quest_desc: [
+			"&9&lAdvanced Feeding Upgrade"
+			"&8&m                            "
+			""
+			"&7It feeds you food from the storage block the moment you grow hungry."
+			"&7This advanced model adds more filter slots and greater reach."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.1A3B88961713D9A6.quest_subtitle: "&7Never starve on an adventure, with finer control"
+	quest.1A3B88961713D9A6.title: "&9&lAdvanced Feeding Upgrade"
 	quest.1A3CFDBAC3684605.quest_desc: ["Pick up the Iron Golem. Press on."]
 	quest.1A3CFDBAC3684605.quest_subtitle: "Today goal: the Iron Golem."
 	quest.1A3CFDBAC3684605.title: "Iron Golem"
@@ -3955,9 +4191,20 @@
 	]
 	quest.1D6C2786A1B7411D.quest_subtitle: "&7Weave wool into rich patterns"
 	quest.1D6C2786A1B7411D.title: "&b&lThe Loom Table"
-	quest.1D713A58E17C2C32.quest_desc: ["Note the mark acquired. Future you will thank present you."]
-	quest.1D713A58E17C2C32.quest_subtitle: "A quiet step toward the mark."
-	quest.1D713A58E17C2C32.title: "Objective"
+	quest.1D713A58E17C2C32.quest_desc: [
+			"&a&lBackpack"
+			"&8&m                            "
+			""
+			"&7A backpack rides on your back and carries your inventory"
+			"&7wherever you roam, with a tab of upgrades all its own."
+			"&7This basic tier is where the journey starts."
+			""
+			"&a&lCategory:&r &fBackpacks"
+			""
+			"&e&l★ Tip:&r &7Open it with a key or place it down and right-click."
+		]
+	quest.1D713A58E17C2C32.quest_subtitle: "&7Storage that travels with you"
+	quest.1D713A58E17C2C32.title: "&a&lBackpack"
 	quest.1D7A5CDF78214F60.quest_desc: [
 		"&d&lMagiblade"
 		"&8&m                            "
@@ -4657,9 +4904,19 @@
 	quest.228F74717D24495E.quest_desc: ["Find the Hedge Spider. Patient runs win."]
 	quest.228F74717D24495E.quest_subtitle: "The Hedge Spider: load-bearing."
 	quest.228F74717D24495E.title: "Hedge Spider"
-	quest.22B9A980939DFEDF.quest_desc: ["Earn the Stack Upgrade Omega Tier step by step. Pace yourself."]
-	quest.22B9A980939DFEDF.quest_subtitle: "Quiet milestone with the Stack Upgrade Omega Tier."
-	quest.22B9A980939DFEDF.title: "Stack Upgrade Omega Tier"
+	quest.22B9A980939DFEDF.quest_desc: [
+			"&d&lStack Upgrade"
+			"&8&m                            "
+			""
+			"&7It multiplies how many stacks each slot of the backpack holds by the maximum."
+			"&7Stack upgrades build on each other, climb the tiers in order."
+			""
+			"&d&lCategory:&r &fBackpack Capacity"
+			""
+			"&e&l★ Tip:&r &7Capacity upgrades share the upgrade tab with the others."
+		]
+	quest.22B9A980939DFEDF.quest_subtitle: "&7Hold the maximum the stacks per slot"
+	quest.22B9A980939DFEDF.title: "&d&lStack Upgrade"
 	quest.22F80D267321BFC5.quest_desc: ["Track the Autocrafter Manager. Closer than the map suggests."]
 	quest.22F80D267321BFC5.quest_subtitle: "A Autocrafter Manager for the road."
 	quest.22F80D267321BFC5.title: "Autocrafter Manager"
@@ -4965,9 +5222,19 @@
 	quest.253657BE5D9D9162.quest_desc: ["The External Storage is part of the chain. Aim for the next thing."]
 	quest.253657BE5D9D9162.quest_subtitle: "Today goal: the External Storage."
 	quest.253657BE5D9D9162.title: "External Storage"
-	quest.2544342ED0E1C6F2.quest_desc: ["The Basic To Gold Tier Upgrade: another rung climbed. Press on."]
-	quest.2544342ED0E1C6F2.quest_subtitle: "Modest gain: the Basic To Gold Tier Upgrade."
-	quest.2544342ED0E1C6F2.title: "Basic To Gold Tier Upgrade"
+	quest.2544342ED0E1C6F2.quest_desc: [
+			"&3&lGold Tier Upgrade"
+			"&8&m                            "
+			""
+			"&7It raises a storage block up to the gold tier, adding more"
+			"&7slots and upgrade room without rebuilding it from scratch."
+			""
+			"&3&lCategory:&r &fStorage Tiers"
+			""
+			"&e&l★ Tip:&r &7Tier upgrades stack, climb from copper all the way to netherite."
+		]
+	quest.2544342ED0E1C6F2.quest_subtitle: "&7Raise a storage block one tier"
+	quest.2544342ED0E1C6F2.title: "&3&lGold Tier Upgrade"
 	quest.255D8ABA6911067C.quest_desc: [
 		"&6&lRotary Cannon"
 		"&8&m                            "
@@ -5249,9 +5516,19 @@
 	quest.27AF01336466488C.quest_desc: ["Reserve the Cave Spider. Steady is fast."]
 	quest.27AF01336466488C.quest_subtitle: "Snag the Cave Spider this run."
 	quest.27AF01336466488C.title: "Cave Spider"
-	quest.27CBC3BF25E736A1.quest_desc: ["Score the Advanced Restock Upgrade. The shortcut is not here."]
-	quest.27CBC3BF25E736A1.quest_subtitle: "One Advanced Restock Upgrade, one ready win."
-	quest.27CBC3BF25E736A1.title: "Advanced Restock Upgrade"
+	quest.27CBC3BF25E736A1.quest_desc: [
+			"&b&lAdvanced Restock Upgrade"
+			"&8&m                            "
+			""
+			"&7It refills the backpack from any inventory you sneak right-click."
+			"&7This advanced model adds more filter slots and greater reach."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.27CBC3BF25E736A1.quest_subtitle: "&7Top the pack back up in one click, with finer control"
+	quest.27CBC3BF25E736A1.title: "&b&lAdvanced Restock Upgrade"
 	quest.27E951F4F4F6F847.quest_desc: [
 		"&c&lFlame Pendant"
 		"&8&m                            "
@@ -5368,9 +5645,19 @@
 	]
 	quest.290F943A1FF52070.quest_subtitle: "&7The Pierce Glyph, a word of magic"
 	quest.290F943A1FF52070.title: "&d&lPierce Glyph"
-	quest.2916C86934114C07.quest_desc: ["Add the Advanced Pickup Upgrade to your toolkit. Press on."]
-	quest.2916C86934114C07.quest_subtitle: "On the route to the Advanced Pickup Upgrade."
-	quest.2916C86934114C07.title: "Advanced Pickup Upgrade"
+	quest.2916C86934114C07.quest_desc: [
+			"&9&lAdvanced Pickup Upgrade"
+			"&8&m                            "
+			""
+			"&7It makes the storage block pick up items off the ground all on its own."
+			"&7This advanced model adds more filter slots and greater reach."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.2916C86934114C07.quest_subtitle: "&7Hoover up loot without lifting a finger, with finer control"
+	quest.2916C86934114C07.title: "&9&lAdvanced Pickup Upgrade"
 	quest.294418130521FDF4.quest_desc: [
 		"&6&lRaw Mithril"
 		"&8&m                            "
@@ -5513,9 +5800,19 @@
 	quest.29C3D2930CFD9D86.quest_desc: ["Add the Iron Golem to your run. Press on."]
 	quest.29C3D2930CFD9D86.quest_subtitle: "A Iron Golem for the road."
 	quest.29C3D2930CFD9D86.title: "Iron Golem"
-	quest.29C3F49471D01D9A.quest_desc: ["Earn the Advanced Refill Upgrade fair and square. Modest now, mighty later."]
-	quest.29C3F49471D01D9A.quest_subtitle: "Stash the Advanced Refill Upgrade for later."
-	quest.29C3F49471D01D9A.title: "Advanced Refill Upgrade"
+	quest.29C3F49471D01D9A.quest_desc: [
+			"&b&lAdvanced Refill Upgrade"
+			"&8&m                            "
+			""
+			"&7It keeps a chosen stack topped up in your own inventory from the backpack."
+			"&7This advanced model adds more filter slots and greater reach."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.29C3F49471D01D9A.quest_subtitle: "&7Keep your hotbar stocked, with finer control"
+	quest.29C3F49471D01D9A.title: "&b&lAdvanced Refill Upgrade"
 	quest.29E3DD9A3F85CE80.quest_desc: [
 		"&d&lSummon Decoy Glyph"
 		"&8&m                            "
@@ -5603,12 +5900,32 @@
 	quest.2A299E4D99FBF36D.quest_desc: ["Earn the badge. Worth more than its tooltip says."]
 	quest.2A299E4D99FBF36D.quest_subtitle: "watchful hop: the badge."
 	quest.2A299E4D99FBF36D.title: "Objective"
-	quest.2A2F340D44A383D7.quest_desc: ["Bank the Advanced Feeding Upgrade. Snowballs after this."]
-	quest.2A2F340D44A383D7.quest_subtitle: "The Advanced Feeding Upgrade: load-bearing."
-	quest.2A2F340D44A383D7.title: "Advanced Feeding Upgrade"
-	quest.2A35901E42F9A536.quest_desc: ["Track the Auto Smelting Upgrade. The route teaches as much as the prize."]
-	quest.2A35901E42F9A536.quest_subtitle: "still run, single Auto Smelting Upgrade."
-	quest.2A35901E42F9A536.title: "Auto Smelting Upgrade"
+	quest.2A2F340D44A383D7.quest_desc: [
+			"&b&lAdvanced Feeding Upgrade"
+			"&8&m                            "
+			""
+			"&7It feeds you food from the backpack the moment you grow hungry."
+			"&7This advanced model adds more filter slots and greater reach."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.2A2F340D44A383D7.quest_subtitle: "&7Never starve on an adventure, with finer control"
+	quest.2A2F340D44A383D7.title: "&b&lAdvanced Feeding Upgrade"
+	quest.2A35901E42F9A536.quest_desc: [
+			"&b&lAuto-Smelting Upgrade"
+			"&8&m                            "
+			""
+			"&7It adds a furnace tab that smelts the stored items on its own."
+			"&7Slot it into the upgrade tab of any backpack with room."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.2A35901E42F9A536.quest_subtitle: "&7Hands-free smelting on the go"
+	quest.2A35901E42F9A536.title: "&b&lAuto-Smelting Upgrade"
 	quest.2A3683BF7E50EF83.quest_desc: [
 		"&e&lInfused Pickaxe"
 		"&8&m                            "
@@ -5674,12 +5991,32 @@
 	]
 	quest.2A793B35FE25003C.quest_subtitle: "&7Turn solids into a usable gas"
 	quest.2A793B35FE25003C.title: "&a&lChemical Oxidizer"
-	quest.2A7A94C257BD73B5.quest_desc: ["Bring back the Blasting Upgrade. The route teaches as much as the prize."]
-	quest.2A7A94C257BD73B5.quest_subtitle: "The Blasting Upgrade: load-bearing."
-	quest.2A7A94C257BD73B5.title: "Blasting Upgrade"
-	quest.2A89029AC855DB7B.quest_desc: ["Bring the Void Upgrade into the fold. One more rung climbed."]
-	quest.2A89029AC855DB7B.quest_subtitle: "Mark the Void Upgrade done."
-	quest.2A89029AC855DB7B.title: "Void Upgrade"
+	quest.2A7A94C257BD73B5.quest_desc: [
+			"&b&lBlasting Upgrade"
+			"&8&m                            "
+			""
+			"&7It adds a blast furnace tab for ores and metal items in the backpack."
+			"&7Slot it into the upgrade tab of any backpack with room."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.2A7A94C257BD73B5.quest_subtitle: "&7A blast furnace for ores"
+	quest.2A7A94C257BD73B5.title: "&b&lBlasting Upgrade"
+	quest.2A89029AC855DB7B.quest_desc: [
+			"&b&lVoid Upgrade"
+			"&8&m                            "
+			""
+			"&7It destroys any item you mark in its filter the instant it arrives."
+			"&7Slot it into the upgrade tab of any backpack with room."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.2A89029AC855DB7B.quest_subtitle: "&7Throw out the junk on arrival"
+	quest.2A89029AC855DB7B.title: "&b&lVoid Upgrade"
 	quest.2A98F9B7E94508A1.quest_desc: ["Wrap the Witch up. The shortcut is not here."]
 	quest.2A98F9B7E94508A1.quest_subtitle: "spry prize: the Witch."
 	quest.2A98F9B7E94508A1.title: "Witch"
@@ -5760,9 +6097,20 @@
 	]
 	quest.2B345E47294A05E1.quest_subtitle: "&7The Marid machine upgrade"
 	quest.2B345E47294A05E1.title: "&3&lMarid Upgrade"
-	quest.2B56650DE346679A.quest_desc: ["Note the Iron Backpack acquired. Steady is fast."]
-	quest.2B56650DE346679A.quest_subtitle: "Carry the Iron Backpack forward."
-	quest.2B56650DE346679A.title: "Iron Backpack"
+	quest.2B56650DE346679A.quest_desc: [
+			"&a&lIron Backpack"
+			"&8&m                            "
+			""
+			"&7A backpack rides on your back and carries your inventory"
+			"&7wherever you roam, with a tab of upgrades all its own."
+			"&7The iron tier widens it further and adds an upgrade slot."
+			""
+			"&a&lCategory:&r &fBackpacks"
+			""
+			"&e&l★ Tip:&r &7Open it with a key or place it down and right-click."
+		]
+	quest.2B56650DE346679A.quest_subtitle: "&7Storage that travels with you"
+	quest.2B56650DE346679A.title: "&a&lIron Backpack"
 	quest.2B5F778AA879F79A.quest_desc: [
 		"&a&lNetherite-Emerald Boots"
 		"&8&m                            "
@@ -5802,12 +6150,33 @@
 	]
 	quest.2B9DF670B021FEBE.quest_subtitle: "&7Twisted Blade, a unique legendary blade"
 	quest.2B9DF670B021FEBE.title: "&d&lTwisted Blade"
-	quest.2BA6944853FEFC1E.quest_desc: ["Earn the cue. Quiet progress beats loud setbacks."]
-	quest.2BA6944853FEFC1E.quest_subtitle: "Modest gain: the cue."
-	quest.2BA6944853FEFC1E.title: "Objective"
-	quest.2BB7F87D8C306847.quest_desc: ["The Refill Upgrade unlocks more than it looks. A small step on a long road."]
-	quest.2BB7F87D8C306847.quest_subtitle: "Today goal: the Refill Upgrade."
-	quest.2BB7F87D8C306847.title: "Refill Upgrade"
+	quest.2BA6944853FEFC1E.quest_desc: [
+			"&6&lGold Barrel"
+			"&8&m                            "
+			""
+			"&7A barrel holds your items in a single solid block, and accepts"
+			"&7upgrades to make it pick up, sort, smelt and far more."
+			"&7The gold tier brings still more slots and upgrade room."
+			""
+			"&6&lCategory:&r &fBarrels"
+			""
+			"&e&l★ Tip:&r &7Right-click the barrel face to open it, no space above needed."
+		]
+	quest.2BA6944853FEFC1E.quest_subtitle: "&7A solid block that holds it all"
+	quest.2BA6944853FEFC1E.title: "&6&lGold Barrel"
+	quest.2BB7F87D8C306847.quest_desc: [
+			"&b&lRefill Upgrade"
+			"&8&m                            "
+			""
+			"&7It keeps a chosen stack topped up in your own inventory from the backpack."
+			"&7Slot it into the upgrade tab of any backpack with room."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.2BB7F87D8C306847.quest_subtitle: "&7Keep your hotbar stocked"
+	quest.2BB7F87D8C306847.title: "&b&lRefill Upgrade"
 	quest.2BB910B217DF3A12.quest_desc: [
 		"&d&lEnder Upgrade Orb"
 		"&8&m                            "
@@ -5862,12 +6231,33 @@
 	quest.2C53B79A6C7F4A2E.quest_desc: ["Stamp the Piglin into your dossier. A small step on a long road."]
 	quest.2C53B79A6C7F4A2E.quest_subtitle: "Tiny step: the Piglin."
 	quest.2C53B79A6C7F4A2E.title: "Piglin"
-	quest.2C87409D4C84359B.quest_desc: ["Cross the step off. Trust the chain."]
-	quest.2C87409D4C84359B.quest_subtitle: "Snag the step this run."
-	quest.2C87409D4C84359B.title: "Objective"
-	quest.2C8A97ABBCB54ADB.quest_desc: ["Walk away with the Stack Upgrade Tier 5. Small habit, big result."]
-	quest.2C8A97ABBCB54ADB.quest_subtitle: "Quiet milestone with the Stack Upgrade Tier 5."
-	quest.2C8A97ABBCB54ADB.title: "Stack Upgrade Tier 5"
+	quest.2C87409D4C84359B.quest_desc: [
+			"&6&lIron Barrel"
+			"&8&m                            "
+			""
+			"&7A barrel holds your items in a single solid block, and accepts"
+			"&7upgrades to make it pick up, sort, smelt and far more."
+			"&7The iron tier widens it further and adds an upgrade slot."
+			""
+			"&6&lCategory:&r &fBarrels"
+			""
+			"&e&l★ Tip:&r &7Right-click the barrel face to open it, no space above needed."
+		]
+	quest.2C87409D4C84359B.quest_subtitle: "&7A solid block that holds it all"
+	quest.2C87409D4C84359B.title: "&6&lIron Barrel"
+	quest.2C8A97ABBCB54ADB.quest_desc: [
+			"&5&lStack Upgrade"
+			"&8&m                            "
+			""
+			"&7It multiplies how many stacks each slot of the storage block holds by x32."
+			"&7Stack upgrades build on each other, climb the tiers in order."
+			""
+			"&5&lCategory:&r &fStorage Capacity"
+			""
+			"&e&l★ Tip:&r &7Capacity upgrades share the upgrade tab with the others."
+		]
+	quest.2C8A97ABBCB54ADB.quest_subtitle: "&7Hold x32 the stacks per slot"
+	quest.2C8A97ABBCB54ADB.title: "&5&lStack Upgrade"
 	quest.2C8E7C1304CA1AFB.quest_desc: ["Earn the Endermite the hard way. Quiet capital."]
 	quest.2C8E7C1304CA1AFB.quest_subtitle: "earnest prize: the Endermite."
 	quest.2C8E7C1304CA1AFB.title: "Endermite"
@@ -5899,9 +6289,19 @@
 	quest.2CE3E17995BC4081.quest_desc: ["Score one Piglin Brute. Halfway done with you."]
 	quest.2CE3E17995BC4081.quest_subtitle: "Brick: the Piglin Brute."
 	quest.2CE3E17995BC4081.title: "Piglin Brute"
-	quest.2CE82497C62DC21F.quest_desc: ["Earn the Advanced Deposit Upgrade by playing the long game. Worth more than its tooltip says."]
-	quest.2CE82497C62DC21F.quest_subtitle: "thrifty hop: the Advanced Deposit Upgrade."
-	quest.2CE82497C62DC21F.title: "Advanced Deposit Upgrade"
+	quest.2CE82497C62DC21F.quest_desc: [
+			"&b&lAdvanced Deposit Upgrade"
+			"&8&m                            "
+			""
+			"&7It unloads the backpack into any inventory you sneak right-click."
+			"&7This advanced model adds more filter slots and greater reach."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.2CE82497C62DC21F.quest_subtitle: "&7Empty the pack into a chest fast, with finer control"
+	quest.2CE82497C62DC21F.title: "&b&lAdvanced Deposit Upgrade"
 	quest.2CEDE8036624EB86.quest_desc: [
 		"&c&lCopper Tools"
 		"&8&m                            "
@@ -5983,9 +6383,19 @@
 	]
 	quest.2D1CBCEC82F1B37D.quest_subtitle: "&7Burn solid fuel into heat"
 	quest.2D1CBCEC82F1B37D.title: "&c&lFuelwood Heater"
-	quest.2D5E17FA2F976235.quest_desc: ["Capture the Smelting Upgrade. Steady is fast."]
-	quest.2D5E17FA2F976235.quest_subtitle: "The Smelting Upgrade: the chapter nudge."
-	quest.2D5E17FA2F976235.title: "Smelting Upgrade"
+	quest.2D5E17FA2F976235.quest_desc: [
+			"&9&lSmelting Upgrade"
+			"&8&m                            "
+			""
+			"&7It adds a furnace tab so you can smelt straight from the storage block."
+			"&7Slot it into the upgrade tab of a barrel or chest."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.2D5E17FA2F976235.quest_subtitle: "&7A furnace in your pocket"
+	quest.2D5E17FA2F976235.title: "&9&lSmelting Upgrade"
 	quest.2DA37686B8A3D2A7.quest_desc: ["Unlock the Zombie. One more rung climbed."]
 	quest.2DA37686B8A3D2A7.quest_subtitle: "Bookmark the Zombie."
 	quest.2DA37686B8A3D2A7.title: "Zombie"
@@ -6152,9 +6562,19 @@
 	]
 	quest.2EC96B81D46D02DB.quest_subtitle: "&7Teleport back to your home"
 	quest.2EC96B81D46D02DB.title: "&a/home"
-	quest.2F11568F631B0858.quest_desc: ["Snag the Stack Upgrade Tier 1 on the way. Quiet capital."]
-	quest.2F11568F631B0858.quest_subtitle: "watchful prize: the Stack Upgrade Tier 1."
-	quest.2F11568F631B0858.title: "Stack Upgrade Tier 1"
+	quest.2F11568F631B0858.quest_desc: [
+			"&d&lStack Upgrade"
+			"&8&m                            "
+			""
+			"&7It multiplies how many stacks each slot of the backpack holds by x2."
+			"&7Stack upgrades build on each other, climb the tiers in order."
+			""
+			"&d&lCategory:&r &fBackpack Capacity"
+			""
+			"&e&l★ Tip:&r &7Capacity upgrades share the upgrade tab with the others."
+		]
+	quest.2F11568F631B0858.quest_subtitle: "&7Hold x2 the stacks per slot"
+	quest.2F11568F631B0858.title: "&d&lStack Upgrade"
 	quest.2F11B6421E9C4E79.quest_desc: ["Mark the Hedge Spider obtained. The route teaches as much as the prize."]
 	quest.2F11B6421E9C4E79.quest_subtitle: "Mark the Hedge Spider done."
 	quest.2F11B6421E9C4E79.title: "Hedge Spider"
@@ -6194,9 +6614,19 @@
 	quest.2F9FB2A0041C19A3.quest_desc: ["Mark the Stray done. You earned a pause."]
 	quest.2F9FB2A0041C19A3.quest_subtitle: "A thrifty step toward the Stray."
 	quest.2F9FB2A0041C19A3.title: "Stray"
-	quest.2FAA2748773E70A2.quest_desc: ["Pick up the Anvil Upgrade on your way through. Worth more than its tooltip says."]
-	quest.2FAA2748773E70A2.quest_subtitle: "Worth the Anvil Upgrade detour."
-	quest.2FAA2748773E70A2.title: "Anvil Upgrade"
+	quest.2FAA2748773E70A2.quest_desc: [
+			"&b&lAnvil Upgrade"
+			"&8&m                            "
+			""
+			"&7It adds an anvil tab for repairing and naming gear on the move."
+			"&7Slot it into the upgrade tab of any backpack with room."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.2FAA2748773E70A2.quest_subtitle: "&7Repair your gear anywhere"
+	quest.2FAA2748773E70A2.title: "&b&lAnvil Upgrade"
 	quest.2FAB12983DEFEB93.quest_desc: ["Wrap the Zombie. Next door is in sight."]
 	quest.2FAB12983DEFEB93.quest_subtitle: "Pocketed: the Zombie."
 	quest.2FAB12983DEFEB93.title: "Zombie"
@@ -6442,12 +6872,32 @@
 	quest.314804E481A8487C.quest_desc: ["Note the Umvuthana obtained. Calm focus beats rushing."]
 	quest.314804E481A8487C.quest_subtitle: "A tempered step toward the Umvuthana."
 	quest.314804E481A8487C.title: "Umvuthana"
-	quest.314E41E82F844459.quest_desc: ["Pocket the Stonecutter Upgrade. Pace yourself."]
-	quest.314E41E82F844459.quest_subtitle: "Pocketed: the Stonecutter Upgrade."
-	quest.314E41E82F844459.title: "Stonecutter Upgrade"
-	quest.315287B0237F91F9.quest_desc: ["Get the Stack Downgrade Tier 1. Snowballs after this."]
-	quest.315287B0237F91F9.quest_subtitle: "Carry the Stack Downgrade Tier 1 forward."
-	quest.315287B0237F91F9.title: "Stack Downgrade Tier 1"
+	quest.314E41E82F844459.quest_desc: [
+			"&9&lStonecutter Upgrade"
+			"&8&m                            "
+			""
+			"&7It adds a stonecutter tab for shaping stone inside the storage block."
+			"&7Slot it into the upgrade tab of a barrel or chest."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.314E41E82F844459.quest_subtitle: "&7Shape stone on the spot"
+	quest.314E41E82F844459.title: "&9&lStonecutter Upgrade"
+	quest.315287B0237F91F9.quest_desc: [
+			"&d&lStack Downgrade"
+			"&8&m                            "
+			""
+			"&7It lowers how many stacks each slot of the backpack can hold."
+			"&7A niche tool to undo a stack upgrade or tune automation."
+			""
+			"&d&lCategory:&r &fBackpack Capacity"
+			""
+			"&e&l★ Tip:&r &7Capacity upgrades share the upgrade tab with the others."
+		]
+	quest.315287B0237F91F9.quest_subtitle: "&7Shrink the stacks per slot"
+	quest.315287B0237F91F9.title: "&d&lStack Downgrade"
 	quest.3158D412FFDF18B8.quest_desc: ["Snag the Warden on the way. A small step on a long road."]
 	quest.3158D412FFDF18B8.quest_subtitle: "A Warden for the road."
 	quest.3158D412FFDF18B8.title: "Warden"
@@ -6632,9 +7082,19 @@
 	quest.32ADD497C5C64827.quest_desc: ["The Blaze pays for itself. Tiny wins stack into runs."]
 	quest.32ADD497C5C64827.quest_subtitle: "Mark the Blaze done."
 	quest.32ADD497C5C64827.title: "Blaze"
-	quest.32B721940CE1A439.quest_desc: ["Carry the Advanced Compacting Upgrade forward. Aim for the next thing."]
-	quest.32B721940CE1A439.quest_subtitle: "On the route to the Advanced Compacting Upgrade."
-	quest.32B721940CE1A439.title: "Advanced Compacting Upgrade"
+	quest.32B721940CE1A439.quest_desc: [
+			"&9&lAdvanced Compacting Upgrade"
+			"&8&m                            "
+			""
+			"&7It compacts items in the storage block into their block or compressed form."
+			"&7This advanced model adds more filter slots and greater reach."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.32B721940CE1A439.quest_subtitle: "&7Squeeze loose items into neat blocks, with finer control"
+	quest.32B721940CE1A439.title: "&9&lAdvanced Compacting Upgrade"
 	quest.32B8F164E5630FFF.quest_desc: [
 		"&b&lMason s Table"
 		"&8&m                            "
@@ -6708,9 +7168,19 @@
 	]
 	quest.33415CB421F7620A.quest_subtitle: "&7Triple ore with a breath of oxygen"
 	quest.33415CB421F7620A.title: "&a&lPurification Chamber"
-	quest.335357255C9398AD.quest_desc: ["Bank the Hopper Upgrade. Steady is fast."]
-	quest.335357255C9398AD.quest_subtitle: "Tiny step: the Hopper Upgrade."
-	quest.335357255C9398AD.title: "Hopper Upgrade"
+	quest.335357255C9398AD.quest_desc: [
+			"&9&lHopper Upgrade"
+			"&8&m                            "
+			""
+			"&7It pulls items from the block above and pushes them to the block below."
+			"&7Slot it into the upgrade tab of a barrel or chest."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.335357255C9398AD.quest_subtitle: "&7Move items through the storage"
+	quest.335357255C9398AD.title: "&9&lHopper Upgrade"
 	quest.33682F4B44950123.quest_desc: [
 		"&3&lArchwood Logs"
 		"&8&m                            "
@@ -7097,9 +7567,19 @@
 	quest.36E0E04BAEBC4895.quest_desc: ["Bring the Vex into the fold. Halfway done with you."]
 	quest.36E0E04BAEBC4895.quest_subtitle: "Brick: the Vex."
 	quest.36E0E04BAEBC4895.title: "Vex"
-	quest.36E126551DFD0B05.quest_desc: ["The Stack Upgrade Tier 3 is on the menu. Aim for the next thing."]
-	quest.36E126551DFD0B05.quest_subtitle: "Today goal: the Stack Upgrade Tier 3."
-	quest.36E126551DFD0B05.title: "Stack Upgrade Tier 3"
+	quest.36E126551DFD0B05.quest_desc: [
+			"&5&lStack Upgrade"
+			"&8&m                            "
+			""
+			"&7It multiplies how many stacks each slot of the storage block holds by x8."
+			"&7Stack upgrades build on each other, climb the tiers in order."
+			""
+			"&5&lCategory:&r &fStorage Capacity"
+			""
+			"&e&l★ Tip:&r &7Capacity upgrades share the upgrade tab with the others."
+		]
+	quest.36E126551DFD0B05.quest_subtitle: "&7Hold x8 the stacks per slot"
+	quest.36E126551DFD0B05.title: "&5&lStack Upgrade"
 	quest.36F45ECD8C10FC5F.quest_desc: [
 			"&e&lWhite Grape Pomace"
 			"&8&m                            "
@@ -7479,9 +7959,19 @@
 	quest.39E77B8E98397A51.quest_desc: ["Note the Giant Miner acquired. Patient runs win."]
 	quest.39E77B8E98397A51.quest_subtitle: "On the route to the Giant Miner."
 	quest.39E77B8E98397A51.title: "Giant Miner"
-	quest.39FBD82FCD8FD1E0.quest_desc: ["Unlock the Advanced Magnet Upgrade. Aim for the next thing."]
-	quest.39FBD82FCD8FD1E0.quest_subtitle: "Brick: the Advanced Magnet Upgrade."
-	quest.39FBD82FCD8FD1E0.title: "Advanced Magnet Upgrade"
+	quest.39FBD82FCD8FD1E0.quest_desc: [
+			"&9&lAdvanced Magnet Upgrade"
+			"&8&m                            "
+			""
+			"&7It draws nearby dropped items straight into the storage block from a distance."
+			"&7This advanced model adds more filter slots and greater reach."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.39FBD82FCD8FD1E0.quest_subtitle: "&7Pull loot in from afar, with finer control"
+	quest.39FBD82FCD8FD1E0.title: "&9&lAdvanced Magnet Upgrade"
 	quest.3A31F5C6EA2F23BC.quest_desc: ["Bring the Mutant Skeleton Arms home. A small step on a long road."]
 	quest.3A31F5C6EA2F23BC.quest_subtitle: "Worth the Mutant Skeleton Arms detour."
 	quest.3A31F5C6EA2F23BC.title: "Mutant Skeleton Arms"
@@ -8147,9 +8637,20 @@
 	quest.3F3791D4E5BAF10E.quest_desc: ["The Harbinger Cube: a useful checkpoint on this branch. The chapter pivots around it."]
 	quest.3F3791D4E5BAF10E.quest_subtitle: "Stash the Harbinger Cube for later."
 	quest.3F3791D4E5BAF10E.title: "Harbinger Cube"
-	quest.3F3BCAF854FFDB42.quest_desc: ["Add the mission to your dossier. Worth pinning."]
-	quest.3F3BCAF854FFDB42.quest_subtitle: "Brick: the mission."
-	quest.3F3BCAF854FFDB42.title: "Objective"
+	quest.3F3BCAF854FFDB42.quest_desc: [
+			"&6&lBarrel"
+			"&8&m                            "
+			""
+			"&7A barrel holds your items in a single solid block, and accepts"
+			"&7upgrades to make it pick up, sort, smelt and far more."
+			"&7This basic tier is where the journey starts."
+			""
+			"&6&lCategory:&r &fBarrels"
+			""
+			"&e&l★ Tip:&r &7Right-click the barrel face to open it, no space above needed."
+		]
+	quest.3F3BCAF854FFDB42.quest_subtitle: "&7A solid block that holds it all"
+	quest.3F3BCAF854FFDB42.title: "&6&lBarrel"
 	quest.3F4B3994DE6D4F4F.quest_desc: ["Set sights on the Witch. Saved for later use."]
 	quest.3F4B3994DE6D4F4F.quest_subtitle: "Earn it: the Witch."
 	quest.3F4B3994DE6D4F4F.title: "Witch"
@@ -8199,12 +8700,34 @@
 	]
 	quest.3FBF1980F33B9C9F.quest_subtitle: "&7Sturdy metal lattice"
 	quest.3FBF1980F33B9C9F.title: "&6&lIron Bars"
-	quest.3FCF82DE54B6038F.quest_desc: ["Set sights on the crest. Next door is in sight."]
-	quest.3FCF82DE54B6038F.quest_subtitle: "Earn it: the crest."
-	quest.3FCF82DE54B6038F.title: "Objective"
-	quest.3FD2E140744CA7DD.quest_desc: ["Add the Copper Backpack to your run-log. Pays its own freight."]
-	quest.3FD2E140744CA7DD.quest_subtitle: "Brick: the Copper Backpack."
-	quest.3FD2E140744CA7DD.title: "Copper Backpack"
+	quest.3FCF82DE54B6038F.quest_desc: [
+			"&e&lNetherite Chest"
+			"&8&m                            "
+			""
+			"&7A chest stores your items and can be opened in pairs for a"
+			"&7double the space, with the same rich upgrade slots."
+			"&7The netherite tier is the peak, vast and fireproof."
+			""
+			"&e&lCategory:&r &fChests"
+			""
+			"&e&l★ Tip:&r &7Tier it up later with a tier upgrade instead of rebuilding."
+		]
+	quest.3FCF82DE54B6038F.quest_subtitle: "&7A classic chest, vastly improved"
+	quest.3FCF82DE54B6038F.title: "&e&lNetherite Chest"
+	quest.3FD2E140744CA7DD.quest_desc: [
+			"&a&lCopper Backpack"
+			"&8&m                            "
+			""
+			"&7A backpack rides on your back and carries your inventory"
+			"&7wherever you roam, with a tab of upgrades all its own."
+			"&7The copper tier adds extra rows of slots."
+			""
+			"&a&lCategory:&r &fBackpacks"
+			""
+			"&e&l★ Tip:&r &7Open it with a key or place it down and right-click."
+		]
+	quest.3FD2E140744CA7DD.quest_subtitle: "&7Storage that travels with you"
+	quest.3FD2E140744CA7DD.title: "&a&lCopper Backpack"
 	quest.3FD702B5AB006402.quest_desc: [
 		"&e&lBelt of Levitation"
 		"&8&m                            "
@@ -8234,9 +8757,19 @@
 	]
 	quest.3FDA8E9EFFBA0427.quest_subtitle: "&7The heart of Netherite-Emerald gear."
 	quest.3FDA8E9EFFBA0427.title: "&a&lNetherite-Emerald Ingot"
-	quest.3FFB850F8F0B1200.quest_desc: ["Bring back the Feeding Upgrade. Load-bearing, not flashy."]
-	quest.3FFB850F8F0B1200.quest_subtitle: "Tiny step: the Feeding Upgrade."
-	quest.3FFB850F8F0B1200.title: "Feeding Upgrade"
+	quest.3FFB850F8F0B1200.quest_desc: [
+			"&9&lFeeding Upgrade"
+			"&8&m                            "
+			""
+			"&7It feeds you food from the storage block the moment you grow hungry."
+			"&7Slot it into the upgrade tab of a barrel or chest."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.3FFB850F8F0B1200.quest_subtitle: "&7Never starve on an adventure"
+	quest.3FFB850F8F0B1200.title: "&9&lFeeding Upgrade"
 	quest.4000000000000001.quest_desc: [
 		"&6&lVictory Medal"
 		"&8&m                            "
@@ -8400,9 +8933,19 @@
 	quest.40DAAA391CD3F934.quest_desc: ["The Mist Wolf is gating the next quest. Future you will thank present you."]
 	quest.40DAAA391CD3F934.quest_subtitle: "Pocketed: the Mist Wolf."
 	quest.40DAAA391CD3F934.title: "Mist Wolf"
-	quest.40DEE20FC31A48C7.quest_desc: ["The Pump Upgrade is a quiet milestone. Bookkeeping matters."]
-	quest.40DEE20FC31A48C7.quest_subtitle: "Bookmark the Pump Upgrade."
-	quest.40DEE20FC31A48C7.title: "Pump Upgrade"
+	quest.40DEE20FC31A48C7.quest_desc: [
+			"&b&lPump Upgrade"
+			"&8&m                            "
+			""
+			"&7It pumps fluids between the Tank upgrade and the blocks nearby."
+			"&7Slot it into the upgrade tab of any backpack with room."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.40DEE20FC31A48C7.quest_subtitle: "&7Move fluids in and out"
+	quest.40DEE20FC31A48C7.title: "&b&lPump Upgrade"
 	quest.40E8940C92668D4F.quest_desc: [
 		"&b&lProducing Deuterium"
 		"&8&m                            "
@@ -8826,9 +9369,19 @@
 	quest.43E8912CB307E421.quest_desc: ["Get the Grid. Modular progress, small steps."]
 	quest.43E8912CB307E421.quest_subtitle: "Tiny step: the Grid."
 	quest.43E8912CB307E421.title: "Grid"
-	quest.43F6864962F0F52A.quest_desc: ["Mark the Smoking Upgrade obtained. One brick in a larger wall."]
-	quest.43F6864962F0F52A.quest_subtitle: "On the route to the Smoking Upgrade."
-	quest.43F6864962F0F52A.title: "Smoking Upgrade"
+	quest.43F6864962F0F52A.quest_desc: [
+			"&9&lSmoking Upgrade"
+			"&8&m                            "
+			""
+			"&7It adds a smoker tab for cooking food straight from the storage block."
+			"&7Slot it into the upgrade tab of a barrel or chest."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.43F6864962F0F52A.quest_subtitle: "&7A smoker for quick meals"
+	quest.43F6864962F0F52A.title: "&9&lSmoking Upgrade"
 	quest.43F806B63271BC3A.quest_desc: ["The Kobold is asked of you. Modular progress, small steps."]
 	quest.43F806B63271BC3A.quest_subtitle: "The Kobold unlocks more."
 	quest.43F806B63271BC3A.title: "Kobold"
@@ -9057,9 +9610,19 @@
 	]
 	quest.4533EF27201A9578.quest_subtitle: "&7Automate experience and enchanting"
 	quest.4533EF27201A9578.title: "&d&lEnchantment Industry"
-	quest.453A178684FEE8ED.quest_desc: ["Get the Filter Upgrade. The chapter pivots around it."]
-	quest.453A178684FEE8ED.quest_subtitle: "On the Filter Upgrade branch."
-	quest.453A178684FEE8ED.title: "Filter Upgrade"
+	quest.453A178684FEE8ED.quest_desc: [
+			"&b&lFilter Upgrade"
+			"&8&m                            "
+			""
+			"&7It decides exactly which items may be piped into or out of the backpack."
+			"&7Slot it into the upgrade tab of any backpack with room."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.453A178684FEE8ED.quest_subtitle: "&7Control what flows in and out"
+	quest.453A178684FEE8ED.title: "&b&lFilter Upgrade"
 	quest.45400821B9216460.quest_desc: ["Pull the Endermite into your kit. You earned a pause."]
 	quest.45400821B9216460.quest_subtitle: "Quiet milestone with the Endermite."
 	quest.45400821B9216460.title: "Endermite"
@@ -9186,9 +9749,19 @@
 	]
 	quest.4615915B4FE7967F.quest_subtitle: "&7Obsidian that weeps purple"
 	quest.4615915B4FE7967F.title: "&6&lCrying Obsidian"
-	quest.462A89915E379594.quest_desc: ["Earn the Magnet Upgrade step by step. Bridges what you did with what is next."]
-	quest.462A89915E379594.quest_subtitle: "On the Magnet Upgrade branch."
-	quest.462A89915E379594.title: "Magnet Upgrade"
+	quest.462A89915E379594.quest_desc: [
+			"&b&lMagnet Upgrade"
+			"&8&m                            "
+			""
+			"&7It draws nearby dropped items straight into the backpack from a distance."
+			"&7Slot it into the upgrade tab of any backpack with room."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.462A89915E379594.quest_subtitle: "&7Pull loot in from afar"
+	quest.462A89915E379594.title: "&b&lMagnet Upgrade"
 	quest.46469E3A8AF0CB80.quest_desc: [
 		"&d&lExtract Glyph"
 		"&8&m                            "
@@ -9244,9 +9817,19 @@
 	]
 	quest.4665E6FD0AAED164.quest_subtitle: "&7Keep more when you fall"
 	quest.4665E6FD0AAED164.title: "&b&lCharm of Keeping II"
-	quest.46872503B100F38D.quest_desc: ["Wrap the Basic To Diamond Tier Upgrade up. The shortcut is not here."]
-	quest.46872503B100F38D.quest_subtitle: "Snag the Basic To Diamond Tier Upgrade this run."
-	quest.46872503B100F38D.title: "Basic To Diamond Tier Upgrade"
+	quest.46872503B100F38D.quest_desc: [
+			"&3&lDiamond Tier Upgrade"
+			"&8&m                            "
+			""
+			"&7It raises a storage block up to the diamond tier, adding more"
+			"&7slots and upgrade room without rebuilding it from scratch."
+			""
+			"&3&lCategory:&r &fStorage Tiers"
+			""
+			"&e&l★ Tip:&r &7Tier upgrades stack, climb from copper all the way to netherite."
+		]
+	quest.46872503B100F38D.quest_subtitle: "&7Raise a storage block one tier"
+	quest.46872503B100F38D.title: "&3&lDiamond Tier Upgrade"
 	quest.46A77361C8CAFD11.quest_desc: ["Unlock the Blockchain Goblin. Patient runs win."]
 	quest.46A77361C8CAFD11.quest_subtitle: "stoic run, single Blockchain Goblin."
 	quest.46A77361C8CAFD11.title: "Blockchain Goblin"
@@ -9299,9 +9882,19 @@
 	quest.47B80CE376D06676.quest_desc: ["Wrap up the Troll task. One more rung climbed."]
 	quest.47B80CE376D06676.quest_subtitle: "One Troll, one calm win."
 	quest.47B80CE376D06676.title: "Troll"
-	quest.47D5BD33AE9B2EA7.quest_desc: ["Stockpile the Stack Downgrade Tier 2. The chapter pivots around it."]
-	quest.47D5BD33AE9B2EA7.quest_subtitle: "On the Stack Downgrade Tier 2 branch."
-	quest.47D5BD33AE9B2EA7.title: "Stack Downgrade Tier 2"
+	quest.47D5BD33AE9B2EA7.quest_desc: [
+			"&d&lStack Downgrade"
+			"&8&m                            "
+			""
+			"&7It lowers how many stacks each slot of the backpack can hold."
+			"&7A niche tool to undo a stack upgrade or tune automation."
+			""
+			"&d&lCategory:&r &fBackpack Capacity"
+			""
+			"&e&l★ Tip:&r &7Capacity upgrades share the upgrade tab with the others."
+		]
+	quest.47D5BD33AE9B2EA7.quest_subtitle: "&7Shrink the stacks per slot"
+	quest.47D5BD33AE9B2EA7.title: "&d&lStack Downgrade"
 	quest.47EBD49B34B70B3D.quest_desc: [
 		"&b&lRooted Boots"
 		"&8&m                            "
@@ -9410,9 +10003,19 @@
 	]
 	quest.4883B6604F008596.quest_subtitle: "&7Press, mix, slice and extrude items"
 	quest.4883B6604F008596.title: "&b&lProcessing Machines"
-	quest.488BCC5BB1A6318C.quest_desc: ["Stamp the Pump Upgrade into your dossier. A seed for the snowball."]
-	quest.488BCC5BB1A6318C.quest_subtitle: "Carry the Pump Upgrade forward."
-	quest.488BCC5BB1A6318C.title: "Pump Upgrade"
+	quest.488BCC5BB1A6318C.quest_desc: [
+			"&9&lPump Upgrade"
+			"&8&m                            "
+			""
+			"&7It pumps fluids between the Tank upgrade and the blocks nearby."
+			"&7Slot it into the upgrade tab of a barrel or chest."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.488BCC5BB1A6318C.quest_subtitle: "&7Move fluids in and out"
+	quest.488BCC5BB1A6318C.title: "&9&lPump Upgrade"
 	quest.488DBE69595F38F8.quest_desc: [
 		"&b&lEnergized Smelter"
 		"&8&m                            "
@@ -9426,9 +10029,19 @@
 	]
 	quest.488DBE69595F38F8.quest_subtitle: "&7An electric furnace that never stops"
 	quest.488DBE69595F38F8.title: "&b&lEnergized Smelter"
-	quest.4893C2C0985652FB.quest_desc: ["Note the Advanced Pump Upgrade obtained. Aim for the next thing."]
-	quest.4893C2C0985652FB.quest_subtitle: "One Advanced Pump Upgrade, one resolute win."
-	quest.4893C2C0985652FB.title: "Advanced Pump Upgrade"
+	quest.4893C2C0985652FB.quest_desc: [
+			"&9&lAdvanced Pump Upgrade"
+			"&8&m                            "
+			""
+			"&7It pumps fluids between the Tank upgrade and the blocks nearby."
+			"&7This advanced model adds more filter slots and greater reach."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.4893C2C0985652FB.quest_subtitle: "&7Move fluids in and out, with finer control"
+	quest.4893C2C0985652FB.title: "&9&lAdvanced Pump Upgrade"
 	quest.489833A2A6C39151.quest_desc: [
 		"&9&lCryomancer Robes"
 		"&8&m                            "
@@ -9774,9 +10387,19 @@
 	quest.4AE71214BE124BF8.quest_desc: ["Pull the Stray from where it hides. Load-bearing, not flashy."]
 	quest.4AE71214BE124BF8.quest_subtitle: "The Stray unlocks more."
 	quest.4AE71214BE124BF8.title: "Stray"
-	quest.4AF52AB5170D6C44.quest_desc: ["Reserve the Advanced Alchemy Upgrade. Snowballs after this."]
-	quest.4AF52AB5170D6C44.quest_subtitle: "Stash the Advanced Alchemy Upgrade for later."
-	quest.4AF52AB5170D6C44.title: "Advanced Alchemy Upgrade"
+	quest.4AF52AB5170D6C44.quest_desc: [
+			"&9&lAdvanced Alchemy Upgrade"
+			"&8&m                            "
+			""
+			"&7It automatically uses potions, effect foods and milk from the storage block."
+			"&7This advanced model adds more filter slots and greater reach."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.4AF52AB5170D6C44.quest_subtitle: "&7Effects applied automatically, with finer control"
+	quest.4AF52AB5170D6C44.title: "&9&lAdvanced Alchemy Upgrade"
 	quest.4AF76667693FE6D1.quest_desc: ["Bank the Zombie Villager. Future you will thank present you."]
 	quest.4AF76667693FE6D1.quest_subtitle: "Stash the Zombie Villager for later."
 	quest.4AF76667693FE6D1.title: "Zombie Villager"
@@ -9809,9 +10432,19 @@
 	]
 	quest.4B35C01F5D0AAC58.quest_subtitle: "&7Tough metal for sturdy machines"
 	quest.4B35C01F5D0AAC58.title: "&e&lSteel Ingot"
-	quest.4B47FFBF60C1B476.quest_desc: ["Add the Paintbrush to your stockpile. Saved for later use."]
-	quest.4B47FFBF60C1B476.quest_subtitle: "The Paintbrush pays its way."
-	quest.4B47FFBF60C1B476.title: "Paintbrush"
+	quest.4B47FFBF60C1B476.quest_desc: [
+			"&2&lStorage Tools"
+			"&8&m                            "
+			""
+			"&7The Paintbrush recolors a storage block, while the Storage"
+			"&7Tool tweaks its settings without opening it up."
+			""
+			"&2&lCategory:&r &fTools and Decor"
+			""
+			"&e&l★ Tip:&r &7Both make managing a wall of storage quick and tidy."
+		]
+	quest.4B47FFBF60C1B476.quest_subtitle: "&7The paintbrush and the storage tool"
+	quest.4B47FFBF60C1B476.title: "&2&lStorage Tools"
 	quest.4B53D0523CB4A8ED.quest_desc: [
 		"&c&lCastle Keeper"
 		"&8&m                            "
@@ -9826,9 +10459,20 @@
 	]
 	quest.4B53D0523CB4A8ED.quest_subtitle: "&7Claim the final castle"
 	quest.4B53D0523CB4A8ED.title: "&c&lCastle Keeper"
-	quest.4B5DBC05BAA38058.quest_desc: ["Walk away with the beat. Halfway done with you."]
-	quest.4B5DBC05BAA38058.quest_subtitle: "Pocketed: the beat."
-	quest.4B5DBC05BAA38058.title: "Objective"
+	quest.4B5DBC05BAA38058.quest_desc: [
+			"&e&lDiamond Chest"
+			"&8&m                            "
+			""
+			"&7A chest stores your items and can be opened in pairs for a"
+			"&7double the space, with the same rich upgrade slots."
+			"&7The diamond tier offers a huge inventory and many upgrades."
+			""
+			"&e&lCategory:&r &fChests"
+			""
+			"&e&l★ Tip:&r &7Tier it up later with a tier upgrade instead of rebuilding."
+		]
+	quest.4B5DBC05BAA38058.quest_subtitle: "&7A classic chest, vastly improved"
+	quest.4B5DBC05BAA38058.title: "&e&lDiamond Chest"
 	quest.4B6B06C9A92D41C1.quest_desc: ["Snag the Piglin Brute on the way. The shortcut is not here."]
 	quest.4B6B06C9A92D41C1.quest_subtitle: "Tiny step: the Piglin Brute."
 	quest.4B6B06C9A92D41C1.title: "Piglin Brute"
@@ -9870,9 +10514,19 @@
 	quest.4B86AB8C21478C17.quest_desc: ["Stamp the Foliaath into your dossier. Future you will thank present you."]
 	quest.4B86AB8C21478C17.quest_subtitle: "Worth the Foliaath detour."
 	quest.4B86AB8C21478C17.title: "Foliaath"
-	quest.4B92C913AE9EE345.quest_desc: ["Add the Auto Smelting Upgrade to your run. Worth more than its tooltip says."]
-	quest.4B92C913AE9EE345.quest_subtitle: "Stash the Auto Smelting Upgrade for later."
-	quest.4B92C913AE9EE345.title: "Auto Smelting Upgrade"
+	quest.4B92C913AE9EE345.quest_desc: [
+			"&9&lAuto-Smelting Upgrade"
+			"&8&m                            "
+			""
+			"&7It adds a furnace tab that smelts the stored items on its own."
+			"&7Slot it into the upgrade tab of a barrel or chest."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.4B92C913AE9EE345.quest_subtitle: "&7Hands-free smelting on the go"
+	quest.4B92C913AE9EE345.title: "&9&lAuto-Smelting Upgrade"
 	quest.4B93942194AA2B86.quest_desc: ["Add the Breeze to your run-log. Bridges what you did with what is next."]
 	quest.4B93942194AA2B86.quest_subtitle: "Worth the Breeze detour."
 	quest.4B93942194AA2B86.title: "Breeze"
@@ -9905,9 +10559,19 @@
 	]
 	quest.4BAF44FCA0894DE8.quest_subtitle: "&7Irradiate chemicals with sunlight"
 	quest.4BAF44FCA0894DE8.title: "&b&lSolar Neutron Activator"
-	quest.4BCC14615DA7CA1D.quest_desc: ["Bring the Advanced Filter Upgrade along. Worth the detour."]
-	quest.4BCC14615DA7CA1D.quest_subtitle: "Carry the Advanced Filter Upgrade forward."
-	quest.4BCC14615DA7CA1D.title: "Advanced Filter Upgrade"
+	quest.4BCC14615DA7CA1D.quest_desc: [
+			"&9&lAdvanced Filter Upgrade"
+			"&8&m                            "
+			""
+			"&7It decides exactly which items may be piped into or out of the storage block."
+			"&7This advanced model adds more filter slots and greater reach."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.4BCC14615DA7CA1D.quest_subtitle: "&7Control what flows in and out, with finer control"
+	quest.4BCC14615DA7CA1D.title: "&9&lAdvanced Filter Upgrade"
 	quest.4BDC9837B41FC2BC.quest_desc: [
 		"&a&lGear Mold"
 		"&8&m                            "
@@ -9927,9 +10591,19 @@
 	quest.4BE7D8238D0F4687.quest_desc: ["Bring the King Spider along. Tiny wins stack into runs."]
 	quest.4BE7D8238D0F4687.quest_subtitle: "The King Spider is a checkpoint."
 	quest.4BE7D8238D0F4687.title: "King Spider"
-	quest.4BF1E275D9E5199E.quest_desc: ["Hold onto the Stack Upgrade Tier 1. Trust the chain."]
-	quest.4BF1E275D9E5199E.quest_subtitle: "Brick: the Stack Upgrade Tier 1."
-	quest.4BF1E275D9E5199E.title: "Stack Upgrade Tier 1"
+	quest.4BF1E275D9E5199E.quest_desc: [
+			"&5&lStack Upgrade"
+			"&8&m                            "
+			""
+			"&7It multiplies how many stacks each slot of the storage block holds by x2."
+			"&7Stack upgrades build on each other, climb the tiers in order."
+			""
+			"&5&lCategory:&r &fStorage Capacity"
+			""
+			"&e&l★ Tip:&r &7Capacity upgrades share the upgrade tab with the others."
+		]
+	quest.4BF1E275D9E5199E.quest_subtitle: "&7Hold x2 the stacks per slot"
+	quest.4BF1E275D9E5199E.title: "&5&lStack Upgrade"
 	quest.4C0B4F5148F144FC.quest_desc: ["Add one Wither to your supplies. Quiet progress beats loud setbacks."]
 	quest.4C0B4F5148F144FC.quest_subtitle: "Bookmark the Wither."
 	quest.4C0B4F5148F144FC.title: "Wither"
@@ -10055,9 +10729,19 @@
 	quest.4CEA8FD33114B48F.quest_desc: ["Note the Carminite Ghastling obtained. Snowballs after this."]
 	quest.4CEA8FD33114B48F.quest_subtitle: "A Carminite Ghastling for the road."
 	quest.4CEA8FD33114B48F.title: "Carminite Ghastling"
-	quest.4CF71DB0F9B70978.quest_desc: ["Reach for the Magnet Upgrade. Calm focus beats rushing."]
-	quest.4CF71DB0F9B70978.quest_subtitle: "The Magnet Upgrade: load-bearing."
-	quest.4CF71DB0F9B70978.title: "Magnet Upgrade"
+	quest.4CF71DB0F9B70978.quest_desc: [
+			"&9&lMagnet Upgrade"
+			"&8&m                            "
+			""
+			"&7It draws nearby dropped items straight into the storage block from a distance."
+			"&7Slot it into the upgrade tab of a barrel or chest."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.4CF71DB0F9B70978.quest_subtitle: "&7Pull loot in from afar"
+	quest.4CF71DB0F9B70978.title: "&9&lMagnet Upgrade"
 	quest.4D07B0A4A2E77CDA.quest_desc: [
 		"&6&lGhast Tear"
 		"&8&m                            "
@@ -10071,9 +10755,19 @@
 	]
 	quest.4D07B0A4A2E77CDA.quest_subtitle: "&7Raise the nearby mob cap"
 	quest.4D07B0A4A2E77CDA.title: "&6&lGhast Tear"
-	quest.4D32DEA8354A4B99.quest_desc: ["The Advanced Tool Swapper Upgrade: load-bearing, not loud. Bookkeeping matters."]
-	quest.4D32DEA8354A4B99.quest_subtitle: "Mark the Advanced Tool Swapper Upgrade done."
-	quest.4D32DEA8354A4B99.title: "Advanced Tool Swapper Upgrade"
+	quest.4D32DEA8354A4B99.quest_desc: [
+			"&b&lAdvanced Tool Swapper Upgrade"
+			"&8&m                            "
+			""
+			"&7It swaps your held item for the right tool when you hit a block."
+			"&7This advanced model adds more filter slots and greater reach."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.4D32DEA8354A4B99.quest_subtitle: "&7Always the right tool in hand, with finer control"
+	quest.4D32DEA8354A4B99.title: "&b&lAdvanced Tool Swapper Upgrade"
 	quest.4D3379D38237F830.quest_desc: [
 		"&b&lAqua-Dashers"
 		"&8&m                            "
@@ -10135,9 +10829,19 @@
 	quest.4D5741BF80C749CF.quest_desc: ["Get hands on the Breeze. Worth pinning."]
 	quest.4D5741BF80C749CF.quest_subtitle: "Quiet milestone with the Breeze."
 	quest.4D5741BF80C749CF.title: "Breeze"
-	quest.4D5E53BF9FB3455F.quest_desc: ["Reserve the Smithing Upgrade. The shortcut is not here."]
-	quest.4D5E53BF9FB3455F.quest_subtitle: "Quiet milestone with the Smithing Upgrade."
-	quest.4D5E53BF9FB3455F.title: "Smithing Upgrade"
+	quest.4D5E53BF9FB3455F.quest_desc: [
+			"&b&lSmithing Upgrade"
+			"&8&m                            "
+			""
+			"&7It adds a smithing table tab for trimming and upgrading armor."
+			"&7Slot it into the upgrade tab of any backpack with room."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.4D5E53BF9FB3455F.quest_subtitle: "&7A smithing table in your pack"
+	quest.4D5E53BF9FB3455F.title: "&b&lSmithing Upgrade"
 	quest.4D714C031C724199.quest_desc: ["Get the Piglin. Useful sooner than you think."]
 	quest.4D714C031C724199.quest_subtitle: "sharp milestone: the Piglin."
 	quest.4D714C031C724199.title: "Piglin"
@@ -10195,9 +10899,19 @@
 	]
 	quest.4DF0D7B85065ADC9.quest_subtitle: "&7Harvest demonic flesh"
 	quest.4DF0D7B85065ADC9.title: "&e&lButcher Knife"
-	quest.4DFB78F17F3C9BF3.quest_desc: ["The Void Upgrade unlocks more than it looks. Soft milestone."]
-	quest.4DFB78F17F3C9BF3.quest_subtitle: "Quiet milestone with the Void Upgrade."
-	quest.4DFB78F17F3C9BF3.title: "Void Upgrade"
+	quest.4DFB78F17F3C9BF3.quest_desc: [
+			"&9&lVoid Upgrade"
+			"&8&m                            "
+			""
+			"&7It destroys any item you mark in its filter the instant it arrives."
+			"&7Slot it into the upgrade tab of a barrel or chest."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.4DFB78F17F3C9BF3.quest_subtitle: "&7Throw out the junk on arrival"
+	quest.4DFB78F17F3C9BF3.title: "&9&lVoid Upgrade"
 	quest.4E0976E1DAF65FC9.quest_desc: [
 		"&5&lBurrowing Ritual"
 		"&8&m                            "
@@ -10416,9 +11130,19 @@
 	]
 	quest.4F5FCEBB16B5B6F5.quest_subtitle: "&7The Wither Glyph, a word of magic"
 	quest.4F5FCEBB16B5B6F5.title: "&d&lWither Glyph"
-	quest.4F606E7A7B4CFB70.quest_desc: ["Pick up the Advanced Pump Upgrade on your way through. Quiet capital."]
-	quest.4F606E7A7B4CFB70.quest_subtitle: "A Advanced Pump Upgrade for the road."
-	quest.4F606E7A7B4CFB70.title: "Advanced Pump Upgrade"
+	quest.4F606E7A7B4CFB70.quest_desc: [
+			"&b&lAdvanced Pump Upgrade"
+			"&8&m                            "
+			""
+			"&7It pumps fluids between the Tank upgrade and the blocks nearby."
+			"&7This advanced model adds more filter slots and greater reach."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.4F606E7A7B4CFB70.quest_subtitle: "&7Move fluids in and out, with finer control"
+	quest.4F606E7A7B4CFB70.title: "&b&lAdvanced Pump Upgrade"
 	quest.4F66DF6B494BEFF3.quest_desc: [
 		"&a&lMagic Map Focus"
 		"&8&m                            "
@@ -10545,9 +11269,19 @@
 	quest.5014471AEFB94727.quest_desc: ["The Carminite Ghastling is part of the chain. Next door is in sight."]
 	quest.5014471AEFB94727.quest_subtitle: "Earn the Carminite Ghastling, the tempered way."
 	quest.5014471AEFB94727.title: "Carminite Ghastling"
-	quest.501CFE760784733D.quest_desc: ["Bring the Feeding Upgrade home. Patient runs win."]
-	quest.501CFE760784733D.quest_subtitle: "humble run, single Feeding Upgrade."
-	quest.501CFE760784733D.title: "Feeding Upgrade"
+	quest.501CFE760784733D.quest_desc: [
+			"&b&lFeeding Upgrade"
+			"&8&m                            "
+			""
+			"&7It feeds you food from the backpack the moment you grow hungry."
+			"&7Slot it into the upgrade tab of any backpack with room."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.501CFE760784733D.quest_subtitle: "&7Never starve on an adventure"
+	quest.501CFE760784733D.title: "&b&lFeeding Upgrade"
 	quest.502D16D5531E4D61.quest_desc: ["Carry the Stable Ice Core with you. Counts."]
 	quest.502D16D5531E4D61.quest_subtitle: "Worth the Stable Ice Core detour."
 	quest.502D16D5531E4D61.title: "Stable Ice Core"
@@ -10718,9 +11452,19 @@
 	]
 	quest.516E66BE01EE5B31.quest_subtitle: "&7Enchantment tomes for combat"
 	quest.516E66BE01EE5B31.title: "&d&lWeapon Tomes"
-	quest.517403575177D1CD.quest_desc: ["Add the Deposit Upgrade to your dossier. One more rung climbed."]
-	quest.517403575177D1CD.quest_subtitle: "The Deposit Upgrade unlocks more."
-	quest.517403575177D1CD.title: "Deposit Upgrade"
+	quest.517403575177D1CD.quest_desc: [
+			"&b&lDeposit Upgrade"
+			"&8&m                            "
+			""
+			"&7It unloads the backpack into any inventory you sneak right-click."
+			"&7Slot it into the upgrade tab of any backpack with room."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.517403575177D1CD.quest_subtitle: "&7Empty the pack into a chest fast"
+	quest.517403575177D1CD.title: "&b&lDeposit Upgrade"
 	quest.517B91100C8E48E5.quest_desc: ["The Vex is the next pivot. Modest now, mighty later."]
 	quest.517B91100C8E48E5.quest_subtitle: "A Vex for the road."
 	quest.517B91100C8E48E5.title: "Vex"
@@ -10788,9 +11532,19 @@
 	]
 	quest.523DC411241B470A.quest_subtitle: "&7The Geode Shelf, an enchanting shelf"
 	quest.523DC411241B470A.title: "&b&lGeode Shelf"
-	quest.525DCF7A5C10DA9E.quest_desc: ["Get the Pickup Upgrade. Press on."]
-	quest.525DCF7A5C10DA9E.quest_subtitle: "Worth the Pickup Upgrade detour."
-	quest.525DCF7A5C10DA9E.title: "Pickup Upgrade"
+	quest.525DCF7A5C10DA9E.quest_desc: [
+			"&9&lPickup Upgrade"
+			"&8&m                            "
+			""
+			"&7It makes the storage block pick up items off the ground all on its own."
+			"&7Slot it into the upgrade tab of a barrel or chest."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.525DCF7A5C10DA9E.quest_subtitle: "&7Hoover up loot without lifting a finger"
+	quest.525DCF7A5C10DA9E.title: "&9&lPickup Upgrade"
 	quest.526D81479D2E1C6F.quest_desc: ["Cross the Towerwood Borer off. Aim for the next thing."]
 	quest.526D81479D2E1C6F.quest_subtitle: "A Towerwood Borer for the road."
 	quest.526D81479D2E1C6F.title: "Towerwood Borer"
@@ -11261,9 +12015,20 @@
 	]
 	quest.575E405B270BBCBC.quest_subtitle: "&7Cull the creatures of dusk"
 	quest.575E405B270BBCBC.title: "&a&lTwilight Hunter"
-	quest.5762DAEB4AB1C0AB.quest_desc: ["Pin the Diamond Backpack to your inventory. Closer than the map suggests."]
-	quest.5762DAEB4AB1C0AB.quest_subtitle: "Earn it: the Diamond Backpack."
-	quest.5762DAEB4AB1C0AB.title: "Diamond Backpack"
+	quest.5762DAEB4AB1C0AB.quest_desc: [
+			"&a&lDiamond Backpack"
+			"&8&m                            "
+			""
+			"&7A backpack rides on your back and carries your inventory"
+			"&7wherever you roam, with a tab of upgrades all its own."
+			"&7The diamond tier offers a huge inventory and many upgrades."
+			""
+			"&a&lCategory:&r &fBackpacks"
+			""
+			"&e&l★ Tip:&r &7Open it with a key or place it down and right-click."
+		]
+	quest.5762DAEB4AB1C0AB.quest_subtitle: "&7Storage that travels with you"
+	quest.5762DAEB4AB1C0AB.title: "&a&lDiamond Backpack"
 	quest.5766C8B9E850C186.quest_desc: [
 		"&3&lImbuement Chamber"
 		"&8&m                            "
@@ -11455,9 +12220,20 @@
 	quest.5912BA7896F8F089.quest_desc: ["Score one Carminite Golem. Press on."]
 	quest.5912BA7896F8F089.quest_subtitle: "A still step toward the Carminite Golem."
 	quest.5912BA7896F8F089.title: "Carminite Golem"
-	quest.591530F202A85E14.quest_desc: ["Take the Netherite Backpack. Pace yourself."]
-	quest.591530F202A85E14.quest_subtitle: "One Netherite Backpack, one steadfast win."
-	quest.591530F202A85E14.title: "Netherite Backpack"
+	quest.591530F202A85E14.quest_desc: [
+			"&a&lNetherite Backpack"
+			"&8&m                            "
+			""
+			"&7A backpack rides on your back and carries your inventory"
+			"&7wherever you roam, with a tab of upgrades all its own."
+			"&7The netherite tier is the peak, vast and fireproof."
+			""
+			"&a&lCategory:&r &fBackpacks"
+			""
+			"&e&l★ Tip:&r &7Open it with a key or place it down and right-click."
+		]
+	quest.591530F202A85E14.quest_subtitle: "&7Storage that travels with you"
+	quest.591530F202A85E14.title: "&a&lNetherite Backpack"
 	quest.591DA03FFC7E109F.quest_desc: [
 		"&d&lOccultism"
 		"&8&m                                "
@@ -11526,9 +12302,19 @@
 	quest.599919B37F96ED6B.quest_desc: ["Snag the Carminite Ghastguard. Modest now, mighty later."]
 	quest.599919B37F96ED6B.quest_subtitle: "keen prize: the Carminite Ghastguard."
 	quest.599919B37F96ED6B.title: "Carminite Ghastguard"
-	quest.599C2D93447A2AB0.quest_desc: ["Bring home the Stack Upgrade Tier 4. Saved for later use."]
-	quest.599C2D93447A2AB0.quest_subtitle: "A Stack Upgrade Tier 4 for the road."
-	quest.599C2D93447A2AB0.title: "Stack Upgrade Tier 4"
+	quest.599C2D93447A2AB0.quest_desc: [
+			"&5&lStack Upgrade"
+			"&8&m                            "
+			""
+			"&7It multiplies how many stacks each slot of the storage block holds by x16."
+			"&7Stack upgrades build on each other, climb the tiers in order."
+			""
+			"&5&lCategory:&r &fStorage Capacity"
+			""
+			"&e&l★ Tip:&r &7Capacity upgrades share the upgrade tab with the others."
+		]
+	quest.599C2D93447A2AB0.quest_subtitle: "&7Hold x16 the stacks per slot"
+	quest.599C2D93447A2AB0.title: "&5&lStack Upgrade"
 	quest.599FA8D2FBA2725D.quest_desc: ["Score the Drowned. Soft milestone."]
 	quest.599FA8D2FBA2725D.quest_subtitle: "A Drowned for the road."
 	quest.599FA8D2FBA2725D.title: "Drowned"
@@ -11768,9 +12554,19 @@
 	]
 	quest.5BA2B036717AC1D6.quest_subtitle: "&7Wraithfang, a unique legendary blade"
 	quest.5BA2B036717AC1D6.title: "&d&lWraithfang"
-	quest.5BA6B0EBD15F4F49.quest_desc: ["Walk away with the Stack Upgrade Tier 4. Listed early for a reason."]
-	quest.5BA6B0EBD15F4F49.quest_subtitle: "Tiny step: the Stack Upgrade Tier 4."
-	quest.5BA6B0EBD15F4F49.title: "Stack Upgrade Tier 4"
+	quest.5BA6B0EBD15F4F49.quest_desc: [
+			"&d&lStack Upgrade"
+			"&8&m                            "
+			""
+			"&7It multiplies how many stacks each slot of the backpack holds by x16."
+			"&7Stack upgrades build on each other, climb the tiers in order."
+			""
+			"&d&lCategory:&r &fBackpack Capacity"
+			""
+			"&e&l★ Tip:&r &7Capacity upgrades share the upgrade tab with the others."
+		]
+	quest.5BA6B0EBD15F4F49.quest_subtitle: "&7Hold x16 the stacks per slot"
+	quest.5BA6B0EBD15F4F49.title: "&d&lStack Upgrade"
 	quest.5BB155110168DF92.quest_desc: [
 		"&d&lFreeze Glyph"
 		"&8&m                            "
@@ -11816,9 +12612,19 @@
 	]
 	quest.5C3FF43CF16BCF30.quest_subtitle: "&7The stone of the arcane"
 	quest.5C3FF43CF16BCF30.title: "&3&lSourcestone"
-	quest.5C413945211CB7FC.quest_desc: ["Mark the Alchemy Upgrade done. Pays its own freight."]
-	quest.5C413945211CB7FC.quest_subtitle: "One Alchemy Upgrade, one steady win."
-	quest.5C413945211CB7FC.title: "Alchemy Upgrade"
+	quest.5C413945211CB7FC.quest_desc: [
+			"&9&lAlchemy Upgrade"
+			"&8&m                            "
+			""
+			"&7It automatically uses potions, effect foods and milk from the storage block."
+			"&7Slot it into the upgrade tab of a barrel or chest."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.5C413945211CB7FC.quest_subtitle: "&7Effects applied automatically"
+	quest.5C413945211CB7FC.title: "&9&lAlchemy Upgrade"
 	quest.5C72E96AA51F783C.quest_desc: ["Pack the Phantom. The chain holds."]
 	quest.5C72E96AA51F783C.quest_subtitle: "Brick: the Phantom."
 	quest.5C72E96AA51F783C.title: "Phantom"
@@ -11841,9 +12647,19 @@
 	quest.5C7D80514579A09C.quest_desc: ["Reserve the Spider. Bridges what you did with what is next."]
 	quest.5C7D80514579A09C.quest_subtitle: "Quiet milestone with the Spider."
 	quest.5C7D80514579A09C.title: "Spider"
-	quest.5C9D9962F2FA0E06.quest_desc: ["Add one Advanced Compacting Upgrade to your supplies. Worth the detour."]
-	quest.5C9D9962F2FA0E06.quest_subtitle: "Build out the Advanced Compacting Upgrade chain."
-	quest.5C9D9962F2FA0E06.title: "Advanced Compacting Upgrade"
+	quest.5C9D9962F2FA0E06.quest_desc: [
+			"&b&lAdvanced Compacting Upgrade"
+			"&8&m                            "
+			""
+			"&7It compacts items in the backpack into their block or compressed form."
+			"&7This advanced model adds more filter slots and greater reach."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.5C9D9962F2FA0E06.quest_subtitle: "&7Squeeze loose items into neat blocks, with finer control"
+	quest.5C9D9962F2FA0E06.title: "&b&lAdvanced Compacting Upgrade"
 	quest.5CA9998DD0124142.quest_desc: ["Bring the Mutant Skeleton Shoulder Pad home. Pays its own freight."]
 	quest.5CA9998DD0124142.quest_subtitle: "On the route to the Mutant Skeleton Shoulder Pad."
 	quest.5CA9998DD0124142.title: "Mutant Skeleton Shoulder Pad"
@@ -11889,9 +12705,19 @@
 	quest.5D3F264B8D4C4C92.quest_desc: ["Find a way to the Piglin. Small habit, big result."]
 	quest.5D3F264B8D4C4C92.quest_subtitle: "Bookmark the Piglin."
 	quest.5D3F264B8D4C4C92.title: "Piglin"
-	quest.5D4BF684FEF1B4AC.quest_desc: ["The Advanced Pickup Upgrade unlocks more than it looks. Bridges what you did with what is next."]
-	quest.5D4BF684FEF1B4AC.quest_subtitle: "The Advanced Pickup Upgrade is a checkpoint."
-	quest.5D4BF684FEF1B4AC.title: "Advanced Pickup Upgrade"
+	quest.5D4BF684FEF1B4AC.quest_desc: [
+			"&b&lAdvanced Pickup Upgrade"
+			"&8&m                            "
+			""
+			"&7It makes the backpack pick up items off the ground all on its own."
+			"&7This advanced model adds more filter slots and greater reach."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.5D4BF684FEF1B4AC.quest_subtitle: "&7Hoover up loot without lifting a finger, with finer control"
+	quest.5D4BF684FEF1B4AC.title: "&b&lAdvanced Pickup Upgrade"
 	quest.5D6BAF806808102A.quest_desc: ["Earn the Mosquito Swarm step by step. Small habit, big result."]
 	quest.5D6BAF806808102A.quest_subtitle: "steadfast hop: the Mosquito Swarm."
 	quest.5D6BAF806808102A.title: "Mosquito Swarm"
@@ -12681,9 +13507,19 @@
 	]
 	quest.630CB3AE62376C39.quest_subtitle: "&7Emberlash, a unique legendary blade"
 	quest.630CB3AE62376C39.title: "&d&lEmberlash"
-	quest.63149ED8CAF67BAC.quest_desc: ["Earn the Stack Upgrade Tier 2. Snowballs after this."]
-	quest.63149ED8CAF67BAC.quest_subtitle: "A wary step toward the Stack Upgrade Tier 2."
-	quest.63149ED8CAF67BAC.title: "Stack Upgrade Tier 2"
+	quest.63149ED8CAF67BAC.quest_desc: [
+			"&d&lStack Upgrade"
+			"&8&m                            "
+			""
+			"&7It multiplies how many stacks each slot of the backpack holds by x4."
+			"&7Stack upgrades build on each other, climb the tiers in order."
+			""
+			"&d&lCategory:&r &fBackpack Capacity"
+			""
+			"&e&l★ Tip:&r &7Capacity upgrades share the upgrade tab with the others."
+		]
+	quest.63149ED8CAF67BAC.quest_subtitle: "&7Hold x4 the stacks per slot"
+	quest.63149ED8CAF67BAC.title: "&d&lStack Upgrade"
 	quest.632BC46928CC9A8C.quest_desc: [
 		"&e&lEnchanter Mirror"
 		"&8&m                            "
@@ -12838,12 +13674,32 @@
 	quest.6435AEDDD13247A0.quest_desc: ["Pocket the Ravager. One brick in a larger wall."]
 	quest.6435AEDDD13247A0.quest_subtitle: "Mark the Ravager done."
 	quest.6435AEDDD13247A0.title: "Ravager"
-	quest.6488D3F4747BB26B.quest_desc: ["Earn the Jukebox Upgrade step by step. Pace yourself."]
-	quest.6488D3F4747BB26B.quest_subtitle: "On the route to the Jukebox Upgrade."
-	quest.6488D3F4747BB26B.title: "Jukebox Upgrade"
-	quest.648B6590FEE16376.quest_desc: ["Cross the Advanced Jukebox Upgrade off. Worth pinning."]
-	quest.648B6590FEE16376.quest_subtitle: "The Advanced Jukebox Upgrade is a checkpoint."
-	quest.648B6590FEE16376.title: "Advanced Jukebox Upgrade"
+	quest.6488D3F4747BB26B.quest_desc: [
+			"&9&lJukebox Upgrade"
+			"&8&m                            "
+			""
+			"&7It turns the storage block into a portable jukebox for your music discs."
+			"&7Slot it into the upgrade tab of a barrel or chest."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.6488D3F4747BB26B.quest_subtitle: "&7Carry your music with you"
+	quest.6488D3F4747BB26B.title: "&9&lJukebox Upgrade"
+	quest.648B6590FEE16376.quest_desc: [
+			"&b&lAdvanced Jukebox Upgrade"
+			"&8&m                            "
+			""
+			"&7It turns the backpack into a portable jukebox for your music discs."
+			"&7This advanced model adds more filter slots and greater reach."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.648B6590FEE16376.quest_subtitle: "&7Carry your music with you, with finer control"
+	quest.648B6590FEE16376.title: "&b&lAdvanced Jukebox Upgrade"
 	quest.64A8C40D5D1D2026.quest_desc: ["Take the Zombified Piglin. Modular progress, small steps."]
 	quest.64A8C40D5D1D2026.quest_subtitle: "The Zombified Piglin pays its way."
 	quest.64A8C40D5D1D2026.title: "Zombified Piglin"
@@ -12918,9 +13774,19 @@
 	]
 	quest.652A14E17DDE97E6.quest_subtitle: "&7A spell book with its own character"
 	quest.652A14E17DDE97E6.title: "&d&lDragonskin Spell Book"
-	quest.652F00825BC5D089.quest_desc: ["The Alchemy Upgrade pays for itself. Pace yourself."]
-	quest.652F00825BC5D089.quest_subtitle: "Earn the Alchemy Upgrade, the sharp way."
-	quest.652F00825BC5D089.title: "Alchemy Upgrade"
+	quest.652F00825BC5D089.quest_desc: [
+			"&b&lAlchemy Upgrade"
+			"&8&m                            "
+			""
+			"&7It automatically uses potions, effect foods and milk from the backpack."
+			"&7Slot it into the upgrade tab of any backpack with room."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.652F00825BC5D089.quest_subtitle: "&7Effects applied automatically"
+	quest.652F00825BC5D089.title: "&b&lAlchemy Upgrade"
 	quest.6541A86B8A56C52C.quest_desc: [
 		"&b&lEconomy Plane"
 		"&8&m                            "
@@ -12937,9 +13803,20 @@
 	quest.6560ED582669453A.quest_desc: ["The Winter Wolf pays for itself. Future you will thank present you."]
 	quest.6560ED582669453A.quest_subtitle: "Add one Winter Wolf."
 	quest.6560ED582669453A.title: "Winter Wolf"
-	quest.65766D05E70BA60A.quest_desc: ["Stow the Gold Backpack. Load-bearing, not flashy."]
-	quest.65766D05E70BA60A.quest_subtitle: "The Gold Backpack is a checkpoint."
-	quest.65766D05E70BA60A.title: "Gold Backpack"
+	quest.65766D05E70BA60A.quest_desc: [
+			"&a&lGold Backpack"
+			"&8&m                            "
+			""
+			"&7A backpack rides on your back and carries your inventory"
+			"&7wherever you roam, with a tab of upgrades all its own."
+			"&7The gold tier brings still more slots and upgrade room."
+			""
+			"&a&lCategory:&r &fBackpacks"
+			""
+			"&e&l★ Tip:&r &7Open it with a key or place it down and right-click."
+		]
+	quest.65766D05E70BA60A.quest_subtitle: "&7Storage that travels with you"
+	quest.65766D05E70BA60A.title: "&a&lGold Backpack"
 	quest.6581D4AF1A6DE230.quest_desc: [
 		"&5&lRitual Candles"
 		"&8&m                            "
@@ -13093,9 +13970,19 @@
 	quest.668E346EDCC67432.quest_desc: ["Pin the Evoker to your inventory. Tiny wins stack into runs."]
 	quest.668E346EDCC67432.quest_subtitle: "Pocketed: the Evoker."
 	quest.668E346EDCC67432.title: "Evoker"
-	quest.669742DD733553F2.quest_desc: ["Stockpile the Stack Downgrade Tier 3. Quiet capital."]
-	quest.669742DD733553F2.quest_subtitle: "The Stack Downgrade Tier 3 pays its way."
-	quest.669742DD733553F2.title: "Stack Downgrade Tier 3"
+	quest.669742DD733553F2.quest_desc: [
+			"&d&lStack Downgrade"
+			"&8&m                            "
+			""
+			"&7It lowers how many stacks each slot of the backpack can hold."
+			"&7A niche tool to undo a stack upgrade or tune automation."
+			""
+			"&d&lCategory:&r &fBackpack Capacity"
+			""
+			"&e&l★ Tip:&r &7Capacity upgrades share the upgrade tab with the others."
+		]
+	quest.669742DD733553F2.quest_subtitle: "&7Shrink the stacks per slot"
+	quest.669742DD733553F2.title: "&d&lStack Downgrade"
 	quest.669D3CAC79F149F0.quest_desc: [
 		"&d&lNature Compass"
 		"&8&m                            "
@@ -13170,12 +14057,32 @@
 	]
 	quest.670468931286CFDE.quest_subtitle: "&7Write and spend one-time teleports"
 	quest.670468931286CFDE.title: "&d&lBlank and Warp Scrolls"
-	quest.67116868F3376796.quest_desc: ["Walk away with the Auto Smoking Upgrade. Useful sooner than you think."]
-	quest.67116868F3376796.quest_subtitle: "wary milestone: the Auto Smoking Upgrade."
-	quest.67116868F3376796.title: "Auto Smoking Upgrade"
-	quest.672E50D05CDA7361.quest_desc: ["Find your way to the Stack Upgrade Tier 1 Plus. Next door is in sight."]
-	quest.672E50D05CDA7361.quest_subtitle: "Build out the Stack Upgrade Tier 1 Plus chain."
-	quest.672E50D05CDA7361.title: "Stack Upgrade Tier 1 Plus"
+	quest.67116868F3376796.quest_desc: [
+			"&9&lAuto-Smoking Upgrade"
+			"&8&m                            "
+			""
+			"&7It adds a smoker tab that cooks your stored food on its own."
+			"&7Slot it into the upgrade tab of a barrel or chest."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.67116868F3376796.quest_subtitle: "&7Cooked food with no effort"
+	quest.67116868F3376796.title: "&9&lAuto-Smoking Upgrade"
+	quest.672E50D05CDA7361.quest_desc: [
+			"&5&lStack Upgrade"
+			"&8&m                            "
+			""
+			"&7It multiplies how many stacks each slot of the storage block holds by x3."
+			"&7Stack upgrades build on each other, climb the tiers in order."
+			""
+			"&5&lCategory:&r &fStorage Capacity"
+			""
+			"&e&l★ Tip:&r &7Capacity upgrades share the upgrade tab with the others."
+		]
+	quest.672E50D05CDA7361.quest_subtitle: "&7Hold x3 the stacks per slot"
+	quest.672E50D05CDA7361.title: "&5&lStack Upgrade"
 	quest.67308C5DDF4A10D2.quest_desc: [
 		"&9&lWandering Magician Robes"
 		"&8&m                            "
@@ -13233,9 +14140,19 @@
 	quest.6792D89E394F40D9.quest_desc: ["The Pillager is gating the next quest. Pace yourself."]
 	quest.6792D89E394F40D9.quest_subtitle: "Mark the Pillager done."
 	quest.6792D89E394F40D9.title: "Pillager"
-	quest.67948EA0C509E135.quest_desc: ["Take the Filter Upgrade. Bookkeeping matters."]
-	quest.67948EA0C509E135.quest_subtitle: "The Filter Upgrade pays its way."
-	quest.67948EA0C509E135.title: "Filter Upgrade"
+	quest.67948EA0C509E135.quest_desc: [
+			"&9&lFilter Upgrade"
+			"&8&m                            "
+			""
+			"&7It decides exactly which items may be piped into or out of the storage block."
+			"&7Slot it into the upgrade tab of a barrel or chest."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.67948EA0C509E135.quest_subtitle: "&7Control what flows in and out"
+	quest.67948EA0C509E135.title: "&9&lFilter Upgrade"
 	quest.6798C669890E4ABA.quest_desc: ["Track down the Naga. Worth pinning."]
 	quest.6798C669890E4ABA.quest_subtitle: "The Naga unlocks more."
 	quest.6798C669890E4ABA.title: "Naga"
@@ -13575,9 +14492,19 @@
 	]
 	quest.69763C2E2F454A73.quest_subtitle: "&7A rune of one spell school"
 	quest.69763C2E2F454A73.title: "&d&lFire Rune"
-	quest.697E4E3E199836F2.quest_desc: ["Stow the Stack Upgrade Starter Tier. Pace yourself."]
-	quest.697E4E3E199836F2.quest_subtitle: "Add one Stack Upgrade Starter Tier."
-	quest.697E4E3E199836F2.title: "Stack Upgrade Starter Tier"
+	quest.697E4E3E199836F2.quest_desc: [
+			"&d&lStack Upgrade"
+			"&8&m                            "
+			""
+			"&7It multiplies how many stacks each slot of the backpack holds by x1.5."
+			"&7Stack upgrades build on each other, climb the tiers in order."
+			""
+			"&d&lCategory:&r &fBackpack Capacity"
+			""
+			"&e&l★ Tip:&r &7Capacity upgrades share the upgrade tab with the others."
+		]
+	quest.697E4E3E199836F2.quest_subtitle: "&7Hold x1.5 the stacks per slot"
+	quest.697E4E3E199836F2.title: "&d&lStack Upgrade"
 	quest.697E782DA20EDEFE.quest_desc: [
 		"&9&lDiamond Armor"
 		"&8&m                            "
@@ -14004,9 +14931,19 @@
 	]
 	quest.6CD1720B76F47806.quest_subtitle: "&7Burn renewable bio fuel"
 	quest.6CD1720B76F47806.title: "&c&lBio-Generator"
-	quest.6CE2F3286AE73CF3.quest_desc: ["Bring the Blasting Upgrade into the fold. Modular progress, small steps."]
-	quest.6CE2F3286AE73CF3.quest_subtitle: "Today goal: the Blasting Upgrade."
-	quest.6CE2F3286AE73CF3.title: "Blasting Upgrade"
+	quest.6CE2F3286AE73CF3.quest_desc: [
+			"&9&lBlasting Upgrade"
+			"&8&m                            "
+			""
+			"&7It adds a blast furnace tab for ores and metal items in the storage block."
+			"&7Slot it into the upgrade tab of a barrel or chest."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.6CE2F3286AE73CF3.quest_subtitle: "&7A blast furnace for ores"
+	quest.6CE2F3286AE73CF3.title: "&9&lBlasting Upgrade"
 	quest.6CE4905E305CD0BC.quest_desc: ["The Bogged: small object, real progress. Halfway done with you."]
 	quest.6CE4905E305CD0BC.quest_subtitle: "The Bogged pays its way."
 	quest.6CE4905E305CD0BC.title: "Bogged"
@@ -14052,9 +14989,19 @@
 	]
 	quest.6D09511D64DDC282.quest_subtitle: "&7Face the deep guardian"
 	quest.6D09511D64DDC282.title: "&e&lThe Warden"
-	quest.6D13ECFBD49E7D0C.quest_desc: ["Mark the Compacting Upgrade done. Next door is in sight."]
-	quest.6D13ECFBD49E7D0C.quest_subtitle: "alert run, single Compacting Upgrade."
-	quest.6D13ECFBD49E7D0C.title: "Compacting Upgrade"
+	quest.6D13ECFBD49E7D0C.quest_desc: [
+			"&b&lCompacting Upgrade"
+			"&8&m                            "
+			""
+			"&7It compacts items in the backpack into their block or compressed form."
+			"&7Slot it into the upgrade tab of any backpack with room."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.6D13ECFBD49E7D0C.quest_subtitle: "&7Squeeze loose items into neat blocks"
+	quest.6D13ECFBD49E7D0C.title: "&b&lCompacting Upgrade"
 	quest.6D1FA14D6488CB09.quest_desc: ["Earn the Carminite Broodling the hard way. Small habit, big result."]
 	quest.6D1FA14D6488CB09.quest_subtitle: "Tiny step: the Carminite Broodling."
 	quest.6D1FA14D6488CB09.title: "Carminite Broodling"
@@ -14091,9 +15038,19 @@
 	]
 	quest.6D3A0BA54AA22403.quest_subtitle: "&7Pipe, pump and valve your liquids"
 	quest.6D3A0BA54AA22403.title: "&3&lFluid Plumbing"
-	quest.6D8AA40A15536F01.quest_desc: ["The Battery Upgrade is on the menu. Snowballs after this."]
-	quest.6D8AA40A15536F01.quest_subtitle: "Brick: the Battery Upgrade."
-	quest.6D8AA40A15536F01.title: "Battery Upgrade"
+	quest.6D8AA40A15536F01.quest_desc: [
+			"&b&lBattery Upgrade"
+			"&8&m                            "
+			""
+			"&7It turns part of the backpack into a battery for storing energy."
+			"&7Slot it into the upgrade tab of any backpack with room."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.6D8AA40A15536F01.quest_subtitle: "&7Power your gear from your back"
+	quest.6D8AA40A15536F01.title: "&b&lBattery Upgrade"
 	quest.6D8C9D7D9DF9A6DD.quest_desc: [
 		"&5&lChallenge Ritual"
 		"&8&m                            "
@@ -14298,9 +15255,19 @@
 	]
 	quest.6EF206A0BD5BAC0A.quest_subtitle: "&7For epic-grade affixes"
 	quest.6EF206A0BD5BAC0A.title: "&6&lEpic Material"
-	quest.6F224EB3268066E3.quest_desc: ["Earn the Storage Io the hard way. Worth the detour."]
-	quest.6F224EB3268066E3.quest_subtitle: "calm prize: the Storage Io."
-	quest.6F224EB3268066E3.title: "Storage Io"
+	quest.6F224EB3268066E3.quest_desc: [
+			"&c&lStorage Network"
+			"&8&m                            "
+			""
+			"&7The Controller, Storage Link, Input, Output and IO blocks"
+			"&7tie many barrels and chests into one connected network."
+			""
+			"&c&lCategory:&r &fStorage Network"
+			""
+			"&e&l★ Tip:&r &7Build a wall of storage, then reach all of it from one screen."
+		]
+	quest.6F224EB3268066E3.quest_subtitle: "&7Link your storage into one system"
+	quest.6F224EB3268066E3.title: "&c&lStorage Network"
 	quest.6F245246B8B3B666.quest_desc: ["Find the Mutant Skeleton Leggings. Patient runs win."]
 	quest.6F245246B8B3B666.quest_subtitle: "bright milestone: the Mutant Skeleton Leggings."
 	quest.6F245246B8B3B666.title: "Mutant Skeleton Leggings"
@@ -14604,9 +15571,19 @@
 	quest.70D842FB324840E7.quest_desc: ["Get the Stable Ice Core sorted early. Worth the detour."]
 	quest.70D842FB324840E7.quest_subtitle: "Build out the Stable Ice Core chain."
 	quest.70D842FB324840E7.title: "Stable Ice Core"
-	quest.70E647BDF793B950.quest_desc: ["Mark the Tank Upgrade done. Quiet capital."]
-	quest.70E647BDF793B950.quest_subtitle: "Today goal: the Tank Upgrade."
-	quest.70E647BDF793B950.title: "Tank Upgrade"
+	quest.70E647BDF793B950.quest_desc: [
+			"&b&lTank Upgrade"
+			"&8&m                            "
+			""
+			"&7It turns part of the backpack into a tank for storing fluids."
+			"&7Slot it into the upgrade tab of any backpack with room."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.70E647BDF793B950.quest_subtitle: "&7Carry water, lava and more"
+	quest.70E647BDF793B950.title: "&b&lTank Upgrade"
 	quest.70FB349702A60C2E.quest_desc: ["Score the Hostile Wolf. Halfway done with you."]
 	quest.70FB349702A60C2E.quest_subtitle: "Tiny step: the Hostile Wolf."
 	quest.70FB349702A60C2E.title: "Hostile Wolf"
@@ -14649,9 +15626,20 @@
 	quest.71321EF6599185A8.quest_desc: ["Pull the Umvuthana Crane from where it hides. Pays its own freight."]
 	quest.71321EF6599185A8.quest_subtitle: "The Umvuthana Crane: load-bearing."
 	quest.71321EF6599185A8.title: "Umvuthana Crane"
-	quest.7136AFD204CDC4BB.quest_desc: ["Take possession of the goal. The route teaches as much as the prize."]
-	quest.7136AFD204CDC4BB.quest_subtitle: "Carry the goal forward."
-	quest.7136AFD204CDC4BB.title: "Objective"
+	quest.7136AFD204CDC4BB.quest_desc: [
+			"&e&lCopper Chest"
+			"&8&m                            "
+			""
+			"&7A chest stores your items and can be opened in pairs for a"
+			"&7double the space, with the same rich upgrade slots."
+			"&7The copper tier adds extra rows of slots."
+			""
+			"&e&lCategory:&r &fChests"
+			""
+			"&e&l★ Tip:&r &7Tier it up later with a tier upgrade instead of rebuilding."
+		]
+	quest.7136AFD204CDC4BB.quest_subtitle: "&7A classic chest, vastly improved"
+	quest.7136AFD204CDC4BB.title: "&e&lCopper Chest"
 	quest.7137994189AA4678.quest_desc: ["Take possession of the Piglin. Worth pinning."]
 	quest.7137994189AA4678.quest_subtitle: "The Piglin: the chapter nudge."
 	quest.7137994189AA4678.title: "Piglin"
@@ -14661,9 +15649,19 @@
 	quest.7158742C177A45B3.quest_desc: ["Reach for the Mist Wolf. Bookkeeping matters."]
 	quest.7158742C177A45B3.quest_subtitle: "Tiny step: the Mist Wolf."
 	quest.7158742C177A45B3.title: "Mist Wolf"
-	quest.7158E0DDBACCFB8F.quest_desc: ["Bring the Compacting Upgrade home. Trust the chain."]
-	quest.7158E0DDBACCFB8F.quest_subtitle: "On the Compacting Upgrade branch."
-	quest.7158E0DDBACCFB8F.title: "Compacting Upgrade"
+	quest.7158E0DDBACCFB8F.quest_desc: [
+			"&9&lCompacting Upgrade"
+			"&8&m                            "
+			""
+			"&7It compacts items in the storage block into their block or compressed form."
+			"&7Slot it into the upgrade tab of a barrel or chest."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.7158E0DDBACCFB8F.quest_subtitle: "&7Squeeze loose items into neat blocks"
+	quest.7158E0DDBACCFB8F.title: "&9&lCompacting Upgrade"
 	quest.7162EE6CCA3F4949.quest_desc: ["Bring back the Adherent. Tiny wins stack into runs."]
 	quest.7162EE6CCA3F4949.quest_subtitle: "On the route to the Adherent."
 	quest.7162EE6CCA3F4949.title: "Adherent"
@@ -14792,15 +15790,35 @@
 	]
 	quest.71F0E9C36AA02B46.quest_subtitle: "&7A staff of fire and souls"
 	quest.71F0E9C36AA02B46.title: "&e&lCinderous Soulcaller"
-	quest.72525C12A18EB16F.quest_desc: ["Bring back the Xp Pump Upgrade. Counts."]
-	quest.72525C12A18EB16F.quest_subtitle: "One Xp Pump Upgrade, one steady win."
-	quest.72525C12A18EB16F.title: "Xp Pump Upgrade"
+	quest.72525C12A18EB16F.quest_desc: [
+			"&b&lExperience Pump Upgrade"
+			"&8&m                            "
+			""
+			"&7It pumps experience between the Tank upgrade and yourself."
+			"&7Slot it into the upgrade tab of any backpack with room."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.72525C12A18EB16F.quest_subtitle: "&7Bottle your experience"
+	quest.72525C12A18EB16F.title: "&b&lExperience Pump Upgrade"
 	quest.725D6F1BA23346D9.quest_desc: ["Lock in the Vindicator. Saved for later use."]
 	quest.725D6F1BA23346D9.quest_subtitle: "Carry the Vindicator forward."
 	quest.725D6F1BA23346D9.title: "Vindicator"
-	quest.7267097D64E98122.quest_desc: ["Reach for the Advanced Magnet Upgrade. Snowballs after this."]
-	quest.7267097D64E98122.quest_subtitle: "Today goal: the Advanced Magnet Upgrade."
-	quest.7267097D64E98122.title: "Advanced Magnet Upgrade"
+	quest.7267097D64E98122.quest_desc: [
+			"&b&lAdvanced Magnet Upgrade"
+			"&8&m                            "
+			""
+			"&7It draws nearby dropped items straight into the backpack from a distance."
+			"&7This advanced model adds more filter slots and greater reach."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.7267097D64E98122.quest_subtitle: "&7Pull loot in from afar, with finer control"
+	quest.7267097D64E98122.title: "&b&lAdvanced Magnet Upgrade"
 	quest.7270A37E31A70C91.quest_desc: [
 		"&d&lHoly Rune"
 		"&8&m                            "
@@ -15241,9 +16259,19 @@
 	]
 	quest.7509E4093010EA4C.quest_subtitle: "&7Arrows that never miss"
 	quest.7509E4093010EA4C.title: "&e&lSeeker Bow"
-	quest.755DEA4A94154912.quest_desc: ["Hold onto the Advanced Void Upgrade. Halfway done with you."]
-	quest.755DEA4A94154912.quest_subtitle: "Worth the Advanced Void Upgrade detour."
-	quest.755DEA4A94154912.title: "Advanced Void Upgrade"
+	quest.755DEA4A94154912.quest_desc: [
+			"&9&lAdvanced Void Upgrade"
+			"&8&m                            "
+			""
+			"&7It destroys any item you mark in its filter the instant it arrives."
+			"&7This advanced model adds more filter slots and greater reach."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.755DEA4A94154912.quest_subtitle: "&7Throw out the junk on arrival, with finer control"
+	quest.755DEA4A94154912.title: "&9&lAdvanced Void Upgrade"
 	quest.7560CC4988D57CD2.quest_desc: ["Mark the Kobold done. Calm focus beats rushing."]
 	quest.7560CC4988D57CD2.quest_subtitle: "Mark the Kobold done."
 	quest.7560CC4988D57CD2.title: "Kobold"
@@ -15438,9 +16466,19 @@
 	quest.76EC1FA26264D436.quest_desc: ["Bring the Wraith into the fold. Modest now, mighty later."]
 	quest.76EC1FA26264D436.quest_subtitle: "One Wraith, one resolute win."
 	quest.76EC1FA26264D436.title: "Wraith"
-	quest.7706629B2DDE3065.quest_desc: ["Pack the Xp Pump Upgrade away. Soft milestone."]
-	quest.7706629B2DDE3065.quest_subtitle: "A thrifty step toward the Xp Pump Upgrade."
-	quest.7706629B2DDE3065.title: "Xp Pump Upgrade"
+	quest.7706629B2DDE3065.quest_desc: [
+			"&9&lExperience Pump Upgrade"
+			"&8&m                            "
+			""
+			"&7It pumps experience between the Tank upgrade and yourself."
+			"&7Slot it into the upgrade tab of a barrel or chest."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.7706629B2DDE3065.quest_subtitle: "&7Bottle your experience"
+	quest.7706629B2DDE3065.title: "&9&lExperience Pump Upgrade"
 	quest.77145113CD5B26FB.quest_desc: [
 		"&6&lMycelial Sourcelink"
 		"&8&m                            "
@@ -15470,9 +16508,19 @@
 	]
 	quest.7741905EA8380B25.quest_subtitle: "&7Prepare for the unknown"
 	quest.7741905EA8380B25.title: "&d&lSmithing Template"
-	quest.774834C8411CBB86.quest_desc: ["Walk away with the Stonecutter Upgrade. Press on."]
-	quest.774834C8411CBB86.quest_subtitle: "deliberate prize: the Stonecutter Upgrade."
-	quest.774834C8411CBB86.title: "Stonecutter Upgrade"
+	quest.774834C8411CBB86.quest_desc: [
+			"&b&lStonecutter Upgrade"
+			"&8&m                            "
+			""
+			"&7It adds a stonecutter tab for shaping stone inside the backpack."
+			"&7Slot it into the upgrade tab of any backpack with room."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.774834C8411CBB86.quest_subtitle: "&7Shape stone on the spot"
+	quest.774834C8411CBB86.title: "&b&lStonecutter Upgrade"
 	quest.775059D0E45E4433.quest_desc: ["Reach the Lower Goblin Knight. Listed early for a reason."]
 	quest.775059D0E45E4433.quest_subtitle: "Today goal: the Lower Goblin Knight."
 	quest.775059D0E45E4433.title: "Lower Goblin Knight"
@@ -15508,9 +16556,19 @@
 	quest.777BFC0A71AC37AC.quest_desc: ["Find a way to the Carminite Broodling. Aim for the next thing."]
 	quest.777BFC0A71AC37AC.quest_subtitle: "A Carminite Broodling for the road."
 	quest.777BFC0A71AC37AC.title: "Carminite Broodling"
-	quest.777F9AEC761209C2.quest_desc: ["Bring the Advanced Alchemy Upgrade home. Tiny wins stack into runs."]
-	quest.777F9AEC761209C2.quest_subtitle: "The Advanced Alchemy Upgrade: load-bearing."
-	quest.777F9AEC761209C2.title: "Advanced Alchemy Upgrade"
+	quest.777F9AEC761209C2.quest_desc: [
+			"&b&lAdvanced Alchemy Upgrade"
+			"&8&m                            "
+			""
+			"&7It automatically uses potions, effect foods and milk from the backpack."
+			"&7This advanced model adds more filter slots and greater reach."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.777F9AEC761209C2.quest_subtitle: "&7Effects applied automatically, with finer control"
+	quest.777F9AEC761209C2.title: "&b&lAdvanced Alchemy Upgrade"
 	quest.777FDD68D7200045.quest_desc: ["Bank the Ravager. Useful sooner than you think."]
 	quest.777FDD68D7200045.quest_subtitle: "Tiny step: the Ravager."
 	quest.777FDD68D7200045.title: "Ravager"
@@ -15595,9 +16653,19 @@
 	]
 	quest.7846B7FFC3DD85C5.quest_subtitle: "&7The gateway of the Phase Shifter"
 	quest.7846B7FFC3DD85C5.title: "&5&lSPS Port"
-	quest.784D5B30D3E1892D.quest_desc: ["The Auto Blasting Upgrade: load-bearing, not loud. Counts."]
-	quest.784D5B30D3E1892D.quest_subtitle: "honest milestone: the Auto Blasting Upgrade."
-	quest.784D5B30D3E1892D.title: "Auto Blasting Upgrade"
+	quest.784D5B30D3E1892D.quest_desc: [
+			"&9&lAuto-Blasting Upgrade"
+			"&8&m                            "
+			""
+			"&7It adds a blast furnace tab that smelts ores and metal on its own."
+			"&7Slot it into the upgrade tab of a barrel or chest."
+			""
+			"&9&lCategory:&r &fStorage Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.784D5B30D3E1892D.quest_subtitle: "&7Ores refined automatically"
+	quest.784D5B30D3E1892D.title: "&9&lAuto-Blasting Upgrade"
 	quest.784F7F2C04C5A60C.quest_desc: ["Score the Naga. Steady is fast."]
 	quest.784F7F2C04C5A60C.quest_subtitle: "Tiny step: the Naga."
 	quest.784F7F2C04C5A60C.title: "Naga"
@@ -15623,9 +16691,19 @@
 	quest.787415570026FFAA.quest_desc: ["Bring the Fortune Upgrade into your inventory. Steady progress pays off."]
 	quest.787415570026FFAA.quest_subtitle: "Bank the Fortune Upgrade for later."
 	quest.787415570026FFAA.title: "Fortune Upgrade"
-	quest.7877B46C9B4E9B0F.quest_desc: ["Find the Everlasting Upgrade. A seed for the snowball."]
-	quest.7877B46C9B4E9B0F.quest_subtitle: "The Everlasting Upgrade unlocks more."
-	quest.7877B46C9B4E9B0F.title: "Everlasting Upgrade"
+	quest.7877B46C9B4E9B0F.quest_desc: [
+			"&b&lEverlasting Upgrade"
+			"&8&m                            "
+			""
+			"&7It makes the backpack itself indestructible, safe from lava and fire."
+			"&7Slot it into the upgrade tab of any backpack with room."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.7877B46C9B4E9B0F.quest_subtitle: "&7A backpack that can never be lost"
+	quest.7877B46C9B4E9B0F.title: "&b&lEverlasting Upgrade"
 	quest.78791F4DAE8DA1A8.quest_desc: ["Walk away with the Hedge Spider. Modest now, mighty later."]
 	quest.78791F4DAE8DA1A8.quest_subtitle: "Brick: the Hedge Spider."
 	quest.78791F4DAE8DA1A8.title: "Hedge Spider"
@@ -15642,9 +16720,19 @@
 	]
 	quest.787A04639A74D85A.quest_subtitle: "&7Your first true angler s rod"
 	quest.787A04639A74D85A.title: "&b&lIron Fishing Rod"
-	quest.7884B6A5F494A8C6.quest_desc: ["Pick up the Auto Smoking Upgrade on your way through. Friendly nudge."]
-	quest.7884B6A5F494A8C6.quest_subtitle: "The Auto Smoking Upgrade pays its way."
-	quest.7884B6A5F494A8C6.title: "Auto Smoking Upgrade"
+	quest.7884B6A5F494A8C6.quest_desc: [
+			"&b&lAuto-Smoking Upgrade"
+			"&8&m                            "
+			""
+			"&7It adds a smoker tab that cooks your stored food on its own."
+			"&7Slot it into the upgrade tab of any backpack with room."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.7884B6A5F494A8C6.quest_subtitle: "&7Cooked food with no effort"
+	quest.7884B6A5F494A8C6.title: "&b&lAuto-Smoking Upgrade"
 	quest.7893CEB32191C7C3.quest_desc: [
 		"&2&lRespawn Anchor"
 		"&8&m                            "
@@ -15826,9 +16914,19 @@
 	]
 	quest.79146466E43A2B99.quest_subtitle: "&7The Flare Glyph, a word of magic"
 	quest.79146466E43A2B99.title: "&d&lFlare Glyph"
-	quest.79218680D962D752.quest_desc: ["The Stack Upgrade Tier 3: another rung climbed. Closer than the map suggests."]
-	quest.79218680D962D752.quest_subtitle: "The Stack Upgrade Tier 3: the chapter nudge."
-	quest.79218680D962D752.title: "Stack Upgrade Tier 3"
+	quest.79218680D962D752.quest_desc: [
+			"&d&lStack Upgrade"
+			"&8&m                            "
+			""
+			"&7It multiplies how many stacks each slot of the backpack holds by x8."
+			"&7Stack upgrades build on each other, climb the tiers in order."
+			""
+			"&d&lCategory:&r &fBackpack Capacity"
+			""
+			"&e&l★ Tip:&r &7Capacity upgrades share the upgrade tab with the others."
+		]
+	quest.79218680D962D752.quest_subtitle: "&7Hold x8 the stacks per slot"
+	quest.79218680D962D752.title: "&d&lStack Upgrade"
 	quest.792BAAEDB646A5F2.quest_desc: ["Wrap up the Harbinger Cube task. Listed early for a reason."]
 	quest.792BAAEDB646A5F2.quest_subtitle: "The Harbinger Cube is a checkpoint."
 	quest.792BAAEDB646A5F2.title: "Harbinger Cube"
@@ -15861,9 +16959,19 @@
 	quest.793D5E982E13483F.quest_desc: ["Pin the Drowned to your inventory. Modest now, mighty later."]
 	quest.793D5E982E13483F.quest_subtitle: "On the route to the Drowned."
 	quest.793D5E982E13483F.title: "Drowned"
-	quest.794C8876AAC5368D.quest_desc: ["Secure the Crafting Upgrade before moving deeper. Steady is fast."]
-	quest.794C8876AAC5368D.quest_subtitle: "A keen step toward the Crafting Upgrade."
-	quest.794C8876AAC5368D.title: "Crafting Upgrade"
+	quest.794C8876AAC5368D.quest_desc: [
+			"&b&lCrafting Upgrade"
+			"&8&m                            "
+			""
+			"&7It adds a crafting table tab, a full workbench inside the backpack."
+			"&7Slot it into the upgrade tab of any backpack with room."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.794C8876AAC5368D.quest_subtitle: "&7Craft anywhere you stand"
+	quest.794C8876AAC5368D.title: "&b&lCrafting Upgrade"
 	quest.794D6F9B8DB31E7D.quest_desc: [
 		"&e&lIce Staff"
 		"&8&m                            "
@@ -15912,9 +17020,19 @@
 	quest.798D392817F54B5D.quest_desc: ["Pull the Skeleton into your kit. Bridges what you did with what is next."]
 	quest.798D392817F54B5D.quest_subtitle: "Tiny step: the Skeleton."
 	quest.798D392817F54B5D.title: "Skeleton"
-	quest.798DFFA0A143058E.quest_desc: ["Bring the Basic Tier Upgrade into the fold. Load-bearing, not flashy."]
-	quest.798DFFA0A143058E.quest_subtitle: "A Basic Tier Upgrade for the road."
-	quest.798DFFA0A143058E.title: "Basic Tier Upgrade"
+	quest.798DFFA0A143058E.quest_desc: [
+			"&3&lBasic Tier Upgrade"
+			"&8&m                            "
+			""
+			"&7It upgrades a plain vanilla chest or barrel into its"
+			"&7sophisticated form, keeping all the items inside."
+			""
+			"&3&lCategory:&r &fStorage Tiers"
+			""
+			"&e&l★ Tip:&r &7No need to empty the chest first, the contents carry over."
+		]
+	quest.798DFFA0A143058E.quest_subtitle: "&7Convert a vanilla chest in place"
+	quest.798DFFA0A143058E.title: "&3&lBasic Tier Upgrade"
 	quest.79AF63E77AD70A93.quest_desc: [
 		"&a&lBookshelves"
 		"&8&m                            "
@@ -16006,9 +17124,19 @@
 	quest.7A6EF332788B4E64.quest_desc: ["Note the Spider obtained. Soft milestone."]
 	quest.7A6EF332788B4E64.quest_subtitle: "The Spider is a checkpoint."
 	quest.7A6EF332788B4E64.title: "Spider"
-	quest.7A8BCF4426EB62B9.quest_desc: ["The Advanced Filter Upgrade is asked of you. Modest now, mighty later."]
-	quest.7A8BCF4426EB62B9.quest_subtitle: "Mark the Advanced Filter Upgrade done."
-	quest.7A8BCF4426EB62B9.title: "Advanced Filter Upgrade"
+	quest.7A8BCF4426EB62B9.quest_desc: [
+			"&b&lAdvanced Filter Upgrade"
+			"&8&m                            "
+			""
+			"&7It decides exactly which items may be piped into or out of the backpack."
+			"&7This advanced model adds more filter slots and greater reach."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.7A8BCF4426EB62B9.quest_subtitle: "&7Control what flows in and out, with finer control"
+	quest.7A8BCF4426EB62B9.title: "&b&lAdvanced Filter Upgrade"
 	quest.7A9AE63998BB41FF.quest_desc: [
 		"&6&lSugar"
 		"&8&m                            "
@@ -16302,9 +17430,19 @@
 	quest.7CC90B914D6FB6E8.quest_desc: ["Mark the Spider in your log. Listed early for a reason."]
 	quest.7CC90B914D6FB6E8.quest_subtitle: "Tiny step: the Spider."
 	quest.7CC90B914D6FB6E8.title: "Spider"
-	quest.7CCE71D831D8CAF1.quest_desc: ["The Jukebox Upgrade is part of the chain. Modest now, mighty later."]
-	quest.7CCE71D831D8CAF1.quest_subtitle: "The Jukebox Upgrade is a checkpoint."
-	quest.7CCE71D831D8CAF1.title: "Jukebox Upgrade"
+	quest.7CCE71D831D8CAF1.quest_desc: [
+			"&b&lJukebox Upgrade"
+			"&8&m                            "
+			""
+			"&7It turns the backpack into a portable jukebox for your music discs."
+			"&7Slot it into the upgrade tab of any backpack with room."
+			""
+			"&b&lCategory:&r &fBackpack Upgrades"
+			""
+			"&e&l★ Tip:&r &7Upgrades slot into the upgrade tab, only while there is room."
+		]
+	quest.7CCE71D831D8CAF1.quest_subtitle: "&7Carry your music with you"
+	quest.7CCE71D831D8CAF1.title: "&b&lJukebox Upgrade"
 	quest.7CDA5595099C024E.quest_desc: [
 		"&e&lEnhanced Propeller"
 		"&8&m                            "
@@ -16363,9 +17501,19 @@
 	]
 	quest.7D156AB6897F7D89.quest_subtitle: "&7Waxweaver, a unique legendary blade"
 	quest.7D156AB6897F7D89.title: "&d&lWaxweaver"
-	quest.7D17828D751065C1.quest_desc: ["The Basic To Copper Tier Upgrade is the next pivot. Small habit, big result."]
-	quest.7D17828D751065C1.quest_subtitle: "The Basic To Copper Tier Upgrade: load-bearing."
-	quest.7D17828D751065C1.title: "Basic To Copper Tier Upgrade"
+	quest.7D17828D751065C1.quest_desc: [
+			"&3&lCopper Tier Upgrade"
+			"&8&m                            "
+			""
+			"&7It raises a storage block up to the copper tier, adding more"
+			"&7slots and upgrade room without rebuilding it from scratch."
+			""
+			"&3&lCategory:&r &fStorage Tiers"
+			""
+			"&e&l★ Tip:&r &7Tier upgrades stack, climb from copper all the way to netherite."
+		]
+	quest.7D17828D751065C1.quest_subtitle: "&7Raise a storage block one tier"
+	quest.7D17828D751065C1.title: "&3&lCopper Tier Upgrade"
 	quest.7D279FC39DA5C630.quest_desc: [
 		"&2&lHydrofluoric Acid"
 		"&8&m                            "

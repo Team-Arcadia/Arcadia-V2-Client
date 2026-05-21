@@ -317,9 +317,19 @@
 	]
 	quest.00D80AA4CDD8335C.quest_subtitle: "&7Coraza sagrada para mago de batalla"
 	quest.00D80AA4CDD8335C.title: "&9&lPeto de Paladin"
-	quest.00E52E8C4BBC5E9B.quest_desc: ["Consigue el Stack Upgrade Tier 2. Un ladrillo mas en una pared."]
-	quest.00E52E8C4BBC5E9B.quest_subtitle: "En ruta al Stack Upgrade Tier 2."
-	quest.00E52E8C4BBC5E9B.title: "Stack Upgrade Tier 2"
+	quest.00E52E8C4BBC5E9B.quest_desc: [
+			"&5&lMejora de Pila"
+			"&8&m                            "
+			""
+			"&7Multiplica las pilas por casilla del bloque de almacen por x4."
+			"&7Las mejoras de pila se acumulan, sube los niveles en orden."
+			""
+			"&5&lCategoria:&r &fCapacidad de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras de capacidad comparten la pestana de mejoras."
+		]
+	quest.00E52E8C4BBC5E9B.quest_subtitle: "&7Guarda x4 las pilas por casilla"
+	quest.00E52E8C4BBC5E9B.title: "&5&lMejora de Pila"
 	quest.00F6402CF15FF5CD.quest_desc: ["Gana el Towerwood Borer jugando a largo plazo. A tu ritmo."]
 	quest.00F6402CF15FF5CD.quest_subtitle: "Premio luminoso: el Towerwood Borer."
 	quest.00F6402CF15FF5CD.title: "Towerwood Borer"
@@ -474,9 +484,19 @@
 	quest.02843BEC215744D0.quest_desc: ["Anota el Piglin en el diario. Aviso amistoso."]
 	quest.02843BEC215744D0.quest_subtitle: "El Piglin: guino del capitulo."
 	quest.02843BEC215744D0.title: "Piglin"
-	quest.02A6A7A0D88B3F82.quest_desc: ["Gana el Crafting Upgrade paso a paso. Las victorias chicas suman."]
-	quest.02A6A7A0D88B3F82.quest_subtitle: "Anade un Crafting Upgrade."
-	quest.02A6A7A0D88B3F82.title: "Crafting Upgrade"
+	quest.02A6A7A0D88B3F82.quest_desc: [
+			"&9&lFabricacion Mejora"
+			"&8&m                            "
+			""
+			"&7Anade una pestana de mesa de trabajo dentro del bloque de almacen."
+			"&7Metela en la pestana de mejoras de un barril o cofre."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.02A6A7A0D88B3F82.quest_subtitle: "&7Fabrica donde estes"
+	quest.02A6A7A0D88B3F82.title: "&9&lFabricacion Mejora"
 	quest.02C20D2B7605CBC8.quest_desc: ["Anota el Carminite Broodling como adquirido. El atajo no esta aqui."]
 	quest.02C20D2B7605CBC8.quest_subtitle: "En ruta al Carminite Broodling."
 	quest.02C20D2B7605CBC8.title: "Carminite Broodling"
@@ -506,9 +526,19 @@
 	]
 	quest.02E5E8D22DF49C31.quest_subtitle: "&7Madera resistente a la intemperie"
 	quest.02E5E8D22DF49C31.title: "&e&lMadera Tratada"
-	quest.0300307C7FB9E47C.quest_desc: ["Asegura el Basic To Netherite Tier Upgrade. Habito chico, gran resultado."]
-	quest.0300307C7FB9E47C.quest_subtitle: "En ruta al Basic To Netherite Tier Upgrade."
-	quest.0300307C7FB9E47C.title: "Basic To Netherite Tier Upgrade"
+	quest.0300307C7FB9E47C.quest_desc: [
+			"&3&lMejora a Nivel Netherita"
+			"&8&m                            "
+			""
+			"&7Sube un bloque de almacen al nivel netherita, anadiendo mas"
+			"&7casillas y espacio de mejora sin rehacerlo de cero."
+			""
+			"&3&lCategoria:&r &fNiveles de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Los niveles se acumulan, sube del cobre a la netherita."
+		]
+	quest.0300307C7FB9E47C.quest_subtitle: "&7Sube un bloque un nivel"
+	quest.0300307C7FB9E47C.title: "&3&lMejora a Nivel Netherita"
 	quest.0306D25C7407FE88.quest_desc: [
 		"&b&lMatriz de Enfoque Laser"
 		"&8&m                            "
@@ -853,9 +883,19 @@
 	quest.052A82D29CA9A028.quest_desc: ["Almacena el Hedge Spider. Sigue."]
 	quest.052A82D29CA9A028.quest_subtitle: "El Hedge Spider abre mas."
 	quest.052A82D29CA9A028.title: "Hedge Spider"
-	quest.05457AD507E9CAF9.quest_desc: ["Encuentra el Auto Blasting Upgrade. La calma vence al apuro."]
-	quest.05457AD507E9CAF9.quest_subtitle: "Vale el desvio por el Auto Blasting Upgrade."
-	quest.05457AD507E9CAF9.title: "Auto Blasting Upgrade"
+	quest.05457AD507E9CAF9.quest_desc: [
+			"&b&lCalcinado Auto Mejora"
+			"&8&m                            "
+			""
+			"&7Anade una pestana de alto horno que funde minerales sola."
+			"&7Metela en la pestana de mejoras de una mochila con sitio."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.05457AD507E9CAF9.quest_subtitle: "&7Minerales refinados solos"
+	quest.05457AD507E9CAF9.title: "&b&lCalcinado Auto Mejora"
 	quest.05510D11ABAA5C22.quest_desc: [
 		"&6&lRefined Storage"
 		"&8&m                                "
@@ -1144,9 +1184,19 @@
 	]
 	quest.073FD3884B2B11F7.quest_subtitle: "&7El Amplify Glyph, una palabra de magia"
 	quest.073FD3884B2B11F7.title: "&d&lAmplify Glyph"
-	quest.07436BF29A9339CC.quest_desc: ["Anota el Advanced Void Upgrade como adquirido. Modesto ahora, poderoso despues."]
-	quest.07436BF29A9339CC.quest_subtitle: "El Advanced Void Upgrade es un checkpoint."
-	quest.07436BF29A9339CC.title: "Advanced Void Upgrade"
+	quest.07436BF29A9339CC.quest_desc: [
+			"&b&lAvanzado Vacio Mejora"
+			"&8&m                            "
+			""
+			"&7Destruye al instante todo objeto marcado en su filtro."
+			"&7Este modelo avanzado anade mas filtros y mayor alcance."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.07436BF29A9339CC.quest_subtitle: "&7Tira la basura al llegar, con control mas fino"
+	quest.07436BF29A9339CC.title: "&b&lAvanzado Vacio Mejora"
 	quest.0744B2223618F9DE.quest_desc: ["El Carminite Ghastguard abre mas puertas de las que parece. El atajo no esta aqui."]
 	quest.0744B2223618F9DE.quest_subtitle: "Guarda el Carminite Ghastguard para luego."
 	quest.0744B2223618F9DE.title: "Carminite Ghastguard"
@@ -1175,9 +1225,20 @@
 	quest.076399D348AA54D5.quest_desc: ["Recoge el Wither de paso. Vale anotarlo."]
 	quest.076399D348AA54D5.quest_subtitle: "Ganancia modesta: el Wither."
 	quest.076399D348AA54D5.title: "Wither"
-	quest.078A67E1F6A18027.quest_desc: ["Mete el sena en el inventario. Sigue."]
-	quest.078A67E1F6A18027.quest_subtitle: "Ganate el sena, sin atajo."
-	quest.078A67E1F6A18027.title: "Objective"
+	quest.078A67E1F6A18027.quest_desc: [
+			"&e&lCofre"
+			"&8&m                            "
+			""
+			"&7Un cofre guarda tus objetos y se abre en pareja para el"
+			"&7doble de espacio, con las mismas ranuras de mejora."
+			"&7Esta primera mision tambien da una mejora de nivel."
+			""
+			"&e&lCategoria:&r &fCofres"
+			""
+			"&e&l★ Consejo:&r &7Sube su nivel luego con una mejora de nivel, sin rehacerlo."
+		]
+	quest.078A67E1F6A18027.quest_subtitle: "&7Tu primer cofre y su primera mejora"
+	quest.078A67E1F6A18027.title: "&e&lCofre"
 	quest.078B69E9362A5496.quest_desc: [
 		"&2&lCadena de Gas de Uranio"
 		"&8&m                            "
@@ -1628,9 +1689,20 @@
 	]
 	quest.0A7D2C9BB684C539.quest_subtitle: "&7Netherite, comprimido y guardado."
 	quest.0A7D2C9BB684C539.title: "&5&lNetherite Bloque"
-	quest.0A93D938DB277BC1.quest_desc: ["El paso: objeto pequeno, progreso real. A tu ritmo."]
-	quest.0A93D938DB277BC1.quest_subtitle: "Premio templado: el paso."
-	quest.0A93D938DB277BC1.title: "Objective"
+	quest.0A93D938DB277BC1.quest_desc: [
+			"&e&lCofre de Oro"
+			"&8&m                            "
+			""
+			"&7Un cofre guarda tus objetos y se abre en pareja para el"
+			"&7doble de espacio, con las mismas ranuras de mejora."
+			"&7El nivel oro trae aun mas casillas y espacio de mejora."
+			""
+			"&e&lCategoria:&r &fCofres"
+			""
+			"&e&l★ Consejo:&r &7Sube su nivel luego con una mejora de nivel, sin rehacerlo."
+		]
+	quest.0A93D938DB277BC1.quest_subtitle: "&7Un cofre clasico, muy mejorado"
+	quest.0A93D938DB277BC1.title: "&e&lCofre de Oro"
 	quest.0A993CDB83671E89.quest_desc: [
 		"&d&lLivyatan"
 		"&8&m                            "
@@ -1757,9 +1829,20 @@
 	quest.0C15FBA4BF9C4EBA.quest_desc: ["El Umvuthana Crane se paga solo. Modesto ahora, poderoso despues."]
 	quest.0C15FBA4BF9C4EBA.quest_subtitle: "El Umvuthana Crane abre mas."
 	quest.0C15FBA4BF9C4EBA.title: "Umvuthana Crane"
-	quest.0C256F7C80318051.quest_desc: ["Gana el blanco. Estructural, no llamativo."]
-	quest.0C256F7C80318051.quest_subtitle: "Un blanco, victoria listo."
-	quest.0C256F7C80318051.title: "Objective"
+	quest.0C256F7C80318051.quest_desc: [
+			"&6&lBarril de Netherita"
+			"&8&m                            "
+			""
+			"&7Un barril guarda tus objetos en un bloque solido y acepta"
+			"&7mejoras para recoger, ordenar, fundir y mucho mas."
+			"&7El nivel netherita es la cumbre, vasto e ignifugo."
+			""
+			"&6&lCategoria:&r &fBarriles"
+			""
+			"&e&l★ Consejo:&r &7Clic derecho en la cara del barril, sin espacio arriba."
+		]
+	quest.0C256F7C80318051.quest_subtitle: "&7Un bloque solido que lo guarda todo"
+	quest.0C256F7C80318051.title: "&6&lBarril de Netherita"
 	quest.0C3657D2C7A9DFFF.quest_desc: ["Desbloquea el Zombie. Vale mas que su descripcion."]
 	quest.0C3657D2C7A9DFFF.quest_subtitle: "Hito tranquilo con el Zombie."
 	quest.0C3657D2C7A9DFFF.title: "Zombie"
@@ -1791,9 +1874,19 @@
 	quest.0CC163F16EB84134.quest_desc: ["Cierra el Piglin. Vale anotarlo."]
 	quest.0CC163F16EB84134.quest_subtitle: "En ruta al Piglin."
 	quest.0CC163F16EB84134.title: "Piglin"
-	quest.0CC9E05DAB1B684D.quest_desc: ["El Tool Swapper Upgrade: un hito tranquilo. Sigue."]
-	quest.0CC9E05DAB1B684D.quest_subtitle: "Premio diligente: el Tool Swapper Upgrade."
-	quest.0CC9E05DAB1B684D.title: "Tool Swapper Upgrade"
+	quest.0CC9E05DAB1B684D.quest_desc: [
+			"&b&lCambiador de Herramientas Mejora"
+			"&8&m                            "
+			""
+			"&7Cambia el objeto en mano por la herramienta correcta al golpear."
+			"&7Metela en la pestana de mejoras de una mochila con sitio."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.0CC9E05DAB1B684D.quest_subtitle: "&7Siempre la herramienta justa"
+	quest.0CC9E05DAB1B684D.title: "&b&lCambiador de Herramientas Mejora"
 	quest.0CCFE947AC5A60F9.quest_desc: [
 		"&6&lBallesta Pesada"
 		"&8&m                            "
@@ -2147,9 +2240,19 @@
 	quest.0F8F6164164F1246.quest_desc: ["Captura el Snow Guardian. Aviso amistoso."]
 	quest.0F8F6164164F1246.quest_subtitle: "Hito luminoso: el Snow Guardian."
 	quest.0F8F6164164F1246.title: "Snow Guardian"
-	quest.0F910828BE6A5866.quest_desc: ["Consigue el Advanced Hopper Upgrade. Estructural, no llamativo."]
-	quest.0F910828BE6A5866.quest_subtitle: "Pequeno paso: el Advanced Hopper Upgrade."
-	quest.0F910828BE6A5866.title: "Advanced Hopper Upgrade"
+	quest.0F910828BE6A5866.quest_desc: [
+			"&9&lAvanzado Tolva Mejora"
+			"&8&m                            "
+			""
+			"&7Jala objetos del bloque de arriba al bloque de abajo."
+			"&7Este modelo avanzado anade mas filtros y mayor alcance."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.0F910828BE6A5866.quest_subtitle: "&7Pasa objetos por el almacen, con control mas fino"
+	quest.0F910828BE6A5866.title: "&9&lAvanzado Tolva Mejora"
 	quest.0FB58187938E4545.quest_desc: ["Tacha el Slime Beetle de tu lista. La calma vence al apuro."]
 	quest.0FB58187938E4545.quest_subtitle: "Un Slime Beetle, victoria deliberado."
 	quest.0FB58187938E4545.title: "Slime Beetle"
@@ -2490,9 +2593,19 @@
 	]
 	quest.11391BE41D1BD209.quest_subtitle: "&7Casco del conjunto Netherite-Diamond."
 	quest.11391BE41D1BD209.title: "&b&lNetherite-Diamond Casco"
-	quest.114734CC270E9618.quest_desc: ["Reserva el Pickup Upgrade. La calma vence al apuro."]
-	quest.114734CC270E9618.quest_subtitle: "Run listo, un solo Pickup Upgrade."
-	quest.114734CC270E9618.title: "Pickup Upgrade"
+	quest.114734CC270E9618.quest_desc: [
+			"&b&lRecogida Mejora"
+			"&8&m                            "
+			""
+			"&7Hace que el mochila recoja objetos del suelo por si solo."
+			"&7Metela en la pestana de mejoras de una mochila con sitio."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.114734CC270E9618.quest_subtitle: "&7Aspira el botin sin mover un dedo"
+	quest.114734CC270E9618.title: "&b&lRecogida Mejora"
 	quest.1165078CE2454382.quest_desc: ["Desbloquea el Minotaur. Mas cerca de lo que el mapa sugiere."]
 	quest.1165078CE2454382.quest_subtitle: "En el bolsillo: el Minotaur."
 	quest.1165078CE2454382.title: "Minotaur"
@@ -2890,9 +3003,20 @@
 	quest.147A70AD6E9B4933.quest_desc: ["El Hostile Wolf es de los que hacen bola de nieve. La proxima puerta esta cerca."]
 	quest.147A70AD6E9B4933.quest_subtitle: "El Hostile Wolf es un checkpoint."
 	quest.147A70AD6E9B4933.title: "Hostile Wolf"
-	quest.1486F1A123B7FE84.quest_desc: ["El blanco: objeto pequeno, progreso real. Progreso modular, pasos cortos."]
-	quest.1486F1A123B7FE84.quest_subtitle: "En el bolsillo: el blanco."
-	quest.1486F1A123B7FE84.title: "Objective"
+	quest.1486F1A123B7FE84.quest_desc: [
+			"&6&lBarril de Diamante"
+			"&8&m                            "
+			""
+			"&7Un barril guarda tus objetos en un bloque solido y acepta"
+			"&7mejoras para recoger, ordenar, fundir y mucho mas."
+			"&7El nivel diamante ofrece un gran inventario y muchas mejoras."
+			""
+			"&6&lCategoria:&r &fBarriles"
+			""
+			"&e&l★ Consejo:&r &7Clic derecho en la cara del barril, sin espacio arriba."
+		]
+	quest.1486F1A123B7FE84.quest_subtitle: "&7Un bloque solido que lo guarda todo"
+	quest.1486F1A123B7FE84.title: "&6&lBarril de Diamante"
 	quest.148A33CC36B2563A.quest_desc: [
 		"&b&lDraconic Endshelf"
 		"&8&m                            "
@@ -2906,9 +3030,20 @@
 	]
 	quest.148A33CC36B2563A.quest_subtitle: "&7La Draconic Endshelf, una estanteria magica"
 	quest.148A33CC36B2563A.title: "&b&lDraconic Endshelf"
-	quest.14A6E252C45F83B8.quest_desc: ["Anade un referencia a las provisiones. Estructural, no llamativo."]
-	quest.14A6E252C45F83B8.quest_subtitle: "El referencia abre mas."
-	quest.14A6E252C45F83B8.title: "Objective"
+	quest.14A6E252C45F83B8.quest_desc: [
+			"&6&lBarril de Cobre"
+			"&8&m                            "
+			""
+			"&7Un barril guarda tus objetos en un bloque solido y acepta"
+			"&7mejoras para recoger, ordenar, fundir y mucho mas."
+			"&7El nivel cobre anade filas extra de casillas."
+			""
+			"&6&lCategoria:&r &fBarriles"
+			""
+			"&e&l★ Consejo:&r &7Clic derecho en la cara del barril, sin espacio arriba."
+		]
+	quest.14A6E252C45F83B8.quest_subtitle: "&7Un bloque solido que lo guarda todo"
+	quest.14A6E252C45F83B8.title: "&6&lBarril de Cobre"
 	quest.14C42151931BEFFE.quest_desc: ["Toma posesion del Cave Spider. Medio camino hecho contigo."]
 	quest.14C42151931BEFFE.quest_subtitle: "Pesca el Cave Spider esta partida."
 	quest.14C42151931BEFFE.title: "Cave Spider"
@@ -3011,9 +3146,19 @@
 	]
 	quest.159400BA9B7E3B04.quest_subtitle: "&7Muevete libre bajo el mar"
 	quest.159400BA9B7E3B04.title: "&3&lGrebas de Neptunio"
-	quest.15B439C8A1A3C406.quest_desc: ["El Smoking Upgrade es el proximo pivote. Confia en la cadena."]
-	quest.15B439C8A1A3C406.quest_subtitle: "Meta de hoy: el Smoking Upgrade."
-	quest.15B439C8A1A3C406.title: "Smoking Upgrade"
+	quest.15B439C8A1A3C406.quest_desc: [
+			"&b&lAhumado Mejora"
+			"&8&m                            "
+			""
+			"&7Anade una pestana de ahumador para cocinar comida del mochila."
+			"&7Metela en la pestana de mejoras de una mochila con sitio."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.15B439C8A1A3C406.quest_subtitle: "&7Un ahumador para comidas rapidas"
+	quest.15B439C8A1A3C406.title: "&b&lAhumado Mejora"
 	quest.15EB768946D64062.quest_desc: ["Gana el Giant Miner con justicia. Constante es rapido."]
 	quest.15EB768946D64062.quest_subtitle: "Run cauto, un solo Giant Miner."
 	quest.15EB768946D64062.title: "Giant Miner"
@@ -3110,9 +3255,19 @@
 	]
 	quest.162CE44400A63575.quest_subtitle: "&7Infunde metales en nuevos materiales"
 	quest.162CE44400A63575.title: "&b&lInfusor Metalurgico"
-	quest.164FCDB100A13305.quest_desc: ["El Advanced Jukebox Upgrade: objeto pequeno, progreso real. Capital silencioso."]
-	quest.164FCDB100A13305.quest_subtitle: "Pequeno paso: el Advanced Jukebox Upgrade."
-	quest.164FCDB100A13305.title: "Advanced Jukebox Upgrade"
+	quest.164FCDB100A13305.quest_desc: [
+			"&9&lAvanzado Tocadiscos Mejora"
+			"&8&m                            "
+			""
+			"&7Vuelve el bloque de almacen en un tocadiscos portatil para tus discos."
+			"&7Este modelo avanzado anade mas filtros y mayor alcance."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.164FCDB100A13305.quest_subtitle: "&7Lleva tu musica contigo, con control mas fino"
+	quest.164FCDB100A13305.title: "&9&lAvanzado Tocadiscos Mejora"
 	quest.16524DC7A36FA0FE.quest_desc: ["Asegura el Blockchain Goblin antes de avanzar. El desvio vale la pena."]
 	quest.16524DC7A36FA0FE.quest_subtitle: "Pequeno paso: el Blockchain Goblin."
 	quest.16524DC7A36FA0FE.title: "Blockchain Goblin"
@@ -3164,9 +3319,20 @@
 	quest.1685089248C740DC.quest_desc: ["Se te pide el Witch. La cadena aguanta."]
 	quest.1685089248C740DC.quest_subtitle: "El Witch es un checkpoint."
 	quest.1685089248C740DC.title: "Witch"
-	quest.16B385D341F3531F.quest_desc: ["Hazte con el blanco. El futuro te lo agradecera."]
-	quest.16B385D341F3531F.quest_subtitle: "En ruta al blanco."
-	quest.16B385D341F3531F.title: "Objective"
+	quest.16B385D341F3531F.quest_desc: [
+			"&e&lCofre de Hierro"
+			"&8&m                            "
+			""
+			"&7Un cofre guarda tus objetos y se abre en pareja para el"
+			"&7doble de espacio, con las mismas ranuras de mejora."
+			"&7El nivel hierro lo amplia mas y anade una ranura de mejora."
+			""
+			"&e&lCategoria:&r &fCofres"
+			""
+			"&e&l★ Consejo:&r &7Sube su nivel luego con una mejora de nivel, sin rehacerlo."
+		]
+	quest.16B385D341F3531F.quest_subtitle: "&7Un cofre clasico, muy mejorado"
+	quest.16B385D341F3531F.title: "&e&lCofre de Hierro"
 	quest.16C47409C0A411EF.quest_desc: [
 		"&d&lFangs Glyph"
 		"&8&m                            "
@@ -3193,9 +3359,19 @@
 	]
 	quest.16C74B5F99AD6724.quest_subtitle: "&7El material de afijo basico"
 	quest.16C74B5F99AD6724.title: "&6&lMaterial Comun"
-	quest.16CFF9B064E42D83.quest_desc: ["Anota el Decoration Table en tu bitacora. Capital silencioso."]
-	quest.16CFF9B064E42D83.quest_subtitle: "Marca el Decoration Table."
-	quest.16CFF9B064E42D83.title: "Decoration Table"
+	quest.16CFF9B064E42D83.quest_desc: [
+			"&2&lMesa de Decoracion"
+			"&8&m                            "
+			""
+			"&7La Mesa de Decoracion deja revestir un barril o cofre con"
+			"&7materiales, bordes y colores que tu elijas."
+			""
+			"&2&lCategoria:&r &fHerramientas y Decoracion"
+			""
+			"&e&l★ Consejo:&r &7La funcion no cambia, solo el aspecto. Decora con estilo."
+		]
+	quest.16CFF9B064E42D83.quest_subtitle: "&7Reestiliza tu almacen a tu gusto"
+	quest.16CFF9B064E42D83.title: "&2&lMesa de Decoracion"
 	quest.16D1378EDE2A4DE2.quest_desc: ["Encuentra el Harbinger Cube. Confia en la cadena."]
 	quest.16D1378EDE2A4DE2.quest_subtitle: "Marca el Harbinger Cube hecho."
 	quest.16D1378EDE2A4DE2.title: "Harbinger Cube"
@@ -3250,15 +3426,35 @@
 	quest.17483FAD1DEFF9E6.quest_desc: ["Tacha el Adherent. Una semilla para la bola de nieve."]
 	quest.17483FAD1DEFF9E6.quest_subtitle: "Premio sincero: el Adherent."
 	quest.17483FAD1DEFF9E6.title: "Adherent"
-	quest.17695C65B1ED3CD4.quest_desc: ["Toma el Inception Upgrade. Progreso modular, pasos cortos."]
-	quest.17695C65B1ED3CD4.quest_subtitle: "Marca el Inception Upgrade."
-	quest.17695C65B1ED3CD4.title: "Inception Upgrade"
+	quest.17695C65B1ED3CD4.quest_desc: [
+			"&b&lInception Mejora"
+			"&8&m                            "
+			""
+			"&7Permite guardar otras mochilas dentro de esta mochila."
+			"&7Metela en la pestana de mejoras de una mochila con sitio."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.17695C65B1ED3CD4.quest_subtitle: "&7Una mochila dentro de otra"
+	quest.17695C65B1ED3CD4.title: "&b&lInception Mejora"
 	quest.17762975BEAF4625.quest_desc: ["El Warden: un punto util en esta rama. Cuenta."]
 	quest.17762975BEAF4625.quest_subtitle: "Meta de hoy: el Warden."
 	quest.17762975BEAF4625.title: "Warden"
-	quest.1794FC7503686B9A.quest_desc: ["Gana el Basic To Iron Tier Upgrade. La calma vence al apuro."]
-	quest.1794FC7503686B9A.quest_subtitle: "Marca el Basic To Iron Tier Upgrade."
-	quest.1794FC7503686B9A.title: "Basic To Iron Tier Upgrade"
+	quest.1794FC7503686B9A.quest_desc: [
+			"&3&lMejora a Nivel Hierro"
+			"&8&m                            "
+			""
+			"&7Sube un bloque de almacen al nivel hierro, anadiendo mas"
+			"&7casillas y espacio de mejora sin rehacerlo de cero."
+			""
+			"&3&lCategoria:&r &fNiveles de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Los niveles se acumulan, sube del cobre a la netherita."
+		]
+	quest.1794FC7503686B9A.quest_subtitle: "&7Sube un bloque un nivel"
+	quest.1794FC7503686B9A.title: "&3&lMejora a Nivel Hierro"
 	quest.1796E08BBDC09B84.quest_desc: [
 		"&2&lTanque Dinamico"
 		"&8&m                            "
@@ -3444,9 +3640,19 @@
 	quest.18FC884DB14888E3.quest_desc: ["Gana el Umvuthana Mask Faith con justicia. La calma vence al apuro."]
 	quest.18FC884DB14888E3.quest_subtitle: "Ganatelo: el Umvuthana Mask Faith."
 	quest.18FC884DB14888E3.title: "Umvuthana Mask Faith"
-	quest.1908C8D1B4D6A02F.quest_desc: ["Sumalo a tu kit: el Compression Upgrade. La proxima puerta esta cerca."]
-	quest.1908C8D1B4D6A02F.quest_subtitle: "Refuerza la cadena del Compression Upgrade."
-	quest.1908C8D1B4D6A02F.title: "Compression Upgrade"
+	quest.1908C8D1B4D6A02F.quest_desc: [
+			"&9&lCompresion Mejora"
+			"&8&m                            "
+			""
+			"&7Comprime y descomprime sola los objetos del bloque de almacen."
+			"&7Metela en la pestana de mejoras de un barril o cofre."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.1908C8D1B4D6A02F.quest_subtitle: "&7Objetos comprimidos solos"
+	quest.1908C8D1B4D6A02F.title: "&9&lCompresion Mejora"
 	quest.190AAD16CCBF42C5.quest_desc: [
 		"&e&lHelice"
 		"&8&m                            "
@@ -3566,9 +3772,19 @@
 	quest.19765B99FCDBC16E.quest_desc: ["Ganate el Helmet Crab con esfuerzo. Bola de nieve desde aqui."]
 	quest.19765B99FCDBC16E.quest_subtitle: "En ruta al Helmet Crab."
 	quest.19765B99FCDBC16E.title: "Helmet Crab"
-	quest.199B9FC85D5715C0.quest_desc: ["Embolsa el Restock Upgrade. Modesto ahora, poderoso despues."]
-	quest.199B9FC85D5715C0.quest_subtitle: "El Restock Upgrade es un checkpoint."
-	quest.199B9FC85D5715C0.title: "Restock Upgrade"
+	quest.199B9FC85D5715C0.quest_desc: [
+			"&b&lReabastecimiento Mejora"
+			"&8&m                            "
+			""
+			"&7Rellena la mochila desde un inventario con clic derecho agachado."
+			"&7Metela en la pestana de mejoras de una mochila con sitio."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.199B9FC85D5715C0.quest_subtitle: "&7Rellena la mochila de un clic"
+	quest.199B9FC85D5715C0.title: "&b&lReabastecimiento Mejora"
 	quest.19AA7C29308A8916.quest_desc: ["Guarda el Skeleton en lugar seguro. Vale anotarlo."]
 	quest.19AA7C29308A8916.quest_subtitle: "Pesca el Skeleton esta partida."
 	quest.19AA7C29308A8916.title: "Skeleton"
@@ -3598,9 +3814,19 @@
 	]
 	quest.19D02325579F2AA8.quest_subtitle: "&7El Volcanic Sourcelink, un generador de source"
 	quest.19D02325579F2AA8.title: "&6&lVolcanic Sourcelink"
-	quest.19D58B8C5DA30356.quest_desc: ["Se te pide el Smelting Upgrade. Bola de nieve desde aqui."]
-	quest.19D58B8C5DA30356.quest_subtitle: "Refuerza la cadena del Smelting Upgrade."
-	quest.19D58B8C5DA30356.title: "Smelting Upgrade"
+	quest.19D58B8C5DA30356.quest_desc: [
+			"&b&lFundido Mejora"
+			"&8&m                            "
+			""
+			"&7Anade una pestana de horno para fundir desde el mochila."
+			"&7Metela en la pestana de mejoras de una mochila con sitio."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.19D58B8C5DA30356.quest_subtitle: "&7Un horno en el bolsillo"
+	quest.19D58B8C5DA30356.title: "&b&lFundido Mejora"
 	quest.19E38E542A7A2CEC.quest_desc: [
 		"&e&lGranja de Gusanos"
 		"&8&m                            "
@@ -3633,9 +3859,19 @@
 	quest.1A33804E4A844270.quest_desc: ["Anota el Maze Slime como adquirido. Vale anotarlo."]
 	quest.1A33804E4A844270.quest_subtitle: "Hito cauto: el Maze Slime."
 	quest.1A33804E4A844270.title: "Maze Slime"
-	quest.1A3B88961713D9A6.quest_desc: ["Almacena el Advanced Feeding Upgrade. Hito suave."]
-	quest.1A3B88961713D9A6.quest_subtitle: "Ganancia modesta: el Advanced Feeding Upgrade."
-	quest.1A3B88961713D9A6.title: "Advanced Feeding Upgrade"
+	quest.1A3B88961713D9A6.quest_desc: [
+			"&9&lAvanzado Alimentacion Mejora"
+			"&8&m                            "
+			""
+			"&7Te alimenta con comida del bloque de almacen en cuanto te entra hambre."
+			"&7Este modelo avanzado anade mas filtros y mayor alcance."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.1A3B88961713D9A6.quest_subtitle: "&7No mueras de hambre de aventura, con control mas fino"
+	quest.1A3B88961713D9A6.title: "&9&lAvanzado Alimentacion Mejora"
 	quest.1A3CFDBAC3684605.quest_desc: ["Almacena el Iron Golem. Sigue."]
 	quest.1A3CFDBAC3684605.quest_subtitle: "Meta de hoy: el Iron Golem."
 	quest.1A3CFDBAC3684605.title: "Iron Golem"
@@ -3955,9 +4191,20 @@
 	]
 	quest.1D6C2786A1B7411D.quest_subtitle: "&7Teje la lana en patrones ricos"
 	quest.1D6C2786A1B7411D.title: "&b&lLa Mesa de Telar"
-	quest.1D713A58E17C2C32.quest_desc: ["Anade el referencia al kit. El futuro te lo agradecera."]
-	quest.1D713A58E17C2C32.quest_subtitle: "Un paso tranquilo hacia el referencia."
-	quest.1D713A58E17C2C32.title: "Objective"
+	quest.1D713A58E17C2C32.quest_desc: [
+			"&a&lMochila"
+			"&8&m                            "
+			""
+			"&7Una mochila va a tu espalda y lleva tu inventario a donde"
+			"&7vayas, con su propia pestana de mejoras."
+			"&7Este nivel basico es donde empieza el viaje."
+			""
+			"&a&lCategoria:&r &fMochilas"
+			""
+			"&e&l★ Consejo:&r &7Abrela con una tecla o colocala y haz clic derecho."
+		]
+	quest.1D713A58E17C2C32.quest_subtitle: "&7Almacen que viaja contigo"
+	quest.1D713A58E17C2C32.title: "&a&lMochila"
 	quest.1D7A5CDF78214F60.quest_desc: [
 		"&d&lMagiblade"
 		"&8&m                            "
@@ -4657,9 +4904,19 @@
 	quest.228F74717D24495E.quest_desc: ["El Hedge Spider se paga solo. Las runs pacientes ganan."]
 	quest.228F74717D24495E.quest_subtitle: "El Hedge Spider: estructural."
 	quest.228F74717D24495E.title: "Hedge Spider"
-	quest.22B9A980939DFEDF.quest_desc: ["Lleva el Stack Upgrade Omega Tier. A tu ritmo."]
-	quest.22B9A980939DFEDF.quest_subtitle: "Hito tranquilo con el Stack Upgrade Omega Tier."
-	quest.22B9A980939DFEDF.title: "Stack Upgrade Omega Tier"
+	quest.22B9A980939DFEDF.quest_desc: [
+			"&d&lMejora de Pila"
+			"&8&m                            "
+			""
+			"&7Multiplica las pilas por casilla del mochila por el maximo."
+			"&7Las mejoras de pila se acumulan, sube los niveles en orden."
+			""
+			"&d&lCategoria:&r &fCapacidad de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras de capacidad comparten la pestana de mejoras."
+		]
+	quest.22B9A980939DFEDF.quest_subtitle: "&7Guarda el maximo las pilas por casilla"
+	quest.22B9A980939DFEDF.title: "&d&lMejora de Pila"
 	quest.22F80D267321BFC5.quest_desc: ["Embolsa el Autocrafter Manager. Mas cerca de lo que el mapa sugiere."]
 	quest.22F80D267321BFC5.quest_subtitle: "Un Autocrafter Manager para el camino."
 	quest.22F80D267321BFC5.title: "Autocrafter Manager"
@@ -4965,9 +5222,19 @@
 	quest.253657BE5D9D9162.quest_desc: ["Marca el External Storage hecho. Apunta a lo siguiente."]
 	quest.253657BE5D9D9162.quest_subtitle: "Meta de hoy: el External Storage."
 	quest.253657BE5D9D9162.title: "External Storage"
-	quest.2544342ED0E1C6F2.quest_desc: ["Asegura el Basic To Gold Tier Upgrade. Sigue."]
-	quest.2544342ED0E1C6F2.quest_subtitle: "Ganancia modesta: el Basic To Gold Tier Upgrade."
-	quest.2544342ED0E1C6F2.title: "Basic To Gold Tier Upgrade"
+	quest.2544342ED0E1C6F2.quest_desc: [
+			"&3&lMejora a Nivel Oro"
+			"&8&m                            "
+			""
+			"&7Sube un bloque de almacen al nivel oro, anadiendo mas"
+			"&7casillas y espacio de mejora sin rehacerlo de cero."
+			""
+			"&3&lCategoria:&r &fNiveles de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Los niveles se acumulan, sube del cobre a la netherita."
+		]
+	quest.2544342ED0E1C6F2.quest_subtitle: "&7Sube un bloque un nivel"
+	quest.2544342ED0E1C6F2.title: "&3&lMejora a Nivel Oro"
 	quest.255D8ABA6911067C.quest_desc: [
 		"&6&lCanon Rotatorio"
 		"&8&m                            "
@@ -5249,9 +5516,19 @@
 	quest.27AF01336466488C.quest_desc: ["Asegura el Cave Spider. Constante es rapido."]
 	quest.27AF01336466488C.quest_subtitle: "Pesca el Cave Spider esta partida."
 	quest.27AF01336466488C.title: "Cave Spider"
-	quest.27CBC3BF25E736A1.quest_desc: ["Captura el Advanced Restock Upgrade. El atajo no esta aqui."]
-	quest.27CBC3BF25E736A1.quest_subtitle: "Un Advanced Restock Upgrade, victoria listo."
-	quest.27CBC3BF25E736A1.title: "Advanced Restock Upgrade"
+	quest.27CBC3BF25E736A1.quest_desc: [
+			"&b&lAvanzado Reabastecimiento Mejora"
+			"&8&m                            "
+			""
+			"&7Rellena la mochila desde un inventario con clic derecho agachado."
+			"&7Este modelo avanzado anade mas filtros y mayor alcance."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.27CBC3BF25E736A1.quest_subtitle: "&7Rellena la mochila de un clic, con control mas fino"
+	quest.27CBC3BF25E736A1.title: "&b&lAvanzado Reabastecimiento Mejora"
 	quest.27E951F4F4F6F847.quest_desc: [
 		"&c&lCollar de Fuego"
 		"&8&m                            "
@@ -5368,9 +5645,19 @@
 	]
 	quest.290F943A1FF52070.quest_subtitle: "&7El Pierce Glyph, una palabra de magia"
 	quest.290F943A1FF52070.title: "&d&lPierce Glyph"
-	quest.2916C86934114C07.quest_desc: ["Trae el Advanced Pickup Upgrade. Sigue."]
-	quest.2916C86934114C07.quest_subtitle: "En ruta al Advanced Pickup Upgrade."
-	quest.2916C86934114C07.title: "Advanced Pickup Upgrade"
+	quest.2916C86934114C07.quest_desc: [
+			"&9&lAvanzado Recogida Mejora"
+			"&8&m                            "
+			""
+			"&7Hace que el bloque de almacen recoja objetos del suelo por si solo."
+			"&7Este modelo avanzado anade mas filtros y mayor alcance."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.2916C86934114C07.quest_subtitle: "&7Aspira el botin sin mover un dedo, con control mas fino"
+	quest.2916C86934114C07.title: "&9&lAvanzado Recogida Mejora"
 	quest.294418130521FDF4.quest_desc: [
 		"&6&lMithril en Bruto"
 		"&8&m                            "
@@ -5513,9 +5800,19 @@
 	quest.29C3D2930CFD9D86.quest_desc: ["Gana el Iron Golem con justicia. Sigue."]
 	quest.29C3D2930CFD9D86.quest_subtitle: "Un Iron Golem para el camino."
 	quest.29C3D2930CFD9D86.title: "Iron Golem"
-	quest.29C3F49471D01D9A.quest_desc: ["Trae el Advanced Refill Upgrade. Modesto ahora, poderoso despues."]
-	quest.29C3F49471D01D9A.quest_subtitle: "Guarda el Advanced Refill Upgrade para luego."
-	quest.29C3F49471D01D9A.title: "Advanced Refill Upgrade"
+	quest.29C3F49471D01D9A.quest_desc: [
+			"&b&lAvanzado Recarga Mejora"
+			"&8&m                            "
+			""
+			"&7Mantiene llena una pila elegida en tu inventario desde la mochila."
+			"&7Este modelo avanzado anade mas filtros y mayor alcance."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.29C3F49471D01D9A.quest_subtitle: "&7Manten tu barra surtida, con control mas fino"
+	quest.29C3F49471D01D9A.title: "&b&lAvanzado Recarga Mejora"
 	quest.29E3DD9A3F85CE80.quest_desc: [
 		"&d&lSummon Decoy Glyph"
 		"&8&m                            "
@@ -5603,12 +5900,32 @@
 	quest.2A299E4D99FBF36D.quest_desc: ["Cierra el sello. Vale mas que su descripcion."]
 	quest.2A299E4D99FBF36D.quest_subtitle: "Salto vigilante: el sello."
 	quest.2A299E4D99FBF36D.title: "Objective"
-	quest.2A2F340D44A383D7.quest_desc: ["Envuelve el Advanced Feeding Upgrade. Bola de nieve desde aqui."]
-	quest.2A2F340D44A383D7.quest_subtitle: "El Advanced Feeding Upgrade: estructural."
-	quest.2A2F340D44A383D7.title: "Advanced Feeding Upgrade"
-	quest.2A35901E42F9A536.quest_desc: ["Anota el Auto Smelting Upgrade como adquirido. La ruta ensena tanto como el premio."]
-	quest.2A35901E42F9A536.quest_subtitle: "Run quieto, un solo Auto Smelting Upgrade."
-	quest.2A35901E42F9A536.title: "Auto Smelting Upgrade"
+	quest.2A2F340D44A383D7.quest_desc: [
+			"&b&lAvanzado Alimentacion Mejora"
+			"&8&m                            "
+			""
+			"&7Te alimenta con comida del mochila en cuanto te entra hambre."
+			"&7Este modelo avanzado anade mas filtros y mayor alcance."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.2A2F340D44A383D7.quest_subtitle: "&7No mueras de hambre de aventura, con control mas fino"
+	quest.2A2F340D44A383D7.title: "&b&lAvanzado Alimentacion Mejora"
+	quest.2A35901E42F9A536.quest_desc: [
+			"&b&lFundido Auto Mejora"
+			"&8&m                            "
+			""
+			"&7Anade una pestana de horno que funde lo guardado sola."
+			"&7Metela en la pestana de mejoras de una mochila con sitio."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.2A35901E42F9A536.quest_subtitle: "&7Fundido automatico en marcha"
+	quest.2A35901E42F9A536.title: "&b&lFundido Auto Mejora"
 	quest.2A3683BF7E50EF83.quest_desc: [
 		"&e&lPico Infundido"
 		"&8&m                            "
@@ -5674,12 +5991,32 @@
 	]
 	quest.2A793B35FE25003C.quest_subtitle: "&7Vuelve solidos en un gas util"
 	quest.2A793B35FE25003C.title: "&a&lOxidador Quimico"
-	quest.2A7A94C257BD73B5.quest_desc: ["El Blasting Upgrade es de los que hacen bola de nieve. La ruta ensena tanto como el premio."]
-	quest.2A7A94C257BD73B5.quest_subtitle: "El Blasting Upgrade: estructural."
-	quest.2A7A94C257BD73B5.title: "Blasting Upgrade"
-	quest.2A89029AC855DB7B.quest_desc: ["Tacha el Void Upgrade de tu lista. Un peldano mas escalado."]
-	quest.2A89029AC855DB7B.quest_subtitle: "Marca el Void Upgrade hecho."
-	quest.2A89029AC855DB7B.title: "Void Upgrade"
+	quest.2A7A94C257BD73B5.quest_desc: [
+			"&b&lCalcinado Mejora"
+			"&8&m                            "
+			""
+			"&7Anade una pestana de alto horno para minerales y metal del mochila."
+			"&7Metela en la pestana de mejoras de una mochila con sitio."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.2A7A94C257BD73B5.quest_subtitle: "&7Un alto horno para minerales"
+	quest.2A7A94C257BD73B5.title: "&b&lCalcinado Mejora"
+	quest.2A89029AC855DB7B.quest_desc: [
+			"&b&lVacio Mejora"
+			"&8&m                            "
+			""
+			"&7Destruye al instante todo objeto marcado en su filtro."
+			"&7Metela en la pestana de mejoras de una mochila con sitio."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.2A89029AC855DB7B.quest_subtitle: "&7Tira la basura al llegar"
+	quest.2A89029AC855DB7B.title: "&b&lVacio Mejora"
 	quest.2A98F9B7E94508A1.quest_desc: ["Consigue el Witch. El atajo no esta aqui."]
 	quest.2A98F9B7E94508A1.quest_subtitle: "Premio agil: el Witch."
 	quest.2A98F9B7E94508A1.title: "Witch"
@@ -5760,9 +6097,20 @@
 	]
 	quest.2B345E47294A05E1.quest_subtitle: "&7La mejora de maquina Marid"
 	quest.2B345E47294A05E1.title: "&3&lMarid Upgrade"
-	quest.2B56650DE346679A.quest_desc: ["El Iron Backpack es el precio de la proxima puerta. Constante es rapido."]
-	quest.2B56650DE346679A.quest_subtitle: "Lleva el Iron Backpack."
-	quest.2B56650DE346679A.title: "Iron Backpack"
+	quest.2B56650DE346679A.quest_desc: [
+			"&a&lMochila de Hierro"
+			"&8&m                            "
+			""
+			"&7Una mochila va a tu espalda y lleva tu inventario a donde"
+			"&7vayas, con su propia pestana de mejoras."
+			"&7El nivel hierro lo amplia mas y anade una ranura de mejora."
+			""
+			"&a&lCategoria:&r &fMochilas"
+			""
+			"&e&l★ Consejo:&r &7Abrela con una tecla o colocala y haz clic derecho."
+		]
+	quest.2B56650DE346679A.quest_subtitle: "&7Almacen que viaja contigo"
+	quest.2B56650DE346679A.title: "&a&lMochila de Hierro"
 	quest.2B5F778AA879F79A.quest_desc: [
 		"&a&lNetherite-Emerald Botas"
 		"&8&m                            "
@@ -5802,12 +6150,33 @@
 	]
 	quest.2B9DF670B021FEBE.quest_subtitle: "&7Twisted Blade, una hoja legendaria unica"
 	quest.2B9DF670B021FEBE.title: "&d&lTwisted Blade"
-	quest.2BA6944853FEFC1E.quest_desc: ["Anade el sena a tu reserva. El progreso tranquilo gana."]
-	quest.2BA6944853FEFC1E.quest_subtitle: "Ganancia modesta: el sena."
-	quest.2BA6944853FEFC1E.title: "Objective"
-	quest.2BB7F87D8C306847.quest_desc: ["Apunta el Refill Upgrade en el dossier. Un paso chico en un camino largo."]
-	quest.2BB7F87D8C306847.quest_subtitle: "Meta de hoy: el Refill Upgrade."
-	quest.2BB7F87D8C306847.title: "Refill Upgrade"
+	quest.2BA6944853FEFC1E.quest_desc: [
+			"&6&lBarril de Oro"
+			"&8&m                            "
+			""
+			"&7Un barril guarda tus objetos en un bloque solido y acepta"
+			"&7mejoras para recoger, ordenar, fundir y mucho mas."
+			"&7El nivel oro trae aun mas casillas y espacio de mejora."
+			""
+			"&6&lCategoria:&r &fBarriles"
+			""
+			"&e&l★ Consejo:&r &7Clic derecho en la cara del barril, sin espacio arriba."
+		]
+	quest.2BA6944853FEFC1E.quest_subtitle: "&7Un bloque solido que lo guarda todo"
+	quest.2BA6944853FEFC1E.title: "&6&lBarril de Oro"
+	quest.2BB7F87D8C306847.quest_desc: [
+			"&b&lRecarga Mejora"
+			"&8&m                            "
+			""
+			"&7Mantiene llena una pila elegida en tu inventario desde la mochila."
+			"&7Metela en la pestana de mejoras de una mochila con sitio."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.2BB7F87D8C306847.quest_subtitle: "&7Manten tu barra surtida"
+	quest.2BB7F87D8C306847.title: "&b&lRecarga Mejora"
 	quest.2BB910B217DF3A12.quest_desc: [
 		"&d&lEnder Upgrade Orb"
 		"&8&m                            "
@@ -5862,12 +6231,33 @@
 	quest.2C53B79A6C7F4A2E.quest_desc: ["Consigue el Piglin. Un paso chico en un camino largo."]
 	quest.2C53B79A6C7F4A2E.quest_subtitle: "Pequeno paso: el Piglin."
 	quest.2C53B79A6C7F4A2E.title: "Piglin"
-	quest.2C87409D4C84359B.quest_desc: ["Embolsa el paso. Confia en la cadena."]
-	quest.2C87409D4C84359B.quest_subtitle: "Pesca el paso esta partida."
-	quest.2C87409D4C84359B.title: "Objective"
-	quest.2C8A97ABBCB54ADB.quest_desc: ["Hazte con el Stack Upgrade Tier 5. Habito chico, gran resultado."]
-	quest.2C8A97ABBCB54ADB.quest_subtitle: "Hito tranquilo con el Stack Upgrade Tier 5."
-	quest.2C8A97ABBCB54ADB.title: "Stack Upgrade Tier 5"
+	quest.2C87409D4C84359B.quest_desc: [
+			"&6&lBarril de Hierro"
+			"&8&m                            "
+			""
+			"&7Un barril guarda tus objetos en un bloque solido y acepta"
+			"&7mejoras para recoger, ordenar, fundir y mucho mas."
+			"&7El nivel hierro lo amplia mas y anade una ranura de mejora."
+			""
+			"&6&lCategoria:&r &fBarriles"
+			""
+			"&e&l★ Consejo:&r &7Clic derecho en la cara del barril, sin espacio arriba."
+		]
+	quest.2C87409D4C84359B.quest_subtitle: "&7Un bloque solido que lo guarda todo"
+	quest.2C87409D4C84359B.title: "&6&lBarril de Hierro"
+	quest.2C8A97ABBCB54ADB.quest_desc: [
+			"&5&lMejora de Pila"
+			"&8&m                            "
+			""
+			"&7Multiplica las pilas por casilla del bloque de almacen por x32."
+			"&7Las mejoras de pila se acumulan, sube los niveles en orden."
+			""
+			"&5&lCategoria:&r &fCapacidad de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras de capacidad comparten la pestana de mejoras."
+		]
+	quest.2C8A97ABBCB54ADB.quest_subtitle: "&7Guarda x32 las pilas por casilla"
+	quest.2C8A97ABBCB54ADB.title: "&5&lMejora de Pila"
 	quest.2C8E7C1304CA1AFB.quest_desc: ["Estira la mano al Endermite. Capital silencioso."]
 	quest.2C8E7C1304CA1AFB.quest_subtitle: "Premio sincero: el Endermite."
 	quest.2C8E7C1304CA1AFB.title: "Endermite"
@@ -5899,9 +6289,19 @@
 	quest.2CE3E17995BC4081.quest_desc: ["Saca el Piglin Brute de su escondite. Medio camino hecho contigo."]
 	quest.2CE3E17995BC4081.quest_subtitle: "Ladrillo: el Piglin Brute."
 	quest.2CE3E17995BC4081.title: "Piglin Brute"
-	quest.2CE82497C62DC21F.quest_desc: ["Caza el Advanced Deposit Upgrade. Vale mas que su descripcion."]
-	quest.2CE82497C62DC21F.quest_subtitle: "Salto ahorrativo: el Advanced Deposit Upgrade."
-	quest.2CE82497C62DC21F.title: "Advanced Deposit Upgrade"
+	quest.2CE82497C62DC21F.quest_desc: [
+			"&b&lAvanzado Deposito Mejora"
+			"&8&m                            "
+			""
+			"&7Descarga la mochila en un inventario con clic derecho agachado."
+			"&7Este modelo avanzado anade mas filtros y mayor alcance."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.2CE82497C62DC21F.quest_subtitle: "&7Vacia la mochila en un cofre, con control mas fino"
+	quest.2CE82497C62DC21F.title: "&b&lAvanzado Deposito Mejora"
 	quest.2CEDE8036624EB86.quest_desc: [
 		"&c&lHerramientas de Cobre"
 		"&8&m                            "
@@ -5983,9 +6383,19 @@
 	]
 	quest.2D1CBCEC82F1B37D.quest_subtitle: "&7Quema combustible solido en calor"
 	quest.2D1CBCEC82F1B37D.title: "&c&lCalentador de Lena"
-	quest.2D5E17FA2F976235.quest_desc: ["Lleva el Smelting Upgrade. Constante es rapido."]
-	quest.2D5E17FA2F976235.quest_subtitle: "El Smelting Upgrade: guino del capitulo."
-	quest.2D5E17FA2F976235.title: "Smelting Upgrade"
+	quest.2D5E17FA2F976235.quest_desc: [
+			"&9&lFundido Mejora"
+			"&8&m                            "
+			""
+			"&7Anade una pestana de horno para fundir desde el bloque de almacen."
+			"&7Metela en la pestana de mejoras de un barril o cofre."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.2D5E17FA2F976235.quest_subtitle: "&7Un horno en el bolsillo"
+	quest.2D5E17FA2F976235.title: "&9&lFundido Mejora"
 	quest.2DA37686B8A3D2A7.quest_desc: ["Cierra el Zombie. Un peldano mas escalado."]
 	quest.2DA37686B8A3D2A7.quest_subtitle: "Marca el Zombie."
 	quest.2DA37686B8A3D2A7.title: "Zombie"
@@ -6152,9 +6562,19 @@
 	]
 	quest.2EC96B81D46D02DB.quest_subtitle: "&7Teletransportate a tu hogar"
 	quest.2EC96B81D46D02DB.title: "&a/home"
-	quest.2F11568F631B0858.quest_desc: ["Aferra el Stack Upgrade Tier 1. Capital silencioso."]
-	quest.2F11568F631B0858.quest_subtitle: "Premio vigilante: el Stack Upgrade Tier 1."
-	quest.2F11568F631B0858.title: "Stack Upgrade Tier 1"
+	quest.2F11568F631B0858.quest_desc: [
+			"&d&lMejora de Pila"
+			"&8&m                            "
+			""
+			"&7Multiplica las pilas por casilla del mochila por x2."
+			"&7Las mejoras de pila se acumulan, sube los niveles en orden."
+			""
+			"&d&lCategoria:&r &fCapacidad de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras de capacidad comparten la pestana de mejoras."
+		]
+	quest.2F11568F631B0858.quest_subtitle: "&7Guarda x2 las pilas por casilla"
+	quest.2F11568F631B0858.title: "&d&lMejora de Pila"
 	quest.2F11B6421E9C4E79.quest_desc: ["El Hedge Spider: estructural, no ruidoso. La ruta ensena tanto como el premio."]
 	quest.2F11B6421E9C4E79.quest_subtitle: "Marca el Hedge Spider hecho."
 	quest.2F11B6421E9C4E79.title: "Hedge Spider"
@@ -6194,9 +6614,19 @@
 	quest.2F9FB2A0041C19A3.quest_desc: ["Tacha el Stray de tu lista. Te has ganado una pausa."]
 	quest.2F9FB2A0041C19A3.quest_subtitle: "Un paso ahorrativo hacia el Stray."
 	quest.2F9FB2A0041C19A3.title: "Stray"
-	quest.2FAA2748773E70A2.quest_desc: ["Hazte con el Anvil Upgrade. Vale mas que su descripcion."]
-	quest.2FAA2748773E70A2.quest_subtitle: "Vale el desvio por el Anvil Upgrade."
-	quest.2FAA2748773E70A2.title: "Anvil Upgrade"
+	quest.2FAA2748773E70A2.quest_desc: [
+			"&b&lYunque Mejora"
+			"&8&m                            "
+			""
+			"&7Anade una pestana de yunque para reparar y nombrar de viaje."
+			"&7Metela en la pestana de mejoras de una mochila con sitio."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.2FAA2748773E70A2.quest_subtitle: "&7Repara tu equipo donde sea"
+	quest.2FAA2748773E70A2.title: "&b&lYunque Mejora"
 	quest.2FAB12983DEFEB93.quest_desc: ["Reserva el Zombie. La proxima puerta esta cerca."]
 	quest.2FAB12983DEFEB93.quest_subtitle: "En el bolsillo: el Zombie."
 	quest.2FAB12983DEFEB93.title: "Zombie"
@@ -6442,12 +6872,32 @@
 	quest.314804E481A8487C.quest_desc: ["Tomate tu tiempo para obtener el Umvuthana. La calma vence al apuro."]
 	quest.314804E481A8487C.quest_subtitle: "Un paso templado hacia el Umvuthana."
 	quest.314804E481A8487C.title: "Umvuthana"
-	quest.314E41E82F844459.quest_desc: ["Se te pide el Stonecutter Upgrade. A tu ritmo."]
-	quest.314E41E82F844459.quest_subtitle: "En el bolsillo: el Stonecutter Upgrade."
-	quest.314E41E82F844459.title: "Stonecutter Upgrade"
-	quest.315287B0237F91F9.quest_desc: ["Conserva el Stack Downgrade Tier 1. Bola de nieve desde aqui."]
-	quest.315287B0237F91F9.quest_subtitle: "Lleva el Stack Downgrade Tier 1."
-	quest.315287B0237F91F9.title: "Stack Downgrade Tier 1"
+	quest.314E41E82F844459.quest_desc: [
+			"&9&lCortapiedras Mejora"
+			"&8&m                            "
+			""
+			"&7Anade una pestana de cortapiedras para tallar piedra en el bloque de almacen."
+			"&7Metela en la pestana de mejoras de un barril o cofre."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.314E41E82F844459.quest_subtitle: "&7Talla piedra al instante"
+	quest.314E41E82F844459.title: "&9&lCortapiedras Mejora"
+	quest.315287B0237F91F9.quest_desc: [
+			"&d&lReduccion de Pila"
+			"&8&m                            "
+			""
+			"&7Baja cuantas pilas guarda cada casilla del mochila."
+			"&7Una herramienta de nicho para deshacer una mejora de pila."
+			""
+			"&d&lCategoria:&r &fCapacidad de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras de capacidad comparten la pestana de mejoras."
+		]
+	quest.315287B0237F91F9.quest_subtitle: "&7Reduce las pilas por casilla"
+	quest.315287B0237F91F9.title: "&d&lReduccion de Pila"
 	quest.3158D412FFDF18B8.quest_desc: ["Cierra el Warden. Un paso chico en un camino largo."]
 	quest.3158D412FFDF18B8.quest_subtitle: "Un Warden para el camino."
 	quest.3158D412FFDF18B8.title: "Warden"
@@ -6632,9 +7082,19 @@
 	quest.32ADD497C5C64827.quest_desc: ["Atrapa el Blaze. Las victorias chicas suman."]
 	quest.32ADD497C5C64827.quest_subtitle: "Marca el Blaze hecho."
 	quest.32ADD497C5C64827.title: "Blaze"
-	quest.32B721940CE1A439.quest_desc: ["Tacha el Advanced Compacting Upgrade. Apunta a lo siguiente."]
-	quest.32B721940CE1A439.quest_subtitle: "En ruta al Advanced Compacting Upgrade."
-	quest.32B721940CE1A439.title: "Advanced Compacting Upgrade"
+	quest.32B721940CE1A439.quest_desc: [
+			"&9&lAvanzado Compactado Mejora"
+			"&8&m                            "
+			""
+			"&7Compacta los objetos del bloque de almacen en bloque o forma comprimida."
+			"&7Este modelo avanzado anade mas filtros y mayor alcance."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.32B721940CE1A439.quest_subtitle: "&7Aprieta lo suelto en bloques pulcros, con control mas fino"
+	quest.32B721940CE1A439.title: "&9&lAvanzado Compactado Mejora"
 	quest.32B8F164E5630FFF.quest_desc: [
 		"&b&lMesa del Albanil"
 		"&8&m                            "
@@ -6708,9 +7168,19 @@
 	]
 	quest.33415CB421F7620A.quest_subtitle: "&7Triplica mineral con un soplo de oxigeno"
 	quest.33415CB421F7620A.title: "&a&lCamara de Purificacion"
-	quest.335357255C9398AD.quest_desc: ["Consigue el Hopper Upgrade. Constante es rapido."]
-	quest.335357255C9398AD.quest_subtitle: "Pequeno paso: el Hopper Upgrade."
-	quest.335357255C9398AD.title: "Hopper Upgrade"
+	quest.335357255C9398AD.quest_desc: [
+			"&9&lTolva Mejora"
+			"&8&m                            "
+			""
+			"&7Jala objetos del bloque de arriba al bloque de abajo."
+			"&7Metela en la pestana de mejoras de un barril o cofre."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.335357255C9398AD.quest_subtitle: "&7Pasa objetos por el almacen"
+	quest.335357255C9398AD.title: "&9&lTolva Mejora"
 	quest.33682F4B44950123.quest_desc: [
 		"&3&lTroncos de Archimadera"
 		"&8&m                            "
@@ -7097,9 +7567,19 @@
 	quest.36E0E04BAEBC4895.quest_desc: ["Asegura el Vex. Medio camino hecho contigo."]
 	quest.36E0E04BAEBC4895.quest_subtitle: "Ladrillo: el Vex."
 	quest.36E0E04BAEBC4895.title: "Vex"
-	quest.36E126551DFD0B05.quest_desc: ["Apunta el Stack Upgrade Tier 3 en el dossier. Apunta a lo siguiente."]
-	quest.36E126551DFD0B05.quest_subtitle: "Meta de hoy: el Stack Upgrade Tier 3."
-	quest.36E126551DFD0B05.title: "Stack Upgrade Tier 3"
+	quest.36E126551DFD0B05.quest_desc: [
+			"&5&lMejora de Pila"
+			"&8&m                            "
+			""
+			"&7Multiplica las pilas por casilla del bloque de almacen por x8."
+			"&7Las mejoras de pila se acumulan, sube los niveles en orden."
+			""
+			"&5&lCategoria:&r &fCapacidad de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras de capacidad comparten la pestana de mejoras."
+		]
+	quest.36E126551DFD0B05.quest_subtitle: "&7Guarda x8 las pilas por casilla"
+	quest.36E126551DFD0B05.title: "&5&lMejora de Pila"
 	quest.36F45ECD8C10FC5F.quest_desc: [
 			"&e&lOrujo de Uva Blanca"
 			"&8&m                            "
@@ -7479,9 +7959,19 @@
 	quest.39E77B8E98397A51.quest_desc: ["Apunta el Giant Miner en el dossier. Las runs pacientes ganan."]
 	quest.39E77B8E98397A51.quest_subtitle: "En ruta al Giant Miner."
 	quest.39E77B8E98397A51.title: "Giant Miner"
-	quest.39FBD82FCD8FD1E0.quest_desc: ["El Advanced Magnet Upgrade: un peldano mas. Apunta a lo siguiente."]
-	quest.39FBD82FCD8FD1E0.quest_subtitle: "Ladrillo: el Advanced Magnet Upgrade."
-	quest.39FBD82FCD8FD1E0.title: "Advanced Magnet Upgrade"
+	quest.39FBD82FCD8FD1E0.quest_desc: [
+			"&9&lAvanzado Iman Mejora"
+			"&8&m                            "
+			""
+			"&7Atrae de lejos los objetos caidos directo al bloque de almacen."
+			"&7Este modelo avanzado anade mas filtros y mayor alcance."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.39FBD82FCD8FD1E0.quest_subtitle: "&7Atrae el botin desde lejos, con control mas fino"
+	quest.39FBD82FCD8FD1E0.title: "&9&lAvanzado Iman Mejora"
 	quest.3A31F5C6EA2F23BC.quest_desc: ["Gana el Mutant Skeleton Arms. Un paso chico en un camino largo."]
 	quest.3A31F5C6EA2F23BC.quest_subtitle: "Vale el desvio por el Mutant Skeleton Arms."
 	quest.3A31F5C6EA2F23BC.title: "Mutant Skeleton Arms"
@@ -8147,9 +8637,20 @@
 	quest.3F3791D4E5BAF10E.quest_desc: ["Anota el Harbinger Cube como adquirido. El capitulo gira en torno a esto."]
 	quest.3F3791D4E5BAF10E.quest_subtitle: "Guarda el Harbinger Cube para luego."
 	quest.3F3791D4E5BAF10E.title: "Harbinger Cube"
-	quest.3F3BCAF854FFDB42.quest_desc: ["Embolsa el mision. Vale anotarlo."]
-	quest.3F3BCAF854FFDB42.quest_subtitle: "Ladrillo: el mision."
-	quest.3F3BCAF854FFDB42.title: "Objective"
+	quest.3F3BCAF854FFDB42.quest_desc: [
+			"&6&lBarril"
+			"&8&m                            "
+			""
+			"&7Un barril guarda tus objetos en un bloque solido y acepta"
+			"&7mejoras para recoger, ordenar, fundir y mucho mas."
+			"&7Este nivel basico es donde empieza el viaje."
+			""
+			"&6&lCategoria:&r &fBarriles"
+			""
+			"&e&l★ Consejo:&r &7Clic derecho en la cara del barril, sin espacio arriba."
+		]
+	quest.3F3BCAF854FFDB42.quest_subtitle: "&7Un bloque solido que lo guarda todo"
+	quest.3F3BCAF854FFDB42.title: "&6&lBarril"
 	quest.3F4B3994DE6D4F4F.quest_desc: ["El Witch es el proximo pivote. Guardado para luego."]
 	quest.3F4B3994DE6D4F4F.quest_subtitle: "Ganatelo: el Witch."
 	quest.3F4B3994DE6D4F4F.title: "Witch"
@@ -8199,12 +8700,34 @@
 	]
 	quest.3FBF1980F33B9C9F.quest_subtitle: "&7Reja de metal resistente"
 	quest.3FBF1980F33B9C9F.title: "&6&lBarrotes de Hierro"
-	quest.3FCF82DE54B6038F.quest_desc: ["El cresta: objeto pequeno, progreso real. La proxima puerta esta cerca."]
-	quest.3FCF82DE54B6038F.quest_subtitle: "Ganatelo: el cresta."
-	quest.3FCF82DE54B6038F.title: "Objective"
-	quest.3FD2E140744CA7DD.quest_desc: ["Caza el Copper Backpack. Paga su propio flete."]
-	quest.3FD2E140744CA7DD.quest_subtitle: "Ladrillo: el Copper Backpack."
-	quest.3FD2E140744CA7DD.title: "Copper Backpack"
+	quest.3FCF82DE54B6038F.quest_desc: [
+			"&e&lCofre de Netherita"
+			"&8&m                            "
+			""
+			"&7Un cofre guarda tus objetos y se abre en pareja para el"
+			"&7doble de espacio, con las mismas ranuras de mejora."
+			"&7El nivel netherita es la cumbre, vasto e ignifugo."
+			""
+			"&e&lCategoria:&r &fCofres"
+			""
+			"&e&l★ Consejo:&r &7Sube su nivel luego con una mejora de nivel, sin rehacerlo."
+		]
+	quest.3FCF82DE54B6038F.quest_subtitle: "&7Un cofre clasico, muy mejorado"
+	quest.3FCF82DE54B6038F.title: "&e&lCofre de Netherita"
+	quest.3FD2E140744CA7DD.quest_desc: [
+			"&a&lMochila de Cobre"
+			"&8&m                            "
+			""
+			"&7Una mochila va a tu espalda y lleva tu inventario a donde"
+			"&7vayas, con su propia pestana de mejoras."
+			"&7El nivel cobre anade filas extra de casillas."
+			""
+			"&a&lCategoria:&r &fMochilas"
+			""
+			"&e&l★ Consejo:&r &7Abrela con una tecla o colocala y haz clic derecho."
+		]
+	quest.3FD2E140744CA7DD.quest_subtitle: "&7Almacen que viaja contigo"
+	quest.3FD2E140744CA7DD.title: "&a&lMochila de Cobre"
 	quest.3FD702B5AB006402.quest_desc: [
 		"&e&lCinturon de Levitacion"
 		"&8&m                            "
@@ -8234,9 +8757,19 @@
 	]
 	quest.3FDA8E9EFFBA0427.quest_subtitle: "&7El corazon del equipo Netherite-Emerald."
 	quest.3FDA8E9EFFBA0427.title: "&a&lNetherite-Emerald Lingote"
-	quest.3FFB850F8F0B1200.quest_desc: ["Encuentra tu ruta al Feeding Upgrade. Estructural, no llamativo."]
-	quest.3FFB850F8F0B1200.quest_subtitle: "Pequeno paso: el Feeding Upgrade."
-	quest.3FFB850F8F0B1200.title: "Feeding Upgrade"
+	quest.3FFB850F8F0B1200.quest_desc: [
+			"&9&lAlimentacion Mejora"
+			"&8&m                            "
+			""
+			"&7Te alimenta con comida del bloque de almacen en cuanto te entra hambre."
+			"&7Metela en la pestana de mejoras de un barril o cofre."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.3FFB850F8F0B1200.quest_subtitle: "&7No mueras de hambre de aventura"
+	quest.3FFB850F8F0B1200.title: "&9&lAlimentacion Mejora"
 	quest.4000000000000001.quest_desc: [
 		"&6&lMedalla de Victoria"
 		"&8&m                            "
@@ -8400,9 +8933,19 @@
 	quest.40DAAA391CD3F934.quest_desc: ["Trae el Mist Wolf. El futuro te lo agradecera."]
 	quest.40DAAA391CD3F934.quest_subtitle: "En el bolsillo: el Mist Wolf."
 	quest.40DAAA391CD3F934.title: "Mist Wolf"
-	quest.40DEE20FC31A48C7.quest_desc: ["Trae el Pump Upgrade a casa. La contabilidad importa."]
-	quest.40DEE20FC31A48C7.quest_subtitle: "Marca el Pump Upgrade."
-	quest.40DEE20FC31A48C7.title: "Pump Upgrade"
+	quest.40DEE20FC31A48C7.quest_desc: [
+			"&b&lBomba Mejora"
+			"&8&m                            "
+			""
+			"&7Bombea fluidos entre el Tanque y los bloques cercanos."
+			"&7Metela en la pestana de mejoras de una mochila con sitio."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.40DEE20FC31A48C7.quest_subtitle: "&7Mueve fluidos dentro y fuera"
+	quest.40DEE20FC31A48C7.title: "&b&lBomba Mejora"
 	quest.40E8940C92668D4F.quest_desc: [
 		"&b&lProducir Deuterio"
 		"&8&m                            "
@@ -8826,9 +9369,19 @@
 	quest.43E8912CB307E421.quest_desc: ["Anota el Grid como adquirido. Progreso modular, pasos cortos."]
 	quest.43E8912CB307E421.quest_subtitle: "Pequeno paso: el Grid."
 	quest.43E8912CB307E421.title: "Grid"
-	quest.43F6864962F0F52A.quest_desc: ["Toma posesion del Smoking Upgrade. Un ladrillo mas en una pared."]
-	quest.43F6864962F0F52A.quest_subtitle: "En ruta al Smoking Upgrade."
-	quest.43F6864962F0F52A.title: "Smoking Upgrade"
+	quest.43F6864962F0F52A.quest_desc: [
+			"&9&lAhumado Mejora"
+			"&8&m                            "
+			""
+			"&7Anade una pestana de ahumador para cocinar comida del bloque de almacen."
+			"&7Metela en la pestana de mejoras de un barril o cofre."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.43F6864962F0F52A.quest_subtitle: "&7Un ahumador para comidas rapidas"
+	quest.43F6864962F0F52A.title: "&9&lAhumado Mejora"
 	quest.43F806B63271BC3A.quest_desc: ["Toma posesion del Kobold. Progreso modular, pasos cortos."]
 	quest.43F806B63271BC3A.quest_subtitle: "El Kobold abre mas."
 	quest.43F806B63271BC3A.title: "Kobold"
@@ -9057,9 +9610,19 @@
 	]
 	quest.4533EF27201A9578.quest_subtitle: "&7Automatiza experiencia y encantado"
 	quest.4533EF27201A9578.title: "&d&lIndustria del Encantamiento"
-	quest.453A178684FEE8ED.quest_desc: ["Sumalo a tu kit: el Filter Upgrade. El capitulo gira en torno a esto."]
-	quest.453A178684FEE8ED.quest_subtitle: "En la rama del Filter Upgrade."
-	quest.453A178684FEE8ED.title: "Filter Upgrade"
+	quest.453A178684FEE8ED.quest_desc: [
+			"&b&lFiltro Mejora"
+			"&8&m                            "
+			""
+			"&7Decide que objetos pueden entrar o salir del mochila por tuberia."
+			"&7Metela en la pestana de mejoras de una mochila con sitio."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.453A178684FEE8ED.quest_subtitle: "&7Controla lo que entra y sale"
+	quest.453A178684FEE8ED.title: "&b&lFiltro Mejora"
 	quest.45400821B9216460.quest_desc: ["Ganate el Endermite con esfuerzo. Te has ganado una pausa."]
 	quest.45400821B9216460.quest_subtitle: "Hito tranquilo con el Endermite."
 	quest.45400821B9216460.title: "Endermite"
@@ -9186,9 +9749,19 @@
 	]
 	quest.4615915B4FE7967F.quest_subtitle: "&7Obsidiana que llora purpura"
 	quest.4615915B4FE7967F.title: "&6&lObsidiana Llorosa"
-	quest.462A89915E379594.quest_desc: ["Encuentra el Magnet Upgrade. Puente entre lo hecho y lo siguiente."]
-	quest.462A89915E379594.quest_subtitle: "En la rama del Magnet Upgrade."
-	quest.462A89915E379594.title: "Magnet Upgrade"
+	quest.462A89915E379594.quest_desc: [
+			"&b&lIman Mejora"
+			"&8&m                            "
+			""
+			"&7Atrae de lejos los objetos caidos directo al mochila."
+			"&7Metela en la pestana de mejoras de una mochila con sitio."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.462A89915E379594.quest_subtitle: "&7Atrae el botin desde lejos"
+	quest.462A89915E379594.title: "&b&lIman Mejora"
 	quest.46469E3A8AF0CB80.quest_desc: [
 		"&d&lExtract Glyph"
 		"&8&m                            "
@@ -9244,9 +9817,19 @@
 	]
 	quest.4665E6FD0AAED164.quest_subtitle: "&7Conserva mas al caer"
 	quest.4665E6FD0AAED164.title: "&b&lAmuleto de Retencion II"
-	quest.46872503B100F38D.quest_desc: ["Cierra el Basic To Diamond Tier Upgrade. El atajo no esta aqui."]
-	quest.46872503B100F38D.quest_subtitle: "Pesca el Basic To Diamond Tier Upgrade esta partida."
-	quest.46872503B100F38D.title: "Basic To Diamond Tier Upgrade"
+	quest.46872503B100F38D.quest_desc: [
+			"&3&lMejora a Nivel Diamante"
+			"&8&m                            "
+			""
+			"&7Sube un bloque de almacen al nivel diamante, anadiendo mas"
+			"&7casillas y espacio de mejora sin rehacerlo de cero."
+			""
+			"&3&lCategoria:&r &fNiveles de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Los niveles se acumulan, sube del cobre a la netherita."
+		]
+	quest.46872503B100F38D.quest_subtitle: "&7Sube un bloque un nivel"
+	quest.46872503B100F38D.title: "&3&lMejora a Nivel Diamante"
 	quest.46A77361C8CAFD11.quest_desc: ["Hazte con el Blockchain Goblin. Las runs pacientes ganan."]
 	quest.46A77361C8CAFD11.quest_subtitle: "Run estoico, un solo Blockchain Goblin."
 	quest.46A77361C8CAFD11.title: "Blockchain Goblin"
@@ -9299,9 +9882,19 @@
 	quest.47B80CE376D06676.quest_desc: ["Envuelve el Troll. Un peldano mas escalado."]
 	quest.47B80CE376D06676.quest_subtitle: "Un Troll, victoria calmo."
 	quest.47B80CE376D06676.title: "Troll"
-	quest.47D5BD33AE9B2EA7.quest_desc: ["Anade el Stack Downgrade Tier 2 al dossier. El capitulo gira en torno a esto."]
-	quest.47D5BD33AE9B2EA7.quest_subtitle: "En la rama del Stack Downgrade Tier 2."
-	quest.47D5BD33AE9B2EA7.title: "Stack Downgrade Tier 2"
+	quest.47D5BD33AE9B2EA7.quest_desc: [
+			"&d&lReduccion de Pila"
+			"&8&m                            "
+			""
+			"&7Baja cuantas pilas guarda cada casilla del mochila."
+			"&7Una herramienta de nicho para deshacer una mejora de pila."
+			""
+			"&d&lCategoria:&r &fCapacidad de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras de capacidad comparten la pestana de mejoras."
+		]
+	quest.47D5BD33AE9B2EA7.quest_subtitle: "&7Reduce las pilas por casilla"
+	quest.47D5BD33AE9B2EA7.title: "&d&lReduccion de Pila"
 	quest.47EBD49B34B70B3D.quest_desc: [
 		"&b&lBotas con Raices"
 		"&8&m                            "
@@ -9410,9 +10003,19 @@
 	]
 	quest.4883B6604F008596.quest_subtitle: "&7Prensa, mezcla, corta y extruye objetos"
 	quest.4883B6604F008596.title: "&b&lMaquinas de Procesado"
-	quest.488BCC5BB1A6318C.quest_desc: ["Anade el Pump Upgrade al run. Una semilla para la bola de nieve."]
-	quest.488BCC5BB1A6318C.quest_subtitle: "Lleva el Pump Upgrade."
-	quest.488BCC5BB1A6318C.title: "Pump Upgrade"
+	quest.488BCC5BB1A6318C.quest_desc: [
+			"&9&lBomba Mejora"
+			"&8&m                            "
+			""
+			"&7Bombea fluidos entre el Tanque y los bloques cercanos."
+			"&7Metela en la pestana de mejoras de un barril o cofre."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.488BCC5BB1A6318C.quest_subtitle: "&7Mueve fluidos dentro y fuera"
+	quest.488BCC5BB1A6318C.title: "&9&lBomba Mejora"
 	quest.488DBE69595F38F8.quest_desc: [
 		"&b&lFundidor Energizado"
 		"&8&m                            "
@@ -9426,9 +10029,19 @@
 	]
 	quest.488DBE69595F38F8.quest_subtitle: "&7Un horno electrico que nunca para"
 	quest.488DBE69595F38F8.title: "&b&lFundidor Energizado"
-	quest.4893C2C0985652FB.quest_desc: ["Fija el Advanced Pump Upgrade al inventario. Apunta a lo siguiente."]
-	quest.4893C2C0985652FB.quest_subtitle: "Un Advanced Pump Upgrade, victoria resuelto."
-	quest.4893C2C0985652FB.title: "Advanced Pump Upgrade"
+	quest.4893C2C0985652FB.quest_desc: [
+			"&9&lAvanzado Bomba Mejora"
+			"&8&m                            "
+			""
+			"&7Bombea fluidos entre el Tanque y los bloques cercanos."
+			"&7Este modelo avanzado anade mas filtros y mayor alcance."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.4893C2C0985652FB.quest_subtitle: "&7Mueve fluidos dentro y fuera, con control mas fino"
+	quest.4893C2C0985652FB.title: "&9&lAvanzado Bomba Mejora"
 	quest.489833A2A6C39151.quest_desc: [
 		"&9&lCryomancer Robes"
 		"&8&m                            "
@@ -9774,9 +10387,19 @@
 	quest.4AE71214BE124BF8.quest_desc: ["Gana el Stray paso a paso. Estructural, no llamativo."]
 	quest.4AE71214BE124BF8.quest_subtitle: "El Stray abre mas."
 	quest.4AE71214BE124BF8.title: "Stray"
-	quest.4AF52AB5170D6C44.quest_desc: ["Gana el Advanced Alchemy Upgrade jugando a largo plazo. Bola de nieve desde aqui."]
-	quest.4AF52AB5170D6C44.quest_subtitle: "Guarda el Advanced Alchemy Upgrade para luego."
-	quest.4AF52AB5170D6C44.title: "Advanced Alchemy Upgrade"
+	quest.4AF52AB5170D6C44.quest_desc: [
+			"&9&lAvanzado Alquimia Mejora"
+			"&8&m                            "
+			""
+			"&7Usa sola pociones, comida con efectos y leche del bloque de almacen."
+			"&7Este modelo avanzado anade mas filtros y mayor alcance."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.4AF52AB5170D6C44.quest_subtitle: "&7Efectos aplicados solos, con control mas fino"
+	quest.4AF52AB5170D6C44.title: "&9&lAvanzado Alquimia Mejora"
 	quest.4AF76667693FE6D1.quest_desc: ["Sumalo a tu kit: el Zombie Villager. El futuro te lo agradecera."]
 	quest.4AF76667693FE6D1.quest_subtitle: "Guarda el Zombie Villager para luego."
 	quest.4AF76667693FE6D1.title: "Zombie Villager"
@@ -9809,9 +10432,19 @@
 	]
 	quest.4B35C01F5D0AAC58.quest_subtitle: "&7Metal duro para maquinas robustas"
 	quest.4B35C01F5D0AAC58.title: "&e&lLingote de Acero"
-	quest.4B47FFBF60C1B476.quest_desc: ["El Paintbrush se paga solo. Guardado para luego."]
-	quest.4B47FFBF60C1B476.quest_subtitle: "El Paintbrush se paga solo."
-	quest.4B47FFBF60C1B476.title: "Paintbrush"
+	quest.4B47FFBF60C1B476.quest_desc: [
+			"&2&lHerramientas de Almacen"
+			"&8&m                            "
+			""
+			"&7El Pincel recolorea un bloque de almacen, y la Herramienta"
+			"&7de Almacen ajusta sus opciones sin abrirlo."
+			""
+			"&2&lCategoria:&r &fHerramientas y Decoracion"
+			""
+			"&e&l★ Consejo:&r &7Ambas hacen rapida y pulcra la gestion de un muro de almacen."
+		]
+	quest.4B47FFBF60C1B476.quest_subtitle: "&7El pincel y la herramienta de almacen"
+	quest.4B47FFBF60C1B476.title: "&2&lHerramientas de Almacen"
 	quest.4B53D0523CB4A8ED.quest_desc: [
 		"&c&lGuardian del Castillo"
 		"&8&m                            "
@@ -9826,9 +10459,20 @@
 	]
 	quest.4B53D0523CB4A8ED.quest_subtitle: "&7Conquista el castillo final"
 	quest.4B53D0523CB4A8ED.title: "&c&lGuardian del Castillo"
-	quest.4B5DBC05BAA38058.quest_desc: ["Lleva el mojon. Medio camino hecho contigo."]
-	quest.4B5DBC05BAA38058.quest_subtitle: "En el bolsillo: el mojon."
-	quest.4B5DBC05BAA38058.title: "Objective"
+	quest.4B5DBC05BAA38058.quest_desc: [
+			"&e&lCofre de Diamante"
+			"&8&m                            "
+			""
+			"&7Un cofre guarda tus objetos y se abre en pareja para el"
+			"&7doble de espacio, con las mismas ranuras de mejora."
+			"&7El nivel diamante ofrece un gran inventario y muchas mejoras."
+			""
+			"&e&lCategoria:&r &fCofres"
+			""
+			"&e&l★ Consejo:&r &7Sube su nivel luego con una mejora de nivel, sin rehacerlo."
+		]
+	quest.4B5DBC05BAA38058.quest_subtitle: "&7Un cofre clasico, muy mejorado"
+	quest.4B5DBC05BAA38058.title: "&e&lCofre de Diamante"
 	quest.4B6B06C9A92D41C1.quest_desc: ["Toma el Piglin Brute. El atajo no esta aqui."]
 	quest.4B6B06C9A92D41C1.quest_subtitle: "Pequeno paso: el Piglin Brute."
 	quest.4B6B06C9A92D41C1.title: "Piglin Brute"
@@ -9870,9 +10514,19 @@
 	quest.4B86AB8C21478C17.quest_desc: ["Encuentra el Foliaath. El futuro te lo agradecera."]
 	quest.4B86AB8C21478C17.quest_subtitle: "Vale el desvio por el Foliaath."
 	quest.4B86AB8C21478C17.title: "Foliaath"
-	quest.4B92C913AE9EE345.quest_desc: ["Estira la mano al Auto Smelting Upgrade. Vale mas que su descripcion."]
-	quest.4B92C913AE9EE345.quest_subtitle: "Guarda el Auto Smelting Upgrade para luego."
-	quest.4B92C913AE9EE345.title: "Auto Smelting Upgrade"
+	quest.4B92C913AE9EE345.quest_desc: [
+			"&9&lFundido Auto Mejora"
+			"&8&m                            "
+			""
+			"&7Anade una pestana de horno que funde lo guardado sola."
+			"&7Metela en la pestana de mejoras de un barril o cofre."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.4B92C913AE9EE345.quest_subtitle: "&7Fundido automatico en marcha"
+	quest.4B92C913AE9EE345.title: "&9&lFundido Auto Mejora"
 	quest.4B93942194AA2B86.quest_desc: ["Gana el Breeze paso a paso. Puente entre lo hecho y lo siguiente."]
 	quest.4B93942194AA2B86.quest_subtitle: "Vale el desvio por el Breeze."
 	quest.4B93942194AA2B86.title: "Breeze"
@@ -9905,9 +10559,19 @@
 	]
 	quest.4BAF44FCA0894DE8.quest_subtitle: "&7Irradia quimicos con luz solar"
 	quest.4BAF44FCA0894DE8.title: "&b&lActivador Neutronico Solar"
-	quest.4BCC14615DA7CA1D.quest_desc: ["Aferra el Advanced Filter Upgrade. El desvio vale la pena."]
-	quest.4BCC14615DA7CA1D.quest_subtitle: "Lleva el Advanced Filter Upgrade."
-	quest.4BCC14615DA7CA1D.title: "Advanced Filter Upgrade"
+	quest.4BCC14615DA7CA1D.quest_desc: [
+			"&9&lAvanzado Filtro Mejora"
+			"&8&m                            "
+			""
+			"&7Decide que objetos pueden entrar o salir del bloque de almacen por tuberia."
+			"&7Este modelo avanzado anade mas filtros y mayor alcance."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.4BCC14615DA7CA1D.quest_subtitle: "&7Controla lo que entra y sale, con control mas fino"
+	quest.4BCC14615DA7CA1D.title: "&9&lAvanzado Filtro Mejora"
 	quest.4BDC9837B41FC2BC.quest_desc: [
 		"&a&lMolde de Engranaje"
 		"&8&m                            "
@@ -9927,9 +10591,19 @@
 	quest.4BE7D8238D0F4687.quest_desc: ["Atrapa el King Spider. Las victorias chicas suman."]
 	quest.4BE7D8238D0F4687.quest_subtitle: "El King Spider es un checkpoint."
 	quest.4BE7D8238D0F4687.title: "King Spider"
-	quest.4BF1E275D9E5199E.quest_desc: ["Atrapa el Stack Upgrade Tier 1. Confia en la cadena."]
-	quest.4BF1E275D9E5199E.quest_subtitle: "Ladrillo: el Stack Upgrade Tier 1."
-	quest.4BF1E275D9E5199E.title: "Stack Upgrade Tier 1"
+	quest.4BF1E275D9E5199E.quest_desc: [
+			"&5&lMejora de Pila"
+			"&8&m                            "
+			""
+			"&7Multiplica las pilas por casilla del bloque de almacen por x2."
+			"&7Las mejoras de pila se acumulan, sube los niveles en orden."
+			""
+			"&5&lCategoria:&r &fCapacidad de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras de capacidad comparten la pestana de mejoras."
+		]
+	quest.4BF1E275D9E5199E.quest_subtitle: "&7Guarda x2 las pilas por casilla"
+	quest.4BF1E275D9E5199E.title: "&5&lMejora de Pila"
 	quest.4C0B4F5148F144FC.quest_desc: ["El Wither es el proximo pivote. El progreso tranquilo gana."]
 	quest.4C0B4F5148F144FC.quest_subtitle: "Marca el Wither."
 	quest.4C0B4F5148F144FC.title: "Wither"
@@ -10055,9 +10729,19 @@
 	quest.4CEA8FD33114B48F.quest_desc: ["Captura el Carminite Ghastling. Bola de nieve desde aqui."]
 	quest.4CEA8FD33114B48F.quest_subtitle: "Un Carminite Ghastling para el camino."
 	quest.4CEA8FD33114B48F.title: "Carminite Ghastling"
-	quest.4CF71DB0F9B70978.quest_desc: ["Tacha el Magnet Upgrade. La calma vence al apuro."]
-	quest.4CF71DB0F9B70978.quest_subtitle: "El Magnet Upgrade: estructural."
-	quest.4CF71DB0F9B70978.title: "Magnet Upgrade"
+	quest.4CF71DB0F9B70978.quest_desc: [
+			"&9&lIman Mejora"
+			"&8&m                            "
+			""
+			"&7Atrae de lejos los objetos caidos directo al bloque de almacen."
+			"&7Metela en la pestana de mejoras de un barril o cofre."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.4CF71DB0F9B70978.quest_subtitle: "&7Atrae el botin desde lejos"
+	quest.4CF71DB0F9B70978.title: "&9&lIman Mejora"
 	quest.4D07B0A4A2E77CDA.quest_desc: [
 		"&6&lLagrima de Ghast"
 		"&8&m                            "
@@ -10071,9 +10755,19 @@
 	]
 	quest.4D07B0A4A2E77CDA.quest_subtitle: "&7Sube el limite de mobs cercanos"
 	quest.4D07B0A4A2E77CDA.title: "&6&lLagrima de Ghast"
-	quest.4D32DEA8354A4B99.quest_desc: ["El Advanced Tool Swapper Upgrade esta en el menu. La contabilidad importa."]
-	quest.4D32DEA8354A4B99.quest_subtitle: "Marca el Advanced Tool Swapper Upgrade hecho."
-	quest.4D32DEA8354A4B99.title: "Advanced Tool Swapper Upgrade"
+	quest.4D32DEA8354A4B99.quest_desc: [
+			"&b&lAvanzado Cambiador de Herramientas Mejora"
+			"&8&m                            "
+			""
+			"&7Cambia el objeto en mano por la herramienta correcta al golpear."
+			"&7Este modelo avanzado anade mas filtros y mayor alcance."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.4D32DEA8354A4B99.quest_subtitle: "&7Siempre la herramienta justa, con control mas fino"
+	quest.4D32DEA8354A4B99.title: "&b&lAvanzado Cambiador de Herramientas Mejora"
 	quest.4D3379D38237F830.quest_desc: [
 		"&b&lBotas de Agua"
 		"&8&m                            "
@@ -10135,9 +10829,19 @@
 	quest.4D5741BF80C749CF.quest_desc: ["Conserva el Breeze. Vale anotarlo."]
 	quest.4D5741BF80C749CF.quest_subtitle: "Hito tranquilo con el Breeze."
 	quest.4D5741BF80C749CF.title: "Breeze"
-	quest.4D5E53BF9FB3455F.quest_desc: ["Gana el Smithing Upgrade. El atajo no esta aqui."]
-	quest.4D5E53BF9FB3455F.quest_subtitle: "Hito tranquilo con el Smithing Upgrade."
-	quest.4D5E53BF9FB3455F.title: "Smithing Upgrade"
+	quest.4D5E53BF9FB3455F.quest_desc: [
+			"&b&lHerreria Mejora"
+			"&8&m                            "
+			""
+			"&7Anade una pestana de mesa de herreria para ornar armadura."
+			"&7Metela en la pestana de mejoras de una mochila con sitio."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.4D5E53BF9FB3455F.quest_subtitle: "&7Una herreria en la mochila"
+	quest.4D5E53BF9FB3455F.title: "&b&lHerreria Mejora"
 	quest.4D714C031C724199.quest_desc: ["Anade el Piglin al kit. Util antes de lo que crees."]
 	quest.4D714C031C724199.quest_subtitle: "Hito agudo: el Piglin."
 	quest.4D714C031C724199.title: "Piglin"
@@ -10195,9 +10899,19 @@
 	]
 	quest.4DF0D7B85065ADC9.quest_subtitle: "&7Cosecha la carne demoniaca"
 	quest.4DF0D7B85065ADC9.title: "&e&lCuchillo de Carnicero"
-	quest.4DFB78F17F3C9BF3.quest_desc: ["Lleva el Void Upgrade. Hito suave."]
-	quest.4DFB78F17F3C9BF3.quest_subtitle: "Hito tranquilo con el Void Upgrade."
-	quest.4DFB78F17F3C9BF3.title: "Void Upgrade"
+	quest.4DFB78F17F3C9BF3.quest_desc: [
+			"&9&lVacio Mejora"
+			"&8&m                            "
+			""
+			"&7Destruye al instante todo objeto marcado en su filtro."
+			"&7Metela en la pestana de mejoras de un barril o cofre."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.4DFB78F17F3C9BF3.quest_subtitle: "&7Tira la basura al llegar"
+	quest.4DFB78F17F3C9BF3.title: "&9&lVacio Mejora"
 	quest.4E0976E1DAF65FC9.quest_desc: [
 		"&5&lBurrowing Ritual"
 		"&8&m                            "
@@ -10416,9 +11130,19 @@
 	]
 	quest.4F5FCEBB16B5B6F5.quest_subtitle: "&7El Wither Glyph, una palabra de magia"
 	quest.4F5FCEBB16B5B6F5.title: "&d&lWither Glyph"
-	quest.4F606E7A7B4CFB70.quest_desc: ["Apunta el Advanced Pump Upgrade en el dossier. Capital silencioso."]
-	quest.4F606E7A7B4CFB70.quest_subtitle: "Un Advanced Pump Upgrade para el camino."
-	quest.4F606E7A7B4CFB70.title: "Advanced Pump Upgrade"
+	quest.4F606E7A7B4CFB70.quest_desc: [
+			"&b&lAvanzado Bomba Mejora"
+			"&8&m                            "
+			""
+			"&7Bombea fluidos entre el Tanque y los bloques cercanos."
+			"&7Este modelo avanzado anade mas filtros y mayor alcance."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.4F606E7A7B4CFB70.quest_subtitle: "&7Mueve fluidos dentro y fuera, con control mas fino"
+	quest.4F606E7A7B4CFB70.title: "&b&lAvanzado Bomba Mejora"
 	quest.4F66DF6B494BEFF3.quest_desc: [
 		"&a&lFoco de Mapa Magico"
 		"&8&m                            "
@@ -10545,9 +11269,19 @@
 	quest.5014471AEFB94727.quest_desc: ["Marchate con el Carminite Ghastling. La proxima puerta esta cerca."]
 	quest.5014471AEFB94727.quest_subtitle: "Ganate el Carminite Ghastling, sin atajo."
 	quest.5014471AEFB94727.title: "Carminite Ghastling"
-	quest.501CFE760784733D.quest_desc: ["El Feeding Upgrade: un hito tranquilo. Las runs pacientes ganan."]
-	quest.501CFE760784733D.quest_subtitle: "Run humilde, un solo Feeding Upgrade."
-	quest.501CFE760784733D.title: "Feeding Upgrade"
+	quest.501CFE760784733D.quest_desc: [
+			"&b&lAlimentacion Mejora"
+			"&8&m                            "
+			""
+			"&7Te alimenta con comida del mochila en cuanto te entra hambre."
+			"&7Metela en la pestana de mejoras de una mochila con sitio."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.501CFE760784733D.quest_subtitle: "&7No mueras de hambre de aventura"
+	quest.501CFE760784733D.title: "&b&lAlimentacion Mejora"
 	quest.502D16D5531E4D61.quest_desc: ["Anota el Stable Ice Core en tu bitacora. Cuenta."]
 	quest.502D16D5531E4D61.quest_subtitle: "Vale el desvio por el Stable Ice Core."
 	quest.502D16D5531E4D61.title: "Stable Ice Core"
@@ -10718,9 +11452,19 @@
 	]
 	quest.516E66BE01EE5B31.quest_subtitle: "&7Tomos de encanto para el combate"
 	quest.516E66BE01EE5B31.title: "&d&lTomos de Arma"
-	quest.517403575177D1CD.quest_desc: ["Tomate tu tiempo para obtener el Deposit Upgrade. Un peldano mas escalado."]
-	quest.517403575177D1CD.quest_subtitle: "El Deposit Upgrade abre mas."
-	quest.517403575177D1CD.title: "Deposit Upgrade"
+	quest.517403575177D1CD.quest_desc: [
+			"&b&lDeposito Mejora"
+			"&8&m                            "
+			""
+			"&7Descarga la mochila en un inventario con clic derecho agachado."
+			"&7Metela en la pestana de mejoras de una mochila con sitio."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.517403575177D1CD.quest_subtitle: "&7Vacia la mochila en un cofre"
+	quest.517403575177D1CD.title: "&b&lDeposito Mejora"
 	quest.517B91100C8E48E5.quest_desc: ["Gana el Vex con justicia. Modesto ahora, poderoso despues."]
 	quest.517B91100C8E48E5.quest_subtitle: "Un Vex para el camino."
 	quest.517B91100C8E48E5.title: "Vex"
@@ -10788,9 +11532,19 @@
 	]
 	quest.523DC411241B470A.quest_subtitle: "&7La Geode Shelf, una estanteria magica"
 	quest.523DC411241B470A.title: "&b&lGeode Shelf"
-	quest.525DCF7A5C10DA9E.quest_desc: ["Sigue el rastro del Pickup Upgrade. Sigue."]
-	quest.525DCF7A5C10DA9E.quest_subtitle: "Vale el desvio por el Pickup Upgrade."
-	quest.525DCF7A5C10DA9E.title: "Pickup Upgrade"
+	quest.525DCF7A5C10DA9E.quest_desc: [
+			"&9&lRecogida Mejora"
+			"&8&m                            "
+			""
+			"&7Hace que el bloque de almacen recoja objetos del suelo por si solo."
+			"&7Metela en la pestana de mejoras de un barril o cofre."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.525DCF7A5C10DA9E.quest_subtitle: "&7Aspira el botin sin mover un dedo"
+	quest.525DCF7A5C10DA9E.title: "&9&lRecogida Mejora"
 	quest.526D81479D2E1C6F.quest_desc: ["Marca el Towerwood Borer como obtenido. Apunta a lo siguiente."]
 	quest.526D81479D2E1C6F.quest_subtitle: "Un Towerwood Borer para el camino."
 	quest.526D81479D2E1C6F.title: "Towerwood Borer"
@@ -11261,9 +12015,20 @@
 	]
 	quest.575E405B270BBCBC.quest_subtitle: "&7Elimina las criaturas del ocaso"
 	quest.575E405B270BBCBC.title: "&a&lCazador Crepuscular"
-	quest.5762DAEB4AB1C0AB.quest_desc: ["Adquiere el Diamond Backpack. Mas cerca de lo que el mapa sugiere."]
-	quest.5762DAEB4AB1C0AB.quest_subtitle: "Ganatelo: el Diamond Backpack."
-	quest.5762DAEB4AB1C0AB.title: "Diamond Backpack"
+	quest.5762DAEB4AB1C0AB.quest_desc: [
+			"&a&lMochila de Diamante"
+			"&8&m                            "
+			""
+			"&7Una mochila va a tu espalda y lleva tu inventario a donde"
+			"&7vayas, con su propia pestana de mejoras."
+			"&7El nivel diamante ofrece un gran inventario y muchas mejoras."
+			""
+			"&a&lCategoria:&r &fMochilas"
+			""
+			"&e&l★ Consejo:&r &7Abrela con una tecla o colocala y haz clic derecho."
+		]
+	quest.5762DAEB4AB1C0AB.quest_subtitle: "&7Almacen que viaja contigo"
+	quest.5762DAEB4AB1C0AB.title: "&a&lMochila de Diamante"
 	quest.5766C8B9E850C186.quest_desc: [
 		"&3&lCamara de Imbuicion"
 		"&8&m                            "
@@ -11455,9 +12220,20 @@
 	quest.5912BA7896F8F089.quest_desc: ["Gana el Carminite Golem. Sigue."]
 	quest.5912BA7896F8F089.quest_subtitle: "Un paso quieto hacia el Carminite Golem."
 	quest.5912BA7896F8F089.title: "Carminite Golem"
-	quest.591530F202A85E14.quest_desc: ["Embolsa el Netherite Backpack. A tu ritmo."]
-	quest.591530F202A85E14.quest_subtitle: "Un Netherite Backpack, victoria firme."
-	quest.591530F202A85E14.title: "Netherite Backpack"
+	quest.591530F202A85E14.quest_desc: [
+			"&a&lMochila de Netherita"
+			"&8&m                            "
+			""
+			"&7Una mochila va a tu espalda y lleva tu inventario a donde"
+			"&7vayas, con su propia pestana de mejoras."
+			"&7El nivel netherita es la cumbre, vasto e ignifugo."
+			""
+			"&a&lCategoria:&r &fMochilas"
+			""
+			"&e&l★ Consejo:&r &7Abrela con una tecla o colocala y haz clic derecho."
+		]
+	quest.591530F202A85E14.quest_subtitle: "&7Almacen que viaja contigo"
+	quest.591530F202A85E14.title: "&a&lMochila de Netherita"
 	quest.591DA03FFC7E109F.quest_desc: [
 		"&d&lOccultism"
 		"&8&m                                "
@@ -11526,9 +12302,19 @@
 	quest.599919B37F96ED6B.quest_desc: ["Embolsate el Carminite Ghastguard. Modesto ahora, poderoso despues."]
 	quest.599919B37F96ED6B.quest_subtitle: "Premio perspicaz: el Carminite Ghastguard."
 	quest.599919B37F96ED6B.title: "Carminite Ghastguard"
-	quest.599C2D93447A2AB0.quest_desc: ["El Stack Upgrade Tier 4: un punto util en esta rama. Guardado para luego."]
-	quest.599C2D93447A2AB0.quest_subtitle: "Un Stack Upgrade Tier 4 para el camino."
-	quest.599C2D93447A2AB0.title: "Stack Upgrade Tier 4"
+	quest.599C2D93447A2AB0.quest_desc: [
+			"&5&lMejora de Pila"
+			"&8&m                            "
+			""
+			"&7Multiplica las pilas por casilla del bloque de almacen por x16."
+			"&7Las mejoras de pila se acumulan, sube los niveles en orden."
+			""
+			"&5&lCategoria:&r &fCapacidad de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras de capacidad comparten la pestana de mejoras."
+		]
+	quest.599C2D93447A2AB0.quest_subtitle: "&7Guarda x16 las pilas por casilla"
+	quest.599C2D93447A2AB0.title: "&5&lMejora de Pila"
 	quest.599FA8D2FBA2725D.quest_desc: ["Guarda el Drowned en lugar seguro. Hito suave."]
 	quest.599FA8D2FBA2725D.quest_subtitle: "Un Drowned para el camino."
 	quest.599FA8D2FBA2725D.title: "Drowned"
@@ -11768,9 +12554,19 @@
 	]
 	quest.5BA2B036717AC1D6.quest_subtitle: "&7Wraithfang, una hoja legendaria unica"
 	quest.5BA2B036717AC1D6.title: "&d&lWraithfang"
-	quest.5BA6B0EBD15F4F49.quest_desc: ["Anota el Stack Upgrade Tier 4 como adquirido. Aparece pronto por algo."]
-	quest.5BA6B0EBD15F4F49.quest_subtitle: "Pequeno paso: el Stack Upgrade Tier 4."
-	quest.5BA6B0EBD15F4F49.title: "Stack Upgrade Tier 4"
+	quest.5BA6B0EBD15F4F49.quest_desc: [
+			"&d&lMejora de Pila"
+			"&8&m                            "
+			""
+			"&7Multiplica las pilas por casilla del mochila por x16."
+			"&7Las mejoras de pila se acumulan, sube los niveles en orden."
+			""
+			"&d&lCategoria:&r &fCapacidad de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras de capacidad comparten la pestana de mejoras."
+		]
+	quest.5BA6B0EBD15F4F49.quest_subtitle: "&7Guarda x16 las pilas por casilla"
+	quest.5BA6B0EBD15F4F49.title: "&d&lMejora de Pila"
 	quest.5BB155110168DF92.quest_desc: [
 		"&d&lFreeze Glyph"
 		"&8&m                            "
@@ -11816,9 +12612,19 @@
 	]
 	quest.5C3FF43CF16BCF30.quest_subtitle: "&7La piedra de lo arcano"
 	quest.5C3FF43CF16BCF30.title: "&3&lPiedra de Source"
-	quest.5C413945211CB7FC.quest_desc: ["Gana el Alchemy Upgrade. Paga su propio flete."]
-	quest.5C413945211CB7FC.quest_subtitle: "Un Alchemy Upgrade, victoria constante."
-	quest.5C413945211CB7FC.title: "Alchemy Upgrade"
+	quest.5C413945211CB7FC.quest_desc: [
+			"&9&lAlquimia Mejora"
+			"&8&m                            "
+			""
+			"&7Usa sola pociones, comida con efectos y leche del bloque de almacen."
+			"&7Metela en la pestana de mejoras de un barril o cofre."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.5C413945211CB7FC.quest_subtitle: "&7Efectos aplicados solos"
+	quest.5C413945211CB7FC.title: "&9&lAlquimia Mejora"
 	quest.5C72E96AA51F783C.quest_desc: ["Marca el Phantom hecho. La cadena aguanta."]
 	quest.5C72E96AA51F783C.quest_subtitle: "Ladrillo: el Phantom."
 	quest.5C72E96AA51F783C.title: "Phantom"
@@ -11841,9 +12647,19 @@
 	quest.5C7D80514579A09C.quest_desc: ["Pon las manos sobre el Spider. Puente entre lo hecho y lo siguiente."]
 	quest.5C7D80514579A09C.quest_subtitle: "Hito tranquilo con el Spider."
 	quest.5C7D80514579A09C.title: "Spider"
-	quest.5C9D9962F2FA0E06.quest_desc: ["Anota el Advanced Compacting Upgrade como adquirido. El desvio vale la pena."]
-	quest.5C9D9962F2FA0E06.quest_subtitle: "Refuerza la cadena del Advanced Compacting Upgrade."
-	quest.5C9D9962F2FA0E06.title: "Advanced Compacting Upgrade"
+	quest.5C9D9962F2FA0E06.quest_desc: [
+			"&b&lAvanzado Compactado Mejora"
+			"&8&m                            "
+			""
+			"&7Compacta los objetos del mochila en bloque o forma comprimida."
+			"&7Este modelo avanzado anade mas filtros y mayor alcance."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.5C9D9962F2FA0E06.quest_subtitle: "&7Aprieta lo suelto en bloques pulcros, con control mas fino"
+	quest.5C9D9962F2FA0E06.title: "&b&lAvanzado Compactado Mejora"
 	quest.5CA9998DD0124142.quest_desc: ["Tacha el Mutant Skeleton Shoulder Pad. Paga su propio flete."]
 	quest.5CA9998DD0124142.quest_subtitle: "En ruta al Mutant Skeleton Shoulder Pad."
 	quest.5CA9998DD0124142.title: "Mutant Skeleton Shoulder Pad"
@@ -11889,9 +12705,19 @@
 	quest.5D3F264B8D4C4C92.quest_desc: ["Gana el Piglin. Habito chico, gran resultado."]
 	quest.5D3F264B8D4C4C92.quest_subtitle: "Marca el Piglin."
 	quest.5D3F264B8D4C4C92.title: "Piglin"
-	quest.5D4BF684FEF1B4AC.quest_desc: ["El Advanced Pickup Upgrade abre mas puertas de las que parece. Puente entre lo hecho y lo siguiente."]
-	quest.5D4BF684FEF1B4AC.quest_subtitle: "El Advanced Pickup Upgrade es un checkpoint."
-	quest.5D4BF684FEF1B4AC.title: "Advanced Pickup Upgrade"
+	quest.5D4BF684FEF1B4AC.quest_desc: [
+			"&b&lAvanzado Recogida Mejora"
+			"&8&m                            "
+			""
+			"&7Hace que el mochila recoja objetos del suelo por si solo."
+			"&7Este modelo avanzado anade mas filtros y mayor alcance."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.5D4BF684FEF1B4AC.quest_subtitle: "&7Aspira el botin sin mover un dedo, con control mas fino"
+	quest.5D4BF684FEF1B4AC.title: "&b&lAvanzado Recogida Mejora"
 	quest.5D6BAF806808102A.quest_desc: ["Apunta el Mosquito Swarm en el dossier. Habito chico, gran resultado."]
 	quest.5D6BAF806808102A.quest_subtitle: "Salto firme: el Mosquito Swarm."
 	quest.5D6BAF806808102A.title: "Mosquito Swarm"
@@ -12681,9 +13507,19 @@
 	]
 	quest.630CB3AE62376C39.quest_subtitle: "&7Emberlash, una hoja legendaria unica"
 	quest.630CB3AE62376C39.title: "&d&lEmberlash"
-	quest.63149ED8CAF67BAC.quest_desc: ["Conserva el Stack Upgrade Tier 2. Bola de nieve desde aqui."]
-	quest.63149ED8CAF67BAC.quest_subtitle: "Un paso cauto hacia el Stack Upgrade Tier 2."
-	quest.63149ED8CAF67BAC.title: "Stack Upgrade Tier 2"
+	quest.63149ED8CAF67BAC.quest_desc: [
+			"&d&lMejora de Pila"
+			"&8&m                            "
+			""
+			"&7Multiplica las pilas por casilla del mochila por x4."
+			"&7Las mejoras de pila se acumulan, sube los niveles en orden."
+			""
+			"&d&lCategoria:&r &fCapacidad de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras de capacidad comparten la pestana de mejoras."
+		]
+	quest.63149ED8CAF67BAC.quest_subtitle: "&7Guarda x4 las pilas por casilla"
+	quest.63149ED8CAF67BAC.title: "&d&lMejora de Pila"
 	quest.632BC46928CC9A8C.quest_desc: [
 		"&e&lEspejo de Encantador"
 		"&8&m                            "
@@ -12838,12 +13674,32 @@
 	quest.6435AEDDD13247A0.quest_desc: ["Ganate el Ravager con esfuerzo. Un ladrillo mas en una pared."]
 	quest.6435AEDDD13247A0.quest_subtitle: "Marca el Ravager hecho."
 	quest.6435AEDDD13247A0.title: "Ravager"
-	quest.6488D3F4747BB26B.quest_desc: ["El Jukebox Upgrade marca un punto de control. A tu ritmo."]
-	quest.6488D3F4747BB26B.quest_subtitle: "En ruta al Jukebox Upgrade."
-	quest.6488D3F4747BB26B.title: "Jukebox Upgrade"
-	quest.648B6590FEE16376.quest_desc: ["Recoge el Advanced Jukebox Upgrade de pasada. Vale anotarlo."]
-	quest.648B6590FEE16376.quest_subtitle: "El Advanced Jukebox Upgrade es un checkpoint."
-	quest.648B6590FEE16376.title: "Advanced Jukebox Upgrade"
+	quest.6488D3F4747BB26B.quest_desc: [
+			"&9&lTocadiscos Mejora"
+			"&8&m                            "
+			""
+			"&7Vuelve el bloque de almacen en un tocadiscos portatil para tus discos."
+			"&7Metela en la pestana de mejoras de un barril o cofre."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.6488D3F4747BB26B.quest_subtitle: "&7Lleva tu musica contigo"
+	quest.6488D3F4747BB26B.title: "&9&lTocadiscos Mejora"
+	quest.648B6590FEE16376.quest_desc: [
+			"&b&lAvanzado Tocadiscos Mejora"
+			"&8&m                            "
+			""
+			"&7Vuelve el mochila en un tocadiscos portatil para tus discos."
+			"&7Este modelo avanzado anade mas filtros y mayor alcance."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.648B6590FEE16376.quest_subtitle: "&7Lleva tu musica contigo, con control mas fino"
+	quest.648B6590FEE16376.title: "&b&lAvanzado Tocadiscos Mejora"
 	quest.64A8C40D5D1D2026.quest_desc: ["Embolsa el Zombified Piglin. Progreso modular, pasos cortos."]
 	quest.64A8C40D5D1D2026.quest_subtitle: "El Zombified Piglin se paga solo."
 	quest.64A8C40D5D1D2026.title: "Zombified Piglin"
@@ -12918,9 +13774,19 @@
 	]
 	quest.652A14E17DDE97E6.quest_subtitle: "&7Un libro de hechizos con caracter propio"
 	quest.652A14E17DDE97E6.title: "&d&lDragonskin Spell Book"
-	quest.652F00825BC5D089.quest_desc: ["Suma el Alchemy Upgrade. A tu ritmo."]
-	quest.652F00825BC5D089.quest_subtitle: "Ganate el Alchemy Upgrade, sin atajo."
-	quest.652F00825BC5D089.title: "Alchemy Upgrade"
+	quest.652F00825BC5D089.quest_desc: [
+			"&b&lAlquimia Mejora"
+			"&8&m                            "
+			""
+			"&7Usa sola pociones, comida con efectos y leche del mochila."
+			"&7Metela en la pestana de mejoras de una mochila con sitio."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.652F00825BC5D089.quest_subtitle: "&7Efectos aplicados solos"
+	quest.652F00825BC5D089.title: "&b&lAlquimia Mejora"
 	quest.6541A86B8A56C52C.quest_desc: [
 		"&b&lAvion Economico"
 		"&8&m                            "
@@ -12937,9 +13803,20 @@
 	quest.6560ED582669453A.quest_desc: ["Trae el Winter Wolf a buen puerto. El futuro te lo agradecera."]
 	quest.6560ED582669453A.quest_subtitle: "Anade un Winter Wolf."
 	quest.6560ED582669453A.title: "Winter Wolf"
-	quest.65766D05E70BA60A.quest_desc: ["Gana el Gold Backpack. Estructural, no llamativo."]
-	quest.65766D05E70BA60A.quest_subtitle: "El Gold Backpack es un checkpoint."
-	quest.65766D05E70BA60A.title: "Gold Backpack"
+	quest.65766D05E70BA60A.quest_desc: [
+			"&a&lMochila de Oro"
+			"&8&m                            "
+			""
+			"&7Una mochila va a tu espalda y lleva tu inventario a donde"
+			"&7vayas, con su propia pestana de mejoras."
+			"&7El nivel oro trae aun mas casillas y espacio de mejora."
+			""
+			"&a&lCategoria:&r &fMochilas"
+			""
+			"&e&l★ Consejo:&r &7Abrela con una tecla o colocala y haz clic derecho."
+		]
+	quest.65766D05E70BA60A.quest_subtitle: "&7Almacen que viaja contigo"
+	quest.65766D05E70BA60A.title: "&a&lMochila de Oro"
 	quest.6581D4AF1A6DE230.quest_desc: [
 		"&5&lVelas Rituales"
 		"&8&m                            "
@@ -13093,9 +13970,19 @@
 	quest.668E346EDCC67432.quest_desc: ["Toma posesion del Evoker. Las victorias chicas suman."]
 	quest.668E346EDCC67432.quest_subtitle: "En el bolsillo: el Evoker."
 	quest.668E346EDCC67432.title: "Evoker"
-	quest.669742DD733553F2.quest_desc: ["Envuelve el Stack Downgrade Tier 3. Capital silencioso."]
-	quest.669742DD733553F2.quest_subtitle: "El Stack Downgrade Tier 3 se paga solo."
-	quest.669742DD733553F2.title: "Stack Downgrade Tier 3"
+	quest.669742DD733553F2.quest_desc: [
+			"&d&lReduccion de Pila"
+			"&8&m                            "
+			""
+			"&7Baja cuantas pilas guarda cada casilla del mochila."
+			"&7Una herramienta de nicho para deshacer una mejora de pila."
+			""
+			"&d&lCategoria:&r &fCapacidad de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras de capacidad comparten la pestana de mejoras."
+		]
+	quest.669742DD733553F2.quest_subtitle: "&7Reduce las pilas por casilla"
+	quest.669742DD733553F2.title: "&d&lReduccion de Pila"
 	quest.669D3CAC79F149F0.quest_desc: [
 		"&d&lBrujula Natural"
 		"&8&m                            "
@@ -13170,12 +14057,32 @@
 	]
 	quest.670468931286CFDE.quest_subtitle: "&7Escribe y gasta saltos de un solo uso"
 	quest.670468931286CFDE.title: "&d&lPergaminos en Blanco y de Salto"
-	quest.67116868F3376796.quest_desc: ["Anota el Auto Smoking Upgrade en tu bitacora. Util antes de lo que crees."]
-	quest.67116868F3376796.quest_subtitle: "Hito cauto: el Auto Smoking Upgrade."
-	quest.67116868F3376796.title: "Auto Smoking Upgrade"
-	quest.672E50D05CDA7361.quest_desc: ["Lleva el Stack Upgrade Tier 1 Plus. La proxima puerta esta cerca."]
-	quest.672E50D05CDA7361.quest_subtitle: "Refuerza la cadena del Stack Upgrade Tier 1 Plus."
-	quest.672E50D05CDA7361.title: "Stack Upgrade Tier 1 Plus"
+	quest.67116868F3376796.quest_desc: [
+			"&9&lAhumado Auto Mejora"
+			"&8&m                            "
+			""
+			"&7Anade una pestana de ahumador que cocina lo guardado sola."
+			"&7Metela en la pestana de mejoras de un barril o cofre."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.67116868F3376796.quest_subtitle: "&7Comida cocida sin esfuerzo"
+	quest.67116868F3376796.title: "&9&lAhumado Auto Mejora"
+	quest.672E50D05CDA7361.quest_desc: [
+			"&5&lMejora de Pila"
+			"&8&m                            "
+			""
+			"&7Multiplica las pilas por casilla del bloque de almacen por x3."
+			"&7Las mejoras de pila se acumulan, sube los niveles en orden."
+			""
+			"&5&lCategoria:&r &fCapacidad de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras de capacidad comparten la pestana de mejoras."
+		]
+	quest.672E50D05CDA7361.quest_subtitle: "&7Guarda x3 las pilas por casilla"
+	quest.672E50D05CDA7361.title: "&5&lMejora de Pila"
 	quest.67308C5DDF4A10D2.quest_desc: [
 		"&9&lWandering Magician Robes"
 		"&8&m                            "
@@ -13233,9 +14140,19 @@
 	quest.6792D89E394F40D9.quest_desc: ["Saca el Pillager de su escondite. A tu ritmo."]
 	quest.6792D89E394F40D9.quest_subtitle: "Marca el Pillager hecho."
 	quest.6792D89E394F40D9.title: "Pillager"
-	quest.67948EA0C509E135.quest_desc: ["Tacha el Filter Upgrade. La contabilidad importa."]
-	quest.67948EA0C509E135.quest_subtitle: "El Filter Upgrade se paga solo."
-	quest.67948EA0C509E135.title: "Filter Upgrade"
+	quest.67948EA0C509E135.quest_desc: [
+			"&9&lFiltro Mejora"
+			"&8&m                            "
+			""
+			"&7Decide que objetos pueden entrar o salir del bloque de almacen por tuberia."
+			"&7Metela en la pestana de mejoras de un barril o cofre."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.67948EA0C509E135.quest_subtitle: "&7Controla lo que entra y sale"
+	quest.67948EA0C509E135.title: "&9&lFiltro Mejora"
 	quest.6798C669890E4ABA.quest_desc: ["Tomate tu tiempo para obtener el Naga. Vale anotarlo."]
 	quest.6798C669890E4ABA.quest_subtitle: "El Naga abre mas."
 	quest.6798C669890E4ABA.title: "Naga"
@@ -13575,9 +14492,19 @@
 	]
 	quest.69763C2E2F454A73.quest_subtitle: "&7Una runa de una escuela de hechizos"
 	quest.69763C2E2F454A73.title: "&d&lFire Rune"
-	quest.697E4E3E199836F2.quest_desc: ["Apunta el Stack Upgrade Starter Tier en el dossier. A tu ritmo."]
-	quest.697E4E3E199836F2.quest_subtitle: "Anade un Stack Upgrade Starter Tier."
-	quest.697E4E3E199836F2.title: "Stack Upgrade Starter Tier"
+	quest.697E4E3E199836F2.quest_desc: [
+			"&d&lMejora de Pila"
+			"&8&m                            "
+			""
+			"&7Multiplica las pilas por casilla del mochila por x1.5."
+			"&7Las mejoras de pila se acumulan, sube los niveles en orden."
+			""
+			"&d&lCategoria:&r &fCapacidad de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras de capacidad comparten la pestana de mejoras."
+		]
+	quest.697E4E3E199836F2.quest_subtitle: "&7Guarda x1.5 las pilas por casilla"
+	quest.697E4E3E199836F2.title: "&d&lMejora de Pila"
 	quest.697E782DA20EDEFE.quest_desc: [
 		"&9&lArmadura de Diamante"
 		"&8&m                            "
@@ -14004,9 +14931,19 @@
 	]
 	quest.6CD1720B76F47806.quest_subtitle: "&7Quema biocombustible renovable"
 	quest.6CD1720B76F47806.title: "&c&lBio-Generador"
-	quest.6CE2F3286AE73CF3.quest_desc: ["Termina la tarea del Blasting Upgrade. Progreso modular, pasos cortos."]
-	quest.6CE2F3286AE73CF3.quest_subtitle: "Meta de hoy: el Blasting Upgrade."
-	quest.6CE2F3286AE73CF3.title: "Blasting Upgrade"
+	quest.6CE2F3286AE73CF3.quest_desc: [
+			"&9&lCalcinado Mejora"
+			"&8&m                            "
+			""
+			"&7Anade una pestana de alto horno para minerales y metal del bloque de almacen."
+			"&7Metela en la pestana de mejoras de un barril o cofre."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.6CE2F3286AE73CF3.quest_subtitle: "&7Un alto horno para minerales"
+	quest.6CE2F3286AE73CF3.title: "&9&lCalcinado Mejora"
 	quest.6CE4905E305CD0BC.quest_desc: ["El Bogged esta cerrando la siguiente quest. Medio camino hecho contigo."]
 	quest.6CE4905E305CD0BC.quest_subtitle: "El Bogged se paga solo."
 	quest.6CE4905E305CD0BC.title: "Bogged"
@@ -14052,9 +14989,19 @@
 	]
 	quest.6D09511D64DDC282.quest_subtitle: "&7Enfrenta al guardian profundo"
 	quest.6D09511D64DDC282.title: "&e&lEl Warden"
-	quest.6D13ECFBD49E7D0C.quest_desc: ["El Compacting Upgrade marca un punto de control. La proxima puerta esta cerca."]
-	quest.6D13ECFBD49E7D0C.quest_subtitle: "Run alerta, un solo Compacting Upgrade."
-	quest.6D13ECFBD49E7D0C.title: "Compacting Upgrade"
+	quest.6D13ECFBD49E7D0C.quest_desc: [
+			"&b&lCompactado Mejora"
+			"&8&m                            "
+			""
+			"&7Compacta los objetos del mochila en bloque o forma comprimida."
+			"&7Metela en la pestana de mejoras de una mochila con sitio."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.6D13ECFBD49E7D0C.quest_subtitle: "&7Aprieta lo suelto en bloques pulcros"
+	quest.6D13ECFBD49E7D0C.title: "&b&lCompactado Mejora"
 	quest.6D1FA14D6488CB09.quest_desc: ["Gana el Carminite Broodling. Habito chico, gran resultado."]
 	quest.6D1FA14D6488CB09.quest_subtitle: "Pequeno paso: el Carminite Broodling."
 	quest.6D1FA14D6488CB09.title: "Carminite Broodling"
@@ -14091,9 +15038,19 @@
 	]
 	quest.6D3A0BA54AA22403.quest_subtitle: "&7Entuba, bombea y regula tus liquidos"
 	quest.6D3A0BA54AA22403.title: "&3&lFontaneria de Fluidos"
-	quest.6D8AA40A15536F01.quest_desc: ["Sigue el rastro del Battery Upgrade. Bola de nieve desde aqui."]
-	quest.6D8AA40A15536F01.quest_subtitle: "Ladrillo: el Battery Upgrade."
-	quest.6D8AA40A15536F01.title: "Battery Upgrade"
+	quest.6D8AA40A15536F01.quest_desc: [
+			"&b&lBateria Mejora"
+			"&8&m                            "
+			""
+			"&7Vuelve parte de la mochila en una bateria de energia."
+			"&7Metela en la pestana de mejoras de una mochila con sitio."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.6D8AA40A15536F01.quest_subtitle: "&7Alimenta tu equipo desde la espalda"
+	quest.6D8AA40A15536F01.title: "&b&lBateria Mejora"
 	quest.6D8C9D7D9DF9A6DD.quest_desc: [
 		"&5&lChallenge Ritual"
 		"&8&m                            "
@@ -14298,9 +15255,19 @@
 	]
 	quest.6EF206A0BD5BAC0A.quest_subtitle: "&7Para afijos de grado epico"
 	quest.6EF206A0BD5BAC0A.title: "&6&lMaterial Epico"
-	quest.6F224EB3268066E3.quest_desc: ["Trae el Storage Io. El desvio vale la pena."]
-	quest.6F224EB3268066E3.quest_subtitle: "Premio calmo: el Storage Io."
-	quest.6F224EB3268066E3.title: "Storage Io"
+	quest.6F224EB3268066E3.quest_desc: [
+			"&c&lRed de Almacen"
+			"&8&m                            "
+			""
+			"&7El Controlador, el Enlace, la Entrada, la Salida y el bloque"
+			"&7E/S unen barriles y cofres en una red conectada."
+			""
+			"&c&lCategoria:&r &fRed de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Construye un muro de almacen y gestionalo todo desde una pantalla."
+		]
+	quest.6F224EB3268066E3.quest_subtitle: "&7Une tu almacen en un solo sistema"
+	quest.6F224EB3268066E3.title: "&c&lRed de Almacen"
 	quest.6F245246B8B3B666.quest_desc: ["Hazte con el Mutant Skeleton Leggings. Las runs pacientes ganan."]
 	quest.6F245246B8B3B666.quest_subtitle: "Hito luminoso: el Mutant Skeleton Leggings."
 	quest.6F245246B8B3B666.title: "Mutant Skeleton Leggings"
@@ -14604,9 +15571,19 @@
 	quest.70D842FB324840E7.quest_desc: ["El Stable Ice Core se paga solo. El desvio vale la pena."]
 	quest.70D842FB324840E7.quest_subtitle: "Refuerza la cadena del Stable Ice Core."
 	quest.70D842FB324840E7.title: "Stable Ice Core"
-	quest.70E647BDF793B950.quest_desc: ["Gana el Tank Upgrade. Capital silencioso."]
-	quest.70E647BDF793B950.quest_subtitle: "Meta de hoy: el Tank Upgrade."
-	quest.70E647BDF793B950.title: "Tank Upgrade"
+	quest.70E647BDF793B950.quest_desc: [
+			"&b&lTanque Mejora"
+			"&8&m                            "
+			""
+			"&7Vuelve parte de la mochila en un tanque para fluidos."
+			"&7Metela en la pestana de mejoras de una mochila con sitio."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.70E647BDF793B950.quest_subtitle: "&7Lleva agua, lava y mas"
+	quest.70E647BDF793B950.title: "&b&lTanque Mejora"
 	quest.70FB349702A60C2E.quest_desc: ["Tomate tu tiempo para obtener el Hostile Wolf. Medio camino hecho contigo."]
 	quest.70FB349702A60C2E.quest_subtitle: "Pequeno paso: el Hostile Wolf."
 	quest.70FB349702A60C2E.title: "Hostile Wolf"
@@ -14649,9 +15626,20 @@
 	quest.71321EF6599185A8.quest_desc: ["Apunta el Umvuthana Crane en el dossier. Paga su propio flete."]
 	quest.71321EF6599185A8.quest_subtitle: "El Umvuthana Crane: estructural."
 	quest.71321EF6599185A8.title: "Umvuthana Crane"
-	quest.7136AFD204CDC4BB.quest_desc: ["Tomate tu tiempo para obtener el meta. La ruta ensena tanto como el premio."]
-	quest.7136AFD204CDC4BB.quest_subtitle: "Lleva el meta."
-	quest.7136AFD204CDC4BB.title: "Objective"
+	quest.7136AFD204CDC4BB.quest_desc: [
+			"&e&lCofre de Cobre"
+			"&8&m                            "
+			""
+			"&7Un cofre guarda tus objetos y se abre en pareja para el"
+			"&7doble de espacio, con las mismas ranuras de mejora."
+			"&7El nivel cobre anade filas extra de casillas."
+			""
+			"&e&lCategoria:&r &fCofres"
+			""
+			"&e&l★ Consejo:&r &7Sube su nivel luego con una mejora de nivel, sin rehacerlo."
+		]
+	quest.7136AFD204CDC4BB.quest_subtitle: "&7Un cofre clasico, muy mejorado"
+	quest.7136AFD204CDC4BB.title: "&e&lCofre de Cobre"
 	quest.7137994189AA4678.quest_desc: ["Asegura el Piglin. Vale anotarlo."]
 	quest.7137994189AA4678.quest_subtitle: "El Piglin: guino del capitulo."
 	quest.7137994189AA4678.title: "Piglin"
@@ -14661,9 +15649,19 @@
 	quest.7158742C177A45B3.quest_desc: ["El Mist Wolf: un punto util en esta rama. La contabilidad importa."]
 	quest.7158742C177A45B3.quest_subtitle: "Pequeno paso: el Mist Wolf."
 	quest.7158742C177A45B3.title: "Mist Wolf"
-	quest.7158E0DDBACCFB8F.quest_desc: ["Embolsa el Compacting Upgrade. Confia en la cadena."]
-	quest.7158E0DDBACCFB8F.quest_subtitle: "En la rama del Compacting Upgrade."
-	quest.7158E0DDBACCFB8F.title: "Compacting Upgrade"
+	quest.7158E0DDBACCFB8F.quest_desc: [
+			"&9&lCompactado Mejora"
+			"&8&m                            "
+			""
+			"&7Compacta los objetos del bloque de almacen en bloque o forma comprimida."
+			"&7Metela en la pestana de mejoras de un barril o cofre."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.7158E0DDBACCFB8F.quest_subtitle: "&7Aprieta lo suelto en bloques pulcros"
+	quest.7158E0DDBACCFB8F.title: "&9&lCompactado Mejora"
 	quest.7162EE6CCA3F4949.quest_desc: ["Sumalo a tu kit: el Adherent. Las victorias chicas suman."]
 	quest.7162EE6CCA3F4949.quest_subtitle: "En ruta al Adherent."
 	quest.7162EE6CCA3F4949.title: "Adherent"
@@ -14792,15 +15790,35 @@
 	]
 	quest.71F0E9C36AA02B46.quest_subtitle: "&7Un baston de fuego y almas"
 	quest.71F0E9C36AA02B46.title: "&e&lInvocaalmas Cinereo"
-	quest.72525C12A18EB16F.quest_desc: ["Gana el Xp Pump Upgrade paso a paso. Cuenta."]
-	quest.72525C12A18EB16F.quest_subtitle: "Un Xp Pump Upgrade, victoria constante."
-	quest.72525C12A18EB16F.title: "Xp Pump Upgrade"
+	quest.72525C12A18EB16F.quest_desc: [
+			"&b&lBomba de Experiencia Mejora"
+			"&8&m                            "
+			""
+			"&7Bombea experiencia entre el Tanque y tu mismo."
+			"&7Metela en la pestana de mejoras de una mochila con sitio."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.72525C12A18EB16F.quest_subtitle: "&7Embotella tu experiencia"
+	quest.72525C12A18EB16F.title: "&b&lBomba de Experiencia Mejora"
 	quest.725D6F1BA23346D9.quest_desc: ["Atrapa el Vindicator. Guardado para luego."]
 	quest.725D6F1BA23346D9.quest_subtitle: "Lleva el Vindicator."
 	quest.725D6F1BA23346D9.title: "Vindicator"
-	quest.7267097D64E98122.quest_desc: ["El Advanced Magnet Upgrade es parte de la cadena. Bola de nieve desde aqui."]
-	quest.7267097D64E98122.quest_subtitle: "Meta de hoy: el Advanced Magnet Upgrade."
-	quest.7267097D64E98122.title: "Advanced Magnet Upgrade"
+	quest.7267097D64E98122.quest_desc: [
+			"&b&lAvanzado Iman Mejora"
+			"&8&m                            "
+			""
+			"&7Atrae de lejos los objetos caidos directo al mochila."
+			"&7Este modelo avanzado anade mas filtros y mayor alcance."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.7267097D64E98122.quest_subtitle: "&7Atrae el botin desde lejos, con control mas fino"
+	quest.7267097D64E98122.title: "&b&lAvanzado Iman Mejora"
 	quest.7270A37E31A70C91.quest_desc: [
 		"&d&lHoly Rune"
 		"&8&m                            "
@@ -15241,9 +16259,19 @@
 	]
 	quest.7509E4093010EA4C.quest_subtitle: "&7Flechas que nunca fallan"
 	quest.7509E4093010EA4C.title: "&e&lArco Buscador"
-	quest.755DEA4A94154912.quest_desc: ["Tacha el Advanced Void Upgrade. Medio camino hecho contigo."]
-	quest.755DEA4A94154912.quest_subtitle: "Vale el desvio por el Advanced Void Upgrade."
-	quest.755DEA4A94154912.title: "Advanced Void Upgrade"
+	quest.755DEA4A94154912.quest_desc: [
+			"&9&lAvanzado Vacio Mejora"
+			"&8&m                            "
+			""
+			"&7Destruye al instante todo objeto marcado en su filtro."
+			"&7Este modelo avanzado anade mas filtros y mayor alcance."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.755DEA4A94154912.quest_subtitle: "&7Tira la basura al llegar, con control mas fino"
+	quest.755DEA4A94154912.title: "&9&lAvanzado Vacio Mejora"
 	quest.7560CC4988D57CD2.quest_desc: ["Trae el Kobold a buen puerto. La calma vence al apuro."]
 	quest.7560CC4988D57CD2.quest_subtitle: "Marca el Kobold hecho."
 	quest.7560CC4988D57CD2.title: "Kobold"
@@ -15438,9 +16466,19 @@
 	quest.76EC1FA26264D436.quest_desc: ["Gana el Wraith jugando a largo plazo. Modesto ahora, poderoso despues."]
 	quest.76EC1FA26264D436.quest_subtitle: "Un Wraith, victoria resuelto."
 	quest.76EC1FA26264D436.title: "Wraith"
-	quest.7706629B2DDE3065.quest_desc: ["Embolsate el Xp Pump Upgrade. Hito suave."]
-	quest.7706629B2DDE3065.quest_subtitle: "Un paso ahorrativo hacia el Xp Pump Upgrade."
-	quest.7706629B2DDE3065.title: "Xp Pump Upgrade"
+	quest.7706629B2DDE3065.quest_desc: [
+			"&9&lBomba de Experiencia Mejora"
+			"&8&m                            "
+			""
+			"&7Bombea experiencia entre el Tanque y tu mismo."
+			"&7Metela en la pestana de mejoras de un barril o cofre."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.7706629B2DDE3065.quest_subtitle: "&7Embotella tu experiencia"
+	quest.7706629B2DDE3065.title: "&9&lBomba de Experiencia Mejora"
 	quest.77145113CD5B26FB.quest_desc: [
 		"&6&lMycelial Sourcelink"
 		"&8&m                            "
@@ -15470,9 +16508,19 @@
 	]
 	quest.7741905EA8380B25.quest_subtitle: "&7Preparate para lo desconocido"
 	quest.7741905EA8380B25.title: "&d&lPlantilla de Herreria"
-	quest.774834C8411CBB86.quest_desc: ["Lleva el Stonecutter Upgrade contigo. Sigue."]
-	quest.774834C8411CBB86.quest_subtitle: "Premio deliberado: el Stonecutter Upgrade."
-	quest.774834C8411CBB86.title: "Stonecutter Upgrade"
+	quest.774834C8411CBB86.quest_desc: [
+			"&b&lCortapiedras Mejora"
+			"&8&m                            "
+			""
+			"&7Anade una pestana de cortapiedras para tallar piedra en el mochila."
+			"&7Metela en la pestana de mejoras de una mochila con sitio."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.774834C8411CBB86.quest_subtitle: "&7Talla piedra al instante"
+	quest.774834C8411CBB86.title: "&b&lCortapiedras Mejora"
 	quest.775059D0E45E4433.quest_desc: ["Tacha el Lower Goblin Knight. Aparece pronto por algo."]
 	quest.775059D0E45E4433.quest_subtitle: "Meta de hoy: el Lower Goblin Knight."
 	quest.775059D0E45E4433.title: "Lower Goblin Knight"
@@ -15508,9 +16556,19 @@
 	quest.777BFC0A71AC37AC.quest_desc: ["Anade un Carminite Broodling a las provisiones. Apunta a lo siguiente."]
 	quest.777BFC0A71AC37AC.quest_subtitle: "Un Carminite Broodling para el camino."
 	quest.777BFC0A71AC37AC.title: "Carminite Broodling"
-	quest.777F9AEC761209C2.quest_desc: ["El Advanced Alchemy Upgrade abre mas puertas de las que parece. Las victorias chicas suman."]
-	quest.777F9AEC761209C2.quest_subtitle: "El Advanced Alchemy Upgrade: estructural."
-	quest.777F9AEC761209C2.title: "Advanced Alchemy Upgrade"
+	quest.777F9AEC761209C2.quest_desc: [
+			"&b&lAvanzado Alquimia Mejora"
+			"&8&m                            "
+			""
+			"&7Usa sola pociones, comida con efectos y leche del mochila."
+			"&7Este modelo avanzado anade mas filtros y mayor alcance."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.777F9AEC761209C2.quest_subtitle: "&7Efectos aplicados solos, con control mas fino"
+	quest.777F9AEC761209C2.title: "&b&lAvanzado Alquimia Mejora"
 	quest.777FDD68D7200045.quest_desc: ["Mete el Ravager en el inventario. Util antes de lo que crees."]
 	quest.777FDD68D7200045.quest_subtitle: "Pequeno paso: el Ravager."
 	quest.777FDD68D7200045.title: "Ravager"
@@ -15595,9 +16653,19 @@
 	]
 	quest.7846B7FFC3DD85C5.quest_subtitle: "&7La puerta del Cambiador de Fase"
 	quest.7846B7FFC3DD85C5.title: "&5&lPuerto del SPS"
-	quest.784D5B30D3E1892D.quest_desc: ["Asegura el Auto Blasting Upgrade. Cuenta."]
-	quest.784D5B30D3E1892D.quest_subtitle: "Hito honesto: el Auto Blasting Upgrade."
-	quest.784D5B30D3E1892D.title: "Auto Blasting Upgrade"
+	quest.784D5B30D3E1892D.quest_desc: [
+			"&9&lCalcinado Auto Mejora"
+			"&8&m                            "
+			""
+			"&7Anade una pestana de alto horno que funde minerales sola."
+			"&7Metela en la pestana de mejoras de un barril o cofre."
+			""
+			"&9&lCategoria:&r &fMejoras de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.784D5B30D3E1892D.quest_subtitle: "&7Minerales refinados solos"
+	quest.784D5B30D3E1892D.title: "&9&lCalcinado Auto Mejora"
 	quest.784F7F2C04C5A60C.quest_desc: ["Trae el Naga a casa. Constante es rapido."]
 	quest.784F7F2C04C5A60C.quest_subtitle: "Pequeno paso: el Naga."
 	quest.784F7F2C04C5A60C.title: "Naga"
@@ -15623,9 +16691,19 @@
 	quest.787415570026FFAA.quest_desc: ["Mete el Fortune Upgrade en tu inventario. El progreso constante paga."]
 	quest.787415570026FFAA.quest_subtitle: "Guarda el Fortune Upgrade para luego."
 	quest.787415570026FFAA.title: "Fortune Upgrade"
-	quest.7877B46C9B4E9B0F.quest_desc: ["Estira la mano al Everlasting Upgrade. Una semilla para la bola de nieve."]
-	quest.7877B46C9B4E9B0F.quest_subtitle: "El Everlasting Upgrade abre mas."
-	quest.7877B46C9B4E9B0F.title: "Everlasting Upgrade"
+	quest.7877B46C9B4E9B0F.quest_desc: [
+			"&b&lEterna Mejora"
+			"&8&m                            "
+			""
+			"&7Vuelve la mochila indestructible, a salvo de la lava y el fuego."
+			"&7Metela en la pestana de mejoras de una mochila con sitio."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.7877B46C9B4E9B0F.quest_subtitle: "&7Una mochila que nunca se pierde"
+	quest.7877B46C9B4E9B0F.title: "&b&lEterna Mejora"
 	quest.78791F4DAE8DA1A8.quest_desc: ["Trae el Hedge Spider. Modesto ahora, poderoso despues."]
 	quest.78791F4DAE8DA1A8.quest_subtitle: "Ladrillo: el Hedge Spider."
 	quest.78791F4DAE8DA1A8.title: "Hedge Spider"
@@ -15642,9 +16720,19 @@
 	]
 	quest.787A04639A74D85A.quest_subtitle: "&7Tu primera verdadera cana de pescador"
 	quest.787A04639A74D85A.title: "&b&lCana de Hierro"
-	quest.7884B6A5F494A8C6.quest_desc: ["Anota el Auto Smoking Upgrade como adquirido. Aviso amistoso."]
-	quest.7884B6A5F494A8C6.quest_subtitle: "El Auto Smoking Upgrade se paga solo."
-	quest.7884B6A5F494A8C6.title: "Auto Smoking Upgrade"
+	quest.7884B6A5F494A8C6.quest_desc: [
+			"&b&lAhumado Auto Mejora"
+			"&8&m                            "
+			""
+			"&7Anade una pestana de ahumador que cocina lo guardado sola."
+			"&7Metela en la pestana de mejoras de una mochila con sitio."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.7884B6A5F494A8C6.quest_subtitle: "&7Comida cocida sin esfuerzo"
+	quest.7884B6A5F494A8C6.title: "&b&lAhumado Auto Mejora"
 	quest.7893CEB32191C7C3.quest_desc: [
 		"&2&lAncla de Reaparicion"
 		"&8&m                            "
@@ -15826,9 +16914,19 @@
 	]
 	quest.79146466E43A2B99.quest_subtitle: "&7El Flare Glyph, una palabra de magia"
 	quest.79146466E43A2B99.title: "&d&lFlare Glyph"
-	quest.79218680D962D752.quest_desc: ["El Stack Upgrade Tier 3 es el proximo pivote. Mas cerca de lo que el mapa sugiere."]
-	quest.79218680D962D752.quest_subtitle: "El Stack Upgrade Tier 3: guino del capitulo."
-	quest.79218680D962D752.title: "Stack Upgrade Tier 3"
+	quest.79218680D962D752.quest_desc: [
+			"&d&lMejora de Pila"
+			"&8&m                            "
+			""
+			"&7Multiplica las pilas por casilla del mochila por x8."
+			"&7Las mejoras de pila se acumulan, sube los niveles en orden."
+			""
+			"&d&lCategoria:&r &fCapacidad de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras de capacidad comparten la pestana de mejoras."
+		]
+	quest.79218680D962D752.quest_subtitle: "&7Guarda x8 las pilas por casilla"
+	quest.79218680D962D752.title: "&d&lMejora de Pila"
 	quest.792BAAEDB646A5F2.quest_desc: ["Tomate tu tiempo para obtener el Harbinger Cube. Aparece pronto por algo."]
 	quest.792BAAEDB646A5F2.quest_subtitle: "El Harbinger Cube es un checkpoint."
 	quest.792BAAEDB646A5F2.title: "Harbinger Cube"
@@ -15861,9 +16959,19 @@
 	quest.793D5E982E13483F.quest_desc: ["Embolsa el Drowned. Modesto ahora, poderoso despues."]
 	quest.793D5E982E13483F.quest_subtitle: "En ruta al Drowned."
 	quest.793D5E982E13483F.title: "Drowned"
-	quest.794C8876AAC5368D.quest_desc: ["Reserva el Crafting Upgrade. Constante es rapido."]
-	quest.794C8876AAC5368D.quest_subtitle: "Un paso perspicaz hacia el Crafting Upgrade."
-	quest.794C8876AAC5368D.title: "Crafting Upgrade"
+	quest.794C8876AAC5368D.quest_desc: [
+			"&b&lFabricacion Mejora"
+			"&8&m                            "
+			""
+			"&7Anade una pestana de mesa de trabajo dentro del mochila."
+			"&7Metela en la pestana de mejoras de una mochila con sitio."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.794C8876AAC5368D.quest_subtitle: "&7Fabrica donde estes"
+	quest.794C8876AAC5368D.title: "&b&lFabricacion Mejora"
 	quest.794D6F9B8DB31E7D.quest_desc: [
 		"&e&lBaston de Hielo"
 		"&8&m                            "
@@ -15912,9 +17020,19 @@
 	quest.798D392817F54B5D.quest_desc: ["Hazte con el Skeleton. Puente entre lo hecho y lo siguiente."]
 	quest.798D392817F54B5D.quest_subtitle: "Pequeno paso: el Skeleton."
 	quest.798D392817F54B5D.title: "Skeleton"
-	quest.798DFFA0A143058E.quest_desc: ["El Basic Tier Upgrade es parte de la cadena. Estructural, no llamativo."]
-	quest.798DFFA0A143058E.quest_subtitle: "Un Basic Tier Upgrade para el camino."
-	quest.798DFFA0A143058E.title: "Basic Tier Upgrade"
+	quest.798DFFA0A143058E.quest_desc: [
+			"&3&lMejora de Nivel Basico"
+			"&8&m                            "
+			""
+			"&7Convierte un cofre o barril normal en su version"
+			"&7sofisticada, conservando todo el contenido."
+			""
+			"&3&lCategoria:&r &fNiveles de Almacen"
+			""
+			"&e&l★ Consejo:&r &7No hace falta vaciar el cofre, el contenido se mantiene."
+		]
+	quest.798DFFA0A143058E.quest_subtitle: "&7Convierte un cofre vanilla en el sitio"
+	quest.798DFFA0A143058E.title: "&3&lMejora de Nivel Basico"
 	quest.79AF63E77AD70A93.quest_desc: [
 		"&a&lEstanterias"
 		"&8&m                            "
@@ -16006,9 +17124,19 @@
 	quest.7A6EF332788B4E64.quest_desc: ["Apunta el Spider en el dossier. Hito suave."]
 	quest.7A6EF332788B4E64.quest_subtitle: "El Spider es un checkpoint."
 	quest.7A6EF332788B4E64.title: "Spider"
-	quest.7A8BCF4426EB62B9.quest_desc: ["Marca el Advanced Filter Upgrade como obtenido. Modesto ahora, poderoso despues."]
-	quest.7A8BCF4426EB62B9.quest_subtitle: "Marca el Advanced Filter Upgrade hecho."
-	quest.7A8BCF4426EB62B9.title: "Advanced Filter Upgrade"
+	quest.7A8BCF4426EB62B9.quest_desc: [
+			"&b&lAvanzado Filtro Mejora"
+			"&8&m                            "
+			""
+			"&7Decide que objetos pueden entrar o salir del mochila por tuberia."
+			"&7Este modelo avanzado anade mas filtros y mayor alcance."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.7A8BCF4426EB62B9.quest_subtitle: "&7Controla lo que entra y sale, con control mas fino"
+	quest.7A8BCF4426EB62B9.title: "&b&lAvanzado Filtro Mejora"
 	quest.7A9AE63998BB41FF.quest_desc: [
 		"&6&lAzucar"
 		"&8&m                            "
@@ -16302,9 +17430,19 @@
 	quest.7CC90B914D6FB6E8.quest_desc: ["Tomate tu tiempo para obtener el Spider. Aparece pronto por algo."]
 	quest.7CC90B914D6FB6E8.quest_subtitle: "Pequeno paso: el Spider."
 	quest.7CC90B914D6FB6E8.title: "Spider"
-	quest.7CCE71D831D8CAF1.quest_desc: ["Encuentra el Jukebox Upgrade. Modesto ahora, poderoso despues."]
-	quest.7CCE71D831D8CAF1.quest_subtitle: "El Jukebox Upgrade es un checkpoint."
-	quest.7CCE71D831D8CAF1.title: "Jukebox Upgrade"
+	quest.7CCE71D831D8CAF1.quest_desc: [
+			"&b&lTocadiscos Mejora"
+			"&8&m                            "
+			""
+			"&7Vuelve el mochila en un tocadiscos portatil para tus discos."
+			"&7Metela en la pestana de mejoras de una mochila con sitio."
+			""
+			"&b&lCategoria:&r &fMejoras de Mochila"
+			""
+			"&e&l★ Consejo:&r &7Las mejoras van en la pestana de mejoras, si queda sitio."
+		]
+	quest.7CCE71D831D8CAF1.quest_subtitle: "&7Lleva tu musica contigo"
+	quest.7CCE71D831D8CAF1.title: "&b&lTocadiscos Mejora"
 	quest.7CDA5595099C024E.quest_desc: [
 		"&e&lHelice Mejorada"
 		"&8&m                            "
@@ -16363,9 +17501,19 @@
 	]
 	quest.7D156AB6897F7D89.quest_subtitle: "&7Waxweaver, una hoja legendaria unica"
 	quest.7D156AB6897F7D89.title: "&d&lWaxweaver"
-	quest.7D17828D751065C1.quest_desc: ["Trae el Basic To Copper Tier Upgrade a casa. Habito chico, gran resultado."]
-	quest.7D17828D751065C1.quest_subtitle: "El Basic To Copper Tier Upgrade: estructural."
-	quest.7D17828D751065C1.title: "Basic To Copper Tier Upgrade"
+	quest.7D17828D751065C1.quest_desc: [
+			"&3&lMejora a Nivel Cobre"
+			"&8&m                            "
+			""
+			"&7Sube un bloque de almacen al nivel cobre, anadiendo mas"
+			"&7casillas y espacio de mejora sin rehacerlo de cero."
+			""
+			"&3&lCategoria:&r &fNiveles de Almacen"
+			""
+			"&e&l★ Consejo:&r &7Los niveles se acumulan, sube del cobre a la netherita."
+		]
+	quest.7D17828D751065C1.quest_subtitle: "&7Sube un bloque un nivel"
+	quest.7D17828D751065C1.title: "&3&lMejora a Nivel Cobre"
 	quest.7D279FC39DA5C630.quest_desc: [
 		"&2&lAcido Fluorhidrico"
 		"&8&m                            "
