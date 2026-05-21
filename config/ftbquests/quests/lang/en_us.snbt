@@ -1601,9 +1601,19 @@
 		quest.0BF755A34ED34A01.title: "Hoglin"
 		quest.0BF755A34ED34A01.quest_subtitle: "Pocketed: the Hoglin."
 		quest.0BF755A34ED34A01.quest_desc: ["Reach the Hoglin. Modular progress, small steps."]
-		quest.0C0A027F98257FF0.title: "Pickaxe Heater"
-		quest.0C0A027F98257FF0.quest_subtitle: "Snag the Pickaxe Heater this run."
-		quest.0C0A027F98257FF0.quest_desc: ["Bring the Pickaxe Heater into the fold. One brick in a larger wall."]
+		quest.0C0A027F98257FF0.title: "&e&lPickaxe Heater"
+		quest.0C0A027F98257FF0.quest_subtitle: "&7Smelt ores as you mine them"
+		quest.0C0A027F98257FF0.quest_desc: [
+			"&e&lPickaxe Heater"
+			"&8&m                            "
+			""
+			"&7The Pickaxe Heater automatically smelts the ores you"
+			"&7mine, dropping ingots straight from the stone."
+			""
+			"&e&lCategory:&r &fUtility"
+			""
+			"&e&l★ Tip:&r &7It saves furnace time and fuel on every mining trip."
+		]
 		quest.0C15FBA4BF9C4EBA.title: "Umvuthana Crane"
 		quest.0C15FBA4BF9C4EBA.quest_subtitle: "The Umvuthana Crane unlocks more."
 		quest.0C15FBA4BF9C4EBA.quest_desc: ["Bank the Umvuthana Crane. Modest now, mighty later."]
@@ -1702,9 +1712,19 @@
 			""
 			"&e&l★ Tip:&r &7Each use removes 20 ticks. Pair it with sugar for the fastest rate."
 		]
-		quest.0D83F8DE343CC692.title: "Charm Of Shrinking"
-		quest.0D83F8DE343CC692.quest_subtitle: "Add one Charm Of Shrinking."
-		quest.0D83F8DE343CC692.quest_desc: ["Pack the Charm Of Shrinking away. Counts."]
+		quest.0D83F8DE343CC692.title: "&d&lCharm of Shrinking"
+		quest.0D83F8DE343CC692.quest_subtitle: "&7Shrink down to a tiny size"
+		quest.0D83F8DE343CC692.quest_desc: [
+			"&d&lCharm of Shrinking"
+			"&8&m                            "
+			""
+			"&7The Charm of Shrinking makes the wearer smaller, with a"
+			"&7hitbox to match for squeezing through tight gaps."
+			""
+			"&d&lCategory:&r &fTravel Charms"
+			""
+			"&e&l★ Tip:&r &7A small target is also a harder one for mobs to land hits on."
+		]
 		quest.0D8D11A915BD8207.title: "Lower Goblin Knight"
 		quest.0D8D11A915BD8207.quest_subtitle: "Build out the Lower Goblin Knight chain."
 		quest.0D8D11A915BD8207.quest_desc: ["The Lower Goblin Knight is a quiet milestone. One more rung climbed."]
@@ -1797,9 +1817,19 @@
 			""
 			"&e&l★ Tip:&r &7Add efficiency and unbreaking and they will last a very long time."
 		]
-		quest.0E716B90E60C486B.title: "Panic Necklace"
-		quest.0E716B90E60C486B.quest_subtitle: "Carry the Panic Necklace forward."
-		quest.0E716B90E60C486B.quest_desc: ["Unlock the Panic Necklace. Quiet capital."]
+		quest.0E716B90E60C486B.title: "&a&lPanic Necklace"
+		quest.0E716B90E60C486B.quest_subtitle: "&7Flee fast the moment you are hurt"
+		quest.0E716B90E60C486B.quest_desc: [
+			"&a&lPanic Necklace"
+			"&8&m                            "
+			""
+			"&7The Panic Necklace grants a burst of movement speed"
+			"&7right after you take damage, helping you escape."
+			""
+			"&a&lCategory:&r &fDefense"
+			""
+			"&e&l★ Tip:&r &7Let it carry you out of a fight you cannot win."
+		]
 		quest.0E88FDAE4CB5561B.title: "&5&lAwakening Ritual"
 		quest.0E88FDAE4CB5561B.quest_subtitle: "&7The Awakening Ritual, a rite of power"
 		quest.0E88FDAE4CB5561B.quest_desc: [
@@ -2367,9 +2397,19 @@
 		quest.122C9C637FE62AD4.title: "Driftwood"
 		quest.122C9C637FE62AD4.quest_subtitle: "Today goal: the Driftwood."
 		quest.122C9C637FE62AD4.quest_desc: ["Wrap up the Driftwood. Next door is in sight."]
-		quest.122E6E7CABCB17E7.title: "Kitty Slippers"
-		quest.122E6E7CABCB17E7.quest_subtitle: "The Kitty Slippers is a checkpoint."
-		quest.122E6E7CABCB17E7.quest_desc: ["Wrap up the Kitty Slippers. Worth pinning."]
+		quest.122E6E7CABCB17E7.title: "&b&lKitty Slippers"
+		quest.122E6E7CABCB17E7.quest_subtitle: "&7Creepers keep their distance"
+		quest.122E6E7CABCB17E7.quest_desc: [
+			"&b&lKitty Slippers"
+			"&8&m                            "
+			""
+			"&7Wear the Kitty Slippers and creepers grow wary, backing"
+			"&7away from you instead of creeping in to explode."
+			""
+			"&b&lCategory:&r &fFootwear"
+			""
+			"&e&l★ Tip:&r &7A quiet safeguard for base building. No more surprise blasts."
+		]
 		quest.123E851A6B90F11C.title: "Infinite Fluid Storage Part"
 		quest.123E851A6B90F11C.quest_subtitle: "Add one Infinite Fluid Storage Part."
 		quest.123E851A6B90F11C.quest_desc: ["Pull the Infinite Fluid Storage Part from where it hides. Next door is in sight."]
@@ -2545,9 +2585,19 @@
 			""
 			"&e&l★ Tip:&r &7Make the impure chalk first, then purify it with a clean brush."
 		]
-		quest.145E7D1A88B83DDD.title: "Scarf Of Invisibility"
-		quest.145E7D1A88B83DDD.quest_subtitle: "The Scarf Of Invisibility pays its way."
-		quest.145E7D1A88B83DDD.quest_desc: ["Mark the Scarf Of Invisibility done. Worth the detour."]
+		quest.145E7D1A88B83DDD.title: "&e&lScarf of Invisibility"
+		quest.145E7D1A88B83DDD.quest_subtitle: "&7Vanish from sight entirely"
+		quest.145E7D1A88B83DDD.quest_desc: [
+			"&e&lScarf of Invisibility"
+			"&8&m                            "
+			""
+			"&7The Scarf of Invisibility turns the wearer invisible,"
+			"&7letting you slip past hostile mobs unnoticed."
+			""
+			"&e&lCategory:&r &fUtility"
+			""
+			"&e&l★ Tip:&r &7Held items and armor still show. Travel light to stay hidden."
+		]
 		quest.145F289BB1DA8493.title: "White Anti Radiation Helmet"
 		quest.145F289BB1DA8493.quest_subtitle: "A earnest step toward the White Anti Radiation Helmet."
 		quest.145F289BB1DA8493.quest_desc: ["Hunt down the White Anti Radiation Helmet. The chapter pivots around it."]
@@ -2721,15 +2771,35 @@
 		quest.16178BD39F60EAEC.title: "Evoker"
 		quest.16178BD39F60EAEC.quest_subtitle: "One Evoker, one stoic win."
 		quest.16178BD39F60EAEC.quest_desc: ["Cross the Evoker off your list. Closer than the map suggests."]
-		quest.161A90E134592D0E.title: "Eternal Steak"
-		quest.161A90E134592D0E.quest_subtitle: "quiet hop: the Eternal Steak."
-		quest.161A90E134592D0E.quest_desc: ["The Eternal Steak is the price of the next door. Useful sooner than you think."]
+		quest.161A90E134592D0E.title: "&2&lEternal Steak"
+		quest.161A90E134592D0E.quest_subtitle: "&7A cooked meal that never runs out"
+		quest.161A90E134592D0E.quest_desc: [
+			"&2&lEternal Steak"
+			"&8&m                            "
+			""
+			"&7Eternal Steak is the cooked Everlasting Beef. Eat it as"
+			"&7often as you like, it is never used up and fills more hunger."
+			""
+			"&2&lCategory:&r &fEverlasting Food"
+			""
+			"&e&l★ Tip:&r &7One steak ends food worries forever. Keep it in your hotbar."
+		]
 		quest.161F62A6C93075C6.title: "Winter Wolf"
 		quest.161F62A6C93075C6.quest_subtitle: "On the route to the Winter Wolf."
 		quest.161F62A6C93075C6.quest_desc: ["Pocket the Winter Wolf. Calm focus beats rushing."]
-		quest.16255FB20F35A9D9.title: "Snorkel"
-		quest.16255FB20F35A9D9.quest_subtitle: "Carry the Snorkel forward."
-		quest.16255FB20F35A9D9.quest_desc: ["Bank the Snorkel. One more rung climbed."]
+		quest.16255FB20F35A9D9.title: "&6&lSnorkel"
+		quest.16255FB20F35A9D9.quest_subtitle: "&7Stay under water far longer"
+		quest.16255FB20F35A9D9.quest_desc: [
+			"&6&lSnorkel"
+			"&8&m                            "
+			""
+			"&7The Snorkel greatly increases how long you can stay"
+			"&7underwater before your air supply runs out."
+			""
+			"&6&lCategory:&r &fHeadgear"
+			""
+			"&e&l★ Tip:&r &7It buys diving time, not endless breath. Surface now and then."
+		]
 		quest.162CB5058493E2BF.title: "Carminite Golem"
 		quest.162CB5058493E2BF.quest_subtitle: "Snag the Carminite Golem this run."
 		quest.162CB5058493E2BF.quest_desc: ["Cross off the Carminite Golem. Press on."]
@@ -3470,9 +3540,19 @@
 		quest.1E39274C2BB946C2.title: "Ghast"
 		quest.1E39274C2BB946C2.quest_subtitle: "Today goal: the Ghast."
 		quest.1E39274C2BB946C2.quest_desc: ["Reserve the Ghast. The shortcut is not here."]
-		quest.1E40ACF3E69A4100.title: "Antidote Vessel"
-		quest.1E40ACF3E69A4100.quest_subtitle: "Mark the Antidote Vessel done."
-		quest.1E40ACF3E69A4100.quest_desc: ["Bring home the Antidote Vessel. Modest now, mighty later."]
+		quest.1E40ACF3E69A4100.title: "&a&lAntidote Vessel"
+		quest.1E40ACF3E69A4100.quest_subtitle: "&7Shrug off poisons and curses"
+		quest.1E40ACF3E69A4100.quest_desc: [
+			"&a&lAntidote Vessel"
+			"&8&m                            "
+			""
+			"&7The Antidote Vessel greatly reduces the duration of"
+			"&7negative effects like poison, wither and weakness."
+			""
+			"&a&lCategory:&r &fDefense"
+			""
+			"&e&l★ Tip:&r &7A must-have for the swamp, the Nether and Mansion fights."
+		]
 		quest.1E64F1948BC34235.title: "King Spider"
 		quest.1E64F1948BC34235.quest_subtitle: "measured milestone: the King Spider."
 		quest.1E64F1948BC34235.quest_desc: ["Bring home the King Spider. Bridges what you did with what is next."]
@@ -3889,12 +3969,32 @@
 		quest.21F3379C904BFD50.title: "Resistive Heater"
 		quest.21F3379C904BFD50.quest_subtitle: "sharp prize: the Resistive Heater."
 		quest.21F3379C904BFD50.quest_desc: ["Mark the Resistive Heater done. Tiny wins stack into runs."]
-		quest.2215FB0777D7029D.title: "Steadfast Spikes"
-		quest.2215FB0777D7029D.quest_subtitle: "Add one Steadfast Spikes."
-		quest.2215FB0777D7029D.quest_desc: ["Earn the Steadfast Spikes step by step. The shortcut is not here."]
-		quest.221C9EDA651144BA.title: "Charm Of Sinking"
-		quest.221C9EDA651144BA.quest_subtitle: "Tiny step: the Charm Of Sinking."
-		quest.221C9EDA651144BA.quest_desc: ["Earn the Charm Of Sinking step by step. Tiny wins stack into runs."]
+		quest.2215FB0777D7029D.title: "&b&lSteadfast Spikes"
+		quest.2215FB0777D7029D.quest_subtitle: "&7Stand your ground, no knockback"
+		quest.2215FB0777D7029D.quest_desc: [
+			"&b&lSteadfast Spikes"
+			"&8&m                            "
+			""
+			"&7Steadfast Spikes anchor you in place, granting full"
+			"&7immunity to knockback from attacks and explosions."
+			""
+			"&b&lCategory:&r &fFootwear"
+			""
+			"&e&l★ Tip:&r &7Priceless against bosses that try to shove you off ledges."
+		]
+		quest.221C9EDA651144BA.title: "&d&lCharm of Sinking"
+		quest.221C9EDA651144BA.quest_subtitle: "&7Walk the ocean floor"
+		quest.221C9EDA651144BA.quest_desc: [
+			"&d&lCharm of Sinking"
+			"&8&m                            "
+			""
+			"&7The Charm of Sinking lets you move freely in water,"
+			"&7sinking to the bottom instead of floating to the top."
+			""
+			"&d&lCategory:&r &fTravel Charms"
+			""
+			"&e&l★ Tip:&r &7Pair it with water breathing for easy underwater builds."
+		]
 		quest.221F245A25F1402C.title: "Piglin Brute"
 		quest.221F245A25F1402C.quest_subtitle: "Earn the Piglin Brute, the still way."
 		quest.221F245A25F1402C.quest_desc: ["Reach for the Piglin Brute. The chapter pivots around it."]
@@ -4160,9 +4260,19 @@
 		quest.2509F95293AC4624.title: "Kobold"
 		quest.2509F95293AC4624.quest_subtitle: "watchful prize: the Kobold."
 		quest.2509F95293AC4624.quest_desc: ["Wrap up the Kobold. Saved for later use."]
-		quest.250AD9EF7CE0AD15.title: "Snowshoes"
-		quest.250AD9EF7CE0AD15.quest_subtitle: "Tiny step: the Snowshoes."
-		quest.250AD9EF7CE0AD15.quest_desc: ["Take possession of the Snowshoes. Bridges what you did with what is next."]
+		quest.250AD9EF7CE0AD15.title: "&b&lSnowshoes"
+		quest.250AD9EF7CE0AD15.quest_subtitle: "&7Cross deep snow with no slowdown"
+		quest.250AD9EF7CE0AD15.quest_desc: [
+			"&b&lSnowshoes"
+			"&8&m                            "
+			""
+			"&7Snowshoes let you walk on top of powder snow without"
+			"&7sinking, and speed up your steps over ordinary snow."
+			""
+			"&b&lCategory:&r &fFootwear"
+			""
+			"&e&l★ Tip:&r &7A must in icy biomes where powder snow swallows travelers."
+		]
 		quest.251C9E4B29A29728.title: "&5&lRestoration Ritual"
 		quest.251C9E4B29A29728.quest_subtitle: "&7The Restoration Ritual, a rite of power"
 		quest.251C9E4B29A29728.quest_desc: [
@@ -4262,9 +4372,19 @@
 		quest.260450AF16564A4E.title: "Stable Ice Core"
 		quest.260450AF16564A4E.quest_subtitle: "The Stable Ice Core pays its way."
 		quest.260450AF16564A4E.quest_desc: ["The Stable Ice Core is the next pivot. Press on."]
-		quest.2607F3DC07049785.title: "Plastic Drinking Hat"
-		quest.2607F3DC07049785.quest_subtitle: "Earn the Plastic Drinking Hat, the quiet way."
-		quest.2607F3DC07049785.quest_desc: ["Take possession of the Plastic Drinking Hat. One brick in a larger wall."]
+		quest.2607F3DC07049785.title: "&6&lPlastic Drinking Hat"
+		quest.2607F3DC07049785.quest_subtitle: "&7Quaff potions in a flash"
+		quest.2607F3DC07049785.quest_desc: [
+			"&6&lPlastic Drinking Hat"
+			"&8&m                            "
+			""
+			"&7The Plastic Drinking Hat cuts the time it takes to drink"
+			"&7items, getting potion effects onto you sooner."
+			""
+			"&6&lCategory:&r &fHeadgear"
+			""
+			"&e&l★ Tip:&r &7Speed matters when a healing potion stands between life and death."
+		]
 		quest.26400A8EDCDA4B4E.title: "Harbinger Cube"
 		quest.26400A8EDCDA4B4E.quest_subtitle: "Snag the Harbinger Cube this run."
 		quest.26400A8EDCDA4B4E.quest_desc: ["The Harbinger Cube: another rung climbed. The chapter pivots around it."]
@@ -4406,9 +4526,19 @@
 		quest.27CBC3BF25E736A1.title: "Advanced Restock Upgrade"
 		quest.27CBC3BF25E736A1.quest_subtitle: "One Advanced Restock Upgrade, one ready win."
 		quest.27CBC3BF25E736A1.quest_desc: ["Score the Advanced Restock Upgrade. The shortcut is not here."]
-		quest.27E951F4F4F6F847.title: "Flame Pendant"
-		quest.27E951F4F4F6F847.quest_subtitle: "On the Flame Pendant branch."
-		quest.27E951F4F4F6F847.quest_desc: ["Bank the Flame Pendant. A seed for the snowball."]
+		quest.27E951F4F4F6F847.title: "&c&lFlame Pendant"
+		quest.27E951F4F4F6F847.quest_subtitle: "&7Burn those who dare strike you"
+		quest.27E951F4F4F6F847.quest_desc: [
+			"&c&lFlame Pendant"
+			"&8&m                            "
+			""
+			"&7The Flame Pendant has a chance to set attackers on fire"
+			"&7whenever they land a hit on you."
+			""
+			"&c&lCategory:&r &fCombat"
+			""
+			"&e&l★ Tip:&r &7A passive deterrent. Wear it in a necklace slot and let foes burn."
+		]
 		quest.27F9ADEDC3994DFF.title: "Breeze"
 		quest.27F9ADEDC3994DFF.quest_subtitle: "calm prize: the Breeze."
 		quest.27F9ADEDC3994DFF.quest_desc: ["Score the Breeze. Calm focus beats rushing."]
@@ -4826,9 +4956,19 @@
 			""
 			"&e&l★ Tip:&r &7These blocks represent serious investment. Spend them wisely."
 		]
-		quest.2AD78E22988A92D3.title: "Night Vision Goggles"
-		quest.2AD78E22988A92D3.quest_subtitle: "calm milestone: the Night Vision Goggles."
-		quest.2AD78E22988A92D3.quest_desc: ["Earn the Night Vision Goggles step by step. Calm focus beats rushing."]
+		quest.2AD78E22988A92D3.title: "&6&lNight Vision Goggles"
+		quest.2AD78E22988A92D3.quest_subtitle: "&7See clearly in total darkness"
+		quest.2AD78E22988A92D3.quest_desc: [
+			"&6&lNight Vision Goggles"
+			"&8&m                            "
+			""
+			"&7The Night Vision Goggles let you see in the dark, like"
+			"&7a permanent Night Vision effect for as long as worn."
+			""
+			"&6&lCategory:&r &fHeadgear"
+			""
+			"&e&l★ Tip:&r &7No more torch spam in caves. Just dig and look around."
+		]
 		quest.2AED4855E13A425A.title: "Enderman"
 		quest.2AED4855E13A425A.quest_subtitle: "On the Enderman branch."
 		quest.2AED4855E13A425A.quest_desc: ["Pack the Enderman away. Counts."]
@@ -5713,9 +5853,19 @@
 		quest.33F3FAD79B904685.title: "Umvuthana"
 		quest.33F3FAD79B904685.quest_subtitle: "The Umvuthana: the chapter nudge."
 		quest.33F3FAD79B904685.quest_desc: ["Bring the Umvuthana home. Worth the detour."]
-		quest.3446803FB59D8875.title: "Thorn Pendant"
-		quest.3446803FB59D8875.quest_subtitle: "One Thorn Pendant, one diligent win."
-		quest.3446803FB59D8875.quest_desc: ["Pick up the Thorn Pendant. Quiet capital."]
+		quest.3446803FB59D8875.title: "&c&lThorn Pendant"
+		quest.3446803FB59D8875.quest_subtitle: "&7Turn their blows against them"
+		quest.3446803FB59D8875.quest_desc: [
+			"&c&lThorn Pendant"
+			"&8&m                            "
+			""
+			"&7The Thorn Pendant has a chance to damage attackers each"
+			"&7time they hit you, reflecting harm straight back."
+			""
+			"&c&lCategory:&r &fCombat"
+			""
+			"&e&l★ Tip:&r &7It works while you focus elsewhere. Free damage with no effort."
+		]
 		quest.3455CABEF0CF4616.title: "Drowned"
 		quest.3455CABEF0CF4616.quest_subtitle: "On the route to the Drowned."
 		quest.3455CABEF0CF4616.quest_desc: ["Track the Drowned. Trust the chain."]
@@ -5805,9 +5955,19 @@
 			""
 			"&e&l★ Tip:&r &7Feed it from above with a depot or belt for smooth automation."
 		]
-		quest.3525D5DCC3A534D9.title: "Digging Claws"
-		quest.3525D5DCC3A534D9.quest_subtitle: "Bookmark the Digging Claws."
-		quest.3525D5DCC3A534D9.quest_desc: ["Earn the Digging Claws. Closer than the map suggests."]
+		quest.3525D5DCC3A534D9.title: "&e&lDigging Claws"
+		quest.3525D5DCC3A534D9.quest_subtitle: "&7Mine faster, break tougher blocks"
+		quest.3525D5DCC3A534D9.quest_desc: [
+			"&e&lDigging Claws"
+			"&8&m                            "
+			""
+			"&7Digging Claws raise your mining speed and lift your base"
+			"&7mining level, letting bare hands break sturdier blocks."
+			""
+			"&e&lCategory:&r &fUtility"
+			""
+			"&e&l★ Tip:&r &7A handy backup when your pickaxe breaks deep in a cave."
+		]
 		quest.3531B28F14CF72A2.title: "&c&lThe Naga"
 		quest.3531B28F14CF72A2.quest_subtitle: "&7Slay the serpent of the courtyard"
 		quest.3531B28F14CF72A2.quest_desc: [
@@ -5970,9 +6130,19 @@
 			""
 			"&e&l★ Tip:&r &7Combine runes at the arcane anvil to build upgrade orbs."
 		]
-		quest.3705D303CF423804.title: "Power Glove"
-		quest.3705D303CF423804.quest_subtitle: "The Power Glove is a checkpoint."
-		quest.3705D303CF423804.quest_desc: ["Earn the Power Glove step by step. Next door is in sight."]
+		quest.3705D303CF423804.title: "&c&lPower Glove"
+		quest.3705D303CF423804.quest_subtitle: "&7Hit harder with every strike"
+		quest.3705D303CF423804.quest_desc: [
+			"&c&lPower Glove"
+			"&8&m                            "
+			""
+			"&7The Power Glove increases the damage your melee attacks"
+			"&7deal, a flat boost stacked on top of your weapon."
+			""
+			"&c&lCategory:&r &fCombat"
+			""
+			"&e&l★ Tip:&r &7Pair it with Feral Claws for both raw power and speed."
+		]
 		quest.37268B2E0BEC47DE.title: "Redcap Sapper"
 		quest.37268B2E0BEC47DE.quest_subtitle: "Brick: the Redcap Sapper."
 		quest.37268B2E0BEC47DE.quest_desc: ["Bring the Redcap Sapper into the fold. The shortcut is not here."]
@@ -6379,9 +6549,19 @@
 		quest.3AF1DC02E9A0010C.title: "Pressurized Tube"
 		quest.3AF1DC02E9A0010C.quest_subtitle: "Secure the Pressurized Tube."
 		quest.3AF1DC02E9A0010C.quest_desc: ["Get hold of the Pressurized Tube. The chapter builds directly on it."]
-		quest.3B3BD39BA02DCA13.title: "Pocket Piston"
-		quest.3B3BD39BA02DCA13.quest_subtitle: "Tiny step: the Pocket Piston."
-		quest.3B3BD39BA02DCA13.quest_desc: ["Wrap the Pocket Piston. Closer than the map suggests."]
+		quest.3B3BD39BA02DCA13.title: "&c&lPocket Piston"
+		quest.3B3BD39BA02DCA13.quest_subtitle: "&7Send enemies flying"
+		quest.3B3BD39BA02DCA13.quest_desc: [
+			"&c&lPocket Piston"
+			"&8&m                            "
+			""
+			"&7The Pocket Piston increases the knockback your melee"
+			"&7attacks deal, shoving foes far back with every hit."
+			""
+			"&c&lCategory:&r &fCombat"
+			""
+			"&e&l★ Tip:&r &7Use it to keep mobs off ledges or away from your build."
+		]
 		quest.3B4C7EA3EC34DA3B.title: "16384b Fluid Storage Part"
 		quest.3B4C7EA3EC34DA3B.quest_subtitle: "Build out the 16384b Fluid Storage Part chain."
 		quest.3B4C7EA3EC34DA3B.quest_desc: ["Cross the 16384b Fluid Storage Part off your list. Bridges what you did with what is next."]
@@ -6682,18 +6862,38 @@
 		quest.3E02D3C73C1DE74D.title: "Elder Guardian"
 		quest.3E02D3C73C1DE74D.quest_subtitle: "A even step toward the Elder Guardian."
 		quest.3E02D3C73C1DE74D.quest_desc: ["Wrap the Elder Guardian up. Tiny wins stack into runs."]
-		quest.3E0643EA9183CDAE.title: "Novelty Drinking Hat"
-		quest.3E0643EA9183CDAE.quest_subtitle: "Stash the Novelty Drinking Hat for later."
-		quest.3E0643EA9183CDAE.quest_desc: ["Add the Novelty Drinking Hat to your dossier. A seed for the snowball."]
+		quest.3E0643EA9183CDAE.title: "&6&lNovelty Drinking Hat"
+		quest.3E0643EA9183CDAE.quest_subtitle: "&7Down your drinks in style"
+		quest.3E0643EA9183CDAE.quest_desc: [
+			"&6&lNovelty Drinking Hat"
+			"&8&m                            "
+			""
+			"&7The Novelty Drinking Hat shortens the time it takes to"
+			"&7drink, so potions go down faster when seconds count."
+			""
+			"&6&lCategory:&r &fHeadgear"
+			""
+			"&e&l★ Tip:&r &7A silly hat that genuinely helps mid-fight. Wear it proudly."
+		]
 		quest.3E076BE10A034346.title: "Breeze"
 		quest.3E076BE10A034346.quest_subtitle: "On the route to the Breeze."
 		quest.3E076BE10A034346.quest_desc: ["Score the Breeze. Soft milestone."]
 		quest.3E174E79425541C5.title: "Zoglin"
 		quest.3E174E79425541C5.quest_subtitle: "Snag the Zoglin this run."
 		quest.3E174E79425541C5.quest_desc: ["Get the Zoglin sorted early. Closer than the map suggests."]
-		quest.3E1A3BC8642390B3.title: "Umbrella"
-		quest.3E1A3BC8642390B3.quest_subtitle: "The Umbrella pays its way."
-		quest.3E1A3BC8642390B3.quest_desc: ["Mark the Umbrella in your log. One more rung climbed."]
+		quest.3E1A3BC8642390B3.title: "&5&lUmbrella"
+		quest.3E1A3BC8642390B3.quest_subtitle: "&7Glide softly, block what flies at you"
+		quest.3E1A3BC8642390B3.quest_desc: [
+			"&5&lUmbrella"
+			"&8&m                            "
+			""
+			"&7Hold the Umbrella to slow your fall to a gentle drift,"
+			"&7or raise it like a shield to block incoming hits."
+			""
+			"&5&lCategory:&r &fCuriosities"
+			""
+			"&e&l★ Tip:&r &7Two tools in one. Swap to it before a long drop."
+		]
 		quest.3E1D9F3EF26D6AC7.title: "Piglin Brute"
 		quest.3E1D9F3EF26D6AC7.quest_subtitle: "The Piglin Brute: load-bearing."
 		quest.3E1D9F3EF26D6AC7.quest_desc: ["Walk away with the Piglin Brute. Load-bearing, not flashy."]
@@ -6759,9 +6959,19 @@
 		quest.3EB34A453F24437A.title: "Zombified Piglin"
 		quest.3EB34A453F24437A.quest_subtitle: "Worth the Zombified Piglin detour."
 		quest.3EB34A453F24437A.quest_desc: ["Pack the Zombified Piglin. Quiet capital."]
-		quest.3EC8A0B89788D079.title: "Flippers"
-		quest.3EC8A0B89788D079.quest_subtitle: "The Flippers: the chapter nudge."
-		quest.3EC8A0B89788D079.quest_desc: ["Take possession of the Flippers. Snowballs after this."]
+		quest.3EC8A0B89788D079.title: "&b&lFlippers"
+		quest.3EC8A0B89788D079.quest_subtitle: "&7Glide through water with ease"
+		quest.3EC8A0B89788D079.quest_desc: [
+			"&b&lFlippers"
+			"&8&m                            "
+			""
+			"&7Worn on the feet, Flippers improve your agility in"
+			"&7water so you swim noticeably faster in every direction."
+			""
+			"&b&lCategory:&r &fFootwear"
+			""
+			"&e&l★ Tip:&r &7Place them in the boots accessory slot. The boost works only while submerged."
+		]
 		quest.3EC96B81D46D02DC.title: "&d/tpdeny"
 		quest.3EC96B81D46D02DC.quest_subtitle: "&7Reject a teleport request"
 		quest.3EC96B81D46D02DC.quest_desc: [
@@ -7207,9 +7417,19 @@
 		quest.42632CFF1FB045D3.title: "Ghast"
 		quest.42632CFF1FB045D3.quest_subtitle: "Stash the Ghast for later."
 		quest.42632CFF1FB045D3.quest_desc: ["Bank the Ghast. Press on."]
-		quest.427014BDE06DE631.title: "Fire Gauntlet"
-		quest.427014BDE06DE631.quest_subtitle: "A resolute step toward the Fire Gauntlet."
-		quest.427014BDE06DE631.quest_desc: ["Wrap the Fire Gauntlet. Future you will thank present you."]
+		quest.427014BDE06DE631.title: "&c&lFire Gauntlet"
+		quest.427014BDE06DE631.quest_subtitle: "&7Set your foes ablaze on contact"
+		quest.427014BDE06DE631.quest_desc: [
+			"&c&lFire Gauntlet"
+			"&8&m                            "
+			""
+			"&7The Fire Gauntlet makes your melee attacks deal fire"
+			"&7damage, leaving every enemy you strike burning."
+			""
+			"&c&lCategory:&r &fCombat"
+			""
+			"&e&l★ Tip:&r &7The burn stacks on top of your weapon. Weak against Nether mobs."
+		]
 		quest.42746659C66CF17F.title: "&a&lEnder Library"
 		quest.42746659C66CF17F.quest_subtitle: "&7Knowledge from beyond"
 		quest.42746659C66CF17F.quest_desc: [
@@ -7307,9 +7527,19 @@
 		quest.43692EC5170F527E.title: "Illusioner"
 		quest.43692EC5170F527E.quest_subtitle: "Today goal: the Illusioner."
 		quest.43692EC5170F527E.quest_desc: ["Acquire the Illusioner. A small step on a long road."]
-		quest.436E4E3515BCCDE9.title: "Cloud In A Bottle"
-		quest.436E4E3515BCCDE9.quest_subtitle: "Tiny step: the Cloud In A Bottle."
-		quest.436E4E3515BCCDE9.quest_desc: ["Mark the Cloud In A Bottle done. Pace yourself."]
+		quest.436E4E3515BCCDE9.title: "&d&lCloud in a Bottle"
+		quest.436E4E3515BCCDE9.quest_subtitle: "&7Leap again in mid-air"
+		quest.436E4E3515BCCDE9.quest_desc: [
+			"&d&lCloud in a Bottle"
+			"&8&m                            "
+			""
+			"&7The Cloud in a Bottle lets you double jump, kicking off"
+			"&7a second time while still in the air."
+			""
+			"&d&lCategory:&r &fTravel Charms"
+			""
+			"&e&l★ Tip:&r &7Great for crossing gaps and dodging melee attacks."
+		]
 		quest.43784C83C8A76E8B.title: "&5&lSunrise Ritual"
 		quest.43784C83C8A76E8B.quest_subtitle: "&7The Sunrise Ritual, a rite of power"
 		quest.43784C83C8A76E8B.quest_desc: [
@@ -7533,9 +7763,19 @@
 			""
 			"&e&l★ Tip:&r &7Crush gems you do not need into dust. Nothing goes to waste."
 		]
-		quest.4564B577CB4EC046.title: "Everlasting Beef"
-		quest.4564B577CB4EC046.quest_subtitle: "On the route to the Everlasting Beef."
-		quest.4564B577CB4EC046.quest_desc: ["Score one Everlasting Beef. One brick in a larger wall."]
+		quest.4564B577CB4EC046.title: "&2&lEverlasting Beef"
+		quest.4564B577CB4EC046.quest_subtitle: "&7Raw meat that never runs out"
+		quest.4564B577CB4EC046.quest_desc: [
+			"&2&lEverlasting Beef"
+			"&8&m                            "
+			""
+			"&7Everlasting Beef can be eaten again and again. It is"
+			"&7never consumed, though raw meat restores little hunger."
+			""
+			"&2&lCategory:&r &fEverlasting Food"
+			""
+			"&e&l★ Tip:&r &7Cook it in a furnace, smoker or campfire to get Eternal Steak."
+		]
 		quest.4564FC40A04FA045.title: "Diamond Brush"
 		quest.4564FC40A04FA045.quest_subtitle: "alert milestone: the Diamond Brush."
 		quest.4564FC40A04FA045.quest_desc: ["The Diamond Brush is a quiet milestone. Next door is in sight."]
@@ -7705,9 +7945,19 @@
 		quest.47D5BD33AE9B2EA7.title: "Stack Downgrade Tier 2"
 		quest.47D5BD33AE9B2EA7.quest_subtitle: "On the Stack Downgrade Tier 2 branch."
 		quest.47D5BD33AE9B2EA7.quest_desc: ["Stockpile the Stack Downgrade Tier 2. The chapter pivots around it."]
-		quest.47EBD49B34B70B3D.title: "Rooted Boots"
-		quest.47EBD49B34B70B3D.quest_subtitle: "The Rooted Boots unlocks more."
-		quest.47EBD49B34B70B3D.quest_desc: ["The Rooted Boots is gating the next quest. Tiny wins stack into runs."]
+		quest.47EBD49B34B70B3D.title: "&b&lRooted Boots"
+		quest.47EBD49B34B70B3D.quest_subtitle: "&7Walk on grass, refill your hunger"
+		quest.47EBD49B34B70B3D.quest_desc: [
+			"&b&lRooted Boots"
+			"&8&m                            "
+			""
+			"&7While you walk on grass, Rooted Boots slowly replenish"
+			"&7your hunger, and plants sprout near you after you eat."
+			""
+			"&b&lCategory:&r &fFootwear"
+			""
+			"&e&l★ Tip:&r &7Let the meadow feed you. No need to carry a heavy food stack."
+		]
 		quest.47F14A31158F2D9E.title: "&c&lEye of the Storm"
 		quest.47F14A31158F2D9E.quest_subtitle: "&7Calm the Deep Aether tempest"
 		quest.47F14A31158F2D9E.quest_desc: [
@@ -7852,9 +8102,19 @@
 		quest.493197FEE8284DA3.title: "Adherent"
 		quest.493197FEE8284DA3.quest_subtitle: "bright prize: the Adherent."
 		quest.493197FEE8284DA3.quest_desc: ["Add the Adherent to your run-log. Worth the detour."]
-		quest.4933CF4675E77D50.title: "Obsidian Skull"
-		quest.4933CF4675E77D50.quest_subtitle: "Brick: the Obsidian Skull."
-		quest.4933CF4675E77D50.quest_desc: ["Take possession of the Obsidian Skull. Halfway done with you."]
+		quest.4933CF4675E77D50.title: "&a&lObsidian Skull"
+		quest.4933CF4675E77D50.quest_subtitle: "&7Fire resistance the moment you burn"
+		quest.4933CF4675E77D50.quest_desc: [
+			"&a&lObsidian Skull"
+			"&8&m                            "
+			""
+			"&7After you take fire damage, the Obsidian Skull grants"
+			"&7a temporary Fire Resistance effect to save you."
+			""
+			"&a&lCategory:&r &fDefense"
+			""
+			"&e&l★ Tip:&r &7It reacts to the first burn, so a lava dip is far less deadly."
+		]
 		quest.4935209D870E25F2.title: "Energy Tablet"
 		quest.4935209D870E25F2.quest_subtitle: "Stash the Energy Tablet for later."
 		quest.4935209D870E25F2.quest_desc: ["Bring the Energy Tablet into the fold. A seed for the snowball."]
@@ -8006,9 +8266,19 @@
 			""
 			"&e&l★ Tip:&r &7Simply Swords adds 15 weapon classes. Find the style that fits you."
 		]
-		quest.4A7AEBEB87CEC274.title: "Running Shoes"
-		quest.4A7AEBEB87CEC274.quest_subtitle: "A diligent step toward the Running Shoes."
-		quest.4A7AEBEB87CEC274.quest_desc: ["Take possession of the Running Shoes. Worth pinning."]
+		quest.4A7AEBEB87CEC274.title: "&b&lRunning Shoes"
+		quest.4A7AEBEB87CEC274.quest_subtitle: "&7Sprint faster and step up ledges"
+		quest.4A7AEBEB87CEC274.quest_desc: [
+			"&b&lRunning Shoes"
+			"&8&m                            "
+			""
+			"&7Running Shoes raise your sprinting speed and let you"
+			"&7step straight up one-block ledges while sprinting."
+			""
+			"&b&lCategory:&r &fFootwear"
+			""
+			"&e&l★ Tip:&r &7Ideal for long overland travel. Just hold sprint and run."
+		]
 		quest.4A7BE7F4D5AB8C7B.title: "Troll"
 		quest.4A7BE7F4D5AB8C7B.quest_subtitle: "Add one Troll."
 		quest.4A7BE7F4D5AB8C7B.quest_desc: ["Track down the Troll. Saved for later use."]
@@ -8262,12 +8532,32 @@
 		quest.4D32DEA8354A4B99.title: "Advanced Tool Swapper Upgrade"
 		quest.4D32DEA8354A4B99.quest_subtitle: "Mark the Advanced Tool Swapper Upgrade done."
 		quest.4D32DEA8354A4B99.quest_desc: ["The Advanced Tool Swapper Upgrade: load-bearing, not loud. Bookkeeping matters."]
-		quest.4D3379D38237F830.title: "Aqua Dashers"
-		quest.4D3379D38237F830.quest_subtitle: "The Aqua Dashers unlocks more."
-		quest.4D3379D38237F830.quest_desc: ["Bring the Aqua Dashers home. Pace yourself."]
-		quest.4D3E80F0F4ED8DE6.title: "Chorus Totem"
-		quest.4D3E80F0F4ED8DE6.quest_subtitle: "honest milestone: the Chorus Totem."
-		quest.4D3E80F0F4ED8DE6.quest_desc: ["Find the Chorus Totem. The shortcut is not here."]
+		quest.4D3379D38237F830.title: "&b&lAqua-Dashers"
+		quest.4D3379D38237F830.quest_subtitle: "&7Run across open water"
+		quest.4D3379D38237F830.quest_desc: [
+			"&b&lAqua-Dashers"
+			"&8&m                            "
+			""
+			"&7While sprinting, the Aqua-Dashers let you run straight"
+			"&7across the surface of water without ever sinking in."
+			""
+			"&b&lCategory:&r &fFootwear"
+			""
+			"&e&l★ Tip:&r &7Stop sprinting and you drop in. Keep moving to stay on top."
+		]
+		quest.4D3E80F0F4ED8DE6.title: "&a&lChorus Totem"
+		quest.4D3E80F0F4ED8DE6.quest_subtitle: "&7A fatal blow teleports you away"
+		quest.4D3E80F0F4ED8DE6.quest_desc: [
+			"&a&lChorus Totem"
+			"&8&m                            "
+			""
+			"&7When a hit would kill you, the Chorus Totem teleports"
+			"&7you somewhere else instead, and it is not consumed."
+			""
+			"&a&lCategory:&r &fDefense"
+			""
+			"&e&l★ Tip:&r &7Unlike a Totem of Undying, it keeps working fight after fight."
+		]
 		quest.4D4035E39518631D.title: "Giant Miner"
 		quest.4D4035E39518631D.quest_subtitle: "Snag the Giant Miner this run."
 		quest.4D4035E39518631D.quest_desc: ["Bring the Giant Miner into the fold. Quiet progress beats loud setbacks."]
@@ -8646,9 +8936,19 @@
 		quest.502D16D5531E4D61.title: "Stable Ice Core"
 		quest.502D16D5531E4D61.quest_subtitle: "Worth the Stable Ice Core detour."
 		quest.502D16D5531E4D61.quest_desc: ["Carry the Stable Ice Core with you. Counts."]
-		quest.5040B3D29F238BC0.title: "Bunny Hoppers"
-		quest.5040B3D29F238BC0.quest_subtitle: "Add one Bunny Hoppers."
-		quest.5040B3D29F238BC0.quest_desc: ["Lock in the Bunny Hoppers. Trust the chain."]
+		quest.5040B3D29F238BC0.title: "&b&lBunny Hoppers"
+		quest.5040B3D29F238BC0.quest_subtitle: "&7Jump higher, land unharmed"
+		quest.5040B3D29F238BC0.quest_desc: [
+			"&b&lBunny Hoppers"
+			"&8&m                            "
+			""
+			"&7Bunny Hoppers raise your jump height and soften your"
+			"&7landings, cutting the fall damage you would take."
+			""
+			"&b&lCategory:&r &fFootwear"
+			""
+			"&e&l★ Tip:&r &7Great for parkour and for surviving long drops in caves."
+		]
 		quest.5041F52895E84BE6.title: "Hedge Spider"
 		quest.5041F52895E84BE6.quest_subtitle: "Snag the Hedge Spider this run."
 		quest.5041F52895E84BE6.quest_desc: ["Stow the Hedge Spider. Quiet progress beats loud setbacks."]
@@ -9064,9 +9364,19 @@
 		quest.553A85641F7E4AE3.title: "Maze Slime"
 		quest.553A85641F7E4AE3.quest_subtitle: "Modest gain: the Maze Slime."
 		quest.553A85641F7E4AE3.quest_desc: ["Get the Maze Slime sorted early. Calm focus beats rushing."]
-		quest.554FBE341BD1ABCE.title: "Withered Bracelet"
-		quest.554FBE341BD1ABCE.quest_subtitle: "Quiet milestone with the Withered Bracelet."
-		quest.554FBE341BD1ABCE.quest_desc: ["Earn the Withered Bracelet. Worth more than the tooltip says. Modular progress, small steps."]
+		quest.554FBE341BD1ABCE.title: "&c&lWithered Bracelet"
+		quest.554FBE341BD1ABCE.quest_subtitle: "&7A chance to wither what you hit"
+		quest.554FBE341BD1ABCE.quest_desc: [
+			"&c&lWithered Bracelet"
+			"&8&m                            "
+			""
+			"&7The Withered Bracelet gives your melee attacks a chance"
+			"&7to inflict the Wither effect, draining the target over time."
+			""
+			"&c&lCategory:&r &fCombat"
+			""
+			"&e&l★ Tip:&r &7Wither ignores armor, so it shines against armored foes."
+		]
 		quest.555ECE27F0664239.title: "Umvuthana Crane"
 		quest.555ECE27F0664239.quest_subtitle: "A Umvuthana Crane for the road."
 		quest.555ECE27F0664239.quest_desc: ["Take time to obtain the Umvuthana Crane. Worth the detour."]
@@ -9320,9 +9630,19 @@
 		quest.587EDBDB64CF4A0A.title: "Towerwood Borer"
 		quest.587EDBDB64CF4A0A.quest_subtitle: "Carry the Towerwood Borer forward."
 		quest.587EDBDB64CF4A0A.quest_desc: ["The Towerwood Borer is a quiet milestone. Useful sooner than you think."]
-		quest.589F1D502F680075.title: "Helium Flamingo"
-		quest.589F1D502F680075.quest_subtitle: "The Helium Flamingo: the chapter nudge."
-		quest.589F1D502F680075.quest_desc: ["Carry the Helium Flamingo with you. Trust the chain."]
+		quest.589F1D502F680075.title: "&d&lHelium Flamingo"
+		quest.589F1D502F680075.quest_subtitle: "&7Swim through open air"
+		quest.589F1D502F680075.quest_desc: [
+			"&d&lHelium Flamingo"
+			"&8&m                            "
+			""
+			"&7Jump while airborne and the Helium Flamingo lets you"
+			"&7swim through the air for a short while."
+			""
+			"&d&lCategory:&r &fTravel Charms"
+			""
+			"&e&l★ Tip:&r &7It refills once you touch solid ground again."
+		]
 		quest.58B04228A59E40B7.title: "Vex"
 		quest.58B04228A59E40B7.quest_subtitle: "One Vex, one thrifty win."
 		quest.58B04228A59E40B7.quest_desc: ["Snag the Vex when you next pass through. Press on."]
@@ -9505,9 +9825,19 @@
 		quest.5A84E5D598D6767C.title: "Creeper"
 		quest.5A84E5D598D6767C.quest_subtitle: "Worth the Creeper detour."
 		quest.5A84E5D598D6767C.quest_desc: ["Score one Creeper. Quiet progress beats loud setbacks."]
-		quest.5A850270C6244C1C.title: "Warp Drive"
-		quest.5A850270C6244C1C.quest_subtitle: "Earn it: the Warp Drive."
-		quest.5A850270C6244C1C.quest_desc: ["Get the Warp Drive. The route teaches as much as the prize."]
+		quest.5A850270C6244C1C.title: "&d&lWarp Drive"
+		quest.5A850270C6244C1C.quest_subtitle: "&7Throw ender pearls for free"
+		quest.5A850270C6244C1C.quest_desc: [
+			"&d&lWarp Drive"
+			"&8&m                            "
+			""
+			"&7With the Warp Drive, ender pearls are not consumed when"
+			"&7thrown and their teleport deals no damage to you."
+			""
+			"&d&lCategory:&r &fTravel Charms"
+			""
+			"&e&l★ Tip:&r &7Pearls cost a little hunger instead. Keep a snack handy."
+		]
 		quest.5AA203B0753790EB.title: "Glassblower"
 		quest.5AA203B0753790EB.quest_subtitle: "On the route to the Glassblower."
 		quest.5AA203B0753790EB.quest_desc: ["Note the Glassblower obtained. Pace yourself."]
@@ -9705,9 +10035,19 @@
 			""
 			"&e&l★ Tip:&r &7It runs on fuel. Recharge it before tackling the Thornlands."
 		]
-		quest.5CE44C58A470E48E.title: "Mimic"
-		quest.5CE44C58A470E48E.quest_subtitle: "Build out the Mimic chain."
-		quest.5CE44C58A470E48E.quest_desc: ["Add the Mimic to your stockpile. Future you will thank present you."]
+		quest.5CE44C58A470E48E.title: "&5&lHunt the Mimic"
+		quest.5CE44C58A470E48E.quest_subtitle: "&7Slay the chest that bites back"
+		quest.5CE44C58A470E48E.quest_desc: [
+			"&5&lHunt the Mimic"
+			"&8&m                            "
+			""
+			"&7A Mimic hides as an ordinary chest, then lunges when you"
+			"&7draw close. Defeat one to claim the Artifacts it guards."
+			""
+			"&5&lCategory:&r &fCuriosities"
+			""
+			"&e&l★ Tip:&r &7Listen for its rattle. Mimics love dark dungeon rooms and ruins."
+		]
 		quest.5D3F264B8D4C4C92.title: "Piglin"
 		quest.5D3F264B8D4C4C92.quest_subtitle: "Bookmark the Piglin."
 		quest.5D3F264B8D4C4C92.quest_desc: ["Find a way to the Piglin. Small habit, big result."]
@@ -9793,9 +10133,19 @@
 		quest.5EA6796C10F817D8.title: "Umvuthana"
 		quest.5EA6796C10F817D8.quest_subtitle: "A Umvuthana for the road."
 		quest.5EA6796C10F817D8.quest_desc: ["The Umvuthana is part of the chain. Closer than the map suggests."]
-		quest.5EB7CE3A1DCD3E9B.title: "Universal Attractor"
-		quest.5EB7CE3A1DCD3E9B.quest_subtitle: "Brick: the Universal Attractor."
-		quest.5EB7CE3A1DCD3E9B.quest_desc: ["Cross the Universal Attractor off. Soft milestone."]
+		quest.5EB7CE3A1DCD3E9B.title: "&e&lUniversal Attractor"
+		quest.5EB7CE3A1DCD3E9B.quest_subtitle: "&7Pull dropped items to you"
+		quest.5EB7CE3A1DCD3E9B.quest_desc: [
+			"&e&lUniversal Attractor"
+			"&8&m                            "
+			""
+			"&7The Universal Attractor draws nearby item drops toward"
+			"&7you, so loot flies to your hand on its own."
+			""
+			"&e&lCategory:&r &fUtility"
+			""
+			"&e&l★ Tip:&r &7Perfect at mob farms where drops scatter everywhere."
+		]
 		quest.5EC96B81D46D02DE.title: "&b/ftbchunks info"
 		quest.5EC96B81D46D02DE.quest_subtitle: "&7Inspect the chunk you stand in"
 		quest.5EC96B81D46D02DE.quest_desc: [
@@ -9881,9 +10231,19 @@
 		quest.5F59145218468526.title: "Piglin Brute"
 		quest.5F59145218468526.quest_subtitle: "A bright step toward the Piglin Brute."
 		quest.5F59145218468526.quest_desc: ["The Piglin Brute pays for itself. Patient runs win."]
-		quest.5F5E43B3F51CAE9E.title: "Superstitious Hat"
-		quest.5F5E43B3F51CAE9E.quest_subtitle: "Earn it: the Superstitious Hat."
-		quest.5F5E43B3F51CAE9E.quest_desc: ["Acquire the Superstitious Hat. A small step on a long road."]
+		quest.5F5E43B3F51CAE9E.title: "&6&lSuperstitious Hat"
+		quest.5F5E43B3F51CAE9E.quest_subtitle: "&7A lucky charm for richer drops"
+		quest.5F5E43B3F51CAE9E.quest_desc: [
+			"&6&lSuperstitious Hat"
+			"&8&m                            "
+			""
+			"&7The Superstitious Hat applies an extra level of Looting"
+			"&7to the creatures you kill, for more and rarer drops."
+			""
+			"&6&lCategory:&r &fHeadgear"
+			""
+			"&e&l★ Tip:&r &7It stacks with the Looting enchantment on your sword."
+		]
 		quest.5F69A6FBD66F4E9F.title: "Vex"
 		quest.5F69A6FBD66F4E9F.quest_subtitle: "The Vex is a checkpoint."
 		quest.5F69A6FBD66F4E9F.quest_desc: ["Set sights on the Vex. Worth more than its tooltip says."]
@@ -10274,9 +10634,19 @@
 		quest.622B0DA8C8AE4065.title: "Umvuthana Crane"
 		quest.622B0DA8C8AE4065.quest_subtitle: "The Umvuthana Crane is a checkpoint."
 		quest.622B0DA8C8AE4065.quest_desc: ["Earn the Umvuthana Crane step by step. The shortcut is not here."]
-		quest.623796B1D7981E59.title: "Crystal Heart"
-		quest.623796B1D7981E59.quest_subtitle: "Earn it: the Crystal Heart."
-		quest.623796B1D7981E59.quest_desc: ["Bag the Crystal Heart. Soft milestone."]
+		quest.623796B1D7981E59.title: "&a&lCrystal Heart"
+		quest.623796B1D7981E59.quest_subtitle: "&7Carry extra hearts into battle"
+		quest.623796B1D7981E59.quest_desc: [
+			"&a&lCrystal Heart"
+			"&8&m                            "
+			""
+			"&7The Crystal Heart raises your maximum health, granting"
+			"&7you extra hearts for as long as you keep it worn."
+			""
+			"&a&lCategory:&r &fDefense"
+			""
+			"&e&l★ Tip:&r &7More health buys more time to react. Never take it off."
+		]
 		quest.6263A27182B2CE3D.title: "Advanced Control Circuit"
 		quest.6263A27182B2CE3D.quest_subtitle: "A focused step toward the Advanced Control Circuit."
 		quest.6263A27182B2CE3D.quest_desc: ["Wrap the Advanced Control Circuit up. Saved for later use."]
@@ -11173,9 +11543,19 @@
 			""
 			"&e&l★ Tip:&r &7The summit of Arcadia. Everything you built has led here."
 		]
-		quest.69FBD7B65032E2A1.title: "Strider Shoes"
-		quest.69FBD7B65032E2A1.quest_subtitle: "Pocketed: the Strider Shoes."
-		quest.69FBD7B65032E2A1.quest_desc: ["Mark the Strider Shoes done. Quiet progress beats loud setbacks."]
+		quest.69FBD7B65032E2A1.title: "&b&lStrider Shoes"
+		quest.69FBD7B65032E2A1.quest_subtitle: "&7Walk on lava unburned"
+		quest.69FBD7B65032E2A1.quest_desc: [
+			"&b&lStrider Shoes"
+			"&8&m                            "
+			""
+			"&7While sneaking, Strider Shoes let you stand and walk on"
+			"&7lava, and they shield you from hot floor damage."
+			""
+			"&b&lCategory:&r &fFootwear"
+			""
+			"&e&l★ Tip:&r &7Sneak before you step onto lava or stop sneaking and you sink."
+		]
 		quest.6A07D09831428CB9.title: "&b&lSeashelf"
 		quest.6A07D09831428CB9.quest_subtitle: "&7The Seashelf, an enchanting shelf"
 		quest.6A07D09831428CB9.quest_desc: [
@@ -11211,9 +11591,19 @@
 		quest.6A2D09A8745B6685.title: "Vindicator"
 		quest.6A2D09A8745B6685.quest_subtitle: "A Vindicator for the road."
 		quest.6A2D09A8745B6685.quest_desc: ["Lock in the Vindicator. Halfway done with you."]
-		quest.6A452BFC8A967C39.title: "Feral Claws"
-		quest.6A452BFC8A967C39.quest_subtitle: "Brick: the Feral Claws."
-		quest.6A452BFC8A967C39.quest_desc: ["Set sights on the Feral Claws. Modest now, mighty later."]
+		quest.6A452BFC8A967C39.title: "&c&lFeral Claws"
+		quest.6A452BFC8A967C39.quest_subtitle: "&7Strike faster, recover sooner"
+		quest.6A452BFC8A967C39.quest_desc: [
+			"&c&lFeral Claws"
+			"&8&m                            "
+			""
+			"&7Feral Claws raise your attack speed so your weapon"
+			"&7recharges quicker between swings."
+			""
+			"&c&lCategory:&r &fCombat"
+			""
+			"&e&l★ Tip:&r &7Faster swings mean more hits land at full strength."
+		]
 		quest.6A497B063CF32A5C.title: "&6&lFermented Spider Eye"
 		quest.6A497B063CF32A5C.quest_subtitle: "&7Raise the spawn count"
 		quest.6A497B063CF32A5C.quest_desc: [
@@ -11295,9 +11685,19 @@
 		quest.6B8040401B512E50.title: "Chemical Dissolution Chamber"
 		quest.6B8040401B512E50.quest_subtitle: "Mark the Chemical Dissolution Chamber done."
 		quest.6B8040401B512E50.quest_desc: ["Earn the Chemical Dissolution Chamber step by step. Small habit, big result."]
-		quest.6B8B1D5E650D5409.title: "Onion Ring"
-		quest.6B8B1D5E650D5409.quest_subtitle: "On the Onion Ring branch."
-		quest.6B8B1D5E650D5409.quest_desc: ["Add the Onion Ring to your toolkit. Bridges what you did with what is next."]
+		quest.6B8B1D5E650D5409.title: "&e&lOnion Ring"
+		quest.6B8B1D5E650D5409.quest_subtitle: "&7A quick meal sharpens your tools"
+		quest.6B8B1D5E650D5409.quest_desc: [
+			"&e&lOnion Ring"
+			"&8&m                            "
+			""
+			"&7The Onion Ring grants a temporary mining speed boost"
+			"&7every time you eat a piece of food."
+			""
+			"&e&lCategory:&r &fUtility"
+			""
+			"&e&l★ Tip:&r &7Snack before a big dig to tear through stone."
+		]
 		quest.6BC4CFFAC34390EB.title: "Iron Golem"
 		quest.6BC4CFFAC34390EB.quest_subtitle: "On the route to the Iron Golem."
 		quest.6BC4CFFAC34390EB.quest_desc: ["The Iron Golem: another rung climbed. Small habit, big result."]
@@ -11860,9 +12260,19 @@
 		quest.70BCA6401856445C.title: "Ender Dragon"
 		quest.70BCA6401856445C.quest_subtitle: "Earn it: the Ender Dragon."
 		quest.70BCA6401856445C.quest_desc: ["Mark the Ender Dragon done. Press on."]
-		quest.70C7D92844089DEB.title: "Shock Pendant"
-		quest.70C7D92844089DEB.quest_subtitle: "On the Shock Pendant branch."
-		quest.70C7D92844089DEB.quest_desc: ["Set sights on the Shock Pendant. Calm focus beats rushing."]
+		quest.70C7D92844089DEB.title: "&c&lShock Pendant"
+		quest.70C7D92844089DEB.quest_subtitle: "&7Answer attackers with lightning"
+		quest.70C7D92844089DEB.quest_desc: [
+			"&c&lShock Pendant"
+			"&8&m                            "
+			""
+			"&7The Shock Pendant has a chance to strike attackers with"
+			"&7a bolt of lightning whenever they hit you."
+			""
+			"&c&lCategory:&r &fCombat"
+			""
+			"&e&l★ Tip:&r &7Lightning can spark fires. Mind your surroundings indoors."
+		]
 		quest.70D2C5FAC661E01A.title: "&b&lHeart Seashelf"
 		quest.70D2C5FAC661E01A.quest_subtitle: "&7The Heart Seashelf, an enchanting shelf"
 		quest.70D2C5FAC661E01A.quest_desc: [
@@ -11954,9 +12364,19 @@
 		quest.71869B1D81D6A7EF.title: "Pressurized Reaction Chamber"
 		quest.71869B1D81D6A7EF.quest_subtitle: "Quiet milestone with the Pressurized Reaction Chamber."
 		quest.71869B1D81D6A7EF.quest_desc: ["The Pressurized Reaction Chamber: small object, real progress. Bookkeeping matters."]
-		quest.7188DC06A28AE30E.title: "Golden Hook"
-		quest.7188DC06A28AE30E.quest_subtitle: "Tiny step: the Golden Hook."
-		quest.7188DC06A28AE30E.quest_desc: ["The Golden Hook is a quiet milestone. Saved for later use."]
+		quest.7188DC06A28AE30E.title: "&e&lGolden Hook"
+		quest.7188DC06A28AE30E.quest_subtitle: "&7Reap more XP from every kill"
+		quest.7188DC06A28AE30E.quest_desc: [
+			"&e&lGolden Hook"
+			"&8&m                            "
+			""
+			"&7The Golden Hook increases the experience that creatures"
+			"&7drop when you defeat them."
+			""
+			"&e&lCategory:&r &fUtility"
+			""
+			"&e&l★ Tip:&r &7Wear it during mob grinding to level up far faster."
+		]
 		quest.71914A308F99C6C6.title: "Sheep Fossil Body"
 		quest.71914A308F99C6C6.quest_subtitle: "The Sheep Fossil Body pays its way."
 		quest.71914A308F99C6C6.quest_desc: ["Pick up the Sheep Fossil Body. Worth more than its tooltip says."]
@@ -12061,9 +12481,19 @@
 		quest.72D45A51544140E2.title: "Foliaath"
 		quest.72D45A51544140E2.quest_subtitle: "Earn it: the Foliaath."
 		quest.72D45A51544140E2.quest_desc: ["Find a way to the Foliaath. Patient runs win."]
-		quest.72D6265E35814927.title: "Cross Necklace"
-		quest.72D6265E35814927.quest_subtitle: "earnest milestone: the Cross Necklace."
-		quest.72D6265E35814927.quest_desc: ["Unlock the Cross Necklace. Quiet capital."]
+		quest.72D6265E35814927.title: "&a&lCross Necklace"
+		quest.72D6265E35814927.quest_subtitle: "&7Longer mercy after a hit"
+		quest.72D6265E35814927.quest_desc: [
+			"&a&lCross Necklace"
+			"&8&m                            "
+			""
+			"&7The Cross Necklace lengthens your invincibility window"
+			"&7after taking damage, so rapid hits cannot chain on you."
+			""
+			"&a&lCategory:&r &fDefense"
+			""
+			"&e&l★ Tip:&r &7It shines against fast attackers and crowds of mobs."
+		]
 		quest.72D97CF2C936CFF8.title: "Warp Dust"
 		quest.72D97CF2C936CFF8.quest_subtitle: "A Warp Dust for the road."
 		quest.72D97CF2C936CFF8.quest_desc: ["Stamp the Warp Dust into your dossier. Press on."]
@@ -12146,9 +12576,19 @@
 		quest.73B2818EDAAA8BE1.title: "Ravager"
 		quest.73B2818EDAAA8BE1.quest_subtitle: "Earn it: the Ravager."
 		quest.73B2818EDAAA8BE1.quest_desc: ["Stockpile the Ravager. Friendly nudge."]
-		quest.73B73870B29DFAD9.title: "Villager Hat"
-		quest.73B73870B29DFAD9.quest_subtitle: "Earn it: the Villager Hat."
-		quest.73B73870B29DFAD9.quest_desc: ["Bring back the Villager Hat. Small habit, big result."]
+		quest.73B73870B29DFAD9.title: "&6&lVillager Hat"
+		quest.73B73870B29DFAD9.quest_subtitle: "&7Haggle every trade cheaper"
+		quest.73B73870B29DFAD9.quest_desc: [
+			"&6&lVillager Hat"
+			"&8&m                            "
+			""
+			"&7The Villager Hat lowers your trading prices with"
+			"&7villagers, as if you always carried hero reputation."
+			""
+			"&6&lCategory:&r &fHeadgear"
+			""
+			"&e&l★ Tip:&r &7Wear it before stocking up at a trading hall."
+		]
 		quest.73C7A44F05AB6FAC.title: "&d&lOrbit Glyph"
 		quest.73C7A44F05AB6FAC.quest_subtitle: "&7The Orbit Glyph, a word of magic"
 		quest.73C7A44F05AB6FAC.quest_desc: [
@@ -12220,9 +12660,19 @@
 		quest.73FA10FDFA2EBDE1.title: "Armored Giant"
 		quest.73FA10FDFA2EBDE1.quest_subtitle: "Brick: the Armored Giant."
 		quest.73FA10FDFA2EBDE1.quest_desc: ["The Armored Giant pays for itself. One brick in a larger wall."]
-		quest.73FC51144FC2DA52.title: "Vampiric Glove"
-		quest.73FC51144FC2DA52.quest_subtitle: "On the Vampiric Glove branch."
-		quest.73FC51144FC2DA52.quest_desc: ["Take the Vampiric Glove. Closer than the map suggests."]
+		quest.73FC51144FC2DA52.title: "&c&lVampiric Glove"
+		quest.73FC51144FC2DA52.quest_subtitle: "&7Steal life from every blow"
+		quest.73FC51144FC2DA52.quest_desc: [
+			"&c&lVampiric Glove"
+			"&8&m                            "
+			""
+			"&7Worn on the hand, the Vampiric Glove makes your melee"
+			"&7attacks absorb health from foes, healing you as you fight."
+			""
+			"&c&lCategory:&r &fCombat"
+			""
+			"&e&l★ Tip:&r &7Great for long fights. The more you swing, the longer you last."
+		]
 		quest.7408CCF998D9CD37.title: "&d&lNetherite Spell Book"
 		quest.7408CCF998D9CD37.quest_subtitle: "&7A spell book of the metal tiers"
 		quest.7408CCF998D9CD37.quest_desc: [
@@ -12292,9 +12742,19 @@
 		quest.74FC492D838F4244.title: "Carminite Ghastguard"
 		quest.74FC492D838F4244.quest_subtitle: "Carry the Carminite Ghastguard forward."
 		quest.74FC492D838F4244.quest_desc: ["Bring back the Carminite Ghastguard. Closer than the map suggests."]
-		quest.7503823ACDDB0491.title: "Lucky Scarf"
-		quest.7503823ACDDB0491.quest_subtitle: "Add one Lucky Scarf."
-		quest.7503823ACDDB0491.quest_desc: ["Pocket the Lucky Scarf. The chain holds."]
+		quest.7503823ACDDB0491.title: "&e&lLucky Scarf"
+		quest.7503823ACDDB0491.quest_subtitle: "&7Extra fortune on every block"
+		quest.7503823ACDDB0491.quest_desc: [
+			"&e&lLucky Scarf"
+			"&8&m                            "
+			""
+			"&7The Lucky Scarf applies an extra level of Fortune to the"
+			"&7blocks you mine, for bigger ore and crop yields."
+			""
+			"&e&lCategory:&r &fUtility"
+			""
+			"&e&l★ Tip:&r &7It stacks with the Fortune enchantment on your pickaxe."
+		]
 		quest.7504C231FD7BD4B4.title: "Ravager"
 		quest.7504C231FD7BD4B4.quest_subtitle: "Add one Ravager."
 		quest.7504C231FD7BD4B4.quest_desc: ["Earn the Ravager by playing the long game. Closer than the map suggests."]
@@ -12614,9 +13074,19 @@
 			""
 			"&e&l★ Tip:&r &7Charge it with glowstone. Each respawn uses one charge."
 		]
-		quest.789AF6D0A6321945.title: "Whoopee Cushion"
-		quest.789AF6D0A6321945.quest_subtitle: "A Whoopee Cushion for the road."
-		quest.789AF6D0A6321945.quest_desc: ["Find your way to the Whoopee Cushion. The shortcut is not here."]
+		quest.789AF6D0A6321945.title: "&6&lWhoopee Cushion"
+		quest.789AF6D0A6321945.quest_subtitle: "&7A wearable prank"
+		quest.789AF6D0A6321945.quest_desc: [
+			"&6&lWhoopee Cushion"
+			"&8&m                            "
+			""
+			"&7The Whoopee Cushion is a joke artifact. It simply makes"
+			"&7the wearer break wind far more often than usual."
+			""
+			"&6&lCategory:&r &fHeadgear"
+			""
+			"&e&l★ Tip:&r &7Pure comedy with no combat value. A gag gift between friends."
+		]
 		quest.78A9855CB6F3B91D.title: "&d&lHiveheart"
 		quest.78A9855CB6F3B91D.quest_subtitle: "&7Hiveheart, a unique legendary blade"
 		quest.78A9855CB6F3B91D.quest_desc: [
