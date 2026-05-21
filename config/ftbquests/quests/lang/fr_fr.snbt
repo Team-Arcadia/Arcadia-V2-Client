@@ -415,9 +415,20 @@
 		quest.01073AA85CA14C9D.title: "Elder Guardian"
 		quest.01073AA85CA14C9D.quest_subtitle: "Decrochez le Elder Guardian ce run."
 		quest.01073AA85CA14C9D.quest_desc: ["Decrochez le Elder Guardian. Le raccourci n est pas ici."]
-		quest.0107D516E038E0DB.title: "Lich Trophy"
-		quest.0107D516E038E0DB.quest_subtitle: "Reservez le Lich Trophy pour plus tard."
-		quest.0107D516E038E0DB.quest_desc: ["Acquerez le Lich Trophy. La chaine tient."]
+		quest.0107D516E038E0DB.title: "&c&lLa Liche"
+		quest.0107D516E038E0DB.quest_subtitle: "&7Brisez la malediction de la tour"
+		quest.0107D516E038E0DB.quest_desc: [
+			"&c&lLa Liche"
+			"&8&m                            "
+			""
+			"&7Vainquez la Liche Crepusculaire une fois au sommet de"
+			"&7sa tour. Sa chute leve la malediction des bois profonds."
+			""
+			"&c&lCategorie:&r &fBoss"
+			"&a&lDebloque:&r &fLa foret profonde et le Labyrinthe du Minoshroom"
+			""
+			"&e&l★ Astuce:&r &7Renvoyez ses propres projectiles pour briser ses boucliers."
+		]
 		quest.01119871B1D5C576.title: "Structure"
 		quest.01119871B1D5C576.quest_subtitle: "Gagnez-le : le Structure."
 		quest.01119871B1D5C576.quest_desc: ["Attrapez le Structure. Le progres tranquille bat les revers bruyants."]
@@ -440,9 +451,19 @@
 		quest.0162C52F3CEFC932.title: "Lower Goblin Knight"
 		quest.0162C52F3CEFC932.quest_subtitle: "Emportez le Lower Goblin Knight."
 		quest.0162C52F3CEFC932.quest_desc: ["Empochez le Lower Goblin Knight. Vaut le coup de noter."]
-		quest.01748C2CD9C97523.title: "Reappearing Block"
-		quest.01748C2CD9C97523.quest_subtitle: "Gagnez-le : le Reappearing Block."
-		quest.01748C2CD9C97523.quest_desc: ["Verrouillez le Reappearing Block. Continuez."]
+		quest.01748C2CD9C97523.title: "&b&lBlocs-Enigmes de la Tour"
+		quest.01748C2CD9C97523.quest_subtitle: "&7Maitrisez le labyrinthe evanescent"
+		quest.01748C2CD9C97523.quest_desc: [
+			"&b&lBlocs-Enigmes de la Tour"
+			"&8&m                            "
+			""
+			"&7Recoltez le bloc reapparaissant et le bloc disparaissant"
+			"&7dans les salles a enigmes de la Tour Sombre."
+			""
+			"&b&lCategorie:&r &fUtilitaire"
+			""
+			"&e&l★ Astuce:&r &7Ils clignotent. Synchronisez vos pas pour traverser sans danger."
+		]
 		quest.017C88D938E7411D.title: "Ghast"
 		quest.017C88D938E7411D.quest_subtitle: "Notez le Ghast comme fait."
 		quest.017C88D938E7411D.quest_desc: ["Rayez le Ghast. Paye son propre fret."]
@@ -591,9 +612,20 @@
 		quest.0441C8A0F8DCC3F6.title: "Windmill"
 		quest.0441C8A0F8DCC3F6.quest_subtitle: "Un pas net vers le Windmill."
 		quest.0441C8A0F8DCC3F6.quest_desc: ["Rapportez le Windmill. Vaut le coup de noter."]
-		quest.04440BB2EFFD6DD9.title: "Minoshroom Trophy"
-		quest.04440BB2EFFD6DD9.quest_subtitle: "Saut concentre : le Minoshroom Trophy."
-		quest.04440BB2EFFD6DD9.quest_desc: ["Rayez le Minoshroom Trophy. Une graine pour la boule de neige."]
+		quest.04440BB2EFFD6DD9.title: "&c&lLe Minoshroom"
+		quest.04440BB2EFFD6DD9.quest_subtitle: "&7Vainquez le gardien du labyrinthe"
+		quest.04440BB2EFFD6DD9.quest_desc: [
+			"&c&lLe Minoshroom"
+			"&8&m                            "
+			""
+			"&7Vainquez le Minoshroom une fois au coeur du Labyrinthe"
+			"&7et prenez son trophee. Cela ouvre le Marais de Feu."
+			""
+			"&c&lCategorie:&r &fBoss"
+			"&a&lDebloque:&r &fLa voie vers le Marais de Feu et l Hydre"
+			""
+			"&e&l★ Astuce:&r &7Il frappe fort au corps a corps. Bougez et punissez ses coups."
+		]
 		quest.045966CAD1134091.title: "Stable Ice Core"
 		quest.045966CAD1134091.quest_subtitle: "Reservez le Stable Ice Core pour plus tard."
 		quest.045966CAD1134091.quest_desc: ["Enveloppez le Stable Ice Core. Allez-y a votre rythme."]
@@ -946,9 +978,19 @@
 		quest.09830BB2A23E94B4.title: "Upgrade Chemical"
 		quest.09830BB2A23E94B4.quest_subtitle: "Le detour Upgrade Chemical en vaut la peine."
 		quest.09830BB2A23E94B4.quest_desc: ["Le Upgrade Chemical : un objet qui fait boule de neige. Un barreau de plus a gravir."]
-		quest.0990D6CEE042F44E.title: "Magic Map"
-		quest.0990D6CEE042F44E.quest_subtitle: "Renforcez la chaine du Magic Map."
-		quest.0990D6CEE042F44E.quest_desc: ["Rapportez le Magic Map. Faites confiance a la chaine."]
+		quest.0990D6CEE042F44E.title: "&a&lCarte Magique"
+		quest.0990D6CEE042F44E.quest_subtitle: "&7Cartographiez le royaume enchante"
+		quest.0990D6CEE042F44E.quest_desc: [
+			"&a&lCarte Magique"
+			"&8&m                            "
+			""
+			"&7Fabriquez une carte magique. Elle revele les biomes et"
+			"&7les grands reperes de la Foret Crepusculaire autour de vous."
+			""
+			"&a&lCategorie:&r &fExploration"
+			""
+			"&e&l★ Astuce:&r &7La carte magique marque les structures de boss. Planifiez votre route."
+		]
 		quest.099C2A9B9CA138F8.title: "Mythic Material"
 		quest.099C2A9B9CA138F8.quest_subtitle: "Saut sincere : le Mythic Material."
 		quest.099C2A9B9CA138F8.quest_desc: ["Ajoutez le Mythic Material. Une brique de plus dans un mur."]
@@ -988,9 +1030,19 @@
 		quest.0A1EE9739FBE467A.title: "Ravager"
 		quest.0A1EE9739FBE467A.quest_subtitle: "Notez le Ravager comme fait."
 		quest.0A1EE9739FBE467A.quest_desc: ["Prenez possession du Ravager. Les runs patients gagnent."]
-		quest.0A207A437AF153AA.title: "Phantom Helmet"
-		quest.0A207A437AF153AA.quest_subtitle: "Sur la route du Phantom Helmet."
-		quest.0A207A437AF153AA.quest_desc: ["Gagnez le Phantom Helmet pas a pas. Le raccourci n est pas ici."]
+		quest.0A207A437AF153AA.title: "&9&lArmure Fantome"
+		quest.0A207A437AF153AA.quest_subtitle: "&7L armure des chevaliers hantes"
+		quest.0A207A437AF153AA.quest_desc: [
+			"&9&lArmure Fantome"
+			"&8&m                            "
+			""
+			"&7Forgez l armure fantome avec les butins des chevaliers"
+			"&7fantomes: casque et plastron, brillant d une lueur spectrale."
+			""
+			"&9&lCategorie:&r &fArmure"
+			""
+			"&e&l★ Astuce:&r &7L armure fantome a deux pieces et permet un bref vol."
+		]
 		quest.0A25276925EB0CBA.title: "Chalk White Impure"
 		quest.0A25276925EB0CBA.quest_subtitle: "Gagnez-le : le Chalk White Impure."
 		quest.0A25276925EB0CBA.quest_desc: ["Saisissez le Chalk White Impure. La route en apprend autant que la prise."]
@@ -1220,9 +1272,19 @@
 		quest.0E986EA18E9E4BB2.title: "Maze Slime"
 		quest.0E986EA18E9E4BB2.quest_subtitle: "Gagnez-le : le Maze Slime."
 		quest.0E986EA18E9E4BB2.quest_desc: ["Gagnez le Maze Slime a la sueur du front. Porteur, pas voyant."]
-		quest.0E9DE6293DF611E1.title: "Transformation Powder"
-		quest.0E9DE6293DF611E1.quest_subtitle: "Etape calme avec le Transformation Powder."
-		quest.0E9DE6293DF611E1.quest_desc: ["Tirez le Transformation Powder dans votre kit. Cap intermediaire."]
+		quest.0E9DE6293DF611E1.title: "&d&lPoudre de Transformation"
+		quest.0E9DE6293DF611E1.quest_subtitle: "&7Remodelez les creatures autour de vous"
+		quest.0E9DE6293DF611E1.quest_desc: [
+			"&d&lPoudre de Transformation"
+			"&8&m                            "
+			""
+			"&7Fabriquez de la poudre de transformation. Saupoudree"
+			"&7sur un monstre, elle le change en creature apparentee."
+			""
+			"&d&lCategorie:&r &fMagie"
+			""
+			"&e&l★ Astuce:&r &7Transformez un monstre hostile en inoffensif, ou l inverse."
+		]
 		quest.0EC08C5BBFA83A51.title: "Glyph Lightning"
 		quest.0EC08C5BBFA83A51.quest_subtitle: "Petit pas : le Glyph Lightning."
 		quest.0EC08C5BBFA83A51.quest_desc: ["Empochez le Glyph Lightning. La route en apprend autant que la prise."]
@@ -1555,9 +1617,19 @@
 		quest.111AF580E2915C69.title: "Objective"
 		quest.111AF580E2915C69.quest_subtitle: "Gagnez-le : le signe."
 		quest.111AF580E2915C69.quest_desc: ["Obtenez le signe avant d aller plus loin. Un barreau de plus a gravir."]
-		quest.111F2EE85FB0A455.title: "Fiery Sword"
-		quest.111F2EE85FB0A455.quest_subtitle: "Gain modeste : le Fiery Sword."
-		quest.111F2EE85FB0A455.quest_desc: ["Attrapez le Fiery Sword. Les runs patients gagnent."]
+		quest.111F2EE85FB0A455.title: "&e&lOutils Ardents"
+		quest.111F2EE85FB0A455.quest_subtitle: "&7Une epee et une pioche qui brulent"
+		quest.111F2EE85FB0A455.quest_desc: [
+			"&e&lOutils Ardents"
+			"&8&m                            "
+			""
+			"&7Forgez l epee ardente et la pioche ardente. Toutes"
+			"&7deux enflamment ce qu elles touchent."
+			""
+			"&e&lCategorie:&r &fArme"
+			""
+			"&e&l★ Astuce:&r &7La pioche ardente fond le minerai automatiquement en minant."
+		]
 		quest.1132D226B858C077.title: "&f&lNetherite-Iron Casque"
 		quest.1132D226B858C077.quest_subtitle: "&7Casque de la panoplie Netherite-Iron."
 		quest.1132D226B858C077.quest_desc: [
@@ -1755,9 +1827,19 @@
 		quest.145F289BB1DA8493.title: "White Anti Radiation Helmet"
 		quest.145F289BB1DA8493.quest_subtitle: "Un pas sincere vers le White Anti Radiation Helmet."
 		quest.145F289BB1DA8493.quest_desc: ["Le White Anti Radiation Helmet est au menu. Le chapitre tourne autour."]
-		quest.1464D45C474464DB.title: "Peacock Feather Fan"
-		quest.1464D45C474464DB.quest_subtitle: "Un Peacock Feather Fan, une victoire serein."
-		quest.1464D45C474464DB.quest_desc: ["Notez le Peacock Feather Fan comme acquis. Cela compte."]
+		quest.1464D45C474464DB.title: "&d&lEventail de Plumes de Paon"
+		quest.1464D45C474464DB.quest_subtitle: "&7Bondissez et planez sur le vent"
+		quest.1464D45C474464DB.quest_desc: [
+			"&d&lEventail de Plumes de Paon"
+			"&8&m                            "
+			""
+			"&7Fabriquez l eventail de plumes de paon. Utilisez-le en"
+			"&7l air pour un sursaut de portance et une chute en douceur."
+			""
+			"&d&lCategorie:&r &fMagie"
+			""
+			"&e&l★ Astuce:&r &7Il transforme les chutes mortelles en descente douce. Gardez-en un."
+		]
 		quest.147A70AD6E9B4933.title: "Hostile Wolf"
 		quest.147A70AD6E9B4933.quest_subtitle: "Le Hostile Wolf est un point d etape."
 		quest.147A70AD6E9B4933.quest_desc: ["Le Hostile Wolf : un objet qui fait boule de neige. La porte suivante est en vue."]
@@ -1779,9 +1861,19 @@
 		quest.14DB8A515CA50932.title: "Enchanters Sword"
 		quest.14DB8A515CA50932.quest_subtitle: "Un Enchanters Sword pour la route."
 		quest.14DB8A515CA50932.quest_desc: ["Le Enchanters Sword : un point d etape utile. Regulier est rapide."]
-		quest.15006CF73F8CAB7C.title: "Charm Of Life 2"
-		quest.15006CF73F8CAB7C.quest_subtitle: "Sur la route du Charm Of Life 2."
-		quest.15006CF73F8CAB7C.quest_desc: ["Enveloppez le Charm Of Life 2. Paye son propre fret."]
+		quest.15006CF73F8CAB7C.title: "&b&lCharme de Vie II"
+		quest.15006CF73F8CAB7C.quest_subtitle: "&7Relevez-vous en pleine sante"
+		quest.15006CF73F8CAB7C.quest_desc: [
+			"&b&lCharme de Vie II"
+			"&8&m                            "
+			""
+			"&7Fabriquez le Charme de Vie II. Une amelioration qui"
+			"&7vous ressuscite avec bien plus de sante."
+			""
+			"&b&lCategorie:&r &fUtilitaire"
+			""
+			"&e&l★ Astuce:&r &7Le meilleur filet pour les combats que vous ne pouvez pas perdre."
+		]
 		quest.150632A4D042ED3E.title: "Objective"
 		quest.150632A4D042ED3E.quest_subtitle: "Petit pas : le cap."
 		quest.150632A4D042ED3E.quest_desc: ["Le cap ouvre plus de portes qu il n y parait. La porte suivante est en vue."]
@@ -2383,9 +2475,19 @@
 		quest.1FDCE29BC1C93A4E.title: "Piglin Brute"
 		quest.1FDCE29BC1C93A4E.quest_subtitle: "Run honnete, un seul Piglin Brute."
 		quest.1FDCE29BC1C93A4E.quest_desc: ["Notez le Piglin Brute comme obtenu. Continuez."]
-		quest.1FF5906DF721D091.title: "Fiery Helmet"
-		quest.1FF5906DF721D091.quest_subtitle: "Le Fiery Helmet : porteur."
-		quest.1FF5906DF721D091.quest_desc: ["Le Fiery Helmet : un point d etape utile. Fait le pont entre l avant et l apres."]
+		quest.1FF5906DF721D091.title: "&9&lArmure Ardente"
+		quest.1FF5906DF721D091.quest_subtitle: "&7Une armure qui ne brule jamais"
+		quest.1FF5906DF721D091.quest_desc: [
+			"&9&lArmure Ardente"
+			"&8&m                            "
+			""
+			"&7Forgez la panoplie ardente complete: casque, plastron,"
+			"&7jambieres et bottes, trempes dans le sang ardent."
+			""
+			"&9&lCategorie:&r &fArmure"
+			""
+			"&e&l★ Astuce:&r &7L armure ardente offre l immunite au feu. Indispensable avant l Hydre."
+		]
 		quest.2000000000000001.title: "&b&lEntrer dans l End"
 		quest.2000000000000001.quest_subtitle: "&7Penetrez la dimension finale"
 		quest.2000000000000001.quest_desc: [
@@ -2531,9 +2633,19 @@
 		quest.2037749C8F9A4F6F.title: "Vindicator"
 		quest.2037749C8F9A4F6F.quest_subtitle: "Sur la route du Vindicator."
 		quest.2037749C8F9A4F6F.quest_desc: ["Trouvez le Vindicator. Vous avez merite une pause."]
-		quest.20436AFCC7E6855D.title: "Giant Pickaxe"
-		quest.20436AFCC7E6855D.quest_subtitle: "Le Giant Pickaxe ouvre plus."
-		quest.20436AFCC7E6855D.quest_desc: ["Gagnez le Giant Pickaxe. Le progres tranquille bat les revers bruyants."]
+		quest.20436AFCC7E6855D.title: "&e&lPioche Geante"
+		quest.20436AFCC7E6855D.quest_subtitle: "&7Minez par blocs de quatre"
+		quest.20436AFCC7E6855D.quest_desc: [
+			"&e&lPioche Geante"
+			"&8&m                            "
+			""
+			"&7Forgez la pioche geante. Un outil massif qui casse un"
+			"&7cube de pierre de quatre sur quatre sur quatre d un coup."
+			""
+			"&e&lCategorie:&r &fArme"
+			""
+			"&e&l★ Astuce:&r &7Lente mais puissante. Parfaite pour vider de grands espaces."
+		]
 		quest.204B969DA081056A.title: "Necromancer"
 		quest.204B969DA081056A.quest_subtitle: "Empoche : le Necromancer."
 		quest.204B969DA081056A.quest_desc: ["Verrouillez le Necromancer. Boule de neige a partir d ici."]
@@ -2564,9 +2676,19 @@
 		quest.210034459566144E.title: "Stable Ice Core"
 		quest.210034459566144E.quest_subtitle: "Sur la branche du Stable Ice Core."
 		quest.210034459566144E.quest_desc: ["Enveloppez le Stable Ice Core. Le raccourci n est pas ici."]
-		quest.212EC1F41227184D.title: "Twilight Scepter"
-		quest.212EC1F41227184D.quest_subtitle: "Un pas soigne vers le Twilight Scepter."
-		quest.212EC1F41227184D.quest_desc: ["Ajoutez le Twilight Scepter a votre journal. Vaut plus que son texte annonce."]
+		quest.212EC1F41227184D.title: "&d&lSceptre Crepusculaire"
+		quest.212EC1F41227184D.quest_subtitle: "&7Dechainez une pluie de perles"
+		quest.212EC1F41227184D.quest_desc: [
+			"&d&lSceptre Crepusculaire"
+			"&8&m                            "
+			""
+			"&7Recuperez le sceptre crepusculaire, lache par la"
+			"&7Liche. Il tire des perles magiques rebondissantes."
+			""
+			"&d&lCategorie:&r &fMagie"
+			""
+			"&e&l★ Astuce:&r &7Ses charges sont limitees. Rechargez-le sur la Liche elle-meme."
+		]
 		quest.2171A5DE8FED4218.title: "&e&lStructures de l End"
 		quest.2171A5DE8FED4218.quest_subtitle: "&7Explorez l End elargi"
 		quest.2171A5DE8FED4218.quest_desc: [
@@ -2808,9 +2930,19 @@
 		quest.258B4890CF13D199.title: "Magehunter"
 		quest.258B4890CF13D199.quest_subtitle: "Le detour Magehunter en vaut la peine."
 		quest.258B4890CF13D199.quest_desc: ["Ajoutez le Magehunter. Modeste maintenant, puissant plus tard."]
-		quest.25906B43A198B72F.title: "Knightmetal Helmet"
-		quest.25906B43A198B72F.quest_subtitle: "Emportez le Knightmetal Helmet."
-		quest.25906B43A198B72F.quest_desc: ["Marquez le Knightmetal Helmet. Une brique de plus dans un mur."]
+		quest.25906B43A198B72F.title: "&9&lArmure en Metal de Chevalier"
+		quest.25906B43A198B72F.quest_subtitle: "&7Le blindage de la forteresse gobeline"
+		quest.25906B43A198B72F.quest_desc: [
+			"&9&lArmure en Metal de Chevalier"
+			"&8&m                            "
+			""
+			"&7Forgez la panoplie complete en metal de chevalier:"
+			"&7casque, plastron, jambieres et bottes, solide et lourde."
+			""
+			"&9&lCategorie:&r &fArmure"
+			""
+			"&e&l★ Astuce:&r &7Le metal de chevalier se repare lentement quand vous etes immobile."
+		]
 		quest.25982EBB98C4F877.title: "Maze Slime"
 		quest.25982EBB98C4F877.quest_subtitle: "Un pas resolu vers le Maze Slime."
 		quest.25982EBB98C4F877.quest_desc: ["Notez le Maze Slime comme acquis. Petit rappel amical."]
@@ -3005,9 +3137,19 @@
 		quest.2949D126E9B7A9D4.title: "Giant Miner"
 		quest.2949D126E9B7A9D4.quest_subtitle: "Cap soigne : le Giant Miner."
 		quest.2949D126E9B7A9D4.quest_desc: ["Gagnez le Giant Miner. Il vaut plus que son texte annonce. Plus proche que la carte ne suggere."]
-		quest.2951B1D7080C5EF9.title: "Thorn Rose"
-		quest.2951B1D7080C5EF9.quest_subtitle: "Le detour Thorn Rose en vaut la peine."
-		quest.2951B1D7080C5EF9.quest_desc: ["Recuperez le Thorn Rose en chemin. Paye son propre fret."]
+		quest.2951B1D7080C5EF9.title: "&d&lRose des Ronces"
+		quest.2951B1D7080C5EF9.quest_subtitle: "&7Une fleur des terres maudites"
+		quest.2951B1D7080C5EF9.quest_desc: [
+			"&d&lRose des Ronces"
+			"&8&m                            "
+			""
+			"&7Recoltez une rose des ronces dans les Terres aux"
+			"&7Ronces. Une fleur dangereuse qui ne pousse que la-bas."
+			""
+			"&d&lCategorie:&r &fMagie"
+			""
+			"&e&l★ Astuce:&r &7Mefiez-vous des ronces voisines. Elles blessent au moindre contact."
+		]
 		quest.295703FC5B92D0E6.title: "Glyph Slowfall"
 		quest.295703FC5B92D0E6.quest_subtitle: "Le Glyph Slowfall : clin d oeil du chapitre."
 		quest.295703FC5B92D0E6.quest_desc: ["Capturez le Glyph Slowfall. Vaut le coup de noter."]
@@ -3056,9 +3198,19 @@
 		quest.2A032EC573B5316C.title: "Advancement"
 		quest.2A032EC573B5316C.quest_subtitle: "Decrochez le Advancement ce run."
 		quest.2A032EC573B5316C.quest_desc: ["Obtenez le Advancement avant d aller plus loin. Continuez."]
-		quest.2A0B3C91D72E8B75.title: "Arctic Helmet"
-		quest.2A0B3C91D72E8B75.quest_subtitle: "Un Arctic Helmet pour la route."
-		quest.2A0B3C91D72E8B75.quest_desc: ["Gagnez le Arctic Helmet pas a pas. Vaut plus que son texte annonce."]
+		quest.2A0B3C91D72E8B75.title: "&9&lArmure Arctique"
+		quest.2A0B3C91D72E8B75.quest_subtitle: "&7Un equipement leger et teignable"
+		quest.2A0B3C91D72E8B75.quest_desc: [
+			"&9&lArmure Arctique"
+			"&8&m                            "
+			""
+			"&7Forgez la panoplie arctique complete: casque, plastron,"
+			"&7jambieres et bottes, legere et entierement teignable."
+			""
+			"&9&lCategorie:&r &fArmure"
+			""
+			"&e&l★ Astuce:&r &7L armure arctique se teint de toute couleur. Camouflez-vous dans la neige."
+		]
 		quest.2A123C3EDA0CF924.title: "Zoglin"
 		quest.2A123C3EDA0CF924.quest_subtitle: "Notez le Zoglin comme fait."
 		quest.2A123C3EDA0CF924.quest_desc: ["Pliez le Zoglin. Visez la chose d apres."]
@@ -3192,9 +3344,19 @@
 		quest.2BD169D97A624365.title: "Piglin Brute"
 		quest.2BD169D97A624365.quest_subtitle: "Saut lumineux : le Piglin Brute."
 		quest.2BD169D97A624365.quest_desc: ["On vous demande le Piglin Brute. Visez la chose d apres."]
-		quest.2BEBF66D7EA594FA.title: "Steeleaf Helmet"
-		quest.2BEBF66D7EA594FA.quest_subtitle: "Renforcez la chaine du Steeleaf Helmet."
-		quest.2BEBF66D7EA594FA.quest_desc: ["Notez le Steeleaf Helmet comme acquis. Le progres tranquille bat les revers bruyants."]
+		quest.2BEBF66D7EA594FA.title: "&9&lArmure en Acierfeuille"
+		quest.2BEBF66D7EA594FA.quest_subtitle: "&7Une armure nee de la foret"
+		quest.2BEBF66D7EA594FA.quest_desc: [
+			"&9&lArmure en Acierfeuille"
+			"&8&m                            "
+			""
+			"&7Forgez la panoplie complete en acierfeuille: casque,"
+			"&7plastron, jambieres et bottes, des feuilles durcies en metal."
+			""
+			"&9&lCategorie:&r &fArmure"
+			""
+			"&e&l★ Astuce:&r &7L acierfeuille est leger mais solide, une armure precoce du chapitre."
+		]
 		quest.2BF9428BDA918702.title: "Stray"
 		quest.2BF9428BDA918702.quest_subtitle: "Gagnez-le : le Stray."
 		quest.2BF9428BDA918702.quest_desc: ["Verrouillez le Stray. Cap intermediaire."]
@@ -3542,9 +3704,20 @@
 		quest.31B73D16C0199785.title: "Ingot Refined Obsidian"
 		quest.31B73D16C0199785.quest_subtitle: "Objectif du jour : le Ingot Refined Obsidian."
 		quest.31B73D16C0199785.quest_desc: ["Enveloppez le Ingot Refined Obsidian. Petit rappel amical."]
-		quest.31BB7EB95CE73C1A.title: "Alpha Yeti Trophy"
-		quest.31BB7EB95CE73C1A.quest_subtitle: "Un Alpha Yeti Trophy, une victoire calme."
-		quest.31BB7EB95CE73C1A.quest_desc: ["Ajoutez le Alpha Yeti Trophy a votre attirail. La route en apprend autant que la prise."]
+		quest.31BB7EB95CE73C1A.title: "&c&lYeti Alpha"
+		quest.31BB7EB95CE73C1A.quest_subtitle: "&7Renversez le seigneur de l antre"
+		quest.31BB7EB95CE73C1A.quest_desc: [
+			"&c&lYeti Alpha"
+			"&8&m                            "
+			""
+			"&7Vainquez le Yeti Alpha une fois dans sa grotte glacee"
+			"&7et prenez son trophee. Cela ouvre le Glacier au-dela."
+			""
+			"&c&lCategorie:&r &fBoss"
+			"&a&lDebloque:&r &fLe Glacier et la Reine des Neiges"
+			""
+			"&e&l★ Astuce:&r &7Il vous projette partout. Combattez pres d un sol mou."
+		]
 		quest.31BF04F3FF4D6343.title: "&a&lEquipement en Zanite"
 		quest.31BF04F3FF4D6343.quest_subtitle: "&7Armure et outils en zanite"
 		quest.31BF04F3FF4D6343.quest_desc: [
@@ -3636,9 +3809,19 @@
 		quest.3368B5E98BEE4704.title: "Carminite Golem"
 		quest.3368B5E98BEE4704.quest_subtitle: "Saut calme : le Carminite Golem."
 		quest.3368B5E98BEE4704.quest_desc: ["Marquez un Carminite Golem. Vaut le coup de noter."]
-		quest.3371570F189DF994.title: "Fortification Scepter"
-		quest.3371570F189DF994.quest_subtitle: "Renforcez la chaine du Fortification Scepter."
-		quest.3371570F189DF994.quest_desc: ["Ajoutez le Fortification Scepter a votre journal. Les runs patients gagnent."]
+		quest.3371570F189DF994.title: "&d&lSceptre de Fortification"
+		quest.3371570F189DF994.quest_subtitle: "&7Protegez-vous d une pensee"
+		quest.3371570F189DF994.quest_desc: [
+			"&d&lSceptre de Fortification"
+			"&8&m                            "
+			""
+			"&7Recuperez le sceptre de fortification. Il vous enveloppe"
+			"&7d une barriere scintillante qui absorbe les coups."
+			""
+			"&d&lCategorie:&r &fMagie"
+			""
+			"&e&l★ Astuce:&r &7Levez le bouclier avant le gros coup, pas apres."
+		]
 		quest.3376292DB572B21E.title: "Turbine Engine"
 		quest.3376292DB572B21E.quest_subtitle: "Saut serein : le Turbine Engine."
 		quest.3376292DB572B21E.quest_desc: ["Mettez le Turbine Engine de cote. Petit rappel amical."]
@@ -3741,9 +3924,20 @@
 		quest.3525D5DCC3A534D9.title: "Digging Claws"
 		quest.3525D5DCC3A534D9.quest_subtitle: "Mettez le Digging Claws en signet."
 		quest.3525D5DCC3A534D9.quest_desc: ["Trouvez le Digging Claws. Plus proche que la carte ne suggere."]
-		quest.3531B28F14CF72A2.title: "Naga Trophy"
-		quest.3531B28F14CF72A2.quest_subtitle: "Petit pas : le Naga Trophy."
-		quest.3531B28F14CF72A2.quest_desc: ["Gagnez le Naga Trophy. Utile plus tot que prevu."]
+		quest.3531B28F14CF72A2.title: "&c&lLe Naga"
+		quest.3531B28F14CF72A2.quest_subtitle: "&7Tuez le serpent de la cour"
+		quest.3531B28F14CF72A2.quest_desc: [
+			"&c&lLe Naga"
+			"&8&m                            "
+			""
+			"&7Vainquez le Naga une fois dans sa cour de pierre et"
+			"&7prenez son trophee. Ce premier boss lance la progression."
+			""
+			"&c&lCategorie:&r &fBoss"
+			"&a&lDebloque:&r &fLa voie vers la Liche Crepusculaire"
+			""
+			"&e&l★ Astuce:&r &7Il charge en ligne droite. Esquivez sur le cote, puis frappez."
+		]
 		quest.3539C22726EB47AE.title: "Mist Wolf"
 		quest.3539C22726EB47AE.quest_subtitle: "Ajoutez un Mist Wolf."
 		quest.3539C22726EB47AE.quest_desc: ["Prenez le Mist Wolf. Les petites victoires s additionnent."]
@@ -3905,9 +4099,19 @@
 		quest.38A1295878B68F83.title: "Iesnium Ingot"
 		quest.38A1295878B68F83.quest_subtitle: "Le Iesnium Ingot : porteur."
 		quest.38A1295878B68F83.quest_desc: ["Rayez le Iesnium Ingot. Une graine pour la boule de neige."]
-		quest.38ADDF7FF4E4892D.title: "Glass Sword"
-		quest.38ADDF7FF4E4892D.quest_subtitle: "Etape calme avec le Glass Sword."
-		quest.38ADDF7FF4E4892D.quest_desc: ["Gagnez le Glass Sword. Vous vous remercierez plus tard."]
+		quest.38ADDF7FF4E4892D.title: "&e&lEpee de Verre"
+		quest.38ADDF7FF4E4892D.quest_subtitle: "&7Un coup parfait et fragile"
+		quest.38ADDF7FF4E4892D.quest_desc: [
+			"&e&lEpee de Verre"
+			"&8&m                            "
+			""
+			"&7Forgez l epee de verre. Elle inflige des degats"
+			"&7devastateurs mais se brise apres un seul coup."
+			""
+			"&e&lCategorie:&r &fArme"
+			""
+			"&e&l★ Astuce:&r &7Gardez-la pour un boss. Un coup peut changer tout un combat."
+		]
 		quest.38B3D019FD2ABED0.title: "Skeleton Druid"
 		quest.38B3D019FD2ABED0.quest_subtitle: "Le Skeleton Druid est un point d etape."
 		quest.38B3D019FD2ABED0.quest_desc: ["Decrochez le Skeleton Druid. Porteur, pas voyant."]
@@ -3939,9 +4143,19 @@
 		quest.3905ACE55F863637.title: "Iron Golem"
 		quest.3905ACE55F863637.quest_subtitle: "Saut sincere : le Iron Golem."
 		quest.3905ACE55F863637.quest_desc: ["Trouvez le Iron Golem. Le detour en vaut la peine."]
-		quest.3908F7C80154D9CA.title: "Zombie Scepter"
-		quest.3908F7C80154D9CA.quest_subtitle: "Objectif du jour : le Zombie Scepter."
-		quest.3908F7C80154D9CA.quest_desc: ["Reservez le Zombie Scepter. La porte suivante est en vue."]
+		quest.3908F7C80154D9CA.title: "&d&lSceptre Zombie"
+		quest.3908F7C80154D9CA.quest_subtitle: "&7Levez un allie titubant"
+		quest.3908F7C80154D9CA.quest_desc: [
+			"&d&lSceptre Zombie"
+			"&8&m                            "
+			""
+			"&7Recuperez le sceptre zombie. Il invoque un zombie"
+			"&7loyal qui combat a vos cotes un court instant."
+			""
+			"&d&lCategorie:&r &fMagie"
+			""
+			"&e&l★ Astuce:&r &7Une distraction pratique. Laissez le zombie encaisser les coups."
+		]
 		quest.390DC3F338F14745.title: "Carminite Ghastguard"
 		quest.390DC3F338F14745.quest_subtitle: "Un Carminite Ghastguard, une victoire calme."
 		quest.390DC3F338F14745.quest_desc: ["Mettez le Carminite Ghastguard de cote. Vous avez merite une pause."]
@@ -4019,9 +4233,19 @@
 		quest.3A3C8333F5024378.title: "Redcap"
 		quest.3A3C8333F5024378.quest_subtitle: "Cap serein : le Redcap."
 		quest.3A3C8333F5024378.quest_desc: ["Ajoutez le Redcap. Modeste maintenant, puissant plus tard."]
-		quest.3A3ED88027331A6C.title: "Charm Of Keeping 3"
-		quest.3A3ED88027331A6C.quest_subtitle: "Gagnez le Charm Of Keeping 3, la voie egal."
-		quest.3A3ED88027331A6C.quest_desc: ["Ramenez le Charm Of Keeping 3 a bon port. Une brique de plus dans un mur."]
+		quest.3A3ED88027331A6C.title: "&b&lCharme de Conservation III"
+		quest.3A3ED88027331A6C.quest_subtitle: "&7Ne perdez plus rien"
+		quest.3A3ED88027331A6C.quest_desc: [
+			"&b&lCharme de Conservation III"
+			"&8&m                            "
+			""
+			"&7Fabriquez le Charme de Conservation III. Le palier"
+			"&7ultime: tout votre inventaire survit a une mort."
+			""
+			"&b&lCategorie:&r &fUtilitaire"
+			""
+			"&e&l★ Astuce:&r &7Usage unique. Refabriquez un charme apres chaque mort sauvee."
+		]
 		quest.3A44DCF5B7D5024C.title: "Glyph Ender Inventory"
 		quest.3A44DCF5B7D5024C.quest_subtitle: "Notez le Glyph Ender Inventory comme fait."
 		quest.3A44DCF5B7D5024C.quest_desc: ["Le Glyph Ender Inventory est le prix de la prochaine porte. Petit rappel amical."]
@@ -4130,9 +4354,19 @@
 			""
 			"&e&l★ Astuce:&r &7Les outils en zanite minent plus vite en s usant. Etrange mais utile."
 		]
-		quest.3C8724C3A9459507.title: "Yeti Helmet"
-		quest.3C8724C3A9459507.quest_subtitle: "Run delibere, un seul Yeti Helmet."
-		quest.3C8724C3A9459507.quest_desc: ["Le Yeti Helmet ouvre plus de portes qu il n y parait. Une brique de plus dans un mur."]
+		quest.3C8724C3A9459507.title: "&9&lArmure de Yeti"
+		quest.3C8724C3A9459507.quest_subtitle: "&7Une fourrure qui repousse les ennemis"
+		quest.3C8724C3A9459507.quest_desc: [
+			"&9&lArmure de Yeti"
+			"&8&m                            "
+			""
+			"&7Forgez la panoplie complete de yeti: casque, plastron,"
+			"&7jambieres et bottes, tissees de fourrure de yeti alpha."
+			""
+			"&9&lCategorie:&r &fArmure"
+			""
+			"&e&l★ Astuce:&r &7L armure de yeti repousse tout ennemi qui ose vous frapper."
+		]
 		quest.3C8D9278B81BB37A.title: "Upgrade Speed"
 		quest.3C8D9278B81BB37A.quest_subtitle: "Notez le Upgrade Speed comme fait."
 		quest.3C8D9278B81BB37A.quest_desc: ["Le Upgrade Speed est le prochain pivot. Plus proche que la carte ne suggere."]
@@ -4186,9 +4420,19 @@
 		quest.3D28123958665EC6.title: "Carpenters Table"
 		quest.3D28123958665EC6.quest_subtitle: "Le Carpenters Table : clin d oeil du chapitre."
 		quest.3D28123958665EC6.quest_desc: ["Gagnez le Carpenters Table. Les runs patients gagnent."]
-		quest.3D29EF7F150F5334.title: "Ender Bow"
-		quest.3D29EF7F150F5334.quest_subtitle: "Notez le Ender Bow comme fait."
-		quest.3D29EF7F150F5334.quest_desc: ["Integrez le Ender Bow. Cela compte."]
+		quest.3D29EF7F150F5334.title: "&e&lArc de l Ender"
+		quest.3D29EF7F150F5334.quest_subtitle: "&7Teleportez-vous vers votre fleche"
+		quest.3D29EF7F150F5334.quest_desc: [
+			"&e&lArc de l Ender"
+			"&8&m                            "
+			""
+			"&7Forgez l arc de l Ender. La ou sa fleche se plante,"
+			"&7vous etes instantanement teleporte."
+			""
+			"&e&lCategorie:&r &fArme"
+			""
+			"&e&l★ Astuce:&r &7Une evasion audacieuse et un moyen rapide d escalader."
+		]
 		quest.3D2A80833008EE55.title: "Guster Pottery Sherd"
 		quest.3D2A80833008EE55.quest_subtitle: "Le detour Guster Pottery Sherd en vaut la peine."
 		quest.3D2A80833008EE55.quest_desc: ["Le Guster Pottery Sherd : un barreau de plus. Visez la chose d apres."]
@@ -4228,9 +4472,20 @@
 		quest.3DB45586969C434A.title: "King Spider"
 		quest.3DB45586969C434A.quest_subtitle: "Emportez le King Spider."
 		quest.3DB45586969C434A.quest_desc: ["Chassez le King Spider. Visez la chose d apres."]
-		quest.3DCF26B53AE1EBF6.title: "Knight Phantom Trophy"
-		quest.3DCF26B53AE1EBF6.quest_subtitle: "Decrochez le Knight Phantom Trophy ce run."
-		quest.3DCF26B53AE1EBF6.quest_desc: ["Saisissez le Knight Phantom Trophy. Regulier est rapide."]
+		quest.3DCF26B53AE1EBF6.title: "&c&lChevalier Fantome"
+		quest.3DCF26B53AE1EBF6.quest_subtitle: "&7Survivez aux chevaliers hantes"
+		quest.3DCF26B53AE1EBF6.quest_desc: [
+			"&c&lChevalier Fantome"
+			"&8&m                            "
+			""
+			"&7Vainquez le Chevalier Fantome une fois dans la"
+			"&7Forteresse Gobeline. Son trophee ouvre la Tour Sombre."
+			""
+			"&c&lCategorie:&r &fBoss"
+			"&a&lDebloque:&r &fLa Tour Sombre de l Ur-Ghast"
+			""
+			"&e&l★ Astuce:&r &7Il arrive par vagues d armures. Bloquez les lances, puis ripostez."
+		]
 		quest.3DD233D57AA04C23.title: "Illusioner"
 		quest.3DD233D57AA04C23.quest_subtitle: "Brique : le Illusioner."
 		quest.3DD233D57AA04C23.quest_desc: ["Rayez le Illusioner de votre liste. Regulier est rapide."]
@@ -4430,9 +4685,19 @@
 		quest.401CE71A496C4EA0.title: "Blaze"
 		quest.401CE71A496C4EA0.quest_subtitle: "Emportez le Blaze."
 		quest.401CE71A496C4EA0.quest_desc: ["Gagnez le Blaze loyalement. Boule de neige a partir d ici."]
-		quest.40258842B0359A2D.title: "Ironwood Helmet"
-		quest.40258842B0359A2D.quest_subtitle: "Objectif du jour : le Ironwood Helmet."
-		quest.40258842B0359A2D.quest_desc: ["Ajoutez le Ironwood Helmet a votre journal. Le progres tranquille bat les revers bruyants."]
+		quest.40258842B0359A2D.title: "&9&lArmure en Boisfer"
+		quest.40258842B0359A2D.quest_subtitle: "&7Bois et fer, tisses en un seul"
+		quest.40258842B0359A2D.quest_desc: [
+			"&9&lArmure en Boisfer"
+			"&8&m                            "
+			""
+			"&7Forgez la panoplie complete en boisfer: casque,"
+			"&7plastron, jambieres et bottes, un alliage de fer et de bois vivant."
+			""
+			"&9&lCategorie:&r &fArmure"
+			""
+			"&e&l★ Astuce:&r &7Le boisfer se repare lentement de lui-meme quand vous le portez."
+		]
 		quest.40407D2CDC660866.title: "Ritual Disintegration"
 		quest.40407D2CDC660866.quest_subtitle: "Gagnez le Ritual Disintegration, la voie sincere."
 		quest.40407D2CDC660866.quest_desc: ["Enveloppez le Ritual Disintegration. Plus proche que la carte ne suggere."]
@@ -4531,9 +4796,22 @@
 		quest.418E765B6EF942CE.title: "Foliaath"
 		quest.418E765B6EF942CE.quest_subtitle: "Decrochez le Foliaath ce run."
 		quest.418E765B6EF942CE.quest_desc: ["Ramenez le Foliaath a la maison. Une graine pour la boule de neige."]
-		quest.4193303999597249.title: "Advancement"
-		quest.4193303999597249.quest_subtitle: "Decrochez le Advancement ce run."
-		quest.4193303999597249.quest_desc: ["On vous demande le Advancement. La route en apprend autant que la prise."]
+		quest.4193303999597249.title: "&a&lEntrer dans la Foret Crepusculaire"
+		quest.4193303999597249.quest_subtitle: "&7Penetrez le bois enchante"
+		quest.4193303999597249.quest_desc: [
+			"&a&lEntrer dans la Foret Crepusculaire"
+			"&8&m                            "
+			""
+			"&7Activez un portail de fleurs avec un diamant et plongez"
+			"&7dans la Foret Crepusculaire. Chaque region est scellee par"
+			"&7une malediction: y entrer trop tot vous epuise. Vainquez"
+			"&7le boss qui garde une region pour lever sa malediction."
+			""
+			"&a&lCategorie:&r &fExploration"
+			"&a&lDebloque:&r &fLe royaume lui-meme, en commencant par le Naga"
+			""
+			"&e&l★ Astuce:&r &7Suivez le chapitre dans l ordre. Chaque boss ouvre la porte suivante."
+		]
 		quest.41A0BE357C8A74E1.title: "Alchemical Sourcelink"
 		quest.41A0BE357C8A74E1.quest_subtitle: "Etape calme avec le Alchemical Sourcelink."
 		quest.41A0BE357C8A74E1.quest_desc: ["Chassez le Alchemical Sourcelink. Le calme bat la precipitation."]
@@ -4560,9 +4838,19 @@
 		quest.41F863AA255870FE.title: "Mold Rod"
 		quest.41F863AA255870FE.quest_subtitle: "Le detour Mold Rod en vaut la peine."
 		quest.41F863AA255870FE.quest_desc: ["Le Mold Rod est le prix de la prochaine porte. Allez-y a votre rythme."]
-		quest.420158B1736A1354.title: "Pink Castle Door"
-		quest.420158B1736A1354.quest_subtitle: "Le detour Pink Castle Door en vaut la peine."
-		quest.420158B1736A1354.quest_desc: ["Gagnez le Pink Castle Door loyalement. Un petit pas sur une longue route."]
+		quest.420158B1736A1354.title: "&b&lPortes du Chateau"
+		quest.420158B1736A1354.quest_subtitle: "&7Deverrouillez le chateau final"
+		quest.420158B1736A1354.quest_desc: [
+			"&b&lPortes du Chateau"
+			"&8&m                            "
+			""
+			"&7Recoltez les quatre portes de chateau colorees: rose,"
+			"&7jaune, bleue et violette, les acces du Chateau Final."
+			""
+			"&b&lCategorie:&r &fUtilitaire"
+			""
+			"&e&l★ Astuce:&r &7Chaque porte exige une cle de sa couleur. Trouvez-les toutes."
+		]
 		quest.420CB9502DF8E1BC.title: "Icy Fang"
 		quest.420CB9502DF8E1BC.quest_subtitle: "Etape calme avec le Icy Fang."
 		quest.420CB9502DF8E1BC.quest_desc: ["Le Icy Fang : porteur, pas tonitruant. La tenue de comptes compte."]
@@ -4861,9 +5149,19 @@
 		quest.466412A67B7E552B.title: "Objective"
 		quest.466412A67B7E552B.quest_subtitle: "Reservez le etape pour plus tard."
 		quest.466412A67B7E552B.quest_desc: ["Gardez le etape sur vous. Cap intermediaire."]
-		quest.4665E6FD0AAED164.title: "Charm Of Keeping 2"
-		quest.4665E6FD0AAED164.quest_subtitle: "Empoche : le Charm Of Keeping 2."
-		quest.4665E6FD0AAED164.quest_desc: ["Sortez le Charm Of Keeping 2 de sa cache. Plus proche que la carte ne suggere."]
+		quest.4665E6FD0AAED164.title: "&b&lCharme de Conservation II"
+		quest.4665E6FD0AAED164.quest_subtitle: "&7Gardez plus quand vous tombez"
+		quest.4665E6FD0AAED164.quest_desc: [
+			"&b&lCharme de Conservation II"
+			"&8&m                            "
+			""
+			"&7Fabriquez le Charme de Conservation II. Une"
+			"&7amelioration qui protege davantage d objets a la mort."
+			""
+			"&b&lCategorie:&r &fUtilitaire"
+			""
+			"&e&l★ Astuce:&r &7L amelioration vaut le coup avant tout boss ou plongee profonde."
+		]
 		quest.46872503B100F38D.title: "Basic To Diamond Tier Upgrade"
 		quest.46872503B100F38D.quest_subtitle: "Decrochez le Basic To Diamond Tier Upgrade ce run."
 		quest.46872503B100F38D.quest_desc: ["Pliez le Basic To Diamond Tier Upgrade. Le raccourci n est pas ici."]
@@ -5046,9 +5344,19 @@
 		quest.49E768AB9B95E225.title: "Biplane"
 		quest.49E768AB9B95E225.quest_subtitle: "Un pas prudent vers le Biplane."
 		quest.49E768AB9B95E225.quest_desc: ["Ajoutez le Biplane a vos reserves. Paye son propre fret."]
-		quest.49EE6D2A3684A510.title: "Ice Bow"
-		quest.49EE6D2A3684A510.quest_subtitle: "Prise aiguise : le Ice Bow."
-		quest.49EE6D2A3684A510.quest_desc: ["Cueillez le Ice Bow en passant. Liste tot pour une raison."]
+		quest.49EE6D2A3684A510.title: "&e&lArc de Glace"
+		quest.49EE6D2A3684A510.quest_subtitle: "&7Des fleches qui gelent a l impact"
+		quest.49EE6D2A3684A510.quest_desc: [
+			"&e&lArc de Glace"
+			"&8&m                            "
+			""
+			"&7Forgez l arc de glace. Ses fleches gelent et ralentissent"
+			"&7ce qu elles touchent, puis givrent le sol."
+			""
+			"&e&lCategorie:&r &fArme"
+			""
+			"&e&l★ Astuce:&r &7Servez-vous-en pour ralentir tout ce qui est trop rapide."
+		]
 		quest.4A178324D1E9A638.title: "Mist Wolf"
 		quest.4A178324D1E9A638.quest_subtitle: "Le Mist Wolf ouvre plus."
 		quest.4A178324D1E9A638.quest_desc: ["Ajoutez le Mist Wolf. Modeste maintenant, puissant plus tard."]
@@ -5148,9 +5456,20 @@
 		quest.4B47FFBF60C1B476.title: "Paintbrush"
 		quest.4B47FFBF60C1B476.quest_subtitle: "Le Paintbrush paye son chemin."
 		quest.4B47FFBF60C1B476.quest_desc: ["Le Paintbrush se paie tout seul. Mis de cote pour plus tard."]
-		quest.4B53D0523CB4A8ED.title: "Castle Keeper"
-		quest.4B53D0523CB4A8ED.quest_subtitle: "Le Castle Keeper est un point d etape."
-		quest.4B53D0523CB4A8ED.quest_desc: ["Rangez le Castle Keeper. Vous vous remercierez plus tard."]
+		quest.4B53D0523CB4A8ED.title: "&c&lGardien du Chateau"
+		quest.4B53D0523CB4A8ED.quest_subtitle: "&7Conquerez le chateau final"
+		quest.4B53D0523CB4A8ED.quest_desc: [
+			"&c&lGardien du Chateau"
+			"&8&m                            "
+			""
+			"&7Vainquez le Gardien du Chateau Final, l ultime gardien"
+			"&7de la fin de la Foret Crepusculaire."
+			""
+			"&c&lCategorie:&r &fBoss"
+			"&a&lDebloque:&r &fPlus rien, la Foret Crepusculaire est conquise"
+			""
+			"&e&l★ Astuce:&r &7C est le dernier combat du chapitre. Apportez votre meilleur equipement."
+		]
 		quest.4B5DBC05BAA38058.title: "Objective"
 		quest.4B5DBC05BAA38058.quest_subtitle: "Empoche : le borne."
 		quest.4B5DBC05BAA38058.quest_desc: ["Emportez le borne. Le chapitre a fait la moitie avec vous."]
@@ -5181,9 +5500,19 @@
 		quest.4B93942194AA2B86.title: "Breeze"
 		quest.4B93942194AA2B86.quest_subtitle: "Le detour Breeze en vaut la peine."
 		quest.4B93942194AA2B86.quest_desc: ["Gagnez le Breeze pas a pas. Fait le pont entre l avant et l apres."]
-		quest.4B95D48D7525FFAD.title: "Maze Map"
-		quest.4B95D48D7525FFAD.quest_subtitle: "Un Maze Map pour la route."
-		quest.4B95D48D7525FFAD.quest_desc: ["Acquerez le Maze Map. Cap intermediaire."]
+		quest.4B95D48D7525FFAD.title: "&a&lCartographie du Labyrinthe"
+		quest.4B95D48D7525FFAD.quest_subtitle: "&7Cartographiez le labyrinthe du minotaure"
+		quest.4B95D48D7525FFAD.quest_desc: [
+			"&a&lCartographie du Labyrinthe"
+			"&8&m                            "
+			""
+			"&7Fabriquez une carte de labyrinthe et recoltez du meef"
+			"&7cru. Ensemble ils ouvrent les profondeurs du Labyrinthe."
+			""
+			"&a&lCategorie:&r &fExploration"
+			""
+			"&e&l★ Astuce:&r &7La carte de labyrinthe ne fonctionne que sous terre, dans le labyrinthe."
+		]
 		quest.4B9E96C1694246EA.title: "Blockchain Goblin"
 		quest.4B9E96C1694246EA.quest_subtitle: "Sur la route du Blockchain Goblin."
 		quest.4B9E96C1694246EA.quest_desc: ["Empochez le Blockchain Goblin. Petite habitude, grand resultat."]
@@ -5293,9 +5622,19 @@
 		quest.4D48E646C1C14EE8.title: "Naga"
 		quest.4D48E646C1C14EE8.quest_subtitle: "Saut patient : le Naga."
 		quest.4D48E646C1C14EE8.quest_desc: ["Rangez le Naga. Les runs patients gagnent."]
-		quest.4D4AB60B3B1CD437.title: "Naga Chestplate"
-		quest.4D4AB60B3B1CD437.quest_subtitle: "Le Naga Chestplate paye son chemin."
-		quest.4D4AB60B3B1CD437.quest_desc: ["Glissez le Naga Chestplate dans le dossier. Une brique de plus dans un mur."]
+		quest.4D4AB60B3B1CD437.title: "&9&lArmure de Naga"
+		quest.4D4AB60B3B1CD437.quest_subtitle: "&7L armure d ecailles du serpent"
+		quest.4D4AB60B3B1CD437.quest_desc: [
+			"&9&lArmure de Naga"
+			"&8&m                            "
+			""
+			"&7Forgez l armure de naga avec des ecailles: plastron et"
+			"&7jambieres. Un blindage leger qui accelere votre pas."
+			""
+			"&9&lCategorie:&r &fArmure"
+			""
+			"&e&l★ Astuce:&r &7L armure de naga n a que deux pieces, mais elle vous rend rapide."
+		]
 		quest.4D5741BF80C749CF.title: "Breeze"
 		quest.4D5741BF80C749CF.quest_subtitle: "Etape calme avec le Breeze."
 		quest.4D5741BF80C749CF.quest_desc: ["Gardez le Breeze. Vaut le coup de noter."]
@@ -5311,9 +5650,19 @@
 		quest.4D9FCB0C1D1771A9.title: "Mutant Skeleton Chestplate"
 		quest.4D9FCB0C1D1771A9.quest_subtitle: "Un Mutant Skeleton Chestplate, une victoire egal."
 		quest.4D9FCB0C1D1771A9.quest_desc: ["Ajoutez le Mutant Skeleton Chestplate a vos reserves. Un barreau de plus a gravir."]
-		quest.4DA0725E089D7C91.title: "Quest Ram Trophy"
-		quest.4DA0725E089D7C91.quest_subtitle: "Le Quest Ram Trophy est un point d etape."
-		quest.4DA0725E089D7C91.quest_desc: ["Le Quest Ram Trophy fait partie de la chaine. Les runs patients gagnent."]
+		quest.4DA0725E089D7C91.title: "&c&lBelier des Quetes"
+		quest.4DA0725E089D7C91.quest_subtitle: "&7Contentez le belier arc-en-ciel"
+		quest.4DA0725E089D7C91.quest_desc: [
+			"&c&lBelier des Quetes"
+			"&8&m                            "
+			""
+			"&7Trouvez et nourrissez le Belier des Quetes de laine de"
+			"&7chaque couleur. Une creature douce qui recompense l arc-en-ciel."
+			""
+			"&c&lCategorie:&r &fBoss"
+			""
+			"&e&l★ Astuce:&r &7Seize couleurs de laine. Teignez des moutons ou echangez-les."
+		]
 		quest.4DC1163390A19929.title: "&6&lPlaque de Resonarium"
 		quest.4DC1163390A19929.quest_subtitle: "&7Pressee et prete a forger"
 		quest.4DC1163390A19929.quest_desc: [
@@ -5431,9 +5780,19 @@
 		quest.4F606E7A7B4CFB70.title: "Advanced Pump Upgrade"
 		quest.4F606E7A7B4CFB70.quest_subtitle: "Un Advanced Pump Upgrade pour la route."
 		quest.4F606E7A7B4CFB70.quest_desc: ["Glissez le Advanced Pump Upgrade dans le dossier. Capital tranquille."]
-		quest.4F66DF6B494BEFF3.title: "Magic Map Focus"
-		quest.4F66DF6B494BEFF3.quest_subtitle: "Notez le Magic Map Focus comme fait."
-		quest.4F66DF6B494BEFF3.quest_desc: ["Pliez le Magic Map Focus. Une brique de plus dans un mur."]
+		quest.4F66DF6B494BEFF3.title: "&a&lFocus de Carte Magique"
+		quest.4F66DF6B494BEFF3.quest_subtitle: "&7La lentille du cartographe"
+		quest.4F66DF6B494BEFF3.quest_desc: [
+			"&a&lFocus de Carte Magique"
+			"&8&m                            "
+			""
+			"&7Fabriquez un focus de carte magique avec des plumes de"
+			"&7corbeau et de l or. C est le coeur de chaque carte magique."
+			""
+			"&a&lCategorie:&r &fExploration"
+			""
+			"&e&l★ Astuce:&r &7Un focus fait une carte. Fabriquez-en plusieurs avant de cartographier."
+		]
 		quest.4F7E3A553E7E4278.title: "Adherent"
 		quest.4F7E3A553E7E4278.quest_subtitle: "Decrochez le Adherent ce run."
 		quest.4F7E3A553E7E4278.quest_desc: ["Cueillez le Adherent en passant. Le chapitre tourne autour."]
@@ -5601,9 +5960,19 @@
 		quest.5194A067BEA98E79.title: "Isotopic Centrifuge"
 		quest.5194A067BEA98E79.quest_subtitle: "Objectif du jour : le Isotopic Centrifuge."
 		quest.5194A067BEA98E79.quest_desc: ["Procurez-vous le Isotopic Centrifuge. Les runs patients gagnent."]
-		quest.51BC981AB4CFAD95.title: "Mazebreaker Pickaxe"
-		quest.51BC981AB4CFAD95.quest_subtitle: "Le Mazebreaker Pickaxe paye son chemin."
-		quest.51BC981AB4CFAD95.quest_desc: ["Notez le Mazebreaker Pickaxe comme acquis. Modeste maintenant, puissant plus tard."]
+		quest.51BC981AB4CFAD95.title: "&e&lPioche Brise-Labyrinthe"
+		quest.51BC981AB4CFAD95.quest_subtitle: "&7La cle du labyrinthe"
+		quest.51BC981AB4CFAD95.quest_desc: [
+			"&e&lPioche Brise-Labyrinthe"
+			"&8&m                            "
+			""
+			"&7Forgez la pioche brise-labyrinthe. Le seul outil"
+			"&7capable de miner la pierre de labyrinthe verrouillee."
+			""
+			"&e&lCategorie:&r &fArme"
+			""
+			"&e&l★ Astuce:&r &7Sans elle, le coeur du labyrinthe reste scelle. Fabriquez-la tot."
+		]
 		quest.51BEA190AACD4611.title: "Troll"
 		quest.51BEA190AACD4611.quest_subtitle: "Renforcez la chaine du Troll."
 		quest.51BEA190AACD4611.quest_desc: ["Notez le Troll comme acquis. Les runs patients gagnent."]
@@ -5671,9 +6040,19 @@
 		quest.5376607FE9305FD3.title: "Explorer Pottery Sherd"
 		quest.5376607FE9305FD3.quest_subtitle: "Saut alerte : le Explorer Pottery Sherd."
 		quest.5376607FE9305FD3.quest_desc: ["Atteignez le Explorer Pottery Sherd. Petite habitude, grand resultat."]
-		quest.53A79338994088FD.title: "Triple Bow"
-		quest.53A79338994088FD.quest_subtitle: "Saut econome : le Triple Bow."
-		quest.53A79338994088FD.quest_desc: ["Mettez le Triple Bow au chaud. Modeste maintenant, puissant plus tard."]
+		quest.53A79338994088FD.title: "&e&lArc Triple"
+		quest.53A79338994088FD.quest_subtitle: "&7Trois fleches, un seul tir"
+		quest.53A79338994088FD.quest_desc: [
+			"&e&lArc Triple"
+			"&8&m                            "
+			""
+			"&7Forgez l arc triple. Chaque tir lache trois fleches en"
+			"&7eventail, parfait contre les nuees d ennemis."
+			""
+			"&e&lCategorie:&r &fArme"
+			""
+			"&e&l★ Astuce:&r &7Il consomme vite les fleches. Emportez une grande reserve."
+		]
 		quest.53B2AD8F8A6124B3.title: "Umvuthana"
 		quest.53B2AD8F8A6124B3.quest_subtitle: "Un Umvuthana pour la route."
 		quest.53B2AD8F8A6124B3.quest_desc: ["Pliez le Umvuthana. Les petites victoires s additionnent."]
@@ -5847,9 +6226,19 @@
 		quest.5759CEF39487FFBE.title: "Piglin Brute"
 		quest.5759CEF39487FFBE.quest_subtitle: "Mettez le Piglin Brute en signet."
 		quest.5759CEF39487FFBE.quest_desc: ["Rayez le Piglin Brute. Le calme bat la precipitation."]
-		quest.575E405B270BBCBC.title: "Advancement"
-		quest.575E405B270BBCBC.quest_subtitle: "Un pas tranquille vers le Advancement."
-		quest.575E405B270BBCBC.quest_desc: ["Repartez avec le Advancement. Fait le pont entre l avant et l apres."]
+		quest.575E405B270BBCBC.title: "&a&lChasseur Crepusculaire"
+		quest.575E405B270BBCBC.quest_subtitle: "&7Eliminez les creatures du crepuscule"
+		quest.575E405B270BBCBC.quest_desc: [
+			"&a&lChasseur Crepusculaire"
+			"&8&m                            "
+			""
+			"&7Traquez les creatures propres a la Foret Crepusculaire"
+			"&7et faites vos preuves face a sa faune."
+			""
+			"&a&lCategorie:&r &fExploration"
+			""
+			"&e&l★ Astuce:&r &7Les monstres crepusculaires lachent des materiaux introuvables ailleurs."
+		]
 		quest.5762DAEB4AB1C0AB.title: "Diamond Backpack"
 		quest.5762DAEB4AB1C0AB.quest_subtitle: "Gagnez-le : le Diamond Backpack."
 		quest.5762DAEB4AB1C0AB.quest_desc: ["Acquerez le Diamond Backpack. Plus proche que la carte ne suggere."]
@@ -5859,9 +6248,19 @@
 		quest.5782A0C9B2A0DF47.title: "Shaft"
 		quest.5782A0C9B2A0DF47.quest_subtitle: "Ajoutez un Shaft."
 		quest.5782A0C9B2A0DF47.quest_desc: ["Le Shaft marque un point d etape. Capital tranquille."]
-		quest.57940981E8DE55D4.title: "Raven Feather"
-		quest.57940981E8DE55D4.quest_subtitle: "Reservez le Raven Feather pour plus tard."
-		quest.57940981E8DE55D4.quest_desc: ["Le Raven Feather : porteur, pas tonitruant. Un petit pas sur une longue route."]
+		quest.57940981E8DE55D4.title: "&a&lPlume de Corbeau"
+		quest.57940981E8DE55D4.quest_subtitle: "&7Une plume impregnee de magie"
+		quest.57940981E8DE55D4.quest_desc: [
+			"&a&lPlume de Corbeau"
+			"&8&m                            "
+			""
+			"&7Recoltez des plumes de corbeau sur les corbeaux qui"
+			"&7hantent la foret. Le premier pas vers une carte magique."
+			""
+			"&a&lCategorie:&r &fExploration"
+			""
+			"&e&l★ Astuce:&r &7Les corbeaux sont craintifs. Un arc facilite grandement la recolte."
+		]
 		quest.57BB2CC6D9D2AE87.title: "Augmenting Table"
 		quest.57BB2CC6D9D2AE87.quest_subtitle: "Mettez le Augmenting Table en signet."
 		quest.57BB2CC6D9D2AE87.quest_desc: ["Mettez le Augmenting Table de cote. Un petit pas sur une longue route."]
@@ -5895,9 +6294,19 @@
 		quest.58B125BD4876054C.title: "Iron Ingot"
 		quest.58B125BD4876054C.quest_subtitle: "Gain modeste : le Iron Ingot."
 		quest.58B125BD4876054C.quest_desc: ["Gagnez le Iron Ingot loyalement. Vaut le coup de noter."]
-		quest.58BD1063A19777DC.title: "Magic Beans"
-		quest.58BD1063A19777DC.quest_subtitle: "Le Magic Beans ouvre plus."
-		quest.58BD1063A19777DC.quest_desc: ["Le Magic Beans : petit objet, vraie progression. Cap intermediaire."]
+		quest.58BD1063A19777DC.title: "&d&lHaricots Magiques"
+		quest.58BD1063A19777DC.quest_subtitle: "&7Faites pousser une tige vers les nuages"
+		quest.58BD1063A19777DC.quest_desc: [
+			"&d&lHaricots Magiques"
+			"&8&m                            "
+			""
+			"&7Recoltez des haricots magiques et de la terre fertile."
+			"&7Plantez-les ensemble pour faire monter une tige geante."
+			""
+			"&d&lCategorie:&r &fMagie"
+			""
+			"&e&l★ Astuce:&r &7La tige de haricot est votre seul chemin vers les geants."
+		]
 		quest.58C85C52FBB08505.title: "Giant Miner"
 		quest.58C85C52FBB08505.quest_subtitle: "Gain modeste : le Giant Miner."
 		quest.58C85C52FBB08505.quest_desc: ["Cherchez le Giant Miner. Fait le pont entre l avant et l apres."]
@@ -6138,9 +6547,19 @@
 		quest.5CADDAA71291FAD5.title: "Runic Cutlass"
 		quest.5CADDAA71291FAD5.quest_subtitle: "Prise alerte : le Runic Cutlass."
 		quest.5CADDAA71291FAD5.quest_desc: ["Prenez possession du Runic Cutlass. Un barreau de plus a gravir."]
-		quest.5CBA8C89FE717B9C.title: "Lamp Of Cinders"
-		quest.5CBA8C89FE717B9C.quest_subtitle: "Notez le Lamp Of Cinders comme fait."
-		quest.5CBA8C89FE717B9C.quest_desc: ["Le Lamp Of Cinders se paie tout seul. La chaine tient."]
+		quest.5CBA8C89FE717B9C.title: "&d&lLampe de Cendres"
+		quest.5CBA8C89FE717B9C.quest_subtitle: "&7Brulez les ronces maudites"
+		quest.5CBA8C89FE717B9C.quest_desc: [
+			"&d&lLampe de Cendres"
+			"&8&m                            "
+			""
+			"&7Fabriquez la Lampe de Cendres. Sa flamme consume les"
+			"&7ronces qui barrent les regions les plus profondes."
+			""
+			"&d&lCategorie:&r &fMagie"
+			""
+			"&e&l★ Astuce:&r &7Elle consomme du carburant. Rechargez-la avant les Terres aux Ronces."
+		]
 		quest.5CE44C58A470E48E.title: "Mimic"
 		quest.5CE44C58A470E48E.quest_subtitle: "Renforcez la chaine du Mimic."
 		quest.5CE44C58A470E48E.quest_desc: ["Verrouillez le Mimic. Vous vous remercierez plus tard."]
@@ -6294,9 +6713,19 @@
 		quest.5FD1043AF03D54CA.title: "Magma Cube"
 		quest.5FD1043AF03D54CA.quest_subtitle: "Cap lumineux : le Magma Cube."
 		quest.5FD1043AF03D54CA.quest_desc: ["Epinglez le Magma Cube a l inventaire. Faites confiance a la chaine."]
-		quest.5FE4DAE8F41B1437.title: "Ore Magnet"
-		quest.5FE4DAE8F41B1437.quest_subtitle: "Ajoutez un Ore Magnet."
-		quest.5FE4DAE8F41B1437.quest_desc: ["Emportez le Ore Magnet. Allez-y a votre rythme."]
+		quest.5FE4DAE8F41B1437.title: "&a&lAimant a Minerai"
+		quest.5FE4DAE8F41B1437.quest_subtitle: "&7Attirez le minerai a vous"
+		quest.5FE4DAE8F41B1437.quest_desc: [
+			"&a&lAimant a Minerai"
+			"&8&m                            "
+			""
+			"&7Fabriquez un aimant a minerai. Tenu dans un tunnel, il"
+			"&7attire les minerais voisins droit vers votre pioche."
+			""
+			"&a&lCategorie:&r &fExploration"
+			""
+			"&e&l★ Astuce:&r &7Il agit a travers la pierre. Balayez les tunnels et le minerai vient."
+		]
 		quest.5FE507DAEE770507.title: "Iron Dust"
 		quest.5FE507DAEE770507.quest_subtitle: "Un pas stoique vers le Iron Dust."
 		quest.5FE507DAEE770507.quest_desc: ["Ajoutez le Iron Dust. Le chapitre tourne autour."]
@@ -6421,12 +6850,32 @@
 		quest.6046CA1F6AFE2AEA.title: "Blood Staff"
 		quest.6046CA1F6AFE2AEA.quest_subtitle: "Empoche : le Blood Staff."
 		quest.6046CA1F6AFE2AEA.quest_desc: ["Rayez le Blood Staff. Porteur, pas voyant."]
-		quest.604F2B68B27885BF.title: "Raw Venison"
-		quest.604F2B68B27885BF.quest_subtitle: "Mettez le Raw Venison en signet."
-		quest.604F2B68B27885BF.quest_desc: ["Repartez avec le Raw Venison. La porte suivante est en vue."]
-		quest.607D592CE102C82E.title: "Knightmetal Sword"
-		quest.607D592CE102C82E.quest_subtitle: "Le Knightmetal Sword : clin d oeil du chapitre."
-		quest.607D592CE102C82E.quest_desc: ["Epinglez le Knightmetal Sword a l inventaire. Vaut plus que son texte annonce."]
+		quest.604F2B68B27885BF.title: "&b&lDiner Crepusculaire"
+		quest.604F2B68B27885BF.quest_subtitle: "&7Festoyez des mets de la foret"
+		quest.604F2B68B27885BF.quest_desc: [
+			"&b&lDiner Crepusculaire"
+			"&8&m                            "
+			""
+			"&7Goutez chaque mets de la Foret Crepusculaire: venaison,"
+			"&7gaufre de labyrinthe, meef, stroganoff, escalope d hydre."
+			""
+			"&b&lCategorie:&r &fUtilitaire"
+			""
+			"&e&l★ Astuce:&r &7Un tour complet de la cuisine de la foret. Cuisinez avant de gouter."
+		]
+		quest.607D592CE102C82E.title: "&e&lArsenal en Metal de Chevalier"
+		quest.607D592CE102C82E.quest_subtitle: "&7L armurerie complete du chevalier"
+		quest.607D592CE102C82E.quest_desc: [
+			"&e&lArsenal en Metal de Chevalier"
+			"&8&m                            "
+			""
+			"&7Forgez l arsenal en metal de chevalier: epee, pioche,"
+			"&7hache, le fleau a chaine et le bouclier de chevalier."
+			""
+			"&e&lCategorie:&r &fArme"
+			""
+			"&e&l★ Astuce:&r &7Le fleau a chaine frappe large et etourdit. Essayez chaque piece."
+		]
 		quest.60850E717C747A78.title: "Sightshelf"
 		quest.60850E717C747A78.quest_subtitle: "Renforcez la chaine du Sightshelf."
 		quest.60850E717C747A78.quest_desc: ["Le Sightshelf : un point d etape utile. Boule de neige a partir d ici."]
@@ -6457,12 +6906,32 @@
 		quest.60FAD8BF235E381B.title: "Rare Ink"
 		quest.60FAD8BF235E381B.quest_subtitle: "Un pas aiguise vers le Rare Ink."
 		quest.60FAD8BF235E381B.quest_desc: ["Rangez le Rare Ink. Visez la chose d apres."]
-		quest.60FC2DAEA954A849.title: "Moonworm Queen"
-		quest.60FC2DAEA954A849.quest_subtitle: "Sur la branche du Moonworm Queen."
-		quest.60FC2DAEA954A849.quest_desc: ["Procurez-vous le Moonworm Queen. La porte suivante est en vue."]
-		quest.610F9E9D0B5131C7.title: "Charm Of Keeping 1"
-		quest.610F9E9D0B5131C7.quest_subtitle: "Renforcez la chaine du Charm Of Keeping 1."
-		quest.610F9E9D0B5131C7.quest_desc: ["Reservez le Charm Of Keeping 1. Paye son propre fret."]
+		quest.60FC2DAEA954A849.title: "&d&lReine Ver-de-Lune"
+		quest.60FC2DAEA954A849.quest_subtitle: "&7Une source de lumiere vivante"
+		quest.60FC2DAEA954A849.quest_desc: [
+			"&d&lReine Ver-de-Lune"
+			"&8&m                            "
+			""
+			"&7Fabriquez la reine ver-de-lune. Elle projette des"
+			"&7vers luisants qui s accrochent aux murs et eclairent."
+			""
+			"&d&lCategorie:&r &fMagie"
+			""
+			"&e&l★ Astuce:&r &7De la lumiere sans fin, sans torches. Parfait pour les cavernes."
+		]
+		quest.610F9E9D0B5131C7.title: "&b&lCharme de Conservation I"
+		quest.610F9E9D0B5131C7.quest_subtitle: "&7Gardez un peu a la mort"
+		quest.610F9E9D0B5131C7.quest_desc: [
+			"&b&lCharme de Conservation I"
+			"&8&m                            "
+			""
+			"&7Fabriquez le Charme de Conservation I. A votre mort,"
+			"&7il preserve une partie de votre inventaire."
+			""
+			"&b&lCategorie:&r &fUtilitaire"
+			""
+			"&e&l★ Astuce:&r &7Le palier le plus bas, mais un filet de securite rassurant."
+		]
 		quest.611665FFFD981332.title: "King Spider"
 		quest.611665FFFD981332.quest_subtitle: "Objectif du jour : le King Spider."
 		quest.611665FFFD981332.quest_desc: ["Ajoutez le King Spider a vos reserves. Vous avez merite une pause."]
@@ -6921,9 +7390,20 @@
 		quest.6884E25641A1020C.title: "Library"
 		quest.6884E25641A1020C.quest_subtitle: "Le Library paye son chemin."
 		quest.6884E25641A1020C.quest_desc: ["Prenez le Library. Modeste maintenant, puissant plus tard."]
-		quest.688C911ECFB2F134.title: "Ur Ghast Trophy"
-		quest.688C911ECFB2F134.quest_subtitle: "Le Ur Ghast Trophy est un point d etape."
-		quest.688C911ECFB2F134.quest_desc: ["Mettez le Ur Ghast Trophy dans l inventaire. Boule de neige a partir d ici."]
+		quest.688C911ECFB2F134.title: "&c&lL Ur-Ghast"
+		quest.688C911ECFB2F134.quest_subtitle: "&7Faites taire la tour pleureuse"
+		quest.688C911ECFB2F134.quest_desc: [
+			"&c&lL Ur-Ghast"
+			"&8&m                            "
+			""
+			"&7Vainquez l Ur-Ghast une fois au sommet de la Tour"
+			"&7Sombre. Sa chute degele la voie vers le nord glace."
+			""
+			"&c&lCategorie:&r &fBoss"
+			"&a&lDebloque:&r &fLa Foret Enneigee et l Antre du Yeti"
+			""
+			"&e&l★ Astuce:&r &7Il se cache dans la carminite. Renvoyez ses boules de feu."
+		]
 		quest.689C914ABB37E3A9.title: "Shulker"
 		quest.689C914ABB37E3A9.quest_subtitle: "Sur la route du Shulker."
 		quest.689C914ABB37E3A9.quest_desc: ["Ajoutez le Shulker. Allez-y a votre rythme."]
@@ -7194,9 +7674,19 @@
 		quest.6C6593FE9A204AD5.title: "Shulker"
 		quest.6C6593FE9A204AD5.quest_subtitle: "Run vigilant, un seul Shulker."
 		quest.6C6593FE9A204AD5.quest_desc: ["Integrez le Shulker. Le calme bat la precipitation."]
-		quest.6CB1BFBA10DF24E4.title: "Lifedrain Scepter"
-		quest.6CB1BFBA10DF24E4.quest_subtitle: "Saut calme : le Lifedrain Scepter."
-		quest.6CB1BFBA10DF24E4.quest_desc: ["Saisissez le Lifedrain Scepter. Mis de cote pour plus tard."]
+		quest.6CB1BFBA10DF24E4.title: "&d&lSceptre Draine-Vie"
+		quest.6CB1BFBA10DF24E4.quest_subtitle: "&7Volez la vie de vos ennemis"
+		quest.6CB1BFBA10DF24E4.quest_desc: [
+			"&d&lSceptre Draine-Vie"
+			"&8&m                            "
+			""
+			"&7Recuperez le sceptre draine-vie. Il aspire la sante"
+			"&7d un ennemi et la reverse directement en vous."
+			""
+			"&d&lCategorie:&r &fMagie"
+			""
+			"&e&l★ Astuce:&r &7Une bouee dans un combat difficile. Drainez un faible monstre."
+		]
 		quest.6CC5FE34778F0DFA.title: "Storage Controller Base"
 		quest.6CC5FE34778F0DFA.quest_subtitle: "Gain modeste : le Storage Controller Base."
 		quest.6CC5FE34778F0DFA.quest_desc: ["Plier bagage avec le Storage Controller Base. Le chapitre a fait la moitie avec vous."]
@@ -7387,9 +7877,19 @@
 		quest.6F62B5510FA881CD.title: "Ingot Osmium"
 		quest.6F62B5510FA881CD.quest_subtitle: "Sur la branche du Ingot Osmium."
 		quest.6F62B5510FA881CD.quest_desc: ["Ajoutez le Ingot Osmium au dossier. Un barreau de plus a gravir."]
-		quest.6F67079A453DAABE.title: "Charm Of Life 1"
-		quest.6F67079A453DAABE.quest_subtitle: "Etape calme avec le Charm Of Life 1."
-		quest.6F67079A453DAABE.quest_desc: ["Trouvez votre route vers le Charm Of Life 1. Continuez."]
+		quest.6F67079A453DAABE.title: "&b&lCharme de Vie I"
+		quest.6F67079A453DAABE.quest_subtitle: "&7Une seconde chance de vivre"
+		quest.6F67079A453DAABE.quest_desc: [
+			"&b&lCharme de Vie I"
+			"&8&m                            "
+			""
+			"&7Fabriquez le Charme de Vie I. Si vous mourez en le"
+			"&7tenant, vous vous relevez avec un peu de sante."
+			""
+			"&b&lCategorie:&r &fUtilitaire"
+			""
+			"&e&l★ Astuce:&r &7Une resurrection salvatrice. Il se consomme, gardez-en un en reserve."
+		]
 		quest.6F698189FD554158.title: "&f&lNetherite-Iron Outils"
 		quest.6F698189FD554158.quest_subtitle: "&7Le jeu d outils Netherite-Iron."
 		quest.6F698189FD554158.quest_desc: [
@@ -7406,12 +7906,33 @@
 		quest.6F71FD826C29C31A.title: "Turtle Egg"
 		quest.6F71FD826C29C31A.quest_subtitle: "Brique : le Turtle Egg."
 		quest.6F71FD826C29C31A.quest_desc: ["Debloquez le Turtle Egg. Le progres tranquille bat les revers bruyants."]
-		quest.6F957D07AA74F16E.title: "Ore Map"
-		quest.6F957D07AA74F16E.quest_subtitle: "Notez le Ore Map comme fait."
-		quest.6F957D07AA74F16E.quest_desc: ["Gagnez le Ore Map pas a pas. La chaine tient."]
-		quest.6FD41DF7704466A4.title: "Snow Queen Trophy"
-		quest.6FD41DF7704466A4.quest_subtitle: "Sur la route du Snow Queen Trophy."
-		quest.6FD41DF7704466A4.quest_desc: ["Reglez le Snow Queen Trophy tot. Petite habitude, grand resultat."]
+		quest.6F957D07AA74F16E.title: "&a&lCarte des Minerais"
+		quest.6F957D07AA74F16E.quest_subtitle: "&7Voyez les richesses dans la roche"
+		quest.6F957D07AA74F16E.quest_desc: [
+			"&a&lCarte des Minerais"
+			"&8&m                            "
+			""
+			"&7Fabriquez une carte des minerais. Elle revele les"
+			"&7minerais caches autour de vous, fini le minage a l aveugle."
+			""
+			"&a&lCategorie:&r &fExploration"
+			""
+			"&e&l★ Astuce:&r &7Associee a l aimant a minerai, le minage devient un jeu d enfant."
+		]
+		quest.6FD41DF7704466A4.title: "&c&lReine des Neiges"
+		quest.6FD41DF7704466A4.quest_subtitle: "&7Brisez le trone de glace"
+		quest.6FD41DF7704466A4.quest_desc: [
+			"&c&lReine des Neiges"
+			"&8&m                            "
+			""
+			"&7Vainquez la Reine des Neiges une fois dans son palais"
+			"&7et prenez son trophee. Cela leve la derniere malediction."
+			""
+			"&c&lCategorie:&r &fBoss"
+			"&a&lDebloque:&r &fLes Hautes-Terres et le Chateau Final"
+			""
+			"&e&l★ Astuce:&r &7Montez sur la glace qu elle invoque pour l atteindre et frapper."
+		]
 		quest.6FEED25FFAC4101F.title: "Gray Paste"
 		quest.6FEED25FFAC4101F.quest_subtitle: "Le Gray Paste paye son chemin."
 		quest.6FEED25FFAC4101F.quest_desc: ["Bouclez la tache du Gray Paste. Visez la chose d apres."]
@@ -7437,9 +7958,20 @@
 		quest.702185D735F94712.title: "Blaze"
 		quest.702185D735F94712.quest_subtitle: "Sur la route du Blaze."
 		quest.702185D735F94712.quest_desc: ["Verrouillez le Blaze. Un barreau de plus a gravir."]
-		quest.7026E46FD8B3A81D.title: "Hydra Trophy"
-		quest.7026E46FD8B3A81D.quest_subtitle: "Gain modeste : le Hydra Trophy."
-		quest.7026E46FD8B3A81D.quest_desc: ["Ramenez le Hydra Trophy a bon port. Le chapitre a fait la moitie avec vous."]
+		quest.7026E46FD8B3A81D.title: "&c&lL Hydre"
+		quest.7026E46FD8B3A81D.quest_subtitle: "&7Decapitez la bete a trois tetes"
+		quest.7026E46FD8B3A81D.quest_desc: [
+			"&c&lL Hydre"
+			"&8&m                            "
+			""
+			"&7Vainquez l Hydre une fois dans son antre ardent et"
+			"&7prenez son trophee. Sa chute ouvre la Forteresse Gobeline."
+			""
+			"&c&lCategorie:&r &fBoss"
+			"&a&lDebloque:&r &fLa Forteresse des Chevaliers Gobelins"
+			""
+			"&e&l★ Astuce:&r &7Frappez une tete juste apres son attaque, quand elle est ouverte."
+		]
 		quest.7044EAB5EDF32BBC.title: "Autocrafting Monitor"
 		quest.7044EAB5EDF32BBC.quest_subtitle: "Notez le Autocrafting Monitor comme fait."
 		quest.7044EAB5EDF32BBC.quest_desc: ["Debloquez le Autocrafting Monitor. Progres modulaire, petits pas."]
@@ -7656,9 +8188,19 @@
 		quest.7304EC9CE6E74A6D.title: "Magma Cube"
 		quest.7304EC9CE6E74A6D.quest_subtitle: "Mettez le Magma Cube en signet."
 		quest.7304EC9CE6E74A6D.quest_desc: ["Plier bagage avec le Magma Cube. Fait le pont entre l avant et l apres."]
-		quest.730AF9210F00018E.title: "Diamond Minotaur Axe"
-		quest.730AF9210F00018E.quest_subtitle: "Etape calme avec le Diamond Minotaur Axe."
-		quest.730AF9210F00018E.quest_desc: ["Empochez le Diamond Minotaur Axe. Plus proche que la carte ne suggere."]
+		quest.730AF9210F00018E.title: "&e&lHache du Minotaure"
+		quest.730AF9210F00018E.quest_subtitle: "&7Une lame nee dans le labyrinthe"
+		quest.730AF9210F00018E.quest_desc: [
+			"&e&lHache du Minotaure"
+			"&8&m                            "
+			""
+			"&7Forgez la hache du minotaure en diamant. Une arme"
+			"&7lourde qui frappe plus fort dans le labyrinthe."
+			""
+			"&e&lCategorie:&r &fArme"
+			""
+			"&e&l★ Astuce:&r &7Ses degats grimpent sous terre. Reservez sa furie au labyrinthe."
+		]
 		quest.73108492D8F1E456.title: "Ravager"
 		quest.73108492D8F1E456.quest_subtitle: "Brique : le Ravager."
 		quest.73108492D8F1E456.quest_desc: ["Ajoutez un Ravager aux reserves. La porte suivante est en vue."]
@@ -7801,9 +8343,19 @@
 		quest.7504C231FD7BD4B4.title: "Ravager"
 		quest.7504C231FD7BD4B4.quest_subtitle: "Ajoutez un Ravager."
 		quest.7504C231FD7BD4B4.quest_desc: ["Rayez le Ravager. Plus proche que la carte ne suggere."]
-		quest.7509E4093010EA4C.title: "Seeker Bow"
-		quest.7509E4093010EA4C.quest_subtitle: "Gagnez-le : le Seeker Bow."
-		quest.7509E4093010EA4C.quest_desc: ["Emportez le Seeker Bow. Mis de cote pour plus tard."]
+		quest.7509E4093010EA4C.title: "&e&lArc Chercheur"
+		quest.7509E4093010EA4C.quest_subtitle: "&7Des fleches qui ne ratent jamais"
+		quest.7509E4093010EA4C.quest_desc: [
+			"&e&lArc Chercheur"
+			"&8&m                            "
+			""
+			"&7Forgez l arc chercheur. Ses fleches s incurvent en vol"
+			"&7pour traquer la cible que vous regardez."
+			""
+			"&e&lCategorie:&r &fArme"
+			""
+			"&e&l★ Astuce:&r &7Excellent contre les ennemis rapides ou volants. Gardez-les en vue."
+		]
 		quest.755DEA4A94154912.title: "Advanced Void Upgrade"
 		quest.755DEA4A94154912.quest_subtitle: "Le detour Advanced Void Upgrade en vaut la peine."
 		quest.755DEA4A94154912.quest_desc: ["Rayez le Advanced Void Upgrade. Le chapitre a fait la moitie avec vous."]
@@ -8055,9 +8607,19 @@
 		quest.78C6394D5E9248A9.title: "Carminite Ghastling"
 		quest.78C6394D5E9248A9.quest_subtitle: "Le detour Carminite Ghastling en vaut la peine."
 		quest.78C6394D5E9248A9.quest_desc: ["Procurez-vous le Carminite Ghastling. Le raccourci n est pas ici."]
-		quest.78CE2ECEF0B651DA.title: "Ice Sword"
-		quest.78CE2ECEF0B651DA.quest_subtitle: "Run honnete, un seul Ice Sword."
-		quest.78CE2ECEF0B651DA.quest_desc: ["Gagnez le Ice Sword. Paye son propre fret."]
+		quest.78CE2ECEF0B651DA.title: "&e&lEpee de Glace"
+		quest.78CE2ECEF0B651DA.quest_subtitle: "&7Une lame d un froid mordant"
+		quest.78CE2ECEF0B651DA.quest_desc: [
+			"&e&lEpee de Glace"
+			"&8&m                            "
+			""
+			"&7Forgez l epee de glace. Chaque coup gele et ralentit"
+			"&7votre ennemi, le laissant a votre merci."
+			""
+			"&e&lCategorie:&r &fArme"
+			""
+			"&e&l★ Astuce:&r &7Associez-la a l arc de glace pour immobiliser totalement l ennemi."
+		]
 		quest.78D8690C88C6B735.title: "&5&lNetherite Plastron"
 		quest.78D8690C88C6B735.quest_subtitle: "&7Plastron de la panoplie Netherite."
 		quest.78D8690C88C6B735.quest_desc: [
@@ -8231,9 +8793,19 @@
 		quest.7B385FD1CBE02C85.title: "Basic Chemical Tank"
 		quest.7B385FD1CBE02C85.quest_subtitle: "Prise net : le Basic Chemical Tank."
 		quest.7B385FD1CBE02C85.quest_desc: ["Gagnez le Basic Chemical Tank. Continuez."]
-		quest.7B4A687EB505C2FF.title: "Carminite Builder"
-		quest.7B4A687EB505C2FF.quest_subtitle: "Run egal, un seul Carminite Builder."
-		quest.7B4A687EB505C2FF.quest_desc: ["Notez le Carminite Builder dans le journal. Petite habitude, grand resultat."]
+		quest.7B4A687EB505C2FF.title: "&b&lAppareils en Carminite"
+		quest.7B4A687EB505C2FF.quest_subtitle: "&7Maniez la magie de la tour sombre"
+		quest.7B4A687EB505C2FF.quest_desc: [
+			"&b&lAppareils en Carminite"
+			"&8&m                            "
+			""
+			"&7Recoltez le constructeur en carminite et le reacteur"
+			"&7en carminite, les deux etranges moteurs de la Tour Sombre."
+			""
+			"&b&lCategorie:&r &fUtilitaire"
+			""
+			"&e&l★ Astuce:&r &7Le reacteur transforme les blocs autour. Manipulez avec soin."
+		]
 		quest.7B5137C939850E30.title: "Breeze"
 		quest.7B5137C939850E30.quest_subtitle: "Emportez le Breeze."
 		quest.7B5137C939850E30.quest_desc: ["Rapportez le Breeze. Vous vous remercierez plus tard."]
