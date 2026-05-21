@@ -385,9 +385,20 @@
 		quest.005DFB2A0F6A364C.title: "Iron Golem"
 		quest.005DFB2A0F6A364C.quest_subtitle: "Etape calme avec le Iron Golem."
 		quest.005DFB2A0F6A364C.quest_desc: ["Gagnez le Iron Golem. Les runs patients gagnent."]
-		quest.005E4B36F79B714E.title: "Millstone"
-		quest.005E4B36F79B714E.quest_subtitle: "Le Millstone ouvre plus."
-		quest.005E4B36F79B714E.quest_desc: ["Procurez-vous le Millstone. Porteur, pas voyant."]
+		quest.005E4B36F79B714E.title: "&b&lBroyage et Laminage"
+		quest.005E4B36F79B714E.quest_subtitle: "&7Broyez le minerai et laminez le metal"
+		quest.005E4B36F79B714E.quest_desc: [
+			"&b&lBroyage et Laminage"
+			"&8&m                            "
+			""
+			"&7La Meule broie un objet a la fois, les Roues de Broyage en"
+			"&7paire ecrasent tout ce qui passe entre elles, et le"
+			"&7Laminoir presse le metal en tiges."
+			""
+			"&b&lCategorie:&r &fMachines"
+			""
+			"&e&l★ Astuce:&r &7Les roues de broyage doublent bien des rendements de minerai."
+		]
 		quest.0066D4B7D393147F.title: "Roving Cube"
 		quest.0066D4B7D393147F.quest_subtitle: "Notez le Roving Cube comme fait."
 		quest.0066D4B7D393147F.quest_desc: ["Le Roving Cube : porteur, pas tonitruant. Cela compte."]
@@ -570,9 +581,20 @@
 		quest.019DC118E6B846FF.title: "Mold Plate"
 		quest.019DC118E6B846FF.quest_subtitle: "Le Mold Plate est un point d etape."
 		quest.019DC118E6B846FF.quest_desc: ["Empochez le Mold Plate. Mis de cote pour plus tard."]
-		quest.01A16753B407C7C8.title: "Water Wheel"
-		quest.01A16753B407C7C8.quest_subtitle: "Le Water Wheel paye son chemin."
-		quest.01A16753B407C7C8.quest_desc: ["Prenez possession du Water Wheel. Un petit pas sur une longue route."]
+		quest.01A16753B407C7C8.title: "&c&lRoues a Eau"
+		quest.01A16753B407C7C8.quest_subtitle: "&7Changez l eau courante en rotation"
+		quest.01A16753B407C7C8.quest_desc: [
+			"&c&lRoues a Eau"
+			"&8&m                            "
+			""
+			"&7Les Roues a Eau generent de la rotation a partir de l eau"
+			"&7courante. La Grande Roue a Eau donne bien plus de force"
+			"&7pour une base de debut posee sur une riviere."
+			""
+			"&c&lCategorie:&r &fEnergie"
+			""
+			"&e&l★ Astuce:&r &7Placez-les dans une eau rapide sur le plus de cotes possible."
+		]
 		quest.01A90E2541C91DB2.title: "Structural Glass"
 		quest.01A90E2541C91DB2.quest_subtitle: "Un pas alerte vers le Structural Glass."
 		quest.01A90E2541C91DB2.quest_desc: ["Emportez le Structural Glass. Utile plus tot que prevu."]
@@ -677,9 +699,20 @@
 		quest.03E4B32E4072467C.title: "Ender Dragon"
 		quest.03E4B32E4072467C.quest_subtitle: "Le Ender Dragon ouvre plus."
 		quest.03E4B32E4072467C.quest_desc: ["Prenez possession du Ender Dragon. La porte suivante est en vue."]
-		quest.03FF94E38A28D3C5.title: "Gearbox"
-		quest.03FF94E38A28D3C5.quest_subtitle: "Emportez le Gearbox."
-		quest.03FF94E38A28D3C5.quest_desc: ["Le Gearbox : un point d etape utile. Le chapitre tourne autour."]
+		quest.03FF94E38A28D3C5.title: "&6&lBoites et Transmissions"
+		quest.03FF94E38A28D3C5.quest_subtitle: "&7Redirigez, inversez et coupez la rotation"
+		quest.03FF94E38A28D3C5.quest_desc: [
+			"&6&lBoites et Transmissions"
+			"&8&m                            "
+			""
+			"&7Les boites font tourner la rotation aux angles, embrayage"
+			"&7et inverseur la coupent ou l inversent en redstone, et les"
+			"&7transmissions a chaine relient des axes paralleles."
+			""
+			"&6&lCategorie:&r &fCinetique"
+			""
+			"&e&l★ Astuce:&r &7L inverseur a chaine reglable varie meme sa vitesse de sortie."
+		]
 		quest.04062133E1FC36A3.title: "&a&lFirst Line of Code"
 		quest.04062133E1FC36A3.quest_subtitle: "&7La ou commence chaque partie d Arcadia"
 		quest.04062133E1FC36A3.quest_desc: [
@@ -844,9 +877,20 @@
 			""
 			"&e&l★ Astuce:&r &7Associez-le aux fondeurs de potions pour automatiser vos buffs."
 		]
-		quest.0513291F60CCFC66.title: "Encased Fan"
-		quest.0513291F60CCFC66.quest_subtitle: "Le Encased Fan : clin d oeil du chapitre."
-		quest.0513291F60CCFC66.quest_desc: ["Procurez-vous le Encased Fan. La chaine tient."]
+		quest.0513291F60CCFC66.title: "&b&lVentilateur et Filtres"
+		quest.0513291F60CCFC66.quest_subtitle: "&7Traitez par flux d air, triez par filtres"
+		quest.0513291F60CCFC66.quest_desc: [
+			"&b&lVentilateur et Filtres"
+			"&8&m                            "
+			""
+			"&7Un Ventilateur soufflant a travers feu, eau ou lave lave,"
+			"&7fond ou cuit les objets. La Buse diffuse le flux d air, et"
+			"&7les filtres decident quels objets une machine accepte."
+			""
+			"&b&lCategorie:&r &fMachines"
+			""
+			"&e&l★ Astuce:&r &7Le traitement par ventilateur est peu cher et rapide."
+		]
 		quest.0518551637F76C50.title: "&b&lEchoing Deepshelf"
 		quest.0518551637F76C50.quest_subtitle: "&7La Echoing Deepshelf, une etagere magique"
 		quest.0518551637F76C50.quest_desc: [
@@ -959,9 +1003,20 @@
 			""
 			"&e&l★ Astuce:&r &7Inscrivez les glyphes a la Table de Scribe. Melez formes et effets."
 		]
-		quest.064C0A09332DF38B.title: "Brass Funnel"
-		quest.064C0A09332DF38B.quest_subtitle: "Reservez le Brass Funnel pour plus tard."
-		quest.064C0A09332DF38B.quest_desc: ["Ajoutez le Brass Funnel a votre attirail. Porteur, pas voyant."]
+		quest.064C0A09332DF38B.title: "&a&lEntonnoirs et Tunnels en Laiton"
+		quest.064C0A09332DF38B.quest_subtitle: "&7Tri et routage intelligents"
+		quest.064C0A09332DF38B.quest_desc: [
+			"&a&lEntonnoirs et Tunnels en Laiton"
+			"&8&m                            "
+			""
+			"&7Les Entonnoirs en Laiton portent un filtre pour ne traiter"
+			"&7que les objets choisis, et les Tunnels en Laiton repartissent"
+			"&7les objets entre plusieurs lignes de courroie."
+			""
+			"&a&lCategorie:&r &fLogistique"
+			""
+			"&e&l★ Astuce:&r &7Ils sont le coeur de tout systeme de tri Create compact."
+		]
 		quest.064C54A1051A9C82.title: "&3&lTemple Antique"
 		quest.064C54A1051A9C82.quest_subtitle: "&7Plongez au coeur de l Otherside"
 		quest.064C54A1051A9C82.quest_desc: [
@@ -1377,9 +1432,20 @@
 		quest.09E116C1CF9E4FB6.title: "Minotaur"
 		quest.09E116C1CF9E4FB6.quest_subtitle: "Sur la route du Minotaur."
 		quest.09E116C1CF9E4FB6.quest_desc: ["Marquez un Minotaur. Mis de cote pour plus tard."]
-		quest.09FE2E7490DA8005.title: "Rotation Speed Controller"
-		quest.09FE2E7490DA8005.quest_subtitle: "Cap robuste : le Rotation Speed Controller."
-		quest.09FE2E7490DA8005.quest_desc: ["Sortez le Rotation Speed Controller de sa cache. Cela compte."]
+		quest.09FE2E7490DA8005.title: "&6&lControleur et Volant"
+		quest.09FE2E7490DA8005.quest_subtitle: "&7Ajustez et boostez votre rotation"
+		quest.09FE2E7490DA8005.quest_desc: [
+			"&6&lControleur et Volant"
+			"&8&m                            "
+			""
+			"&7Le Controleur de Vitesse regle un axe a la vitesse exacte"
+			"&7de votre choix, tandis que le Volant Moteur se couple a un"
+			"&7moteur pour fournir une rotation stable et puissante."
+			""
+			"&6&lCategorie:&r &fCinetique"
+			""
+			"&e&l★ Astuce:&r &7Le controleur est le moyen le plus propre d atteindre une vitesse."
+		]
 		quest.0A1ABE9CF7740AAA.title: "&e&lAnneaux de Reduction"
 		quest.0A1ABE9CF7740AAA.quest_subtitle: "&7Des anneaux qui allegent vos sorts"
 		quest.0A1ABE9CF7740AAA.quest_desc: [
@@ -2567,9 +2633,20 @@
 			""
 			"&e&l★ Astuce:&r &7Objets en main et armure restent visibles. Voyagez leger."
 		]
-		quest.145F289BB1DA8493.title: "White Anti Radiation Helmet"
-		quest.145F289BB1DA8493.quest_subtitle: "Un pas sincere vers le White Anti Radiation Helmet."
-		quest.145F289BB1DA8493.quest_desc: ["Le White Anti Radiation Helmet est au menu. Le chapitre tourne autour."]
+		quest.145F289BB1DA8493.title: "&2&lCombinaison Anti-Radiation"
+		quest.145F289BB1DA8493.quest_subtitle: "&7Une armure quatre pieces contre les radiations"
+		quest.145F289BB1DA8493.quest_desc: [
+			"&2&lCombinaison Anti-Radiation"
+			"&8&m                            "
+			""
+			"&7Le Casque, le Plastron, les Jambieres et les Bottes"
+			"&7Anti-Radiation vous protegent des radiations mortelles"
+			"&7autour d un reacteur nucleaire et de son combustible."
+			""
+			"&2&lCategorie:&r &fNucleaire"
+			""
+			"&e&l★ Astuce:&r &7Portez la tenue complete avant d approcher tout element nucleaire."
+		]
 		quest.1464D45C474464DB.title: "&d&lEventail de Plumes de Paon"
 		quest.1464D45C474464DB.quest_subtitle: "&7Bondissez et planez sur le vent"
 		quest.1464D45C474464DB.quest_desc: [
@@ -4457,9 +4534,20 @@
 			""
 			"&e&l★ Astuce:&r &7Le vestige de fin de jeu. Gardez-le pour les lames que vous voulez."
 		]
-		quest.2680BF70B8FD65BA.title: "Engine Piston"
-		quest.2680BF70B8FD65BA.quest_subtitle: "Le detour Engine Piston en vaut la peine."
-		quest.2680BF70B8FD65BA.quest_desc: ["Cueillez le Engine Piston. Vous vous remercierez plus tard."]
+		quest.2680BF70B8FD65BA.title: "&c&lPieces de Moteur Diesel"
+		quest.2680BF70B8FD65BA.quest_subtitle: "&7Reglez et ameliorez vos moteurs diesel"
+		quest.2680BF70B8FD65BA.quest_desc: [
+			"&c&lPieces de Moteur Diesel"
+			"&8&m                            "
+			""
+			"&7Les Pistons ajoutent de la puissance brute, le Silencieux"
+			"&7coupe le bruit d un moteur en marche et le Turbocompresseur"
+			"&7tire plus d energie du meme carburant."
+			""
+			"&c&lCategorie:&r &fEnergie"
+			""
+			"&e&l★ Astuce:&r &7Ces pieces rendent une centrale diesel bien plus efficace."
+		]
 		quest.26D2183E27E1273A.title: "&5&lScrying Ritual"
 		quest.26D2183E27E1273A.quest_subtitle: "&7Le Scrying Ritual, un rite de pouvoir"
 		quest.26D2183E27E1273A.quest_desc: [
@@ -4482,9 +4570,20 @@
 		quest.270E7CBEA7B0C342.title: "Telescope"
 		quest.270E7CBEA7B0C342.quest_subtitle: "Le Telescope est un point d etape."
 		quest.270E7CBEA7B0C342.quest_desc: ["Decrochez le Telescope. Une brique de plus dans un mur."]
-		quest.270E955D962C7290.title: "Mechanical Arm"
-		quest.270E955D962C7290.quest_subtitle: "Empoche : le Mechanical Arm."
-		quest.270E955D962C7290.quest_desc: ["Emportez le Mechanical Arm. Progres modulaire, petits pas."]
+		quest.270E955D962C7290.title: "&b&lBras Mecanique"
+		quest.270E955D962C7290.quest_subtitle: "&7Un bras robotise qui deplace vos objets"
+		quest.270E955D962C7290.quest_desc: [
+			"&b&lBras Mecanique"
+			"&8&m                            "
+			""
+			"&7Le Bras Mecanique prend des objets aux points d entree"
+			"&7definis et les depose aux sorties, triant et alimentant"
+			"&7les machines sans la moindre courroie."
+			""
+			"&b&lCategorie:&r &fMachines"
+			""
+			"&e&l★ Astuce:&r &7Reglez ses points avec soin. Un bras peut servir bien des machines."
+		]
 		quest.27125E3CF31526F9.title: "&b&lNetherite-Diamond Outils"
 		quest.27125E3CF31526F9.quest_subtitle: "&7Le jeu d outils Netherite-Diamond."
 		quest.27125E3CF31526F9.quest_desc: [
@@ -4538,9 +4637,20 @@
 		quest.27871D2348B2B749.title: "Stray"
 		quest.27871D2348B2B749.quest_subtitle: "Brique : le Stray."
 		quest.27871D2348B2B749.quest_desc: ["Ajoutez le Stray. Allez-y a votre rythme."]
-		quest.278A008F8A3849CB.title: "Drilling Machine"
-		quest.278A008F8A3849CB.quest_subtitle: "Emportez le Drilling Machine."
-		quest.278A008F8A3849CB.quest_desc: ["Chassez le Drilling Machine. Faites confiance a la chaine."]
+		quest.278A008F8A3849CB.title: "&d&lExtraction de Minerai"
+		quest.278A008F8A3849CB.quest_subtitle: "&7Forez du minerai sans fin dans les veines"
+		quest.278A008F8A3849CB.quest_desc: [
+			"&d&lExtraction de Minerai"
+			"&8&m                            "
+			""
+			"&7La Foreuse et l Extracteur exploitent une veine de minerai"
+			"&7longtemps. Une Foreuse a Echantillon trouve la veine, et les"
+			"&7trois paliers de foret montent vitesse et durabilite."
+			""
+			"&d&lCategorie:&r &fModules Create"
+			""
+			"&e&l★ Astuce:&r &7Une foreuse sur une riche veine alimente une base entiere."
+		]
 		quest.27AB1DA692914C04.title: "Vindicator"
 		quest.27AB1DA692914C04.quest_subtitle: "Run perspicace, un seul Vindicator."
 		quest.27AB1DA692914C04.quest_desc: ["Ajoutez le Vindicator a votre attirail. Cela compte."]
@@ -4584,9 +4694,19 @@
 		quest.282EED6988B55EC4.title: "Umvuthana Crane"
 		quest.282EED6988B55EC4.quest_subtitle: "Le detour Umvuthana Crane en vaut la peine."
 		quest.282EED6988B55EC4.quest_desc: ["Atteignez le Umvuthana Crane. Petite habitude, grand resultat."]
-		quest.284A67ACBCD1F612.title: "Railway Casing"
-		quest.284A67ACBCD1F612.quest_subtitle: "Un Railway Casing pour la route."
-		quest.284A67ACBCD1F612.quest_desc: ["Le Railway Casing bloque la quete suivante. Fait le pont entre l avant et l apres."]
+		quest.284A67ACBCD1F612.title: "&e&lMateriaux Ferroviaires"
+		quest.284A67ACBCD1F612.quest_subtitle: "&7Carcasse ferroviaire et mecanismes de precision"
+		quest.284A67ACBCD1F612.quest_desc: [
+			"&e&lMateriaux Ferroviaires"
+			"&8&m                            "
+			""
+			"&7La Carcasse Ferroviaire et le Mecanisme de Precision"
+			"&7sont les pieces avancees des trains et de l horlogerie."
+			""
+			"&e&lCategorie:&r &fMateriaux"
+			""
+			"&e&l★ Astuce:&r &7Les Mecanismes de Precision sont longs a faire. Anticipez."
+		]
 		quest.285F3C26B2A4463D.title: "Pinch Beetle"
 		quest.285F3C26B2A4463D.quest_subtitle: "Empoche : le Pinch Beetle."
 		quest.285F3C26B2A4463D.quest_desc: ["Prenez possession du Pinch Beetle. Les runs patients gagnent."]
@@ -5195,9 +5315,20 @@
 		quest.2CFEE04BA574921E.title: "Constructor"
 		quest.2CFEE04BA574921E.quest_subtitle: "Gagnez le Constructor, la voie tempere."
 		quest.2CFEE04BA574921E.quest_desc: ["Ajoutez le Constructor a vos reserves. Porteur, pas voyant."]
-		quest.2D02216498493FA0.title: "Windmill Bearing"
-		quest.2D02216498493FA0.quest_subtitle: "Objectif du jour : le Windmill Bearing."
-		quest.2D02216498493FA0.quest_desc: ["Le Windmill Bearing marque un point d etape. Regulier est rapide."]
+		quest.2D02216498493FA0.title: "&c&lMoulins a Vent"
+		quest.2D02216498493FA0.quest_subtitle: "&7Exploitez le vent pour la rotation"
+		quest.2D02216498493FA0.quest_desc: [
+			"&c&lMoulins a Vent"
+			"&8&m                            "
+			""
+			"&7Fixez des Cadres de Voile ou des Voiles Blanches a un"
+			"&7Roulement de Moulin et assemblez-les. Plus la voile est"
+			"&7grande, plus le ciel ouvert vous donne de puissance."
+			""
+			"&c&lCategorie:&r &fEnergie"
+			""
+			"&e&l★ Astuce:&r &7Construisez-le haut et large. L air libre le fait tourner vite."
+		]
 		quest.2D0CF18C8B2ABB7D.title: "&6&lAgronomic Sourcelink"
 		quest.2D0CF18C8B2ABB7D.quest_subtitle: "&7Le Agronomic Sourcelink, un generateur de source"
 		quest.2D0CF18C8B2ABB7D.quest_desc: [
@@ -5302,9 +5433,20 @@
 		quest.2EABDC5E93BEC85A.title: "Wraith"
 		quest.2EABDC5E93BEC85A.quest_subtitle: "Gain modeste : le Wraith."
 		quest.2EABDC5E93BEC85A.quest_desc: ["Emportez le Wraith. Plus proche que la carte ne suggere."]
-		quest.2EB4501FAC1090D8.title: "Sequenced Gearshift"
-		quest.2EB4501FAC1090D8.quest_subtitle: "Petit pas : le Sequenced Gearshift."
-		quest.2EB4501FAC1090D8.quest_desc: ["Procurez-vous le Sequenced Gearshift. La tenue de comptes compte."]
+		quest.2EB4501FAC1090D8.title: "&b&lAutomatisation Intelligente"
+		quest.2EB4501FAC1090D8.quest_subtitle: "&7Pieces a minuterie, filtre et detection"
+		quest.2EB4501FAC1090D8.quest_desc: [
+			"&b&lAutomatisation Intelligente"
+			"&8&m                            "
+			""
+			"&7L Inverseur Sequence suit des instructions minutees, la"
+			"&7Goulotte Intelligente filtre, l Interrupteur de Stock lit"
+			"&7le remplissage et l Observateur detecte les objets."
+			""
+			"&b&lCategorie:&r &fMachines"
+			""
+			"&e&l★ Astuce:&r &7Ces pieces laissent une usine reagir et tourner seule."
+		]
 		quest.2EB7FED216664D8E.title: "Spider"
 		quest.2EB7FED216664D8E.quest_subtitle: "Decrochez le Spider ce run."
 		quest.2EB7FED216664D8E.quest_desc: ["Pliez le Spider. Les runs patients gagnent."]
@@ -5353,9 +5495,20 @@
 		quest.2F11B6421E9C4E79.title: "Hedge Spider"
 		quest.2F11B6421E9C4E79.quest_subtitle: "Notez le Hedge Spider comme fait."
 		quest.2F11B6421E9C4E79.quest_desc: ["Le Hedge Spider : porteur, pas tonitruant. La route en apprend autant que la prise."]
-		quest.2F373418D163EAEF.title: "Reactor Casing"
-		quest.2F373418D163EAEF.quest_subtitle: "Gagnez-le : le Reactor Casing."
-		quest.2F373418D163EAEF.quest_desc: ["Cherchez le Reactor Casing. Petite habitude, grand resultat."]
+		quest.2F373418D163EAEF.title: "&2&lReacteur Nucleaire"
+		quest.2F373418D163EAEF.quest_subtitle: "&7Batissez un reacteur pour une puissance immense"
+		quest.2F373418D163EAEF.quest_desc: [
+			"&2&lReacteur Nucleaire"
+			"&8&m                            "
+			""
+			"&7Carcasse, Cadre, Refroidisseur, Coeur, Controleur et les"
+			"&7ports d entree et sortie forment le multibloc du reacteur."
+			"&7Suivez le Plan du Reacteur pour poser chaque piece."
+			""
+			"&2&lCategorie:&r &fNucleaire"
+			""
+			"&e&l★ Astuce:&r &7Un reacteur en marche est la plus grande source d energie du pack."
+		]
 		quest.2F3FDF2AFBC1294F.title: "Lower Goblin Knight"
 		quest.2F3FDF2AFBC1294F.quest_subtitle: "Saut delibere : le Lower Goblin Knight."
 		quest.2F3FDF2AFBC1294F.quest_desc: ["Decrochez le Lower Goblin Knight. Le detour en vaut la peine."]
@@ -5814,9 +5967,20 @@
 			""
 			"&e&l★ Astuce:&r &7L iesnium se cache dans l outre-monde. Portez les lunettes pour le voir."
 		]
-		quest.3317F97C947F90C2.title: "Track"
-		quest.3317F97C947F90C2.quest_subtitle: "Run soigne, un seul Track."
-		quest.3317F97C947F90C2.quest_desc: ["Trouvez le Track. Le raccourci n est pas ici."]
+		quest.3317F97C947F90C2.title: "&a&lReseau Ferroviaire"
+		quest.3317F97C947F90C2.quest_subtitle: "&7Posez des rails, lancez des trains, routez le fret"
+		quest.3317F97C947F90C2.quest_desc: [
+			"&a&lReseau Ferroviaire"
+			"&8&m                            "
+			""
+			"&7Rails, Gares, Signaux et Observateurs batissent une voie,"
+			"&7Horaires et Controles pilotent les trains, et boites aux"
+			"&7lettres et liens gerent le fret automatise."
+			""
+			"&a&lCategorie:&r &fLogistique"
+			""
+			"&e&l★ Astuce:&r &7Un reseau ferroviaire deplace du fret sur des milliers de blocs."
+		]
 		quest.33415CB421F7620A.title: "Purification Chamber"
 		quest.33415CB421F7620A.quest_subtitle: "Petit pas : le Purification Chamber."
 		quest.33415CB421F7620A.quest_desc: ["Prenez le Purification Chamber. Une brique de plus dans un mur."]
@@ -5852,9 +6016,20 @@
 			""
 			"&e&l★ Astuce:&r &7Levez le bouclier avant le gros coup, pas apres."
 		]
-		quest.3376292DB572B21E.title: "Turbine Engine"
-		quest.3376292DB572B21E.quest_subtitle: "Saut serein : le Turbine Engine."
-		quest.3376292DB572B21E.quest_desc: ["Mettez le Turbine Engine de cote. Petit rappel amical."]
+		quest.3376292DB572B21E.title: "&d&lAcier et Turbines"
+		quest.3376292DB572B21E.quest_subtitle: "&7Machinerie en acier de qualite usine"
+		quest.3376292DB572B21E.quest_desc: [
+			"&d&lAcier et Turbines"
+			"&8&m                            "
+			""
+			"&7L industrie lourde tourne a l acier. Engrenages, Tuyaux et"
+			"&7Mecanismes en acier batissent des machines d usine, et le"
+			"&7Moteur a Turbine et ses pales donnent une vraie puissance."
+			""
+			"&d&lCategorie:&r &fModules Create"
+			""
+			"&e&l★ Astuce:&r &7L acier est l ossature de toute usine de fin de partie."
+		]
 		quest.3379441A7893D22C.title: "&d&lPierre de Warp"
 		quest.3379441A7893D22C.quest_subtitle: "&7Une teleportation reutilisable a recharge"
 		quest.3379441A7893D22C.quest_desc: [
@@ -7071,9 +7246,20 @@
 		quest.3F4B3994DE6D4F4F.title: "Witch"
 		quest.3F4B3994DE6D4F4F.quest_subtitle: "Gagnez-le : le Witch."
 		quest.3F4B3994DE6D4F4F.quest_desc: ["Le Witch est le prochain pivot. Mis de cote pour plus tard."]
-		quest.3F56BD7B85ED9106.title: "Mechanical Drill"
-		quest.3F56BD7B85ED9106.quest_subtitle: "Ajoutez un Mechanical Drill."
-		quest.3F56BD7B85ED9106.quest_desc: ["Enveloppez le Mechanical Drill. Petite habitude, grand resultat."]
+		quest.3F56BD7B85ED9106.title: "&5&lOutils d Engins"
+		quest.3F56BD7B85ED9106.quest_subtitle: "&7Foreuse, scie, recolte et pavage"
+		quest.3F56BD7B85ED9106.quest_desc: [
+			"&5&lOutils d Engins"
+			"&8&m                            "
+			""
+			"&7Montes sur un engin mobile, Foreuse et Scie cassent les"
+			"&7blocs, le Deployeur utilise outils et objets, et la"
+			"&7Moissonneuse, la Charrue et le Rouleau faconnent le sol."
+			""
+			"&5&lCategorie:&r &fEngins"
+			""
+			"&e&l★ Astuce:&r &7Une foreuse a tunnel ou une ferme auto se batit sur ces tetes."
+		]
 		quest.3F8EEE1AD4420702.title: "64k Storage Part"
 		quest.3F8EEE1AD4420702.quest_subtitle: "Gagnez-le : le 64k Storage Part."
 		quest.3F8EEE1AD4420702.quest_desc: ["Le 64k Storage Part marque un point d etape. Petit rappel amical."]
@@ -7688,9 +7874,20 @@
 			""
 			"&e&l★ Astuce:&r &7Experimentez. Les sorts puissants viennent souvent de melanges etranges."
 		]
-		quest.441EF0B324A1B4DD.title: "Empty Blaze Burner"
-		quest.441EF0B324A1B4DD.quest_subtitle: "Gagnez-le : le Empty Blaze Burner."
-		quest.441EF0B324A1B4DD.quest_desc: ["Notez le Empty Blaze Burner comme acquis. Plus proche que la carte ne suggere."]
+		quest.441EF0B324A1B4DD.title: "&c&lBruleur de Blaze"
+		quest.441EF0B324A1B4DD.quest_subtitle: "&7Chauffez vos melangeurs et presses"
+		quest.441EF0B324A1B4DD.quest_desc: [
+			"&c&lBruleur de Blaze"
+			"&8&m                            "
+			""
+			"&7Capturez un blaze dans un Bruleur Vide pour obtenir un"
+			"&7Bruleur de Blaze, source de chaleur des recettes chaudes."
+			"&7Nourrissez-le de Gateau de Blaze pour la surchauffe."
+			""
+			"&c&lCategorie:&r &fEnergie"
+			""
+			"&e&l★ Astuce:&r &7Un bruleur surchauffe debloque les recettes les plus delicates."
+		]
 		quest.442BAD190D9D4BF1.title: "Hoglin"
 		quest.442BAD190D9D4BF1.quest_subtitle: "Le Hoglin ouvre plus."
 		quest.442BAD190D9D4BF1.quest_desc: ["Capturez le Hoglin. Une graine pour la boule de neige."]
@@ -7755,9 +7952,20 @@
 		quest.44C5C05C7ADC4F64.title: "Ravager"
 		quest.44C5C05C7ADC4F64.quest_subtitle: "Run honnete, un seul Ravager."
 		quest.44C5C05C7ADC4F64.quest_desc: ["Notez le Ravager comme acquis. Petit rappel amical."]
-		quest.44C7DA83C7063C65.title: "Packager"
-		quest.44C7DA83C7063C65.quest_subtitle: "Notez le Packager comme fait."
-		quest.44C7DA83C7063C65.quest_desc: ["Gagnez le Packager loyalement. Progres modulaire, petits pas."]
+		quest.44C7DA83C7063C65.title: "&a&lMachines d Emballage"
+		quest.44C7DA83C7063C65.quest_subtitle: "&7Emballez, reemballez et expediez"
+		quest.44C7DA83C7063C65.quest_desc: [
+			"&a&lMachines d Emballage"
+			"&8&m                            "
+			""
+			"&7L Emballeuse scelle les objets en colis carton, la"
+			"&7Reemballeuse les fusionne ou les separe, et le Frogport"
+			"&7envoie et recoit les colis sur votre reseau."
+			""
+			"&a&lCategorie:&r &fLogistique"
+			""
+			"&e&l★ Astuce:&r &7Les colis font voyager la logistique sans courroies sans fin."
+		]
 		quest.44D070EA81D251B1.title: "Flux Controller"
 		quest.44D070EA81D251B1.quest_subtitle: "Cap vigilant : le Flux Controller."
 		quest.44D070EA81D251B1.quest_desc: ["Trouvez un chemin vers le Flux Controller. Le detour en vaut la peine."]
@@ -7828,9 +8036,20 @@
 		quest.452965F880C84DBE.title: "Spider"
 		quest.452965F880C84DBE.quest_subtitle: "Prise perspicace : le Spider."
 		quest.452965F880C84DBE.quest_desc: ["Ajoutez le Spider. Faites confiance a la chaine."]
-		quest.4533EF27201A9578.title: "Mechanical Grindstone"
-		quest.4533EF27201A9578.quest_subtitle: "Etape calme avec le Mechanical Grindstone."
-		quest.4533EF27201A9578.quest_desc: ["Ajoutez le Mechanical Grindstone a vos reserves. Boule de neige a partir d ici."]
+		quest.4533EF27201A9578.title: "&d&lIndustrie de l Enchantement"
+		quest.4533EF27201A9578.quest_subtitle: "&7Automatisez l XP et l enchantement"
+		quest.4533EF27201A9578.quest_desc: [
+			"&d&lIndustrie de l Enchantement"
+			"&8&m                            "
+			""
+			"&7Industrie de l Enchantement transforme l XP en fluide. La"
+			"&7Meule et la Trappe le recoltent, la Lanterne le stocke, et"
+			"&7l Imprimante et l Enchanteur de Blaze enchantent en serie."
+			""
+			"&d&lCategorie:&r &fModules Create"
+			""
+			"&e&l★ Astuce:&r &7Une usine peut enchanter le materiel sans clic a la table."
+		]
 		quest.453A178684FEE8ED.title: "Filter Upgrade"
 		quest.453A178684FEE8ED.quest_subtitle: "Sur la branche du Filter Upgrade."
 		quest.453A178684FEE8ED.quest_desc: ["Tirez le Filter Upgrade dans votre kit. Le chapitre tourne autour."]
@@ -7921,9 +8140,19 @@
 		quest.45E2124260D14D7C.title: "Carminite Golem"
 		quest.45E2124260D14D7C.quest_subtitle: "Le detour Carminite Golem en vaut la peine."
 		quest.45E2124260D14D7C.quest_desc: ["Le Carminite Golem se paie tout seul. Vaut plus que son texte annonce."]
-		quest.46099A611EC6E71F.title: "Copper Casing"
-		quest.46099A611EC6E71F.quest_subtitle: "Reservez le Copper Casing pour plus tard."
-		quest.46099A611EC6E71F.quest_desc: ["Prenez possession du Copper Casing. Les petites victoires s additionnent."]
+		quest.46099A611EC6E71F.title: "&e&lCarcasse de Cuivre"
+		quest.46099A611EC6E71F.quest_subtitle: "&7La carcasse des machines a fluide"
+		quest.46099A611EC6E71F.quest_desc: [
+			"&e&lCarcasse de Cuivre"
+			"&8&m                            "
+			""
+			"&7La Carcasse de Cuivre est le palier de carcasse concu"
+			"&7pour les pompes, tuyaux et le reseau de fluides Create."
+			""
+			"&e&lCategorie:&r &fMateriaux"
+			""
+			"&e&l★ Astuce:&r &7Gardez une pile prete avant tout projet de tuyauterie."
+		]
 		quest.460A645F9B67191B.title: "Mosquito Swarm"
 		quest.460A645F9B67191B.quest_subtitle: "Brique : le Mosquito Swarm."
 		quest.460A645F9B67191B.quest_desc: ["Mettez le Mosquito Swarm dans l inventaire. Cela compte."]
@@ -8081,9 +8310,20 @@
 		quest.48056B7F0B4F42D6.title: "Redcap"
 		quest.48056B7F0B4F42D6.quest_subtitle: "Le detour Redcap en vaut la peine."
 		quest.48056B7F0B4F42D6.quest_desc: ["Cueillez le Redcap en passant. Le chapitre tourne autour."]
-		quest.482407F468A6CB4A.title: "Steam Engine"
-		quest.482407F468A6CB4A.quest_subtitle: "Brique : le Steam Engine."
-		quest.482407F468A6CB4A.quest_desc: ["Le Steam Engine : un objet qui fait boule de neige. Cela compte."]
+		quest.482407F468A6CB4A.title: "&d&lMoteurs et Drones"
+		quest.482407F468A6CB4A.quest_subtitle: "&7Moteurs avances et drones volants"
+		quest.482407F468A6CB4A.quest_desc: [
+			"&d&lMoteurs et Drones"
+			"&8&m                            "
+			""
+			"&7Les Moteurs a Vapeur, Thermique et Hydraulique changent"
+			"&7chacun un carburant en forte rotation, et le Controleur de"
+			"&7Drones commande des drones de laiton pour vos taches."
+			""
+			"&d&lCategorie:&r &fModules Create"
+			""
+			"&e&l★ Astuce:&r &7Choisissez le moteur adapte au carburant de votre base."
+		]
 		quest.4834A5D68FE14BFA.title: "Warden"
 		quest.4834A5D68FE14BFA.quest_subtitle: "Le Warden : porteur."
 		quest.4834A5D68FE14BFA.quest_desc: ["Rayez le Warden de votre liste. Un barreau de plus a gravir."]
@@ -8109,9 +8349,20 @@
 		quest.48801E186A5BBFB8.title: "Pillager"
 		quest.48801E186A5BBFB8.quest_subtitle: "Ajoutez un Pillager."
 		quest.48801E186A5BBFB8.quest_desc: ["Mettez le Pillager dans l inventaire. La chaine tient."]
-		quest.4883B6604F008596.title: "Mechanical Press"
-		quest.4883B6604F008596.quest_subtitle: "Saut honnete : le Mechanical Press."
-		quest.4883B6604F008596.quest_desc: ["Suivez la piste du Mechanical Press. Le chapitre tourne autour."]
+		quest.4883B6604F008596.title: "&b&lMachines de Traitement"
+		quest.4883B6604F008596.quest_subtitle: "&7Pressez, melangez, tranchez et extrudez"
+		quest.4883B6604F008596.quest_desc: [
+			"&b&lMachines de Traitement"
+			"&8&m                            "
+			""
+			"&7La Presse frappe les objets, le Melangeur les mele dans un"
+			"&7Bassin, le Depot tient un objet, et la Trancheuse et"
+			"&7l Extrudeuse ajoutent decoupe et faconnage de blocs."
+			""
+			"&b&lCategorie:&r &fMachines"
+			""
+			"&e&l★ Astuce:&r &7Ces machines sont les piliers de chaque usine Create."
+		]
 		quest.488BCC5BB1A6318C.title: "Pump Upgrade"
 		quest.488BCC5BB1A6318C.quest_subtitle: "Emportez le Pump Upgrade."
 		quest.488BCC5BB1A6318C.quest_desc: ["Ajoutez le Pump Upgrade au run. Une graine pour la boule de neige."]
@@ -8182,9 +8433,20 @@
 			""
 			"&e&l★ Astuce:&r &7Parfait pour guider un ami jusqu a votre base sans annoncer vos coordonnees a voix haute."
 		]
-		quest.48FA730408B171E8.title: "Andesite Scaffolding"
-		quest.48FA730408B171E8.quest_subtitle: "Le Andesite Scaffolding ouvre plus."
-		quest.48FA730408B171E8.quest_desc: ["Cueillez le Andesite Scaffolding en passant. Regulier est rapide."]
+		quest.48FA730408B171E8.title: "&d&lLa Pompe a Petrole"
+		quest.48FA730408B171E8.quest_subtitle: "&7Batissez un derrick pour tirer le brut"
+		quest.48FA730408B171E8.quest_desc: [
+			"&d&lLa Pompe a Petrole"
+			"&8&m                            "
+			""
+			"&7Une Pompe a Petrole est un multibloc de roulements, vilebrequins,"
+			"&7une tete et une charpente, posee sur un trou de pompage."
+			"&7Mue par engrenages, elle remonte le brut par des tuyaux."
+			""
+			"&d&lCategorie:&r &fModules Create"
+			""
+			"&e&l★ Astuce:&r &7Trouvez le petrole au scanner, puis dressez le derrick dessus."
+		]
 		quest.48FB6750B3A12569.title: "Goldfish"
 		quest.48FB6750B3A12569.quest_subtitle: "Ajoutez un Goldfish."
 		quest.48FB6750B3A12569.quest_desc: ["Ramenez le Goldfish a la maison. Progres modulaire, petits pas."]
@@ -8532,9 +8794,20 @@
 		quest.4C49A0375B1A1CFC.title: "Mutant Skeleton Boots"
 		quest.4C49A0375B1A1CFC.quest_subtitle: "Sur la branche du Mutant Skeleton Boots."
 		quest.4C49A0375B1A1CFC.quest_desc: ["Acquerez le Mutant Skeleton Boots. Les runs patients gagnent."]
-		quest.4C6EDB0273C7E34F.title: "Chute"
-		quest.4C6EDB0273C7E34F.quest_subtitle: "Decrochez le Chute ce run."
-		quest.4C6EDB0273C7E34F.quest_desc: ["Gagnez le Chute. Modeste maintenant, puissant plus tard."]
+		quest.4C6EDB0273C7E34F.title: "&a&lGoulottes et Coffres-forts"
+		quest.4C6EDB0273C7E34F.quest_subtitle: "&7Deplacez et stockez en masse"
+		quest.4C6EDB0273C7E34F.quest_desc: [
+			"&a&lGoulottes et Coffres-forts"
+			"&8&m                            "
+			""
+			"&7Les Goulottes montent et descendent les objets entre"
+			"&7machines, tandis que le Coffre-fort stocke d enormes piles"
+			"&7dans un bloc compact et connectable."
+			""
+			"&a&lCategorie:&r &fLogistique"
+			""
+			"&e&l★ Astuce:&r &7Empilez les goulottes pour alimenter un coffre, puis puisez."
+		]
 		quest.4C873491F6F0FFAF.title: "&6&lMateriaux de l Outre-Monde"
 		quest.4C873491F6F0FFAF.quest_subtitle: "&7Pierre, pousse et gemme d ailleurs"
 		quest.4C873491F6F0FFAF.quest_desc: [
@@ -9684,9 +9957,20 @@
 			""
 			"&e&l★ Astuce:&r &7La chambre alimente les premieres recettes. Construisez-la tot."
 		]
-		quest.5782A0C9B2A0DF47.title: "Shaft"
-		quest.5782A0C9B2A0DF47.quest_subtitle: "Ajoutez un Shaft."
-		quest.5782A0C9B2A0DF47.quest_desc: ["Le Shaft marque un point d etape. Capital tranquille."]
+		quest.5782A0C9B2A0DF47.title: "&6&lBases Cinetiques"
+		quest.5782A0C9B2A0DF47.quest_subtitle: "&7Axes, engrenages, entonnoirs et tunnels"
+		quest.5782A0C9B2A0DF47.quest_desc: [
+			"&6&lBases Cinetiques"
+			"&8&m                            "
+			""
+			"&7Les axes et engrenages transmettent la rotation entre"
+			"&7machines, tandis que les entonnoirs et tunnels d andesite"
+			"&7placent et retirent les objets de vos courroies."
+			""
+			"&6&lCategorie:&r &fCinetique"
+			""
+			"&e&l★ Astuce:&r &7Des engrenages de tailles differentes changent la vitesse."
+		]
 		quest.57940981E8DE55D4.title: "&a&lPlume de Corbeau"
 		quest.57940981E8DE55D4.quest_subtitle: "&7Une plume impregnee de magie"
 		quest.57940981E8DE55D4.quest_desc: [
@@ -10318,9 +10602,19 @@
 		quest.5F0907AB61486816.title: "65536k Item Storage Part"
 		quest.5F0907AB61486816.quest_subtitle: "Sur la route du 65536k Item Storage Part."
 		quest.5F0907AB61486816.quest_desc: ["Glissez le 65536k Item Storage Part dans le dossier. Faites confiance a la chaine."]
-		quest.5F1BF5CDC489E75C.title: "Speedometer"
-		quest.5F1BF5CDC489E75C.quest_subtitle: "Etape calme avec le Speedometer."
-		quest.5F1BF5CDC489E75C.quest_desc: ["Ramenez le Speedometer a la base. Allez-y a votre rythme."]
+		quest.5F1BF5CDC489E75C.title: "&6&lTachymetre et Contraintometre"
+		quest.5F1BF5CDC489E75C.quest_subtitle: "&7Lisez votre reseau de rotation"
+		quest.5F1BF5CDC489E75C.quest_desc: [
+			"&6&lTachymetre et Contraintometre"
+			"&8&m                            "
+			""
+			"&7Le Tachymetre indique la vitesse d un axe et le"
+			"&7Contraintometre la charge supportee par le reseau."
+			""
+			"&6&lCategorie:&r &fCinetique"
+			""
+			"&e&l★ Astuce:&r &7Quand la contrainte manque, ajoutez de l energie. Surveillez tout."
+		]
 		quest.5F242B5DB7204D86.title: "Ravager"
 		quest.5F242B5DB7204D86.quest_subtitle: "Gagnez-le : le Ravager."
 		quest.5F242B5DB7204D86.quest_desc: ["Ajoutez le Ravager a votre attirail. Vaut plus que son texte annonce."]
@@ -11002,9 +11296,20 @@
 		quest.64B3D1DC28A27094.title: "Giant Miner"
 		quest.64B3D1DC28A27094.quest_subtitle: "Gagnez le Giant Miner, la voie aiguise."
 		quest.64B3D1DC28A27094.quest_desc: ["Le Giant Miner : petit objet, vraie progression. Paye son propre fret."]
-		quest.64C608D29CDEFF51.title: "Hose Pulley"
-		quest.64C608D29CDEFF51.quest_subtitle: "Prise serein : le Hose Pulley."
-		quest.64C608D29CDEFF51.quest_desc: ["Verrouillez le Hose Pulley. Les runs patients gagnent."]
+		quest.64C608D29CDEFF51.title: "&b&lMachines Specialisees"
+		quest.64C608D29CDEFF51.quest_subtitle: "&7Pompez, cultivez, prenez l ascenseur"
+		quest.64C608D29CDEFF51.quest_desc: [
+			"&b&lMachines Specialisees"
+			"&8&m                            "
+			""
+			"&7La Poulie a Tuyau vide ou remplit des etendues de fluide,"
+			"&7l Insolateur et le Composteur cultivent les plantes, la"
+			"&7Grille de Vidange vide les contenants et les poulies levent."
+			""
+			"&b&lCategorie:&r &fMachines"
+			""
+			"&e&l★ Astuce:&r &7Chacune resout une tache qu aucune autre machine ne gere."
+		]
 		quest.64D0E66CB4FBEC82.title: "&b&lNovice Spell Book"
 		quest.64D0E66CB4FBEC82.quest_subtitle: "&7Le Novice Spell Book pour lancer des sorts"
 		quest.64D0E66CB4FBEC82.quest_desc: [
@@ -11520,15 +11825,37 @@
 			""
 			"&e&l★ Astuce:&r &7La lumiere est rare ici. Apportez beaucoup de torches et restez vigilant."
 		]
-		quest.68EAA68B812E82E6.title: "Gantry Carriage"
-		quest.68EAA68B812E82E6.quest_subtitle: "Un Gantry Carriage pour la route."
-		quest.68EAA68B812E82E6.quest_desc: ["Rayez le Gantry Carriage. Le progres tranquille bat les revers bruyants."]
+		quest.68EAA68B812E82E6.title: "&5&lMoteurs d Engins"
+		quest.68EAA68B812E82E6.quest_subtitle: "&7Pistons, roulements, poulies et portiques"
+		quest.68EAA68B812E82E6.quest_desc: [
+			"&5&lMoteurs d Engins"
+			"&8&m                            "
+			""
+			"&7Pistons, Roulements, Poulies a Corde et Portiques"
+			"&7assemblent des blocs en un engin mobile. Chassis et"
+			"&7colleurs decident quels blocs voyagent avec lui."
+			""
+			"&5&lCategorie:&r &fEngins"
+			""
+			"&e&l★ Astuce:&r &7Colle ou chassis doivent lier chaque bloc a deplacer."
+		]
 		quest.68EE97DB93FED7BF.title: "Hostile Wolf"
 		quest.68EE97DB93FED7BF.quest_subtitle: "Emportez le Hostile Wolf."
 		quest.68EE97DB93FED7BF.quest_desc: ["Reglez le Hostile Wolf tot. Vaut plus que son texte annonce."]
-		quest.68F1F567EEE0B258.title: "Andesite Casing"
-		quest.68F1F567EEE0B258.quest_subtitle: "Saut ferme : le Andesite Casing."
-		quest.68F1F567EEE0B258.quest_desc: ["Repartez avec le Andesite Casing. Liste tot pour une raison."]
+		quest.68F1F567EEE0B258.title: "&e&lEssentiels en Andesite"
+		quest.68F1F567EEE0B258.quest_subtitle: "&7Carcasses, lunettes, colle et courroies"
+		quest.68F1F567EEE0B258.quest_desc: [
+			"&e&lEssentiels en Andesite"
+			"&8&m                            "
+			""
+			"&7La Carcasse d Andesite habille les axes, les Lunettes"
+			"&7d Ingenieur lisent les stats, la Super Colle groupe les"
+			"&7blocs et le Connecteur relie deux axes par une courroie."
+			""
+			"&e&lCategorie:&r &fMateriaux"
+			""
+			"&e&l★ Astuce:&r &7Les lunettes sont vitales. Portez-les toujours pour cabler Create."
+		]
 		quest.6904EC449FBEE387.title: "Cable"
 		quest.6904EC449FBEE387.quest_subtitle: "Decrochez le Cable ce run."
 		quest.6904EC449FBEE387.quest_desc: ["Trouvez un chemin vers le Cable. Le progres tranquille bat les revers bruyants."]
@@ -11809,9 +12136,20 @@
 		quest.6A94EEB82C5A4E0B.title: "Minotaur"
 		quest.6A94EEB82C5A4E0B.quest_subtitle: "Decrochez le Minotaur ce run."
 		quest.6A94EEB82C5A4E0B.quest_desc: ["Procurez-vous le Minotaur. Regulier est rapide."]
-		quest.6ABA22E2E64257AE.title: "Mechanical Conduit"
-		quest.6ABA22E2E64257AE.quest_subtitle: "Le detour Mechanical Conduit en vaut la peine."
-		quest.6ABA22E2E64257AE.quest_desc: ["Ajoutez le Mechanical Conduit a votre journal. Les runs patients gagnent."]
+		quest.6ABA22E2E64257AE.title: "&d&lAmbitions Aquatiques"
+		quest.6ABA22E2E64257AE.quest_subtitle: "&7Emmenez Create sous les vagues"
+		quest.6ABA22E2E64257AE.quest_desc: [
+			"&d&lAmbitions Aquatiques"
+			"&8&m                            "
+			""
+			"&7Ambitions Aquatiques etend Create sous l eau. Les Conduits"
+			"&7Mecaniques portent la rotation dans les profondeurs, et les"
+			"&7pieces en Alliage de Prismarine batissent des machines marines."
+			""
+			"&d&lCategorie:&r &fModules Create"
+			""
+			"&e&l★ Astuce:&r &7La Roche Suspecte est le minerai qui ouvre cette branche aquatique."
+		]
 		quest.6AEFC2B53E38BBC3.title: "Lower Goblin Knight"
 		quest.6AEFC2B53E38BBC3.quest_subtitle: "Gagnez le Lower Goblin Knight, la voie serein."
 		quest.6AEFC2B53E38BBC3.quest_desc: ["Mettez le Lower Goblin Knight au chaud. Petit rappel amical."]
@@ -11831,9 +12169,19 @@
 			""
 			"&e&l★ Astuce:&r &7Les esprits plus forts accelerent les machines. Ameliorez-vous."
 		]
-		quest.6B1ABE3E11D2293B.title: "Brass Casing"
-		quest.6B1ABE3E11D2293B.quest_subtitle: "Saut resolu : le Brass Casing."
-		quest.6B1ABE3E11D2293B.quest_desc: ["Gagnez le Brass Casing pas a pas. Capital tranquille."]
+		quest.6B1ABE3E11D2293B.title: "&e&lCarcasse de Laiton"
+		quest.6B1ABE3E11D2293B.quest_subtitle: "&7La carcasse des machines avancees"
+		quest.6B1ABE3E11D2293B.quest_desc: [
+			"&e&lCarcasse de Laiton"
+			"&8&m                            "
+			""
+			"&7La Carcasse de Laiton est le palier superieur, exige par"
+			"&7les machines intelligentes et automatisees de Create."
+			""
+			"&e&lCategorie:&r &fMateriaux"
+			""
+			"&e&l★ Astuce:&r &7Le laiton exige un melangeur et de la chaleur. Preparez-les."
+		]
 		quest.6B204632B8DD0DA1.title: "Silverfish"
 		quest.6B204632B8DD0DA1.quest_subtitle: "Le Silverfish est un point d etape."
 		quest.6B204632B8DD0DA1.quest_desc: ["Pliez le Silverfish. Le raccourci n est pas ici."]
@@ -12034,9 +12382,20 @@
 		quest.6D308FEF0DBA46A6.title: "Hostile Wolf"
 		quest.6D308FEF0DBA46A6.quest_subtitle: "Gagnez-le : le Hostile Wolf."
 		quest.6D308FEF0DBA46A6.quest_desc: ["Emportez le Hostile Wolf. Un petit pas sur une longue route."]
-		quest.6D3A0BA54AA22403.title: "Smart Fluid Pipe"
-		quest.6D3A0BA54AA22403.quest_subtitle: "Run honnete, un seul Smart Fluid Pipe."
-		quest.6D3A0BA54AA22403.quest_desc: ["Pliez le Smart Fluid Pipe. La chaine tient."]
+		quest.6D3A0BA54AA22403.title: "&3&lPlomberie de Fluides"
+		quest.6D3A0BA54AA22403.quest_subtitle: "&7Tuyautez, pompez et vannez vos liquides"
+		quest.6D3A0BA54AA22403.quest_desc: [
+			"&3&lPlomberie de Fluides"
+			"&8&m                            "
+			""
+			"&7Les Tuyaux portent les liquides, la Pompe Mecanique les"
+			"&7pousse, Vannes et Manivelle ouvrent et ferment le flux,"
+			"&7et l Arroseur arrose les cultures en dessous."
+			""
+			"&3&lCategorie:&r &fFluides"
+			""
+			"&e&l★ Astuce:&r &7Une pompe exige de la rotation. Les tuyaux seuls ne bougent rien."
+		]
 		quest.6D8AA40A15536F01.title: "Battery Upgrade"
 		quest.6D8AA40A15536F01.quest_subtitle: "Brique : le Battery Upgrade."
 		quest.6D8AA40A15536F01.quest_desc: ["Suivez la piste du Battery Upgrade. Boule de neige a partir d ici."]
@@ -12116,9 +12475,20 @@
 		quest.6E14B11206DFC040.title: "Fire Beetle"
 		quest.6E14B11206DFC040.quest_subtitle: "Decrochez le Fire Beetle ce run."
 		quest.6E14B11206DFC040.quest_desc: ["Cueillez le Fire Beetle. Faites confiance a la chaine."]
-		quest.6E3CE34E34DAAF97.title: "Schematic And Quill"
-		quest.6E3CE34E34DAAF97.quest_subtitle: "Ajoutez un Schematic And Quill."
-		quest.6E3CE34E34DAAF97.quest_desc: ["Trouvez le Schematic And Quill. Le calme bat la precipitation."]
+		quest.6E3CE34E34DAAF97.title: "&5&lSchemas"
+		quest.6E3CE34E34DAAF97.quest_subtitle: "&7Copiez des constructions et imprimez-les au canon"
+		quest.6E3CE34E34DAAF97.quest_desc: [
+			"&5&lSchemas"
+			"&8&m                            "
+			""
+			"&7Le Schema et Plume copie toute structure, la Table et les"
+			"&7Schemas Vides la stockent, et le Canon a Schema la"
+			"&7reconstruit bloc par bloc depuis vos reserves."
+			""
+			"&5&lCategorie:&r &fEngins"
+			""
+			"&e&l★ Astuce:&r &7Le presse-papiers vous aide a planifier et organiser le travail."
+		]
 		quest.6E4785A7A2FD19A2.title: "&b&lNetherite-Diamond Lingot"
 		quest.6E4785A7A2FD19A2.quest_subtitle: "&7Le coeur de l equipement Netherite-Diamond."
 		quest.6E4785A7A2FD19A2.quest_desc: [
@@ -12224,9 +12594,20 @@
 			""
 			"&e&l★ Astuce:&r &7Le voyage ne s arrete pas la. Affinez sans cesse votre sort parfait."
 		]
-		quest.6F36904BC73AA09D.title: "Cardboard Package 12x10"
-		quest.6F36904BC73AA09D.quest_subtitle: "Notez le Cardboard Package 12x10 comme fait."
-		quest.6F36904BC73AA09D.quest_desc: ["Gagnez le Cardboard Package 12x10. La route en apprend autant que la prise."]
+		quest.6F36904BC73AA09D.title: "&a&lColis en Carton"
+		quest.6F36904BC73AA09D.quest_subtitle: "&7Des boites en quatre tailles pour expedier"
+		quest.6F36904BC73AA09D.quest_desc: [
+			"&a&lColis en Carton"
+			"&8&m                            "
+			""
+			"&7Les Colis en Carton sont les boites dans lesquelles le"
+			"&7systeme logistique expedie les objets. Les quatre tailles"
+			"&7contiennent des quantites differentes."
+			""
+			"&a&lCategorie:&r &fLogistique"
+			""
+			"&e&l★ Astuce:&r &7Les grandes boites coutent plus de carton mais portent plus."
+		]
 		quest.6F423A65F0A74E32.title: "Umvuthana Crane"
 		quest.6F423A65F0A74E32.quest_subtitle: "Le detour Umvuthana Crane en vaut la peine."
 		quest.6F423A65F0A74E32.quest_desc: ["Marquez un Umvuthana Crane. Les runs patients gagnent."]
@@ -12328,9 +12709,20 @@
 			""
 			"&e&l★ Astuce:&r &7Faites d abord la craie impure, puis purifiez-la avec un pinceau."
 		]
-		quest.6FF64EAB0E7F88B4.title: "Electric Motor"
-		quest.6FF64EAB0E7F88B4.quest_subtitle: "Renforcez la chaine du Electric Motor."
-		quest.6FF64EAB0E7F88B4.quest_desc: ["Decrochez le Electric Motor. Modeste maintenant, puissant plus tard."]
+		quest.6FF64EAB0E7F88B4.title: "&c&lElectricite Create"
+		quest.6FF64EAB0E7F88B4.quest_subtitle: "&7Produisez, stockez et utilisez l energie"
+		quest.6FF64EAB0E7F88B4.quest_desc: [
+			"&c&lElectricite Create"
+			"&8&m                            "
+			""
+			"&7Create Addition relie a la Forge Energy. Moteur et"
+			"&7alternateur changent la rotation en energie, l accumulateur"
+			"&7la stocke et la bobine tesla foudroie les ennemis."
+			""
+			"&c&lCategorie:&r &fEnergie"
+			""
+			"&e&l★ Astuce:&r &7L electricite relie Create a presque chaque mod tech du pack."
+		]
 		quest.6FFFAE334DFAAAAB.title: "&5&lBol Sacrificiel en Iesnium"
 		quest.6FFFAE334DFAAAAB.quest_subtitle: "&7Un autel rituel ameliore"
 		quest.6FFFAE334DFAAAAB.quest_desc: [
@@ -12750,9 +13142,20 @@
 		quest.7350C7F9441BC20C.title: "Creeper"
 		quest.7350C7F9441BC20C.quest_subtitle: "Un Creeper pour la route."
 		quest.7350C7F9441BC20C.quest_desc: ["Ajoutez le Creeper au run. Visez la chose d apres."]
-		quest.736E74AB182F85DE.title: "Objective"
-		quest.736E74AB182F85DE.quest_subtitle: "Decrochez le repere ce run."
-		quest.736E74AB182F85DE.quest_desc: ["Prenez le repere. Une graine pour la boule de neige."]
+		quest.736E74AB182F85DE.title: "&d&lOutils Petroliers"
+		quest.736E74AB182F85DE.quest_subtitle: "&7Sondez le petrole, coupez le fil, frappez"
+		quest.736E74AB182F85DE.quest_desc: [
+			"&d&lOutils Petroliers"
+			"&8&m                            "
+			""
+			"&7Le Scanner Petrolier revele ou git le brut sous terre, la"
+			"&7Pince Coupante travaille le reseau diesel, et le Marteau"
+			"&7faconne les pieces metalliques de l industrie petroliere."
+			""
+			"&d&lCategorie:&r &fModules Create"
+			""
+			"&e&l★ Astuce:&r &7Sondez avant de batir. Une pompe a sec ne produit rien."
+		]
 		quest.737B3BE4CCD94A84.title: "Harbinger Cube"
 		quest.737B3BE4CCD94A84.quest_subtitle: "Petit pas : le Harbinger Cube."
 		quest.737B3BE4CCD94A84.quest_desc: ["Ajoutez le Harbinger Cube. Un barreau de plus a gravir."]
@@ -13020,15 +13423,36 @@
 		quest.7604D8B3C9FCCFD9.title: "Storage Housing"
 		quest.7604D8B3C9FCCFD9.quest_subtitle: "Sur la branche du Storage Housing."
 		quest.7604D8B3C9FCCFD9.quest_desc: ["Cherchez le Storage Housing. Le raccourci n est pas ici."]
-		quest.7611ABB2AB1CB561.title: "Andesite"
-		quest.7611ABB2AB1CB561.quest_subtitle: "Objectif du jour : le Andesite."
-		quest.7611ABB2AB1CB561.quest_desc: ["Ajoutez le Andesite a votre journal. Petite habitude, grand resultat."]
+		quest.7611ABB2AB1CB561.title: "&e&lAlliage d Andesite"
+		quest.7611ABB2AB1CB561.quest_subtitle: "&7Forgez le materiau fondateur de Create"
+		quest.7611ABB2AB1CB561.quest_desc: [
+			"&e&lAlliage d Andesite"
+			"&8&m                            "
+			""
+			"&7L Alliage d Andesite est la base de presque chaque"
+			"&7machine Create. Melez andesite et pepite de zinc ou fer."
+			""
+			"&e&lCategorie:&r &fMateriaux"
+			""
+			"&e&l★ Astuce:&r &7Mettez en place une production tot. Il en faudra beaucoup."
+		]
 		quest.7618AF8E002795A4.title: "Enderman"
 		quest.7618AF8E002795A4.quest_subtitle: "Gain modeste : le Enderman."
 		quest.7618AF8E002795A4.quest_desc: ["On vous demande le Enderman. Vaut le coup de noter."]
-		quest.76294CB7A05F4819.title: "Hypertube"
-		quest.76294CB7A05F4819.quest_subtitle: "Le Hypertube : porteur."
-		quest.76294CB7A05F4819.quest_desc: ["Notez le Hypertube comme acquis. Continuez."]
+		quest.76294CB7A05F4819.title: "&d&lHypertubes"
+		quest.76294CB7A05F4819.quest_subtitle: "&7Propulsez les joueurs a travers la carte"
+		quest.76294CB7A05F4819.quest_desc: [
+			"&d&lHypertubes"
+			"&8&m                            "
+			""
+			"&7Les Hypertubes lancent un joueur dans un tube scelle a"
+			"&7grande vitesse. Les entrees gerent les acces, les"
+			"&7accelerateurs gardent l elan, les modules detectent et scannent."
+			""
+			"&d&lCategorie:&r &fModules Create"
+			""
+			"&e&l★ Astuce:&r &7Une ligne d hypertube est le plus rapide pour traverser la base."
+		]
 		quest.763420BE9AF2488F.title: "Hoglin"
 		quest.763420BE9AF2488F.quest_subtitle: "Un Hoglin, une victoire delibere."
 		quest.763420BE9AF2488F.quest_desc: ["Ramenez le Hoglin a bon port. La porte suivante est en vue."]
@@ -14099,9 +14523,20 @@
 			""
 			"&e&l★ Astuce:&r &7Inscrivez les glyphes a la Table de Scribe. Melez formes et effets."
 		]
-		quest.7F44C7338640C6A2.title: "Fluid Tank"
-		quest.7F44C7338640C6A2.quest_subtitle: "Prise resolu : le Fluid Tank."
-		quest.7F44C7338640C6A2.quest_desc: ["Trouvez votre route vers le Fluid Tank. Un barreau de plus a gravir."]
+		quest.7F44C7338640C6A2.title: "&3&lCuves et Vapeur"
+		quest.7F44C7338640C6A2.quest_subtitle: "&7Stockez les liquides et montez la vapeur"
+		quest.7F44C7338640C6A2.quest_desc: [
+			"&3&lCuves et Vapeur"
+			"&8&m                            "
+			""
+			"&7Les Cuves stockent de gros volumes de liquide, l Interface"
+			"&7Portable et la Trappe a Fluide les remplissent et les vident,"
+			"&7et un Moteur a Vapeur chauffe alimente un reseau puissant."
+			""
+			"&3&lCategorie:&r &fFluides"
+			""
+			"&e&l★ Astuce:&r &7Empilez les cuves plus hautes et larges pour plus de fluide."
+		]
 		quest.7F4BEF8DC7DED176.title: "Arapaima"
 		quest.7F4BEF8DC7DED176.quest_subtitle: "Empoche : le Arapaima."
 		quest.7F4BEF8DC7DED176.quest_desc: ["Le Arapaima est le prix de la prochaine porte. Fait le pont entre l avant et l apres."]

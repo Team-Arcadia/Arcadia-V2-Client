@@ -449,9 +449,20 @@
 		quest.005DFB2A0F6A364C.title: "Iron Golem"
 		quest.005DFB2A0F6A364C.quest_subtitle: "Quiet milestone with the Iron Golem."
 		quest.005DFB2A0F6A364C.quest_desc: ["Score the Iron Golem. Patient runs win."]
-		quest.005E4B36F79B714E.title: "Millstone"
-		quest.005E4B36F79B714E.quest_subtitle: "The Millstone unlocks more."
-		quest.005E4B36F79B714E.quest_desc: ["Bring back the Millstone. Load-bearing, not flashy."]
+		quest.005E4B36F79B714E.title: "&b&lCrushing and Milling"
+		quest.005E4B36F79B714E.quest_subtitle: "&7Grind ores and roll metal"
+		quest.005E4B36F79B714E.quest_desc: [
+			"&b&lCrushing and Milling"
+			"&8&m                            "
+			""
+			"&7The Millstone grinds one item at a time, paired Crushing"
+			"&7Wheels crush whatever passes between them, and the"
+			"&7Rolling Mill presses metal into rods."
+			""
+			"&b&lCategory:&r &fMachines"
+			""
+			"&e&l★ Tip:&r &7Crushing wheels double many ore yields. Build them early."
+		]
 		quest.0066D4B7D393147F.title: "Roving Cube"
 		quest.0066D4B7D393147F.quest_subtitle: "Mark the Roving Cube done."
 		quest.0066D4B7D393147F.quest_desc: ["The Roving Cube: a useful checkpoint on this branch. Counts."]
@@ -634,9 +645,20 @@
 		quest.019DC118E6B846FF.title: "Mold Plate"
 		quest.019DC118E6B846FF.quest_subtitle: "The Mold Plate is a checkpoint."
 		quest.019DC118E6B846FF.quest_desc: ["The Mold Plate is on the menu. Saved for later use."]
-		quest.01A16753B407C7C8.title: "Water Wheel"
-		quest.01A16753B407C7C8.quest_subtitle: "The Water Wheel pays its way."
-		quest.01A16753B407C7C8.quest_desc: ["Pocket the Water Wheel. A small step on a long road."]
+		quest.01A16753B407C7C8.title: "&c&lWater Wheels"
+		quest.01A16753B407C7C8.quest_subtitle: "&7Turn flowing water into rotation"
+		quest.01A16753B407C7C8.quest_desc: [
+			"&c&lWater Wheels"
+			"&8&m                            "
+			""
+			"&7Water Wheels generate rotational force from flowing"
+			"&7water. The Large Water Wheel gives far more power for"
+			"&7an early base running on a river."
+			""
+			"&c&lCategory:&r &fPower"
+			""
+			"&e&l★ Tip:&r &7Place them in fast-flowing water on as many sides as you can."
+		]
 		quest.01A90E2541C91DB2.title: "Structural Glass"
 		quest.01A90E2541C91DB2.quest_subtitle: "A alert step toward the Structural Glass."
 		quest.01A90E2541C91DB2.quest_desc: ["Pin the Structural Glass to your inventory. Useful sooner than you think."]
@@ -741,9 +763,20 @@
 		quest.03E4B32E4072467C.title: "Ender Dragon"
 		quest.03E4B32E4072467C.quest_subtitle: "The Ender Dragon unlocks more."
 		quest.03E4B32E4072467C.quest_desc: ["Add the Ender Dragon to your stockpile. Next door is in sight."]
-		quest.03FF94E38A28D3C5.title: "Gearbox"
-		quest.03FF94E38A28D3C5.quest_subtitle: "Carry the Gearbox forward."
-		quest.03FF94E38A28D3C5.quest_desc: ["Pull the Gearbox from where it hides. The chapter pivots around it."]
+		quest.03FF94E38A28D3C5.title: "&6&lGearboxes and Drives"
+		quest.03FF94E38A28D3C5.quest_subtitle: "&7Redirect, reverse and pause rotation"
+		quest.03FF94E38A28D3C5.quest_desc: [
+			"&6&lGearboxes and Drives"
+			"&8&m                            "
+			""
+			"&7Gearboxes turn rotation around corners, the clutch and"
+			"&7gearshift pause or reverse it with redstone, and chain"
+			"&7drives link rows of parallel shafts together."
+			""
+			"&6&lCategory:&r &fKinetics"
+			""
+			"&e&l★ Tip:&r &7The adjustable chain gearshift even varies its output speed."
+		]
 		quest.04062133E1FC36A3.title: "&a&lFirst Line of Code"
 		quest.04062133E1FC36A3.quest_subtitle: "&7Where every Arcadia run begins"
 		quest.04062133E1FC36A3.quest_desc: [
@@ -908,9 +941,20 @@
 			""
 			"&e&l★ Tip:&r &7Pair it with potion melders to automate your buffs."
 		]
-		quest.0513291F60CCFC66.title: "Encased Fan"
-		quest.0513291F60CCFC66.quest_subtitle: "The Encased Fan: the chapter nudge."
-		quest.0513291F60CCFC66.quest_desc: ["Cross the Encased Fan off your list. The chain holds."]
+		quest.0513291F60CCFC66.title: "&b&lEncased Fan and Filters"
+		quest.0513291F60CCFC66.quest_subtitle: "&7Process with airflow, sort with filters"
+		quest.0513291F60CCFC66.quest_desc: [
+			"&b&lEncased Fan and Filters"
+			"&8&m                            "
+			""
+			"&7An Encased Fan blowing through fire, water or lava washes,"
+			"&7smelts or blasts items. The Nozzle spreads the airflow,"
+			"&7and the filters decide which items a machine accepts."
+			""
+			"&b&lCategory:&r &fMachines"
+			""
+			"&e&l★ Tip:&r &7Fan processing is cheap and fast. Filters keep belts tidy."
+		]
 		quest.0518551637F76C50.title: "&b&lEchoing Deepshelf"
 		quest.0518551637F76C50.quest_subtitle: "&7The Echoing Deepshelf, an enchanting shelf"
 		quest.0518551637F76C50.quest_desc: [
@@ -1023,9 +1067,20 @@
 			""
 			"&e&l★ Tip:&r &7Inscribe glyphs at the Scribes Table. Mix forms, effects and augments."
 		]
-		quest.064C0A09332DF38B.title: "Brass Funnel"
-		quest.064C0A09332DF38B.quest_subtitle: "Stash the Brass Funnel for later."
-		quest.064C0A09332DF38B.quest_desc: ["Walk away with the Brass Funnel. Load-bearing, not flashy."]
+		quest.064C0A09332DF38B.title: "&a&lBrass Funnels and Tunnels"
+		quest.064C0A09332DF38B.quest_subtitle: "&7Smart item sorting and routing"
+		quest.064C0A09332DF38B.quest_desc: [
+			"&a&lBrass Funnels and Tunnels"
+			"&8&m                            "
+			""
+			"&7Brass Funnels can carry a filter to insert or extract"
+			"&7only chosen items, and Brass Tunnels split or distribute"
+			"&7items between several belt lines."
+			""
+			"&a&lCategory:&r &fLogistics"
+			""
+			"&e&l★ Tip:&r &7They are the heart of any compact Create sorting system."
+		]
 		quest.064C54A1051A9C82.title: "&3&lAncient Temple"
 		quest.064C54A1051A9C82.quest_subtitle: "&7Delve into the heart of the Otherside"
 		quest.064C54A1051A9C82.quest_desc: [
@@ -1441,9 +1496,20 @@
 		quest.09E116C1CF9E4FB6.title: "Minotaur"
 		quest.09E116C1CF9E4FB6.quest_subtitle: "On the route to the Minotaur."
 		quest.09E116C1CF9E4FB6.quest_desc: ["Capture the Minotaur. Saved for later use."]
-		quest.09FE2E7490DA8005.title: "Rotation Speed Controller"
-		quest.09FE2E7490DA8005.quest_subtitle: "stout milestone: the Rotation Speed Controller."
-		quest.09FE2E7490DA8005.quest_desc: ["The Rotation Speed Controller: another rung climbed. Counts."]
+		quest.09FE2E7490DA8005.title: "&6&lSpeed Controller and Flywheel"
+		quest.09FE2E7490DA8005.quest_subtitle: "&7Fine-tune and boost your rotation"
+		quest.09FE2E7490DA8005.quest_desc: [
+			"&6&lSpeed Controller and Flywheel"
+			"&8&m                            "
+			""
+			"&7The Rotational Speed Controller sets a shaft to any exact"
+			"&7speed you choose, while the Flywheel pairs with an engine"
+			"&7to deliver steady, powerful rotation."
+			""
+			"&6&lCategory:&r &fKinetics"
+			""
+			"&e&l★ Tip:&r &7The controller is the cleanest way to hit a precise speed."
+		]
 		quest.0A1ABE9CF7740AAA.title: "&e&lDiscount Rings"
 		quest.0A1ABE9CF7740AAA.quest_subtitle: "&7Rings that cheapen your spells"
 		quest.0A1ABE9CF7740AAA.quest_desc: [
@@ -2631,9 +2697,20 @@
 			""
 			"&e&l★ Tip:&r &7Held items and armor still show. Travel light to stay hidden."
 		]
-		quest.145F289BB1DA8493.title: "White Anti Radiation Helmet"
-		quest.145F289BB1DA8493.quest_subtitle: "A earnest step toward the White Anti Radiation Helmet."
-		quest.145F289BB1DA8493.quest_desc: ["Hunt down the White Anti Radiation Helmet. The chapter pivots around it."]
+		quest.145F289BB1DA8493.title: "&2&lAnti-Radiation Suit"
+		quest.145F289BB1DA8493.quest_subtitle: "&7Four-piece armor against radiation"
+		quest.145F289BB1DA8493.quest_desc: [
+			"&2&lAnti-Radiation Suit"
+			"&8&m                            "
+			""
+			"&7The Anti-Radiation Helmet, Chestplate, Leggings and Boots"
+			"&7shield you from the deadly radiation around a nuclear"
+			"&7reactor and its fuel."
+			""
+			"&2&lCategory:&r &fNuclear"
+			""
+			"&e&l★ Tip:&r &7Wear the full set before you go near anything nuclear."
+		]
 		quest.1464D45C474464DB.title: "&d&lPeacock Feather Fan"
 		quest.1464D45C474464DB.quest_subtitle: "&7Leap and glide on the wind"
 		quest.1464D45C474464DB.quest_desc: [
@@ -4521,9 +4598,20 @@
 			""
 			"&e&l★ Tip:&r &7The endgame remnant. Save it for the blades you truly want."
 		]
-		quest.2680BF70B8FD65BA.title: "Engine Piston"
-		quest.2680BF70B8FD65BA.quest_subtitle: "Worth the Engine Piston detour."
-		quest.2680BF70B8FD65BA.quest_desc: ["Score one Engine Piston. Future you will thank present you."]
+		quest.2680BF70B8FD65BA.title: "&c&lDiesel Engine Parts"
+		quest.2680BF70B8FD65BA.quest_subtitle: "&7Tune and upgrade your diesel engines"
+		quest.2680BF70B8FD65BA.quest_desc: [
+			"&c&lDiesel Engine Parts"
+			"&8&m                            "
+			""
+			"&7Engine Pistons add raw output, the Silencer cuts the"
+			"&7noise of a running engine and the Turbocharger squeezes"
+			"&7more power from the same fuel."
+			""
+			"&c&lCategory:&r &fPower"
+			""
+			"&e&l★ Tip:&r &7These parts make a diesel power plant far more efficient."
+		]
 		quest.26D2183E27E1273A.title: "&5&lScrying Ritual"
 		quest.26D2183E27E1273A.quest_subtitle: "&7The Scrying Ritual, a rite of power"
 		quest.26D2183E27E1273A.quest_desc: [
@@ -4546,9 +4634,20 @@
 		quest.270E7CBEA7B0C342.title: "Telescope"
 		quest.270E7CBEA7B0C342.quest_subtitle: "The Telescope is a checkpoint."
 		quest.270E7CBEA7B0C342.quest_desc: ["Get hands on the Telescope. One brick in a larger wall."]
-		quest.270E955D962C7290.title: "Mechanical Arm"
-		quest.270E955D962C7290.quest_subtitle: "Pocketed: the Mechanical Arm."
-		quest.270E955D962C7290.quest_desc: ["Earn the Mechanical Arm step by step. Modular progress, small steps."]
+		quest.270E955D962C7290.title: "&b&lMechanical Arm"
+		quest.270E955D962C7290.quest_subtitle: "&7A robotic arm that moves items for you"
+		quest.270E955D962C7290.quest_desc: [
+			"&b&lMechanical Arm"
+			"&8&m                            "
+			""
+			"&7The Mechanical Arm picks items from set input points and"
+			"&7drops them at set outputs, sorting and feeding machines"
+			"&7without a single belt."
+			""
+			"&b&lCategory:&r &fMachines"
+			""
+			"&e&l★ Tip:&r &7Set its points carefully. One arm can serve many machines."
+		]
 		quest.27125E3CF31526F9.title: "&b&lNetherite-Diamond Tools"
 		quest.27125E3CF31526F9.quest_subtitle: "&7The Netherite-Diamond toolset."
 		quest.27125E3CF31526F9.quest_desc: [
@@ -4602,9 +4701,20 @@
 		quest.27871D2348B2B749.title: "Stray"
 		quest.27871D2348B2B749.quest_subtitle: "Brick: the Stray."
 		quest.27871D2348B2B749.quest_desc: ["The Stray marks a checkpoint. Pace yourself."]
-		quest.278A008F8A3849CB.title: "Drilling Machine"
-		quest.278A008F8A3849CB.quest_subtitle: "Carry the Drilling Machine forward."
-		quest.278A008F8A3849CB.quest_desc: ["Unlock the Drilling Machine. Trust the chain."]
+		quest.278A008F8A3849CB.title: "&d&lOre Excavation"
+		quest.278A008F8A3849CB.quest_subtitle: "&7Drill endless ore from veins"
+		quest.278A008F8A3849CB.quest_desc: [
+			"&d&lOre Excavation"
+			"&8&m                            "
+			""
+			"&7The Drilling Machine and Extractor mine an ore vein for a"
+			"&7long time. A Sample Drill finds the vein first, and the"
+			"&7three drill tiers raise mining speed and durability."
+			""
+			"&d&lCategory:&r &fCreate Addons"
+			""
+			"&e&l★ Tip:&r &7One drilling machine on a rich vein can supply a whole base."
+		]
 		quest.27AB1DA692914C04.title: "Vindicator"
 		quest.27AB1DA692914C04.quest_subtitle: "keen run, single Vindicator."
 		quest.27AB1DA692914C04.quest_desc: ["Earn the Vindicator. Counts."]
@@ -4648,9 +4758,19 @@
 		quest.282EED6988B55EC4.title: "Umvuthana Crane"
 		quest.282EED6988B55EC4.quest_subtitle: "Worth the Umvuthana Crane detour."
 		quest.282EED6988B55EC4.quest_desc: ["The Umvuthana Crane: a useful checkpoint on this branch. Small habit, big result."]
-		quest.284A67ACBCD1F612.title: "Railway Casing"
-		quest.284A67ACBCD1F612.quest_subtitle: "A Railway Casing for the road."
-		quest.284A67ACBCD1F612.quest_desc: ["Bring the Railway Casing home. Bridges what you did with what is next."]
+		quest.284A67ACBCD1F612.title: "&e&lRailway Materials"
+		quest.284A67ACBCD1F612.quest_subtitle: "&7Railway casing and precision mechanisms"
+		quest.284A67ACBCD1F612.quest_desc: [
+			"&e&lRailway Materials"
+			"&8&m                            "
+			""
+			"&7The Railway Casing and the intricate Precision Mechanism"
+			"&7are the advanced parts behind trains and clockwork gear."
+			""
+			"&e&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7Precision Mechanisms are slow to craft. Stock up in advance."
+		]
 		quest.285F3C26B2A4463D.title: "Pinch Beetle"
 		quest.285F3C26B2A4463D.quest_subtitle: "Pocketed: the Pinch Beetle."
 		quest.285F3C26B2A4463D.quest_desc: ["Lock in the Pinch Beetle. Patient runs win."]
@@ -5259,9 +5379,20 @@
 		quest.2CFEE04BA574921E.title: "Constructor"
 		quest.2CFEE04BA574921E.quest_subtitle: "Earn the Constructor, the tempered way."
 		quest.2CFEE04BA574921E.quest_desc: ["Get the Constructor. Load-bearing, not flashy."]
-		quest.2D02216498493FA0.title: "Windmill Bearing"
-		quest.2D02216498493FA0.quest_subtitle: "Today goal: the Windmill Bearing."
-		quest.2D02216498493FA0.quest_desc: ["The Windmill Bearing pays for itself. Steady is fast."]
+		quest.2D02216498493FA0.title: "&c&lWindmills"
+		quest.2D02216498493FA0.quest_subtitle: "&7Harness the wind for rotation"
+		quest.2D02216498493FA0.quest_desc: [
+			"&c&lWindmills"
+			"&8&m                            "
+			""
+			"&7Attach Sail Frames or White Sails to a Windmill Bearing"
+			"&7and assemble them. The bigger the sail, the more"
+			"&7rotational power the open sky will give you."
+			""
+			"&c&lCategory:&r &fPower"
+			""
+			"&e&l★ Tip:&r &7Build it high and wide. Open air spins it faster."
+		]
 		quest.2D0CF18C8B2ABB7D.title: "&6&lAgronomic Sourcelink"
 		quest.2D0CF18C8B2ABB7D.quest_subtitle: "&7The Agronomic Sourcelink, a source generator"
 		quest.2D0CF18C8B2ABB7D.quest_desc: [
@@ -5366,9 +5497,20 @@
 		quest.2EABDC5E93BEC85A.title: "Wraith"
 		quest.2EABDC5E93BEC85A.quest_subtitle: "Modest gain: the Wraith."
 		quest.2EABDC5E93BEC85A.quest_desc: ["Snag the Wraith on the way. Closer than the map suggests."]
-		quest.2EB4501FAC1090D8.title: "Sequenced Gearshift"
-		quest.2EB4501FAC1090D8.quest_subtitle: "Tiny step: the Sequenced Gearshift."
-		quest.2EB4501FAC1090D8.quest_desc: ["The Sequenced Gearshift is a quiet milestone. Bookkeeping matters."]
+		quest.2EB4501FAC1090D8.title: "&b&lSmart Automation"
+		quest.2EB4501FAC1090D8.quest_subtitle: "&7Timed, filtered and sensing parts"
+		quest.2EB4501FAC1090D8.quest_desc: [
+			"&b&lSmart Automation"
+			"&8&m                            "
+			""
+			"&7The Sequenced Gearshift runs timed instructions, the Smart"
+			"&7Chute filters items, the Stockpile Switch reads how full"
+			"&7storage is, and the Content Observer detects passing items."
+			""
+			"&b&lCategory:&r &fMachines"
+			""
+			"&e&l★ Tip:&r &7These parts let a factory react and run itself."
+		]
 		quest.2EB7FED216664D8E.title: "Spider"
 		quest.2EB7FED216664D8E.quest_subtitle: "Snag the Spider this run."
 		quest.2EB7FED216664D8E.quest_desc: ["Score one Spider. Patient runs win."]
@@ -5417,9 +5559,20 @@
 		quest.2F11B6421E9C4E79.title: "Hedge Spider"
 		quest.2F11B6421E9C4E79.quest_subtitle: "Mark the Hedge Spider done."
 		quest.2F11B6421E9C4E79.quest_desc: ["Mark the Hedge Spider obtained. The route teaches as much as the prize."]
-		quest.2F373418D163EAEF.title: "Reactor Casing"
-		quest.2F373418D163EAEF.quest_subtitle: "Earn it: the Reactor Casing."
-		quest.2F373418D163EAEF.quest_desc: ["Reserve the Reactor Casing. Small habit, big result."]
+		quest.2F373418D163EAEF.title: "&2&lNuclear Reactor"
+		quest.2F373418D163EAEF.quest_subtitle: "&7Build a reactor for massive power"
+		quest.2F373418D163EAEF.quest_desc: [
+			"&2&lNuclear Reactor"
+			"&8&m                            "
+			""
+			"&7Casing, Frame, Cooler, Core, Controller and the input and"
+			"&7output ports assemble the reactor multiblock. Follow the"
+			"&7Reactor Blueprint to lay every part correctly."
+			""
+			"&2&lCategory:&r &fNuclear"
+			""
+			"&e&l★ Tip:&r &7A running reactor is the largest power source in the pack."
+		]
 		quest.2F3FDF2AFBC1294F.title: "Lower Goblin Knight"
 		quest.2F3FDF2AFBC1294F.quest_subtitle: "deliberate hop: the Lower Goblin Knight."
 		quest.2F3FDF2AFBC1294F.quest_desc: ["Snag the Lower Goblin Knight when you next pass through. Worth the detour."]
@@ -5878,9 +6031,20 @@
 			""
 			"&e&l★ Tip:&r &7Iesnium hides in the otherworld dimension. Wear the goggles to find it."
 		]
-		quest.3317F97C947F90C2.title: "Track"
-		quest.3317F97C947F90C2.quest_subtitle: "tidy run, single Track."
-		quest.3317F97C947F90C2.quest_desc: ["Find the Track. The shortcut is not here."]
+		quest.3317F97C947F90C2.title: "&a&lTrain Network"
+		quest.3317F97C947F90C2.quest_subtitle: "&7Lay tracks, run trains, route freight"
+		quest.3317F97C947F90C2.quest_desc: [
+			"&a&lTrain Network"
+			"&8&m                            "
+			""
+			"&7Tracks, Stations, Signals and Observers build a railway,"
+			"&7Schedules and Controls drive the trains, and postboxes,"
+			"&7tickers and links handle automated freight."
+			""
+			"&a&lCategory:&r &fLogistics"
+			""
+			"&e&l★ Tip:&r &7A train network moves cargo across thousands of blocks."
+		]
 		quest.33415CB421F7620A.title: "Purification Chamber"
 		quest.33415CB421F7620A.quest_subtitle: "Tiny step: the Purification Chamber."
 		quest.33415CB421F7620A.quest_desc: ["Mark the Purification Chamber in your log. One brick in a larger wall."]
@@ -5916,9 +6080,20 @@
 			""
 			"&e&l★ Tip:&r &7Raise the shield before a big hit lands, not after."
 		]
-		quest.3376292DB572B21E.title: "Turbine Engine"
-		quest.3376292DB572B21E.quest_subtitle: "calm hop: the Turbine Engine."
-		quest.3376292DB572B21E.quest_desc: ["Pocket the Turbine Engine. Friendly nudge."]
+		quest.3376292DB572B21E.title: "&d&lSteel and Turbines"
+		quest.3376292DB572B21E.quest_subtitle: "&7Factory-grade steel machinery"
+		quest.3376292DB572B21E.quest_desc: [
+			"&d&lSteel and Turbines"
+			"&8&m                            "
+			""
+			"&7Heavy industry runs on steel. Steel Cogwheels, Pipes and"
+			"&7Mechanisms build factory-grade machines, and the Turbine"
+			"&7Engine with its blades delivers serious rotational power."
+			""
+			"&d&lCategory:&r &fCreate Addons"
+			""
+			"&e&l★ Tip:&r &7Steel is the backbone of every late-game factory build."
+		]
 		quest.3379441A7893D22C.title: "&d&lWarp Stone"
 		quest.3379441A7893D22C.quest_subtitle: "&7A reusable teleport on a cooldown"
 		quest.3379441A7893D22C.quest_desc: [
@@ -7135,9 +7310,20 @@
 		quest.3F4B3994DE6D4F4F.title: "Witch"
 		quest.3F4B3994DE6D4F4F.quest_subtitle: "Earn it: the Witch."
 		quest.3F4B3994DE6D4F4F.quest_desc: ["Set sights on the Witch. Saved for later use."]
-		quest.3F56BD7B85ED9106.title: "Mechanical Drill"
-		quest.3F56BD7B85ED9106.quest_subtitle: "Add one Mechanical Drill."
-		quest.3F56BD7B85ED9106.quest_desc: ["Get the Mechanical Drill. Small habit, big result."]
+		quest.3F56BD7B85ED9106.title: "&5&lContraption Tools"
+		quest.3F56BD7B85ED9106.quest_subtitle: "&7Drill, saw, harvest and pave"
+		quest.3F56BD7B85ED9106.quest_desc: [
+			"&5&lContraption Tools"
+			"&8&m                            "
+			""
+			"&7Mounted on a moving contraption, the Drill and Saw break"
+			"&7blocks, the Deployer uses tools and items, and the"
+			"&7Harvester, Plough and Roller farm and shape the land."
+			""
+			"&5&lCategory:&r &fContraptions"
+			""
+			"&e&l★ Tip:&r &7A tunnel-boring or auto-farm rig is built from these heads."
+		]
 		quest.3F8EEE1AD4420702.title: "64k Storage Part"
 		quest.3F8EEE1AD4420702.quest_subtitle: "Earn it: the 64k Storage Part."
 		quest.3F8EEE1AD4420702.quest_desc: ["Mark the 64k Storage Part obtained. Friendly nudge."]
@@ -7752,9 +7938,20 @@
 			""
 			"&e&l★ Tip:&r &7Experiment freely. Powerful spells often come from odd glyph mixes."
 		]
-		quest.441EF0B324A1B4DD.title: "Empty Blaze Burner"
-		quest.441EF0B324A1B4DD.quest_subtitle: "Earn it: the Empty Blaze Burner."
-		quest.441EF0B324A1B4DD.quest_desc: ["Pocket the Empty Blaze Burner. Closer than the map suggests."]
+		quest.441EF0B324A1B4DD.title: "&c&lBlaze Burner"
+		quest.441EF0B324A1B4DD.quest_subtitle: "&7Heat your mixers and presses"
+		quest.441EF0B324A1B4DD.quest_desc: [
+			"&c&lBlaze Burner"
+			"&8&m                            "
+			""
+			"&7Capture a blaze in an Empty Blaze Burner to make a Blaze"
+			"&7Burner, the heat source for hot recipes. Feed it Blaze"
+			"&7Cake to reach the superheated level."
+			""
+			"&c&lCategory:&r &fPower"
+			""
+			"&e&l★ Tip:&r &7A fed and superheated burner unlocks the trickiest recipes."
+		]
 		quest.442BAD190D9D4BF1.title: "Hoglin"
 		quest.442BAD190D9D4BF1.quest_subtitle: "The Hoglin unlocks more."
 		quest.442BAD190D9D4BF1.quest_desc: ["Pull the Hoglin from where it hides. A seed for the snowball."]
@@ -7819,9 +8016,20 @@
 		quest.44C5C05C7ADC4F64.title: "Ravager"
 		quest.44C5C05C7ADC4F64.quest_subtitle: "honest run, single Ravager."
 		quest.44C5C05C7ADC4F64.quest_desc: ["The Ravager: a useful checkpoint on this branch. Friendly nudge."]
-		quest.44C7DA83C7063C65.title: "Packager"
-		quest.44C7DA83C7063C65.quest_subtitle: "Mark the Packager done."
-		quest.44C7DA83C7063C65.quest_desc: ["Add the Packager to your run-log. Modular progress, small steps."]
+		quest.44C7DA83C7063C65.title: "&a&lPackaging Machines"
+		quest.44C7DA83C7063C65.quest_subtitle: "&7Pack, repack and ship parcels"
+		quest.44C7DA83C7063C65.quest_desc: [
+			"&a&lPackaging Machines"
+			"&8&m                            "
+			""
+			"&7The Packager seals items into cardboard parcels, the"
+			"&7Repackager merges or splits them, and the Frogport sends"
+			"&7and receives parcels across your network."
+			""
+			"&a&lCategory:&r &fLogistics"
+			""
+			"&e&l★ Tip:&r &7Packages let logistics travel without endless belts."
+		]
 		quest.44D070EA81D251B1.title: "Flux Controller"
 		quest.44D070EA81D251B1.quest_subtitle: "watchful milestone: the Flux Controller."
 		quest.44D070EA81D251B1.quest_desc: ["Take the Flux Controller. Worth the detour."]
@@ -7892,9 +8100,20 @@
 		quest.452965F880C84DBE.title: "Spider"
 		quest.452965F880C84DBE.quest_subtitle: "keen prize: the Spider."
 		quest.452965F880C84DBE.quest_desc: ["The Spider unlocks more than it looks. Trust the chain."]
-		quest.4533EF27201A9578.title: "Mechanical Grindstone"
-		quest.4533EF27201A9578.quest_subtitle: "Quiet milestone with the Mechanical Grindstone."
-		quest.4533EF27201A9578.quest_desc: ["Score one Mechanical Grindstone. Snowballs after this."]
+		quest.4533EF27201A9578.title: "&d&lEnchantment Industry"
+		quest.4533EF27201A9578.quest_subtitle: "&7Automate experience and enchanting"
+		quest.4533EF27201A9578.quest_desc: [
+			"&d&lEnchantment Industry"
+			"&8&m                            "
+			""
+			"&7Enchantment Industry turns XP into a fluid. The Grindstone"
+			"&7and Experience Hatch collect it, the Lantern stores it, and"
+			"&7the Printer and Blaze Enchanter apply enchantments at scale."
+			""
+			"&d&lCategory:&r &fCreate Addons"
+			""
+			"&e&l★ Tip:&r &7It lets a factory enchant gear with no clicking at the table."
+		]
 		quest.453A178684FEE8ED.title: "Filter Upgrade"
 		quest.453A178684FEE8ED.quest_subtitle: "On the Filter Upgrade branch."
 		quest.453A178684FEE8ED.quest_desc: ["Get the Filter Upgrade. The chapter pivots around it."]
@@ -7985,9 +8204,19 @@
 		quest.45E2124260D14D7C.title: "Carminite Golem"
 		quest.45E2124260D14D7C.quest_subtitle: "Worth the Carminite Golem detour."
 		quest.45E2124260D14D7C.quest_desc: ["Reach the Carminite Golem. Worth more than its tooltip says."]
-		quest.46099A611EC6E71F.title: "Copper Casing"
-		quest.46099A611EC6E71F.quest_subtitle: "Stash the Copper Casing for later."
-		quest.46099A611EC6E71F.quest_desc: ["Stamp the Copper Casing into your dossier. Tiny wins stack into runs."]
+		quest.46099A611EC6E71F.title: "&e&lCopper Casing"
+		quest.46099A611EC6E71F.quest_subtitle: "&7The casing of fluid machinery"
+		quest.46099A611EC6E71F.quest_desc: [
+			"&e&lCopper Casing"
+			"&8&m                            "
+			""
+			"&7Copper Casing is the casing tier built for pumps,"
+			"&7pipes and the rest of the Create fluid network."
+			""
+			"&e&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7Keep a stack ready before you start any plumbing project."
+		]
 		quest.460A645F9B67191B.title: "Mosquito Swarm"
 		quest.460A645F9B67191B.quest_subtitle: "Brick: the Mosquito Swarm."
 		quest.460A645F9B67191B.quest_desc: ["Stamp the Mosquito Swarm into your dossier. Counts."]
@@ -8145,9 +8374,20 @@
 		quest.48056B7F0B4F42D6.title: "Redcap"
 		quest.48056B7F0B4F42D6.quest_subtitle: "Worth the Redcap detour."
 		quest.48056B7F0B4F42D6.quest_desc: ["Snag the Redcap when you next pass through. The chapter pivots around it."]
-		quest.482407F468A6CB4A.title: "Steam Engine"
-		quest.482407F468A6CB4A.quest_subtitle: "Brick: the Steam Engine."
-		quest.482407F468A6CB4A.quest_desc: ["Get the Steam Engine. Counts."]
+		quest.482407F468A6CB4A.title: "&d&lEngines and Drones"
+		quest.482407F468A6CB4A.quest_subtitle: "&7Advanced engines and flying drones"
+		quest.482407F468A6CB4A.quest_desc: [
+			"&d&lEngines and Drones"
+			"&8&m                            "
+			""
+			"&7The Steam, Heat and Hydraulic Engines each turn a fuel"
+			"&7into strong rotation, while the Drone Controller commands"
+			"&7brass drones to carry out tasks for you."
+			""
+			"&d&lCategory:&r &fCreate Addons"
+			""
+			"&e&l★ Tip:&r &7Pick the engine that suits the fuel your base produces."
+		]
 		quest.4834A5D68FE14BFA.title: "Warden"
 		quest.4834A5D68FE14BFA.quest_subtitle: "The Warden: load-bearing."
 		quest.4834A5D68FE14BFA.quest_desc: ["Mark the Warden done. One more rung climbed."]
@@ -8173,9 +8413,20 @@
 		quest.48801E186A5BBFB8.title: "Pillager"
 		quest.48801E186A5BBFB8.quest_subtitle: "Add one Pillager."
 		quest.48801E186A5BBFB8.quest_desc: ["Score one Pillager. The chain holds."]
-		quest.4883B6604F008596.title: "Mechanical Press"
-		quest.4883B6604F008596.quest_subtitle: "honest hop: the Mechanical Press."
-		quest.4883B6604F008596.quest_desc: ["The Mechanical Press is the next pivot. The chapter pivots around it."]
+		quest.4883B6604F008596.title: "&b&lProcessing Machines"
+		quest.4883B6604F008596.quest_subtitle: "&7Press, mix, slice and extrude items"
+		quest.4883B6604F008596.quest_desc: [
+			"&b&lProcessing Machines"
+			"&8&m                            "
+			""
+			"&7The Press stamps items, the Mixer blends them in a Basin,"
+			"&7the Depot holds one item for processing, and the Slicer"
+			"&7and Extruder add cutting and block-shaping recipes."
+			""
+			"&b&lCategory:&r &fMachines"
+			""
+			"&e&l★ Tip:&r &7These machines are the workhorses of every Create factory."
+		]
 		quest.488BCC5BB1A6318C.title: "Pump Upgrade"
 		quest.488BCC5BB1A6318C.quest_subtitle: "Carry the Pump Upgrade forward."
 		quest.488BCC5BB1A6318C.quest_desc: ["Stamp the Pump Upgrade into your dossier. A seed for the snowball."]
@@ -8246,9 +8497,20 @@
 			""
 			"&e&l★ Tip:&r &7Perfect for guiding a friend to your base without sharing coordinates out loud."
 		]
-		quest.48FA730408B171E8.title: "Andesite Scaffolding"
-		quest.48FA730408B171E8.quest_subtitle: "The Andesite Scaffolding unlocks more."
-		quest.48FA730408B171E8.quest_desc: ["Secure the Andesite Scaffolding before moving deeper. Steady is fast."]
+		quest.48FA730408B171E8.title: "&d&lThe Pumpjack"
+		quest.48FA730408B171E8.quest_subtitle: "&7Build a rig to draw crude oil"
+		quest.48FA730408B171E8.quest_desc: [
+			"&d&lThe Pumpjack"
+			"&8&m                            "
+			""
+			"&7A Pumpjack is a multiblock rig of bearings, cranks, a head"
+			"&7and a girder frame, set over a pumpjack hole. Driven by"
+			"&7cogwheels, it pulls crude oil up through fluid pipes."
+			""
+			"&d&lCategory:&r &fCreate Addons"
+			""
+			"&e&l★ Tip:&r &7Find oil with a scanner first, then raise the rig above it."
+		]
 		quest.48FB6750B3A12569.title: "Goldfish"
 		quest.48FB6750B3A12569.quest_subtitle: "Add one Goldfish."
 		quest.48FB6750B3A12569.quest_desc: ["Add the Goldfish to your dossier. Modular progress, small steps."]
@@ -8596,9 +8858,20 @@
 		quest.4C49A0375B1A1CFC.title: "Mutant Skeleton Boots"
 		quest.4C49A0375B1A1CFC.quest_subtitle: "On the Mutant Skeleton Boots branch."
 		quest.4C49A0375B1A1CFC.quest_desc: ["Add the Mutant Skeleton Boots to your toolkit. Patient runs win."]
-		quest.4C6EDB0273C7E34F.title: "Chute"
-		quest.4C6EDB0273C7E34F.quest_subtitle: "Snag the Chute this run."
-		quest.4C6EDB0273C7E34F.quest_desc: ["Take possession of the Chute. Modest now, mighty later."]
+		quest.4C6EDB0273C7E34F.title: "&a&lChutes and Vaults"
+		quest.4C6EDB0273C7E34F.quest_subtitle: "&7Move and store items in bulk"
+		quest.4C6EDB0273C7E34F.quest_desc: [
+			"&a&lChutes and Vaults"
+			"&8&m                            "
+			""
+			"&7Chutes carry items straight up and down between machines,"
+			"&7while the Item Vault stores huge stacks in a compact,"
+			"&7connectable block."
+			""
+			"&a&lCategory:&r &fLogistics"
+			""
+			"&e&l★ Tip:&r &7Stack chutes to feed a vault, then draw from it as needed."
+		]
 		quest.4C873491F6F0FFAF.title: "&6&lOtherworld Materials"
 		quest.4C873491F6F0FFAF.quest_subtitle: "&7Stone, sapling and gem from beyond"
 		quest.4C873491F6F0FFAF.quest_desc: [
@@ -9748,9 +10021,20 @@
 			""
 			"&e&l★ Tip:&r &7The chamber feeds the early recipes. Build it among your first machines."
 		]
-		quest.5782A0C9B2A0DF47.title: "Shaft"
-		quest.5782A0C9B2A0DF47.quest_subtitle: "Add one Shaft."
-		quest.5782A0C9B2A0DF47.quest_desc: ["Score the Shaft. Quiet capital."]
+		quest.5782A0C9B2A0DF47.title: "&6&lKinetic Basics"
+		quest.5782A0C9B2A0DF47.quest_subtitle: "&7Shafts, cogwheels, funnels and tunnels"
+		quest.5782A0C9B2A0DF47.quest_desc: [
+			"&6&lKinetic Basics"
+			"&8&m                            "
+			""
+			"&7Shafts and cogwheels carry rotation between machines,"
+			"&7while andesite funnels and tunnels move items on and"
+			"&7off your belts."
+			""
+			"&6&lCategory:&r &fKinetics"
+			""
+			"&e&l★ Tip:&r &7Cogwheels of different sizes change the speed they pass on."
+		]
 		quest.57940981E8DE55D4.title: "&a&lRaven Feather"
 		quest.57940981E8DE55D4.quest_subtitle: "&7A feather steeped in magic"
 		quest.57940981E8DE55D4.quest_desc: [
@@ -10382,9 +10666,19 @@
 		quest.5F0907AB61486816.title: "65536k Item Storage Part"
 		quest.5F0907AB61486816.quest_subtitle: "On the route to the 65536k Item Storage Part."
 		quest.5F0907AB61486816.quest_desc: ["Earn the 65536k Item Storage Part step by step. Trust the chain."]
-		quest.5F1BF5CDC489E75C.title: "Speedometer"
-		quest.5F1BF5CDC489E75C.quest_subtitle: "Quiet milestone with the Speedometer."
-		quest.5F1BF5CDC489E75C.quest_desc: ["Snag the Speedometer when you next pass through. Pace yourself."]
+		quest.5F1BF5CDC489E75C.title: "&6&lSpeedometer and Stressometer"
+		quest.5F1BF5CDC489E75C.quest_subtitle: "&7Read your rotational network"
+		quest.5F1BF5CDC489E75C.quest_desc: [
+			"&6&lSpeedometer and Stressometer"
+			"&8&m                            "
+			""
+			"&7The Speedometer shows how fast a shaft spins and the"
+			"&7Stressometer shows how much stress the network bears."
+			""
+			"&6&lCategory:&r &fKinetics"
+			""
+			"&e&l★ Tip:&r &7When stress runs out, add more power. Watch both gauges."
+		]
 		quest.5F242B5DB7204D86.title: "Ravager"
 		quest.5F242B5DB7204D86.quest_subtitle: "Earn it: the Ravager."
 		quest.5F242B5DB7204D86.quest_desc: ["The Ravager is the next pivot. Worth more than its tooltip says."]
@@ -11066,9 +11360,20 @@
 		quest.64B3D1DC28A27094.title: "Giant Miner"
 		quest.64B3D1DC28A27094.quest_subtitle: "Earn the Giant Miner, the sharp way."
 		quest.64B3D1DC28A27094.quest_desc: ["Reach for the Giant Miner. Pays its own freight."]
-		quest.64C608D29CDEFF51.title: "Hose Pulley"
-		quest.64C608D29CDEFF51.quest_subtitle: "calm prize: the Hose Pulley."
-		quest.64C608D29CDEFF51.quest_desc: ["Walk away with the Hose Pulley. Patient runs win."]
+		quest.64C608D29CDEFF51.title: "&b&lSpecialized Machines"
+		quest.64C608D29CDEFF51.quest_subtitle: "&7Pump fluids, grow crops, ride elevators"
+		quest.64C608D29CDEFF51.quest_desc: [
+			"&b&lSpecialized Machines"
+			"&8&m                            "
+			""
+			"&7The Hose Pulley drains or fills bodies of fluid, the"
+			"&7Insolator and Composter grow and process plants, the Item"
+			"&7Drain empties containers, and the pulleys raise contraptions."
+			""
+			"&b&lCategory:&r &fMachines"
+			""
+			"&e&l★ Tip:&r &7Each of these solves one job no other Create machine handles."
+		]
 		quest.64D0E66CB4FBEC82.title: "&b&lNovice Spell Book"
 		quest.64D0E66CB4FBEC82.quest_subtitle: "&7The Novice Spell Book for casting"
 		quest.64D0E66CB4FBEC82.quest_desc: [
@@ -11584,15 +11889,37 @@
 			""
 			"&e&l★ Tip:&r &7Light is scarce here. Bring plenty of torches and stay alert."
 		]
-		quest.68EAA68B812E82E6.title: "Gantry Carriage"
-		quest.68EAA68B812E82E6.quest_subtitle: "A Gantry Carriage for the road."
-		quest.68EAA68B812E82E6.quest_desc: ["The Gantry Carriage is on the menu. Quiet progress beats loud setbacks."]
+		quest.68EAA68B812E82E6.title: "&5&lContraption Movers"
+		quest.68EAA68B812E82E6.quest_subtitle: "&7Pistons, bearings, pulleys and gantries"
+		quest.68EAA68B812E82E6.quest_desc: [
+			"&5&lContraption Movers"
+			"&8&m                            "
+			""
+			"&7Mechanical Pistons, Bearings, Rope Pulleys and Gantries"
+			"&7assemble blocks into a moving contraption. Chassis and"
+			"&7stickers decide which blocks travel along with it."
+			""
+			"&5&lCategory:&r &fContraptions"
+			""
+			"&e&l★ Tip:&r &7Glue or chassis must bind every block you want to move."
+		]
 		quest.68EE97DB93FED7BF.title: "Hostile Wolf"
 		quest.68EE97DB93FED7BF.quest_subtitle: "Carry the Hostile Wolf forward."
 		quest.68EE97DB93FED7BF.quest_desc: ["Get yourself the Hostile Wolf. Worth more than its tooltip says."]
-		quest.68F1F567EEE0B258.title: "Andesite Casing"
-		quest.68F1F567EEE0B258.quest_subtitle: "steadfast hop: the Andesite Casing."
-		quest.68F1F567EEE0B258.quest_desc: ["Mark the Andesite Casing in your log. Listed early for a reason."]
+		quest.68F1F567EEE0B258.title: "&e&lAndesite Essentials"
+		quest.68F1F567EEE0B258.quest_subtitle: "&7Casings, goggles, glue and belts"
+		quest.68F1F567EEE0B258.quest_desc: [
+			"&e&lAndesite Essentials"
+			"&8&m                            "
+			""
+			"&7Andesite Casing encloses shafts, the Engineer Goggles"
+			"&7read machine stats, Super Glue groups blocks and the"
+			"&7Belt Connector links two shafts with a moving belt."
+			""
+			"&e&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7The goggles are vital. Always wear them when wiring up Create."
+		]
 		quest.6904EC449FBEE387.title: "Cable"
 		quest.6904EC449FBEE387.quest_subtitle: "Snag the Cable this run."
 		quest.6904EC449FBEE387.quest_desc: ["Reach for the Cable. Quiet progress beats loud setbacks."]
@@ -11873,9 +12200,20 @@
 		quest.6A94EEB82C5A4E0B.title: "Minotaur"
 		quest.6A94EEB82C5A4E0B.quest_subtitle: "Snag the Minotaur this run."
 		quest.6A94EEB82C5A4E0B.quest_desc: ["Cross the Minotaur off. Steady is fast."]
-		quest.6ABA22E2E64257AE.title: "Mechanical Conduit"
-		quest.6ABA22E2E64257AE.quest_subtitle: "Worth the Mechanical Conduit detour."
-		quest.6ABA22E2E64257AE.quest_desc: ["Pick up the Mechanical Conduit on your way through. Patient runs win."]
+		quest.6ABA22E2E64257AE.title: "&d&lAquatic Ambitions"
+		quest.6ABA22E2E64257AE.quest_subtitle: "&7Take Create beneath the waves"
+		quest.6ABA22E2E64257AE.quest_desc: [
+			"&d&lAquatic Ambitions"
+			"&8&m                            "
+			""
+			"&7Aquatic Ambitions extends Create underwater. Mechanical"
+			"&7Conduits carry rotation through the deep, and Prismarine"
+			"&7Alloy parts build machines made for the ocean floor."
+			""
+			"&d&lCategory:&r &fCreate Addons"
+			""
+			"&e&l★ Tip:&r &7Suspicious Rock is the ore that starts this aquatic branch."
+		]
 		quest.6AEFC2B53E38BBC3.title: "Lower Goblin Knight"
 		quest.6AEFC2B53E38BBC3.quest_subtitle: "Earn the Lower Goblin Knight, the calm way."
 		quest.6AEFC2B53E38BBC3.quest_desc: ["The Lower Goblin Knight is the next pivot. Friendly nudge."]
@@ -11895,9 +12233,19 @@
 			""
 			"&e&l★ Tip:&r &7Stronger spirits give faster machines. Upgrade when you can."
 		]
-		quest.6B1ABE3E11D2293B.title: "Brass Casing"
-		quest.6B1ABE3E11D2293B.quest_subtitle: "resolute hop: the Brass Casing."
-		quest.6B1ABE3E11D2293B.quest_desc: ["Bring the Brass Casing home. Quiet capital."]
+		quest.6B1ABE3E11D2293B.title: "&e&lBrass Casing"
+		quest.6B1ABE3E11D2293B.quest_subtitle: "&7The casing of advanced machinery"
+		quest.6B1ABE3E11D2293B.quest_desc: [
+			"&e&lBrass Casing"
+			"&8&m                            "
+			""
+			"&7Brass Casing is the higher casing tier, required by"
+			"&7the smart and automated machines of mid-game Create."
+			""
+			"&e&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7Brass needs a mixer and heat. Build that before this casing."
+		]
 		quest.6B204632B8DD0DA1.title: "Silverfish"
 		quest.6B204632B8DD0DA1.quest_subtitle: "The Silverfish is a checkpoint."
 		quest.6B204632B8DD0DA1.quest_desc: ["Wrap up the Silverfish. The shortcut is not here."]
@@ -12098,9 +12446,20 @@
 		quest.6D308FEF0DBA46A6.title: "Hostile Wolf"
 		quest.6D308FEF0DBA46A6.quest_subtitle: "Earn it: the Hostile Wolf."
 		quest.6D308FEF0DBA46A6.quest_desc: ["Set sights on the Hostile Wolf. A small step on a long road."]
-		quest.6D3A0BA54AA22403.title: "Smart Fluid Pipe"
-		quest.6D3A0BA54AA22403.quest_subtitle: "honest run, single Smart Fluid Pipe."
-		quest.6D3A0BA54AA22403.quest_desc: ["Bring the Smart Fluid Pipe into the fold. The chain holds."]
+		quest.6D3A0BA54AA22403.title: "&3&lFluid Plumbing"
+		quest.6D3A0BA54AA22403.quest_subtitle: "&7Pipe, pump and valve your liquids"
+		quest.6D3A0BA54AA22403.quest_desc: [
+			"&3&lFluid Plumbing"
+			"&8&m                            "
+			""
+			"&7Fluid Pipes carry liquids, the Mechanical Pump drives"
+			"&7them along, Valves and the Valve Handle open and close"
+			"&7the flow, and the Sprinkler waters crops below."
+			""
+			"&3&lCategory:&r &fFluids"
+			""
+			"&e&l★ Tip:&r &7A pump needs rotation. Pipes alone will not move a drop."
+		]
 		quest.6D8AA40A15536F01.title: "Battery Upgrade"
 		quest.6D8AA40A15536F01.quest_subtitle: "Brick: the Battery Upgrade."
 		quest.6D8AA40A15536F01.quest_desc: ["The Battery Upgrade is on the menu. Snowballs after this."]
@@ -12180,9 +12539,20 @@
 		quest.6E14B11206DFC040.title: "Fire Beetle"
 		quest.6E14B11206DFC040.quest_subtitle: "Snag the Fire Beetle this run."
 		quest.6E14B11206DFC040.quest_desc: ["Stow the Fire Beetle. Trust the chain."]
-		quest.6E3CE34E34DAAF97.title: "Schematic And Quill"
-		quest.6E3CE34E34DAAF97.quest_subtitle: "Add one Schematic And Quill."
-		quest.6E3CE34E34DAAF97.quest_desc: ["Carry the Schematic And Quill with you. Calm focus beats rushing."]
+		quest.6E3CE34E34DAAF97.title: "&5&lSchematics"
+		quest.6E3CE34E34DAAF97.quest_subtitle: "&7Copy builds and print them with a cannon"
+		quest.6E3CE34E34DAAF97.quest_desc: [
+			"&5&lSchematics"
+			"&8&m                            "
+			""
+			"&7A Schematic and Quill copies any structure, the Table and"
+			"&7Empty Schematics store and load it, and the Schematicannon"
+			"&7rebuilds it block by block from your supplies."
+			""
+			"&5&lCategory:&r &fContraptions"
+			""
+			"&e&l★ Tip:&r &7The clipboard helps you plan and organize the work."
+		]
 		quest.6E4785A7A2FD19A2.title: "&b&lNetherite-Diamond Ingot"
 		quest.6E4785A7A2FD19A2.quest_subtitle: "&7The heart of Netherite-Diamond gear."
 		quest.6E4785A7A2FD19A2.quest_desc: [
@@ -12288,9 +12658,20 @@
 			""
 			"&e&l★ Tip:&r &7The journey does not end here. Keep refining your perfect spell."
 		]
-		quest.6F36904BC73AA09D.title: "Cardboard Package 12x10"
-		quest.6F36904BC73AA09D.quest_subtitle: "Mark the Cardboard Package 12x10 done."
-		quest.6F36904BC73AA09D.quest_desc: ["Take possession of the Cardboard Package 12x10. The route teaches as much as the prize."]
+		quest.6F36904BC73AA09D.title: "&a&lCardboard Packages"
+		quest.6F36904BC73AA09D.quest_subtitle: "&7Boxes in four sizes for shipping"
+		quest.6F36904BC73AA09D.quest_desc: [
+			"&a&lCardboard Packages"
+			"&8&m                            "
+			""
+			"&7Cardboard Packages are the boxes the logistics system"
+			"&7ships items in. The four sizes hold different amounts,"
+			"&7so you can match the box to the cargo."
+			""
+			"&a&lCategory:&r &fLogistics"
+			""
+			"&e&l★ Tip:&r &7Bigger boxes need more cardboard but carry far more goods."
+		]
 		quest.6F423A65F0A74E32.title: "Umvuthana Crane"
 		quest.6F423A65F0A74E32.quest_subtitle: "Worth the Umvuthana Crane detour."
 		quest.6F423A65F0A74E32.quest_desc: ["Cross the Umvuthana Crane off. Patient runs win."]
@@ -12392,9 +12773,20 @@
 			""
 			"&e&l★ Tip:&r &7Make the impure chalk first, then purify it with a clean brush."
 		]
-		quest.6FF64EAB0E7F88B4.title: "Electric Motor"
-		quest.6FF64EAB0E7F88B4.quest_subtitle: "Build out the Electric Motor chain."
-		quest.6FF64EAB0E7F88B4.quest_desc: ["Bring the Electric Motor into the fold. Modest now, mighty later."]
+		quest.6FF64EAB0E7F88B4.title: "&c&lCreate Electricity"
+		quest.6FF64EAB0E7F88B4.quest_subtitle: "&7Generate, store and use energy"
+		quest.6FF64EAB0E7F88B4.quest_desc: [
+			"&c&lCreate Electricity"
+			"&8&m                            "
+			""
+			"&7Create Addition bridges to Forge Energy. The motor and"
+			"&7alternator convert rotation to power, the accumulator"
+			"&7stores it and the tesla coil shocks foes."
+			""
+			"&c&lCategory:&r &fPower"
+			""
+			"&e&l★ Tip:&r &7Electricity links Create to nearly every tech mod in the pack."
+		]
 		quest.6FFFAE334DFAAAAB.title: "&5&lIesnium Sacrificial Bowl"
 		quest.6FFFAE334DFAAAAB.quest_subtitle: "&7An upgraded ritual altar"
 		quest.6FFFAE334DFAAAAB.quest_desc: [
@@ -12814,9 +13206,20 @@
 		quest.7350C7F9441BC20C.title: "Creeper"
 		quest.7350C7F9441BC20C.quest_subtitle: "A Creeper for the road."
 		quest.7350C7F9441BC20C.quest_desc: ["Bring the Creeper along. Aim for the next thing."]
-		quest.736E74AB182F85DE.title: "Objective"
-		quest.736E74AB182F85DE.quest_subtitle: "Snag the mark this run."
-		quest.736E74AB182F85DE.quest_desc: ["The mark unlocks more than it looks. A seed for the snowball."]
+		quest.736E74AB182F85DE.title: "&d&lOilfield Tools"
+		quest.736E74AB182F85DE.quest_subtitle: "&7Scan oil, cut wire, swing the hammer"
+		quest.736E74AB182F85DE.quest_desc: [
+			"&d&lOilfield Tools"
+			"&8&m                            "
+			""
+			"&7The Oil Scanner reveals where crude lies underground, the"
+			"&7Wire Cutters work the diesel power grid, and the Hammer"
+			"&7shapes the metal parts of the oil industry."
+			""
+			"&d&lCategory:&r &fCreate Addons"
+			""
+			"&e&l★ Tip:&r &7Scan before you build. A dry pumpjack produces nothing."
+		]
 		quest.737B3BE4CCD94A84.title: "Harbinger Cube"
 		quest.737B3BE4CCD94A84.quest_subtitle: "Tiny step: the Harbinger Cube."
 		quest.737B3BE4CCD94A84.quest_desc: ["Earn the Harbinger Cube the hard way. One more rung climbed."]
@@ -13084,15 +13487,36 @@
 		quest.7604D8B3C9FCCFD9.title: "Storage Housing"
 		quest.7604D8B3C9FCCFD9.quest_subtitle: "On the Storage Housing branch."
 		quest.7604D8B3C9FCCFD9.quest_desc: ["Bring back the Storage Housing. The shortcut is not here."]
-		quest.7611ABB2AB1CB561.title: "Andesite"
-		quest.7611ABB2AB1CB561.quest_subtitle: "Today goal: the Andesite."
-		quest.7611ABB2AB1CB561.quest_desc: ["Score one Andesite. Small habit, big result."]
+		quest.7611ABB2AB1CB561.title: "&e&lAndesite Alloy"
+		quest.7611ABB2AB1CB561.quest_subtitle: "&7Forge the founding material of Create"
+		quest.7611ABB2AB1CB561.quest_desc: [
+			"&e&lAndesite Alloy"
+			"&8&m                            "
+			""
+			"&7Andesite Alloy is the base of nearly every Create"
+			"&7device. Combine andesite with a zinc nugget or iron."
+			""
+			"&e&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7Set up an alloy supply early. You will need a great deal of it."
+		]
 		quest.7618AF8E002795A4.title: "Enderman"
 		quest.7618AF8E002795A4.quest_subtitle: "Modest gain: the Enderman."
 		quest.7618AF8E002795A4.quest_desc: ["Reach for the Enderman. Worth pinning."]
-		quest.76294CB7A05F4819.title: "Hypertube"
-		quest.76294CB7A05F4819.quest_subtitle: "The Hypertube: load-bearing."
-		quest.76294CB7A05F4819.quest_desc: ["Take possession of the Hypertube. Press on."]
+		quest.76294CB7A05F4819.title: "&d&lHypertubes"
+		quest.76294CB7A05F4819.quest_subtitle: "&7Shoot players across the map"
+		quest.76294CB7A05F4819.quest_desc: [
+			"&d&lHypertubes"
+			"&8&m                            "
+			""
+			"&7Hypertubes launch a player through a sealed pipe at great"
+			"&7speed. Entrances let you in and out, accelerators keep the"
+			"&7momentum, and attachments detect and scan what passes."
+			""
+			"&d&lCategory:&r &fCreate Addons"
+			""
+			"&e&l★ Tip:&r &7A hypertube line is the fastest way to cross a large base."
+		]
 		quest.763420BE9AF2488F.title: "Hoglin"
 		quest.763420BE9AF2488F.quest_subtitle: "One Hoglin, one deliberate win."
 		quest.763420BE9AF2488F.quest_desc: ["Earn the Hoglin. Next door is in sight."]
@@ -14163,9 +14587,20 @@
 			""
 			"&e&l★ Tip:&r &7Inscribe glyphs at the Scribes Table. Mix forms, effects and augments."
 		]
-		quest.7F44C7338640C6A2.title: "Fluid Tank"
-		quest.7F44C7338640C6A2.quest_subtitle: "resolute prize: the Fluid Tank."
-		quest.7F44C7338640C6A2.quest_desc: ["Mark the Fluid Tank obtained. One more rung climbed."]
+		quest.7F44C7338640C6A2.title: "&3&lFluid Tanks and Steam"
+		quest.7F44C7338640C6A2.quest_subtitle: "&7Store liquids and raise steam power"
+		quest.7F44C7338640C6A2.quest_desc: [
+			"&3&lFluid Tanks and Steam"
+			"&8&m                            "
+			""
+			"&7Fluid Tanks store large volumes of liquid, the Portable"
+			"&7Interface and Fluid Hatch fill and empty them, and a"
+			"&7heated Steam Engine drives a powerful steam network."
+			""
+			"&3&lCategory:&r &fFluids"
+			""
+			"&e&l★ Tip:&r &7Stack tanks taller and wider to hold ever more fluid."
+		]
 		quest.7F4BEF8DC7DED176.title: "Arapaima"
 		quest.7F4BEF8DC7DED176.quest_subtitle: "Pocketed: the Arapaima."
 		quest.7F4BEF8DC7DED176.quest_desc: ["Snag the Arapaima on the way. Bridges what you did with what is next."]
