@@ -1323,21 +1323,71 @@
 		quest.0FD750C1BDBC4A81.title: "Warden"
 		quest.0FD750C1BDBC4A81.quest_subtitle: "Zarabotajte Warden umerennyj putem."
 		quest.0FD750C1BDBC4A81.quest_desc: ["Zakrepite Warden v inventare. Vy zasluzhili pauzu."]
-		quest.1000000000000001.title: "Dimension"
-		quest.1000000000000001.quest_subtitle: "Odin Dimension, sosredotochennyj pobeda."
-		quest.1000000000000001.quest_desc: ["Otmette Dimension v zhurnale. Sleduyushchaya dver' vidna."]
-		quest.1000000000000002.title: "Skyroot Pickaxe"
-		quest.1000000000000002.quest_subtitle: "bditelnyj shag k Skyroot Pickaxe."
-		quest.1000000000000002.quest_desc: ["Zarabotajte Skyroot Pickaxe shag za shagom. Vy sebe potom skazhete spasibo."]
-		quest.1000000000000003.title: "Holystone Pickaxe"
-		quest.1000000000000003.quest_subtitle: "Skromnaya pribyl: Holystone Pickaxe."
-		quest.1000000000000003.quest_desc: ["Prinesite Holystone Pickaxe domoj. Vy sebe potom skazhete spasibo."]
-		quest.1000000000000004.title: "Ambrosium Shard"
-		quest.1000000000000004.quest_subtitle: "Kirpich: Ambrosium Shard."
-		quest.1000000000000004.quest_desc: ["Zafiksirujte Ambrosium Shard. Korotkogo puti zdes net."]
-		quest.1000000000000005.title: "Cold Aercloud"
-		quest.1000000000000005.quest_subtitle: "Tixij rubezh s Cold Aercloud."
-		quest.1000000000000005.quest_desc: ["Cold Aercloud oplachivaet sebya. Blizhe, chem podskazyvaet karta."]
+		quest.1000000000000001.title: "&b&lVojti v Aether"
+		quest.1000000000000001.quest_subtitle: "&7Podnimites v nebesnoe izmerenie"
+		quest.1000000000000001.quest_desc: [
+			"&b&lVojti v Aether"
+			"&8&m                            "
+			""
+			"&7Postrojte portal iz svetokamnya, zapolnite ramku vodoj"
+			"&7i podnimites v Aether, raj nad oblakami."
+			""
+			"&b&lKategoriya:&r &fIssledovanie"
+			""
+			"&e&l★ Sovet:&r &7Ramka portala Aether iz svetokamnya, ne obsidiana. Aktivirujte vodoj."
+		]
+		quest.1000000000000002.title: "&a&lInstrumenty iz Skyroot"
+		quest.1000000000000002.quest_subtitle: "&7Vash pervyj nabor instrumentov Aether"
+		quest.1000000000000002.quest_desc: [
+			"&a&lInstrumenty iz Skyroot"
+			"&8&m                            "
+			""
+			"&7Sozdajte polnyj nabor instrumentov iz skyroot, dereva"
+			"&7Aether: kirku, topor, lopatu, mech i motygu."
+			""
+			"&a&lKategoriya:&r &fSnaryazhenie"
+			""
+			"&e&l★ Sovet:&r &7Skyroot, eto drevesina Aether. Soberite eyo pervym delom."
+		]
+		quest.1000000000000003.title: "&a&lInstrumenty iz Svyatokamnya"
+		quest.1000000000000003.quest_subtitle: "&7Kamennye instrumenty neba"
+		quest.1000000000000003.quest_desc: [
+			"&a&lInstrumenty iz Svyatokamnya"
+			"&8&m                            "
+			""
+			"&7Sozdajte polnyj nabor instrumentov iz svyatokamnya."
+			"&7Otvet Aether na bulyzhnik, prochnoe rannee uluchshenie."
+			""
+			"&a&lKategoriya:&r &fSnaryazhenie"
+			""
+			"&e&l★ Sovet:&r &7Svyatokamen vezde pod nogami. Bystryj shag vverh ot skyroot."
+		]
+		quest.1000000000000004.title: "&6&lOskolok Ambrozii"
+		quest.1000000000000004.quest_subtitle: "&7Myagkoe siyanie Aether"
+		quest.1000000000000004.quest_desc: [
+			"&6&lOskolok Ambrozii"
+			"&8&m                            "
+			""
+			"&7Soberite oskolki ambrozii iz rudy svyatokamnya. Oni"
+			"&7pitayut fakely Aether i nemnogo lechat pri ispolzovanii."
+			""
+			"&6&lKategoriya:&r &fMaterialy"
+			""
+			"&e&l★ Sovet:&r &7Ambroziya vash rannij istochnik sveta. Dobudte pobolshe srazu."
+		]
+		quest.1000000000000005.title: "&6&lHolodnoe Aeroblako"
+		quest.1000000000000005.quest_subtitle: "&7Oblako, smyagchayushchee padenie"
+		quest.1000000000000005.quest_desc: [
+			"&6&lHolodnoe Aeroblako"
+			"&8&m                            "
+			""
+			"&7Soberite holodnoe aeroblako. Pod nogami ono otmenyaet"
+			"&7ves uron ot padeniya dazhe s ogromnoj vysoty."
+			""
+			"&6&lKategoriya:&r &fMaterialy"
+			""
+			"&e&l★ Sovet:&r &7Vystelite zony posadki holodnym aeroblakom. Do Aether dalekoe padenie."
+		]
 		quest.1000000000000010.title: "&2&lDiplomatiya s Piglinami"
 		quest.1000000000000010.quest_subtitle: "&7Zavodite druzej, a ne vragov"
 		quest.1000000000000010.quest_desc: [
@@ -3342,18 +3392,58 @@
 			""
 			"&e&l★ Sovet:&r &7Kamennye instrumenty dovodyat bolshinstvo do pervogo zheleza."
 		]
-		quest.3000000000000001.title: "Structure"
-		quest.3000000000000001.quest_subtitle: "Structure: nesushchee zveno."
-		quest.3000000000000001.quest_desc: ["Zarabotajte Structure, igraya dolgo. Eshchyo odin kirpich v stene."]
-		quest.3000000000000002.title: "Slider"
-		quest.3000000000000002.quest_subtitle: "Voz'mite Slider v etot ran."
-		quest.3000000000000002.quest_desc: ["Zarabotajte Slider. Stoit bolshe opisaniya."]
-		quest.3000000000000003.title: "Valkyrie Lance"
-		quest.3000000000000003.quest_subtitle: "Na puti k Valkyrie Lance."
-		quest.3000000000000003.quest_desc: ["Otmette Valkyrie Lance v dossier. Patient runs vyigrayut."]
-		quest.3000000000000004.title: "Gravitite Helmet"
-		quest.3000000000000004.quest_subtitle: "Tixij rubezh s Gravitite Helmet."
-		quest.3000000000000004.quest_desc: ["Voz'mite Gravitite Helmet. Stremites' k sleduyushchemu."]
+		quest.3000000000000001.title: "&e&lBronzovoe Podzemele"
+		quest.3000000000000001.quest_subtitle: "&7Pervoe ispytanie Aether"
+		quest.3000000000000001.quest_desc: [
+			"&e&lBronzovoe Podzemele"
+			"&8&m                            "
+			""
+			"&7Najdite Bronzovoe Podzemele, skrytoe vnutri paryashchih"
+			"&7ostrovov. Projdite ego do komnaty Slidera."
+			""
+			"&e&lKategoriya:&r &fPodzemelya"
+			""
+			"&e&l★ Sovet:&r &7Podzemele zapiraetsya za vami. Bud te gotovy k boyu pered vhodom."
+		]
+		quest.3000000000000002.title: "&c&lSlider"
+		quest.3000000000000002.quest_subtitle: "&7Pobedite bossa Bronzovogo Podzemelya"
+		quest.3000000000000002.quest_desc: [
+			"&c&lSlider"
+			"&8&m                            "
+			""
+			"&7Unichtozhte Slidera, paryashchij kamennyj blok,"
+			"&7kotoryj nesyotsya po komnate, chtoby vas razdavit."
+			""
+			"&c&lKategoriya:&r &fBoss"
+			""
+			"&e&l★ Sovet:&r &7Bejte ego, kogda on ostanavlivaetsya. Kirka nanosit bolshe vsego urona."
+		]
+		quest.3000000000000003.title: "&d&lOruzhie Aether"
+		quest.3000000000000003.quest_subtitle: "&7Vladejte relikviyami podzemelij"
+		quest.3000000000000003.quest_desc: [
+			"&d&lOruzhie Aether"
+			"&8&m                            "
+			""
+			"&7Soberite legendarnoe oruzhie Aether: kop yo valkirii,"
+			"&7molot Kingbdogz, oblachnyj posox i molnievyj nozh."
+			""
+			"&d&lKategoriya:&r &fLegendarnoe"
+			""
+			"&e&l★ Sovet:&r &7Kazhdoe oruzhie spryatano v dobyche podzemelij. Najdite ix vse."
+		]
+		quest.3000000000000004.title: "&a&lSnaryazhenie iz Gravitita"
+		quest.3000000000000004.quest_subtitle: "&7Bronya i instrumenty vopreki gravitacii"
+		quest.3000000000000004.quest_desc: [
+			"&a&lSnaryazhenie iz Gravitita"
+			"&8&m                            "
+			""
+			"&7Vykujte polnyj komplekt iz gravitita: chetyre chasti"
+			"&7broni i pyat instrumentov iz zacharovannogo gravitita."
+			""
+			"&a&lKategoriya:&r &fSnaryazhenie"
+			""
+			"&e&l★ Sovet:&r &7Bronya iz gravitita usilivaet pryzhok. Nebo stanovitsya ploshchadkoj."
+		]
 		quest.3009018DEC1EC952.title: "Dimension"
 		quest.3009018DEC1EC952.quest_subtitle: "Kirpich: Dimension."
 		quest.3009018DEC1EC952.quest_desc: ["Polozhite Dimension v karman. Glava krutitsya vokrug etogo."]
@@ -3448,9 +3538,19 @@
 		quest.31BB7EB95CE73C1A.title: "Alpha Yeti Trophy"
 		quest.31BB7EB95CE73C1A.quest_subtitle: "Odin Alpha Yeti Trophy, tihij pobeda."
 		quest.31BB7EB95CE73C1A.quest_desc: ["Dobavte Alpha Yeti Trophy v nabor. Doroga uchit ne men'she pribyli."]
-		quest.31BF04F3FF4D6343.title: "Zanite Helmet"
-		quest.31BF04F3FF4D6343.quest_subtitle: "Zanite Helmet, kontrolnaya tochka."
-		quest.31BF04F3FF4D6343.quest_desc: ["Vycherknite Zanite Helmet. Melkie pobedy summiruyutsya."]
+		quest.31BF04F3FF4D6343.title: "&a&lSnaryazhenie iz Zanita"
+		quest.31BF04F3FF4D6343.quest_subtitle: "&7Bronya i instrumenty iz zanita"
+		quest.31BF04F3FF4D6343.quest_desc: [
+			"&a&lSnaryazhenie iz Zanita"
+			"&8&m                            "
+			""
+			"&7Vykujte polnyj komplekt iz zanita: shlem, nagrudnik,"
+			"&7ponozhi, botinki i pyat sootvetstvuyushchih instrumentov."
+			""
+			"&a&lKategoriya:&r &fSnaryazhenie"
+			""
+			"&e&l★ Sovet:&r &7Snaryazhenie iz zanita stanovitsya effektivnee po mere iznosa."
+		]
 		quest.31E7F7464D79F881.title: "Lapis Lazuli"
 		quest.31E7F7464D79F881.quest_subtitle: "Otmette Lapis Lazuli."
 		quest.31E7F7464D79F881.quest_desc: ["Upakujte Lapis Lazuli. Semena dlya snezhnogo koma."]
@@ -3980,9 +4080,19 @@
 		quest.3C4ECF5741837953.title: "Drowned"
 		quest.3C4ECF5741837953.quest_subtitle: "Tixij rubezh s Drowned."
 		quest.3C4ECF5741837953.quest_desc: ["Vytashchite Drowned iz ego ukrytiya. Modulnyj progress, melkie shagi."]
-		quest.3C6AB1E04AE2BA01.title: "Zanite Gemstone"
-		quest.3C6AB1E04AE2BA01.quest_subtitle: "Odin Zanite Gemstone, tihij pobeda."
-		quest.3C6AB1E04AE2BA01.quest_desc: ["Dobavte Zanite Gemstone. Modulnyj progress, melkie shagi."]
+		quest.3C6AB1E04AE2BA01.title: "&6&lSamocvet Zanita"
+		quest.3C6AB1E04AE2BA01.quest_subtitle: "&7Kamen, ostreyushchij ot ispolzovaniya"
+		quest.3C6AB1E04AE2BA01.quest_desc: [
+			"&6&lSamocvet Zanita"
+			"&8&m                            "
+			""
+			"&7Dobudte samocvety zanita iz rudy zanita. Osnovnoj"
+			"&7material snaryazheniya srednego urovnya Aether."
+			""
+			"&6&lKategoriya:&r &fMaterialy"
+			""
+			"&e&l★ Sovet:&r &7Instrumenty iz zanita kopayut bystree po mere iznosa. Strannо no polezno."
+		]
 		quest.3C8724C3A9459507.title: "Yeti Helmet"
 		quest.3C8724C3A9459507.quest_subtitle: "produmannyj ran, odin Yeti Helmet."
 		quest.3C8724C3A9459507.quest_desc: ["Yeti Helmet otkryvaet bolshe, chem kazhetsya. Eshchyo odin kirpich v stene."]
@@ -4229,15 +4339,45 @@
 		quest.3FFB850F8F0B1200.title: "Feeding Upgrade"
 		quest.3FFB850F8F0B1200.quest_subtitle: "Malen'kij shag: Feeding Upgrade."
 		quest.3FFB850F8F0B1200.quest_desc: ["Najdite svoj put k Feeding Upgrade. Nesushchij, ne yarkij."]
-		quest.4000000000000001.title: "Victory Medal"
-		quest.4000000000000001.quest_subtitle: "Voz'mite Victory Medal v etot ran."
-		quest.4000000000000001.quest_desc: ["Otmette Victory Medal kak priobretennyj. Melkaya privychka, krupnyj rezultat."]
-		quest.4000000000000002.title: "Valkyrie Queen"
-		quest.4000000000000002.quest_subtitle: "Otmette Valkyrie Queen."
-		quest.4000000000000002.quest_desc: ["Valkyrie Queen: tixij rubezh. Snezhnyj kom otsyuda."]
-		quest.4000000000000003.title: "Valkyrie Helmet"
-		quest.4000000000000003.quest_subtitle: "krepkij pryzhok: Valkyrie Helmet."
-		quest.4000000000000003.quest_desc: ["Vyslechte Valkyrie Helmet. Malenkij shag na dolgom puti."]
+		quest.4000000000000001.title: "&6&lMedal Pobedy"
+		quest.4000000000000001.quest_subtitle: "&7Dokazatelstvo doblesti na arene"
+		quest.4000000000000001.quest_desc: [
+			"&6&lMedal Pobedy"
+			"&8&m                            "
+			""
+			"&7Zarabotajte medali pobedy, pobezhdaya valkirij. Eto"
+			"&7edinstvennaya valyuta, kotoruyu prinimaet Koroleva Valkirij."
+			""
+			"&6&lKategoriya:&r &fMaterialy"
+			""
+			"&e&l★ Sovet:&r &7Beregite medali. Koroleva ne stanet bitsya bez nih."
+		]
+		quest.4000000000000002.title: "&c&lKoroleva Valkirij"
+		quest.4000000000000002.quest_subtitle: "&7Brosьte vyzov koroleve nebes"
+		quest.4000000000000002.quest_desc: [
+			"&c&lKoroleva Valkirij"
+			"&8&m                            "
+			""
+			"&7Pobedite Korolevu Valkirij. Ona prinimaet vyzov tolko"
+			"&7kogda vy predlozhite ej dostatochno medalej pobedy."
+			""
+			"&c&lKategoriya:&r &fBoss"
+			""
+			"&e&l★ Sovet:&r &7Ona bystra i silno byot. Snaryazhenie iz gravitita ne otstayot."
+		]
+		quest.4000000000000003.title: "&d&lSnaryazhenie Valkirii"
+		quest.4000000000000003.quest_subtitle: "&7Bronya i oruzhie korolevy"
+		quest.4000000000000003.quest_desc: [
+			"&d&lSnaryazhenie Valkirii"
+			"&8&m                            "
+			""
+			"&7Vykujte polnyj komplekt valkirii: chetyre chasti"
+			"&7broni, chetyre instrumenta i molnievyj mech."
+			""
+			"&d&lKategoriya:&r &fLegendarnoe"
+			""
+			"&e&l★ Sovet:&r &7Snaryazhenie valkirii lyogkoe i bystroe, dlya letayushchego voina."
+		]
 		quest.4005DA1BA51C0C68.title: "Ghast"
 		quest.4005DA1BA51C0C68.quest_subtitle: "Ghast opravdyvaet sebya."
 		quest.4005DA1BA51C0C68.quest_desc: ["Ghast, chast' tsepi. Glava proshla polputi s vami."]
@@ -4728,9 +4868,19 @@
 		quest.47EBD49B34B70B3D.title: "Rooted Boots"
 		quest.47EBD49B34B70B3D.quest_subtitle: "Rooted Boots otkryvaet bolshe."
 		quest.47EBD49B34B70B3D.quest_desc: ["Zarabotajte Rooted Boots. Melkie pobedy summiruyutsya."]
-		quest.47F14A31158F2D9E.title: "Eots Controller"
-		quest.47F14A31158F2D9E.quest_subtitle: "Stroyte tsep Eots Controller."
-		quest.47F14A31158F2D9E.quest_desc: ["Najdite put k Eots Controller. V svoyom rite."]
+		quest.47F14A31158F2D9E.title: "&c&lOko Buri"
+		quest.47F14A31158F2D9E.quest_subtitle: "&7Usmirite buryu Deep Aether"
+		quest.47F14A31158F2D9E.quest_desc: [
+			"&c&lOko Buri"
+			"&8&m                            "
+			""
+			"&7Pobedite Oko Buri, neistovogo bossa, kotoryj pravit"
+			"&7serdcem Deep Aether."
+			""
+			"&c&lKategoriya:&r &fBoss"
+			""
+			"&e&l★ Sovet:&r &7Burya ne stixaet. Ostavajtes podvizhny i vybirajte momenty dlya udara."
+		]
 		quest.47F38E606AD3FF53.title: "Dust"
 		quest.47F38E606AD3FF53.quest_subtitle: "Dobudte Dust."
 		quest.47F38E606AD3FF53.quest_desc: ["Dobavte Dust v zapas. On skoro vam ponadobitsya."]
@@ -5011,9 +5161,19 @@
 		quest.4C0B4F5148F144FC.title: "Wither"
 		quest.4C0B4F5148F144FC.quest_subtitle: "Otmette Wither."
 		quest.4C0B4F5148F144FC.quest_desc: ["Wither, sleduyushchij povorot. Tixij progress pobezhdaet."]
-		quest.4C3BE7C21DD86197.title: "Blue Aercloud"
-		quest.4C3BE7C21DD86197.quest_subtitle: "Na puti k Blue Aercloud."
-		quest.4C3BE7C21DD86197.quest_desc: ["Polozhite Blue Aercloud v karman. Spokojstvie pobezhdaet speshku."]
+		quest.4C3BE7C21DD86197.title: "&6&lSinee Aeroblako"
+		quest.4C3BE7C21DD86197.quest_subtitle: "&7Oblako, podbrasyvayushchee vverh"
+		quest.4C3BE7C21DD86197.quest_desc: [
+			"&6&lSinee Aeroblako"
+			"&8&m                            "
+			""
+			"&7Soberite sinee aeroblako. Stupite na nego, i ono"
+			"&7podbrosit vas vysoko v vozdux."
+			""
+			"&6&lKategoriya:&r &fMaterialy"
+			""
+			"&e&l★ Sovet:&r &7Sinie aeroblaka dayut bystrye vertikalnye puti mezhdu ostrovami."
+		]
 		quest.4C3D1A968EDC4C67.title: "Swarm Spider"
 		quest.4C3D1A968EDC4C67.quest_subtitle: "Swarm Spider: nesushchee zveno."
 		quest.4C3D1A968EDC4C67.quest_desc: ["Otlozhite Swarm Spider. Schitaet."]
@@ -5244,18 +5404,58 @@
 		quest.4FF6C5AEFE6BDF6E.title: "Redcap"
 		quest.4FF6C5AEFE6BDF6E.quest_subtitle: "Stroyte tsep Redcap."
 		quest.4FF6C5AEFE6BDF6E.quest_desc: ["Zarabotajte Redcap chestno. Eshchyo odna preodolennaya stupen'."]
-		quest.5000000000000001.title: "Structure"
-		quest.5000000000000001.quest_subtitle: "Structure opravdyvaet sebya."
-		quest.5000000000000001.quest_desc: ["Structure: nesushchij, ne gromkij. Stabil'no, bystro."]
-		quest.5000000000000002.title: "Sun Spirit"
-		quest.5000000000000002.quest_subtitle: "Zarabotajte: Sun Spirit."
-		quest.5000000000000002.quest_desc: ["Nesite Sun Spirit. Sleduyushchaya dver' vidna."]
-		quest.5000000000000003.title: "Phoenix Helmet"
-		quest.5000000000000003.quest_subtitle: "Kruk za Phoenix Helmet stoit."
-		quest.5000000000000003.quest_desc: ["Dobudte Phoenix Helmet. Kruk okupaetsya."]
-		quest.5000000000000004.title: "Obsidian Helmet"
-		quest.5000000000000004.quest_subtitle: "Tsel na sevodnya: Obsidian Helmet."
-		quest.5000000000000004.quest_desc: ["Zakroyte Obsidian Helmet. Doverjajte tsepi."]
+		quest.5000000000000001.title: "&e&lZolotoe Podzemele"
+		quest.5000000000000001.quest_subtitle: "&7Tron vechnogo dnya"
+		quest.5000000000000001.quest_desc: [
+			"&e&lZolotoe Podzemele"
+			"&8&m                            "
+			""
+			"&7Najdite Zolotoe Podzemele. Za ego zolotymi zalami"
+			"&7zhdyot vlastelin beskonechnogo solnca Aether."
+			""
+			"&e&lKategoriya:&r &fPodzemelya"
+			""
+			"&e&l★ Sovet:&r &7Eto finalnoe podzemele Aether. Voz mite svoyo luchshee snaryazhenie."
+		]
+		quest.5000000000000002.title: "&c&lDuh Solnca"
+		quest.5000000000000002.quest_subtitle: "&7Polozhite konec beskonechnomu dnyu"
+		quest.5000000000000002.quest_desc: [
+			"&c&lDuh Solnca"
+			"&8&m                            "
+			""
+			"&7Pobedite Duha Solnca v Zolotom Podzemele. Ego padenie"
+			"&7nakonec vozvrashchaet noch v Aether."
+			""
+			"&c&lKategoriya:&r &fBoss"
+			""
+			"&e&l★ Sovet:&r &7Bejtes vblizi. Otrazhajte ili uklonyajtes ot ego ognennyx sharov."
+		]
+		quest.5000000000000003.title: "&d&lSnaryazhenie Feniksa"
+		quest.5000000000000003.quest_subtitle: "&7Bronya i oruzhie, rozhdyonnye ognyom"
+		quest.5000000000000003.quest_desc: [
+			"&d&lSnaryazhenie Feniksa"
+			"&8&m                            "
+			""
+			"&7Sozdajte komplekt feniksa: chetyre chasti broni, luk"
+			"&7feniksa i plamennyj mech."
+			""
+			"&d&lKategoriya:&r &fLegendarnoe"
+			""
+			"&e&l★ Sovet:&r &7Bronya feniksa obrashchaet ogon i lavu protiv vragov."
+		]
+		quest.5000000000000004.title: "&a&lObsidianovaya Bronya"
+		quest.5000000000000004.quest_subtitle: "&7Tyazholaya bronya Aether"
+		quest.5000000000000004.quest_desc: [
+			"&a&lObsidianovaya Bronya"
+			"&8&m                            "
+			""
+			"&7Sozdajte polnyj komplekt obsidianovoj broni: shlem,"
+			"&7nagrudnik, ponozhi i botinki, prochnejshaya bronya Aether."
+			""
+			"&a&lKategoriya:&r &fSnaryazhenie"
+			""
+			"&e&l★ Sovet:&r &7Obsidianovaya bronya menyaet podvizhnost na chistuyu zashchitu."
+		]
 		quest.5014471AEFB94727.title: "Carminite Ghastling"
 		quest.5014471AEFB94727.quest_subtitle: "Zarabotajte Carminite Ghastling umerennyj putem."
 		quest.5014471AEFB94727.quest_desc: ["Uxodite s Carminite Ghastling. Sleduyushchaya dver' vidna."]
@@ -6046,21 +6246,71 @@
 		quest.5FFE4ACE65F45C83.title: "Biome"
 		quest.5FFE4ACE65F45C83.quest_subtitle: "Biome v dorogu."
 		quest.5FFE4ACE65F45C83.quest_desc: ["Voz'mite Biome. Tsep' derzhit."]
-		quest.6000000000000001.title: "Biome"
-		quest.6000000000000001.quest_subtitle: "Biome v dorogu."
-		quest.6000000000000001.quest_desc: ["Nacel'tes' na Biome. Semena dlya snezhnogo koma."]
-		quest.6000000000000002.title: "Structure"
-		quest.6000000000000002.quest_subtitle: "Skromnaya pribyl: Structure."
-		quest.6000000000000002.quest_desc: ["Voz'mite Structure po doroge. Patient runs vyigrayut."]
-		quest.6000000000000003.title: "Skyjade"
-		quest.6000000000000003.quest_subtitle: "Skyjade: kivok glavy."
-		quest.6000000000000003.quest_desc: ["Dobav'te Skyjade v kit. Snezhnyj kom otsyuda."]
-		quest.6000000000000004.title: "Skyjade Pickaxe"
-		quest.6000000000000004.quest_subtitle: "Nesite Skyjade Pickaxe."
-		quest.6000000000000004.quest_desc: ["Skyjade Pickaxe, tot predmet, chto raskruchivaetsya. Myagkij rubezh."]
-		quest.6000000000000005.title: "Stratus Helmet"
-		quest.6000000000000005.quest_subtitle: "Nesite Stratus Helmet."
-		quest.6000000000000005.quest_desc: ["Zarabotajte Stratus Helmet shag za shagom. Tixij progress pobezhdaet."]
+		quest.6000000000000001.title: "&b&lPolya Aerlavandy"
+		quest.6000000000000001.quest_subtitle: "&7Brodite po fioletovym lugam"
+		quest.6000000000000001.quest_desc: [
+			"&b&lPolya Aerlavandy"
+			"&8&m                            "
+			""
+			"&7Najdite Polya Aerlavandy, spokojnyj biom Deep Aether,"
+			"&7ustlannyj myagko svetyashchejsya fioletovoj lavandoj."
+			""
+			"&b&lKategoriya:&r &fIssledovanie"
+			""
+			"&e&l★ Sovet:&r &7Aerlavanda ispolzuetsya v varke i dekore Deep Aether."
+		]
+		quest.6000000000000002.title: "&e&lLatunnoe Podzemele"
+		quest.6000000000000002.quest_subtitle: "&7Vyzov Deep Aether"
+		quest.6000000000000002.quest_desc: [
+			"&e&lLatunnoe Podzemele"
+			"&8&m                            "
+			""
+			"&7Najdite Latunnoe Podzemele, ispytanie potruzhnee,"
+			"&7zaryotoe gluboko v Deep Aether."
+			""
+			"&e&lKategoriya:&r &fPodzemelya"
+			""
+			"&e&l★ Sovet:&r &7Latunnye Podzemelya nagrazhdayut za progress Deep Aether."
+		]
+		quest.6000000000000003.title: "&6&lNebonefrit"
+		quest.6000000000000003.quest_subtitle: "&7Dragocennost Deep Aether"
+		quest.6000000000000003.quest_desc: [
+			"&6&lNebonefrit"
+			"&8&m                            "
+			""
+			"&7Dobudte nebonefrit, cennyj samocvet Deep Aether,"
+			"&7osnovu ego silnejshego snaryazheniya."
+			""
+			"&6&lKategoriya:&r &fMaterialy"
+			""
+			"&e&l★ Sovet:&r &7Nebonefrit lezhit gluboko pod ostrovami. Kopajte vniz ostorozhno."
+		]
+		quest.6000000000000004.title: "&d&lArsenal iz Nebonefrita"
+		quest.6000000000000004.quest_subtitle: "&7Luchshee oruzhie Deep Aether"
+		quest.6000000000000004.quest_desc: [
+			"&d&lArsenal iz Nebonefrita"
+			"&8&m                            "
+			""
+			"&7Vykujte arsenal iz nebonefrita: pyat instrumentov plyus"
+			"&7klinok udachi, shtormovoj luk i shtormovoj mech."
+			""
+			"&d&lKategoriya:&r &fLegendarnoe"
+			""
+			"&e&l★ Sovet:&r &7Oruzhie iz nebonefrita, vershina masterstva Deep Aether."
+		]
+		quest.6000000000000005.title: "&d&lSnaryazhenie iz Stratusa"
+		quest.6000000000000005.quest_subtitle: "&7Bronya i instrumenty vysokoj buri"
+		quest.6000000000000005.quest_desc: [
+			"&d&lSnaryazhenie iz Stratusa"
+			"&8&m                            "
+			""
+			"&7Vykujte polnyj komplekt iz stratusa: chetyre chasti"
+			"&7broni i pyat instrumentov, luchshee v Deep Aether."
+			""
+			"&d&lKategoriya:&r &fLegendarnoe"
+			""
+			"&e&l★ Sovet:&r &7Snaryazhenie iz stratusa, eto endgame Deep Aether. Zasluzhite i pravte nebom."
+		]
 		quest.600335ABF8F74D65.title: "Stray"
 		quest.600335ABF8F74D65.quest_subtitle: "Na vetke Stray."
 		quest.600335ABF8F74D65.quest_desc: ["Najdite Stray. Malenkij shag na dolgom puti."]
@@ -7094,9 +7344,19 @@
 		quest.6FFFAE334DFAAAAB.title: "Iesnium Sacrificial Bowl"
 		quest.6FFFAE334DFAAAAB.quest_subtitle: "Otlozhite Iesnium Sacrificial Bowl na potom."
 		quest.6FFFAE334DFAAAAB.quest_desc: ["Zarabotajte Iesnium Sacrificial Bowl. On znachit bolshe, chem kazhetsya snachala."]
-		quest.7000000000000001.title: "Pig Slayer"
-		quest.7000000000000001.quest_subtitle: "Pig Slayer opravdyvaet sebya."
-		quest.7000000000000001.quest_desc: ["Vycherknite Pig Slayer. Modulnyj progress, melkie shagi."]
+		quest.7000000000000001.title: "&d&lOsobye Mechi"
+		quest.7000000000000001.quest_subtitle: "&7Tri klinka, ne pohozhie na drugie"
+		quest.7000000000000001.quest_desc: [
+			"&d&lOsobye Mechi"
+			"&8&m                            "
+			""
+			"&7Soberite samye strannye mechi Aether: ubijca svinej,"
+			"&7mech-ledenec i vampirskij klinok."
+			""
+			"&d&lKategoriya:&r &fLegendarnoe"
+			""
+			"&e&l★ Sovet:&r &7U kazhdogo klinka svoya osobennost. Poprobujte vse i vyberite lyubimyj."
+		]
 		quest.702185D735F94712.title: "Blaze"
 		quest.702185D735F94712.quest_subtitle: "Na puti k Blaze."
 		quest.702185D735F94712.quest_desc: ["Zafiksirujte Blaze. Eshchyo odna preodolennaya stupen'."]

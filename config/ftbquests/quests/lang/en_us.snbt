@@ -1324,21 +1324,71 @@
 		quest.0FD750C1BDBC4A81.title: "Warden"
 		quest.0FD750C1BDBC4A81.quest_subtitle: "Earn the Warden, the tempered way."
 		quest.0FD750C1BDBC4A81.quest_desc: ["Pick up the Warden on your way through. You earned a pause."]
-		quest.1000000000000001.title: "Dimension"
-		quest.1000000000000001.quest_subtitle: "One Dimension, one focused win."
-		quest.1000000000000001.quest_desc: ["Hunt down the Dimension. Next door is in sight."]
-		quest.1000000000000002.title: "Skyroot Pickaxe"
-		quest.1000000000000002.quest_subtitle: "A watchful step toward the Skyroot Pickaxe."
-		quest.1000000000000002.quest_desc: ["Mark the Skyroot Pickaxe obtained. Future you will thank present you."]
-		quest.1000000000000003.title: "Holystone Pickaxe"
-		quest.1000000000000003.quest_subtitle: "Modest gain: the Holystone Pickaxe."
-		quest.1000000000000003.quest_desc: ["Get the Holystone Pickaxe sorted early. Future you will thank present you."]
-		quest.1000000000000004.title: "Ambrosium Shard"
-		quest.1000000000000004.quest_subtitle: "Brick: the Ambrosium Shard."
-		quest.1000000000000004.quest_desc: ["Bring the Ambrosium Shard along. The shortcut is not here."]
-		quest.1000000000000005.title: "Cold Aercloud"
-		quest.1000000000000005.quest_subtitle: "Quiet milestone with the Cold Aercloud."
-		quest.1000000000000005.quest_desc: ["Carry the Cold Aercloud forward. Closer than the map suggests."]
+		quest.1000000000000001.title: "&b&lEnter the Aether"
+		quest.1000000000000001.quest_subtitle: "&7Rise into the sky dimension"
+		quest.1000000000000001.quest_desc: [
+			"&b&lEnter the Aether"
+			"&8&m                            "
+			""
+			"&7Build a glowstone portal, fill its frame with water,"
+			"&7and rise into the Aether, a paradise above the clouds."
+			""
+			"&b&lCategory:&r &fExploration"
+			""
+			"&e&l★ Tip:&r &7The Aether portal frame is glowstone, not obsidian. Activate it with water."
+		]
+		quest.1000000000000002.title: "&a&lSkyroot Tools"
+		quest.1000000000000002.quest_subtitle: "&7Your first Aether toolset"
+		quest.1000000000000002.quest_desc: [
+			"&a&lSkyroot Tools"
+			"&8&m                            "
+			""
+			"&7Craft the full skyroot toolset from the Aether own"
+			"&7wood: pickaxe, axe, shovel, sword and hoe."
+			""
+			"&a&lCategory:&r &fEquipment"
+			""
+			"&e&l★ Tip:&r &7Skyroot is the Aether wood. Gather it before anything else."
+		]
+		quest.1000000000000003.title: "&a&lHolystone Tools"
+		quest.1000000000000003.quest_subtitle: "&7Stone-tier tools of the sky"
+		quest.1000000000000003.quest_desc: [
+			"&a&lHolystone Tools"
+			"&8&m                            "
+			""
+			"&7Craft the full holystone toolset. Holystone is the"
+			"&7Aether answer to cobblestone, a sturdy early upgrade."
+			""
+			"&a&lCategory:&r &fEquipment"
+			""
+			"&e&l★ Tip:&r &7Holystone is everywhere underfoot. A quick step up from skyroot."
+		]
+		quest.1000000000000004.title: "&6&lAmbrosium Shard"
+		quest.1000000000000004.quest_subtitle: "&7The Aether gentle glow"
+		quest.1000000000000004.quest_desc: [
+			"&6&lAmbrosium Shard"
+			"&8&m                            "
+			""
+			"&7Gather ambrosium shards from holystone ore. They fuel"
+			"&7Aether torches and mend a little health when used."
+			""
+			"&6&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7Ambrosium is your early light source. Mine plenty on arrival."
+		]
+		quest.1000000000000005.title: "&6&lCold Aercloud"
+		quest.1000000000000005.quest_subtitle: "&7A cloud that softens the fall"
+		quest.1000000000000005.quest_desc: [
+			"&6&lCold Aercloud"
+			"&8&m                            "
+			""
+			"&7Collect a cold aercloud. Placed below you, it cancels"
+			"&7all fall damage from even the greatest height."
+			""
+			"&6&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7Line your landing zones with cold aercloud. The Aether is a long way down."
+		]
 		quest.1000000000000010.title: "&2&lPiglin Diplomacy"
 		quest.1000000000000010.quest_subtitle: "&7Make friends, not enemies"
 		quest.1000000000000010.quest_desc: [
@@ -3343,18 +3393,58 @@
 			""
 			"&e&l★ Tip:&r &7Stone tools carry most players safely to their first iron."
 		]
-		quest.3000000000000001.title: "Structure"
-		quest.3000000000000001.quest_subtitle: "The Structure: load-bearing."
-		quest.3000000000000001.quest_desc: ["Find your way to the Structure. One brick in a larger wall."]
-		quest.3000000000000002.title: "Slider"
-		quest.3000000000000002.quest_subtitle: "Snag the Slider this run."
-		quest.3000000000000002.quest_desc: ["Add the Slider to your toolkit. Worth more than its tooltip says."]
-		quest.3000000000000003.title: "Valkyrie Lance"
-		quest.3000000000000003.quest_subtitle: "On the route to the Valkyrie Lance."
-		quest.3000000000000003.quest_desc: ["Pack the Valkyrie Lance away. Patient runs win."]
-		quest.3000000000000004.title: "Gravitite Helmet"
-		quest.3000000000000004.quest_subtitle: "Quiet milestone with the Gravitite Helmet."
-		quest.3000000000000004.quest_desc: ["Earn the Gravitite Helmet fair and square. Aim for the next thing."]
+		quest.3000000000000001.title: "&e&lBronze Dungeon"
+		quest.3000000000000001.quest_subtitle: "&7The first trial of the Aether"
+		quest.3000000000000001.quest_desc: [
+			"&e&lBronze Dungeon"
+			"&8&m                            "
+			""
+			"&7Find a Bronze Dungeon hidden inside the floating"
+			"&7islands. Clear it to reach the Slider chamber."
+			""
+			"&e&lCategory:&r &fDungeons"
+			""
+			"&e&l★ Tip:&r &7The dungeon locks behind you. Be ready to fight before you enter."
+		]
+		quest.3000000000000002.title: "&c&lThe Slider"
+		quest.3000000000000002.quest_subtitle: "&7Defeat the Bronze Dungeon boss"
+		quest.3000000000000002.quest_desc: [
+			"&c&lThe Slider"
+			"&8&m                            "
+			""
+			"&7Destroy the Slider, a floating stone block that"
+			"&7charges across its chamber to crush you."
+			""
+			"&c&lCategory:&r &fBoss"
+			""
+			"&e&l★ Tip:&r &7Hit it as it stops. A pickaxe deals the most damage to it."
+		]
+		quest.3000000000000003.title: "&d&lAether Weapons"
+		quest.3000000000000003.quest_subtitle: "&7Wield the relics of the dungeons"
+		quest.3000000000000003.quest_desc: [
+			"&d&lAether Weapons"
+			"&8&m                            "
+			""
+			"&7Collect the legendary Aether weapons: valkyrie lance,"
+			"&7hammer of Kingbdogz, cloud staff and lightning knife."
+			""
+			"&d&lCategory:&r &fLegendary"
+			""
+			"&e&l★ Tip:&r &7Each weapon hides in dungeon loot. Hunt them all to complete the set."
+		]
+		quest.3000000000000004.title: "&a&lGravitite Gear"
+		quest.3000000000000004.quest_subtitle: "&7Armor and tools that defy gravity"
+		quest.3000000000000004.quest_desc: [
+			"&a&lGravitite Gear"
+			"&8&m                            "
+			""
+			"&7Forge the full gravitite set: four armor pieces and"
+			"&7five tools, all from enchanted gravitite."
+			""
+			"&a&lCategory:&r &fEquipment"
+			""
+			"&e&l★ Tip:&r &7Gravitite armor boosts your jump. The sky becomes your playground."
+		]
 		quest.3009018DEC1EC952.title: "Dimension"
 		quest.3009018DEC1EC952.quest_subtitle: "Brick: the Dimension."
 		quest.3009018DEC1EC952.quest_desc: ["Take possession of the Dimension. The chapter pivots around it."]
@@ -3449,9 +3539,19 @@
 		quest.31BB7EB95CE73C1A.title: "Alpha Yeti Trophy"
 		quest.31BB7EB95CE73C1A.quest_subtitle: "One Alpha Yeti Trophy, one quiet win."
 		quest.31BB7EB95CE73C1A.quest_desc: ["Track the Alpha Yeti Trophy. The route teaches as much as the prize."]
-		quest.31BF04F3FF4D6343.title: "Zanite Helmet"
-		quest.31BF04F3FF4D6343.quest_subtitle: "The Zanite Helmet is a checkpoint."
-		quest.31BF04F3FF4D6343.quest_desc: ["Bring home the Zanite Helmet. Tiny wins stack into runs."]
+		quest.31BF04F3FF4D6343.title: "&a&lZanite Gear"
+		quest.31BF04F3FF4D6343.quest_subtitle: "&7Armor and tools of zanite"
+		quest.31BF04F3FF4D6343.quest_desc: [
+			"&a&lZanite Gear"
+			"&8&m                            "
+			""
+			"&7Forge the complete zanite set: helmet, chestplate,"
+			"&7leggings, boots and the matching five tools."
+			""
+			"&a&lCategory:&r &fEquipment"
+			""
+			"&e&l★ Tip:&r &7Zanite gear grows more efficient as its durability drops."
+		]
 		quest.31E7F7464D79F881.title: "Lapis Lazuli"
 		quest.31E7F7464D79F881.quest_subtitle: "Bookmark the Lapis Lazuli."
 		quest.31E7F7464D79F881.quest_desc: ["Add the Lapis Lazuli to your dossier. A seed for the snowball."]
@@ -3981,9 +4081,19 @@
 		quest.3C4ECF5741837953.title: "Drowned"
 		quest.3C4ECF5741837953.quest_subtitle: "Quiet milestone with the Drowned."
 		quest.3C4ECF5741837953.quest_desc: ["The Drowned: small object, real progress. Modular progress, small steps."]
-		quest.3C6AB1E04AE2BA01.title: "Zanite Gemstone"
-		quest.3C6AB1E04AE2BA01.quest_subtitle: "One Zanite Gemstone, one quiet win."
-		quest.3C6AB1E04AE2BA01.quest_desc: ["Add one Zanite Gemstone to your supplies. Modular progress, small steps."]
+		quest.3C6AB1E04AE2BA01.title: "&6&lZanite Gemstone"
+		quest.3C6AB1E04AE2BA01.quest_subtitle: "&7The gem that sharpens with use"
+		quest.3C6AB1E04AE2BA01.quest_desc: [
+			"&6&lZanite Gemstone"
+			"&8&m                            "
+			""
+			"&7Mine zanite gemstones from zanite ore. The core"
+			"&7material behind the Aether mid-tier gear."
+			""
+			"&6&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7Zanite tools mine faster as they wear down. Unusual but useful."
+		]
 		quest.3C8724C3A9459507.title: "Yeti Helmet"
 		quest.3C8724C3A9459507.quest_subtitle: "deliberate run, single Yeti Helmet."
 		quest.3C8724C3A9459507.quest_desc: ["The Yeti Helmet is asked of you. One brick in a larger wall."]
@@ -4230,15 +4340,45 @@
 		quest.3FFB850F8F0B1200.title: "Feeding Upgrade"
 		quest.3FFB850F8F0B1200.quest_subtitle: "Tiny step: the Feeding Upgrade."
 		quest.3FFB850F8F0B1200.quest_desc: ["Bring back the Feeding Upgrade. Load-bearing, not flashy."]
-		quest.4000000000000001.title: "Victory Medal"
-		quest.4000000000000001.quest_subtitle: "Snag the Victory Medal this run."
-		quest.4000000000000001.quest_desc: ["Track the Victory Medal. Small habit, big result."]
-		quest.4000000000000002.title: "Valkyrie Queen"
-		quest.4000000000000002.quest_subtitle: "Bookmark the Valkyrie Queen."
-		quest.4000000000000002.quest_desc: ["Stow the Valkyrie Queen. Snowballs after this."]
-		quest.4000000000000003.title: "Valkyrie Helmet"
-		quest.4000000000000003.quest_subtitle: "stout hop: the Valkyrie Helmet."
-		quest.4000000000000003.quest_desc: ["Walk away with the Valkyrie Helmet. A small step on a long road."]
+		quest.4000000000000001.title: "&6&lVictory Medal"
+		quest.4000000000000001.quest_subtitle: "&7Proof of valor in the arena"
+		quest.4000000000000001.quest_desc: [
+			"&6&lVictory Medal"
+			"&8&m                            "
+			""
+			"&7Earn victory medals by defeating valkyries. They are"
+			"&7the only currency the Valkyrie Queen accepts."
+			""
+			"&6&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7Save your medals. The Queen will not fight you without them."
+		]
+		quest.4000000000000002.title: "&c&lValkyrie Queen"
+		quest.4000000000000002.quest_subtitle: "&7Challenge the queen of the skies"
+		quest.4000000000000002.quest_desc: [
+			"&c&lValkyrie Queen"
+			"&8&m                            "
+			""
+			"&7Defeat the Valkyrie Queen. She accepts the challenge"
+			"&7only once you offer her enough victory medals."
+			""
+			"&c&lCategory:&r &fBoss"
+			""
+			"&e&l★ Tip:&r &7She is fast and hits hard. Gravitite gear keeps pace with her."
+		]
+		quest.4000000000000003.title: "&d&lValkyrie Gear"
+		quest.4000000000000003.quest_subtitle: "&7Armor and arms of the queen"
+		quest.4000000000000003.quest_desc: [
+			"&d&lValkyrie Gear"
+			"&8&m                            "
+			""
+			"&7Forge the full valkyrie set: four armor pieces, four"
+			"&7tools and the lightning sword."
+			""
+			"&d&lCategory:&r &fLegendary"
+			""
+			"&e&l★ Tip:&r &7Valkyrie gear is light and swift, built for a flying warrior."
+		]
 		quest.4005DA1BA51C0C68.title: "Ghast"
 		quest.4005DA1BA51C0C68.quest_subtitle: "The Ghast pays its way."
 		quest.4005DA1BA51C0C68.quest_desc: ["Bring the Ghast into the fold. Halfway done with you."]
@@ -4729,9 +4869,19 @@
 		quest.47EBD49B34B70B3D.title: "Rooted Boots"
 		quest.47EBD49B34B70B3D.quest_subtitle: "The Rooted Boots unlocks more."
 		quest.47EBD49B34B70B3D.quest_desc: ["The Rooted Boots is gating the next quest. Tiny wins stack into runs."]
-		quest.47F14A31158F2D9E.title: "Eots Controller"
-		quest.47F14A31158F2D9E.quest_subtitle: "Build out the Eots Controller chain."
-		quest.47F14A31158F2D9E.quest_desc: ["The Eots Controller pays for itself. Pace yourself."]
+		quest.47F14A31158F2D9E.title: "&c&lEye of the Storm"
+		quest.47F14A31158F2D9E.quest_subtitle: "&7Calm the Deep Aether tempest"
+		quest.47F14A31158F2D9E.quest_desc: [
+			"&c&lEye of the Storm"
+			"&8&m                            "
+			""
+			"&7Defeat the Eye of the Storm, the raging boss that"
+			"&7rules the heart of the Deep Aether."
+			""
+			"&c&lCategory:&r &fBoss"
+			""
+			"&e&l★ Tip:&r &7The storm never stops. Stay mobile and pick your moments to strike."
+		]
 		quest.47F38E606AD3FF53.title: "Dust"
 		quest.47F38E606AD3FF53.quest_subtitle: "Secure the Dust."
 		quest.47F38E606AD3FF53.quest_desc: ["Add the Dust to your stockpile. You will need it soon."]
@@ -5012,9 +5162,19 @@
 		quest.4C0B4F5148F144FC.title: "Wither"
 		quest.4C0B4F5148F144FC.quest_subtitle: "Bookmark the Wither."
 		quest.4C0B4F5148F144FC.quest_desc: ["Add one Wither to your supplies. Quiet progress beats loud setbacks."]
-		quest.4C3BE7C21DD86197.title: "Blue Aercloud"
-		quest.4C3BE7C21DD86197.quest_subtitle: "On the route to the Blue Aercloud."
-		quest.4C3BE7C21DD86197.quest_desc: ["Bag the Blue Aercloud. Calm focus beats rushing."]
+		quest.4C3BE7C21DD86197.title: "&6&lBlue Aercloud"
+		quest.4C3BE7C21DD86197.quest_subtitle: "&7A cloud that throws you skyward"
+		quest.4C3BE7C21DD86197.quest_desc: [
+			"&6&lBlue Aercloud"
+			"&8&m                            "
+			""
+			"&7Collect a blue aercloud. Step onto it and it launches"
+			"&7you high up into the open air."
+			""
+			"&6&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7Blue aerclouds make quick vertical shortcuts between floating islands."
+		]
 		quest.4C3D1A968EDC4C67.title: "Swarm Spider"
 		quest.4C3D1A968EDC4C67.quest_subtitle: "The Swarm Spider: load-bearing."
 		quest.4C3D1A968EDC4C67.quest_desc: ["Unlock the Swarm Spider. Counts."]
@@ -5245,18 +5405,58 @@
 		quest.4FF6C5AEFE6BDF6E.title: "Redcap"
 		quest.4FF6C5AEFE6BDF6E.quest_subtitle: "Build out the Redcap chain."
 		quest.4FF6C5AEFE6BDF6E.quest_desc: ["The Redcap is on the menu. One more rung climbed."]
-		quest.5000000000000001.title: "Structure"
-		quest.5000000000000001.quest_subtitle: "The Structure pays its way."
-		quest.5000000000000001.quest_desc: ["Add the Structure to your run. Steady is fast."]
-		quest.5000000000000002.title: "Sun Spirit"
-		quest.5000000000000002.quest_subtitle: "Earn it: the Sun Spirit."
-		quest.5000000000000002.quest_desc: ["Walk away with the Sun Spirit. Next door is in sight."]
-		quest.5000000000000003.title: "Phoenix Helmet"
-		quest.5000000000000003.quest_subtitle: "Worth the Phoenix Helmet detour."
-		quest.5000000000000003.quest_desc: ["Earn the Phoenix Helmet. Worth the detour."]
-		quest.5000000000000004.title: "Obsidian Helmet"
-		quest.5000000000000004.quest_subtitle: "Today goal: the Obsidian Helmet."
-		quest.5000000000000004.quest_desc: ["Reserve the Obsidian Helmet. Trust the chain."]
+		quest.5000000000000001.title: "&e&lGold Dungeon"
+		quest.5000000000000001.quest_subtitle: "&7The throne of eternal day"
+		quest.5000000000000001.quest_desc: [
+			"&e&lGold Dungeon"
+			"&8&m                            "
+			""
+			"&7Find the Gold Dungeon. Beyond its golden halls waits"
+			"&7the ruler of the Aether endless sunlight."
+			""
+			"&e&lCategory:&r &fDungeons"
+			""
+			"&e&l★ Tip:&r &7This is the Aether final dungeon. Bring your very best gear."
+		]
+		quest.5000000000000002.title: "&c&lSun Spirit"
+		quest.5000000000000002.quest_subtitle: "&7End the endless day"
+		quest.5000000000000002.quest_desc: [
+			"&c&lSun Spirit"
+			"&8&m                            "
+			""
+			"&7Defeat the Sun Spirit in the Gold Dungeon. His fall"
+			"&7finally lets night return to the Aether."
+			""
+			"&c&lCategory:&r &fBoss"
+			""
+			"&e&l★ Tip:&r &7Fight him close range. Reflect or dodge his fireballs."
+		]
+		quest.5000000000000003.title: "&d&lPhoenix Gear"
+		quest.5000000000000003.quest_subtitle: "&7Armor and arms born of fire"
+		quest.5000000000000003.quest_desc: [
+			"&d&lPhoenix Gear"
+			"&8&m                            "
+			""
+			"&7Craft the phoenix set: four armor pieces, the phoenix"
+			"&7bow and the flaming sword."
+			""
+			"&d&lCategory:&r &fLegendary"
+			""
+			"&e&l★ Tip:&r &7Phoenix armor turns fire and lava against your enemies."
+		]
+		quest.5000000000000004.title: "&a&lObsidian Armor"
+		quest.5000000000000004.quest_subtitle: "&7Heavy plating of the Aether"
+		quest.5000000000000004.quest_desc: [
+			"&a&lObsidian Armor"
+			"&8&m                            "
+			""
+			"&7Craft the full obsidian armor set: helmet, chestplate,"
+			"&7leggings and boots, the toughest plate the Aether offers."
+			""
+			"&a&lCategory:&r &fEquipment"
+			""
+			"&e&l★ Tip:&r &7Obsidian armor trades mobility for raw protection. Wear it for bosses."
+		]
 		quest.5014471AEFB94727.title: "Carminite Ghastling"
 		quest.5014471AEFB94727.quest_subtitle: "Earn the Carminite Ghastling, the tempered way."
 		quest.5014471AEFB94727.quest_desc: ["The Carminite Ghastling is part of the chain. Next door is in sight."]
@@ -6047,21 +6247,71 @@
 		quest.5FFE4ACE65F45C83.title: "Biome"
 		quest.5FFE4ACE65F45C83.quest_subtitle: "A Biome for the road."
 		quest.5FFE4ACE65F45C83.quest_desc: ["Bring the Biome home. The chain holds."]
-		quest.6000000000000001.title: "Biome"
-		quest.6000000000000001.quest_subtitle: "A Biome for the road."
-		quest.6000000000000001.quest_desc: ["Add the Biome to your dossier. A seed for the snowball."]
-		quest.6000000000000002.title: "Structure"
-		quest.6000000000000002.quest_subtitle: "Modest gain: the Structure."
-		quest.6000000000000002.quest_desc: ["Stash the Structure somewhere safe. Patient runs win."]
-		quest.6000000000000003.title: "Skyjade"
-		quest.6000000000000003.quest_subtitle: "The Skyjade: the chapter nudge."
-		quest.6000000000000003.quest_desc: ["Earn the Skyjade step by step. Snowballs after this."]
-		quest.6000000000000004.title: "Skyjade Pickaxe"
-		quest.6000000000000004.quest_subtitle: "Carry the Skyjade Pickaxe forward."
-		quest.6000000000000004.quest_desc: ["Add one Skyjade Pickaxe to your supplies. Soft milestone."]
-		quest.6000000000000005.title: "Stratus Helmet"
-		quest.6000000000000005.quest_subtitle: "Carry the Stratus Helmet forward."
-		quest.6000000000000005.quest_desc: ["Find a way to the Stratus Helmet. Quiet progress beats loud setbacks."]
+		quest.6000000000000001.title: "&b&lAerlavender Fields"
+		quest.6000000000000001.quest_subtitle: "&7Wander the purple meadows"
+		quest.6000000000000001.quest_desc: [
+			"&b&lAerlavender Fields"
+			"&8&m                            "
+			""
+			"&7Find the Aerlavender Fields, a calm Deep Aether biome"
+			"&7carpeted in softly glowing purple lavender."
+			""
+			"&b&lCategory:&r &fExploration"
+			""
+			"&e&l★ Tip:&r &7Aerlavender is used in Deep Aether brewing and decoration."
+		]
+		quest.6000000000000002.title: "&e&lBrass Dungeon"
+		quest.6000000000000002.quest_subtitle: "&7A Deep Aether challenge"
+		quest.6000000000000002.quest_desc: [
+			"&e&lBrass Dungeon"
+			"&8&m                            "
+			""
+			"&7Locate a Brass Dungeon, a tougher trial buried within"
+			"&7the Deep Aether far below."
+			""
+			"&e&lCategory:&r &fDungeons"
+			""
+			"&e&l★ Tip:&r &7Brass Dungeons reward Deep Aether progress. Gear up first."
+		]
+		quest.6000000000000003.title: "&6&lSkyjade"
+		quest.6000000000000003.quest_subtitle: "&7The jewel of the Deep Aether"
+		quest.6000000000000003.quest_desc: [
+			"&6&lSkyjade"
+			"&8&m                            "
+			""
+			"&7Mine skyjade, the prized gemstone of the Deep Aether,"
+			"&7the foundation of its strongest equipment."
+			""
+			"&6&lCategory:&r &fMaterials"
+			""
+			"&e&l★ Tip:&r &7Skyjade lies deep below the floating islands. Dig down carefully."
+		]
+		quest.6000000000000004.title: "&d&lSkyjade Arsenal"
+		quest.6000000000000004.quest_subtitle: "&7The Deep Aether finest weapons"
+		quest.6000000000000004.quest_desc: [
+			"&d&lSkyjade Arsenal"
+			"&8&m                            "
+			""
+			"&7Forge the skyjade arsenal: five tools plus the blade"
+			"&7of luck, the storm bow and the storm sword."
+			""
+			"&d&lCategory:&r &fLegendary"
+			""
+			"&e&l★ Tip:&r &7Skyjade weapons are the peak of Deep Aether craftsmanship."
+		]
+		quest.6000000000000005.title: "&d&lStratus Gear"
+		quest.6000000000000005.quest_subtitle: "&7Armor and tools of the high storm"
+		quest.6000000000000005.quest_desc: [
+			"&d&lStratus Gear"
+			"&8&m                            "
+			""
+			"&7Forge the full stratus set: four armor pieces and"
+			"&7five tools, the strongest gear the Deep Aether offers."
+			""
+			"&d&lCategory:&r &fLegendary"
+			""
+			"&e&l★ Tip:&r &7Stratus gear is the Deep Aether endgame. Earn it and you rule the sky."
+		]
 		quest.600335ABF8F74D65.title: "Stray"
 		quest.600335ABF8F74D65.quest_subtitle: "On the Stray branch."
 		quest.600335ABF8F74D65.quest_desc: ["Unlock the Stray. A small step on a long road."]
@@ -7095,9 +7345,19 @@
 		quest.6FFFAE334DFAAAAB.title: "Iesnium Sacrificial Bowl"
 		quest.6FFFAE334DFAAAAB.quest_subtitle: "Bank the Iesnium Sacrificial Bowl for later."
 		quest.6FFFAE334DFAAAAB.quest_desc: ["Earn the Iesnium Sacrificial Bowl. It carries more weight than it first seems."]
-		quest.7000000000000001.title: "Pig Slayer"
-		quest.7000000000000001.quest_subtitle: "The Pig Slayer pays its way."
-		quest.7000000000000001.quest_desc: ["Snag the Pig Slayer on the way. Modular progress, small steps."]
+		quest.7000000000000001.title: "&d&lSpecial Swords"
+		quest.7000000000000001.quest_subtitle: "&7Three blades unlike any other"
+		quest.7000000000000001.quest_desc: [
+			"&d&lSpecial Swords"
+			"&8&m                            "
+			""
+			"&7Collect the Aether oddest swords: the pig slayer, the"
+			"&7candy cane sword and the vampire blade."
+			""
+			"&d&lCategory:&r &fLegendary"
+			""
+			"&e&l★ Tip:&r &7Each blade has a quirk of its own. Try them all and pick a favorite."
+		]
 		quest.702185D735F94712.title: "Blaze"
 		quest.702185D735F94712.quest_subtitle: "On the route to the Blaze."
 		quest.702185D735F94712.quest_desc: ["Capture the Blaze. One more rung climbed."]

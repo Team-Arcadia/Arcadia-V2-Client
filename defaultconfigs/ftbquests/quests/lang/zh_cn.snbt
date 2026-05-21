@@ -1323,21 +1323,71 @@
 		quest.0FD750C1BDBC4A81.title: "Warden"
 		quest.0FD750C1BDBC4A81.quest_subtitle: "Yong li qu Warden, zou wen de lu."
 		quest.0FD750C1BDBC4A81.quest_desc: ["Ba Warden ding zai bei bao. Ying de xiu xi."]
-		quest.1000000000000001.title: "Dimension"
-		quest.1000000000000001.quest_subtitle: "Yi ge Dimension, zhuan sheng li."
-		quest.1000000000000001.quest_desc: ["Ba Dimension xie ru ri ji. Xia yi dao men jiu zai yan qian."]
-		quest.1000000000000002.title: "Skyroot Pickaxe"
-		quest.1000000000000002.quest_subtitle: "jing mai xiang Skyroot Pickaxe de yi bu."
-		quest.1000000000000002.quest_desc: ["Yi bu yi bu yi Skyroot Pickaxe. Wei lai de ni hui xie xie zi ji."]
-		quest.1000000000000003.title: "Holystone Pickaxe"
-		quest.1000000000000003.quest_subtitle: "Wen jian shou huo: Holystone Pickaxe."
-		quest.1000000000000003.quest_desc: ["Ba Holystone Pickaxe dai hui ji di. Wei lai de ni hui xie xie zi ji."]
-		quest.1000000000000004.title: "Ambrosium Shard"
-		quest.1000000000000004.quest_subtitle: "Zhuan kuai: Ambrosium Shard."
-		quest.1000000000000004.quest_desc: ["Suo ding Ambrosium Shard. Jie jing bu zai zhe li."]
-		quest.1000000000000005.title: "Cold Aercloud"
-		quest.1000000000000005.quest_subtitle: "Ping jing de jie dian: Cold Aercloud."
-		quest.1000000000000005.quest_desc: ["Cold Aercloud hui hui ben. Bi di tu shang xian shi de geng jin."]
+		quest.1000000000000001.title: "&b&lJin ru Aether"
+		quest.1000000000000001.quest_subtitle: "&7Sheng ru tian kong wei du"
+		quest.1000000000000001.quest_desc: [
+			"&b&lJin ru Aether"
+			"&8&m                            "
+			""
+			"&7Yong ying shi jian zao chuan song men, gei bian kuang"
+			"&7zhu shui, sheng ru yun duan zhi shang de le yuan Aether."
+			""
+			"&b&lLei bie:&r &fTan suo"
+			""
+			"&e&l★ Ti shi:&r &7Aether chuan song men kuang shi ying shi, fei hei yao shi. Yong shui ji huo."
+		]
+		quest.1000000000000002.title: "&a&lSkyroot gong ju"
+		quest.1000000000000002.quest_subtitle: "&7Ni de di yi tao Aether gong ju"
+		quest.1000000000000002.quest_desc: [
+			"&a&lSkyroot gong ju"
+			"&8&m                            "
+			""
+			"&7Yong Aether de mu tou zhi zuo quan tao skyroot gong"
+			"&7ju: gao, fu, chan, jian he chu."
+			""
+			"&a&lLei bie:&r &fZhuang bei"
+			""
+			"&e&l★ Ti shi:&r &7Skyroot shi Aether de mu tou. Xian shou ji ta zai zuo qi ta."
+		]
+		quest.1000000000000003.title: "&a&lSheng yan gong ju"
+		quest.1000000000000003.quest_subtitle: "&7Tian kong de shi qi gong ju"
+		quest.1000000000000003.quest_desc: [
+			"&a&lSheng yan gong ju"
+			"&8&m                            "
+			""
+			"&7Zhi zuo quan tao sheng yan gong ju. Aether dui yuan"
+			"&7shi de hui ying, jian gu er ke zao de sheng ji."
+			""
+			"&a&lLei bie:&r &fZhuang bei"
+			""
+			"&e&l★ Ti shi:&r &7Sheng yan jiao xia sui chu ke jian. Bi skyroot kuai yi bu."
+		]
+		quest.1000000000000004.title: "&6&lShen guang sui pian"
+		quest.1000000000000004.quest_subtitle: "&7Aether rou he de guang mang"
+		quest.1000000000000004.quest_desc: [
+			"&6&lShen guang sui pian"
+			"&8&m                            "
+			""
+			"&7Cong sheng yan kuang shi zhong cai ji shen guang sui"
+			"&7pian. Ta gong ying Aether huo ba, shi yong shi hui hui fu shao xu sheng ming."
+			""
+			"&6&lLei bie:&r &fCai liao"
+			""
+			"&e&l★ Ti shi:&r &7Shen guang shi ni de zao qi guang yuan. Di da hou duo wa yi xie."
+		]
+		quest.1000000000000005.title: "&6&lHan leng kong yun"
+		quest.1000000000000005.quest_subtitle: "&7Jian huan zhui luo de yun"
+		quest.1000000000000005.quest_desc: [
+			"&6&lHan leng kong yun"
+			"&8&m                            "
+			""
+			"&7Shou ji han leng kong yun. Fang zai jiao xia, ji shi"
+			"&7cong ji gao chu zhui luo ye neng wan quan di xiao shang hai."
+			""
+			"&6&lLei bie:&r &fCai liao"
+			""
+			"&e&l★ Ti shi:&r &7Yong han leng kong yun pu hao zhuo lu dian. Aether shuai xia lai hen shen."
+		]
 		quest.1000000000000010.title: "&2&lZhu ling wai jiao"
 		quest.1000000000000010.quest_subtitle: "&7Jiao peng you, bie shu di"
 		quest.1000000000000010.quest_desc: [
@@ -3342,18 +3392,58 @@
 			""
 			"&e&l★ Ti shi:&r &7Shi gong ju neng rang da duo shu wan jia an quan zou dao di yi kuai tie."
 		]
-		quest.3000000000000001.title: "Structure"
-		quest.3000000000000001.quest_subtitle: "Structure: cheng zhong de."
-		quest.3000000000000001.quest_desc: ["Yong chi xiu zhan de cha lue yi Structure. Qiang shang yi zhuan."]
-		quest.3000000000000002.title: "Slider"
-		quest.3000000000000002.quest_subtitle: "Zhe ji shun shou na xia Slider."
-		quest.3000000000000002.quest_desc: ["Yi Slider. Bi miao shu suo shuo de geng you jia zhi."]
-		quest.3000000000000003.title: "Valkyrie Lance"
-		quest.3000000000000003.quest_subtitle: "Tong xiang Valkyrie Lance de lu shang."
-		quest.3000000000000003.quest_desc: ["Ba Valkyrie Lance gai ge zhang. Nai xin de pao bu xian ying."]
-		quest.3000000000000004.title: "Gravitite Helmet"
-		quest.3000000000000004.quest_subtitle: "Ping jing de jie dian: Gravitite Helmet."
-		quest.3000000000000004.quest_desc: ["Na zhu Gravitite Helmet. Miao zhun xia yi ge mu biao."]
+		quest.3000000000000001.title: "&e&lQing tong di lao"
+		quest.3000000000000001.quest_subtitle: "&7Aether de di yi chang shi lian"
+		quest.3000000000000001.quest_desc: [
+			"&e&lQing tong di lao"
+			"&8&m                            "
+			""
+			"&7Zai fu kong dao yu nei zhao dao yin cang de qing tong"
+			"&7di lao. Tong guan yi dao da Slider de fang jian."
+			""
+			"&e&lLei bie:&r &fDi lao"
+			""
+			"&e&l★ Ti shi:&r &7Di lao hui zai shen hou suo bi. Jin ru qian zhun bei hao zhan dou."
+		]
+		quest.3000000000000002.title: "&c&lHua kuai"
+		quest.3000000000000002.quest_subtitle: "&7Da bai qing tong di lao Boss"
+		quest.3000000000000002.quest_desc: [
+			"&c&lHua kuai"
+			"&8&m                            "
+			""
+			"&7Cui hui hua kuai, yi ge piao fu de shi kuai, hui"
+			"&7chong guo fang jian ba ni ya sui."
+			""
+			"&c&lLei bie:&r &fShou ling"
+			""
+			"&e&l★ Ti shi:&r &7Zai ta ting xia shi gong ji. Gao dui ta zao cheng zui gao shang hai."
+		]
+		quest.3000000000000003.title: "&d&lAether wu qi"
+		quest.3000000000000003.quest_subtitle: "&7Hui wu di lao de yi wu"
+		quest.3000000000000003.quest_desc: [
+			"&d&lAether wu qi"
+			"&8&m                            "
+			""
+			"&7Shou ji Aether de chuan shuo wu qi: nv wu shen chang"
+			"&7qiang, Kingbdogz zhi chui, yun zhi zhang he shan dian fei dao."
+			""
+			"&d&lLei bie:&r &fChuan shuo"
+			""
+			"&e&l★ Ti shi:&r &7Mei jian wu qi cang yu di lao zhan li pin. Quan bu shou qi cou cheng yi tao."
+		]
+		quest.3000000000000004.title: "&a&lGravitite zhuang bei"
+		quest.3000000000000004.quest_subtitle: "&7Wu shi zhong li de hu jia yu gong ju"
+		quest.3000000000000004.quest_desc: [
+			"&a&lGravitite zhuang bei"
+			"&8&m                            "
+			""
+			"&7Duan zao quan tao gravitite zhuang bei: si jian hu"
+			"&7jia he wu jian gong ju, jun yong fu mo gravitite."
+			""
+			"&a&lLei bie:&r &fZhuang bei"
+			""
+			"&e&l★ Ti shi:&r &7Gravitite hu jia ti sheng tiao yue. Tian kong cheng wei ni de you le chang."
+		]
 		quest.3009018DEC1EC952.title: "Dimension"
 		quest.3009018DEC1EC952.quest_subtitle: "Zhuan kuai: Dimension."
 		quest.3009018DEC1EC952.quest_desc: ["Ba Dimension zhuang jin kou dai. Ben zhang wei rao zhe ta zhuan."]
@@ -3448,9 +3538,19 @@
 		quest.31BB7EB95CE73C1A.title: "Alpha Yeti Trophy"
 		quest.31BB7EB95CE73C1A.quest_subtitle: "Yi ge Alpha Yeti Trophy, jing sheng li."
 		quest.31BB7EB95CE73C1A.quest_desc: ["Ba Alpha Yeti Trophy jia ru gong ju lan. Lu shang xue de yu jiang li yi yang duo."]
-		quest.31BF04F3FF4D6343.title: "Zanite Helmet"
-		quest.31BF04F3FF4D6343.quest_subtitle: "Zanite Helmet shi yi ge cun dang dian."
-		quest.31BF04F3FF4D6343.quest_desc: ["Hua diao Zanite Helmet. Xiao sheng dou hui lei jia."]
+		quest.31BF04F3FF4D6343.title: "&a&lZan jing zhuang bei"
+		quest.31BF04F3FF4D6343.quest_subtitle: "&7Zan jing hu jia yu gong ju"
+		quest.31BF04F3FF4D6343.quest_desc: [
+			"&a&lZan jing zhuang bei"
+			"&8&m                            "
+			""
+			"&7Duan zao quan tao zan jing zhuang bei: tou kui, xiong"
+			"&7jia, hu tui, xue zi he pei tao de wu jian gong ju."
+			""
+			"&a&lLei bie:&r &fZhuang bei"
+			""
+			"&e&l★ Ti shi:&r &7Zan jing zhuang bei mo sun yue duo, xiao lv yue gao."
+		]
 		quest.31E7F7464D79F881.title: "Lapis Lazuli"
 		quest.31E7F7464D79F881.quest_subtitle: "Biao ji Lapis Lazuli."
 		quest.31E7F7464D79F881.quest_desc: ["Da bao Lapis Lazuli. Xue qiu de zhong zi."]
@@ -3980,9 +4080,19 @@
 		quest.3C4ECF5741837953.title: "Drowned"
 		quest.3C4ECF5741837953.quest_subtitle: "Ping jing de jie dian: Drowned."
 		quest.3C4ECF5741837953.quest_desc: ["Ba Drowned cong cang shen chu na chu. Mo kuai hua jin zhan, bu fa wen jian."]
-		quest.3C6AB1E04AE2BA01.title: "Zanite Gemstone"
-		quest.3C6AB1E04AE2BA01.quest_subtitle: "Yi ge Zanite Gemstone, jing sheng li."
-		quest.3C6AB1E04AE2BA01.quest_desc: ["Jia shang Zanite Gemstone. Mo kuai hua jin zhan, bu fa wen jian."]
+		quest.3C6AB1E04AE2BA01.title: "&6&lZan jing bao shi"
+		quest.3C6AB1E04AE2BA01.quest_subtitle: "&7Yue yong yue feng li de bao shi"
+		quest.3C6AB1E04AE2BA01.quest_desc: [
+			"&6&lZan jing bao shi"
+			"&8&m                            "
+			""
+			"&7Cong zan jing kuang shi zhong wa jue zan jing bao"
+			"&7shi. Aether zhong jie zhuang bei de he xin cai liao."
+			""
+			"&6&lLei bie:&r &fCai liao"
+			""
+			"&e&l★ Ti shi:&r &7Zan jing gong ju mo sun yue duo wa de yue kuai. Qi te dan shi yong."
+		]
 		quest.3C8724C3A9459507.title: "Yeti Helmet"
 		quest.3C8724C3A9459507.quest_subtitle: "shen ji ji, dan ge Yeti Helmet."
 		quest.3C8724C3A9459507.quest_desc: ["Yeti Helmet kai qi de bi kan qi lai duo. Qiang shang yi zhuan."]
@@ -4229,15 +4339,45 @@
 		quest.3FFB850F8F0B1200.title: "Feeding Upgrade"
 		quest.3FFB850F8F0B1200.quest_subtitle: "Xiao bu: Feeding Upgrade."
 		quest.3FFB850F8F0B1200.quest_desc: ["Zhao chu ni dao Feeding Upgrade de lu. Cheng zhong dan bu xuan zao."]
-		quest.4000000000000001.title: "Victory Medal"
-		quest.4000000000000001.quest_subtitle: "Zhe ji shun shou na xia Victory Medal."
-		quest.4000000000000001.quest_desc: ["Ji lu Victory Medal yi huo de. Xiao xi guan, da jie guo."]
-		quest.4000000000000002.title: "Valkyrie Queen"
-		quest.4000000000000002.quest_subtitle: "Biao ji Valkyrie Queen."
-		quest.4000000000000002.quest_desc: ["Valkyrie Queen: an jing de li cheng bei. Cong ci kai shi gun xue qiu."]
-		quest.4000000000000003.title: "Valkyrie Helmet"
-		quest.4000000000000003.quest_subtitle: "jian yi tiao: Valkyrie Helmet."
-		quest.4000000000000003.quest_desc: ["Bu zhuo Valkyrie Helmet. Chang lu shang de xiao yi bu."]
+		quest.4000000000000001.title: "&6&lSheng li xun zhang"
+		quest.4000000000000001.quest_subtitle: "&7Jing ji chang shang de yong qi zheng ming"
+		quest.4000000000000001.quest_desc: [
+			"&6&lSheng li xun zhang"
+			"&8&m                            "
+			""
+			"&7Da bai nv wu shen huo qu sheng li xun zhang. Zhe shi"
+			"&7nv wu shen nv wang wei yi jie shou de huo bi."
+			""
+			"&6&lLei bie:&r &fCai liao"
+			""
+			"&e&l★ Ti shi:&r &7Cun hao xun zhang. Mei you ta men nv wang bu hui yu ni zhan dou."
+		]
+		quest.4000000000000002.title: "&c&lNv wu shen nv wang"
+		quest.4000000000000002.quest_subtitle: "&7Tiao zhan tian kong zhi wang"
+		quest.4000000000000002.quest_desc: [
+			"&c&lNv wu shen nv wang"
+			"&8&m                            "
+			""
+			"&7Da bai nv wu shen nv wang. Zhi you ni xian shang zu"
+			"&7gou de sheng li xun zhang, ta cai jie shou tiao zhan."
+			""
+			"&c&lLei bie:&r &fShou ling"
+			""
+			"&e&l★ Ti shi:&r &7Ta su du kuai chu shou zhong. Gravitite zhuang bei neng gen shang ta."
+		]
+		quest.4000000000000003.title: "&d&lNv wu shen zhuang bei"
+		quest.4000000000000003.quest_subtitle: "&7Nv wang de hu jia yu wu qi"
+		quest.4000000000000003.quest_desc: [
+			"&d&lNv wu shen zhuang bei"
+			"&8&m                            "
+			""
+			"&7Duan zao quan tao nv wu shen zhuang bei: si jian hu"
+			"&7jia, si jian gong ju he shan dian jian."
+			""
+			"&d&lLei bie:&r &fChuan shuo"
+			""
+			"&e&l★ Ti shi:&r &7Nv wu shen zhuang bei qing ying min jie, wei fei xing zhan shi da zao."
+		]
 		quest.4005DA1BA51C0C68.title: "Ghast"
 		quest.4005DA1BA51C0C68.quest_subtitle: "Ghast hui hui ben."
 		quest.4005DA1BA51C0C68.quest_desc: ["Ghast shi lian tiao de yi huan. Ben zhang yi yu ni tong xing yi ban."]
@@ -4728,9 +4868,19 @@
 		quest.47EBD49B34B70B3D.title: "Rooted Boots"
 		quest.47EBD49B34B70B3D.quest_subtitle: "Rooted Boots jie kai geng duo."
 		quest.47EBD49B34B70B3D.quest_desc: ["Yi Rooted Boots. Xiao sheng dou hui lei jia."]
-		quest.47F14A31158F2D9E.title: "Eots Controller"
-		quest.47F14A31158F2D9E.quest_subtitle: "Wei rao Eots Controller jian gou zhi lian."
-		quest.47F14A31158F2D9E.quest_desc: ["Zhao chu tong xiang Eots Controller de lu. An zi ji jie zou."]
+		quest.47F14A31158F2D9E.title: "&c&lFeng bao zhi yan"
+		quest.47F14A31158F2D9E.quest_subtitle: "&7Ping xi Deep Aether de feng bao"
+		quest.47F14A31158F2D9E.quest_desc: [
+			"&c&lFeng bao zhi yan"
+			"&8&m                            "
+			""
+			"&7Da bai feng bao zhi yan, tong zhi Deep Aether he xin"
+			"&7de kuang bao Boss."
+			""
+			"&c&lLei bie:&r &fShou ling"
+			""
+			"&e&l★ Ti shi:&r &7Feng bao cong bu ting xie. Bao chi yi dong, xuan ze shi ji chu shou."
+		]
 		quest.47F38E606AD3FF53.title: "Dust"
 		quest.47F38E606AD3FF53.quest_subtitle: "Na xia Dust."
 		quest.47F38E606AD3FF53.quest_desc: ["Ba Dust jia jin chu cang. Ni hen kuai jiu hui yong dao."]
@@ -5011,9 +5161,19 @@
 		quest.4C0B4F5148F144FC.title: "Wither"
 		quest.4C0B4F5148F144FC.quest_subtitle: "Biao ji Wither."
 		quest.4C0B4F5148F144FC.quest_desc: ["Wither shi xia yi ge zhuan zhe. An jing de jin bu shen guo xuan zao."]
-		quest.4C3BE7C21DD86197.title: "Blue Aercloud"
-		quest.4C3BE7C21DD86197.quest_subtitle: "Tong xiang Blue Aercloud de lu shang."
-		quest.4C3BE7C21DD86197.quest_desc: ["Kou dai zhuang Blue Aercloud. Leng jing yong sheng yu cong mang."]
+		quest.4C3BE7C21DD86197.title: "&6&lLan se kong yun"
+		quest.4C3BE7C21DD86197.quest_subtitle: "&7Ba ni dan xiang tian kong de yun"
+		quest.4C3BE7C21DD86197.quest_desc: [
+			"&6&lLan se kong yun"
+			"&8&m                            "
+			""
+			"&7Shou ji lan se kong yun. Cai shang qu, ta hui ba ni"
+			"&7gao gao dan xiang kong zhong."
+			""
+			"&6&lLei bie:&r &fCai liao"
+			""
+			"&e&l★ Ti shi:&r &7Lan se kong yun zai fu kong dao yu jian ti gong kuai jie chui zhi tong dao."
+		]
 		quest.4C3D1A968EDC4C67.title: "Swarm Spider"
 		quest.4C3D1A968EDC4C67.quest_subtitle: "Swarm Spider: cheng zhong de."
 		quest.4C3D1A968EDC4C67.quest_desc: ["Cun hao Swarm Spider. Suan shu."]
@@ -5244,18 +5404,58 @@
 		quest.4FF6C5AEFE6BDF6E.title: "Redcap"
 		quest.4FF6C5AEFE6BDF6E.quest_subtitle: "Wei rao Redcap jian gou zhi lian."
 		quest.4FF6C5AEFE6BDF6E.quest_desc: ["Gong ping yi Redcap. You pa shang yi tai jie."]
-		quest.5000000000000001.title: "Structure"
-		quest.5000000000000001.quest_subtitle: "Structure hui hui ben."
-		quest.5000000000000001.quest_desc: ["Structure: cheng zhong, bu chao. Wen ding ji shi kuai."]
-		quest.5000000000000002.title: "Sun Spirit"
-		quest.5000000000000002.quest_subtitle: "Qin li qu de: Sun Spirit."
-		quest.5000000000000002.quest_desc: ["Dai zhe Sun Spirit. Xia yi dao men jiu zai yan qian."]
-		quest.5000000000000003.title: "Phoenix Helmet"
-		quest.5000000000000003.quest_subtitle: "Wei Phoenix Helmet rao yi dian zhi de."
-		quest.5000000000000003.quest_desc: ["Nong dao Phoenix Helmet. Rao yi quan zhi de."]
-		quest.5000000000000004.title: "Obsidian Helmet"
-		quest.5000000000000004.quest_subtitle: "Jin ri mu biao: Obsidian Helmet."
-		quest.5000000000000004.quest_desc: ["Wan jie Obsidian Helmet. Xin ren zhe tiao lian."]
+		quest.5000000000000001.title: "&e&lHuang jin di lao"
+		quest.5000000000000001.quest_subtitle: "&7Yong heng bai zhou de wang zuo"
+		quest.5000000000000001.quest_desc: [
+			"&e&lHuang jin di lao"
+			"&8&m                            "
+			""
+			"&7Zhao dao huang jin di lao. Zai jin se ting tang zhi"
+			"&7hou, deng zhe Aether wu jin yang guang de tong zhi zhe."
+			""
+			"&e&lLei bie:&r &fDi lao"
+			""
+			"&e&l★ Ti shi:&r &7Zhe shi Aether de zui zhong di lao. Dai shang ni zui hao de zhuang bei."
+		]
+		quest.5000000000000002.title: "&c&lTai yang zhi ling"
+		quest.5000000000000002.quest_subtitle: "&7Jie shu wu jin de bai zhou"
+		quest.5000000000000002.quest_desc: [
+			"&c&lTai yang zhi ling"
+			"&8&m                            "
+			""
+			"&7Zai huang jin di lao da bai tai yang zhi ling. Ta de"
+			"&7dao xia rang hei ye zhong yu chong fan Aether."
+			""
+			"&c&lLei bie:&r &fShou ling"
+			""
+			"&e&l★ Ti shi:&r &7Jin shen rou bo. Fan tan huo shan bi ta de huo qiu."
+		]
+		quest.5000000000000003.title: "&d&lFeng huang zhuang bei"
+		quest.5000000000000003.quest_subtitle: "&7Huo zhong dan sheng de hu jia yu wu qi"
+		quest.5000000000000003.quest_desc: [
+			"&d&lFeng huang zhuang bei"
+			"&8&m                            "
+			""
+			"&7Zhi zuo feng huang zhuang bei: si jian hu jia, feng"
+			"&7huang gong he yan yan jian."
+			""
+			"&d&lLei bie:&r &fChuan shuo"
+			""
+			"&e&l★ Ti shi:&r &7Feng huang jia ba huo yan he yan jiang fan ji ni de di ren."
+		]
+		quest.5000000000000004.title: "&a&lHei yao shi jia"
+		quest.5000000000000004.quest_subtitle: "&7Aether de zhong xing kai jia"
+		quest.5000000000000004.quest_desc: [
+			"&a&lHei yao shi jia"
+			"&8&m                            "
+			""
+			"&7Zhi zuo quan tao hei yao shi jia: tou kui, xiong jia,"
+			"&7hu tui he xue zi, Aether zui jian gu de kai jia."
+			""
+			"&a&lLei bie:&r &fZhuang bei"
+			""
+			"&e&l★ Ti shi:&r &7Hei yao shi jia yong ji dong xing huan qu chun cui fang hu. Da Boss shi chuan."
+		]
 		quest.5014471AEFB94727.title: "Carminite Ghastling"
 		quest.5014471AEFB94727.quest_subtitle: "Yong li qu Carminite Ghastling, zou wen de lu."
 		quest.5014471AEFB94727.quest_desc: ["Dai zhe Carminite Ghastling li kai. Xia yi dao men jiu zai yan qian."]
@@ -6046,21 +6246,71 @@
 		quest.5FFE4ACE65F45C83.title: "Biome"
 		quest.5FFE4ACE65F45C83.quest_subtitle: "Yi ge Biome lu shang yong."
 		quest.5FFE4ACE65F45C83.quest_desc: ["Na zou Biome. Lian tiao kao de zhu."]
-		quest.6000000000000001.title: "Biome"
-		quest.6000000000000001.quest_subtitle: "Yi ge Biome lu shang yong."
-		quest.6000000000000001.quest_desc: ["Miao zhun Biome. Xue qiu de zhong zi."]
-		quest.6000000000000002.title: "Structure"
-		quest.6000000000000002.quest_subtitle: "Wen jian shou huo: Structure."
-		quest.6000000000000002.quest_desc: ["Lu guo shun shou ji Structure. Nai xin de pao bu xian ying."]
-		quest.6000000000000003.title: "Skyjade"
-		quest.6000000000000003.quest_subtitle: "Skyjade: ben zhang xiao ti shi."
-		quest.6000000000000003.quest_desc: ["Ba Skyjade jia ru zhuang bei. Cong ci kai shi gun xue qiu."]
-		quest.6000000000000004.title: "Skyjade Pickaxe"
-		quest.6000000000000004.quest_subtitle: "Bei zhuo Skyjade Pickaxe."
-		quest.6000000000000004.quest_desc: ["Skyjade Pickaxe shu yu hui gun xue qiu de na lei. Wen he li cheng bei."]
-		quest.6000000000000005.title: "Stratus Helmet"
-		quest.6000000000000005.quest_subtitle: "Bei zhuo Stratus Helmet."
-		quest.6000000000000005.quest_desc: ["Yi bu yi bu yi Stratus Helmet. An jing de jin bu shen guo xuan zao."]
+		quest.6000000000000001.title: "&b&lTian xun yi cao yuan"
+		quest.6000000000000001.quest_subtitle: "&7Man bu zi se cao di"
+		quest.6000000000000001.quest_desc: [
+			"&b&lTian xun yi cao yuan"
+			"&8&m                            "
+			""
+			"&7Zhao dao tian xun yi cao yuan, yi ge ning jing de"
+			"&7Deep Aether sheng qun xi, pu man rou guang zi xun yi cao."
+			""
+			"&b&lLei bie:&r &fTan suo"
+			""
+			"&e&l★ Ti shi:&r &7Tian xun yi cao yong yu Deep Aether de niang zao yu zhuang shi."
+		]
+		quest.6000000000000002.title: "&e&lHuang tong di lao"
+		quest.6000000000000002.quest_subtitle: "&7Deep Aether de tiao zhan"
+		quest.6000000000000002.quest_desc: [
+			"&e&lHuang tong di lao"
+			"&8&m                            "
+			""
+			"&7Zhao dao huang tong di lao, yi chang mai cang zai xia"
+			"&7fang Deep Aether de geng nan shi lian."
+			""
+			"&e&lLei bie:&r &fDi lao"
+			""
+			"&e&l★ Ti shi:&r &7Huang tong di lao hui hui bao Deep Aether de jin du. Xian wu zhuang hao."
+		]
+		quest.6000000000000003.title: "&6&lTian yu"
+		quest.6000000000000003.quest_subtitle: "&7Deep Aether de zhen bao"
+		quest.6000000000000003.quest_desc: [
+			"&6&lTian yu"
+			"&8&m                            "
+			""
+			"&7Wa jue tian yu, Deep Aether zhen gui de bao shi,"
+			"&7ta zui qiang zhuang bei de ji chu."
+			""
+			"&6&lLei bie:&r &fCai liao"
+			""
+			"&e&l★ Ti shi:&r &7Tian yu mai cang zai fu kong dao yu shen chu. Xiao xin xiang xia wa."
+		]
+		quest.6000000000000004.title: "&d&lTian yu jun huo"
+		quest.6000000000000004.quest_subtitle: "&7Deep Aether zui jing liang de wu qi"
+		quest.6000000000000004.quest_desc: [
+			"&d&lTian yu jun huo"
+			"&8&m                            "
+			""
+			"&7Duan zao tian yu jun huo: wu jian gong ju, wai jia"
+			"&7xing yun zhi ren, feng bao zhi gong he feng bao zhi jian."
+			""
+			"&d&lLei bie:&r &fChuan shuo"
+			""
+			"&e&l★ Ti shi:&r &7Tian yu wu qi shi Deep Aether gong yi de ding feng."
+		]
+		quest.6000000000000005.title: "&d&lStratus zhuang bei"
+		quest.6000000000000005.quest_subtitle: "&7Gao kong feng bao de hu jia yu gong ju"
+		quest.6000000000000005.quest_desc: [
+			"&d&lStratus zhuang bei"
+			"&8&m                            "
+			""
+			"&7Duan zao quan tao stratus zhuang bei: si jian hu jia"
+			"&7he wu jian gong ju, Deep Aether zui qiang de zhuang bei."
+			""
+			"&d&lLei bie:&r &fChuan shuo"
+			""
+			"&e&l★ Ti shi:&r &7Stratus zhuang bei shi Deep Aether de zhong ju. Ying de ta ji cheng wang tian kong."
+		]
 		quest.600335ABF8F74D65.title: "Stray"
 		quest.600335ABF8F74D65.quest_subtitle: "Zai Stray de zhi gan."
 		quest.600335ABF8F74D65.quest_desc: ["Zhao dao Stray. Chang lu shang de xiao yi bu."]
@@ -7094,9 +7344,19 @@
 		quest.6FFFAE334DFAAAAB.title: "Iesnium Sacrificial Bowl"
 		quest.6FFFAE334DFAAAAB.quest_subtitle: "Ba Iesnium Sacrificial Bowl liu dao yi hou."
 		quest.6FFFAE334DFAAAAB.quest_desc: ["Yi de Iesnium Sacrificial Bowl. Ta bi chu kan qi lai geng zhong yao."]
-		quest.7000000000000001.title: "Pig Slayer"
-		quest.7000000000000001.quest_subtitle: "Pig Slayer hui hui ben."
-		quest.7000000000000001.quest_desc: ["Hua diao Pig Slayer. Mo kuai hua jin zhan, bu fa wen jian."]
+		quest.7000000000000001.title: "&d&lTe shu zhi jian"
+		quest.7000000000000001.quest_subtitle: "&7San ba yu zhong bu tong de dao ren"
+		quest.7000000000000001.quest_desc: [
+			"&d&lTe shu zhi jian"
+			"&8&m                            "
+			""
+			"&7Shou ji Aether zui qi te de jian: lie zhu zhe, tang"
+			"&7guo bang jian he xi xie gui dao ren."
+			""
+			"&d&lLei bie:&r &fChuan shuo"
+			""
+			"&e&l★ Ti shi:&r &7Mei ba dao ren dou you zi ji de te se. Quan bu shi shi xuan ge zui ai."
+		]
 		quest.702185D735F94712.title: "Blaze"
 		quest.702185D735F94712.quest_subtitle: "Tong xiang Blaze de lu shang."
 		quest.702185D735F94712.quest_desc: ["Suo ding Blaze. You pa shang yi tai jie."]

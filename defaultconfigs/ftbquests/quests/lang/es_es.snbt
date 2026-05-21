@@ -1323,21 +1323,71 @@
 		quest.0FD750C1BDBC4A81.title: "Warden"
 		quest.0FD750C1BDBC4A81.quest_subtitle: "Ganate el Warden, sin atajo."
 		quest.0FD750C1BDBC4A81.quest_desc: ["Fija el Warden al inventario. Te has ganado una pausa."]
-		quest.1000000000000001.title: "Dimension"
-		quest.1000000000000001.quest_subtitle: "Un Dimension, victoria concentrado."
-		quest.1000000000000001.quest_desc: ["Anota el Dimension en el diario. La proxima puerta esta cerca."]
-		quest.1000000000000002.title: "Skyroot Pickaxe"
-		quest.1000000000000002.quest_subtitle: "Un paso vigilante hacia el Skyroot Pickaxe."
-		quest.1000000000000002.quest_desc: ["Gana el Skyroot Pickaxe paso a paso. El futuro te lo agradecera."]
-		quest.1000000000000003.title: "Holystone Pickaxe"
-		quest.1000000000000003.quest_subtitle: "Ganancia modesta: el Holystone Pickaxe."
-		quest.1000000000000003.quest_desc: ["Trae el Holystone Pickaxe a casa. El futuro te lo agradecera."]
-		quest.1000000000000004.title: "Ambrosium Shard"
-		quest.1000000000000004.quest_subtitle: "Ladrillo: el Ambrosium Shard."
-		quest.1000000000000004.quest_desc: ["Asegura el Ambrosium Shard. El atajo no esta aqui."]
-		quest.1000000000000005.title: "Cold Aercloud"
-		quest.1000000000000005.quest_subtitle: "Hito tranquilo con el Cold Aercloud."
-		quest.1000000000000005.quest_desc: ["El Cold Aercloud se paga solo. Mas cerca de lo que el mapa sugiere."]
+		quest.1000000000000001.title: "&b&lEntrar al Aether"
+		quest.1000000000000001.quest_subtitle: "&7Asciende a la dimension celeste"
+		quest.1000000000000001.quest_desc: [
+			"&b&lEntrar al Aether"
+			"&8&m                            "
+			""
+			"&7Construye un portal de piedra luminosa, llena su marco"
+			"&7con agua y asciende al Aether sobre las nubes."
+			""
+			"&b&lCategoria:&r &fExploracion"
+			""
+			"&e&l★ Consejo:&r &7El marco del portal Aether es piedra luminosa. Activalo con agua."
+		]
+		quest.1000000000000002.title: "&a&lHerramientas de Skyroot"
+		quest.1000000000000002.quest_subtitle: "&7Tu primer juego de herramientas"
+		quest.1000000000000002.quest_desc: [
+			"&a&lHerramientas de Skyroot"
+			"&8&m                            "
+			""
+			"&7Fabrica el juego completo de herramientas de skyroot"
+			"&7con la madera del Aether: pico, hacha, pala, espada y azada."
+			""
+			"&a&lCategoria:&r &fEquipo"
+			""
+			"&e&l★ Consejo:&r &7El skyroot es la madera del Aether. Reunela antes que nada."
+		]
+		quest.1000000000000003.title: "&a&lHerramientas de Piedra Sagrada"
+		quest.1000000000000003.quest_subtitle: "&7Herramientas de piedra del cielo"
+		quest.1000000000000003.quest_desc: [
+			"&a&lHerramientas de Piedra Sagrada"
+			"&8&m                            "
+			""
+			"&7Fabrica el juego completo de herramientas de piedra"
+			"&7sagrada. La respuesta del Aether a la roca, solida y temprana."
+			""
+			"&a&lCategoria:&r &fEquipo"
+			""
+			"&e&l★ Consejo:&r &7La piedra sagrada esta por todas partes. Un avance rapido."
+		]
+		quest.1000000000000004.title: "&6&lFragmento de Ambrosium"
+		quest.1000000000000004.quest_subtitle: "&7El suave brillo del Aether"
+		quest.1000000000000004.quest_desc: [
+			"&6&lFragmento de Ambrosium"
+			"&8&m                            "
+			""
+			"&7Reune fragmentos de ambrosium del mineral de piedra"
+			"&7sagrada. Alimentan antorchas y curan un poco al usarse."
+			""
+			"&6&lCategoria:&r &fMateriales"
+			""
+			"&e&l★ Consejo:&r &7El ambrosium es tu fuente de luz temprana. Mina bastante al llegar."
+		]
+		quest.1000000000000005.title: "&6&lAernube Fria"
+		quest.1000000000000005.quest_subtitle: "&7Una nube que suaviza la caida"
+		quest.1000000000000005.quest_desc: [
+			"&6&lAernube Fria"
+			"&8&m                            "
+			""
+			"&7Recoge una aernube fria. Puesta debajo de ti, anula"
+			"&7todo dano de caida, incluso desde la mayor altura."
+			""
+			"&6&lCategoria:&r &fMateriales"
+			""
+			"&e&l★ Consejo:&r &7Cubre tus zonas de aterrizaje con aernube fria. El Aether esta muy alto."
+		]
 		quest.1000000000000010.title: "&2&lDiplomacia Piglin"
 		quest.1000000000000010.quest_subtitle: "&7Haz amigos, no enemigos"
 		quest.1000000000000010.quest_desc: [
@@ -3342,18 +3392,58 @@
 			""
 			"&e&l★ Consejo:&r &7Las de piedra llevan a casi todos hasta su primer hierro."
 		]
-		quest.3000000000000001.title: "Structure"
-		quest.3000000000000001.quest_subtitle: "El Structure: estructural."
-		quest.3000000000000001.quest_desc: ["Gana el Structure jugando a largo plazo. Un ladrillo mas en una pared."]
-		quest.3000000000000002.title: "Slider"
-		quest.3000000000000002.quest_subtitle: "Pesca el Slider esta partida."
-		quest.3000000000000002.quest_desc: ["Gana el Slider. Vale mas que su descripcion."]
-		quest.3000000000000003.title: "Valkyrie Lance"
-		quest.3000000000000003.quest_subtitle: "En ruta al Valkyrie Lance."
-		quest.3000000000000003.quest_desc: ["Apunta el Valkyrie Lance en el dossier. Las runs pacientes ganan."]
-		quest.3000000000000004.title: "Gravitite Helmet"
-		quest.3000000000000004.quest_subtitle: "Hito tranquilo con el Gravitite Helmet."
-		quest.3000000000000004.quest_desc: ["Toma el Gravitite Helmet. Apunta a lo siguiente."]
+		quest.3000000000000001.title: "&e&lMazmorra de Bronce"
+		quest.3000000000000001.quest_subtitle: "&7La primera prueba del Aether"
+		quest.3000000000000001.quest_desc: [
+			"&e&lMazmorra de Bronce"
+			"&8&m                            "
+			""
+			"&7Encuentra una Mazmorra de Bronce oculta en las islas"
+			"&7flotantes. Superala para llegar a la sala del Slider."
+			""
+			"&e&lCategoria:&r &fMazmorras"
+			""
+			"&e&l★ Consejo:&r &7La mazmorra se cierra tras de ti. Esta listo para pelear al entrar."
+		]
+		quest.3000000000000002.title: "&c&lEl Slider"
+		quest.3000000000000002.quest_subtitle: "&7Vence al jefe de la Mazmorra de Bronce"
+		quest.3000000000000002.quest_desc: [
+			"&c&lEl Slider"
+			"&8&m                            "
+			""
+			"&7Destruye al Slider, un bloque de piedra flotante que"
+			"&7embiste por su sala para aplastarte."
+			""
+			"&c&lCategoria:&r &fJefe"
+			""
+			"&e&l★ Consejo:&r &7Golpealo cuando se detiene. Un pico le hace el mayor dano."
+		]
+		quest.3000000000000003.title: "&d&lArmas del Aether"
+		quest.3000000000000003.quest_subtitle: "&7Empuna las reliquias de las mazmorras"
+		quest.3000000000000003.quest_desc: [
+			"&d&lArmas del Aether"
+			"&8&m                            "
+			""
+			"&7Reune las armas legendarias del Aether: lanza de"
+			"&7valkiria, martillo de Kingbdogz, baston de nube y cuchillo rayo."
+			""
+			"&d&lCategoria:&r &fLegendario"
+			""
+			"&e&l★ Consejo:&r &7Cada arma se oculta en el botin de mazmorras. Cazalas todas."
+		]
+		quest.3000000000000004.title: "&a&lEquipo de Gravitite"
+		quest.3000000000000004.quest_subtitle: "&7Armadura y herramientas que desafian la gravedad"
+		quest.3000000000000004.quest_desc: [
+			"&a&lEquipo de Gravitite"
+			"&8&m                            "
+			""
+			"&7Forja el conjunto completo de gravitite: cuatro piezas"
+			"&7de armadura y cinco herramientas de gravitite encantada."
+			""
+			"&a&lCategoria:&r &fEquipo"
+			""
+			"&e&l★ Consejo:&r &7La armadura de gravitite mejora tu salto. El cielo es tu patio."
+		]
 		quest.3009018DEC1EC952.title: "Dimension"
 		quest.3009018DEC1EC952.quest_subtitle: "Ladrillo: el Dimension."
 		quest.3009018DEC1EC952.quest_desc: ["Embolsate el Dimension. El capitulo gira en torno a esto."]
@@ -3448,9 +3538,19 @@
 		quest.31BB7EB95CE73C1A.title: "Alpha Yeti Trophy"
 		quest.31BB7EB95CE73C1A.quest_subtitle: "Un Alpha Yeti Trophy, victoria tranquilo."
 		quest.31BB7EB95CE73C1A.quest_desc: ["Anade el Alpha Yeti Trophy al kit. La ruta ensena tanto como el premio."]
-		quest.31BF04F3FF4D6343.title: "Zanite Helmet"
-		quest.31BF04F3FF4D6343.quest_subtitle: "El Zanite Helmet es un checkpoint."
-		quest.31BF04F3FF4D6343.quest_desc: ["Tacha el Zanite Helmet. Las victorias chicas suman."]
+		quest.31BF04F3FF4D6343.title: "&a&lEquipo de Zanite"
+		quest.31BF04F3FF4D6343.quest_subtitle: "&7Armadura y herramientas de zanite"
+		quest.31BF04F3FF4D6343.quest_desc: [
+			"&a&lEquipo de Zanite"
+			"&8&m                            "
+			""
+			"&7Forja el conjunto completo de zanite: casco, peto,"
+			"&7grebas, botas y las cinco herramientas a juego."
+			""
+			"&a&lCategoria:&r &fEquipo"
+			""
+			"&e&l★ Consejo:&r &7El equipo de zanite gana eficiencia a medida que se desgasta."
+		]
 		quest.31E7F7464D79F881.title: "Lapis Lazuli"
 		quest.31E7F7464D79F881.quest_subtitle: "Marca el Lapis Lazuli."
 		quest.31E7F7464D79F881.quest_desc: ["Empaca el Lapis Lazuli. Una semilla para la bola de nieve."]
@@ -3980,9 +4080,19 @@
 		quest.3C4ECF5741837953.title: "Drowned"
 		quest.3C4ECF5741837953.quest_subtitle: "Hito tranquilo con el Drowned."
 		quest.3C4ECF5741837953.quest_desc: ["Saca el Drowned de su escondite. Progreso modular, pasos cortos."]
-		quest.3C6AB1E04AE2BA01.title: "Zanite Gemstone"
-		quest.3C6AB1E04AE2BA01.quest_subtitle: "Un Zanite Gemstone, victoria tranquilo."
-		quest.3C6AB1E04AE2BA01.quest_desc: ["Anade el Zanite Gemstone. Progreso modular, pasos cortos."]
+		quest.3C6AB1E04AE2BA01.title: "&6&lGema de Zanite"
+		quest.3C6AB1E04AE2BA01.quest_subtitle: "&7La gema que se afila con el uso"
+		quest.3C6AB1E04AE2BA01.quest_desc: [
+			"&6&lGema de Zanite"
+			"&8&m                            "
+			""
+			"&7Mina gemas de zanite del mineral de zanite. El"
+			"&7material central del equipo intermedio del Aether."
+			""
+			"&6&lCategoria:&r &fMateriales"
+			""
+			"&e&l★ Consejo:&r &7Las herramientas de zanite minan mas rapido al gastarse. Util y curioso."
+		]
 		quest.3C8724C3A9459507.title: "Yeti Helmet"
 		quest.3C8724C3A9459507.quest_subtitle: "Run deliberado, un solo Yeti Helmet."
 		quest.3C8724C3A9459507.quest_desc: ["El Yeti Helmet abre mas puertas de las que parece. Un ladrillo mas en una pared."]
@@ -4229,15 +4339,45 @@
 		quest.3FFB850F8F0B1200.title: "Feeding Upgrade"
 		quest.3FFB850F8F0B1200.quest_subtitle: "Pequeno paso: el Feeding Upgrade."
 		quest.3FFB850F8F0B1200.quest_desc: ["Encuentra tu ruta al Feeding Upgrade. Estructural, no llamativo."]
-		quest.4000000000000001.title: "Victory Medal"
-		quest.4000000000000001.quest_subtitle: "Pesca el Victory Medal esta partida."
-		quest.4000000000000001.quest_desc: ["Anota el Victory Medal como adquirido. Habito chico, gran resultado."]
-		quest.4000000000000002.title: "Valkyrie Queen"
-		quest.4000000000000002.quest_subtitle: "Marca el Valkyrie Queen."
-		quest.4000000000000002.quest_desc: ["El Valkyrie Queen: un hito tranquilo. Bola de nieve desde aqui."]
-		quest.4000000000000003.title: "Valkyrie Helmet"
-		quest.4000000000000003.quest_subtitle: "Salto robusto: el Valkyrie Helmet."
-		quest.4000000000000003.quest_desc: ["Caza el Valkyrie Helmet. Un paso chico en un camino largo."]
+		quest.4000000000000001.title: "&6&lMedalla de Victoria"
+		quest.4000000000000001.quest_subtitle: "&7Prueba de valor en la arena"
+		quest.4000000000000001.quest_desc: [
+			"&6&lMedalla de Victoria"
+			"&8&m                            "
+			""
+			"&7Gana medallas de victoria derrotando valkirias. Son"
+			"&7la unica moneda que la Reina Valkiria acepta."
+			""
+			"&6&lCategoria:&r &fMateriales"
+			""
+			"&e&l★ Consejo:&r &7Guarda tus medallas. La Reina no te enfrentara sin ellas."
+		]
+		quest.4000000000000002.title: "&c&lReina Valkiria"
+		quest.4000000000000002.quest_subtitle: "&7Desafia a la reina de los cielos"
+		quest.4000000000000002.quest_desc: [
+			"&c&lReina Valkiria"
+			"&8&m                            "
+			""
+			"&7Derrota a la Reina Valkiria. Acepta el desafio solo"
+			"&7cuando le ofreces suficientes medallas de victoria."
+			""
+			"&c&lCategoria:&r &fJefe"
+			""
+			"&e&l★ Consejo:&r &7Es rapida y golpea fuerte. El equipo de gravitite sigue su ritmo."
+		]
+		quest.4000000000000003.title: "&d&lEquipo de Valkiria"
+		quest.4000000000000003.quest_subtitle: "&7Armadura y armas de la reina"
+		quest.4000000000000003.quest_desc: [
+			"&d&lEquipo de Valkiria"
+			"&8&m                            "
+			""
+			"&7Forja el conjunto completo de valkiria: cuatro piezas"
+			"&7de armadura, cuatro herramientas y la espada rayo."
+			""
+			"&d&lCategoria:&r &fLegendario"
+			""
+			"&e&l★ Consejo:&r &7El equipo de valkiria es ligero y veloz, hecho para volar."
+		]
 		quest.4005DA1BA51C0C68.title: "Ghast"
 		quest.4005DA1BA51C0C68.quest_subtitle: "El Ghast se paga solo."
 		quest.4005DA1BA51C0C68.quest_desc: ["El Ghast es parte de la cadena. Medio camino hecho contigo."]
@@ -4728,9 +4868,19 @@
 		quest.47EBD49B34B70B3D.title: "Rooted Boots"
 		quest.47EBD49B34B70B3D.quest_subtitle: "El Rooted Boots abre mas."
 		quest.47EBD49B34B70B3D.quest_desc: ["Gana el Rooted Boots. Las victorias chicas suman."]
-		quest.47F14A31158F2D9E.title: "Eots Controller"
-		quest.47F14A31158F2D9E.quest_subtitle: "Refuerza la cadena del Eots Controller."
-		quest.47F14A31158F2D9E.quest_desc: ["Encuentra un camino hacia el Eots Controller. A tu ritmo."]
+		quest.47F14A31158F2D9E.title: "&c&lOjo de la Tormenta"
+		quest.47F14A31158F2D9E.quest_subtitle: "&7Calma la tempestad del Deep Aether"
+		quest.47F14A31158F2D9E.quest_desc: [
+			"&c&lOjo de la Tormenta"
+			"&8&m                            "
+			""
+			"&7Derrota al Ojo de la Tormenta, el jefe furioso que"
+			"&7reina en el corazon del Deep Aether."
+			""
+			"&c&lCategoria:&r &fJefe"
+			""
+			"&e&l★ Consejo:&r &7La tormenta nunca para. Mantente movil y elige tus golpes."
+		]
 		quest.47F38E606AD3FF53.title: "Dust"
 		quest.47F38E606AD3FF53.quest_subtitle: "Asegura el Dust."
 		quest.47F38E606AD3FF53.quest_desc: ["Anade el Dust a tu reserva. Lo necesitaras pronto."]
@@ -5011,9 +5161,19 @@
 		quest.4C0B4F5148F144FC.title: "Wither"
 		quest.4C0B4F5148F144FC.quest_subtitle: "Marca el Wither."
 		quest.4C0B4F5148F144FC.quest_desc: ["El Wither es el proximo pivote. El progreso tranquilo gana."]
-		quest.4C3BE7C21DD86197.title: "Blue Aercloud"
-		quest.4C3BE7C21DD86197.quest_subtitle: "En ruta al Blue Aercloud."
-		quest.4C3BE7C21DD86197.quest_desc: ["Embolsa el Blue Aercloud. La calma vence al apuro."]
+		quest.4C3BE7C21DD86197.title: "&6&lAernube Azul"
+		quest.4C3BE7C21DD86197.quest_subtitle: "&7Una nube que te lanza al cielo"
+		quest.4C3BE7C21DD86197.quest_desc: [
+			"&6&lAernube Azul"
+			"&8&m                            "
+			""
+			"&7Recoge una aernube azul. Pisala y te impulsa muy alto"
+			"&7hacia el aire abierto."
+			""
+			"&6&lCategoria:&r &fMateriales"
+			""
+			"&e&l★ Consejo:&r &7Las aernubes azules hacen atajos verticales entre islas flotantes."
+		]
 		quest.4C3D1A968EDC4C67.title: "Swarm Spider"
 		quest.4C3D1A968EDC4C67.quest_subtitle: "El Swarm Spider: estructural."
 		quest.4C3D1A968EDC4C67.quest_desc: ["Reserva el Swarm Spider. Cuenta."]
@@ -5244,18 +5404,58 @@
 		quest.4FF6C5AEFE6BDF6E.title: "Redcap"
 		quest.4FF6C5AEFE6BDF6E.quest_subtitle: "Refuerza la cadena del Redcap."
 		quest.4FF6C5AEFE6BDF6E.quest_desc: ["Gana el Redcap con justicia. Un peldano mas escalado."]
-		quest.5000000000000001.title: "Structure"
-		quest.5000000000000001.quest_subtitle: "El Structure se paga solo."
-		quest.5000000000000001.quest_desc: ["El Structure: estructural, no ruidoso. Constante es rapido."]
-		quest.5000000000000002.title: "Sun Spirit"
-		quest.5000000000000002.quest_subtitle: "Ganatelo: el Sun Spirit."
-		quest.5000000000000002.quest_desc: ["Lleva el Sun Spirit. La proxima puerta esta cerca."]
-		quest.5000000000000003.title: "Phoenix Helmet"
-		quest.5000000000000003.quest_subtitle: "Vale el desvio por el Phoenix Helmet."
-		quest.5000000000000003.quest_desc: ["Consigue el Phoenix Helmet. El desvio vale la pena."]
-		quest.5000000000000004.title: "Obsidian Helmet"
-		quest.5000000000000004.quest_subtitle: "Meta de hoy: el Obsidian Helmet."
-		quest.5000000000000004.quest_desc: ["Cierra el Obsidian Helmet. Confia en la cadena."]
+		quest.5000000000000001.title: "&e&lMazmorra de Oro"
+		quest.5000000000000001.quest_subtitle: "&7El trono del dia eterno"
+		quest.5000000000000001.quest_desc: [
+			"&e&lMazmorra de Oro"
+			"&8&m                            "
+			""
+			"&7Encuentra la Mazmorra de Oro. Tras sus salas doradas"
+			"&7aguarda el senor del sol sin fin del Aether."
+			""
+			"&e&lCategoria:&r &fMazmorras"
+			""
+			"&e&l★ Consejo:&r &7Es la mazmorra final del Aether. Lleva tu mejor equipo."
+		]
+		quest.5000000000000002.title: "&c&lEspiritu del Sol"
+		quest.5000000000000002.quest_subtitle: "&7Termina el dia sin fin"
+		quest.5000000000000002.quest_desc: [
+			"&c&lEspiritu del Sol"
+			"&8&m                            "
+			""
+			"&7Derrota al Espiritu del Sol en la Mazmorra de Oro. Su"
+			"&7caida deja por fin volver la noche al Aether."
+			""
+			"&c&lCategoria:&r &fJefe"
+			""
+			"&e&l★ Consejo:&r &7Pelea de cerca. Refleja o esquiva sus bolas de fuego."
+		]
+		quest.5000000000000003.title: "&d&lEquipo del Fenix"
+		quest.5000000000000003.quest_subtitle: "&7Armadura y armas nacidas del fuego"
+		quest.5000000000000003.quest_desc: [
+			"&d&lEquipo del Fenix"
+			"&8&m                            "
+			""
+			"&7Fabrica el conjunto del fenix: cuatro piezas de"
+			"&7armadura, el arco del fenix y la espada llameante."
+			""
+			"&d&lCategoria:&r &fLegendario"
+			""
+			"&e&l★ Consejo:&r &7La armadura del fenix vuelve el fuego y la lava contra tus enemigos."
+		]
+		quest.5000000000000004.title: "&a&lArmadura de Obsidiana"
+		quest.5000000000000004.quest_subtitle: "&7El blindaje pesado del Aether"
+		quest.5000000000000004.quest_desc: [
+			"&a&lArmadura de Obsidiana"
+			"&8&m                            "
+			""
+			"&7Fabrica el conjunto completo de armadura de obsidiana:"
+			"&7casco, peto, grebas y botas, el blindaje mas duro."
+			""
+			"&a&lCategoria:&r &fEquipo"
+			""
+			"&e&l★ Consejo:&r &7La armadura de obsidiana cambia movilidad por proteccion pura."
+		]
 		quest.5014471AEFB94727.title: "Carminite Ghastling"
 		quest.5014471AEFB94727.quest_subtitle: "Ganate el Carminite Ghastling, sin atajo."
 		quest.5014471AEFB94727.quest_desc: ["Marchate con el Carminite Ghastling. La proxima puerta esta cerca."]
@@ -6046,21 +6246,71 @@
 		quest.5FFE4ACE65F45C83.title: "Biome"
 		quest.5FFE4ACE65F45C83.quest_subtitle: "Un Biome para el camino."
 		quest.5FFE4ACE65F45C83.quest_desc: ["Toma el Biome. La cadena aguanta."]
-		quest.6000000000000001.title: "Biome"
-		quest.6000000000000001.quest_subtitle: "Un Biome para el camino."
-		quest.6000000000000001.quest_desc: ["Apunta al Biome. Una semilla para la bola de nieve."]
-		quest.6000000000000002.title: "Structure"
-		quest.6000000000000002.quest_subtitle: "Ganancia modesta: el Structure."
-		quest.6000000000000002.quest_desc: ["Recoge el Structure de paso. Las runs pacientes ganan."]
-		quest.6000000000000003.title: "Skyjade"
-		quest.6000000000000003.quest_subtitle: "El Skyjade: guino del capitulo."
-		quest.6000000000000003.quest_desc: ["Sumalo a tu kit: el Skyjade. Bola de nieve desde aqui."]
-		quest.6000000000000004.title: "Skyjade Pickaxe"
-		quest.6000000000000004.quest_subtitle: "Lleva el Skyjade Pickaxe."
-		quest.6000000000000004.quest_desc: ["El Skyjade Pickaxe es de los que hacen bola de nieve. Hito suave."]
-		quest.6000000000000005.title: "Stratus Helmet"
-		quest.6000000000000005.quest_subtitle: "Lleva el Stratus Helmet."
-		quest.6000000000000005.quest_desc: ["Gana el Stratus Helmet paso a paso. El progreso tranquilo gana."]
+		quest.6000000000000001.title: "&b&lCampos de Aerlavanda"
+		quest.6000000000000001.quest_subtitle: "&7Recorre los prados purpura"
+		quest.6000000000000001.quest_desc: [
+			"&b&lCampos de Aerlavanda"
+			"&8&m                            "
+			""
+			"&7Encuentra los Campos de Aerlavanda, un bioma tranquilo"
+			"&7del Deep Aether cubierto de lavanda purpura luminosa."
+			""
+			"&b&lCategoria:&r &fExploracion"
+			""
+			"&e&l★ Consejo:&r &7La aerlavanda se usa en pociones y decoracion del Deep Aether."
+		]
+		quest.6000000000000002.title: "&e&lMazmorra de Laton"
+		quest.6000000000000002.quest_subtitle: "&7Un desafio del Deep Aether"
+		quest.6000000000000002.quest_desc: [
+			"&e&lMazmorra de Laton"
+			"&8&m                            "
+			""
+			"&7Localiza una Mazmorra de Laton, una prueba mas dura"
+			"&7enterrada en el Deep Aether de abajo."
+			""
+			"&e&lCategoria:&r &fMazmorras"
+			""
+			"&e&l★ Consejo:&r &7Las Mazmorras de Laton premian el progreso del Deep Aether."
+		]
+		quest.6000000000000003.title: "&6&lCielojade"
+		quest.6000000000000003.quest_subtitle: "&7La joya del Deep Aether"
+		quest.6000000000000003.quest_desc: [
+			"&6&lCielojade"
+			"&8&m                            "
+			""
+			"&7Mina cielojade, la preciada gema del Deep Aether, la"
+			"&7base de su equipo mas poderoso."
+			""
+			"&6&lCategoria:&r &fMateriales"
+			""
+			"&e&l★ Consejo:&r &7El cielojade yace hondo bajo las islas flotantes. Excava con cuidado."
+		]
+		quest.6000000000000004.title: "&d&lArsenal de Cielojade"
+		quest.6000000000000004.quest_subtitle: "&7Las mejores armas del Deep Aether"
+		quest.6000000000000004.quest_desc: [
+			"&d&lArsenal de Cielojade"
+			"&8&m                            "
+			""
+			"&7Forja el arsenal de cielojade: cinco herramientas mas"
+			"&7la hoja de la suerte, el arco y la espada de tormenta."
+			""
+			"&d&lCategoria:&r &fLegendario"
+			""
+			"&e&l★ Consejo:&r &7Las armas de cielojade son la cumbre de la artesania del Deep Aether."
+		]
+		quest.6000000000000005.title: "&d&lEquipo de Stratus"
+		quest.6000000000000005.quest_subtitle: "&7Armadura y herramientas de la alta tormenta"
+		quest.6000000000000005.quest_desc: [
+			"&d&lEquipo de Stratus"
+			"&8&m                            "
+			""
+			"&7Forja el conjunto completo de stratus: cuatro piezas"
+			"&7de armadura y cinco herramientas, lo mejor del Deep Aether."
+			""
+			"&d&lCategoria:&r &fLegendario"
+			""
+			"&e&l★ Consejo:&r &7El equipo de stratus es el endgame del Deep Aether. Ganalo y reina el cielo."
+		]
 		quest.600335ABF8F74D65.title: "Stray"
 		quest.600335ABF8F74D65.quest_subtitle: "En la rama del Stray."
 		quest.600335ABF8F74D65.quest_desc: ["Encuentra el Stray. Un paso chico en un camino largo."]
@@ -7094,9 +7344,19 @@
 		quest.6FFFAE334DFAAAAB.title: "Iesnium Sacrificial Bowl"
 		quest.6FFFAE334DFAAAAB.quest_subtitle: "Guarda el Iesnium Sacrificial Bowl para luego."
 		quest.6FFFAE334DFAAAAB.quest_desc: ["Gana el Iesnium Sacrificial Bowl. Pesa mas de lo que parece a primera vista."]
-		quest.7000000000000001.title: "Pig Slayer"
-		quest.7000000000000001.quest_subtitle: "El Pig Slayer se paga solo."
-		quest.7000000000000001.quest_desc: ["Tacha el Pig Slayer. Progreso modular, pasos cortos."]
+		quest.7000000000000001.title: "&d&lEspadas Especiales"
+		quest.7000000000000001.quest_subtitle: "&7Tres hojas como ninguna otra"
+		quest.7000000000000001.quest_desc: [
+			"&d&lEspadas Especiales"
+			"&8&m                            "
+			""
+			"&7Reune las espadas mas raras del Aether: el matacerdos,"
+			"&7la espada caramelo y la hoja vampiro."
+			""
+			"&d&lCategoria:&r &fLegendario"
+			""
+			"&e&l★ Consejo:&r &7Cada hoja tiene su propia rareza. Pruebalas todas y elige favorita."
+		]
 		quest.702185D735F94712.title: "Blaze"
 		quest.702185D735F94712.quest_subtitle: "En ruta al Blaze."
 		quest.702185D735F94712.quest_desc: ["Asegura el Blaze. Un peldano mas escalado."]
