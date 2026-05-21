@@ -381,9 +381,19 @@
 	task.7E58AA59E81EE102.title: "Locate the Marble Soulforge"
 	task.7EA0FF3B604D14A4.title: "Guide"
 	task.7F6BD9A2AB6A12FE.title: "Guide"
-		quest.000C1ECD781F3F81.title: "Nature Rune"
-		quest.000C1ECD781F3F81.quest_subtitle: "El Nature Rune es un checkpoint."
-		quest.000C1ECD781F3F81.quest_desc: ["Conserva el Nature Rune. Puente entre lo hecho y lo siguiente."]
+		quest.000C1ECD781F3F81.title: "&d&lNature Rune"
+		quest.000C1ECD781F3F81.quest_subtitle: "&7Una runa de una escuela de hechizos"
+		quest.000C1ECD781F3F81.quest_desc: [
+			"&d&lNature Rune"
+			"&8&m                            "
+			""
+			"&7Fabrica la Nature Rune. Las runas portan la esencia pura de"
+			"&7una escuela de hechizos para los orbes de mejora."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Combina runas en el yunque arcano para crear orbes de mejora."
+		]
 		quest.00143D4FC12AEFD9.title: "Glyph Split"
 		quest.00143D4FC12AEFD9.quest_subtitle: "Ganate el Glyph Split, sin atajo."
 		quest.00143D4FC12AEFD9.quest_desc: ["El Glyph Split es tu siguiente recompensa. La proxima puerta esta cerca."]
@@ -460,9 +470,19 @@
 		quest.00D329407250AC7B.title: "Glyph Leap"
 		quest.00D329407250AC7B.quest_subtitle: "Un paso listo hacia el Glyph Leap."
 		quest.00D329407250AC7B.quest_desc: ["Anota el Glyph Leap como adquirido. El capitulo gira en torno a esto."]
-		quest.00D80AA4CDD8335C.title: "Objective"
-		quest.00D80AA4CDD8335C.quest_subtitle: "Salto perspicaz: el pieza."
-		quest.00D80AA4CDD8335C.quest_desc: ["Trae el pieza. Una semilla para la bola de nieve."]
+		quest.00D80AA4CDD8335C.title: "&9&lPeto de Paladin"
+		quest.00D80AA4CDD8335C.quest_subtitle: "&7Coraza sagrada para mago de batalla"
+		quest.00D80AA4CDD8335C.quest_desc: [
+			"&9&lPeto de Paladin"
+			"&8&m                            "
+			""
+			"&7Forja el Peto de Paladin. Un blindaje sagrado pesado"
+			"&7que deja a un mago de luz aguantar la primera linea."
+			""
+			"&9&lCategoria:&r &fTunicas"
+			""
+			"&e&l★ Consejo:&r &7Mezcla defensa y poder sagrado. El favorito del mago de vanguardia."
+		]
 		quest.00E52E8C4BBC5E9B.title: "Stack Upgrade Tier 2"
 		quest.00E52E8C4BBC5E9B.quest_subtitle: "En ruta al Stack Upgrade Tier 2."
 		quest.00E52E8C4BBC5E9B.quest_desc: ["Consigue el Stack Upgrade Tier 2. Un ladrillo mas en una pared."]
@@ -492,9 +512,19 @@
 			""
 			"&e&l★ Consejo:&r &7Devuelve sus propios proyectiles para quitarle los escudos."
 		]
-		quest.01119871B1D5C576.title: "Structure"
-		quest.01119871B1D5C576.quest_subtitle: "Ganatelo: el Structure."
-		quest.01119871B1D5C576.quest_desc: ["Atrapa el Structure. El progreso tranquilo gana."]
+		quest.01119871B1D5C576.title: "&3&lVillage"
+		quest.01119871B1D5C576.quest_subtitle: "&7Una estructura magica que explorar"
+		quest.01119871B1D5C576.quest_desc: [
+			"&3&lVillage"
+			"&8&m                            "
+			""
+			"&7Encuentra el Village, una de las estructuras magicas"
+			"&7que el mod Iron Spells reparte por el mundo."
+			""
+			"&3&lCategoria:&r &fExploracion"
+			""
+			"&e&l★ Consejo:&r &7Estas estructuras guardan botin magico, pergaminos y equipo."
+		]
 		quest.011AA225E68028D2.title: "&b&lLa Fortaleza"
 		quest.011AA225E68028D2.quest_subtitle: "&7Halla la puerta a otro mundo"
 		quest.011AA225E68028D2.quest_desc: [
@@ -666,9 +696,19 @@
 		quest.041365A540BF5A03.title: "Dictionary"
 		quest.041365A540BF5A03.quest_subtitle: "El Dictionary es un checkpoint."
 		quest.041365A540BF5A03.quest_desc: ["Se te pide el Dictionary. Mas cerca de lo que el mapa sugiere."]
-		quest.0436DF3308681913.title: "Dead King"
-		quest.0436DF3308681913.quest_subtitle: "Un paso tranquilo hacia el Dead King."
-		quest.0436DF3308681913.quest_desc: ["Desbloquea el Dead King. El futuro te lo agradecera."]
+		quest.0436DF3308681913.title: "&c&lDead King"
+		quest.0436DF3308681913.quest_subtitle: "&7Vence a un lanzador de hechizos hostil"
+		quest.0436DF3308681913.quest_desc: [
+			"&c&lDead King"
+			"&8&m                            "
+			""
+			"&7Derrota al Dead King, un lanzador hostil del mundo de"
+			"&7Iron Spells. Lanza hechizos tan feroces como un mago jugador."
+			""
+			"&c&lCategoria:&r &fJefe"
+			""
+			"&e&l★ Consejo:&r &7Los lanzadores enemigos esquivan y se protegen. Acortala distancia."
+		]
 		quest.043F760281444D3C.title: "Carminite Ghastguard"
 		quest.043F760281444D3C.quest_subtitle: "Pesca el Carminite Ghastguard esta partida."
 		quest.043F760281444D3C.quest_desc: ["Sumalo a tu kit: el Carminite Ghastguard. Estructural, no llamativo."]
@@ -692,9 +732,19 @@
 		quest.045966CAD1134091.title: "Stable Ice Core"
 		quest.045966CAD1134091.quest_subtitle: "Guarda el Stable Ice Core para luego."
 		quest.045966CAD1134091.quest_desc: ["Envuelve el Stable Ice Core. A tu ritmo."]
-		quest.0474C15D3AE3C2C9.title: "Decrepit Scythe"
-		quest.0474C15D3AE3C2C9.quest_subtitle: "Lleva el Decrepit Scythe."
-		quest.0474C15D3AE3C2C9.quest_desc: ["El Decrepit Scythe esta en el menu. El atajo no esta aqui."]
+		quest.0474C15D3AE3C2C9.title: "&e&lGuadana Decrepita"
+		quest.0474C15D3AE3C2C9.quest_subtitle: "&7Una guadana que siega almas"
+		quest.0474C15D3AE3C2C9.quest_desc: [
+			"&e&lGuadana Decrepita"
+			"&8&m                            "
+			""
+			"&7Forja la Guadana Decrepita, un arma sombria que recurre"
+			"&7a la magia de la muerte con cada golpe amplio."
+			""
+			"&e&lCategoria:&r &fArma"
+			""
+			"&e&l★ Consejo:&r &7Combina con hechizos de sangre y necroticos. Una senda oscura."
+		]
 		quest.0474CE3D3813EDF7.title: "Cokebrick"
 		quest.0474CE3D3813EDF7.quest_subtitle: "Ganancia modesta: el Cokebrick."
 		quest.0474CE3D3813EDF7.quest_desc: ["Asegura el Cokebrick. La proxima puerta esta cerca."]
@@ -785,9 +835,19 @@
 		quest.05DA7F48E2A1B77F.title: "Robit"
 		quest.05DA7F48E2A1B77F.quest_subtitle: "Marca el Robit hecho."
 		quest.05DA7F48E2A1B77F.quest_desc: ["Encuentra tu ruta al Robit. Las runs pacientes ganan."]
-		quest.05DBDD86FCFF3BA8.title: "Lightning Upgrade Orb"
-		quest.05DBDD86FCFF3BA8.quest_subtitle: "Meta de hoy: el Lightning Upgrade Orb."
-		quest.05DBDD86FCFF3BA8.quest_desc: ["El Lightning Upgrade Orb: un hito tranquilo. La proxima puerta esta cerca."]
+		quest.05DBDD86FCFF3BA8.title: "&d&lLightning Upgrade Orb"
+		quest.05DBDD86FCFF3BA8.quest_subtitle: "&7Vincula poder magico a tu equipo"
+		quest.05DBDD86FCFF3BA8.quest_desc: [
+			"&d&lLightning Upgrade Orb"
+			"&8&m                            "
+			""
+			"&7Fabrica el Lightning Upgrade Orb. Aplicalo en el yunque arcano para"
+			"&7vincular esa escuela de hechizos a un arma o tunica."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Los orbes suben el poder magico. Elige una escuela para especializarte."
+		]
 		quest.05EEA202C38F41B8.title: "Redcap"
 		quest.05EEA202C38F41B8.quest_subtitle: "El Redcap es un checkpoint."
 		quest.05EEA202C38F41B8.quest_desc: ["Empaca el Redcap. Habito chico, gran resultado."]
@@ -849,12 +909,32 @@
 		quest.06C3EA6FC20A9C99.title: "Warship"
 		quest.06C3EA6FC20A9C99.quest_subtitle: "Hito tranquilo con el Warship."
 		quest.06C3EA6FC20A9C99.quest_desc: ["Gana el Warship. La calma vence al apuro."]
-		quest.06F2C42E6408149E.title: "Pyromancer Helmet"
-		quest.06F2C42E6408149E.quest_subtitle: "Guarda el Pyromancer Helmet para luego."
-		quest.06F2C42E6408149E.quest_desc: ["Anade el Pyromancer Helmet a tu reserva. Constante es rapido."]
-		quest.06F8EDF7513F8611.title: "Epic Ink"
-		quest.06F8EDF7513F8611.quest_subtitle: "Hito tranquilo con el Epic Ink."
-		quest.06F8EDF7513F8611.quest_desc: ["Hazte con el Epic Ink. El progreso tranquilo gana."]
+		quest.06F2C42E6408149E.title: "&9&lPyromancer Robes"
+		quest.06F2C42E6408149E.quest_subtitle: "&7Un conjunto completo de Pyromancer Robes"
+		quest.06F2C42E6408149E.quest_desc: [
+			"&9&lPyromancer Robes"
+			"&8&m                            "
+			""
+			"&7Forja la Pyromancer Robes, un conjunto completo de tunica de"
+			"&7mago. Las tunicas potencian su escuela de hechizos."
+			""
+			"&9&lCategoria:&r &fTunicas"
+			""
+			"&e&l★ Consejo:&r &7Lleva el conjunto completo para maximizar esa escuela."
+		]
+		quest.06F8EDF7513F8611.title: "&a&lEpic Ink"
+		quest.06F8EDF7513F8611.quest_subtitle: "&7Tinta para inscribir hechizos"
+		quest.06F8EDF7513F8611.quest_desc: [
+			"&a&lEpic Ink"
+			"&8&m                            "
+			""
+			"&7Fabrica la Epic Ink. La tinta sirve para inscribir"
+			"&7hechizos en pergaminos y libros en la mesa de inscripcion."
+			""
+			"&a&lCategoria:&r &fFabricacion"
+			""
+			"&e&l★ Consejo:&r &7Iguala la rareza de la tinta a la del hechizo a inscribir."
+		]
 		quest.06F93E29AC23E6F5.title: "Wither"
 		quest.06F93E29AC23E6F5.quest_subtitle: "Guarda el Wither para luego."
 		quest.06F93E29AC23E6F5.quest_desc: ["Encuentra un camino hacia el Wither. La calma vence al apuro."]
@@ -973,9 +1053,19 @@
 		quest.08697EB269B011FD.title: "Chalice"
 		quest.08697EB269B011FD.quest_subtitle: "El Chalice: esencial en silencio."
 		quest.08697EB269B011FD.quest_desc: ["Anade el Chalice a tu reserva. Lo necesitaras pronto."]
-		quest.08767A1E6D48A5EA.title: "Graybeard Staff"
-		quest.08767A1E6D48A5EA.quest_subtitle: "Meta de hoy: el Graybeard Staff."
-		quest.08767A1E6D48A5EA.quest_desc: ["Alcanza el Graybeard Staff. Estructural, no llamativo."]
+		quest.08767A1E6D48A5EA.title: "&e&lBaston del Barbagris"
+		quest.08767A1E6D48A5EA.quest_subtitle: "&7El baston del mago sabio"
+		quest.08767A1E6D48A5EA.quest_desc: [
+			"&e&lBaston del Barbagris"
+			"&8&m                            "
+			""
+			"&7Forja el Baston del Barbagris. Un baston equilibrado y"
+			"&7fiable que sirve a un mago de cualquier escuela."
+			""
+			"&e&lCategoria:&r &fArma"
+			""
+			"&e&l★ Consejo:&r &7Un buen todoterreno. Un excelente primer baston."
+		]
 		quest.0879B45831D042E7.title: "Mosquito Swarm"
 		quest.0879B45831D042E7.quest_subtitle: "Ganancia modesta: el Mosquito Swarm."
 		quest.0879B45831D042E7.quest_desc: ["Consigue el Mosquito Swarm. El atajo no esta aqui."]
@@ -1246,9 +1336,19 @@
 		quest.0CCFE947AC5A60F9.title: "Heavy Crossbow"
 		quest.0CCFE947AC5A60F9.quest_subtitle: "Vale el desvio por el Heavy Crossbow."
 		quest.0CCFE947AC5A60F9.quest_desc: ["Reserva el Heavy Crossbow. Capital silencioso."]
-		quest.0CE1F6DE5FD6A6D9.title: "Evocation Upgrade Orb"
-		quest.0CE1F6DE5FD6A6D9.quest_subtitle: "El Evocation Upgrade Orb abre mas."
-		quest.0CE1F6DE5FD6A6D9.quest_desc: ["Gana el Evocation Upgrade Orb paso a paso. Bola de nieve desde aqui."]
+		quest.0CE1F6DE5FD6A6D9.title: "&d&lEvocation Upgrade Orb"
+		quest.0CE1F6DE5FD6A6D9.quest_subtitle: "&7Vincula poder magico a tu equipo"
+		quest.0CE1F6DE5FD6A6D9.quest_desc: [
+			"&d&lEvocation Upgrade Orb"
+			"&8&m                            "
+			""
+			"&7Fabrica el Evocation Upgrade Orb. Aplicalo en el yunque arcano para"
+			"&7vincular esa escuela de hechizos a un arma o tunica."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Los orbes suben el poder magico. Elige una escuela para especializarte."
+		]
 		quest.0D17FFCAED66431E.title: "Phantom"
 		quest.0D17FFCAED66431E.quest_subtitle: "Guarda el Phantom para luego."
 		quest.0D17FFCAED66431E.quest_desc: ["Marca el Phantom. La ruta ensena tanto como el premio."]
@@ -1310,9 +1410,19 @@
 		quest.0E52A27C89BB4AD1.title: "Phantom"
 		quest.0E52A27C89BB4AD1.quest_subtitle: "Meta de hoy: el Phantom."
 		quest.0E52A27C89BB4AD1.quest_desc: ["Anota el Phantom como adquirido. Una semilla para la bola de nieve."]
-		quest.0E594BC58CC7476F.title: "Archevoker Helmet"
-		quest.0E594BC58CC7476F.quest_subtitle: "Ganancia modesta: el Archevoker Helmet."
-		quest.0E594BC58CC7476F.quest_desc: ["Gana el Archevoker Helmet. Cuenta."]
+		quest.0E594BC58CC7476F.title: "&9&lArchevoker Robes"
+		quest.0E594BC58CC7476F.quest_subtitle: "&7Un conjunto completo de Archevoker Robes"
+		quest.0E594BC58CC7476F.quest_desc: [
+			"&9&lArchevoker Robes"
+			"&8&m                            "
+			""
+			"&7Forja la Archevoker Robes, un conjunto completo de tunica de"
+			"&7mago. Las tunicas potencian su escuela de hechizos."
+			""
+			"&9&lCategoria:&r &fTunicas"
+			""
+			"&e&l★ Consejo:&r &7Lleva el conjunto completo para maximizar esa escuela."
+		]
 		quest.0E6F2C10483047FA.title: "&c&lHerramientas de Diamante"
 		quest.0E6F2C10483047FA.quest_subtitle: "&7La cumbre del inicio"
 		quest.0E6F2C10483047FA.quest_desc: [
@@ -1354,9 +1464,19 @@
 		quest.0ECA7D01B77385C2.title: "Pinch Beetle"
 		quest.0ECA7D01B77385C2.quest_subtitle: "En ruta al Pinch Beetle."
 		quest.0ECA7D01B77385C2.quest_desc: ["Trae el Pinch Beetle a buen puerto. Cuenta."]
-		quest.0EED5D755D2C866A.title: "Ender Rune"
-		quest.0EED5D755D2C866A.quest_subtitle: "Ganatelo: el Ender Rune."
-		quest.0EED5D755D2C866A.quest_desc: ["El Ender Rune: un punto util en esta rama. El capitulo gira en torno a esto."]
+		quest.0EED5D755D2C866A.title: "&d&lEnder Rune"
+		quest.0EED5D755D2C866A.quest_subtitle: "&7Una runa de una escuela de hechizos"
+		quest.0EED5D755D2C866A.quest_desc: [
+			"&d&lEnder Rune"
+			"&8&m                            "
+			""
+			"&7Fabrica la Ender Rune. Las runas portan la esencia pura de"
+			"&7una escuela de hechizos para los orbes de mejora."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Combina runas en el yunque arcano para crear orbes de mejora."
+		]
 		quest.0F00BBDF3618B3BA.title: "Crafting Grid"
 		quest.0F00BBDF3618B3BA.quest_subtitle: "Ganatelo: el Crafting Grid."
 		quest.0F00BBDF3618B3BA.quest_desc: ["Trae el Crafting Grid. Una semilla para la bola de nieve."]
@@ -1410,9 +1530,19 @@
 		quest.0F89BFD4A3F63A48.title: "Soul Lantern"
 		quest.0F89BFD4A3F63A48.quest_subtitle: "Pequeno paso: el Soul Lantern."
 		quest.0F89BFD4A3F63A48.quest_desc: ["Resuelve el Soul Lantern pronto. Te has ganado una pausa."]
-		quest.0F8B349EBC9110D6.title: "Lightning Rod"
-		quest.0F8B349EBC9110D6.quest_subtitle: "Ladrillo: el Lightning Rod."
-		quest.0F8B349EBC9110D6.quest_desc: ["Ganate el Lightning Rod con esfuerzo. Capital silencioso."]
+		quest.0F8B349EBC9110D6.title: "&e&lBaston Pararrayos"
+		quest.0F8B349EBC9110D6.quest_subtitle: "&7Canaliza la tormenta misma"
+		quest.0F8B349EBC9110D6.quest_desc: [
+			"&e&lBaston Pararrayos"
+			"&8&m                            "
+			""
+			"&7Forja el Pararrayos, un baston que amplifica la magia"
+			"&7de tormenta y arquea rayos entre tus enemigos."
+			""
+			"&e&lCategoria:&r &fArma"
+			""
+			"&e&l★ Consejo:&r &7Ideal en un build electromante. Combinalo con la runa de rayo."
+		]
 		quest.0F8F6164164F1246.title: "Snow Guardian"
 		quest.0F8F6164164F1246.quest_subtitle: "Hito luminoso: el Snow Guardian."
 		quest.0F8F6164164F1246.quest_desc: ["Captura el Snow Guardian. Aviso amistoso."]
@@ -1782,9 +1912,19 @@
 		quest.123E851A6B90F11C.title: "Infinite Fluid Storage Part"
 		quest.123E851A6B90F11C.quest_subtitle: "Anade un Infinite Fluid Storage Part."
 		quest.123E851A6B90F11C.quest_desc: ["Marca el Infinite Fluid Storage Part como obtenido. La proxima puerta esta cerca."]
-		quest.12498F8B5740F66E.title: "Wizard Armor"
-		quest.12498F8B5740F66E.quest_subtitle: "Guarda el Wizard Armor para luego."
-		quest.12498F8B5740F66E.quest_desc: ["Acumula el Wizard Armor. Las siguientes quests lo pediran."]
+		quest.12498F8B5740F66E.title: "&9&lWizard Robes"
+		quest.12498F8B5740F66E.quest_subtitle: "&7Un conjunto completo de Wizard Robes"
+		quest.12498F8B5740F66E.quest_desc: [
+			"&9&lWizard Robes"
+			"&8&m                            "
+			""
+			"&7Forja la Wizard Robes, un conjunto completo de tunica de"
+			"&7mago. Las tunicas potencian su escuela de hechizos."
+			""
+			"&9&lCategoria:&r &fTunicas"
+			""
+			"&e&l★ Consejo:&r &7Lleva el conjunto completo para maximizar esa escuela."
+		]
 		quest.126DC4A12BD179A9.title: "Objective"
 		quest.126DC4A12BD179A9.quest_subtitle: "Un marca para el camino."
 		quest.126DC4A12BD179A9.quest_desc: ["El marca: un peldano mas. Vale anotarlo."]
@@ -1845,9 +1985,19 @@
 		quest.1328730F12505128.title: "Witch"
 		quest.1328730F12505128.quest_subtitle: "Meta de hoy: el Witch."
 		quest.1328730F12505128.quest_desc: ["Trae el Witch. Sigue."]
-		quest.1338EED4F26F3EFF.title: "Objective"
-		quest.1338EED4F26F3EFF.quest_subtitle: "Meta de hoy: el mojon."
-		quest.1338EED4F26F3EFF.quest_desc: ["Tacha el mojon. La cadena aguanta."]
+		quest.1338EED4F26F3EFF.title: "&e&lRompehechizos"
+		quest.1338EED4F26F3EFF.quest_subtitle: "&7Una hoja que corta la magia"
+		quest.1338EED4F26F3EFF.quest_desc: [
+			"&e&lRompehechizos"
+			"&8&m                            "
+			""
+			"&7Forja el Rompehechizos, una espada que porta la magia"
+			"&7de contrahechizo que apaga un conjuro enemigo en el aire."
+			""
+			"&e&lCategoria:&r &fArma"
+			""
+			"&e&l★ Consejo:&r &7La respuesta del duelista a los magos enemigos. Cronometra el contra."
+		]
 		quest.13419B8C65769C69.title: "Stable Ice Core"
 		quest.13419B8C65769C69.quest_subtitle: "El Stable Ice Core: guino del capitulo."
 		quest.13419B8C65769C69.quest_desc: ["El Stable Ice Core es parte de la cadena. Estructural, no llamativo."]
@@ -1869,9 +2019,19 @@
 		quest.13E36E35AB34485F.title: "Carminite Ghastling"
 		quest.13E36E35AB34485F.quest_subtitle: "Hito perspicaz: el Carminite Ghastling."
 		quest.13E36E35AB34485F.quest_desc: ["Marchate con el Carminite Ghastling. El capitulo gira en torno a esto."]
-		quest.13F77C38AC015E9F.title: "Structure"
-		quest.13F77C38AC015E9F.quest_subtitle: "Ladrillo: el Structure."
-		quest.13F77C38AC015E9F.quest_desc: ["Cierra el Structure. El capitulo gira en torno a esto."]
+		quest.13F77C38AC015E9F.title: "&3&lMountain Tower"
+		quest.13F77C38AC015E9F.quest_subtitle: "&7Una estructura magica que explorar"
+		quest.13F77C38AC015E9F.quest_desc: [
+			"&3&lMountain Tower"
+			"&8&m                            "
+			""
+			"&7Encuentra el Mountain Tower, una de las estructuras magicas"
+			"&7que el mod Iron Spells reparte por el mundo."
+			""
+			"&3&lCategoria:&r &fExploracion"
+			""
+			"&e&l★ Consejo:&r &7Estas estructuras guardan botin magico, pergaminos y equipo."
+		]
 		quest.1403D677CF2815C3.title: "Reforging Table"
 		quest.1403D677CF2815C3.quest_subtitle: "El Reforging Table: estructural."
 		quest.1403D677CF2815C3.quest_desc: ["Adquiere el Reforging Table. Las runs pacientes ganan."]
@@ -2004,9 +2164,19 @@
 			""
 			"&e&l★ Consejo:&r &7Lleva lana para amortiguar tus pasos. El Warden lo oye todo."
 		]
-		quest.161477ABCC437BD2.title: "Objective"
-		quest.161477ABCC437BD2.quest_subtitle: "Ganatelo: el mojon."
-		quest.161477ABCC437BD2.quest_desc: ["Almacena el mojon. La cadena aguanta."]
+		quest.161477ABCC437BD2.title: "&e&lHoja Boreal"
+		quest.161477ABCC437BD2.quest_subtitle: "&7Una espada del frio profundo"
+		quest.161477ABCC437BD2.quest_desc: [
+			"&e&lHoja Boreal"
+			"&8&m                            "
+			""
+			"&7Forja la Hoja Boreal, una espada que porta la magia de"
+			"&7congelacion que hiela a cada enemigo que corta."
+			""
+			"&e&lCategoria:&r &fArma"
+			""
+			"&e&l★ Consejo:&r &7Una buena opcion cuerpo a cuerpo para cualquier build criomante."
+		]
 		quest.16178BD39F60EAEC.title: "Evoker"
 		quest.16178BD39F60EAEC.quest_subtitle: "Un Evoker, victoria estoico."
 		quest.16178BD39F60EAEC.quest_desc: ["Anade un Evoker a las provisiones. Mas cerca de lo que el mapa sugiere."]
@@ -2197,9 +2367,19 @@
 		quest.19466B596F444A4A.title: "Foliaath"
 		quest.19466B596F444A4A.quest_subtitle: "Anade un Foliaath."
 		quest.19466B596F444A4A.quest_desc: ["Asegura el Foliaath. Una semilla para la bola de nieve."]
-		quest.19542103E042BDB5.title: "Shadowwalker Helmet"
-		quest.19542103E042BDB5.quest_subtitle: "Marca el Shadowwalker Helmet."
-		quest.19542103E042BDB5.quest_desc: ["Trae el Shadowwalker Helmet. Hito suave."]
+		quest.19542103E042BDB5.title: "&9&lShadowwalker Robes"
+		quest.19542103E042BDB5.quest_subtitle: "&7Un conjunto completo de Shadowwalker Robes"
+		quest.19542103E042BDB5.quest_desc: [
+			"&9&lShadowwalker Robes"
+			"&8&m                            "
+			""
+			"&7Forja la Shadowwalker Robes, un conjunto completo de tunica de"
+			"&7mago. Las tunicas potencian su escuela de hechizos."
+			""
+			"&9&lCategoria:&r &fTunicas"
+			""
+			"&e&l★ Consejo:&r &7Lleva el conjunto completo para maximizar esa escuela."
+		]
 		quest.195729280394ABFB.title: "Osmium Compressor"
 		quest.195729280394ABFB.quest_subtitle: "Ganate el Osmium Compressor, sin atajo."
 		quest.195729280394ABFB.quest_desc: ["Anota el Osmium Compressor como adquirido. Progreso modular, pasos cortos."]
@@ -2227,9 +2407,19 @@
 		quest.19AA7C29308A8916.title: "Skeleton"
 		quest.19AA7C29308A8916.quest_subtitle: "Pesca el Skeleton esta partida."
 		quest.19AA7C29308A8916.quest_desc: ["Guarda el Skeleton en lugar seguro. Vale anotarlo."]
-		quest.19B057DFF331E41C.title: "Pumpkin Armor"
-		quest.19B057DFF331E41C.quest_subtitle: "El Pumpkin Armor desbloquea mas."
-		quest.19B057DFF331E41C.quest_desc: ["Fabrica o reune el Pumpkin Armor. Otra pieza del rompecabezas."]
+		quest.19B057DFF331E41C.title: "&9&lPumpkin Armor"
+		quest.19B057DFF331E41C.quest_subtitle: "&7Un conjunto completo de Pumpkin Armor"
+		quest.19B057DFF331E41C.quest_desc: [
+			"&9&lPumpkin Armor"
+			"&8&m                            "
+			""
+			"&7Forja la Pumpkin Armor, un conjunto completo de tunica de"
+			"&7mago. Las tunicas potencian su escuela de hechizos."
+			""
+			"&9&lCategoria:&r &fTunicas"
+			""
+			"&e&l★ Consejo:&r &7Lleva el conjunto completo para maximizar esa escuela."
+		]
 		quest.19D02325579F2AA8.title: "Volcanic Sourcelink"
 		quest.19D02325579F2AA8.quest_subtitle: "Premio templado: el Volcanic Sourcelink."
 		quest.19D02325579F2AA8.quest_desc: ["Embolsate el Volcanic Sourcelink. A tu ritmo."]
@@ -2239,9 +2429,19 @@
 		quest.19E38E542A7A2CEC.title: "Worm Farm"
 		quest.19E38E542A7A2CEC.quest_subtitle: "Pesca el Worm Farm esta partida."
 		quest.19E38E542A7A2CEC.quest_desc: ["El Worm Farm esta cerrando la siguiente quest. El futuro te lo agradecera."]
-		quest.1A0368CB49B8CBFF.title: "Objective"
-		quest.1A0368CB49B8CBFF.quest_subtitle: "Pesca el tarea esta partida."
-		quest.1A0368CB49B8CBFF.quest_desc: ["Reserva el tarea. Las victorias chicas suman."]
+		quest.1A0368CB49B8CBFF.title: "&d&lBlaze Spell Book"
+		quest.1A0368CB49B8CBFF.quest_subtitle: "&7Un libro de hechizos con caracter propio"
+		quest.1A0368CB49B8CBFF.quest_desc: [
+			"&d&lBlaze Spell Book"
+			"&8&m                            "
+			""
+			"&7Consigue el Blaze Spell Book, un libro de hechizos especial con"
+			"&7un diseno unico, hallado en el mundo, no fabricado."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Los libros especiales caen de mobs o se ocultan en botin."
+		]
 		quest.1A24A963416F4193.title: "Carminite Ghastling"
 		quest.1A24A963416F4193.quest_subtitle: "Premio luminoso: el Carminite Ghastling."
 		quest.1A24A963416F4193.quest_desc: ["El Carminite Ghastling es el proximo pivote. Un ladrillo mas en una pared."]
@@ -2336,9 +2536,19 @@
 		quest.1BE2713C9CFE435C.title: "Umvuthana"
 		quest.1BE2713C9CFE435C.quest_subtitle: "Hito estoico: el Umvuthana."
 		quest.1BE2713C9CFE435C.quest_desc: ["Tacha el Umvuthana. Progreso modular, pasos cortos."]
-		quest.1BE69992D2C5085B.title: "Evocation Rune"
-		quest.1BE69992D2C5085B.quest_subtitle: "Ganancia modesta: el Evocation Rune."
-		quest.1BE69992D2C5085B.quest_desc: ["Marchate con el Evocation Rune. Medio camino hecho contigo."]
+		quest.1BE69992D2C5085B.title: "&d&lEvocation Rune"
+		quest.1BE69992D2C5085B.quest_subtitle: "&7Una runa de una escuela de hechizos"
+		quest.1BE69992D2C5085B.quest_desc: [
+			"&d&lEvocation Rune"
+			"&8&m                            "
+			""
+			"&7Fabrica la Evocation Rune. Las runas portan la esencia pura de"
+			"&7una escuela de hechizos para los orbes de mejora."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Combina runas en el yunque arcano para crear orbes de mejora."
+		]
 		quest.1C1B28F80856A0ED.title: "Lower Goblin Knight"
 		quest.1C1B28F80856A0ED.quest_subtitle: "Meta de hoy: el Lower Goblin Knight."
 		quest.1C1B28F80856A0ED.quest_desc: ["El Lower Goblin Knight esta en el menu. Un ladrillo mas en una pared."]
@@ -2376,9 +2586,19 @@
 			""
 			"&e&l★ Consejo:&r &7Eficiencia e irrompibilidad hacen durar este juego."
 		]
-		quest.1CAEC4C273EDDB99.title: "Objective"
-		quest.1CAEC4C273EDDB99.quest_subtitle: "Guarda el mojon para luego."
-		quest.1CAEC4C273EDDB99.quest_desc: ["Gana el mojon. Vale mas que su descripcion. El atajo no esta aqui."]
+		quest.1CAEC4C273EDDB99.title: "&d&lRotten Spell Book"
+		quest.1CAEC4C273EDDB99.quest_subtitle: "&7Un libro de hechizos con caracter propio"
+		quest.1CAEC4C273EDDB99.quest_desc: [
+			"&d&lRotten Spell Book"
+			"&8&m                            "
+			""
+			"&7Consigue el Rotten Spell Book, un libro de hechizos especial con"
+			"&7un diseno unico, hallado en el mundo, no fabricado."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Los libros especiales caen de mobs o se ocultan en botin."
+		]
 		quest.1CB261BD3F884F54.title: "Armored Giant"
 		quest.1CB261BD3F884F54.quest_subtitle: "Pequeno paso: el Armored Giant."
 		quest.1CB261BD3F884F54.quest_desc: ["El Armored Giant: objeto pequeno, progreso real. Un ladrillo mas en una pared."]
@@ -2709,9 +2929,19 @@
 			""
 			"&e&l★ Consejo:&r &7Es lento pero poderoso. Ideal para vaciar grandes espacios."
 		]
-		quest.204B969DA081056A.title: "Necromancer"
-		quest.204B969DA081056A.quest_subtitle: "En el bolsillo: el Necromancer."
-		quest.204B969DA081056A.quest_desc: ["Asegura el Necromancer. Bola de nieve desde aqui."]
+		quest.204B969DA081056A.title: "&c&lNecromancer"
+		quest.204B969DA081056A.quest_subtitle: "&7Vence a un lanzador de hechizos hostil"
+		quest.204B969DA081056A.quest_desc: [
+			"&c&lNecromancer"
+			"&8&m                            "
+			""
+			"&7Derrota al Necromancer, un lanzador hostil del mundo de"
+			"&7Iron Spells. Lanza hechizos tan feroces como un mago jugador."
+			""
+			"&c&lCategoria:&r &fJefe"
+			""
+			"&e&l★ Consejo:&r &7Los lanzadores enemigos esquivan y se protegen. Acortala distancia."
+		]
 		quest.2062DA5599074BAE.title: "262144k Item Storage Part"
 		quest.2062DA5599074BAE.quest_subtitle: "El 262144k Item Storage Part: guino del capitulo."
 		quest.2062DA5599074BAE.quest_desc: ["Asegura el 262144k Item Storage Part antes de avanzar. Progreso modular, pasos cortos."]
@@ -2898,9 +3128,19 @@
 		quest.23F691FC053F2319.title: "Disk Interface"
 		quest.23F691FC053F2319.quest_subtitle: "En ruta al Disk Interface."
 		quest.23F691FC053F2319.quest_desc: ["Cierra el Disk Interface. El capitulo gira en torno a esto."]
-		quest.24150DE600C2D761.title: "Blood Rune"
-		quest.24150DE600C2D761.quest_subtitle: "Marca el Blood Rune."
-		quest.24150DE600C2D761.quest_desc: ["Trae el Blood Rune. Un ladrillo mas en una pared."]
+		quest.24150DE600C2D761.title: "&d&lBlood Rune"
+		quest.24150DE600C2D761.quest_subtitle: "&7Una runa de una escuela de hechizos"
+		quest.24150DE600C2D761.quest_desc: [
+			"&d&lBlood Rune"
+			"&8&m                            "
+			""
+			"&7Fabrica la Blood Rune. Las runas portan la esencia pura de"
+			"&7una escuela de hechizos para los orbes de mejora."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Combina runas en el yunque arcano para crear orbes de mejora."
+		]
 		quest.24391162F4FF0587.title: "Infused Seashelf"
 		quest.24391162F4FF0587.quest_subtitle: "Hito medido: el Infused Seashelf."
 		quest.24391162F4FF0587.quest_desc: ["Se te pide el Infused Seashelf. Bola de nieve desde aqui."]
@@ -2928,9 +3168,19 @@
 		quest.24B87A9A3C7C34AF.title: "Mutant Skeleton"
 		quest.24B87A9A3C7C34AF.quest_subtitle: "Un Mutant Skeleton para el camino."
 		quest.24B87A9A3C7C34AF.quest_desc: ["Estira la mano al Mutant Skeleton. Apunta a lo siguiente."]
-		quest.24BAC1C0392E950E.title: "Priest Helmet"
-		quest.24BAC1C0392E950E.quest_subtitle: "Lleva el Priest Helmet."
-		quest.24BAC1C0392E950E.quest_desc: ["Pesca el Priest Helmet. Capital silencioso."]
+		quest.24BAC1C0392E950E.title: "&9&lPriest Robes"
+		quest.24BAC1C0392E950E.quest_subtitle: "&7Un conjunto completo de Priest Robes"
+		quest.24BAC1C0392E950E.quest_desc: [
+			"&9&lPriest Robes"
+			"&8&m                            "
+			""
+			"&7Forja la Priest Robes, un conjunto completo de tunica de"
+			"&7mago. Las tunicas potencian su escuela de hechizos."
+			""
+			"&9&lCategoria:&r &fTunicas"
+			""
+			"&e&l★ Consejo:&r &7Lleva el conjunto completo para maximizar esa escuela."
+		]
 		quest.24C757B8AA6841F6.title: "Inert Trident"
 		quest.24C757B8AA6841F6.quest_subtitle: "Lleva el Inert Trident."
 		quest.24C757B8AA6841F6.quest_desc: ["Gana el Inert Trident. La contabilidad importa."]
@@ -2990,9 +3240,19 @@
 		quest.256AC9A2BBDF03EE.title: "Wraith"
 		quest.256AC9A2BBDF03EE.quest_subtitle: "Premio concentrado: el Wraith."
 		quest.256AC9A2BBDF03EE.quest_desc: ["Hazte con el Wraith. Vale mas que su descripcion."]
-		quest.258B4890CF13D199.title: "Magehunter"
-		quest.258B4890CF13D199.quest_subtitle: "Vale el desvio por el Magehunter."
-		quest.258B4890CF13D199.quest_desc: ["Anade el Magehunter. Modesto ahora, poderoso despues."]
+		quest.258B4890CF13D199.title: "&e&lCazamagos"
+		quest.258B4890CF13D199.quest_subtitle: "&7Una hoja forjada contra la magia"
+		quest.258B4890CF13D199.quest_desc: [
+			"&e&lCazamagos"
+			"&8&m                            "
+			""
+			"&7Forja el Cazamagos, una espada hecha para abatir a los"
+			"&7lanzadores enemigos y resistir sus hechizos."
+			""
+			"&e&lCategoria:&r &fArma"
+			""
+			"&e&l★ Consejo:&r &7La respuesta perfecta a los magos hostiles. Llevala a sus guaridas."
+		]
 		quest.25906B43A198B72F.title: "&9&lArmadura de Metal de Caballero"
 		quest.25906B43A198B72F.quest_subtitle: "&7Blindaje de la fortaleza goblin"
 		quest.25906B43A198B72F.quest_desc: [
@@ -3025,9 +3285,19 @@
 			""
 			"&e&l★ Consejo:&r &7El hierro abunda bajo tierra. Lleva antorchas y pico de piedra."
 		]
-		quest.25F79B40579B3909.title: "Keeper Flamberge"
-		quest.25F79B40579B3909.quest_subtitle: "Pesca el Keeper Flamberge esta partida."
-		quest.25F79B40579B3909.quest_desc: ["Toma el Keeper Flamberge. Te has ganado una pausa."]
+		quest.25F79B40579B3909.title: "&e&lFlamberge del Guardian"
+		quest.25F79B40579B3909.quest_subtitle: "&7Un mandoble de la ciudadela"
+		quest.25F79B40579B3909.quest_desc: [
+			"&e&lFlamberge del Guardian"
+			"&8&m                            "
+			""
+			"&7Forja la Flamberge del Guardian, un mandoble de hoja"
+			"&7flameante que portan los guardianes de la ciudadela."
+			""
+			"&e&lCategoria:&r &fArma"
+			""
+			"&e&l★ Consejo:&r &7Una hoja pesada para un mago que pelea en plena melee."
+		]
 		quest.260450AF16564A4E.title: "Stable Ice Core"
 		quest.260450AF16564A4E.quest_subtitle: "El Stable Ice Core se paga solo."
 		quest.260450AF16564A4E.quest_desc: ["Anade el Stable Ice Core a tu reserva. Sigue."]
@@ -3043,9 +3313,19 @@
 		quest.264EAFC48C63DE90.title: "Endermite"
 		quest.264EAFC48C63DE90.quest_subtitle: "En la rama del Endermite."
 		quest.264EAFC48C63DE90.quest_desc: ["El Endermite: un punto util en esta rama. Progreso modular, pasos cortos."]
-		quest.2664373E8977E7BE.title: "Objective"
-		quest.2664373E8977E7BE.quest_subtitle: "Hito estoico: el hito."
-		quest.2664373E8977E7BE.quest_desc: ["Marca un hito. Util antes de lo que crees."]
+		quest.2664373E8977E7BE.title: "&d&lCursed Doll Spell Book"
+		quest.2664373E8977E7BE.quest_subtitle: "&7Un libro de hechizos con caracter propio"
+		quest.2664373E8977E7BE.quest_desc: [
+			"&d&lCursed Doll Spell Book"
+			"&8&m                            "
+			""
+			"&7Consigue el Cursed Doll Spell Book, un libro de hechizos especial con"
+			"&7un diseno unico, hallado en el mundo, no fabricado."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Los libros especiales caen de mobs o se ocultan en botin."
+		]
 		quest.266B2A7FD4A247A7.title: "Troll"
 		quest.266B2A7FD4A247A7.quest_subtitle: "En ruta al Troll."
 		quest.266B2A7FD4A247A7.quest_desc: ["Ganate el Troll con esfuerzo. Modesto ahora, poderoso despues."]
@@ -3194,9 +3474,19 @@
 		quest.2916C86934114C07.title: "Advanced Pickup Upgrade"
 		quest.2916C86934114C07.quest_subtitle: "En ruta al Advanced Pickup Upgrade."
 		quest.2916C86934114C07.quest_desc: ["Trae el Advanced Pickup Upgrade. Sigue."]
-		quest.294418130521FDF4.title: "Raw Mithril"
-		quest.294418130521FDF4.quest_subtitle: "El Raw Mithril es un checkpoint."
-		quest.294418130521FDF4.quest_desc: ["Captura el Raw Mithril. Un paso chico en un camino largo."]
+		quest.294418130521FDF4.title: "&6&lMithril en Bruto"
+		quest.294418130521FDF4.quest_subtitle: "&7El mineral del herrero mago"
+		quest.294418130521FDF4.quest_desc: [
+			"&6&lMithril en Bruto"
+			"&8&m                            "
+			""
+			"&7Mina mithril en bruto, el raro mineral magico que se"
+			"&7funde en el metal del equipo de mago avanzado."
+			""
+			"&6&lCategoria:&r &fMateriales"
+			""
+			"&e&l★ Consejo:&r &7El mithril se esconde hondo. Lleva un mapa de minerales o buen pico."
+		]
 		quest.2949D126E9B7A9D4.title: "Giant Miner"
 		quest.2949D126E9B7A9D4.quest_subtitle: "Hito prolijo: el Giant Miner."
 		quest.2949D126E9B7A9D4.quest_desc: ["Gana el Giant Miner. Vale mas que su descripcion. Mas cerca de lo que el mapa sugiere."]
@@ -3219,9 +3509,19 @@
 		quest.295C77EEC89000FC.title: "Vitalic Sourcelink"
 		quest.295C77EEC89000FC.quest_subtitle: "El Vitalic Sourcelink: estructural."
 		quest.295C77EEC89000FC.quest_desc: ["Encuentra un camino hacia el Vitalic Sourcelink. Un paso chico en un camino largo."]
-		quest.29605960803BE885.title: "Objective"
-		quest.29605960803BE885.quest_subtitle: "Refuerza la cadena del ficha."
-		quest.29605960803BE885.quest_desc: ["Gana el ficha. Constante es rapido."]
+		quest.29605960803BE885.title: "&e&lEstoque de Amatista"
+		quest.29605960803BE885.quest_subtitle: "&7Una hoja veloz que resuena"
+		quest.29605960803BE885.quest_desc: [
+			"&e&lEstoque de Amatista"
+			"&8&m                            "
+			""
+			"&7Forja el Estoque de Amatista, una espada rapida que"
+			"&7lleva el hechizo de golpes en eco en su filo cristalino."
+			""
+			"&e&lCategoria:&r &fArma"
+			""
+			"&e&l★ Consejo:&r &7Ligero y rapido. Para un mago que esgrime tanto como lanza."
+		]
 		quest.2960FFE0C53DFEB1.title: "Netherite Dust"
 		quest.2960FFE0C53DFEB1.quest_subtitle: "El Netherite Dust: esencial en silencio."
 		quest.2960FFE0C53DFEB1.quest_desc: ["Gana el Netherite Dust. Pesa mas de lo que parece a primera vista."]
@@ -3240,9 +3540,19 @@
 		quest.29B70877FAE1013E.title: "Skeleton"
 		quest.29B70877FAE1013E.quest_subtitle: "En el bolsillo: el Skeleton."
 		quest.29B70877FAE1013E.quest_desc: ["El Skeleton marca un punto de control. Confia en la cadena."]
-		quest.29BDCF3C1B11B4C6.title: "Pyrium Staff"
-		quest.29BDCF3C1B11B4C6.quest_subtitle: "Hito tranquilo: el Pyrium Staff."
-		quest.29BDCF3C1B11B4C6.quest_desc: ["Trae el Pyrium Staff. Hito suave."]
+		quest.29BDCF3C1B11B4C6.title: "&e&lBaston de Pyrium"
+		quest.29BDCF3C1B11B4C6.quest_subtitle: "&7Un baston de llama viviente"
+		quest.29BDCF3C1B11B4C6.quest_desc: [
+			"&e&lBaston de Pyrium"
+			"&8&m                            "
+			""
+			"&7Forja el Baston de Pyrium con lingotes de pyrium."
+			"&7Vierte magia de fuego pura en cada lanzamiento."
+			""
+			"&e&lCategoria:&r &fArma"
+			""
+			"&e&l★ Consejo:&r &7Ideal en un build piromante. Combinalo con la runa de fuego."
+		]
 		quest.29C3D2930CFD9D86.title: "Iron Golem"
 		quest.29C3D2930CFD9D86.quest_subtitle: "Un Iron Golem para el camino."
 		quest.29C3D2930CFD9D86.quest_desc: ["Gana el Iron Golem con justicia. Sigue."]
@@ -3321,9 +3631,19 @@
 			""
 			"&e&l★ Consejo:&r &7Eficiencia e irrompibilidad hacen durar este juego."
 		]
-		quest.2A787B99A8B0C767.title: "Inscription Table"
-		quest.2A787B99A8B0C767.quest_subtitle: "Lleva el Inscription Table."
-		quest.2A787B99A8B0C767.quest_desc: ["Anade el Inscription Table a tu reserva. Aviso amistoso."]
+		quest.2A787B99A8B0C767.title: "&a&lMesa de Inscripcion"
+		quest.2A787B99A8B0C767.quest_subtitle: "&7Donde se escriben los hechizos"
+		quest.2A787B99A8B0C767.quest_desc: [
+			"&a&lMesa de Inscripcion"
+			"&8&m                            "
+			""
+			"&7Fabrica la Mesa de Inscripcion. Aqui inscribes hechizos"
+			"&7en pergaminos y en tus libros de hechizos."
+			""
+			"&a&lCategoria:&r &fFabricacion"
+			""
+			"&e&l★ Consejo:&r &7Es el corazon del sistema de hechizos. Construyela pronto."
+		]
 		quest.2A793B35FE25003C.title: "Chemical Oxidizer"
 		quest.2A793B35FE25003C.quest_subtitle: "Un Chemical Oxidizer, victoria honesto."
 		quest.2A793B35FE25003C.quest_desc: ["Se te pide el Chemical Oxidizer. Puente entre lo hecho y lo siguiente."]
@@ -3389,9 +3709,19 @@
 			""
 			"&e&l★ Consejo:&r &7Lleva el conjunto completo para su mejor defensa."
 		]
-		quest.2B901ECF97FFA181.title: "Eldritch Manuscript"
-		quest.2B901ECF97FFA181.quest_subtitle: "Un Eldritch Manuscript, victoria medido."
-		quest.2B901ECF97FFA181.quest_desc: ["Caza el Eldritch Manuscript. Habito chico, gran resultado."]
+		quest.2B901ECF97FFA181.title: "&6&lManuscrito Eldritch"
+		quest.2B901ECF97FFA181.quest_subtitle: "&7Palabras prohibidas en vitela vieja"
+		quest.2B901ECF97FFA181.quest_desc: [
+			"&6&lManuscrito Eldritch"
+			"&8&m                            "
+			""
+			"&7Recupera un manuscrito eldritch. Su texto prohibido"
+			"&7sostiene los hechizos mas oscuros y poderosos."
+			""
+			"&6&lCategoria:&r &fMateriales"
+			""
+			"&e&l★ Consejo:&r &7Los manuscritos son raros hallazgos de final. Guarda cada uno."
+		]
 		quest.2B9DF670B021FEBE.title: "Objective"
 		quest.2B9DF670B021FEBE.quest_subtitle: "Hito robusto: el hito."
 		quest.2B9DF670B021FEBE.quest_desc: ["El hito es parte de la cadena. Un ladrillo mas en una pared."]
@@ -3401,9 +3731,19 @@
 		quest.2BB7F87D8C306847.title: "Refill Upgrade"
 		quest.2BB7F87D8C306847.quest_subtitle: "Meta de hoy: el Refill Upgrade."
 		quest.2BB7F87D8C306847.quest_desc: ["Apunta el Refill Upgrade en el dossier. Un paso chico en un camino largo."]
-		quest.2BB910B217DF3A12.title: "Ender Upgrade Orb"
-		quest.2BB910B217DF3A12.quest_subtitle: "Lleva el Ender Upgrade Orb."
-		quest.2BB910B217DF3A12.quest_desc: ["Asegura el Ender Upgrade Orb. Cuenta."]
+		quest.2BB910B217DF3A12.title: "&d&lEnder Upgrade Orb"
+		quest.2BB910B217DF3A12.quest_subtitle: "&7Vincula poder magico a tu equipo"
+		quest.2BB910B217DF3A12.quest_desc: [
+			"&d&lEnder Upgrade Orb"
+			"&8&m                            "
+			""
+			"&7Fabrica el Ender Upgrade Orb. Aplicalo en el yunque arcano para"
+			"&7vincular esa escuela de hechizos a un arma o tunica."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Los orbes suben el poder magico. Elige una escuela para especializarte."
+		]
 		quest.2BD169D97A624365.title: "Piglin Brute"
 		quest.2BD169D97A624365.quest_subtitle: "Salto luminoso: el Piglin Brute."
 		quest.2BD169D97A624365.quest_desc: ["Se te pide el Piglin Brute. Apunta a lo siguiente."]
@@ -3535,9 +3875,19 @@
 		quest.2E68E1D96B25336D.title: "Demonic Meat"
 		quest.2E68E1D96B25336D.quest_subtitle: "Pequeno paso: el Demonic Meat."
 		quest.2E68E1D96B25336D.quest_desc: ["El Demonic Meat esta cerrando la siguiente quest. A tu ritmo."]
-		quest.2E6F1C8718EB8C66.title: "Blood Rune"
-		quest.2E6F1C8718EB8C66.quest_subtitle: "El Blood Rune abre mas."
-		quest.2E6F1C8718EB8C66.quest_desc: ["Gana el Blood Rune jugando a largo plazo. Habito chico, gran resultado."]
+		quest.2E6F1C8718EB8C66.title: "&d&lBlood Rune"
+		quest.2E6F1C8718EB8C66.quest_subtitle: "&7Una runa de una escuela de hechizos"
+		quest.2E6F1C8718EB8C66.quest_desc: [
+			"&d&lBlood Rune"
+			"&8&m                            "
+			""
+			"&7Fabrica la Blood Rune. Las runas portan la esencia pura de"
+			"&7una escuela de hechizos para los orbes de mejora."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Combina runas en el yunque arcano para crear orbes de mejora."
+		]
 		quest.2E727B5A1CC05DAF.title: "Zoglin"
 		quest.2E727B5A1CC05DAF.quest_subtitle: "Refuerza la cadena del Zoglin."
 		quest.2E727B5A1CC05DAF.quest_desc: ["Pon las manos sobre el Zoglin. Una semilla para la bola de nieve."]
@@ -3676,15 +4026,35 @@
 			""
 			"&e&l★ Consejo:&r &7La armadura de gravitite mejora tu salto. El cielo es tu patio."
 		]
-		quest.3009018DEC1EC952.title: "Dimension"
-		quest.3009018DEC1EC952.quest_subtitle: "Ladrillo: el Dimension."
-		quest.3009018DEC1EC952.quest_desc: ["Embolsate el Dimension. El capitulo gira en torno a esto."]
+		quest.3009018DEC1EC952.title: "&3&lMagia del Mundo Principal"
+		quest.3009018DEC1EC952.quest_subtitle: "&7La magia empieza en casa"
+		quest.3009018DEC1EC952.quest_desc: [
+			"&3&lMagia del Mundo Principal"
+			"&8&m                            "
+			""
+			"&7Explora el Mundo Principal con magia en mano. Iron"
+			"&7Spells teje sus primeras estructuras en tierras conocidas."
+			""
+			"&3&lCategoria:&r &fExploracion"
+			""
+			"&e&l★ Consejo:&r &7Catacumbas, torres y fuertes se ocultan en el mundo que ya conoces."
+		]
 		quest.300F0E304A2E83F3.title: "Objective"
 		quest.300F0E304A2E83F3.quest_subtitle: "Anade un ficha."
 		quest.300F0E304A2E83F3.quest_desc: ["Asegura el ficha. Bola de nieve desde aqui."]
-		quest.300F2E45D185A9A1.title: "Arcane Essence"
-		quest.300F2E45D185A9A1.quest_subtitle: "Hito templado: el Arcane Essence."
-		quest.300F2E45D185A9A1.quest_desc: ["Anade el Arcane Essence al kit. Capital silencioso."]
+		quest.300F2E45D185A9A1.title: "&6&lEsencia Arcana"
+		quest.300F2E45D185A9A1.quest_subtitle: "&7Energia magica destilada"
+		quest.300F2E45D185A9A1.quest_desc: [
+			"&6&lEsencia Arcana"
+			"&8&m                            "
+			""
+			"&7Consigue esencia arcana, la energia magica refinada"
+			"&7que alimenta las recetas superiores del sistema."
+			""
+			"&6&lCategoria:&r &fMateriales"
+			""
+			"&e&l★ Consejo:&r &7La esencia es preciosa. Gastala en las mejoras que mas importan."
+		]
 		quest.302E9BC711779A4A.title: "Enrichment Chamber"
 		quest.302E9BC711779A4A.quest_subtitle: "Salto limpio: el Enrichment Chamber."
 		quest.302E9BC711779A4A.quest_desc: ["Toma posesion del Enrichment Chamber. El atajo no esta aqui."]
@@ -3700,9 +4070,19 @@
 		quest.30AB2F919F63E2E7.title: "Objective"
 		quest.30AB2F919F63E2E7.quest_subtitle: "Salto deliberado: el marca."
 		quest.30AB2F919F63E2E7.quest_desc: ["Asegura el marca. La ruta ensena tanto como el premio."]
-		quest.30B7AF815D9D7553.title: "Structure"
-		quest.30B7AF815D9D7553.quest_subtitle: "En ruta al Structure."
-		quest.30B7AF815D9D7553.quest_desc: ["Encuentra el Structure. El desvio vale la pena."]
+		quest.30B7AF815D9D7553.title: "&3&lPyromancer Tower"
+		quest.30B7AF815D9D7553.quest_subtitle: "&7Una estructura magica que explorar"
+		quest.30B7AF815D9D7553.quest_desc: [
+			"&3&lPyromancer Tower"
+			"&8&m                            "
+			""
+			"&7Encuentra el Pyromancer Tower, una de las estructuras magicas"
+			"&7que el mod Iron Spells reparte por el mundo."
+			""
+			"&3&lCategoria:&r &fExploracion"
+			""
+			"&e&l★ Consejo:&r &7Estas estructuras guardan botin magico, pergaminos y equipo."
+		]
 		quest.30B8E8169EAE1C01.title: "Glyph Heal"
 		quest.30B8E8169EAE1C01.quest_subtitle: "En la rama del Glyph Heal."
 		quest.30B8E8169EAE1C01.quest_desc: ["El Glyph Heal se paga solo. El atajo no esta aqui."]
@@ -3848,9 +4228,19 @@
 		quest.32BE3E0BC55EB271.title: "Pillager"
 		quest.32BE3E0BC55EB271.quest_subtitle: "Ganatelo: el Pillager."
 		quest.32BE3E0BC55EB271.quest_desc: ["El Pillager: un hito tranquilo. Te has ganado una pausa."]
-		quest.32D2CE292E088939.title: "Fire Upgrade Orb"
-		quest.32D2CE292E088939.quest_subtitle: "Ganate el Fire Upgrade Orb, sin atajo."
-		quest.32D2CE292E088939.quest_desc: ["Consigue el Fire Upgrade Orb. La calma vence al apuro."]
+		quest.32D2CE292E088939.title: "&d&lFire Upgrade Orb"
+		quest.32D2CE292E088939.quest_subtitle: "&7Vincula poder magico a tu equipo"
+		quest.32D2CE292E088939.quest_desc: [
+			"&d&lFire Upgrade Orb"
+			"&8&m                            "
+			""
+			"&7Fabrica el Fire Upgrade Orb. Aplicalo en el yunque arcano para"
+			"&7vincular esa escuela de hechizos a un arma o tunica."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Los orbes suben el poder magico. Elige una escuela para especializarte."
+		]
 		quest.32FACAD4D8CB49C7.title: "Adherent"
 		quest.32FACAD4D8CB49C7.quest_subtitle: "El Adherent: guino del capitulo."
 		quest.32FACAD4D8CB49C7.quest_desc: ["Tacha el Adherent de tu lista. Confia en la cadena."]
@@ -3965,9 +4355,19 @@
 		quest.34F91770AC8081BC.title: "Illusioner"
 		quest.34F91770AC8081BC.quest_subtitle: "Ganatelo: el Illusioner."
 		quest.34F91770AC8081BC.quest_desc: ["Consigue el Illusioner. Vale anotarlo."]
-		quest.34FC02F47F52887F.title: "Objective"
-		quest.34FC02F47F52887F.quest_subtitle: "Refuerza la cadena del reto."
-		quest.34FC02F47F52887F.quest_desc: ["El reto marca un punto de control. Util antes de lo que crees."]
+		quest.34FC02F47F52887F.title: "&d&lIce Spell Book"
+		quest.34FC02F47F52887F.quest_subtitle: "&7Un libro de hechizos con caracter propio"
+		quest.34FC02F47F52887F.quest_desc: [
+			"&d&lIce Spell Book"
+			"&8&m                            "
+			""
+			"&7Consigue el Ice Spell Book, un libro de hechizos especial con"
+			"&7un diseno unico, hallado en el mundo, no fabricado."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Los libros especiales caen de mobs o se ocultan en botin."
+		]
 		quest.3516D78F6BD3267F.title: "Zombie Villager"
 		quest.3516D78F6BD3267F.quest_subtitle: "Pesca el Zombie Villager esta partida."
 		quest.3516D78F6BD3267F.quest_desc: ["Termina la tarea del Zombie Villager. Las victorias chicas suman."]
@@ -4068,9 +4468,19 @@
 		quest.36AF4B5123EB4B25.title: "Shulker"
 		quest.36AF4B5123EB4B25.quest_subtitle: "Ganancia modesta: el Shulker."
 		quest.36AF4B5123EB4B25.quest_desc: ["Estira la mano al Shulker. Habito chico, gran resultado."]
-		quest.36B283532D70776A.title: "Speed Boots"
-		quest.36B283532D70776A.quest_subtitle: "Ganancia modesta: el Speed Boots."
-		quest.36B283532D70776A.quest_desc: ["Estira la mano al Speed Boots. La contabilidad importa."]
+		quest.36B283532D70776A.title: "&9&lBotas de Velocidad"
+		quest.36B283532D70776A.quest_subtitle: "&7Botas que aceleran al mago"
+		quest.36B283532D70776A.quest_desc: [
+			"&9&lBotas de Velocidad"
+			"&8&m                            "
+			""
+			"&7Forja las Botas de Velocidad. Estas botas ligeras"
+			"&7encantadas dejan al mago superar a cualquier enemigo cuerpo a cuerpo."
+			""
+			"&9&lCategoria:&r &fTunicas"
+			""
+			"&e&l★ Consejo:&r &7Hostigar es el mejor amigo del mago. Las botas rapidas te mantienen vivo."
+		]
 		quest.36BDE7079C5C4909.title: "Troll"
 		quest.36BDE7079C5C4909.quest_subtitle: "Marca el Troll hecho."
 		quest.36BDE7079C5C4909.quest_desc: ["Apunta al Troll. Te has ganado una pausa."]
@@ -4086,9 +4496,19 @@
 		quest.36F45ECD8C10FC5F.title: "White Grape Pomace"
 		quest.36F45ECD8C10FC5F.quest_subtitle: "El White Grape Pomace abre mas."
 		quest.36F45ECD8C10FC5F.quest_desc: ["Pon las manos sobre el White Grape Pomace. Modesto ahora, poderoso despues."]
-		quest.36F87173D8CD1D68.title: "Lightning Rune"
-		quest.36F87173D8CD1D68.quest_subtitle: "El Lightning Rune se paga solo."
-		quest.36F87173D8CD1D68.quest_desc: ["Tacha el Lightning Rune. Vale mas que su descripcion."]
+		quest.36F87173D8CD1D68.title: "&d&lLightning Rune"
+		quest.36F87173D8CD1D68.quest_subtitle: "&7Una runa de una escuela de hechizos"
+		quest.36F87173D8CD1D68.quest_desc: [
+			"&d&lLightning Rune"
+			"&8&m                            "
+			""
+			"&7Fabrica la Lightning Rune. Las runas portan la esencia pura de"
+			"&7una escuela de hechizos para los orbes de mejora."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Combina runas en el yunque arcano para crear orbes de mejora."
+		]
 		quest.3705D303CF423804.title: "Power Glove"
 		quest.3705D303CF423804.quest_subtitle: "El Power Glove es un checkpoint."
 		quest.3705D303CF423804.quest_desc: ["Gana el Power Glove paso a paso. La proxima puerta esta cerca."]
@@ -4098,9 +4518,19 @@
 		quest.37299A2DD0A647A3.title: "Shulker"
 		quest.37299A2DD0A647A3.quest_subtitle: "El Shulker abre mas."
 		quest.37299A2DD0A647A3.quest_desc: ["Marchate con el Shulker. Confia en la cadena."]
-		quest.373EBEB2E96D9361.title: "Structure"
-		quest.373EBEB2E96D9361.quest_subtitle: "Run luminoso, un solo Structure."
-		quest.373EBEB2E96D9361.quest_desc: ["Apunta al Structure. Bola de nieve desde aqui."]
+		quest.373EBEB2E96D9361.title: "&3&lIce Spider Den"
+		quest.373EBEB2E96D9361.quest_subtitle: "&7Una estructura magica que explorar"
+		quest.373EBEB2E96D9361.quest_desc: [
+			"&3&lIce Spider Den"
+			"&8&m                            "
+			""
+			"&7Encuentra el Ice Spider Den, una de las estructuras magicas"
+			"&7que el mod Iron Spells reparte por el mundo."
+			""
+			"&3&lCategoria:&r &fExploracion"
+			""
+			"&e&l★ Consejo:&r &7Estas estructuras guardan botin magico, pergaminos y equipo."
+		]
 		quest.374D5D26744C8F20.title: "&f&lNetherite-Iron Bloque"
 		quest.374D5D26744C8F20.quest_subtitle: "&7Netherite-Iron, comprimido y guardado."
 		quest.374D5D26744C8F20.quest_desc: [
@@ -4231,9 +4661,19 @@
 		quest.394545CC59524104.title: "Elder Guardian"
 		quest.394545CC59524104.quest_subtitle: "Un paso luminoso hacia el Elder Guardian."
 		quest.394545CC59524104.quest_desc: ["Anota el Elder Guardian como adquirido. Puente entre lo hecho y lo siguiente."]
-		quest.395A33977B18B9AD.title: "Citadel Keeper"
-		quest.395A33977B18B9AD.quest_subtitle: "En el bolsillo: el Citadel Keeper."
-		quest.395A33977B18B9AD.quest_desc: ["Gana el Citadel Keeper. Cuenta."]
+		quest.395A33977B18B9AD.title: "&c&lCitadel Keeper"
+		quest.395A33977B18B9AD.quest_subtitle: "&7Vence a un lanzador de hechizos hostil"
+		quest.395A33977B18B9AD.quest_desc: [
+			"&c&lCitadel Keeper"
+			"&8&m                            "
+			""
+			"&7Derrota al Citadel Keeper, un lanzador hostil del mundo de"
+			"&7Iron Spells. Lanza hechizos tan feroces como un mago jugador."
+			""
+			"&c&lCategoria:&r &fJefe"
+			""
+			"&e&l★ Consejo:&r &7Los lanzadores enemigos esquivan y se protegen. Acortala distancia."
+		]
 		quest.39647A2473F6F7D7.title: "Emerald Dust"
 		quest.39647A2473F6F7D7.quest_subtitle: "Gana el Emerald Dust."
 		quest.39647A2473F6F7D7.quest_desc: ["Asegura el Emerald Dust. Un buen paso adelante en este capitulo."]
@@ -4321,9 +4761,19 @@
 		quest.3A754F202AE5479C.title: "King Spider"
 		quest.3A754F202AE5479C.quest_subtitle: "Un King Spider, victoria constante."
 		quest.3A754F202AE5479C.quest_desc: ["Gana el King Spider. Cuenta."]
-		quest.3A85110725E81CDF.title: "Magic Cloth"
-		quest.3A85110725E81CDF.quest_subtitle: "Ganatelo: el Magic Cloth."
-		quest.3A85110725E81CDF.quest_desc: ["Gana el Magic Cloth con justicia. Util antes de lo que crees."]
+		quest.3A85110725E81CDF.title: "&6&lTela Magica"
+		quest.3A85110725E81CDF.quest_subtitle: "&7El tejido de cada tunica"
+		quest.3A85110725E81CDF.quest_desc: [
+			"&6&lTela Magica"
+			"&8&m                            "
+			""
+			"&7Teje tela magica, el tejido encantado con que se cosen"
+			"&7todas las tunicas de mago y muchos objetos magicos."
+			""
+			"&6&lCategoria:&r &fMateriales"
+			""
+			"&e&l★ Consejo:&r &7Abastecete de tela antes de forjar un conjunto completo."
+		]
 		quest.3A91A223922146FA.title: "Winter Wolf"
 		quest.3A91A223922146FA.quest_subtitle: "Vale el desvio por el Winter Wolf."
 		quest.3A91A223922146FA.quest_desc: ["Embolsa el Winter Wolf. Una semilla para la bola de nieve."]
@@ -4582,9 +5032,19 @@
 		quest.3E5BE6D6422F682C.title: "Turbine Valve"
 		quest.3E5BE6D6422F682C.quest_subtitle: "El Turbine Valve: estructural."
 		quest.3E5BE6D6422F682C.quest_desc: ["Gana el Turbine Valve. El futuro te lo agradecera."]
-		quest.3E8077AB45C79E6A.title: "Alchemist Cauldron"
-		quest.3E8077AB45C79E6A.quest_subtitle: "Ganancia modesta: el Alchemist Cauldron."
-		quest.3E8077AB45C79E6A.quest_desc: ["Termina la tarea del Alchemist Cauldron. Progreso modular, pasos cortos."]
+		quest.3E8077AB45C79E6A.title: "&a&lCaldero de Alquimista"
+		quest.3E8077AB45C79E6A.quest_subtitle: "&7Prepara las tintas de la magia"
+		quest.3E8077AB45C79E6A.quest_desc: [
+			"&a&lCaldero de Alquimista"
+			"&8&m                            "
+			""
+			"&7Fabrica el Caldero de Alquimista. Prepara las tintas"
+			"&7que necesitas para inscribir hechizos de toda rareza."
+			""
+			"&a&lCategoria:&r &fFabricacion"
+			""
+			"&e&l★ Consejo:&r &7Sin tinta, no hay hechizos. Monta el caldero antes de inscribir."
+		]
 		quest.3E890BABC4C41370.title: "Network Transmitter"
 		quest.3E890BABC4C41370.quest_subtitle: "En ruta al Network Transmitter."
 		quest.3E890BABC4C41370.quest_desc: ["El Network Transmitter es el proximo pivote. La calma vence al apuro."]
@@ -4742,9 +5202,19 @@
 		quest.4015B7E2B1264E70.title: "Fire Beetle"
 		quest.4015B7E2B1264E70.quest_subtitle: "El Fire Beetle se paga solo."
 		quest.4015B7E2B1264E70.quest_desc: ["Termina la tarea del Fire Beetle. La contabilidad importa."]
-		quest.401BB95B740385B7.title: "Holy Upgrade Orb"
-		quest.401BB95B740385B7.quest_subtitle: "El Holy Upgrade Orb: guino del capitulo."
-		quest.401BB95B740385B7.quest_desc: ["Gana el Holy Upgrade Orb. Capital silencioso."]
+		quest.401BB95B740385B7.title: "&d&lHoly Upgrade Orb"
+		quest.401BB95B740385B7.quest_subtitle: "&7Vincula poder magico a tu equipo"
+		quest.401BB95B740385B7.quest_desc: [
+			"&d&lHoly Upgrade Orb"
+			"&8&m                            "
+			""
+			"&7Fabrica el Holy Upgrade Orb. Aplicalo en el yunque arcano para"
+			"&7vincular esa escuela de hechizos a un arma o tunica."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Los orbes suben el poder magico. Elige una escuela para especializarte."
+		]
 		quest.401CE71A496C4EA0.title: "Blaze"
 		quest.401CE71A496C4EA0.quest_subtitle: "Lleva el Blaze."
 		quest.401CE71A496C4EA0.quest_desc: ["Gana el Blaze con justicia. Bola de nieve desde aqui."]
@@ -4816,9 +5286,19 @@
 		quest.4101F8275B41C79B.title: "1k Storage Part"
 		quest.4101F8275B41C79B.quest_subtitle: "Pequeno paso: el 1k Storage Part."
 		quest.4101F8275B41C79B.quest_desc: ["Consigue el 1k Storage Part. Un peldano mas escalado."]
-		quest.4104ABDC0E577350.title: "Nature Upgrade Orb"
-		quest.4104ABDC0E577350.quest_subtitle: "Guarda el Nature Upgrade Orb para luego."
-		quest.4104ABDC0E577350.quest_desc: ["Trae el Nature Upgrade Orb a buen puerto. Aviso amistoso."]
+		quest.4104ABDC0E577350.title: "&d&lNature Upgrade Orb"
+		quest.4104ABDC0E577350.quest_subtitle: "&7Vincula poder magico a tu equipo"
+		quest.4104ABDC0E577350.quest_desc: [
+			"&d&lNature Upgrade Orb"
+			"&8&m                            "
+			""
+			"&7Fabrica el Nature Upgrade Orb. Aplicalo en el yunque arcano para"
+			"&7vincular esa escuela de hechizos a un arma o tunica."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Los orbes suben el poder magico. Elige una escuela para especializarte."
+		]
 		quest.411044446DEF4F28.title: "Zombie Villager"
 		quest.411044446DEF4F28.quest_subtitle: "El Zombie Villager: estructural."
 		quest.411044446DEF4F28.quest_desc: ["Pesca el Zombie Villager. Sigue."]
@@ -4914,9 +5394,19 @@
 			""
 			"&e&l★ Consejo:&r &7Cada puerta exige una llave de su color. Cazalas todas."
 		]
-		quest.420CB9502DF8E1BC.title: "Icy Fang"
-		quest.420CB9502DF8E1BC.quest_subtitle: "Hito tranquilo con el Icy Fang."
-		quest.420CB9502DF8E1BC.quest_desc: ["El Icy Fang: estructural, no ruidoso. La contabilidad importa."]
+		quest.420CB9502DF8E1BC.title: "&e&lColmillo Helado"
+		quest.420CB9502DF8E1BC.quest_subtitle: "&7Una hoja de filo congelado"
+		quest.420CB9502DF8E1BC.quest_desc: [
+			"&e&lColmillo Helado"
+			"&8&m                            "
+			""
+			"&7Forja el Colmillo Helado, una espada cuyo golpe deja"
+			"&7un frio que ralentiza al enemigo que corta."
+			""
+			"&e&lCategoria:&r &fArma"
+			""
+			"&e&l★ Consejo:&r &7Buena opcion cuerpo a cuerpo para un criomante que se acerca."
+		]
 		quest.4211F29561F21643.title: "Turbine Rotor"
 		quest.4211F29561F21643.quest_subtitle: "Ganate el Turbine Rotor, sin atajo."
 		quest.4211F29561F21643.quest_desc: ["Hazte con el Turbine Rotor. Guardado para luego."]
@@ -5031,9 +5521,19 @@
 		quest.4405C8AE68464D5D.title: "Lower Goblin Knight"
 		quest.4405C8AE68464D5D.quest_subtitle: "Salto uniforme: el Lower Goblin Knight."
 		quest.4405C8AE68464D5D.quest_desc: ["Cierra el Lower Goblin Knight. Vale anotarlo."]
-		quest.4407BD7B5F033765.title: "Objective"
-		quest.4407BD7B5F033765.quest_subtitle: "En el bolsillo: el referencia."
-		quest.4407BD7B5F033765.quest_desc: ["Empaca el referencia. Modesto ahora, poderoso despues."]
+		quest.4407BD7B5F033765.title: "&d&lDiamond Spell Book"
+		quest.4407BD7B5F033765.quest_subtitle: "&7Un libro de hechizos de niveles de metal"
+		quest.4407BD7B5F033765.quest_desc: [
+			"&d&lDiamond Spell Book"
+			"&8&m                            "
+			""
+			"&7Fabrica el Diamond Spell Book. Un libro de hechizos guarda los"
+			"&7hechizos aprendidos y te deja lanzarlos en combate."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Los niveles superiores tienen mas ranuras de hechizo."
+		]
 		quest.441C0659ED28D935.title: "Maestria de Glifos"
 		quest.441C0659ED28D935.quest_subtitle: "Todo hechizo empieza con un solo glifo."
 		quest.441C0659ED28D935.quest_desc: ["Un punto de Ars Nouveau. Sigue combinando glifos y alimentando el Aparato de Encantamiento, la maestria aqui significa hechizos que nadie mas en el servidor puede lanzar."]
@@ -5121,9 +5621,19 @@
 		quest.44DE5CF89E27CC8E.title: "Carminite Golem"
 		quest.44DE5CF89E27CC8E.quest_subtitle: "Run estoico, un solo Carminite Golem."
 		quest.44DE5CF89E27CC8E.quest_desc: ["El Carminite Golem es parte de la cadena. Constante es rapido."]
-		quest.44E8D5DAD7E22724.title: "Netherite Mage Armor"
-		quest.44E8D5DAD7E22724.quest_subtitle: "En camino al Netherite Mage Armor."
-		quest.44E8D5DAD7E22724.quest_desc: ["Acumula el Netherite Mage Armor. Las siguientes quests lo pediran."]
+		quest.44E8D5DAD7E22724.title: "&9&lNetherite Mage Robes"
+		quest.44E8D5DAD7E22724.quest_subtitle: "&7Un conjunto completo de Netherite Mage Robes"
+		quest.44E8D5DAD7E22724.quest_desc: [
+			"&9&lNetherite Mage Robes"
+			"&8&m                            "
+			""
+			"&7Forja la Netherite Mage Robes, un conjunto completo de tunica de"
+			"&7mago. Las tunicas potencian su escuela de hechizos."
+			""
+			"&9&lCategoria:&r &fTunicas"
+			""
+			"&e&l★ Consejo:&r &7Lleva el conjunto completo para maximizar esa escuela."
+		]
 		quest.45161821C221EF0B.title: "Infused Hellshelf"
 		quest.45161821C221EF0B.quest_subtitle: "Ganatelo: el Infused Hellshelf."
 		quest.45161821C221EF0B.quest_desc: ["Tacha el Infused Hellshelf. Aviso amistoso."]
@@ -5157,9 +5667,19 @@
 		quest.4564FC40A04FA045.title: "Diamond Brush"
 		quest.4564FC40A04FA045.quest_subtitle: "Hito alerta: el Diamond Brush."
 		quest.4564FC40A04FA045.quest_desc: ["Desbloquea el Diamond Brush. La proxima puerta esta cerca."]
-		quest.4567A27C53A01903.title: "Divine Soulshard"
-		quest.4567A27C53A01903.quest_subtitle: "Hito tranquilo con el Divine Soulshard."
-		quest.4567A27C53A01903.quest_desc: ["Encuentra el Divine Soulshard. El atajo no esta aqui."]
+		quest.4567A27C53A01903.title: "&6&lFragmento de Alma Divino"
+		quest.4567A27C53A01903.quest_subtitle: "&7Un trozo de pura luz sagrada"
+		quest.4567A27C53A01903.quest_desc: [
+			"&6&lFragmento de Alma Divino"
+			"&8&m                            "
+			""
+			"&7Recupera un fragmento de alma divino. Irradia energia"
+			"&7sagrada y corona el nivel mas alto de magia de luz."
+			""
+			"&6&lCategoria:&r &fMateriales"
+			""
+			"&e&l★ Consejo:&r &7Caen de los enemigos sagrados mas duros. Ganalos en batalla."
+		]
 		quest.456EC7FBB6484C14.title: "Naga"
 		quest.456EC7FBB6484C14.quest_subtitle: "Un Naga, victoria firme."
 		quest.456EC7FBB6484C14.quest_desc: ["Envuelve el Naga. Aviso amistoso."]
@@ -5328,18 +5848,38 @@
 		quest.4893C2C0985652FB.title: "Advanced Pump Upgrade"
 		quest.4893C2C0985652FB.quest_subtitle: "Un Advanced Pump Upgrade, victoria resuelto."
 		quest.4893C2C0985652FB.quest_desc: ["Fija el Advanced Pump Upgrade al inventario. Apunta a lo siguiente."]
-		quest.489833A2A6C39151.title: "Cryomancer Helmet"
-		quest.489833A2A6C39151.quest_subtitle: "Pesca el Cryomancer Helmet esta partida."
-		quest.489833A2A6C39151.quest_desc: ["Embolsa el Cryomancer Helmet. La proxima puerta esta cerca."]
+		quest.489833A2A6C39151.title: "&9&lCryomancer Robes"
+		quest.489833A2A6C39151.quest_subtitle: "&7Un conjunto completo de Cryomancer Robes"
+		quest.489833A2A6C39151.quest_desc: [
+			"&9&lCryomancer Robes"
+			"&8&m                            "
+			""
+			"&7Forja la Cryomancer Robes, un conjunto completo de tunica de"
+			"&7mago. Las tunicas potencian su escuela de hechizos."
+			""
+			"&9&lCategoria:&r &fTunicas"
+			""
+			"&e&l★ Consejo:&r &7Lleva el conjunto completo para maximizar esa escuela."
+		]
 		quest.48A77FF80C9D4028.title: "Piglin Brute"
 		quest.48A77FF80C9D4028.quest_subtitle: "El Piglin Brute es un checkpoint."
 		quest.48A77FF80C9D4028.quest_desc: ["Encuentra el Piglin Brute. Aparece pronto por algo."]
 		quest.48C2082302334BB0.title: "Ender Dragon"
 		quest.48C2082302334BB0.quest_subtitle: "Run estoico, un solo Ender Dragon."
 		quest.48C2082302334BB0.quest_desc: ["Anota el Ender Dragon en el diario. La calma vence al apuro."]
-		quest.48C68664319B0294.title: "Objective"
-		quest.48C68664319B0294.quest_subtitle: "Hito tranquilo con el hito."
-		quest.48C68664319B0294.quest_desc: ["Marca el hito hecho. Paga su propio flete."]
+		quest.48C68664319B0294.title: "&d&lMagia del Nigromante"
+		quest.48C68664319B0294.quest_subtitle: "&7El necronomicon y sus hechizos oscuros"
+		quest.48C68664319B0294.quest_desc: [
+			"&d&lMagia del Nigromante"
+			"&8&m                            "
+			""
+			"&7Reclama el necronomicon con sus cuatro hechizos"
+			"&7oscuros: tajo de sangre, paso de sangre, rayo de sifon, tormenta de fuego."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Un kit sombrio pero potente para magos de sangre y fuego."
+		]
 		quest.48D5D9D9AD98409F.title: "Starbuncle Charm"
 		quest.48D5D9D9AD98409F.quest_subtitle: "Anade un Starbuncle Charm."
 		quest.48D5D9D9AD98409F.quest_desc: ["Trae el Starbuncle Charm. A tu ritmo."]
@@ -5640,9 +6180,19 @@
 		quest.4CC5F32F9B334883.title: "Towerwood Borer"
 		quest.4CC5F32F9B334883.quest_subtitle: "Un Towerwood Borer, victoria agudo."
 		quest.4CC5F32F9B334883.quest_desc: ["Gana el Towerwood Borer con justicia. Capital silencioso."]
-		quest.4CCA1E2AAA9AB9D9.title: "Electromancer Helmet"
-		quest.4CCA1E2AAA9AB9D9.quest_subtitle: "El Electromancer Helmet: estructural."
-		quest.4CCA1E2AAA9AB9D9.quest_desc: ["Marca un Electromancer Helmet. Util antes de lo que crees."]
+		quest.4CCA1E2AAA9AB9D9.title: "&9&lElectromancer Robes"
+		quest.4CCA1E2AAA9AB9D9.quest_subtitle: "&7Un conjunto completo de Electromancer Robes"
+		quest.4CCA1E2AAA9AB9D9.quest_desc: [
+			"&9&lElectromancer Robes"
+			"&8&m                            "
+			""
+			"&7Forja la Electromancer Robes, un conjunto completo de tunica de"
+			"&7mago. Las tunicas potencian su escuela de hechizos."
+			""
+			"&9&lCategoria:&r &fTunicas"
+			""
+			"&e&l★ Consejo:&r &7Lleva el conjunto completo para maximizar esa escuela."
+		]
 		quest.4CD1842569E64898.title: "Flux Plug"
 		quest.4CD1842569E64898.quest_subtitle: "Pequeno paso: el Flux Plug."
 		quest.4CD1842569E64898.quest_desc: ["El Flux Plug es tu siguiente recompensa. El progreso tranquilo gana."]
@@ -5766,9 +6316,19 @@
 		quest.4E279EDF2A924106.title: "Piglin"
 		quest.4E279EDF2A924106.quest_subtitle: "Anade un Piglin."
 		quest.4E279EDF2A924106.quest_desc: ["Hazte con el Piglin. Capital silencioso."]
-		quest.4E3355FDCB65BB63.title: "Objective"
-		quest.4E3355FDCB65BB63.quest_subtitle: "El reto se paga solo."
-		quest.4E3355FDCB65BB63.quest_desc: ["Saca el reto de su escondite. Las victorias chicas suman."]
+		quest.4E3355FDCB65BB63.title: "&d&lMagia del Evocador"
+		quest.4E3355FDCB65BB63.quest_subtitle: "&7El grimorio de evocador y sus hechizos"
+		quest.4E3355FDCB65BB63.quest_desc: [
+			"&d&lMagia del Evocador"
+			"&8&m                            "
+			""
+			"&7Reclama el libro de evocador junto a sus hechizos"
+			"&7incluidos: golpe de colmillo, guardia de colmillo e invocar vex."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Un kit de inicio completo para la escuela de evocacion."
+		]
 		quest.4E895C54651A3CB3.title: "Book"
 		quest.4E895C54651A3CB3.quest_subtitle: "Ganatelo: el Book."
 		quest.4E895C54651A3CB3.quest_desc: ["Gana el Book. Un ladrillo mas en una pared."]
@@ -6137,18 +6697,38 @@
 		quest.54107693798A4DB8.title: "Warden"
 		quest.54107693798A4DB8.quest_subtitle: "Anade un Warden."
 		quest.54107693798A4DB8.quest_desc: ["Envuelve el Warden. El desvio vale la pena."]
-		quest.541446863A72B96C.title: "Common Ink"
-		quest.541446863A72B96C.quest_subtitle: "Un Common Ink para el camino."
-		quest.541446863A72B96C.quest_desc: ["Recoge el Common Ink de paso. Modesto ahora, poderoso despues."]
+		quest.541446863A72B96C.title: "&a&lCommon Ink"
+		quest.541446863A72B96C.quest_subtitle: "&7Tinta para inscribir hechizos"
+		quest.541446863A72B96C.quest_desc: [
+			"&a&lCommon Ink"
+			"&8&m                            "
+			""
+			"&7Fabrica la Common Ink. La tinta sirve para inscribir"
+			"&7hechizos en pergaminos y libros en la mesa de inscripcion."
+			""
+			"&a&lCategoria:&r &fFabricacion"
+			""
+			"&e&l★ Consejo:&r &7Iguala la rareza de la tinta a la del hechizo a inscribir."
+		]
 		quest.5419A81EAD6A4338.title: "Redcap Sapper"
 		quest.5419A81EAD6A4338.quest_subtitle: "Meta de hoy: el Redcap Sapper."
 		quest.5419A81EAD6A4338.quest_desc: ["Anade el Redcap Sapper a tu reserva. Un paso chico en un camino largo."]
 		quest.54378277B8D28B1D.title: "Chalk Void"
 		quest.54378277B8D28B1D.quest_subtitle: "Run cauto, un solo Chalk Void."
 		quest.54378277B8D28B1D.quest_desc: ["Envuelve el Chalk Void. Las victorias chicas suman."]
-		quest.548F85EE6B6F1811.title: "Apothecarist"
-		quest.548F85EE6B6F1811.quest_subtitle: "El Apothecarist: guino del capitulo."
-		quest.548F85EE6B6F1811.quest_desc: ["El Apothecarist: estructural, no ruidoso. Modesto ahora, poderoso despues."]
+		quest.548F85EE6B6F1811.title: "&c&lApothecarist"
+		quest.548F85EE6B6F1811.quest_subtitle: "&7Vence a un lanzador de hechizos hostil"
+		quest.548F85EE6B6F1811.quest_desc: [
+			"&c&lApothecarist"
+			"&8&m                            "
+			""
+			"&7Derrota al Apothecarist, un lanzador hostil del mundo de"
+			"&7Iron Spells. Lanza hechizos tan feroces como un mago jugador."
+			""
+			"&c&lCategoria:&r &fJefe"
+			""
+			"&e&l★ Consejo:&r &7Los lanzadores enemigos esquivan y se protegen. Acortala distancia."
+		]
 		quest.5496F2E8E302C620.title: "King Spider"
 		quest.5496F2E8E302C620.quest_subtitle: "Meta de hoy: el King Spider."
 		quest.5496F2E8E302C620.quest_desc: ["El King Spider esta en el menu. Mas cerca de lo que el mapa sugiere."]
@@ -6173,9 +6753,19 @@
 		quest.54FCC79F980E4BF8.title: "Enderman"
 		quest.54FCC79F980E4BF8.quest_subtitle: "Marca el Enderman hecho."
 		quest.54FCC79F980E4BF8.quest_desc: ["Reserva el Enderman. El futuro te lo agradecera."]
-		quest.551A4916F032ACCF.title: "Arcane Anvil"
-		quest.551A4916F032ACCF.quest_subtitle: "El Arcane Anvil abre mas."
-		quest.551A4916F032ACCF.quest_desc: ["El Arcane Anvil es el proximo pivote. Sigue."]
+		quest.551A4916F032ACCF.title: "&a&lYunque Arcano"
+		quest.551A4916F032ACCF.quest_subtitle: "&7Forja magia en tu equipo"
+		quest.551A4916F032ACCF.quest_desc: [
+			"&a&lYunque Arcano"
+			"&8&m                            "
+			""
+			"&7Fabrica el Yunque Arcano. Aplica los orbes de mejora y"
+			"&7vincula poder magico a armas y tunicas."
+			""
+			"&a&lCategoria:&r &fFabricacion"
+			""
+			"&e&l★ Consejo:&r &7Combinalo con runas y orbes para especializar tu equipo."
+		]
 		quest.552BA5E6FA987256.title: "Sigil Of Malice"
 		quest.552BA5E6FA987256.quest_subtitle: "Pequeno paso: el Sigil Of Malice."
 		quest.552BA5E6FA987256.quest_desc: ["Reserva el Sigil Of Malice. Aparece pronto por algo."]
@@ -6188,9 +6778,19 @@
 		quest.555ECE27F0664239.title: "Umvuthana Crane"
 		quest.555ECE27F0664239.quest_subtitle: "Un Umvuthana Crane para el camino."
 		quest.555ECE27F0664239.quest_desc: ["El Umvuthana Crane es tu siguiente recompensa. El desvio vale la pena."]
-		quest.555ED1E39131D91B.title: "Cryomancer"
-		quest.555ED1E39131D91B.quest_subtitle: "Guarda el Cryomancer para luego."
-		quest.555ED1E39131D91B.quest_desc: ["El Cryomancer: un peldano mas. La cadena aguanta."]
+		quest.555ED1E39131D91B.title: "&c&lCryomancer"
+		quest.555ED1E39131D91B.quest_subtitle: "&7Vence a un lanzador de hechizos hostil"
+		quest.555ED1E39131D91B.quest_desc: [
+			"&c&lCryomancer"
+			"&8&m                            "
+			""
+			"&7Derrota al Cryomancer, un lanzador hostil del mundo de"
+			"&7Iron Spells. Lanza hechizos tan feroces como un mago jugador."
+			""
+			"&c&lCategoria:&r &fJefe"
+			""
+			"&e&l★ Consejo:&r &7Los lanzadores enemigos esquivan y se protegen. Acortala distancia."
+		]
 		quest.555F8DBE0E72F15E.title: "Umvuthana Crane"
 		quest.555F8DBE0E72F15E.quest_subtitle: "Salto medido: el Umvuthana Crane."
 		quest.555F8DBE0E72F15E.quest_desc: ["Envuelve el Umvuthana Crane. Guardado para luego."]
@@ -6457,9 +7057,19 @@
 		quest.59D688A31A924C5C.title: "Breeze"
 		quest.59D688A31A924C5C.quest_subtitle: "Pequeno paso: el Breeze."
 		quest.59D688A31A924C5C.quest_desc: ["Hazte con el Breeze. Habito chico, gran resultado."]
-		quest.59E68086A8B99EA7.title: "Pyromancer"
-		quest.59E68086A8B99EA7.quest_subtitle: "Un paso cauto hacia el Pyromancer."
-		quest.59E68086A8B99EA7.quest_desc: ["Cierra el Pyromancer. Mas cerca de lo que el mapa sugiere."]
+		quest.59E68086A8B99EA7.title: "&c&lPyromancer"
+		quest.59E68086A8B99EA7.quest_subtitle: "&7Vence a un lanzador de hechizos hostil"
+		quest.59E68086A8B99EA7.quest_desc: [
+			"&c&lPyromancer"
+			"&8&m                            "
+			""
+			"&7Derrota al Pyromancer, un lanzador hostil del mundo de"
+			"&7Iron Spells. Lanza hechizos tan feroces como un mago jugador."
+			""
+			"&c&lCategoria:&r &fJefe"
+			""
+			"&e&l★ Consejo:&r &7Los lanzadores enemigos esquivan y se protegen. Acortala distancia."
+		]
 		quest.59E70565237428D7.title: "Redcap"
 		quest.59E70565237428D7.quest_subtitle: "Anade un Redcap."
 		quest.59E70565237428D7.quest_desc: ["Anota el Redcap en tu bitacora. Una semilla para la bola de nieve."]
@@ -6523,9 +7133,19 @@
 		quest.5AF75CCFA46B4C95.title: "Piglin Brute"
 		quest.5AF75CCFA46B4C95.quest_subtitle: "Run luminoso, un solo Piglin Brute."
 		quest.5AF75CCFA46B4C95.quest_desc: ["Anade un Piglin Brute a las provisiones. La calma vence al apuro."]
-		quest.5B013A3A37D6902B.title: "Ancient Knowledge Fragment"
-		quest.5B013A3A37D6902B.quest_subtitle: "El Ancient Knowledge Fragment se paga solo."
-		quest.5B013A3A37D6902B.quest_desc: ["Marca el Ancient Knowledge Fragment como obtenido. Puente entre lo hecho y lo siguiente."]
+		quest.5B013A3A37D6902B.title: "&6&lFragmento de Saber Antiguo"
+		quest.5B013A3A37D6902B.quest_subtitle: "&7Un trozo de saber olvidado"
+		quest.5B013A3A37D6902B.quest_desc: [
+			"&6&lFragmento de Saber Antiguo"
+			"&8&m                            "
+			""
+			"&7Recupera un fragmento de saber antiguo. Cada pieza"
+			"&7guarda un fragmento de magia que el mundo olvido."
+			""
+			"&6&lCategoria:&r &fMateriales"
+			""
+			"&e&l★ Consejo:&r &7Los fragmentos vienen de viejas estructuras. Busca ruinas y catacumbas."
+		]
 		quest.5B1175C0ADE0648A.title: "Redcap Sapper"
 		quest.5B1175C0ADE0648A.quest_subtitle: "Ganancia modesta: el Redcap Sapper."
 		quest.5B1175C0ADE0648A.quest_desc: ["Encuentra un camino hacia el Redcap Sapper. Estructural, no llamativo."]
@@ -6644,9 +7264,19 @@
 		quest.5DE45BC0258D1B0B.title: "Pearl Endshelf"
 		quest.5DE45BC0258D1B0B.quest_subtitle: "Refuerza la cadena del Pearl Endshelf."
 		quest.5DE45BC0258D1B0B.quest_desc: ["Anota el Pearl Endshelf como adquirido. La proxima puerta esta cerca."]
-		quest.5DE863C3FB6492BE.title: "Cultist Helmet"
-		quest.5DE863C3FB6492BE.quest_subtitle: "El Cultist Helmet abre mas."
-		quest.5DE863C3FB6492BE.quest_desc: ["Anota el Cultist Helmet en el diario. Bola de nieve desde aqui."]
+		quest.5DE863C3FB6492BE.title: "&9&lCultist Robes"
+		quest.5DE863C3FB6492BE.quest_subtitle: "&7Un conjunto completo de Cultist Robes"
+		quest.5DE863C3FB6492BE.quest_desc: [
+			"&9&lCultist Robes"
+			"&8&m                            "
+			""
+			"&7Forja la Cultist Robes, un conjunto completo de tunica de"
+			"&7mago. Las tunicas potencian su escuela de hechizos."
+			""
+			"&9&lCategoria:&r &fTunicas"
+			""
+			"&e&l★ Consejo:&r &7Lleva el conjunto completo para maximizar esa escuela."
+		]
 		quest.5DEB9093CCB8A518.title: "Endermite"
 		quest.5DEB9093CCB8A518.quest_subtitle: "El Endermite abre mas."
 		quest.5DEB9093CCB8A518.quest_desc: ["El Endermite es el proximo pivote. Habito chico, gran resultado."]
@@ -6700,9 +7330,19 @@
 		quest.5ECA82D3CE884738.title: "Blaze"
 		quest.5ECA82D3CE884738.quest_subtitle: "Marca el Blaze."
 		quest.5ECA82D3CE884738.quest_desc: ["Cierra el Blaze. Constante es rapido."]
-		quest.5ED368C926E5F32C.title: "Biome"
-		quest.5ED368C926E5F32C.quest_subtitle: "Ganatelo: el Biome."
-		quest.5ED368C926E5F32C.quest_desc: ["Recoge el Biome de pasada. Te has ganado una pausa."]
+		quest.5ED368C926E5F32C.title: "&3&lMagia de la Oscuridad Profunda"
+		quest.5ED368C926E5F32C.quest_subtitle: "&7Lanza hechizos en el hogar del silencio"
+		quest.5ED368C926E5F32C.quest_desc: [
+			"&3&lMagia de la Oscuridad Profunda"
+			"&8&m                            "
+			""
+			"&7Adentrate en la Oscuridad Profunda. La magia de eco y"
+			"&7los secretos eldritch duermen bajo el sculk."
+			""
+			"&3&lCategoria:&r &fExploracion"
+			""
+			"&e&l★ Consejo:&r &7Muevete en silencio. El Warden responde a todo hechizo ruidoso."
+		]
 		quest.5EE2D3EB4EBC4C72.title: "Redcap Sapper"
 		quest.5EE2D3EB4EBC4C72.quest_subtitle: "En el bolsillo: el Redcap Sapper."
 		quest.5EE2D3EB4EBC4C72.quest_desc: ["El Redcap Sapper abre mas puertas de las que parece. Puente entre lo hecho y lo siguiente."]
@@ -6910,9 +7550,19 @@
 		quest.603BEDD49070ECAD.title: "Rotary Condensentrator"
 		quest.603BEDD49070ECAD.quest_subtitle: "Pequeno paso: el Rotary Condensentrator."
 		quest.603BEDD49070ECAD.quest_desc: ["El Rotary Condensentrator: un hito tranquilo. Un ladrillo mas en una pared."]
-		quest.6046CA1F6AFE2AEA.title: "Blood Staff"
-		quest.6046CA1F6AFE2AEA.quest_subtitle: "En el bolsillo: el Blood Staff."
-		quest.6046CA1F6AFE2AEA.quest_desc: ["Tacha el Blood Staff. Estructural, no llamativo."]
+		quest.6046CA1F6AFE2AEA.title: "&e&lBaston de Sangre"
+		quest.6046CA1F6AFE2AEA.quest_subtitle: "&7Lanza al precio de la vida"
+		quest.6046CA1F6AFE2AEA.quest_desc: [
+			"&e&lBaston de Sangre"
+			"&8&m                            "
+			""
+			"&7Forja el Baston de Sangre. Canaliza magia de sangre,"
+			"&7cambiando tu salud por poder magico puro."
+			""
+			"&e&lCategoria:&r &fArma"
+			""
+			"&e&l★ Consejo:&r &7Arriesgado pero fuerte. Manten curacion cerca al usarlo."
+		]
 		quest.604F2B68B27885BF.title: "&b&lCena Crepuscular"
 		quest.604F2B68B27885BF.quest_subtitle: "&7Festeja con los manjares del bosque"
 		quest.604F2B68B27885BF.quest_desc: [
@@ -6966,9 +7616,19 @@
 		quest.60ECCCAB66AAC05D.title: "Logistical Transporter"
 		quest.60ECCCAB66AAC05D.quest_subtitle: "El Logistical Transporter: esencial en silencio."
 		quest.60ECCCAB66AAC05D.quest_desc: ["Anade el Logistical Transporter a tu reserva. Lo necesitaras pronto."]
-		quest.60FAD8BF235E381B.title: "Rare Ink"
-		quest.60FAD8BF235E381B.quest_subtitle: "Un paso agudo hacia el Rare Ink."
-		quest.60FAD8BF235E381B.quest_desc: ["Almacena el Rare Ink. Apunta a lo siguiente."]
+		quest.60FAD8BF235E381B.title: "&a&lRare Ink"
+		quest.60FAD8BF235E381B.quest_subtitle: "&7Tinta para inscribir hechizos"
+		quest.60FAD8BF235E381B.quest_desc: [
+			"&a&lRare Ink"
+			"&8&m                            "
+			""
+			"&7Fabrica la Rare Ink. La tinta sirve para inscribir"
+			"&7hechizos en pergaminos y libros en la mesa de inscripcion."
+			""
+			"&a&lCategoria:&r &fFabricacion"
+			""
+			"&e&l★ Consejo:&r &7Iguala la rareza de la tinta a la del hechizo a inscribir."
+		]
 		quest.60FC2DAEA954A849.title: "&d&lReina Gusano Lunar"
 		quest.60FC2DAEA954A849.quest_subtitle: "&7Una fuente de luz viviente"
 		quest.60FC2DAEA954A849.quest_desc: [
@@ -7001,12 +7661,32 @@
 		quest.61217D80BFF8A858.title: "Occult Ender Lead"
 		quest.61217D80BFF8A858.quest_subtitle: "Premio honesto: el Occult Ender Lead."
 		quest.61217D80BFF8A858.quest_desc: ["Hazte con el Occult Ender Lead. Mas cerca de lo que el mapa sugiere."]
-		quest.615C3E012B2DECD3.title: "Paper"
-		quest.615C3E012B2DECD3.quest_subtitle: "El Paper se paga solo."
-		quest.615C3E012B2DECD3.quest_desc: ["El Paper esta cerrando la siguiente quest. Habito chico, gran resultado."]
-		quest.6187837A51BA09DC.title: "Structure"
-		quest.6187837A51BA09DC.quest_subtitle: "Hito tranquilo con el Structure."
-		quest.6187837A51BA09DC.quest_desc: ["Consigue el Structure. Cuenta."]
+		quest.615C3E012B2DECD3.title: "&6&lPapel"
+		quest.615C3E012B2DECD3.quest_subtitle: "&7La pagina de cada hechizo"
+		quest.615C3E012B2DECD3.quest_desc: [
+			"&6&lPapel"
+			"&8&m                            "
+			""
+			"&7Consigue papel de la cana de azucar. Forma el cuerpo"
+			"&7de los pergaminos y las paginas de los libros."
+			""
+			"&6&lCategoria:&r &fMateriales"
+			""
+			"&e&l★ Consejo:&r &7Monta una pequena granja de cana. La magia consume papel rapido."
+		]
+		quest.6187837A51BA09DC.title: "&3&lCitadel"
+		quest.6187837A51BA09DC.quest_subtitle: "&7Una estructura magica que explorar"
+		quest.6187837A51BA09DC.quest_desc: [
+			"&3&lCitadel"
+			"&8&m                            "
+			""
+			"&7Encuentra el Citadel, una de las estructuras magicas"
+			"&7que el mod Iron Spells reparte por el mundo."
+			""
+			"&3&lCategoria:&r &fExploracion"
+			""
+			"&e&l★ Consejo:&r &7Estas estructuras guardan botin magico, pergaminos y equipo."
+		]
 		quest.61C49BC2B384FB80.title: "&b&lOjo de Ender"
 		quest.61C49BC2B384FB80.quest_subtitle: "&7La brujula hacia el End"
 		quest.61C49BC2B384FB80.quest_desc: [
@@ -7102,9 +7782,19 @@
 		quest.636C18F6CCB538F7.title: "Death Tome"
 		quest.636C18F6CCB538F7.quest_subtitle: "Refuerza la cadena del Death Tome."
 		quest.636C18F6CCB538F7.quest_desc: ["Trae el Death Tome. Vale anotarlo."]
-		quest.637C87D8968CD51A.title: "Uncommon Ink"
-		quest.637C87D8968CD51A.quest_subtitle: "Un paso robusto hacia el Uncommon Ink."
-		quest.637C87D8968CD51A.quest_desc: ["Acumula el Uncommon Ink. Aparece pronto por algo."]
+		quest.637C87D8968CD51A.title: "&a&lUncommon Ink"
+		quest.637C87D8968CD51A.quest_subtitle: "&7Tinta para inscribir hechizos"
+		quest.637C87D8968CD51A.quest_desc: [
+			"&a&lUncommon Ink"
+			"&8&m                            "
+			""
+			"&7Fabrica la Uncommon Ink. La tinta sirve para inscribir"
+			"&7hechizos en pergaminos y libros en la mesa de inscripcion."
+			""
+			"&a&lCategoria:&r &fFabricacion"
+			""
+			"&e&l★ Consejo:&r &7Iguala la rareza de la tinta a la del hechizo a inscribir."
+		]
 		quest.638B1C8C0F9FEA8C.title: "Slime Beetle"
 		quest.638B1C8C0F9FEA8C.quest_subtitle: "El Slime Beetle: estructural."
 		quest.638B1C8C0F9FEA8C.quest_desc: ["El Slime Beetle esta cerrando la siguiente quest. Paga su propio flete."]
@@ -7121,9 +7811,19 @@
 			""
 			"&e&l★ Consejo:&r &7Prensa y Mezclador juntos abren casi todas las recetas de Create."
 		]
-		quest.639531AB27DCD267.title: "Blank Rune"
-		quest.639531AB27DCD267.quest_subtitle: "El Blank Rune se paga solo."
-		quest.639531AB27DCD267.quest_desc: ["El Blank Rune: objeto pequeno, progreso real. Una semilla para la bola de nieve."]
+		quest.639531AB27DCD267.title: "&d&lBlank Rune"
+		quest.639531AB27DCD267.quest_subtitle: "&7Una runa de una escuela de hechizos"
+		quest.639531AB27DCD267.quest_desc: [
+			"&d&lBlank Rune"
+			"&8&m                            "
+			""
+			"&7Fabrica la Blank Rune. Las runas portan la esencia pura de"
+			"&7una escuela de hechizos para los orbes de mejora."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Combina runas en el yunque arcano para crear orbes de mejora."
+		]
 		quest.63A14EF804050EA4.title: "Wither"
 		quest.63A14EF804050EA4.quest_subtitle: "Salto uniforme: el Wither."
 		quest.63A14EF804050EA4.quest_desc: ["Embolsate el Wither. Capital silencioso."]
@@ -7148,9 +7848,19 @@
 		quest.641661E8C7124F71.title: "Foliaath"
 		quest.641661E8C7124F71.quest_subtitle: "Marca el Foliaath."
 		quest.641661E8C7124F71.quest_desc: ["Tomate tu tiempo para obtener el Foliaath. Puente entre lo hecho y lo siguiente."]
-		quest.641888DC7BC40AA9.title: "Structure"
-		quest.641888DC7BC40AA9.quest_subtitle: "En ruta al Structure."
-		quest.641888DC7BC40AA9.quest_desc: ["Pesca el Structure. Util antes de lo que crees."]
+		quest.641888DC7BC40AA9.title: "&3&lEvoker Fort"
+		quest.641888DC7BC40AA9.quest_subtitle: "&7Una estructura magica que explorar"
+		quest.641888DC7BC40AA9.quest_desc: [
+			"&3&lEvoker Fort"
+			"&8&m                            "
+			""
+			"&7Encuentra el Evoker Fort, una de las estructuras magicas"
+			"&7que el mod Iron Spells reparte por el mundo."
+			""
+			"&3&lCategoria:&r &fExploracion"
+			""
+			"&e&l★ Consejo:&r &7Estas estructuras guardan botin magico, pergaminos y equipo."
+		]
 		quest.6435AEDDD13247A0.title: "Ravager"
 		quest.6435AEDDD13247A0.quest_subtitle: "Marca el Ravager hecho."
 		quest.6435AEDDD13247A0.quest_desc: ["Ganate el Ravager con esfuerzo. Un ladrillo mas en una pared."]
@@ -7200,9 +7910,19 @@
 		quest.65259E5177B27DB2.title: "Grottol"
 		quest.65259E5177B27DB2.quest_subtitle: "Un Grottol, victoria firme."
 		quest.65259E5177B27DB2.quest_desc: ["Reserva el Grottol. Habito chico, gran resultado."]
-		quest.652A14E17DDE97E6.title: "Objective"
-		quest.652A14E17DDE97E6.quest_subtitle: "Premio resuelto: el pieza."
-		quest.652A14E17DDE97E6.quest_desc: ["Gana el pieza. Medio camino hecho contigo."]
+		quest.652A14E17DDE97E6.title: "&d&lDragonskin Spell Book"
+		quest.652A14E17DDE97E6.quest_subtitle: "&7Un libro de hechizos con caracter propio"
+		quest.652A14E17DDE97E6.quest_desc: [
+			"&d&lDragonskin Spell Book"
+			"&8&m                            "
+			""
+			"&7Consigue el Dragonskin Spell Book, un libro de hechizos especial con"
+			"&7un diseno unico, hallado en el mundo, no fabricado."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Los libros especiales caen de mobs o se ocultan en botin."
+		]
 		quest.652F00825BC5D089.title: "Alchemy Upgrade"
 		quest.652F00825BC5D089.quest_subtitle: "Ganate el Alchemy Upgrade, sin atajo."
 		quest.652F00825BC5D089.quest_desc: ["Suma el Alchemy Upgrade. A tu ritmo."]
@@ -7284,9 +8004,19 @@
 		quest.66714D4B9A354C12.title: "Snow Guardian"
 		quest.66714D4B9A354C12.quest_subtitle: "Un Snow Guardian, victoria uniforme."
 		quest.66714D4B9A354C12.quest_desc: ["El Snow Guardian es el proximo pivote. Hito suave."]
-		quest.66762A4743104157.title: "Objective"
-		quest.66762A4743104157.quest_subtitle: "El marca: guino del capitulo."
-		quest.66762A4743104157.quest_desc: ["Marca el marca hecho. El futuro te lo agradecera."]
+		quest.66762A4743104157.title: "&d&lGold Spell Book"
+		quest.66762A4743104157.quest_subtitle: "&7Un libro de hechizos de niveles de metal"
+		quest.66762A4743104157.quest_desc: [
+			"&d&lGold Spell Book"
+			"&8&m                            "
+			""
+			"&7Fabrica el Gold Spell Book. Un libro de hechizos guarda los"
+			"&7hechizos aprendidos y te deja lanzarlos en combate."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Los niveles superiores tienen mas ranuras de hechizo."
+		]
 		quest.6677FD645BD64B62.title: "Umvuthana"
 		quest.6677FD645BD64B62.quest_subtitle: "El Umvuthana se paga solo."
 		quest.6677FD645BD64B62.quest_desc: ["Resuelve el Umvuthana pronto. Modesto ahora, poderoso despues."]
@@ -7348,9 +8078,19 @@
 		quest.672E50D05CDA7361.title: "Stack Upgrade Tier 1 Plus"
 		quest.672E50D05CDA7361.quest_subtitle: "Refuerza la cadena del Stack Upgrade Tier 1 Plus."
 		quest.672E50D05CDA7361.quest_desc: ["Lleva el Stack Upgrade Tier 1 Plus. La proxima puerta esta cerca."]
-		quest.67308C5DDF4A10D2.title: "Wandering Magician Armor"
-		quest.67308C5DDF4A10D2.quest_subtitle: "Gana el Wandering Magician Armor."
-		quest.67308C5DDF4A10D2.quest_desc: ["Hazte con el Wandering Magician Armor. El capitulo se apoya directamente en el."]
+		quest.67308C5DDF4A10D2.title: "&9&lWandering Magician Robes"
+		quest.67308C5DDF4A10D2.quest_subtitle: "&7Un conjunto completo de Wandering Magician Robes"
+		quest.67308C5DDF4A10D2.quest_desc: [
+			"&9&lWandering Magician Robes"
+			"&8&m                            "
+			""
+			"&7Forja la Wandering Magician Robes, un conjunto completo de tunica de"
+			"&7mago. Las tunicas potencian su escuela de hechizos."
+			""
+			"&9&lCategoria:&r &fTunicas"
+			""
+			"&e&l★ Consejo:&r &7Lleva el conjunto completo para maximizar esa escuela."
+		]
 		quest.6733859605CB467C.title: "Vex"
 		quest.6733859605CB467C.quest_subtitle: "Ganate el Vex, sin atajo."
 		quest.6733859605CB467C.quest_desc: ["Gana el Vex jugando a largo plazo. Progreso modular, pasos cortos."]
@@ -7370,9 +8110,19 @@
 			""
 			"&e&l★ Consejo:&r &7La piedra es la base de muchas recetas de Create y decoracion."
 		]
-		quest.67439337E29A308B.title: "Artificer Cane"
-		quest.67439337E29A308B.quest_subtitle: "Run paciente, un solo Artificer Cane."
-		quest.67439337E29A308B.quest_desc: ["Anade el Artificer Cane al kit. Un peldano mas escalado."]
+		quest.67439337E29A308B.title: "&e&lBaston de Artifice"
+		quest.67439337E29A308B.quest_subtitle: "&7Un baston de magia ingeniosa"
+		quest.67439337E29A308B.quest_desc: [
+			"&e&lBaston de Artifice"
+			"&8&m                            "
+			""
+			"&7Forja el Baston de Artifice. Un arma de lanzador"
+			"&7versatil para un mago que experimenta y se adapta."
+			""
+			"&e&lCategoria:&r &fArma"
+			""
+			"&e&l★ Consejo:&r &7Premia un equipamiento de hechizos flexible. Experimenta libremente."
+		]
 		quest.6744AD81C2F01BA3.title: "Vex"
 		quest.6744AD81C2F01BA3.quest_subtitle: "Ganate el Vex, sin atajo."
 		quest.6744AD81C2F01BA3.quest_desc: ["Anade el Vex al dossier. El capitulo gira en torno a esto."]
@@ -7397,9 +8147,19 @@
 		quest.67A352D800E1441C.title: "Slime Beetle"
 		quest.67A352D800E1441C.quest_subtitle: "Lleva el Slime Beetle."
 		quest.67A352D800E1441C.quest_desc: ["Tomate tu tiempo para obtener el Slime Beetle. Capital silencioso."]
-		quest.67A587F4BAD76C70.title: "Objective"
-		quest.67A587F4BAD76C70.quest_subtitle: "En la rama del objetivo."
-		quest.67A587F4BAD76C70.quest_desc: ["Anota el objetivo en el diario. La ruta ensena tanto como el premio."]
+		quest.67A587F4BAD76C70.title: "&d&lCopper Spell Book"
+		quest.67A587F4BAD76C70.quest_subtitle: "&7Un libro de hechizos de niveles de metal"
+		quest.67A587F4BAD76C70.quest_desc: [
+			"&d&lCopper Spell Book"
+			"&8&m                            "
+			""
+			"&7Fabrica el Copper Spell Book. Un libro de hechizos guarda los"
+			"&7hechizos aprendidos y te deja lanzarlos en combate."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Los niveles superiores tienen mas ranuras de hechizo."
+		]
 		quest.67A9329C05F98633.title: "Ultimate Trash Can"
 		quest.67A9329C05F98633.quest_subtitle: "Un Ultimate Trash Can para el camino."
 		quest.67A9329C05F98633.quest_desc: ["El Ultimate Trash Can es el proximo pivote. Util antes de lo que crees."]
@@ -7412,9 +8172,19 @@
 		quest.67D20EA0C952CE28.title: "Carminite Broodling"
 		quest.67D20EA0C952CE28.quest_subtitle: "El Carminite Broodling: estructural."
 		quest.67D20EA0C952CE28.quest_desc: ["Toma el Carminite Broodling. La calma vence al apuro."]
-		quest.67D40A1A9332C03D.title: "Legendary Ink"
-		quest.67D40A1A9332C03D.quest_subtitle: "Refuerza la cadena del Legendary Ink."
-		quest.67D40A1A9332C03D.quest_desc: ["Anade un Legendary Ink a las provisiones. Una semilla para la bola de nieve."]
+		quest.67D40A1A9332C03D.title: "&a&lLegendary Ink"
+		quest.67D40A1A9332C03D.quest_subtitle: "&7Tinta para inscribir hechizos"
+		quest.67D40A1A9332C03D.quest_desc: [
+			"&a&lLegendary Ink"
+			"&8&m                            "
+			""
+			"&7Fabrica la Legendary Ink. La tinta sirve para inscribir"
+			"&7hechizos en pergaminos y libros en la mesa de inscripcion."
+			""
+			"&a&lCategoria:&r &fFabricacion"
+			""
+			"&e&l★ Consejo:&r &7Iguala la rareza de la tinta a la del hechizo a inscribir."
+		]
 		quest.67E7A9A65B14C933.title: "Crusher"
 		quest.67E7A9A65B14C933.quest_subtitle: "El Crusher desbloquea mas."
 		quest.67E7A9A65B14C933.quest_desc: ["Mete el Crusher en tu inventario. El progreso constante paga."]
@@ -7476,9 +8246,19 @@
 		quest.68ABFE66AA9F17D6.title: "Worm"
 		quest.68ABFE66AA9F17D6.quest_subtitle: "En la rama del Worm."
 		quest.68ABFE66AA9F17D6.quest_desc: ["Aferra el Worm. La contabilidad importa."]
-		quest.68B44B9E939F4228.title: "Archevoker"
-		quest.68B44B9E939F4228.quest_subtitle: "Run limpio, un solo Archevoker."
-		quest.68B44B9E939F4228.quest_desc: ["Apunta al Archevoker. Paga su propio flete."]
+		quest.68B44B9E939F4228.title: "&c&lArchevoker"
+		quest.68B44B9E939F4228.quest_subtitle: "&7Vence a un lanzador de hechizos hostil"
+		quest.68B44B9E939F4228.quest_desc: [
+			"&c&lArchevoker"
+			"&8&m                            "
+			""
+			"&7Derrota al Archevoker, un lanzador hostil del mundo de"
+			"&7Iron Spells. Lanza hechizos tan feroces como un mago jugador."
+			""
+			"&c&lCategoria:&r &fJefe"
+			""
+			"&e&l★ Consejo:&r &7Los lanzadores enemigos esquivan y se protegen. Acortala distancia."
+		]
 		quest.68BFE0CECE64ED92.title: "Adherent"
 		quest.68BFE0CECE64ED92.quest_subtitle: "El Adherent abre mas."
 		quest.68BFE0CECE64ED92.quest_desc: ["Marca un Adherent. Constante es rapido."]
@@ -7545,15 +8325,35 @@
 		quest.695889817162EFC7.title: "Honey Bottle"
 		quest.695889817162EFC7.quest_subtitle: "Un Honey Bottle para el camino."
 		quest.695889817162EFC7.quest_desc: ["Ganate el Honey Bottle con esfuerzo. Cuenta."]
-		quest.6963EC8A71D66AE3.title: "Structure"
-		quest.6963EC8A71D66AE3.quest_subtitle: "Ganatelo: el Structure."
-		quest.6963EC8A71D66AE3.quest_desc: ["Anade un Structure a las provisiones. Un ladrillo mas en una pared."]
+		quest.6963EC8A71D66AE3.title: "&3&lMangrove Hut"
+		quest.6963EC8A71D66AE3.quest_subtitle: "&7Una estructura magica que explorar"
+		quest.6963EC8A71D66AE3.quest_desc: [
+			"&3&lMangrove Hut"
+			"&8&m                            "
+			""
+			"&7Encuentra el Mangrove Hut, una de las estructuras magicas"
+			"&7que el mod Iron Spells reparte por el mundo."
+			""
+			"&3&lCategoria:&r &fExploracion"
+			""
+			"&e&l★ Consejo:&r &7Estas estructuras guardan botin magico, pergaminos y equipo."
+		]
 		quest.69729EB2085145FF.title: "Minotaur"
 		quest.69729EB2085145FF.quest_subtitle: "Meta de hoy: el Minotaur."
 		quest.69729EB2085145FF.quest_desc: ["Anota el Minotaur como adquirido. El capitulo gira en torno a esto."]
-		quest.69763C2E2F454A73.title: "Fire Rune"
-		quest.69763C2E2F454A73.quest_subtitle: "El Fire Rune es un checkpoint."
-		quest.69763C2E2F454A73.quest_desc: ["Tacha el Fire Rune. El atajo no esta aqui."]
+		quest.69763C2E2F454A73.title: "&d&lFire Rune"
+		quest.69763C2E2F454A73.quest_subtitle: "&7Una runa de una escuela de hechizos"
+		quest.69763C2E2F454A73.quest_desc: [
+			"&d&lFire Rune"
+			"&8&m                            "
+			""
+			"&7Fabrica la Fire Rune. Las runas portan la esencia pura de"
+			"&7una escuela de hechizos para los orbes de mejora."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Combina runas en el yunque arcano para crear orbes de mejora."
+		]
 		quest.697E4E3E199836F2.title: "Stack Upgrade Starter Tier"
 		quest.697E4E3E199836F2.quest_subtitle: "Anade un Stack Upgrade Starter Tier."
 		quest.697E4E3E199836F2.quest_desc: ["Apunta el Stack Upgrade Starter Tier en el dossier. A tu ritmo."]
@@ -7570,9 +8370,19 @@
 			""
 			"&e&l★ Consejo:&r &7Encanta cada pieza. La armadura de diamante merece reparacion."
 		]
-		quest.69838E3F12218D68.title: "Scroll Forge"
-		quest.69838E3F12218D68.quest_subtitle: "Guarda el Scroll Forge para luego."
-		quest.69838E3F12218D68.quest_desc: ["Anota el Scroll Forge en tu bitacora. Cuenta."]
+		quest.69838E3F12218D68.title: "&a&lForja de Pergaminos"
+		quest.69838E3F12218D68.quest_subtitle: "&7Vincula hechizos en pergaminos"
+		quest.69838E3F12218D68.quest_desc: [
+			"&a&lForja de Pergaminos"
+			"&8&m                            "
+			""
+			"&7Fabrica la Forja de Pergaminos. Convierte hechizos"
+			"&7inscritos en pergaminos de un solo uso para cualquiera."
+			""
+			"&a&lCategoria:&r &fFabricacion"
+			""
+			"&e&l★ Consejo:&r &7Los pergaminos dejan a los no magos usar magia. Util para el equipo."
+		]
 		quest.698B4BE96F7A83A7.title: "Umvuthana"
 		quest.698B4BE96F7A83A7.quest_subtitle: "En ruta al Umvuthana."
 		quest.698B4BE96F7A83A7.quest_desc: ["Anade el Umvuthana al run. Util antes de lo que crees."]
@@ -7768,9 +8578,19 @@
 		quest.6CE4905E305CD0BC.title: "Bogged"
 		quest.6CE4905E305CD0BC.quest_subtitle: "El Bogged se paga solo."
 		quest.6CE4905E305CD0BC.quest_desc: ["El Bogged esta cerrando la siguiente quest. Medio camino hecho contigo."]
-		quest.6CE7115DA2B23776.title: "Objective"
-		quest.6CE7115DA2B23776.quest_subtitle: "Pesca el reto esta partida."
-		quest.6CE7115DA2B23776.quest_desc: ["Toma posesion del reto. Vale mas que su descripcion."]
+		quest.6CE7115DA2B23776.title: "&d&lIron Spell Book"
+		quest.6CE7115DA2B23776.quest_subtitle: "&7Un libro de hechizos de niveles de metal"
+		quest.6CE7115DA2B23776.quest_desc: [
+			"&d&lIron Spell Book"
+			"&8&m                            "
+			""
+			"&7Fabrica el Iron Spell Book. Un libro de hechizos guarda los"
+			"&7hechizos aprendidos y te deja lanzarlos en combate."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Los niveles superiores tienen mas ranuras de hechizo."
+		]
 		quest.6CEAA86EEAAC1203.title: "Amethyst Golem Charm"
 		quest.6CEAA86EEAAC1203.quest_subtitle: "Ganatelo: el Amethyst Golem Charm."
 		quest.6CEAA86EEAAC1203.quest_desc: ["Aferra el Amethyst Golem Charm. El progreso tranquilo gana."]
@@ -7796,9 +8616,19 @@
 		quest.6D1FA14D6488CB09.title: "Carminite Broodling"
 		quest.6D1FA14D6488CB09.quest_subtitle: "Pequeno paso: el Carminite Broodling."
 		quest.6D1FA14D6488CB09.quest_desc: ["Gana el Carminite Broodling. Habito chico, gran resultado."]
-		quest.6D232F6D8E8DA546.title: "Plagued Helmet"
-		quest.6D232F6D8E8DA546.quest_subtitle: "El Plagued Helmet: estructural."
-		quest.6D232F6D8E8DA546.quest_desc: ["Apunta al Plagued Helmet. Un ladrillo mas en una pared."]
+		quest.6D232F6D8E8DA546.title: "&9&lPlagued Robes"
+		quest.6D232F6D8E8DA546.quest_subtitle: "&7Un conjunto completo de Plagued Robes"
+		quest.6D232F6D8E8DA546.quest_desc: [
+			"&9&lPlagued Robes"
+			"&8&m                            "
+			""
+			"&7Forja la Plagued Robes, un conjunto completo de tunica de"
+			"&7mago. Las tunicas potencian su escuela de hechizos."
+			""
+			"&9&lCategoria:&r &fTunicas"
+			""
+			"&e&l★ Consejo:&r &7Lleva el conjunto completo para maximizar esa escuela."
+		]
 		quest.6D29C616456E4C26.title: "Mist Wolf"
 		quest.6D29C616456E4C26.quest_subtitle: "El Mist Wolf es un checkpoint."
 		quest.6D29C616456E4C26.quest_desc: ["Se te pide el Mist Wolf. Aparece pronto por algo."]
@@ -7817,9 +8647,19 @@
 		quest.6DAA82B5F94AF9F8.title: "Jar Of Light"
 		quest.6DAA82B5F94AF9F8.quest_subtitle: "En ruta al Jar Of Light."
 		quest.6DAA82B5F94AF9F8.quest_desc: ["Acumula el Jar Of Light. Puente entre lo hecho y lo siguiente."]
-		quest.6DB5732177AABB87.title: "Structure"
-		quest.6DB5732177AABB87.quest_subtitle: "El Structure es un checkpoint."
-		quest.6DB5732177AABB87.quest_desc: ["Asegura el Structure. Medio camino hecho contigo."]
+		quest.6DB5732177AABB87.title: "&3&lCatacombs"
+		quest.6DB5732177AABB87.quest_subtitle: "&7Una estructura magica que explorar"
+		quest.6DB5732177AABB87.quest_desc: [
+			"&3&lCatacombs"
+			"&8&m                            "
+			""
+			"&7Encuentra el Catacombs, una de las estructuras magicas"
+			"&7que el mod Iron Spells reparte por el mundo."
+			""
+			"&3&lCategoria:&r &fExploracion"
+			""
+			"&e&l★ Consejo:&r &7Estas estructuras guardan botin magico, pergaminos y equipo."
+		]
 		quest.6DB7FD713F69C7A2.title: "White Grape Crate"
 		quest.6DB7FD713F69C7A2.quest_subtitle: "Ganate el White Grape Crate, sin atajo."
 		quest.6DB7FD713F69C7A2.quest_desc: ["Marca un White Grape Crate. El progreso tranquilo gana."]
@@ -7934,9 +8774,19 @@
 		quest.6F4FE9074D774D25.title: "Winter Wolf"
 		quest.6F4FE9074D774D25.quest_subtitle: "Lleva el Winter Wolf."
 		quest.6F4FE9074D774D25.quest_desc: ["Cierra el Winter Wolf. Vale anotarlo."]
-		quest.6F5F1C525CF08F96.title: "Stick"
-		quest.6F5F1C525CF08F96.quest_subtitle: "Ganatelo: el Stick."
-		quest.6F5F1C525CF08F96.quest_desc: ["Cierra el Stick. Mas cerca de lo que el mapa sugiere."]
+		quest.6F5F1C525CF08F96.title: "&6&lPalo"
+		quest.6F5F1C525CF08F96.quest_subtitle: "&7El astil de cada baston"
+		quest.6F5F1C525CF08F96.quest_desc: [
+			"&6&lPalo"
+			"&8&m                            "
+			""
+			"&7Consigue palos de las tablas. Por humildes que sean,"
+			"&7los palos forman el astil de todo baston magico."
+			""
+			"&6&lCategoria:&r &fMateriales"
+			""
+			"&e&l★ Consejo:&r &7Manten una buena pila. Bastones, pergaminos y herramientas los piden."
+		]
 		quest.6F62B5510FA881CD.title: "Ingot Osmium"
 		quest.6F62B5510FA881CD.quest_subtitle: "En la rama del Ingot Osmium."
 		quest.6F62B5510FA881CD.quest_desc: ["Anade el Ingot Osmium al dossier. Un peldano mas escalado."]
@@ -8190,9 +9040,19 @@
 		quest.71D0D0278ECC62BA.title: "Objective"
 		quest.71D0D0278ECC62BA.quest_subtitle: "Un cima, victoria constante."
 		quest.71D0D0278ECC62BA.quest_desc: ["Guarda el cima en lugar seguro. El atajo no esta aqui."]
-		quest.71F0E9C36AA02B46.title: "Cinderous Soulcaller"
-		quest.71F0E9C36AA02B46.quest_subtitle: "Marca el Cinderous Soulcaller hecho."
-		quest.71F0E9C36AA02B46.quest_desc: ["Asegura el Cinderous Soulcaller. El desvio vale la pena."]
+		quest.71F0E9C36AA02B46.title: "&e&lInvocaalmas Cinereo"
+		quest.71F0E9C36AA02B46.quest_subtitle: "&7Un baston de fuego y almas"
+		quest.71F0E9C36AA02B46.quest_desc: [
+			"&e&lInvocaalmas Cinereo"
+			"&8&m                            "
+			""
+			"&7Forja el Invocaalmas Cinereo, un baston que ata la"
+			"&7magia de fuego a la llamada de las almas atadas."
+			""
+			"&e&lCategoria:&r &fArma"
+			""
+			"&e&l★ Consejo:&r &7Un baston potente de final. Premia un build de fuego e invocacion."
+		]
 		quest.72525C12A18EB16F.title: "Xp Pump Upgrade"
 		quest.72525C12A18EB16F.quest_subtitle: "Un Xp Pump Upgrade, victoria constante."
 		quest.72525C12A18EB16F.quest_desc: ["Gana el Xp Pump Upgrade paso a paso. Cuenta."]
@@ -8202,9 +9062,19 @@
 		quest.7267097D64E98122.title: "Advanced Magnet Upgrade"
 		quest.7267097D64E98122.quest_subtitle: "Meta de hoy: el Advanced Magnet Upgrade."
 		quest.7267097D64E98122.quest_desc: ["El Advanced Magnet Upgrade es parte de la cadena. Bola de nieve desde aqui."]
-		quest.7270A37E31A70C91.title: "Holy Rune"
-		quest.7270A37E31A70C91.quest_subtitle: "Marca el Holy Rune."
-		quest.7270A37E31A70C91.quest_desc: ["Cierra el Holy Rune. La ruta ensena tanto como el premio."]
+		quest.7270A37E31A70C91.title: "&d&lHoly Rune"
+		quest.7270A37E31A70C91.quest_subtitle: "&7Una runa de una escuela de hechizos"
+		quest.7270A37E31A70C91.quest_desc: [
+			"&d&lHoly Rune"
+			"&8&m                            "
+			""
+			"&7Fabrica la Holy Rune. Las runas portan la esencia pura de"
+			"&7una escuela de hechizos para los orbes de mejora."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Combina runas en el yunque arcano para crear orbes de mejora."
+		]
 		quest.727A422480154691.title: "Pillager"
 		quest.727A422480154691.quest_subtitle: "Lleva el Pillager."
 		quest.727A422480154691.quest_desc: ["Envuelve el Pillager. Una semilla para la bola de nieve."]
@@ -8227,9 +9097,19 @@
 			""
 			"&e&l★ Consejo:&r &7Cepilla la arena sospechosa de ruinas oceanicas calidas."
 		]
-		quest.72AB70FD8D8FABBF.title: "Dimension"
-		quest.72AB70FD8D8FABBF.quest_subtitle: "En la rama del Dimension."
-		quest.72AB70FD8D8FABBF.quest_desc: ["Sigue el rastro del Dimension. Constante es rapido."]
+		quest.72AB70FD8D8FABBF.title: "&3&lMagia del Nether"
+		quest.72AB70FD8D8FABBF.quest_subtitle: "&7Magia entre las llamas"
+		quest.72AB70FD8D8FABBF.quest_desc: [
+			"&3&lMagia del Nether"
+			"&8&m                            "
+			""
+			"&7Lleva tus hechizos al Nether. La magia de fuego y los"
+			"&7reactivos mas raros prosperan en este reino ardiente."
+			""
+			"&3&lCategoria:&r &fExploracion"
+			""
+			"&e&l★ Consejo:&r &7El Nether favorece la piromancia. Los hechizos de fuego pegan mas."
+		]
 		quest.72B321B3642B4432.title: "Death Tome"
 		quest.72B321B3642B4432.quest_subtitle: "Ladrillo: el Death Tome."
 		quest.72B321B3642B4432.quest_desc: ["Cierra el Death Tome. Capital silencioso."]
@@ -8349,9 +9229,19 @@
 		quest.73D19C0C1836CD03.title: "Glyph Crush"
 		quest.73D19C0C1836CD03.quest_subtitle: "Guarda el Glyph Crush para luego."
 		quest.73D19C0C1836CD03.quest_desc: ["Tacha el Glyph Crush de tu lista. Util antes de lo que crees."]
-		quest.73D6B980D35082A0.title: "Objective"
-		quest.73D6B980D35082A0.quest_subtitle: "El cresta abre mas."
-		quest.73D6B980D35082A0.quest_desc: ["Recoge el cresta de paso. El desvio vale la pena."]
+		quest.73D6B980D35082A0.title: "&d&lVillager Spell Book"
+		quest.73D6B980D35082A0.quest_subtitle: "&7Un libro de hechizos con caracter propio"
+		quest.73D6B980D35082A0.quest_desc: [
+			"&d&lVillager Spell Book"
+			"&8&m                            "
+			""
+			"&7Consigue el Villager Spell Book, un libro de hechizos especial con"
+			"&7un diseno unico, hallado en el mundo, no fabricado."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Los libros especiales caen de mobs o se ocultan en botin."
+		]
 		quest.73E6878553BA6908.title: "Bin"
 		quest.73E6878553BA6908.quest_subtitle: "El Bin es un punto de control."
 		quest.73E6878553BA6908.quest_desc: ["Consigue el Bin. Un peldano mas en esta rama."]
@@ -8361,9 +9251,19 @@
 		quest.73FC51144FC2DA52.title: "Vampiric Glove"
 		quest.73FC51144FC2DA52.quest_subtitle: "En la rama del Vampiric Glove."
 		quest.73FC51144FC2DA52.quest_desc: ["El Vampiric Glove: un peldano mas. Mas cerca de lo que el mapa sugiere."]
-		quest.7408CCF998D9CD37.title: "Objective"
-		quest.7408CCF998D9CD37.quest_subtitle: "Salto calmo: el objetivo."
-		quest.7408CCF998D9CD37.quest_desc: ["Anade el objetivo a tu reserva. Te has ganado una pausa."]
+		quest.7408CCF998D9CD37.title: "&d&lNetherite Spell Book"
+		quest.7408CCF998D9CD37.quest_subtitle: "&7Un libro de hechizos de niveles de metal"
+		quest.7408CCF998D9CD37.quest_desc: [
+			"&d&lNetherite Spell Book"
+			"&8&m                            "
+			""
+			"&7Fabrica el Netherite Spell Book. Un libro de hechizos guarda los"
+			"&7hechizos aprendidos y te deja lanzarlos en combate."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Los niveles superiores tienen mas ranuras de hechizo."
+		]
 		quest.74130EB1E4B8586D.title: "Cursed Honey"
 		quest.74130EB1E4B8586D.quest_subtitle: "Pesca el Cursed Honey esta partida."
 		quest.74130EB1E4B8586D.quest_desc: ["El Cursed Honey marca un punto de control. Sigue."]
@@ -8496,9 +9396,19 @@
 		quest.7651C82F288DD3F1.title: "Magma Cube"
 		quest.7651C82F288DD3F1.quest_subtitle: "Meta de hoy: el Magma Cube."
 		quest.7651C82F288DD3F1.quest_desc: ["Marchate con el Magma Cube. El progreso tranquilo gana."]
-		quest.76558D23A70AFF78.title: "Ice Upgrade Orb"
-		quest.76558D23A70AFF78.quest_subtitle: "Pesca el Ice Upgrade Orb esta partida."
-		quest.76558D23A70AFF78.quest_desc: ["El Ice Upgrade Orb: un hito tranquilo. Aparece pronto por algo."]
+		quest.76558D23A70AFF78.title: "&d&lIce Upgrade Orb"
+		quest.76558D23A70AFF78.quest_subtitle: "&7Vincula poder magico a tu equipo"
+		quest.76558D23A70AFF78.quest_desc: [
+			"&d&lIce Upgrade Orb"
+			"&8&m                            "
+			""
+			"&7Fabrica el Ice Upgrade Orb. Aplicalo en el yunque arcano para"
+			"&7vincular esa escuela de hechizos a un arma o tunica."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Los orbes suben el poder magico. Elige una escuela para especializarte."
+		]
 		quest.766A3AD0C4754B16.title: "Fire Beetle"
 		quest.766A3AD0C4754B16.quest_subtitle: "Ganancia modesta: el Fire Beetle."
 		quest.766A3AD0C4754B16.quest_desc: ["Hazte con el Fire Beetle. Te has ganado una pausa."]
@@ -8658,9 +9568,19 @@
 		quest.78A9855CB6F3B91D.title: "Objective"
 		quest.78A9855CB6F3B91D.quest_subtitle: "Salto calmo: el sena."
 		quest.78A9855CB6F3B91D.quest_desc: ["Hazte con el sena. Modesto ahora, poderoso despues."]
-		quest.78AA7BFABBFB9973.title: "Objective"
-		quest.78AA7BFABBFB9973.quest_subtitle: "Ganatelo: el cima."
-		quest.78AA7BFABBFB9973.quest_desc: ["Gana el cima con justicia. Un paso chico en un camino largo."]
+		quest.78AA7BFABBFB9973.title: "&d&lDruidic Spell Book"
+		quest.78AA7BFABBFB9973.quest_subtitle: "&7Un libro de hechizos con caracter propio"
+		quest.78AA7BFABBFB9973.quest_desc: [
+			"&d&lDruidic Spell Book"
+			"&8&m                            "
+			""
+			"&7Consigue el Druidic Spell Book, un libro de hechizos especial con"
+			"&7un diseno unico, hallado en el mundo, no fabricado."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Los libros especiales caen de mobs o se ocultan en botin."
+		]
 		quest.78BFDD3A9B996655.title: "Ender Lead"
 		quest.78BFDD3A9B996655.quest_subtitle: "Vale el desvio por el Ender Lead."
 		quest.78BFDD3A9B996655.quest_desc: ["Caza el Ender Lead. Capital silencioso."]
@@ -8748,9 +9668,19 @@
 		quest.794C8876AAC5368D.title: "Crafting Upgrade"
 		quest.794C8876AAC5368D.quest_subtitle: "Un paso perspicaz hacia el Crafting Upgrade."
 		quest.794C8876AAC5368D.quest_desc: ["Reserva el Crafting Upgrade. Constante es rapido."]
-		quest.794D6F9B8DB31E7D.title: "Ice Staff"
-		quest.794D6F9B8DB31E7D.quest_subtitle: "En el bolsillo: el Ice Staff."
-		quest.794D6F9B8DB31E7D.quest_desc: ["Marca un Ice Staff. Bola de nieve desde aqui."]
+		quest.794D6F9B8DB31E7D.title: "&e&lBaston de Hielo"
+		quest.794D6F9B8DB31E7D.quest_subtitle: "&7Un baston de escarcha mordaz"
+		quest.794D6F9B8DB31E7D.quest_desc: [
+			"&e&lBaston de Hielo"
+			"&8&m                            "
+			""
+			"&7Forja el Baston de Hielo. Amplifica la magia de hielo,"
+			"&7congelando y ralentizando con cada lanzamiento."
+			""
+			"&e&lCategoria:&r &fArma"
+			""
+			"&e&l★ Consejo:&r &7Ideal en un build criomante. Combinalo con la runa de hielo."
+		]
 		quest.7952DA35B4F5C598.title: "Fluid Tank"
 		quest.7952DA35B4F5C598.quest_subtitle: "Gana el Fluid Tank."
 		quest.7952DA35B4F5C598.quest_desc: ["Anade el Fluid Tank a tu reserva. Lo necesitaras pronto."]
@@ -8794,9 +9724,19 @@
 		quest.79E73904ACB25C1F.title: "Pillager"
 		quest.79E73904ACB25C1F.quest_subtitle: "Marca el Pillager."
 		quest.79E73904ACB25C1F.quest_desc: ["Embolsate el Pillager. Sigue."]
-		quest.79EC8A49368421BF.title: "Pyrium Ingot"
-		quest.79EC8A49368421BF.quest_subtitle: "Hito tranquilo con el Pyrium Ingot."
-		quest.79EC8A49368421BF.quest_desc: ["Toma el Pyrium Ingot. Aviso amistoso."]
+		quest.79EC8A49368421BF.title: "&6&lLingote de Pyrium"
+		quest.79EC8A49368421BF.quest_subtitle: "&7Metal forjado en llama eterna"
+		quest.79EC8A49368421BF.quest_desc: [
+			"&6&lLingote de Pyrium"
+			"&8&m                            "
+			""
+			"&7Funde lingotes de pyrium, el metal tocado por el fuego"
+			"&7en el corazon de los bastones y equipo piromante."
+			""
+			"&6&lCategoria:&r &fMateriales"
+			""
+			"&e&l★ Consejo:&r &7El pyrium ama el calor. Fundelo con polvo de blaze para mejor resultado."
+		]
 		quest.7A0062CC416556C9.title: "Ritual Dummy Craft Phlogiport"
 		quest.7A0062CC416556C9.quest_subtitle: "Hito tranquilo con el Ritual Dummy Craft Phlogiport."
 		quest.7A0062CC416556C9.quest_desc: ["Toma posesion del Ritual Dummy Craft Phlogiport. Las runs pacientes ganan."]
@@ -8919,9 +9859,19 @@
 		quest.7C76853028000EA6.title: "Wither"
 		quest.7C76853028000EA6.quest_subtitle: "El Wither: guino del capitulo."
 		quest.7C76853028000EA6.quest_desc: ["Anade el Wither al run. Guardado para luego."]
-		quest.7C79BCE482A06199.title: "Ice Rune"
-		quest.7C79BCE482A06199.quest_subtitle: "Ladrillo: el Ice Rune."
-		quest.7C79BCE482A06199.quest_desc: ["Trae el Ice Rune a buen puerto. El progreso tranquilo gana."]
+		quest.7C79BCE482A06199.title: "&d&lIce Rune"
+		quest.7C79BCE482A06199.quest_subtitle: "&7Una runa de una escuela de hechizos"
+		quest.7C79BCE482A06199.quest_desc: [
+			"&d&lIce Rune"
+			"&8&m                            "
+			""
+			"&7Fabrica la Ice Rune. Las runas portan la esencia pura de"
+			"&7una escuela de hechizos para los orbes de mejora."
+			""
+			"&d&lCategoria:&r &fHechizos"
+			""
+			"&e&l★ Consejo:&r &7Combina runas en el yunque arcano para crear orbes de mejora."
+		]
 		quest.7C8F05F106504325.title: "Zombified Piglin"
 		quest.7C8F05F106504325.quest_subtitle: "Un paso sincero hacia el Zombified Piglin."
 		quest.7C8F05F106504325.quest_desc: ["Empaca el Zombified Piglin. La calma vence al apuro."]
@@ -9157,18 +10107,38 @@
 		quest.7F84D14828AD5586.title: "Skeleton"
 		quest.7F84D14828AD5586.quest_subtitle: "Lleva el Skeleton."
 		quest.7F84D14828AD5586.quest_desc: ["Anade el Skeleton. El desvio vale la pena."]
-		quest.7F85669FEA41CD97.title: "Priest"
-		quest.7F85669FEA41CD97.quest_subtitle: "En la rama del Priest."
-		quest.7F85669FEA41CD97.quest_desc: ["Envuelve el Priest. Modesto ahora, poderoso despues."]
+		quest.7F85669FEA41CD97.title: "&c&lPriest"
+		quest.7F85669FEA41CD97.quest_subtitle: "&7Vence a un lanzador de hechizos hostil"
+		quest.7F85669FEA41CD97.quest_desc: [
+			"&c&lPriest"
+			"&8&m                            "
+			""
+			"&7Derrota al Priest, un lanzador hostil del mundo de"
+			"&7Iron Spells. Lanza hechizos tan feroces como un mago jugador."
+			""
+			"&c&lCategoria:&r &fJefe"
+			""
+			"&e&l★ Consejo:&r &7Los lanzadores enemigos esquivan y se protegen. Acortala distancia."
+		]
 		quest.7F97805EE8DFC9F6.title: "Glyph Grow"
 		quest.7F97805EE8DFC9F6.quest_subtitle: "Ganancia modesta: el Glyph Grow."
 		quest.7F97805EE8DFC9F6.quest_desc: ["Trae el Glyph Grow. Confia en la cadena."]
 		quest.7FA85713C86166DA.title: "Wireless Autocrafting Monitor"
 		quest.7FA85713C86166DA.quest_subtitle: "Un Wireless Autocrafting Monitor, victoria robusto."
 		quest.7FA85713C86166DA.quest_desc: ["Conserva el Wireless Autocrafting Monitor. Confia en la cadena."]
-		quest.7FC54AF87CBDD222.title: "Structure"
-		quest.7FC54AF87CBDD222.quest_subtitle: "Meta de hoy: el Structure."
-		quest.7FC54AF87CBDD222.quest_desc: ["Pon las manos sobre el Structure. La calma vence al apuro."]
+		quest.7FC54AF87CBDD222.title: "&3&lAncient Battleground"
+		quest.7FC54AF87CBDD222.quest_subtitle: "&7Una estructura magica que explorar"
+		quest.7FC54AF87CBDD222.quest_desc: [
+			"&3&lAncient Battleground"
+			"&8&m                            "
+			""
+			"&7Encuentra el Ancient Battleground, una de las estructuras magicas"
+			"&7que el mod Iron Spells reparte por el mundo."
+			""
+			"&3&lCategoria:&r &fExploracion"
+			""
+			"&e&l★ Consejo:&r &7Estas estructuras guardan botin magico, pergaminos y equipo."
+		]
 		quest.7FCFF06E25064761.title: "Redcap Sapper"
 		quest.7FCFF06E25064761.quest_subtitle: "El Redcap Sapper abre mas."
 		quest.7FCFF06E25064761.quest_desc: ["Gana el Redcap Sapper paso a paso. Modesto ahora, poderoso despues."]
