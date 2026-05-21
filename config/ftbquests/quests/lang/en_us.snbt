@@ -2332,9 +2332,20 @@
 		quest.1172E136299164FC.title: "Infinite Item Storage Part"
 		quest.1172E136299164FC.quest_subtitle: "The Infinite Item Storage Part is a checkpoint."
 		quest.1172E136299164FC.quest_desc: ["Bag the Infinite Item Storage Part. Closer than the map suggests."]
-		quest.118508ABA596D292.title: "Waystone"
-		quest.118508ABA596D292.quest_subtitle: "Earn the Waystone."
-		quest.118508ABA596D292.quest_desc: ["Track down the Waystone. The effort is well worth the reward."]
+		quest.118508ABA596D292.title: "&b&lWaystones"
+		quest.118508ABA596D292.quest_subtitle: "&7Place and activate a fast-travel anchor"
+		quest.118508ABA596D292.quest_desc: [
+			"&b&lWaystones"
+			"&8&m                            "
+			""
+			"&7Waystones come in six styles, from plain to mossy,"
+			"&7sandy, deepslate, blackstone and ender. Place one,"
+			"&7name it and activate it to join the travel network."
+			""
+			"&b&lCategory:&r &fTeleport Blocks"
+			""
+			"&e&l★ Tip:&r &7They also generate in the wild. Activate every one you find."
+		]
 		quest.1187F9D4F4E0D254.title: "Wrench"
 		quest.1187F9D4F4E0D254.quest_subtitle: "The Wrench unlocks more."
 		quest.1187F9D4F4E0D254.quest_desc: ["Pack the Wrench. Friendly nudge."]
@@ -4168,9 +4179,20 @@
 		quest.244177379ECFA7A4.title: "Elder Guardian"
 		quest.244177379ECFA7A4.quest_subtitle: "Add one Elder Guardian."
 		quest.244177379ECFA7A4.quest_desc: ["Find the Elder Guardian. The chapter pivots around it."]
-		quest.2463D78A94248D44.title: "Warp Plate"
-		quest.2463D78A94248D44.quest_subtitle: "A Warp Plate for the road."
-		quest.2463D78A94248D44.quest_desc: ["Add the Warp Plate to your stockpile. Pays its own freight."]
+		quest.2463D78A94248D44.title: "&b&lWarp Plate"
+		quest.2463D78A94248D44.quest_subtitle: "&7Step on it to teleport hands-free"
+		quest.2463D78A94248D44.quest_desc: [
+			"&b&lWarp Plate"
+			"&8&m                            "
+			""
+			"&7A Warp Plate teleports you the instant you stand on it."
+			"&7Attune a shard inside the plate to choose where it"
+			"&7sends you, linking two plates into a one-step route."
+			""
+			"&b&lCategory:&r &fTeleport Blocks"
+			""
+			"&e&l★ Tip:&r &7Perfect for paths you cross many times every day."
+		]
 		quest.2464E9BB74DD4D49.title: "Magma Cube"
 		quest.2464E9BB74DD4D49.quest_subtitle: "focused run, single Magma Cube."
 		quest.2464E9BB74DD4D49.quest_desc: ["Snag the Magma Cube. Worth more than its tooltip says."]
@@ -5202,9 +5224,20 @@
 		quest.2DA37686B8A3D2A7.title: "Zombie"
 		quest.2DA37686B8A3D2A7.quest_subtitle: "Bookmark the Zombie."
 		quest.2DA37686B8A3D2A7.quest_desc: ["Unlock the Zombie. One more rung climbed."]
-		quest.2DB8B2FAF259CDE4.title: "Return Scroll"
-		quest.2DB8B2FAF259CDE4.quest_subtitle: "quiet milestone: the Return Scroll."
-		quest.2DB8B2FAF259CDE4.quest_desc: ["Note the Return Scroll acquired. Small habit, big result."]
+		quest.2DB8B2FAF259CDE4.title: "&d&lReturn Scroll"
+		quest.2DB8B2FAF259CDE4.quest_subtitle: "&7Always find your way back home"
+		quest.2DB8B2FAF259CDE4.quest_desc: [
+			"&d&lReturn Scroll"
+			"&8&m                            "
+			""
+			"&7The Return Scroll sends you to the nearest activated"
+			"&7waystone. It is reusable, so you can fall back on it"
+			"&7again and again whenever you are lost or in danger."
+			""
+			"&d&lCategory:&r &fWarp Items"
+			""
+			"&e&l★ Tip:&r &7Carry one as your emergency exit on every expedition."
+		]
 		quest.2DC2DA7DBC111E5F.title: "Hoglin"
 		quest.2DC2DA7DBC111E5F.quest_subtitle: "Stash the Hoglin for later."
 		quest.2DC2DA7DBC111E5F.quest_desc: ["Cross the Hoglin off your list. Worth more than its tooltip says."]
@@ -5809,9 +5842,20 @@
 		quest.3376292DB572B21E.title: "Turbine Engine"
 		quest.3376292DB572B21E.quest_subtitle: "calm hop: the Turbine Engine."
 		quest.3376292DB572B21E.quest_desc: ["Pocket the Turbine Engine. Friendly nudge."]
-		quest.3379441A7893D22C.title: "Warp Stone"
-		quest.3379441A7893D22C.quest_subtitle: "Pocketed: the Warp Stone."
-		quest.3379441A7893D22C.quest_desc: ["Pocket the Warp Stone. Modular progress, small steps."]
+		quest.3379441A7893D22C.title: "&d&lWarp Stone"
+		quest.3379441A7893D22C.quest_subtitle: "&7A reusable teleport on a cooldown"
+		quest.3379441A7893D22C.quest_desc: [
+			"&d&lWarp Stone"
+			"&8&m                            "
+			""
+			"&7The Warp Stone warps you to any discovered waystone and"
+			"&7is never used up. After each jump it needs a short"
+			"&7cooldown before it can fire again."
+			""
+			"&d&lCategory:&r &fWarp Items"
+			""
+			"&e&l★ Tip:&r &7One stone replaces a stack of scrolls. Keep it on your hotbar."
+		]
 		quest.33868136F840F66A.title: "&6&lRunefused Gem"
 		quest.33868136F840F66A.quest_subtitle: "&7A gem charged with rune power"
 		quest.33868136F840F66A.quest_desc: [
@@ -11111,9 +11155,20 @@
 		quest.66E096BEA0FA72F7.title: "Creeper"
 		quest.66E096BEA0FA72F7.quest_subtitle: "Tiny step: the Creeper."
 		quest.66E096BEA0FA72F7.quest_desc: ["Cross off the Creeper. Trust the chain."]
-		quest.670468931286CFDE.title: "Blank Scroll"
-		quest.670468931286CFDE.quest_subtitle: "Modest gain: the Blank Scroll."
-		quest.670468931286CFDE.quest_desc: ["Wrap the Blank Scroll. Press on."]
+		quest.670468931286CFDE.title: "&d&lBlank and Warp Scrolls"
+		quest.670468931286CFDE.quest_subtitle: "&7Write and spend one-time teleports"
+		quest.670468931286CFDE.quest_desc: [
+			"&d&lBlank and Warp Scrolls"
+			"&8&m                            "
+			""
+			"&7A Blank Scroll is a writable page, use it on a waystone"
+			"&7to bind it into a Bound Scroll. A Warp Scroll is a"
+			"&7single jump to any waystone, spent the moment you use it."
+			""
+			"&d&lCategory:&r &fWarp Items"
+			""
+			"&e&l★ Tip:&r &7Keep warp scrolls for emergencies and bind blanks for routine trips."
+		]
 		quest.67116868F3376796.title: "Auto Smoking Upgrade"
 		quest.67116868F3376796.quest_subtitle: "wary milestone: the Auto Smoking Upgrade."
 		quest.67116868F3376796.quest_desc: ["Walk away with the Auto Smoking Upgrade. Useful sooner than you think."]
@@ -11260,9 +11315,20 @@
 			""
 			"&e&l★ Tip:&r &7Sneak, stay quiet and never wake the Warden unprepared."
 		]
-		quest.683453231D0CC5C8.title: "Sharestone"
-		quest.683453231D0CC5C8.quest_subtitle: "On the way to the Sharestone."
-		quest.683453231D0CC5C8.quest_desc: ["Get hold of the Sharestone. The chapter builds directly on it."]
+		quest.683453231D0CC5C8.title: "&b&lSharestones"
+		quest.683453231D0CC5C8.quest_subtitle: "&7Link a private colored network"
+		quest.683453231D0CC5C8.quest_desc: [
+			"&b&lSharestones"
+			"&8&m                            "
+			""
+			"&7Sharestones come in fifteen colors. Every sharestone of"
+			"&7one color links to all the others of that same color,"
+			"&7forming a private teleport network you build yourself."
+			""
+			"&b&lCategory:&r &fTeleport Blocks"
+			""
+			"&e&l★ Tip:&r &7Pick one color per route so your network stays easy to read."
+		]
 		quest.6852BEFDD4DE4E4B.title: "&b&lSoul Touched Deepshelf"
 		quest.6852BEFDD4DE4E4B.quest_subtitle: "&7The Soul Touched Deepshelf, an enchanting shelf"
 		quest.6852BEFDD4DE4E4B.quest_desc: [
@@ -12380,9 +12446,20 @@
 		quest.71914A308F99C6C6.title: "Sheep Fossil Body"
 		quest.71914A308F99C6C6.quest_subtitle: "The Sheep Fossil Body pays its way."
 		quest.71914A308F99C6C6.quest_desc: ["Pick up the Sheep Fossil Body. Worth more than its tooltip says."]
-		quest.719B18CB4993CB83.title: "White Portstone"
-		quest.719B18CB4993CB83.quest_subtitle: "Earn it: the White Portstone."
-		quest.719B18CB4993CB83.quest_desc: ["Get the White Portstone. You earned a pause."]
+		quest.719B18CB4993CB83.title: "&b&lPortstone"
+		quest.719B18CB4993CB83.quest_subtitle: "&7A departure point, never a destination"
+		quest.719B18CB4993CB83.quest_desc: [
+			"&b&lPortstone"
+			"&8&m                            "
+			""
+			"&7Right-click a Portstone to open the waystone menu and"
+			"&7warp away to any discovered destination. You can leave"
+			"&7from a portstone, but you can never teleport to one."
+			""
+			"&b&lCategory:&r &fTeleport Blocks"
+			""
+			"&e&l★ Tip:&r &7Place one as a public departure hub. It comes in sixteen colors."
+		]
 		quest.71CF9E59F8F0B4A6.title: "Elite Control Circuit"
 		quest.71CF9E59F8F0B4A6.quest_subtitle: "A steady step toward the Elite Control Circuit."
 		quest.71CF9E59F8F0B4A6.quest_desc: ["Carry the Elite Control Circuit forward. A small step on a long road."]
@@ -12494,9 +12571,20 @@
 			""
 			"&e&l★ Tip:&r &7It shines against fast attackers and crowds of mobs."
 		]
-		quest.72D97CF2C936CFF8.title: "Warp Dust"
-		quest.72D97CF2C936CFF8.quest_subtitle: "A Warp Dust for the road."
-		quest.72D97CF2C936CFF8.quest_desc: ["Stamp the Warp Dust into your dossier. Press on."]
+		quest.72D97CF2C936CFF8.title: "&e&lWarp Dust and Dormant Shards"
+		quest.72D97CF2C936CFF8.quest_subtitle: "&7Gather the raw magic of teleportation"
+		quest.72D97CF2C936CFF8.quest_desc: [
+			"&e&lWarp Dust and Dormant Shards"
+			"&8&m                            "
+			""
+			"&7Warp Dust is the base material for every scroll and"
+			"&7warp item in the network. A Dormant Shard is an"
+			"&7unattuned crystal that a warp plate brings to life."
+			""
+			"&e&lCategory:&r &fWarp Materials"
+			""
+			"&e&l★ Tip:&r &7Stockpile 16 dust and 8 shards now to fuel the rest of this chapter."
+		]
 		quest.72F0ED9715540F75.title: "Frostmaw"
 		quest.72F0ED9715540F75.quest_subtitle: "Quiet milestone with the Frostmaw."
 		quest.72F0ED9715540F75.quest_desc: ["Wrap up the Frostmaw. Quiet progress beats loud setbacks."]

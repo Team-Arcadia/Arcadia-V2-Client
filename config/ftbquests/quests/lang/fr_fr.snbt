@@ -2268,9 +2268,20 @@
 		quest.1172E136299164FC.title: "Infinite Item Storage Part"
 		quest.1172E136299164FC.quest_subtitle: "Le Infinite Item Storage Part est un point d etape."
 		quest.1172E136299164FC.quest_desc: ["Prenez le Infinite Item Storage Part. Plus proche que la carte ne suggere."]
-		quest.118508ABA596D292.title: "Waystone"
-		quest.118508ABA596D292.quest_subtitle: "Gagnez le Waystone."
-		quest.118508ABA596D292.quest_desc: ["Trouvez le Waystone. L effort vaut largement la recompense."]
+		quest.118508ABA596D292.title: "&b&lBornes de Voyage"
+		quest.118508ABA596D292.quest_subtitle: "&7Posez et activez une ancre de voyage rapide"
+		quest.118508ABA596D292.quest_desc: [
+			"&b&lBornes de Voyage"
+			"&8&m                            "
+			""
+			"&7Les Bornes de Voyage ont six styles, de la simple a la"
+			"&7moussue, sableuse, en ardoise, en blackstone et de l End."
+			"&7Posez-en une, nommez-la et activez-la pour rejoindre le reseau."
+			""
+			"&b&lCategorie:&r &fBlocs de Teleportation"
+			""
+			"&e&l★ Astuce:&r &7Elles apparaissent aussi dans la nature. Activez chacune trouvee."
+		]
 		quest.1187F9D4F4E0D254.title: "Wrench"
 		quest.1187F9D4F4E0D254.quest_subtitle: "Le Wrench ouvre plus."
 		quest.1187F9D4F4E0D254.quest_desc: ["Gagnez le Wrench. Petit rappel amical."]
@@ -4104,9 +4115,20 @@
 		quest.244177379ECFA7A4.title: "Elder Guardian"
 		quest.244177379ECFA7A4.quest_subtitle: "Ajoutez un Elder Guardian."
 		quest.244177379ECFA7A4.quest_desc: ["Ajoutez le Elder Guardian a vos reserves. Le chapitre tourne autour."]
-		quest.2463D78A94248D44.title: "Warp Plate"
-		quest.2463D78A94248D44.quest_subtitle: "Un Warp Plate pour la route."
-		quest.2463D78A94248D44.quest_desc: ["Le Warp Plate : un barreau de plus. Paye son propre fret."]
+		quest.2463D78A94248D44.title: "&b&lPlaque de Warp"
+		quest.2463D78A94248D44.quest_subtitle: "&7Marchez dessus pour teleporter sans effort"
+		quest.2463D78A94248D44.quest_desc: [
+			"&b&lPlaque de Warp"
+			"&8&m                            "
+			""
+			"&7Une Plaque de Warp vous teleporte des que vous montez"
+			"&7dessus. Accordez un eclat dans la plaque pour choisir"
+			"&7la destination et relier deux plaques en un seul pas."
+			""
+			"&b&lCategorie:&r &fBlocs de Teleportation"
+			""
+			"&e&l★ Astuce:&r &7Parfaite pour les trajets que vous faites plusieurs fois par jour."
+		]
 		quest.2464E9BB74DD4D49.title: "Magma Cube"
 		quest.2464E9BB74DD4D49.quest_subtitle: "Run concentre, un seul Magma Cube."
 		quest.2464E9BB74DD4D49.quest_desc: ["Trouvez le Magma Cube. Vaut plus que son texte annonce."]
@@ -5138,9 +5160,20 @@
 		quest.2DA37686B8A3D2A7.title: "Zombie"
 		quest.2DA37686B8A3D2A7.quest_subtitle: "Mettez le Zombie en signet."
 		quest.2DA37686B8A3D2A7.quest_desc: ["Bouclez le Zombie. Un barreau de plus a gravir."]
-		quest.2DB8B2FAF259CDE4.title: "Return Scroll"
-		quest.2DB8B2FAF259CDE4.quest_subtitle: "Cap calme : le Return Scroll."
-		quest.2DB8B2FAF259CDE4.quest_desc: ["Cherchez le Return Scroll. Petite habitude, grand resultat."]
+		quest.2DB8B2FAF259CDE4.title: "&d&lParchemin de Retour"
+		quest.2DB8B2FAF259CDE4.quest_subtitle: "&7Retrouvez toujours le chemin du retour"
+		quest.2DB8B2FAF259CDE4.quest_desc: [
+			"&d&lParchemin de Retour"
+			"&8&m                            "
+			""
+			"&7Le Parchemin de Retour vous renvoie vers la borne active"
+			"&7la plus proche. Il est reutilisable, vous pouvez donc y"
+			"&7recourir encore et encore en cas de perte ou de danger."
+			""
+			"&d&lCategorie:&r &fObjets de Teleportation"
+			""
+			"&e&l★ Astuce:&r &7Gardez-en un comme sortie de secours a chaque expedition."
+		]
 		quest.2DC2DA7DBC111E5F.title: "Hoglin"
 		quest.2DC2DA7DBC111E5F.quest_subtitle: "Reservez le Hoglin pour plus tard."
 		quest.2DC2DA7DBC111E5F.quest_desc: ["Decrochez le Hoglin. Vaut plus que son texte annonce."]
@@ -5745,9 +5778,20 @@
 		quest.3376292DB572B21E.title: "Turbine Engine"
 		quest.3376292DB572B21E.quest_subtitle: "Saut serein : le Turbine Engine."
 		quest.3376292DB572B21E.quest_desc: ["Mettez le Turbine Engine de cote. Petit rappel amical."]
-		quest.3379441A7893D22C.title: "Warp Stone"
-		quest.3379441A7893D22C.quest_subtitle: "Empoche : le Warp Stone."
-		quest.3379441A7893D22C.quest_desc: ["Le Warp Stone : porteur, pas tonitruant. Progres modulaire, petits pas."]
+		quest.3379441A7893D22C.title: "&d&lPierre de Warp"
+		quest.3379441A7893D22C.quest_subtitle: "&7Une teleportation reutilisable a recharge"
+		quest.3379441A7893D22C.quest_desc: [
+			"&d&lPierre de Warp"
+			"&8&m                            "
+			""
+			"&7La Pierre de Warp vous teleporte vers toute borne"
+			"&7decouverte et ne s use jamais. Apres chaque saut, elle"
+			"&7a besoin d une courte recharge avant de servir a nouveau."
+			""
+			"&d&lCategorie:&r &fObjets de Teleportation"
+			""
+			"&e&l★ Astuce:&r &7Une pierre remplace une pile de parchemins. Gardez-la en barre."
+		]
 		quest.33868136F840F66A.title: "&6&lGemme Runefusee"
 		quest.33868136F840F66A.quest_subtitle: "&7Une gemme chargee de pouvoir runique"
 		quest.33868136F840F66A.quest_desc: [
@@ -11047,9 +11091,20 @@
 		quest.66E096BEA0FA72F7.title: "Creeper"
 		quest.66E096BEA0FA72F7.quest_subtitle: "Petit pas : le Creeper."
 		quest.66E096BEA0FA72F7.quest_desc: ["Atteignez le Creeper. Faites confiance a la chaine."]
-		quest.670468931286CFDE.title: "Blank Scroll"
-		quest.670468931286CFDE.quest_subtitle: "Gain modeste : le Blank Scroll."
-		quest.670468931286CFDE.quest_desc: ["Le Blank Scroll se paie tout seul. Continuez."]
+		quest.670468931286CFDE.title: "&d&lParchemins Vierge et de Warp"
+		quest.670468931286CFDE.quest_subtitle: "&7Ecrivez et depensez des sauts uniques"
+		quest.670468931286CFDE.quest_desc: [
+			"&d&lParchemins Vierge et de Warp"
+			"&8&m                            "
+			""
+			"&7Un Parchemin Vierge est une page a ecrire, utilisez-le sur"
+			"&7une borne pour le lier en Parchemin Lie. Un Parchemin de"
+			"&7Warp est un saut unique vers une borne, depense a l usage."
+			""
+			"&d&lCategorie:&r &fObjets de Teleportation"
+			""
+			"&e&l★ Astuce:&r &7Gardez des parchemins de warp en secours et liez les vierges."
+		]
 		quest.67116868F3376796.title: "Auto Smoking Upgrade"
 		quest.67116868F3376796.quest_subtitle: "Cap prudent : le Auto Smoking Upgrade."
 		quest.67116868F3376796.quest_desc: ["Ajoutez le Auto Smoking Upgrade a votre journal. Utile plus tot que prevu."]
@@ -11196,9 +11251,20 @@
 			""
 			"&e&l★ Astuce:&r &7Avancez accroupi, en silence, et ne reveillez jamais le Warden."
 		]
-		quest.683453231D0CC5C8.title: "Sharestone"
-		quest.683453231D0CC5C8.quest_subtitle: "Sur la route du Sharestone."
-		quest.683453231D0CC5C8.quest_desc: ["Procurez-vous le Sharestone. Le chapitre s appuie dessus directement."]
+		quest.683453231D0CC5C8.title: "&b&lPierres de Partage"
+		quest.683453231D0CC5C8.quest_subtitle: "&7Reliez un reseau prive en couleur"
+		quest.683453231D0CC5C8.quest_desc: [
+			"&b&lPierres de Partage"
+			"&8&m                            "
+			""
+			"&7Les Pierres de Partage ont quinze couleurs. Chaque pierre"
+			"&7d une couleur se relie a toutes les autres de cette couleur,"
+			"&7formant un reseau de teleportation prive que vous batissez."
+			""
+			"&b&lCategorie:&r &fBlocs de Teleportation"
+			""
+			"&e&l★ Astuce:&r &7Une couleur par trajet, votre reseau reste ainsi lisible."
+		]
 		quest.6852BEFDD4DE4E4B.title: "&b&lSoul Touched Deepshelf"
 		quest.6852BEFDD4DE4E4B.quest_subtitle: "&7La Soul Touched Deepshelf, une etagere magique"
 		quest.6852BEFDD4DE4E4B.quest_desc: [
@@ -12316,9 +12382,20 @@
 		quest.71914A308F99C6C6.title: "Sheep Fossil Body"
 		quest.71914A308F99C6C6.quest_subtitle: "Le Sheep Fossil Body paye son chemin."
 		quest.71914A308F99C6C6.quest_desc: ["Cueillez le Sheep Fossil Body. Vaut plus que son texte annonce."]
-		quest.719B18CB4993CB83.title: "White Portstone"
-		quest.719B18CB4993CB83.quest_subtitle: "Gagnez-le : le White Portstone."
-		quest.719B18CB4993CB83.quest_desc: ["Epinglez le White Portstone a l inventaire. Vous avez merite une pause."]
+		quest.719B18CB4993CB83.title: "&b&lPierre de Port"
+		quest.719B18CB4993CB83.quest_subtitle: "&7Un point de depart, jamais une arrivee"
+		quest.719B18CB4993CB83.quest_desc: [
+			"&b&lPierre de Port"
+			"&8&m                            "
+			""
+			"&7Clic droit sur une Pierre de Port pour ouvrir le menu et"
+			"&7partir vers toute destination decouverte. On part d une"
+			"&7pierre de port, mais on ne peut jamais s y teleporter."
+			""
+			"&b&lCategorie:&r &fBlocs de Teleportation"
+			""
+			"&e&l★ Astuce:&r &7Posez-en une comme hub de depart public. Seize couleurs existent."
+		]
 		quest.71CF9E59F8F0B4A6.title: "Elite Control Circuit"
 		quest.71CF9E59F8F0B4A6.quest_subtitle: "Un pas regulier vers le Elite Control Circuit."
 		quest.71CF9E59F8F0B4A6.quest_desc: ["Gagnez le Elite Control Circuit. Il vaut plus que son texte annonce. Un petit pas sur une longue route."]
@@ -12430,9 +12507,20 @@
 			""
 			"&e&l★ Astuce:&r &7Il brille contre les attaquants rapides et les foules de mobs."
 		]
-		quest.72D97CF2C936CFF8.title: "Warp Dust"
-		quest.72D97CF2C936CFF8.quest_subtitle: "Un Warp Dust pour la route."
-		quest.72D97CF2C936CFF8.quest_desc: ["Le Warp Dust est votre prochaine recompense. Continuez."]
+		quest.72D97CF2C936CFF8.title: "&e&lPoussiere de Warp et Eclats Dormants"
+		quest.72D97CF2C936CFF8.quest_subtitle: "&7Recoltez la magie brute de la teleportation"
+		quest.72D97CF2C936CFF8.quest_desc: [
+			"&e&lPoussiere de Warp et Eclats Dormants"
+			"&8&m                            "
+			""
+			"&7La Poussiere de Warp est le materiau de base de chaque"
+			"&7parchemin et objet du reseau. Un Eclat Dormant est un"
+			"&7cristal non accorde qu une plaque de warp reveille."
+			""
+			"&e&lCategorie:&r &fMateriaux de Teleportation"
+			""
+			"&e&l★ Astuce:&r &7Stockez 16 poussieres et 8 eclats pour alimenter ce chapitre."
+		]
 		quest.72F0ED9715540F75.title: "Frostmaw"
 		quest.72F0ED9715540F75.quest_subtitle: "Etape calme avec le Frostmaw."
 		quest.72F0ED9715540F75.quest_desc: ["Rayez le Frostmaw de votre liste. Le progres tranquille bat les revers bruyants."]
