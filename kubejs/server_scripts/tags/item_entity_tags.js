@@ -173,6 +173,9 @@ const ARCADIA_FARM_BLACKLIST = [
     'mutantmonsters:mutant_snow_golem',
     'mutantmonsters:mutant_zombie',
 
+    // Supplementaries — Plunderer spawns with a parrot on shoulder; parrots stack and lag the server
+    'supplementaries:plunderer',
+
     // Ars Nouveau — utility/familiar mobs (free duplication exploit even with no drops)
     'ars_nouveau:wixie',
     'ars_nouveau:amethyst_golem',
