@@ -341,15 +341,15 @@ LootJS.modifiers((event) => {
 
   /**
    * =========================================
-   * 10. MIMIC NERF (No Artifact Drops)
+   * 10. MIMIC NERF (20% Artifact Drops)
    * =========================================
    */
   event
     .addTableModifier("artifacts:entities/mimic")
     .removeLoot(Ingredient.of(/.*/))
-    .randomChance(0.99);
+    .randomChance(0.80);
 
   console.info(
-    "[Arcadia V2] Loot Nerf Applied: Global loot nerf active with probability tiers (0.01% to 50%, Artifacts 20%).",
+    "[Arcadia V2] Loot Nerf Applied: Global loot nerf active with probability tiers (0.01% to 50%, Artifacts 20%, Mimic 20%).",
   );
 });
