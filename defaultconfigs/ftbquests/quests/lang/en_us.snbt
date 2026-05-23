@@ -448,9 +448,19 @@
 		]
 	quest.0100FD7D7D4F668D.quest_subtitle: "&710 Maze Slimes slain"
 	quest.0100FD7D7D4F668D.title: "&5&lHunt 10 Maze Slimes"
-	quest.0106CEEC2B54ABD7.quest_desc: ["Bring home the Umvuthana Mask Fury. Saved for later use."]
-	quest.0106CEEC2B54ABD7.quest_subtitle: "Modest gain: the Umvuthana Mask Fury."
-	quest.0106CEEC2B54ABD7.title: "Umvuthana Mask Fury"
+	quest.0106CEEC2B54ABD7.quest_desc: [
+			"&d&lMask of Fury"
+			"&8&m                            "
+			""
+			"&7The Mask of Fury is dropped by an Umvuthana and grants"
+			"&7Strength to the one who wears it."
+			""
+			"&d&lCategory:&r &fUmvuthana Masks"
+			""
+			"&e&l★ Tip:&r &7Pair it with the Sol Visage to summon a fury minion at your side."
+		]
+	quest.0106CEEC2B54ABD7.quest_subtitle: "&7Wear the strength of a warrior"
+	quest.0106CEEC2B54ABD7.title: "&d&lMask of Fury"
 	quest.01073AA85CA14C9D.quest_desc: [
 			"&c&lHunt 700 Elder Guardians"
 			"&8&m                            "
@@ -1486,9 +1496,19 @@
 		]
 	quest.0624CAFEE8A54EC2.quest_subtitle: "&7300 Witches slain"
 	quest.0624CAFEE8A54EC2.title: "&c&lHunt 300 Witches"
-	quest.062635D392FB2206.quest_desc: ["Lock in the Sol Visage. Worth pinning."]
-	quest.062635D392FB2206.quest_subtitle: "The Sol Visage: load-bearing."
-	quest.062635D392FB2206.title: "Sol Visage"
+	quest.062635D392FB2206.quest_desc: [
+			"&6&lSol Visage"
+			"&8&m                            "
+			""
+			"&7The Sol Visage is the legendary mask of Umvuthi himself."
+			"&7It never breaks, and unlocks the power to summon mask minions."
+			""
+			"&6&lCategory:&r &fSacred Relics"
+			""
+			"&e&l★ Tip:&r &7Wear the Visage, then right-click while holding any other mask to call a follower."
+		]
+	quest.062635D392FB2206.quest_subtitle: "&7The mask of the sunbird, never to break"
+	quest.062635D392FB2206.title: "&6&lSol Visage"
 	quest.0641F45BEA6C67E5.quest_desc: [
 		"&d&lConjure Water Glyph"
 		"&8&m                            "
@@ -2692,9 +2712,19 @@
 		]
 	quest.0B6950F705B589CC.quest_subtitle: "&7900 Umvuthana slain"
 	quest.0B6950F705B589CC.title: "&6&lHunt 900 Umvuthana"
-	quest.0B87502598386D31.quest_desc: ["Hunt down the Umvuthana. You earned a pause."]
-	quest.0B87502598386D31.quest_subtitle: "Modest gain: the Umvuthana."
-	quest.0B87502598386D31.title: "Umvuthana"
+	quest.0B87502598386D31.quest_desc: [
+			"&a&lUmvuthana"
+			"&8&m                            "
+			""
+			"&7Umvuthana are masked tribal warriors who guard the groves"
+			"&7of Umvuthi. Each falls with a mask to give as a trophy."
+			""
+			"&a&lCategory:&r &fCreatures"
+			""
+			"&e&l★ Tip:&r &7Defeat ten to start a collection of their varied tribal masks."
+		]
+	quest.0B87502598386D31.quest_subtitle: "&7Hunt the masked warriors of the grove"
+	quest.0B87502598386D31.title: "&a&lUmvuthana"
 	quest.0BA70145FCB4497E.quest_desc: [
 			"&c&lHunt 800 Silverfish"
 			"&8&m                            "
@@ -2878,9 +2908,19 @@
 		]
 	quest.0C4BE81B7BF64C47.quest_subtitle: "&7400 Minotaurs slain"
 	quest.0C4BE81B7BF64C47.title: "&5&lHunt 400 Minotaurs"
-	quest.0C670865D72E30BE.quest_desc: ["Pick up the Music Disc Petiole on your way through. A small step on a long road."]
-	quest.0C670865D72E30BE.quest_subtitle: "sharp prize: the Music Disc Petiole."
-	quest.0C670865D72E30BE.title: "Music Disc Petiole"
+	quest.0C670865D72E30BE.quest_desc: [
+			"&6&lMusic Disc Petiole"
+			"&8&m                            "
+			""
+			"&7Music Disc Petiole is a rare drop from a slain Foliaath. It"
+			"&7plays the soft, swaying theme of the snapping jungle plant."
+			""
+			"&6&lCategory:&r &fSacred Relics"
+			""
+			"&e&l★ Tip:&r &7Drop it into a Jukebox to hear Foliaath s tune."
+		]
+	quest.0C670865D72E30BE.quest_subtitle: "&7The song of the snapping plant"
+	quest.0C670865D72E30BE.title: "&6&lMusic Disc Petiole"
 	quest.0CA3CA98D5604736.quest_desc: [
 			"&c&lHunt 900 Piglins"
 			"&8&m                            "
@@ -4310,9 +4350,19 @@
 	]
 	quest.13B8CF4D8E7C71B8.quest_subtitle: "&7A faster, automatic steel forge"
 	quest.13B8CF4D8E7C71B8.title: "&b&lImproved Blast Furnace"
-	quest.13C9EF5619D21BDC.quest_desc: ["Capture the Umvuthi. Friendly nudge."]
-	quest.13C9EF5619D21BDC.quest_subtitle: "Build out the Umvuthi chain."
-	quest.13C9EF5619D21BDC.title: "Umvuthi"
+	quest.13C9EF5619D21BDC.quest_desc: [
+			"&c&lUmvuthi, the Sunbird"
+			"&8&m                            "
+			""
+			"&7Umvuthi is the sun-bird shaman who leads the Umvuthana"
+			"&7tribe. Defeat him in his blazing grove and earn his trust."
+			""
+			"&c&lCategory:&r &fBosses"
+			""
+			"&e&l★ Tip:&r &7Killing him grants the Sun s Blessing and drops the Sol Visage."
+		]
+	quest.13C9EF5619D21BDC.quest_subtitle: "&7Slay the burning shaman of the savanna"
+	quest.13C9EF5619D21BDC.title: "&c&lUmvuthi, the Sunbird"
 	quest.13D5232C40D341EA.quest_desc: [
 			"&c&lHunt 800 Wardens"
 			"&8&m                            "
@@ -5411,9 +5461,19 @@
 	]
 	quest.18E0F5A78F696FA3.quest_subtitle: "&7Make mobs drop extra loot"
 	quest.18E0F5A78F696FA3.title: "&d&lEcho Shard"
-	quest.18FC884DB14888E3.quest_desc: ["Stockpile the Umvuthana Mask Faith. Calm focus beats rushing."]
-	quest.18FC884DB14888E3.quest_subtitle: "Earn it: the Umvuthana Mask Faith."
-	quest.18FC884DB14888E3.title: "Umvuthana Mask Faith"
+	quest.18FC884DB14888E3.quest_desc: [
+			"&d&lMask of Faith"
+			"&8&m                            "
+			""
+			"&7The Mask of Faith is dropped by an Umvuthana and grants a"
+			"&7Health Boost while you wear it."
+			""
+			"&d&lCategory:&r &fUmvuthana Masks"
+			""
+			"&e&l★ Tip:&r &7Pair it with the Sol Visage to summon a faith minion at your side."
+		]
+	quest.18FC884DB14888E3.quest_subtitle: "&7Wear the gift of hardier health"
+	quest.18FC884DB14888E3.title: "&d&lMask of Faith"
 	quest.1908C8D1B4D6A02F.quest_desc: [
 			"&9&lCompression Upgrade"
 			"&8&m                            "
@@ -5870,9 +5930,19 @@
 		]
 	quest.1B0E807A5CF04F6D.quest_subtitle: "&7Press red grapes into wine stock"
 	quest.1B0E807A5CF04F6D.title: "&e&lRed Grape Pomace"
-	quest.1B27408EFFD426E5.quest_desc: ["The Umvuthana Mask Fear: small object, real progress. Quiet progress beats loud setbacks."]
-	quest.1B27408EFFD426E5.quest_subtitle: "Build out the Umvuthana Mask Fear chain."
-	quest.1B27408EFFD426E5.title: "Umvuthana Mask Fear"
+	quest.1B27408EFFD426E5.quest_desc: [
+			"&d&lMask of Fear"
+			"&8&m                            "
+			""
+			"&7The Mask of Fear is dropped by an Umvuthana and grants"
+			"&7Swiftness to the wearer."
+			""
+			"&d&lCategory:&r &fUmvuthana Masks"
+			""
+			"&e&l★ Tip:&r &7Pair it with the Sol Visage to summon a fear minion at your side."
+		]
+	quest.1B27408EFFD426E5.quest_subtitle: "&7Wear the gift of swift feet"
+	quest.1B27408EFFD426E5.title: "&d&lMask of Fear"
 	quest.1B3610576BF388FC.quest_desc: [
 		"&e&lNetherite-Gold Helmet"
 		"&8&m                            "
@@ -5912,9 +5982,19 @@
 		]
 	quest.1B97A927466243EB.quest_subtitle: "&7800 Giant Miners slain"
 	quest.1B97A927466243EB.title: "&5&lHunt 800 Giant Miners"
-	quest.1BA234A475900BB4.quest_desc: ["Add the Bluff. Bookkeeping matters."]
-	quest.1BA234A475900BB4.quest_subtitle: "Mark the Bluff done."
-	quest.1BA234A475900BB4.title: "Bluff"
+	quest.1BA234A475900BB4.quest_desc: [
+			"&a&lBluff"
+			"&8&m                            "
+			""
+			"&7The Bluff is a large bipedal creature of the wilds, slow"
+			"&7at first but stunning hard when it commits to a charge."
+			""
+			"&a&lCategory:&r &fCreatures"
+			""
+			"&e&l★ Tip:&r &7Slay ten of them to learn the rhythm of their charging stomps."
+		]
+	quest.1BA234A475900BB4.quest_subtitle: "&7Hunt the bipedal beast of the wilds"
+	quest.1BA234A475900BB4.title: "&a&lBluff"
 	quest.1BCBD33A512D416C.quest_desc: [
 			"&c&lHunt 300 Breezes"
 			"&8&m                            "
@@ -5967,9 +6047,19 @@
 		]
 	quest.1C1B28F80856A0ED.quest_subtitle: "&7500 Lower Goblin Knights slain"
 	quest.1C1B28F80856A0ED.title: "&5&lHunt 500 Lower Goblin Knights"
-	quest.1C32EF75858381F9.quest_desc: ["Find the Umvuthana Crane. Pace yourself."]
-	quest.1C32EF75858381F9.quest_subtitle: "The Umvuthana Crane is a checkpoint."
-	quest.1C32EF75858381F9.title: "Umvuthana Crane"
+	quest.1C32EF75858381F9.quest_desc: [
+			"&a&lUmvuthana Crane"
+			"&8&m                            "
+			""
+			"&7The Crane Umvuthana wear long-beaked masks and dance to"
+			"&7strike from range with their staves."
+			""
+			"&a&lCategory:&r &fCreatures"
+			""
+			"&e&l★ Tip:&r &7Defeat ten to learn the cadence of their hopping dance."
+		]
+	quest.1C32EF75858381F9.quest_subtitle: "&7Hunt the crane-masked warriors"
+	quest.1C32EF75858381F9.title: "&a&lUmvuthana Crane"
 	quest.1C37884AFA3743A5.quest_desc: [
 		"&d&lThunderbrand"
 		"&8&m                            "
@@ -6246,9 +6336,19 @@
 	]
 	quest.1D86B2E553503E53.quest_subtitle: "&7Link your magic machines"
 	quest.1D86B2E553503E53.title: "&e&lDominion Wand"
-	quest.1D9550BF8E5E4B70.quest_desc: ["The Foliaath is asked of you. Press on."]
-	quest.1D9550BF8E5E4B70.quest_subtitle: "Stash the Foliaath for later."
-	quest.1D9550BF8E5E4B70.title: "Foliaath"
+	quest.1D9550BF8E5E4B70.quest_desc: [
+			"&a&lFoliaath"
+			"&8&m                            "
+			""
+			"&7The Foliaath is a predatory jungle plant that hides as a"
+			"&7sprout, then snaps shut when prey wanders too near."
+			""
+			"&a&lCategory:&r &fCreatures"
+			""
+			"&e&l★ Tip:&r &7Slay five. Kill one for a chance at its music disc, Petiole."
+		]
+	quest.1D9550BF8E5E4B70.quest_subtitle: "&7Hunt the snapping plant of the jungle"
+	quest.1D9550BF8E5E4B70.title: "&a&lFoliaath"
 	quest.1DE0F289821F55D1.quest_desc: [
 		"&f&lYellow, Purple and Gray Chalk"
 		"&8&m                            "
@@ -8226,9 +8326,19 @@
 	]
 	quest.27512B0434531195.quest_subtitle: "&7Inject ore for a fourfold yield"
 	quest.27512B0434531195.title: "&a&lChemical Injection Chamber"
-	quest.276C14958CD316F4.quest_desc: ["The Umvuthana Raptor is the next pivot. A small step on a long road."]
-	quest.276C14958CD316F4.quest_subtitle: "spry hop: the Umvuthana Raptor."
-	quest.276C14958CD316F4.title: "Umvuthana Raptor"
+	quest.276C14958CD316F4.quest_desc: [
+			"&a&lUmvuthana Raptor"
+			"&8&m                            "
+			""
+			"&7The Raptor Umvuthana wear curved-beak masks and dart in"
+			"&7fast to peck and slash at close range."
+			""
+			"&a&lCategory:&r &fCreatures"
+			""
+			"&e&l★ Tip:&r &7Defeat ten of these swift, hard-hitting raptors."
+		]
+	quest.276C14958CD316F4.quest_subtitle: "&7Hunt the raptor-masked warriors"
+	quest.276C14958CD316F4.title: "&a&lUmvuthana Raptor"
 	quest.27871D2348B2B749.quest_desc: [
 			"&c&lHunt 1000 Strays"
 			"&8&m                            "
@@ -8373,9 +8483,19 @@
 	]
 	quest.281E99039CF57672.quest_subtitle: "&7Turn rotation into electricity"
 	quest.281E99039CF57672.title: "&c&lDynamo"
-	quest.28264E03EBC7F081.quest_desc: ["Pin the Naga to your inventory. Soft milestone."]
-	quest.28264E03EBC7F081.quest_subtitle: "steadfast prize: the Naga."
-	quest.28264E03EBC7F081.title: "Naga"
+	quest.28264E03EBC7F081.quest_desc: [
+			"&a&lNaga"
+			"&8&m                            "
+			""
+			"&7The Naga is a flying serpent that dives at prey from cliff"
+			"&7perches, biting and gliding away before it can be cornered."
+			""
+			"&a&lCategory:&r &fCreatures"
+			""
+			"&e&l★ Tip:&r &7Slay five and harvest fangs to craft the Naga Fang Dagger."
+		]
+	quest.28264E03EBC7F081.quest_subtitle: "&7Hunt the swooping serpent of the cliffs"
+	quest.28264E03EBC7F081.title: "&a&lNaga"
 	quest.282EED6988B55EC4.quest_desc: [
 			"&6&lHunt 1000 Crane Umvuthana"
 			"&8&m                            "
@@ -10187,9 +10307,19 @@
 	]
 	quest.30C5B597610F4AFB.quest_subtitle: "&7Lime chalk for summoning circles"
 	quest.30C5B597610F4AFB.title: "&f&lLime Ritual Chalk"
-	quest.30E9F12E63802E7C.quest_desc: ["Pin the Lantern to your inventory. One more rung climbed."]
-	quest.30E9F12E63802E7C.quest_subtitle: "The Lantern is a checkpoint."
-	quest.30E9F12E63802E7C.title: "Lantern"
+	quest.30E9F12E63802E7C.quest_desc: [
+			"&a&lLantern"
+			"&8&m                            "
+			""
+			"&7The Lantern is a floating spirit of light that drifts in"
+			"&7quiet caves, ready to flash a blinding warning when disturbed."
+			""
+			"&a&lCategory:&r &fCreatures"
+			""
+			"&e&l★ Tip:&r &7Slay five for the soft light they leave behind when broken."
+		]
+	quest.30E9F12E63802E7C.quest_subtitle: "&7Hunt the floating spirit lantern"
+	quest.30E9F12E63802E7C.title: "&a&lLantern"
 	quest.30EB438C66324213.quest_desc: [
 		"&b&lNether Star"
 		"&8&m                            "
@@ -15410,9 +15540,19 @@
 		]
 	quest.4923E92CB3F1B9F7.quest_subtitle: "&750 Armored Giants slain"
 	quest.4923E92CB3F1B9F7.title: "&5&lHunt 50 Armored Giants"
-	quest.4924798E2CB9B39A.quest_desc: ["Bring the Umvuthana Mask Misery into the fold. Trust the chain."]
-	quest.4924798E2CB9B39A.quest_subtitle: "watchful run, single Umvuthana Mask Misery."
-	quest.4924798E2CB9B39A.title: "Umvuthana Mask Misery"
+	quest.4924798E2CB9B39A.quest_desc: [
+			"&d&lMask of Misery"
+			"&8&m                            "
+			""
+			"&7The Mask of Misery is dropped by an Umvuthana and grants"
+			"&7Resistance to the one who wears it."
+			""
+			"&d&lCategory:&r &fUmvuthana Masks"
+			""
+			"&e&l★ Tip:&r &7Pair it with the Sol Visage to summon a misery minion at your side."
+		]
+	quest.4924798E2CB9B39A.quest_subtitle: "&7Wear the gift of harder skin"
+	quest.4924798E2CB9B39A.title: "&d&lMask of Misery"
 	quest.4926C95DD02F1410.quest_desc: [
 		"&b&lLaser"
 		"&8&m                            "
@@ -20317,9 +20457,19 @@
 	]
 	quest.60B52705049D1BA5.quest_subtitle: "&7Wash dirty slurry clean"
 	quest.60B52705049D1BA5.title: "&a&lChemical Washer"
-	quest.60BD4C0B9B308ABF.quest_desc: ["Snag the Umvuthana Mask Rage on the way. Bridges what you did with what is next."]
-	quest.60BD4C0B9B308ABF.quest_subtitle: "Add one Umvuthana Mask Rage."
-	quest.60BD4C0B9B308ABF.title: "Umvuthana Mask Rage"
+	quest.60BD4C0B9B308ABF.quest_desc: [
+			"&d&lMask of Rage"
+			"&8&m                            "
+			""
+			"&7The Mask of Rage is dropped by an Umvuthana and grants"
+			"&7Haste, mining and swinging faster."
+			""
+			"&d&lCategory:&r &fUmvuthana Masks"
+			""
+			"&e&l★ Tip:&r &7Pair it with the Sol Visage to summon a rage minion at your side."
+		]
+	quest.60BD4C0B9B308ABF.quest_subtitle: "&7Wear the gift of mining haste"
+	quest.60BD4C0B9B308ABF.title: "&d&lMask of Rage"
 	quest.60ECCCAB66AAC05D.quest_desc: [
 		"&3&lLogistical Transporters"
 		"&8&m                            "
@@ -21079,9 +21229,19 @@
 		]
 	quest.650FF1EF423AD71D.quest_subtitle: "&7800 Magma Cubes slain"
 	quest.650FF1EF423AD71D.title: "&c&lHunt 800 Magma Cubes"
-	quest.65259E5177B27DB2.quest_desc: ["Bag the Grottol. Small habit, big result."]
-	quest.65259E5177B27DB2.quest_subtitle: "One Grottol, one steadfast win."
-	quest.65259E5177B27DB2.title: "Grottol"
+	quest.65259E5177B27DB2.quest_desc: [
+			"&a&lGrottol"
+			"&8&m                            "
+			""
+			"&7The Grottol is a small, shy gem-snail that lives in deep"
+			"&7caves and is covered in glittering diamond."
+			""
+			"&a&lCategory:&r &fCreatures"
+			""
+			"&e&l★ Tip:&r &7Mine it with Fortune to get more diamonds, or Silk Touch to free it."
+		]
+	quest.65259E5177B27DB2.quest_subtitle: "&7Hunt the gem-snail of the deep caves"
+	quest.65259E5177B27DB2.title: "&a&lGrottol"
 	quest.652A14E17DDE97E6.quest_desc: [
 		"&d&lDragonskin Spell Book"
 		"&8&m                            "
@@ -24365,9 +24525,19 @@
 	]
 	quest.72D97CF2C936CFF8.quest_subtitle: "&7Gather the raw magic of teleportation"
 	quest.72D97CF2C936CFF8.title: "&e&lWarp Dust and Dormant Shards"
-	quest.72F0ED9715540F75.quest_desc: ["Wrap up the Frostmaw. Quiet progress beats loud setbacks."]
-	quest.72F0ED9715540F75.quest_subtitle: "Quiet milestone with the Frostmaw."
-	quest.72F0ED9715540F75.title: "Frostmaw"
+	quest.72F0ED9715540F75.quest_desc: [
+			"&c&lFrostmaw"
+			"&8&m                            "
+			""
+			"&7Frostmaw is a giant ice saber-tooth that hibernates atop"
+			"&7snowy mountains. Wake it and survive its claws and frost."
+			""
+			"&c&lCategory:&r &fBosses"
+			""
+			"&e&l★ Tip:&r &7Cut an ice crystal from its tail mid-fight for a powerful drop."
+		]
+	quest.72F0ED9715540F75.quest_subtitle: "&7Slay the saber-tooth of the peaks"
+	quest.72F0ED9715540F75.title: "&c&lFrostmaw"
 	quest.7304EC9CE6E74A6D.quest_desc: [
 			"&c&lHunt 700 Magma Cubes"
 			"&8&m                            "
@@ -25417,9 +25587,19 @@
 	]
 	quest.779C2162C69DAE8E.quest_subtitle: "&7The Summon Wolves Glyph, a word of magic"
 	quest.779C2162C69DAE8E.title: "&d&lSummon Wolves Glyph"
-	quest.779C910C2BF54AEA.quest_desc: ["Take the Ferrous Wroughtnaut. Counts."]
-	quest.779C910C2BF54AEA.quest_subtitle: "honest milestone: the Ferrous Wroughtnaut."
-	quest.779C910C2BF54AEA.title: "Ferrous Wroughtnaut"
+	quest.779C910C2BF54AEA.quest_desc: [
+			"&c&lFerrous Wroughtnaut"
+			"&8&m                            "
+			""
+			"&7The Ferrous Wroughtnaut is a giant armored knight asleep in"
+			"&7ancient ruins, woken only when you strike his great helm."
+			""
+			"&c&lCategory:&r &fBosses"
+			""
+			"&e&l★ Tip:&r &7He drops the Wrought Helm and the Axe of a Thousand Metals."
+		]
+	quest.779C910C2BF54AEA.quest_subtitle: "&7Topple the iron knight of the ruins"
+	quest.779C910C2BF54AEA.title: "&c&lFerrous Wroughtnaut"
 	quest.77D1C140D9720475.quest_desc: [
 		"&6&lChicken Fossil"
 		"&8&m                            "
@@ -26385,9 +26565,19 @@
 		]
 	quest.7B778F80B62847F7.quest_subtitle: "&7100 Slime Beetles slain"
 	quest.7B778F80B62847F7.title: "&5&lHunt 100 Slime Beetles"
-	quest.7B811EA3A738189A.quest_desc: ["Carry the Umvuthana Mask Bliss forward. Next door is in sight."]
-	quest.7B811EA3A738189A.quest_subtitle: "The Umvuthana Mask Bliss unlocks more."
-	quest.7B811EA3A738189A.title: "Umvuthana Mask Bliss"
+	quest.7B811EA3A738189A.quest_desc: [
+			"&d&lMask of Bliss"
+			"&8&m                            "
+			""
+			"&7The Mask of Bliss is dropped by an Umvuthana and grants a"
+			"&7Jump Boost as long as you wear it."
+			""
+			"&d&lCategory:&r &fUmvuthana Masks"
+			""
+			"&e&l★ Tip:&r &7Pair it with the Sol Visage to summon a bliss minion at your side."
+		]
+	quest.7B811EA3A738189A.quest_subtitle: "&7Wear the gift of higher leaps"
+	quest.7B811EA3A738189A.title: "&d&lMask of Bliss"
 	quest.7B93433AFC09E0AD.quest_desc: [
 		"&b&lThe Nether Call"
 		"&8&m                                "
