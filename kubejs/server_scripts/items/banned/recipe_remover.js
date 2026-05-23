@@ -194,7 +194,10 @@ ServerEvents.recipes(event => {
     'ars_additions:exploration_warp_scroll',
 
     // DnDesires
-    'dndesires:gold_mixer'
+    'dndesires:gold_mixer',
+
+    // Twilight Forest (Uncrafting Table - allows free item duplication exploit)
+    'twilightforest:uncrafting_table'
   ];
 
   // Disable vanilla item repair recipe (prevents dual-wield weapons from merging)
