@@ -336,6 +336,16 @@ LootJS.modifiers((event) => {
 
     // Ars Additions (server crash loop on use)
     "ars_additions:exploration_warp_scroll",
+
+    // Create Encased (Mechanical Saw casings - broken belt I/O, items get stuck)
+    "createcasing:brass_mechanical_saw",
+    "createcasing:copper_mechanical_saw",
+    "createcasing:creative_mechanical_saw",
+    "createcasing:industrial_iron_mechanical_saw",
+    "createcasing:railway_mechanical_saw",
+    "createcasing:refined_radiance_mechanical_saw",
+    "createcasing:shadow_steel_mechanical_saw",
+    "createcasing:weathered_iron_mechanical_saw",
   ];
   chest.removeLoot(bannedItems);
 

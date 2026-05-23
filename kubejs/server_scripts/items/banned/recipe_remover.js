@@ -197,7 +197,17 @@ ServerEvents.recipes(event => {
     'dndesires:gold_mixer',
 
     // Twilight Forest (Uncrafting Table - allows free item duplication exploit)
-    'twilightforest:uncrafting_table'
+    'twilightforest:uncrafting_table',
+
+    // Create Encased (Mechanical Saw casings - broken belt I/O, items get stuck)
+    'createcasing:brass_mechanical_saw',
+    'createcasing:copper_mechanical_saw',
+    'createcasing:creative_mechanical_saw',
+    'createcasing:industrial_iron_mechanical_saw',
+    'createcasing:railway_mechanical_saw',
+    'createcasing:refined_radiance_mechanical_saw',
+    'createcasing:shadow_steel_mechanical_saw',
+    'createcasing:weathered_iron_mechanical_saw'
   ];
 
   // Disable vanilla item repair recipe (prevents dual-wield weapons from merging)
