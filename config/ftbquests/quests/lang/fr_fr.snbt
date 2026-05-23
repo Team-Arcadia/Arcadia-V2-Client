@@ -3442,9 +3442,19 @@
 	]
 	quest.0F632D914ED16546.quest_subtitle: "&7Le vin petillant des grandes fetes"
 	quest.0F632D914ED16546.title: "&d&lChampagne"
-	quest.0F787CCED84DB48D.quest_desc: ["Gardez le borne. Le calme bat la precipitation."]
-	quest.0F787CCED84DB48D.quest_subtitle: "Mettez le borne en signet."
-	quest.0F787CCED84DB48D.title: "Objective"
+	quest.0F787CCED84DB48D.quest_desc: [
+			"&d&lProduit X Persistant"
+			"&8&m                            "
+			""
+			"&7Une Potion Persistante de Produit X laisse un nuage lent de"
+			"&7mutagene, mutant toute creature qui le traverse."
+			""
+			"&d&lCategorie:&r &fProduit X"
+			""
+			"&e&l★ Astuce:&r &7Un piege utile dans une arene a mobs vanilla a muter."
+		]
+	quest.0F787CCED84DB48D.quest_subtitle: "&7Laissez un nuage de mutagene"
+	quest.0F787CCED84DB48D.title: "&d&lProduit X Persistant"
 	quest.0F89BFD4A3F63A48.quest_desc: [
 		"&b&lLanterne des Ames"
 		"&8&m                            "
@@ -3809,9 +3819,19 @@
 		]
 	quest.10F4B84FDF3D49D5.quest_subtitle: "&7500 Araignees Roi abattus"
 	quest.10F4B84FDF3D49D5.title: "&5&lChassez 500 Araignees Roi"
-	quest.110E85422C21EFDE.quest_desc: ["Decrochez le Mutant Skeleton Pelvis. Fait le pont entre l avant et l apres."]
-	quest.110E85422C21EFDE.quest_subtitle: "Renforcez la chaine du Mutant Skeleton Pelvis."
-	quest.110E85422C21EFDE.title: "Mutant Skeleton Pelvis"
+	quest.110E85422C21EFDE.quest_desc: [
+			"&e&lBassin de Squelette Mutant"
+			"&8&m                            "
+			""
+			"&7Un Bassin de Squelette Mutant est l os pelvien large laisse"
+			"&7par le Squelette Mutant, base des jambieres."
+			""
+			"&e&lCategorie:&r &fOssements de Squelette"
+			""
+			"&e&l★ Astuce:&r &7Sans le bassin, les jambieres ne tiennent pas leur forme."
+		]
+	quest.110E85422C21EFDE.quest_subtitle: "&7Os du bassin pour les jambieres"
+	quest.110E85422C21EFDE.title: "&e&lBassin de Squelette Mutant"
 	quest.111649D7E16D869F.quest_desc: [
 		"&e&lBaguette"
 		"&8&m                            "
@@ -4178,9 +4198,19 @@
 	]
 	quest.126DC4A12BD179A9.quest_subtitle: "&7Tainted Relic, une lame legendaire unique"
 	quest.126DC4A12BD179A9.title: "&d&lTainted Relic"
-	quest.126E4A3D722C772E.quest_desc: ["Le Mutant Skeleton Rib Cage ouvre plus de portes qu il n y parait. La route en apprend autant que la prise."]
-	quest.126E4A3D722C772E.quest_subtitle: "Empoche : le Mutant Skeleton Rib Cage."
-	quest.126E4A3D722C772E.title: "Mutant Skeleton Rib Cage"
+	quest.126E4A3D722C772E.quest_desc: [
+			"&e&lCage Thoracique de Squelette Mutant"
+			"&8&m                            "
+			""
+			"&7Une Cage Thoracique de Squelette Mutant est une piece lourde"
+			"&7laissee par le Squelette Mutant, coeur du plastron."
+			""
+			"&e&lCategorie:&r &fOssements de Squelette"
+			""
+			"&e&l★ Astuce:&r &7Une cage et les bonnes cotes forment le plastron complet."
+		]
+	quest.126E4A3D722C772E.quest_subtitle: "&7La cage osseuse renforcee"
+	quest.126E4A3D722C772E.title: "&e&lCage Thoracique de Squelette Mutant"
 	quest.129190BA74B56B02.quest_desc: [
 		"&f&lNetherite-Iron Jambieres"
 		"&8&m                            "
@@ -7761,9 +7791,19 @@
 	]
 	quest.24B835A774FA1F72.quest_subtitle: "&7Pressez les graines en fluides utiles"
 	quest.24B835A774FA1F72.title: "&6&lLa Presseuse"
-	quest.24B87A9A3C7C34AF.quest_desc: ["Cherchez le Mutant Skeleton. Visez la chose d apres."]
-	quest.24B87A9A3C7C34AF.quest_subtitle: "Un Mutant Skeleton pour la route."
-	quest.24B87A9A3C7C34AF.title: "Mutant Skeleton"
+	quest.24B87A9A3C7C34AF.quest_desc: [
+			"&c&lSquelette Mutant"
+			"&8&m                            "
+			""
+			"&7Le Squelette Mutant est un archer mort-vivant de cinq metres"
+			"&7qui tire des fleches mutantes et bondit a travers le champ."
+			""
+			"&c&lCategorie:&r &fBoss Mutants"
+			""
+			"&e&l★ Astuce:&r &7Il lache des ossements pour la panoplie complete d armure."
+		]
+	quest.24B87A9A3C7C34AF.quest_subtitle: "&7Abattez le geant osseux bondissant"
+	quest.24B87A9A3C7C34AF.title: "&c&lSquelette Mutant"
 	quest.24BAC1C0392E950E.quest_desc: [
 		"&9&lPriest Robes"
 		"&8&m                            "
@@ -8639,9 +8679,19 @@
 	]
 	quest.28D9ED74EBBC9818.quest_subtitle: "&7Le Wilden Summon Ritual, un rite de pouvoir"
 	quest.28D9ED74EBBC9818.title: "&5&lWilden Summon Ritual"
-	quest.28E71B6DF4733BDF.quest_desc: ["Prenez possession du Mutant Snow Golem. Utile plus tot que prevu."]
-	quest.28E71B6DF4733BDF.quest_subtitle: "Gagnez le Mutant Snow Golem, la voie serein."
-	quest.28E71B6DF4733BDF.title: "Mutant Snow Golem"
+	quest.28E71B6DF4733BDF.quest_desc: [
+			"&c&lGolem de Neige Mutant"
+			"&8&m                            "
+			""
+			"&7Le Golem de Neige Mutant est un bonhomme de neige aspirge"
+			"&7de Produit X, devenu une brute glaciale et feroce."
+			""
+			"&c&lCategorie:&r &fBoss Mutants"
+			""
+			"&e&l★ Astuce:&r &7C est vous qui le faites, preparez la defense avant le X."
+		]
+	quest.28E71B6DF4733BDF.quest_subtitle: "&7Tuez le bonhomme de neige enrage"
+	quest.28E71B6DF4733BDF.title: "&c&lGolem de Neige Mutant"
 	quest.28E8A2C190A62A9B.quest_desc: [
 			"&c&lChassez 800 Endermans"
 			"&8&m                            "
@@ -8993,9 +9043,19 @@
 	]
 	quest.2A21E0E615C09D3D.quest_subtitle: "&7Vaincre le vent lui-meme"
 	quest.2A21E0E615C09D3D.title: "&e&lChasseur de Breeze"
-	quest.2A299E4D99FBF36D.quest_desc: ["Pliez le badge. Vaut plus que son texte annonce."]
-	quest.2A299E4D99FBF36D.quest_subtitle: "Saut vigilant : le badge."
-	quest.2A299E4D99FBF36D.title: "Objective"
+	quest.2A299E4D99FBF36D.quest_desc: [
+			"&d&lProduit X Jetable"
+			"&8&m                            "
+			""
+			"&7Une Potion Jetable de Produit X est la forme lancee du"
+			"&7breuvage mutant, projetee sur une creature pour la transformer."
+			""
+			"&d&lCategorie:&r &fProduit X"
+			""
+			"&e&l★ Astuce:&r &7Un Golem de Neige eclabousse devient le Golem de Neige Mutant."
+		]
+	quest.2A299E4D99FBF36D.quest_subtitle: "&7Lancez le mutagene sur une cible"
+	quest.2A299E4D99FBF36D.title: "&d&lProduit X Jetable"
 	quest.2A2F340D44A383D7.quest_desc: [
 		"&b&lAvance Alimentation Amelioration"
 		"&8&m                            "
@@ -9584,9 +9644,19 @@
 	]
 	quest.2CF96A264EB5522C.quest_subtitle: "&7Echos de la dimension finale"
 	quest.2CF96A264EB5522C.title: "&6&lReactifs de l End"
-	quest.2CFB91C7031A5E4B.quest_desc: ["Le Mutant Creeper est le prochain pivot. Continuez."]
-	quest.2CFB91C7031A5E4B.quest_subtitle: "Un Mutant Creeper pour la route."
-	quest.2CFB91C7031A5E4B.title: "Mutant Creeper"
+	quest.2CFB91C7031A5E4B.quest_desc: [
+			"&c&lCreeper Mutant"
+			"&8&m                            "
+			""
+			"&7Le Creeper Mutant est un creeper enorme qui invoque des"
+			"&7sbires, appelle la foudre et finit dans une explosion colossale."
+			""
+			"&c&lCategorie:&r &fBoss Mutants"
+			""
+			"&e&l★ Astuce:&r &7Restez en mouvement et a distance. Rester pres, c est mourir."
+		]
+	quest.2CFB91C7031A5E4B.quest_subtitle: "&7Survivez a la bombe verte geante"
+	quest.2CFB91C7031A5E4B.title: "&c&lCreeper Mutant"
 	quest.2CFDE82BBEA85CC7.quest_desc: [
 			"&c&lChassez 100 Withers"
 			"&8&m                            "
@@ -11915,9 +11985,19 @@
 		]
 	quest.38F8BBD9F79D420D.quest_subtitle: "&7800 Gardiens des Neiges abattus"
 	quest.38F8BBD9F79D420D.title: "&5&lChassez 800 Gardiens des Neiges"
-	quest.39008ED67E1E30A2.quest_desc: ["Rayez le Mutant Skeleton Limb de votre liste. Allez-y a votre rythme."]
-	quest.39008ED67E1E30A2.quest_subtitle: "Petit pas : le Mutant Skeleton Limb."
-	quest.39008ED67E1E30A2.title: "Mutant Skeleton Limb"
+	quest.39008ED67E1E30A2.quest_desc: [
+			"&e&lMembre de Squelette Mutant"
+			"&8&m                            "
+			""
+			"&7Un Membre de Squelette Mutant est un long os dense laisse"
+			"&7par le Squelette Mutant, base des longues pieces d armure."
+			""
+			"&e&lCategorie:&r &fOssements de Squelette"
+			""
+			"&e&l★ Astuce:&r &7Associez membres et bras pour les plaques exterieures."
+		]
+	quest.39008ED67E1E30A2.quest_subtitle: "&7Un long os du geant abattu"
+	quest.39008ED67E1E30A2.title: "&e&lMembre de Squelette Mutant"
 	quest.3905ACE55F863637.quest_desc: [
 			"&c&lChassez 300 Golems de Fer"
 			"&8&m                            "
@@ -12141,9 +12221,19 @@
 	]
 	quest.39FBD82FCD8FD1E0.quest_subtitle: "&7Attirez le butin de loin, avec un controle accru"
 	quest.39FBD82FCD8FD1E0.title: "&9&lAvance Aimant Amelioration"
-	quest.3A31F5C6EA2F23BC.quest_desc: ["Gagnez le Mutant Skeleton Arms. Un petit pas sur une longue route."]
-	quest.3A31F5C6EA2F23BC.quest_subtitle: "Le detour Mutant Skeleton Arms en vaut la peine."
-	quest.3A31F5C6EA2F23BC.title: "Mutant Skeleton Arms"
+	quest.3A31F5C6EA2F23BC.quest_desc: [
+			"&e&lBras de Squelette Mutant"
+			"&8&m                            "
+			""
+			"&7Les Bras de Squelette Mutant sont les os articules des bras"
+			"&7du geant abattu, base des pieces de bras de l armure."
+			""
+			"&e&lCategorie:&r &fOssements de Squelette"
+			""
+			"&e&l★ Astuce:&r &7Une paire de bras est requise pour les deux brassards."
+		]
+	quest.3A31F5C6EA2F23BC.quest_subtitle: "&7Os articules des bras"
+	quest.3A31F5C6EA2F23BC.title: "&e&lBras de Squelette Mutant"
 	quest.3A35188F910149EC.quest_desc: [
 			"&5&lChassez 600 Loups d Hiver"
 			"&8&m                            "
@@ -15891,9 +15981,19 @@
 		]
 	quest.4AC37C3C9C934EB7.quest_subtitle: "&7100 Umvuthana abattus"
 	quest.4AC37C3C9C934EB7.title: "&6&lChassez 100 Umvuthana"
-	quest.4ADB282D06437016.quest_desc: ["Gardez le Mutant Skeleton Rib. Les petites victoires s additionnent."]
-	quest.4ADB282D06437016.quest_subtitle: "Le Mutant Skeleton Rib paye son chemin."
-	quest.4ADB282D06437016.title: "Mutant Skeleton Rib"
+	quest.4ADB282D06437016.quest_desc: [
+			"&e&lCote de Squelette Mutant"
+			"&8&m                            "
+			""
+			"&7Une Cote de Squelette Mutant tombe du Squelette Mutant."
+			"&7Elle entre dans les recettes de la panoplie d armure."
+			""
+			"&e&lCategorie:&r &fOssements de Squelette"
+			""
+			"&e&l★ Astuce:&r &7Il en faudra beaucoup pour le plastron et la cage thoracique."
+		]
+	quest.4ADB282D06437016.quest_subtitle: "&7Une cote pour la recette d armure"
+	quest.4ADB282D06437016.title: "&e&lCote de Squelette Mutant"
 	quest.4ADEAB6AD8C0D920.quest_desc: [
 			"&c&lChassez 100 Araignees"
 			"&8&m                            "
@@ -16287,9 +16387,19 @@
 		]
 	quest.4C3D1A968EDC4C67.quest_subtitle: "&7200 Araignees d Essaim abattus"
 	quest.4C3D1A968EDC4C67.title: "&5&lChassez 200 Araignees d Essaim"
-	quest.4C49A0375B1A1CFC.quest_desc: ["Acquerez le Mutant Skeleton Boots. Les runs patients gagnent."]
-	quest.4C49A0375B1A1CFC.quest_subtitle: "Sur la branche du Mutant Skeleton Boots."
-	quest.4C49A0375B1A1CFC.title: "Mutant Skeleton Boots"
+	quest.4C49A0375B1A1CFC.quest_desc: [
+			"&a&lBottes de Squelette Mutant"
+			"&8&m                            "
+			""
+			"&7Les Bottes de Squelette Mutant sont faites des os du pied"
+			"&7du Squelette Mutant, fin de la panoplie osseuse."
+			""
+			"&a&lCategorie:&r &fArmure de Squelette"
+			""
+			"&e&l★ Astuce:&r &7Combinez-les au reste pour une defense complete."
+		]
+	quest.4C49A0375B1A1CFC.quest_subtitle: "&7Bottes osseuses pour pas lourds"
+	quest.4C49A0375B1A1CFC.title: "&a&lBottes de Squelette Mutant"
 	quest.4C6EDB0273C7E34F.quest_desc: [
 		"&a&lGoulottes et Coffres-forts"
 		"&8&m                            "
@@ -16408,9 +16518,19 @@
 	]
 	quest.4CD1842569E64898.quest_subtitle: "&7Injectez l energie dans le reseau"
 	quest.4CD1842569E64898.title: "&b&lPrise de Flux"
-	quest.4CD746C4D7A67B82.quest_desc: ["Le Mutant Skeleton Skull : porteur, pas tonitruant. Visez la chose d apres."]
-	quest.4CD746C4D7A67B82.quest_subtitle: "Sur la route du Mutant Skeleton Skull."
-	quest.4CD746C4D7A67B82.title: "Mutant Skeleton Skull"
+	quest.4CD746C4D7A67B82.quest_desc: [
+			"&a&lCrane de Squelette Mutant"
+			"&8&m                            "
+			""
+			"&7Le Crane de Squelette Mutant est un casque bati a partir des"
+			"&7epaulieres et du crane du Squelette Mutant."
+			""
+			"&a&lCategorie:&r &fArmure de Squelette"
+			""
+			"&e&l★ Astuce:&r &7C est la couronne de l armure osseuse, terrible a voir."
+		]
+	quest.4CD746C4D7A67B82.quest_subtitle: "&7Le casque sinistre du geant"
+	quest.4CD746C4D7A67B82.title: "&a&lCrane de Squelette Mutant"
 	quest.4CD83943865018EA.quest_desc: [
 			"&3&lExportateur"
 			"&8&m                            "
@@ -16632,9 +16752,19 @@
 		]
 	quest.4D96D12AD8194137.quest_subtitle: "&7200 Villageois Zombies abattus"
 	quest.4D96D12AD8194137.title: "&c&lChassez 200 Villageois Zombies"
-	quest.4D9FCB0C1D1771A9.quest_desc: ["Ajoutez le Mutant Skeleton Chestplate a vos reserves. Un barreau de plus a gravir."]
-	quest.4D9FCB0C1D1771A9.quest_subtitle: "Un Mutant Skeleton Chestplate, une victoire egal."
-	quest.4D9FCB0C1D1771A9.title: "Mutant Skeleton Chestplate"
+	quest.4D9FCB0C1D1771A9.quest_desc: [
+			"&a&lPlastron de Squelette Mutant"
+			"&8&m                            "
+			""
+			"&7Le Plastron de Squelette Mutant se monte a partir de la cage"
+			"&7thoracique et des cotes du geant abattu, une piece solide."
+			""
+			"&a&lCategorie:&r &fArmure de Squelette"
+			""
+			"&e&l★ Astuce:&r &7Portez-le avec le reste du set pour la meilleure defense."
+		]
+	quest.4D9FCB0C1D1771A9.quest_subtitle: "&7Cage thoracique en plastron"
+	quest.4D9FCB0C1D1771A9.title: "&a&lPlastron de Squelette Mutant"
 	quest.4DA0725E089D7C91.quest_desc: [
 		"&c&lBelier des Quetes"
 		"&8&m                            "
@@ -19197,9 +19327,19 @@
 		]
 	quest.5AB2140F5C0C0F8B.quest_subtitle: "&710 Vindicateurs abattus"
 	quest.5AB2140F5C0C0F8B.title: "&c&lChassez 10 Vindicateurs"
-	quest.5ACC8D4D3BCD784B.quest_desc: ["Saisissez le etape. Porteur, pas voyant."]
-	quest.5ACC8D4D3BCD784B.quest_subtitle: "Gagnez le etape, la voie modeste."
-	quest.5ACC8D4D3BCD784B.title: "Objective"
+	quest.5ACC8D4D3BCD784B.quest_desc: [
+			"&d&lFleche Tipped Produit X"
+			"&8&m                            "
+			""
+			"&7Une Fleche au Produit X vous laisse tirer le mutagene sur"
+			"&7une creature de loin, sans devoir lancer une potion."
+			""
+			"&d&lCategorie:&r &fProduit X"
+			""
+			"&e&l★ Astuce:&r &7Fabriquez-en en entourant une potion persistante de fleches."
+		]
+	quest.5ACC8D4D3BCD784B.quest_subtitle: "&7Mutez a distance sure"
+	quest.5ACC8D4D3BCD784B.title: "&d&lFleche Tipped Produit X"
 	quest.5AD4198A4B63406C.quest_desc: [
 			"&c&lChassez 100 Brises"
 			"&8&m                            "
@@ -19528,9 +19668,19 @@
 	]
 	quest.5C9D9962F2FA0E06.quest_subtitle: "&7Compressez le vrac en blocs nets, avec un controle accru"
 	quest.5C9D9962F2FA0E06.title: "&b&lAvance Compactage Amelioration"
-	quest.5CA9998DD0124142.quest_desc: ["Rayez le Mutant Skeleton Shoulder Pad. Paye son propre fret."]
-	quest.5CA9998DD0124142.quest_subtitle: "Sur la route du Mutant Skeleton Shoulder Pad."
-	quest.5CA9998DD0124142.title: "Mutant Skeleton Shoulder Pad"
+	quest.5CA9998DD0124142.quest_desc: [
+			"&e&lEpauliere de Squelette Mutant"
+			"&8&m                            "
+			""
+			"&7Une Epauliere de Squelette Mutant est la large pauldron"
+			"&7osseuse du geant, piece centrale du casque crane."
+			""
+			"&e&lCategorie:&r &fOssements de Squelette"
+			""
+			"&e&l★ Astuce:&r &7Une paire assortie donne au casque sa silhouette menacante."
+		]
+	quest.5CA9998DD0124142.quest_subtitle: "&7Pauldron osseux et lourd"
+	quest.5CA9998DD0124142.title: "&e&lEpauliere de Squelette Mutant"
 	quest.5CADDAA71291FAD5.quest_desc: [
 		"&e&lArmes en Runique"
 		"&8&m                            "
@@ -22829,9 +22979,19 @@
 		]
 	quest.6B204632B8DD0DA1.quest_subtitle: "&7100 Poissons d Argent abattus"
 	quest.6B204632B8DD0DA1.title: "&c&lChassez 100 Poissons d Argent"
-	quest.6B2F4635D9E058CA.quest_desc: ["Procurez-vous le Mutant Enderman. Vaut plus que son texte annonce."]
-	quest.6B2F4635D9E058CA.quest_subtitle: "Le Mutant Enderman : clin d oeil du chapitre."
-	quest.6B2F4635D9E058CA.title: "Mutant Enderman"
+	quest.6B2F4635D9E058CA.quest_desc: [
+			"&c&lEnderman Mutant"
+			"&8&m                            "
+			""
+			"&7L Enderman Mutant est une horreur teleportante massive qui"
+			"&7se clone, vous saisit et vous lance a travers le pays."
+			""
+			"&c&lCategorie:&r &fBoss Mutants"
+			""
+			"&e&l★ Astuce:&r &7Une citrouille sur la tete permet de viser sans le provoquer."
+		]
+	quest.6B2F4635D9E058CA.quest_subtitle: "&7Defaites le teleporteur cloneur"
+	quest.6B2F4635D9E058CA.title: "&c&lEnderman Mutant"
 	quest.6B3BD54A34EB02C2.quest_desc: [
 		"&d&lFournisseurs d Induction"
 		"&8&m                            "
@@ -23550,9 +23710,19 @@
 	]
 	quest.6F224EB3268066E3.quest_subtitle: "&7Reliez vos rangements en un systeme"
 	quest.6F224EB3268066E3.title: "&c&lReseau de Rangement"
-	quest.6F245246B8B3B666.quest_desc: ["Decrochez le Mutant Skeleton Leggings. Les runs patients gagnent."]
-	quest.6F245246B8B3B666.quest_subtitle: "Cap lumineux : le Mutant Skeleton Leggings."
-	quest.6F245246B8B3B666.title: "Mutant Skeleton Leggings"
+	quest.6F245246B8B3B666.quest_desc: [
+			"&a&lJambieres de Squelette Mutant"
+			"&8&m                            "
+			""
+			"&7Les Jambieres de Squelette Mutant se montent a partir du"
+			"&7bassin et des membres du geant, articulees et lourdes."
+			""
+			"&a&lCategorie:&r &fArmure de Squelette"
+			""
+			"&e&l★ Astuce:&r &7Elles amortissent chaque pas sans trop vous ralentir."
+		]
+	quest.6F245246B8B3B666.quest_subtitle: "&7Bassin et membres en jambieres"
+	quest.6F245246B8B3B666.title: "&a&lJambieres de Squelette Mutant"
 	quest.6F2C548FA56A1054.quest_desc: [
 			"&5&lChassez 300 Tomes de Mort"
 			"&8&m                            "
@@ -24891,9 +25061,19 @@
 	]
 	quest.74200A48498DD7F8.quest_subtitle: "&7De l energie gratuite en plein jour"
 	quest.74200A48498DD7F8.title: "&c&lGenerateur Solaire"
-	quest.7446AF70EF7FB42D.quest_desc: ["Decrochez le jeton. Le chapitre a fait la moitie avec vous."]
-	quest.7446AF70EF7FB42D.quest_subtitle: "Le detour jeton en vaut la peine."
-	quest.7446AF70EF7FB42D.title: "Objective"
+	quest.7446AF70EF7FB42D.quest_desc: [
+			"&d&lPotion de Produit X"
+			"&8&m                            "
+			""
+			"&7Une Potion de Produit X est le breuvage etrange qui mute"
+			"&7les creatures touchees en leurs formes mutantes sauvages."
+			""
+			"&d&lCategorie:&r &fProduit X"
+			""
+			"&e&l★ Astuce:&r &7Brassez-la avec poudre et reactifs impies sur un alambic."
+		]
+	quest.7446AF70EF7FB42D.quest_subtitle: "&7Brassez l etrange elixir mutagene"
+	quest.7446AF70EF7FB42D.title: "&d&lPotion de Produit X"
 	quest.744842B2AED28344.quest_desc: [
 			"&a&lGrille de Fabrication Sans Fil"
 			"&8&m                            "
@@ -27389,9 +27569,19 @@
 	]
 	quest.7F4BEF8DC7DED176.quest_subtitle: "&7Prises dangereuses des rivieres chaudes"
 	quest.7F4BEF8DC7DED176.title: "&a&lPoissons de Riviere de Jungle"
-	quest.7F641AA2D88BB457.quest_desc: ["Ajoutez le Mutant Zombie a votre attirail. Les runs patients gagnent."]
-	quest.7F641AA2D88BB457.quest_subtitle: "Le Mutant Zombie ouvre plus."
-	quest.7F641AA2D88BB457.title: "Mutant Zombie"
+	quest.7F641AA2D88BB457.quest_desc: [
+			"&c&lZombie Mutant"
+			"&8&m                            "
+			""
+			"&7Le Zombie Mutant est un zombie colossal qui vous saisit,"
+			"&7vous lance et martele le sol quand il est blesse."
+			""
+			"&c&lCategorie:&r &fBoss Mutants"
+			""
+			"&e&l★ Astuce:&r &7Mettez-le en feu une fois a terre pour un coup de grace."
+		]
+	quest.7F641AA2D88BB457.quest_subtitle: "&7Abattez le grabber lourdaud"
+	quest.7F641AA2D88BB457.title: "&c&lZombie Mutant"
 	quest.7F69A7CD6ACA97D7.quest_desc: [
 		"&d&lFirework Glyph"
 		"&8&m                            "
