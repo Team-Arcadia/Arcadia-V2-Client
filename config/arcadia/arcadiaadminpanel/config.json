@@ -1,0 +1,11 @@
+{
+  "warnExpiryDays": 180,
+  "warnNotifyOnJoin": true,
+  "loginQueueEnabled": false,
+  "loginQueueMaxPerWindow": 4,
+  "loginQueueWindowSeconds": 10,
+  "loginQueueMaxWaitMs": 60000,
+  "jailEnforceProximity": true,
+  "jailProximityRadius": 32,
+  "jailEnforceTickInterval": 20
+}

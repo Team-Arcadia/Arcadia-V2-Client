@@ -9,10 +9,6 @@ Revive_Me_Enabled = true
 	["Self-Revive Settings"."General Settings"]
 		#List of all your self-revive options EXCEPT revive items (Duplicate options are allowed, can be empty). Self-revive options refresh from this list when the revive penalty ends. OPTIONS: 'CHANCE', 'RANDOM_ITEMS', 'KILL', 'STATUS_EFFECTS', 'EXPERIENCE'
 		SELF_REVIVE_OPTIONS = ["RANDOM_ITEMS", "CHANCE", "KILL", "STATUS_EFFECTS", "EXPERIENCE"]
-		#Max self revives (setting to 0 will disable self-revive) (setting to -1 will disable the self-revive max) (In multiplayer self-revive will only be disabled when you reach the max) Refreshes when penalty timer ends.
-		# Default: 3
-		# Range: > -1
-		Max_Self_revives = 3
 		#If self-revive should be disabled if a player places you in the fallen state
 		Disable_Self_Revive_On_PVP = true
 		#If the chosen self-revive options are picked randomly.
@@ -53,6 +49,8 @@ Revive_Me_Enabled = true
 			Kill_Time = 30
 			#List of entities that won't count towards removing the death timer. Add "//" to make it a whitelist instead. Add ';EntityClassification;' to block/allow mob categories. Usage: (ModId:EntityType) 'minecraft:zombie' or 'zombie' or 'minecraft'. Usage2: (EntityClassification) ';MONSTER;' or ';MISC;'
 			Revive_Kill_Blacklist = []
+			#If the Kill Revive particles should be hidden
+			Hide_Kill_Revive_Effect = false
 
 		["Self-Revive Settings"."Revive Type Settings"."Status Effects"]
 			#List of harmful effects that shouldn't be chosen. Add "//" to make it a whitelist instead. You can also use parts of an effect Usage: (ModId:PotionEffect) 'minecraft:slowness' or 'slowness' or 'minecraft'
@@ -63,6 +61,8 @@ Revive_Me_Enabled = true
 			Effect_Duration = 15
 			#If Revive effects should be disabled when reviving with this self-revive type.
 			Disable_Revive_Effects = true
+			#If negative effect particles should be hidden
+			Hide_Negative_Effects = false
 
 		["Self-Revive Settings"."Revive Type Settings".EXPERIENCE]
 			#Percentage of XP you should lose to revive. (Affected by penalty)
@@ -77,10 +77,28 @@ Revive_Me_Enabled = true
 	["Fallen State Settings"."General Settings"]
 		#If Forge's Death Event should run first before this mod does (if Death event runs first and player death is cancelled, Revive-Me code will not execute. Same thing vice-versa.)
 		Run_Death_Event_First = true
-		#Potion effects the player has while fallen (ModId:PotionEffect:Amplification)(minecraft:slowness:0)
+		#Potion effects the player has while fallen (ModId:PotionEffect:Amplification:HideEffect <-optional)(minecraft:slowness:0 or minecraft:blindness:0:true)
 		Downed_Effects = ["minecraft:slowness:3", "minecraft:blindness:0", "minecraft:weakness:2"]
 		#If you should die instantly if you disconnect while in the fallen state
 		Die_On_Disconnect = true
+		#List of damage sources that bypass fallen state invulnerability (or the entire mod). Type "/" to allow all damage sources. Type "//" to make it a blacklist instead (entries will trigger the fallen state). You can also use parts of a damage source, add ';' to make it match exactly (Case sensitive both ways), add '*' to make it bypass the entire mod (does the opposite if set to blacklist). Usage: (MessageID) 'inWall' or 'Wall' or ';inWall', or '*inWall' or ';*inWall'
+		Damage_Source_Whitelist = [";outOfWorld"]
+		#Max TOTAL revives (Setting to 0 will disable Revive Me!) (setting to -1 will disable the total-revive max) Refreshes when penalty timer ends.
+		# Default: 6
+		# Range: > -1
+		Max_Total_revives = 6
+		#Max PLAYER revives (setting to 0 will disable player-revive) (setting to -1 will disable the player-revive max) Refreshes when penalty timer ends.
+		# Default: -1
+		# Range: > -1
+		Max_Player_revives = -1
+		#Max SELF revives (setting to 0 will disable self-revive) (setting to -1 will disable the self-revive max) Refreshes when penalty timer ends.
+		# Default: 3
+		# Range: > -1
+		Max_Self_revives = 3
+		#Max distance another player can be to enter the fallen state (0 disables this)
+		# Default: 0
+		# Range: > 0
+		Revive_Radius = 0
 
 		["Fallen State Settings"."General Settings"."Health & Heal Settings"]
 			#Max Health you can have while in the fallen state, -1 is max health, Less than 1 is percentage
@@ -97,16 +115,18 @@ Revive_Me_Enabled = true
 			Overheal_Penalty_Percentage = 0.25
 
 		["Fallen State Settings"."General Settings"."Interaction Settings"]
-			#If you can give up and die
+			#If a fallen player can give up and die
 			Can_Give_Up = true
-			#If the player can use their inventory while fallen
+			#If a fallen player can use their inventory
 			#Allowed Values: NO, LOOK_ONLY, YES
 			Interact_With_Inventory = "NO"
-			#Commands the player isn't allowed to use while fallen. Type "/" to block all commands. Type "//" to make this a whitelist.
+			#Commands a fallen player isn't allowed to use. Type "/" to block all commands. Type "//" to make this a whitelist.
 			Blocked_Commands = ["home", "spawn", "tpa", "tpahere"]
 			#Keybinds that you can use while in the fallen state. (You can put a piece or the full name of a keybind. (Check the translation json for keybinding names (en_us.json for example))
 			#Example of binding: 'key.fullscreen' or 'fullscreen' will let you use the 'Toggle Fullscreen' keybinding while in the fallen state)
 			Allowed_Keybinds = []
+			#If a fallen player can pick up items
+			Can_Pick_Up_Items = true
 
 			["Fallen State Settings"."General Settings"."Interaction Settings"."Call For Help Settings"]
 				#How long the Help call will last in SECONDS
@@ -123,9 +143,9 @@ Revive_Me_Enabled = true
 				Death_Timer_Max_Distance = 40.0
 
 	["Fallen State Settings"."Timer Settings"]
-		#How long you have before death. Setting to 0 will disable the timer
+		#How long you have before death. Setting to -1 will disable the timer
 		# Default: 60
-		# Range: > 0
+		# Range: > -1
 		Time_Left = 60
 		#If you should die when the death timer ends. If set to false, you will instead be targetable by mobs.
 		Die_When_Timer_Ends = true
@@ -145,6 +165,8 @@ Revive_Me_Enabled = true
 		# Default: 10
 		# Range: > -1
 		PVP_Timer = 10
+		#If penalty timer particles should be hidden
+		Hide_Penalty_Timer_Particles = true
 
 	["Fallen State Settings"."Movement & Camera Settings"]
 		#What pose you have whilst fallen
@@ -168,14 +190,12 @@ Revive_Me_Enabled = true
 		# Default: 6.0
 		# Range: -1.0 ~ 2.147483647E9
 		Revive_Food = 6.0
-		#What effects you revive with (ModId:PotionEffect:Amplification:Ticks)(minecraft:fire_resistance:3:100)
+		#What effects you revive with (ModId:PotionEffect:Amplification:Ticks:HideEffect <-optional)(minecraft:fire_resistance:3:100 or minecraft:resistance:3:100:true)
 		Revive_Effects = ["minecraft:fire_resistance:1:100", "minecraft:resistance:1:100"]
 		#Give back all of the potion effects the player had before entering the fallen state
 		Revert_Effects_On_Revive = false
 		#What effects you won't gain back on revive. Add "//" to make it a whitelist instead. Add ';MobEffectCategory;' to block/allow effect categories. Usage: (ModId:PotionEffect) 'minecraft:slowness' or 'slowness' or 'minecraft'. Usage2: (MobEffectCategory) ';HARMFUL;' or ';NEUTRAL;' or ';BENEFICIAL;'
 		Revert_Effect_Blacklist = ["revive_me"]
-		#If revive progress resets when damage is taken
-		Reset_Revive_On_Hit = true
 		#If the reviver must look at the revivee to revive them
 		Reviver_Must_look = true
 
@@ -189,8 +209,8 @@ Revive_Me_Enabled = true
 		Penalty_Type = "FOOD"
 		#Amount that will be taken from reviver, Numbers below 1 and greater than 0 will turn it into a percentage
 		Penalty_Amount = 10.0
-		#If revive should be cancelled when taking damage
-		Cancel_Revive_On_Damage = true
+		#If revive progress resets when damage is taken
+		Reset_Revive_On_Hit = true
 
 ["Chat Settings"]
 	#Silence the revive and fallen chat messages

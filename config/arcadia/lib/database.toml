@@ -13,9 +13,10 @@
 	port = 3306
 	#Database name
 	name = "arcadia_prestige"
-	#Database username
+	#Database username — leave blank to fail-fast at startup if unconfigured
 	user = "arcadia_prestige"
-	#Database password
+	#Database password — leave blank to fail-fast at startup if unconfigured
+	#Never commit real credentials to the default; set them in the deployed TOML.
 	password = "arcadia_prestige"
 	#HikariCP connection pool size
 	# Default: 10
