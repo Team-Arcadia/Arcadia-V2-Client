@@ -76,19 +76,22 @@ const BOSS_DATA = {
     'knightquest:swampman': { mult: 1.5 }
 };
 
+// Toggle verbose per-boss spawn logging. Keep false on production servers:
+// console.info on the spawn hot path is main-thread I/O. Set true only for debugging.
+const DEBUG_LOG = false;
+
 /**
- * Helper function to boost entity attributes safely.
+ * Helper function to boost a known boss entity's attributes safely.
+ * Only called for entities present in BOSS_DATA, behind the idempotency guard.
  */
 function applyStats(entity, data) {
-    if (!entity.isLiving()) return;
-
     // Apply Health (Max HP works more reliably as a property in 1.21)
     if (data.hp || data.mult) {
         let currentMax = entity.maxHealth;
         let newMax = data.hp ? data.hp : (currentMax * (data.mult || 1.0));
-        
+
         newMax = Math.min(newMax, CONFIG.MAX_HEALTH);
-        
+
         entity.maxHealth = newMax;
         entity.health = newMax;
     }
@@ -108,29 +111,43 @@ function applyStats(entity, data) {
 
 EntityEvents.spawned(event => {
     const { entity } = event;
+
+    // --- Cheapest rejects first (no allocation, no bridge string work) ---
+    // Filters out item entities, XP orbs, projectiles, players, etc.
     if (!entity || !entity.isLiving() || entity.isPlayer()) return;
 
-    // String(entity.type) is the most reliable way to get the ID string
+    // entity.type stringification is comparatively expensive (bridge + heap alloc),
+    // so it is only computed once here, after the cheap living/player gate.
     const entityId = String(entity.type);
+    const bossData = BOSS_DATA[entityId];
 
-    if (!entity.persistentData.stats_boosted) {
-        const bossData = BOSS_DATA[entityId];
-        
-        if (bossData) {
+    if (bossData) {
+        // --- BOSS PATH (rare) ---
+        // The idempotency guard lives ONLY here. EntityEvents.spawned re-fires when a
+        // chunk is reloaded from disk, and mult-based scaling compounds (mult^N) if
+        // re-applied. The persistentData flag is serialized to the boss NBT so the
+        // boost is applied exactly once across reloads/restarts. The boss population
+        // is tiny, so the NBT cost is negligible (unlike writing it to every mob).
+        if (!entity.persistentData.stats_boosted) {
             applyStats(entity, bossData);
-            console.info(`[Mob Stats] Boosted boss: ${entityId} (Max Health: ${entity.maxHealth})`);
-        } else {
-            // Global capping
-            if (entity.maxHealth > CONFIG.MAX_HEALTH) {
-                entity.maxHealth = CONFIG.MAX_HEALTH;
-                entity.health = CONFIG.MAX_HEALTH;
-            }
-            let dmgAttr = entity.getAttribute('minecraft:generic.attack_damage');
-            if (dmgAttr && dmgAttr.getBaseValue() > CONFIG.MAX_DAMAGE) {
-                dmgAttr.setBaseValue(CONFIG.MAX_DAMAGE);
+            entity.persistentData.stats_boosted = true;
+            if (DEBUG_LOG) {
+                console.info(`[Mob Stats] Boosted boss: ${entityId} (Max Health: ${entity.maxHealth})`);
             }
         }
-        entity.persistentData.stats_boosted = true;
+    } else {
+        // --- GLOBAL CAP PATH (every other mob) ---
+        // No persistentData read/write here: clamping is idempotent (Math.min / set to
+        // cap), so re-running on a chunk reload is harmless and needs no guard. This
+        // avoids forcing a CompoundTag allocation + NBT save bloat on every common mob.
+        if (entity.maxHealth > CONFIG.MAX_HEALTH) {
+            entity.maxHealth = CONFIG.MAX_HEALTH;
+            entity.health = CONFIG.MAX_HEALTH;
+        }
+        let dmgAttr = entity.getAttribute('minecraft:generic.attack_damage');
+        if (dmgAttr && dmgAttr.getBaseValue() > CONFIG.MAX_DAMAGE) {
+            dmgAttr.setBaseValue(CONFIG.MAX_DAMAGE);
+        }
     }
 });
 

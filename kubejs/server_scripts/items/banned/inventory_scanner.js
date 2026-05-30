@@ -239,10 +239,19 @@ PlayerEvents.inventoryChanged(event => {
 });
 
 // --- SAFETY NET: full scan every 5 minutes (6000 ticks) ---
-PlayerEvents.tick(event => {
-  if (event.player.tickCount % 6000 !== 0) return;
+// Single global server-tick handler instead of PlayerEvents.tick. The previous
+// approach crossed the Java->Rhino bridge once per online player every tick (20 Hz x
+// 30-50 players = 600-1000 callbacks/sec) only to evaluate a modulo gate. This fires
+// the callback exactly once per tick, gates on the server tick counter, and iterates
+// the online players in JS only on the matching tick (every 6000 ticks).
+const SAFETY_SCAN_INTERVAL = 6000;
 
-  if (removeBannedFromPlayer(event.player)) {
-    event.player.tell(Text.red('\u26D4 Banned Item removed from your inventory!'));
-  }
+ServerEvents.tick(event => {
+  if (event.server.tickCount % SAFETY_SCAN_INTERVAL !== 0) return;
+
+  event.server.players.forEach(player => {
+    if (removeBannedFromPlayer(player)) {
+      player.tell(Text.red('\u26D4 Banned Item removed from your inventory!'));
+    }
+  });
 });
