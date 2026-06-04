@@ -180,4 +180,27 @@ ServerEvents.recipes((event) => {
 
     // soul_gem_empty is obtained via Djinni ritual only — not craftable, skipped.
 
+    // ============================================================
+    // 26. SIMPLY SWORDS HARDENING
+    // ============================================================
+
+    // Runic Grimoire (Patchouli guide book) ships with no recipe — add a thematic one.
+    // Book + Runic Tablet (the mod's signature crafting item) -> the guide.
+    // Patchouli guide books are produced by patchouli:guide_book carrying the
+    // patchouli:book data component; KubeJS shapeless drops the component, so emit raw JSON.
+    event.custom({
+        type: 'minecraft:crafting_shapeless',
+        category: 'misc',
+        ingredients: [
+            { item: 'minecraft:book' },
+            { item: 'simplyswords:runic_tablet' }
+        ],
+        result: {
+            id: 'patchouli:guide_book',
+            components: {
+                'patchouli:book': 'simplyswords:runic_grimoire'
+            }
+        }
+    }).id('arcadia:simplyswords_runic_grimoire');
+
 });
