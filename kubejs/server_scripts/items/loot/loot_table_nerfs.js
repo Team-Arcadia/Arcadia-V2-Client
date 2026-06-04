@@ -336,8 +336,32 @@ LootJS.modifiers((event) => {
 
     // Ars Additions (server crash loop on use)
     "ars_additions:exploration_warp_scroll",
+
+    // Supplementaries Cannon Boats (crash server on fire)
+    "supplementaries:cannon_boat_oak",
+    "supplementaries:cannon_boat_spruce",
+    "supplementaries:cannon_boat_birch",
+    "supplementaries:cannon_boat_jungle",
+    "supplementaries:cannon_boat_acacia",
+    "supplementaries:cannon_boat_dark_oak",
+    "supplementaries:cannon_boat_mangrove",
+    "supplementaries:cannon_boat_cherry",
+    "supplementaries:cannon_boat_bamboo",
+
+    // Easy Villagers (OP/exploit)
+    "easy_villagers:iron_farm",
+
+    // Occultism
+    "occultism:iesnium_anvil",
+
+    // DnDesires
+    "dndesires:gold_mixer",
   ];
+  // Strip banned items from chests/vaults AND mob drops + fishing (defense in depth).
   chest.removeLoot(bannedItems);
+  event
+    .addTableModifier([LootType.ENTITY, LootType.FISHING])
+    .removeLoot(bannedItems);
 
   /**
    * =========================================
