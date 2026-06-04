@@ -1,0 +1,7 @@
+{
+    "_comment": "Adds third-party bosses missing from the c:bosses tag so capture/leash items (ApothicEnchanting Ender Lead) refuse them. Castle Keeper (Twilight Forest final boss) ships no c:bosses entry of its own.",
+    "replace": false,
+    "values": [
+        "twilight_forest_final_boss:castle_keeper"
+    ]
+}
