@@ -109,6 +109,11 @@ ServerEvents.tags('item', event => {
 //   - Supplementaries Bottle/Cage (mob capture)
 //   - Carry On (carrying mob in hands)
 //   - PneumaticCraft Vacuum Trap
+//
+// SYNC: a static mirror of this list lives in
+//   kubejs/data/apothic_spawners/tags/entity_type/blacklisted_from_spawners.json
+// (datapack fallback for Apothic Spawners if KubeJS fails to load). When you add or
+// remove an entry here, update that file too — both must stay identical.
 // =============================================================================
 const ARCADIA_FARM_BLACKLIST = [
     // Animal Garden — passive animals (cosmetic, not for farms)
