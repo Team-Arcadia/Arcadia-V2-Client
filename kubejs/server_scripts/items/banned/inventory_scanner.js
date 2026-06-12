@@ -196,7 +196,10 @@ const BANNED_ITEMS = [
   'ars_additions:exploration_warp_scroll',
 
   // DnDesires
-  'dndesires:gold_mixer'
+  'dndesires:gold_mixer',
+
+  // Aether (full invisibility even to spectators - staff cannot moderate)
+  'aether:invisibility_cloak'
 ];
 
 // O(1) lookup

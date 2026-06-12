@@ -10,7 +10,8 @@
 
 const TRADE_BANNED_ITEMS = new Set([
   'computercraft:turtle_normal',
-  'computercraft:turtle_advanced'
+  'computercraft:turtle_advanced',
+  'aether:invisibility_cloak'
 ]);
 
 const MERCHANT_TYPES = new Set([
