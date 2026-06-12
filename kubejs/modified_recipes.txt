@@ -239,14 +239,23 @@ All 9 tools + armor — require **Copper Sheets** (Create). Replaces copper_ingo
 - `source_jar`, `imbuement_chamber`, `relay`, `enchanting_apparatus` (MC 5x5), `apprentice_spell_book`, `archmage_spell_book` (MC + Rune Matrix), `enchanters_sword` (+ Breeze Rod), `enchanters_shield` (+ Ethereal Alloy + PM), `enchanters_mirror` (+ Rune Matrix), `mob_jar` (+ Ethereal Alloy), `alteration_table` (+ Rune Matrix + Magebloom), `agronomic_sourcelink` (+ Source Gem Block + Brass Casing)
 - `novice_spell_book`, `scribes_table`, `wand` — touches légères (Create cogwheel/brass)
 
-**Glyphes anti-lag** (`config/ars_nouveau/glyph_*.toml`, signalements joueurs) :
+**Glyphes anti-lag — passe complète AN + addons** (`config/ars_nouveau/` + `ars_technica/`) :
+Politique en 3 familles (signalements joueurs : flammes permanentes, cycles Persistance) :
+1. **Répéteurs** (re-cast périodique) : `linger` aoe=2/extend=1, `wall` limit 1, mutuellement
+   exclusifs ; `accelerate` (accélérateur de ticks, non plafonnable côté config) interdit avec
+   linger/wall/rune.
+2. **Spawneurs d'entités** : `fangs`, `animate_block` (aoe=1, extend=1, 1 golem PAR bloc),
+   `summon_undead/wolves/vex/decoy/steed` (steed aoe=1), `firework` (aoe=1), `lightning`,
+   `gravity`/`launch`/`toss` (falling blocks) → interdits avec linger/wall (+ rune pour les
+   summons/firework/animate_block ; gravity/launch/toss l'étaient déjà).
+3. **Effets de masse sur blocs** : plafond `aoe=2` sur break, crush, explosion, fell, exchange,
+   grow, harvest, smelt, freeze, evaporate, conjure_water, intangible (+extend=2), rotate,
+   redstone_signal, place_block, phantom_block, gravity, ars_technica:obliterate.
 - `flare` : combo interdit avec `ignite` (flammes permanentes + lag particules)
-- `fangs` + `animate_block` : combos interdits avec `linger` ET `wall` (boucles d'invocation
-  d'entités en masse — "Soi + Persistance + Zone x4 + Prolongation x2 + Crocs/Animation bloc")
-- `linger` : augments plafonnés — `aoe=2`, `extend_time=1` (en plus de `sensitive=1`)
-- `animate_block` : augments plafonnés — `aoe=1`, `extend_time=1` (1 entité golem PAR bloc animé :
-  Zone x4 = des dizaines d'entités par cast, même sans Persistance)
-- Précédent : `wall` était déjà incompatible avec `linger` ; `rune` avec gravity/exchange/etc.
+- Addons analysés : ars_technica (process Create mono-cible sauf obliterate, cappé),
+  ars_additions (mark/recall/retaliate — pas de vecteur), ars_creo/ars_ocultas (pas de glyphes config)
+- ⚠ `accelerate`/`randomize` n'exposent pas augment_limits/invalid_combos dans leur TOML —
+  accelerate verrouillé via les listes des répéteurs, randomize laissé (borné par linger aoe=2)
 
 ### 5.13 Iron's Spellbooks (4)
 - `inscription_table`, `scroll_forge`, `arcane_anvil` (MC), `alchemist_cauldron` (TFMG Steel)
