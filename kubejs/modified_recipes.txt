@@ -239,6 +239,13 @@ All 9 tools + armor — require **Copper Sheets** (Create). Replaces copper_ingo
 - `source_jar`, `imbuement_chamber`, `relay`, `enchanting_apparatus` (MC 5x5), `apprentice_spell_book`, `archmage_spell_book` (MC + Rune Matrix), `enchanters_sword` (+ Breeze Rod), `enchanters_shield` (+ Ethereal Alloy + PM), `enchanters_mirror` (+ Rune Matrix), `mob_jar` (+ Ethereal Alloy), `alteration_table` (+ Rune Matrix + Magebloom), `agronomic_sourcelink` (+ Source Gem Block + Brass Casing)
 - `novice_spell_book`, `scribes_table`, `wand` — touches légères (Create cogwheel/brass)
 
+**Glyphes anti-lag** (`config/ars_nouveau/glyph_*.toml`, signalements joueurs) :
+- `flare` : combo interdit avec `ignite` (flammes permanentes + lag particules)
+- `fangs` + `animate_block` : combos interdits avec `linger` ET `wall` (boucles d'invocation
+  d'entités en masse — "Soi + Persistance + Zone x4 + Prolongation x2 + Crocs/Animation bloc")
+- `linger` : augments plafonnés — `aoe=2`, `extend_time=1` (en plus de `sensitive=1`)
+- Précédent : `wall` était déjà incompatible avec `linger` ; `rune` avec gravity/exchange/etc.
+
 ### 5.13 Iron's Spellbooks (4)
 - `inscription_table`, `scroll_forge`, `arcane_anvil` (MC), `alchemist_cauldron` (TFMG Steel)
 - `netherite_spell_book` — MC + Rune Matrix + Atomic Alloy + Diamond Spell Book
