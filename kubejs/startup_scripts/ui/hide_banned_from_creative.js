@@ -188,6 +188,9 @@ StartupEvents.modifyCreativeTab("minecraft:search", (event) => {
 
         // Ars Additions (server crash loop on use)
         "ars_additions:exploration_warp_scroll",
+
+        // Aether (full invisibility even to spectators - staff cannot moderate)
+        "aether:invisibility_cloak",
     ];
 
     hiddenItems.forEach((item) => event.remove(item));

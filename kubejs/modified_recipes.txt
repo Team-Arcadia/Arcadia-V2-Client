@@ -77,6 +77,13 @@ create_jetpack:jetpack, netherite_jetpack, all create_sa jetpacks/exoskeletons, 
 ### Backtanks (6)
 All `creategoggles:*_backtank` + `create:netherite_backtank` — excessive air capacity exploit. (`create:copper_backtank` allowed — required by Create Ore Excavation Sample Drill multiblock.)
 
+### Aether (1) — Invisibility Cloak
+`aether:invisibility_cloak` — invisibilité TOTALE même pour les spectateurs (contrairement à
+l'écharpe Artifacts) : modération staff impossible. Banni sur les 4 couches (inventory_scanner,
+loot ban list, creative hide, JEI blacklist, merchant filter) + retiré du loot Silver Dungeon.
+Capes déjà équipées : supprimées dès qu'elles repassent par un inventaire (déséquipement, mort).
+`aether-server.toml` → `Balance Invisibility Cloak for PVP = true` (fenêtre de transition).
+
 ### Easy Villagers (1)
 `easy_villagers:iron_farm` — OP iron farm-in-a-box.
 

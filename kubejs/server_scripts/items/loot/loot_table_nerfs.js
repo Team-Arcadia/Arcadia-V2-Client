@@ -356,6 +356,9 @@ LootJS.modifiers((event) => {
 
     // DnDesires
     "dndesires:gold_mixer",
+
+    // Aether (full invisibility even to spectators - staff cannot moderate)
+    "aether:invisibility_cloak",
   ];
   // Strip banned items from chests/vaults AND mob drops + fishing (defense in depth).
   chest.removeLoot(bannedItems);
