@@ -25,18 +25,18 @@ requireEnergy = true
 [diskDrive]
 	# Default: 10
 	# Range: 0 ~ 9223372036854775807
-	energyUsage = 10
+	energyUsage = 40
 	# Default: 4
 	# Range: 0 ~ 9223372036854775807
-	energyUsagePerDisk = 4
+	energyUsagePerDisk = 24
 
 [diskInterface]
 	# Default: 6
 	# Range: 0 ~ 9223372036854775807
-	energyUsage = 6
+	energyUsage = 24
 	# Default: 4
 	# Range: 0 ~ 9223372036854775807
-	energyUsagePerDisk = 4
+	energyUsagePerDisk = 24
 
 [grid]
 	largeFont = false
@@ -45,7 +45,7 @@ requireEnergy = true
 	rememberSearchQuery = false
 	# Default: 10
 	# Range: 0 ~ 9223372036854775807
-	energyUsage = 10
+	energyUsage = 30
 	synchronizer = ""
 	resourceType = ""
 	#Allowed Values: ASCENDING, DESCENDING
@@ -58,84 +58,84 @@ requireEnergy = true
 [craftingGrid]
 	# Default: 14
 	# Range: 0 ~ 9223372036854775807
-	energyUsage = 14
+	energyUsage = 42
 	#Allowed Values: NONE, CLEAR_TO_NETWORK, CLEAR_TO_INVENTORY
 	craftingMatrixCloseBehavior = "NONE"
 
 [patternGrid]
 	# Default: 14
 	# Range: 0 ~ 9223372036854775807
-	energyUsage = 14
+	energyUsage = 42
 
 [storageBlock]
 	# Default: 2
 	# Range: 0 ~ 9223372036854775807
-	1kEnergyUsage = 2
+	1kEnergyUsage = 8
 	# Default: 4
 	# Range: 0 ~ 9223372036854775807
-	4kEnergyUsage = 4
+	4kEnergyUsage = 16
 	# Default: 6
 	# Range: 0 ~ 9223372036854775807
-	16kEnergyUsage = 6
+	16kEnergyUsage = 32
 	# Default: 8
 	# Range: 0 ~ 9223372036854775807
-	64kEnergyUsage = 8
+	64kEnergyUsage = 48
 	# Default: 16
 	# Range: 0 ~ 9223372036854775807
-	creativeEnergyUsage = 16
+	creativeEnergyUsage = 256
 
 [fluidStorageBlock]
 	# Default: 2
 	# Range: 0 ~ 9223372036854775807
-	64bEnergyUsage = 2
+	64bEnergyUsage = 8
 	# Default: 4
 	# Range: 0 ~ 9223372036854775807
-	256bEnergyUsage = 4
+	256bEnergyUsage = 16
 	# Default: 6
 	# Range: 0 ~ 9223372036854775807
-	1024bEnergyUsage = 6
+	1024bEnergyUsage = 32
 	# Default: 8
 	# Range: 0 ~ 9223372036854775807
-	4096bEnergyUsage = 8
+	4096bEnergyUsage = 48
 	# Default: 16
 	# Range: 0 ~ 9223372036854775807
-	creativeEnergyUsage = 16
+	creativeEnergyUsage = 256
 
 [importer]
 	# Default: 2
 	# Range: 0 ~ 9223372036854775807
-	energyUsage = 2
+	energyUsage = 8
 
 [exporter]
 	# Default: 2
 	# Range: 0 ~ 9223372036854775807
-	energyUsage = 2
+	energyUsage = 8
 
 [upgrade]
 	# Default: 4
 	# Range: 0 ~ 9223372036854775807
-	speedUpgradeEnergyUsage = 4
+	speedUpgradeEnergyUsage = 16
 	# Default: 16
 	# Range: 0 ~ 9223372036854775807
-	stackUpgradeEnergyUsage = 16
+	stackUpgradeEnergyUsage = 64
 	# Default: 10
 	# Range: 0 ~ 9223372036854775807
-	fortune1UpgradeEnergyUsage = 10
+	fortune1UpgradeEnergyUsage = 40
 	# Default: 12
 	# Range: 0 ~ 9223372036854775807
-	fortune2UpgradeEnergyUsage = 12
+	fortune2UpgradeEnergyUsage = 48
 	# Default: 14
 	# Range: 0 ~ 9223372036854775807
-	fortune3UpgradeEnergyUsage = 14
+	fortune3UpgradeEnergyUsage = 56
 	# Default: 16
 	# Range: 0 ~ 9223372036854775807
-	silkTouchUpgradeEnergyUsage = 16
+	silkTouchUpgradeEnergyUsage = 64
 	# Default: 16
 	# Range: 0 ~ 9223372036854775807
-	regulatorUpgradeEnergyUsage = 16
+	regulatorUpgradeEnergyUsage = 64
 	# Default: 8
 	# Range: 0 ~ 9223372036854775807
-	rangeUpgradeEnergyUsage = 8
+	rangeUpgradeEnergyUsage = 32
 	# Default: 0
 	# Range: 0 ~ 9223372036854775807
 	creativeRangeUpgradeEnergyUsage = 0
@@ -144,32 +144,32 @@ requireEnergy = true
 	rangeUpgradeRange = 8
 	# Default: 8
 	# Range: 0 ~ 9223372036854775807
-	autocraftingUpgradeUsage = 8
+	autocraftingUpgradeUsage = 32
 
 [interface]
 	# Default: 4
 	# Range: 0 ~ 9223372036854775807
-	energyUsage = 4
+	energyUsage = 16
 
 [externalStorage]
 	# Default: 6
 	# Range: 0 ~ 9223372036854775807
-	energyUsage = 6
+	energyUsage = 24
 
 [detector]
 	# Default: 2
 	# Range: 0 ~ 9223372036854775807
-	energyUsage = 2
+	energyUsage = 8
 
 [destructor]
 	# Default: 3
 	# Range: 0 ~ 9223372036854775807
-	energyUsage = 3
+	energyUsage = 12
 
 [constructor]
 	# Default: 3
 	# Range: 0 ~ 9223372036854775807
-	energyUsage = 3
+	energyUsage = 12
 
 [wirelessGrid]
 	# Default: 1000
@@ -188,7 +188,7 @@ requireEnergy = true
 [wirelessTransmitter]
 	# Default: 16
 	# Range: 0 ~ 9223372036854775807
-	energyUsage = 16
+	energyUsage = 48
 	# Default: 16
 	# Range: > 0
 	baseRange = 16
@@ -196,17 +196,17 @@ requireEnergy = true
 [storageMonitor]
 	# Default: 4
 	# Range: 0 ~ 9223372036854775807
-	energyUsage = 4
+	energyUsage = 16
 
 [networkReceiver]
 	# Default: 8
 	# Range: 0 ~ 9223372036854775807
-	energyUsage = 8
+	energyUsage = 32
 
 [networkTransmitter]
 	# Default: 32
 	# Range: 0 ~ 9223372036854775807
-	energyUsage = 32
+	energyUsage = 128
 
 [portableGrid]
 	# Default: 1000
@@ -235,28 +235,28 @@ requireEnergy = true
 [securityManager]
 	# Default: 16
 	# Range: 0 ~ 9223372036854775807
-	energyUsage = 16
+	energyUsage = 48
 
 [relay]
 	# Default: 8
 	# Range: 0 ~ 9223372036854775807
-	inputNetworkEnergyUsage = 8
+	inputNetworkEnergyUsage = 32
 	# Default: 8
 	# Range: 0 ~ 9223372036854775807
-	outputNetworkEnergyUsage = 8
+	outputNetworkEnergyUsage = 32
 
 [autocrafter]
 	# Default: 4
 	# Range: 0 ~ 9223372036854775807
-	energyUsage = 4
+	energyUsage = 16
 	# Default: 2
 	# Range: 0 ~ 9223372036854775807
-	energyUsagePerPattern = 2
+	energyUsagePerPattern = 8
 
 [autocrafterManager]
 	# Default: 16
 	# Range: 0 ~ 9223372036854775807
-	energyUsage = 16
+	energyUsage = 48
 	#Allowed Values: ALL, PATTERN_INPUTS, PATTERN_OUTPUTS, AUTOCRAFTER_NAMES
 	searchMode = "ALL"
 	#Allowed Values: VISIBLE, NOT_FULL, ALL
@@ -265,7 +265,7 @@ requireEnergy = true
 [autocraftingMonitor]
 	# Default: 16
 	# Range: 0 ~ 9223372036854775807
-	energyUsage = 16
+	energyUsage = 48
 
 [wirelessAutocraftingMonitor]
 	# Default: 1000
