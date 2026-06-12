@@ -284,6 +284,13 @@ Craft Enrichment Chamber **remplacé** par Sequenced Assembly Create :
 - Cost per sheet: 1 pellet + 5 rods + 5 brass sheets + 5 heavy plates + 5 alloy reinforced + 2500mB molten steel
 - **HDPE Rod** renforcé : 4 pellets + 1 Brass Sheet (pattern 2x3)
 
+### 5.21 Mechanical Botany — Insolator nerf (config)
+`config/mechanical_botany-server.toml` → `Processing Time Multiplier = 4` (défaut 1) :
+- Toutes les recettes d'insolation ×4 (canne à sucre 2400 → 9600 ticks)
+- À 256 RPM (vitesse max) : ~30s au lieu de ~7.5s — parité Botany Pot atteinte dès 64 RPM
+- Le timer scale avec les RPM (|RPM|/16 par tick, comportement Create standard)
+- Affichage JEI clarifié via lang override `kubejs/assets/mechanical_botany/lang/` ("Xs @ 16 RPM")
+
 ---
 
 ## 6. CROSS-MOD BRIDGE COMPONENTS (custom Arcadia items)
