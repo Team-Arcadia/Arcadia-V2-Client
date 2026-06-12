@@ -244,6 +244,8 @@ All 9 tools + armor — require **Copper Sheets** (Create). Replaces copper_ingo
 - `fangs` + `animate_block` : combos interdits avec `linger` ET `wall` (boucles d'invocation
   d'entités en masse — "Soi + Persistance + Zone x4 + Prolongation x2 + Crocs/Animation bloc")
 - `linger` : augments plafonnés — `aoe=2`, `extend_time=1` (en plus de `sensitive=1`)
+- `animate_block` : augments plafonnés — `aoe=1`, `extend_time=1` (1 entité golem PAR bloc animé :
+  Zone x4 = des dizaines d'entités par cast, même sans Persistance)
 - Précédent : `wall` était déjà incompatible avec `linger` ; `rune` avec gravity/exchange/etc.
 
 ### 5.13 Iron's Spellbooks (4)
