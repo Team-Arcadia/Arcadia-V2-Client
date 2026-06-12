@@ -291,8 +291,10 @@
 				}
 				{
 					id: "50CDC2CDBBF3F75A"
-					item: { count: 1, id: "tfmg:pumpjack_base" }
-					type: "item"
+					observe_type: "block"
+					timer: 0L
+					to_observe: "tfmg:pumpjack_base"
+					type: "observation"
 				}
 				{
 					count: 8L
@@ -348,7 +350,7 @@
 					type: "item"
 				}
 				{
-					count: 96L
+					count: 48L
 					id: "5BE633640587D6E8"
 					item: { count: 1, id: "tfmg:steel_fluid_tank" }
 					type: "item"
