@@ -393,7 +393,19 @@ HTH   P = minecraft:potion (×2)
 - Upgrade Sigil Cost : 5 → **10**
 - Upgrade Level Cost : 500 → **1200 XP**
 
-### 8.5 Mob farm loot nerf (Festive / Frozen Queen / Treasure Goblin)
+### 8.5 Global mob loot faucets nerf + creative flight super rare
+- **Random affix items sur mobs** — `apothic_augments/random_affix_items.json` : **12% → 2%** des
+  monstres (spawns naturels, hors spawners) apparaissent avec un item à affixe. C'était LE robinet
+  principal des farms à mobs en dark-room.
+- **Gem drops** — `loot_modifiers/gem_entity_drops_from_real_players.json` : **4% → 1%** par kill
+  joueur ; `gem_entity_drops.json` (fake players / kill loot indirect) : **0.5% → 0.1%**.
+- **Unbound (FLY CRÉATIF, plastron)** — `affixes/armor/attribute/unbound.json` : c'est lui (pas
+  Winged = vol elytra) qui donne `neoforge:creative_flight`. Était NON nerfé : stat slot, weight 1,
+  pinnacle/mythic. Maintenant : **slot ability** (comme Winged, exclusifs entre eux), quality 0.05.
+  Combiné au nerf 12%→2%, le flux de plastrons mythic chute ×6 → fly créa effectivement super rare.
+- Elites (`apothic_elites/`) non touchés : surface obligatoire + 1% de chance, pas farmables.
+
+### 8.6 Mob farm loot nerf (Festive / Frozen Queen / Treasure Goblin)
 Signalement joueur : combo épée Skyroot + affixes/gemmes Apotheosis = x8-x16 le même stuff.
 - **Festive (Loot Piñata)** — `affixes/melee/festive.json` : rolls **20 → 4**, chance epic 2-5% → **1-2.5%**, mythic 3-6% → **1.5-3%**
 - **Frozen Queen gem** — `gems/twilight/queen.json` : bonus `frozen_drops` 66/135/**225%** → 20/40/**60%**
