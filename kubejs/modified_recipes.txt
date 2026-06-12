@@ -303,6 +303,18 @@ Craft Enrichment Chamber **remplacé** par Sequenced Assembly Create :
 - Le timer scale avec les RPM (|RPM|/16 par tick, comportement Create standard)
 - Affichage JEI clarifié via lang override `kubejs/assets/mechanical_botany/lang/` ("Xs @ 16 RPM")
 
+### 5.23 TFMG heavy plate vs plaque IE — conflit de pressing résolu
+Bug joueur : impossible de presser des plaques d'acier IE avec la Mechanical Press.
+- Cause : `tfmg:sequenced_assembly/heavy_plate` keyé sur `#c:ingots/steel` (TOUT acier) —
+  l'assemblage séquencé a priorité sur le pressing simple, donc il capturait aussi les
+  lingots IE. La recette compat de Create (`create:pressing/compat/immersiveengineering/
+  plate_steel`, tag → plaque IE) était inatteignable.
+- Fix : override datapack `kubejs/data/tfmg/recipe/sequenced_assembly/heavy_plate.json`
+  → ingredient verrouillé sur `tfmg:steel_ingot` (cohérent avec le lockdown §10_steel_arbitrage).
+- Résultat : lingot TFMG sous presse → heavy plate TFMG ; lingot IE/Mek/CN sous presse →
+  plaque IE (recette compat Create, 1:1, comme le Metal Press IE). Pas de nouveau vecteur
+  d'arbitrage : les plaques sont terminales (pas de retour plaque → lingot).
+
 ---
 
 ## 6. CROSS-MOD BRIDGE COMPONENTS (custom Arcadia items)
