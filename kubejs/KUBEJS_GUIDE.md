@@ -85,6 +85,7 @@ kubejs/
 │   ├── mobs/
 │   │   ├── mob_stat_overrides.js                   # Vanilla+modded mob HP/damage/armor (bosses ×2.5-×8)
 │   │   ├── mob_damage_nerfs.js                     # 5% equipment drop rate
+│   │   ├── equipment_drop_cap.js                   # Max 2 identical equipment drops per kill (anti loot-multiplier stacking)
 │   │   └── merchant_trade_filter.js                # Filters banned items from merchant trades
 │   │
 │   └── fixes/
