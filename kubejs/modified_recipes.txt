@@ -284,7 +284,19 @@ Craft Enrichment Chamber **remplacé** par Sequenced Assembly Create :
 - Cost per sheet: 1 pellet + 5 rods + 5 brass sheets + 5 heavy plates + 5 alloy reinforced + 2500mB molten steel
 - **HDPE Rod** renforcé : 4 pellets + 1 Brass Sheet (pattern 2x3)
 
-### 5.21 Mechanical Botany — Insolator nerf (config)
+### 5.21 Refined Storage + Extra Disks — energy overhaul (config)
+`config/refinedstorage-common.toml` (+ copie `defaultconfigs/`) — composants ×3-4 :
+- Disk Drive 10→40 + **24/disque** (défaut 4, plat — RS2 ne permet pas de scaler par tier)
+- Grid 30, Crafting/Pattern Grid 42, Importer/Exporter 8, Interface 16, External Storage 24
+- Storage blocks RS : 1k=8, 4k=16, 16k=32, 64k=48, creative=256 (fluide idem)
+- Upgrades : speed 16, stack 64, fortune 40/48/56, silk/regulator 64
+- Autocrafter 16 + 8/pattern, Manager/Monitor 48, Network Transmitter 128, Relay 32/32
+`config/extradisks-server.toml` — courbe exponentielle des storage blocks :
+- Item : 256k=64 → doublement par tier → 1048576k=4096, **infinite=8192**
+- Fluid/Chemical : 64→512, **infinite=4096**
+- ⚠ Loophole connu : un disque infini DANS un drive ne coûte que le tarif plat/disque (24)
+
+### 5.22 Mechanical Botany — Insolator nerf (config)
 `config/mechanical_botany-server.toml` → `Processing Time Multiplier = 4` (défaut 1) :
 - Toutes les recettes d'insolation ×4 (canne à sucre 2400 → 9600 ticks)
 - À 256 RPM (vitesse max) : ~30s au lieu de ~7.5s — parité Botany Pot atteinte dès 64 RPM
