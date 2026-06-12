@@ -392,6 +392,13 @@ HTH   P = minecraft:potion (×2)
 ### 8.4 `apotheosis.cfg` — coûts augmentés
 - Upgrade Sigil Cost : 5 → **10**
 - Upgrade Level Cost : 500 → **1200 XP**
+
+### 8.5 Mob farm loot nerf (Festive / Frozen Queen / Treasure Goblin)
+Signalement joueur : combo épée Skyroot + affixes/gemmes Apotheosis = x8-x16 le même stuff.
+- **Festive (Loot Piñata)** — `affixes/melee/festive.json` : rolls **20 → 4**, chance epic 2-5% → **1-2.5%**, mythic 3-6% → **1.5-3%**
+- **Frozen Queen gem** — `gems/twilight/queen.json` : bonus `frozen_drops` 66/135/**225%** → 20/40/**60%**
+- **Treasure Goblin gem** — `gems/twilight/forest.json` : chance d'invocation **divisée par 2** (perfect 1.5% → 0.75%), cooldown 4 min → **10 min**
+- **Treasure Goblin loot table** — `loot_table/entity/treasure_goblin.json` : rolls trésor 4-7 → **2-4**, potions 2-3 → **1-2**, entrée `random_gem` dédupliquée, **potion `extra_long_flying` RETIRÉE** (contournait le gating du vol par Nether Star, cf. §9)
 - Reroll Sigil Cost : 1 → **3**
 - Reroll Level Cost : 1000 → **2500 XP**
 - **`Restrict Charms to Curios` : false → true** (les charms ne fonctionnent plus que dans un slot Curios)
@@ -425,13 +432,6 @@ Pour 1 potion Extra Long Flying → il faut Phantom Membrane + Ender Dragon + Wi
 | Sophisticated Backpacks | **15%** |
 | Twilight Forest | **20%** |
 | **Artifacts** | **0%** (entièrement retiré des loot tables — craft uniquement) |
-
-### Equipment drop cap (`mobs/equipment_drop_cap.js`)
-Anti-stacking des multiplicateurs de loot (Skyroot double drops × Loot Pinata ×
-Scavenger × gemme Snow Queen +225% × Looting → x8-x16 du même équipement) :
-- **Max 2 exemplaires** du même item d'équipement (sword/tools/armor/shield/bow) par kill
-- Comptage par item ID sur le LivingDropsEvent final (après TOUS les multiplicateurs)
-- Drops non-équipement (cuir, poudre, parts) non plafonnés — farming ressources intact
 
 **Netherite Upgrade Template** : conservé au taux normal (retiré du nerf 99.99%) pour que les bastions restent utiles.
 
