@@ -426,6 +426,13 @@ Pour 1 potion Extra Long Flying → il faut Phantom Membrane + Ender Dragon + Wi
 | Twilight Forest | **20%** |
 | **Artifacts** | **0%** (entièrement retiré des loot tables — craft uniquement) |
 
+### Equipment drop cap (`mobs/equipment_drop_cap.js`)
+Anti-stacking des multiplicateurs de loot (Skyroot double drops × Loot Pinata ×
+Scavenger × gemme Snow Queen +225% × Looting → x8-x16 du même équipement) :
+- **Max 2 exemplaires** du même item d'équipement (sword/tools/armor/shield/bow) par kill
+- Comptage par item ID sur le LivingDropsEvent final (après TOUS les multiplicateurs)
+- Drops non-équipement (cuir, poudre, parts) non plafonnés — farming ressources intact
+
 **Netherite Upgrade Template** : conservé au taux normal (retiré du nerf 99.99%) pour que les bastions restent utiles.
 
 ---
