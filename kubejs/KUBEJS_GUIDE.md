@@ -91,6 +91,7 @@ kubejs/
 │       └── compat/
 │           ├── blaze_burner_patch.js                       # Create blaze burner compat
 │           ├── cannon_boat_crash_fix.js                    # Supplementaries cannon_boat crash fix
+│           ├── creeper_lightning_charge_fix.js             # Lightning damage always charges creepers (vanilla + ISS spells)
 │           ├── mowziesmobs_elokosa_paw_crashfix.js         # Mowzie's Mobs Elokosa paw crash fix
 │           └── occultengineering_pulverizer_dupe_fix.js    # Replaces broken upgrade_tier recipe (6 shapeless tier crafts)
 │
@@ -243,6 +244,7 @@ Several broken recipes from mod authors fixed via KubeJS:
 | **create_things_and_misc** (39 recipes) | `recipes/create/create_things_and_misc_fix.js` | Legacy 1.20 format (`result.item` → `result.id`) + numeric pattern keys + `forge:` tags |
 | **Netherite decrafting** | `recipes/create/netherite_sequenced_assembly.js` | Allows turning Netherite Block back into 9 ingots (4 loops) |
 | **Occult Engineering Pulverizer dupe** | `fixes/compat/occultengineering_pulverizer_dupe_fix.js` | Removes broken `upgrade_tier` recipe (shift-craft duped output), replaces with 6 explicit shapeless tier transitions |
+| **Creeper lightning charge** | `fixes/compat/creeper_lightning_charge_fix.js` | Safety net: any lightning-typed damage (`msgId` contains "lightning") forces `powered=true` on surviving creepers — covers vanilla bolts + ISS lightning spells |
 | **Iron sheet hand-craft fallback** | `recipes/custom/misc_custom_crafts.js` | Adds 3 iron_ingot → 1 iron_sheet vanilla craft so solo players are not gated by the Mechanical Press for their first iron tools |
 
 ## Recipe Overhaul Split (`recipes/overhaul/`)
