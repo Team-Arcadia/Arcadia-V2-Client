@@ -868,9 +868,9 @@
 		}
 		{
 			dependencies: ["230B3C36AE2AD333"]
-			id: "E29FDE4F4BD7E117"
+			id: "7E8E165E46301F98"
 			rewards: [{
-				id: "8522BE6CE556B8C2"
+				id: "4A1DA7724E8CCF47"
 				type: "xp"
 				xp: 100
 			}]
@@ -883,12 +883,12 @@
 					type: "item"
 				}
 				{
-					id: "82E4E9D13902DD8B"
+					id: "7144516EBCE5ED26"
 					item: { count: 1, id: "farmersdelight:apple_cider" }
 					type: "item"
 				}
 				{
-					id: "E48FB1588F1564BD"
+					id: "453E03402BC44437"
 					item: { count: 1, id: "farmersdelight:glow_berry_custard" }
 					type: "item"
 				}
@@ -897,16 +897,15 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["E29FDE4F4BD7E117"]
-			id: "D6ECA7F4D218A103"
+			id: "35131D4CDCB77848"
 			rewards: [{
-				id: "E524E372FAD77029"
+				id: "219598BA02F8E5C9"
 				type: "xp"
 				xp: 150
 			}]
 			tasks: [
 				{
-					id: "F50400278A66AEC0"
+					id: "3B3AB712EA2894DF"
 					item: { count: 1, id: "farmersdelight:nether_salad" }
 					type: "item"
 				}
@@ -920,8 +919,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["D6ECA7F4D218A103"]
-			id: "F797628EBF5179FF"
+			id: "5D18E1E70B9FFAED"
 			rewards: [{
 				id: "526BFD7E612D3EB3"
 				type: "xp"
@@ -929,12 +927,12 @@
 			}]
 			tasks: [
 				{
-					id: "BCB43292EE238414"
+					id: "196A4C9C003CCB8D"
 					item: { count: 1, id: "mynethersdelight:enchanted_golden_egg" }
 					type: "item"
 				}
 				{
-					id: "92013150661F9BF2"
+					id: "3C3F8FB2FE2A79E1"
 					item: { count: 1, id: "mynethersdelight:strider_stew" }
 					type: "item"
 				}
@@ -944,15 +942,15 @@
 		}
 		{
 			dependencies: ["052D7311B9A9363F"]
-			id: "A7C19038F8CAC0C4"
+			id: "0B2027936AD5B6B3"
 			rewards: [{
-				id: "ABA15FA3761CB1EC"
+				id: "3F5029CDE29A40FA"
 				type: "xp"
 				xp: 200
 			}]
 			tasks: [
 				{
-					id: "AE56A66B094D473B"
+					id: "790F073A664AC1A5"
 					item: { count: 1, id: "ends_delight:assorted_salad" }
 					type: "item"
 				}
@@ -966,10 +964,9 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["A7C19038F8CAC0C4"]
 			id: "74CC1EE98A3358F7"
 			rewards: [{
-				id: "854837D88375549A"
+				id: "41F5BDE4A3508F0F"
 				type: "xp"
 				xp: 300
 			}]
@@ -977,12 +974,12 @@
 			size: 1.25d
 			tasks: [
 				{
-					id: "E25D369E677C6476"
+					id: "1E7D43B9259D0F2F"
 					item: { count: 1, id: "ends_delight:fried_dragon_egg" }
 					type: "item"
 				}
 				{
-					id: "954598C8541BFC89"
+					id: "7663A9355B426EB7"
 					item: { count: 1, id: "ends_delight:dragon_meat_stew_block" }
 					type: "item"
 				}
