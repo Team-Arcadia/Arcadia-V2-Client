@@ -28392,5 +28392,332 @@
 		"&e&l★ Consejo:&r &7Un cableado pulcro importa cuando la base pasa de un muro de cables."
 	]
 
+
 	chapter.610E034C43873033.title: "The Factory Must Grow"
+	chapter.59A09EBE03BCD206.title: "Farmer's Delight"
+	quest.3ECDC6F40172CC45.quest_desc: [
+			"&6&lEl Primer Cuchillo"
+			"&8&m                            "
+			""
+			"&7Todo gran chef empieza en alguna parte. Fabrica un &fCuchillo de"
+			"&fsílex&7 — corta carnes y verduras en porciones."
+		]
+	quest.3ECDC6F40172CC45.quest_subtitle: "&7Donde empieza todo chef"
+	quest.3ECDC6F40172CC45.title: "&6&lEl Primer Cuchillo"
+	quest.481D941728A0E7A4.quest_desc: [
+			"&a&lLa Tabla de Cortar"
+			"&8&m                            "
+			""
+			"&7Coloca una &fTabla de cortar&7 y úsala con comida y un cuchillo:"
+			"&7más porciones con los mismos recursos."
+		]
+	quest.481D941728A0E7A4.quest_subtitle: "&7A rebanar"
+	quest.481D941728A0E7A4.title: "&a&lLa Tabla de Cortar"
+	quest.4C4CA07EC900B5AD.quest_desc: [
+			"&a&lLa Olla"
+			"&8&m                            "
+			""
+			"&7El corazón de Farmer's Delight. Colócala sobre una fuente de"
+			"&7calor y cocina sopas, guisos y platos completos."
+		]
+	quest.4C4CA07EC900B5AD.quest_subtitle: "&7Sopas y guisos te esperan"
+	quest.4C4CA07EC900B5AD.title: "&a&lLa Olla"
+	quest.57469EBFAD5DD8B0.quest_desc: [
+			"&a&lLa Sartén"
+			"&8&m                            "
+			""
+			"&7¡Fríe bacon, huevos y hamburguesas! La &fSartén&7 funciona sobre"
+			"&7una fuente de calor y hasta sirve de arma... si hace falta."
+		]
+	quest.57469EBFAD5DD8B0.quest_subtitle: "&7Chisporrotea"
+	quest.57469EBFAD5DD8B0.title: "&a&lLa Sartén"
+	quest.B650838239B16ABD.quest_desc: [
+			"&a&lLa Cocina"
+			"&8&m                            "
+			""
+			"&7Una cocina de verdad necesita un &fFogón&7: calienta ollas y"
+			"&7sartenes y cocina lo que se lance encima."
+		]
+	quest.B650838239B16ABD.quest_subtitle: "&7El centro de la cocina"
+	quest.B650838239B16ABD.title: "&a&lLa Cocina"
+	quest.5DBD7A24C55A4F4B.quest_desc: [
+			"&a&lTierra Fértil"
+			"&8&m                            "
+			""
+			"&7Composta materia orgánica y deja que madure en &fTierra fértil&7:"
+			"&7cultivos más rápidos y sin necesidad de agua."
+		]
+	quest.5DBD7A24C55A4F4B.quest_subtitle: "&7Mejor que la tierra"
+	quest.5DBD7A24C55A4F4B.title: "&a&lTierra Fértil"
+	quest.CB9076BD13DFD0A3.quest_desc: [
+			"&a&lNuevos Cultivos"
+			"&8&m                            "
+			""
+			"&7Coles, tomates, cebollas y arroz — búscalos en aldeas o en la"
+			"&7naturaleza y monta tu huerto."
+		]
+	quest.CB9076BD13DFD0A3.quest_subtitle: "&7Un huerto de abundancia"
+	quest.CB9076BD13DFD0A3.title: "&a&lNuevos Cultivos"
+	quest.CCB6D7CCE74DA5AD.quest_desc: [
+			"&a&lLa Cesta"
+			"&8&m                            "
+			""
+			"&7La &fCesta&7 recoge los objetos que caen cerca — ponla bajo una"
+			"&7tomatera o un árbol y deja que la gravedad coseche."
+		]
+	quest.CCB6D7CCE74DA5AD.quest_subtitle: "&7Cosecha sin manos"
+	quest.CCB6D7CCE74DA5AD.title: "&a&lLa Cesta"
+	quest.A30CAC17C08EA2C3.quest_desc: [
+			"&a&lCuchillo de Hierro"
+			"&8&m                            "
+			""
+			"&7Mejor que el sílex: más rápido, más duradero, y tus dedos"
+			"&7siguen enteros. El verdadero compañero del chef."
+		]
+	quest.A30CAC17C08EA2C3.quest_subtitle: "&7Más afilado y fuerte"
+	quest.A30CAC17C08EA2C3.title: "&a&lCuchillo de Hierro"
+	quest.570C63C4826B3BA8.quest_desc: [
+			"&6&lEl Gran Banquete"
+			"&8&m                            "
+			""
+			"&7Cocina los cuatro festines legendarios: &fPollo asado&7, &fJamón"
+			"&fglaseado&7, &fCalabaza rellena&7 y &fPastel de pastor&7. ¡Sírvelos!"
+		]
+	quest.570C63C4826B3BA8.quest_subtitle: "&7Una mesa digna de reyes"
+	quest.570C63C4826B3BA8.title: "&6&lEl Gran Banquete"
+	quest.0D32E06AA22ABA04.quest_desc: [
+			"&5&lCuchillo de Netherita"
+			"&8&m                            "
+			""
+			"&7La hoja definitiva. Con lo rara que es la netherita en Arcadia,"
+			"&7este cuchillo es una insignia de dedicación."
+		]
+	quest.0D32E06AA22ABA04.quest_subtitle: "&7El filo definitivo"
+	quest.0D32E06AA22ABA04.title: "&5&lCuchillo de Netherita"
+	quest.E774B09AB1479F1E.quest_desc: [
+			"&c&lHora de Barbacoa"
+			"&8&m                            "
+			""
+			"&7Monta tu rincón BBQ: la &fParrilla&7 asa brochetas, el &fBarreño"
+			"&7guarda ingredientes y la &fBandeja&7 prepara salsas."
+		]
+	quest.E774B09AB1479F1E.quest_subtitle: "&7Enciende la parrilla"
+	quest.E774B09AB1479F1E.title: "&c&lHora de Barbacoa"
+	quest.C90D7782338DAF2E.quest_desc: [
+			"&c&lMaestro de Brochetas"
+			"&8&m                            "
+			""
+			"&7Asa una &fBrocheta de ternera&7 a la perfección y monta un"
+			"&fSándwich kebab&7 jugoso. ¡No los quemes!"
+		]
+	quest.C90D7782338DAF2E.quest_subtitle: "&7Crujiente por fuera"
+	quest.C90D7782338DAF2E.title: "&c&lMaestro de Brochetas"
+	quest.856BEDDC486AE8CD.quest_desc: [
+			"&e&lAlta Cocina"
+			"&8&m                            "
+			""
+			"&7La &fSartén de cocina&7 permite recetas libres al wok: el tiempo"
+			"&7y los ingredientes deciden la calidad del plato."
+		]
+	quest.856BEDDC486AE8CD.quest_subtitle: "&7Cocinar es un arte"
+	quest.856BEDDC486AE8CD.title: "&e&lAlta Cocina"
+	quest.A011B1EFCDC97055.quest_desc: [
+			"&e&lBandejas Gourmet"
+			"&8&m                            "
+			""
+			"&7Domina el wok y emplata una &fBandeja de carne&7 y una &fBandeja"
+			"&7de marisco&7 dignas de restaurante."
+		]
+	quest.A011B1EFCDC97055.quest_subtitle: "&7La presentación importa"
+	quest.A011B1EFCDC97055.title: "&e&lBandejas Gourmet"
+	quest.2E1F12778D330707.quest_desc: [
+			"&a&lCultivos Exóticos"
+			"&8&m                            "
+			""
+			"&7Pepinos, berenjenas y aguacates de tierras lejanas."
+			"&7Encuéntralos silvestres y llévalos a casa."
+		]
+	quest.2E1F12778D330707.quest_subtitle: "&7Sabores de lejos"
+	quest.2E1F12778D330707.title: "&a&lCultivos Exóticos"
+	quest.891160AF8C5EB7DE.quest_desc: [
+			"&e&lCosecha de Maíz"
+			"&8&m                            "
+			""
+			"&7Cultiva &fMaíz&7 y prénsalo en &fTortillas&7 — la base de toda"
+			"&7una tradición culinaria."
+		]
+	quest.891160AF8C5EB7DE.quest_subtitle: "&7Los hijos del maíz"
+	quest.891160AF8C5EB7DE.title: "&e&lCosecha de Maíz"
+	quest.0E24EFD068B057DC.quest_desc: [
+			"&e&lComida Callejera"
+			"&8&m                            "
+			""
+			"&7Tacos, empanadas, burritos — rápido, delicioso y perfecto"
+			"&7para comer entre dos aventuras."
+		]
+	quest.0E24EFD068B057DC.quest_subtitle: "&7Sin mesa"
+	quest.0E24EFD068B057DC.title: "&e&lComida Callejera"
+	quest.FC3C4CFB4710010B.quest_desc: [
+			"&b&lPesca de Cangrejos"
+			"&8&m                            "
+			""
+			"&7Fabrica una &fTrampa para cangrejos&7, déjala en el agua con cebo"
+			"&7y vuelve más tarde. ¡Las playas esconden palmeras!"
+		]
+	quest.FC3C4CFB4710010B.quest_subtitle: "&7Clac clac"
+	quest.FC3C4CFB4710010B.title: "&b&lPesca de Cangrejos"
+	quest.65C46FFC04672214.quest_desc: [
+			"&b&lMarisco"
+			"&8&m                            "
+			""
+			"&7Convierte tu captura en &fPasteles de cangrejo&7 y un rico"
+			"&fGumbo de marisco&7. El océano es una despensa sin fondo."
+		]
+	quest.65C46FFC04672214.quest_subtitle: "&7Fresco del mar"
+	quest.65C46FFC04672214.title: "&b&lMarisco"
+	quest.BD8E9C94BABDB9B1.quest_desc: [
+			"&b&lCocina de Altamar"
+			"&8&m                            "
+			""
+			"&7&fAros de calamar&7 crujientes y el clásico &fFish and Chips&7 —"
+			"&7lo mejor que ofrece el océano."
+		]
+	quest.BD8E9C94BABDB9B1.quest_subtitle: "&7Sabor de las profundidades"
+	quest.BD8E9C94BABDB9B1.title: "&b&lCocina de Altamar"
+	quest.13E7BFF4204D3A1C.quest_desc: [
+			"&4&lLa Cocina del Infierno"
+			"&8&m                            "
+			""
+			"&7Se cocina hasta en el Nether: construye un &fFogón del Nether&7 y"
+			"&7cosecha el &fCañón polvoriento&7, el bambú del inframundo."
+		]
+	quest.13E7BFF4204D3A1C.quest_subtitle: "&7Esto se calienta"
+	quest.13E7BFF4204D3A1C.title: "&4&lLa Cocina del Infierno"
+	quest.7B9331E5C2083CD9.quest_desc: [
+			"&4&lCultivos Infernales"
+			"&8&m                            "
+			""
+			"&7El &fSuelo resurgente&7 hace prosperar la flora del Nether, y el"
+			"&fPimiento bala&7 incendia cualquier plato. Literalmente."
+		]
+	quest.7B9331E5C2083CD9.quest_subtitle: "&7Agricultura picante"
+	quest.7B9331E5C2083CD9.title: "&4&lCultivos Infernales"
+	quest.58C3B10B2F7EB6A6.quest_desc: [
+			"&4&lFestín de Hoglin"
+			"&8&m                            "
+			""
+			"&7Caza hoglins y cocina un &fHoglin relleno&7 entero y un"
+			"&fGuiso picante de hoglin&7. ¡Un manjar piglin!"
+		]
+	quest.58C3B10B2F7EB6A6.quest_subtitle: "&7La otra carne blanca"
+	quest.58C3B10B2F7EB6A6.title: "&4&lFestín de Hoglin"
+	quest.5871B1DCC089BDB2.quest_desc: [
+			"&5&lCocina del Vacío"
+			"&8&m                            "
+			""
+			"&7Hasta el vacío tiene gastronomía. Construye el &fFogón de"
+			"&fendstone&7 y el &fFogón del End&7 para cocinar al borde de la realidad."
+		]
+	quest.5871B1DCC089BDB2.quest_subtitle: "&7Cocinar al borde de la realidad"
+	quest.5871B1DCC089BDB2.title: "&5&lCocina del Vacío"
+	quest.D21217E0C4171CB7.quest_desc: [
+			"&5&lDelicias de Chorus"
+			"&8&m                            "
+			""
+			"&7Hornea una &fTarta de chorus&7 y agita un &fBubble Tea&7 de fruta"
+			"&7chorus. Cuidado: puede teletransportar tu paladar."
+		]
+	quest.D21217E0C4171CB7.quest_subtitle: "&7Sabores teletransportadores"
+	quest.D21217E0C4171CB7.title: "&5&lDelicias de Chorus"
+	quest.A52B5CB2D2BA8397.quest_desc: [
+			"&5&lLa Mesa del Dragón"
+			"&8&m                            "
+			""
+			"&7Los ingredientes más raros: &fHuevo de dragón frito&7, &fGuiso de"
+			"&fcarne de dragón&7 y &fShulker relleno&7. Gastronomía endgame."
+		]
+	quest.A52B5CB2D2BA8397.quest_subtitle: "&7Manjares prohibidos"
+	quest.A52B5CB2D2BA8397.title: "&5&lLa Mesa del Dragón"
+	quest.D336E5571F8F05FF.quest_desc: [
+			"&2&lCocina Crepuscular"
+			"&8&m                            "
+			""
+			"&7El Bosque Crepuscular tiene su propia escuela culinaria: el &fFogón"
+			"&7del laberinto&7 y la &fOlla ardiente&7 esperan a chefs valientes."
+		]
+	quest.D336E5571F8F05FF.quest_subtitle: "&7Cocinar bajo el dosel"
+	quest.D336E5571F8F05FF.title: "&2&lCocina Crepuscular"
+	quest.B5AD7100CB2EDC17.quest_desc: [
+			"&2&lManjares del Bosque"
+			"&8&m                            "
+			""
+			"&7&fMeef Wellington&7 y &fTarta aurora&7 — platos hechos con las"
+			"&7extrañas criaturas y glaciares del Bosque Crepuscular."
+		]
+	quest.B5AD7100CB2EDC17.quest_subtitle: "&7Extraño pero delicioso"
+	quest.B5AD7100CB2EDC17.title: "&2&lManjares del Bosque"
+	quest.AB6B04AA1545A9B9.quest_desc: [
+			"&d&lGastronomía Mágica"
+			"&8&m                            "
+			""
+			"&7Ars Nouveau llega a la cocina: forja el &fCuchillo del encantador&7"
+			"&7y conserva la &fMermelada de bayas de Source&7."
+		]
+	quest.AB6B04AA1545A9B9.quest_subtitle: "&7Una pizca de maná"
+	quest.AB6B04AA1545A9B9.title: "&d&lGastronomía Mágica"
+	quest.9C3A9B8851DA407A.quest_desc: [
+			"&d&lCocina Wilden"
+			"&8&m                            "
+			""
+			"&7Caza wilden y quimeras por su carne: la &fEnsalada wilden&7 y la"
+			"&fQuimera glaseada con miel&7 restauran maná al comer."
+		]
+	quest.9C3A9B8851DA407A.quest_subtitle: "&7Domando el sabor salvaje"
+	quest.9C3A9B8851DA407A.title: "&d&lCocina Wilden"
+	quest.617615B0148EBF80.quest_desc: [
+			"&e&lCocina Ancestral"
+			"&8&m                            "
+			""
+			"&7Antes del hierro existía la arcilla: el &fFogón de barro&7 y la"
+			"&fOlla de cerámica&7 honran las viejas tradiciones."
+		]
+	quest.617615B0148EBF80.quest_subtitle: "&7Las viejas costumbres"
+	quest.617615B0148EBF80.title: "&e&lCocina Ancestral"
+	quest.ACC085252DA770FC.quest_desc: [
+			"&e&lQueso y Cerezas"
+			"&8&m                            "
+			""
+			"&7Cura la leche en una &fRueda de queso&7 entera y hornea una"
+			"&fTarta de cerezas&7 en flor. Primavera en el plato."
+		]
+	quest.ACC085252DA770FC.quest_subtitle: "&7Primavera en el plato"
+	quest.ACC085252DA770FC.title: "&e&lQueso y Cerezas"
+	quest.32954326C20E4C2A.quest_desc: [
+			"&9&lMuebles de Cocina"
+			"&8&m                            "
+			""
+			"&7Una cocina de verdad necesita almacenaje: &fArmarios&7, &fCajones&7"
+			"&7y vitrinas para exponer tus mejores platos."
+		]
+	quest.32954326C20E4C2A.quest_subtitle: "&7Un lugar para cada cosa"
+	quest.32954326C20E4C2A.title: "&9&lMuebles de Cocina"
+	quest.ED473B22571E2477.quest_desc: [
+			"&9&lLa Despensa"
+			"&8&m                            "
+			""
+			"&7Comprime tus cosechas en &fCajas&7 y &fSacos&7 — almacenaje"
+			"&7compacto para una despensa ordenada."
+		]
+	quest.ED473B22571E2477.quest_subtitle: "&7Reservas para el invierno"
+	quest.ED473B22571E2477.title: "&9&lLa Despensa"
+	quest.C722694DD97E6B0A.quest_desc: [
+			"&6&lGran Chef de Arcadia"
+			"&8&m                            "
+			""
+			"&7Has cocinado en todas las dimensiones y dominado todos los"
+			"&7fogones. Emplata estos tres platos estrella y reclama tu"
+			"&7título: &6&lGran Chef de Arcadia&7."
+		]
+	quest.C722694DD97E6B0A.quest_subtitle: "&6El título definitivo"
+	quest.C722694DD97E6B0A.title: "&6&lGran Chef de Arcadia"
 }
