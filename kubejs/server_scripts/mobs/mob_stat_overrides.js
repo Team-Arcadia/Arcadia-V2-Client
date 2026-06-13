@@ -9,7 +9,7 @@
 
 const CONFIG = {
     MAX_HEALTH: 10000.0,
-    MAX_DAMAGE: 50.0,
+    MAX_DAMAGE: 80.0,
     MAX_ARMOR: 50.0
 };
 
@@ -28,12 +28,12 @@ const BOSS_DATA = {
     'twilightforest:ur_ghast': { mult: 2.5 },
     'twilightforest:alpha_yeti': { mult: 2.5 },
     'twilightforest:snow_queen': { mult: 2.5 },
-    'twilight_forest_final_boss:castle_keeper': { mult: 8.0 },
+    'twilight_forest_final_boss:castle_keeper': { mult: 16.0 },
 
     // --- Aether (Balanced for Arcadia V2) ---
     'aether:slider': { mult: 1.2 },
-    'aether:valkyrie_queen': { mult: 3.0 },
-    'aether:sun_spirit': { mult: 3.0 },
+    'aether:valkyrie_queen': { mult: 6.0 },
+    'aether:sun_spirit': { mult: 6.0 },
 
     // Ars Nouveau
     'ars_nouveau:wilden_boss': { mult: 1.2 },
@@ -64,10 +64,10 @@ const BOSS_DATA = {
     'mutantmonsters:spider_pig': { mult: 1.2 },
 
     // Mowzie's Mobs
-    'mowziesmobs:ferrous_wroughtnaut': { mult: 4.0 },
-    'mowziesmobs:frostmaw': { mult: 4.0 },
-    'mowziesmobs:naga': { mult: 4.0 },
-    'mowziesmobs:umvuthi': { mult: 4.0 },
+    'mowziesmobs:ferrous_wroughtnaut': { mult: 8.0 },
+    'mowziesmobs:frostmaw': { mult: 8.0 },
+    'mowziesmobs:naga': { mult: 8.0 },
+    'mowziesmobs:umvuthi': { mult: 8.0 },
 
     // Knight Quest
     'knightquest:netherman': { mult: 1.5 },
