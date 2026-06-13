@@ -141,6 +141,10 @@ const ARCADIA_FARM_BLACKLIST = [
     'aquaculture:box_turtle',
     'aquaculture:starshell_turtle',
 
+    // Crabber's Delight — crab drops crab_claw on death; spawner-farming floods the
+    // server with thousands of claws. Block it from all capture/spawner mechanisms.
+    'crabbersdelight:crab',
+
     // Bosses
     'minecraft:ender_dragon',
     'minecraft:wither',
