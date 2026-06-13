@@ -665,7 +665,7 @@
 				}
 				{
 					id: "68C8538EA31FD634"
-					item: { count: 1, id: "mynethersdelight:hoglin_sausage" }
+					item: { count: 1, id: "mynethersdelight:crimson_stroganoff" }
 					type: "item"
 				}
 			]
@@ -865,6 +865,130 @@
 			]
 			x: -4.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["230B3C36AE2AD333"]
+			id: "E29FDE4F4BD7E117"
+			rewards: [{
+				id: "8522BE6CE556B8C2"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					id: "3031C7ADBBA92B49"
+					item: { count: 1, id: "farmersdelight:hot_cocoa" }
+					type: "item"
+				}
+				{
+					id: "82E4E9D13902DD8B"
+					item: { count: 1, id: "farmersdelight:apple_cider" }
+					type: "item"
+				}
+				{
+					id: "E48FB1588F1564BD"
+					item: { count: 1, id: "farmersdelight:glow_berry_custard" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["E29FDE4F4BD7E117"]
+			id: "D6ECA7F4D218A103"
+			rewards: [{
+				id: "E524E372FAD77029"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [
+				{
+					id: "F50400278A66AEC0"
+					item: { count: 1, id: "farmersdelight:nether_salad" }
+					type: "item"
+				}
+				{
+					id: "5FC84A9876A6A7B5"
+					item: { count: 1, id: "mynethersdelight:magma_cake_slice" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["D6ECA7F4D218A103"]
+			id: "F797628EBF5179FF"
+			rewards: [{
+				id: "526BFD7E612D3EB3"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [
+				{
+					id: "BCB43292EE238414"
+					item: { count: 1, id: "mynethersdelight:enchanted_golden_egg" }
+					type: "item"
+				}
+				{
+					id: "92013150661F9BF2"
+					item: { count: 1, id: "mynethersdelight:strider_stew" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["052D7311B9A9363F"]
+			id: "A7C19038F8CAC0C4"
+			rewards: [{
+				id: "ABA15FA3761CB1EC"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [
+				{
+					id: "AE56A66B094D473B"
+					item: { count: 1, id: "ends_delight:assorted_salad" }
+					type: "item"
+				}
+				{
+					id: "2BD05830B702F005"
+					item: { count: 1, id: "ends_delight:ender_congee" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["A7C19038F8CAC0C4"]
+			id: "74CC1EE98A3358F7"
+			rewards: [{
+				id: "854837D88375549A"
+				type: "xp"
+				xp: 300
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [
+				{
+					id: "E25D369E677C6476"
+					item: { count: 1, id: "ends_delight:fried_dragon_egg" }
+					type: "item"
+				}
+				{
+					id: "954598C8541BFC89"
+					item: { count: 1, id: "ends_delight:dragon_meat_stew_block" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 2.0d
 		}
 	]
 }
