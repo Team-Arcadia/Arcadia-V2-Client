@@ -12,21 +12,29 @@
 	quests: [
 		{
 			id: "3ECDC6F40172CC45"
-			rewards: [{
-				id: "200C36FFE9C69EBB"
-				type: "xp"
-				xp: 50
-			}
-			{
-				id: "318E39682A53A8DE"
-				item: { count: 1, id: "solonion:food_book" }
-				type: "item"
-			}
-			{
-				id: "7A3F90ABF1D34755"
-				item: { count: 3, id: "minecraft:golden_carrot" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "200C36FFE9C69EBB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "318E39682A53A8DE"
+					item: {
+						count: 1
+						id: "solonion:food_book"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7A3F90ABF1D34755"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
@@ -41,16 +49,21 @@
 		{
 			dependencies: ["3ECDC6F40172CC45"]
 			id: "481D941728A0E7A4"
-			rewards: [{
-				id: "4DF052B2BA208C1C"
-				type: "xp"
-				xp: 75
-			}
-			{
-				id: "54C80FCC731D9B79"
-				item: { count: 4, id: "farmersdelight:onion" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "4DF052B2BA208C1C"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 4
+					id: "54C80FCC731D9B79"
+					item: {
+						count: 1
+						id: "farmersdelight:onion"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "37A76418F8ED6B60"
@@ -63,16 +76,21 @@
 		{
 			dependencies: ["481D941728A0E7A4"]
 			id: "4C4CA07EC900B5AD"
-			rewards: [{
-				id: "0A80FBD4A6F2E450"
-				type: "xp"
-				xp: 75
-			}
-			{
-				id: "A45FB3BCBED2165F"
-				item: { count: 8, id: "farmersdelight:rice" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "0A80FBD4A6F2E450"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "5B442B74E50B4E64"
+					item: {
+						count: 1
+						id: "farmersdelight:rice"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "3F5267FEA35A3B36"
@@ -85,16 +103,21 @@
 		{
 			dependencies: ["4C4CA07EC900B5AD"]
 			id: "626D659FCB7BE0B3"
-			rewards: [{
-				id: "223C4B0BC64D6CFE"
-				type: "xp"
-				xp: 100
-			}
-			{
-				id: "D80DD12946DEFB27"
-				item: { count: 4, id: "farmersdelight:organic_compost" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "223C4B0BC64D6CFE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "20E39C5B0C007304"
+					item: {
+						count: 1
+						id: "farmersdelight:organic_compost"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "7C0A832FB46889E7"
@@ -107,21 +130,28 @@
 		{
 			dependencies: ["626D659FCB7BE0B3"]
 			id: "570C63C4826B3BA8"
-			rewards: [{
-				id: "6E100E91E6BE142E"
-				type: "xp"
-				xp: 250
-			}
-			{
-				id: "A317D9EE25683962"
-				item: { count: 1, id: "solonion:lunchbag" }
-				type: "item"
-			}
-			{
-				id: "AB438109B268937B"
-				item: { count: 1, id: "farmersdelight:honey_glazed_ham" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "6E100E91E6BE142E"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "7FCDCBC68C38BAAB"
+					item: {
+						count: 1
+						id: "solonion:lunchbag"
+					}
+					type: "item"
+				}
+				{
+					id: "52EB7E0ED0F4BA82"
+					item: {
+						count: 1
+						id: "farmersdelight:honey_glazed_ham"
+					}
+					type: "item"
+				}
 			]
 			shape: "rsquare"
 			size: 1.5d
@@ -198,16 +228,21 @@
 		{
 			dependencies: ["481D941728A0E7A4"]
 			id: "29BC7C67C42467CD"
-			rewards: [{
-				id: "52F4B16E3CF0C9B7"
-				type: "xp"
-				xp: 75
-			}
-			{
-				id: "FEC9189D64459989"
-				item: { count: 3, id: "minecraft:iron_ingot" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "52F4B16E3CF0C9B7"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 3
+					id: "04B9B618FE53CB2D"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "08E7292E442DAE55"
@@ -220,16 +255,21 @@
 		{
 			dependencies: ["29BC7C67C42467CD"]
 			id: "0D32E06AA22ABA04"
-			rewards: [{
-				id: "14425C9CF6252A8A"
-				type: "xp"
-				xp: 250
-			}
-			{
-				id: "CEC6933730584554"
-				item: { count: 2, id: "mynethersdelight:enchanted_golden_egg" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "14425C9CF6252A8A"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 2
+					id: "454102898273A772"
+					item: {
+						count: 1
+						id: "mynethersdelight:enchanted_golden_egg"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "0BFF1E1456C47400"
@@ -242,16 +282,21 @@
 		{
 			dependencies: ["4C4CA07EC900B5AD"]
 			id: "57469EBFAD5DD8B0"
-			rewards: [{
-				id: "06DEC510DD2845CE"
-				type: "xp"
-				xp: 75
-			}
-			{
-				id: "DABBBD132EB98159"
-				item: { count: 6, id: "farmersdelight:bacon" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "06DEC510DD2845CE"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 6
+					id: "3BA56593F97E2873"
+					item: {
+						count: 1
+						id: "farmersdelight:bacon"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "24B6A9CE538444E9"
@@ -264,16 +309,21 @@
 		{
 			dependencies: ["481D941728A0E7A4"]
 			id: "0D04F21268A979EF"
-			rewards: [{
-				id: "5CCEBB517FAD1712"
-				type: "xp"
-				xp: 75
-			}
-			{
-				id: "C030DBE954A9E519"
-				item: { count: 4, id: "farmersdelight:tomato_seeds" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "5CCEBB517FAD1712"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 4
+					id: "0669A8DB81FAB37B"
+					item: {
+						count: 1
+						id: "farmersdelight:tomato_seeds"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "048F893DF8A565C9"
@@ -286,16 +336,21 @@
 		{
 			dependencies: ["4C4CA07EC900B5AD"]
 			id: "5DBD7A24C55A4F4B"
-			rewards: [{
-				id: "49953B68399D4D02"
-				type: "xp"
-				xp: 75
-			}
-			{
-				id: "2414D4FBA69158D1"
-				item: { count: 8, id: "farmersdelight:rich_soil" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "49953B68399D4D02"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 8
+					id: "2414D4FBA69158D1"
+					item: {
+						count: 1
+						id: "farmersdelight:rich_soil"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -317,21 +372,30 @@
 		{
 			dependencies: ["5DBD7A24C55A4F4B"]
 			id: "71D38A708CA7BE67"
-			rewards: [{
-				id: "06D7E19B6E67C611"
-				type: "xp"
-				xp: 100
-			}
-			{
-				id: "A3E38BF08EC7B346"
-				item: { count: 4, id: "farmersdelight:cabbage_seeds" }
-				type: "item"
-			}
-			{
-				id: "47C94A94099F39A1"
-				item: { count: 4, id: "farmersdelight:tomato_seeds" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "06D7E19B6E67C611"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "079DAD1F5FB3BC2E"
+					item: {
+						count: 1
+						id: "farmersdelight:cabbage_seeds"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "47C94A94099F39A1"
+					item: {
+						count: 1
+						id: "farmersdelight:tomato_seeds"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -361,16 +425,21 @@
 		{
 			dependencies: ["570C63C4826B3BA8"]
 			id: "3B2D03ABD6ACF98F"
-			rewards: [{
-				id: "253FF6D324809125"
-				type: "xp"
-				xp: 100
-			}
-			{
-				id: "E3CC808383158845"
-				item: { count: 8, id: "cuisinedelight:plate" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "253FF6D324809125"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "2B5FB241812C29A5"
+					item: {
+						count: 1
+						id: "cuisinedelight:plate"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -396,16 +465,21 @@
 		{
 			dependencies: ["3B2D03ABD6ACF98F"]
 			id: "4C0571976745AB21"
-			rewards: [{
-				id: "723D2B40DB1E720A"
-				type: "xp"
-				xp: 150
-			}
-			{
-				id: "11ED62704B52034F"
-				item: { count: 2, id: "cuisinedelight:meat_platter" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "723D2B40DB1E720A"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 2
+					id: "11ED62704B52034F"
+					item: {
+						count: 1
+						id: "cuisinedelight:meat_platter"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -425,16 +499,21 @@
 		{
 			dependencies: ["3B2D03ABD6ACF98F"]
 			id: "7196B68510567111"
-			rewards: [{
-				id: "2E0F53B4E4454220"
-				type: "xp"
-				xp: 100
-			}
-			{
-				id: "0ADC82019F8BC9C6"
-				item: { count: 4, id: "barbequesdelight:barbeque_sauce" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "2E0F53B4E4454220"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "0ADC82019F8BC9C6"
+					item: {
+						count: 1
+						id: "barbequesdelight:barbeque_sauce"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -459,16 +538,21 @@
 		{
 			dependencies: ["7196B68510567111"]
 			id: "230B3C36AE2AD333"
-			rewards: [{
-				id: "776949BC82B5A31F"
-				type: "xp"
-				xp: 100
-			}
-			{
-				id: "AF8D5C9778198D91"
-				item: { count: 4, id: "barbequesdelight:grilled_beef_skewer" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "776949BC82B5A31F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "3016D2C17DECFB4D"
+					item: {
+						count: 1
+						id: "barbequesdelight:grilled_beef_skewer"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -488,16 +572,20 @@
 		{
 			dependencies: ["570C63C4826B3BA8"]
 			id: "5871B1DCC089BDB2"
-			rewards: [{
-				id: "2EF6F619FA84B5C4"
-				type: "xp"
-				xp: 150
-			}
-			{
-				id: "21C6B2DEC69CBF86"
-				item: { count: 1, id: "ends_delight:chorus_fruit_crate" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "2EF6F619FA84B5C4"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "21C6B2DEC69CBF86"
+					item: {
+						count: 1
+						id: "ends_delight:chorus_fruit_crate"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -517,16 +605,21 @@
 		{
 			dependencies: ["5871B1DCC089BDB2"]
 			id: "3F1F93E5C3593AA5"
-			rewards: [{
-				id: "4B9A56E91FB34238"
-				type: "xp"
-				xp: 150
-			}
-			{
-				id: "5660019333F44CCB"
-				item: { count: 3, id: "ends_delight:bubble_tea" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "4B9A56E91FB34238"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 3
+					id: "5660019333F44CCB"
+					item: {
+						count: 1
+						id: "ends_delight:bubble_tea"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -546,16 +639,21 @@
 		{
 			dependencies: ["3F1F93E5C3593AA5"]
 			id: "052D7311B9A9363F"
-			rewards: [{
-				id: "0C8AAD386D36339A"
-				type: "xp"
-				xp: 250
-			}
-			{
-				id: "BE8E3F2F5C337696"
-				item: { count: 3, id: "ends_delight:dragon_meat_stew" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "0C8AAD386D36339A"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 3
+					id: "482B50ABB974D907"
+					item: {
+						count: 1
+						id: "ends_delight:dragon_meat_stew"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -580,16 +678,20 @@
 		{
 			dependencies: ["5871B1DCC089BDB2"]
 			id: "7676B6D0AC950121"
-			rewards: [{
-				id: "13520EFFEDE4A85D"
-				type: "xp"
-				xp: 150
-			}
-			{
-				id: "6C25772B4355AFD6"
-				item: { count: 1, id: "twilightdelight:torchberry_pie" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "13520EFFEDE4A85D"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "6C25772B4355AFD6"
+					item: {
+						count: 1
+						id: "twilightdelight:torchberry_pie"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -609,16 +711,20 @@
 		{
 			dependencies: ["7676B6D0AC950121"]
 			id: "7E4268491F3D1E21"
-			rewards: [{
-				id: "3806D070A6EFC75F"
-				type: "xp"
-				xp: 150
-			}
-			{
-				id: "BFDCFE643A023328"
-				item: { count: 1, id: "twilightdelight:aurora_pie" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "3806D070A6EFC75F"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "20EBC72D674FE3DE"
+					item: {
+						count: 1
+						id: "twilightdelight:aurora_pie"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -638,16 +744,21 @@
 		{
 			dependencies: ["71D38A708CA7BE67"]
 			id: "2E1F12778D330707"
-			rewards: [{
-				id: "254FF22578B3CD74"
-				type: "xp"
-				xp: 100
-			}
-			{
-				id: "45942E2FB590C5A8"
-				item: { count: 4, id: "culturaldelights:avocado" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "254FF22578B3CD74"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "45942E2FB590C5A8"
+					item: {
+						count: 1
+						id: "culturaldelights:avocado"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -672,16 +783,21 @@
 		{
 			dependencies: ["2E1F12778D330707"]
 			id: "7E5E53C79C1EC9BA"
-			rewards: [{
-				id: "4C8781C61C74A24C"
-				type: "xp"
-				xp: 100
-			}
-			{
-				id: "D3D20EF6E3AED012"
-				item: { count: 4, id: "corn_delight:corn_seeds" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "4C8781C61C74A24C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "30EBB869F6CF4011"
+					item: {
+						count: 1
+						id: "corn_delight:corn_seeds"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -702,16 +818,21 @@
 		{
 			dependencies: ["7E5E53C79C1EC9BA"]
 			id: "0E24EFD068B057DC"
-			rewards: [{
-				id: "63B4D649971E77D4"
-				type: "xp"
-				xp: 150
-			}
-			{
-				id: "AB0AABE9E009DFBB"
-				item: { count: 4, id: "corn_delight:taco" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "63B4D649971E77D4"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 4
+					id: "522798F9BD317AEF"
+					item: {
+						count: 1
+						id: "corn_delight:taco"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -736,16 +857,21 @@
 		{
 			dependencies: ["0D04F21268A979EF"]
 			id: "2727AD539EC13308"
-			rewards: [{
-				id: "437896ABD116D260"
-				type: "xp"
-				xp: 100
-			}
-			{
-				id: "D56F2AD9ABD53036"
-				item: { count: 4, id: "crabbersdelight:cooked_crab" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "437896ABD116D260"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "6DF65EDD6346909C"
+					item: {
+						count: 1
+						id: "crabbersdelight:cooked_crab"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -765,16 +891,21 @@
 		{
 			dependencies: ["2727AD539EC13308"]
 			id: "65C46FFC04672214"
-			rewards: [{
-				id: "75A07F1A9565E1B1"
-				type: "xp"
-				xp: 100
-			}
-			{
-				id: "7F09712E8CAE7819"
-				item: { count: 2, id: "crabbersdelight:seafood_gumbo" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "75A07F1A9565E1B1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "7F09712E8CAE7819"
+					item: {
+						count: 1
+						id: "crabbersdelight:seafood_gumbo"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -794,16 +925,21 @@
 		{
 			dependencies: ["65C46FFC04672214"]
 			id: "4E60FF013BF522E4"
-			rewards: [{
-				id: "2D60D98A97A5714E"
-				type: "xp"
-				xp: 150
-			}
-			{
-				id: "4D1498A9F1480EA9"
-				item: { count: 2, id: "aquaculturedelight:fish_and_chips" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "2D60D98A97A5714E"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 2
+					id: "4D1498A9F1480EA9"
+					item: {
+						count: 1
+						id: "aquaculturedelight:fish_and_chips"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -823,16 +959,21 @@
 		{
 			dependencies: ["0D32E06AA22ABA04"]
 			id: "13E7BFF4204D3A1C"
-			rewards: [{
-				id: "25E822643F99ADAE"
-				type: "xp"
-				xp: 100
-			}
-			{
-				id: "D40579E98C0BAA7F"
-				item: { count: 2, id: "mynethersdelight:crimson_stroganoff" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "25E822643F99ADAE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "389E1FAA1EFDF284"
+					item: {
+						count: 1
+						id: "mynethersdelight:crimson_stroganoff"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -852,16 +993,21 @@
 		{
 			dependencies: ["13E7BFF4204D3A1C"]
 			id: "7B9331E5C2083CD9"
-			rewards: [{
-				id: "4B67344E6E9CDD28"
-				type: "xp"
-				xp: 100
-			}
-			{
-				id: "15660FEF4C85992B"
-				item: { count: 4, id: "mynethersdelight:bullet_pepper" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "4B67344E6E9CDD28"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "15660FEF4C85992B"
+					item: {
+						count: 1
+						id: "mynethersdelight:bullet_pepper"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -881,16 +1027,21 @@
 		{
 			dependencies: ["7B9331E5C2083CD9"]
 			id: "58C3B10B2F7EB6A6"
-			rewards: [{
-				id: "2A595682BB14B45F"
-				type: "xp"
-				xp: 150
-			}
-			{
-				id: "2949C010E54BD5D8"
-				item: { count: 2, id: "mynethersdelight:spicy_hoglin_stew" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "2A595682BB14B45F"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 2
+					id: "2949C010E54BD5D8"
+					item: {
+						count: 1
+						id: "mynethersdelight:spicy_hoglin_stew"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -910,16 +1061,21 @@
 		{
 			dependencies: ["57469EBFAD5DD8B0"]
 			id: "4A8EEDC53DA4935E"
-			rewards: [{
-				id: "113FAA2E3120F3C8"
-				type: "xp"
-				xp: 100
-			}
-			{
-				id: "5F1E4A1F6437F532"
-				item: { count: 3, id: "arsdelight:source_berry_jam" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "113FAA2E3120F3C8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "5F1E4A1F6437F532"
+					item: {
+						count: 1
+						id: "arsdelight:source_berry_jam"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -939,16 +1095,21 @@
 		{
 			dependencies: ["4A8EEDC53DA4935E"]
 			id: "55CB42BF915481AE"
-			rewards: [{
-				id: "016075F9560F580A"
-				type: "xp"
-				xp: 150
-			}
-			{
-				id: "2AF725FAE8227CB1"
-				item: { count: 2, id: "arsdelight:wilden_salad" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "016075F9560F580A"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 2
+					id: "2AF725FAE8227CB1"
+					item: {
+						count: 1
+						id: "arsdelight:wilden_salad"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -968,16 +1129,21 @@
 		{
 			dependencies: ["0D04F21268A979EF"]
 			id: "617615B0148EBF80"
-			rewards: [{
-				id: "49ADC35F3F885388"
-				type: "xp"
-				xp: 100
-			}
-			{
-				id: "6FAFC95169CE9E5D"
-				item: { count: 4, id: "trailandtales_delight:cheese_slice" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "49ADC35F3F885388"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "6FAFC95169CE9E5D"
+					item: {
+						count: 1
+						id: "trailandtales_delight:cheese_slice"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -997,16 +1163,20 @@
 		{
 			dependencies: ["617615B0148EBF80"]
 			id: "709CEC1F8F6A35D8"
-			rewards: [{
-				id: "21A5C8F23DCB2EEE"
-				type: "xp"
-				xp: 150
-			}
-			{
-				id: "ED90734A436E70B1"
-				item: { count: 1, id: "trailandtales_delight:cherry_cake" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "21A5C8F23DCB2EEE"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "305F4B98DCC55C68"
+					item: {
+						count: 1
+						id: "trailandtales_delight:cherry_cake"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -1026,16 +1196,21 @@
 		{
 			dependencies: ["5DBD7A24C55A4F4B"]
 			id: "7491ED45B32BC307"
-			rewards: [{
-				id: "4FA21389E5158EDC"
-				type: "xp"
-				xp: 100
-			}
-			{
-				id: "D351159E55AF4FA3"
-				item: { count: 2, id: "farmersdelight:carrot_crate" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "4FA21389E5158EDC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "1F88FAD37DF677DF"
+					item: {
+						count: 1
+						id: "farmersdelight:carrot_crate"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -1060,16 +1235,21 @@
 		{
 			dependencies: ["7491ED45B32BC307"]
 			id: "32954326C20E4C2A"
-			rewards: [{
-				id: "496EC6EB1686A34E"
-				type: "xp"
-				xp: 100
-			}
-			{
-				id: "7C9612E06C67991A"
-				item: { count: 4, id: "storagedelight:oak_drawer" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "496EC6EB1686A34E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "7C9612E06C67991A"
+					item: {
+						count: 1
+						id: "storagedelight:oak_drawer"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -1094,16 +1274,21 @@
 		{
 			dependencies: ["230B3C36AE2AD333"]
 			id: "7E8E165E46301F98"
-			rewards: [{
-				id: "4A1DA7724E8CCF47"
-				type: "xp"
-				xp: 100
-			}
-			{
-				id: "1A69785F9FA0CF5F"
-				item: { count: 4, id: "farmersdelight:apple_cider" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "4A1DA7724E8CCF47"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "1A69785F9FA0CF5F"
+					item: {
+						count: 1
+						id: "farmersdelight:apple_cider"
+					}
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			size: 1.25d
@@ -1129,16 +1314,21 @@
 		}
 		{
 			id: "35131D4CDCB77848"
-			rewards: [{
-				id: "219598BA02F8E5C9"
-				type: "xp"
-				xp: 150
-			}
-			{
-				id: "D36558EAECA72A80"
-				item: { count: 3, id: "mynethersdelight:magma_cake_slice" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "219598BA02F8E5C9"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 3
+					id: "553DD7B8D7735BB0"
+					item: {
+						count: 1
+						id: "mynethersdelight:magma_cake_slice"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -1157,16 +1347,21 @@
 		}
 		{
 			id: "5D18E1E70B9FFAED"
-			rewards: [{
-				id: "526BFD7E612D3EB3"
-				type: "xp"
-				xp: 200
-			}
-			{
-				id: "F2325C5928476C20"
-				item: { count: 2, id: "mynethersdelight:enchanted_golden_egg" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "526BFD7E612D3EB3"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "193093E08E66413F"
+					item: {
+						count: 1
+						id: "mynethersdelight:enchanted_golden_egg"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -1186,16 +1381,21 @@
 		{
 			dependencies: ["052D7311B9A9363F"]
 			id: "0B2027936AD5B6B3"
-			rewards: [{
-				id: "3F5029CDE29A40FA"
-				type: "xp"
-				xp: 200
-			}
-			{
-				id: "C34B4B6B3A994FBD"
-				item: { count: 3, id: "ends_delight:assorted_salad" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "3F5029CDE29A40FA"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 3
+					id: "27D10F37F688CC50"
+					item: {
+						count: 1
+						id: "ends_delight:assorted_salad"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -1214,21 +1414,29 @@
 		}
 		{
 			id: "74CC1EE98A3358F7"
-			rewards: [{
-				id: "41F5BDE4A3508F0F"
-				type: "xp"
-				xp: 300
-			}
-			{
-				id: "D6F86A53ADA949EB"
-				item: { count: 1, id: "solonion:golden_lunchbox" }
-				type: "item"
-			}
-			{
-				id: "A7BF761776217788"
-				item: { count: 3, id: "ends_delight:fried_dragon_egg" }
-				type: "item"
-			}
+			rewards: [
+				{
+					id: "41F5BDE4A3508F0F"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "68178BFEA1468B6B"
+					item: {
+						count: 1
+						id: "solonion:golden_lunchbox"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3F537378C68C5351"
+					item: {
+						count: 1
+						id: "ends_delight:fried_dragon_egg"
+					}
+					type: "item"
+				}
 			]
 			shape: "rsquare"
 			size: 1.25d
