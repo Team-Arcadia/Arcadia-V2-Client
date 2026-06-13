@@ -490,6 +490,19 @@ Pour 1 potion Extra Long Flying → il faut Phantom Membrane + Ender Dragon + Wi
 
 - **Blaze Powder** — ne se fait plus via Blaze Rod vanilla → 4 **Pepper Powder** (My Nether's Delight) exclusivement.
 
+### 11.1 Spice of Life: Onion — diversité alimentaire endgame (`config/solonion.json`)
+Refonte pour valoriser la nourriture (600+ items food dans le pack). Manger varié = bonus permanents.
+- `trackCount` 32 → **200** (suit les 200 derniers aliments uniques), `minFoodsToActivate` 10 → **5**
+- `resetOnDeath` conservé (true) — les bonus se perdent à la mort, encourage la survie
+- **25 paliers de 5 à 200 aliments différents** (avant : 7 paliers dont plusieurs vides Force 0/Vitesse 0) :
+  - Santé : 10 paliers max_health → **+38 (≈ +19 cœurs)** au total
+  - **Chance (Luck) permanente** : 6 paliers (10/35/60/110/160/200) → **+10 Luck** (meilleur loot coffres/pêche/drops)
+  - Effets permanents : Vitesse (20), Force I (45), Régén (90), Force II (140), Résistance (170)
+  - Défense : +6 armure + 6 robustesse répartis
+- **foodDiversity** : plats Delight cuisinés valorisés (comptent ×2 à ×4 au lieu de ×1) — Dragon/Golden Egg ×4,
+  salades End/platters/bibimbap ×3, festins FD ×2. Récompense de cuisiner plutôt que manger brut.
+- Client : `shouldShowInactiveBenefits: true` → les joueurs voient les paliers à venir (motivation).
+
 ---
 
 ## 12. RECIPE FIXES LOG (ID corrections)

@@ -3,38 +3,110 @@
     "entries": [],
     "isWhitelist": false
   },
-  "trackCount": 32,
+  "trackCount": 200,
   "resetOnDeath": true,
   "limitProgressionToSurvival": false,
-  "minFoodsToActivate": 10,
+  "minFoodsToActivate": 5,
   "benefits": [
     {
-      "threshold": 3,
+      "threshold": 5,
       "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:2.0d}"
     },
     {
-      "threshold": 5,
-      "benefit": "{key:\"minecraft:strength\",type:\"eff\",val:0.0d}"
-    },
-    {
       "threshold": 10,
+      "benefit": "{key:\"minecraft:generic.luck\",op:0,type:\"att\",val:1.0d}"
+    },
+    {
+      "threshold": 15,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:2.0d}"
+    },
+    {
+      "threshold": 20,
       "benefit": "{key:\"minecraft:speed\",type:\"eff\",val:0.0d}"
-    },
-    {
-      "threshold": 13,
-      "benefit": "{key:\"minecraft:generic.armor_toughness\",op:0,type:\"att\",val:2.0d}"
-    },
-    {
-      "threshold": 18,
-      "benefit": "{key:\"minecraft:strength\",type:\"eff\",val:1.0d}"
     },
     {
       "threshold": 25,
       "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:2.0d}"
     },
     {
-      "threshold": 31,
+      "threshold": 30,
+      "benefit": "{key:\"minecraft:generic.armor_toughness\",op:0,type:\"att\",val:2.0d}"
+    },
+    {
+      "threshold": 35,
+      "benefit": "{key:\"minecraft:generic.luck\",op:0,type:\"att\",val:1.0d}"
+    },
+    {
+      "threshold": 40,
       "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:2.0d}"
+    },
+    {
+      "threshold": 45,
+      "benefit": "{key:\"minecraft:strength\",type:\"eff\",val:0.0d}"
+    },
+    {
+      "threshold": 50,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:2.0d}"
+    },
+    {
+      "threshold": 60,
+      "benefit": "{key:\"minecraft:generic.luck\",op:0,type:\"att\",val:1.0d}"
+    },
+    {
+      "threshold": 70,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:2.0d}"
+    },
+    {
+      "threshold": 80,
+      "benefit": "{key:\"minecraft:generic.armor\",op:0,type:\"att\",val:2.0d}"
+    },
+    {
+      "threshold": 90,
+      "benefit": "{key:\"minecraft:regeneration\",type:\"eff\",val:0.0d}"
+    },
+    {
+      "threshold": 100,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:4.0d}"
+    },
+    {
+      "threshold": 110,
+      "benefit": "{key:\"minecraft:generic.luck\",op:0,type:\"att\",val:2.0d}"
+    },
+    {
+      "threshold": 120,
+      "benefit": "{key:\"minecraft:generic.armor_toughness\",op:0,type:\"att\",val:2.0d}"
+    },
+    {
+      "threshold": 130,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:2.0d}"
+    },
+    {
+      "threshold": 140,
+      "benefit": "{key:\"minecraft:strength\",type:\"eff\",val:1.0d}"
+    },
+    {
+      "threshold": 150,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:4.0d}"
+    },
+    {
+      "threshold": 160,
+      "benefit": "{key:\"minecraft:generic.luck\",op:0,type:\"att\",val:2.0d}"
+    },
+    {
+      "threshold": 170,
+      "benefit": "{key:\"minecraft:resistance\",type:\"eff\",val:0.0d}"
+    },
+    {
+      "threshold": 180,
+      "benefit": "{key:\"minecraft:generic.armor\",op:0,type:\"att\",val:2.0d}"
+    },
+    {
+      "threshold": 190,
+      "benefit": "{key:\"minecraft:generic.max_health\",op:0,type:\"att\",val:4.0d}"
+    },
+    {
+      "threshold": 200,
+      "benefit": "{key:\"minecraft:generic.luck\",op:0,type:\"att\",val:3.0d}"
     }
   ],
   "detriments": [],
@@ -59,6 +131,54 @@
     {
       "ingredient": "{id:\"item\",item:\"minecraft:enchanted_golden_apple\"}",
       "diversity": 5
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"ends_delight:fried_dragon_egg\"}",
+      "diversity": 4
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"ends_delight:dragon_meat_stew\"}",
+      "diversity": 4
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"mynethersdelight:enchanted_golden_egg\"}",
+      "diversity": 4
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"ends_delight:assorted_salad\"}",
+      "diversity": 3
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"ends_delight:ender_congee\"}",
+      "diversity": 3
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"cuisinedelight:meat_platter\"}",
+      "diversity": 3
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"cuisinedelight:seafood_platter\"}",
+      "diversity": 3
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"barbequesdelight:bibimbap\"}",
+      "diversity": 3
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"farmersdelight:roast_chicken\"}",
+      "diversity": 2
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"farmersdelight:honey_glazed_ham\"}",
+      "diversity": 2
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"farmersdelight:shepherds_pie\"}",
+      "diversity": 2
+    },
+    {
+      "ingredient": "{id:\"item\",item:\"farmersdelight:stuffed_pumpkin\"}",
+      "diversity": 2
     }
   ]
 }
