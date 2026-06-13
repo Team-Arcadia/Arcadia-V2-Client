@@ -177,7 +177,7 @@ const BANNED_ITEMS = [
   'supplementaries:cannon_boat_mangrove',
   'supplementaries:cannon_boat_cherry',
   'supplementaries:cannon_boat_bamboo',
-
+/*  */
   // Backtanks (Banned)
   'creategoggles:chainmail_backtank',
   'creategoggles:diamond_backtank',
