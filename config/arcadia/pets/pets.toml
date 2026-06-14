@@ -40,6 +40,12 @@
 	#Items the pet sniffer is allowed to drop. Use namespaced item ids.
 	#Anything not in this list will be cancelled when it spawns near a pet sniffer.
 	dig_allowlist = ["minecraft:coal", "minecraft:raw_iron", "minecraft:raw_gold", "minecraft:raw_copper", "minecraft:diamond", "minecraft:emerald", "minecraft:redstone", "minecraft:lapis_lazuli", "minecraft:quartz", "minecraft:netherite_scrap", "minecraft:coal_ore", "minecraft:deepslate_coal_ore", "minecraft:iron_ore", "minecraft:deepslate_iron_ore", "minecraft:gold_ore", "minecraft:deepslate_gold_ore", "minecraft:nether_gold_ore", "minecraft:diamond_ore", "minecraft:deepslate_diamond_ore", "minecraft:emerald_ore", "minecraft:deepslate_emerald_ore", "minecraft:copper_ore", "minecraft:deepslate_copper_ore", "minecraft:redstone_ore", "minecraft:deepslate_redstone_ore", "minecraft:lapis_ore", "minecraft:deepslate_lapis_ore", "minecraft:nether_quartz_ore", "minecraft:ancient_debris"]
+	#Blocks the Sniffer's Ancient Sense skill may duplicate when broken.
+	#Kept to cheap, renewable nature blocks (sniffer archaeology loot, flowers,
+	#seeds, dirt/sand/gravel, moss, grass) so the skill cannot reproduce the old
+	#'dupe anything' exploit. Use namespaced block ids. Anything not listed here
+	#is never duplicated, whatever the skill level.
+	skill_friendly_blocks = ["minecraft:torchflower", "minecraft:pitcher_plant", "minecraft:torchflower_crop", "minecraft:pitcher_crop", "minecraft:wheat", "minecraft:short_grass", "minecraft:tall_grass", "minecraft:fern", "minecraft:large_fern", "minecraft:dandelion", "minecraft:poppy", "minecraft:blue_orchid", "minecraft:allium", "minecraft:azure_bluet", "minecraft:oxeye_daisy", "minecraft:cornflower", "minecraft:lily_of_the_valley", "minecraft:sunflower", "minecraft:lilac", "minecraft:rose_bush", "minecraft:peony", "minecraft:dirt", "minecraft:coarse_dirt", "minecraft:rooted_dirt", "minecraft:moss_block", "minecraft:moss_carpet", "minecraft:sand", "minecraft:gravel", "minecraft:mud"]
 
 #World drop settings — structure chests and mob kill drops.
 #All toggleable at runtime via /arcadia_pets drops and /arcadia_pets mobdrops.

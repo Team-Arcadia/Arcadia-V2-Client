@@ -16,6 +16,7 @@
     KubeJS 7.x / MC 1.21.1 NeoForge.
 */
 
+(function () {
 const FTBChunksAPI = Java.loadClass('dev.ftb.mods.ftbchunks.api.FTBChunksAPI');
 const Protection = Java.loadClass('dev.ftb.mods.ftbchunks.api.Protection');
 
@@ -55,3 +56,4 @@ SOUL_GEMS.forEach(gemId => {
 });
 
 console.info("[Arcadia V2] Soul Gem Claim Protection Loaded: Occultism gems now respect FTB Chunks entity-interact permissions.");
+})();

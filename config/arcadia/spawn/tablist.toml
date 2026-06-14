@@ -40,6 +40,14 @@
 	#Hide the latency/ping signal-bar icons next to each player name in the tab list.
 	#Client-side only — players without this mod installed will still see the icons.
 	hide_ping_icons = true
+	#Collision rule applied to the grade-sorting teams. Players are bucketed into
+	#scoreboard teams to sort the tab, and a team's collision rule overrides vanilla
+	#player/entity pushing. Keep ALWAYS (vanilla behaviour) unless you specifically
+	#want to disable pushing. The rule is re-applied on every sync, so changing it
+	#here also repairs teams previously saved with the wrong rule.
+	#Values: ALWAYS, NEVER, PUSH_OWN_TEAM, PUSH_OTHER_TEAMS.
+	#Allowed Values: ALWAYS, NEVER, PUSH_OTHER_TEAMS, PUSH_OWN_TEAM
+	collision_rule = "ALWAYS"
 
 ["Cross-Server Sync"]
 	#Requires arcadia-lib database to be enabled and reachable.
