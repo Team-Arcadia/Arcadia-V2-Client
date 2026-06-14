@@ -15,6 +15,17 @@
 	# Default: 10
 	# Range: 0 ~ 100
 	listing_fee_percent = 10
+	#Maximum price a single listing (or bid) may be set to.
+	#Hard-capped at Integer.MAX_VALUE (2,147,483,647) because the Numismatics
+	#currency backend moves coins through an int-bound API: any single coin
+	#movement above this would otherwise have to be chunked, and historically
+	#was silently truncated, underpaying the seller. Keeping the cap at the
+	#int ceiling guarantees every price/bid is moved in a single, exact transfer.
+	#Also prevents integer-overflow of the fee math (price * percent).
+	#Default 1,000,000,000 (1e9).
+	# Default: 1000000000
+	# Range: 1 ~ 2147483647
+	max_listing_price = 1000000000
 
 #Item blacklist — items that cannot be listed on the AH.
 #Use registry IDs (e.g. 'minecraft:bedrock', 'arcadia_pets:pet_item').

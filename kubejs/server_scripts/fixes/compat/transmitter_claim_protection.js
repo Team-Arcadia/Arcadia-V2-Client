@@ -16,6 +16,7 @@
     KubeJS 7.x / MC 1.21.1 NeoForge.
 */
 
+(function () {
 const FTBChunksAPI = Java.loadClass('dev.ftb.mods.ftbchunks.api.FTBChunksAPI');
 const Protection = Java.loadClass('dev.ftb.mods.ftbchunks.api.Protection');
 
@@ -49,3 +50,4 @@ PROTECTED_TRANSMITTERS.forEach(blockId => {
 });
 
 console.info("[Arcadia V2] Transmitter Claim Protection Loaded: Create Ender Transmission transmitters now respect FTB Chunks interact permissions.");
+})();

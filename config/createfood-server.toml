@@ -7,6 +7,8 @@
 		enable_handcrafting = true
 		filter = []
 		exclude = []
+		allow_single_item = false
+		enable_particles = true
 
 	[storage.cloth_sack]
 		cloth_sack_inventory = true
@@ -34,3 +36,8 @@
 	[items.remainders]
 		enable_egg_impact_remainder = true
 		crafting_remainders = ["minecraft:egg|createfood:eggshell"]
+
+[display]
+	enable_cutting_board = true
+	enable_generic_plates = true
+	exclude = ["tag:c:tools"]

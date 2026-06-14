@@ -15,6 +15,7 @@
     KubeJS 7.x / MC 1.21.1 NeoForge.
 */
 
+(function () {
 const FTBChunksAPI = Java.loadClass('dev.ftb.mods.ftbchunks.api.FTBChunksAPI');
 const ChunkDimPos = Java.loadClass('dev.ftb.mods.ftblibrary.math.ChunkDimPos');
 
@@ -60,3 +61,4 @@ LevelEvents.afterExplosion(event => {
 });
 
 console.info("[Arcadia V2] Claim Explosion Protection Loaded: explosions can no longer break blocks inside FTB Chunks claims.");
+})();

@@ -71,8 +71,6 @@ kubejs/
 │   │   │   ├── misc_custom_crafts.js               # ATM recipe + iron_sheet hand-craft fallback (early-game unblock)
 │   │   │   ├── armor_crafts.js                     # Adept/Heretic armor recipes
 │   │   │   └── fusion_core_chain.js                # Fusion Core mega-chain (5 tiers, 9x9 final)
-│   │   └── mods/
-│   │       └── botanypots_modded_trees.js          # BOP + Twilight + Ars tree compat
 │   │
 │   ├── items/
 │   │   ├── banned/
