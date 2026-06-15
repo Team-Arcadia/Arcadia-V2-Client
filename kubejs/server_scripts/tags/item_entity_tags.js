@@ -269,4 +269,22 @@ ServerEvents.tags('entity_type', event => {
     event.add('pneumaticcraft:vacuum_trap_blacklisted', ARCADIA_FARM_BLACKLIST);
 });
 
-console.info("[Arcadia V2] Global Tags Refined: Standardized tags + Farm protection blacklist (Apothic, Drygmy, Jar, Source Spawner, Soul Gem, Supplementaries, Carry On, Vacuum Trap).");
+// =============================================================================
+// ENCHANTMENT LOOT CLEANUP
+// =============================================================================
+// Create Stuff & Additions ships the Gravity Gun enchant in the vanilla loot
+// tags (on_random_loot / tradeable / non_treasure), so enchanted books for it
+// keep showing up in chests and librarian trades. The config flag
+// (enableGravityGunEnchant=false in create-stuff-additions.toml) only disables
+// the EFFECT, not the loot/trade generation. Strip it from those tags so the
+// books stop appearing. The Block Picker item it enchants is already banned.
+// =============================================================================
+ServerEvents.tags('enchantment', event => {
+    [
+        'minecraft:on_random_loot',
+        'minecraft:tradeable',
+        'minecraft:non_treasure',
+    ].forEach(tag => event.remove(tag, 'create_sa:gravity_gun'));
+});
+
+console.info("[Arcadia V2] Global Tags Refined: Standardized tags + Farm protection blacklist (Apothic, Drygmy, Jar, Source Spawner, Soul Gem, Supplementaries, Carry On, Vacuum Trap) + Gravity Gun enchant removed from loot tags.");
