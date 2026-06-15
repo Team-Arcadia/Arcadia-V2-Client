@@ -96,10 +96,13 @@ ServerEvents.recipes((event) => {
     // Was: 1 coal dust + 1 iron ingot -> 1 CN steel ingot (trivial steel).
     // Now: heated, 4 coal dust + 2 iron ingots -> 1 CN steel ingot.
     event.remove({ id: "createnuclear:mixing/steel" });
+    // NOTE: counted tag ingredients MUST use Ingredient.of('#tag', count).
+    // The "Nx #tag" string form does not parse the count for tags here and
+    // yields an empty ingredient (recipe never matches, empty JEI slots).
     event.recipes.create
         .mixing(CN_INGOT, [
-            "4x #c:dusts/coal",
-            "2x #c:ingots/iron",
+            Ingredient.of("#c:dusts/coal", 4),
+            Ingredient.of("#c:ingots/iron", 2),
         ])
         .heated()
         .id("arcadia:steel/cn_mixing_hardened");
