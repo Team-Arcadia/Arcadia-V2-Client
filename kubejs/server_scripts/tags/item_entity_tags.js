@@ -175,6 +175,8 @@ const ARCADIA_FARM_BLACKLIST = [
     'aether:sun_spirit',
     'ars_nouveau:wilden_boss',
     'irons_spellbooks:dead_king',
+    'irons_spellbooks:dead_king_corpse',
+    'irons_spellbooks:dead_king_soul',
     'irons_spellbooks:fire_boss',
 
     // Mutant Monsters (expanded inline instead of tag-forward for reliability)
@@ -240,8 +242,16 @@ const ARCADIA_FARM_BLACKLIST = [
 ];
 
 ServerEvents.tags('entity_type', event => {
-    // Apothic Spawners — placing spawn egg into Apothic Spawner block
+    // Apothic Spawners — placing spawn egg into Apothic Spawner block.
+    // ApothicEnchanting's Ender Lead / Occult Ender Lead reuses this exact tag to
+    // deny binding a leashed mob to a spawner, so this one entry covers both.
     event.add('apothic_spawners:blacklisted_from_spawners', ARCADIA_FARM_BLACKLIST);
+
+    // Common "do not capture" tag. ApothicEnchanting's Ender Lead canLeash() denies
+    // any entity in c:bosses OR c:capturing_not_supported, so this blocks leashing
+    // our blacklist (e.g. irons_spellbooks:dead_king_corpse) into an Ender Lead in
+    // the first place. Also respected by other capture mods that honor the tag.
+    event.add('c:capturing_not_supported', ARCADIA_FARM_BLACKLIST);
 
     // Ars Nouveau Drygmy — passive mob-drop farming familiar
     event.add('ars_nouveau:drygmy_blacklist', ARCADIA_FARM_BLACKLIST);
@@ -270,6 +280,29 @@ ServerEvents.tags('entity_type', event => {
 });
 
 // =============================================================================
+// SPAWNER SPAWN SAFETY-NET (tag-independent)
+// =============================================================================
+// The tags above stop a blacklisted spawn egg from being PLACED into an Apothic
+// Spawner (Apothic checks the apothic_spawners:blacklisted_from_spawners tag and
+// cancels the right-click). That guard only fires for vanilla SpawnEggItems and
+// relies on the entity_type tag binding at runtime. To guarantee the rule no
+// matter how a spawner ends up holding a banned mob (non-vanilla egg, command,
+// /data edit, a spawner created before this list existed, or a tag-binding
+// failure), we also cancel the SPAWN itself: any blacklisted entity spawned with
+// reason SPAWNER is denied. Reads the JS list directly, so it never depends on
+// the tag system.
+// =============================================================================
+const ARCADIA_SPAWNER_DENY = new Set(ARCADIA_FARM_BLACKLIST);
+
+EntityEvents.checkSpawn(event => {
+    // MobSpawnType.SPAWNER.toString() === 'SPAWNER' on 1.21.1; only gate spawner spawns.
+    if (String(event.getType()) !== 'SPAWNER') return;
+    if (ARCADIA_SPAWNER_DENY.has(String(event.entity.type))) {
+        event.cancel();
+    }
+});
+
+// =============================================================================
 // ENCHANTMENT LOOT CLEANUP
 // =============================================================================
 // Create Stuff & Additions ships the Gravity Gun enchant in the vanilla loot
@@ -287,4 +320,4 @@ ServerEvents.tags('enchantment', event => {
     ].forEach(tag => event.remove(tag, 'create_sa:gravity_gun'));
 });
 
-console.info("[Arcadia V2] Global Tags Refined: Standardized tags + Farm protection blacklist (Apothic, Drygmy, Jar, Source Spawner, Soul Gem, Supplementaries, Carry On, Vacuum Trap) + Gravity Gun enchant removed from loot tags.");
+console.info("[Arcadia V2] Global Tags Refined: Standardized tags + Farm protection blacklist (Apothic, Drygmy, Jar, Source Spawner, Soul Gem, Supplementaries, Carry On, Vacuum Trap) + spawner spawn safety-net + Gravity Gun enchant removed from loot tags.");

@@ -16,7 +16,7 @@ B:advanced_customization_mode = 'true';
 
 B:game_intro_fade_out = 'false';
 S:game_intro_sound_channel = 'master';
-S:preload_resources = '';
+S:preload_resources = '[source:local]/config/fancymenu/assets/arcadia/intro.png%!source_end!%[source:local]/config/fancymenu/assets/arcadia/bg_paper.png%!source_end!%[source:local]/config/fancymenu/assets/arcadia/bouton.png%!source_end!%[source:local]/config/fancymenu/assets/arcadia/bouton_hover.png%!source_end!%[source:local]/config/fancymenu/assets/arcadia/bouton_inactive.png%!source_end!%[source:local]/config/fancymenu/assets/arcadia/btn_active_singleplayer.png%!source_end!%[source:local]/config/fancymenu/assets/arcadia/btn_inactive_singleplayer.png%!source_end!%[source:local]/config/fancymenu/assets/arcadia/btn_active_multiplayer.png%!source_end!%[source:local]/config/fancymenu/assets/arcadia/btn_inactive_multiplayer.png%!source_end!%[source:local]/config/fancymenu/assets/arcadia/btn_active_option.png%!source_end!%[source:local]/config/fancymenu/assets/arcadia/btn_inactive_option.png%!source_end!%[source:local]/config/fancymenu/assets/arcadia/btn_active_mods.png%!source_end!%[source:local]/config/fancymenu/assets/arcadia/btn_inactive_mods.png%!source_end!%[source:local]/config/fancymenu/assets/arcadia/btn_active_quit.png%!source_end!%[source:local]/config/fancymenu/assets/arcadia/btn_inactive_quit.png%!source_end!%[source:local]/config/fancymenu/assets/arcadia/lordhosting.png%!source_end!%[source:local]/config/fancymenu/assets/arcadia/lordhosting_hover.png%!source_end!%[source:local]/config/fancymenu/assets/arcadia/arcadia.png';
 B:allow_game_intro_skip = 'true';
 S:game_intro_animation_name = '';
 F:game_intro_volume = '1.0';
@@ -71,7 +71,7 @@ S:ui_theme = 'dark';
 B:pip_window_docking = 'true';
 B:enable_ui_blur = 'false';
 F:ui_blur_intensity = '3.0';
-B:use_minecraft_font = 'false';
+B:use_minecraft_font = 'true';
 B:play_ui_click_sounds = 'true';
 B:smooth_font_multiline_rendering = 'false';
 

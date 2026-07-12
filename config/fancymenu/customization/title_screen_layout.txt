@@ -395,7 +395,7 @@ element {
 
 element {
   button_element_executable_block_identifier = c2478275-c4a9-4bb0-bf6e-7299bc96a65d-1758744272504
-  [executable_action_instance:f6335158-e321-4c27-9c43-fc2ddd2ecf1f-1758744346413][action_type:mimicbutton] = title_screen:mc_titlescreen_multiplayer_button
+  [executable_action_instance:f6335158-e321-4c27-9c43-fc2ddd2ecf1f-1758744346413][action_type:opengui] = arcadia_servers_hub
   [executable_block:c2478275-c4a9-4bb0-bf6e-7299bc96a65d-1758744272504][type:generic] = [executables:f6335158-e321-4c27-9c43-fc2ddd2ecf1f-1758744346413;]
   backgroundnormal = [source:local]/config/fancymenu/assets/arcadia/btn_inactive_multiplayer.png
   backgroundhovered = [source:local]/config/fancymenu/assets/arcadia/btn_active_multiplayer.png
