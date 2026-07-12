@@ -21,9 +21,9 @@
 
 StartupEvents.postInit(() => {
     try {
-        const KnightLib = Java.loadClass('dev.xylonity.knightlib.KnightLib');
-        const Usage = Java.loadClass('dev.xylonity.knightlib.KnightLib$Usage');
-        KnightLib.initialize(Usage.ALL);
+        // Rhino 2101.2.7 mis-handles const declarations directly inside try
+        // blocks. The no-argument overload enables Usage.ALL without locals.
+        Java.loadClass('dev.xylonity.knightlib.KnightLib').initialize();
         console.info('[Arcadia] KnightLib content enabled (ALL). Grail, chalice, essence and homunculus recipes restored.');
     } catch (err) {
         console.error('[Arcadia] Failed to enable KnightLib content: ' + err);
