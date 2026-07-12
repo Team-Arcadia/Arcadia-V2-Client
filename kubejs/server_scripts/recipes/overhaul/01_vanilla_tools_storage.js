@@ -193,6 +193,13 @@ ServerEvents.recipes((event) => {
         .transitionalItem("minecraft:netherite_scrap")
         .loops(3);
 
+    // Restore the block decraft: event.remove({ output: "minecraft:netherite_ingot" })
+    // above also wiped the vanilla netherite_ingot_from_netherite_block recipe, so
+    // Netherite Blocks could no longer be uncrafted back into 9 ingots. Re-add it.
+    event
+        .shapeless(Item.of("minecraft:netherite_ingot", 9), ["minecraft:netherite_block"])
+        .id("arcadia:netherite_ingot_from_netherite_block");
+
     // ==========================================
     // 2. STORAGE
     // ==========================================
