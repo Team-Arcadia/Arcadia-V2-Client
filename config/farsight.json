@@ -5,7 +5,7 @@
   },
   "enableChunkManager": {
     "desc:": "Enables a custom chunk manager, allowing to set higher view distances than 32 and smoothing out chunk loading from the server through caching. Can be disabled for compatibility issues, default true. (false) = vanilla",
-    "enableChunkManager": true
+    "enableChunkManager": false
   },
   "chunkPreview": {
     "descEnable:": "Enables chunk preview feature, which enables saving and loading previously visited chunks to/from disk, default false",
