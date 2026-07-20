@@ -9,6 +9,7 @@ All notable changes to Arcadia V2 — Echoes Of Power are documented here.
 ### Added
 
 - **Proprietary license** — Replaced the MIT license with the Arcadia V2 Proprietary License (source-available): viewing, private copies, private modifications, and contributions are allowed; redistribution, republication, derivative packs, and monetization are prohibited. Third-party and no-affiliation clauses retained, bilingual EN/FR.
+- **CREDITS.md** — New bilingual credits file: founders, staff, development and content contributors, special thanks.
 - **STRUCTURE.md** — New bilingual structural map of the whole instance: top-level layout, config/ key areas, full kubejs/ ecosystem breakdown, in-house mod list.
 - **CHANGELOG.md** — This file; version history now tracked in the repository.
 - **defaultconfigs full mirror** — `defaultconfigs/` now mirrors `config/` in full (~1,170 files) so new worlds and fresh server installs start from the curated defaults. `config/spark/` (runtime profiling data) and the admin panel credentials file are excluded from the mirror.
@@ -30,6 +31,7 @@ All notable changes to Arcadia V2 — Echoes Of Power are documented here.
 ### Ajouts
 
 - **Licence propriétaire** — La licence MIT est remplacée par la Licence Propriétaire Arcadia V2 (source visible) : consultation, copies privées, modifications privées et contributions autorisées ; redistribution, republication, packs dérivés et monétisation interdits. Clauses tiers et non-affiliation conservées, bilingue EN/FR.
+- **CREDITS.md** — Nouveau fichier de crédits bilingue : fondateurs, staff, contributeurs développement et contenu, remerciements spéciaux.
 - **STRUCTURE.md** — Nouvelle carte structurelle bilingue de l'instance : arborescence racine, zones clés de config/, détail complet de l'écosystème kubejs/, liste des mods maison.
 - **CHANGELOG.md** — Ce fichier ; l'historique des versions est désormais suivi dans le dépôt.
 - **Miroir complet defaultconfigs** — `defaultconfigs/` reflète désormais intégralement `config/` (~1 170 fichiers) afin que les nouveaux mondes et installations serveur partent des défauts organisés. `config/spark/` (données de profiling runtime) et le fichier d'identifiants du panneau admin sont exclus du miroir.

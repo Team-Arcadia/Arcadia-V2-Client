@@ -49,6 +49,7 @@ This repo ships only what we author or maintain. Third-party mod jars are resolv
 | `manifest.json` | CurseForge modpack manifest (456 entries: 443 mods + 13 shaderpacks) |
 | `STRUCTURE.md` | Full structural map of the instance (bilingual) |
 | `CHANGELOG.md` | Version history (bilingual) |
+| `CREDITS.md` | Team, contributors and thanks (bilingual) |
 | `config/` | Modpack-shipped configurations (overrides upstream defaults) |
 | `defaultconfigs/` | Canonical defaults distributed by DefaultOptions |
 | `kubejs/` | Custom scripts, items, recipes, tags, lang files |
@@ -59,6 +60,7 @@ This repo ships only what we author or maintain. Third-party mod jars are resolv
 
 - **Author** — vyrriox
 - **Organization** — Team Arcadia
+- **Full team & thanks** — See `CREDITS.md`
 - **License** — Proprietary source-available: contributions welcome, private copies/modifications allowed, redistribution and republication prohibited (see `LICENSE`)
 - **Discord** — [discord.gg/xjF8Rtzyd4](https://discord.gg/xjF8Rtzyd4)
 - **Website** — [arcadia-echoes-of-power.fr](https://arcadia-echoes-of-power.fr/)
@@ -116,6 +118,7 @@ Ce depot ne contient que ce que nous avons ecrit ou maintenons. Les jars de mods
 | `manifest.json` | Manifest CurseForge du modpack (456 entrees : 443 mods + 13 shaderpacks) |
 | `STRUCTURE.md` | Carte structurelle complete de l instance (bilingue) |
 | `CHANGELOG.md` | Historique des versions (bilingue) |
+| `CREDITS.md` | Equipe, contributeurs et remerciements (bilingue) |
 | `config/` | Configurations livrees par le modpack (override les defauts amont) |
 | `defaultconfigs/` | Defauts canoniques distribues par DefaultOptions |
 | `kubejs/` | Scripts, items, recettes, tags, fichiers lang customs |
@@ -126,6 +129,7 @@ Ce depot ne contient que ce que nous avons ecrit ou maintenons. Les jars de mods
 
 - **Auteur** — vyrriox
 - **Organisation** — Team Arcadia
+- **Equipe complete & remerciements** — Voir `CREDITS.md`
 - **Licence** — Proprietaire source visible : contributions bienvenues, copies/modifications privees autorisees, redistribution et republication interdites (voir `LICENSE`)
 - **Discord** — [discord.gg/xjF8Rtzyd4](https://discord.gg/xjF8Rtzyd4)
 - **Site web** — [arcadia-echoes-of-power.fr](https://arcadia-echoes-of-power.fr/)
