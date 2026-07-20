@@ -6,7 +6,9 @@
     ],
     "definition": {
         "affix_type": "ability",
-        "exclusive_set": [],
+        "exclusive_set": [
+            "apotheosis:armor/attribute/unbound"
+        ],
         "weights": {
             "quality": 0.05,
             "weight": 3

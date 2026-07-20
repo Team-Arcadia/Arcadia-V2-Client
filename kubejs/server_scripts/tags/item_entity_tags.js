@@ -124,7 +124,6 @@ const ARCADIA_FARM_BLACKLIST = [
     'animalgarden_manatee:manatee',
     'animalgarden_meerkat:meerkat',
     'animalgarden_mouse:mouse',
-    'animalgarden_owl:owl',
     'animalgarden_porcupine:porcupine',
     'animalgarden_prairiedog:prairiedog',
     'animalgarden_redpanda:redpanda',
