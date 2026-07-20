@@ -244,7 +244,7 @@ vanilla_button {
 
 element {
   interactable = false
-  source = Astuce : Le livre de quêtes guide toute ta progression.
+  source = Le savais-tu ? 20 musiques originales Arcadia sont cachées dans le monde.
   source_mode = direct
   shadow = true
   case_mode = normal
@@ -277,7 +277,7 @@ element {
   table_cell_padding = 8.0
   table_margin = 4.0
   element_type = text_v2
-  instance_identifier = ldtip1-fr00-4000-9000-arcadialoadfr-177481806100
+  instance_identifier = ldtip4-fr00-4000-9000-arcadialoadfr-177481806400
   appearance_delay = fade_in
   appearance_delay_seconds = 2.0
   fade_in_v2 = fade
@@ -290,15 +290,15 @@ element {
   auto_sizing_base_screen_height = 1010
   sticky_anchor = false
   anchor_point = bottom-centered
-  x = -174
+  x = -230
   y = -46
-  width = 349
+  width = 460
   height = 14
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
-  element_loading_requirement_container_identifier = ldtip1-fr00-4000-9000-arcadiareqfr0-177481806102
-  [loading_requirement_container_meta:ldtip1-fr00-4000-9000-arcadiareqfr0-177481806102] = [groups:][instances:]
+  element_loading_requirement_container_identifier = ldtip4-fr00-4000-9000-arcadiareqfr0-177481806402
+  [loading_requirement_container_meta:ldtip4-fr00-4000-9000-arcadiareqfr0-177481806402] = [groups:][instances:]
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -317,7 +317,7 @@ element {
 
 element {
   interactable = false
-  source = Tip: The quest book guides your whole progression.
+  source = Did you know? 20 original Arcadia music discs are hidden in the world.
   source_mode = direct
   shadow = true
   case_mode = normal
@@ -350,7 +350,7 @@ element {
   table_cell_padding = 8.0
   table_margin = 4.0
   element_type = text_v2
-  instance_identifier = ldtip1-en00-4000-9000-arcadialoaden-177481806101
+  instance_identifier = ldtip4-en00-4000-9000-arcadialoaden-177481806401
   appearance_delay = fade_in
   appearance_delay_seconds = 2.0
   fade_in_v2 = fade
@@ -363,15 +363,15 @@ element {
   auto_sizing_base_screen_height = 1010
   sticky_anchor = false
   anchor_point = bottom-centered
-  x = -159
+  x = -221
   y = -28
-  width = 318
+  width = 442
   height = 14
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
-  element_loading_requirement_container_identifier = ldtip1-en00-4000-9000-arcadiareqen0-177481806103
-  [loading_requirement_container_meta:ldtip1-en00-4000-9000-arcadiareqen0-177481806103] = [groups:][instances:]
+  element_loading_requirement_container_identifier = ldtip4-en00-4000-9000-arcadiareqen0-177481806403
+  [loading_requirement_container_meta:ldtip4-en00-4000-9000-arcadiareqen0-177481806403] = [groups:][instances:]
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
