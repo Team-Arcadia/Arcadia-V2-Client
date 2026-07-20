@@ -1,0 +1,435 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "twilight"
+	group: "3294587A31F15194"
+	icon: {
+		components: {
+			"ftbquests:icon": "twilightforest:block/firefly"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "65BD42E3680A3FF1"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "463F5E0C1D60B79A"
+			tasks: [{
+				entity: "twilightforest:blockchain_goblin"
+				id: "5A8BB45B69197FCE"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "1478C507E5E959EB"
+			tasks: [{
+				entity: "twilightforest:bighorn_sheep"
+				id: "26D670EB3B20157D"
+				type: "kill"
+				value: 10L
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			id: "278AB7FFC22D60BB"
+			tasks: [{
+				entity: "twilightforest:death_tome"
+				id: "4421DE0DC10A2B47"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "7F0AB2318769C862"
+			tasks: [{
+				entity: "twilightforest:deer"
+				id: "4071853B6CED966E"
+				type: "kill"
+				value: 10L
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			id: "4E08C919C23AFC4A"
+			tasks: [{
+				entity: "twilightforest:dwarf_rabbit"
+				id: "534B99FE76305024"
+				type: "kill"
+				value: 10L
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			id: "6A6D262F631D2A27"
+			tasks: [{
+				entity: "twilightforest:fire_beetle"
+				id: "6F53F3C6AC0CB877"
+				type: "kill"
+				value: 10L
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "571C613FD59ADCAF"
+			tasks: [{
+				entity: "twilightforest:lower_goblin_knight"
+				id: "0436E677E0EFABD9"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "127EBF91981A406F"
+			tasks: [{
+				entity: "twilightforest:giant_miner"
+				id: "23D1EFDB6C1DBEC5"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "44A6B24517481FA1"
+			tasks: [{
+				entity: "twilightforest:ice_crystal"
+				id: "3B2EED05EEF1D166"
+				type: "kill"
+				value: 10L
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			id: "4722FE9E2B88377B"
+			tasks: [{
+				entity: "twilightforest:hostile_wolf"
+				id: "38623EA57CACCEDE"
+				type: "kill"
+				value: 10L
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "4D7E417769AAA791"
+			tasks: [{
+				entity: "twilightforest:helmet_crab"
+				id: "6A4559C486461529"
+				type: "kill"
+				value: 10L
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			id: "1A90E979638BFF6B"
+			tasks: [{
+				entity: "twilightforest:hedge_spider"
+				id: "2098687E58D32689"
+				type: "kill"
+				value: 10L
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			id: "71FA1F37EEE82016"
+			tasks: [{
+				entity: "twilightforest:minotaur"
+				id: "40560CFEE478E8A3"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			id: "1EEE913380F597D8"
+			tasks: [{
+				entity: "twilightforest:maze_slime"
+				id: "056EDDBE2BEB35A2"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "009CA21A53BACCE2"
+			tasks: [{
+				entity: "twilightforest:mosquito_swarm"
+				id: "651FF864B3C59084"
+				type: "kill"
+				value: 10L
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			id: "72C941E4D4709792"
+			tasks: [{
+				entity: "twilightforest:king_spider"
+				id: "313B023A6E96ED53"
+				type: "kill"
+				value: 10L
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "41E0A2958877B8AD"
+			tasks: [{
+				entity: "twilightforest:kobold"
+				id: "3EBA08D146C275A5"
+				type: "kill"
+				value: 10L
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			id: "1F6E1F58095CF3E9"
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				id: "791B2AF3BBF3FAAE"
+				type: "kill"
+				value: 10L
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			id: "5AE5CD9AC1747260"
+			tasks: [{
+				entity: "twilightforest:penguin"
+				id: "486738912EED8DB7"
+				type: "kill"
+				value: 10L
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			id: "178CE3EEAA99B7B1"
+			tasks: [{
+				entity: "aether:moa"
+				id: "2E6152F405C3ACC0"
+				type: "kill"
+				value: 10L
+			}]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			id: "278976C6658C9C7C"
+			tasks: [{
+				entity: "twilightforest:mist_wolf"
+				id: "327E971845142F65"
+				type: "kill"
+				value: 10L
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			id: "40780BA740E2047B"
+			tasks: [{
+				entity: "twilightforest:raven"
+				id: "1830FACF9A96E94F"
+				type: "kill"
+				value: 10L
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			id: "2E1702F7DD0C259E"
+			tasks: [{
+				entity: "twilightforest:pinch_beetle"
+				id: "6A276AC6CBF19BAC"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			id: "57E60DB1240FE2AA"
+			tasks: [{
+				entity: "twilightforest:slime_beetle"
+				id: "1B5B819757EA9CAE"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "647467237AD16B53"
+			tasks: [{
+				entity: "twilightforest:skeleton_druid"
+				id: "57400B47884A4326"
+				type: "kill"
+				value: 10L
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			id: "3B4F72D5B38A0755"
+			tasks: [{
+				entity: "twilightforest:snow_guardian"
+				id: "6A7E787CB49DD6BD"
+				type: "kill"
+				value: 10L
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			id: "2744C033CFA506B5"
+			tasks: [{
+				entity: "twilightforest:redcap_sapper"
+				id: "6DC5450C5433700A"
+				type: "kill"
+				value: 10L
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			id: "08559D427DC58B37"
+			tasks: [{
+				entity: "twilightforest:redcap"
+				id: "00E35A105A2C8385"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			id: "5F285A62318FF9F0"
+			tasks: [{
+				entity: "twilightforest:troll"
+				id: "048329BFBA197B8F"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "1918AE7044437A48"
+			tasks: [{
+				entity: "twilightforest:towerwood_borer"
+				id: "658B0C554D901FB7"
+				type: "kill"
+				value: 10L
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			id: "34B2EE7218AD63D1"
+			tasks: [{
+				entity: "twilightforest:tiny_bird"
+				id: "11641000DA0DADE4"
+				type: "kill"
+				value: 10L
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			id: "708129CF56ED0884"
+			tasks: [{
+				entity: "twilightforest:swarm_spider"
+				id: "3DFAFBAE8E463EC1"
+				type: "kill"
+				value: 10L
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			id: "6E3A9E6FB2AC2B90"
+			tasks: [{
+				entity: "twilightforest:stable_ice_core"
+				id: "4A1A79B45BBFF62A"
+				type: "kill"
+				value: 10L
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			id: "5EB7E6853EF0182E"
+			tasks: [{
+				entity: "twilightforest:squirrel"
+				id: "31D544D8F69A5DA8"
+				type: "kill"
+				value: 10L
+			}]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			id: "00954D01FA9CD28F"
+			tasks: [{
+				entity: "twilightforest:yeti"
+				id: "24FB9E171CB9CD0F"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			id: "638403DD4CFC0CD5"
+			tasks: [{
+				entity: "twilightforest:wraith"
+				id: "6EE6913C95D94B3A"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			id: "169E326D5916E18D"
+			tasks: [{
+				entity: "twilightforest:winter_wolf"
+				id: "4E364D1647056AE0"
+				type: "kill"
+				value: 10L
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			id: "49F099738C419417"
+			tasks: [{
+				entity: "twilightforest:unstable_ice_core"
+				id: "5B2BF1925CC0AC54"
+				type: "kill"
+				value: 10L
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+	]
+}

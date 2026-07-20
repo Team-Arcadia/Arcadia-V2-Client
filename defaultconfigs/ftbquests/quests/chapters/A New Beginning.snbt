@@ -1,4 +1,5 @@
 {
+	autofocus_id: "7EDEBA934B1103C3"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "A New Beginning"
@@ -264,8 +265,18 @@
 			x: -4.339413265306121d
 			y: -0.7775510204081577d
 		}
+		{
+			alpha: 50
+			height: 100.0d
+			image: "occultism:block/dimensional_mineshaft_portal"
+			order: -1
+			rotation: 0.0d
+			width: 100.0d
+			x: 0.0d
+			y: 0.0d
+		}
 	]
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -632,6 +643,15 @@
 					table_id: 8702401328938375742L
 					type: "random"
 				}
+				{
+					count: 2
+					id: "159ADA80640ADBD9"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -970,9 +990,9 @@
 				}
 			]
 			tasks: [{
-				count: 14L
-				id: "60403C48D84BC904"
-				item: { count: 1, id: "minecraft:raw_iron" }
+				count: 12L
+				id: "39F8DC60CC38204A"
+				item: { count: 1, id: "create:iron_sheet" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -987,7 +1007,7 @@
 					id: "408F87D4476838F7"
 					item: {
 						count: 1
-						id: "minecraft:gold_ingot"
+						id: "create:golden_sheet"
 					}
 					type: "item"
 				}
@@ -1004,9 +1024,9 @@
 				}
 			]
 			tasks: [{
-				count: 14L
-				id: "4839AB9C939CE95F"
-				item: { count: 1, id: "minecraft:raw_gold" }
+				count: 12L
+				id: "343E22DD05C7C151"
+				item: { count: 1, id: "create:golden_sheet" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -1016,11 +1036,21 @@
 			dependencies: ["6EDAB29FBD3C60A3"]
 			hide_until_deps_visible: false
 			id: "6D09511D64DDC282"
-			rewards: [{
-				id: "7949A3E032C67EB5"
-				type: "xp"
-				xp: 250
-			}]
+			rewards: [
+				{
+					id: "7949A3E032C67EB5"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "1EA04574B78387D2"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -1032,11 +1062,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 7.0d
-			y: 2.0d
+			x: 6.529294217687074d
+			y: 0.4409863945578252d
 		}
 		{
-			dependencies: ["76406EFFF8CBA6B4"]
+			dependencies: ["42C81A85AEE863F4"]
 			id: "6EDAB29FBD3C60A3"
 			rewards: [{
 				id: "2CAC99F03D8678A9"
@@ -1053,7 +1083,7 @@
 				id: "1D48B6FC70F5C745"
 				type: "biome"
 			}]
-			x: 5.0d
+			x: 6.5d
 			y: 2.0d
 		}
 		{
@@ -1101,6 +1131,15 @@
 					type: "xp"
 					xp: 50
 				}
+				{
+					count: 2
+					id: "09AED0EE977D5811"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
 			]
 			shape: "rsquare"
 			size: 1.5d
@@ -1130,7 +1169,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["0E6F2C10483047FA"]
+			dependencies: ["2A21E0E615C09D3D"]
 			id: "76406EFFF8CBA6B4"
 			rewards: [
 				{
@@ -1155,8 +1194,8 @@
 				item: { count: 1, id: "minecraft:diamond" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.0d
+			x: 3.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3BFA25BB314A014E"]
@@ -1298,8 +1337,8 @@
 			]
 			tasks: [{
 				count: 9L
-				id: "4F70CEE08D561A14"
-				item: { count: 1, id: "minecraft:raw_iron" }
+				id: "6A30116D4FAC907B"
+				item: { count: 1, id: "minecraft:iron_ingot" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -1422,7 +1461,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2A21E0E615C09D3D"]
+			dependencies: ["76406EFFF8CBA6B4"]
 			id: "0E6F2C10483047FA"
 			rewards: [
 				{
@@ -1467,8 +1506,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: 4.0d
+			x: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3ADCAD65EA6900BA"]
@@ -1595,6 +1634,30 @@
 			}]
 			x: -4.0d
 			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0F3D51FFD2FE8DCB"
+				"0E6F2C10483047FA"
+			]
+			id: "42C81A85AEE863F4"
+			rewards: [{
+				id: "57F5ECDF5C8A5286"
+				item: {
+					count: 1
+					id: "minecraft:golden_boots"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "5F75F2B1B7ACBD88"
+				type: "dimension"
+			}]
+			x: 5.0d
+			y: 2.0d
 		}
 	]
 }

@@ -7,23 +7,74 @@
 		id: "fluxnetworks:flux_core"
 	}
 	id: "6017B5D638CD163F"
+	images: [
+		{
+			height: 10.0d
+			image: "fluxnetworks:textures/gui/gui_background.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			height: 8.0d
+			image: "fluxnetworks:item/flux_core"
+			rotation: 0.0d
+			width: 8.0d
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			height: 2.0d
+			image: "refinedstorage:block/controller/cutouts/green"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			alpha: 50
+			height: 150.0d
+			image: "occultism:block/dimensional_mineshaft_portal"
+			order: -10
+			rotation: 0.0d
+			width: 150.0d
+			x: -2.0d
+			y: 2.0d
+		}
+	]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				id: "fluxnetworks:flux_dust"
+			}
 			id: "3C4EB48924A813F5"
 			rewards: [{
 				id: "2A8EABD9935DA583"
 				type: "xp"
 				xp: 200
 			}]
-			tasks: [{
-				id: "0137E374D8E43B82"
-				item: { count: 1, id: "fluxnetworks:flux_dust" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0137E374D8E43B82"
+					item: { count: 1, id: "fluxnetworks:flux_dust" }
+					type: "item"
+				}
+				{
+					id: "5A7F1CA955E1A20A"
+					item: { count: 1, id: "minecraft:redstone" }
+					type: "item"
+				}
+				{
+					id: "3B5C5481D5B0C43E"
+					item: { count: 1, id: "minecraft:obsidian" }
+					type: "item"
+				}
+			]
 			x: -2.0d
-			y: 3.75d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3C4EB48924A813F5"]
@@ -39,7 +90,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 2.75d
+			y: 3.5d
 		}
 		{
 			dependencies: ["11E8B427BA24DA42"]
@@ -55,7 +106,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["07113EF8E9530D8C"]
@@ -79,7 +130,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["07113EF8E9530D8C"]
@@ -103,7 +154,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["07113EF8E9530D8C"]
@@ -199,10 +250,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: [
-				"38196E5D73DCEC05"
-				"44D070EA81D251B1"
-			]
+			dependencies: ["38196E5D73DCEC05"]
 			id: "516644A9126D961D"
 			rewards: [
 				{
@@ -259,7 +307,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 0.5d
+			y: 1.0d
 		}
 	]
 }

@@ -7,6 +7,91 @@
 		id: "minecraft:spawner"
 	}
 	id: "0E81CBCD6B1D1895"
+	images: [
+		{
+			height: 10.0d
+			image: "dndecor:block/.new/red_stone_tiles"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			height: 4.0d
+			image: "ars_additions:item/archwood_lantern"
+			order: 2
+			rotation: 0.2d
+			width: 4.0d
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			height: 4.0d
+			hover: ["Light your way in the dark night."]
+			image: "ars_additions:item/archwood_lantern"
+			order: 2
+			rotation: 0.2d
+			width: 4.0d
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/spawner"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:textures/map/decorations/death_marker.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.404761904761905d
+			y: -8.250000000000004d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:textures/map/decorations/death_marker.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.3571428571428612d
+			y: -7.488095238095237d
+		}
+		{
+			alpha: 50
+			color: 16777045
+			height: 4.0d
+			image: "minecraft:textures/misc/shadow.png"
+			order: 1
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			alpha: 50
+			color: 16777045
+			height: 4.0d
+			image: "minecraft:textures/misc/shadow.png"
+			order: 1
+			rotation: 0.0d
+			width: 4.0d
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			alpha: 50
+			height: 150.0d
+			image: "occultism:block/dimensional_mineshaft_portal"
+			order: -10
+			rotation: 0.0d
+			width: 150.0d
+			x: 0.5d
+			y: -3.5d
+		}
+	]
 	order_index: 6
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -28,8 +113,8 @@
 				item: { count: 1, id: "minecraft:spawner" }
 				type: "item"
 			}]
-			x: 0.75d
-			y: -3.75d
+			x: 0.5357142857142776d
+			y: -3.558928571428588d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
@@ -44,8 +129,8 @@
 				item: { count: 1, id: "minecraft:soul_lantern" }
 				type: "item"
 			}]
-			x: 2.7857142857142705d
-			y: -5.267857142857157d
+			x: 0.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
@@ -60,8 +145,8 @@
 				item: { count: 1, id: "minecraft:fermented_spider_eye" }
 				type: "item"
 			}]
-			x: 0.3928571428571175d
-			y: -1.410714285714306d
+			x: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
@@ -76,8 +161,8 @@
 				item: { count: 1, id: "minecraft:ghast_tear" }
 				type: "item"
 			}]
-			x: 2.321428571428548d
-			y: -1.4821428571428754d
+			x: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
@@ -92,7 +177,7 @@
 				item: { count: 1, id: "minecraft:chorus_fruit" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.5d
 			y: -4.5d
 		}
 		{
@@ -108,8 +193,8 @@
 				item: { count: 1, id: "minecraft:turtle_egg" }
 				type: "item"
 			}]
-			x: 1.4285714285714022d
-			y: -1.160714285714306d
+			x: 2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
@@ -124,8 +209,8 @@
 				item: { count: 1, id: "minecraft:piston" }
 				type: "item"
 			}]
-			x: 3.1428571428571175d
-			y: -1.8392857142857366d
+			x: -1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
@@ -140,8 +225,8 @@
 				item: { count: 1, id: "minecraft:comparator" }
 				type: "item"
 			}]
-			x: 2.10714285714284d
-			y: -5.946428571428587d
+			x: 2.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
@@ -172,8 +257,8 @@
 				item: { count: 1, id: "minecraft:sugar" }
 				type: "item"
 			}]
-			x: 3.6428571428571246d
-			y: -2.7321428571428754d
+			x: 2.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
@@ -188,8 +273,8 @@
 				item: { count: 1, id: "minecraft:clock" }
 				type: "item"
 			}]
-			x: 3.6428571428571246d
-			y: -3.5892857142857224d
+			x: 2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
@@ -204,8 +289,8 @@
 				item: { count: 1, id: "minecraft:nether_star" }
 				type: "item"
 			}]
-			x: 1.3571428571428399d
-			y: -6.267857142857157d
+			x: 1.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
@@ -221,7 +306,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -6.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
@@ -236,8 +321,8 @@
 				item: { count: 1, id: "minecraft:quartz" }
 				type: "item"
 			}]
-			x: 3.321428571428548d
-			y: -4.446428571428584d
+			x: 2.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
@@ -271,7 +356,7 @@
 				item: { count: 1, id: "minecraft:echo_shard" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.5d
 			y: -3.5d
 		}
 		{
@@ -288,8 +373,8 @@
 				item: { count: 1, id: "minecraft:pointed_dripstone" }
 				type: "item"
 			}]
-			x: -0.6428571428571672d
-			y: -1.8035714285714448d
+			x: 0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
@@ -304,8 +389,42 @@
 				item: { count: 1, id: "minecraft:campfire" }
 				type: "item"
 			}]
-			x: -0.6071428571428683d
-			y: -6.196428571428587d
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"6A497B063CF32A5C"
+				"6F71FD826C29C31A"
+				"1AD87CB3226ED224"
+				"42D7C8CD8E6F5CD7"
+				"0F89BFD4A3F63A48"
+				"30EB438C66324213"
+				"3E2A411FF5B4B0E7"
+				"7A9AE63998BB41FF"
+				"186593EBCE3FE8D8"
+				"7F6B66566C211735"
+				"4F7F8F4ED1CA0550"
+				"18E0F5A78F696FA3"
+				"167E1474644C9908"
+				"40096ED0B04C3EC5"
+				"0E02CE4469FCA4C9"
+				"0D6D45DBA64E612D"
+				"4D07B0A4A2E77CDA"
+			]
+			id: "014DC351E4B4510A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2685A2A67CF70F2C"
+				table_id: 5339910424997358192L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "2D5488FFA589280C"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.0d
 		}
 	]
 }

@@ -244,6 +244,46 @@
 			x: 0.0d
 			y: 10.0d
 		}
+		{
+			alpha: 100
+			height: 100.0d
+			image: "twilightforest:textures/magic_paintings/music_in_the_mire/bl_sky.png"
+			order: -10
+			rotation: 0.0d
+			width: 100.0d
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			alpha: 200
+			height: 300.0d
+			image: "twilightforest:textures/magic_paintings/darkness/background.png"
+			order: -11
+			rotation: 0.0d
+			width: 300.0d
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			alpha: 200
+			height: 3.0d
+			image: "minecraft:textures/item/iron_axe.png"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: -14.0d
+			y: 38.0d
+		}
+		{
+			alpha: 100
+			height: 100.0d
+			image: "twilightforest:textures/magic_paintings/music_in_the_mire/bl_sky.png"
+			order: -10
+			rotation: 0.0d
+			width: 100.0d
+			x: -1.0d
+			y: 70.0d
+		}
 	]
 	order_index: 7
 	progression_mode: "flexible"
@@ -1833,6 +1873,11531 @@
 			}]
 			x: 5.5d
 			y: -5.0d
+		}
+		{
+			id: "2B064BFB1449992A"
+			rewards: [
+				{
+					count: 2
+					id: "5CFB28AD146441AC"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "28FD4EF9BF454C01"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:kobold"
+				id: "00974F6D63B1AA35"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2B064BFB1449992A"]
+			id: "6DBB41C965E77655"
+			rewards: [
+				{
+					count: 4
+					id: "27E6A5A756BEAFB8"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "7CE4DD70F0BE5DB9"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:kobold"
+				id: "7B98CE5958B7F417"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["6DBB41C965E77655"]
+			id: "11C778A86B43E6FF"
+			rewards: [
+				{
+					count: 2
+					id: "0DC19DB8415B4B8C"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "637F4BB444EDBDCD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:kobold"
+				id: "35AEA417EF517030"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["11C778A86B43E6FF"]
+			id: "7E8E71AB4FA1224F"
+			rewards: [
+				{
+					count: 4
+					id: "1A21F93AEE3BD206"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "065F961A7CBB486D"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:kobold"
+				id: "04F6372722A5405C"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7E8E71AB4FA1224F"]
+			id: "608894DA15864E74"
+			rewards: [
+				{
+					count: 6
+					id: "23700E0A69197903"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "7A5C5A2A5E8EE3C6"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:kobold"
+				id: "1560846FE8101815"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["608894DA15864E74"]
+			id: "4979C744537D47F6"
+			rewards: [
+				{
+					id: "2185FEF469367DEA"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5EB83FE335B04814"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:kobold"
+				id: "0D24589713864396"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4979C744537D47F6"]
+			id: "2509F95293AC4624"
+			rewards: [
+				{
+					count: 2
+					id: "2C9699FAB4AC5FD7"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "66D17478631348FC"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:kobold"
+				id: "146AC035D95A3F55"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2509F95293AC4624"]
+			id: "4C949B30F711468B"
+			rewards: [
+				{
+					count: 3
+					id: "54C270B3E2314298"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "4FA95CB33E77146C"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:kobold"
+				id: "4BE1A32CF81891F8"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4C949B30F711468B"]
+			id: "7560CC4988D57CD2"
+			rewards: [
+				{
+					count: 4
+					id: "2DB23877A05B48D8"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "61DF5A58421A6E80"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:kobold"
+				id: "4E8C740D9965FE5D"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7560CC4988D57CD2"]
+			id: "43F806B63271BC3A"
+			rewards: [
+				{
+					count: 5
+					id: "1D9E4E0C8535475D"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "6461BC3EB2BF4F5B"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:kobold"
+				id: "083B437889154072"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["43F806B63271BC3A"]
+			id: "00764CA86A6F4055"
+			rewards: [
+				{
+					count: 6
+					id: "0A1EC132C51A422F"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "14AB7B860BC938EE"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:kobold"
+				id: "05E676C946044F9E"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["00764CA86A6F4055"]
+			id: "7D5A30A5EA2B4061"
+			rewards: [
+				{
+					id: "366A8342C72045DE"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "4B0FA427639E3834"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:kobold"
+				id: "2A03C04FDCBE4EE0"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 14.0d
+		}
+		{
+			id: "1FCAADBCA52AC3AF"
+			rewards: [
+				{
+					count: 2
+					id: "0D2B5879F58B3BE5"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "5070C26F69B84592"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:redcap"
+				id: "1FF2D9DD78D24208"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1FCAADBCA52AC3AF"]
+			id: "24B425A776AD4C18"
+			rewards: [
+				{
+					count: 4
+					id: "204F3AA6AA3347D8"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "110EE90A86004032"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:redcap"
+				id: "14FF9262DAF34517"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["24B425A776AD4C18"]
+			id: "1E1D645E811FBB7F"
+			rewards: [
+				{
+					count: 2
+					id: "312592871515481F"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "6B38B00EC900435A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:redcap"
+				id: "2E804531E13742F9"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["1E1D645E811FBB7F"]
+			id: "15F78F6F73D54068"
+			rewards: [
+				{
+					count: 4
+					id: "3D8C59599B854764"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "58EDA8687EFC5F48"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:redcap"
+				id: "3E8CDFB45CBE05FB"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["15F78F6F73D54068"]
+			id: "59E70565237428D7"
+			rewards: [
+				{
+					count: 6
+					id: "3A6A79434E8945DA"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "63E3F1A1B2614A70"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:redcap"
+				id: "6DD493F076194C01"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["59E70565237428D7"]
+			id: "05EEA202C38F41B8"
+			rewards: [
+				{
+					id: "05A1C003B1F203DF"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "4DAD4B726EBA2E2D"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:redcap"
+				id: "72CFEFD25DA44C80"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["05EEA202C38F41B8"]
+			id: "48056B7F0B4F42D6"
+			rewards: [
+				{
+					count: 2
+					id: "5C9B7FA41114354B"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "55E0808E85734755"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:redcap"
+				id: "2289F996356C132B"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["48056B7F0B4F42D6"]
+			id: "4FF6C5AEFE6BDF6E"
+			rewards: [
+				{
+					count: 3
+					id: "29D6C5D6AE084010"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5BF5FDC17F624148"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:redcap"
+				id: "70C4748570AB8E0C"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["4FF6C5AEFE6BDF6E"]
+			id: "6332446489FF4472"
+			rewards: [
+				{
+					count: 4
+					id: "0F5FEFA67BE7185C"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5F829870F9564A5F"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:redcap"
+				id: "138706E027194429"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6332446489FF4472"]
+			id: "421D729E24434066"
+			rewards: [
+				{
+					count: 5
+					id: "34B6A3D5768B4C40"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "50CADEED3DCC4F54"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:redcap"
+				id: "74421903901E4EBD"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["421D729E24434066"]
+			id: "3A3C8333F5024378"
+			rewards: [
+				{
+					count: 6
+					id: "2B8E9F80D8B6F53A"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "13AD50A01DC1411A"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:redcap"
+				id: "5CADA9B2E048D8A7"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3A3C8333F5024378"]
+			id: "658760B406014227"
+			rewards: [
+				{
+					id: "6FA143351DFC44EF"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "3520CD88B58D3D4D"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:redcap"
+				id: "3A0DD4E4060E4427"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 16.0d
+		}
+		{
+			id: "33EC0933A6CE4D2A"
+			rewards: [
+				{
+					count: 2
+					id: "15888BCE5152F77A"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "200AA165FD55A932"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:redcap_sapper"
+				id: "2BF94935C31D4CCB"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["33EC0933A6CE4D2A"]
+			id: "5B1175C0ADE0648A"
+			rewards: [
+				{
+					count: 4
+					id: "53C6EBB4496CFCB3"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "1DC893409B64708F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:redcap_sapper"
+				id: "0979DF09C8FE7F13"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["5B1175C0ADE0648A"]
+			id: "57DB2C84B8DE382B"
+			rewards: [
+				{
+					count: 2
+					id: "13D035A6F4A1421F"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "65A52DE14D7364D0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:redcap_sapper"
+				id: "553F05A385E1F711"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["57DB2C84B8DE382B"]
+			id: "1DE9AF22125043C8"
+			rewards: [
+				{
+					count: 4
+					id: "4CA94D1FEB5341D6"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "4955303AFC484318"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:redcap_sapper"
+				id: "68DAAFC7EAA84C56"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["1DE9AF22125043C8"]
+			id: "4B013127D9CE4CA1"
+			rewards: [
+				{
+					count: 6
+					id: "006D6FBE662548B5"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "742B69195B0B4BA3"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:redcap_sapper"
+				id: "2B164A54E6B6167B"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["4B013127D9CE4CA1"]
+			id: "37268B2E0BEC47DE"
+			rewards: [
+				{
+					id: "6203B2CBDB3F4E98"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0F6D57AEABADD250"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:redcap_sapper"
+				id: "569D7B373F12D508"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["37268B2E0BEC47DE"]
+			id: "7FCFF06E25064761"
+			rewards: [
+				{
+					count: 2
+					id: "0AFC477B8ECADB05"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "70E9CFC8F1EF5F68"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:redcap_sapper"
+				id: "359FB1BB8A8CADD5"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["7FCFF06E25064761"]
+			id: "26EA5AE645E83AD1"
+			rewards: [
+				{
+					count: 3
+					id: "23C60E4BBD28562D"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "75C8CCD6D43F40FD"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:redcap_sapper"
+				id: "7E201AF7FB8C4181"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["26EA5AE645E83AD1"]
+			id: "5EE2D3EB4EBC4C72"
+			rewards: [
+				{
+					count: 4
+					id: "25CF535CE9FDBA6B"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "45D810EE735BE6C9"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:redcap_sapper"
+				id: "6467D3F2F436803A"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["5EE2D3EB4EBC4C72"]
+			id: "6338701DB8D8147A"
+			rewards: [
+				{
+					count: 5
+					id: "4FFDDDA8293E437A"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "1392DB4CEAA50D5E"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:redcap_sapper"
+				id: "31DDEF70FBC24A93"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["6338701DB8D8147A"]
+			id: "5419A81EAD6A4338"
+			rewards: [
+				{
+					count: 6
+					id: "74E9C33DE9BF4A68"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "53B479C835F8739D"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:redcap_sapper"
+				id: "6920ED73A86BDE9D"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["5419A81EAD6A4338"]
+			id: "6ECE9EFDAD5AEAD9"
+			rewards: [
+				{
+					id: "099B59FC87B646E7"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "1F3B51846FB14216"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:redcap_sapper"
+				id: "7D5354DE65614286"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 18.0d
+		}
+		{
+			id: "3AE6665760EC09A5"
+			rewards: [
+				{
+					count: 2
+					id: "1522FBFC71144CE5"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "22360D0C713F7E0C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:skeleton_druid"
+				id: "2C9ADD5D6A27C3C4"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3AE6665760EC09A5"]
+			id: "0056BE04AE75CC00"
+			rewards: [
+				{
+					count: 4
+					id: "4776AE14747D5DC1"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "0448E6C64A104215"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:skeleton_druid"
+				id: "171ADDF8BA1B1AED"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["0056BE04AE75CC00"]
+			id: "677B0D6E49859BB2"
+			rewards: [
+				{
+					count: 2
+					id: "4AA0D76FA0A6DD47"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "1031290039614A02"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:skeleton_druid"
+				id: "7633B5C1C51A438D"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["677B0D6E49859BB2"]
+			id: "7E5468F3DB45509F"
+			rewards: [
+				{
+					count: 4
+					id: "58A1DD60AE5846A8"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "4E616FCF62AA4430"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:skeleton_druid"
+				id: "33E8CA06582C417C"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["7E5468F3DB45509F"]
+			id: "09D7AD70408B4D6C"
+			rewards: [
+				{
+					count: 6
+					id: "530428E6460750E2"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "19879715E76C5D46"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:skeleton_druid"
+				id: "1801091F199246EE"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["09D7AD70408B4D6C"]
+			id: "561236973C174C75"
+			rewards: [
+				{
+					id: "501E8ED09CF650B7"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "1D52E15857744E1F"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:skeleton_druid"
+				id: "4BDD32808580EC79"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["561236973C174C75"]
+			id: "749F6BDD06134739"
+			rewards: [
+				{
+					count: 2
+					id: "15FCAF05870241E8"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5C0DD57DAF845A73"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:skeleton_druid"
+				id: "2BDDEA0BB33D4F20"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["749F6BDD06134739"]
+			id: "3C22628EFECA7BC2"
+			rewards: [
+				{
+					count: 3
+					id: "381CB5A21D72E3D4"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7AC90F649669FDDA"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:skeleton_druid"
+				id: "001A728AFF07C5D8"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["3C22628EFECA7BC2"]
+			id: "53DC4AFE19A740B7"
+			rewards: [
+				{
+					count: 4
+					id: "01DA3E3B339E4845"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "1CE0B9BCE8D44926"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:skeleton_druid"
+				id: "23716E70070078B1"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["53DC4AFE19A740B7"]
+			id: "38B3D019FD2ABED0"
+			rewards: [
+				{
+					count: 5
+					id: "157CF4E60F844859"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5676CF4032E7953C"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:skeleton_druid"
+				id: "6D4EF77591014550"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["38B3D019FD2ABED0"]
+			id: "033BBA71367E4F19"
+			rewards: [
+				{
+					count: 6
+					id: "480C03A529B64066"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "552C3F18AD074477"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:skeleton_druid"
+				id: "7A10C0D14357ABF9"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["033BBA71367E4F19"]
+			id: "7E524DBD6F40403A"
+			rewards: [
+				{
+					id: "035F154CC47EA1D6"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "41C65477CA3B4FB3"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:skeleton_druid"
+				id: "01F019DE37AF4862"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 20.0d
+		}
+		{
+			id: "3145746C62783CC6"
+			rewards: [
+				{
+					count: 2
+					id: "15D32A515D093654"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "7A2DE98E90864C89"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:swarm_spider"
+				id: "5688B76778944696"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["3145746C62783CC6"]
+			id: "5071E2D0776C4D00"
+			rewards: [
+				{
+					count: 4
+					id: "00B7DA545582CD09"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "65BE79F9310739DE"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:swarm_spider"
+				id: "48C44D675D2DBCEF"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["5071E2D0776C4D00"]
+			id: "59F9E44B07528C9A"
+			rewards: [
+				{
+					count: 2
+					id: "66A1D25E1039C132"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "4736ADD4C1614EC7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:swarm_spider"
+				id: "262410CC4DD0EED5"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["59F9E44B07528C9A"]
+			id: "4C3D1A968EDC4C67"
+			rewards: [
+				{
+					count: 4
+					id: "05BABC3C67944024"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "24FCC2BC884CC8AF"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:swarm_spider"
+				id: "5E325E8169304D22"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["4C3D1A968EDC4C67"]
+			id: "456F80276D204A76"
+			rewards: [
+				{
+					count: 6
+					id: "15C464C4690B44EA"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "63FB337CDAA741AB"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:swarm_spider"
+				id: "61B16E38E31CBE82"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["456F80276D204A76"]
+			id: "4DD06849B93A4EAA"
+			rewards: [
+				{
+					id: "33E14428BF542AC2"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "685EC659A7A2930F"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:swarm_spider"
+				id: "55314DF2701A434D"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["4DD06849B93A4EAA"]
+			id: "238E0AEEDF5F4F52"
+			rewards: [
+				{
+					count: 2
+					id: "5B86C444874FEE90"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "1A16092BDC4B4541"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:swarm_spider"
+				id: "4F670C13FEB54FFF"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["238E0AEEDF5F4F52"]
+			id: "47B598C4807442F1"
+			rewards: [
+				{
+					count: 3
+					id: "1F1F39CCD9F1C912"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "02ED32F5478E455B"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:swarm_spider"
+				id: "2A2D04C3B6C52588"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["47B598C4807442F1"]
+			id: "5E9EBD2EAAB64A80"
+			rewards: [
+				{
+					count: 4
+					id: "3AF32F471AE54DBB"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "273C5FB3321517BE"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:swarm_spider"
+				id: "2971ACCD9EBF4568"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["5E9EBD2EAAB64A80"]
+			id: "68819A10549255E3"
+			rewards: [
+				{
+					count: 5
+					id: "6420628905084898"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "340FF55EA3414FD6"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:swarm_spider"
+				id: "2989368235D742AB"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["68819A10549255E3"]
+			id: "67CE1FF1FA394FEF"
+			rewards: [
+				{
+					count: 6
+					id: "20FC8C2C628945A6"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "365A46631E48203B"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:swarm_spider"
+				id: "70CBCA9BC9054751"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["67CE1FF1FA394FEF"]
+			id: "2CB2D6249653564C"
+			rewards: [
+				{
+					id: "42E830F678A34BE9"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "64EF1BB760DC4AA6"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:swarm_spider"
+				id: "230F2AB0CDE7E4CC"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 22.0d
+		}
+		{
+			id: "228F74717D24495E"
+			rewards: [
+				{
+					count: 2
+					id: "30BF954C60584B71"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "725A9C87A59F05F7"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:hedge_spider"
+				id: "32AA7212E5A2B64F"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["228F74717D24495E"]
+			id: "14551AFCCCD2748F"
+			rewards: [
+				{
+					count: 4
+					id: "0D7C48074FD7488B"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "4E56F18B1AB14C93"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:hedge_spider"
+				id: "5FB5C3E757BC41A1"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["14551AFCCCD2748F"]
+			id: "64E75481D179E039"
+			rewards: [
+				{
+					count: 2
+					id: "0BA732A5EF914F1F"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "37D941F659BD3FAE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:hedge_spider"
+				id: "1D2C944D8CA3D9E9"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["64E75481D179E039"]
+			id: "28045447B3B44BFB"
+			rewards: [
+				{
+					count: 4
+					id: "235CDD42D2684B95"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "6409D4D3D27FFD1A"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:hedge_spider"
+				id: "11D9C74E01E9826F"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["28045447B3B44BFB"]
+			id: "5041F52895E84BE6"
+			rewards: [
+				{
+					count: 6
+					id: "29011F1D830A6E3B"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "3FF2E2FC2A874BD5"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:hedge_spider"
+				id: "73FE866849657D18"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["5041F52895E84BE6"]
+			id: "7EB191D528783976"
+			rewards: [
+				{
+					id: "15CFCE925B0552A8"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0C3AC5E505EF4679"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:hedge_spider"
+				id: "37D5739455014408"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["7EB191D528783976"]
+			id: "2F11B6421E9C4E79"
+			rewards: [
+				{
+					count: 2
+					id: "451BBE9273374177"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "47BA0E120B1E416F"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:hedge_spider"
+				id: "382DE941025DC03C"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["2F11B6421E9C4E79"]
+			id: "0A1E8FAAE045F243"
+			rewards: [
+				{
+					count: 3
+					id: "00C1E2532CB2C18A"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "4998BA27E44ECBAD"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:hedge_spider"
+				id: "366CB672796F405D"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["0A1E8FAAE045F243"]
+			id: "470E72D3DB994354"
+			rewards: [
+				{
+					count: 4
+					id: "53608A2344524F7E"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "20BEA7BB6ACDF4FA"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:hedge_spider"
+				id: "159F1039530241D5"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["470E72D3DB994354"]
+			id: "4A855E24D4EB44AD"
+			rewards: [
+				{
+					count: 5
+					id: "0A86E1C8781E4E46"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "05FDE8D15E004AD3"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:hedge_spider"
+				id: "59B4ED60186A4AEC"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["4A855E24D4EB44AD"]
+			id: "052A82D29CA9A028"
+			rewards: [
+				{
+					count: 6
+					id: "7ED6DCDE1FF746A5"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2DE42DBE407B0015"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:hedge_spider"
+				id: "6A011A99F869F97A"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["052A82D29CA9A028"]
+			id: "78791F4DAE8DA1A8"
+			rewards: [
+				{
+					id: "77FD07A2BDC991C1"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "41D0C3FFA7734C5B"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:hedge_spider"
+				id: "1F448EF8F8F449AE"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 24.0d
+		}
+		{
+			id: "787285FF20B5443A"
+			rewards: [
+				{
+					count: 2
+					id: "6E3C2F1AEE02432C"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "66B77C1D2F30FD52"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:king_spider"
+				id: "311FB45C1DACAA30"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["787285FF20B5443A"]
+			id: "3DB45586969C434A"
+			rewards: [
+				{
+					count: 4
+					id: "644BFF19FC9743C5"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "53E9962002FE4DDB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:king_spider"
+				id: "26F377417B334259"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["3DB45586969C434A"]
+			id: "611665FFFD981332"
+			rewards: [
+				{
+					count: 2
+					id: "7849898FAAC3DAB1"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "12620274869A9B50"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:king_spider"
+				id: "627CB9970149F1B8"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["611665FFFD981332"]
+			id: "4DCAD94FE7CA45FC"
+			rewards: [
+				{
+					count: 4
+					id: "50C67D1CB70A6467"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "503453B7D9214D22"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:king_spider"
+				id: "548FC48D6E644512"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["4DCAD94FE7CA45FC"]
+			id: "1208040BB5A54A78"
+			rewards: [
+				{
+					count: 6
+					id: "457C8AECB263F76C"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "1B5BE74C83684383"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:king_spider"
+				id: "6840FD9819747ADC"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["1208040BB5A54A78"]
+			id: "18B9DB7BF697DDA0"
+			rewards: [
+				{
+					id: "45E39D014783467F"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "41D30B6DF71F45C8"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:king_spider"
+				id: "4FCBEE54138A41E7"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["18B9DB7BF697DDA0"]
+			id: "10F4B84FDF3D49D5"
+			rewards: [
+				{
+					count: 2
+					id: "4C43DF742175C8DE"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "4515BC88CD8E6F17"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:king_spider"
+				id: "5693854ED47F842A"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["10F4B84FDF3D49D5"]
+			id: "5496F2E8E302C620"
+			rewards: [
+				{
+					count: 3
+					id: "316162D2F6A746B1"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "40F2F8709305408E"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:king_spider"
+				id: "6EF1F487E7F9E8C2"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["5496F2E8E302C620"]
+			id: "1E64F1948BC34235"
+			rewards: [
+				{
+					count: 4
+					id: "401C44E9E7274939"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "65B2B55C7E4B77C0"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:king_spider"
+				id: "50731BCB039347DC"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["1E64F1948BC34235"]
+			id: "4BE7D8238D0F4687"
+			rewards: [
+				{
+					count: 5
+					id: "4881B94B728E8F02"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7CBF112C925C4538"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:king_spider"
+				id: "348151ADC627412C"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["4BE7D8238D0F4687"]
+			id: "0DD5771C8DE9452C"
+			rewards: [
+				{
+					count: 6
+					id: "483AE93A754B4DF8"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "6E90E2723FA946E3"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:king_spider"
+				id: "297BDB362A2E3A60"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 26.0d
+		}
+		{
+			dependencies: ["0DD5771C8DE9452C"]
+			id: "3A754F202AE5479C"
+			rewards: [
+				{
+					id: "6A5A6A03CAD2416C"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "04809B7AA29A40E7"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:king_spider"
+				id: "0C5AEC5E1BA824AB"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 26.0d
+		}
+		{
+			id: "70FB349702A60C2E"
+			rewards: [
+				{
+					count: 2
+					id: "47F808EB68904C0E"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "5A2DF389A451497F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:hostile_wolf"
+				id: "17CF5BEB2D1C7B1D"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["70FB349702A60C2E"]
+			id: "074F31B1156F2E96"
+			rewards: [
+				{
+					count: 4
+					id: "3E6D363B42E73115"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "2133C96E473C4340"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:hostile_wolf"
+				id: "07A739264D9E4C31"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["074F31B1156F2E96"]
+			id: "5A2580CCE62044CE"
+			rewards: [
+				{
+					count: 2
+					id: "3787359E9A164CD8"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "5A6F38B3860D49F7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:hostile_wolf"
+				id: "508DBAD2711D43B3"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["5A2580CCE62044CE"]
+			id: "075065E8280F3286"
+			rewards: [
+				{
+					count: 4
+					id: "7775A7585ACE88CA"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "600657080EF74C59"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:hostile_wolf"
+				id: "3C06B40208584E7A"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["075065E8280F3286"]
+			id: "0BBC9A5262004389"
+			rewards: [
+				{
+					count: 6
+					id: "4EB3E51CDD72C60C"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "0159490AE8DB136A"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:hostile_wolf"
+				id: "0A56FFFC55C143E0"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["0BBC9A5262004389"]
+			id: "07D0067DCADA462B"
+			rewards: [
+				{
+					id: "7DB73DD5079847C1"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "22D3FD43BF9D4B40"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:hostile_wolf"
+				id: "76B145195A784DDE"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["07D0067DCADA462B"]
+			id: "68EE97DB93FED7BF"
+			rewards: [
+				{
+					count: 2
+					id: "7C31EA5E48FC4FE2"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "784879FC906DB12F"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:hostile_wolf"
+				id: "14968944641F4584"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["68EE97DB93FED7BF"]
+			id: "147A70AD6E9B4933"
+			rewards: [
+				{
+					count: 3
+					id: "366A1E6A62C34192"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "43613D9EA614C7A3"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:hostile_wolf"
+				id: "450F87E61DEE4635"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["147A70AD6E9B4933"]
+			id: "067F8CE0C7C14D64"
+			rewards: [
+				{
+					count: 4
+					id: "350B625CB10640DD"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "28323E8FF8734630"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:hostile_wolf"
+				id: "6225990F115A4530"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["067F8CE0C7C14D64"]
+			id: "273DBC07FBDC4139"
+			rewards: [
+				{
+					count: 5
+					id: "00BC33927A3649C0"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7A5D982219CE4845"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:hostile_wolf"
+				id: "19E312759201447B"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["273DBC07FBDC4139"]
+			id: "6D308FEF0DBA46A6"
+			rewards: [
+				{
+					count: 6
+					id: "464DA86A84154ABB"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "714C1F6A729DDC0A"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:hostile_wolf"
+				id: "436D2A7EFBCC4216"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 28.0d
+		}
+		{
+			dependencies: ["6D308FEF0DBA46A6"]
+			id: "06B54728E81D194F"
+			rewards: [
+				{
+					id: "48CCF1938B8B4A08"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "75124B9723B7709F"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:hostile_wolf"
+				id: "3AA67EA1220242BA"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 28.0d
+		}
+		{
+			id: "6D29C616456E4C26"
+			rewards: [
+				{
+					count: 2
+					id: "2D229787B073718F"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "1C2430D226DA469A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:mist_wolf"
+				id: "1694F2A7EAC7923A"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 30.0d
+		}
+		{
+			dependencies: ["6D29C616456E4C26"]
+			id: "46EA53D73BC7F438"
+			rewards: [
+				{
+					count: 4
+					id: "3DBE5FF1AF82BBF0"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "22A449526B2517D9"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:mist_wolf"
+				id: "29CFF05A570E4D7A"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 30.0d
+		}
+		{
+			dependencies: ["46EA53D73BC7F438"]
+			id: "21B62972D90D43F1"
+			rewards: [
+				{
+					count: 2
+					id: "7213807CB6F441AE"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "0204E21C615C44E2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:mist_wolf"
+				id: "492C3CFA58CF4A1B"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 30.0d
+		}
+		{
+			dependencies: ["21B62972D90D43F1"]
+			id: "566009F7405F47F9"
+			rewards: [
+				{
+					count: 4
+					id: "5A93D239903DFE98"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "2413D28CA262E7DF"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:mist_wolf"
+				id: "72C503D5550D0D07"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 30.0d
+		}
+		{
+			dependencies: ["566009F7405F47F9"]
+			id: "4077CEEA857029CF"
+			rewards: [
+				{
+					count: 6
+					id: "5F2C7C698AF4C002"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "20108AFCCFFD421E"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:mist_wolf"
+				id: "21903DB7ADF44747"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 30.0d
+		}
+		{
+			dependencies: ["4077CEEA857029CF"]
+			id: "60231C751AE72664"
+			rewards: [
+				{
+					id: "27971424BE6D233F"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2FBBE942C10CB8CB"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:mist_wolf"
+				id: "212977BD15CB4D87"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 30.0d
+		}
+		{
+			dependencies: ["60231C751AE72664"]
+			id: "3539C22726EB47AE"
+			rewards: [
+				{
+					count: 2
+					id: "3D12A2D6C81B4DF5"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2F17B377E955FC74"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:mist_wolf"
+				id: "4475979F364E44C7"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 30.0d
+		}
+		{
+			dependencies: ["3539C22726EB47AE"]
+			id: "7158742C177A45B3"
+			rewards: [
+				{
+					count: 3
+					id: "2DB09BC0C22EF388"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "626C46E16CF144AC"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:mist_wolf"
+				id: "072EFF8528D45E15"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 30.0d
+		}
+		{
+			dependencies: ["7158742C177A45B3"]
+			id: "319174AA53034EFC"
+			rewards: [
+				{
+					count: 4
+					id: "7CC8F32900692478"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "150FAC5F58E9FB58"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:mist_wolf"
+				id: "362965B8947F888A"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 30.0d
+		}
+		{
+			dependencies: ["319174AA53034EFC"]
+			id: "22600D16E1C9F965"
+			rewards: [
+				{
+					count: 5
+					id: "2F415904955C4FBF"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5A4694172A947B63"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:mist_wolf"
+				id: "71C4F238BC397455"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 30.0d
+		}
+		{
+			dependencies: ["22600D16E1C9F965"]
+			id: "40DAAA391CD3F934"
+			rewards: [
+				{
+					count: 6
+					id: "5E8B1A173CB74EEA"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "6D427931DE85B88B"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:mist_wolf"
+				id: "0C369BC2448E4802"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 30.0d
+		}
+		{
+			dependencies: ["40DAAA391CD3F934"]
+			id: "4A178324D1E9A638"
+			rewards: [
+				{
+					id: "7DE70646220A4A61"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "2CAE36E499F9BC71"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:mist_wolf"
+				id: "09B3FDDD57264662"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 30.0d
+		}
+		{
+			id: "5E0BB5A531384827"
+			rewards: [
+				{
+					count: 2
+					id: "7AB5E7489FA23C4E"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "6284B673D0634657"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:winter_wolf"
+				id: "623F7BEE4D52470E"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 32.0d
+		}
+		{
+			dependencies: ["5E0BB5A531384827"]
+			id: "7EE9A05A2561336C"
+			rewards: [
+				{
+					count: 4
+					id: "16AFFDF4B79A5A74"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "0940C519D493254B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:winter_wolf"
+				id: "21A0DA84AB4940E1"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 32.0d
+		}
+		{
+			dependencies: ["7EE9A05A2561336C"]
+			id: "5E76A064F9006A8A"
+			rewards: [
+				{
+					count: 2
+					id: "3EA24BE9B89844AC"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "506C6BEDBCCDA55A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:winter_wolf"
+				id: "1028D2A9C603F723"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 32.0d
+		}
+		{
+			dependencies: ["5E76A064F9006A8A"]
+			id: "7E9DFABBB3FE9A06"
+			rewards: [
+				{
+					count: 4
+					id: "4ABA882DCC6EEBE0"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "4E3B978CD10587A9"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:winter_wolf"
+				id: "75E3CBD6176F5EE7"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 32.0d
+		}
+		{
+			dependencies: ["7E9DFABBB3FE9A06"]
+			id: "6F4FE9074D774D25"
+			rewards: [
+				{
+					count: 6
+					id: "333E299AB140420A"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "6E90CA293D034F1D"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:winter_wolf"
+				id: "1DF1FD2025130A25"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 32.0d
+		}
+		{
+			dependencies: ["6F4FE9074D774D25"]
+			id: "1889DFC36C8B497E"
+			rewards: [
+				{
+					id: "0444B46DEA534E62"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "43114E600C16654B"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:winter_wolf"
+				id: "551EB23B43794DD0"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 32.0d
+		}
+		{
+			dependencies: ["1889DFC36C8B497E"]
+			id: "161F62A6C93075C6"
+			rewards: [
+				{
+					count: 2
+					id: "2029D07EE1056167"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0D080364AF8EE5BD"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:winter_wolf"
+				id: "4ADBFEC4ED1F8202"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 32.0d
+		}
+		{
+			dependencies: ["161F62A6C93075C6"]
+			id: "3A35188F910149EC"
+			rewards: [
+				{
+					count: 3
+					id: "35A09605C8B6E496"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "4D62DBF716574411"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:winter_wolf"
+				id: "321C2AC525BC5CCE"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 32.0d
+		}
+		{
+			dependencies: ["3A35188F910149EC"]
+			id: "0AE4287021945175"
+			rewards: [
+				{
+					count: 4
+					id: "561FBB7C0DC94F3A"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0D1BF5528832A84F"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:winter_wolf"
+				id: "5C0BDDE1EE4D4988"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 32.0d
+		}
+		{
+			dependencies: ["0AE4287021945175"]
+			id: "3A91A223922146FA"
+			rewards: [
+				{
+					count: 5
+					id: "3B045491771449FE"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "1EB790FF636B81B8"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:winter_wolf"
+				id: "64088895426C4DDA"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 32.0d
+		}
+		{
+			dependencies: ["3A91A223922146FA"]
+			id: "04A795128AEDA099"
+			rewards: [
+				{
+					count: 6
+					id: "608D215DE89DEA85"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7CAE8EAC8C43469F"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:winter_wolf"
+				id: "4DAB4E5CDF51E103"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 32.0d
+		}
+		{
+			dependencies: ["04A795128AEDA099"]
+			id: "6560ED582669453A"
+			rewards: [
+				{
+					id: "034DB63F0A70455E"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "017CC35394084612"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:winter_wolf"
+				id: "778CF76E838EBC25"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 32.0d
+		}
+		{
+			id: "0B085475DF114A09"
+			rewards: [
+				{
+					count: 2
+					id: "0A3F1C7DF5B7171D"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "05F3C13866B7B448"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:minotaur"
+				id: "63BD210357A14D97"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 34.0d
+		}
+		{
+			dependencies: ["0B085475DF114A09"]
+			id: "69729EB2085145FF"
+			rewards: [
+				{
+					count: 4
+					id: "284E4C098828D544"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "6AE7D7F2BA101830"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:minotaur"
+				id: "649C0A1D84734FB0"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 34.0d
+		}
+		{
+			dependencies: ["69729EB2085145FF"]
+			id: "12BE0B45C05D4FF5"
+			rewards: [
+				{
+					count: 2
+					id: "0DBE60642B02EA14"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "373553B34B734B5D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:minotaur"
+				id: "085DFEAEEBAC4266"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 34.0d
+		}
+		{
+			dependencies: ["12BE0B45C05D4FF5"]
+			id: "773B33CEBE56E05D"
+			rewards: [
+				{
+					count: 4
+					id: "2E7160FCA58740DD"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "7128DE3999956D45"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:minotaur"
+				id: "212925514B964854"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 34.0d
+		}
+		{
+			dependencies: ["773B33CEBE56E05D"]
+			id: "093037B9A713E531"
+			rewards: [
+				{
+					count: 6
+					id: "0F5F068AC34F0723"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "36BF4EBEED054289"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:minotaur"
+				id: "4EE10BD5C38A852F"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 34.0d
+		}
+		{
+			dependencies: ["093037B9A713E531"]
+			id: "0C4BE81B7BF64C47"
+			rewards: [
+				{
+					id: "1800A6EFE2AD4627"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7F787420555F41B9"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:minotaur"
+				id: "34497C8E58BBC9C6"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 34.0d
+		}
+		{
+			dependencies: ["0C4BE81B7BF64C47"]
+			id: "1165078CE2454382"
+			rewards: [
+				{
+					count: 2
+					id: "086EF62F23204EF6"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "6A6133C9A9684CD2"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:minotaur"
+				id: "3F2F969AB3EE86F9"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 34.0d
+		}
+		{
+			dependencies: ["1165078CE2454382"]
+			id: "62F1AF98BFCD4D32"
+			rewards: [
+				{
+					count: 3
+					id: "02A21984DEECFF9F"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5EE999583F3D46A8"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:minotaur"
+				id: "14CD0C7A8F7D70EC"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 34.0d
+		}
+		{
+			dependencies: ["62F1AF98BFCD4D32"]
+			id: "4B7DF181958D2DE8"
+			rewards: [
+				{
+					count: 4
+					id: "2FE90B9FCB92995D"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5935C9D442E3D6EB"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:minotaur"
+				id: "4498EF77AADB4F88"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 34.0d
+		}
+		{
+			dependencies: ["4B7DF181958D2DE8"]
+			id: "09E116C1CF9E4FB6"
+			rewards: [
+				{
+					count: 5
+					id: "5914BCFB02834B72"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "3F63E49D5BA346A7"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:minotaur"
+				id: "6D1637C97531BC4C"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 34.0d
+		}
+		{
+			dependencies: ["09E116C1CF9E4FB6"]
+			id: "11D160DFB64D4753"
+			rewards: [
+				{
+					count: 6
+					id: "752079BA4D0EB9B3"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "52F636C3041944E6"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:minotaur"
+				id: "7377271282E044E0"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 34.0d
+		}
+		{
+			dependencies: ["11D160DFB64D4753"]
+			id: "6A94EEB82C5A4E0B"
+			rewards: [
+				{
+					id: "0DF656C7E29E19EC"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "79EC5BF60DA64DBF"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:minotaur"
+				id: "3B524C9A982809FB"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 34.0d
+		}
+		{
+			id: "66B1C894F62CCECA"
+			rewards: [
+				{
+					count: 2
+					id: "789AF26F5D2643EC"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "52FBA54FEFF24408"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:fire_beetle"
+				id: "6AF1DB65968B422A"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 36.0d
+		}
+		{
+			dependencies: ["66B1C894F62CCECA"]
+			id: "4015B7E2B1264E70"
+			rewards: [
+				{
+					count: 4
+					id: "2B75D84997A64B56"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "66D0FD23E91C476F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:fire_beetle"
+				id: "12F96E99430C4942"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 36.0d
+		}
+		{
+			dependencies: ["4015B7E2B1264E70"]
+			id: "7E0616C043BC975E"
+			rewards: [
+				{
+					count: 2
+					id: "084D88F3FB32B799"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "401E0E1361B0D093"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:fire_beetle"
+				id: "171613072B774B79"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 36.0d
+		}
+		{
+			dependencies: ["7E0616C043BC975E"]
+			id: "43830AB36EEA4B21"
+			rewards: [
+				{
+					count: 4
+					id: "324DB35C34DF4C84"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "280866D93F119AC1"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:fire_beetle"
+				id: "79655F7BBDB74ED9"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 36.0d
+		}
+		{
+			dependencies: ["43830AB36EEA4B21"]
+			id: "1C3F195DABDCBAA1"
+			rewards: [
+				{
+					count: 6
+					id: "4ED065387C49449C"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "7E286A0DE6B94748"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:fire_beetle"
+				id: "630CE49C62DB4715"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 36.0d
+		}
+		{
+			dependencies: ["1C3F195DABDCBAA1"]
+			id: "766A3AD0C4754B16"
+			rewards: [
+				{
+					id: "79E2DDB95E734EF4"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0480D062927044D3"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:fire_beetle"
+				id: "5FA1370E9BDE0193"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 36.0d
+		}
+		{
+			dependencies: ["766A3AD0C4754B16"]
+			id: "6E14B11206DFC040"
+			rewards: [
+				{
+					count: 2
+					id: "49B556A20F93A855"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "31FBC7E537764A09"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:fire_beetle"
+				id: "2D5DB71BCDBD52A0"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 36.0d
+		}
+		{
+			dependencies: ["6E14B11206DFC040"]
+			id: "36764D6BEA5846C2"
+			rewards: [
+				{
+					count: 3
+					id: "78DB7AE0396FA079"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "1283C3C1C67FB280"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:fire_beetle"
+				id: "7CF366EEC72C42CE"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 36.0d
+		}
+		{
+			dependencies: ["36764D6BEA5846C2"]
+			id: "600397C6FF52B3A4"
+			rewards: [
+				{
+					count: 4
+					id: "15CC6811CECBF3EE"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "528241216A9F4273"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:fire_beetle"
+				id: "0F1C5D608F6ECB23"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 36.0d
+		}
+		{
+			dependencies: ["600397C6FF52B3A4"]
+			id: "3C965473D9E94669"
+			rewards: [
+				{
+					count: 5
+					id: "3F2287817C712966"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "784E59E311AF4626"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:fire_beetle"
+				id: "7096E7C134C347C5"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 36.0d
+		}
+		{
+			dependencies: ["3C965473D9E94669"]
+			id: "2000724FB89A4200"
+			rewards: [
+				{
+					count: 6
+					id: "063F605200002185"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5C172EBDADB62A4C"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:fire_beetle"
+				id: "76971391D1C849E6"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 36.0d
+		}
+		{
+			dependencies: ["2000724FB89A4200"]
+			id: "7833D4B8A51103AB"
+			rewards: [
+				{
+					id: "3461187152934F21"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "4A5E7CCFF6A8411D"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:fire_beetle"
+				id: "726CE9CF2ABA4EC1"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 36.0d
+		}
+		{
+			id: "638B1C8C0F9FEA8C"
+			rewards: [
+				{
+					count: 2
+					id: "054555D1DD3E676E"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "0F5C142C1A494722"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:slime_beetle"
+				id: "4CE63C6C1D1E4D1A"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 38.0d
+		}
+		{
+			dependencies: ["638B1C8C0F9FEA8C"]
+			id: "7CE139396D1E45C4"
+			rewards: [
+				{
+					count: 4
+					id: "3DBAD72E88074404"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "5AF25BFBC50F4520"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:slime_beetle"
+				id: "4947076700D84D68"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 38.0d
+		}
+		{
+			dependencies: ["7CE139396D1E45C4"]
+			id: "7B778F80B62847F7"
+			rewards: [
+				{
+					count: 2
+					id: "68BEE5F6EE914373"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "42E35EFDEDE84947"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:slime_beetle"
+				id: "56DCA446FAF946D5"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 38.0d
+		}
+		{
+			dependencies: ["7B778F80B62847F7"]
+			id: "5349689AB0ED4353"
+			rewards: [
+				{
+					count: 4
+					id: "232ABBB8EA1C573F"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "5C01C24B3A5A4923"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:slime_beetle"
+				id: "49A57D9B6050B58A"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 38.0d
+		}
+		{
+			dependencies: ["5349689AB0ED4353"]
+			id: "2097F7E1B41A47B2"
+			rewards: [
+				{
+					count: 6
+					id: "6260B8BECCF3752B"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "2982C5CE98B07708"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:slime_beetle"
+				id: "19CDBE01CF7DEE5F"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 38.0d
+		}
+		{
+			dependencies: ["2097F7E1B41A47B2"]
+			id: "0FB58187938E4545"
+			rewards: [
+				{
+					id: "7ED909FEDBC34AFA"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "594D34E9C5A8494F"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:slime_beetle"
+				id: "2EAC5B9C0555E608"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 38.0d
+		}
+		{
+			dependencies: ["0FB58187938E4545"]
+			id: "59315EBEAC374220"
+			rewards: [
+				{
+					count: 2
+					id: "104E554A0E87456E"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "714864716794383B"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:slime_beetle"
+				id: "47513040203ADC55"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 38.0d
+		}
+		{
+			dependencies: ["59315EBEAC374220"]
+			id: "56CE7229452C4C5F"
+			rewards: [
+				{
+					count: 3
+					id: "1F31A57FDABA4DA3"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "35DCEC3951D54A53"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:slime_beetle"
+				id: "3DCE4385F2B94404"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 38.0d
+		}
+		{
+			dependencies: ["56CE7229452C4C5F"]
+			id: "737DBA01BD30440D"
+			rewards: [
+				{
+					count: 4
+					id: "676F3FF4D3EF1312"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "782A406A4B8C4011"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:slime_beetle"
+				id: "00244E14A88C49D6"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 38.0d
+		}
+		{
+			dependencies: ["737DBA01BD30440D"]
+			id: "2281F622DD4647A2"
+			rewards: [
+				{
+					count: 5
+					id: "06923886A53ED9E9"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "136137CB447F4953"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:slime_beetle"
+				id: "4D68DF9026F54AF5"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 38.0d
+		}
+		{
+			dependencies: ["2281F622DD4647A2"]
+			id: "67A352D800E1441C"
+			rewards: [
+				{
+					count: 6
+					id: "67DB9823B921FEA4"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "62297FFCEFC54A55"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:slime_beetle"
+				id: "1E6BCC720CBAD086"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 38.0d
+		}
+		{
+			dependencies: ["67A352D800E1441C"]
+			id: "7B69196E45999755"
+			rewards: [
+				{
+					id: "15083B78981B4D28"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "75395D99CE994D2E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:slime_beetle"
+				id: "38078EB2952C0F27"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 38.0d
+		}
+		{
+			id: "04D92DFA4BEF4711"
+			rewards: [
+				{
+					count: 2
+					id: "13DB8685B2D04652"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "53F61411875EFB48"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:pinch_beetle"
+				id: "16BAC2B92730425D"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 40.0d
+		}
+		{
+			dependencies: ["04D92DFA4BEF4711"]
+			id: "285F3C26B2A4463D"
+			rewards: [
+				{
+					count: 4
+					id: "42CA4B72F135A698"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "45D48B3F13A945AE"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:pinch_beetle"
+				id: "2FCB386345E9C766"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 40.0d
+		}
+		{
+			dependencies: ["285F3C26B2A4463D"]
+			id: "0BC0AC711B3E5B13"
+			rewards: [
+				{
+					count: 2
+					id: "1763EB0C2F13380B"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "7AB6324BD398F80E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:pinch_beetle"
+				id: "474E4169822D779C"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 40.0d
+		}
+		{
+			dependencies: ["0BC0AC711B3E5B13"]
+			id: "0E0EE9C887C4E5DC"
+			rewards: [
+				{
+					count: 4
+					id: "7E2BAFA013CA49F5"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "7CE5D388D6129672"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:pinch_beetle"
+				id: "16EC8C9446C249C5"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 40.0d
+		}
+		{
+			dependencies: ["0E0EE9C887C4E5DC"]
+			id: "1DEE48408593FEAD"
+			rewards: [
+				{
+					count: 6
+					id: "704103309DBB4B44"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "26C6BB42A3E91406"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:pinch_beetle"
+				id: "62CDC8CA81879978"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 40.0d
+		}
+		{
+			dependencies: ["1DEE48408593FEAD"]
+			id: "187BCCB05835468E"
+			rewards: [
+				{
+					id: "5DF0E0B281994935"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "60E52022CD9F43D5"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:pinch_beetle"
+				id: "4CF406FC15F699EA"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 40.0d
+		}
+		{
+			dependencies: ["187BCCB05835468E"]
+			id: "28099D4A770D4DCD"
+			rewards: [
+				{
+					count: 2
+					id: "6B6C3026614D4F12"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "793C20255C75157A"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:pinch_beetle"
+				id: "65D69D0582D92322"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 40.0d
+		}
+		{
+			dependencies: ["28099D4A770D4DCD"]
+			id: "184B5B346CD2844E"
+			rewards: [
+				{
+					count: 3
+					id: "58CA712571450296"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "75B37091CD43314E"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:pinch_beetle"
+				id: "657F2062588D4166"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 40.0d
+		}
+		{
+			dependencies: ["184B5B346CD2844E"]
+			id: "6861CF48F796442A"
+			rewards: [
+				{
+					count: 4
+					id: "6835B5AD4F71415E"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "1EE0B63AE42946ED"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:pinch_beetle"
+				id: "5560B9FC986691AF"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 40.0d
+		}
+		{
+			dependencies: ["6861CF48F796442A"]
+			id: "1F2EF18DA2589D6A"
+			rewards: [
+				{
+					count: 5
+					id: "332991208B302DE8"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "434948BA3279414E"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:pinch_beetle"
+				id: "3EED92EADEFF4BC9"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 40.0d
+		}
+		{
+			dependencies: ["1F2EF18DA2589D6A"]
+			id: "5F540BBF4477E2B4"
+			rewards: [
+				{
+					count: 6
+					id: "0076395B5DB2B4FC"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "35431228171D8262"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:pinch_beetle"
+				id: "74B5A116D5A8B320"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 40.0d
+		}
+		{
+			dependencies: ["5F540BBF4477E2B4"]
+			id: "0ECA7D01B77385C2"
+			rewards: [
+				{
+					id: "1178F79A797E48F7"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "45AE2ACA905584A6"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:pinch_beetle"
+				id: "2590BB19F6FE4D62"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 40.0d
+		}
+		{
+			id: "0100FD7D7D4F668D"
+			rewards: [
+				{
+					count: 2
+					id: "49ACBAB932A14D32"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "5373094CD4F24AD1"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:maze_slime"
+				id: "6D385015F80A4857"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 42.0d
+		}
+		{
+			dependencies: ["0100FD7D7D4F668D"]
+			id: "288B2F062330F677"
+			rewards: [
+				{
+					count: 4
+					id: "41AE36D9B95CA838"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "162E78CEDA044305"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:maze_slime"
+				id: "53A3878EC7EC4A21"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 42.0d
+		}
+		{
+			dependencies: ["288B2F062330F677"]
+			id: "39287034498141F0"
+			rewards: [
+				{
+					count: 2
+					id: "57376A6ECD96D093"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "27465B6168D7EEF6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:maze_slime"
+				id: "009969D119175E05"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 42.0d
+		}
+		{
+			dependencies: ["39287034498141F0"]
+			id: "0BB3CE463424D346"
+			rewards: [
+				{
+					count: 4
+					id: "63A5ADDF6BCE41D4"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "5E0544A43887D4CE"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:maze_slime"
+				id: "297E86D2F90ED518"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 42.0d
+		}
+		{
+			dependencies: ["0BB3CE463424D346"]
+			id: "76E6227242488993"
+			rewards: [
+				{
+					count: 6
+					id: "370388B7C9DCDF24"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "790CCBF59BE75A8D"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:maze_slime"
+				id: "5F6B3E510A5E4F71"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 42.0d
+		}
+		{
+			dependencies: ["76E6227242488993"]
+			id: "25982EBB98C4F877"
+			rewards: [
+				{
+					id: "6A25C403313C4900"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2F0E79EAC11D4E70"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:maze_slime"
+				id: "7E3FF1234AF2C334"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 42.0d
+		}
+		{
+			dependencies: ["25982EBB98C4F877"]
+			id: "553A85641F7E4AE3"
+			rewards: [
+				{
+					count: 2
+					id: "290966F987546D0F"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7F790AE011AA50A7"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:maze_slime"
+				id: "059024E86EC5F773"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 42.0d
+		}
+		{
+			dependencies: ["553A85641F7E4AE3"]
+			id: "0864921E051744AA"
+			rewards: [
+				{
+					count: 3
+					id: "285CCABB1A82A1DA"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "4915178307C0472F"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:maze_slime"
+				id: "5EC0D9BB8FF3DBF9"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 42.0d
+		}
+		{
+			dependencies: ["0864921E051744AA"]
+			id: "0E986EA18E9E4BB2"
+			rewards: [
+				{
+					count: 4
+					id: "606F15E1A08986C8"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "74A06EB9E09C1777"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:maze_slime"
+				id: "11B24CC27FE06DDC"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 42.0d
+		}
+		{
+			dependencies: ["0E986EA18E9E4BB2"]
+			id: "1A33804E4A844270"
+			rewards: [
+				{
+					count: 5
+					id: "231AC3020B3341AA"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "646DEBCD706F473B"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:maze_slime"
+				id: "0FEEF0F8960F4F0A"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 42.0d
+		}
+		{
+			dependencies: ["1A33804E4A844270"]
+			id: "41B2DB15FC0C4C43"
+			rewards: [
+				{
+					count: 6
+					id: "58389D8E19C4BB08"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "040A0B394475A1C2"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:maze_slime"
+				id: "7C97D904F8C72F93"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 42.0d
+		}
+		{
+			dependencies: ["41B2DB15FC0C4C43"]
+			id: "55ECB0A69D2C4DCD"
+			rewards: [
+				{
+					id: "07801B9BD3A84080"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+				{
+					id: "59C6440214724BBC"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:maze_slime"
+				id: "13CB91BFC86C7AC5"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 42.0d
+		}
+		{
+			id: "67AB5059B17D8305"
+			rewards: [
+				{
+					count: 2
+					id: "1DC8516B911E1A8C"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "5EE47F3F98024330"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:helmet_crab"
+				id: "0432F9302A324DEE"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 44.0d
+		}
+		{
+			dependencies: ["67AB5059B17D8305"]
+			id: "0A33F6FD99ED44EE"
+			rewards: [
+				{
+					count: 4
+					id: "3328A160EE5457CC"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "724D444529DA462F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:helmet_crab"
+				id: "4B6E8925B77BA049"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 44.0d
+		}
+		{
+			dependencies: ["0A33F6FD99ED44EE"]
+			id: "7E7F8DF1563A4C46"
+			rewards: [
+				{
+					count: 2
+					id: "05019DE73BBC9CCB"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "31F4F248E6D94A31"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:helmet_crab"
+				id: "3B81721FE6CF31B7"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 44.0d
+		}
+		{
+			dependencies: ["7E7F8DF1563A4C46"]
+			id: "19765B99FCDBC16E"
+			rewards: [
+				{
+					count: 4
+					id: "380E22F7DADC44C1"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "1FF1C8558A054D33"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:helmet_crab"
+				id: "5672E0FEA5DC484E"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 44.0d
+		}
+		{
+			dependencies: ["19765B99FCDBC16E"]
+			id: "6994E897C3BF5F0B"
+			rewards: [
+				{
+					count: 6
+					id: "41EB3FDAE01941EB"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "08363747F7F9EF43"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:helmet_crab"
+				id: "57F02CCC2BCB7DAD"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 44.0d
+		}
+		{
+			dependencies: ["6994E897C3BF5F0B"]
+			id: "4072CDE6263C4F1B"
+			rewards: [
+				{
+					id: "7F69AB38110ED855"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "15D9C78357D48186"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:helmet_crab"
+				id: "0D4FEA64E303445A"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 44.0d
+		}
+		{
+			dependencies: ["4072CDE6263C4F1B"]
+			id: "7C9DDE771EF5D713"
+			rewards: [
+				{
+					count: 2
+					id: "6CAB4CDE16D94F6A"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "352A7F57D181AFBC"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:helmet_crab"
+				id: "046B5D8A12D3C03E"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 44.0d
+		}
+		{
+			dependencies: ["7C9DDE771EF5D713"]
+			id: "6EDAF65FEF3B4125"
+			rewards: [
+				{
+					count: 3
+					id: "68070EB697A1480A"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "097F05D92098EBE9"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:helmet_crab"
+				id: "16D5C416E8E5294F"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 44.0d
+		}
+		{
+			dependencies: ["6EDAF65FEF3B4125"]
+			id: "21A0E33809A3AECB"
+			rewards: [
+				{
+					count: 4
+					id: "5251A9929310434A"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7011DF0DEDB66F44"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:helmet_crab"
+				id: "39D4DB60EA8D4431"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 44.0d
+		}
+		{
+			dependencies: ["21A0E33809A3AECB"]
+			id: "6CCCDB0C38DC3751"
+			rewards: [
+				{
+					count: 5
+					id: "6600A8E9CC3944EA"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "3A0C792343F14824"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:helmet_crab"
+				id: "229432D0E6B90E83"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 44.0d
+		}
+		{
+			dependencies: ["6CCCDB0C38DC3751"]
+			id: "3CD1F849ACF96659"
+			rewards: [
+				{
+					count: 6
+					id: "1F16964326DE4CE2"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "49891DBC07C5490F"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:helmet_crab"
+				id: "439DFC683D984D16"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 44.0d
+		}
+		{
+			dependencies: ["3CD1F849ACF96659"]
+			id: "195C0250F4DAEC43"
+			rewards: [
+				{
+					id: "1413E6640592493E"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "0204C72AEEE993A0"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:helmet_crab"
+				id: "79BA791E928313F9"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 44.0d
+		}
+		{
+			id: "56ABC259177E4C53"
+			rewards: [
+				{
+					count: 2
+					id: "5D5D344BF42E104A"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "3BCE93A6441E4624"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:mosquito_swarm"
+				id: "7B339783C0A4431D"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 46.0d
+		}
+		{
+			dependencies: ["56ABC259177E4C53"]
+			id: "599243E33C1D433F"
+			rewards: [
+				{
+					count: 4
+					id: "51A0AC8EE9D84862"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "764937156EC644E3"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:mosquito_swarm"
+				id: "4B4251D382F10415"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 46.0d
+		}
+		{
+			dependencies: ["599243E33C1D433F"]
+			id: "5D6BAF806808102A"
+			rewards: [
+				{
+					count: 2
+					id: "5F521C1D7CF1967B"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "12B1E597BBE44FB9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:mosquito_swarm"
+				id: "2C0CE17B5CA04810"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 46.0d
+		}
+		{
+			dependencies: ["5D6BAF806808102A"]
+			id: "43DD5FC24E2B66A9"
+			rewards: [
+				{
+					count: 4
+					id: "4F0538281BA64E71"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "7874C425184749CC"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:mosquito_swarm"
+				id: "2D98245EBAAC5FFC"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 46.0d
+		}
+		{
+			dependencies: ["43DD5FC24E2B66A9"]
+			id: "5C7C0D7D5614406E"
+			rewards: [
+				{
+					count: 6
+					id: "1BFE7B370D57477D"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "31E8CB5DF57E4621"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:mosquito_swarm"
+				id: "0B0C6753DCF94C46"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 46.0d
+		}
+		{
+			dependencies: ["5C7C0D7D5614406E"]
+			id: "63EB4D69B9494D35"
+			rewards: [
+				{
+					id: "1495473DC4656F42"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "486B64D5B94D43E2"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:mosquito_swarm"
+				id: "7427097666D84C5D"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 46.0d
+		}
+		{
+			dependencies: ["63EB4D69B9494D35"]
+			id: "3751A8B4E0804D07"
+			rewards: [
+				{
+					count: 2
+					id: "4C0CD3101C594687"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "1D772DC58FC4EB06"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:mosquito_swarm"
+				id: "0AB9683D1C28048C"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 46.0d
+		}
+		{
+			dependencies: ["3751A8B4E0804D07"]
+			id: "59040802DE235575"
+			rewards: [
+				{
+					count: 3
+					id: "7C803ED4A9554682"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2C82AC3573444FA4"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:mosquito_swarm"
+				id: "4B1E0B639D5C0472"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 46.0d
+		}
+		{
+			dependencies: ["59040802DE235575"]
+			id: "51EE8D511F95464E"
+			rewards: [
+				{
+					count: 4
+					id: "797A78FCBAC33BAE"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "559BC123F28A4B2B"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:mosquito_swarm"
+				id: "2AE21DA508C34DA2"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 46.0d
+		}
+		{
+			dependencies: ["51EE8D511F95464E"]
+			id: "0879B45831D042E7"
+			rewards: [
+				{
+					count: 5
+					id: "49CDCBF812F042AD"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2FED49628A884D0F"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:mosquito_swarm"
+				id: "2A18E451134D7815"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 46.0d
+		}
+		{
+			dependencies: ["0879B45831D042E7"]
+			id: "271B7BD86AEF8B49"
+			rewards: [
+				{
+					count: 6
+					id: "62D073BD89D9471F"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5BAD18FEDC4B1EA4"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:mosquito_swarm"
+				id: "333607D98630841E"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 46.0d
+		}
+		{
+			dependencies: ["271B7BD86AEF8B49"]
+			id: "460A645F9B67191B"
+			rewards: [
+				{
+					id: "652AEAED7D50FF4A"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "32A2F695861A4CBC"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:mosquito_swarm"
+				id: "0752794707AD07AB"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 46.0d
+		}
+		{
+			id: "4F2C2691FFE547BB"
+			rewards: [
+				{
+					count: 2
+					id: "5CA8379AE3E54C1B"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "068557F30EE80D0A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:death_tome"
+				id: "3AECF14C67FB3B44"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 48.0d
+		}
+		{
+			dependencies: ["4F2C2691FFE547BB"]
+			id: "6E0141522CFF499A"
+			rewards: [
+				{
+					count: 4
+					id: "440CC9451404492B"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "66C02982D065479C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:death_tome"
+				id: "36654B398C4E4941"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 48.0d
+		}
+		{
+			dependencies: ["6E0141522CFF499A"]
+			id: "1F92B25D976F4A89"
+			rewards: [
+				{
+					count: 2
+					id: "60DFDF75C68C4C27"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "7B138C65066226E2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:death_tome"
+				id: "6993F3610B774F4A"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 48.0d
+		}
+		{
+			dependencies: ["1F92B25D976F4A89"]
+			id: "636C18F6CCB538F7"
+			rewards: [
+				{
+					count: 4
+					id: "6D01FCF4C802D652"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "4041E9B4873F494A"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:death_tome"
+				id: "23B1F2F6F39C0CB6"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 48.0d
+		}
+		{
+			dependencies: ["636C18F6CCB538F7"]
+			id: "6F2C548FA56A1054"
+			rewards: [
+				{
+					count: 6
+					id: "52EDE09606C44633"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "248F38E73AC64634"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:death_tome"
+				id: "602E63721A4F4040"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 48.0d
+		}
+		{
+			dependencies: ["6F2C548FA56A1054"]
+			id: "3CB1C400E67D5FA4"
+			rewards: [
+				{
+					id: "671000179516ABA8"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "1F64B9ECB7F6A58D"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:death_tome"
+				id: "343794E67D9B6711"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 48.0d
+		}
+		{
+			dependencies: ["3CB1C400E67D5FA4"]
+			id: "31063A56A57D4821"
+			rewards: [
+				{
+					count: 2
+					id: "565806C2F966A621"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2B59FBB9BE0F48DE"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:death_tome"
+				id: "1CE166A327E55AB1"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 48.0d
+		}
+		{
+			dependencies: ["31063A56A57D4821"]
+			id: "0A1ACE59CED756EA"
+			rewards: [
+				{
+					count: 3
+					id: "1C86B8B2C4F3B5B7"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "02DC7CCA6E7A456E"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:death_tome"
+				id: "5668219AE49231F1"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 48.0d
+		}
+		{
+			dependencies: ["0A1ACE59CED756EA"]
+			id: "580A19C5C26C13F1"
+			rewards: [
+				{
+					count: 4
+					id: "739CCCAA0EC24062"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "16B2E8AEC6EA4276"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:death_tome"
+				id: "481CC7710F07B543"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 48.0d
+		}
+		{
+			dependencies: ["580A19C5C26C13F1"]
+			id: "72B321B3642B4432"
+			rewards: [
+				{
+					count: 5
+					id: "6426333B748D15F6"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "33D9537196CD4F88"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:death_tome"
+				id: "1A5F843BC7991C5A"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 48.0d
+		}
+		{
+			dependencies: ["72B321B3642B4432"]
+			id: "421C4DDC0FC04A6E"
+			rewards: [
+				{
+					count: 6
+					id: "66F7D3A05DEF4313"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "27D0B60FED8B4160"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:death_tome"
+				id: "669224CD82654BCE"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 48.0d
+		}
+		{
+			dependencies: ["421C4DDC0FC04A6E"]
+			id: "71135F568123390D"
+			rewards: [
+				{
+					id: "38A26FF195124936"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "42526B3BF03AC04D"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:death_tome"
+				id: "0C033E052D9CC1C3"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 48.0d
+		}
+		{
+			id: "1A24A963416F4193"
+			rewards: [
+				{
+					count: 2
+					id: "591DA5DB07024959"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "31EF8344BB9E4790"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:carminite_ghastling"
+				id: "4D2C387917B81F09"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 50.0d
+		}
+		{
+			dependencies: ["1A24A963416F4193"]
+			id: "13E36E35AB34485F"
+			rewards: [
+				{
+					count: 4
+					id: "167DC5AFDE8692F2"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "089805A0CB66A01E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_ghastling"
+				id: "5F5D2BAB22DED2F0"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 50.0d
+		}
+		{
+			dependencies: ["13E36E35AB34485F"]
+			id: "797828DCE3DF8889"
+			rewards: [
+				{
+					count: 2
+					id: "40DA1C9038625557"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "36E6F5861EF6C994"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_ghastling"
+				id: "457CAA75D0784CA5"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 50.0d
+		}
+		{
+			dependencies: ["797828DCE3DF8889"]
+			id: "5014471AEFB94727"
+			rewards: [
+				{
+					count: 4
+					id: "0F7E507FBA13DA9B"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "6C7F73F84CF1D9EA"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_ghastling"
+				id: "4571BC2C39D51C98"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 50.0d
+		}
+		{
+			dependencies: ["5014471AEFB94727"]
+			id: "4CEA8FD33114B48F"
+			rewards: [
+				{
+					count: 6
+					id: "5596972F38BA47B3"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "41C926991E3E4B65"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_ghastling"
+				id: "6510D80280EACAE1"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 50.0d
+		}
+		{
+			dependencies: ["4CEA8FD33114B48F"]
+			id: "37EE12BEBA63EFB2"
+			rewards: [
+				{
+					id: "28E69C177B954B1A"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "72B42C6BF67A4226"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_ghastling"
+				id: "42EA7434088F4EA6"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 50.0d
+		}
+		{
+			dependencies: ["37EE12BEBA63EFB2"]
+			id: "78C6394D5E9248A9"
+			rewards: [
+				{
+					count: 2
+					id: "5359F63580DE4A1A"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "52F95B0920D94F7D"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:carminite_ghastling"
+				id: "415812744B0E44B1"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 50.0d
+		}
+		{
+			dependencies: ["78C6394D5E9248A9"]
+			id: "1FA8BE57842C32A4"
+			rewards: [
+				{
+					count: 3
+					id: "42C7D5F5A93EAC0D"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2CE83FA86F644C45"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_ghastling"
+				id: "63B3EF826A5127C8"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 50.0d
+		}
+		{
+			dependencies: ["1FA8BE57842C32A4"]
+			id: "414BD2CD1DECC842"
+			rewards: [
+				{
+					id: "74955F2E2CEB7056"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+				{
+					id: "01CA2615A0164C2F"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_ghastling"
+				id: "15CE3C3C57B228C5"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 50.0d
+		}
+		{
+			dependencies: ["414BD2CD1DECC842"]
+			id: "40C8761AD0CD4595"
+			rewards: [
+				{
+					count: 5
+					id: "08FFA69165674A7E"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "6E30749B4B1A8193"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_ghastling"
+				id: "2A14867965A046DC"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 50.0d
+		}
+		{
+			dependencies: ["40C8761AD0CD4595"]
+			id: "459D703FE786B031"
+			rewards: [
+				{
+					count: 6
+					id: "451172B852404284"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "178EBDC818A44866"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_ghastling"
+				id: "7E5A1567F5A90D6C"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 50.0d
+		}
+		{
+			dependencies: ["459D703FE786B031"]
+			id: "4F109F252D5E46B2"
+			rewards: [
+				{
+					id: "3EBCF1ED202BE5BE"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "7E2EC7D42DD625BD"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:carminite_ghastling"
+				id: "302AABF4677622C2"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 50.0d
+		}
+		{
+			id: "3D539A42186D8D36"
+			rewards: [
+				{
+					count: 2
+					id: "3D9D93CB2F16CE19"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "114436C806324BC4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:carminite_ghastguard"
+				id: "2384030EBA1C5696"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 52.0d
+		}
+		{
+			dependencies: ["3D539A42186D8D36"]
+			id: "599919B37F96ED6B"
+			rewards: [
+				{
+					count: 4
+					id: "5E49389908384DC0"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "7E1DCA68D234C521"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_ghastguard"
+				id: "2E0FE2AF329549F8"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 52.0d
+		}
+		{
+			dependencies: ["599919B37F96ED6B"]
+			id: "0744B2223618F9DE"
+			rewards: [
+				{
+					count: 2
+					id: "16203A9F04F54115"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "68C9AE07386C42BF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_ghastguard"
+				id: "4915C36942BC4B88"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 52.0d
+		}
+		{
+			dependencies: ["0744B2223618F9DE"]
+			id: "3CB1E8638F0D1C51"
+			rewards: [
+				{
+					count: 4
+					id: "3D99B187A426442C"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "603B64349ED64BA3"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_ghastguard"
+				id: "33EB2B3586B14E83"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 52.0d
+		}
+		{
+			dependencies: ["3CB1E8638F0D1C51"]
+			id: "043F760281444D3C"
+			rewards: [
+				{
+					count: 6
+					id: "736D6E037E5441D2"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "748394D84B6A94D0"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_ghastguard"
+				id: "2CA3D56E7C244EB3"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 52.0d
+		}
+		{
+			dependencies: ["043F760281444D3C"]
+			id: "2726806BD9494436"
+			rewards: [
+				{
+					id: "2D1C3566F3B94A0C"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2EE30822109146B0"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_ghastguard"
+				id: "3EC886232702498B"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 52.0d
+		}
+		{
+			dependencies: ["2726806BD9494436"]
+			id: "390DC3F338F14745"
+			rewards: [
+				{
+					count: 2
+					id: "1E5ED034A98B4DE7"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0910AB87393B41CC"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:carminite_ghastguard"
+				id: "11073354E619440D"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 52.0d
+		}
+		{
+			dependencies: ["390DC3F338F14745"]
+			id: "4CE26B8A90244C8A"
+			rewards: [
+				{
+					count: 3
+					id: "31B82A9FAC2D7A9F"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "07320D2E01DCFEE7"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_ghastguard"
+				id: "1F538B8238E14CEA"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 52.0d
+		}
+		{
+			dependencies: ["4CE26B8A90244C8A"]
+			id: "2224EDD43AB24740"
+			rewards: [
+				{
+					count: 4
+					id: "47B467E4D59854F1"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "73EFF30929034DE8"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_ghastguard"
+				id: "0C09AE9345449E99"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 52.0d
+		}
+		{
+			dependencies: ["2224EDD43AB24740"]
+			id: "6C2A2B4342704653"
+			rewards: [
+				{
+					count: 5
+					id: "624BE4FD9E3940BD"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "01883AC6C58C4E15"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_ghastguard"
+				id: "4F0B66EDF2F94305"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 52.0d
+		}
+		{
+			dependencies: ["6C2A2B4342704653"]
+			id: "5753E4E8C154424F"
+			rewards: [
+				{
+					count: 6
+					id: "18C88A90BEAD415D"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "664FCBA6BB634047"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_ghastguard"
+				id: "345BC5B214774078"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 52.0d
+		}
+		{
+			dependencies: ["5753E4E8C154424F"]
+			id: "74FC492D838F4244"
+			rewards: [
+				{
+					id: "4C46511DC8574F03"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "7A0A6D571818E939"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:carminite_ghastguard"
+				id: "6900D71F76E99B84"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 52.0d
+		}
+		{
+			id: "44DE5CF89E27CC8E"
+			rewards: [
+				{
+					count: 2
+					id: "03B7AB303DD7EEA9"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "679C86C322B6431D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:carminite_golem"
+				id: "554DDADD36D04EB7"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 54.0d
+		}
+		{
+			dependencies: ["44DE5CF89E27CC8E"]
+			id: "3CF1F97D5A4141A3"
+			rewards: [
+				{
+					count: 4
+					id: "36CA94BE4FEEA0B7"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "67E847C3B66E49CF"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_golem"
+				id: "06803409753F42AD"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 54.0d
+		}
+		{
+			dependencies: ["3CF1F97D5A4141A3"]
+			id: "45E2124260D14D7C"
+			rewards: [
+				{
+					count: 2
+					id: "25A4A5087200F699"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "2AA39C9A6F8A4A1B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_golem"
+				id: "25E71FB07CE78842"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 54.0d
+		}
+		{
+			dependencies: ["45E2124260D14D7C"]
+			id: "162CB5058493E2BF"
+			rewards: [
+				{
+					count: 4
+					id: "7ACCC5394CBB3D15"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "47F31BA8C597F2BE"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_golem"
+				id: "4E937EAA2A274F6C"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 54.0d
+		}
+		{
+			dependencies: ["162CB5058493E2BF"]
+			id: "5912BA7896F8F089"
+			rewards: [
+				{
+					count: 6
+					id: "4F4B45921E1E4381"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "4B405BBC4E804887"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_golem"
+				id: "7D4C072FCEBDA676"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 54.0d
+		}
+		{
+			dependencies: ["5912BA7896F8F089"]
+			id: "1AD5E6EAE95C41A9"
+			rewards: [
+				{
+					id: "6437AE1CE8AA4BDA"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+				{
+					id: "631C9AADC4D844B2"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_golem"
+				id: "075F639B60AE29C8"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 54.0d
+		}
+		{
+			dependencies: ["1AD5E6EAE95C41A9"]
+			id: "3368B5E98BEE4704"
+			rewards: [
+				{
+					count: 2
+					id: "15D1CAD512934FAD"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "07CB5314680652AD"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:carminite_golem"
+				id: "0A3C1512540E432C"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 54.0d
+		}
+		{
+			dependencies: ["3368B5E98BEE4704"]
+			id: "79E48B654BB44301"
+			rewards: [
+				{
+					count: 3
+					id: "23188153969F49FE"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "31EAA1DBE7714331"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_golem"
+				id: "297C3B7FA90A42D8"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 54.0d
+		}
+		{
+			dependencies: ["79E48B654BB44301"]
+			id: "5BC853EC16AD4923"
+			rewards: [
+				{
+					count: 4
+					id: "36AF68F7EFC7541C"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2A9351266604EC98"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_golem"
+				id: "0431EC36F277443F"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 54.0d
+		}
+		{
+			dependencies: ["5BC853EC16AD4923"]
+			id: "357B093F2DE1411C"
+			rewards: [
+				{
+					count: 5
+					id: "45C690271B267C88"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "4203BD6B08B247EF"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_golem"
+				id: "77951B695DFCC27F"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 54.0d
+		}
+		{
+			dependencies: ["357B093F2DE1411C"]
+			id: "21ED7D09EFE93A91"
+			rewards: [
+				{
+					count: 6
+					id: "4BF6443A4D674655"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2823DD737CBAE772"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_golem"
+				id: "436013B9B96F4ECB"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 54.0d
+		}
+		{
+			dependencies: ["21ED7D09EFE93A91"]
+			id: "63B9908D56EB4624"
+			rewards: [
+				{
+					id: "6965FAFFA781470F"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "6C352A57F5A45584"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:carminite_golem"
+				id: "477F71832DC44A37"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 54.0d
+		}
+		{
+			id: "2741BA9AC8FF4130"
+			rewards: [
+				{
+					count: 2
+					id: "65EC0664C59EEB83"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "361FE9BD280C4FD5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:carminite_broodling"
+				id: "4484E47511A74A66"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 56.5d
+		}
+		{
+			dependencies: ["2741BA9AC8FF4130"]
+			id: "3CCAA2F6A7700A66"
+			rewards: [
+				{
+					count: 4
+					id: "041A1AD7949EC2EE"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "4B063B0D1A4D43E7"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_broodling"
+				id: "075B4FE291EB5141"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 56.5d
+		}
+		{
+			dependencies: ["3CCAA2F6A7700A66"]
+			id: "2E7EB066AF1B4EB3"
+			rewards: [
+				{
+					count: 2
+					id: "6D51E9465E09432C"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "7AE283D69BE247D1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_broodling"
+				id: "3E74346B1439069E"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 56.5d
+		}
+		{
+			dependencies: ["2E7EB066AF1B4EB3"]
+			id: "221F7BCAF5AF16B7"
+			rewards: [
+				{
+					count: 4
+					id: "01FA3CDD20C5470B"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "2F8F6626342B43D6"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_broodling"
+				id: "44E1B54E131C2CBC"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 56.5d
+		}
+		{
+			dependencies: ["221F7BCAF5AF16B7"]
+			id: "02C20D2B7605CBC8"
+			rewards: [
+				{
+					count: 6
+					id: "2B288811601068FB"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "40FBF830603F4360"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_broodling"
+				id: "1BEFE29850372D81"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 56.5d
+		}
+		{
+			dependencies: ["02C20D2B7605CBC8"]
+			id: "0A6AFF886ADE7CDB"
+			rewards: [
+				{
+					id: "7C22B2519FA74AFB"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "3D385E1F77E84C8C"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_broodling"
+				id: "4C5A7BDC6935D7C9"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 56.5d
+		}
+		{
+			dependencies: ["0A6AFF886ADE7CDB"]
+			id: "6D1FA14D6488CB09"
+			rewards: [
+				{
+					count: 2
+					id: "78FF011C7D5C75F8"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "6D6B5AC6C278465D"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:carminite_broodling"
+				id: "0DDB4DEF85234610"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 56.5d
+		}
+		{
+			dependencies: ["6D1FA14D6488CB09"]
+			id: "777BFC0A71AC37AC"
+			rewards: [
+				{
+					count: 3
+					id: "44D25BE3F2695ABF"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "67016295A14FD56D"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_broodling"
+				id: "19F9E21B0BA2F447"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 56.5d
+		}
+		{
+			dependencies: ["777BFC0A71AC37AC"]
+			id: "3670DB2FD1BF4689"
+			rewards: [
+				{
+					count: 4
+					id: "0C0D27BD92E054A3"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "500BC7530E424B65"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_broodling"
+				id: "785445540D5EB5E9"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 56.5d
+		}
+		{
+			dependencies: ["3670DB2FD1BF4689"]
+			id: "2C97217269A441A2"
+			rewards: [
+				{
+					count: 5
+					id: "643105E4CC5843CB"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "50C20D91D2D34680"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_broodling"
+				id: "17808086D70D44D1"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 56.5d
+		}
+		{
+			dependencies: ["2C97217269A441A2"]
+			id: "470965193D7D4BE1"
+			rewards: [
+				{
+					count: 6
+					id: "1457FF6F65C2B7E9"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7470FB611DE9BF22"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:carminite_broodling"
+				id: "4714B834DE01FDC3"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 56.5d
+		}
+		{
+			dependencies: ["470965193D7D4BE1"]
+			id: "67D20EA0C952CE28"
+			rewards: [
+				{
+					id: "60887845EE6C4B39"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "15E5C9314C54467D"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:carminite_broodling"
+				id: "11811C09AA0643B5"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 56.5d
+		}
+		{
+			id: "41592E1798A440F2"
+			rewards: [
+				{
+					count: 2
+					id: "5C9C7333C01E44E8"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "4A4C0F9B0CC7E506"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:towerwood_borer"
+				id: "6CC582E624B34B7B"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 58.5d
+		}
+		{
+			dependencies: ["41592E1798A440F2"]
+			id: "7111D3ED426742A0"
+			rewards: [
+				{
+					count: 4
+					id: "198473F3CB7C411E"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "53960E132B234EB8"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:towerwood_borer"
+				id: "6412D2437D4C4B8F"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 58.5d
+		}
+		{
+			dependencies: ["7111D3ED426742A0"]
+			id: "7083B1B7C8FCC959"
+			rewards: [
+				{
+					count: 2
+					id: "3F4AB7ECD9BF2A45"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "1D80DB045FCA2245"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:towerwood_borer"
+				id: "666085409C9BF06D"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 58.5d
+		}
+		{
+			dependencies: ["7083B1B7C8FCC959"]
+			id: "18572E6D7DAA98AC"
+			rewards: [
+				{
+					count: 4
+					id: "46CD0EBCDC0940EA"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "6685416F8B754041"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:towerwood_borer"
+				id: "2F41FE82CDAC375F"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 58.5d
+		}
+		{
+			dependencies: ["18572E6D7DAA98AC"]
+			id: "587EDBDB64CF4A0A"
+			rewards: [
+				{
+					count: 6
+					id: "4E5369011C956276"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "555681C362E3413D"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:towerwood_borer"
+				id: "64FF3B08B82948AA"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 58.5d
+		}
+		{
+			dependencies: ["587EDBDB64CF4A0A"]
+			id: "4CC5F32F9B334883"
+			rewards: [
+				{
+					id: "55039FF040FFB070"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "63AFC149068A4B47"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:towerwood_borer"
+				id: "66E2C58AB440A6B9"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 58.5d
+		}
+		{
+			dependencies: ["4CC5F32F9B334883"]
+			id: "4BE4FC1FE9F64583"
+			rewards: [
+				{
+					count: 2
+					id: "3219891A113B8005"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5B1D59E244283D56"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:towerwood_borer"
+				id: "0047C83478514F3E"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 58.5d
+		}
+		{
+			dependencies: ["4BE4FC1FE9F64583"]
+			id: "4A1B3BCB04524F63"
+			rewards: [
+				{
+					count: 3
+					id: "6FCB09CFCFDF1241"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7813620AAA0B409E"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:towerwood_borer"
+				id: "5917BA24B286EE09"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 58.5d
+		}
+		{
+			dependencies: ["4A1B3BCB04524F63"]
+			id: "4B7EEC2931994434"
+			rewards: [
+				{
+					count: 4
+					id: "62E90861243841FC"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "55504A3F49B54A70"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:towerwood_borer"
+				id: "4FC85F9C3BD148A2"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 58.5d
+		}
+		{
+			dependencies: ["4B7EEC2931994434"]
+			id: "45249A69CFE3013A"
+			rewards: [
+				{
+					count: 5
+					id: "78A400BBC1911591"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "583CC3F922DBA4CA"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:towerwood_borer"
+				id: "1FF9315FCE05E7E4"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 58.5d
+		}
+		{
+			dependencies: ["45249A69CFE3013A"]
+			id: "00F6402CF15FF5CD"
+			rewards: [
+				{
+					count: 6
+					id: "664A76C58CD64690"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0D42E07F3454E01C"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:towerwood_borer"
+				id: "1787E79448BD5562"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 58.5d
+		}
+		{
+			dependencies: ["00F6402CF15FF5CD"]
+			id: "526D81479D2E1C6F"
+			rewards: [
+				{
+					id: "7563C1FAA1014C10"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "2F4E3051067B6094"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:towerwood_borer"
+				id: "67AFDEA7563A17F6"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 58.5d
+		}
+		{
+			id: "4405C8AE68464D5D"
+			rewards: [
+				{
+					count: 2
+					id: "403FBFEC3251446F"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "4555B3D3356A4930"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:lower_goblin_knight"
+				id: "2C3B4274DB3961C0"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 60.5d
+		}
+		{
+			dependencies: ["4405C8AE68464D5D"]
+			id: "5F37E81D71418CAF"
+			rewards: [
+				{
+					count: 4
+					id: "30AAC634E9294F7C"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "28D37B6FEE780CF1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:lower_goblin_knight"
+				id: "4A729530F1C37658"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 60.5d
+		}
+		{
+			dependencies: ["5F37E81D71418CAF"]
+			id: "775059D0E45E4433"
+			rewards: [
+				{
+					count: 2
+					id: "4C5D3840F152FCB6"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "17EDCCBC4DB225C7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:lower_goblin_knight"
+				id: "40D45168BBE64FB8"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 60.5d
+		}
+		{
+			dependencies: ["775059D0E45E4433"]
+			id: "7CFAF7AD2081FCC9"
+			rewards: [
+				{
+					count: 4
+					id: "167513CE40C04813"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "3544921E985DF06E"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:lower_goblin_knight"
+				id: "7E2948D2B7FE41F0"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 60.5d
+		}
+		{
+			dependencies: ["7CFAF7AD2081FCC9"]
+			id: "4CBAAC8651224460"
+			rewards: [
+				{
+					count: 6
+					id: "725E7685DA5292FB"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "0A8335A9B7E36D14"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:lower_goblin_knight"
+				id: "1CDA03C9B5D4561F"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 60.5d
+		}
+		{
+			dependencies: ["4CBAAC8651224460"]
+			id: "44B7CD48700F4FF7"
+			rewards: [
+				{
+					id: "431C68E2497F4908"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "597DE0F2F8534F55"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:lower_goblin_knight"
+				id: "32917CFE884A8E80"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 60.5d
+		}
+		{
+			dependencies: ["44B7CD48700F4FF7"]
+			id: "1C1B28F80856A0ED"
+			rewards: [
+				{
+					count: 2
+					id: "193B184DBDE64459"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "4CE7913812DD4901"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:lower_goblin_knight"
+				id: "0FD8B5B691D54A77"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 60.5d
+		}
+		{
+			dependencies: ["1C1B28F80856A0ED"]
+			id: "0162C52F3CEFC932"
+			rewards: [
+				{
+					count: 3
+					id: "7D523E5DFA7E4A7D"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "443CA8968A914F2C"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:lower_goblin_knight"
+				id: "47C20FD062E841D4"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 60.5d
+		}
+		{
+			dependencies: ["0162C52F3CEFC932"]
+			id: "6AEFC2B53E38BBC3"
+			rewards: [
+				{
+					count: 4
+					id: "5E5102BD871ADCA6"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "25E24AB9E2AC4276"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:lower_goblin_knight"
+				id: "11DCB1FA1341455F"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 60.5d
+		}
+		{
+			dependencies: ["6AEFC2B53E38BBC3"]
+			id: "66A1BA0AD8BB4A3C"
+			rewards: [
+				{
+					count: 5
+					id: "161A976DF45E1EF7"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5EB3EB1D85864818"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:lower_goblin_knight"
+				id: "543EB09F5051C51B"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 60.5d
+		}
+		{
+			dependencies: ["66A1BA0AD8BB4A3C"]
+			id: "0D8D11A915BD8207"
+			rewards: [
+				{
+					count: 6
+					id: "23269F3039934B2B"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "661329898A6428C1"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:lower_goblin_knight"
+				id: "281CA88DB3FB797C"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 60.5d
+		}
+		{
+			dependencies: ["0D8D11A915BD8207"]
+			id: "2F3FDF2AFBC1294F"
+			rewards: [
+				{
+					id: "3E054DF3007A7D10"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "181A69030676484A"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:lower_goblin_knight"
+				id: "5A624BA0BF20E113"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 60.5d
+		}
+		{
+			id: "3B9E16A5743B069C"
+			rewards: [
+				{
+					count: 2
+					id: "2B4D750C403548CC"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "3F64A4AB75594128"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:blockchain_goblin"
+				id: "4E30C62522160D85"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 62.5d
+		}
+		{
+			dependencies: ["3B9E16A5743B069C"]
+			id: "16524DC7A36FA0FE"
+			rewards: [
+				{
+					count: 4
+					id: "7FDED9F75344E276"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "66CC4EB94FACA240"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:blockchain_goblin"
+				id: "1F5EDA2E1EA3E973"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 62.5d
+		}
+		{
+			dependencies: ["16524DC7A36FA0FE"]
+			id: "46A77361C8CAFD11"
+			rewards: [
+				{
+					count: 2
+					id: "2549051AF45B433C"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "448E1BF41805B141"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:blockchain_goblin"
+				id: "172DA9B8E897EBAA"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 62.5d
+		}
+		{
+			dependencies: ["46A77361C8CAFD11"]
+			id: "1FC4B21733C7DA23"
+			rewards: [
+				{
+					count: 4
+					id: "2C6B5461DD231A8D"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "3DFFA686864355FE"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:blockchain_goblin"
+				id: "36AC1F9833FF1EC5"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 62.5d
+		}
+		{
+			dependencies: ["1FC4B21733C7DA23"]
+			id: "4B9E96C1694246EA"
+			rewards: [
+				{
+					count: 6
+					id: "7708F0D0E8CEC1ED"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "6297923D7C104B51"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:blockchain_goblin"
+				id: "59DD4545CACC4DC1"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 62.5d
+		}
+		{
+			dependencies: ["4B9E96C1694246EA"]
+			id: "067556ACB5F8455A"
+			rewards: [
+				{
+					id: "7B5D518C5B05478F"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "6A88AE668F8E3E6C"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:blockchain_goblin"
+				id: "1A9D80F89A8048DC"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 62.5d
+		}
+		{
+			dependencies: ["067556ACB5F8455A"]
+			id: "1FAEA22F0FD94E33"
+			rewards: [
+				{
+					count: 2
+					id: "3390E749F5614DEF"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0FA1BB81DB3EB302"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:blockchain_goblin"
+				id: "7D0005886888E45D"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 62.5d
+		}
+		{
+			dependencies: ["1FAEA22F0FD94E33"]
+			id: "02247C0AF31544D8"
+			rewards: [
+				{
+					count: 3
+					id: "62AA46E67D5ED8B9"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "3FE443B819E649CE"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:blockchain_goblin"
+				id: "19A43BE952084AF7"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 62.5d
+		}
+		{
+			dependencies: ["02247C0AF31544D8"]
+			id: "072F2B9A7BF94E35"
+			rewards: [
+				{
+					count: 4
+					id: "489A4DBAE2A545D4"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "586A552874584E93"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:blockchain_goblin"
+				id: "71F4698CB8CD98E0"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 62.5d
+		}
+		{
+			dependencies: ["072F2B9A7BF94E35"]
+			id: "7069094F73ABC2CF"
+			rewards: [
+				{
+					count: 5
+					id: "11E65BACB3FF4074"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "44D85DD9BB21596F"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:blockchain_goblin"
+				id: "3B5FA3D00E616314"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 62.5d
+		}
+		{
+			dependencies: ["7069094F73ABC2CF"]
+			id: "54B0CDC73C074C14"
+			rewards: [
+				{
+					count: 6
+					id: "28A2EFC47F7A6DF0"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "23839F151FE7438A"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:blockchain_goblin"
+				id: "4FBA4F8AEAE245FC"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 62.5d
+		}
+		{
+			dependencies: ["54B0CDC73C074C14"]
+			id: "020AA11C73CFB58C"
+			rewards: [
+				{
+					id: "2CA5988A225F4307"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "5512ECEF43C12CA1"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:blockchain_goblin"
+				id: "0FED0332AB73499E"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 62.5d
+		}
+		{
+			id: "2C0542417F06BD8B"
+			rewards: [
+				{
+					count: 2
+					id: "30A0AD6BD2373529"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "5C1897046EE1489B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:armored_giant"
+				id: "4897BDB8DC258074"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 64.5d
+		}
+		{
+			dependencies: ["2C0542417F06BD8B"]
+			id: "4923E92CB3F1B9F7"
+			rewards: [
+				{
+					count: 4
+					id: "1F94F3A8D974421A"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "34C6D22AC4C74554"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:armored_giant"
+				id: "535B124BEA1C4288"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 64.5d
+		}
+		{
+			dependencies: ["4923E92CB3F1B9F7"]
+			id: "7296F31DC5014E55"
+			rewards: [
+				{
+					count: 2
+					id: "222671D0F1B17078"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "754BB138C1804E01"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:armored_giant"
+				id: "626796C3203EF7C7"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 64.5d
+		}
+		{
+			dependencies: ["7296F31DC5014E55"]
+			id: "73FA10FDFA2EBDE1"
+			rewards: [
+				{
+					count: 4
+					id: "5AF8C43CE7202787"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "4AD782F96B40A0AD"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:armored_giant"
+				id: "0611A86C1197B945"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 64.5d
+		}
+		{
+			dependencies: ["73FA10FDFA2EBDE1"]
+			id: "325619925FE247AD"
+			rewards: [
+				{
+					count: 6
+					id: "05B6E01F498D5F87"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "5FC8E445C1EC58DC"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:armored_giant"
+				id: "6489FA4FACC5370A"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 64.5d
+		}
+		{
+			dependencies: ["325619925FE247AD"]
+			id: "0313C76DE37D1C84"
+			rewards: [
+				{
+					id: "6CDD984CC5AD3FEE"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "036C3859C6E55AFA"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:armored_giant"
+				id: "5D7E181F33BB439E"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 64.5d
+		}
+		{
+			dependencies: ["0313C76DE37D1C84"]
+			id: "7C52CB75A5CD4FA0"
+			rewards: [
+				{
+					count: 2
+					id: "404DD7E7B4F766F8"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "714CF8B2138E46A8"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:armored_giant"
+				id: "3A6746AFA95CDA7E"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 64.5d
+		}
+		{
+			dependencies: ["7C52CB75A5CD4FA0"]
+			id: "694D3F4747E03B6B"
+			rewards: [
+				{
+					count: 3
+					id: "7B6302C20EB14B47"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "591025364DF94D9A"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:armored_giant"
+				id: "1096D71584D64BD2"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 64.5d
+		}
+		{
+			dependencies: ["694D3F4747E03B6B"]
+			id: "2AFCAA2788AE03ED"
+			rewards: [
+				{
+					count: 4
+					id: "6CA9F4389B7A8CD5"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "6EF1CE8F95AC518F"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:armored_giant"
+				id: "069B6E28038D3E61"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 64.5d
+		}
+		{
+			dependencies: ["2AFCAA2788AE03ED"]
+			id: "06003B58D5C44AB2"
+			rewards: [
+				{
+					count: 5
+					id: "48EE04E8ADE66305"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5A22D4BEDCFE47CD"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:armored_giant"
+				id: "6887BE5D14204E88"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 64.5d
+		}
+		{
+			dependencies: ["06003B58D5C44AB2"]
+			id: "471F3A8704E05AF2"
+			rewards: [
+				{
+					count: 6
+					id: "0784F762098BEE86"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "43DDAF096DABD3CC"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:armored_giant"
+				id: "1D4607F2FF3DC6AF"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 64.5d
+		}
+		{
+			dependencies: ["471F3A8704E05AF2"]
+			id: "1CB261BD3F884F54"
+			rewards: [
+				{
+					id: "037E84AC9B10434C"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "5CFA46B833836AB7"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:armored_giant"
+				id: "6666446726EE4690"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 64.5d
+		}
+		{
+			id: "7E58BDD5367E4DA0"
+			rewards: [
+				{
+					count: 2
+					id: "1F451CA055E2D791"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "6FBAC6F52BF64FB2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:giant_miner"
+				id: "3A5209B6819D8129"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 66.5d
+		}
+		{
+			dependencies: ["7E58BDD5367E4DA0"]
+			id: "74569DF9C6E5C6ED"
+			rewards: [
+				{
+					count: 4
+					id: "61EFBD8FA1434B6B"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "7C49FB73D936900B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:giant_miner"
+				id: "52B86D64DE5D4276"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 66.5d
+		}
+		{
+			dependencies: ["74569DF9C6E5C6ED"]
+			id: "64B3D1DC28A27094"
+			rewards: [
+				{
+					count: 2
+					id: "15982537521D2A81"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "26634B8F57B74D1B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:giant_miner"
+				id: "4524B993F6EA45C2"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 66.5d
+		}
+		{
+			dependencies: ["64B3D1DC28A27094"]
+			id: "58C85C52FBB08505"
+			rewards: [
+				{
+					count: 4
+					id: "491ED477E8F7401D"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "46F86E36A3996B9F"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:giant_miner"
+				id: "769EB8E1A64B40D6"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 66.5d
+		}
+		{
+			dependencies: ["58C85C52FBB08505"]
+			id: "2949D126E9B7A9D4"
+			rewards: [
+				{
+					count: 6
+					id: "532A94D4A02044C6"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "0FEAC51B264DB798"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:giant_miner"
+				id: "6E5489079BA042FC"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 66.5d
+		}
+		{
+			dependencies: ["2949D126E9B7A9D4"]
+			id: "4D4035E39518631D"
+			rewards: [
+				{
+					id: "0D2EB1A9ACDE860F"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "137AB775F887DC06"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:giant_miner"
+				id: "7457381B14B9E581"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 66.5d
+		}
+		{
+			dependencies: ["4D4035E39518631D"]
+			id: "23036B5D25BD4A9A"
+			rewards: [
+				{
+					count: 2
+					id: "18C57BDA82FFAC2F"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "4A2FE39B0B734742"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:giant_miner"
+				id: "2D1F62E27A12AB44"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 66.5d
+		}
+		{
+			dependencies: ["23036B5D25BD4A9A"]
+			id: "15EB768946D64062"
+			rewards: [
+				{
+					count: 3
+					id: "528F0CD150854331"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "3BEB11FF3F8E4338"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:giant_miner"
+				id: "18224C35AA06BD38"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 66.5d
+		}
+		{
+			dependencies: ["15EB768946D64062"]
+			id: "0E0A57A171F54B6D"
+			rewards: [
+				{
+					count: 4
+					id: "747B067EA13920F0"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5F31463F0FF696DC"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:giant_miner"
+				id: "7B8692039AA74A78"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 66.5d
+		}
+		{
+			dependencies: ["0E0A57A171F54B6D"]
+			id: "1B97A927466243EB"
+			rewards: [
+				{
+					count: 5
+					id: "2B3BEB0F4ADB4791"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "434E19B4307A485A"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:giant_miner"
+				id: "34FC10ED019D4092"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 66.5d
+		}
+		{
+			dependencies: ["1B97A927466243EB"]
+			id: "75D207AFE9994E4B"
+			rewards: [
+				{
+					count: 6
+					id: "2A57726EBE7F4D55"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "019B1755517C4C81"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:giant_miner"
+				id: "152EC1D265C24BD9"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 66.5d
+		}
+		{
+			dependencies: ["75D207AFE9994E4B"]
+			id: "39E77B8E98397A51"
+			rewards: [
+				{
+					id: "470A8AA11DEA432D"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "7B19F92B2E194DDE"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:giant_miner"
+				id: "3AB0FD0972D547CB"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 66.5d
+		}
+		{
+			id: "55ED0AF4A3904360"
+			rewards: [
+				{
+					count: 2
+					id: "55B74EB076E4C65F"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "6B93FB1DC9E66CE4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:troll"
+				id: "0A792B010C69E82D"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 68.5d
+		}
+		{
+			dependencies: ["55ED0AF4A3904360"]
+			id: "187E45FBA3CF43D6"
+			rewards: [
+				{
+					count: 4
+					id: "362D091BE3354F8F"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "0700CB0653F42F85"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:troll"
+				id: "2EE91C4EBDC74829"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 68.5d
+		}
+		{
+			dependencies: ["187E45FBA3CF43D6"]
+			id: "32A7E39378994A79"
+			rewards: [
+				{
+					count: 2
+					id: "0D72BFA7C73E416C"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "15B59276FE8F4076"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:troll"
+				id: "1D53A310B27E15CA"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 68.5d
+		}
+		{
+			dependencies: ["32A7E39378994A79"]
+			id: "266B2A7FD4A247A7"
+			rewards: [
+				{
+					count: 4
+					id: "020ECE9BCC1AD42D"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "51E9EE5983CA4647"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:troll"
+				id: "7C2938C746766C83"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 68.5d
+		}
+		{
+			dependencies: ["266B2A7FD4A247A7"]
+			id: "4A7BE7F4D5AB8C7B"
+			rewards: [
+				{
+					count: 6
+					id: "65F7C6CECF121140"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "26B247DCB53D4718"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:troll"
+				id: "3800CDD8783B9B39"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 68.5d
+		}
+		{
+			dependencies: ["4A7BE7F4D5AB8C7B"]
+			id: "699D1E9E9FEEDA2F"
+			rewards: [
+				{
+					id: "57A1E453BB004F73"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "4D6A7FD562F14AC6"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:troll"
+				id: "7E3EFF97D7DBE1F0"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 68.5d
+		}
+		{
+			dependencies: ["699D1E9E9FEEDA2F"]
+			id: "51BEA190AACD4611"
+			rewards: [
+				{
+					count: 2
+					id: "15B14F58A6384BF6"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2A4FCE47F79B01B9"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:troll"
+				id: "6CA8A9914D073831"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 68.5d
+		}
+		{
+			dependencies: ["51BEA190AACD4611"]
+			id: "35BA35BB28EF0760"
+			rewards: [
+				{
+					count: 3
+					id: "474A2B2BA225482A"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "33E127896CB11BE3"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:troll"
+				id: "20EB99CEC8BE03A2"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 68.5d
+		}
+		{
+			dependencies: ["35BA35BB28EF0760"]
+			id: "7ECC216BB8681483"
+			rewards: [
+				{
+					count: 4
+					id: "1F03978FEB961DD3"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0B0D801B8DBD4F4F"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:troll"
+				id: "44378B52052240AA"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 68.5d
+		}
+		{
+			dependencies: ["7ECC216BB8681483"]
+			id: "47B80CE376D06676"
+			rewards: [
+				{
+					count: 5
+					id: "5C2077470EF56DE9"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "549BE3D1A2C65655"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:troll"
+				id: "71E04A0528D39C6F"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 68.5d
+		}
+		{
+			dependencies: ["47B80CE376D06676"]
+			id: "7A0416C58B554773"
+			rewards: [
+				{
+					count: 6
+					id: "3C4FB3E488640F11"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "3B8949ADDB5D01B9"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:troll"
+				id: "209AA2DB67CF4F5E"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 68.5d
+		}
+		{
+			dependencies: ["7A0416C58B554773"]
+			id: "36BDE7079C5C4909"
+			rewards: [
+				{
+					id: "120059684AA84454"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "620F0DAB0A85E227"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:troll"
+				id: "34DB356A1B3F49F5"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 68.5d
+		}
+		{
+			id: "7B1847A6E9E47F37"
+			rewards: [
+				{
+					count: 2
+					id: "1BDE74033B4AE628"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "1FD38C6D67F9B5BF"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:snow_guardian"
+				id: "17058BB4CB930190"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 70.5d
+		}
+		{
+			dependencies: ["7B1847A6E9E47F37"]
+			id: "421AAE8C9F8208D1"
+			rewards: [
+				{
+					count: 4
+					id: "03005ABC66FB44A5"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "1FAD1B9C1F5F3C1F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:snow_guardian"
+				id: "2A3C475CC8254D56"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 70.5d
+		}
+		{
+			dependencies: ["421AAE8C9F8208D1"]
+			id: "53C29A94D548A1CB"
+			rewards: [
+				{
+					count: 2
+					id: "27E5387A67F9D03B"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "08456E90C8D4337E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:snow_guardian"
+				id: "3C5E83455E6B4D67"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 70.5d
+		}
+		{
+			dependencies: ["53C29A94D548A1CB"]
+			id: "21C496AD00A94E7D"
+			rewards: [
+				{
+					count: 4
+					id: "64DDD62E5E914A2D"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "452B3E26E727F47B"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:snow_guardian"
+				id: "6C1DA8EDF8D5C888"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 70.5d
+		}
+		{
+			dependencies: ["21C496AD00A94E7D"]
+			id: "78EB31B2FA314C56"
+			rewards: [
+				{
+					count: 6
+					id: "1A3AB12406AE4DBF"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "22BD3484B26B4FF6"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:snow_guardian"
+				id: "59F1A6EDADF7432F"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 70.5d
+		}
+		{
+			dependencies: ["78EB31B2FA314C56"]
+			id: "76A43FCE4361B2CB"
+			rewards: [
+				{
+					id: "538F0523DB88471E"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7494079C87C24586"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:snow_guardian"
+				id: "46680A83A9F94C54"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 70.5d
+		}
+		{
+			dependencies: ["76A43FCE4361B2CB"]
+			id: "17E4CD046F24E589"
+			rewards: [
+				{
+					count: 2
+					id: "75DA20ACFCA1420D"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "1479B48BD667A6FF"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:snow_guardian"
+				id: "516282BA3A0644CF"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 70.5d
+		}
+		{
+			dependencies: ["17E4CD046F24E589"]
+			id: "2CCDABCC1423DFB7"
+			rewards: [
+				{
+					count: 3
+					id: "15D30E5575BD4882"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "348B43C4B2D3B810"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:snow_guardian"
+				id: "1C6FE82710B14CA7"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 70.5d
+		}
+		{
+			dependencies: ["2CCDABCC1423DFB7"]
+			id: "445DDA399A8848E8"
+			rewards: [
+				{
+					count: 4
+					id: "46B463D183194F79"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "20C1F0D7B3D1EE46"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:snow_guardian"
+				id: "69E4F8AD07D64B36"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 70.5d
+		}
+		{
+			dependencies: ["445DDA399A8848E8"]
+			id: "38F8BBD9F79D420D"
+			rewards: [
+				{
+					count: 5
+					id: "553382C8B8B24AB2"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "052C8E592F3645D4"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:snow_guardian"
+				id: "637F23F9A12741BA"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 70.5d
+		}
+		{
+			dependencies: ["38F8BBD9F79D420D"]
+			id: "0F8F6164164F1246"
+			rewards: [
+				{
+					count: 6
+					id: "468E6F64332C4B4F"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "526007F017B51719"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:snow_guardian"
+				id: "2577AFBC7C114919"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 70.5d
+		}
+		{
+			dependencies: ["0F8F6164164F1246"]
+			id: "66714D4B9A354C12"
+			rewards: [
+				{
+					id: "32F26BF8009477E7"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "6F95629601A2465B"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:snow_guardian"
+				id: "035D3DC754204501"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 70.5d
+		}
+		{
+			id: "55C01BA2DA786A5D"
+			rewards: [
+				{
+					count: 2
+					id: "201072CEEFE846F7"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "5748A75160FC455F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:stable_ice_core"
+				id: "7CDF1E91B8C8819E"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 72.5d
+		}
+		{
+			dependencies: ["55C01BA2DA786A5D"]
+			id: "55A9CDA0970A51AD"
+			rewards: [
+				{
+					count: 4
+					id: "139AF7B9149741AA"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "645636A084BED45E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:stable_ice_core"
+				id: "38455D28986493DB"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 72.5d
+		}
+		{
+			dependencies: ["55A9CDA0970A51AD"]
+			id: "210034459566144E"
+			rewards: [
+				{
+					count: 2
+					id: "5BED2370EB804374"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "489A4D53E24C2CF8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:stable_ice_core"
+				id: "16CB4F8A18BD9850"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 72.5d
+		}
+		{
+			dependencies: ["210034459566144E"]
+			id: "448685A02F6A16FF"
+			rewards: [
+				{
+					count: 4
+					id: "4AC65FFBC9264E49"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "7E71B2F60F9D53AC"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:stable_ice_core"
+				id: "7FCC07BBBA1313B1"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 72.5d
+		}
+		{
+			dependencies: ["448685A02F6A16FF"]
+			id: "59B884C027BE503D"
+			rewards: [
+				{
+					count: 6
+					id: "05D56EAC896D4564"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "4F1D754E8BBC4966"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:stable_ice_core"
+				id: "1E1430C0E7DFB670"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 72.5d
+		}
+		{
+			dependencies: ["59B884C027BE503D"]
+			id: "0A33CC410DB642DC"
+			rewards: [
+				{
+					id: "712F3F264F0042F7"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2C740D5AC25B7A41"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:stable_ice_core"
+				id: "2FE6BBB951204065"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 72.5d
+		}
+		{
+			dependencies: ["0A33CC410DB642DC"]
+			id: "13419B8C65769C69"
+			rewards: [
+				{
+					count: 2
+					id: "4792E5718DAF39AA"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0DC6F855157642DF"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:stable_ice_core"
+				id: "4C0A4F45D3EE4788"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 72.5d
+		}
+		{
+			dependencies: ["13419B8C65769C69"]
+			id: "731E77F87A1DEA74"
+			rewards: [
+				{
+					count: 3
+					id: "3DB3C30CAF474F48"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0E8B743B167F5D1C"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:stable_ice_core"
+				id: "57DF90392FE9703F"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 72.5d
+		}
+		{
+			dependencies: ["731E77F87A1DEA74"]
+			id: "70D842FB324840E7"
+			rewards: [
+				{
+					count: 4
+					id: "0E470E8FB6774D68"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "3B5495BD08DE0C94"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:stable_ice_core"
+				id: "78B907F53722472A"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 72.5d
+		}
+		{
+			dependencies: ["70D842FB324840E7"]
+			id: "502D16D5531E4D61"
+			rewards: [
+				{
+					count: 5
+					id: "161675BDD0784E23"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "1DB76BCB9DE14C50"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:stable_ice_core"
+				id: "0FD224A643E2444C"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 72.5d
+		}
+		{
+			dependencies: ["502D16D5531E4D61"]
+			id: "045966CAD1134091"
+			rewards: [
+				{
+					count: 6
+					id: "1A73DC6DAFEF1117"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "65AE352300FEE114"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:stable_ice_core"
+				id: "5DBEC4F17B3924B8"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 72.5d
+		}
+		{
+			dependencies: ["045966CAD1134091"]
+			id: "260450AF16564A4E"
+			rewards: [
+				{
+					id: "328A1563C3644A76"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "67695D962E25B2D3"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:stable_ice_core"
+				id: "43BF66FA3718460B"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 72.5d
+		}
+		{
+			id: "13B3B15CB7744E20"
+			rewards: [
+				{
+					count: 2
+					id: "1ACC2F9B933B4FDF"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "55FD213C89194E0D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:harbinger_cube"
+				id: "7C463A1737E344EB"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 74.5d
+		}
+		{
+			dependencies: ["13B3B15CB7744E20"]
+			id: "3F3791D4E5BAF10E"
+			rewards: [
+				{
+					count: 4
+					id: "012B0E2652C82AAF"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "22A3FEC85E942A5A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:harbinger_cube"
+				id: "506588AAB3F34C6F"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 74.5d
+		}
+		{
+			dependencies: ["3F3791D4E5BAF10E"]
+			id: "4FF4BF4BD0B3D6CA"
+			rewards: [
+				{
+					count: 2
+					id: "06BDE325CE456DF6"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "389C323D50134BF9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:harbinger_cube"
+				id: "391813B3A58F0E0A"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 74.5d
+		}
+		{
+			dependencies: ["4FF4BF4BD0B3D6CA"]
+			id: "46E589DE9543481A"
+			rewards: [
+				{
+					count: 4
+					id: "63C62D84EACE6CDC"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "3AB767F8B4215DCB"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:harbinger_cube"
+				id: "29EDA0AF902F466F"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 74.5d
+		}
+		{
+			dependencies: ["46E589DE9543481A"]
+			id: "737B3BE4CCD94A84"
+			rewards: [
+				{
+					count: 6
+					id: "46914063B1C345EC"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "00BCBE98D53348DA"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:harbinger_cube"
+				id: "5436B25E27E2A5F2"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 74.5d
+		}
+		{
+			dependencies: ["737B3BE4CCD94A84"]
+			id: "792BAAEDB646A5F2"
+			rewards: [
+				{
+					id: "16BF97DACCEE3EE1"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "582D143713B44E10"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:harbinger_cube"
+				id: "70C5C444A15595F0"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 74.5d
+		}
+		{
+			dependencies: ["792BAAEDB646A5F2"]
+			id: "60AD6605C9EDA6B3"
+			rewards: [
+				{
+					count: 2
+					id: "4DB29F817E75AD9F"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "439C59889C202BBD"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:harbinger_cube"
+				id: "44929B63B517473C"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 74.5d
+		}
+		{
+			dependencies: ["60AD6605C9EDA6B3"]
+			id: "7AA78ED72A3C22EC"
+			rewards: [
+				{
+					count: 3
+					id: "36AD10DB0D2CFB83"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "009DD7874C7625F9"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:harbinger_cube"
+				id: "606CE5A68DC54FD2"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 74.5d
+		}
+		{
+			dependencies: ["7AA78ED72A3C22EC"]
+			id: "7D42E9DEE10C3AA7"
+			rewards: [
+				{
+					count: 4
+					id: "762726CBCDBDEE9F"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "211BA7F7A1D8031E"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:harbinger_cube"
+				id: "649B5FC65E484DB7"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 74.5d
+		}
+		{
+			dependencies: ["7D42E9DEE10C3AA7"]
+			id: "26400A8EDCDA4B4E"
+			rewards: [
+				{
+					count: 5
+					id: "5F012D83302965E7"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "755BF81F621A2ECC"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:harbinger_cube"
+				id: "243984A4F3F98473"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 74.5d
+		}
+		{
+			dependencies: ["26400A8EDCDA4B4E"]
+			id: "786EE142F15746F0"
+			rewards: [
+				{
+					count: 6
+					id: "744518EE00C449BB"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "70BE8732EF9C4E1D"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:harbinger_cube"
+				id: "7763480F29D04A97"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 74.5d
+		}
+		{
+			dependencies: ["786EE142F15746F0"]
+			id: "16D1378EDE2A4DE2"
+			rewards: [
+				{
+					id: "6B1496A32CEC412E"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+				{
+					id: "3C2E27D26317AC69"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:harbinger_cube"
+				id: "3A704E08F29E441E"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 74.5d
+		}
+		{
+			id: "306301D195E6B8C1"
+			rewards: [
+				{
+					count: 2
+					id: "47A1483228934186"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "7222FBD182134749"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:roving_cube"
+				id: "153B65D826E734B8"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 76.5d
+		}
+		{
+			dependencies: ["306301D195E6B8C1"]
+			id: "66A9CC09149F4DB6"
+			rewards: [
+				{
+					count: 4
+					id: "294B63FEBD37EACF"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "06C0CB363C8A4245"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:roving_cube"
+				id: "780DAAD8E5504806"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 76.5d
+		}
+		{
+			dependencies: ["66A9CC09149F4DB6"]
+			id: "04845A8E364FDDC1"
+			rewards: [
+				{
+					count: 2
+					id: "3DC39C3C06793EF7"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "4566519D1E5D4F07"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:roving_cube"
+				id: "676BB510620C4120"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 76.5d
+		}
+		{
+			dependencies: ["04845A8E364FDDC1"]
+			id: "6CFDF18BE777645D"
+			rewards: [
+				{
+					count: 4
+					id: "303D7EE3D686B25F"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "1B1268CAFBE347E0"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:roving_cube"
+				id: "6FC03BED3E4A4342"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 76.5d
+		}
+		{
+			dependencies: ["6CFDF18BE777645D"]
+			id: "693D36E42ABD452A"
+			rewards: [
+				{
+					count: 6
+					id: "3E4E10D5DC224DE3"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "6511B836F626DD2E"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:roving_cube"
+				id: "23531664D38DF992"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 76.5d
+		}
+		{
+			dependencies: ["693D36E42ABD452A"]
+			id: "68D9EF2A003D4A30"
+			rewards: [
+				{
+					id: "30FF70F66677BBF1"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "280BE292133B441F"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:roving_cube"
+				id: "3E3023F3F6FE4F78"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 76.5d
+		}
+		{
+			dependencies: ["68D9EF2A003D4A30"]
+			id: "0066D4B7D393147F"
+			rewards: [
+				{
+					count: 2
+					id: "424EC7829E8D470E"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "04AB900BB53FC581"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:roving_cube"
+				id: "2AA315E1656E4B35"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 76.5d
+		}
+		{
+			dependencies: ["0066D4B7D393147F"]
+			id: "2C00DC9DF60B4880"
+			rewards: [
+				{
+					count: 3
+					id: "3C04E4988BC12F5C"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5FFDF40EF4AC4C47"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:roving_cube"
+				id: "3DE67C3235801E63"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 76.5d
+		}
+		{
+			dependencies: ["2C00DC9DF60B4880"]
+			id: "4F157F30460825D9"
+			rewards: [
+				{
+					count: 4
+					id: "06D54A9998582883"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "1158E85E51154B69"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:roving_cube"
+				id: "6CD501B238A34D25"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 76.5d
+		}
+		{
+			dependencies: ["4F157F30460825D9"]
+			id: "478E95DE2F4C44A7"
+			rewards: [
+				{
+					count: 5
+					id: "21BEA7341F81FBD0"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "50042F53F8E2B760"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:roving_cube"
+				id: "4A593E5300F2416A"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 76.5d
+		}
+		{
+			dependencies: ["478E95DE2F4C44A7"]
+			id: "6307A9228082ED4D"
+			rewards: [
+				{
+					count: 6
+					id: "7CBA96FB4E524751"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7AE46B36251A7779"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:roving_cube"
+				id: "3360399F8762F5F7"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 76.5d
+		}
+		{
+			dependencies: ["6307A9228082ED4D"]
+			id: "230014B622AC8BA1"
+			rewards: [
+				{
+					id: "1CB2994E1C7ECF5C"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "60A59EE2F43B4D0A"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:roving_cube"
+				id: "1C21D36DB3037DFB"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 76.5d
+		}
+		{
+			id: "320325C368BAE5D2"
+			rewards: [
+				{
+					count: 2
+					id: "36D08CD63E46A3C8"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "58767588B367E181"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:adherent"
+				id: "075A48981E662045"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 78.5d
+		}
+		{
+			dependencies: ["320325C368BAE5D2"]
+			id: "3DFAC8176A7744FF"
+			rewards: [
+				{
+					count: 4
+					id: "7C432581BF96E97D"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "78EB7C0E344C7A26"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:adherent"
+				id: "64227F1EA6BC44EC"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 78.5d
+		}
+		{
+			dependencies: ["3DFAC8176A7744FF"]
+			id: "17483FAD1DEFF9E6"
+			rewards: [
+				{
+					count: 2
+					id: "0D0F875549D34112"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "6F0384EE7A704728"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:adherent"
+				id: "082EAE46B0674D3D"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 78.5d
+		}
+		{
+			dependencies: ["17483FAD1DEFF9E6"]
+			id: "7D33B58CA6F84FB7"
+			rewards: [
+				{
+					count: 4
+					id: "775C9D82CEF34FBA"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "46D9942B716E0610"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:adherent"
+				id: "531ABFBBF13992B8"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 78.5d
+		}
+		{
+			dependencies: ["7D33B58CA6F84FB7"]
+			id: "7162EE6CCA3F4949"
+			rewards: [
+				{
+					count: 6
+					id: "52C847CA927FE278"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "4A0E7F3DC29DAF51"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:adherent"
+				id: "063E1F25996D4835"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 78.5d
+		}
+		{
+			dependencies: ["7162EE6CCA3F4949"]
+			id: "4F7E3A553E7E4278"
+			rewards: [
+				{
+					id: "0E4397C96E39C4E9"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "27A87207494B46BE"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:adherent"
+				id: "3D559BD1999744AA"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 78.5d
+		}
+		{
+			dependencies: ["4F7E3A553E7E4278"]
+			id: "493197FEE8284DA3"
+			rewards: [
+				{
+					count: 2
+					id: "66A7DF5FD2DDF8C1"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "682E3C88D61E9023"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:adherent"
+				id: "77E97C8F03364D92"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 78.5d
+		}
+		{
+			dependencies: ["493197FEE8284DA3"]
+			id: "32FACAD4D8CB49C7"
+			rewards: [
+				{
+					count: 3
+					id: "5A4B63C0D094A418"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7E77637B94B628D1"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:adherent"
+				id: "49BB56DE87034DD7"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 78.5d
+		}
+		{
+			dependencies: ["32FACAD4D8CB49C7"]
+			id: "1D3FE79744BB4AD4"
+			rewards: [
+				{
+					count: 4
+					id: "707ADBD99F234ACB"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "047BD8F88E536F96"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:adherent"
+				id: "79491A07CCBAF4B8"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 78.5d
+		}
+		{
+			dependencies: ["1D3FE79744BB4AD4"]
+			id: "3D241CE826C7F8BD"
+			rewards: [
+				{
+					count: 5
+					id: "6371A552127F49E3"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "188783BCC5074E84"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:adherent"
+				id: "2703681F3F1447FD"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 78.5d
+		}
+		{
+			dependencies: ["3D241CE826C7F8BD"]
+			id: "68BFE0CECE64ED92"
+			rewards: [
+				{
+					count: 6
+					id: "6BF6697636C55296"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "214F5D42C3E1476D"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:adherent"
+				id: "5602810880C63AA1"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 78.5d
+		}
+		{
+			dependencies: ["68BFE0CECE64ED92"]
+			id: "38E1A6F1F1AF52EA"
+			rewards: [
+				{
+					id: "3F1B4FA5C09B4F83"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "078C82E5ABB540E5"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:adherent"
+				id: "5A682DC9E8914788"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 78.5d
+		}
+		{
+			id: "72BC9A1BB7FB69E0"
+			rewards: [
+				{
+					count: 2
+					id: "3D5452DB47EC2D0C"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "42E218C6D71C5AAC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:wraith"
+				id: "544A7A5C5BECBEBD"
+				type: "kill"
+				value: 10L
+			}]
+			x: -11.5d
+			y: 80.5d
+		}
+		{
+			dependencies: ["72BC9A1BB7FB69E0"]
+			id: "348DCD07487F182D"
+			rewards: [
+				{
+					count: 4
+					id: "2830EB2A4192BF63"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "1A4B5A300EFF740C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:wraith"
+				id: "5087526677A84855"
+				type: "kill"
+				value: 50L
+			}]
+			x: -9.5d
+			y: 80.5d
+		}
+		{
+			dependencies: ["348DCD07487F182D"]
+			id: "76EC1FA26264D436"
+			rewards: [
+				{
+					count: 2
+					id: "029BA8CD18E8F0F0"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "266F720088C74715"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:wraith"
+				id: "4E37E6D6411E4208"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.5d
+			y: 80.5d
+		}
+		{
+			dependencies: ["76EC1FA26264D436"]
+			id: "28B1A91CAB8D9179"
+			rewards: [
+				{
+					count: 4
+					id: "2710BC287B744A25"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "6B0F4B20B8EBE02B"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:wraith"
+				id: "5405E8808AE34AC4"
+				type: "kill"
+				value: 200L
+			}]
+			x: -5.5d
+			y: 80.5d
+		}
+		{
+			dependencies: ["28B1A91CAB8D9179"]
+			id: "3AC72234F3FC022C"
+			rewards: [
+				{
+					count: 6
+					id: "1418BBC026A9E21A"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "10505C7401984EB2"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:wraith"
+				id: "2F9F4F62832ACFF6"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 80.5d
+		}
+		{
+			dependencies: ["3AC72234F3FC022C"]
+			id: "6678CA2C7784ED9B"
+			rewards: [
+				{
+					id: "285346EE84094CC4"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "537F5152FBE04AC6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:wraith"
+				id: "126D0ABF890B4B14"
+				type: "kill"
+				value: 400L
+			}]
+			x: -1.5d
+			y: 80.5d
+		}
+		{
+			dependencies: ["6678CA2C7784ED9B"]
+			id: "256AC9A2BBDF03EE"
+			rewards: [
+				{
+					count: 2
+					id: "06BF20DC44F8EA03"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "06FD9697EF5C4996"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "twilightforest:wraith"
+				id: "5CC6614C225A4D5D"
+				type: "kill"
+				value: 500L
+			}]
+			x: 0.5d
+			y: 80.5d
+		}
+		{
+			dependencies: ["256AC9A2BBDF03EE"]
+			id: "4796CDB58D7B743A"
+			rewards: [
+				{
+					count: 3
+					id: "3DE5019A90AD4987"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "4690B4E83C924FB6"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:wraith"
+				id: "3023A09EF8A24BCA"
+				type: "kill"
+				value: 600L
+			}]
+			x: 2.5d
+			y: 80.5d
+		}
+		{
+			dependencies: ["4796CDB58D7B743A"]
+			id: "2D1982EC1E9ACC77"
+			rewards: [
+				{
+					count: 4
+					id: "2EA8CCC658F54F49"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "3ECF96A3E212FAD3"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:wraith"
+				id: "00C5BF31A83EF589"
+				type: "kill"
+				value: 700L
+			}]
+			x: 4.5d
+			y: 80.5d
+		}
+		{
+			dependencies: ["2D1982EC1E9ACC77"]
+			id: "66B89E3F483AE83A"
+			rewards: [
+				{
+					count: 5
+					id: "084C122F706E45BB"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "59C0F93225DD6545"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:wraith"
+				id: "1B2A666356DD4E5F"
+				type: "kill"
+				value: 800L
+			}]
+			x: 6.5d
+			y: 80.5d
+		}
+		{
+			dependencies: ["66B89E3F483AE83A"]
+			id: "2EABDC5E93BEC85A"
+			rewards: [
+				{
+					count: 6
+					id: "65495E5A428944A3"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "1F53B7296CAA22DF"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "twilightforest:wraith"
+				id: "41BF10BA3BB01F45"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.5d
+			y: 80.5d
+		}
+		{
+			dependencies: ["2EABDC5E93BEC85A"]
+			id: "2E8A58DBC04F47DB"
+			rewards: [
+				{
+					id: "356C4900C4BD48E8"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "3C07036C31243C0E"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:wraith"
+				id: "2458001F663E432E"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: 80.5d
 		}
 	]
 }

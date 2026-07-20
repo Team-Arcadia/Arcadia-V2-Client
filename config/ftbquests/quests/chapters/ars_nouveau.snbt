@@ -1,4 +1,5 @@
 {
+	autofocus_id: "33682F4B44950123"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ars_nouveau"
@@ -7,6 +8,1017 @@
 		id: "ars_nouveau:source_gem"
 	}
 	id: "6AEDA2F9BEB57759"
+	images: [
+		{
+			height: 7.0d
+			image: "ars_additions:item/undying_charm"
+			rotation: 0.0d
+			width: 7.0d
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			height: 12.0d
+			image: "ars_nouveau:textures/gui/storage_tab1.png"
+			order: 1
+			rotation: 0.0d
+			width: 12.0d
+			x: -14.0d
+			y: -6.5d
+		}
+		{
+			height: 12.0d
+			image: "ars_nouveau:textures/gui/storage_tab1.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			height: 12.0d
+			image: "ars_nouveau:textures/gui/storage_tab1.png"
+			order: -1
+			rotation: 0.0d
+			width: 12.0d
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			height: 12.0d
+			image: "ars_nouveau:textures/gui/storage_tab1.png"
+			rotation: 180.0d
+			width: 12.0d
+			x: 10.0d
+			y: -6.5d
+		}
+		{
+			height: 4.0d
+			image: "ars_nouveau:textures/gui/spell_tab.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			height: 4.0d
+			image: "ars_nouveau:textures/gui/spell_tab.png"
+			rotation: 180.0d
+			width: 4.0d
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			height: 7.0d
+			image: "ars_technica:item/glyph_fuse"
+			rotation: 0.0d
+			width: 7.0d
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			height: 2.0d
+			image: "ars_nouveau:block/source_gem_lamp_on"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5d
+			y: 6.76d
+		}
+		{
+			height: 4.0d
+			image: "simplyswords:item/runefused_gem_bg"
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			height: 4.0d
+			image: "simplyswords:item/enigma_lightning"
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			height: 1.5d
+			image: "farmersdelight:block/rich_soil_farmland_moist"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "ars_nouveau:block/gilded_sourcestone_alternating"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 6.76d
+		}
+		{
+			height: 2.0d
+			image: "ars_nouveau:textures/gui/spell_glyph_slot.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.7d
+			y: 6.76d
+		}
+		{
+			height: 2.0d
+			image: "ars_nouveau:textures/gui/spell_glyph_slot.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.4d
+			y: 6.76d
+		}
+		{
+			height: 2.0d
+			image: "ars_nouveau:textures/gui/spell_glyph_slot.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: 6.76d
+		}
+		{
+			height: 2.0d
+			image: "ars_nouveau:textures/gui/spell_glyph_slot.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: 6.76d
+		}
+		{
+			height: 2.0d
+			image: "ars_nouveau:textures/gui/spell_glyph_slot.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: 6.76d
+		}
+		{
+			height: 2.0d
+			image: "ars_nouveau:textures/gui/spell_glyph_slot.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.2d
+			y: 6.76d
+		}
+		{
+			height: 2.0d
+			image: "ars_nouveau:block/gilded_sourcestone_basketweave"
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.9d
+			y: 6.76d
+		}
+		{
+			height: 200.0d
+			image: "irons_spellbooks:textures/entity/void_tentacle/void_tentacle.png"
+			order: -6
+			rotation: 0.0d
+			width: 200.0d
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			height: 10.0d
+			image: "ars_nouveau:block/red_archwood_sapling"
+			order: -3
+			rotation: 0.0d
+			width: 10.0d
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			height: 2.5d
+			image: "minecraft:block/sunflower_top"
+			order: -3
+			rotation: 0.0d
+			width: 2.5d
+			x: 30.5d
+			y: 0.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/sunflower_top"
+			order: -3
+			rotation: 0.0d
+			width: 2.0d
+			x: 30.5d
+			y: -0.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/sunflower_top"
+			order: -3
+			rotation: 0.0d
+			width: 2.0d
+			x: 30.5d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/sunflower_top"
+			order: -3
+			rotation: 0.0d
+			width: 2.0d
+			x: 30.5d
+			y: -3.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/sunflower_top"
+			order: -3
+			rotation: 20.0d
+			width: 2.0d
+			x: 31.0d
+			y: -5.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/sunflower_top"
+			order: -3
+			rotation: 40.0d
+			width: 2.0d
+			x: 31.738095238095262d
+			y: -6.547619047619044d
+		}
+		{
+			height: 2.5d
+			image: "minecraft:block/sunflower_top"
+			order: -3
+			rotation: 40.0d
+			width: 2.25d
+			x: 33.0d
+			y: -8.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/sunflower_top"
+			order: -3
+			rotation: 20.0d
+			width: 2.0d
+			x: 33.5d
+			y: -9.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/sunflower_top"
+			order: -3
+			rotation: 20.0d
+			width: 2.0d
+			x: 35.0d
+			y: -12.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/sunflower_top"
+			order: -3
+			rotation: 25.0d
+			width: 2.0d
+			x: 35.404761904761926d
+			y: -13.40476190476192d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/sunflower_top"
+			order: -3
+			rotation: 0.0d
+			width: 2.0d
+			x: 35.5d
+			y: -15.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/sunflower_top"
+			order: -3
+			rotation: 45.0d
+			width: 2.0d
+			x: 34.30952380952384d
+			y: -10.642857142857146d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/sunflower_top"
+			order: -3
+			rotation: 0.0d
+			width: 2.0d
+			x: 35.5d
+			y: -16.5d
+		}
+		{
+			height: 12.25d
+			image: "minecraft:block/sunflower_bottom"
+			order: -3
+			rotation: 0.0d
+			width: 8.0d
+			x: 28.0d
+			y: -4.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/sunflower_top"
+			order: -3
+			rotation: 0.0d
+			width: 2.0d
+			x: 25.5d
+			y: 1.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/sunflower_top"
+			order: -3
+			rotation: 0.0d
+			width: 2.0d
+			x: 25.5d
+			y: -0.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/sunflower_top"
+			order: -3
+			rotation: 0.0d
+			width: 2.0d
+			x: 25.5d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/sunflower_top"
+			order: -3
+			rotation: 0.0d
+			width: 2.0d
+			x: 25.5d
+			y: -3.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/sunflower_top"
+			order: -3
+			rotation: -20.0d
+			width: 2.0d
+			x: 25.11904761904764d
+			y: -5.285714285714278d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/sunflower_top"
+			order: -3
+			rotation: -20.0d
+			width: 2.0d
+			x: 19.0d
+			y: -16.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/sunflower_top"
+			order: -3
+			rotation: -15.0d
+			width: 2.0d
+			x: 19.5d
+			y: -14.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/sunflower_top"
+			order: -3
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.0d
+			y: -13.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/sunflower_top"
+			order: -3
+			rotation: -20.0d
+			width: 2.0d
+			x: 20.0d
+			y: -11.5d
+		}
+		{
+			height: 2.5d
+			image: "minecraft:block/sunflower_top"
+			order: -3
+			rotation: -35.0d
+			width: 2.0d
+			x: 20.833333333333357d
+			y: -9.952380952380942d
+		}
+		{
+			height: 2.5d
+			image: "minecraft:block/sunflower_top"
+			order: -3
+			rotation: -50.0d
+			width: 2.0d
+			x: 21.928571428571445d
+			y: -8.571428571428555d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/sunflower_top"
+			order: -3
+			rotation: -50.0d
+			width: 2.0d
+			x: 23.5d
+			y: -7.5d
+		}
+		{
+			height: 2.5d
+			image: "minecraft:block/sunflower_top"
+			order: -3
+			rotation: -25.0d
+			width: 2.0d
+			x: 24.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:block/manabloom/stage3"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: 23.5d
+			y: 0.8500000000000014d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: 35.5d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: 35.5d
+			y: 7.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: 33.0d
+			y: 7.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: 30.5d
+			y: 7.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: 28.0d
+			y: 7.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: 28.0d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: 30.5d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: 33.0d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "biomesoplenty:block/origin_grass_block_side"
+			rotation: 0.0d
+			width: 3.0d
+			x: 30.5d
+			y: 2.5d
+		}
+		{
+			height: 3.0d
+			image: "biomesoplenty:block/origin_grass_block_side"
+			rotation: 0.0d
+			width: 3.0d
+			x: 28.0d
+			y: 2.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: 25.5d
+			y: 7.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: 25.5d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "biomesoplenty:block/origin_grass_block_side"
+			rotation: 0.0d
+			width: 3.0d
+			x: 25.5d
+			y: 2.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: 23.0d
+			y: 7.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: 20.5d
+			y: 7.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: 23.0d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: 20.5d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "biomesoplenty:block/origin_grass_block_side"
+			rotation: 0.0d
+			width: 3.0d
+			x: 23.0d
+			y: 2.5d
+		}
+		{
+			height: 3.0d
+			image: "biomesoplenty:block/origin_grass_block_side"
+			rotation: 0.0d
+			width: 3.0d
+			x: 20.5d
+			y: 2.5d
+		}
+		{
+			height: 11.0d
+			image: "minecraft:block/sunflower_front"
+			rotation: 0.0d
+			width: 11.0d
+			x: 28.0d
+			y: -11.5d
+		}
+		{
+			height: 2.0d
+			image: "ars_nouveau:item/wilden_spike"
+			order: 2
+			rotation: 0.0d
+			width: 2.0d
+			x: 25.5d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "ars_nouveau:item/wilden_horn"
+			order: 2
+			rotation: 0.0d
+			width: 2.0d
+			x: 28.0d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "ars_nouveau:item/wilden_wing"
+			order: 2
+			rotation: 0.0d
+			width: 2.0d
+			x: 30.5d
+			y: 2.5d
+		}
+		{
+			height: 1.5d
+			image: "ars_additions:painting/snoozebuncle"
+			order: 2
+			rotation: 0.0d
+			width: 1.5d
+			x: 37.0d
+			y: -6.5d
+		}
+		{
+			height: 10.0d
+			image: "ars_nouveau:block/purple_archwood_sapling"
+			order: 3
+			rotation: 0.0d
+			width: 10.0d
+			x: 35.0d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "biomesoplenty:block/origin_grass_block_side"
+			order: 4
+			rotation: 0.0d
+			width: 3.0d
+			x: 35.5d
+			y: 2.5d
+		}
+		{
+			height: 3.0d
+			image: "biomesoplenty:block/origin_grass_block_side"
+			order: 4
+			rotation: 0.0d
+			width: 3.0d
+			x: 33.0d
+			y: 2.5d
+		}
+		{
+			height: 1.25d
+			image: "ars_nouveau:item/aquatic"
+			order: -2
+			rotation: 0.0d
+			width: 1.25d
+			x: 7.0d
+			y: 24.0d
+		}
+		{
+			height: 3.0d
+			image: "mcwroofs:block/water_still_second"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.5d
+			y: 23.5d
+		}
+		{
+			height: 3.0d
+			image: "mcwroofs:block/water_still_second"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.0d
+			y: 23.5d
+		}
+		{
+			height: 3.0d
+			image: "mcwroofs:block/water_still_second"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.0d
+			y: 26.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/sand"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.0d
+			y: 26.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/sand"
+			order: 2
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.0d
+			y: 23.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/sand"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.5d
+			y: 26.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/sand"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.0d
+			y: 26.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/sand"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.0d
+			y: 23.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/sand"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.5d
+			y: 26.0d
+		}
+		{
+			height: 1.5d
+			image: "crabbersdelight:block/seashells_5"
+			rotation: 0.0d
+			width: 1.5d
+			x: 3.0d
+			y: 24.0d
+		}
+		{
+			height: 13.0d
+			image: "ecologics:item/sandcastle"
+			order: -1
+			rotation: 0.0d
+			width: 13.0d
+			x: -0.5d
+			y: 18.5d
+		}
+		{
+			height: 2.0d
+			image: "dustydecorations:block/hanging_sailor_flag5"
+			rotation: -90.0d
+			width: 2.0d
+			x: 1.0d
+			y: 13.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/sand"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.5d
+			y: 26.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/sand"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.5d
+			y: 23.5d
+		}
+		{
+			height: 1.5d
+			image: "crabbersdelight:block/seashells_0"
+			order: 3
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.0d
+			y: 23.5d
+		}
+		{
+			height: 1.5d
+			image: "create_aquatic_ambitions:item/spiky_shell"
+			order: 3
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.5d
+			y: 26.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/sand"
+			order: 2
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.5d
+			y: 23.5d
+		}
+		{
+			height: 2.0d
+			image: "ars_nouveau:block/sourceberry/sourceberry3"
+			order: -1
+			rotation: 0.0d
+			width: 2.0d
+			x: -27.5d
+			y: 0.5d
+		}
+		{
+			height: 10.0d
+			image: "ars_nouveau:block/green_archwood_sapling"
+			rotation: 0.0d
+			width: 10.0d
+			x: -24.5d
+			y: -3.0d
+		}
+		{
+			height: 10.0d
+			image: "ars_nouveau:block/blue_archwood_sapling"
+			rotation: 0.0d
+			width: 10.0d
+			x: -38.5d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "biomesoplenty:block/origin_grass_block_side"
+			rotation: 0.0d
+			width: 3.0d
+			x: -36.5d
+			y: 2.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: -36.5d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: -36.5d
+			y: 7.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: -34.0d
+			y: 7.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: -34.0d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: -31.5d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: -29.0d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: -31.5d
+			y: 7.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: -29.0d
+			y: 7.5d
+		}
+		{
+			height: 3.0d
+			image: "biomesoplenty:block/origin_grass_block_side"
+			rotation: 0.0d
+			width: 3.0d
+			x: -34.0d
+			y: 2.5d
+		}
+		{
+			height: 3.0d
+			image: "biomesoplenty:block/origin_grass_block_side"
+			rotation: 0.0d
+			width: 3.0d
+			x: -31.5d
+			y: 2.5d
+		}
+		{
+			height: 3.0d
+			image: "biomesoplenty:block/origin_grass_block_side"
+			rotation: 0.0d
+			width: 3.0d
+			x: -29.0d
+			y: 2.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: -39.0d
+			y: 7.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: -39.0d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "biomesoplenty:block/origin_grass_block_side"
+			rotation: 0.0d
+			width: 3.0d
+			x: -39.0d
+			y: 2.5d
+		}
+		{
+			height: 3.0d
+			image: "biomesoplenty:block/origin_grass_block_side"
+			rotation: 0.0d
+			width: 3.0d
+			x: -26.5d
+			y: 2.5d
+		}
+		{
+			height: 3.0d
+			image: "biomesoplenty:block/origin_grass_block_side"
+			rotation: 0.0d
+			width: 3.0d
+			x: -24.0d
+			y: 2.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: -26.5d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: -24.0d
+			y: 5.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: -26.5d
+			y: 7.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: -24.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:item/source_berry"
+			rotation: 0.0d
+			width: 1.0d
+			x: -36.0d
+			y: -1.0d
+		}
+	]
 	order_index: 1
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -38,8 +1050,8 @@
 				item: { count: 1, id: "minecraft:book" }
 				type: "item"
 			}]
-			x: -8.940476190476197d
-			y: -0.9872448979591653d
+			x: -9.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1D86B2E553503E53"]
@@ -56,7 +1068,7 @@
 				item: { count: 1, id: "ars_nouveau:starbuncle_charm" }
 				type: "item"
 			}]
-			x: 8.0d
+			x: -1.0d
 			y: 5.0d
 		}
 		{
@@ -74,8 +1086,8 @@
 				item: { count: 1, id: "ars_nouveau:wixie_charm" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 4.0d
+			x: 0.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["6F3602F5600A6221"]
@@ -92,7 +1104,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -8.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["441C0659ED28D935"]
@@ -245,7 +1257,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -11.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["63DD7F5A4441ACE7"]
@@ -313,7 +1325,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6F3602F5600A6221"]
@@ -330,7 +1342,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -8.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["63DD7F5A4441ACE7"]
@@ -568,7 +1580,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -7.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["441C0659ED28D935"]
@@ -874,7 +1886,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -7.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["63DD7F5A4441ACE7"]
@@ -926,7 +1938,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["441C0659ED28D935"]
@@ -991,7 +2003,7 @@
 				type: "checkmark"
 			}]
 			x: -1.5d
-			y: -5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["18A2FBE2D4133FA2"]
@@ -1018,8 +2030,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 5.0d
+			x: 0.0d
+			y: 6.76d
 		}
 		{
 			dependencies: ["5C3FF43CF16BCF30"]
@@ -1037,8 +2049,8 @@
 				item: { count: 1, id: "ars_nouveau:arcane_pedestal" }
 				type: "item"
 			}]
-			x: 3.125d
-			y: 5.0d
+			x: -2.5d
+			y: 6.76d
 		}
 		{
 			dependencies: ["441C0659ED28D935"]
@@ -1106,7 +2118,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -6.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["6F3602F5600A6221"]
@@ -1123,7 +2135,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -7.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["457DE8C154641437"]
@@ -1139,8 +2151,8 @@
 				item: { count: 1, id: "ars_nouveau:ritual_sunrise" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 9.0d
+			x: -7.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["457DE8C154641437"]
@@ -1156,8 +2168,8 @@
 				item: { count: 1, id: "ars_nouveau:ritual_warping" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 7.0d
+			x: -6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["457DE8C154641437"]
@@ -1173,8 +2185,8 @@
 				item: { count: 1, id: "ars_nouveau:ritual_overgrowth" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 8.5d
+			x: -5.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["457DE8C154641437"]
@@ -1190,7 +2202,7 @@
 				item: { count: 1, id: "ars_nouveau:ritual_moonfall" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -7.5d
 			y: 9.0d
 		}
 		{
@@ -1207,8 +2219,8 @@
 				item: { count: 1, id: "ars_nouveau:ritual_fertility" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 7.0d
+			x: -9.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["457DE8C154641437"]
@@ -1224,8 +2236,8 @@
 				item: { count: 1, id: "ars_nouveau:ritual_burrowing" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 7.5d
+			x: -5.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["457DE8C154641437"]
@@ -1241,8 +2253,8 @@
 				item: { count: 1, id: "ars_nouveau:ritual_challenge" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 7.0d
+			x: -9.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["457DE8C154641437"]
@@ -1258,8 +2270,8 @@
 				item: { count: 1, id: "ars_nouveau:ritual_cloudshaping" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 7.5d
+			x: -8.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["457DE8C154641437"]
@@ -1275,8 +2287,8 @@
 				item: { count: 1, id: "ars_nouveau:ritual_disintegration" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 7.5d
+			x: -6.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["457DE8C154641437"]
@@ -1292,8 +2304,8 @@
 				item: { count: 1, id: "ars_nouveau:ritual_restoration" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 8.0d
+			x: -6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["33682F4B44950123"]
@@ -1328,8 +2340,8 @@
 				item: { count: 1, id: "ars_nouveau:whirlisprig_charm" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 6.0d
+			x: 1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6E0E13806F388D7E"]
@@ -1359,8 +2371,8 @@
 				item: { count: 1, id: "ars_nouveau:novice_spell_book" }
 				type: "item"
 			}]
-			x: -5.047619047619051d
-			y: -1.0204081632653015d
+			x: -6.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["64D0E66CB4FBEC82"]
@@ -1375,8 +2387,8 @@
 				item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 0.5d
+			x: -6.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0D330FAD6C993DBC"]
@@ -1391,8 +2403,8 @@
 				item: { count: 1, id: "ars_nouveau:archmage_spell_book" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: 0.5d
+			x: -8.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["18A2FBE2D4133FA2"]
@@ -1409,8 +2421,8 @@
 				item: { count: 1, id: "ars_nouveau:ritual_brazier" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 6.5d
+			x: -7.5d
+			y: 6.75d
 		}
 		{
 			dependencies: ["227DBA8836021B0B"]
@@ -1426,8 +2438,8 @@
 				item: { count: 1, id: "ars_nouveau:potion_jar" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.0d
+			x: 8.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["33682F4B44950123"]
@@ -1454,8 +2466,8 @@
 				item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.0d
+			x: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["64D0E66CB4FBEC82"]
@@ -1480,8 +2492,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:logs/archwood)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -1.547619047619051d
-			y: -1.0204081632653015d
+			x: -1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["40BC67BDEE15D1DE"]
@@ -1508,8 +2520,8 @@
 				item: { count: 1, id: "ars_nouveau:source_jar" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.0d
+			x: 8.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1D86B2E553503E53"]
@@ -1526,8 +2538,8 @@
 				item: { count: 1, id: "ars_nouveau:drygmy_charm" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 6.0d
+			x: 1.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1D86B2E553503E53"]
@@ -1544,7 +2556,7 @@
 				item: { count: 1, id: "ars_nouveau:amethyst_golem_charm" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: -1.0d
 			y: 4.0d
 		}
 		{
@@ -1573,8 +2585,8 @@
 				item: { count: 1, id: "ars_nouveau:magebloom_crop" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.5d
+			x: 0.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["6F3602F5600A6221"]
@@ -1591,7 +2603,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -10.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["441C0659ED28D935"]
@@ -1641,8 +2653,8 @@
 				item: { count: 1, id: "ars_nouveau:volcanic_sourcelink" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.0d
+			x: 8.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["457DE8C154641437"]
@@ -1658,8 +2670,8 @@
 				item: { count: 1, id: "ars_nouveau:ritual_awakening" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 7.5d
+			x: -9.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["457DE8C154641437"]
@@ -1675,8 +2687,8 @@
 				item: { count: 1, id: "ars_nouveau:ritual_flight" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 8.0d
+			x: -9.5d
+			y: 6.76d
 		}
 		{
 			dependencies: ["457DE8C154641437"]
@@ -1692,8 +2704,8 @@
 				item: { count: 1, id: "ars_nouveau:ritual_wilden_summon" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 7.0d
+			x: -9.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["457DE8C154641437"]
@@ -1709,8 +2721,8 @@
 				item: { count: 1, id: "ars_nouveau:ritual_scrying" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 8.0d
+			x: -9.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["457DE8C154641437"]
@@ -1726,8 +2738,8 @@
 				item: { count: 1, id: "ars_nouveau:ritual_binding" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 8.0d
+			x: -6.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["6F3602F5600A6221"]
@@ -1744,7 +2756,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -9.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["63DD7F5A4441ACE7"]
@@ -1778,7 +2790,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -10.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["6F3602F5600A6221"]
@@ -1795,7 +2807,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -10.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["441C0659ED28D935"]
@@ -1926,8 +2938,8 @@
 				item: { count: 1, id: "ars_nouveau:source_gem" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 1.5d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["33682F4B44950123"]
@@ -1943,8 +2955,8 @@
 				item: { count: 1, id: "ars_nouveau:dowsing_rod" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.0d
+			x: -2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["227DBA8836021B0B"]
@@ -1960,8 +2972,8 @@
 				item: { count: 1, id: "ars_nouveau:vitalic_sourcelink" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 4.0d
+			x: 10.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["227DBA8836021B0B"]
@@ -1977,8 +2989,8 @@
 				item: { count: 1, id: "ars_nouveau:alchemical_sourcelink" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.0d
+			x: 10.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["227DBA8836021B0B"]
@@ -1994,8 +3006,8 @@
 				item: { count: 1, id: "ars_nouveau:mycelial_sourcelink" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 4.0d
+			x: 7.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["227DBA8836021B0B"]
@@ -2011,8 +3023,8 @@
 				item: { count: 1, id: "ars_nouveau:agronomic_sourcelink" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.0d
+			x: 7.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["40BC67BDEE15D1DE"]
@@ -2028,8 +3040,8 @@
 				item: { count: 1, id: "ars_nouveau:sourcestone" }
 				type: "item"
 			}]
-			x: 3.188095238095258d
-			y: 1.5295918367346957d
+			x: -2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
@@ -2045,7 +3057,7 @@
 				item: { count: 1, id: "ars_nouveau:dominion_wand" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 0.0d
 			y: 5.0d
 		}
 		{
@@ -2062,8 +3074,8 @@
 				item: { count: 1, id: "ars_nouveau:enchanters_sword" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 7.0d
+			x: 2.5d
+			y: 6.76d
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
@@ -2079,8 +3091,8 @@
 				item: { count: 1, id: "ars_nouveau:enchanters_shield" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 7.5d
+			x: 5.5d
+			y: 6.76d
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
@@ -2096,8 +3108,8 @@
 				item: { count: 1, id: "ars_nouveau:enchanters_mirror" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 8.5d
+			x: 4.5d
+			y: 6.76d
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
@@ -2113,8 +3125,8 @@
 				item: { count: 1, id: "ars_nouveau:spell_bow" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 7.5d
+			x: 3.5d
+			y: 6.76d
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
@@ -2137,8 +3149,8 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: 10.0d
+			x: 10.5d
+			y: 6.76d
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
@@ -2161,8 +3173,8 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 8.5d
+			x: 6.5d
+			y: 6.76d
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
@@ -2178,8 +3190,8 @@
 				item: { count: 1, id: "ars_nouveau:belt_of_unstable_gifts" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 8.5d
+			x: 8.5d
+			y: 6.76d
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
@@ -2195,8 +3207,8 @@
 				item: { count: 1, id: "ars_nouveau:belt_of_levitation" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 9.5d
+			x: 9.5d
+			y: 6.76d
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
@@ -2219,32 +3231,2189 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 9.5d
+			x: 7.5d
+			y: 6.76d
 		}
 		{
 			dependencies: ["3D862A3D3F83CA26"]
 			id: "111649D7E16D869F"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "6454B3C1B9D00E59"
-					type: "random"
-				}
-				{
-					id: "28634FD5549CE826"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "28634FD5549CE826"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "3CF6151060ADB889"
 				item: { count: 1, id: "ars_nouveau:wand" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 6.0d
+			x: 1.5d
+			y: 6.76d
+		}
+		{
+			id: "5075936ECF72ACA1"
+			rewards: [
+				{
+					count: 2
+					id: "5E8DD57CF2C0704B"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "154C173530715560"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_guardian"
+				id: "2C4A4B4C039BF479"
+				type: "kill"
+				value: 10L
+			}]
+			x: 25.5d
+			y: 0.5d
+		}
+		{
+			id: "506409C6D5F024E0"
+			rewards: [
+				{
+					count: 2
+					id: "273A0223DF3B2ACF"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "6AE50D626CBAC051"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_hunter"
+				id: "6163E38CFD747AE5"
+				type: "kill"
+				value: 10L
+			}]
+			x: 28.0d
+			y: 0.5d
+		}
+		{
+			id: "151D59F24A743A42"
+			rewards: [
+				{
+					count: 2
+					id: "58296C1BBB9CD0CE"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "4771B3B4822E61B1"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_stalker"
+				id: "1E508720A3425029"
+				type: "kill"
+				value: 10L
+			}]
+			x: 30.5d
+			y: 0.5d
+		}
+		{
+			id: "1E7DEB51794A9542"
+			rewards: [
+				{
+					count: 4
+					id: "6780B0BB10A75034"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "3F384294C93F4302"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_guardian"
+				id: "003FE73203FA776F"
+				type: "kill"
+				value: 25L
+			}]
+			x: 25.5d
+			y: -1.0d
+		}
+		{
+			id: "42315CC347AD6075"
+			rewards: [
+				{
+					count: 2
+					id: "2177A794FF39EABE"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "23DD69A1DB4C898F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_guardian"
+				id: "00A7210907EFE793"
+				type: "kill"
+				value: 50L
+			}]
+			x: 25.5d
+			y: -2.5d
+		}
+		{
+			id: "051BB2BE0BF5DC71"
+			rewards: [
+				{
+					count: 4
+					id: "1FCAF2AA5D8C1ADE"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "05AE56E1B8329AFF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_guardian"
+				id: "571A973C0D6498EE"
+				type: "kill"
+				value: 100L
+			}]
+			x: 25.5d
+			y: -4.0d
+		}
+		{
+			id: "25A6BAFCA140B53D"
+			rewards: [
+				{
+					count: 6
+					id: "2695CB2D112A09C2"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "4A542EF621E0183B"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_guardian"
+				id: "0183CE8330BBB7CE"
+				type: "kill"
+				value: 200L
+			}]
+			x: 25.0d
+			y: -5.5d
+		}
+		{
+			id: "03583403E9811BF4"
+			rewards: [
+				{
+					id: "1198A59F6C49C414"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "6E8B98E09406F1DE"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_guardian"
+				id: "575F01F7D5992AB1"
+				type: "kill"
+				value: 300L
+			}]
+			x: 24.5d
+			y: -7.0d
+		}
+		{
+			id: "3DC450A02A79A727"
+			rewards: [
+				{
+					count: 2
+					id: "7A911CDF18A0F1A2"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2E88A307998DBD64"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_guardian"
+				id: "386F42E3291C4209"
+				type: "kill"
+				value: 400L
+			}]
+			x: 23.0d
+			y: -8.0d
+		}
+		{
+			id: "307BC3F5322FD1AA"
+			rewards: [
+				{
+					count: 3
+					id: "0D3470BD61BFC3A2"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "519057E47FC2B1D7"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_guardian"
+				id: "0C6C9222B411D6D8"
+				type: "kill"
+				value: 500L
+			}]
+			x: 21.5d
+			y: -9.0d
+		}
+		{
+			id: "6207C009B36B9800"
+			rewards: [
+				{
+					count: 4
+					id: "4B260C5E390C1965"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5F61C251B7F3B1B0"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_guardian"
+				id: "0D7A70693799E197"
+				type: "kill"
+				value: 600L
+			}]
+			x: 20.5d
+			y: -10.5d
+		}
+		{
+			id: "2C82A4B18AE91D6D"
+			rewards: [
+				{
+					count: 5
+					id: "6C9AB024BF7A8F00"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "60DD5A64C24CB072"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_guardian"
+				id: "535C5F425A3EEEF7"
+				type: "kill"
+				value: 700L
+			}]
+			x: 20.0d
+			y: -12.0d
+		}
+		{
+			id: "4D134EFA82924918"
+			rewards: [
+				{
+					count: 6
+					id: "0B31AD6ABF73A9BB"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5D9BCB80D69D9432"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_guardian"
+				id: "300EA0FAC58534EE"
+				type: "kill"
+				value: 800L
+			}]
+			x: 20.0d
+			y: -13.5d
+		}
+		{
+			id: "3FA58E58BB029F3F"
+			rewards: [
+				{
+					count: 7
+					id: "3E41CB42FCECEA47"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "141A3B67D0D4C692"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_guardian"
+				id: "18D8821A84216698"
+				type: "kill"
+				value: 900L
+			}]
+			x: 19.5d
+			y: -15.0d
+		}
+		{
+			id: "472D8CC542D01126"
+			rewards: [
+				{
+					id: "32260FE1BCE7D399"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "7345B32E98CD9B82"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_guardian"
+				id: "37E458EB94F1176E"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 19.0d
+			y: -16.5d
+		}
+		{
+			id: "16CEE76FF9C2ABF1"
+			rewards: [
+				{
+					count: 4
+					id: "557585C98D08A25E"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "1BDB6410C8D67072"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_stalker"
+				id: "3A2686C5ECC66249"
+				type: "kill"
+				value: 25L
+			}]
+			x: 30.5d
+			y: -1.0d
+		}
+		{
+			id: "7D425CFC93557CB5"
+			rewards: [
+				{
+					count: 2
+					id: "620034E53D7182F1"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "66503612BC5C35D7"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_stalker"
+				id: "203B205A10CE283E"
+				type: "kill"
+				value: 50L
+			}]
+			x: 30.5d
+			y: -2.5d
+		}
+		{
+			id: "36F13A87867E04F6"
+			rewards: [
+				{
+					count: 4
+					id: "7AE82662A1844057"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "4DCD8C5028712231"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_stalker"
+				id: "14046293646B04BC"
+				type: "kill"
+				value: 100L
+			}]
+			x: 30.5d
+			y: -4.0d
+		}
+		{
+			id: "3AFF0D80F5E10097"
+			rewards: [
+				{
+					count: 6
+					id: "3BF9575217FF900E"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "40B06DB7667DBCB6"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_stalker"
+				id: "7B1CC6198D10F748"
+				type: "kill"
+				value: 200L
+			}]
+			x: 31.0d
+			y: -5.5d
+		}
+		{
+			id: "7AD7939867F26A60"
+			rewards: [
+				{
+					id: "5063D2B8F77549FB"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "3AFA129E09CE1917"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_stalker"
+				id: "19A159B725FBA85B"
+				type: "kill"
+				value: 300L
+			}]
+			x: 32.0d
+			y: -7.0d
+		}
+		{
+			id: "76E83E58A1E5267D"
+			rewards: [
+				{
+					count: 2
+					id: "50D717C77316E1DE"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5C9427160D875017"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_stalker"
+				id: "76BF10CC62D51115"
+				type: "kill"
+				value: 400L
+			}]
+			x: 33.0d
+			y: -8.5d
+		}
+		{
+			id: "23AD3446BE07BD75"
+			rewards: [
+				{
+					count: 3
+					id: "0BC8B3691AD11D6F"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0B247F714347DF37"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_stalker"
+				id: "10413EA1A1C53731"
+				type: "kill"
+				value: 500L
+			}]
+			x: 33.5d
+			y: -10.0d
+		}
+		{
+			id: "3A7B45F8A8354F76"
+			rewards: [
+				{
+					count: 5
+					id: "2BDCB05646A52118"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "4316BCAFEFA0C308"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_stalker"
+				id: "3ABCED6E3C500819"
+				type: "kill"
+				value: 700L
+			}]
+			x: 35.0d
+			y: -12.5d
+		}
+		{
+			id: "33FE7BF52B9F47F5"
+			rewards: [
+				{
+					count: 6
+					id: "6F705C1FC8DB40A7"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2894F2E140AC286C"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_stalker"
+				id: "66CAA9158F27D4B6"
+				type: "kill"
+				value: 800L
+			}]
+			x: 35.5d
+			y: -14.0d
+		}
+		{
+			id: "1B36C66A583FB9BE"
+			rewards: [
+				{
+					id: "185F9E977ABD25E0"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "4856488421263FF8"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_stalker"
+				id: "16CC4E3E6EF054C6"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 35.5d
+			y: -17.0d
+		}
+		{
+			id: "53A2D74D9A4A1849"
+			rewards: [
+				{
+					count: 7
+					id: "0C51BFCC1BCB27F8"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "587DEA71D260E10D"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_stalker"
+				id: "184B8B7BCC04040D"
+				type: "kill"
+				value: 900L
+			}]
+			x: 35.5d
+			y: -15.5d
+		}
+		{
+			id: "3EDAB44668305A5A"
+			rewards: [
+				{
+					count: 4
+					id: "6063A7284ED820D7"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "135287CE697EE080"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_stalker"
+				id: "0FC9FA2129B1A488"
+				type: "kill"
+				value: 600L
+			}]
+			x: 34.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["506409C6D5F024E0"]
+			id: "299995962EF62601"
+			rewards: [
+				{
+					count: 4
+					id: "030CF96630C9876E"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "464E110D5E83AADD"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_hunter"
+				id: "3D39BF737E314BE1"
+				type: "kill"
+				value: 25L
+			}]
+			x: 28.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["299995962EF62601"]
+			id: "25395CC1D0F89534"
+			rewards: [
+				{
+					count: 2
+					id: "08EE481510A5FB41"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "49D44FF2AB06F27D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_hunter"
+				id: "342C8C7BFF819AB1"
+				type: "kill"
+				value: 50L
+			}]
+			x: 28.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["25395CC1D0F89534"]
+			id: "77FE0CE726E0F3BD"
+			rewards: [
+				{
+					count: 4
+					id: "70C2305CD9119836"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "3A6FB5A4F5F0BB15"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_hunter"
+				id: "7FAA6DE612BD45A0"
+				type: "kill"
+				value: 100L
+			}]
+			x: 28.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["77FE0CE726E0F3BD"]
+			id: "69C349EB44779636"
+			rewards: [
+				{
+					count: 6
+					id: "30DCF0171DAE8230"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "19F1D98C0341945A"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_hunter"
+				id: "26B05DD275058BF9"
+				type: "kill"
+				value: 200L
+			}]
+			x: 28.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["69C349EB44779636"]
+			id: "0B12E97642748268"
+			rewards: [
+				{
+					id: "5C26361E0F3D7B15"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "113E2DF0097F37C7"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_hunter"
+				id: "6CC4482ADAF233AB"
+				type: "kill"
+				value: 300L
+			}]
+			x: 28.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0B12E97642748268"]
+			id: "77586F2FBFDC40DD"
+			rewards: [
+				{
+					count: 3
+					id: "64D8CF62FA57874F"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5F8533B3E8CC820D"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_hunter"
+				id: "7DAAB41C87946615"
+				type: "kill"
+				value: 500L
+			}]
+			x: 26.583333333333357d
+			y: -10.029761904761912d
+		}
+		{
+			dependencies: ["0B12E97642748268"]
+			id: "1A004665B944BFB6"
+			rewards: [
+				{
+					count: 2
+					id: "768335D850A61AD5"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "3FC435F117A09E7A"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_hunter"
+				id: "68F3BEAE3E64C28D"
+				type: "kill"
+				value: 400L
+			}]
+			x: 29.440476190476218d
+			y: -10.065476190476197d
+		}
+		{
+			dependencies: ["1A004665B944BFB6"]
+			id: "001E71E6ED050EBB"
+			rewards: [
+				{
+					count: 4
+					id: "7BF29F0B860BF53B"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7DCB1777160ADA4D"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_hunter"
+				id: "16F257E270B64A00"
+				type: "kill"
+				value: 600L
+			}]
+			x: 30.33333333333335d
+			y: -11.494047619047628d
+		}
+		{
+			dependencies: ["77586F2FBFDC40DD"]
+			id: "56F5D62ED89C48B3"
+			rewards: [
+				{
+					count: 5
+					id: "698F1E1E94B510DA"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "6D3E0FEB9E856CAA"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_hunter"
+				id: "112D89A9181F84F2"
+				type: "kill"
+				value: 700L
+			}]
+			x: 25.61904761904764d
+			y: -11.422619047619051d
+		}
+		{
+			dependencies: ["56F5D62ED89C48B3"]
+			id: "7E587E391C72C20B"
+			rewards: [
+				{
+					count: 7
+					id: "077EA42B2CA52B21"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7444297457C0D5A8"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_hunter"
+				id: "04C80263F2248E97"
+				type: "kill"
+				value: 900L
+			}]
+			x: 26.583333333333357d
+			y: -12.886904761904766d
+		}
+		{
+			dependencies: ["001E71E6ED050EBB"]
+			id: "7D1C6815264E4BC2"
+			rewards: [
+				{
+					count: 6
+					id: "6C6082521A85BA26"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2C56645CA03ABBE6"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "ars_nouveau:wilden_hunter"
+				id: "50757A3774DA6C31"
+				type: "kill"
+				value: 800L
+			}]
+			x: 29.440476190476218d
+			y: -12.958333333333343d
+		}
+		{
+			dependencies: [
+				"7E587E391C72C20B"
+				"7D1C6815264E4BC2"
+			]
+			id: "38EBC16C73E14FC5"
+			rewards: [
+				{
+					id: "299CCC5187480A87"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "25933AF3D263B401"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				entity: "ars_nouveau:wilden_hunter"
+				id: "2855FFDDB6F2D934"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 28.011904761904788d
+			y: -14.065476190476197d
+		}
+		{
+			id: "5B2EB828490A8674"
+			rewards: [{
+				count: 2
+				id: "691271434C65CA3B"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:alakarkinos"
+				id: "206E8FBD44D8F53D"
+				type: "kill"
+				value: 10L
+			}]
+			x: -0.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["664356CC46445975"]
+			id: "17D73ED757F4D6F9"
+			rewards: [{
+				count: 4
+				id: "286D496B30E40971"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:alakarkinos"
+				id: "39516E31F4CF2BF5"
+				type: "kill"
+				value: 100L
+			}]
+			x: -4.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["544BAA946D799DD3"]
+			id: "3D835FD6DDC626A5"
+			rewards: [{
+				id: "3A9E9C56D3A87D1C"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				entity: "ars_nouveau:alakarkinos"
+				id: "7223673441AB2CBA"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -0.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"17D73ED757F4D6F9"
+				"02DA9FAA50E84C7E"
+			]
+			id: "046E7BEABE739672"
+			rewards: [{
+				count: 6
+				id: "4718C3BEB93A3541"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:alakarkinos"
+				id: "30DD8795A563D788"
+				type: "kill"
+				value: 200L
+			}]
+			x: -2.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["046E7BEABE739672"]
+			id: "0270580F9AFB191E"
+			rewards: [{
+				id: "23211A691782EF4B"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:alakarkinos"
+				id: "3CB453F05E849719"
+				type: "kill"
+				value: 300L
+			}]
+			x: -2.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["02DA9FAA50E84C7E"]
+			id: "664356CC46445975"
+			rewards: [{
+				count: 2
+				id: "1BE6155A5A2974B8"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:alakarkinos"
+				id: "54C499081EE3A4DC"
+				type: "kill"
+				value: 50L
+			}]
+			x: -4.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["2302D792EB518CCB"]
+			id: "268A5CEA946F5EE1"
+			rewards: [{
+				count: 3
+				id: "45F6C768310CAE6C"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:alakarkinos"
+				id: "3B3452A54A28A60E"
+				type: "kill"
+				value: 500L
+			}]
+			x: 3.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["171D2B4B75B8C709"]
+			id: "58033DC6AB74481F"
+			rewards: [{
+				count: 6
+				id: "5B010BDFCEB57323"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:alakarkinos"
+				id: "5F8FDF17BD843416"
+				type: "kill"
+				value: 800L
+			}]
+			x: 1.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["5B2EB828490A8674"]
+			id: "02DA9FAA50E84C7E"
+			rewards: [{
+				count: 4
+				id: "275E81A1ED1EAFB3"
+				item: {
+					count: 1
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:alakarkinos"
+				id: "22AC9D5E24730C22"
+				type: "kill"
+				value: 25L
+			}]
+			x: -2.5d
+			y: 21.5d
+		}
+		{
+			dependencies: [
+				"2391A9C7D6270D31"
+				"2302D792EB518CCB"
+			]
+			id: "171D2B4B75B8C709"
+			rewards: [{
+				count: 5
+				id: "109DCD658FD8048D"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:alakarkinos"
+				id: "653F5660FAA79916"
+				type: "kill"
+				value: 700L
+			}]
+			x: 1.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["268A5CEA946F5EE1"]
+			id: "2391A9C7D6270D31"
+			rewards: [{
+				count: 4
+				id: "358AD25E475CE079"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:alakarkinos"
+				id: "59737D80E229F7B0"
+				type: "kill"
+				value: 600L
+			}]
+			x: 3.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["5B2EB828490A8674"]
+			id: "2302D792EB518CCB"
+			rewards: [{
+				count: 2
+				id: "6738276C7648BD0F"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:alakarkinos"
+				id: "53E43910397D63F8"
+				type: "kill"
+				value: 400L
+			}]
+			x: 1.5d
+			y: 21.5d
+		}
+		{
+			dependencies: [
+				"58033DC6AB74481F"
+				"0270580F9AFB191E"
+			]
+			id: "544BAA946D799DD3"
+			rewards: [{
+				count: 7
+				id: "293F8AF0E4F46771"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:alakarkinos"
+				id: "2CB83BEE2F8553A3"
+				type: "kill"
+				value: 900L
+			}]
+			x: -0.5d
+			y: 16.0d
+		}
+		{
+			id: "136F9130B96AD865"
+			rewards: [{
+				count: 2
+				id: "4F0531A7E6467936"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:starbuncle"
+				id: "56045BCDCDF44179"
+				type: "kill"
+				value: 10L
+			}]
+			x: -34.0d
+			y: 0.5d
+		}
+		{
+			id: "2FD533ADC8FA8A3F"
+			rewards: [{
+				count: 2
+				id: "4888C25E862BB4B0"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:drygmy"
+				id: "4A2E674A71EB574D"
+				type: "kill"
+				value: 10L
+			}]
+			x: -31.5d
+			y: 0.5d
+		}
+		{
+			id: "64DE407D512FA2EA"
+			rewards: [{
+				count: 2
+				id: "042AF117C5CF7E9C"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:whirlisprig"
+				id: "3E0C8B5DE8A91692"
+				type: "kill"
+				value: 10L
+			}]
+			x: -29.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["64DE407D512FA2EA"]
+			id: "2F753A45103CF702"
+			rewards: [{
+				count: 4
+				id: "6EDCBC90B8D309BC"
+				item: {
+					count: 1
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:whirlisprig"
+				id: "11ECC7B5AEBEBD2A"
+				type: "kill"
+				value: 25L
+			}]
+			x: -29.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2F753A45103CF702"]
+			id: "440753AC78AB1212"
+			rewards: [{
+				count: 2
+				id: "318047CAD48A56FE"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:whirlisprig"
+				id: "335B1B5B8D10D129"
+				type: "kill"
+				value: 50L
+			}]
+			x: -31.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["440753AC78AB1212"]
+			id: "037E3B28B6729C92"
+			rewards: [{
+				count: 4
+				id: "159A80496BBC0884"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:whirlisprig"
+				id: "4AC968878C963330"
+				type: "kill"
+				value: 100L
+			}]
+			x: -34.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["037E3B28B6729C92"]
+			id: "387646441B8B6268"
+			rewards: [{
+				count: 6
+				id: "6E6BF7D3E56ED604"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:whirlisprig"
+				id: "7C4C6685B7C2E649"
+				type: "kill"
+				value: 200L
+			}]
+			x: -34.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["387646441B8B6268"]
+			id: "1BAF16751A1738DA"
+			rewards: [{
+				id: "76F5070AAEF8C0C8"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:whirlisprig"
+				id: "54396DBC61BC40D6"
+				type: "kill"
+				value: 300L
+			}]
+			x: -31.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1BAF16751A1738DA"]
+			id: "3EC12B676C6A7E9D"
+			rewards: [{
+				count: 2
+				id: "14FAAC80436648D9"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:whirlisprig"
+				id: "4498E6014A017478"
+				type: "kill"
+				value: 400L
+			}]
+			x: -29.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["3EC12B676C6A7E9D"]
+			id: "5C87F859440F8A06"
+			rewards: [{
+				count: 3
+				id: "71EDCC16FA051710"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:whirlisprig"
+				id: "468023D5FC32D05A"
+				type: "kill"
+				value: 500L
+			}]
+			x: -29.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["5C87F859440F8A06"]
+			id: "6389F267D5E07A6F"
+			rewards: [{
+				count: 4
+				id: "6B2A9C743F801965"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:whirlisprig"
+				id: "686388564D59F89D"
+				type: "kill"
+				value: 600L
+			}]
+			x: -31.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["6389F267D5E07A6F"]
+			id: "624452280C3E2167"
+			rewards: [{
+				count: 5
+				id: "2CF7D3E304EE88AA"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:whirlisprig"
+				id: "48941AA4356938CC"
+				type: "kill"
+				value: 700L
+			}]
+			x: -34.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["624452280C3E2167"]
+			id: "5D1E93A3F287FAC7"
+			rewards: [{
+				count: 7
+				id: "059C559E01C245A6"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:whirlisprig"
+				id: "2513CF689C6D3BFD"
+				type: "kill"
+				value: 800L
+			}]
+			x: -34.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["5D1E93A3F287FAC7"]
+			id: "1F0A93D9736B0A15"
+			rewards: [{
+				count: 7
+				id: "3826F164C3B57DD6"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:whirlisprig"
+				id: "38C1661201AC3ADB"
+				type: "kill"
+				value: 900L
+			}]
+			x: -31.5d
+			y: -21.5d
+		}
+		{
+			dependencies: ["1F0A93D9736B0A15"]
+			id: "4DC53B6548F0492A"
+			rewards: [{
+				id: "2C3E1B117A0A7228"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				entity: "ars_nouveau:whirlisprig"
+				id: "75A103EE820C24D4"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -29.0d
+			y: -23.5d
+		}
+		{
+			dependencies: ["2FD533ADC8FA8A3F"]
+			id: "17CD7DA1F1563E22"
+			rewards: [{
+				count: 4
+				id: "4698856B7B926D2E"
+				item: {
+					count: 1
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:drygmy"
+				id: "0EBDAAFEAF29C6AB"
+				type: "kill"
+				value: 25L
+			}]
+			x: -34.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17CD7DA1F1563E22"]
+			id: "621C2689AACB5C52"
+			rewards: [{
+				count: 2
+				id: "37B84B42D15D026E"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:drygmy"
+				id: "0B0EC2D59945ECFC"
+				type: "kill"
+				value: 50L
+			}]
+			x: -34.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["621C2689AACB5C52"]
+			id: "7AB527815F215005"
+			rewards: [{
+				count: 4
+				id: "026758F6B6525615"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:drygmy"
+				id: "345008BC3A041851"
+				type: "kill"
+				value: 100L
+			}]
+			x: -31.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7AB527815F215005"]
+			id: "373D0DBAA61BE090"
+			rewards: [{
+				count: 6
+				id: "7C3F8FB9200F54FC"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:drygmy"
+				id: "0B80E03E3672A44C"
+				type: "kill"
+				value: 200L
+			}]
+			x: -29.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["373D0DBAA61BE090"]
+			id: "43C374388C495D84"
+			rewards: [{
+				id: "23FFB34979B4599F"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:drygmy"
+				id: "37019AC5EF639DDE"
+				type: "kill"
+				value: 300L
+			}]
+			x: -29.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["43C374388C495D84"]
+			id: "1C4293CD35E55069"
+			rewards: [{
+				count: 2
+				id: "62577C125E55EC25"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:drygmy"
+				id: "2F18D7645164B268"
+				type: "kill"
+				value: 400L
+			}]
+			x: -31.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["1C4293CD35E55069"]
+			id: "47382AEAAC558129"
+			rewards: [{
+				count: 3
+				id: "298FA37317D24603"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:drygmy"
+				id: "452350CE3AE17F70"
+				type: "kill"
+				value: 500L
+			}]
+			x: -34.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["47382AEAAC558129"]
+			id: "600714687E67E351"
+			rewards: [{
+				count: 4
+				id: "33D3386F1DBB1C91"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:drygmy"
+				id: "1FE407A75EEEA991"
+				type: "kill"
+				value: 600L
+			}]
+			x: -34.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["600714687E67E351"]
+			id: "7B0AD1D96DD39DA9"
+			rewards: [{
+				count: 5
+				id: "49FB0586BFF18022"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:drygmy"
+				id: "63C9B2FBEFC5114D"
+				type: "kill"
+				value: 700L
+			}]
+			x: -31.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["7B0AD1D96DD39DA9"]
+			id: "60519E268A9D900C"
+			rewards: [{
+				count: 6
+				id: "30594A20CA48EAC1"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:drygmy"
+				id: "0A888ED4823D5884"
+				type: "kill"
+				value: 800L
+			}]
+			x: -29.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["60519E268A9D900C"]
+			id: "1D05D6AC8136F05C"
+			rewards: [{
+				count: 7
+				id: "1B4963F0FA2B1BF3"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:drygmy"
+				id: "2DE9E5637C4A93FA"
+				type: "kill"
+				value: 900L
+			}]
+			x: -29.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["1D05D6AC8136F05C"]
+			icon: {
+				id: "ars_nouveau:drygmy_se"
+			}
+			id: "7BC5FAFF58FB0275"
+			rewards: [{
+				id: "425F8D2A5ED493A4"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				entity: "ars_nouveau:drygmy"
+				id: "1B118955BDC4CFD2"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -31.5d
+			y: -23.5d
+		}
+		{
+			dependencies: ["136F9130B96AD865"]
+			id: "238967F14432AFAA"
+			rewards: [{
+				count: 4
+				id: "17BFEADAF6237C1D"
+				item: {
+					count: 1
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:starbuncle"
+				id: "4EECB5AE4FF19705"
+				type: "kill"
+				value: 25L
+			}]
+			x: -31.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["238967F14432AFAA"]
+			id: "3B21B1C4C5FEDC6A"
+			rewards: [{
+				count: 2
+				id: "5B0CB58399A62149"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:starbuncle"
+				id: "33721F52C04296AE"
+				type: "kill"
+				value: 50L
+			}]
+			x: -29.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3B21B1C4C5FEDC6A"]
+			id: "2FFAD26A6EAF666E"
+			rewards: [{
+				count: 4
+				id: "17310D12BC2896CE"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:starbuncle"
+				id: "3D151EE12CCCBAD9"
+				type: "kill"
+				value: 100L
+			}]
+			x: -29.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2FFAD26A6EAF666E"]
+			id: "1ED91E5C26130F8E"
+			rewards: [{
+				count: 6
+				id: "14089FC11C3E35A4"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:starbuncle"
+				id: "151A5091FAD8DB22"
+				type: "kill"
+				value: 200L
+			}]
+			x: -31.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1ED91E5C26130F8E"]
+			id: "54C0916F1D5AD224"
+			rewards: [{
+				id: "4D65F47C0F9EAD9D"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:starbuncle"
+				id: "4A6BB6750EA222E6"
+				type: "kill"
+				value: 300L
+			}]
+			x: -34.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["54C0916F1D5AD224"]
+			id: "73F055A59998CA16"
+			rewards: [{
+				count: 2
+				id: "29A04B190B096E73"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:starbuncle"
+				id: "221972BA69ED2E4E"
+				type: "kill"
+				value: 400L
+			}]
+			x: -34.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["73F055A59998CA16"]
+			id: "6CCC6849144CEDF9"
+			rewards: [{
+				count: 3
+				id: "5AC61DD05833D47A"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:starbuncle"
+				id: "5080B693E4A903ED"
+				type: "kill"
+				value: 500L
+			}]
+			x: -31.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["6CCC6849144CEDF9"]
+			id: "406F7230EE282FF8"
+			rewards: [{
+				count: 4
+				id: "2A97D442EEB8229C"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:starbuncle"
+				id: "4934ACE5380BBED7"
+				type: "kill"
+				value: 600L
+			}]
+			x: -29.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["406F7230EE282FF8"]
+			id: "618DB879540EDB0C"
+			rewards: [{
+				count: 5
+				id: "3E41F8BC2A2BF155"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:starbuncle"
+				id: "1A6469C6E401FEB5"
+				type: "kill"
+				value: 700L
+			}]
+			x: -29.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["618DB879540EDB0C"]
+			id: "18093179535AC79D"
+			rewards: [{
+				count: 6
+				id: "3CC49FE59647909C"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:starbuncle"
+				id: "17F7ED53F5627E83"
+				type: "kill"
+				value: 800L
+			}]
+			x: -31.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["18093179535AC79D"]
+			id: "24935C9EFB9D47C7"
+			rewards: [{
+				count: 7
+				id: "5328FCF4B7F062E1"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "ars_nouveau:starbuncle"
+				id: "1FAA9511405A1578"
+				type: "kill"
+				value: 900L
+			}]
+			x: -34.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["24935C9EFB9D47C7"]
+			id: "48C3344637E012D0"
+			rewards: [{
+				id: "6BE7E0B069790830"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				entity: "ars_nouveau:starbuncle"
+				id: "69221DE70C1A127B"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -34.0d
+			y: -23.5d
 		}
 	]
 }
