@@ -134,14 +134,79 @@ LootJS.modifiers((event) => {
    * 8. MODS & SPECIAL ITEMS (NERFS)
    * =========================================
    */
-  const modNerf = event.addTableModifier([LootType.CHEST, LootType.VAULT]);
-
-  // General mods nerf (5% drop rate)
-  modNerf.removeLoot([
+  // Magic/weapon mods loot: 5% drop rate in normal chests, 25% inside hard
+  // structures (boss dungeons) listed below. Both modifiers target the same
+  // items but are mutually exclusive via the structure condition, so the
+  // rates never stack.
+  const RARE_MOD_LOOT = [
       "@irons_spellbooks",
       "@ars_nouveau",
       "@simplyswords"
-  ]).randomChance(0.95);
+  ];
+
+  const HARD_STRUCTURES = [
+      // Vanilla endgame
+      "minecraft:end_city",
+      "minecraft:bastion_remnant",
+      "minecraft:ancient_city",
+      "minecraft:trial_chambers",
+      "minecraft:mansion",
+      "minecraft:fortress",
+      // Twilight Forest boss structures
+      "twilightforest:lich_tower",
+      "twilightforest:labyrinth",
+      "twilightforest:hydra_lair",
+      "twilightforest:knight_stronghold",
+      "twilightforest:dark_tower",
+      "twilightforest:aurora_palace",
+      "twilightforest:final_castle",
+      // Deeper & Darker
+      "deeperdarker:ancient_temple",
+      // Dungeons Arise (major dungeons only)
+      "dungeons_arise:abandoned_temple",
+      "dungeons_arise:aviary",
+      "dungeons_arise:bandit_towers",
+      "dungeons_arise:bathhouse",
+      "dungeons_arise:coliseum",
+      "dungeons_arise:foundry",
+      "dungeons_arise:heavenly_challenger",
+      "dungeons_arise:heavenly_conqueror",
+      "dungeons_arise:heavenly_rider",
+      "dungeons_arise:illager_corsair",
+      "dungeons_arise:illager_fort",
+      "dungeons_arise:illager_galley",
+      "dungeons_arise:infested_temple",
+      "dungeons_arise:keep_kayra",
+      "dungeons_arise:kisegi_sanctuary",
+      "dungeons_arise:mechanical_nest",
+      "dungeons_arise:mining_complex",
+      "dungeons_arise:monastery",
+      "dungeons_arise:mushroom_mines",
+      "dungeons_arise:plague_asylum",
+      "dungeons_arise:scorched_mines",
+      "dungeons_arise:shiraz_palace",
+      "dungeons_arise:thornborn_towers",
+      "dungeons_arise:typhon",
+      "dungeons_arise:undead_pirate_ship"
+  ];
+
+  // Outside hard structures: 95% removal (5% drop rate)
+  event.addTableModifier([LootType.CHEST, LootType.VAULT])
+    .removeLoot(RARE_MOD_LOOT)
+    .matchCustomCondition({
+      condition: "minecraft:inverted",
+      term: {
+        condition: "minecraft:location_check",
+        predicate: { structures: HARD_STRUCTURES }
+      }
+    })
+    .randomChance(0.95);
+
+  // Inside hard structures: 75% removal (25% drop rate)
+  event.addTableModifier([LootType.CHEST, LootType.VAULT])
+    .removeLoot(RARE_MOD_LOOT)
+    .matchStructure(HARD_STRUCTURES, false)
+    .randomChance(0.75);
 
   // Sophisticated Backpacks nerf (15% drop rate)
   event.addTableModifier([LootType.CHEST, LootType.VAULT])
