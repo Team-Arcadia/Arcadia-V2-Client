@@ -130,4 +130,10 @@ ItemEvents.modifyTooltips(event => {
     hereticItems.forEach(id => {
         event.add(`arcadia:${id}`, Text.translate(`tooltip.arcadia.${id}`).darkRed().italic());
     });
+
+    // === KNOWN BUG WARNINGS ===
+    // CEI Infuser corrupts potion charms into "Invalid Potion Charm"
+    // (upstream: DragonsPlusMinecraft/CreateEnchantmentIndustry#464).
+    // Remove this warning once the mod ships a fix.
+    event.add('apotheosis:potion_charm', Text.translate('tooltip.arcadia.potion_charm_infuser_warning').red());
 });
