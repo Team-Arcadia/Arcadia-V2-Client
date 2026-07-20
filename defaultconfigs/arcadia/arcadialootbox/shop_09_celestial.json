@@ -6,301 +6,265 @@
   "openMessage": "",
   "lootTable": [
     {
-      "item": "arcadia:music_disc_mike_le_loulou",
+      "item": "rsinfinitybooster:infinity_card",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.06,
-      "rarity": "rare",
-      "displayName": "Music Disc - Mike Le Loulou",
+      "chance": 2,
+      "rarity": "legendary",
+      "displayName": "Infinity Card",
+      "broadcast": true
+    },
+    {
+      "item": "extradisks:infinite_item_storage_disk[refinedstorage:storage_reference=[I;-782831914,1677545085,-1218454255,-625976722]]",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 1,
+      "rarity": "mythic",
+      "displayName": "Infinite Storage Disk",
+      "broadcast": true
+    },
+    {
+      "item": "advancednetherite:netherite_emerald_hoe",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 4,
+      "rarity": "epic",
+      "displayName": "Netherite Emerald Hoe",
       "broadcast": false
     },
     {
-      "item": "arcadia:music_disc_vyrriox_trois_femmes",
+      "item": "advancednetherite:netherite_emerald_shovel",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.06,
-      "rarity": "rare",
-      "displayName": "Music Disc - Trois Femmes",
+      "chance": 4,
+      "rarity": "epic",
+      "displayName": "Netherite Emerald Shovel",
       "broadcast": false
     },
     {
-      "item": "arcadia:music_disc_vyrriox_la_femme_de_joie",
+      "item": "advancednetherite:netherite_emerald_axe",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.06,
-      "rarity": "rare",
-      "displayName": "Music Disc - La Femme De Joie",
+      "chance": 4,
+      "rarity": "epic",
+      "displayName": "Netherite Emerald Axe",
       "broadcast": false
     },
     {
-      "item": "arcadia:music_disc_boit_ton_picher",
+      "item": "advancednetherite:netherite_emerald_pickaxe",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.06,
-      "rarity": "rare",
-      "displayName": "Music Disc - Boit Ton Picher",
+      "chance": 4,
+      "rarity": "epic",
+      "displayName": "Netherite Emerald Pickaxe",
+      "broadcast": false
+    },
+    {
+      "item": "advancednetherite:netherite_emerald_sword",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 4,
+      "rarity": "epic",
+      "displayName": "Netherite Emerald Sword",
+      "broadcast": false
+    },
+    {
+      "item": "simplyswords:magiscythe[simplyswords:gem_power={has_nether_power:0b,has_runic_power:0b,nether_power:\"simplyswords:empty_power\",runic_power:\"simplyswords:empty_power\"}]",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 2,
+      "rarity": "legendary",
+      "displayName": "Magiscythe",
+      "broadcast": true
+    },
+    {
+      "item": "simplyswords:magispear[simplyswords:gem_power={has_nether_power:1b,has_runic_power:1b,nether_power:\"simplyswords:empty_power\",runic_power:\"simplyswords:empty_power\"}]",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 2,
+      "rarity": "legendary",
+      "displayName": "Magispear",
+      "broadcast": true
+    },
+    {
+      "item": "artifacts:night_vision_goggles",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 3,
+      "rarity": "epic",
+      "displayName": "Night Vision Goggles",
+      "broadcast": false
+    },
+    {
+      "item": "artifacts:superstitious_hat",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 3,
+      "rarity": "epic",
+      "displayName": "Superstitious Hat",
+      "broadcast": false
+    },
+    {
+      "item": "artifacts:lucky_scarf",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 3,
+      "rarity": "epic",
+      "displayName": "Lucky Scarf",
+      "broadcast": false
+    },
+    {
+      "item": "artifacts:digging_claws",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 3,
+      "rarity": "epic",
+      "displayName": "Digging Claws",
+      "broadcast": false
+    },
+    {
+      "item": "artifacts:feral_claws",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 3,
+      "rarity": "epic",
+      "displayName": "Feral Claws",
+      "broadcast": false
+    },
+    {
+      "item": "sophisticatedstorage:stack_upgrade_tier_5",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 2,
+      "rarity": "mythic",
+      "displayName": "Stack Upgrade Tier 5",
+      "broadcast": true
+    },
+    {
+      "item": "arcadialootbox:shop_key_transcendent",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 2,
+      "rarity": "legendary",
+      "displayName": "Next Tier Key (Shop)",
+      "broadcast": true
+    },
+    {
+      "item": "burgermod:golden_salmon_burger",
+      "minCount": 64,
+      "maxCount": 64,
+      "chance": 8,
+      "rarity": "common",
+      "displayName": "Golden Salmon Burger x64",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple",
+      "minCount": 32,
+      "maxCount": 32,
+      "chance": 4,
+      "rarity": "epic",
+      "displayName": "Enchanted Golden Apple x32",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:potion[potion_contents={potion:\"apothic_attributes:long_flying\"}]",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 2,
+      "rarity": "legendary",
+      "displayName": "Potion of Flying (Long)",
+      "broadcast": true
+    },
+    {
+      "item": "mekanism:ultimate_energy_cube[mekanism:energy={energy_containers:[L;256000000L]}]",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 2,
+      "rarity": "legendary",
+      "displayName": "Ultimate Energy Cube (charged)",
+      "broadcast": true
+    },
+    {
+      "item": "mekanism:elite_control_circuit",
+      "minCount": 4,
+      "maxCount": 4,
+      "chance": 4,
+      "rarity": "epic",
+      "displayName": "Elite Control Circuit x4",
       "broadcast": false
     },
     {
       "item": "arcadia:music_disc_janette",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.06,
+      "chance": 3,
       "rarity": "rare",
       "displayName": "Music Disc - Janette",
       "broadcast": false
     },
     {
-      "item": "arcadia:music_disc_au_pactole",
+      "item": "arcadia:music_disc_peter_le_frein_pt4",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.06,
+      "chance": 3,
       "rarity": "rare",
-      "displayName": "Music Disc - Au Pactole",
+      "displayName": "Music Disc - Peter Le Frein Pt4",
       "broadcast": false
     },
     {
-      "item": "arcadia:music_disc_dans_la_tavern_lulu",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.06,
-      "rarity": "rare",
-      "displayName": "Music Disc - Dans La Tavern Lulu",
-      "broadcast": false
-    },
-    {
-      "item": "arcadia:music_disc_vyrriox_patee",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.06,
-      "rarity": "rare",
-      "displayName": "Music Disc - Patee",
-      "broadcast": false
-    },
-    {
-      "item": "arcadia:music_disc_vyrriox_sac_a_gros_pt1",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.06,
-      "rarity": "rare",
-      "displayName": "Music Disc - Sac A Gros Pt1",
-      "broadcast": false
-    },
-    {
-      "item": "minecraft:netherite_block",
-      "minCount": 1,
-      "maxCount": 2,
-      "chance": 0.1,
-      "rarity": "legendary",
-      "displayName": "Netherite Block",
-      "broadcast": false
-    },
-    {
-      "item": "simplyswords:tempest",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.03,
-      "rarity": "legendary",
-      "displayName": "Tempest",
-      "broadcast": true
-    },
-    {
-      "item": "artifacts:everlasting_beef",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.04,
-      "rarity": "legendary",
-      "displayName": "Everlasting Beef",
-      "broadcast": true
-    },
-    {
-      "item": "arcadia_pets:legendary_guaranteed_bag",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.04,
-      "rarity": "legendary",
-      "displayName": "Legendary Pet Bag",
-      "broadcast": true
-    },
-    {
-      "item": "arcadia_pets:star_essence",
+      "item": "apotheosis:gem[apotheosis:gem=\"apotheosis:the_end/endersurge\",apotheosis:purity=\"perfect\"]",
       "minCount": 2,
-      "maxCount": 5,
-      "chance": 0.12,
-      "rarity": "epic",
-      "displayName": "Star Essence",
-      "broadcast": false
-    },
-    {
-      "item": "arcadialootbox:shop_key_transcendent",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.001,
-      "rarity": "legendary",
-      "displayName": "Next Tier Key (Shop)",
-      "broadcast": true
-    },
-    {
-      "item": "minecraft:enchanted_golden_apple",
-      "minCount": 2,
-      "maxCount": 4,
-      "chance": 0.18,
-      "rarity": "epic",
-      "displayName": "Enchanted Golden Apple",
-      "broadcast": false
-    },
-    {
-      "item": "minecraft:totem_of_undying",
-      "minCount": 1,
       "maxCount": 2,
-      "chance": 0.12,
-      "rarity": "epic",
-      "displayName": "Totem of Undying",
-      "broadcast": true
-    },
-    {
-      "item": "minecraft:nether_star",
-      "minCount": 1,
-      "maxCount": 2,
-      "chance": 0.1,
-      "rarity": "legendary",
-      "displayName": "Nether Star",
-      "broadcast": true
-    },
-    {
-      "item": "minecraft:elytra",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.06,
+      "chance": 2,
       "rarity": "mythic",
-      "displayName": "Elytra",
+      "displayName": "Perfect Endersurge Gem x2",
       "broadcast": true
     },
     {
-      "item": "simplehats:hatbag_epic",
-      "minCount": 1,
-      "maxCount": 2,
-      "chance": 0.12,
-      "rarity": "epic",
-      "displayName": "Epic Hat Bag",
-      "broadcast": true
-    },
-    {
-      "item": "simplehats:hatbag_festive",
+      "item": "sophisticatedbackpacks:netherite_backpack",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.08,
-      "rarity": "epic",
-      "displayName": "Festive Hat Bag",
-      "broadcast": true
-    },
-    {
-      "item": "simplehats:hatbag_halloween",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.08,
-      "rarity": "epic",
-      "displayName": "Halloween Hat Bag",
-      "broadcast": true
-    },
-    {
-      "item": "simplehats:hatbag_easter",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.06,
+      "chance": 2,
       "rarity": "legendary",
-      "displayName": "Easter Hat Bag",
+      "displayName": "Netherite Backpack",
       "broadcast": true
     },
     {
-      "item": "supplementaries:bomb_spiky",
-      "minCount": 4,
-      "maxCount": 10,
-      "chance": 0.2,
-      "rarity": "rare",
-      "displayName": "Spiky Bomb",
-      "broadcast": false
-    },
-    {
-      "item": "supplementaries:spring_launcher",
-      "minCount": 2,
-      "maxCount": 5,
-      "chance": 0.15,
-      "rarity": "rare",
-      "displayName": "Spring Launcher",
-      "broadcast": false
-    },
-    {
-      "item": "supplementaries:bubble_blower",
-      "minCount": 2,
-      "maxCount": 5,
-      "chance": 0.2,
-      "rarity": "uncommon",
-      "displayName": "Bubble Blower",
-      "broadcast": false
-    },
-    {
-      "item": "supplementaries:clock_block",
+      "item": "minecraft:enchanted_book[stored_enchantments={levels:{\"minecraft:silk_touch\":1}}]",
       "minCount": 1,
-      "maxCount": 2,
-      "chance": 0.1,
+      "maxCount": 1,
+      "chance": 3,
       "rarity": "epic",
-      "displayName": "Clock Block",
+      "displayName": "Enchanted Book - Silk Touch",
       "broadcast": false
     },
     {
-      "item": "create:blaze_burner",
+      "item": "minecraft:enchanted_book[stored_enchantments={levels:{\"minecraft:sharpness\":8}}]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.02,
-      "rarity": "rare",
-      "displayName": "Blaze Burner",
+      "chance": 3,
+      "rarity": "legendary",
+      "displayName": "Enchanted Book - Sharpness VIII",
       "broadcast": false
     },
     {
-      "item": "refinedstorage:grid",
+      "item": "minecraft:enchanted_book[stored_enchantments={levels:{\"minecraft:efficiency\":8}}]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.015,
-      "rarity": "rare",
-      "displayName": "RS Grid",
+      "chance": 3,
+      "rarity": "legendary",
+      "displayName": "Enchanted Book - Efficiency VIII",
       "broadcast": false
     },
     {
-      "item": "refinedstorage:controller",
+      "item": "minecraft:enchanted_book[stored_enchantments={levels:{\"minecraft:fortune\":4}}]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.01,
-      "rarity": "epic",
-      "displayName": "RS Controller",
-      "broadcast": true
-    },
-    {
-      "item": "apotheosis:reforging_table",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.01,
-      "rarity": "epic",
-      "displayName": "Reforging Table",
-      "broadcast": true
-    },
-    {
-      "item": "create_sa:experience_sword",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.01,
-      "rarity": "epic",
-      "displayName": "Experience Sword",
-      "broadcast": true
-    },
-    {
-      "item": "minecraft:spawner",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.002,
-      "rarity": "mythic",
-      "displayName": "Spawner",
-      "broadcast": true
+      "chance": 3,
+      "rarity": "legendary",
+      "displayName": "Enchanted Book - Fortune IV",
+      "broadcast": false
     }
   ],
   "particles": [
@@ -318,10 +282,10 @@
   "permission": "",
   "animation": {
     "type": "burst",
-    "durationTicks": 64,
-    "particleCount": 54,
-    "particleSpeed": 0.272,
-    "particleRadius": 1.19,
+    "durationTicks": 20,
+    "particleCount": 10,
+    "particleSpeed": 0.05,
+    "particleRadius": 0.3,
     "particleType": "minecraft:flame",
     "playTitleAnimation": true
   },
@@ -333,8 +297,23 @@
   "openSubtitle": "§7Good luck!",
   "commandRewards": [
     {
-      "command": "give {player} arcadia_pets:star_essence 6",
-      "chance": 100,
+      "command": "give {player} arcadia_pets:epic_pet_bag 1",
+      "chance": 1.0,
+      "asConsole": true
+    },
+    {
+      "command": "give {player} arcadia_pets:star_essence 2",
+      "chance": 1.0,
+      "asConsole": true
+    },
+    {
+      "command": "give {player} arcadia_pets:pet_snack 2",
+      "chance": 1.0,
+      "asConsole": true
+    },
+    {
+      "command": "give {player} naturescompass:naturescompass 1",
+      "chance": 1.0,
       "asConsole": true
     }
   ],

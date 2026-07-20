@@ -6,228 +6,192 @@
   "openMessage": "",
   "lootTable": [
     {
-      "item": "arcadia:music_disc_vyrriox_sac_a_gros_pt1",
+      "item": "minecraft:enchanted_book[stored_enchantments={levels:{\"minecraft:fortune\":1}}]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.1,
+      "chance": 3,
       "rarity": "rare",
-      "displayName": "Music Disc - Sac A Gros Pt1",
+      "displayName": "Enchanted Book - Fortune I",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:enchanted_book[stored_enchantments={levels:{\"minecraft:sharpness\":2}}]",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 3,
+      "rarity": "rare",
+      "displayName": "Enchanted Book - Sharpness II",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:enchanted_book[stored_enchantments={levels:{\"minecraft:efficiency\":2}}]",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 3,
+      "rarity": "rare",
+      "displayName": "Enchanted Book - Efficiency II",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_vyrriox_la_naine_pt1",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 3,
+      "rarity": "rare",
+      "displayName": "Music Disc - Vyrriox La Naine Pt1",
       "broadcast": false
     },
     {
       "item": "arcadia:music_disc_vyrriox_sac_a_gros_pt2",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.1,
+      "chance": 3,
       "rarity": "rare",
-      "displayName": "Music Disc - Sac A Gros Pt2",
+      "displayName": "Music Disc - Vyrriox Sac A Gros Pt2",
       "broadcast": false
     },
     {
-      "item": "arcadia:music_disc_vyrriox_patee",
+      "item": "refinedstorage:16k_storage_disk[refinedstorage:storage_reference=[I;393108151,-1226292151,-1729956275,2043061012]]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.1,
+      "chance": 3,
       "rarity": "rare",
-      "displayName": "Music Disc - Patee",
+      "displayName": "16k Storage Disk",
       "broadcast": false
     },
     {
-      "item": "minecraft:iron_block",
-      "minCount": 2,
-      "maxCount": 5,
-      "chance": 0.35,
-      "rarity": "common",
-      "displayName": "Iron Block",
-      "broadcast": false
-    },
-    {
-      "item": "minecraft:gold_block",
+      "item": "minecraft:iron_hoe",
       "minCount": 1,
-      "maxCount": 3,
-      "chance": 0.3,
-      "rarity": "uncommon",
-      "displayName": "Gold Block",
-      "broadcast": false
-    },
-    {
-      "item": "minecraft:diamond",
-      "minCount": 2,
-      "maxCount": 4,
-      "chance": 0.25,
-      "rarity": "uncommon",
-      "displayName": "Diamond",
-      "broadcast": false
-    },
-    {
-      "item": "minecraft:emerald",
-      "minCount": 4,
-      "maxCount": 10,
-      "chance": 0.3,
+      "maxCount": 1,
+      "chance": 5,
       "rarity": "common",
-      "displayName": "Emerald",
+      "displayName": "Iron Hoe",
       "broadcast": false
     },
     {
-      "item": "minecraft:lapis_lazuli",
-      "minCount": 8,
-      "maxCount": 16,
-      "chance": 0.3,
+      "item": "minecraft:iron_shovel",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 5,
       "rarity": "common",
-      "displayName": "Lapis Lazuli",
+      "displayName": "Iron Shovel",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:iron_axe",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 5,
+      "rarity": "common",
+      "displayName": "Iron Axe",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:iron_pickaxe",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 5,
+      "rarity": "common",
+      "displayName": "Iron Pickaxe",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:iron_sword",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 5,
+      "rarity": "common",
+      "displayName": "Iron Sword",
+      "broadcast": false
+    },
+    {
+      "item": "nomowanderer:no_mo_wanderer_totem[nomowanderer:enabled=true]",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 3,
+      "rarity": "rare",
+      "displayName": "No Mo Wanderer Totem",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:golden_carrot",
+      "minCount": 64,
+      "maxCount": 64,
+      "chance": 8,
+      "rarity": "common",
+      "displayName": "Golden Carrot x64",
+      "broadcast": false
+    },
+    {
+      "item": "tfmg:turbo",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 3,
+      "rarity": "rare",
+      "displayName": "Turbo",
       "broadcast": false
     },
     {
       "item": "arcadialootbox:shop_key_superior",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.02,
+      "chance": 2,
       "rarity": "legendary",
       "displayName": "Next Tier Key (Shop)",
       "broadcast": true
     },
     {
-      "item": "handcrafted:birch_fancy_bed",
+      "item": "tfmg:thermite_grenade",
+      "minCount": 32,
+      "maxCount": 32,
+      "chance": 4,
+      "rarity": "uncommon",
+      "displayName": "Thermite Grenade x32",
+      "broadcast": false
+    },
+    {
+      "item": "createdieselgenerators:oil_scanner",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.12,
+      "chance": 4,
       "rarity": "uncommon",
-      "displayName": "Fancy Bed",
+      "displayName": "Oil Scanner",
       "broadcast": false
     },
     {
-      "item": "handcrafted:birch_shelf",
-      "minCount": 1,
-      "maxCount": 2,
-      "chance": 0.2,
-      "rarity": "common",
-      "displayName": "Birch Shelf",
-      "broadcast": false
-    },
-    {
-      "item": "refurbished_furniture:oak_chair",
-      "minCount": 1,
-      "maxCount": 2,
-      "chance": 0.2,
-      "rarity": "common",
-      "displayName": "Refurb Chair",
-      "broadcast": false
-    },
-    {
-      "item": "refurbished_furniture:oak_desk",
+      "item": "pipeorgans:roll_puncher",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.15,
+      "chance": 4,
       "rarity": "uncommon",
-      "displayName": "Refurb Desk",
-      "broadcast": false
-    },
-    {
-      "item": "minecraft:name_tag",
-      "minCount": 1,
-      "maxCount": 2,
-      "chance": 0.2,
-      "rarity": "uncommon",
-      "displayName": "Name Tag",
-      "broadcast": false
-    },
-    {
-      "item": "minecraft:glow_item_frame",
-      "minCount": 1,
-      "maxCount": 2,
-      "chance": 0.15,
-      "rarity": "uncommon",
-      "displayName": "Glow Item Frame",
-      "broadcast": false
-    },
-    {
-      "item": "neoncraft:a_magenta",
-      "minCount": 1,
-      "maxCount": 3,
-      "chance": 0.15,
-      "rarity": "uncommon",
-      "displayName": "Neon Magenta",
-      "broadcast": false
-    },
-    {
-      "item": "simplehats:hatbag_common",
-      "minCount": 1,
-      "maxCount": 2,
-      "chance": 0.2,
-      "rarity": "common",
-      "displayName": "Common Hat Bag",
-      "broadcast": false
-    },
-    {
-      "item": "simplehats:hatbag_uncommon",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.1,
-      "rarity": "uncommon",
-      "displayName": "Uncommon Hat Bag",
-      "broadcast": false
-    },
-    {
-      "item": "supplementaries:bubble_blower",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.2,
-      "rarity": "uncommon",
-      "displayName": "Bubble Blower",
-      "broadcast": false
-    },
-    {
-      "item": "supplementaries:flute",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.12,
-      "rarity": "uncommon",
-      "displayName": "Flute",
-      "broadcast": false
-    },
-    {
-      "item": "supplementaries:soap",
-      "minCount": 2,
-      "maxCount": 5,
-      "chance": 0.25,
-      "rarity": "common",
-      "displayName": "Soap",
+      "displayName": "Roll Puncher",
       "broadcast": false
     },
     {
       "item": "supplementaries:candy",
-      "minCount": 4,
-      "maxCount": 10,
-      "chance": 0.3,
+      "minCount": 64,
+      "maxCount": 64,
+      "chance": 8,
       "rarity": "common",
-      "displayName": "Candy",
+      "displayName": "Candy x64",
       "broadcast": false
     },
     {
-      "item": "supplementaries:jar",
-      "minCount": 1,
-      "maxCount": 2,
-      "chance": 0.15,
+      "item": "minecraft:cooked_beef",
+      "minCount": 64,
+      "maxCount": 64,
+      "chance": 10,
       "rarity": "common",
-      "displayName": "Jar",
+      "displayName": "Steak x64",
       "broadcast": false
     },
     {
-      "item": "supplementaries:sack",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.15,
+      "item": "supplementaries:soap",
+      "minCount": 64,
+      "maxCount": 64,
+      "chance": 8,
       "rarity": "common",
-      "displayName": "Sack",
-      "broadcast": false
-    },
-    {
-      "item": "create:blaze_burner",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.02,
-      "rarity": "rare",
-      "displayName": "Blaze Burner",
+      "displayName": "Soap x64",
       "broadcast": false
     }
   ],
@@ -246,10 +210,10 @@
   "permission": "",
   "animation": {
     "type": "burst",
-    "durationTicks": 31,
-    "particleCount": 21,
-    "particleSpeed": 0.106,
-    "particleRadius": 0.52,
+    "durationTicks": 20,
+    "particleCount": 10,
+    "particleSpeed": 0.05,
+    "particleRadius": 0.3,
     "particleType": "minecraft:flame",
     "playTitleAnimation": true
   },
@@ -259,7 +223,18 @@
   "giveToInventoryOnly": false,
   "openTitle": "§9✦ Rare Shop ✦",
   "openSubtitle": "§7Good luck!",
-  "commandRewards": [],
+  "commandRewards": [
+    {
+      "command": "give {player} arcadia_pets:star_essence 1",
+      "chance": 1.0,
+      "asConsole": true
+    },
+    {
+      "command": "give {player} arcadia_pets:pet_snack 2",
+      "chance": 1.0,
+      "asConsole": true
+    }
+  ],
   "experienceReward": 30,
   "requiredBiome": "",
   "requiredLevel": 0,
