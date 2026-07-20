@@ -1,0 +1,90 @@
+{
+    "type":  "create:sequenced_assembly",
+    "ingredient":  {
+                       "item":  "minecraft:lapis_lazuli"
+                   },
+    "loops":  5,
+    "results":  [
+                    {
+                        "chance":  80,
+                        "item":  "apotheosis:gem_dust"
+                    },
+                    {
+                        "chance":  20,
+                        "item":  "minecraft:string"
+                    }
+                ],
+    "sequence":  [
+                     {
+                         "type":  "create:deploying",
+                         "ingredients":  [
+                                             {
+                                                 "item":  "apotheosis_create:incomplete_gem_dust"
+                                             },
+                                             {
+                                                 "item":  "minecraft:lapis_lazuli"
+                                             }
+                                         ],
+                         "results":  [
+                                         {
+                                             "item":  "apotheosis_create:incomplete_gem_dust"
+                                         }
+                                     ]
+                     },
+                     {
+                         "type":  "create:cutting",
+                         "ingredients":  [
+                                             {
+                                                 "item":  "apotheosis_create:incomplete_gem_dust"
+                                             }
+                                         ],
+                         "results":  [
+                                         {
+                                             "item":  "apotheosis_create:incomplete_gem_dust"
+                                         }
+                                     ]
+                     },
+                     {
+                         "type":  "create:cutting",
+                         "ingredients":  [
+                                             {
+                                                 "item":  "apotheosis_create:incomplete_gem_dust"
+                                             }
+                                         ],
+                         "results":  [
+                                         {
+                                             "item":  "apotheosis_create:incomplete_gem_dust"
+                                         }
+                                     ]
+                     },
+                     {
+                         "type":  "create:pressing",
+                         "ingredients":  [
+                                             {
+                                                 "item":  "apotheosis_create:incomplete_gem_dust"
+                                             }
+                                         ],
+                         "results":  [
+                                         {
+                                             "item":  "apotheosis_create:incomplete_gem_dust"
+                                         }
+                                     ]
+                     },
+                     {
+                         "type":  "create:pressing",
+                         "ingredients":  [
+                                             {
+                                                 "item":  "apotheosis_create:incomplete_gem_dust"
+                                             }
+                                         ],
+                         "results":  [
+                                         {
+                                             "item":  "apotheosis_create:incomplete_gem_dust"
+                                         }
+                                     ]
+                     }
+                 ],
+    "transitionalItem":  {
+                             "item":  "apotheosis_create:incomplete_gem_dust"
+                         }
+}
