@@ -1,8 +1,15 @@
 ================================================================================
+ARCADIA V2 PROPRIETARY LICENSE (Source-Available, Private Use Only)
+Version 1.0 — 2026-07-20
+================================================================================
+
+Copyright (c) 2026 vyrriox / Team Arcadia. All rights reserved.
+
+================================================================================
 SCOPE OF THIS LICENSE
 ================================================================================
 
-The MIT License below applies ONLY to original works authored by the Arcadia V2
+This license applies ONLY to original works authored by the Arcadia V2
 team (vyrriox and contributors). Specifically, it covers:
 
   - KubeJS scripts written for this modpack (kubejs/server_scripts,
@@ -16,40 +23,111 @@ team (vyrriox and contributors). Specifically, it covers:
   - In-house mods built for Arcadia and shipped under our control
     (arcadia-patch-create, arcadia-* mod jars where we are the authors)
   - Documentation, guides, READMEs and CHANGELOGs in this repository
+  - The overall selection, arrangement, and configuration of the modpack
+    as a curated work (the "Pack")
 
 It DOES NOT apply to anything we did not author. See the THIRD-PARTY CONTENT
 section below.
 
+Collectively, the covered material is referred to as the "Work".
+
 ================================================================================
-MIT License
+GRANT OF RIGHTS — WHAT YOU MAY DO
 ================================================================================
 
-Copyright (c) 2026 vyrriox
+Subject to the conditions of this license, you are granted a worldwide,
+royalty-free, non-exclusive, non-transferable, revocable right to:
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+  1. VIEW & STUDY — Read the source of the Work, study how it functions,
+     and reference it for learning purposes.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+  2. USE — Download and run the Work as part of playing Minecraft, on your
+     own machine or on a private server for you and your community, via
+     the official distribution channels (this repository, the official
+     CurseForge page, the official Arcadia servers).
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  3. PRIVATE COPIES — Make copies of the Work for PERSONAL, PRIVATE use
+     only: local backups, personal test instances, private experiments.
+
+  4. PRIVATE MODIFICATIONS — Modify the Work for your own PERSONAL,
+     PRIVATE use. Modified versions must stay on your own machines or
+     private servers and must never be published, distributed, or shared
+     outside your private circle.
+
+  5. CONTRIBUTE — Propose modifications, improvements, bug fixes, ideas,
+     and translations to the project (pull requests, patches, suggestions
+     on Discord or GitHub). Contributions are welcome and encouraged.
+
+================================================================================
+CONTRIBUTIONS
+================================================================================
+
+By submitting a contribution (code, assets, translations, quest content,
+documentation, or any other material) to the project, you:
+
+  - Grant vyrriox / Team Arcadia a perpetual, worldwide, irrevocable,
+    royalty-free license to use, modify, relicense, and distribute your
+    contribution as part of the Work.
+  - Confirm that the contribution is your own original work, or that you
+    have the right to submit it.
+  - Will be credited as a contributor where reasonable, but acquire no
+    ownership over the Work and no right to redistribute it.
+
+================================================================================
+RESTRICTIONS — WHAT YOU MAY NOT DO
+================================================================================
+
+Except with prior WRITTEN permission from vyrriox / Team Arcadia, you may
+NOT, under any circumstances:
+
+  1. REDISTRIBUTE OR REPUBLISH the Work, in whole or in part, modified or
+     unmodified, under this name or any other name — including but not
+     limited to: re-uploading to CurseForge, Modrinth, GitHub, file hosts,
+     launcher platforms, or any public location.
+
+  2. PUBLISH DERIVATIVE PACKS — Create and publicly release a modpack,
+     fork, "remix", or any derivative work that incorporates the Work or a
+     substantial part of it (scripts, custom assets, quest content,
+     in-house mods, configuration set).
+
+  3. SELL OR MONETIZE the Work or access to it, including paywalls,
+     paid downloads, or bundling it in any commercial offering.
+
+  4. REMOVE OR ALTER copyright notices, credits, branding, or this
+     license from copies of the Work.
+
+  5. SUBLICENSE — Grant any of the rights above to a third party.
+
+Sharing links to the OFFICIAL download pages is always allowed and
+appreciated.
+
+================================================================================
+TERMINATION
+================================================================================
+
+Any violation of the restrictions above automatically terminates the
+rights granted to you under this license. Upon termination, you must
+delete all copies of the Work in your possession, except content obtained
+through official channels for normal private play.
+
+================================================================================
+NO WARRANTY
+================================================================================
+
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+OUT OF OR IN CONNECTION WITH THE WORK OR THE USE OR OTHER DEALINGS IN THE
+WORK.
 
 ================================================================================
 THIRD-PARTY CONTENT
 ================================================================================
 
 This modpack bundles content authored by third parties. That content is NOT
-covered by the MIT License above and remains the property of its respective
+covered by the license above and remains the property of its respective
 authors. Each item is governed by its own license, which you must consult
 before redistributing or modifying:
 
@@ -69,7 +147,8 @@ before redistributing or modifying:
     locations remain under their original creators' licenses.
 
   - Third-party configuration files (config/) that ship with mods remain
-    under those mods' licenses; only Arcadia-authored overlays are MIT.
+    under those mods' licenses; only Arcadia-authored overlays are covered
+    by this license.
 
 ================================================================================
 NO AFFILIATION DISCLAIMER
@@ -95,10 +174,18 @@ identification purposes.
 LICENCE — Version Française
 ================================================================================
 
+En cas de divergence entre les versions anglaise et française, la version
+anglaise prévaut.
+
+LICENCE PROPRIÉTAIRE ARCADIA V2 (Source visible, usage privé uniquement)
+Version 1.0 — 2026-07-20
+
+Copyright (c) 2026 vyrriox / Team Arcadia. Tous droits réservés.
+
 PORTÉE DE CETTE LICENCE
 
-La Licence MIT ci-dessus s'applique UNIQUEMENT aux œuvres originales créées
-par l'équipe Arcadia V2 (vyrriox et contributeurs). Cela couvre :
+Cette licence s'applique UNIQUEMENT aux œuvres originales créées par
+l'équipe Arcadia V2 (vyrriox et contributeurs). Cela couvre :
 
   - Les scripts KubeJS écrits pour ce modpack
   - Les assets KubeJS que nous avons créés (textures, sons, fichiers de
@@ -108,13 +195,79 @@ par l'équipe Arcadia V2 (vyrriox et contributeurs). Cela couvre :
   - Le contenu du pack FTB Quests écrit par l'équipe
   - Les mods développés en interne pour Arcadia
   - La documentation, les guides, READMEs et CHANGELOGs du dépôt
+  - La sélection, l'arrangement et la configuration d'ensemble du modpack
+    en tant qu'œuvre organisée (le « Pack »)
 
-Elle NE couvre PAS le contenu que nous n'avons pas créé.
+Elle NE couvre PAS le contenu que nous n'avons pas créé (voir CONTENU
+TIERS). L'ensemble du contenu couvert est appelé l'« Œuvre ».
+
+DROITS ACCORDÉS — CE QUE VOUS POUVEZ FAIRE
+
+  1. CONSULTER & ÉTUDIER — Lire les sources de l'Œuvre, étudier son
+     fonctionnement, s'y référer pour apprendre.
+  2. UTILISER — Télécharger et exécuter l'Œuvre pour jouer à Minecraft,
+     sur votre machine ou sur un serveur privé pour vous et votre
+     communauté, via les canaux officiels (ce dépôt, la page CurseForge
+     officielle, les serveurs officiels Arcadia).
+  3. COPIES PRIVÉES — Faire des copies de l'Œuvre pour un usage PERSONNEL
+     et PRIVÉ uniquement : sauvegardes locales, instances de test
+     personnelles, expérimentations privées.
+  4. MODIFICATIONS PRIVÉES — Modifier l'Œuvre pour votre usage PERSONNEL
+     et PRIVÉ. Les versions modifiées doivent rester sur vos machines ou
+     serveurs privés et ne jamais être publiées, distribuées ou partagées
+     hors de votre cercle privé.
+  5. CONTRIBUER — Proposer des modifications, améliorations, correctifs,
+     idées et traductions au projet (pull requests, patchs, suggestions
+     sur Discord ou GitHub). Les contributions sont bienvenues et
+     encouragées.
+
+CONTRIBUTIONS
+
+En soumettant une contribution au projet, vous accordez à vyrriox / Team
+Arcadia une licence perpétuelle, mondiale, irrévocable et gratuite pour
+utiliser, modifier, relicencier et distribuer votre contribution au sein
+de l'Œuvre ; vous confirmez qu'elle est votre travail original ; vous
+serez crédité lorsque c'est raisonnable, mais n'acquérez aucun droit de
+propriété ni de redistribution sur l'Œuvre.
+
+RESTRICTIONS — CE QUE VOUS NE POUVEZ PAS FAIRE
+
+Sauf autorisation ÉCRITE préalable de vyrriox / Team Arcadia, il est
+INTERDIT de :
+
+  1. REDISTRIBUER OU REPUBLIER l'Œuvre, en tout ou partie, modifiée ou
+     non, sous ce nom ou un autre — y compris re-upload sur CurseForge,
+     Modrinth, GitHub, hébergeurs de fichiers, launchers ou tout endroit
+     public.
+  2. PUBLIER DES PACKS DÉRIVÉS — Créer et diffuser publiquement un
+     modpack, fork, « remix » ou toute œuvre dérivée intégrant l'Œuvre ou
+     une partie substantielle de celle-ci.
+  3. VENDRE OU MONÉTISER l'Œuvre ou son accès (paywall, téléchargement
+     payant, offre commerciale).
+  4. SUPPRIMER OU MODIFIER les mentions de copyright, crédits, branding
+     ou cette licence.
+  5. SOUS-LICENCIER — Accorder l'un des droits ci-dessus à un tiers.
+
+Partager les liens vers les pages de téléchargement OFFICIELLES est
+toujours autorisé et apprécié.
+
+RÉSILIATION
+
+Toute violation des restrictions ci-dessus met automatiquement fin aux
+droits accordés. En cas de résiliation, vous devez supprimer toutes vos
+copies de l'Œuvre, hors contenu obtenu via les canaux officiels pour un
+usage privé normal.
+
+ABSENCE DE GARANTIE
+
+L'ŒUVRE EST FOURNIE « EN L'ÉTAT », SANS GARANTIE D'AUCUNE SORTE. LES
+AUTEURS NE PEUVENT ÊTRE TENUS RESPONSABLES D'AUCUN DOMMAGE LIÉ À SON
+UTILISATION.
 
 CONTENU TIERS
 
 Ce modpack embarque du contenu créé par des tiers. Ce contenu N'EST PAS
-couvert par la licence MIT et reste la propriété de ses auteurs respectifs.
+couvert par cette licence et reste la propriété de ses auteurs respectifs.
 Chaque élément est régi par sa propre licence :
 
   - Minecraft et tous les assets du jeu de base sont la propriété de
@@ -128,7 +281,7 @@ Chaque élément est régi par sa propre licence :
     embarqués restent sous la licence d'origine de leurs créateurs.
   - Les fichiers de configuration tiers (config/) livrés avec les mods
     restent sous la licence de ces mods ; seuls les overlays Arcadia sont
-    sous MIT.
+    couverts par cette licence.
 
 AVERTISSEMENT — AUCUNE AFFILIATION
 

@@ -6,7 +6,7 @@
 |---------------|----------------------------------------------------------------|
 | Project name  | Arcadia V2 (branded "Arcadia: Echoes Of Power")                |
 | Type          | Minecraft modpack (curated multiplayer, 30–50 players)         |
-| Tech stack    | Minecraft 1.21.1 · NeoForge 21.1.221 · Java 21 · KubeJS        |
+| Tech stack    | Minecraft 1.21.1 · NeoForge 21.1.232 · Java 21 · KubeJS        |
 | Mod count     | 443 active JARs (+ 2 disabled)                                 |
 | Config files  | ~1,174                                                         |
 | Disk size     | 12–15 GB                                                       |

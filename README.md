@@ -22,7 +22,7 @@ A curated NeoForge 1.21.1 modpack designed for the **Arcadia** community server 
 | Dependency | Version |
 |------------|---------|
 | Minecraft  | 1.21.1  |
-| NeoForge   | 21.1.221+ |
+| NeoForge   | 21.1.232+ |
 | Java       | 21      |
 | CurseForge or Prism Launcher | Required for manifest-based install |
 
@@ -31,14 +31,14 @@ A curated NeoForge 1.21.1 modpack designed for the **Arcadia** community server 
 ### Players (CurseForge)
 1. Open CurseForge launcher
 2. Import the `manifest.json` from this repository (or download the official pack from CurseForge)
-3. Launcher resolves all 450 mods automatically
+3. Launcher resolves all 456 entries (443 mods + 13 shaders) automatically
 4. Launch and join `arcadia.echoes-of-power.fr`
 
 ### Server admins
 1. Clone this repository
 2. Use the included `manifest.json` to fetch all mods via CurseForge Core / packwiz
 3. Apply the `config/`, `defaultconfigs/`, `kubejs/`, `resourcepacks/ArcadiaLanguages/` overrides
-4. Start your NeoForge 21.1.221+ server
+4. Start your NeoForge 21.1.232+ server
 
 ## Repository Contents
 
@@ -46,20 +46,20 @@ This repo ships only what we author or maintain. Third-party mod jars are resolv
 
 | Path | Purpose |
 |------|---------|
-| `manifest.json` | CurseForge modpack manifest (450 mods) |
+| `manifest.json` | CurseForge modpack manifest (456 entries: 443 mods + 13 shaderpacks) |
 | `STRUCTURE.md` | Full structural map of the instance (bilingual) |
 | `CHANGELOG.md` | Version history (bilingual) |
 | `config/` | Modpack-shipped configurations (overrides upstream defaults) |
 | `defaultconfigs/` | Canonical defaults distributed by DefaultOptions |
 | `kubejs/` | Custom scripts, items, recipes, tags, lang files |
 | `resourcepacks/ArcadiaLanguages/` | In-house localization pack |
-| `LICENSE` | MIT for our originals + scope/third-party/affiliation disclaimers |
+| `LICENSE` | Proprietary source-available (private use only) + third-party/affiliation disclaimers |
 
 ## Credits
 
 - **Author** — vyrriox
 - **Organization** — Team Arcadia
-- **License** — MIT (our originals only — see `LICENSE` for scope and third-party content)
+- **License** — Proprietary source-available: contributions welcome, private copies/modifications allowed, redistribution and republication prohibited (see `LICENSE`)
 - **Discord** — [discord.gg/xjF8Rtzyd4](https://discord.gg/xjF8Rtzyd4)
 - **Website** — [arcadia-echoes-of-power.fr](https://arcadia-echoes-of-power.fr/)
 
@@ -89,7 +89,7 @@ Un modpack NeoForge 1.21.1 curate, conu pour le serveur communautaire **Arcadia*
 | Dependance | Version |
 |------------|---------|
 | Minecraft  | 1.21.1  |
-| NeoForge   | 21.1.221+ |
+| NeoForge   | 21.1.232+ |
 | Java       | 21      |
 | CurseForge ou Prism Launcher | Requis pour installation via manifest |
 
@@ -98,14 +98,14 @@ Un modpack NeoForge 1.21.1 curate, conu pour le serveur communautaire **Arcadia*
 ### Joueurs (CurseForge)
 1. Ouvrir le launcher CurseForge
 2. Importer le `manifest.json` de ce depot (ou telecharger le pack officiel depuis CurseForge)
-3. Le launcher resout les 450 mods automatiquement
+3. Le launcher resout les 456 entrees (443 mods + 13 shaders) automatiquement
 4. Lancer et rejoindre `arcadia.echoes-of-power.fr`
 
 ### Admins serveur
 1. Cloner ce depot
 2. Utiliser le `manifest.json` fourni pour recuperer tous les mods via CurseForge Core / packwiz
 3. Appliquer les overrides `config/`, `defaultconfigs/`, `kubejs/`, `resourcepacks/ArcadiaLanguages/`
-4. Demarrer un serveur NeoForge 21.1.221+
+4. Demarrer un serveur NeoForge 21.1.232+
 
 ## Contenu du depot
 
@@ -113,19 +113,19 @@ Ce depot ne contient que ce que nous avons ecrit ou maintenons. Les jars de mods
 
 | Chemin | Role |
 |--------|------|
-| `manifest.json` | Manifest CurseForge du modpack (450 mods) |
+| `manifest.json` | Manifest CurseForge du modpack (456 entrees : 443 mods + 13 shaderpacks) |
 | `STRUCTURE.md` | Carte structurelle complete de l instance (bilingue) |
 | `CHANGELOG.md` | Historique des versions (bilingue) |
 | `config/` | Configurations livrees par le modpack (override les defauts amont) |
 | `defaultconfigs/` | Defauts canoniques distribues par DefaultOptions |
 | `kubejs/` | Scripts, items, recettes, tags, fichiers lang customs |
 | `resourcepacks/ArcadiaLanguages/` | Pack de localisation maison |
-| `LICENSE` | MIT pour nos originaux + clauses de portee/tiers/non-affiliation |
+| `LICENSE` | Licence proprietaire source visible (usage prive uniquement) + clauses tiers/non-affiliation |
 
 ## Credits
 
 - **Auteur** — vyrriox
 - **Organisation** — Team Arcadia
-- **Licence** — MIT (originaux uniquement — voir `LICENSE` pour portee et contenu tiers)
+- **Licence** — Proprietaire source visible : contributions bienvenues, copies/modifications privees autorisees, redistribution et republication interdites (voir `LICENSE`)
 - **Discord** — [discord.gg/xjF8Rtzyd4](https://discord.gg/xjF8Rtzyd4)
 - **Site web** — [arcadia-echoes-of-power.fr](https://arcadia-echoes-of-power.fr/)
