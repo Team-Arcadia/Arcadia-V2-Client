@@ -1,4 +1,4 @@
-<h1 style="text-align: center;"><span style="color: #ffa500;">🌟 ARCADIA V2 — ECHOES OF POWER 🌟</span></h1>
+<h1 style="text-align: center;"><span style="color: #ffa500;">🌟 ARCADIA V2 - ECHOES OF POWER 🌟</span></h1>
 <p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>⚡ Where Magic Meets Machinery ⚡</strong></span></p>
 <p style="text-align: center;"><span style="font-size: large;"><em>The Ultimate Industrial Fantasy Experience Awaits You!</em></span></p>
 
@@ -38,13 +38,13 @@
 <tr>
 <td style="padding: 14px 18px; vertical-align: top; width: 50%; border-right: 2px solid #E74C3C; text-align: center;">
 <p><span style="color: #E74C3C; font-size: large;"><strong>⚔️ EXPERT MODPACK</strong></span></p>
-<p>Arcadia V2 is <strong>designed for both solo and multiplayer</strong>, and can host community servers up to 30–50 players. Expect a steep progression curve, cross-mod gating, and dungeons that scale brutally. Late-game encounters reward coordinated groups, and the <strong>entire pack remains fully clearable solo</strong> with patience.</p>
-<p>✅ <strong>Solo is fully viable</strong> — the FTB Quests book hand-holds you through every mod's progression. <strong>Beginners are welcome</strong>; veterans of <strong>Create, Mekanism, Ars Nouveau or Apotheosis</strong> will feel right at home. Plan on 150–300 hours to reach end-game.</p>
+<p>Arcadia V2 is <strong>designed for both solo and multiplayer</strong>, and can host community servers up to 30-50 players. Expect a steep progression curve, cross-mod gating, and dungeons that scale brutally. Late-game encounters reward coordinated groups, and the <strong>entire pack remains fully clearable solo</strong> with patience.</p>
+<p>✅ <strong>Solo is fully viable</strong>: the FTB Quests book hand-holds you through every mod's progression. <strong>Beginners are welcome</strong>; veterans of <strong>Create, Mekanism, Ars Nouveau or Apotheosis</strong> will feel right at home. Plan on 150-300 hours to reach end-game.</p>
 </td>
 <td style="padding: 14px 18px; vertical-align: top; width: 50%; text-align: center;">
 <p><span style="color: #E74C3C; font-size: large;"><strong>⚔️ MODPACK EXPERT</strong></span></p>
 <p>Arcadia V2 est <strong>conçu pour le solo et le multijoueur</strong>, et supporte des serveurs communautaires jusqu'à 30 à 50 joueurs. Attendez-vous à une courbe de progression abrupte, du gating cross-mod, et des donjons qui scalent brutalement. Les rencontres endgame récompensent les groupes coordonnés, et <strong>l'intégralité du pack reste clôturable en solo</strong> avec de la patience.</p>
-<p>✅ <strong>Le solo reste totalement jouable</strong> — le livre FTB Quests vous guide à travers la progression de chaque mod. <strong>Les débutants sont les bienvenus</strong> ; les vétérans de <strong>Create, Mekanism, Ars Nouveau ou Apotheosis</strong> se sentiront tout de suite à l'aise. Comptez 150 à 300 heures pour atteindre l'endgame.</p>
+<p>✅ <strong>Le solo reste totalement jouable</strong> : le livre FTB Quests vous guide à travers la progression de chaque mod. <strong>Les débutants sont les bienvenus</strong> ; les vétérans de <strong>Create, Mekanism, Ars Nouveau ou Apotheosis</strong> se sentiront tout de suite à l'aise. Comptez 150 à 300 heures pour atteindre l'endgame.</p>
 </td>
 </tr>
 </tbody>
@@ -75,12 +75,12 @@
 <p><span style="color: #ffa500;"><strong>🔗 True Cross-Mod Progression</strong></span><br>Tech and magic don't live in separate silos. Every late-game craft needs <strong>both</strong> ecosystems. 4 custom bridge items (Arcane Circuit, Ethereal Alloy, Industrial Heart, Rune Matrix) tie everything together.</p>
 </td>
 <td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
-<p><span style="color: #ffa500;"><strong>🌐 100% Bilingual EN/FR</strong></span><br><strong>25,000+ translation entries</strong> across the entire pack. Quests, items, custom UIs, every bridge — fully translated. Zero franglais policy enforced by audit pipeline.</p>
+<p><span style="color: #ffa500;"><strong>🌐 100% Bilingual EN/FR</strong></span><br><strong>25,000+ translation entries</strong> across the entire pack. Quests, items, custom UIs, every bridge: fully translated. Zero franglais policy enforced by audit pipeline.</p>
 </td>
 </tr>
 <tr>
 <td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
-<p><span style="color: #ffa500;"><strong>🎮 Curated Server Experience</strong></span><br>In-house mods built for Arcadia: <strong>Arcadia Pets</strong> (collectibles + PvP duels + ELO ladder), Arcadia Guard moderation toolkit, the Prestige progression system, and the legendary Heart of Arcadia. Not mods bolted together — a tailored ecosystem.</p>
+<p><span style="color: #ffa500;"><strong>🎮 Curated Server Experience</strong></span><br>In-house mods built for Arcadia: <strong>Arcadia Pets</strong> (collectibles + PvP duels + ELO ladder), Arcadia Guard moderation toolkit, the Prestige progression system, and the legendary Heart of Arcadia. A tailored ecosystem built for one community.</p>
 </td>
 <td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
 <p><span style="color: #ffa500;"><strong>📜 3,000+ Quest-Guided Journey</strong></span><br>31 chapters of FTB Quests covering every mod's progression path. Whether you're a fresh player or a 1000-hour veteran, you always know what to do next.</p>
@@ -92,7 +92,7 @@
 <p>&nbsp;</p>
 
 <p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>⚙️ The Missing Link</strong></span></p>
-<p style="text-align: center;">After a first industrial era, we identified the "missing link": <strong>the symbiosis between iron and spell</strong>.<br><strong>Arcadia</strong> is not just a list of mods — it is an interconnected experience where steam meets the astral.</p>
+<p style="text-align: center;">After a first industrial era, we identified the "missing link": <strong>the symbiosis between iron and spell</strong>.<br><strong>Arcadia</strong> is an interconnected experience where steam meets the astral.</p>
 
 <p>&nbsp;</p>
 
@@ -105,10 +105,10 @@
 <td style="border-color: transparent; vertical-align: top; width: 50%; padding: 0 12px;">
 <h3 style="text-align: center;"><span style="color: #ffa500;">🔮 Technological Mastery</span></h3>
 <ul>
-<li>🏭 <strong>Mass Production & Automation</strong> — Build aesthetic assembly lines with <strong>Create</strong> and its addon suite (<em>Diesel Generators, Encased, Enchantment Industry, Ore Excavation</em>). Automate everything from tree farms to precision mechanisms.</li>
-<li>☢️ <strong>The High-Tech Era</strong> — Master the atomic age, process nuclear waste, generate insane power. Build a Fusion Reactor with <strong>Mekanism</strong>. Process ores up to 5× efficiency.</li>
-<li>🛠️ <strong>Heavy Industry Engineering</strong> — Multi-block heavy machinery and realistic high-voltage power grids via <strong>Immersive Engineering</strong>.</li>
-<li>📦 <strong>Digital Logistics</strong> — Store millions of items via <strong>Refined Storage</strong>, transmit power wirelessly with <strong>Flux Networks</strong>, per-player loot with <strong>Lootr</strong>.</li>
+<li>🏭 <strong>Mass Production & Automation</strong>, Build aesthetic assembly lines with <strong>Create</strong> and its addon suite (<em>Diesel Generators, Encased, Enchantment Industry, Ore Excavation</em>). Automate everything from tree farms to precision mechanisms.</li>
+<li>☢️ <strong>The High-Tech Era</strong>, Master the atomic age, process nuclear waste, generate insane power. Build a Fusion Reactor with <strong>Mekanism</strong>. Process ores up to 5× efficiency.</li>
+<li>🛠️ <strong>Heavy Industry Engineering</strong>, Multi-block heavy machinery and realistic high-voltage power grids via <strong>Immersive Engineering</strong>.</li>
+<li>📦 <strong>Digital Logistics</strong>, Store millions of items via <strong>Refined Storage</strong>, transmit power wirelessly with <strong>Flux Networks</strong>, per-player loot with <strong>Lootr</strong>.</li>
 </ul>
 </td>
 <td style="border-color: transparent; vertical-align: top; width: 50%; padding: 0 12px;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/machinerie1.gif" width="100%" alt="Industrial automation showcase"></td>
@@ -125,10 +125,10 @@
 <td style="border-color: transparent; vertical-align: top; width: 50%; padding: 0 12px;">
 <h3 style="text-align: center;"><span style="color: #ffa500;">✨ Deep Magical Arts</span></h3>
 <ul>
-<li>🧙‍♂️ <strong>Custom Spell Crafting</strong> — Combine glyphs in <strong>Ars Nouveau</strong> to create mining lasers, farming turrets, or combat fireballs. Automate your base with Starbuncles and Whirlisprigs.</li>
-<li>🔥 <strong>Devastating Combat Magic</strong> — Elemental attacks and full mage armor sets via <strong>Iron's Spellbooks</strong>. Inscribe scrolls into your spellbook for permanent access.</li>
-<li>👻 <strong>Occultism & Spirit Control</strong> — Summon spirits to mine in void dimensions or automate heavy tasks. Massive dimensional storage via demon servants.</li>
-<li>⚔️ <strong>God-Tier RPG Gear</strong> — Affix gems and reforge equipment with <strong>Apotheosis</strong>. Rarities from Common to Mythic, socketed gems, unstoppable builds.</li>
+<li>🧙‍♂️ <strong>Custom Spell Crafting</strong>, Combine glyphs in <strong>Ars Nouveau</strong> to create mining lasers, farming turrets, or combat fireballs. Automate your base with Starbuncles and Whirlisprigs.</li>
+<li>🔥 <strong>Devastating Combat Magic</strong>, Elemental attacks and full mage armor sets via <strong>Iron's Spellbooks</strong>. Inscribe scrolls into your spellbook for permanent access.</li>
+<li>👻 <strong>Occultism & Spirit Control</strong>, Summon spirits to mine in void dimensions or automate heavy tasks. Massive dimensional storage via demon servants.</li>
+<li>⚔️ <strong>God-Tier RPG Gear</strong>, Affix gems and reforge equipment with <strong>Apotheosis</strong>. Rarities from Common to Mythic, socketed gems, unstoppable builds.</li>
 </ul>
 </td>
 </tr>
@@ -137,8 +137,8 @@
 
 <p>&nbsp;</p>
 
-<h3 style="text-align: center;"><span style="color: #ffa500;">🔗 Cross-Mod Bridges — The Arcadia Signature</span></h3>
-<p style="text-align: center;">Four custom progression items tie all major mod ecosystems together. No more isolated "tech vs magic" silos — late-game crafts demand <strong>both</strong>.</p>
+<h3 style="text-align: center;"><span style="color: #ffa500;">🔗 Cross-Mod Bridges: The Arcadia Signature</span></h3>
+<p style="text-align: center;">Four custom progression items tie all major mod ecosystems together. No more isolated "tech vs magic" silos, late-game crafts demand <strong>both</strong>.</p>
 
 <table style="margin-left: auto; margin-right: auto; max-width: 900px; border-collapse: collapse;">
 <tbody>
@@ -162,7 +162,7 @@
 </td>
 <td style="border-color: transparent; vertical-align: top; width: 50%; padding: 0 12px;">
 <h3 style="text-align: center;"><span style="color: #ffa500;">🗺️ Forced Exploration</span></h3>
-<p style="text-align: center;">Progression is tied to discovery. Some key components are not crafted — they are <strong>earned</strong> at the ends of the earth. Explore <strong>The Aether</strong>, <strong>The Twilight Forest</strong>, and the terrifying <strong>Deeper and Darker</strong>.</p>
+<p style="text-align: center;">Progression is tied to discovery. Some key components are not crafted, they are <strong>earned</strong> at the ends of the earth. Explore <strong>The Aether</strong>, <strong>The Twilight Forest</strong>, and the terrifying <strong>Deeper and Darker</strong>.</p>
 </td>
 </tr>
 </tbody>
@@ -179,7 +179,7 @@
 <tr>
 <td style="border-color: transparent; vertical-align: top; width: 50%; padding: 0 12px;">
 <h3 style="text-align: center;"><span style="color: #ffa500;">⚖️ Balanced Progression</span></h3>
-<p>Reworked recipes deliver constant challenge without ever falling into discouraging grind. Cross-mod bridges tie all tech and magic mods together — no shortcuts, no isolated tech trees.</p>
+<p>Reworked recipes deliver constant challenge without ever falling into discouraging grind. Cross-mod bridges tie all tech and magic mods together, no shortcuts, no isolated tech trees.</p>
 <h3 style="text-align: center;"><span style="color: #ffa500;">⚔️ Advanced Combat & RPG</span></h3>
 <p>Realistic combat with <strong>Better Combat</strong>, legendary weapons from <strong>Simply Swords</strong>, powerful artifacts via <strong>Curios</strong> and <strong>Artifacts</strong>.</p>
 <h3 style="text-align: center;"><span style="color: #ffa500;">🐲 Epic Battles</span></h3>
@@ -192,13 +192,13 @@
 
 <p>&nbsp;</p>
 
-<h3 style="text-align: center;"><span style="color: #ffa500;">🏰 Rich Exploration — 547 Unique Structures</span></h3>
-<p style="text-align: center;"><strong>Dungeons Arise</strong>, <strong>Moog's Structures</strong>, <strong>Structory</strong>, <strong>Towns and Towers</strong>. Every biome tells a story. Loot tables fully rebalanced to reward adventurers — diamond drops are rare, netherite is precious, artifacts are craft-only.</p>
+<h3 style="text-align: center;"><span style="color: #ffa500;">🏰 Rich Exploration: 547 Unique Structures</span></h3>
+<p style="text-align: center;"><strong>Dungeons Arise</strong>, <strong>Moog's Structures</strong>, <strong>Structory</strong>, <strong>Towns and Towers</strong>. Every biome tells a story. Loot tables fully rebalanced to reward adventurers, diamond drops are rare, netherite is precious, artifacts are craft-only.</p>
 
 <p>&nbsp;</p>
 
 <h3 style="text-align: center;"><span style="color: #ffa500;">📜 3000+ Quests Across 31 Chapters</span></h3>
-<p style="text-align: center;">The FTB Quests book is your ultimate guide — fully bilingual EN/FR plus 5 more languages.<br>New quests are added in every update.</p>
+<p style="text-align: center;">The FTB Quests book is your ultimate guide, fully bilingual EN/FR plus 5 more languages.<br>New quests are added in every update.</p>
 
 <p>&nbsp;</p>
 
@@ -290,8 +290,8 @@
 
 <p>&nbsp;</p>
 
-<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🚀 Roadmap — What's Coming Next</strong></span></p>
-<p style="text-align: center;">A glimpse of the planned content. This is <strong>the minimum</strong> — much more is in the pipeline. Full roadmap at <a href="https://www.arcadia-echoes-of-power.fr/roadmap" target="_blank" rel="nofollow noopener">arcadia-echoes-of-power.fr/roadmap</a>.</p>
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🚀 Roadmap: What's Coming Next</strong></span></p>
+<p style="text-align: center;">A glimpse of the planned content. This is <strong>the minimum</strong>, much more is in the pipeline. Full roadmap at <a href="https://www.arcadia-echoes-of-power.fr/roadmap" target="_blank" rel="nofollow noopener">arcadia-echoes-of-power.fr/roadmap</a>.</p>
 
 <table style="margin-left: auto; margin-right: auto; max-width: 1000px;">
 <tbody>
@@ -310,7 +310,7 @@
 </td>
 <td style="padding: 14px 16px; vertical-align: top; width: 25%; border: 1px solid #FFA500; text-align: center; background-color: rgba(33, 150, 243, 0.12);">
 <p><span style="color: #2196F3; font-size: large;"><strong>🌌 v2.4<br>Beyond</strong></span></p>
-<p>Even more surprising content — kept secret for now. Stay tuned!</p>
+<p>Even more surprising content, kept secret for now. Stay tuned!</p>
 </td>
 </tr>
 </tbody>
@@ -362,7 +362,7 @@
 <tr>
 <td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.08);">
 <p><span style="color: #ffa500;"><strong>⭐⭐⭐⭐⭐ V4mpyress</strong> <em>(Helper)</em></span></p>
-<p><em>"The modpack is fun, but on the server it's even better — the people, and above all the vibe. I come back every night."</em></p>
+<p><em>"The modpack is fun, but on the server it's even better, the people, and above all the vibe. I come back every night."</em></p>
 </td>
 <td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.08);">
 <p><span style="color: #ffa500;"><strong>⭐⭐⭐⭐⭐ SoulkingII9</strong> <em>(VIP)</em></span></p>
@@ -421,7 +421,7 @@
 
 <p>&nbsp;</p>
 
-<p style="text-align: center;"><a href="https://wabbanode.com/partner/vyrriox" target="_blank" rel="nofollow noopener"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/bannerwab.png" alt="WabbaNode — Official Hosting Partner" width="800"></a></p>
+<p style="text-align: center;"><a href="https://wabbanode.com/partner/vyrriox" target="_blank" rel="nofollow noopener"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/bannerwab.png" alt="WabbaNode - Official Hosting Partner" width="800"></a></p>
 
 <p>&nbsp;</p>
 
@@ -432,7 +432,7 @@
 <hr style="border: 1px solid #FFA500;">
 
 
-<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🌍 A Living Network — 5 Servers Across 2 Regions</strong></span></p>
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🌍 A Living Network: 5 Servers Across 2 Regions</strong></span></p>
 
 <table style="margin-left: auto; margin-right: auto; max-width: 900px; border: 2px solid #FFA500; background-color: rgba(255, 165, 0, 0.10);">
 <tbody>
@@ -442,7 +442,7 @@
 <p><strong>Active Servers</strong></p>
 </td>
 <td style="padding: 16px 20px; vertical-align: middle; width: 25%; border-right: 2px solid #FFA500; text-align: center;">
-<p><span style="color: #ffa500; font-size: xx-large;"><strong>40–80</strong></span></p>
+<p><span style="color: #ffa500; font-size: xx-large;"><strong>40-80</strong></span></p>
 <p><strong>Players Online</strong></p>
 </td>
 <td style="padding: 16px 20px; vertical-align: middle; width: 25%; border-right: 2px solid #FFA500; text-align: center;">
@@ -510,12 +510,12 @@
 <p><span style="color: #ffa500;"><strong>🔗 Vraie Progression Cross-Mod</strong></span><br>Tech et magie ne vivent pas en silos séparés. Chaque craft endgame demande <strong>les deux</strong> écosystèmes. 4 items pont custom (Circuit Arcane, Alliage Éthéré, Cœur Industriel, Matrice de Runes) relient le tout.</p>
 </td>
 <td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
-<p><span style="color: #ffa500;"><strong>🌐 100% Bilingue EN/FR</strong></span><br><strong>25 000+ entrées de traduction</strong> dans tout le pack. Quêtes, items, UI custom, chaque pont — tout est traduit. Politique zéro franglais appliquée par pipeline d'audit.</p>
+<p><span style="color: #ffa500;"><strong>🌐 100% Bilingue EN/FR</strong></span><br><strong>25 000+ entrées de traduction</strong> dans tout le pack. Quêtes, items, UI custom, chaque pont : tout est traduit. Politique zéro franglais appliquée par pipeline d'audit.</p>
 </td>
 </tr>
 <tr>
 <td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
-<p><span style="color: #ffa500;"><strong>🎮 Expérience Serveur Curatée</strong></span><br>Mods maison conçus pour Arcadia : <strong>Arcadia Pets</strong> (collectibles + duels PvP + classement ELO), Arcadia Guard pour la modération, le système de Prestige, et le légendaire Heart of Arcadia. Pas un assemblage de mods — un écosystème conçu pour vous.</p>
+<p><span style="color: #ffa500;"><strong>🎮 Expérience Serveur Curatée</strong></span><br>Mods maison conçus pour Arcadia : <strong>Arcadia Pets</strong> (collectibles + duels PvP + classement ELO), Arcadia Guard pour la modération, le système de Prestige, et le légendaire Heart of Arcadia. Un écosystème pensé pour une seule communauté.</p>
 </td>
 <td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
 <p><span style="color: #ffa500;"><strong>📜 3 000+ Quêtes Guidées</strong></span><br>31 chapitres FTB Quests couvrant la progression de chaque mod. Que vous soyez débutant ou vétéran à 1000 heures, vous savez toujours quoi faire ensuite.</p>
@@ -527,7 +527,7 @@
 <p>&nbsp;</p>
 
 <p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>⚙️ Le Chaînon Manquant</strong></span></p>
-<p style="text-align: center;">Après une première épopée industrielle, nous avons identifié le « chaînon manquant » : <strong>la symbiose entre le fer et le sortilège</strong>.<br><strong>Arcadia</strong> n'est pas qu'une simple liste de mods — c'est une expérience interconnectée où la vapeur côtoie l'astral.</p>
+<p style="text-align: center;">Après une première épopée industrielle, nous avons identifié le « chaînon manquant » : <strong>la symbiose entre le fer et le sortilège</strong>.<br><strong>Arcadia</strong> est une expérience interconnectée où la vapeur côtoie l'astral.</p>
 
 <p>&nbsp;</p>
 
@@ -540,10 +540,10 @@
 <td style="border-color: transparent; vertical-align: top; width: 50%; padding: 0 12px;">
 <h3 style="text-align: center;"><span style="color: #ffa500;">🔮 Maîtrise Technologique</span></h3>
 <ul>
-<li>🏭 <strong>Production de Masse & Automatisation</strong> — Construisez des chaînes esthétiques avec <strong>Create</strong> et sa suite d'addons (<em>Diesel Generators, Encased, Enchantment Industry, Ore Excavation</em>). Automatisez tout, des fermes à arbres aux mécanismes de précision.</li>
-<li>☢️ <strong>L'Ère High-Tech</strong> — Maîtrisez l'âge atomique, traitez les déchets nucléaires, générez une puissance folle. Construisez un Réacteur à Fusion avec <strong>Mekanism</strong>. Traitement des minerais ×5.</li>
-<li>🛠️ <strong>Ingénierie Lourde</strong> — Machines multi-blocs et réseaux haute tension réalistes via <strong>Immersive Engineering</strong>.</li>
-<li>📦 <strong>Logistique Digitale</strong> — Stockez des millions d'items via <strong>Refined Storage</strong>, transmettez l'énergie sans fil avec <strong>Flux Networks</strong>, coffres instanciés avec <strong>Lootr</strong>.</li>
+<li>🏭 <strong>Production de Masse & Automatisation</strong>, Construisez des chaînes esthétiques avec <strong>Create</strong> et sa suite d'addons (<em>Diesel Generators, Encased, Enchantment Industry, Ore Excavation</em>). Automatisez tout, des fermes à arbres aux mécanismes de précision.</li>
+<li>☢️ <strong>L'Ère High-Tech</strong>, Maîtrisez l'âge atomique, traitez les déchets nucléaires, générez une puissance folle. Construisez un Réacteur à Fusion avec <strong>Mekanism</strong>. Traitement des minerais ×5.</li>
+<li>🛠️ <strong>Ingénierie Lourde</strong>, Machines multi-blocs et réseaux haute tension réalistes via <strong>Immersive Engineering</strong>.</li>
+<li>📦 <strong>Logistique Digitale</strong>, Stockez des millions d'items via <strong>Refined Storage</strong>, transmettez l'énergie sans fil avec <strong>Flux Networks</strong>, coffres instanciés avec <strong>Lootr</strong>.</li>
 </ul>
 </td>
 <td style="border-color: transparent; vertical-align: top; width: 50%; padding: 0 12px;"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/machinerie2.gif" width="100%" alt="Industrie et automatisation"></td>
@@ -560,10 +560,10 @@
 <td style="border-color: transparent; vertical-align: top; width: 50%; padding: 0 12px;">
 <h3 style="text-align: center;"><span style="color: #ffa500;">✨ Arts Magiques Profonds</span></h3>
 <ul>
-<li>🧙‍♂️ <strong>Création de Sorts Personnalisés</strong> — Combinez des glyphes dans <strong>Ars Nouveau</strong> pour créer des lasers de minage, des tourelles agricoles ou des boules de feu. Automatisez avec Starbuncles et Whirlisprigs.</li>
-<li>🔥 <strong>Magie de Combat Dévastatrice</strong> — Attaques élémentaires et armures de mage avec <strong>Iron's Spellbooks</strong>. Inscrivez les parchemins dans votre grimoire pour un accès permanent.</li>
-<li>👻 <strong>Occultisme & Contrôle des Esprits</strong> — Invoquez des esprits pour miner dans le vide ou automatiser des tâches lourdes. Stockage dimensionnel via démons serviteurs.</li>
-<li>⚔️ <strong>Équipement RPG Divin</strong> — Sertissez des gemmes et reforgez votre stuff avec <strong>Apotheosis</strong>. Raretés Commun → Mythique, châsses, builds invincibles.</li>
+<li>🧙‍♂️ <strong>Création de Sorts Personnalisés</strong>, Combinez des glyphes dans <strong>Ars Nouveau</strong> pour créer des lasers de minage, des tourelles agricoles ou des boules de feu. Automatisez avec Starbuncles et Whirlisprigs.</li>
+<li>🔥 <strong>Magie de Combat Dévastatrice</strong>, Attaques élémentaires et armures de mage avec <strong>Iron's Spellbooks</strong>. Inscrivez les parchemins dans votre grimoire pour un accès permanent.</li>
+<li>👻 <strong>Occultisme & Contrôle des Esprits</strong>, Invoquez des esprits pour miner dans le vide ou automatiser des tâches lourdes. Stockage dimensionnel via démons serviteurs.</li>
+<li>⚔️ <strong>Équipement RPG Divin</strong>, Sertissez des gemmes et reforgez votre stuff avec <strong>Apotheosis</strong>. Raretés Commun → Mythique, châsses, builds invincibles.</li>
 </ul>
 </td>
 </tr>
@@ -572,8 +572,8 @@
 
 <p>&nbsp;</p>
 
-<h3 style="text-align: center;"><span style="color: #ffa500;">🔗 Ponts Cross-Mod — La Signature Arcadia</span></h3>
-<p style="text-align: center;">Quatre items de progression custom relient tous les écosystèmes de mods. Plus de silos isolés « tech vs magie » — les crafts endgame demandent <strong>les deux</strong>.</p>
+<h3 style="text-align: center;"><span style="color: #ffa500;">🔗 Ponts Cross-Mod : La Signature Arcadia</span></h3>
+<p style="text-align: center;">Quatre items de progression custom relient tous les écosystèmes de mods. Plus de silos isolés « tech vs magie », les crafts endgame demandent <strong>les deux</strong>.</p>
 
 <table style="margin-left: auto; margin-right: auto; max-width: 900px; border-collapse: collapse;">
 <tbody>
@@ -597,7 +597,7 @@
 </td>
 <td style="border-color: transparent; vertical-align: top; width: 50%; padding: 0 12px;">
 <h3 style="text-align: center;"><span style="color: #ffa500;">🗺️ Exploration Forcée</span></h3>
-<p style="text-align: center;">La progression est liée à la découverte. Certains composants clés ne se craftent pas — ils se <strong>méritent</strong> au bout du monde. Explorez <strong>L'Aether</strong>, <strong>La Forêt du Crépuscule</strong> et le terrifiant <strong>Deeper and Darker</strong>.</p>
+<p style="text-align: center;">La progression est liée à la découverte. Certains composants clés ne se craftent pas, ils se <strong>méritent</strong> au bout du monde. Explorez <strong>L'Aether</strong>, <strong>La Forêt du Crépuscule</strong> et le terrifiant <strong>Deeper and Darker</strong>.</p>
 </td>
 </tr>
 </tbody>
@@ -614,7 +614,7 @@
 <tr>
 <td style="border-color: transparent; vertical-align: top; width: 50%; padding: 0 12px;">
 <h3 style="text-align: center;"><span style="color: #ffa500;">⚖️ Progression Équilibrée</span></h3>
-<p>Des recettes retravaillées pour offrir un défi constant, sans jamais tomber dans le grind décourageant. Des ponts cross-mod relient tech et magie — aucun raccourci, aucun arbre technologique isolé.</p>
+<p>Des recettes retravaillées pour offrir un défi constant, sans jamais tomber dans le grind décourageant. Des ponts cross-mod relient tech et magie, aucun raccourci, aucun arbre technologique isolé.</p>
 <h3 style="text-align: center;"><span style="color: #ffa500;">⚔️ Combat Avancé & RPG</span></h3>
 <p>Combats réalistes avec <strong>Better Combat</strong>, armes légendaires de <strong>Simply Swords</strong>, artefacts puissants via <strong>Curios</strong> et <strong>Artifacts</strong>.</p>
 <h3 style="text-align: center;"><span style="color: #ffa500;">🐲 Combats Épiques</span></h3>
@@ -627,13 +627,13 @@
 
 <p>&nbsp;</p>
 
-<h3 style="text-align: center;"><span style="color: #ffa500;">🏰 Exploration Riche — 547 Structures Uniques</span></h3>
-<p style="text-align: center;"><strong>Dungeons Arise</strong>, <strong>Moog's Structures</strong>, <strong>Structory</strong>, <strong>Towns and Towers</strong>. Chaque biome raconte une histoire. Tables de loot entièrement rééquilibrées — le diamant est rare, le netherite précieux, les artefacts uniquement par craft.</p>
+<h3 style="text-align: center;"><span style="color: #ffa500;">🏰 Exploration Riche : 547 Structures Uniques</span></h3>
+<p style="text-align: center;"><strong>Dungeons Arise</strong>, <strong>Moog's Structures</strong>, <strong>Structory</strong>, <strong>Towns and Towers</strong>. Chaque biome raconte une histoire. Tables de loot entièrement rééquilibrées, le diamant est rare, le netherite précieux, les artefacts uniquement par craft.</p>
 
 <p>&nbsp;</p>
 
 <h3 style="text-align: center;"><span style="color: #ffa500;">📜 3000+ Quêtes sur 31 Chapitres</span></h3>
-<p style="text-align: center;">Le livre FTB Quests est votre guide ultime — entièrement bilingue FR/EN plus 5 autres langues.<br>De nouvelles quêtes sont ajoutées à chaque mise à jour.</p>
+<p style="text-align: center;">Le livre FTB Quests est votre guide ultime, entièrement bilingue FR/EN plus 5 autres langues.<br>De nouvelles quêtes sont ajoutées à chaque mise à jour.</p>
 
 <p>&nbsp;</p>
 
@@ -721,8 +721,8 @@
 
 <p>&nbsp;</p>
 
-<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🚀 Roadmap — Ce qui Arrive</strong></span></p>
-<p style="text-align: center;">Un aperçu du contenu prévu. C'est <strong>le minimum</strong> — bien plus est en préparation. Roadmap complète sur <a href="https://www.arcadia-echoes-of-power.fr/roadmap" target="_blank" rel="nofollow noopener">arcadia-echoes-of-power.fr/roadmap</a>.</p>
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🚀 Roadmap : Ce qui Arrive</strong></span></p>
+<p style="text-align: center;">Un aperçu du contenu prévu. C'est <strong>le minimum</strong>, bien plus est en préparation. Roadmap complète sur <a href="https://www.arcadia-echoes-of-power.fr/roadmap" target="_blank" rel="nofollow noopener">arcadia-echoes-of-power.fr/roadmap</a>.</p>
 
 <table style="margin-left: auto; margin-right: auto; max-width: 1000px;">
 <tbody>
@@ -741,7 +741,7 @@
 </td>
 <td style="padding: 14px 16px; vertical-align: top; width: 25%; border: 1px solid #FFA500; text-align: center; background-color: rgba(33, 150, 243, 0.12);">
 <p><span style="color: #2196F3; font-size: large;"><strong>🌌 v2.4<br>Au-delà</strong></span></p>
-<p>D'autre contenu encore plus surprenant — gardé secret pour le moment. Restez à l'écoute !</p>
+<p>D'autre contenu encore plus surprenant, gardé secret pour le moment. Restez à l'écoute !</p>
 </td>
 </tr>
 </tbody>
@@ -793,7 +793,7 @@
 <tr>
 <td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.08);">
 <p><span style="color: #ffa500;"><strong>⭐⭐⭐⭐⭐ V4mpyress</strong> <em>(Helper)</em></span></p>
-<p><em>« Le Modpack est fun mais sur le serv c'est encore mieux, les gens mais surtout l'ambiance — j'y reviens chaque soir. »</em></p>
+<p><em>« Le Modpack est fun mais sur le serv c'est encore mieux, les gens mais surtout l'ambiance, j'y reviens chaque soir. »</em></p>
 </td>
 <td style="padding: 14px 18px; vertical-align: top; width: 50%; border: 1px solid #FFA500; background-color: rgba(255, 165, 0, 0.08);">
 <p><span style="color: #ffa500;"><strong>⭐⭐⭐⭐⭐ SoulkingII9</strong> <em>(VIP)</em></span></p>
@@ -840,7 +840,7 @@
 
 <p>&nbsp;</p>
 
-<p style="text-align: center;"><span style="color: #ffa500;"><strong>☕ Arguments Java (JVM) Optimisés — Aikar's flags</strong></span><br>Recommandés pour des performances optimales. <strong>⚡ FPS maximum, zéro lag. ⚡</strong></p>
+<p style="text-align: center;"><span style="color: #ffa500;"><strong>☕ Arguments Java (JVM) Optimisés (Aikar's flags)</strong></span><br>Recommandés pour des performances optimales. <strong>⚡ FPS maximum, zéro lag. ⚡</strong></p>
 <p style="text-align: center;"><code style="display: block; color: #ffa500; border: 1px solid #FFA500; text-align: left; padding: 10px; background-color: rgba(0,0,0,0.03);">-XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true</code></p>
 
 <p>&nbsp;</p>
@@ -852,7 +852,7 @@
 
 <p>&nbsp;</p>
 
-<p style="text-align: center;"><a href="https://lordhosting.fr/gaming/serveur-minecraft?ref=arcadia" target="_blank" rel="nofollow noopener"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/bannerlord.png" alt="LordHosting — Hébergeur Officiel Partenaire" width="800"></a></p>
+<p style="text-align: center;"><a href="https://lordhosting.fr/gaming/serveur-minecraft?ref=arcadia" target="_blank" rel="nofollow noopener"><img style="border: 2px solid #FFA500;" src="https://arcadia-echoes-of-power.fr/storage/curseforge/bannerlord.png" alt="LordHosting, Hébergeur Officiel Partenaire" width="800"></a></p>
 
 <p>&nbsp;</p>
 
@@ -863,7 +863,7 @@
 <hr style="border: 1px solid #FFA500;">
 
 
-<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🌍 Un Réseau Vivant — 5 Serveurs sur 2 Régions</strong></span></p>
+<p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>🌍 Un Réseau Vivant : 5 Serveurs sur 2 Régions</strong></span></p>
 
 <table style="margin-left: auto; margin-right: auto; max-width: 900px; border: 2px solid #FFA500; background-color: rgba(255, 165, 0, 0.10);">
 <tbody>
@@ -873,7 +873,7 @@
 <p><strong>Serveurs Actifs</strong></p>
 </td>
 <td style="padding: 16px 20px; vertical-align: middle; width: 25%; border-right: 2px solid #FFA500; text-align: center;">
-<p><span style="color: #ffa500; font-size: xx-large;"><strong>40–80</strong></span></p>
+<p><span style="color: #ffa500; font-size: xx-large;"><strong>40-80</strong></span></p>
 <p><strong>Joueurs en Ligne</strong></p>
 </td>
 <td style="padding: 16px 20px; vertical-align: middle; width: 25%; border-right: 2px solid #FFA500; text-align: center;">
@@ -930,7 +930,7 @@
 
 <p style="text-align: center;"><a href="https://www.curseforge.com/minecraft/modpacks/arcadia-echoes-of-power-v2/relations/dependencies" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/View_Full_Mod_List-CurseForge-F16436?style=for-the-badge&amp;logo=curseforge&amp;logoColor=white" alt="View full mod list on CurseForge"></a></p>
 
-<p style="text-align: center;"><em>The complete and always-up-to-date list of bundled mods is maintained directly on CurseForge's "Relations / Dependencies" tab — every author there earns their credit.</em><br><em>La liste complète et toujours à jour des mods inclus est maintenue directement sur l'onglet « Relations / Dépendances » de CurseForge — chaque auteur y est crédité.</em></p>
+<p style="text-align: center;"><em>The complete and always-up-to-date list of bundled mods is maintained directly on CurseForge's "Relations / Dependencies" tab, every author there earns their credit.</em><br><em>La liste complète et toujours à jour des mods inclus est maintenue directement sur l'onglet « Relations / Dépendances » de CurseForge, chaque auteur y est crédité.</em></p>
 
 <p style="text-align: center;"><span style="font-size: medium;">⚙️ All mod translations (🇫🇷 French) done by the Arcadia team</span><br><span style="font-size: medium;">⚙️ Toutes les traductions de mods (🇫🇷 Français) réalisées par l'équipe Arcadia</span></p>
 
