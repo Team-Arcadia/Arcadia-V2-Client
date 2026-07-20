@@ -29,7 +29,6 @@ The people who made Arcadia possible.
 | **Not_Found** | Help with Arcadia development |
 | **SiriusT** | Thanks for the help with the Arcadia mods |
 | **Beuzed** | Thanks for the 3D designs! |
-| **Rayzer56** | Thanks for the help with translations! |
 | **Flypiwith** | Builder |
 | **Royal_F** | Writer |
 
@@ -40,6 +39,7 @@ The people who made Arcadia possible.
 | **JLPopeye** | Former administrator, thank you for the help on quests! |
 | **Skaizenn** | Thanks for the videos that brought Arcadia to life |
 | **Gaspich** | Thanks for the help with testing |
+| **Rayzer56** | Thanks for the help with translations! |
 
 And thank you to everyone else who has helped, played, reported bugs, and kept the community alive!
 
@@ -76,7 +76,6 @@ Les personnes qui ont rendu Arcadia possible.
 | **Not_Found** | Aide au développement d'Arcadia |
 | **SiriusT** | Merci pour l'aide sur les mods Arcadia |
 | **Beuzed** | Merci pour les designs 3D ! |
-| **Rayzer56** | Merci pour l'aide aux traductions ! |
 | **Flypiwith** | Builder |
 | **Royal_F** | Rédacteur |
 
@@ -87,5 +86,6 @@ Les personnes qui ont rendu Arcadia possible.
 | **JLPopeye** | Ancien administrateur, merci pour l'aide sur les quêtes ! |
 | **Skaizenn** | Merci pour les vidéos qui ont fait vivre Arcadia |
 | **Gaspich** | Merci pour l'aide aux tests |
+| **Rayzer56** | Merci pour l'aide aux traductions ! |
 
 Et merci à tous les autres qui ont aidé, joué, signalé des bugs et fait vivre la communauté !
