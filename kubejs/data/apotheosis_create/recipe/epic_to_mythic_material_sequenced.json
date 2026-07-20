@@ -83,9 +83,9 @@
           "item": "apotheosis_create:incomplete_mythic_material"
         },
         {
-          "fluid": "minecraft:lava",
+          "type": "neoforge:single",
           "amount": 500,
-          "nbt": {}
+          "fluid": "minecraft:lava"
         }
       ],
       "results": [
@@ -101,9 +101,9 @@
           "item": "apotheosis_create:incomplete_mythic_material"
         },
         {
-          "fluid": "minecraft:water",
+          "type": "neoforge:single",
           "amount": 1000,
-          "nbt": {}
+          "fluid": "minecraft:water"
         }
       ],
       "results": [
