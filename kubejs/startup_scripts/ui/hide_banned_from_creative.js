@@ -170,7 +170,7 @@ StartupEvents.modifyCreativeTab("minecraft:search", (event) => {
         "supplementaries:cannon_boat_dark_oak",
         "supplementaries:cannon_boat_mangrove",
         "supplementaries:cannon_boat_cherry",
-        "supplementaries:cannon_boat_bamboo",
+        "supplementaries:cannon_raft_bamboo",
 
         // Backtanks (Banned)
         "creategoggles:chainmail_backtank",
@@ -325,6 +325,6 @@ StartupEvents.modifyCreativeTab("supplementaries:tab", (event) => {
      "supplementaries:cannon_boat_birch", "supplementaries:cannon_boat_jungle",
      "supplementaries:cannon_boat_acacia", "supplementaries:cannon_boat_dark_oak",
      "supplementaries:cannon_boat_mangrove", "supplementaries:cannon_boat_cherry",
-     "supplementaries:cannon_boat_bamboo"
+     "supplementaries:cannon_raft_bamboo"
     ].forEach(item => event.remove(item));
 });
