@@ -393,8 +393,8 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center; padding: 8px; border: 1px solid #FFA500;"><strong>RAM:</strong> 4 GB allocated</td>
-<td style="text-align: center; padding: 8px; border: 1px solid #FFA500;"><strong>RAM:</strong> 8 GB allocated</td>
+<td style="text-align: center; padding: 8px; border: 1px solid #FFA500;"><strong>RAM:</strong> 11 GB allocated (8 GB when playing on a server)</td>
+<td style="text-align: center; padding: 8px; border: 1px solid #FFA500;"><strong>RAM:</strong> 14 GB allocated (12 GB when playing on a server)</td>
 </tr>
 <tr style="background-color: rgba(255, 165, 0, 0.10);">
 <td style="text-align: center; padding: 8px; border: 1px solid #FFA500;"><strong>GPU:</strong> RTX 2060 / GTX 1660 Ti</td>
@@ -824,8 +824,8 @@
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center; padding: 8px; border: 1px solid #FFA500;"><strong>RAM :</strong> 4 Go alloués</td>
-<td style="text-align: center; padding: 8px; border: 1px solid #FFA500;"><strong>RAM :</strong> 8 Go alloués</td>
+<td style="text-align: center; padding: 8px; border: 1px solid #FFA500;"><strong>RAM :</strong> 11 Go alloués (8 Go en jouant sur serveur)</td>
+<td style="text-align: center; padding: 8px; border: 1px solid #FFA500;"><strong>RAM :</strong> 14 Go alloués (12 Go en jouant sur serveur)</td>
 </tr>
 <tr style="background-color: rgba(255, 165, 0, 0.10);">
 <td style="text-align: center; padding: 8px; border: 1px solid #FFA500;"><strong>GPU :</strong> RTX 2060 / GTX 1660 Ti</td>
