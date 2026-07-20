@@ -1,0 +1,11929 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "test"
+	group: "3294587A31F15194"
+	icon: {
+		components: {
+			"!ftbquests:icon": { }
+			"ftbquests:entity_face": "minecraft:cow"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "5F5A44120CD729F9"
+	images: [
+		{
+			height: 4.0d
+			image: "occultism:textures/gui/book/allay.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			height: 5.0d
+			image: "ftblibrary:textures/faces/alexsmobs/gorilla.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -16.0d
+			y: -17.5d
+		}
+		{
+			height: 4.0d
+			image: "cosmeticarmoursmod:item/dogearorange"
+			rotation: 0.0d
+			width: 4.0d
+			x: -8.5d
+			y: -17.0d
+		}
+		{
+			height: 2.0d
+			image: "ftblibrary:textures/faces/minecraft/trader_llama.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.0d
+			y: -17.5d
+		}
+		{
+			height: 5.0d
+			image: "nomowanderer:item/trader_rug"
+			order: -1
+			rotation: 90.0d
+			width: 5.0d
+			x: -1.0d
+			y: -17.5d
+		}
+		{
+			height: 4.0d
+			image: "minecraft:block/white_wool"
+			rotation: 0.0d
+			width: 4.0d
+			x: 26.0d
+			y: -17.5d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:item/armadillo_scute"
+			rotation: 0.0d
+			width: 5.0d
+			x: 36.0d
+			y: -17.5d
+		}
+		{
+			height: 5.0d
+			image: "irons_spellbooks:textures/gui/spell_icons/summon_polar_bear.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 36.0d
+			y: -10.0d
+		}
+		{
+			height: 3.0d
+			image: "ftblibrary:textures/faces/minecraft/donkey.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 26.0d
+			y: -10.0d
+		}
+		{
+			height: 5.0d
+			image: "supplementaries:textures/particle/feather_2.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 15.857142857142847d
+			y: -10.255952380952372d
+		}
+		{
+			height: 3.0d
+			image: "create_things_and_misc:block/slime_still"
+			rotation: 0.0d
+			width: 3.0d
+			x: 6.5d
+			y: -9.5d
+		}
+		{
+			height: 2.0d
+			image: "twilightforest:block/torchberry_plant"
+			rotation: 180.0d
+			width: 2.0d
+			x: 6.5d
+			y: -11.5d
+		}
+		{
+			height: 7.0d
+			image: "crabbersdelight:item/coconut_halve"
+			rotation: 0.0d
+			width: 7.0d
+			x: -1.0d
+			y: -9.5d
+		}
+		{
+			height: 3.0d
+			image: "ftblibrary:textures/faces/quark/crab.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -1.0714285714285765d
+			y: -10.720238095238088d
+		}
+		{
+			height: 5.0d
+			image: "ecologics:item/walnut"
+			rotation: 0.0d
+			width: 5.0d
+			x: -8.5d
+			y: -9.5d
+		}
+		{
+			height: 5.0d
+			image: "twilightforest:item/raven_feather"
+			rotation: 0.0d
+			width: 5.0d
+			x: -16.0d
+			y: -10.0d
+		}
+		{
+			height: 4.0d
+			image: "ftblibrary:textures/faces/minecraft/sniffer.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			height: 4.0d
+			image: "ftblibrary:textures/faces/minecraft/cat.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			height: 5.0d
+			image: "dustydecorations:block/cowhide_one"
+			rotation: 0.0d
+			width: 5.0d
+			x: 16.0d
+			y: -2.5d
+		}
+		{
+			color: 14632522
+			height: 3.0d
+			image: "easy_npc:item/spawn_egg/fox"
+			rotation: 0.0d
+			width: 3.0d
+			x: 26.0d
+			y: -2.5d
+		}
+		{
+			color: 14632522
+			height: 5.0d
+			image: "easy_npc:item/spawn_egg/fox"
+			rotation: 0.0d
+			width: 5.0d
+			x: 16.0d
+			y: -17.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:item/honeycomb"
+			rotation: 0.0d
+			width: 5.0d
+			x: 36.0d
+			y: -2.0d
+		}
+		{
+			height: 6.0d
+			image: "ftblibrary:textures/faces/minecraft/camel.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 35.5d
+			y: 5.0d
+		}
+		{
+			height: 6.0d
+			image: "easy_npc:item/spawn_egg/pig"
+			rotation: 0.0d
+			width: 6.0d
+			x: 26.0d
+			y: 4.5d
+		}
+		{
+			height: 6.0d
+			image: "ftblibrary:textures/faces/minecraft/rabbit.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 16.0d
+			y: 5.0d
+		}
+		{
+			height: 5.0d
+			image: "ftblibrary:textures/faces/quark/crab.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			height: 5.0d
+			image: "ftblibrary:textures/faces/thermal/blizz.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			height: 4.0d
+			image: "mowziesmobs:item/bluff_rod"
+			rotation: 0.0d
+			width: 4.0d
+			x: -8.523809523809526d
+			y: 4.970238095238102d
+		}
+		{
+			height: 5.0d
+			image: "ftblibrary:textures/faces/minecraft/wolf.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -15.904761904761912d
+			y: 5.101190476190482d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:textures/gui/sprites/toast/mouse.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -8.5d
+			y: 13.5d
+		}
+		{
+			height: 6.0d
+			image: "mcwholidays:block/bat_wall_deco_1"
+			rotation: 0.0d
+			width: 6.0d
+			x: 26.0d
+			y: 13.0d
+		}
+		{
+			color: 11639052
+			height: 5.0d
+			image: "ftblibrary:textures/faces/caverns_and_chasms/skeleton_wolf.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -1.0d
+			y: 13.0d
+		}
+		{
+			color: 13740065
+			height: 6.0d
+			image: "ftblibrary:textures/faces/minecraft/rabbit.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.0d
+			x: 16.0d
+			y: 12.5d
+		}
+		{
+			height: 1.6d
+			image: "mekanism:block/block_charcoal"
+			rotation: 0.0d
+			width: 0.6d
+			x: 15.4d
+			y: 12.8d
+		}
+		{
+			height: 1.6d
+			image: "mekanism:block/block_charcoal"
+			rotation: 0.0d
+			width: 0.6d
+			x: 16.7d
+			y: 12.8d
+		}
+		{
+			height: 2.5d
+			image: "dustydecorations:block/chiseled_granite_ornament"
+			order: 2
+			rotation: 0.0d
+			width: 2.5d
+			x: 6.5d
+			y: 14.0d
+		}
+		{
+			height: 3.0d
+			image: "ftblibrary:textures/faces/alexsmobs/rattlesnake.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -16.0d
+			y: -3.0d
+		}
+		{
+			color: 12698049
+			height: 3.0d
+			image: "connectedglass:scratched_glass/scratched_glass_white_edge"
+			order: 2
+			rotation: 0.0d
+			width: 2.0d
+			x: -16.0d
+			y: 12.0d
+		}
+		{
+			height: 5.0d
+			image: "dustydecorations:item/cowskullitem"
+			rotation: 0.0d
+			width: 5.0d
+			x: -16.0d
+			y: 13.5d
+		}
+		{
+			height: 1.2d
+			image: "chipped:block/sand/desert_sand"
+			rotation: 0.0d
+			width: 1.2d
+			x: -17.5d
+			y: -1.5d
+		}
+		{
+			height: 1.2d
+			image: "chipped:block/sand/desert_sand"
+			rotation: 0.0d
+			width: 1.2d
+			x: -16.5d
+			y: -1.5d
+		}
+		{
+			height: 1.2d
+			image: "chipped:block/sand/desert_sand"
+			rotation: 0.0d
+			width: 1.2d
+			x: -15.5d
+			y: -1.5d
+		}
+		{
+			height: 1.2d
+			image: "chipped:block/sand/desert_sand"
+			rotation: 0.0d
+			width: 1.2d
+			x: -14.5d
+			y: -1.5d
+		}
+		{
+			height: 1.2d
+			image: "chipped:block/sand/desert_sand"
+			rotation: 0.0d
+			width: 1.2d
+			x: -15.5d
+			y: -2.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/iron_block"
+			rotation: -20.0d
+			width: 0.1d
+			x: 5.289115646258452d
+			y: 12.97465986394559d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/iron_block"
+			rotation: -15.0d
+			width: 0.1d
+			x: 5.5d
+			y: 12.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/iron_block"
+			rotation: -10.0d
+			width: 0.1d
+			x: 6.0d
+			y: 12.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/iron_block"
+			rotation: 0.0d
+			width: 0.1d
+			x: 6.5d
+			y: 12.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/iron_block"
+			rotation: 10.0d
+			width: 0.1d
+			x: 7.0d
+			y: 12.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/iron_block"
+			rotation: 25.0d
+			width: 0.1d
+			x: 7.7585034013605d
+			y: 13.566496598639489d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/iron_block"
+			rotation: 15.0d
+			width: 0.1d
+			x: 7.431972789115591d
+			y: 12.444047619047623d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/iron_block"
+			rotation: 20.0d
+			width: 0.1d
+			x: 7.738095238095184d
+			y: 12.89302721088437d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/iron_block"
+			rotation: -25.0d
+			width: 0.1d
+			x: 5.227891156462533d
+			y: 13.648129251700695d
+		}
+		{
+			color: 7237230
+			height: 2.0d
+			image: "ftblibrary:textures/faces/alexsmobs/rattlesnake.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.472789115646194d
+			y: -17.673299319727874d
+		}
+		{
+			alpha: 175
+			height: 0.8d
+			image: "createdieselgenerators:block/cement/white_still"
+			rotation: 0.0d
+			width: 2.5d
+			x: 6.5d
+			y: -17.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "343DB86AC7CF058B"
+			rewards: [
+				{
+					count: 2
+					id: "6E6388BF678DC184"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "6391C6A6F9232FB6"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:allay"
+				id: "45C7CB779F5C06C9"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3C91D5A4BF5D941F"]
+			id: "45B0F4F62FD82CC2"
+			rewards: [
+				{
+					count: 2
+					id: "1CF9BF35C3A27C8D"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2CB3DCEA44425222"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "minecraft:armadillo"
+				id: "014BD5B0A6D77B2C"
+				type: "kill"
+				value: 500L
+			}]
+			x: 36.0d
+			y: -14.5d
+		}
+		{
+			id: "6E9ECDEF5C28201A"
+			rewards: [
+				{
+					count: 2
+					id: "3FD7D66AEAFC7E15"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "48FB59DE9C632E23"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:bat"
+				id: "6670C874EA4B1CD0"
+				type: "kill"
+				value: 10L
+			}]
+			x: 26.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4B63F7163DDCD06C"]
+			id: "270DCB6C79147401"
+			rewards: [
+				{
+					count: 2
+					id: "58086D21D74933F9"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "689FFBFAB34A79CC"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "minecraft:bee"
+				id: "5A19AE4F6A2248FF"
+				type: "kill"
+				value: 500L
+			}]
+			x: 36.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6B6FE2A43E057C36"]
+			id: "4BDA396B43EEA17E"
+			rewards: [
+				{
+					count: 2
+					id: "286BABB4894210F4"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2931ABEEAE52791A"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "minecraft:camel"
+				id: "1EA8B496C92B924D"
+				type: "kill"
+				value: 500L
+			}]
+			x: 36.0d
+			y: 8.0d
+		}
+		{
+			id: "76FFF19517CA3DD1"
+			rewards: [
+				{
+					count: 2
+					id: "4BB9FD66D2AB47E2"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "49447E4060198D6C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:cat"
+				id: "7160B58495A84CAC"
+				type: "kill"
+				value: 10L
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			id: "04A06B974C0F66AE"
+			rewards: [
+				{
+					count: 2
+					id: "0CDC1022D4209DCE"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "638C59DE03DE66C3"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:chicken"
+				id: "74B8FFAF5CB78896"
+				type: "kill"
+				value: 10L
+			}]
+			x: 16.0d
+			y: -13.0d
+		}
+		{
+			id: "3EC3B4FBDE598847"
+			rewards: [
+				{
+					count: 2
+					id: "282C87558D4F9597"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "409E40FF8191A754"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:cow"
+				id: "78C20F589E6F0572"
+				type: "kill"
+				value: 10L
+			}]
+			x: 16.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["29D3605D4F50115D"]
+			id: "436318F105438352"
+			rewards: [
+				{
+					count: 2
+					id: "22A628371BB819F4"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5F242B0CC6EE1746"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "minecraft:donkey"
+				id: "1DF68A85254E10EB"
+				type: "kill"
+				value: 500L
+			}]
+			x: 26.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["42BCEAFD953AFDF5"]
+			id: "19E90EB611F5A514"
+			rewards: [
+				{
+					count: 2
+					id: "24F5F753796111CF"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "3CD99CE9386911B9"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "minecraft:pig"
+				id: "4CEBCC073E2C4A31"
+				type: "kill"
+				value: 500L
+			}]
+			x: 26.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["608018F6EFC22FE5"]
+			id: "05C65ABEC7E2FE2A"
+			rewards: [
+				{
+					count: 2
+					id: "1AF6963F043DDAB7"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "78AB43E2F4FF97A0"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "minecraft:polar_bear"
+				id: "5B7F48CBE913F0B0"
+				type: "kill"
+				value: 500L
+			}]
+			x: 36.0d
+			y: -7.0d
+		}
+		{
+			id: "6C301C6F0EED81B3"
+			rewards: [
+				{
+					count: 2
+					id: "2E1BC582337F7EEB"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "3711F8A9977020AB"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:rabbit"
+				id: "29516C0C2D21D785"
+				type: "kill"
+				value: 10L
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6684592C51D61266"]
+			id: "70FCF2ECF049B145"
+			rewards: [
+				{
+					count: 2
+					id: "2B9E4B2166192B51"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "06D800D2A3826FAD"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "minecraft:sheep"
+				id: "698EFBC19C15F693"
+				type: "kill"
+				value: 500L
+			}]
+			x: 26.0d
+			y: -14.5d
+		}
+		{
+			id: "388BD1851CF94B89"
+			rewards: [
+				{
+					count: 2
+					id: "667B2FE2DCE84FED"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "70BA404F85400478"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:sniffer"
+				id: "7A1B63391E42A677"
+				type: "kill"
+				value: 10L
+			}]
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			id: "7D490AFA5586E78A"
+			rewards: [
+				{
+					count: 2
+					id: "2593593B321328EA"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "52EE4082EE0D2BEF"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:trader_llama"
+				id: "09F98F3B1AE7D36C"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.0d
+			y: -20.5d
+		}
+		{
+			id: "04033CF4811FC41D"
+			rewards: [
+				{
+					count: 2
+					id: "108DD09D17E3A147"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "4DFE6BAD5B2CF5F5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:wolf"
+				id: "2047EDB8E88AFC87"
+				type: "kill"
+				value: 10L
+			}]
+			x: -16.0d
+			y: 2.5d
+		}
+		{
+			id: "51A8F4DD5F2A8391"
+			rewards: [
+				{
+					count: 2
+					id: "3487C740CEF4C9F1"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "3557F0168B71EB6D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "animalgarden_redpanda:redpanda"
+				id: "577C87C028A883B6"
+				type: "kill"
+				value: 10L
+			}]
+			x: 16.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["0D96B01F4756FE6B"]
+			id: "179B2EFB6A66163F"
+			rewards: [
+				{
+					count: 2
+					id: "75222506CAA529B8"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "620F5326D315A837"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_redpanda:himalayan_redpanda"
+				id: "35283C40B1799744"
+				type: "kill"
+				value: 500L
+			}]
+			x: 26.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6F064B7F57F31A3D"]
+			id: "756537B21EF3FCEB"
+			rewards: [
+				{
+					count: 2
+					id: "66259C76D4A542FE"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "6F28605C716AC873"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_fennecfox:fennecfox"
+				id: "250D06FDA57C8EB8"
+				type: "kill"
+				value: 500L
+			}]
+			x: 16.0d
+			y: 15.5d
+		}
+		{
+			id: "632784CBCEAA14C3"
+			rewards: [
+				{
+					count: 2
+					id: "515E241D0E0B8696"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "043EF227F095002E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "animalgarden_prairiedog:prairiedog"
+				id: "1321EF280A061005"
+				type: "kill"
+				value: 10L
+			}]
+			x: -8.5d
+			y: -20.5d
+		}
+		{
+			id: "36D9D736FFCA3086"
+			rewards: [
+				{
+					count: 2
+					id: "5E9A4DDCAD96E257"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "182C6B88D4E8BD7B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "animalgarden_whiterhinoceros:whiterhinoceros"
+				id: "1DEE7829F0747429"
+				type: "kill"
+				value: 10L
+			}]
+			x: -16.0d
+			y: 10.0d
+		}
+		{
+			id: "73117217EF006314"
+			rewards: [
+				{
+					count: 2
+					id: "3586F3BC8BD29F47"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "6CBF9224046C101B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "animalgarden_meerkat:meerkat"
+				id: "5ECE57F2F2B66F40"
+				type: "kill"
+				value: 10L
+			}]
+			x: -16.0d
+			y: -5.5d
+		}
+		{
+			id: "7E5DFF8E62DB9C23"
+			rewards: [
+				{
+					count: 2
+					id: "0EF061724D263CC8"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "45C80C0EB511D5BA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "animalgarden_commonraven:commonraven"
+				id: "6044A354747F371A"
+				type: "kill"
+				value: 10L
+			}]
+			x: -16.0d
+			y: -13.0d
+		}
+		{
+			id: "66998A899DCBBFB9"
+			rewards: [
+				{
+					count: 2
+					id: "49021B10F34FF96C"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "246366F398D0F4D5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "animalgarden_westerngorilla:westerngorilla"
+				id: "7C6222EB3148F126"
+				type: "kill"
+				value: 10L
+			}]
+			x: -16.0d
+			y: -20.5d
+		}
+		{
+			id: "6D8CD4CE139D1247"
+			rewards: [
+				{
+					count: 2
+					id: "3AC6CE0C7E4F220E"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "00FCE7E6E6B57193"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "animalgarden_sugarglider:sugarglider"
+				id: "2828F0CF3A32FC4C"
+				type: "kill"
+				value: 10L
+			}]
+			x: 6.5d
+			y: -20.5d
+		}
+		{
+			id: "138756765F0DBAA8"
+			rewards: [
+				{
+					count: 2
+					id: "4850AACDF12152AE"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "77F7764043D3975E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "animalgarden_spottedhyena:spottedhyena"
+				id: "15230E4857B09D8A"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			id: "5057FFE4A8FC88C5"
+			rewards: [
+				{
+					count: 2
+					id: "0AEE7B90552400EF"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "3FCE96C336148077"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "animalgarden_porcupine:porcupine"
+				id: "6FD7E5EB253090F9"
+				type: "kill"
+				value: 10L
+			}]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			id: "3DB043F64587364D"
+			rewards: [
+				{
+					count: 2
+					id: "61757A5D99D1947A"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "5DD11DAE0DC53CC6"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "animalgarden_mouse:mouse"
+				id: "6F89632E2CFD4688"
+				type: "kill"
+				value: 10L
+			}]
+			x: -8.5d
+			y: 10.0d
+		}
+		{
+			id: "143220DE746C689D"
+			rewards: [
+				{
+					count: 2
+					id: "26C9BC79B8B903AB"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "1CA0876EA8E4C702"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "mowziesmobs:bluff"
+				id: "2B5435DD453455E8"
+				type: "kill"
+				value: 10L
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["454A729D4ACD7406"]
+			id: "4C88F7AF06C6DF88"
+			rewards: [
+				{
+					id: "257026C62A4266B7"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "338F7B0F3D2F9D22"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "ecologics:coconut_crab"
+				id: "1464CECE77F598DC"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 0.5d
+			y: -12.5d
+		}
+		{
+			id: "49AF09601979E400"
+			rewards: [
+				{
+					count: 2
+					id: "29557EB75C7585E2"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "640CA24C4FFA8EDF"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "knightquest:lizzy"
+				id: "2287C5BFDB1FE700"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "6F332F892AD68E52"
+			rewards: [
+				{
+					count: 2
+					id: "1AB6AB9B2D98E6F0"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "635A943C01A427F1"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "mowziesmobs:lantern"
+				id: "55A27B4BCC77134C"
+				type: "kill"
+				value: 10L
+			}]
+			x: 6.5d
+			y: -13.0d
+		}
+		{
+			id: "2DC774A0C33CD742"
+			rewards: [
+				{
+					count: 2
+					id: "52D99F40D8AE0E85"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "6892C01FCF6B7AF0"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "ecologics:squirrel"
+				id: "0E0BBC210D85589F"
+				type: "kill"
+				value: 10L
+			}]
+			x: -8.5d
+			y: -13.0d
+		}
+		{
+			id: "40C81247E1E4EC5E"
+			rewards: [
+				{
+					count: 2
+					id: "0D34640C3F0B1EFC"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "7A5FD5D2A05543B6"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "crabbersdelight:crab"
+				id: "764939CFFFE1F0AA"
+				type: "kill"
+				value: 10L
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["76F1EAAEC64C9A6D"]
+			id: "75885AD9AAEBBAF7"
+			rewards: [
+				{
+					count: 6
+					id: "1573396044B0A1F8"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2FDE0CC924F0F26B"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "minecraft:allay"
+				id: "645F33415476683F"
+				type: "kill"
+				value: 900L
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["75885AD9AAEBBAF7"]
+			id: "057A602874F3ABDE"
+			rewards: [
+				{
+					id: "73F092210BCEECBE"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "7413BE5B230AD9A0"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:allay"
+				id: "4BCB33A321BD16FD"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3432B597928937CD"]
+			id: "5767478F580FB5B3"
+			rewards: [
+				{
+					count: 2
+					id: "3F0914516AC78FD7"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "0F620D4BDF9D79DB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:allay"
+				id: "32239C84B3459A0F"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["343DB86AC7CF058B"]
+			id: "3432B597928937CD"
+			rewards: [
+				{
+					count: 4
+					id: "4FFA81B24999B446"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "55AF0FEE6D92501D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "minecraft:allay"
+				id: "78A08E88234DB3F7"
+				type: "kill"
+				value: 50L
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7382CDA84570AD9B"]
+			id: "76F1EAAEC64C9A6D"
+			rewards: [
+				{
+					count: 5
+					id: "4F46C7D6A44B1C0C"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5234A37F86EB745E"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "minecraft:allay"
+				id: "28C4F7ED35710923"
+				type: "kill"
+				value: 800L
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6327DC10FC113E48"]
+			id: "7382CDA84570AD9B"
+			rewards: [
+				{
+					count: 4
+					id: "4F51A45568D74E35"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7DA2A1C2C7D0C3C5"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "minecraft:allay"
+				id: "089F0E6BCAD49287"
+				type: "kill"
+				value: 700L
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["473EE1ECDAE4CA11"]
+			id: "6327DC10FC113E48"
+			rewards: [
+				{
+					count: 3
+					id: "07220F200ABB7F72"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "4AF9F6FB41B33170"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "minecraft:allay"
+				id: "49B3E786241944EE"
+				type: "kill"
+				value: 600L
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2CB49A0A8D22126B"]
+			id: "473EE1ECDAE4CA11"
+			rewards: [
+				{
+					count: 2
+					id: "34AD025622AEE15F"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "6A86BDFCEB29F451"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "minecraft:allay"
+				id: "1B35FF624982C6E4"
+				type: "kill"
+				value: 500L
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0D486D9BD69456F6"]
+			id: "2CB49A0A8D22126B"
+			rewards: [
+				{
+					id: "26B838BF3A0E0BD2"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "63BDFCE33E81CD52"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "minecraft:allay"
+				id: "71F3D72DB2B18ED0"
+				type: "kill"
+				value: 400L
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BB337AB1844FAFF"]
+			id: "0D486D9BD69456F6"
+			rewards: [
+				{
+					count: 6
+					id: "7D1D8ED05FDA8F06"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "5E3F29CC69ADB899"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "minecraft:allay"
+				id: "6CEB2BEB3B385B16"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5767478F580FB5B3"]
+			id: "2BB337AB1844FAFF"
+			rewards: [
+				{
+					count: 4
+					id: "135AF1C55C63C56D"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "5885114E111285B0"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:allay"
+				id: "1CC52BDA217D5827"
+				type: "kill"
+				value: 200L
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1C7D75F742BEE212"]
+			id: "27F8BA1D52797083"
+			rewards: [
+				{
+					id: "4CC92B6F83DE8450"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "1EB0E13BCCE4025B"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:cat"
+				id: "1F223FA12214BC9A"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["361AD2C257D19550"]
+			id: "1C7D75F742BEE212"
+			rewards: [
+				{
+					count: 6
+					id: "3B5F55D360F96ED1"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5F2535E874C22AE0"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cat"
+				id: "40793269EECC6B0D"
+				type: "kill"
+				value: 900L
+			}]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["227B325C8CC6EE1B"]
+			id: "361AD2C257D19550"
+			rewards: [
+				{
+					count: 5
+					id: "0EE30EEE9C71B8CB"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "27497FD2F33CF797"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cat"
+				id: "1041DC7E27A49FDD"
+				type: "kill"
+				value: 800L
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["49AEDEADE87C9E5D"]
+			id: "227B325C8CC6EE1B"
+			rewards: [
+				{
+					count: 4
+					id: "5D49233B5DB9E615"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "08DD68FF9D2EA7D9"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cat"
+				id: "5F01358FAFE6A359"
+				type: "kill"
+				value: 700L
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["38C9B2780500DD76"]
+			id: "49AEDEADE87C9E5D"
+			rewards: [
+				{
+					count: 3
+					id: "0E58E56846E4EEAD"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "1275FD6AF66EEAF7"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cat"
+				id: "6473BE3B0C5D48AC"
+				type: "kill"
+				value: 600L
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D501CFB730CC707"]
+			id: "38C9B2780500DD76"
+			rewards: [
+				{
+					count: 2
+					id: "73854A0EF8AC36BE"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2095B574B46029AB"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cat"
+				id: "54285EB6CC67AD89"
+				type: "kill"
+				value: 500L
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["024EC34DEBFDFE75"]
+			id: "7D501CFB730CC707"
+			rewards: [
+				{
+					id: "1170D15C8DB50850"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2465FBE41F22E5BF"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cat"
+				id: "429778FC2D6348AF"
+				type: "kill"
+				value: 400L
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D183D4504B6AF43"]
+			id: "024EC34DEBFDFE75"
+			rewards: [
+				{
+					count: 6
+					id: "57F5D6AE91EDD43B"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "642456126C3F1A1A"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cat"
+				id: "0B19598B284359E6"
+				type: "kill"
+				value: 300L
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2A07231449F45120"]
+			id: "6D183D4504B6AF43"
+			rewards: [
+				{
+					count: 4
+					id: "52253EDA15726458"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "6AC6E2865A535CCA"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cat"
+				id: "4D6D35D1B42944A4"
+				type: "kill"
+				value: 200L
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["77F47DC69EC14885"]
+			id: "2A07231449F45120"
+			rewards: [
+				{
+					count: 2
+					id: "0056703D85AC5134"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "19C464B34C2D2E3D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cat"
+				id: "2336A595A25A5563"
+				type: "kill"
+				value: 100L
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["76FFF19517CA3DD1"]
+			id: "77F47DC69EC14885"
+			rewards: [
+				{
+					count: 4
+					id: "512DA49087AF827F"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "452E000F6278C77D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cat"
+				id: "7E416571D850A8F4"
+				type: "kill"
+				value: 50L
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["74FE897FAC8108B7"]
+			id: "5859875FDB2CC7E3"
+			rewards: [
+				{
+					id: "75F46224CA9F7D54"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "387A5FE03A1D93C4"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:sniffer"
+				id: "6676B5BF48009322"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0C51D2E2248E6CB7"]
+			id: "74FE897FAC8108B7"
+			rewards: [
+				{
+					count: 6
+					id: "5A2C641A18890152"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5E9348F695E225D7"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "minecraft:sniffer"
+				id: "07D0E96A780DD751"
+				type: "kill"
+				value: 900L
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["76FA012BFFEAFE47"]
+			id: "0C51D2E2248E6CB7"
+			rewards: [
+				{
+					count: 5
+					id: "4D052792A7D77E16"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "524427C8A881BDA5"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "minecraft:sniffer"
+				id: "50547FC7345765EF"
+				type: "kill"
+				value: 800L
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["199CA2E5E0C50431"]
+			id: "76FA012BFFEAFE47"
+			rewards: [
+				{
+					count: 4
+					id: "60DE65733715FA5B"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "4D6F8BCA770CDAFA"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "minecraft:sniffer"
+				id: "7E719218A45D6F43"
+				type: "kill"
+				value: 700L
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["22218A359561636B"]
+			id: "199CA2E5E0C50431"
+			rewards: [
+				{
+					count: 3
+					id: "29AC27C4E17A3DAB"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2E728C2F887391A0"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "minecraft:sniffer"
+				id: "19727BCA804149C1"
+				type: "kill"
+				value: 600L
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DCD3AC339CC6CE2"]
+			id: "22218A359561636B"
+			rewards: [
+				{
+					count: 2
+					id: "7F4CDA07EFDE2B91"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "42B0A796D94FFC70"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "minecraft:sniffer"
+				id: "537C30A0391C7656"
+				type: "kill"
+				value: 500L
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3563AD1CAB29E676"]
+			id: "5DCD3AC339CC6CE2"
+			rewards: [
+				{
+					id: "3DDC704F5BDFC0CC"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0C7CC2E3926C2613"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "minecraft:sniffer"
+				id: "1E31EC38C58AA2C2"
+				type: "kill"
+				value: 400L
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["311544BD6240B0FB"]
+			id: "3563AD1CAB29E676"
+			rewards: [
+				{
+					count: 6
+					id: "74A95E61D1D7B1B5"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "4BDC73255BD90D18"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "minecraft:sniffer"
+				id: "69CD5D8A24379DFB"
+				type: "kill"
+				value: 300L
+			}]
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6A21F62CFDB868B2"]
+			id: "311544BD6240B0FB"
+			rewards: [
+				{
+					count: 4
+					id: "0B019FE386E9AE1C"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "3C5E87C0A2CDD10B"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:sniffer"
+				id: "4EDE7CF0760774CB"
+				type: "kill"
+				value: 200L
+			}]
+			x: -11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["46CE85BE31EAAA7C"]
+			id: "6A21F62CFDB868B2"
+			rewards: [
+				{
+					count: 2
+					id: "6E436BC0A9088992"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "01D918160C0E6031"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:sniffer"
+				id: "5908EDC0F97240C2"
+				type: "kill"
+				value: 100L
+			}]
+			x: -11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["388BD1851CF94B89"]
+			id: "46CE85BE31EAAA7C"
+			rewards: [
+				{
+					count: 4
+					id: "736A02062F7658AA"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "68883F8A3E5BE622"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "minecraft:sniffer"
+				id: "1AD225D6E0026424"
+				type: "kill"
+				value: 50L
+			}]
+			x: -10.0d
+			y: -5.0d
+		}
+		{
+			id: "6DB88DC424B70486"
+			rewards: [
+				{
+					count: 2
+					id: "50C4AE1645A72C68"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "7597256B980F5FE2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "ecologics:coconut_crab"
+				id: "6B925E965D44321A"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["3EAC12F205368A23"]
+			id: "454A729D4ACD7406"
+			rewards: [
+				{
+					count: 6
+					id: "403CE2E1E1501C7E"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "1AEFC71DC701F76B"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "ecologics:coconut_crab"
+				id: "608938AB7913A7B2"
+				type: "kill"
+				value: 900L
+			}]
+			x: 1.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["08D7B83C63046C34"]
+			id: "3EAC12F205368A23"
+			rewards: [
+				{
+					count: 5
+					id: "71791DC4AA4A1687"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0575DB86D4D0A60B"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "ecologics:coconut_crab"
+				id: "7C31847D2E70BC36"
+				type: "kill"
+				value: 800L
+			}]
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6CEF0B89E217232D"]
+			id: "08D7B83C63046C34"
+			rewards: [
+				{
+					count: 4
+					id: "7CA52EA5F3801D0B"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "46E8C2FA133BA58C"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "ecologics:coconut_crab"
+				id: "0BAAF80AA03B81CD"
+				type: "kill"
+				value: 700L
+			}]
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5B9BED80566E11AB"]
+			id: "6CEF0B89E217232D"
+			rewards: [
+				{
+					count: 3
+					id: "58DCC78579C38B81"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "27693CE76DF02B45"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "ecologics:coconut_crab"
+				id: "4FBA7DB2053A9E24"
+				type: "kill"
+				value: 600L
+			}]
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5FB9875E27B972C4"]
+			id: "5B9BED80566E11AB"
+			rewards: [
+				{
+					count: 2
+					id: "7DA020ABA0863DF2"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "767BA1663CF7553E"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "ecologics:coconut_crab"
+				id: "38F08F7AAE90622A"
+				type: "kill"
+				value: 500L
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["58BA572E53C94B14"]
+			id: "5FB9875E27B972C4"
+			rewards: [
+				{
+					id: "75028963800CF6E2"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "237E5EEC7BEAFA94"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "ecologics:coconut_crab"
+				id: "34D2B1C652E8DCE5"
+				type: "kill"
+				value: 400L
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["59FC7B177D9B245E"]
+			id: "58BA572E53C94B14"
+			rewards: [
+				{
+					count: 6
+					id: "3B5CFCC2B7BE6764"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "6BC19329D8F164E3"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "ecologics:coconut_crab"
+				id: "548F89DFF0A5B9C0"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0B237A9F7AE30C2F"]
+			id: "59FC7B177D9B245E"
+			rewards: [
+				{
+					count: 4
+					id: "5EF20B3AD6B804E3"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "262DC2CC3E8BEB90"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "ecologics:coconut_crab"
+				id: "5B351C04709B6CBF"
+				type: "kill"
+				value: 200L
+			}]
+			x: -4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["279308066B15BD93"]
+			id: "0B237A9F7AE30C2F"
+			rewards: [
+				{
+					count: 2
+					id: "00E665C44A1CF2E2"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "15EE3F75ECD3026A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "ecologics:coconut_crab"
+				id: "27B30FDFC380DFB0"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["6DB88DC424B70486"]
+			id: "279308066B15BD93"
+			rewards: [
+				{
+					count: 4
+					id: "597F2E509DD45F59"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "5AD479423F42AE62"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "ecologics:coconut_crab"
+				id: "0F79820C6E4274EB"
+				type: "kill"
+				value: 50L
+			}]
+			x: -2.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["49AF09601979E400"]
+			id: "68CEDBD8542BD489"
+			rewards: [
+				{
+					count: 4
+					id: "0BDE8A74EC8D2210"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "14928D328DA62340"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "knightquest:lizzy"
+				id: "1BE616E90A33A023"
+				type: "kill"
+				value: 50L
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["68CEDBD8542BD489"]
+			id: "3F9752ABF56BAEB0"
+			rewards: [
+				{
+					count: 2
+					id: "3AE1C30291977ADA"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "4CA6E43E1E5AEE34"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "knightquest:lizzy"
+				id: "209EF5468FD96B7F"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3F9752ABF56BAEB0"]
+			id: "5B200173696D5519"
+			rewards: [
+				{
+					count: 4
+					id: "15548671FC28DA98"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "7D3BFB7309E9B858"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "knightquest:lizzy"
+				id: "4CCB28F90EF11A98"
+				type: "kill"
+				value: 200L
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5B200173696D5519"]
+			id: "14816628373F75FD"
+			rewards: [
+				{
+					count: 6
+					id: "1FEDD503C586E0BF"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "127763B827ED6FF5"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "knightquest:lizzy"
+				id: "26BCFFFEB95DE85C"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["14816628373F75FD"]
+			id: "07279DE7B485DE31"
+			rewards: [
+				{
+					id: "2CEF8DA5652205AF"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "71687D838D778DA0"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "knightquest:lizzy"
+				id: "1FA2C0D9251F245D"
+				type: "kill"
+				value: 400L
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["07279DE7B485DE31"]
+			id: "26E57F6C1F3CAA77"
+			rewards: [
+				{
+					count: 2
+					id: "77F3A9FA975A1459"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "63FBC1B92F8A5C57"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "knightquest:lizzy"
+				id: "0A85A21655D1DFE7"
+				type: "kill"
+				value: 500L
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["26E57F6C1F3CAA77"]
+			id: "66B8724B93ADC429"
+			rewards: [
+				{
+					count: 3
+					id: "15C16DE6601EE427"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "44EAE577A1BD42F3"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "knightquest:lizzy"
+				id: "538BA1DC132D73CC"
+				type: "kill"
+				value: 600L
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["66B8724B93ADC429"]
+			id: "55B773B0A3908F72"
+			rewards: [
+				{
+					count: 4
+					id: "2F8BBB68C822622E"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "351217931C2556AA"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "knightquest:lizzy"
+				id: "18D844961A9BE9AE"
+				type: "kill"
+				value: 700L
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["55B773B0A3908F72"]
+			id: "270493D96055F847"
+			rewards: [
+				{
+					count: 5
+					id: "0104D7C4DBFA5885"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "44251DA719E530DE"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "knightquest:lizzy"
+				id: "0541FA25173555D2"
+				type: "kill"
+				value: 800L
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["270493D96055F847"]
+			id: "4515953A96ACC878"
+			rewards: [
+				{
+					count: 6
+					id: "15D32AC4CB2EA6D9"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "3F11BB99AC1BFDD7"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "knightquest:lizzy"
+				id: "7A19C4035EDF3A36"
+				type: "kill"
+				value: 900L
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4515953A96ACC878"]
+			id: "325CD9A398C69192"
+			rewards: [
+				{
+					id: "5A1B7ECCC7D72AAD"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "298508B4C762887B"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "knightquest:lizzy"
+				id: "6011067EDC4F1CE8"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["15E14AC61707AC71"]
+			id: "431BA7FA91C7E963"
+			rewards: [
+				{
+					id: "6F1AD14F44A0A5EB"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "271124AA070FB8D1"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "mowziesmobs:lantern"
+				id: "0171790492C58F1A"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 8.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["5A541509E26C5779"]
+			id: "15E14AC61707AC71"
+			rewards: [
+				{
+					count: 6
+					id: "22AFC237B52E1FC2"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "6402121CA0475028"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:lantern"
+				id: "7C67BBBA73B30D91"
+				type: "kill"
+				value: 900L
+			}]
+			x: 9.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["62A07D5BCEA9D9DC"]
+			id: "5A541509E26C5779"
+			rewards: [
+				{
+					count: 5
+					id: "0B52D50B52192318"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "28192B84F761DAFE"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:lantern"
+				id: "633B1BD17E21E110"
+				type: "kill"
+				value: 800L
+			}]
+			x: 9.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["26E8E4EC5BE32F44"]
+			id: "62A07D5BCEA9D9DC"
+			rewards: [
+				{
+					count: 4
+					id: "79FED030B5A6DD82"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "471F7AC1E59A2139"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:lantern"
+				id: "20A465508E93100A"
+				type: "kill"
+				value: 700L
+			}]
+			x: 9.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["397537F9773FC86C"]
+			id: "26E8E4EC5BE32F44"
+			rewards: [
+				{
+					count: 3
+					id: "2FFECBD536A0464E"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "141AC6C6CDC3CD00"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:lantern"
+				id: "2354D35DDEA69B97"
+				type: "kill"
+				value: 600L
+			}]
+			x: 8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7BF81FDC0709EF83"]
+			id: "397537F9773FC86C"
+			rewards: [
+				{
+					count: 2
+					id: "052B34BA7ABDB993"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "675D344C64AC48CD"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:lantern"
+				id: "57675A17AD115FAB"
+				type: "kill"
+				value: 500L
+			}]
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["47E665FB579F8882"]
+			id: "7BF81FDC0709EF83"
+			rewards: [
+				{
+					id: "132EB9298D14394F"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "6D20E9CB235DE5C8"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:lantern"
+				id: "1AC13FF770700FA7"
+				type: "kill"
+				value: 400L
+			}]
+			x: 5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5010D47C9F2FA93D"]
+			id: "47E665FB579F8882"
+			rewards: [
+				{
+					count: 6
+					id: "02B4A1C8DAAEC4E0"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "10C20FB3A6177E51"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:lantern"
+				id: "604E070C7ED91641"
+				type: "kill"
+				value: 300L
+			}]
+			x: 4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["456E19363131D9D5"]
+			id: "5010D47C9F2FA93D"
+			rewards: [
+				{
+					count: 4
+					id: "09DFACE26653AC72"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "571BDBE04B1D5E2E"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:lantern"
+				id: "78CBD93C61547C94"
+				type: "kill"
+				value: 200L
+			}]
+			x: 3.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["076485C4BD0F9FF5"]
+			id: "456E19363131D9D5"
+			rewards: [
+				{
+					count: 2
+					id: "79C174BD1972ED96"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "34678B7648003277"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:lantern"
+				id: "7261B884012D750C"
+				type: "kill"
+				value: 100L
+			}]
+			x: 4.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["6F332F892AD68E52"]
+			id: "076485C4BD0F9FF5"
+			rewards: [
+				{
+					count: 4
+					id: "0B4E816C830A7102"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "65A31D019D561EB6"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:lantern"
+				id: "59F54EBFB22F2773"
+				type: "kill"
+				value: 50L
+			}]
+			x: 5.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2DC774A0C33CD742"]
+			id: "716F3436B482A240"
+			rewards: [
+				{
+					count: 4
+					id: "6C2196D5C583D2D6"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "7290ED35CD688714"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "ecologics:squirrel"
+				id: "4C1DE64901BC83D3"
+				type: "kill"
+				value: 50L
+			}]
+			x: -10.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["716F3436B482A240"]
+			id: "512F8C63BA59003B"
+			rewards: [
+				{
+					count: 2
+					id: "01446C6CFEA4F52A"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "384AC5F05F07CBC0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "ecologics:squirrel"
+				id: "388D8146EFF5BCFD"
+				type: "kill"
+				value: 100L
+			}]
+			x: -11.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["512F8C63BA59003B"]
+			id: "1DAAE42ACDE32699"
+			rewards: [
+				{
+					count: 4
+					id: "55DA31C9424664B0"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "003C90F81C789EB5"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "ecologics:squirrel"
+				id: "0D3703E721222900"
+				type: "kill"
+				value: 200L
+			}]
+			x: -11.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1DAAE42ACDE32699"]
+			id: "14006DB88F598AD7"
+			rewards: [
+				{
+					count: 6
+					id: "392790D919F7FBED"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "7830E018B69DF807"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "ecologics:squirrel"
+				id: "1A0EB1420CE28403"
+				type: "kill"
+				value: 300L
+			}]
+			x: -11.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["14006DB88F598AD7"]
+			id: "1FD37935623A616F"
+			rewards: [
+				{
+					id: "4868B2D03F5AE889"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5B90122F656C7AEA"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "ecologics:squirrel"
+				id: "2C134C6EBF13C554"
+				type: "kill"
+				value: 400L
+			}]
+			x: -10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1FD37935623A616F"]
+			id: "12FDFE17B8C2EDE8"
+			rewards: [
+				{
+					count: 2
+					id: "1C21C9E2CEFAACAF"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7A63EA8F05921583"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "ecologics:squirrel"
+				id: "1D4A92B53FCD1D6B"
+				type: "kill"
+				value: 500L
+			}]
+			x: -8.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["12FDFE17B8C2EDE8"]
+			id: "67E9F6FF34EA5485"
+			rewards: [
+				{
+					count: 3
+					id: "28977A9B67F4973E"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "117243CB133E1135"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "ecologics:squirrel"
+				id: "43880D16E4E15E20"
+				type: "kill"
+				value: 600L
+			}]
+			x: -7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["67E9F6FF34EA5485"]
+			id: "2933B1466B4E6CD6"
+			rewards: [
+				{
+					count: 4
+					id: "2575959A401AA22A"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "390BD084D596F4A2"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "ecologics:squirrel"
+				id: "1938DDC021A3C377"
+				type: "kill"
+				value: 700L
+			}]
+			x: -6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2933B1466B4E6CD6"]
+			id: "19A78136772E3B51"
+			rewards: [
+				{
+					count: 5
+					id: "72003047D1C201B7"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "78275872AF0642BF"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "ecologics:squirrel"
+				id: "5E48AB36D6678D72"
+				type: "kill"
+				value: 800L
+			}]
+			x: -5.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["19A78136772E3B51"]
+			id: "284066CE87AEECAF"
+			rewards: [
+				{
+					count: 6
+					id: "4E1E028531A4DBD6"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "1D3BE35594D1E835"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "ecologics:squirrel"
+				id: "4D1363626F0AF765"
+				type: "kill"
+				value: 900L
+			}]
+			x: -6.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["284066CE87AEECAF"]
+			id: "7BF7D80A911C8D7E"
+			rewards: [
+				{
+					id: "23B2645C1F0B7D9D"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "6DBE3DDC5858F6A4"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "ecologics:squirrel"
+				id: "3B0ECE8AAB1F0968"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -7.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["40C81247E1E4EC5E"]
+			id: "68F137CC6FDEC93D"
+			rewards: [
+				{
+					count: 4
+					id: "25CC8ADCA704DF80"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "568DA0B625D4E827"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "crabbersdelight:crab"
+				id: "7FD519D8B65AD1B5"
+				type: "kill"
+				value: 50L
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["68F137CC6FDEC93D"]
+			id: "6996E4B326F6D16A"
+			rewards: [
+				{
+					count: 2
+					id: "67AD52B858D49263"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "5797541B435874EF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "crabbersdelight:crab"
+				id: "02C042F87713FD0F"
+				type: "kill"
+				value: 100L
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6996E4B326F6D16A"]
+			id: "45CF407E7FD21844"
+			rewards: [
+				{
+					count: 4
+					id: "69DBF1AC42ED9142"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "7F92BD7E88C795F5"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "crabbersdelight:crab"
+				id: "2E94624E80ADA12F"
+				type: "kill"
+				value: 200L
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["45CF407E7FD21844"]
+			id: "7E2355E848B13EA8"
+			rewards: [
+				{
+					count: 6
+					id: "72222DF4F173FC04"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "1DB74BB42F251C10"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "crabbersdelight:crab"
+				id: "11F96E7D95040B55"
+				type: "kill"
+				value: 300L
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7E2355E848B13EA8"]
+			id: "1C6B8072ED959A82"
+			rewards: [
+				{
+					id: "0C99427C156B8E1E"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "1A72B22E777B844B"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "crabbersdelight:crab"
+				id: "642C3B26A8140D4A"
+				type: "kill"
+				value: 400L
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1C6B8072ED959A82"]
+			id: "6CC7B3993323CF80"
+			rewards: [
+				{
+					count: 2
+					id: "633027D74BBA40F3"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "15B6FDEA668D08FB"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "crabbersdelight:crab"
+				id: "7C0F7B24C98CAC5D"
+				type: "kill"
+				value: 500L
+			}]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6CC7B3993323CF80"]
+			id: "24652CE610DDEAF9"
+			rewards: [
+				{
+					count: 3
+					id: "05AC92D652228FB7"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "14A1853CB03C5DE1"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "crabbersdelight:crab"
+				id: "6EE618DA4E60F88A"
+				type: "kill"
+				value: 600L
+			}]
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["24652CE610DDEAF9"]
+			id: "416017701359686A"
+			rewards: [
+				{
+					count: 4
+					id: "0DF56AB762A4715E"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "511F2E21699B5DB4"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "crabbersdelight:crab"
+				id: "2C9B6CFAB8FB047C"
+				type: "kill"
+				value: 700L
+			}]
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["416017701359686A"]
+			id: "3D0726A4CAB56259"
+			rewards: [
+				{
+					count: 5
+					id: "6CFEA20DF180ACC0"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "20A25A201F220868"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "crabbersdelight:crab"
+				id: "3F15492F0770944A"
+				type: "kill"
+				value: 800L
+			}]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3D0726A4CAB56259"]
+			id: "00F20148CF872097"
+			rewards: [
+				{
+					count: 6
+					id: "4E3CF3E02783D395"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "002EAFC9C8995AB3"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "crabbersdelight:crab"
+				id: "3975C295A0A0B258"
+				type: "kill"
+				value: 900L
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["00F20148CF872097"]
+			id: "17326F741273D311"
+			rewards: [
+				{
+					id: "74AD1456B80791CC"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "5F476B0C56B2D7AC"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "crabbersdelight:crab"
+				id: "1136A8F51703C130"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["143220DE746C689D"]
+			id: "372D2BBB04CAEE68"
+			rewards: [
+				{
+					count: 4
+					id: "7CD11270623D11EB"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "66463B7B72B417FA"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:bluff"
+				id: "35B935B502BD682E"
+				type: "kill"
+				value: 50L
+			}]
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["372D2BBB04CAEE68"]
+			id: "4DE58DF656D78649"
+			rewards: [
+				{
+					count: 2
+					id: "5C1012F68EADCE68"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "524EB4D84111ED47"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:bluff"
+				id: "1C5611EE3742B4CE"
+				type: "kill"
+				value: 100L
+			}]
+			x: -11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4DE58DF656D78649"]
+			id: "0BDD836CEC598B0C"
+			rewards: [
+				{
+					count: 4
+					id: "788B08E8DEA01100"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "0F99915001266B31"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:bluff"
+				id: "2D2BEE871371727A"
+				type: "kill"
+				value: 200L
+			}]
+			x: -11.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0BDD836CEC598B0C"]
+			id: "2875AC9DEDEF0291"
+			rewards: [
+				{
+					count: 6
+					id: "5CF5E5A20703FD5D"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "371784E8ABEBDE80"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:bluff"
+				id: "57FAFA8D3B0B0D1E"
+				type: "kill"
+				value: 300L
+			}]
+			x: -11.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2875AC9DEDEF0291"]
+			id: "663F9A2290BFE787"
+			rewards: [
+				{
+					id: "789164008A0A4DC4"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0E4EE47CB3CF86CD"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:bluff"
+				id: "1E8991D10DD5362C"
+				type: "kill"
+				value: 400L
+			}]
+			x: -10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["663F9A2290BFE787"]
+			id: "424F197456DA9F2F"
+			rewards: [
+				{
+					count: 2
+					id: "60695B22BA75D91B"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "53088076F39E6816"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:bluff"
+				id: "26AE60D2884DC718"
+				type: "kill"
+				value: 500L
+			}]
+			x: -8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["424F197456DA9F2F"]
+			id: "108CF7BDA2885C1D"
+			rewards: [
+				{
+					count: 3
+					id: "08BFC8902968464A"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "02143030DF8B3CBE"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:bluff"
+				id: "343BAAAE9C582568"
+				type: "kill"
+				value: 600L
+			}]
+			x: -7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["108CF7BDA2885C1D"]
+			id: "0CA9DF5A639B07C1"
+			rewards: [
+				{
+					count: 4
+					id: "0700C10EBE154ECC"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0456B9B7240645C5"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:bluff"
+				id: "6B48B1A00205ED9B"
+				type: "kill"
+				value: 700L
+			}]
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0CA9DF5A639B07C1"]
+			id: "5F0F0DC132961215"
+			rewards: [
+				{
+					count: 5
+					id: "32FCEA6008F00AC0"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "679BD3C9D1134D15"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:bluff"
+				id: "03E4C95754FA81C0"
+				type: "kill"
+				value: 800L
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5F0F0DC132961215"]
+			id: "6152D4535D870F1C"
+			rewards: [
+				{
+					count: 6
+					id: "19ACB85166F3E9D7"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "4E262A66BE1EF307"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "mowziesmobs:bluff"
+				id: "794C44F3DEC845D4"
+				type: "kill"
+				value: 900L
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6152D4535D870F1C"]
+			id: "23F6037C96585029"
+			rewards: [
+				{
+					id: "46A16629C64CA72D"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "0C1A3810B0749606"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "mowziesmobs:bluff"
+				id: "29D0ADD4F308EE7C"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7D490AFA5586E78A"]
+			id: "514CB07774A3BC34"
+			rewards: [
+				{
+					count: 4
+					id: "0765EFE839FC12FC"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "17B1104C2E6BE965"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "minecraft:trader_llama"
+				id: "34840B25C7D2BADA"
+				type: "kill"
+				value: 50L
+			}]
+			x: -2.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["514CB07774A3BC34"]
+			id: "1E4DD6CE4879C0CA"
+			rewards: [
+				{
+					count: 2
+					id: "0C4BADB523D12D80"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "7CA0E8DB8E772865"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:trader_llama"
+				id: "3CB95E2F9DEB5461"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["1E4DD6CE4879C0CA"]
+			id: "747FBE39121FDBF9"
+			rewards: [
+				{
+					count: 4
+					id: "596704D2884D8630"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "2D648E72D61A99D3"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:trader_llama"
+				id: "763F58C4762704A6"
+				type: "kill"
+				value: 200L
+			}]
+			x: -4.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["747FBE39121FDBF9"]
+			id: "5D5E52AAD4415785"
+			rewards: [
+				{
+					count: 6
+					id: "4FBAF3847EB30E54"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "2FC1B5603FD79E24"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "minecraft:trader_llama"
+				id: "1EEC466995E72CA5"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["5D5E52AAD4415785"]
+			id: "22EFE6F9DACC107D"
+			rewards: [
+				{
+					id: "58515DDE4D5C8459"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "22C4263A8F492EC2"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "minecraft:trader_llama"
+				id: "49F84502A09AC3B1"
+				type: "kill"
+				value: 400L
+			}]
+			x: -2.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["22EFE6F9DACC107D"]
+			id: "74937D345F8444F0"
+			rewards: [
+				{
+					count: 2
+					id: "5C5EAFEB3F272FA4"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "544884B0F9072D56"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "minecraft:trader_llama"
+				id: "3DF6BF9B80125BBB"
+				type: "kill"
+				value: 500L
+			}]
+			x: -1.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["74937D345F8444F0"]
+			id: "4B390662111EC4D4"
+			rewards: [
+				{
+					count: 3
+					id: "6E9596B02FFFBF3E"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7963F50FCC227006"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "minecraft:trader_llama"
+				id: "7163DC8E46BC96EF"
+				type: "kill"
+				value: 600L
+			}]
+			x: 0.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["4B390662111EC4D4"]
+			id: "13D220C5F484CDAE"
+			rewards: [
+				{
+					count: 4
+					id: "1B25FED6A0968E29"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "11D6E4D58B598014"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "minecraft:trader_llama"
+				id: "0CEF5EA3D827FC78"
+				type: "kill"
+				value: 700L
+			}]
+			x: 1.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["13D220C5F484CDAE"]
+			id: "72C42C346B880C80"
+			rewards: [
+				{
+					count: 5
+					id: "398A6351672460FF"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2B85BAAF29E37E98"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "minecraft:trader_llama"
+				id: "386ED69B64D7AF28"
+				type: "kill"
+				value: 800L
+			}]
+			x: 2.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["72C42C346B880C80"]
+			id: "0F5D104107017D9A"
+			rewards: [
+				{
+					count: 6
+					id: "468C3E5202E86BA4"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "6BBDE46E723D486D"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "minecraft:trader_llama"
+				id: "39947DA9B94F4D88"
+				type: "kill"
+				value: 900L
+			}]
+			x: 1.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["0F5D104107017D9A"]
+			id: "1AD846B6E64567CE"
+			rewards: [
+				{
+					id: "6F02CBACE4E6C6EC"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "768909C159B3E64A"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:trader_llama"
+				id: "12E8CC7A38A508DD"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 0.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["632784CBCEAA14C3"]
+			id: "38D98EB1ACA40474"
+			rewards: [
+				{
+					count: 4
+					id: "54BD162E0914B85C"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "388158AC601E6168"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_prairiedog:prairiedog"
+				id: "11FAF81C3AF6B31A"
+				type: "kill"
+				value: 50L
+			}]
+			x: -10.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["38D98EB1ACA40474"]
+			id: "55111DD0CA77E928"
+			rewards: [
+				{
+					count: 2
+					id: "2C9577656866DFE2"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "0BBC77EFB44F0178"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_prairiedog:prairiedog"
+				id: "4B7BAACB27392985"
+				type: "kill"
+				value: 100L
+			}]
+			x: -11.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["55111DD0CA77E928"]
+			id: "54D5D17416519F9F"
+			rewards: [
+				{
+					count: 4
+					id: "187691464968130C"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "24946EF0E03C86E3"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_prairiedog:prairiedog"
+				id: "131863A5627286AD"
+				type: "kill"
+				value: 200L
+			}]
+			x: -11.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["54D5D17416519F9F"]
+			id: "61A1AC1FD7C0F14E"
+			rewards: [
+				{
+					count: 6
+					id: "4719768E186C64CA"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "72B216DDB2EE1600"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_prairiedog:prairiedog"
+				id: "39261FD86EB72B8B"
+				type: "kill"
+				value: 300L
+			}]
+			x: -11.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["61A1AC1FD7C0F14E"]
+			id: "684BC3E83C69389F"
+			rewards: [
+				{
+					id: "23D9C089EF092BFB"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2940CF7B8AD775E6"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_prairiedog:prairiedog"
+				id: "0A93BC9B42A10D0A"
+				type: "kill"
+				value: 400L
+			}]
+			x: -10.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["684BC3E83C69389F"]
+			id: "64384811FEDF2B49"
+			rewards: [
+				{
+					count: 2
+					id: "07F59710F16066C7"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "761347ED6D092B5D"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_prairiedog:prairiedog"
+				id: "175135D8D96A57A4"
+				type: "kill"
+				value: 500L
+			}]
+			x: -8.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["64384811FEDF2B49"]
+			id: "0D9C80855942072C"
+			rewards: [
+				{
+					count: 3
+					id: "33118D1F9D047E9F"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "32B541799B61D89C"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_prairiedog:prairiedog"
+				id: "3843FAEC77104A51"
+				type: "kill"
+				value: 600L
+			}]
+			x: -7.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["0D9C80855942072C"]
+			id: "06438EA79584BDD1"
+			rewards: [
+				{
+					count: 4
+					id: "2FAEBB2CA6504D51"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0D142752D3F18562"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_prairiedog:prairiedog"
+				id: "0BBD983F1F38C364"
+				type: "kill"
+				value: 700L
+			}]
+			x: -6.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["06438EA79584BDD1"]
+			id: "1185ABB727075BC6"
+			rewards: [
+				{
+					count: 5
+					id: "28C5F93CDC49EB89"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "08AE2698B093251A"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_prairiedog:prairiedog"
+				id: "5708D5D51D4AF0FE"
+				type: "kill"
+				value: 800L
+			}]
+			x: -5.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["1185ABB727075BC6"]
+			id: "1BCC952367C99856"
+			rewards: [
+				{
+					count: 6
+					id: "45DD0F03EB4BFCB7"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "69EBCDB682E14B26"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_prairiedog:prairiedog"
+				id: "27DEC2B2C1BC3AA1"
+				type: "kill"
+				value: 900L
+			}]
+			x: -6.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["1BCC952367C99856"]
+			id: "60B25E2A262DC870"
+			rewards: [
+				{
+					id: "6164B5BB4437357F"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "2ED0C436EBD074E8"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "animalgarden_prairiedog:prairiedog"
+				id: "78EB8395D009E3EE"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -7.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["0A1C71F1F2A7FE49"]
+			id: "5C8D24DF47A38239"
+			rewards: [
+				{
+					id: "6175029453B8C58D"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "501D798965A0A87D"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "animalgarden_sugarglider:sugarglider"
+				id: "358152710D07D30A"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 8.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["05EFA2D35AD8AC42"]
+			id: "0A1C71F1F2A7FE49"
+			rewards: [
+				{
+					count: 6
+					id: "3B1F1C7FB36840BB"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "636B986D00F12D88"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_sugarglider:sugarglider"
+				id: "33B15255230C0172"
+				type: "kill"
+				value: 900L
+			}]
+			x: 9.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["6BA394077FCD2155"]
+			id: "05EFA2D35AD8AC42"
+			rewards: [
+				{
+					count: 5
+					id: "7594910F6137F94F"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "44EBABC9D70AE2A5"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_sugarglider:sugarglider"
+				id: "5D190FE7A0E528DA"
+				type: "kill"
+				value: 800L
+			}]
+			x: 9.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["5CAB98ECA8DD0DD7"]
+			id: "6BA394077FCD2155"
+			rewards: [
+				{
+					count: 4
+					id: "23F9FDB64C4EFAE1"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "3547E75FC980623F"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_sugarglider:sugarglider"
+				id: "5EA4E3B1B007E5AB"
+				type: "kill"
+				value: 700L
+			}]
+			x: 9.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["3EBCB15C32972407"]
+			id: "5CAB98ECA8DD0DD7"
+			rewards: [
+				{
+					count: 3
+					id: "13B08BC93E464DC8"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5125A225ED715310"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_sugarglider:sugarglider"
+				id: "0F3AFD26A0310F41"
+				type: "kill"
+				value: 600L
+			}]
+			x: 8.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["15DA84501FE9CC0F"]
+			id: "3EBCB15C32972407"
+			rewards: [
+				{
+					count: 2
+					id: "06894F291C2058C1"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0526ED9636162E21"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_sugarglider:sugarglider"
+				id: "1AF9AE0C612DBBBB"
+				type: "kill"
+				value: 500L
+			}]
+			x: 6.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["075E600664810DB5"]
+			id: "15DA84501FE9CC0F"
+			rewards: [
+				{
+					id: "2D0B45DA7498A502"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "3F38317240FFA1B3"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_sugarglider:sugarglider"
+				id: "4D94FD7EA72FE6CB"
+				type: "kill"
+				value: 400L
+			}]
+			x: 5.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["615600AC00470FFC"]
+			id: "075E600664810DB5"
+			rewards: [
+				{
+					count: 6
+					id: "0FDC36A15046B217"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "75AECCC98208CC83"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_sugarglider:sugarglider"
+				id: "110116CCBCF2226F"
+				type: "kill"
+				value: 300L
+			}]
+			x: 4.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["53DBF1A0FADF8849"]
+			id: "615600AC00470FFC"
+			rewards: [
+				{
+					count: 4
+					id: "5667AA6FF1482544"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "44D766D4522A40AC"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_sugarglider:sugarglider"
+				id: "03FB117A0DB9CF5A"
+				type: "kill"
+				value: 200L
+			}]
+			x: 3.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["2F82897869A65C7F"]
+			id: "53DBF1A0FADF8849"
+			rewards: [
+				{
+					count: 2
+					id: "2617563E92ADBB65"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "7FB2D21D89CD344B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_sugarglider:sugarglider"
+				id: "14640BBA0F477692"
+				type: "kill"
+				value: 100L
+			}]
+			x: 4.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["6D8CD4CE139D1247"]
+			id: "2F82897869A65C7F"
+			rewards: [
+				{
+					count: 4
+					id: "3BC461234F116F8F"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "603EA3D58B42EBC9"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_sugarglider:sugarglider"
+				id: "2AC8377013C4637A"
+				type: "kill"
+				value: 50L
+			}]
+			x: 5.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["138756765F0DBAA8"]
+			id: "03E754756AF44C93"
+			rewards: [
+				{
+					count: 4
+					id: "1F7BB48AA53B9E39"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "59C32E4546360976"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_spottedhyena:spottedhyena"
+				id: "75072899AD247ED0"
+				type: "kill"
+				value: 50L
+			}]
+			x: -2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["03E754756AF44C93"]
+			id: "49A8A608174A01ED"
+			rewards: [
+				{
+					count: 2
+					id: "07F5DDDBDDBA42B5"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "6E3FC50D5BC051CA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_spottedhyena:spottedhyena"
+				id: "139DD02B2263551B"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["49A8A608174A01ED"]
+			id: "4440A6099217A6D5"
+			rewards: [
+				{
+					count: 4
+					id: "18073370469EA4AA"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "4A312DFA9E620930"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_spottedhyena:spottedhyena"
+				id: "7A4E1BE69C8D1338"
+				type: "kill"
+				value: 200L
+			}]
+			x: -4.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4440A6099217A6D5"]
+			id: "3CF4CD47D63480D3"
+			rewards: [
+				{
+					count: 6
+					id: "5E454995811F1222"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "45939B320EF831AE"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_spottedhyena:spottedhyena"
+				id: "245C0D0A066BD738"
+				type: "kill"
+				value: 300L
+			}]
+			x: -3.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3CF4CD47D63480D3"]
+			id: "52025B637B6B7ADD"
+			rewards: [
+				{
+					id: "5E44BF4DFB53C9FB"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7663603ADF9777B1"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_spottedhyena:spottedhyena"
+				id: "5645E2384695ED51"
+				type: "kill"
+				value: 400L
+			}]
+			x: -2.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["52025B637B6B7ADD"]
+			id: "48684C222401EB01"
+			rewards: [
+				{
+					count: 2
+					id: "3AD3BD9C86240B10"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "10487F4E1BFB8AF4"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_spottedhyena:spottedhyena"
+				id: "5FB00E578F5455E1"
+				type: "kill"
+				value: 500L
+			}]
+			x: -1.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["48684C222401EB01"]
+			id: "32457E781EF7629D"
+			rewards: [
+				{
+					count: 3
+					id: "7A98E55753931A18"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "756EF551428E8923"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_spottedhyena:spottedhyena"
+				id: "5394BF1C457BBEF6"
+				type: "kill"
+				value: 600L
+			}]
+			x: 0.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["32457E781EF7629D"]
+			id: "373502526BBB5166"
+			rewards: [
+				{
+					count: 4
+					id: "325580092B612BAE"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0D81BC2E8FD3A081"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_spottedhyena:spottedhyena"
+				id: "169574CB673B3DC9"
+				type: "kill"
+				value: 700L
+			}]
+			x: 1.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["373502526BBB5166"]
+			id: "6ED80C629648B931"
+			rewards: [
+				{
+					count: 5
+					id: "08980958F1AF1536"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7078486BDBB7E739"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_spottedhyena:spottedhyena"
+				id: "2A8289974296C647"
+				type: "kill"
+				value: 800L
+			}]
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6ED80C629648B931"]
+			id: "7110F864E7CC9E3F"
+			rewards: [
+				{
+					count: 6
+					id: "132559D3CF4B3FF7"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7879B26E0BE9F09A"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_spottedhyena:spottedhyena"
+				id: "0832CAD20D07BD6F"
+				type: "kill"
+				value: 900L
+			}]
+			x: 1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7110F864E7CC9E3F"]
+			id: "19A009A6595FB1C0"
+			rewards: [
+				{
+					id: "5292959D6ADFC1A0"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "13C4928192408CB4"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "animalgarden_spottedhyena:spottedhyena"
+				id: "320E8FF1B3F8AF80"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5057FFE4A8FC88C5"]
+			id: "265A215446ED3ACC"
+			rewards: [
+				{
+					count: 4
+					id: "0B5B7BBC78F57B18"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "7B2933BDB7A857B9"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_porcupine:porcupine"
+				id: "674632F59498CFBE"
+				type: "kill"
+				value: 50L
+			}]
+			x: 5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["265A215446ED3ACC"]
+			id: "45F1BDB1B6AB0A9A"
+			rewards: [
+				{
+					count: 2
+					id: "4E9A159FDDC333AB"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "1ABC2F0D37A53E66"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_porcupine:porcupine"
+				id: "50F5879BDBC91ADB"
+				type: "kill"
+				value: 100L
+			}]
+			x: 4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["45F1BDB1B6AB0A9A"]
+			id: "6208FDDD1B39921D"
+			rewards: [
+				{
+					count: 4
+					id: "76470DA045191BB3"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "00DB041E573EFEC8"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_porcupine:porcupine"
+				id: "464E0F27C9E05EF3"
+				type: "kill"
+				value: 200L
+			}]
+			x: 3.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6208FDDD1B39921D"]
+			id: "1EE5DBBEB0CDCE59"
+			rewards: [
+				{
+					count: 6
+					id: "28B528284BFBBBCD"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "142DA1D469FE70C7"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_porcupine:porcupine"
+				id: "29A7B0937AE43EA6"
+				type: "kill"
+				value: 300L
+			}]
+			x: 4.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1EE5DBBEB0CDCE59"]
+			id: "724F0BD008D80F8A"
+			rewards: [
+				{
+					id: "3B016369631144FE"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "624AFB9A22A9AAFF"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_porcupine:porcupine"
+				id: "379187046051C12B"
+				type: "kill"
+				value: 400L
+			}]
+			x: 5.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["724F0BD008D80F8A"]
+			id: "4F28FEC206FE46B6"
+			rewards: [
+				{
+					count: 2
+					id: "29A7A8B15149FD37"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7E9F4B0B75078417"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_porcupine:porcupine"
+				id: "7151DC76B4070740"
+				type: "kill"
+				value: 500L
+			}]
+			x: 6.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["4F28FEC206FE46B6"]
+			id: "30F6705DF2C5B066"
+			rewards: [
+				{
+					count: 3
+					id: "38A7AFB31A0D1816"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "3E47E25D43209F49"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_porcupine:porcupine"
+				id: "4DF9744BD16291E3"
+				type: "kill"
+				value: 600L
+			}]
+			x: 8.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["30F6705DF2C5B066"]
+			id: "4C8D084C702492AA"
+			rewards: [
+				{
+					count: 4
+					id: "0ED69D03B50AF9EB"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0450F98CD5B48D81"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_porcupine:porcupine"
+				id: "5D1FB57EFA721C60"
+				type: "kill"
+				value: 700L
+			}]
+			x: 9.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["4C8D084C702492AA"]
+			id: "090CA40AD87365D7"
+			rewards: [
+				{
+					count: 5
+					id: "3A64C662BB503E14"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "39B053C2EF92B824"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_porcupine:porcupine"
+				id: "01946B7D0CA8584D"
+				type: "kill"
+				value: 800L
+			}]
+			x: 9.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["090CA40AD87365D7"]
+			id: "507E48E9DF526808"
+			rewards: [
+				{
+					count: 6
+					id: "4D62C70B6F1643F2"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0D19390593F4732B"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_porcupine:porcupine"
+				id: "1E770A8AB6FA5A83"
+				type: "kill"
+				value: 900L
+			}]
+			x: 9.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["507E48E9DF526808"]
+			id: "6704B12345445748"
+			rewards: [
+				{
+					id: "1FB309DB463EE180"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "3B6A8BABE3E902FA"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "animalgarden_porcupine:porcupine"
+				id: "46DC3D0503D0EC4F"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 8.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3DB043F64587364D"]
+			id: "41473EB8019FE93E"
+			rewards: [
+				{
+					count: 4
+					id: "55B152EEFB4A076A"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "238521E8A69E51AC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_mouse:mouse"
+				id: "0C5C5DE07ACBE646"
+				type: "kill"
+				value: 50L
+			}]
+			x: -10.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["41473EB8019FE93E"]
+			id: "3232339CF22FB5D8"
+			rewards: [
+				{
+					count: 2
+					id: "38EFEBC63DD62EA3"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "1713EB9E8F682D68"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_mouse:mouse"
+				id: "1967092415752E4A"
+				type: "kill"
+				value: 100L
+			}]
+			x: -11.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["3232339CF22FB5D8"]
+			id: "4DC6A0981F91F73A"
+			rewards: [
+				{
+					count: 4
+					id: "15F07331C4429823"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "29ABAE3ED51BBCD6"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_mouse:mouse"
+				id: "0A7E94739A36B15D"
+				type: "kill"
+				value: 200L
+			}]
+			x: -11.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4DC6A0981F91F73A"]
+			id: "6521BBC2DA0796DF"
+			rewards: [
+				{
+					count: 6
+					id: "5756D686DE84E154"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "0256D11137EB2691"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_mouse:mouse"
+				id: "5126F2F7C70D866A"
+				type: "kill"
+				value: 300L
+			}]
+			x: -11.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["6521BBC2DA0796DF"]
+			id: "40BF12BB99766DD7"
+			rewards: [
+				{
+					id: "0FC7B23B2FC57081"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7BA856C6B4A33335"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_mouse:mouse"
+				id: "6611283ECCEB46C6"
+				type: "kill"
+				value: 400L
+			}]
+			x: -10.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["40BF12BB99766DD7"]
+			id: "50BC57AF2F9B6E1F"
+			rewards: [
+				{
+					count: 2
+					id: "267AB10A150AC684"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "1770DCA839918484"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_mouse:mouse"
+				id: "453B0A15D3407943"
+				type: "kill"
+				value: 500L
+			}]
+			x: -8.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["50BC57AF2F9B6E1F"]
+			id: "73BF3CE667A5C721"
+			rewards: [
+				{
+					count: 3
+					id: "34ED4147ED5DA790"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "6BEF5EA86C4DA893"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_mouse:mouse"
+				id: "043D7765F45A5D75"
+				type: "kill"
+				value: 600L
+			}]
+			x: -7.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["73BF3CE667A5C721"]
+			id: "2AC57BD2A83D5064"
+			rewards: [
+				{
+					count: 4
+					id: "71E6FEA869B324FD"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "11352FDA17AAD8F6"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_mouse:mouse"
+				id: "60B26FE16434241D"
+				type: "kill"
+				value: 700L
+			}]
+			x: -6.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["2AC57BD2A83D5064"]
+			id: "11845DE52DFD2AFB"
+			rewards: [
+				{
+					count: 5
+					id: "334B24A438834CFC"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "1D91223DA5A8BC0B"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_mouse:mouse"
+				id: "5CBA143644866C98"
+				type: "kill"
+				value: 800L
+			}]
+			x: -5.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["11845DE52DFD2AFB"]
+			id: "63D2195BE9F42891"
+			rewards: [
+				{
+					count: 6
+					id: "437026CDD127CA0E"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "731D05E237347908"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_mouse:mouse"
+				id: "5C46C68896BCC348"
+				type: "kill"
+				value: 900L
+			}]
+			x: -6.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["63D2195BE9F42891"]
+			id: "1CF90390FAE73E6B"
+			rewards: [
+				{
+					id: "1E78236C2881B88E"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "7B380308F92BB4F7"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "animalgarden_mouse:mouse"
+				id: "021D36882B9CC32C"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -7.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["66998A899DCBBFB9"]
+			id: "7711292177E2DEA1"
+			rewards: [
+				{
+					count: 4
+					id: "27972710AD6A4F0F"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "2EBA4F497126A0FD"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_westerngorilla:westerngorilla"
+				id: "02597B78B4148958"
+				type: "kill"
+				value: 50L
+			}]
+			x: -17.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["066FF3CF15DA3AC0"]
+			id: "26490DCAF0B7366B"
+			rewards: [
+				{
+					id: "52D524323D1FC691"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "7F21C02505EACB5F"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "animalgarden_westerngorilla:westerngorilla"
+				id: "6314BD50D772027E"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -14.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["7711292177E2DEA1"]
+			id: "6D3006A74D497A78"
+			rewards: [
+				{
+					count: 2
+					id: "237E78CE90B29A73"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "0346EDC4A0576A41"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_westerngorilla:westerngorilla"
+				id: "25EE934E99F805F1"
+				type: "kill"
+				value: 100L
+			}]
+			x: -18.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["6D3006A74D497A78"]
+			id: "1962D224509AD675"
+			rewards: [
+				{
+					count: 4
+					id: "615C99ACE7BF27CC"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "7662F1C12B4CD327"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_westerngorilla:westerngorilla"
+				id: "6DEF0EA4BB5550A8"
+				type: "kill"
+				value: 200L
+			}]
+			x: -19.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["1962D224509AD675"]
+			id: "3257AF706008E406"
+			rewards: [
+				{
+					count: 6
+					id: "373ACCD09C967F45"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "0A40B177175C9D04"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_westerngorilla:westerngorilla"
+				id: "4EF156009EBF8680"
+				type: "kill"
+				value: 300L
+			}]
+			x: -18.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["3257AF706008E406"]
+			id: "1D81EC327ECA3E76"
+			rewards: [
+				{
+					id: "270E0F3C28FD6935"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "6EF8920C23A12540"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_westerngorilla:westerngorilla"
+				id: "06B7871AE567D2C3"
+				type: "kill"
+				value: 400L
+			}]
+			x: -17.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["1D81EC327ECA3E76"]
+			id: "1ECB18DA7EA5DE25"
+			rewards: [
+				{
+					count: 2
+					id: "3B955041D3661D2B"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "1844EA433E8A31F0"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_westerngorilla:westerngorilla"
+				id: "7069E789D4A8ED99"
+				type: "kill"
+				value: 500L
+			}]
+			x: -16.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["1ECB18DA7EA5DE25"]
+			id: "1BE2D50427A0D7F7"
+			rewards: [
+				{
+					count: 3
+					id: "1A568C7B4A8741AF"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "01AA985A8F149EE0"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_westerngorilla:westerngorilla"
+				id: "6CD7124A00879F42"
+				type: "kill"
+				value: 600L
+			}]
+			x: -14.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["1BE2D50427A0D7F7"]
+			id: "6607F6107530A8FB"
+			rewards: [
+				{
+					count: 4
+					id: "45FB171FF9A4F76E"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "17DC5DE0C5DA2CED"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_westerngorilla:westerngorilla"
+				id: "6C03EA25E672C674"
+				type: "kill"
+				value: 700L
+			}]
+			x: -13.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["6607F6107530A8FB"]
+			id: "17A17D57F31EBE4C"
+			rewards: [
+				{
+					count: 5
+					id: "45802404E2F7F62A"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "62D8DCD74115CA1E"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_westerngorilla:westerngorilla"
+				id: "2490B8FFD02B25BB"
+				type: "kill"
+				value: 800L
+			}]
+			x: -13.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["17A17D57F31EBE4C"]
+			id: "066FF3CF15DA3AC0"
+			rewards: [
+				{
+					count: 6
+					id: "66C97BAF2FC14117"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7D9282986BD04A03"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_westerngorilla:westerngorilla"
+				id: "555FEC0C4EC09F97"
+				type: "kill"
+				value: 900L
+			}]
+			x: -13.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["77547D8759334629"]
+			id: "59C4E91FB0A372AF"
+			rewards: [
+				{
+					id: "3E63A62728C275E0"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "7CF4345FA0899799"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "animalgarden_commonraven:commonraven"
+				id: "61295DF6E86C2465"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -14.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["18CB3F819DCBE780"]
+			id: "77547D8759334629"
+			rewards: [
+				{
+					count: 6
+					id: "2EDD6FC2C7E211D9"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "19E2EF715A7F0302"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_commonraven:commonraven"
+				id: "24C9C8706E8B5D56"
+				type: "kill"
+				value: 900L
+			}]
+			x: -13.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["65B7E3BDAF45BC11"]
+			id: "18CB3F819DCBE780"
+			rewards: [
+				{
+					count: 5
+					id: "4DD3122D2C9F3EE5"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "152F356DF4DD5685"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_commonraven:commonraven"
+				id: "26FB25E4D849D048"
+				type: "kill"
+				value: 800L
+			}]
+			x: -13.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["11884157B7221F06"]
+			id: "65B7E3BDAF45BC11"
+			rewards: [
+				{
+					count: 4
+					id: "690C639366E4ECB3"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2FD3B852308846CA"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_commonraven:commonraven"
+				id: "77AC92C13F13EA9C"
+				type: "kill"
+				value: 700L
+			}]
+			x: -13.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1FCC5A44EE487AA9"]
+			id: "11884157B7221F06"
+			rewards: [
+				{
+					count: 3
+					id: "518AB038B402C338"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2D93721619204419"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_commonraven:commonraven"
+				id: "50A9D79F0A464A61"
+				type: "kill"
+				value: 600L
+			}]
+			x: -14.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["22E3F3F1263ED2A9"]
+			id: "1FCC5A44EE487AA9"
+			rewards: [
+				{
+					count: 2
+					id: "0BFE1F6C670371FF"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "4BB09388C18A9F9F"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_commonraven:commonraven"
+				id: "6D878E7501450736"
+				type: "kill"
+				value: 500L
+			}]
+			x: -16.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["63FE77443F5B5EC9"]
+			id: "22E3F3F1263ED2A9"
+			rewards: [
+				{
+					id: "4817DB5626F72FB7"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0B70513E49BAA679"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_commonraven:commonraven"
+				id: "042B8E3181A293EF"
+				type: "kill"
+				value: 400L
+			}]
+			x: -17.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4673C475C2AF9C7F"]
+			id: "63FE77443F5B5EC9"
+			rewards: [
+				{
+					count: 6
+					id: "0DF9C0CD0354BD5A"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "72A042598662D8DD"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_commonraven:commonraven"
+				id: "5DDE01F23178FFF1"
+				type: "kill"
+				value: 300L
+			}]
+			x: -18.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["79E2D6A8ACC25AAC"]
+			id: "4673C475C2AF9C7F"
+			rewards: [
+				{
+					count: 4
+					id: "2A8B3397B6747026"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "2437B8E0939EE24C"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_commonraven:commonraven"
+				id: "76B4993F65F7F581"
+				type: "kill"
+				value: 200L
+			}]
+			x: -19.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4075276E34F9E0C6"]
+			id: "79E2D6A8ACC25AAC"
+			rewards: [
+				{
+					count: 2
+					id: "377B2CD3780100BB"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "2A1DDFEF3EF87CFF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_commonraven:commonraven"
+				id: "2A0AD96FB5CA77F8"
+				type: "kill"
+				value: 100L
+			}]
+			x: -18.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7E5DFF8E62DB9C23"]
+			id: "4075276E34F9E0C6"
+			rewards: [
+				{
+					count: 4
+					id: "7EAAEDDB10DE5E4A"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "46A46454003072DA"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_commonraven:commonraven"
+				id: "6880990B7C44AFCA"
+				type: "kill"
+				value: 50L
+			}]
+			x: -17.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["73117217EF006314"]
+			id: "25476896E318A58A"
+			rewards: [
+				{
+					count: 4
+					id: "4E0E9256234936DD"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "511E95EDFB90AFDC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_meerkat:meerkat"
+				id: "6D75199BCD34F6F7"
+				type: "kill"
+				value: 50L
+			}]
+			x: -17.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["25476896E318A58A"]
+			id: "0DD4CD55A7CDB2DF"
+			rewards: [
+				{
+					count: 2
+					id: "51238CDBF82C707D"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "39DCED3D238B0075"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_meerkat:meerkat"
+				id: "4C288FFF0977FA31"
+				type: "kill"
+				value: 100L
+			}]
+			x: -18.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0DD4CD55A7CDB2DF"]
+			id: "1562EFDF143F491E"
+			rewards: [
+				{
+					count: 4
+					id: "603490C17E0D221B"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "2372D954B7CBEF25"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_meerkat:meerkat"
+				id: "3972CE8CFD32620B"
+				type: "kill"
+				value: 200L
+			}]
+			x: -19.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1562EFDF143F491E"]
+			id: "687E36049F85039F"
+			rewards: [
+				{
+					count: 6
+					id: "21EDB137318ACC04"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "616D207E8D5DA711"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_meerkat:meerkat"
+				id: "18A2CBDFE78B3A30"
+				type: "kill"
+				value: 300L
+			}]
+			x: -18.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["687E36049F85039F"]
+			id: "5BFAE8E253F674A3"
+			rewards: [
+				{
+					id: "2C424074D47CAA2C"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "34FCF240B9E11856"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_meerkat:meerkat"
+				id: "1C725389776BB596"
+				type: "kill"
+				value: 400L
+			}]
+			x: -17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BFAE8E253F674A3"]
+			id: "2698E46AC46CBA16"
+			rewards: [
+				{
+					count: 2
+					id: "5EFBC3C1075F61FF"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "4042E1EE2469D2D7"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_meerkat:meerkat"
+				id: "0AF50293FF11534D"
+				type: "kill"
+				value: 500L
+			}]
+			x: -16.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2698E46AC46CBA16"]
+			id: "6798DADAE4CD9430"
+			rewards: [
+				{
+					count: 3
+					id: "4F336444DB80E8F2"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "1B126D2CB1881000"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_meerkat:meerkat"
+				id: "7418A8EF2DEDE77C"
+				type: "kill"
+				value: 600L
+			}]
+			x: -14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6798DADAE4CD9430"]
+			id: "6723781BFBCB12C4"
+			rewards: [
+				{
+					count: 4
+					id: "6355DDD9F0828681"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "737EE53B71DAA33E"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_meerkat:meerkat"
+				id: "6C56BB2BD3736F8F"
+				type: "kill"
+				value: 700L
+			}]
+			x: -13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6723781BFBCB12C4"]
+			id: "6A2554FCC6519EDB"
+			rewards: [
+				{
+					count: 5
+					id: "7E875DE07F7D1B16"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "3D58C9612F1F0E74"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_meerkat:meerkat"
+				id: "7A2FC9F5A82FCADA"
+				type: "kill"
+				value: 800L
+			}]
+			x: -13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6A2554FCC6519EDB"]
+			id: "2D34C0E78D4B7A8F"
+			rewards: [
+				{
+					count: 6
+					id: "7269DC8D53791265"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "18092561219740A9"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_meerkat:meerkat"
+				id: "041992ECFA7BAB9D"
+				type: "kill"
+				value: 900L
+			}]
+			x: -13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2D34C0E78D4B7A8F"]
+			id: "14F94B03C58419CA"
+			rewards: [
+				{
+					id: "352EE83EB912891E"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "1A9F2E7814607407"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "animalgarden_meerkat:meerkat"
+				id: "013453994D2FDAA6"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -14.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["04033CF4811FC41D"]
+			id: "474B014EC9C4DD85"
+			rewards: [
+				{
+					count: 4
+					id: "2709A39D8D963205"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "2E1EAF6C9BEC34A3"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wolf"
+				id: "43A4FB09A52E5296"
+				type: "kill"
+				value: 50L
+			}]
+			x: -17.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["474B014EC9C4DD85"]
+			id: "4A77B2396274D4A6"
+			rewards: [
+				{
+					count: 2
+					id: "05EF37925E37390B"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "4F16BC6DE376036E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wolf"
+				id: "3C1061E67B1FC870"
+				type: "kill"
+				value: 100L
+			}]
+			x: -18.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4A77B2396274D4A6"]
+			id: "02342952D1E22532"
+			rewards: [
+				{
+					count: 4
+					id: "78D4862F68FC2BCE"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "2EABB7331488E10D"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wolf"
+				id: "04E1B470CEC32F0D"
+				type: "kill"
+				value: 200L
+			}]
+			x: -19.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["02342952D1E22532"]
+			id: "5FE35238876938D6"
+			rewards: [
+				{
+					count: 6
+					id: "4C174900BB545BE9"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "7DD473CF26A032FA"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wolf"
+				id: "0A8ACC588A225AAD"
+				type: "kill"
+				value: 300L
+			}]
+			x: -18.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5FE35238876938D6"]
+			id: "50759553835DFAA3"
+			rewards: [
+				{
+					id: "098D988B92DA88F4"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2368CBE69AB5918A"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wolf"
+				id: "55DCBF2D01DCBC7E"
+				type: "kill"
+				value: 400L
+			}]
+			x: -17.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["50759553835DFAA3"]
+			id: "24FBE3B8BCB7E234"
+			rewards: [
+				{
+					count: 2
+					id: "17895966EFDB7161"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "177D0CA70DA77688"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wolf"
+				id: "3EAA5FAB9BB5883C"
+				type: "kill"
+				value: 500L
+			}]
+			x: -16.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["24FBE3B8BCB7E234"]
+			id: "1374A9F4DF216923"
+			rewards: [
+				{
+					count: 3
+					id: "2EF3C9A6DB50E18D"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "630484EA730134B4"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wolf"
+				id: "57F1A3E1280091BE"
+				type: "kill"
+				value: 600L
+			}]
+			x: -14.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1374A9F4DF216923"]
+			id: "57D154F33D7B1C42"
+			rewards: [
+				{
+					count: 4
+					id: "574CAECFB3167A3E"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "4ADA8F34100F83CB"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wolf"
+				id: "0A36B23F191F7CED"
+				type: "kill"
+				value: 700L
+			}]
+			x: -13.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["57D154F33D7B1C42"]
+			id: "044DFC4A36D14DCA"
+			rewards: [
+				{
+					count: 5
+					id: "2A8E3AE43B9D3AFC"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0F5F381A3482CE16"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wolf"
+				id: "622FF60DA96FF5A7"
+				type: "kill"
+				value: 800L
+			}]
+			x: -13.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["044DFC4A36D14DCA"]
+			id: "29E5D2A1436F403E"
+			rewards: [
+				{
+					count: 6
+					id: "1A3C3C80CFA639B4"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "1962B37444E85678"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wolf"
+				id: "2A15ECFCF74856E4"
+				type: "kill"
+				value: 900L
+			}]
+			x: -13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["29E5D2A1436F403E"]
+			id: "6E2AC61C4DE84744"
+			rewards: [
+				{
+					id: "3166115427C54487"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "2921DF2B93BAFDCE"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:wolf"
+				id: "0626B76625D7982A"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -14.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["36D9D736FFCA3086"]
+			id: "6FF099117F9CE465"
+			rewards: [
+				{
+					count: 4
+					id: "4D5D2DB4BB51DBC9"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "2BDB494701B28C28"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_whiterhinoceros:whiterhinoceros"
+				id: "41FE5ECC6169A972"
+				type: "kill"
+				value: 50L
+			}]
+			x: -17.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6FF099117F9CE465"]
+			id: "70B2D92C8E1F6AD3"
+			rewards: [
+				{
+					count: 2
+					id: "56BBFABE70A7978F"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "0A74B08636D3E108"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_whiterhinoceros:whiterhinoceros"
+				id: "22344BCCAFAD3E22"
+				type: "kill"
+				value: 100L
+			}]
+			x: -18.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["70B2D92C8E1F6AD3"]
+			id: "3F156325828EFDDD"
+			rewards: [
+				{
+					count: 4
+					id: "3BB0F4D6B062213C"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "059D75FA40160755"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_whiterhinoceros:whiterhinoceros"
+				id: "2EDC334719D79950"
+				type: "kill"
+				value: 200L
+			}]
+			x: -19.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3F156325828EFDDD"]
+			id: "4C35755612960BC7"
+			rewards: [
+				{
+					count: 6
+					id: "66064E05AF2E1CF6"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "4F9B2660E83D7CD4"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_whiterhinoceros:whiterhinoceros"
+				id: "35087FF3D07D3163"
+				type: "kill"
+				value: 300L
+			}]
+			x: -18.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["4C35755612960BC7"]
+			id: "0505DB24185D58ED"
+			rewards: [
+				{
+					id: "2A71D6118D2EBB52"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2D26B1D59B8DBB4D"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_whiterhinoceros:whiterhinoceros"
+				id: "378E289383A245B3"
+				type: "kill"
+				value: 400L
+			}]
+			x: -17.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["0505DB24185D58ED"]
+			id: "059F6D7689BD7D08"
+			rewards: [
+				{
+					count: 2
+					id: "4AE5663358731736"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5EE64F733BA1274C"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_whiterhinoceros:whiterhinoceros"
+				id: "7EFE8A04E3893AEB"
+				type: "kill"
+				value: 500L
+			}]
+			x: -16.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["059F6D7689BD7D08"]
+			id: "2C6C7DCF6918FD8D"
+			rewards: [
+				{
+					count: 3
+					id: "15DBD40A8A590E2B"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "77B22956034BB22D"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_whiterhinoceros:whiterhinoceros"
+				id: "08EF95D2CEB94028"
+				type: "kill"
+				value: 600L
+			}]
+			x: -14.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["2C6C7DCF6918FD8D"]
+			id: "587E35071ADD8FDE"
+			rewards: [
+				{
+					count: 4
+					id: "16B3363739AF27F3"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "512C7D87B25D96B9"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_whiterhinoceros:whiterhinoceros"
+				id: "5CDCD6390A67566A"
+				type: "kill"
+				value: 700L
+			}]
+			x: -13.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["587E35071ADD8FDE"]
+			id: "649081780866E214"
+			rewards: [
+				{
+					count: 5
+					id: "604EF6A30DDDDE61"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "086F7DD1107F61C6"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_whiterhinoceros:whiterhinoceros"
+				id: "12177DCFB9276263"
+				type: "kill"
+				value: 800L
+			}]
+			x: -13.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["649081780866E214"]
+			id: "621C98863C603280"
+			rewards: [
+				{
+					count: 6
+					id: "5E24384741FDF9EB"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2F07C6CAEA0D2A04"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_whiterhinoceros:whiterhinoceros"
+				id: "3641F296029235B2"
+				type: "kill"
+				value: 900L
+			}]
+			x: -13.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["621C98863C603280"]
+			id: "369A3AE10BB8A0B9"
+			rewards: [
+				{
+					id: "0E9CD16AD1527F00"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "216CC5E7FF4AA4BD"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "animalgarden_whiterhinoceros:whiterhinoceros"
+				id: "16F703434254ED75"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -14.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["51A8F4DD5F2A8391"]
+			id: "43B14616A5701EE3"
+			rewards: [
+				{
+					count: 4
+					id: "08CA93F1426744F4"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "7B200555F48454B2"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_redpanda:redpanda"
+				id: "32A7399FB52A9FE6"
+				type: "kill"
+				value: 50L
+			}]
+			x: 14.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["43B14616A5701EE3"]
+			id: "56E5AEB726DA21B5"
+			rewards: [
+				{
+					count: 2
+					id: "5E976A1B948CE16B"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "32F207C90FC21B20"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_redpanda:redpanda"
+				id: "32D74F2B0B7C0184"
+				type: "kill"
+				value: 100L
+			}]
+			x: 13.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["56E5AEB726DA21B5"]
+			id: "63A43671B5C21EBC"
+			rewards: [
+				{
+					count: 4
+					id: "256C80EE4348EB7C"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "70311E13905AC062"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_redpanda:redpanda"
+				id: "0E4E3D92998B7F14"
+				type: "kill"
+				value: 200L
+			}]
+			x: 13.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["63A43671B5C21EBC"]
+			id: "6EB024B6609E96CB"
+			rewards: [
+				{
+					count: 6
+					id: "4903284A45F42102"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "4A9A6F55926D9BD4"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_redpanda:redpanda"
+				id: "3525EE05F081B4CB"
+				type: "kill"
+				value: 300L
+			}]
+			x: 13.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["6EB024B6609E96CB"]
+			id: "6CB016AEC81A4B09"
+			rewards: [
+				{
+					id: "03494167D0DA55EC"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "44EB18EE1BE32C84"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_redpanda:redpanda"
+				id: "42BB0C303F3A9BED"
+				type: "kill"
+				value: 400L
+			}]
+			x: 14.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["6CB016AEC81A4B09"]
+			id: "45DECEDAFBEDF39F"
+			rewards: [
+				{
+					count: 2
+					id: "233221A362B27A4B"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0E95FBD66466BF73"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_redpanda:redpanda"
+				id: "2D4F83AD59219794"
+				type: "kill"
+				value: 500L
+			}]
+			x: 16.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["45DECEDAFBEDF39F"]
+			id: "673FF550DE01B6B6"
+			rewards: [
+				{
+					count: 3
+					id: "4D53228169D9B57A"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7AD4ECD4337F1EE9"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_redpanda:redpanda"
+				id: "1362EC2B07AD09E1"
+				type: "kill"
+				value: 600L
+			}]
+			x: 17.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["673FF550DE01B6B6"]
+			id: "10FDAF82B41A94A5"
+			rewards: [
+				{
+					count: 4
+					id: "59474ECF17F47C0C"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5F2E1AE49AA0BF68"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_redpanda:redpanda"
+				id: "5AED0AB2AB1E828B"
+				type: "kill"
+				value: 700L
+			}]
+			x: 18.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["10FDAF82B41A94A5"]
+			id: "3F138317E0D009F1"
+			rewards: [
+				{
+					count: 5
+					id: "063FF78833A41456"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "695630587B460593"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_redpanda:redpanda"
+				id: "1A3EE28368234BF5"
+				type: "kill"
+				value: 800L
+			}]
+			x: 19.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["3F138317E0D009F1"]
+			id: "0D55E1333E1D26F0"
+			rewards: [
+				{
+					count: 6
+					id: "7FF51E903A2CC4A4"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "1AAC1A4F1126FCDE"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_redpanda:redpanda"
+				id: "028A0C22BDD0F2EF"
+				type: "kill"
+				value: 900L
+			}]
+			x: 18.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["0D55E1333E1D26F0"]
+			id: "3953DCFC2C84ADDB"
+			rewards: [
+				{
+					id: "7B7E628FD1BAA3E1"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "55D9298D699DF57A"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "animalgarden_redpanda:redpanda"
+				id: "04F01DA30EFD6126"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 17.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["04A06B974C0F66AE"]
+			id: "7D93BA994D7752D2"
+			rewards: [
+				{
+					count: 4
+					id: "63BBEF2CB8307EA6"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "59775DA8FE839160"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "minecraft:chicken"
+				id: "3FE251B79B309D55"
+				type: "kill"
+				value: 50L
+			}]
+			x: 14.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["7D93BA994D7752D2"]
+			id: "4FE205A7A8042E00"
+			rewards: [
+				{
+					count: 2
+					id: "421C36E6C3138163"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "2DB5825E311FE308"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:chicken"
+				id: "2CC896DEB32F50A6"
+				type: "kill"
+				value: 100L
+			}]
+			x: 13.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["4FE205A7A8042E00"]
+			id: "789956862E6CF69E"
+			rewards: [
+				{
+					count: 4
+					id: "7F73E8F99A99FAB5"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "6F78F424B212A307"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:chicken"
+				id: "102D3C2AEFC6DEC4"
+				type: "kill"
+				value: 200L
+			}]
+			x: 13.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["789956862E6CF69E"]
+			id: "63BAFF6D6ABC2E91"
+			rewards: [
+				{
+					count: 6
+					id: "6E6F755BEB8ACA66"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "33341790A7A81F9D"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "minecraft:chicken"
+				id: "57F423E09E382355"
+				type: "kill"
+				value: 300L
+			}]
+			x: 13.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["63BAFF6D6ABC2E91"]
+			id: "5BFE140CB364B418"
+			rewards: [
+				{
+					id: "0C3860DD7598A4D3"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "508C22BD9ABC743C"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "minecraft:chicken"
+				id: "1FE16482F319727A"
+				type: "kill"
+				value: 400L
+			}]
+			x: 14.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5BFE140CB364B418"]
+			id: "5EA1F08935349260"
+			rewards: [
+				{
+					count: 2
+					id: "2989BC0210DE6BD5"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "6317B638F25383F6"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "minecraft:chicken"
+				id: "5290C78D690EBEA8"
+				type: "kill"
+				value: 500L
+			}]
+			x: 16.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5EA1F08935349260"]
+			id: "012E76024B19631E"
+			rewards: [
+				{
+					count: 3
+					id: "33EC93B8900E7A70"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5309FB4D24829463"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "minecraft:chicken"
+				id: "68D335F39FD6DBDC"
+				type: "kill"
+				value: 600L
+			}]
+			x: 17.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["012E76024B19631E"]
+			id: "15FC0CFAE14F9702"
+			rewards: [
+				{
+					count: 4
+					id: "52F74843DB047D8B"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "39C02CF6BC092F55"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "minecraft:chicken"
+				id: "19D2F06DDE4F08AC"
+				type: "kill"
+				value: 700L
+			}]
+			x: 18.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["15FC0CFAE14F9702"]
+			id: "34C5BA79CB09D980"
+			rewards: [
+				{
+					count: 5
+					id: "7A48EA8AD20C91A1"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "73F848146752C9DD"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "minecraft:chicken"
+				id: "6546510941B14771"
+				type: "kill"
+				value: 800L
+			}]
+			x: 19.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["34C5BA79CB09D980"]
+			id: "4D90797E7369FB38"
+			rewards: [
+				{
+					count: 6
+					id: "588600BAB737503A"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "22D53AA636A5C43D"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "minecraft:chicken"
+				id: "4524D6D59BA11EA3"
+				type: "kill"
+				value: 900L
+			}]
+			x: 18.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["4D90797E7369FB38"]
+			id: "5129292B10D64874"
+			rewards: [
+				{
+					id: "40DF5926147B68A3"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "33B14AF2F5BA7F60"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:chicken"
+				id: "5FBB7DF216660EB0"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 17.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["3EC3B4FBDE598847"]
+			id: "02E183635210A139"
+			rewards: [
+				{
+					count: 4
+					id: "3D92530685D0DD62"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "5E34976B1284BED8"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cow"
+				id: "7F9E3C4183ABB3CA"
+				type: "kill"
+				value: 50L
+			}]
+			x: 14.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["02E183635210A139"]
+			id: "1DEF254C2586B531"
+			rewards: [
+				{
+					count: 2
+					id: "6C9716DC08528619"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "1567EEFAE1C1D93E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cow"
+				id: "676909A586EDE0C5"
+				type: "kill"
+				value: 100L
+			}]
+			x: 13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1DEF254C2586B531"]
+			id: "317DEC8AC9C612D0"
+			rewards: [
+				{
+					count: 4
+					id: "641B1ACCE4D55CB5"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "2917C81F47CBBEA7"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cow"
+				id: "5D18EAFFD6BF6D3E"
+				type: "kill"
+				value: 200L
+			}]
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["317DEC8AC9C612D0"]
+			id: "400600078B74A1EB"
+			rewards: [
+				{
+					count: 6
+					id: "65A0334752ABA09A"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "7B5B4921C3B4BFDC"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cow"
+				id: "459E6CDBAB478D9B"
+				type: "kill"
+				value: 300L
+			}]
+			x: 13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["400600078B74A1EB"]
+			id: "4D375EB3C8685689"
+			rewards: [
+				{
+					id: "687E2E49C3E15FBB"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "430D2449C9B3F8B4"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cow"
+				id: "72E9AA7937E988B5"
+				type: "kill"
+				value: 400L
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D375EB3C8685689"]
+			id: "420EBAC3741F096C"
+			rewards: [
+				{
+					count: 2
+					id: "42CE7A7236587752"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7060E24BEB656C4B"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cow"
+				id: "0966BC0AEF41B5DB"
+				type: "kill"
+				value: 500L
+			}]
+			x: 16.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["420EBAC3741F096C"]
+			id: "3BF1DC62D40F09F1"
+			rewards: [
+				{
+					count: 3
+					id: "4DFBF1C07049562D"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "537317DC85B3A00A"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cow"
+				id: "10B9EE54FE061B23"
+				type: "kill"
+				value: 600L
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BF1DC62D40F09F1"]
+			id: "473B368A7C327DE0"
+			rewards: [
+				{
+					count: 4
+					id: "04176216C5E41B2D"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "68B796D6096EE6D8"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cow"
+				id: "7F58E895C2EF850E"
+				type: "kill"
+				value: 700L
+			}]
+			x: 18.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["473B368A7C327DE0"]
+			id: "21DDA9FEF9D646AB"
+			rewards: [
+				{
+					count: 5
+					id: "0304A5BF8D8703C8"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "01597D5F62540A26"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cow"
+				id: "73F49982B1DB9F44"
+				type: "kill"
+				value: 800L
+			}]
+			x: 19.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["21DDA9FEF9D646AB"]
+			id: "217244B02DCBEABF"
+			rewards: [
+				{
+					count: 6
+					id: "7DFDB4189E1BD578"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "3FA61DDD5735CFB0"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "minecraft:cow"
+				id: "0A46E5104750D0F6"
+				type: "kill"
+				value: 900L
+			}]
+			x: 18.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["217244B02DCBEABF"]
+			id: "1C8D08AF3E97941E"
+			rewards: [
+				{
+					id: "6BB22EE4DD4F6A76"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "7CA7DF17D6DAE140"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:cow"
+				id: "4C4070E52860F308"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 17.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6C301C6F0EED81B3"]
+			id: "0418AF557BC12315"
+			rewards: [
+				{
+					count: 4
+					id: "69E667D25DB69500"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "036CC6A319B2B7A3"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "minecraft:rabbit"
+				id: "48814E52D70E050E"
+				type: "kill"
+				value: 50L
+			}]
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0418AF557BC12315"]
+			id: "6DE45E5194EF4E05"
+			rewards: [
+				{
+					count: 2
+					id: "1DB050E26B6571AF"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "0668E70DFA08D456"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:rabbit"
+				id: "74A3409806E89A89"
+				type: "kill"
+				value: 100L
+			}]
+			x: 13.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6DE45E5194EF4E05"]
+			id: "65EBF97C885067D0"
+			rewards: [
+				{
+					count: 4
+					id: "79853BF5ECC7948E"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "39F1B2C179E5D4A9"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:rabbit"
+				id: "3A01950C5C0BC0AA"
+				type: "kill"
+				value: 200L
+			}]
+			x: 13.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["65EBF97C885067D0"]
+			id: "194EAB4622AA816B"
+			rewards: [
+				{
+					count: 6
+					id: "115597990270F84B"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "1D2E30F7821BB8DF"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "minecraft:rabbit"
+				id: "0801C0643BF4649A"
+				type: "kill"
+				value: 300L
+			}]
+			x: 13.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["194EAB4622AA816B"]
+			id: "3EADD19CFAF3145D"
+			rewards: [
+				{
+					id: "7375A3016E2F5006"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "44F759F2DD5ED551"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "minecraft:rabbit"
+				id: "7E9861AF75C499B8"
+				type: "kill"
+				value: 400L
+			}]
+			x: 14.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3EADD19CFAF3145D"]
+			id: "254690AD8235ED01"
+			rewards: [
+				{
+					count: 2
+					id: "1385D13A20F5A058"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "63FA2F730C6FFDE4"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "minecraft:rabbit"
+				id: "3AD932EFEE20F73E"
+				type: "kill"
+				value: 500L
+			}]
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["254690AD8235ED01"]
+			id: "6A94324378528F28"
+			rewards: [
+				{
+					count: 3
+					id: "4333D29C9A30DA09"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "09938DA3408078D1"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "minecraft:rabbit"
+				id: "019755188F75EB13"
+				type: "kill"
+				value: 600L
+			}]
+			x: 17.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6A94324378528F28"]
+			id: "2266634B6D590CF5"
+			rewards: [
+				{
+					count: 4
+					id: "4BDE34D48A56D26B"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "3C9594E5722DE283"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "minecraft:rabbit"
+				id: "50E6C9E0DD116CEC"
+				type: "kill"
+				value: 700L
+			}]
+			x: 18.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2266634B6D590CF5"]
+			id: "44CB0BA951DA02A1"
+			rewards: [
+				{
+					count: 5
+					id: "1420C1D8CAE0DDFC"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "145CE723C29413DE"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "minecraft:rabbit"
+				id: "3631501AF937E4F7"
+				type: "kill"
+				value: 800L
+			}]
+			x: 19.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["44CB0BA951DA02A1"]
+			id: "3C04D5E23CE93D4E"
+			rewards: [
+				{
+					count: 6
+					id: "069ED3B2B9C1E557"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "17455AE9843275B0"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "minecraft:rabbit"
+				id: "68EC9BD146E90DF0"
+				type: "kill"
+				value: 900L
+			}]
+			x: 18.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3C04D5E23CE93D4E"]
+			id: "39036206926FDEF2"
+			rewards: [
+				{
+					id: "3E954984D1B1A601"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "2D51BB2FAE8241B9"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:rabbit"
+				id: "50EABE334434C562"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 17.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6E9ECDEF5C28201A"]
+			id: "48EA5198D1AEDB19"
+			rewards: [
+				{
+					count: 4
+					id: "6A3C70F022DE1C12"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "02B126194498EFC0"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "minecraft:bat"
+				id: "4D346CEAE4D634AC"
+				type: "kill"
+				value: 50L
+			}]
+			x: 24.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["48EA5198D1AEDB19"]
+			id: "408680751C33A67D"
+			rewards: [
+				{
+					count: 2
+					id: "3F61EBD086E7B505"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "74C67928116A23DB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:bat"
+				id: "31606868173CD373"
+				type: "kill"
+				value: 100L
+			}]
+			x: 23.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["408680751C33A67D"]
+			id: "6000745702FEB081"
+			rewards: [
+				{
+					count: 4
+					id: "0E88345B5DD30074"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "64803421091E5035"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:bat"
+				id: "1820223C7950111B"
+				type: "kill"
+				value: 200L
+			}]
+			x: 23.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["6000745702FEB081"]
+			id: "2262C3AC1290734B"
+			rewards: [
+				{
+					count: 6
+					id: "1D938E2679DDE48E"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "67DAA37309D2CA1F"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "minecraft:bat"
+				id: "2B18021D9AE1B85F"
+				type: "kill"
+				value: 300L
+			}]
+			x: 23.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2262C3AC1290734B"]
+			id: "60EBC05C8AFCCC57"
+			rewards: [
+				{
+					id: "0302CAC19AFE83EB"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "483E43465026792E"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "minecraft:bat"
+				id: "53595DB635F9CB2C"
+				type: "kill"
+				value: 400L
+			}]
+			x: 24.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["60EBC05C8AFCCC57"]
+			id: "057C80BF9B7D87CE"
+			rewards: [
+				{
+					count: 2
+					id: "138DD57A271CB91B"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "3EC0DBC94A9D0EE0"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				entity: "minecraft:bat"
+				id: "352FA7F09A139014"
+				type: "kill"
+				value: 500L
+			}]
+			x: 26.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["057C80BF9B7D87CE"]
+			id: "0201C5A7CC8A982F"
+			rewards: [
+				{
+					count: 3
+					id: "67DA7CC9B9F201E9"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0669A821B03F0164"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "minecraft:bat"
+				id: "6190188178BB6B75"
+				type: "kill"
+				value: 600L
+			}]
+			x: 27.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["0201C5A7CC8A982F"]
+			id: "7189C1648AC27F45"
+			rewards: [
+				{
+					count: 4
+					id: "55B4A9F8D3E96DC7"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "035FBD5C7F25B239"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "minecraft:bat"
+				id: "732417F1F9D3498A"
+				type: "kill"
+				value: 700L
+			}]
+			x: 28.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7189C1648AC27F45"]
+			id: "19A811F89C53085C"
+			rewards: [
+				{
+					count: 5
+					id: "1FE3579C7DB58A85"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "12B77239F7801227"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "minecraft:bat"
+				id: "6D54A77D31BE43CB"
+				type: "kill"
+				value: 800L
+			}]
+			x: 29.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["19A811F89C53085C"]
+			id: "4C465C81EF77832D"
+			rewards: [
+				{
+					count: 6
+					id: "3A6B5D32B5A83674"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "60378776B7A4CC7B"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "minecraft:bat"
+				id: "52A08B6E9F0B8532"
+				type: "kill"
+				value: 900L
+			}]
+			x: 28.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4C465C81EF77832D"]
+			id: "42B0DF31DABD340E"
+			rewards: [
+				{
+					id: "48088EBBEAA7975A"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "285699154DC059F3"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:bat"
+				id: "423CA7C03E0CE0F8"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 27.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2AF6B49A6493833E"]
+			id: "6684592C51D61266"
+			rewards: [
+				{
+					id: "0C58C275C60E05C5"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7D38E8DBD92AA821"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "minecraft:sheep"
+				id: "5154E4F6212AC88C"
+				type: "kill"
+				value: 400L
+			}]
+			x: 24.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["3303404EC23C5ECE"]
+			id: "2AF6B49A6493833E"
+			rewards: [
+				{
+					count: 6
+					id: "57EC7B919F45184A"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "0AB0FC065264E3FE"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "minecraft:sheep"
+				id: "7514D5DE41956777"
+				type: "kill"
+				value: 300L
+			}]
+			x: 23.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["7D42473FCFA730A0"]
+			id: "3303404EC23C5ECE"
+			rewards: [
+				{
+					count: 4
+					id: "6D4B1ED0E7CDBD1D"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "75B77DA9CC1F911E"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:sheep"
+				id: "2076B467FD0FD6DA"
+				type: "kill"
+				value: 200L
+			}]
+			x: 23.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["2556F107B0B5CE16"]
+			id: "7D42473FCFA730A0"
+			rewards: [
+				{
+					count: 2
+					id: "44E3C16747DEF153"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "259CF9F085BEE050"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:sheep"
+				id: "225523396E1738C7"
+				type: "kill"
+				value: 100L
+			}]
+			x: 23.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["7BF74D9B7BC2C31E"]
+			id: "2556F107B0B5CE16"
+			rewards: [
+				{
+					count: 4
+					id: "0607E6ECAF0EA361"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "2EF23B03A6B7E4EA"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "minecraft:sheep"
+				id: "658B6D8F358D86F3"
+				type: "kill"
+				value: 50L
+			}]
+			x: 24.5d
+			y: -20.0d
+		}
+		{
+			id: "7BF74D9B7BC2C31E"
+			rewards: [
+				{
+					count: 2
+					id: "2E96A8AA707D8A4C"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "2C0891C00B482398"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:sheep"
+				id: "00FE24A30E214742"
+				type: "kill"
+				value: 10L
+			}]
+			x: 26.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["354F9C774BBFD211"]
+			id: "1E15B2480A6C1675"
+			rewards: [
+				{
+					id: "1D98A9CBFDDF332F"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "6677C9D53586F310"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:sheep"
+				id: "745D22DB130101B9"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 27.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["0E666CFEC87ED844"]
+			id: "354F9C774BBFD211"
+			rewards: [
+				{
+					count: 6
+					id: "400821ABAFA39D1B"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5046DE1267D7F8AC"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "minecraft:sheep"
+				id: "2F475EA3CA74E839"
+				type: "kill"
+				value: 900L
+			}]
+			x: 28.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["7E75D5908F54210B"]
+			id: "0E666CFEC87ED844"
+			rewards: [
+				{
+					count: 5
+					id: "3B9EF4B64FF4F192"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "79D3D0CD880AB0D0"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "minecraft:sheep"
+				id: "5B438DAD742792B5"
+				type: "kill"
+				value: 800L
+			}]
+			x: 29.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["5A42983C4B69438D"]
+			id: "7E75D5908F54210B"
+			rewards: [
+				{
+					count: 4
+					id: "0DE24A688588D974"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "4584B0C3309701BF"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "minecraft:sheep"
+				id: "1D82ECE6551D1FC2"
+				type: "kill"
+				value: 700L
+			}]
+			x: 28.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["70FCF2ECF049B145"]
+			id: "5A42983C4B69438D"
+			rewards: [
+				{
+					count: 3
+					id: "5BD4A99CBB536AC1"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5330ACC039C0241A"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "minecraft:sheep"
+				id: "1496F0CE0CDD92ED"
+				type: "kill"
+				value: 600L
+			}]
+			x: 27.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["45B0F4F62FD82CC2"]
+			id: "122E4916318D5061"
+			rewards: [
+				{
+					count: 3
+					id: "6B1CADFA99C46837"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "24049BBBF56C722B"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "minecraft:armadillo"
+				id: "134D69B9059DF0A6"
+				type: "kill"
+				value: 600L
+			}]
+			x: 37.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["122E4916318D5061"]
+			id: "5519ED1FBC8668BF"
+			rewards: [
+				{
+					count: 4
+					id: "4FF61292A50AA34A"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "05688A193022A775"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "minecraft:armadillo"
+				id: "04EA87F0BA44412B"
+				type: "kill"
+				value: 700L
+			}]
+			x: 38.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["5519ED1FBC8668BF"]
+			id: "3AC27C3F6269881F"
+			rewards: [
+				{
+					count: 5
+					id: "4554305A4DC792A9"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "012EF239B26CDB51"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "minecraft:armadillo"
+				id: "4D54338B3B7F2B12"
+				type: "kill"
+				value: 800L
+			}]
+			x: 39.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["3AC27C3F6269881F"]
+			id: "0D4E3186B727B513"
+			rewards: [
+				{
+					count: 6
+					id: "0BAD1A44A853DE14"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "618961331B50EEC4"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "minecraft:armadillo"
+				id: "190DF34B0B8F8170"
+				type: "kill"
+				value: 900L
+			}]
+			x: 38.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["0D4E3186B727B513"]
+			id: "6579CF1161B9EFA0"
+			rewards: [
+				{
+					id: "00826F167616B58A"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "16C9EFD4D8A68153"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:armadillo"
+				id: "23C46FCFE362209A"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 37.5d
+			y: -20.0d
+		}
+		{
+			id: "3F7D516D603CAE8A"
+			rewards: [
+				{
+					count: 2
+					id: "78143B9A91C270B5"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "7F9C0D5AABBD8ED2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:armadillo"
+				id: "4593897B44365BE8"
+				type: "kill"
+				value: 10L
+			}]
+			x: 36.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["3F7D516D603CAE8A"]
+			id: "4B72B69DF25C95F3"
+			rewards: [
+				{
+					count: 4
+					id: "480871FE0955292C"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "23941CA0F4E5DEDB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "minecraft:armadillo"
+				id: "395B23C1A2F36B99"
+				type: "kill"
+				value: 50L
+			}]
+			x: 34.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["4B72B69DF25C95F3"]
+			id: "180565DF31F1DC62"
+			rewards: [
+				{
+					count: 2
+					id: "3D07BE6125A3FD38"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "0A31A8B5C28146EA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:armadillo"
+				id: "7542F2AC50938FD8"
+				type: "kill"
+				value: 100L
+			}]
+			x: 33.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["180565DF31F1DC62"]
+			id: "078487E57571C5AC"
+			rewards: [
+				{
+					count: 4
+					id: "69F7B8D0C5918A3A"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "746B70DABFA830B3"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:armadillo"
+				id: "614E59C0C3C9CDD1"
+				type: "kill"
+				value: 200L
+			}]
+			x: 33.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["078487E57571C5AC"]
+			id: "611D4A10E9C2157E"
+			rewards: [
+				{
+					count: 6
+					id: "1D86D237E7F53288"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "66556FC67FB74BDD"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "minecraft:armadillo"
+				id: "3F1892B10D49CF24"
+				type: "kill"
+				value: 300L
+			}]
+			x: 33.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["611D4A10E9C2157E"]
+			id: "3C91D5A4BF5D941F"
+			rewards: [
+				{
+					id: "4CA005143C71A524"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "3138F297F20F6FED"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "minecraft:armadillo"
+				id: "505ED883E023031B"
+				type: "kill"
+				value: 400L
+			}]
+			x: 34.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["0E7B4B50CCBF1DEF"]
+			id: "29D3605D4F50115D"
+			rewards: [
+				{
+					id: "510940354E61982D"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "638432744F65B941"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "minecraft:donkey"
+				id: "580775DC99899EC0"
+				type: "kill"
+				value: 400L
+			}]
+			x: 24.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["27BF064D3939783A"]
+			id: "0E7B4B50CCBF1DEF"
+			rewards: [
+				{
+					count: 6
+					id: "41A5F67AA71326E6"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "0900935F0895B585"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "minecraft:donkey"
+				id: "05FC59BCB871C9F7"
+				type: "kill"
+				value: 300L
+			}]
+			x: 23.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3847151F46F4B626"]
+			id: "27BF064D3939783A"
+			rewards: [
+				{
+					count: 4
+					id: "6FAB729E5A9267A9"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "4ADF0A722226CF0D"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:donkey"
+				id: "113DF38AAE47B934"
+				type: "kill"
+				value: 200L
+			}]
+			x: 23.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["13754C8DCAD5A1B7"]
+			id: "3847151F46F4B626"
+			rewards: [
+				{
+					count: 2
+					id: "37957296D4A485F2"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "2A6AAB8938CE8151"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:donkey"
+				id: "212BD6EA4F6E2398"
+				type: "kill"
+				value: 100L
+			}]
+			x: 23.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["505B8BB480132E9F"]
+			id: "13754C8DCAD5A1B7"
+			rewards: [
+				{
+					count: 4
+					id: "3F7E398AAC752166"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "6B2C968A54B35057"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "minecraft:donkey"
+				id: "384EDEEFC65234F6"
+				type: "kill"
+				value: 50L
+			}]
+			x: 24.5d
+			y: -12.5d
+		}
+		{
+			id: "505B8BB480132E9F"
+			rewards: [
+				{
+					count: 2
+					id: "418453C469AFBB19"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "3A9615A03F5C425F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:donkey"
+				id: "1DAA730F376C6FC7"
+				type: "kill"
+				value: 10L
+			}]
+			x: 26.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["02F1D48BD4A4D8AD"]
+			id: "48B4AE72F8E01C23"
+			rewards: [
+				{
+					id: "477BAB60798A25DD"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "1422E2F61915A763"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:donkey"
+				id: "28E4E2B5207391FC"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 27.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["40AFB81B323BE409"]
+			id: "02F1D48BD4A4D8AD"
+			rewards: [
+				{
+					count: 6
+					id: "292565648012E790"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "55325AC0D29AE475"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "minecraft:donkey"
+				id: "7D1383E7788C7100"
+				type: "kill"
+				value: 900L
+			}]
+			x: 28.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["72BF1D0851933D92"]
+			id: "40AFB81B323BE409"
+			rewards: [
+				{
+					count: 5
+					id: "1F4AACB23183C102"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "271883D0BFF4A64A"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "minecraft:donkey"
+				id: "333EA5C11E1A3779"
+				type: "kill"
+				value: 800L
+			}]
+			x: 29.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["10579C5CAA69249F"]
+			id: "72BF1D0851933D92"
+			rewards: [
+				{
+					count: 4
+					id: "4BEEB66BC6FEFC9C"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "39A49CFF887DDDF8"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "minecraft:donkey"
+				id: "26FBCE6B1BCFEE6F"
+				type: "kill"
+				value: 700L
+			}]
+			x: 28.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["436318F105438352"]
+			id: "10579C5CAA69249F"
+			rewards: [
+				{
+					count: 3
+					id: "3F23647BED702333"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "67EFFEEDA5025816"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "minecraft:donkey"
+				id: "36265B3FFD20C3E4"
+				type: "kill"
+				value: 600L
+			}]
+			x: 27.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6A397EAF089479CC"]
+			id: "608018F6EFC22FE5"
+			rewards: [
+				{
+					id: "38A277BBE2474B01"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "01A7E844F62A11F4"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "minecraft:polar_bear"
+				id: "0E60BCB0324B3003"
+				type: "kill"
+				value: 400L
+			}]
+			x: 34.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2B08EEB025AA5054"]
+			id: "6A397EAF089479CC"
+			rewards: [
+				{
+					count: 6
+					id: "2A1DD7F2E861760D"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "5C26A82BD40A4E87"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "minecraft:polar_bear"
+				id: "1A12AD672BB5A30F"
+				type: "kill"
+				value: 300L
+			}]
+			x: 33.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["23F2A7B5FC5C341A"]
+			id: "2B08EEB025AA5054"
+			rewards: [
+				{
+					count: 4
+					id: "1475AD0B10C85244"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "1C0A67768CFD6C94"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:polar_bear"
+				id: "6D036F0D8C7ECE57"
+				type: "kill"
+				value: 200L
+			}]
+			x: 33.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["74CA3A5ED9B29B8B"]
+			id: "23F2A7B5FC5C341A"
+			rewards: [
+				{
+					count: 2
+					id: "1551C9B73D0B47C0"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "1FAD1ADEB1460BB1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:polar_bear"
+				id: "096B8775E772FF96"
+				type: "kill"
+				value: 100L
+			}]
+			x: 33.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["519001F4A96E2B9D"]
+			id: "74CA3A5ED9B29B8B"
+			rewards: [
+				{
+					count: 4
+					id: "600554F537575E4A"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "7B459AC46C3E48FD"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "minecraft:polar_bear"
+				id: "7B95E9DD3C4D22E8"
+				type: "kill"
+				value: 50L
+			}]
+			x: 34.5d
+			y: -12.5d
+		}
+		{
+			id: "519001F4A96E2B9D"
+			rewards: [
+				{
+					count: 2
+					id: "1BB5ADF39CEFB7AA"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "3DC5E34715085BF2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:polar_bear"
+				id: "360331BEA873D006"
+				type: "kill"
+				value: 10L
+			}]
+			x: 36.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["18C8EF70F90B481C"]
+			id: "23C9D549BAB983B4"
+			rewards: [
+				{
+					id: "567199295547356F"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "5C7A2203B11C0CE3"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:polar_bear"
+				id: "0F46C7B22BFC37D9"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 37.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["54F37568BB3E859B"]
+			id: "18C8EF70F90B481C"
+			rewards: [
+				{
+					count: 6
+					id: "2E94F024B5021F4E"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "50B4DFA8A8E5BCCA"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "minecraft:polar_bear"
+				id: "2C57AA6306449648"
+				type: "kill"
+				value: 900L
+			}]
+			x: 38.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["1C07F940D8BF0A2E"]
+			id: "54F37568BB3E859B"
+			rewards: [
+				{
+					count: 5
+					id: "7F6C7197A64CEF51"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "6E5EB5DDEF514F7B"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "minecraft:polar_bear"
+				id: "221F084555D35817"
+				type: "kill"
+				value: 800L
+			}]
+			x: 39.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["68899F21EB54AAE3"]
+			id: "1C07F940D8BF0A2E"
+			rewards: [
+				{
+					count: 4
+					id: "6878A8370D879F12"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "115CFA4A7503631F"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "minecraft:polar_bear"
+				id: "71EC5379879A2F60"
+				type: "kill"
+				value: 700L
+			}]
+			x: 38.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["05C65ABEC7E2FE2A"]
+			id: "68899F21EB54AAE3"
+			rewards: [
+				{
+					count: 3
+					id: "6C49B47550B6C4CE"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "3D2428C8F9DBD779"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "minecraft:polar_bear"
+				id: "3EACF8F21901A0B4"
+				type: "kill"
+				value: 600L
+			}]
+			x: 37.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6986C8481B7B7FEE"]
+			id: "0D96B01F4756FE6B"
+			rewards: [
+				{
+					id: "24A0D99054FAE50E"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "489D3F57B17BBFF3"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_redpanda:himalayan_redpanda"
+				id: "48F28800B2BD650D"
+				type: "kill"
+				value: 400L
+			}]
+			x: 24.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EBCE614107EF0D3"]
+			id: "6986C8481B7B7FEE"
+			rewards: [
+				{
+					count: 6
+					id: "1933262E4EF6E001"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "1D57C59CEED4DCCE"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_redpanda:himalayan_redpanda"
+				id: "3E2F14BDA72C961C"
+				type: "kill"
+				value: 300L
+			}]
+			x: 23.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["192DBDFB70BA997F"]
+			id: "1EBCE614107EF0D3"
+			rewards: [
+				{
+					count: 4
+					id: "2FD80C176D86C50F"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "7791BDFB3C88F936"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_redpanda:himalayan_redpanda"
+				id: "720A8C139A7D8DA6"
+				type: "kill"
+				value: 200L
+			}]
+			x: 23.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0715BAA2F3300EC7"]
+			id: "192DBDFB70BA997F"
+			rewards: [
+				{
+					count: 2
+					id: "4380897711822C48"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "2E0ED9EC22C6F87F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_redpanda:himalayan_redpanda"
+				id: "754B17D926E48508"
+				type: "kill"
+				value: 100L
+			}]
+			x: 23.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["34A4BA3516146C07"]
+			id: "0715BAA2F3300EC7"
+			rewards: [
+				{
+					count: 4
+					id: "62B460FE39BEB767"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "5CA4D4EC7B1B99AE"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_redpanda:himalayan_redpanda"
+				id: "67459B1DD0ED6012"
+				type: "kill"
+				value: 50L
+			}]
+			x: 24.5d
+			y: -5.0d
+		}
+		{
+			id: "34A4BA3516146C07"
+			rewards: [
+				{
+					count: 2
+					id: "4633AF3E9603263F"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "294930FD74A5B9FE"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "animalgarden_redpanda:himalayan_redpanda"
+				id: "76BE9B89ECDD5EA5"
+				type: "kill"
+				value: 10L
+			}]
+			x: 26.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["012962B602AF2675"]
+			id: "44331CFBBED68909"
+			rewards: [
+				{
+					id: "31CAC3342BBD8536"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "716A0323B0A0675F"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "animalgarden_redpanda:himalayan_redpanda"
+				id: "3AE773D440E47181"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 27.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["02D17E318AB876F0"]
+			id: "012962B602AF2675"
+			rewards: [
+				{
+					count: 6
+					id: "4D9886B7F0E0ABC5"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "57E3CFE8DE2CC2F2"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_redpanda:himalayan_redpanda"
+				id: "6575A0CD772CF566"
+				type: "kill"
+				value: 900L
+			}]
+			x: 28.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["14C7A327F8C98E7E"]
+			id: "02D17E318AB876F0"
+			rewards: [
+				{
+					count: 5
+					id: "7D89770C1C830AF9"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5BD98824907A4C72"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_redpanda:himalayan_redpanda"
+				id: "4C90A9707E3F06AD"
+				type: "kill"
+				value: 800L
+			}]
+			x: 29.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6B1A4C806FEC7EDB"]
+			id: "14C7A327F8C98E7E"
+			rewards: [
+				{
+					count: 4
+					id: "0CF6D2AD79E7340B"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5CA4CBF5A1F897C2"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_redpanda:himalayan_redpanda"
+				id: "2585DDD7117B48B4"
+				type: "kill"
+				value: 700L
+			}]
+			x: 28.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["179B2EFB6A66163F"]
+			id: "6B1A4C806FEC7EDB"
+			rewards: [
+				{
+					count: 3
+					id: "732C7714ED633E6E"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "3B625D748A4B553F"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_redpanda:himalayan_redpanda"
+				id: "5F9998FE861A2A67"
+				type: "kill"
+				value: 600L
+			}]
+			x: 27.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68D64DA6E08639F7"]
+			id: "4B63F7163DDCD06C"
+			rewards: [
+				{
+					id: "6E2A013F919068D3"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7999E2F84C240209"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "minecraft:bee"
+				id: "0334FB5FE214F744"
+				type: "kill"
+				value: 400L
+			}]
+			x: 34.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["550D371A679157EA"]
+			id: "68D64DA6E08639F7"
+			rewards: [
+				{
+					count: 6
+					id: "0F687BDE49C1016F"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "02DE3D1326015B44"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "minecraft:bee"
+				id: "6B3F4B4FCC389BC8"
+				type: "kill"
+				value: 300L
+			}]
+			x: 33.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["66FF39A84315E6B2"]
+			id: "550D371A679157EA"
+			rewards: [
+				{
+					count: 4
+					id: "19AE5B103A0E10F6"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "7E7505745684C44A"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:bee"
+				id: "5CA2CD213FD8B997"
+				type: "kill"
+				value: 200L
+			}]
+			x: 33.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["248329679F0AB78C"]
+			id: "66FF39A84315E6B2"
+			rewards: [
+				{
+					count: 2
+					id: "2D2BCABCCC6F1C61"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "0F17870650818B7B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:bee"
+				id: "69F685E539332896"
+				type: "kill"
+				value: 100L
+			}]
+			x: 33.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["42E0CAC3EC1C38B7"]
+			id: "248329679F0AB78C"
+			rewards: [
+				{
+					count: 4
+					id: "37FED7EA1F33A997"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "268F3F1FCFB49C14"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "minecraft:bee"
+				id: "1E83620B273D2364"
+				type: "kill"
+				value: 50L
+			}]
+			x: 34.5d
+			y: -5.0d
+		}
+		{
+			id: "42E0CAC3EC1C38B7"
+			rewards: [
+				{
+					count: 2
+					id: "203407C9114E0F16"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "58A354E983EDB860"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:bee"
+				id: "1DBDFA958A7C100A"
+				type: "kill"
+				value: 10L
+			}]
+			x: 36.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7662328463EDD70C"]
+			id: "6E1486026F1E64E5"
+			rewards: [
+				{
+					id: "0FEFFEA0A375C167"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "2800CBB4D6384372"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:bee"
+				id: "02DE28A43EBE7DE6"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 37.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6F5136478D679C52"]
+			id: "7662328463EDD70C"
+			rewards: [
+				{
+					count: 6
+					id: "3F166F44EF9AFBB2"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "365C67385DEE29D3"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "minecraft:bee"
+				id: "77C4B4C729624D1F"
+				type: "kill"
+				value: 900L
+			}]
+			x: 38.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6119308FCF04C597"]
+			id: "6F5136478D679C52"
+			rewards: [
+				{
+					count: 5
+					id: "03D7E2BC84D19AA0"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "76C56497B1C4353E"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "minecraft:bee"
+				id: "4CA493C763C2B5B5"
+				type: "kill"
+				value: 800L
+			}]
+			x: 39.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0DDBFBD952657E04"]
+			id: "6119308FCF04C597"
+			rewards: [
+				{
+					count: 4
+					id: "55AD1A76C1ABB290"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "06692F64DFB9125E"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "minecraft:bee"
+				id: "31B9F4DA52692D7B"
+				type: "kill"
+				value: 700L
+			}]
+			x: 38.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["270DCB6C79147401"]
+			id: "0DDBFBD952657E04"
+			rewards: [
+				{
+					count: 3
+					id: "5EB1F9144C2D770D"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "601A151034A2A6EE"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "minecraft:bee"
+				id: "5D65C40434063221"
+				type: "kill"
+				value: 600L
+			}]
+			x: 37.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14FCC3BD3A5B6026"]
+			id: "42BCEAFD953AFDF5"
+			rewards: [
+				{
+					id: "2BB9055BB3945E72"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2CB3520D7715E3D3"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "minecraft:pig"
+				id: "68ED9BEF5B3799DE"
+				type: "kill"
+				value: 400L
+			}]
+			x: 24.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3D3621EC67547901"]
+			id: "14FCC3BD3A5B6026"
+			rewards: [
+				{
+					count: 6
+					id: "3B60DCCE280153FB"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "2A11D7A5E94DB34B"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "minecraft:pig"
+				id: "2D903089DA123C07"
+				type: "kill"
+				value: 300L
+			}]
+			x: 23.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["669F6095932397E2"]
+			id: "3D3621EC67547901"
+			rewards: [
+				{
+					count: 4
+					id: "298864E928185E88"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "7B67233A4C0B0856"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:pig"
+				id: "0F82A6CB8318941D"
+				type: "kill"
+				value: 200L
+			}]
+			x: 23.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["782F4144D7F0825F"]
+			id: "669F6095932397E2"
+			rewards: [
+				{
+					count: 2
+					id: "6E9E6E5888979F96"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "0F74AB5F11A51503"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:pig"
+				id: "117DAD90498398D4"
+				type: "kill"
+				value: 100L
+			}]
+			x: 23.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["40681BCF6622B871"]
+			id: "782F4144D7F0825F"
+			rewards: [
+				{
+					count: 4
+					id: "643B10E82CDC841B"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "6BA122403E136FAD"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "minecraft:pig"
+				id: "42AFA7A561EFD979"
+				type: "kill"
+				value: 50L
+			}]
+			x: 24.5d
+			y: 2.5d
+		}
+		{
+			id: "40681BCF6622B871"
+			rewards: [
+				{
+					count: 2
+					id: "3674B6C0478139DF"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "17C75E82CE45CC15"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:pig"
+				id: "0F6E74F2D4D0C14D"
+				type: "kill"
+				value: 10L
+			}]
+			x: 26.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["44B5D831B563D315"]
+			id: "2641565695977758"
+			rewards: [
+				{
+					id: "5EF4CE8DA3A284BC"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "60C924357B433DA0"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:pig"
+				id: "77B6195C59D2069A"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 27.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["08F7A74AD6EF0E56"]
+			id: "44B5D831B563D315"
+			rewards: [
+				{
+					count: 6
+					id: "191EC971F9CF7338"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "66622EC7B282ACE4"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "minecraft:pig"
+				id: "2D8F04B7B290048D"
+				type: "kill"
+				value: 900L
+			}]
+			x: 28.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["14CB2C86AEC92E9A"]
+			id: "08F7A74AD6EF0E56"
+			rewards: [
+				{
+					count: 5
+					id: "1934B06820EF19BF"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "3BDA3B64A905B178"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "minecraft:pig"
+				id: "6762F7CEA375B567"
+				type: "kill"
+				value: 800L
+			}]
+			x: 29.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["31B44061C3A4E508"]
+			id: "14CB2C86AEC92E9A"
+			rewards: [
+				{
+					count: 4
+					id: "6013291FE94873BA"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "160FC49965D6FE8D"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "minecraft:pig"
+				id: "116BB2086A00520F"
+				type: "kill"
+				value: 700L
+			}]
+			x: 28.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["19E90EB611F5A514"]
+			id: "31B44061C3A4E508"
+			rewards: [
+				{
+					count: 3
+					id: "11B65AAB49BD708F"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "1663AA5233B82555"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "minecraft:pig"
+				id: "4A456309A7BCC4F9"
+				type: "kill"
+				value: 600L
+			}]
+			x: 27.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["44173FE3E392A1A6"]
+			id: "6B6FE2A43E057C36"
+			rewards: [
+				{
+					id: "7DA66F447AE67A3E"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7F1F634B199944CB"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "minecraft:camel"
+				id: "4F9DF63440BFCFA3"
+				type: "kill"
+				value: 400L
+			}]
+			x: 34.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5D5587ECE4232009"]
+			id: "44173FE3E392A1A6"
+			rewards: [
+				{
+					count: 6
+					id: "5355B83B84CF9EE9"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "7520D61AE8424A73"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "minecraft:camel"
+				id: "4A324E2393ED601A"
+				type: "kill"
+				value: 300L
+			}]
+			x: 33.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4AE098C414C08D86"]
+			id: "5D5587ECE4232009"
+			rewards: [
+				{
+					count: 4
+					id: "0A4DD90943FDD752"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "6543D3765C2E5EC3"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "minecraft:camel"
+				id: "05188FCD1A3AE98B"
+				type: "kill"
+				value: 200L
+			}]
+			x: 33.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["470AA41B93BDF424"]
+			id: "4AE098C414C08D86"
+			rewards: [
+				{
+					count: 2
+					id: "47F4ABE28D7D60B2"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "0E51DC0489B2620C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "minecraft:camel"
+				id: "768D9FF5F729FA57"
+				type: "kill"
+				value: 100L
+			}]
+			x: 33.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["596828C1FA247ED3"]
+			id: "470AA41B93BDF424"
+			rewards: [
+				{
+					count: 4
+					id: "086820C141C46D1B"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "23C735F41BB53EDA"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "minecraft:camel"
+				id: "019B6ABC3A5B606F"
+				type: "kill"
+				value: 50L
+			}]
+			x: 34.5d
+			y: 2.5d
+		}
+		{
+			id: "596828C1FA247ED3"
+			rewards: [
+				{
+					count: 2
+					id: "633FB05CB0DD18FA"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "735B46E5961A8DE4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:camel"
+				id: "47115CEC16EB0007"
+				type: "kill"
+				value: 10L
+			}]
+			x: 36.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7AD646122263E9ED"]
+			id: "4A2F9BF81F3841D9"
+			rewards: [
+				{
+					id: "70CE2EB35A143B1A"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "40EE6C243E4DC54B"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:camel"
+				id: "08614C46678C383C"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 37.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6EDC8414D1CCD95F"]
+			id: "7AD646122263E9ED"
+			rewards: [
+				{
+					count: 6
+					id: "7333F54F1481FC6B"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "169345E21E3E0AA3"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "minecraft:camel"
+				id: "043F8A291F3F79F4"
+				type: "kill"
+				value: 900L
+			}]
+			x: 38.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7D56A2419F93D027"]
+			id: "6EDC8414D1CCD95F"
+			rewards: [
+				{
+					count: 5
+					id: "0B34BA08E9E7D32B"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5B0C91772FD1A4C7"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "minecraft:camel"
+				id: "3A730707E1552947"
+				type: "kill"
+				value: 800L
+			}]
+			x: 39.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["53BF651E97F4F1A5"]
+			id: "7D56A2419F93D027"
+			rewards: [
+				{
+					count: 4
+					id: "4287FE7D46AAACA3"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7C6A1466F28174B5"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "minecraft:camel"
+				id: "062185AA191605A6"
+				type: "kill"
+				value: 700L
+			}]
+			x: 38.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4BDA396B43EEA17E"]
+			id: "53BF651E97F4F1A5"
+			rewards: [
+				{
+					count: 3
+					id: "66D26556EC84C3B7"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "54B44F93454AAC8B"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "minecraft:camel"
+				id: "665788F962A96FBC"
+				type: "kill"
+				value: 600L
+			}]
+			x: 37.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0F6AD6B0D0589D1B"]
+			id: "6F064B7F57F31A3D"
+			rewards: [
+				{
+					id: "2AFB86363A0AEF33"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "65AB762D180B57E0"
+					type: "xp"
+					xp: 400
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_fennecfox:fennecfox"
+				id: "11D33999717E2C90"
+				type: "kill"
+				value: 400L
+			}]
+			x: 14.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["477211A73FBB06C0"]
+			id: "0F6AD6B0D0589D1B"
+			rewards: [
+				{
+					count: 6
+					id: "3ABC811C787E75DB"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "67E558D44A478E0F"
+					type: "xp"
+					xp: 300
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_fennecfox:fennecfox"
+				id: "7E192BCFAD3FA885"
+				type: "kill"
+				value: 300L
+			}]
+			x: 13.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5B88AA7F88F7EA0D"]
+			id: "477211A73FBB06C0"
+			rewards: [
+				{
+					count: 4
+					id: "0AF8D9353F05E0F8"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "6D6F8F2E6000BB28"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_fennecfox:fennecfox"
+				id: "1A2C93A0DE7F4097"
+				type: "kill"
+				value: 200L
+			}]
+			x: 13.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3AA9AD06F445E2A1"]
+			id: "5B88AA7F88F7EA0D"
+			rewards: [
+				{
+					count: 2
+					id: "4AD4D992C0F696BF"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "4B082B9C0CFFFD94"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_fennecfox:fennecfox"
+				id: "51F82503982B814D"
+				type: "kill"
+				value: 100L
+			}]
+			x: 13.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7FAD5C2CE81E6BE2"]
+			id: "3AA9AD06F445E2A1"
+			rewards: [
+				{
+					count: 4
+					id: "5AFD81158753F95C"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "2E0C8C5CC2E58F2E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_fennecfox:fennecfox"
+				id: "257350A2E8002625"
+				type: "kill"
+				value: 50L
+			}]
+			x: 14.5d
+			y: 10.0d
+		}
+		{
+			id: "7FAD5C2CE81E6BE2"
+			rewards: [
+				{
+					count: 2
+					id: "2E517E80DC802712"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "7B683B63ED27007A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "animalgarden_fennecfox:fennecfox"
+				id: "1C98F5CBB8436880"
+				type: "kill"
+				value: 10L
+			}]
+			x: 16.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["00F54B13F9B6015B"]
+			id: "1B48800A642BD4FB"
+			rewards: [
+				{
+					id: "7449C8FC69C7E8B6"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "64B5B804692E6664"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				entity: "animalgarden_fennecfox:fennecfox"
+				id: "3F4A1550FC4CAFF9"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 17.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["060B2B614BDE11E1"]
+			id: "00F54B13F9B6015B"
+			rewards: [
+				{
+					count: 6
+					id: "6E53376A97F20FCF"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "12CA74156C24BE81"
+					type: "xp"
+					xp: 900
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_fennecfox:fennecfox"
+				id: "37AEDB1EAD523D48"
+				type: "kill"
+				value: 900L
+			}]
+			x: 18.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["61E3A7A9069D4470"]
+			id: "060B2B614BDE11E1"
+			rewards: [
+				{
+					count: 5
+					id: "504E0EB9CA2F6701"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0528FEF4C0530B5D"
+					type: "xp"
+					xp: 800
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_fennecfox:fennecfox"
+				id: "17AC758FCE6CE35A"
+				type: "kill"
+				value: 800L
+			}]
+			x: 19.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["71C51A3A730D995F"]
+			id: "61E3A7A9069D4470"
+			rewards: [
+				{
+					count: 4
+					id: "3B23613FBF043348"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2B2EFA584105F43C"
+					type: "xp"
+					xp: 700
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_fennecfox:fennecfox"
+				id: "10223DB3DF14FF90"
+				type: "kill"
+				value: 700L
+			}]
+			x: 18.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["756537B21EF3FCEB"]
+			id: "71C51A3A730D995F"
+			rewards: [
+				{
+					count: 3
+					id: "0801C66059DA257C"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "09416C4F0DEDD06D"
+					type: "xp"
+					xp: 600
+				}
+			]
+			tasks: [{
+				entity: "animalgarden_fennecfox:fennecfox"
+				id: "7FD7B73755E63202"
+				type: "kill"
+				value: 600L
+			}]
+			x: 17.5d
+			y: 15.0d
+		}
+	]
+}

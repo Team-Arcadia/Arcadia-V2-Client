@@ -1,4 +1,5 @@
 {
+	autofocus_id: "22467723769C23DA"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "deep_and_darker"
@@ -11,7 +12,6 @@
 		{
 			height: 15.0d
 			image: "deeperdarker:block/polished_gloomslate"
-			order: 1
 			rotation: 0.0d
 			width: 15.0d
 			x: 1.5d
@@ -23,7 +23,7 @@
 			order: 1
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.0d
+			x: 7.5d
 			y: 4.5d
 		}
 		{
@@ -32,7 +32,7 @@
 			order: 1
 			rotation: 0.0d
 			width: 2.0d
-			x: 3.5d
+			x: 9.0d
 			y: 3.0d
 		}
 		{
@@ -41,7 +41,7 @@
 			order: 1
 			rotation: 0.0d
 			width: 2.0d
-			x: 2.0d
+			x: 9.0d
 			y: 9.0d
 		}
 		{
@@ -50,8 +50,8 @@
 			order: 1
 			rotation: 0.0d
 			width: 2.0d
-			x: 1.5d
-			y: 6.5d
+			x: 9.5d
+			y: 6.0d
 		}
 		{
 			height: 1.0d
@@ -59,8 +59,8 @@
 			order: 1
 			rotation: 0.0d
 			width: 2.0d
-			x: 4.5d
-			y: 6.5d
+			x: 11.214285714285722d
+			y: 5.988095238095241d
 		}
 		{
 			height: 1.0d
@@ -68,8 +68,8 @@
 			order: 1
 			rotation: 0.0d
 			width: 2.0d
-			x: 3.0d
-			y: 6.5d
+			x: 12.928571428571416d
+			y: 5.988095238095241d
 		}
 		{
 			height: 1.0d
@@ -77,8 +77,8 @@
 			order: 1
 			rotation: 0.0d
 			width: 1.0d
-			x: 3.602040816326536d
-			y: 5.653061224489804d
+			x: 13.214285714285722d
+			y: 5.202380952380963d
 		}
 		{
 			height: 1.0d
@@ -86,8 +86,8 @@
 			order: 1
 			rotation: 0.0d
 			width: 1.0d
-			x: 1.2551020408163254d
-			y: 5.653061224489804d
+			x: 10.214285714285722d
+			y: 5.202380952380963d
 		}
 		{
 			height: 1.0d
@@ -95,8 +95,8 @@
 			order: 1
 			rotation: 0.0d
 			width: 1.0d
-			x: 5.0d
-			y: 6.5d
+			x: 13.0d
+			y: 6.0d
 		}
 		{
 			height: 1.0d
@@ -104,8 +104,8 @@
 			order: 2
 			rotation: 0.0d
 			width: 1.0d
-			x: 3.0d
-			y: 6.5d
+			x: 11.0d
+			y: 6.0d
 		}
 		{
 			height: 1.0d
@@ -113,8 +113,8 @@
 			order: 2
 			rotation: 0.0d
 			width: 1.0d
-			x: 1.5d
-			y: 6.5d
+			x: 9.5d
+			y: 6.0d
 		}
 		{
 			height: 1.0d
@@ -122,8 +122,8 @@
 			order: 1
 			rotation: 0.0d
 			width: 1.0d
-			x: 2.5d
-			y: 5.5d
+			x: 11.642857142857167d
+			y: 5.273809523809518d
 		}
 		{
 			height: 1.0d
@@ -131,8 +131,8 @@
 			order: 1
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.06462585034013557d
-			y: -0.8171768707482983d
+			x: 10.0d
+			y: -0.7976190476190368d
 		}
 		{
 			height: 1.0d
@@ -140,8 +140,8 @@
 			order: 1
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.0d
-			y: 2.0d
+			x: 4.5d
+			y: 2.5d
 		}
 		{
 			height: 1.0d
@@ -149,8 +149,8 @@
 			order: 1
 			rotation: 0.0d
 			width: 1.0d
-			x: 4.676870748299322d
-			y: 5.654761904761912d
+			x: 8.928571428571416d
+			y: 5.202380952380963d
 		}
 		{
 			height: 300.0d
@@ -166,8 +166,149 @@
 			order: 3
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.0d
+			x: 10.0d
 			y: 0.0d
+		}
+		{
+			height: 15.0d
+			image: "deeperdarker:block/polished_gloomslate"
+			rotation: 0.0d
+			width: 15.0d
+			x: 14.28d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "deeperdarker:block/sculk_stone_redstone_ore"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "deeperdarker:block/gloomslate_diamond_ore"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "deeperdarker:block/gloomslate_gold_ore"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "mcwroofs:block/water_gutter"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.142857142857139d
+			y: 8.964285714285694d
+		}
+		{
+			height: 1.0d
+			image: "deeperdarker:block/sculk_vines_plant"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "deeperdarker:item/listener_gloomsherd"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.1666666666666572d
+			y: 2.9047619047617843d
+		}
+		{
+			height: 1.0d
+			image: "deeperdarker:item/ward_gloomsherd"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.690476190476204d
+			y: 5.142857142856968d
+		}
+		{
+			height: 1.0d
+			image: "deeperdarker:item/wayfinder_gloomsherd"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.3095238095238244d
+			y: 0.4285714285712743d
+		}
+		{
+			height: 2.0d
+			image: "deeperdarker:block/sculk_jaw_biting"
+			order: 2
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.5476190476190368d
+			y: 5.19047619047609d
+		}
+		{
+			height: 1.5d
+			image: "deeperdarker:item/angler_fish"
+			order: 2
+			rotation: 0.0d
+			width: 1.5d
+			x: -2.5d
+			y: 7.857142857142804d
+		}
+		{
+			height: 1.0d
+			image: "deeperdarker:item/dark_heart_gloomsherd"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.404761904761898d
+			y: 2.3333333333332575d
+		}
+		{
+			height: 1.0d
+			image: "mcwroofs:block/water_still"
+			order: 2
+			rotation: 0.0d
+			width: 6.0d
+			x: -1.95d
+			y: 9.857142857142804d
+		}
+		{
+			height: 15.0d
+			image: "deeperdarker:block/polished_gloomslate"
+			order: 1
+			rotation: 0.0d
+			width: 15.0d
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			height: 4.0d
+			image: "mcwroofs:block/water_gutter"
+			order: 2
+			rotation: 0.0d
+			width: 1.25d
+			x: -3.928571428571445d
+			y: 7.809523809523768d
+		}
+		{
+			height: 8.0d
+			image: "minecraft:block/sculk_shrieker_side"
+			rotation: 0.0d
+			width: 8.0d
+			x: 7.500000000000028d
+			y: -5.39285714285711d
 		}
 	]
 	order_index: 6
@@ -201,7 +342,7 @@
 				id: "0000000000000201"
 				type: "advancement"
 			}]
-			x: 0.0d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
@@ -220,7 +361,7 @@
 				item: { count: 1, id: "deeperdarker:heart_of_the_deep" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 7.5d
 			y: 1.5d
 		}
 		{
@@ -240,7 +381,7 @@
 				id: "0000000000000203"
 				type: "advancement"
 			}]
-			x: 0.0d
+			x: 7.5d
 			y: 3.0d
 		}
 		{
@@ -260,7 +401,7 @@
 				id: "0000000000000204"
 				type: "dimension"
 			}]
-			x: 0.0d
+			x: 7.5d
 			y: 4.5d
 		}
 		{
@@ -297,7 +438,7 @@
 					type: "biome"
 				}
 			]
-			x: 0.0d
+			x: 7.5d
 			y: 6.0d
 		}
 		{
@@ -316,7 +457,7 @@
 				structure: "deeperdarker:ancient_temple"
 				type: "structure"
 			}]
-			x: 0.0d
+			x: 7.5d
 			y: 7.5d
 		}
 		{
@@ -331,12 +472,20 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "0000000000000210"
-				item: { count: 1, id: "deeperdarker:soul_crystal" }
-				type: "item"
-			}]
-			x: 1.5d
+			tasks: [
+				{
+					id: "0000000000000210"
+					item: { count: 1, id: "deeperdarker:soul_crystal" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7EC26D3CCA4DA641"
+					item: { count: 1, id: "deeperdarker:sculk_bone" }
+					type: "item"
+				}
+			]
+			x: 9.0d
 			y: 7.5d
 		}
 		{
@@ -356,7 +505,7 @@
 				item: { count: 1, id: "deeperdarker:sculk_transmitter" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: 6.0d
 			y: 7.5d
 		}
 		{
@@ -372,7 +521,7 @@
 				item: { count: 1, id: "deeperdarker:soul_dust" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: 5.5d
 			y: 4.5d
 		}
 		{
@@ -388,7 +537,7 @@
 				item: { count: 1, id: "deeperdarker:resonarium" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 9.5d
 			y: 4.5d
 		}
 		{
@@ -408,7 +557,7 @@
 				item: { count: 1, id: "deeperdarker:resonarium_plate" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 11.0d
 			y: 4.5d
 		}
 		{
@@ -441,7 +590,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 12.5d
 			y: 4.5d
 		}
 		{
@@ -460,7 +609,7 @@
 				item: { count: 1, id: "ars_additions:sonic_boom_protection_charm" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: 5.5d
 			y: 3.0d
 		}
 		{
@@ -480,7 +629,7 @@
 				item: { count: 1, id: "deeperdarker:warden_carapace" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 9.5d
 			y: 1.5d
 		}
 		{
@@ -500,7 +649,7 @@
 				item: { count: 1, id: "deeperdarker:reinforced_echo_shard" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 11.0d
 			y: 1.5d
 		}
 		{
@@ -536,7 +685,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 12.5d
 			y: 1.5d
 		}
 		{
@@ -552,8 +701,1728 @@
 				item: { count: 1, id: "deeperdarker:sonorous_staff" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 9.0d
 			y: 9.0d
+		}
+		{
+			dependencies: ["0710C950A0A11ED2"]
+			id: "55AB388C52712EB0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5850786AD7C87452"
+				table_id: 6569693363244268417L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sculk_centipede"
+				id: "7E5E5359DCDA01EC"
+				type: "kill"
+				value: 10L
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7936AA168187A60A"]
+			id: "31C0FC1587772B60"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1996D636E5C62BD2"
+				table_id: 6569693363244268417L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				id: "507D43C9D19B1913"
+				type: "kill"
+				value: 10L
+			}]
+			x: 11.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["04AD4CC0D7338E55"]
+			id: "7A4E0BCF872299C4"
+			rewards: [{
+				count: 4
+				id: "655B39D42385C714"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:anger_pot"
+				id: "5458C0B7A81A9F55"
+				type: "kill"
+				value: 10L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "18A83C2974C2696D"
+			rewards: [{
+				count: 4
+				id: "1735D081E9DB8F0A"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:angler_fish"
+				id: "6760788E185CD6BD"
+				type: "kill"
+				value: 10L
+			}]
+			x: -2.3571428571428896d
+			y: 9.190476190476147d
+		}
+		{
+			dependencies: ["04AD4CC0D7338E55"]
+			id: "57EC143C7A57808B"
+			rewards: [{
+				count: 4
+				id: "7E313FF9EE59605E"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:fear_pot"
+				id: "3D4406CB7CDA8631"
+				type: "kill"
+				value: 10L
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["22467723769C23DA"]
+			id: "063C2F1BA90B4F3F"
+			rewards: [{
+				count: 4
+				id: "142A585706E8D288"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sculk_leech"
+				id: "2FE5C74D65EC0CFB"
+				type: "kill"
+				value: 10L
+			}]
+			x: 4.5d
+			y: 6.285714285714249d
+		}
+		{
+			dependencies: ["22467723769C23DA"]
+			id: "765CBF9595EAD17C"
+			rewards: [{
+				count: 4
+				id: "0C6EB14D9D1CFBEB"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sculk_snapper"
+				id: "59EE0BDA9AA988FE"
+				type: "kill"
+				value: 10L
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7EBEC9C6E81DCD5A"]
+			id: "03C22C8B682790D1"
+			rewards: [{
+				count: 4
+				id: "0334B2D79AB6922C"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sludge"
+				id: "7E17196CF661D9EB"
+				type: "kill"
+				value: 10L
+			}]
+			x: 10.976190476190482d
+			y: 3.1904761904762324d
+		}
+		{
+			dependencies: ["04AD4CC0D7338E55"]
+			id: "0237B6F5270B8FFC"
+			rewards: [{
+				count: 4
+				id: "0F60620722506444"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sorrow_pot"
+				id: "3DE6107011473FCC"
+				type: "kill"
+				value: 10L
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7936AA168187A60A"]
+			id: "7432AFB35CC67120"
+			rewards: [{
+				count: 4
+				id: "5F37624C8703D12D"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:shattered"
+				id: "73B3D1707FF914DD"
+				type: "kill"
+				value: 10L
+			}]
+			x: 11.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["15FC220AE63ED2C5"]
+			id: "04AD4CC0D7338E55"
+			rewards: [{
+				count: 2
+				id: "28A7CB6BFEC0EB81"
+				item: {
+					count: 1
+					id: "deeperdarker:gloomsherd"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E96900BACC66092"
+				item: { count: 1, id: "deeperdarker:gloomsherd" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A4E0BCF872299C4"]
+			id: "76B9548521B565C7"
+			rewards: [{
+				count: 4
+				id: "27BB2C8BEDE447EC"
+				item: {
+					count: 1
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:anger_pot"
+				id: "1A6C178F5A2947FD"
+				type: "kill"
+				value: 25L
+			}]
+			x: 2.642857142857139d
+			y: -0.28571428571424917d
+		}
+		{
+			dependencies: ["57EC143C7A57808B"]
+			id: "1C69C21CF26C4A2F"
+			rewards: [{
+				count: 4
+				id: "40A27CF20AF12F60"
+				item: {
+					count: 1
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:fear_pot"
+				id: "7C319017A884524D"
+				type: "kill"
+				value: 25L
+			}]
+			x: 2.547619047619037d
+			y: -1.3809523809523512d
+		}
+		{
+			dependencies: ["0237B6F5270B8FFC"]
+			id: "4A91622E581C25AE"
+			rewards: [{
+				count: 4
+				id: "3CAC41E3FA10D694"
+				item: {
+					count: 1
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sorrow_pot"
+				id: "7A9EECA2912EDD54"
+				type: "kill"
+				value: 25L
+			}]
+			x: 2.547619047619037d
+			y: 1.2023809523809632d
+		}
+		{
+			dependencies: ["76B9548521B565C7"]
+			id: "02060D1AEEACB1F3"
+			rewards: [{
+				count: 2
+				id: "22579A3F3FFDA4C6"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:anger_pot"
+				id: "46F43E473AF40759"
+				type: "kill"
+				value: 50L
+			}]
+			x: 1.1666666666666572d
+			y: 0.047619047619093635d
+		}
+		{
+			dependencies: ["02060D1AEEACB1F3"]
+			id: "72698CD9AB05B0F7"
+			rewards: [{
+				count: 4
+				id: "7978015821F1F251"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:anger_pot"
+				id: "02921B3D0E9A26AC"
+				type: "kill"
+				value: 100L
+			}]
+			x: -0.023809523809546818d
+			y: 1.0119047619047592d
+		}
+		{
+			dependencies: ["72698CD9AB05B0F7"]
+			id: "6606B015B17A0ECE"
+			rewards: [{
+				count: 6
+				id: "1C0ECC825F7B6F67"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:anger_pot"
+				id: "2E2C785496AA8B37"
+				type: "kill"
+				value: 200L
+			}]
+			x: -0.9285714285714448d
+			y: 2.1071428571428896d
+		}
+		{
+			dependencies: ["6606B015B17A0ECE"]
+			id: "50A70C6D0C782B86"
+			rewards: [{
+				id: "3C96613C9CE0C61F"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:anger_pot"
+				id: "630A61A99F849250"
+				type: "kill"
+				value: 350L
+			}]
+			x: -1.3571428571428896d
+			y: 3.4404761904762324d
+		}
+		{
+			dependencies: ["50A70C6D0C782B86"]
+			id: "0B5B7BD09A11AF4C"
+			rewards: [{
+				count: 2
+				id: "5AAE5FA8943067AE"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				entity: "deeperdarker:anger_pot"
+				id: "1861149DC157A1F2"
+				type: "kill"
+				value: 500L
+			}]
+			x: -1.0238095238095468d
+			y: 4.821428571428612d
+		}
+		{
+			dependencies: ["1C69C21CF26C4A2F"]
+			id: "7844266CEC79BA28"
+			rewards: [{
+				count: 2
+				id: "0B4F737955FD7879"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:fear_pot"
+				id: "21B8FDF958B2AE57"
+				type: "kill"
+				value: 50L
+			}]
+			x: 0.8809523809523796d
+			y: -1.1904761904761472d
+		}
+		{
+			dependencies: ["7844266CEC79BA28"]
+			id: "1F73C12A6D7FB41B"
+			rewards: [{
+				count: 4
+				id: "4EC3021BBCED3ABC"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:fear_pot"
+				id: "16B9C0B60F7F2A03"
+				type: "kill"
+				value: 100L
+			}]
+			x: -0.8333333333333428d
+			y: -0.6071428571428328d
+		}
+		{
+			dependencies: ["1F73C12A6D7FB41B"]
+			id: "28DDF72B7E061186"
+			rewards: [{
+				count: 6
+				id: "0B0D6BBC5F597154"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:fear_pot"
+				id: "4618B48A8233179C"
+				type: "kill"
+				value: 200L
+			}]
+			x: -2.0238095238095184d
+			y: 0.571428571428612d
+		}
+		{
+			dependencies: ["2123FAAF1F288322"]
+			id: "21A16DB04AAFBD7D"
+			rewards: [{
+				count: 2
+				id: "4AE74621C97669B4"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				entity: "deeperdarker:fear_pot"
+				id: "057089B001B56B02"
+				type: "kill"
+				value: 500L
+			}]
+			x: -3.0238095238095184d
+			y: 3.4285714285714732d
+		}
+		{
+			dependencies: ["28DDF72B7E061186"]
+			id: "2123FAAF1F288322"
+			rewards: [{
+				id: "67A0B7868BF7867A"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:fear_pot"
+				id: "353A50994A5EE18B"
+				type: "kill"
+				value: 350L
+			}]
+			x: -2.8809523809523796d
+			y: 1.9523809523809916d
+		}
+		{
+			dependencies: ["4A91622E581C25AE"]
+			id: "315A9587A30D6E6B"
+			rewards: [{
+				count: 2
+				id: "50F8E646DF3E91CC"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sorrow_pot"
+				id: "333D56A90D8B1E5C"
+				type: "kill"
+				value: 50L
+			}]
+			x: 1.0714285714285552d
+			y: 2.2142857142857224d
+		}
+		{
+			dependencies: ["315A9587A30D6E6B"]
+			id: "71C5689449EDAF5D"
+			rewards: [{
+				count: 4
+				id: "32E0CD9B32D18ABB"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sorrow_pot"
+				id: "58CD581902411017"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.595238095238102d
+			y: 3.595238095238102d
+		}
+		{
+			dependencies: ["71C5689449EDAF5D"]
+			id: "16A4DE7DBDD9DE56"
+			rewards: [{
+				count: 6
+				id: "3D73F849F748696D"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sorrow_pot"
+				id: "28CC225D837204D1"
+				type: "kill"
+				value: 200L
+			}]
+			x: 1.785714285714306d
+			y: 4.595238095238102d
+		}
+		{
+			dependencies: ["16A4DE7DBDD9DE56"]
+			id: "15E0DE924F2C50B7"
+			rewards: [{
+				id: "0E30C403B8022714"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sorrow_pot"
+				id: "317BDC776D6B57E1"
+				type: "kill"
+				value: 350L
+			}]
+			x: 3.214285714285694d
+			y: 3.452380952380935d
+		}
+		{
+			dependencies: ["15E0DE924F2C50B7"]
+			id: "77902BB3FE6BBEC7"
+			rewards: [{
+				count: 2
+				id: "34CC775FA535B933"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				entity: "deeperdarker:sorrow_pot"
+				id: "55A6FD8EE77F4C32"
+				type: "kill"
+				value: 500L
+			}]
+			x: 2.119047619047649d
+			y: 2.6904761904761756d
+		}
+		{
+			dependencies: ["765CBF9595EAD17C"]
+			id: "56DDC16E40E81C29"
+			rewards: [{
+				count: 2
+				id: "113E21D48E4A4630"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sculk_snapper"
+				id: "1402690742575871"
+				type: "kill"
+				value: 50L
+			}]
+			x: 2.452380952380963d
+			y: 5.500000000000028d
+		}
+		{
+			dependencies: ["063C2F1BA90B4F3F"]
+			id: "38100F1D18DD7CA7"
+			rewards: [{
+				count: 4
+				id: "0EC87AE91E2EF6E6"
+				item: {
+					count: 1
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sculk_leech"
+				id: "76BA6277C15AE7C8"
+				type: "kill"
+				value: 50L
+			}]
+			x: 4.404761904761898d
+			y: 7.928571428571445d
+		}
+		{
+			dependencies: ["56DDC16E40E81C29"]
+			id: "5E4B81345CA14808"
+			rewards: [{
+				count: 4
+				id: "3830AB57E5BC5C07"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sculk_snapper"
+				id: "28E02D87B6CB68E0"
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.1190476190476204d
+			y: 6.833333333333343d
+		}
+		{
+			dependencies: ["5E4B81345CA14808"]
+			id: "09EC68A197A7EDC2"
+			rewards: [{
+				count: 6
+				id: "4E93C7F9FEA1F940"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sculk_snapper"
+				id: "3099D0E34B09B547"
+				type: "kill"
+				value: 200L
+			}]
+			x: 1.8809523809523512d
+			y: 8.071428571428584d
+		}
+		{
+			dependencies: ["09EC68A197A7EDC2"]
+			id: "51EAA7B5CCE51049"
+			rewards: [{
+				id: "1450137B9940413C"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sculk_snapper"
+				id: "075B10D8B312287D"
+				type: "kill"
+				value: 350L
+			}]
+			x: 3.214285714285694d
+			y: 7.880952380952408d
+		}
+		{
+			dependencies: ["51EAA7B5CCE51049"]
+			id: "2C064F5FF076F6B8"
+			rewards: [{
+				count: 2
+				id: "61B53D93CBD112DA"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				entity: "deeperdarker:sculk_snapper"
+				id: "0E8E9B63168EDF62"
+				type: "kill"
+				value: 500L
+			}]
+			x: 2.738095238095241d
+			y: 6.738095238095241d
+		}
+		{
+			dependencies: ["38100F1D18DD7CA7"]
+			id: "6391A15ADD02A0F7"
+			rewards: [{
+				count: 4
+				id: "1A6F8459C981FD76"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sculk_leech"
+				id: "3F655F62FF1BD917"
+				type: "kill"
+				value: 100L
+			}]
+			x: 3.452380952380935d
+			y: 9.309523809523853d
+		}
+		{
+			dependencies: ["6391A15ADD02A0F7"]
+			id: "3B2012684759304C"
+			rewards: [{
+				count: 6
+				id: "0AD7320143B934A2"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sculk_leech"
+				id: "7F7D12B6109DFC09"
+				type: "kill"
+				value: 200L
+			}]
+			x: 1.5d
+			y: 9.11904761904762d
+		}
+		{
+			dependencies: ["3B2012684759304C"]
+			id: "6679A8214512C5FD"
+			rewards: [{
+				id: "5BFE72A628DDED77"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sculk_leech"
+				id: "488F8D0DF3AFD7E1"
+				type: "kill"
+				value: 350L
+			}]
+			x: -0.023809523809518396d
+			y: 8.21428571428575d
+		}
+		{
+			dependencies: ["6679A8214512C5FD"]
+			id: "0A3B56BDCD110648"
+			rewards: [{
+				count: 2
+				id: "3F17AD6FE9E42C10"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				entity: "deeperdarker:sculk_leech"
+				id: "2F2C2FF6844D4DB7"
+				type: "kill"
+				value: 500L
+			}]
+			x: -0.07142857142858361d
+			y: 6.452380952380963d
+		}
+		{
+			dependencies: ["18A83C2974C2696D"]
+			id: "78EDC6F49302B25D"
+			rewards: [{
+				count: 4
+				id: "60EDA386C34D5345"
+				item: {
+					count: 1
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:angler_fish"
+				id: "025388D98FB56DB3"
+				type: "kill"
+				value: 50L
+			}]
+			x: -3.642857142857139d
+			y: 8.583333333333286d
+		}
+		{
+			dependencies: ["121C7EF0566C94EC"]
+			id: "0D1D9E5A9781D998"
+			rewards: [{
+				count: 4
+				id: "750E1D435F4FC6E6"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sculk_centipede"
+				id: "3969512ADFA81761"
+				type: "kill"
+				value: 100L
+			}]
+			x: 15.26190476190476d
+			y: -1.238095238095184d
+		}
+		{
+			dependencies: ["7BD806ADFC886C59"]
+			id: "65707C43F08DE417"
+			rewards: [{
+				count: 4
+				id: "14F49B5B4B710296"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				id: "3C26B00E361C77E4"
+				type: "kill"
+				value: 100L
+			}]
+			x: 14.404761904761898d
+			y: 7.452380952380906d
+		}
+		{
+			dependencies: ["482BBBB5C08A5B22"]
+			id: "723EEC6B02829BFA"
+			rewards: [{
+				count: 4
+				id: "77B494659247CCE2"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sludge"
+				id: "4D9F6AC65387AFFB"
+				type: "kill"
+				value: 100L
+			}]
+			x: 13.595238095238102d
+			y: 3.47619047619051d
+		}
+		{
+			dependencies: ["405B0F2935484D74"]
+			id: "6A22CD8A45530A70"
+			rewards: [{
+				count: 4
+				id: "3DD7B5F66F5B2921"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:shattered"
+				id: "64DDD01DBB89A24B"
+				type: "kill"
+				value: 100L
+			}]
+			x: 14.166666666666657d
+			y: 9.071428571428555d
+		}
+		{
+			dependencies: ["55AB388C52712EB0"]
+			id: "121C7EF0566C94EC"
+			rewards: [{
+				count: 2
+				id: "49B7D3FABAF0394E"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sculk_centipede"
+				id: "2B6D16DA6CD47A0C"
+				type: "kill"
+				value: 50L
+			}]
+			x: 13.5d
+			y: -1.0952380952380452d
+		}
+		{
+			dependencies: ["0D1D9E5A9781D998"]
+			id: "521BF3FFB03778FD"
+			rewards: [{
+				count: 6
+				id: "4A012A9C004D2348"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sculk_centipede"
+				id: "689F3FC5AEDCE65D"
+				type: "kill"
+				value: 200L
+			}]
+			x: 16.35714285714286d
+			y: -0.04761904761900837d
+		}
+		{
+			dependencies: ["521BF3FFB03778FD"]
+			id: "573CFC229CC65712"
+			rewards: [{
+				id: "7D2282BB199268A0"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sculk_centipede"
+				id: "69D7BDEC0D81ED4A"
+				type: "kill"
+				value: 350L
+			}]
+			x: 15.404761904761898d
+			y: 1.1904761904762324d
+		}
+		{
+			dependencies: ["573CFC229CC65712"]
+			id: "0E3740A3F15E9204"
+			rewards: [{
+				count: 2
+				id: "3C546D9E5880836D"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				entity: "deeperdarker:sculk_centipede"
+				id: "4FD332D9E1BE1B1A"
+				type: "kill"
+				value: 500L
+			}]
+			x: 14.476190476190482d
+			y: 0.46428571428563714d
+		}
+		{
+			dependencies: ["78EDC6F49302B25D"]
+			id: "7B7A7E5AE596A474"
+			rewards: [{
+				count: 2
+				id: "0342C79714BAD7FE"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:angler_fish"
+				id: "0C24C9B82E4B41D6"
+				type: "kill"
+				value: 100L
+			}]
+			x: -3.547619047619037d
+			y: 6.964285714285694d
+		}
+		{
+			dependencies: ["7B7A7E5AE596A474"]
+			id: "0803FAEE7779B906"
+			rewards: [{
+				count: 4
+				id: "50A75F8EE5A77F83"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:angler_fish"
+				id: "513A5063AEBBD2F4"
+				type: "kill"
+				value: 200L
+			}]
+			x: -2.0238095238095184d
+			y: 6.535714285714249d
+		}
+		{
+			dependencies: ["0803FAEE7779B906"]
+			id: "175326876AFAD1F5"
+			rewards: [{
+				id: "26F13AC6D876ECB4"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:angler_fish"
+				id: "7B4CC2E42CB8B230"
+				type: "kill"
+				value: 350L
+			}]
+			x: -1.214285714285694d
+			y: 7.726190476190425d
+		}
+		{
+			dependencies: ["175326876AFAD1F5"]
+			id: "149965B88AF306D6"
+			rewards: [{
+				count: 2
+				id: "109E9A996B813165"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				entity: "deeperdarker:angler_fish"
+				id: "3CB25ADB8CB65CFD"
+				type: "kill"
+				value: 500L
+			}]
+			x: -1.166666666666714d
+			y: 9.095238095238045d
+		}
+		{
+			dependencies: ["31C0FC1587772B60"]
+			id: "7BD806ADFC886C59"
+			rewards: [{
+				count: 2
+				id: "59854575AA149736"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				id: "5B0DC2F644869E29"
+				type: "kill"
+				value: 50L
+			}]
+			x: 12.880952380952408d
+			y: 7.166666666666657d
+		}
+		{
+			dependencies: ["65707C43F08DE417"]
+			id: "36D3E9AA2B5C1E1E"
+			rewards: [{
+				count: 6
+				id: "4E550CF223761DF6"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				id: "3F69B1DF53842292"
+				type: "kill"
+				value: 200L
+			}]
+			x: 15.833333333333343d
+			y: 8.166666666666657d
+		}
+		{
+			dependencies: ["36D3E9AA2B5C1E1E"]
+			id: "358BDADFE14E6DE0"
+			rewards: [{
+				count: 2
+				id: "5DDD876A4D50D543"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				id: "228C40F8B0736A6F"
+				type: "kill"
+				value: 350L
+			}]
+			x: 17.309523809523796d
+			y: 8.02380952380949d
+		}
+		{
+			dependencies: ["358BDADFE14E6DE0"]
+			id: "775D654F3CD0271B"
+			rewards: [{
+				count: 3
+				id: "407AC2CD4AA1F15A"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				id: "08C0C5F46AA7FB71"
+				type: "kill"
+				value: 500L
+			}]
+			x: 18.547619047619037d
+			y: 7.02380952380949d
+		}
+		{
+			dependencies: ["03C22C8B682790D1"]
+			id: "482BBBB5C08A5B22"
+			rewards: [{
+				count: 2
+				id: "251F358A2B65B966"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sludge"
+				id: "2CC97851B503DBD9"
+				type: "kill"
+				value: 50L
+			}]
+			x: 12.357142857142861d
+			y: 2.6666666666666856d
+		}
+		{
+			dependencies: ["723EEC6B02829BFA"]
+			id: "54432A737D58A7F4"
+			rewards: [{
+				count: 6
+				id: "6D776E4964C69303"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sludge"
+				id: "7E75CE3E0FD9F996"
+				type: "kill"
+				value: 200L
+			}]
+			x: 14.595238095238102d
+			y: 4.619047619047649d
+		}
+		{
+			dependencies: ["54432A737D58A7F4"]
+			id: "6B84679BB8D24AC1"
+			rewards: [{
+				id: "5BF0D03D86912B70"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sludge"
+				id: "243E86D485C5273A"
+				type: "kill"
+				value: 350L
+			}]
+			x: 16.119047619047592d
+			y: 4.904761904761926d
+		}
+		{
+			dependencies: ["6B84679BB8D24AC1"]
+			id: "615E0D47275182D2"
+			rewards: [{
+				count: 2
+				id: "6CD07F2A229A32A4"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sludge"
+				id: "79D71E22CA4F4179"
+				type: "kill"
+				value: 500L
+			}]
+			x: 17.5d
+			y: 4.38095238095238d
+		}
+		{
+			dependencies: ["7432AFB35CC67120"]
+			id: "405B0F2935484D74"
+			rewards: [{
+				count: 2
+				id: "4637B9FB08C4E407"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:shattered"
+				id: "3515CE3F175474E1"
+				type: "kill"
+				value: 50L
+			}]
+			x: 12.880952380952408d
+			y: 8.547619047619008d
+		}
+		{
+			dependencies: ["6A22CD8A45530A70"]
+			id: "0E62374D43B509B1"
+			rewards: [{
+				count: 6
+				id: "3DCC706DFF4BEE90"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:shattered"
+				id: "06162E5BC1371EFC"
+				type: "kill"
+				value: 200L
+			}]
+			x: 15.73809523809524d
+			y: 9.499999999999972d
+		}
+		{
+			dependencies: ["0E62374D43B509B1"]
+			id: "4CAFC2CF8D9FAC99"
+			rewards: [{
+				id: "6C7B126C9F7F2E8F"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:shattered"
+				id: "3E60FA44A17CABE7"
+				type: "kill"
+				value: 350L
+			}]
+			x: 17.404761904761898d
+			y: 9.26190476190473d
+		}
+		{
+			dependencies: ["4CAFC2CF8D9FAC99"]
+			id: "47B9CFF53CB464F9"
+			rewards: [{
+				count: 2
+				id: "41F0DFB0CE7433CB"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				entity: "deeperdarker:shattered"
+				id: "6F8C3A24160C93F4"
+				type: "kill"
+				value: 500L
+			}]
+			x: 18.928571428571445d
+			y: 8.547619047619008d
+		}
+		{
+			dependencies: ["615E0D47275182D2"]
+			id: "4F34E03136FBEAA0"
+			rewards: [{
+				count: 3
+				id: "281BAA07BC40F41E"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sludge"
+				id: "3C5C049FB6B8E158"
+				type: "kill"
+				value: 700L
+			}]
+			x: 18.261904761904788d
+			y: 3.2142857142857224d
+		}
+		{
+			dependencies: ["4F34E03136FBEAA0"]
+			id: "42977607A83A99DC"
+			rewards: [{
+				count: 4
+				id: "7F61E13C3F0ED3E6"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "deeperdarker:sludge"
+				id: "7AB69E4061919403"
+				type: "kill"
+				value: 850L
+			}]
+			x: 17.119047619047592d
+			y: 2.1785714285713595d
+		}
+		{
+			dependencies: ["42977607A83A99DC"]
+			id: "15A5D3AF2667F61B"
+			rewards: [{
+				count: 5
+				id: "6697DEF751AEFBF6"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				entity: "deeperdarker:sludge"
+				id: "740405B065E14C52"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 15.833333333333343d
+			y: 3.2142857142857224d
+		}
+		{
+			id: "7C0989F5E399B57C"
+			tasks: [
+				{
+					id: "0F85D1476C9CB44B"
+					item: { count: 1, id: "deeperdarker:brittle_gloomsherd" }
+					type: "item"
+				}
+				{
+					id: "58BC25190C6EB655"
+					item: { count: 1, id: "deeperdarker:dark_heart_gloomsherd" }
+					type: "item"
+				}
+				{
+					id: "1F4A4CF4D196E28B"
+					item: { count: 1, id: "deeperdarker:listener_gloomsherd" }
+					type: "item"
+				}
+				{
+					id: "442DFB7DF9ADE9FC"
+					item: { count: 1, id: "deeperdarker:snapper_gloomsherd" }
+					type: "item"
+				}
+				{
+					id: "4BD742B5673CE24B"
+					item: { count: 1, id: "deeperdarker:temple_gloomsherd" }
+					type: "item"
+				}
+				{
+					id: "7841D574F6CBCAEC"
+					item: { count: 1, id: "deeperdarker:transmission_gloomsherd" }
+					type: "item"
+				}
+				{
+					id: "1E6AD8BA4AF78FC8"
+					item: { count: 1, id: "deeperdarker:ward_gloomsherd" }
+					type: "item"
+				}
+				{
+					id: "3AFF4B748DFBAD6F"
+					item: { count: 1, id: "deeperdarker:wayfinder_gloomsherd" }
+					type: "item"
+				}
+			]
+			x: 5.690476190476176d
+			y: 1.3571428571428612d
+		}
+		{
+			dependencies: ["23C3D23039E08B64"]
+			id: "664CF20DEE91335C"
+			rewards: [{
+				id: "4632697F91939941"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "65E19161D96EE4CC"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["15FC220AE63ED2C5"]
+			id: "69E6C9BD279FF316"
+			rewards: [{
+				count: 2
+				id: "4B687EA6729492BD"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "21336F6D474B3DE0"
+				type: "kill"
+				value: 10L
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["06F785985F179EE7"]
+			id: "0838F58C1F164A84"
+			rewards: [{
+				count: 4
+				id: "09C50C623B3CFDB7"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "3D8FCF37F00BAA09"
+				type: "kill"
+				value: 100L
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["03A2A810A000EE01"]
+			id: "2954EC7D166DE347"
+			rewards: [{
+				count: 2
+				id: "0482186AC8B8BE9F"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "3E1A11C387E9CEB0"
+				type: "kill"
+				value: 400L
+			}]
+			x: 7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1CB421588F147C09"]
+			id: "3245715B5503DFD7"
+			rewards: [{
+				count: 5
+				id: "5824C256864B1071"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "572AC324A2B4F3F1"
+				type: "kill"
+				value: 700L
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["69E6C9BD279FF316"]
+			id: "153A37CFEC114464"
+			rewards: [{
+				count: 4
+				id: "35000380E9F65ED6"
+				item: {
+					count: 1
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "56AD7073C6EF557D"
+				type: "kill"
+				value: 25L
+			}]
+			x: 6.261904761904759d
+			y: -1.9285714285714306d
+		}
+		{
+			dependencies: ["153A37CFEC114464"]
+			id: "06F785985F179EE7"
+			rewards: [{
+				count: 2
+				id: "04FDA8EAE219B2B4"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "16B1690976F51DC1"
+				type: "kill"
+				value: 50L
+			}]
+			x: 5.452380952380949d
+			y: -2.8333333333333357d
+		}
+		{
+			dependencies: ["0838F58C1F164A84"]
+			id: "6D1F11F6B9D1A97A"
+			rewards: [{
+				count: 6
+				id: "70EF644A56F2F5F2"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "31A8DEE929F56F47"
+				type: "kill"
+				value: 200L
+			}]
+			x: 5.404761904761905d
+			y: -5.11904761904762d
+		}
+		{
+			dependencies: ["6D1F11F6B9D1A97A"]
+			id: "03A2A810A000EE01"
+			rewards: [{
+				id: "211A6B319104BCFB"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "186AE582A7D7DFA4"
+				type: "kill"
+				value: 300L
+			}]
+			x: 6.261904761904766d
+			y: -6.071428571428573d
+		}
+		{
+			dependencies: ["2954EC7D166DE347"]
+			id: "5DB091E04EF8D053"
+			rewards: [{
+				count: 3
+				id: "15A36F465B23FDCE"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "4C15B584B7310CF3"
+				type: "kill"
+				value: 500L
+			}]
+			x: 8.69047619047619d
+			y: -6.0238095238095255d
+		}
+		{
+			dependencies: ["5DB091E04EF8D053"]
+			id: "1CB421588F147C09"
+			rewards: [{
+				count: 4
+				id: "261AAE6B9DCEE2B4"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "75C3EEB4D8B3DD37"
+				type: "kill"
+				value: 600L
+			}]
+			x: 9.595238095238102d
+			y: -5.166666666666664d
+		}
+		{
+			dependencies: ["3245715B5503DFD7"]
+			id: "36DA19BA060B9117"
+			rewards: [{
+				count: 6
+				id: "73C7326D79A250AE"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "5B637C1A9DEB8BC9"
+				type: "kill"
+				value: 800L
+			}]
+			x: 9.738095238095248d
+			y: -2.7857142857142847d
+		}
+		{
+			dependencies: ["36DA19BA060B9117"]
+			id: "23C3D23039E08B64"
+			rewards: [{
+				count: 7
+				id: "576C98F5CBB8620C"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "7D61B9F231239AB1"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.738095238095234d
+			y: -1.8809523809523796d
 		}
 	]
 }

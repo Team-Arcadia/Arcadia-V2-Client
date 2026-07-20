@@ -1,4 +1,5 @@
 {
+	autofocus_id: "4F35D04721DFC9FF"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "occultism"
@@ -148,16 +149,16 @@
 			image: "occultism:textures/gui/book/familiar_beholder.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: 23.5d
-			y: 9.5d
+			x: 20.0d
+			y: 5.5d
 		}
 		{
 			height: 3.0d
 			image: "occultism:textures/gui/book/familiar_headless_ratman.png"
 			rotation: 0.0d
 			width: 3.0d
-			x: 16.5d
-			y: 12.0d
+			x: 15.5d
+			y: 12.5d
 		}
 		{
 			alpha: 100
@@ -165,8 +166,8 @@
 			image: "occultism:block/iesnium_block"
 			rotation: 45.0d
 			width: 1.25d
-			x: 8.0d
-			y: 4.0d
+			x: 4.5d
+			y: 0.5d
 		}
 		{
 			alpha: 150
@@ -175,8 +176,8 @@
 			order: -1
 			rotation: 45.0d
 			width: 1.5d
-			x: 8.0d
-			y: 4.0d
+			x: 4.5d
+			y: 0.5d
 		}
 		{
 			color: 16766720
@@ -194,8 +195,543 @@
 			order: -1
 			rotation: -30.0d
 			width: 2.0d
+			x: 34.0d
+			y: 5.5d
+		}
+		{
+			height: 5.0d
+			image: "occultism:block/entity_wormhole_frame"
+			rotation: 0.0d
+			width: 5.0d
+			x: 3.0d
+			y: 13.5d
+		}
+		{
+			height: 3.0d
+			image: "simplyswords:item/runefused_gem_bg"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.0d
+			y: 13.5d
+		}
+		{
+			height: 3.0d
+			image: "simplyswords:item/runefused_gem_bg"
+			order: -1
+			rotation: 180.0d
+			width: 3.0d
+			x: 3.0d
+			y: 13.5d
+		}
+		{
+			height: 2.0d
+			image: "occultism:textures/gui/book/familiar_dragon.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 27.0d
+			y: 6.5d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/entity/breeze/breeze_wind.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			height: 8.0d
+			image: "minecraft:textures/entity/breeze/breeze_wind.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 18.0d
+			y: -7.535714285714292d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:textures/entity/breeze/breeze_wind.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 18.642857142857153d
+			y: -0.892857142857153d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:item/breeze_rod"
+			rotation: 0.0d
+			width: 5.0d
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			height: 3.5d
+			image: "minecraft:item/breeze_rod"
+			rotation: 0.0d
+			width: 3.5d
+			x: 18.000000000000014d
+			y: -7.9285714285714235d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:item/breeze_rod"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.5d
+			y: -1.1785714285714306d
+		}
+		{
+			height: 2.5d
+			image: "cosmeticarmoursmod:item/maskguardian"
+			rotation: 0.0d
+			width: 2.5d
+			x: 24.92857142857143d
+			y: 15.642857142857146d
+		}
+		{
+			height: 7.0d
+			image: "create:block/blaze_burner_flame_scroll"
+			rotation: 0.0d
+			width: 7.0d
+			x: 2.9285714285714306d
+			y: -5.535714285714292d
+		}
+		{
+			height: 2.5d
+			image: "minecraft:item/blaze_rod"
+			rotation: 0.0d
+			width: 2.5d
+			x: 3.0714285714285694d
+			y: -5.750000000000007d
+		}
+		{
+			height: 5.5d
+			image: "minecraft:block/bee_nest_front_honey"
+			rotation: 0.0d
+			width: 5.5d
+			x: 10.5d
+			y: 15.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:item/honeycomb"
+			rotation: 0.0d
+			width: 1.5d
+			x: 10.42857142857143d
+			y: 15.249999999999993d
+		}
+		{
+			height: 7.0d
+			image: "ftblibrary:textures/faces/minecraft/phantom.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: -4.999999999999986d
+			y: -2.1785714285714306d
+		}
+		{
+			height: 8.0d
+			image: "easy_npc:item/spawn_egg/evoker"
+			rotation: 0.0d
+			width: 8.0d
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			height: 8.0d
+			image: "cosmeticarmoursmod:item/maskwarden"
+			order: 2
+			rotation: 0.0d
+			width: 8.0d
+			x: -7.0d
+			y: 10.5d
+		}
+		{
+			height: 7.0d
+			image: "easy_npc:item/spawn_egg/ghast"
+			rotation: 0.0d
+			width: 7.0d
+			x: -5.0d
+			y: 18.0d
+		}
+		{
+			height: 7.0d
+			image: "easy_npc:item/spawn_egg/witch"
+			rotation: 0.0d
+			width: 7.0d
+			x: 0.0d
+			y: 21.5d
+		}
+		{
+			height: 8.0d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 7.3452380952381375d
+			y: 19.72619047619048d
+		}
+		{
+			height: 3.0d
+			image: "oceansdelight:item/elder_guardian_slab"
+			rotation: -90.0d
+			width: 3.0d
+			x: 16.5d
+			y: 15.5d
+		}
+		{
+			height: 2.5d
+			image: "cosmeticarmoursmod:item/maskguardian"
+			rotation: 0.0d
+			width: 2.5d
+			x: 18.035714285714334d
+			y: 17.17857142857143d
+		}
+		{
+			height: 3.0d
+			image: "oceansdelight:item/elder_guardian_slab"
+			rotation: 180.0d
+			width: 3.0d
+			x: 16.5d
+			y: 18.5d
+		}
+		{
+			height: 3.0d
+			image: "oceansdelight:item/elder_guardian_slab"
+			rotation: 90.0d
+			width: 3.0d
+			x: 19.5d
+			y: 18.5d
+		}
+		{
+			height: 3.0d
+			image: "oceansdelight:item/elder_guardian_slab"
+			rotation: 1.0d
+			width: 3.0d
+			x: 19.5d
+			y: 15.5d
+		}
+		{
+			height: 10.0d
+			image: "easy_npc:item/spawn_egg/skeleton"
+			rotation: 0.0d
+			width: 10.0d
+			x: 32.05952380952385d
+			y: 15.297619047619051d
+		}
+		{
+			height: 6.0d
+			image: "ftblibrary:textures/faces/minecraft/hoglin.png"
+			rotation: 0.0d
+			width: 6.0d
 			x: 38.0d
-			y: 7.0d
+			y: 15.0d
+		}
+		{
+			height: 8.0d
+			image: "easy_npc:item/spawn_egg/zombified_piglin"
+			rotation: 0.0d
+			width: 8.0d
+			x: 44.0d
+			y: 12.5d
+		}
+		{
+			height: 3.0d
+			image: "ftblibrary:textures/faces/minecraft/shulker.png"
+			order: 2
+			rotation: 0.0d
+			width: 3.0d
+			x: 33.0d
+			y: 22.0d
+		}
+		{
+			height: 4.5d
+			image: "ftblibrary:textures/faces/minecraft/shulker.png"
+			order: 2
+			rotation: 0.0d
+			width: 4.5d
+			x: 25.011904761904844d
+			y: 23.33333333333333d
+		}
+		{
+			height: 3.5d
+			image: "irons_spellbooks:textures/particle/ender_slash_3.png"
+			rotation: 75.0d
+			width: 3.5d
+			x: 25.0d
+			y: 21.0d
+		}
+		{
+			height: 3.0d
+			image: "irons_spellbooks:textures/particle/ender_slash_5.png"
+			rotation: 45.0d
+			width: 3.0d
+			x: 33.0d
+			y: 20.5d
+		}
+		{
+			height: 6.0d
+			image: "ftblibrary:textures/faces/minecraft/enderman.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 14.0d
+			y: 23.0d
+		}
+		{
+			height: 3.5d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 4.5d
+			x: 7.0d
+			y: 22.0d
+		}
+		{
+			height: 3.0d
+			image: "easy_npc:item/spawn_egg/skeleton"
+			rotation: 0.0d
+			width: 3.0d
+			x: 23.0d
+			y: -8.0d
+		}
+		{
+			height: 3.0d
+			image: "easy_npc:item/spawn_egg/wither_skeleton"
+			rotation: 0.0d
+			width: 3.0d
+			x: 23.5d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			image: "easy_npc:item/spawn_egg/wither_skeleton"
+			rotation: 0.0d
+			width: 3.0d
+			x: 25.0d
+			y: 3.5d
+		}
+		{
+			height: 3.0d
+			image: "easy_npc:item/spawn_egg/wither_skeleton"
+			rotation: 0.0d
+			width: 3.0d
+			x: 27.0d
+			y: 3.5d
+		}
+		{
+			height: 3.0d
+			image: "easy_npc:item/spawn_egg/wither_skeleton"
+			rotation: 0.0d
+			width: 3.0d
+			x: 26.0d
+			y: -2.0d
+		}
+		{
+			height: 3.0d
+			image: "easy_npc:item/spawn_egg/wither_skeleton"
+			rotation: 0.0d
+			width: 3.0d
+			x: 28.5d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			image: "easy_npc:item/spawn_egg/skeleton"
+			rotation: 0.0d
+			width: 3.0d
+			x: 26.5d
+			y: -4.5d
+		}
+		{
+			height: 3.0d
+			image: "easy_npc:item/spawn_egg/skeleton"
+			rotation: 0.0d
+			width: 3.0d
+			x: 24.5d
+			y: -4.5d
+		}
+		{
+			height: 3.0d
+			image: "easy_npc:item/spawn_egg/skeleton"
+			rotation: 0.0d
+			width: 3.0d
+			x: 28.0d
+			y: -8.0d
+		}
+		{
+			height: 3.0d
+			image: "easy_npc:item/spawn_egg/skeleton"
+			rotation: 0.0d
+			width: 3.0d
+			x: 25.5d
+			y: -10.0d
+		}
+		{
+			height: 3.0d
+			image: "easy_npc:item/spawn_egg/husk"
+			rotation: 0.0d
+			width: 3.0d
+			x: 49.0d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "easy_npc:item/spawn_egg/creeper"
+			rotation: 0.0d
+			width: 3.0d
+			x: 37.5d
+			y: -6.5d
+		}
+		{
+			height: 3.0d
+			image: "easy_npc:item/spawn_egg/drowned"
+			rotation: 0.0d
+			width: 3.0d
+			x: 41.0d
+			y: 6.0d
+		}
+		{
+			height: 3.0d
+			image: "ftblibrary:textures/faces/minecraft/silverfish.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 32.5d
+			y: 2.5d
+		}
+		{
+			height: 3.0d
+			image: "easy_npc:item/spawn_egg/husk"
+			rotation: 0.0d
+			width: 3.0d
+			x: 44.0d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "easy_npc:item/spawn_egg/husk"
+			rotation: 0.0d
+			width: 3.0d
+			x: 47.5d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "easy_npc:item/spawn_egg/husk"
+			rotation: 0.0d
+			width: 3.0d
+			x: 46.5d
+			y: -4.5d
+		}
+		{
+			height: 3.0d
+			image: "easy_npc:item/spawn_egg/husk"
+			rotation: 0.0d
+			width: 3.0d
+			x: 45.5d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "easy_npc:item/spawn_egg/creeper"
+			rotation: 0.0d
+			width: 3.0d
+			x: 42.5d
+			y: -6.5d
+		}
+		{
+			height: 3.0d
+			image: "easy_npc:item/spawn_egg/creeper"
+			rotation: 0.0d
+			width: 3.0d
+			x: 41.0d
+			y: -2.5d
+		}
+		{
+			height: 3.0d
+			image: "easy_npc:item/spawn_egg/creeper"
+			rotation: 0.0d
+			width: 3.0d
+			x: 39.0d
+			y: -2.5d
+		}
+		{
+			height: 3.0d
+			image: "easy_npc:item/spawn_egg/creeper"
+			rotation: 0.0d
+			width: 3.0d
+			x: 40.0d
+			y: -8.0d
+		}
+		{
+			height: 3.0d
+			image: "easy_npc:item/spawn_egg/drowned"
+			rotation: 0.0d
+			width: 3.0d
+			x: 43.5d
+			y: 4.0d
+		}
+		{
+			height: 3.0d
+			image: "easy_npc:item/spawn_egg/drowned"
+			rotation: 0.0d
+			width: 3.0d
+			x: 44.5d
+			y: 9.5d
+		}
+		{
+			height: 3.0d
+			image: "easy_npc:item/spawn_egg/drowned"
+			rotation: 0.0d
+			width: 3.0d
+			x: 42.5d
+			y: 9.5d
+		}
+		{
+			height: 3.0d
+			image: "easy_npc:item/spawn_egg/drowned"
+			rotation: 0.0d
+			width: 3.0d
+			x: 46.0d
+			y: 6.0d
+		}
+		{
+			height: 3.0d
+			image: "ftblibrary:textures/faces/minecraft/silverfish.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 36.5d
+			y: 2.5d
+		}
+		{
+			height: 3.0d
+			image: "ftblibrary:textures/faces/minecraft/silverfish.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 32.0d
+			y: -0.5d
+		}
+		{
+			height: 3.0d
+			image: "ftblibrary:textures/faces/minecraft/silverfish.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 34.5d
+			y: -2.0d
+		}
+		{
+			height: 3.0d
+			image: "ftblibrary:textures/faces/minecraft/silverfish.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 37.0d
+			y: -0.5d
+		}
+		{
+			alpha: 50
+			height: 150.0d
+			image: "occultism:block/dimensional_mineshaft_portal"
+			order: -10
+			rotation: 0.0d
+			width: 150.0d
+			x: 17.5d
+			y: 9.0d
 		}
 	]
 	order_index: 3
@@ -210,11 +746,22 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "5316DF321B45D2CA"
-			rewards: [{
-				id: "042DA96F1C15434A"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "0F8CF260CC1B0462"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "042DA96F1C15434A"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
@@ -222,40 +769,62 @@
 				item: { count: 1, id: "occultism:datura_seeds" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["5316DF321B45D2CA"]
 			id: "6C1BBA559963B3DF"
-			rewards: [{
-				id: "3D748FF1571433F2"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "3D7974868EFF36BF"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "3D748FF1571433F2"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "15CDE30E1F7EBAD5"
 				item: { count: 1, id: "occultism:dictionary_of_spirits" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			id: "47358ADC1470C82A"
-			rewards: [{
-				id: "3BB86ECD39545201"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					count: 6
+					id: "76ADEA3508430CE4"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "3BB86ECD39545201"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "0008773503CCA262"
 				item: { count: 1, id: "occultism:datura" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -293,8 +862,8 @@
 				item: { count: 1, id: "minecraft:flint_and_steel" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.0d
+			x: 3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3D41D0092D94636B"]
@@ -302,11 +871,22 @@
 			hide_until_deps_visible: false
 			id: "4C873491F6F0FFAF"
 			min_width: 300
-			rewards: [{
-				id: "0F602FB07D514AFB"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "551CBB3399233F62"
+					item: {
+						count: 1
+						id: "occultism:tallow"
+					}
+					type: "item"
+				}
+				{
+					id: "0F602FB07D514AFB"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "diamond"
 			tasks: [
 				{
@@ -325,12 +905,28 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 4.0d
+			x: 4.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4DF0D7B85065ADC9"]
 			id: "6581D4AF1A6DE230"
+			rewards: [
+				{
+					count: 4
+					id: "5BC4CBDE92A4F58C"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "0337260C9281D268"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "diamond"
 			tasks: [
 				{
@@ -353,6 +949,22 @@
 			hide_dependency_lines: true
 			id: "1B5177A774FCEF64"
 			min_width: 350
+			rewards: [
+				{
+					count: 3
+					id: "4B1BBE61B8DE7E76"
+					item: {
+						count: 1
+						id: "occultism:tallow"
+					}
+					type: "item"
+				}
+				{
+					id: "2AA7791A41C0C9A7"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "diamond"
 			tasks: [
 				{
@@ -377,6 +989,22 @@
 		{
 			hide_dependency_lines: true
 			id: "7F09F8F98C13F11B"
+			rewards: [
+				{
+					count: 2
+					id: "7B030CCCF4FCDD1F"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "03379DF5CF8BDD14"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "diamond"
 			tasks: [
 				{
@@ -397,6 +1025,22 @@
 		{
 			hide_dependency_lines: true
 			id: "0B3EA604C5172D98"
+			rewards: [
+				{
+					count: 6
+					id: "62500BBC0DF9F519"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "1DD1DEE19D7824AF"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "diamond"
 			tasks: [
 				{
@@ -425,11 +1069,22 @@
 			}
 			id: "4F35D04721DFC9FF"
 			min_width: 300
-			rewards: [{
-				id: "0BAC09BCF9644834"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "794C162FB687C318"
+					item: {
+						count: 1
+						id: "occultism:purified_ink"
+					}
+					type: "item"
+				}
+				{
+					id: "0BAC09BCF9644834"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [
@@ -465,11 +1120,22 @@
 		{
 			dependencies: ["4F35D04721DFC9FF"]
 			id: "1DE0F289821F55D1"
-			rewards: [{
-				id: "1B9CD287CB41E0E8"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "375EF2CACFE601C2"
+					item: {
+						count: 1
+						id: "occultism:otherstone"
+					}
+					type: "item"
+				}
+				{
+					id: "1B9CD287CB41E0E8"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "gear"
 			size: 1.5d
 			tasks: [
@@ -499,11 +1165,22 @@
 			}
 			id: "145C8235BCCB9BA8"
 			min_width: 300
-			rewards: [{
-				id: "1B46AF21D2EB7794"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "2CE38E2ADCC3B963"
+					item: {
+						count: 1
+						id: "occultism:amethyst_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "1B46AF21D2EB7794"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [
 				{
 					id: "429FA6C2EA459597"
@@ -523,11 +1200,22 @@
 			dependencies: ["0D18BBB04693885A"]
 			hide_dependent_lines: true
 			id: "666EA8B8F13EB292"
-			rewards: [{
-				id: "2B7D26A8049B7670"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "7A16CDFC0420C85C"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "2B7D26A8049B7670"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
@@ -541,44 +1229,76 @@
 		{
 			dependencies: ["39647A2473F6F7D7"]
 			id: "2A5004EB99AE4F96"
-			rewards: [{
-				id: "66AF59413C4ADCF3"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "663EB6A5E0AEDA91"
+					item: {
+						count: 1
+						id: "occultism:spirit_attuned_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "66AF59413C4ADCF3"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "1ED2F7B4B900BDD1"
 				item: { count: 1, id: "occultism:otherworld_goggles" }
 				type: "item"
 			}]
-			x: 11.5d
+			x: 10.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["2A3683BF7E50EF83"]
 			id: "33106E24A3B5DDD8"
 			min_width: 450
-			rewards: [{
-				id: "503C6DFD7D89F8F0"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					count: 6
+					id: "4796AAF3E78736AE"
+					item: {
+						count: 1
+						id: "occultism:otherstone"
+					}
+					type: "item"
+				}
+				{
+					id: "503C6DFD7D89F8F0"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "1E8BCF5AD19584F7"
 				item: { components: { "ftbfiltersystem:filter": "or(item(occultism:iesnium_ore)item(occultism:raw_iesnium)item(occultism:iesnium_ingot))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 17.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["33106E24A3B5DDD8"]
 			id: "57282D7E31EE61EE"
-			rewards: [{
-				id: "7C2604CEFB4D9A0A"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "797FCF23295ECDFD"
+					item: {
+						count: 1
+						id: "occultism:iesnium_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "7C2604CEFB4D9A0A"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "7FC0ED5732DFDCF2"
 				item: { count: 1, id: "occultism:iesnium_pickaxe" }
@@ -594,11 +1314,22 @@
 			}
 			id: "172D2A634E849562"
 			min_width: 350
-			rewards: [{
-				id: "08E3ACE00C3827C6"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "61F63C0DE97C7EB1"
+					item: {
+						count: 1
+						id: "occultism:iesnium_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "08E3ACE00C3827C6"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [
@@ -617,74 +1348,32 @@
 			y: 3.017857142857153d
 		}
 		{
-			dependencies: ["1DE0F289821F55D1"]
-			id: "6CC5FE34778F0DFA"
-			rewards: [{
-				id: "0975FA0F9ABEA092"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "diamond"
-			tasks: [
-				{
-					id: "1BBB313192F51FA8"
-					item: { count: 1, id: "occultism:storage_controller_base" }
-					type: "item"
-				}
-				{
-					id: "4EDB733716D494CE"
-					item: { count: 1, id: "occultism:storage_controller" }
-					type: "item"
-				}
-				{
-					id: "60BC2FA707A9B073"
-					item: { count: 1, id: "occultism:dimensional_matrix" }
-					type: "item"
-				}
-			]
-			x: 8.0d
-			y: 10.5d
-		}
-		{
 			dependencies: ["4C873491F6F0FFAF"]
 			hide_dependency_lines: false
 			id: "78ECC28DD4BA9696"
-			rewards: [{
-				id: "755329C134364BB8"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "078A4156F9BB3360"
+					item: {
+						count: 1
+						id: "occultism:otherworld_ashes"
+					}
+					type: "item"
+				}
+				{
+					id: "755329C134364BB8"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
 				id: "13EAA435B27EA29D"
 				item: { count: 1, id: "occultism:divination_rod" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["6CC5FE34778F0DFA"]
-			id: "5831B3192C0E8C56"
-			optional: true
-			rewards: [{
-				id: "595BF48ADA4E4C5F"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					id: "792FA8ED0719803C"
-					item: { count: 1, id: "occultism:stable_wormhole" }
-					type: "item"
-				}
-				{
-					id: "2ED65EBA5FFE2C2E"
-					item: { count: 1, id: "occultism:storage_remote" }
-					type: "item"
-				}
-			]
-			x: 6.5d
-			y: 11.5d
+			x: 6.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1DE0F289821F55D1"]
@@ -694,11 +1383,22 @@
 			id: "39647A2473F6F7D7"
 			min_width: 300
 			require_sequential_tasks: true
-			rewards: [{
-				id: "4AD6D3E0605F8F3C"
-				type: "xp"
-				xp: 25
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "23358D5F65E93D8E"
+					item: {
+						count: 1
+						id: "occultism:iesnium_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "4AD6D3E0605F8F3C"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
@@ -720,6 +1420,21 @@
 		{
 			hide_dependency_lines: true
 			id: "4DF0D7B85065ADC9"
+			rewards: [
+				{
+					id: "6DB493C4AB73C0F9"
+					item: {
+						count: 1
+						id: "occultism:spirit_attuned_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "4099A86A4FC08DBC"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "630455630821CAB0"
 				item: { count: 1, id: "occultism:butcher_knife" }
@@ -734,11 +1449,22 @@
 				id: "occultism:chalk_lime_impure"
 			}
 			id: "30C5B597610F4AFB"
-			rewards: [{
-				id: "1ACB00A8A96B37B0"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "7F90008FF0ABC132"
+					item: {
+						count: 1
+						id: "occultism:burnt_otherstone"
+					}
+					type: "item"
+				}
+				{
+					id: "1ACB00A8A96B37B0"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [
 				{
 					id: "308ADBEA527AF653"
@@ -762,11 +1488,22 @@
 			id: "0BD6365534BF04D5"
 			min_width: 300
 			require_sequential_tasks: true
-			rewards: [{
-				id: "7911ABFD485D38FB"
-				type: "xp"
-				xp: 25
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "3BEAB97DAE0EF52E"
+					item: {
+						count: 1
+						id: "occultism:otherworld_ashes"
+					}
+					type: "item"
+				}
+				{
+					id: "7911ABFD485D38FB"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
@@ -800,6 +1537,22 @@
 				id: "occultism:chalk_orange_impure"
 			}
 			id: "74130EB1E4B8586D"
+			rewards: [
+				{
+					count: 3
+					id: "374A8899868C68C4"
+					item: {
+						count: 1
+						id: "occultism:tallow"
+					}
+					type: "item"
+				}
+				{
+					id: "5655BABD24682202"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "56B5E2D58E61A670"
@@ -827,11 +1580,22 @@
 			id: "38A1295878B68F83"
 			min_width: 300
 			require_sequential_tasks: true
-			rewards: [{
-				id: "1412ED0B0BCBCBA2"
-				type: "xp"
-				xp: 25
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "7E6F6AFB03A5D88A"
+					item: {
+						count: 1
+						id: "occultism:tallow"
+					}
+					type: "item"
+				}
+				{
+					id: "1412ED0B0BCBCBA2"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
@@ -856,8 +1620,8 @@
 					type: "item"
 				}
 			]
-			x: 18.75d
-			y: 6.75d
+			x: 18.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["30C5B597610F4AFB"]
@@ -867,11 +1631,22 @@
 			id: "0D18BBB04693885A"
 			min_width: 300
 			require_sequential_tasks: true
-			rewards: [{
-				id: "7363A3F35687ED86"
-				type: "xp"
-				xp: 25
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "1C5270D3C59BFDE1"
+					item: {
+						count: 1
+						id: "occultism:purified_ink"
+					}
+					type: "item"
+				}
+				{
+					id: "7363A3F35687ED86"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
@@ -905,11 +1680,22 @@
 				id: "occultism:chalk_gray_impure"
 			}
 			id: "6FEED25FFAC4101F"
-			rewards: [{
-				id: "172458963B35A871"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "628F6B340588BDC2"
+					item: {
+						count: 1
+						id: "occultism:otherstone"
+					}
+					type: "item"
+				}
+				{
+					id: "172458963B35A871"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [
 				{
 					id: "6BCAF5C014C9B8CD"
@@ -923,7 +1709,7 @@
 				}
 			]
 			x: 16.0d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["39647A2473F6F7D7"]
@@ -931,11 +1717,22 @@
 				id: "occultism:chalk_green_impure"
 			}
 			id: "11A0593C0E2E6A35"
-			rewards: [{
-				id: "40665ED40AD50F96"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "7F12F11E57C47996"
+					item: {
+						count: 1
+						id: "occultism:amethyst_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "40665ED40AD50F96"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [
 				{
 					id: "3469624E1932FA86"
@@ -948,8 +1745,8 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
-			y: 11.0d
+			x: 10.0d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -957,35 +1754,57 @@
 				"0D18BBB04693885A"
 			]
 			id: "2A3683BF7E50EF83"
-			rewards: [{
-				id: "53894207A33668FB"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "5E7184F1FFF878DE"
+					item: {
+						count: 1
+						id: "occultism:iesnium_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "53894207A33668FB"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "02718432862B0267"
 				item: { count: 1, id: "occultism:infused_pickaxe" }
 				type: "item"
 			}]
 			x: 14.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0D18BBB04693885A"]
 			id: "5AE80FF518B1BBA6"
 			optional: true
-			rewards: [{
-				id: "0C4945F14A4E9AD2"
-				type: "xp"
-				xp: 75
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "6A64CB08F47B2C70"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0C4945F14A4E9AD2"
+					type: "xp"
+					xp: 75
+				}
+			]
 			tasks: [{
 				id: "12713B611A3AA745"
 				item: { count: 1, id: "occultism:ritual_satchel_t1" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: 5.5d
+			x: 12.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["145C8235BCCB9BA8"]
@@ -995,11 +1814,22 @@
 			id: "2960FFE0C53DFEB1"
 			min_width: 300
 			require_sequential_tasks: true
-			rewards: [{
-				id: "32B5A1C3342B5DD9"
-				type: "xp"
-				xp: 25
-			}]
+			rewards: [
+				{
+					count: 6
+					id: "7D0B0C4B1978023A"
+					item: {
+						count: 1
+						id: "occultism:otherstone"
+					}
+					type: "item"
+				}
+				{
+					id: "32B5A1C3342B5DD9"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
@@ -1034,11 +1864,22 @@
 				id: "occultism:chalk_black_impure"
 			}
 			id: "367E891A50991436"
-			rewards: [{
-				id: "1D1E44C1ED4E349E"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "088B05815F08A760"
+					item: {
+						count: 1
+						id: "occultism:burnt_otherstone"
+					}
+					type: "item"
+				}
+				{
+					id: "1D1E44C1ED4E349E"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [
 				{
 					id: "43AD1E4B8B90C32B"
@@ -1058,11 +1899,22 @@
 			dependencies: ["2960FFE0C53DFEB1"]
 			id: "4CE571F942461909"
 			optional: true
-			rewards: [{
-				id: "4EBE9A3D181D1F8D"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					count: 6
+					id: "0BF28D70E894243B"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "4EBE9A3D181D1F8D"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "002AC613F837D5B5"
 				item: { count: 1, id: "occultism:ritual_satchel_t2" }
@@ -1082,11 +1934,22 @@
 			id: "429B5A81DF6C43FE"
 			min_width: 300
 			require_sequential_tasks: true
-			rewards: [{
-				id: "57CB202D58CB3A82"
-				type: "xp"
-				xp: 25
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "58487A028A50893F"
+					item: {
+						count: 1
+						id: "occultism:iesnium_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "57CB202D58CB3A82"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
@@ -1120,11 +1983,22 @@
 				id: "occultism:chalk_pink_impure"
 			}
 			id: "2E68E1D96B25336D"
-			rewards: [{
-				id: "50619186D8DC7176"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "0E24F5CD8D78B0BF"
+					item: {
+						count: 1
+						id: "occultism:tallow"
+					}
+					type: "item"
+				}
+				{
+					id: "50619186D8DC7176"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [
 				{
 					count: 3L
@@ -1149,11 +2023,22 @@
 			id: "53DEA3DFEDC4809E"
 			min_width: 300
 			require_sequential_tasks: true
-			rewards: [{
-				id: "689F05C25DEFD7E1"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "010293F0373BE072"
+					item: {
+						count: 1
+						id: "occultism:otherworld_ashes"
+					}
+					type: "item"
+				}
+				{
+					id: "689F05C25DEFD7E1"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
@@ -1192,11 +2077,22 @@
 				id: "occultism:chalk_blue_impure"
 			}
 			id: "03250A0202C25E80"
-			rewards: [{
-				id: "64999ED05425EAEB"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "4229FA0916E51744"
+					item: {
+						count: 1
+						id: "occultism:otherstone"
+					}
+					type: "item"
+				}
+				{
+					id: "64999ED05425EAEB"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [
 				{
 					id: "7BFF993075EFB7B9"
@@ -1220,11 +2116,22 @@
 			id: "2AD68066C1948C90"
 			min_width: 300
 			require_sequential_tasks: true
-			rewards: [{
-				id: "0252C0BC3DEF31F5"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "22284517EE7A8508"
+					item: {
+						count: 1
+						id: "occultism:tallow"
+					}
+					type: "item"
+				}
+				{
+					id: "0252C0BC3DEF31F5"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
@@ -1244,8 +2151,8 @@
 					type: "item"
 				}
 			]
-			x: 29.5d
-			y: 9.5d
+			x: 30.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["03250A0202C25E80"]
@@ -1255,11 +2162,22 @@
 			id: "56EC79AF11B0869E"
 			min_width: 300
 			require_sequential_tasks: true
-			rewards: [{
-				id: "51B3FB4AEFE0E2A2"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "0FABED13B22481E6"
+					item: {
+						count: 1
+						id: "occultism:purified_ink"
+					}
+					type: "item"
+				}
+				{
+					id: "51B3FB4AEFE0E2A2"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
@@ -1276,7 +2194,7 @@
 					type: "item"
 				}
 			]
-			x: 31.0d
+			x: 30.0d
 			y: 8.0d
 		}
 		{
@@ -1287,11 +2205,22 @@
 			id: "2CF96A264EB5522C"
 			min_width: 300
 			require_sequential_tasks: true
-			rewards: [{
-				id: "624180C81D6D3EB9"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					count: 6
+					id: "4C3BD36BC15E9625"
+					item: {
+						count: 1
+						id: "occultism:otherstone"
+					}
+					type: "item"
+				}
+				{
+					id: "624180C81D6D3EB9"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
@@ -1319,8 +2248,8 @@
 					type: "item"
 				}
 			]
-			x: 29.5d
-			y: 6.5d
+			x: 30.0d
+			y: 5.25d
 		}
 		{
 			dependencies: [
@@ -1332,11 +2261,22 @@
 				id: "occultism:chalk_light_blue_impure"
 			}
 			id: "1EB887F8072439A3"
-			rewards: [{
-				id: "7E5E9C1DCC125331"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "0D28F5CBD9A79862"
+					item: {
+						count: 1
+						id: "occultism:amethyst_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "7E5E9C1DCC125331"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [
 				{
 					id: "021F29CA7E51BA5F"
@@ -1359,7 +2299,7 @@
 					type: "item"
 				}
 			]
-			x: 25.5d
+			x: 26.0d
 			y: 10.5d
 		}
 		{
@@ -1371,6 +2311,22 @@
 				id: "occultism:chalk_magenta_impure"
 			}
 			id: "3543563DF036D461"
+			rewards: [
+				{
+					count: 4
+					id: "6C75C6AA14BAE874"
+					item: {
+						count: 1
+						id: "occultism:burnt_otherstone"
+					}
+					type: "item"
+				}
+				{
+					id: "4023C6FD82EA7583"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "0B0C632E633B60C8"
@@ -1383,8 +2339,8 @@
 					type: "item"
 				}
 			]
-			x: 31.0d
-			y: 5.0d
+			x: 32.0d
+			y: 5.25d
 		}
 		{
 			dependencies: ["2AD68066C1948C90"]
@@ -1392,6 +2348,22 @@
 				id: "occultism:chalk_cyan_impure"
 			}
 			id: "00A6020BC979947F"
+			rewards: [
+				{
+					count: 3
+					id: "252ADFB08746CB68"
+					item: {
+						count: 1
+						id: "occultism:tallow"
+					}
+					type: "item"
+				}
+				{
+					id: "6D1399D418B2BF25"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "453BB853EA9182B1"
@@ -1404,8 +2376,8 @@
 					type: "item"
 				}
 			]
-			x: 31.0d
-			y: 11.0d
+			x: 32.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["56EC79AF11B0869E"]
@@ -1413,6 +2385,22 @@
 				id: "occultism:chalk_brown_impure"
 			}
 			id: "7BCD4A425CF6199B"
+			rewards: [
+				{
+					count: 4
+					id: "0ECD853C769D83AE"
+					item: {
+						count: 1
+						id: "occultism:otherstone"
+					}
+					type: "item"
+				}
+				{
+					id: "2BB8DB80C0617897"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [
 				{
 					id: "2BD7510CD96A57ED"
@@ -1425,7 +2413,7 @@
 					type: "item"
 				}
 			]
-			x: 33.5d
+			x: 32.0d
 			y: 8.0d
 		}
 		{
@@ -1439,11 +2427,22 @@
 			}
 			id: "0A25276925EB0CBA"
 			min_width: 300
-			rewards: [{
-				id: "7BC9E8E58C40E3CC"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "0F9B572FB0916B5B"
+					item: {
+						count: 1
+						id: "occultism:amethyst_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "7BC9E8E58C40E3CC"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "gear"
 			size: 2.0d
 			tasks: [
@@ -1533,51 +2532,84 @@
 					type: "item"
 				}
 			]
-			x: 36.0d
+			x: 34.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["0A25276925EB0CBA"]
 			id: "690B89D23134B624"
 			require_sequential_tasks: false
-			rewards: [{
-				id: "364D9D1E440B9756"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "1677331E4433B336"
+					item: {
+						count: 1
+						id: "occultism:burnt_otherstone"
+					}
+					type: "item"
+				}
+				{
+					id: "364D9D1E440B9756"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "687E54A17D6F09AB"
 				item: { count: 1, id: "occultism:chalk_rainbow" }
 				type: "item"
 			}]
-			x: 38.5d
+			x: 36.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["690B89D23134B624"]
 			id: "54378277B8D28B1D"
-			rewards: [{
-				id: "1D7306858CF82E5E"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "4872A422408C1911"
+					item: {
+						count: 1
+						id: "occultism:tallow"
+					}
+					type: "item"
+				}
+				{
+					id: "1D7306858CF82E5E"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "4A935B03FA1DD7C3"
 				item: { count: 1, id: "occultism:chalk_void" }
 				type: "item"
 			}]
-			x: 41.0d
+			x: 38.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["2960FFE0C53DFEB1"]
 			hide_dependent_lines: true
 			id: "6FFFAE334DFAAAAB"
-			rewards: [{
-				id: "5EDBE01DE9B25580"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "74BE153BBBB4DBBF"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "5EDBE01DE9B25580"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "10037D5225C2D20E"
 				item: { components: { "ftbfiltersystem:filter": "or(item(occultism:iesnium_sacrificial_bowl)item(occultism:dark_iesnium_sacrificial_bowl))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -1592,24 +2624,56 @@
 				"666EA8B8F13EB292"
 			]
 			id: "2FD22502E6481269"
+			rewards: [
+				{
+					count: 2
+					id: "094622ECF254753E"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "30CF8B64ADCEC0FC"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "3F319A5CD7E4E884"
 				item: { count: 1, id: "occultism:trinity_gem" }
 				type: "item"
 			}]
-			x: 38.0d
-			y: 7.0d
+			x: 34.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["0A25276925EB0CBA"]
 			id: "08697EB269B011FD"
+			rewards: [
+				{
+					count: 6
+					id: "3CEE04DA6E6A0D01"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "20464B22BF530E32"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "05A43D4098C30ED1"
 				item: { components: { "ftbfiltersystem:filter": "or(item(occultism:celestial_chalice)item(occultism:eldritch_chalice))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 38.0d
-			y: 9.5d
+			x: 34.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["30C5B597610F4AFB"]
@@ -1620,11 +2684,22 @@
 			min_width: 300
 			optional: true
 			require_sequential_tasks: true
-			rewards: [{
-				id: "4513633F31D351C3"
-				type: "xp"
-				xp: 25
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "204DD7F80B102972"
+					item: {
+						count: 1
+						id: "occultism:iesnium_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "4513633F31D351C3"
+					type: "xp"
+					xp: 25
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [
@@ -1649,128 +2724,219 @@
 					type: "item"
 				}
 			]
-			x: 13.5d
+			x: 14.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["6E8D7992693FC337"]
 			id: "4A47388D260530AB"
-			rewards: [{
-				id: "46281CABC83199DE"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "20809D419C094176"
+					item: {
+						count: 1
+						id: "occultism:raw_iesnium"
+					}
+					type: "item"
+				}
+				{
+					id: "46281CABC83199DE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
 			tasks: [{
 				id: "7FA1EA2605DAB9D7"
 				item: { count: 1, id: "occultengineering:ritual_dummy_craft_otherworld_detector" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 11.5d
+			x: 4.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["4A47388D260530AB"]
 			id: "22FC9904C0DB70C6"
-			rewards: [{
-				id: "0D171A7842D59D6D"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "7E98FF97EC4CC071"
+					item: {
+						count: 1
+						id: "occultism:purified_ink"
+					}
+					type: "item"
+				}
+				{
+					id: "0D171A7842D59D6D"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "1CE56C84C987323A"
 				item: { count: 1, id: "occultengineering:ritual_dummy_craft_mechanical_chamber" }
 				type: "item"
 			}]
 			x: 4.0d
-			y: 12.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["22FC9904C0DB70C6"]
 			id: "7A0062CC416556C9"
-			rewards: [{
-				id: "3EB8CAA33F2BB669"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "70E568392F7CEBC1"
+					item: {
+						count: 1
+						id: "occultism:iesnium_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3EB8CAA33F2BB669"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "671AB1D766D10174"
 				item: { count: 1, id: "occultengineering:ritual_dummy_craft_phlogiport" }
 				type: "item"
 			}]
 			x: 3.0d
-			y: 13.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["7A0062CC416556C9"]
 			id: "6B10FE2E7BD9631F"
-			rewards: [{
-				id: "62A54220E3D0A07C"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "79B89123AC4B93CF"
+					item: {
+						count: 1
+						id: "occultism:raw_iesnium"
+					}
+					type: "item"
+				}
+				{
+					id: "62A54220E3D0A07C"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "634D5730E3F90DA3"
 				item: { count: 1, id: "occultengineering:ritual_dummy_craft_mechanical_upgrade_djinni" }
 				type: "item"
 			}]
 			x: 2.0d
-			y: 12.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["6B10FE2E7BD9631F"]
 			id: "418C20D21D294896"
-			rewards: [{
-				id: "7E14B174BBD9B790"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "7C7B6238BA25F661"
+					item: {
+						count: 1
+						id: "occultism:purified_ink"
+					}
+					type: "item"
+				}
+				{
+					id: "7E14B174BBD9B790"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "2931B871032C87B4"
 				item: { count: 1, id: "occultengineering:ritual_dummy_craft_mechanical_upgrade_afrit" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 11.5d
+			x: 1.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["418C20D21D294896"]
 			id: "2B345E47294A05E1"
-			rewards: [{
-				id: "434D480314C3C625"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "70D22183C5884D70"
+					item: {
+						count: 1
+						id: "occultism:iesnium_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "434D480314C3C625"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "2B586C3E7AC8F3D6"
 				item: { count: 1, id: "occultengineering:ritual_dummy_craft_mechanical_upgrade_marid" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 11.5d
+			x: 2.0d
+			y: 12.5d
 		}
 		{
 			id: "5F3FA7FC0A86B907"
-			rewards: [{
-				id: "2E4DCFD1EDA35C8E"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "305D78AC2346AD49"
+					item: {
+						count: 1
+						id: "occultism:otherworld_ashes"
+					}
+					type: "item"
+				}
+				{
+					id: "2E4DCFD1EDA35C8E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
 			tasks: [{
 				id: "2C4F33BCE7C09EA5"
 				item: { count: 1, id: "occultengineering:combined_goggles" }
 				type: "item"
 			}]
-			x: 2.2619047619047663d
-			y: 10.523809523809533d
+			x: 3.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["5F3FA7FC0A86B907"]
 			id: "6E8D7992693FC337"
-			rewards: [{
-				id: "0CB668756EE948CF"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "3187860C5EF1AD72"
+					item: {
+						count: 1
+						id: "occultism:raw_iesnium"
+					}
+					type: "item"
+				}
+				{
+					id: "0CB668756EE948CF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
 			tasks: [
 				{
 					id: "10A5569C4DA37A33"
@@ -1788,8 +2954,5258 @@
 					type: "item"
 				}
 			]
-			x: 3.7619047619047663d
-			y: 10.523809523809533d
+			x: 4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0E57751BB709A73A"]
+			id: "3884B9722139EE1E"
+			rewards: [{
+				count: 5
+				id: "7B5A081729C49085"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_bee"
+				id: "6EB398301BA34A96"
+				type: "kill"
+				value: 800L
+			}]
+			x: 11.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["6F1BC63676DBBE60"]
+			id: "10E40A99605579E9"
+			rewards: [{
+				count: 6
+				id: "6E975E15E71805AD"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_blaze"
+				id: "6797F454012FC697"
+				type: "kill"
+				value: 300L
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4932CF7593315E2C"]
+			id: "03F956AABA9624FE"
+			rewards: [{
+				count: 6
+				id: "07928FC1CAEE9E85"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_enderman"
+				id: "5DCD91B23F9F0424"
+				type: "kill"
+				value: 900L
+			}]
+			x: 14.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["4B5893055DC8E1F6"]
+			id: "1FB0A6BCFA2C643A"
+			rewards: [{
+				count: 6
+				id: "08606996B7095220"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_endermite"
+				id: "51B9AF63317A1163"
+				type: "kill"
+				value: 900L
+			}]
+			x: 7.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["784D5E0F7F6D1D67"]
+			id: "54443DFDE5769398"
+			rewards: [{
+				count: 6
+				id: "0E3D357C1797A3ED"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_ghast"
+				id: "723C8CFF9FF350A4"
+				type: "kill"
+				value: 900L
+			}]
+			x: -5.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["414A1A83023DEF0A"]
+			id: "76A43C1DEAB26FD7"
+			rewards: [{
+				count: 6
+				id: "4FC9AAC954FD1841"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_guardian"
+				id: "424C7429DBA5E6B5"
+				type: "kill"
+				value: 900L
+			}]
+			x: 25.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["18C66F18928258DE"]
+			id: "2305F0E3DB91BF0D"
+			rewards: [{
+				count: 6
+				id: "7C54EF8FBB01D139"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_hoglin"
+				id: "793BBBCBD930B23A"
+				type: "kill"
+				value: 900L
+			}]
+			x: 38.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["07B0503A915B6675"]
+			id: "3D543F045F4F5835"
+			rewards: [{
+				count: 6
+				id: "3917BC0C26C44E46"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_phantom"
+				id: "4E406C3D09211BCE"
+				type: "kill"
+				value: 900L
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["57CFDB97C73903F0"]
+			id: "2D59ECB7741D2204"
+			rewards: [{
+				count: 6
+				id: "54E6C7FACEEEECBF"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_shulker"
+				id: "0660D800336BFCED"
+				type: "kill"
+				value: 900L
+			}]
+			x: 25.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["5684EA89EEE9E932"]
+			id: "1A6C718CCC7D97D3"
+			rewards: [{
+				count: 6
+				id: "683BF88E1D5E0F9F"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_skeleton"
+				id: "41D8193AE35344C1"
+				type: "kill"
+				value: 900L
+			}]
+			x: 32.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["10E8C4D68BABBF75"]
+			id: "5605DD0C3A91F5DD"
+			rewards: [{
+				count: 6
+				id: "45CFDF3F09A5926F"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_warden"
+				id: "5FECF1A8F9E77E7C"
+				type: "kill"
+				value: 900L
+			}]
+			x: -7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["73BFF107295FC236"]
+			id: "5043CA517132EDB7"
+			rewards: [{
+				count: 6
+				id: "72BCE0681401ACF9"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_weak_shulker"
+				id: "1BE8709309BBDACB"
+				type: "kill"
+				value: 900L
+			}]
+			x: 33.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["1586F5E449588189"]
+			id: "643061EA4786938D"
+			rewards: [{
+				count: 6
+				id: "56EC21C227AFD797"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_witch"
+				id: "622AC18A65C06E5D"
+				type: "kill"
+				value: 900L
+			}]
+			x: 0.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["7CF1425839948E3C"]
+			id: "739E3666BB4CB9BA"
+			rewards: [{
+				count: 6
+				id: "74CC400099AE6CB1"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_zombie_piglin"
+				id: "63AD5E87BF1CB70B"
+				type: "kill"
+				value: 900L
+			}]
+			x: 44.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["22528AB305A94853"]
+			id: "70A937D8F464681F"
+			rewards: [{
+				count: 6
+				id: "3457564CE7E30FDB"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_breeze"
+				id: "0881B271374FAF83"
+				type: "kill"
+				value: 900L
+			}]
+			x: 18.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1ED0334F6170ED39"]
+			id: "0D34BCFF5A522EA2"
+			rewards: [{
+				count: 6
+				id: "59AAD355990F10F6"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_evoker"
+				id: "45F8673E031EB25F"
+				type: "kill"
+				value: 900L
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3F0E392B46351970"]
+			id: "7B4842D5FB53C75C"
+			rewards: [{
+				count: 6
+				id: "6FCD750B1D39F2A5"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_strong_breeze"
+				id: "17CCF045C348F2B3"
+				type: "kill"
+				value: 900L
+			}]
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5FD09171B4BB7372"]
+			id: "7DAAAE8D0DE6AF5C"
+			rewards: [{
+				count: 6
+				id: "6E919B5E3D9D1051"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_weak_breeze"
+				id: "73E9DE0A5CDC0196"
+				type: "kill"
+				value: 900L
+			}]
+			x: 18.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6BC9CBF15148E055"
+				"19C5FC2BE6750464"
+			]
+			id: "61A003C683709975"
+			rewards: [{
+				id: "4F3B96BFD2A4C2E9"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_bee"
+				id: "44C149E4EF0FB5EA"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.0d
+			y: 14.5d
+		}
+		{
+			id: "19C5FC2BE6750464"
+			rewards: [{
+				count: 2
+				id: "56D31DB775004A75"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_bee"
+				id: "30BF657ED5676523"
+				type: "kill"
+				value: 100L
+			}]
+			x: 8.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3884B9722139EE1E"]
+			id: "6BC9CBF15148E055"
+			rewards: [{
+				count: 6
+				id: "4896EF0E7CB26244"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_bee"
+				id: "5812B174D3E4CA5E"
+				type: "kill"
+				value: 900L
+			}]
+			x: 10.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1396530D58FBC5D3"]
+			id: "0E57751BB709A73A"
+			rewards: [{
+				count: 4
+				id: "7B612092529A876F"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_bee"
+				id: "1EC8B1D146B0E708"
+				type: "kill"
+				value: 700L
+			}]
+			x: 12.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["117E717B1D083F63"]
+			id: "730EC12C46600482"
+			rewards: [{
+				count: 2
+				id: "6037220D607FDD93"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_bee"
+				id: "43D0CC588B4027B8"
+				type: "kill"
+				value: 500L
+			}]
+			x: 11.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["25CD30D27C5AD957"]
+			id: "28EE755EE236D864"
+			rewards: [{
+				count: 6
+				id: "148C004EE553D93E"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_bee"
+				id: "49CF699E4E0A9330"
+				type: "kill"
+				value: 300L
+			}]
+			x: 9.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["28EE755EE236D864"]
+			id: "117E717B1D083F63"
+			rewards: [{
+				id: "413B0CEBFC3D73C9"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_bee"
+				id: "345FCCADFF2BB02F"
+				type: "kill"
+				value: 400L
+			}]
+			x: 10.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["730EC12C46600482"]
+			id: "1396530D58FBC5D3"
+			rewards: [{
+				count: 3
+				id: "154188645EEC2962"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_bee"
+				id: "3BECC529D238F9CA"
+				type: "kill"
+				value: 600L
+			}]
+			x: 11.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["19C5FC2BE6750464"]
+			id: "25CD30D27C5AD957"
+			rewards: [{
+				count: 4
+				id: "7676D81E86972F99"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_bee"
+				id: "7D319440743CC639"
+				type: "kill"
+				value: 200L
+			}]
+			x: 9.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["468D5FD32C9F965D"]
+			id: "78F6AA859CE13B92"
+			rewards: [{
+				count: 2
+				id: "584CB88E9EEB71E7"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_blaze"
+				id: "5B97DCD9B9855A48"
+				type: "kill"
+				value: 500L
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["10E40A99605579E9"]
+			id: "468D5FD32C9F965D"
+			rewards: [{
+				id: "16AE15033AC44E58"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_blaze"
+				id: "0437D55499C08E6D"
+				type: "kill"
+				value: 400L
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3EDB254F2294DA20"]
+			id: "6F1BC63676DBBE60"
+			rewards: [{
+				count: 4
+				id: "54579162E4DC2129"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_blaze"
+				id: "73AB8D460BA068B8"
+				type: "kill"
+				value: 200L
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["78F6AA859CE13B92"]
+			id: "4CADD1453E1BB2AA"
+			rewards: [{
+				count: 3
+				id: "3C47AD3CAC243706"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_blaze"
+				id: "38B75CBE6F73C522"
+				type: "kill"
+				value: 600L
+			}]
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7FB4A968C18E0206"]
+			id: "133F09926DE04EF5"
+			rewards: [{
+				count: 5
+				id: "558D6DD38829EC5E"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_blaze"
+				id: "49C62A1D07110722"
+				type: "kill"
+				value: 800L
+			}]
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"3EDB254F2294DA20"
+				"50C64124063F61A1"
+			]
+			id: "46444DB297896C7B"
+			rewards: [{
+				id: "5B046D063993C337"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_blaze"
+				id: "26588BCD39942CE7"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			id: "3EDB254F2294DA20"
+			rewards: [{
+				count: 2
+				id: "636AE712740BFDC2"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_blaze"
+				id: "37286C23F93457AD"
+				type: "kill"
+				value: 100L
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4CADD1453E1BB2AA"]
+			id: "7FB4A968C18E0206"
+			rewards: [{
+				count: 4
+				id: "16F4263593E2AE02"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_blaze"
+				id: "75D2C2B22FE8DA12"
+				type: "kill"
+				value: 700L
+			}]
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["133F09926DE04EF5"]
+			id: "50C64124063F61A1"
+			rewards: [{
+				count: 6
+				id: "2014D76A4FFC09D4"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_blaze"
+				id: "2FFD77F0E5163364"
+				type: "kill"
+				value: 900L
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"09EF871C81D8A247"
+				"18DC71AE47CAB990"
+			]
+			id: "6FE4FE505E02206A"
+			rewards: [{
+				id: "29FF47E23DDF33EA"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_elder_guardian"
+				id: "69B915301485E633"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 17.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["64FD5AC3F9D5616A"]
+			id: "32C612FA7FD2FF2E"
+			rewards: [{
+				count: 5
+				id: "4E5E8EBDC53074A1"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_elder_guardian"
+				id: "40CB5DF44A2F21F6"
+				type: "kill"
+				value: 800L
+			}]
+			x: 18.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["09EF871C81D8A247"]
+			id: "4CC380BC68A5BF5D"
+			rewards: [{
+				count: 4
+				id: "343DC9FE685CB7C5"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_elder_guardian"
+				id: "1D8D6636DB57B950"
+				type: "kill"
+				value: 200L
+			}]
+			x: 17.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["519CD3F81F7BEA3A"]
+			id: "0AB0C8A8D868ED07"
+			rewards: [{
+				id: "06267232C22D706C"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_elder_guardian"
+				id: "698CF5AA03D1E832"
+				type: "kill"
+				value: 400L
+			}]
+			x: 18.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["38B5CDDFABCAF6D0"]
+			id: "5CF2A1F44A1C45BC"
+			rewards: [{
+				count: 3
+				id: "2D0BE9829718ED98"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_elder_guardian"
+				id: "11E133132CCA759A"
+				type: "kill"
+				value: 600L
+			}]
+			x: 19.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["5CF2A1F44A1C45BC"]
+			id: "64FD5AC3F9D5616A"
+			rewards: [{
+				count: 4
+				id: "327AD3043A5E4273"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_elder_guardian"
+				id: "6793946B240941C6"
+				type: "kill"
+				value: 700L
+			}]
+			x: 20.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["32C612FA7FD2FF2E"]
+			id: "18DC71AE47CAB990"
+			rewards: [{
+				count: 6
+				id: "7ADDDB2E812B1915"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_elder_guardian"
+				id: "6CCE0DBE0A09F3A8"
+				type: "kill"
+				value: 900L
+			}]
+			x: 18.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["0AB0C8A8D868ED07"]
+			id: "38B5CDDFABCAF6D0"
+			rewards: [{
+				count: 2
+				id: "42AEC8953268FB6C"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_elder_guardian"
+				id: "18F088A749145BA5"
+				type: "kill"
+				value: 500L
+			}]
+			x: 19.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["4CC380BC68A5BF5D"]
+			id: "519CD3F81F7BEA3A"
+			rewards: [{
+				count: 6
+				id: "23B58410552BC012"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_elder_guardian"
+				id: "57BB173F9B718E19"
+				type: "kill"
+				value: 300L
+			}]
+			x: 17.0d
+			y: 19.0d
+		}
+		{
+			id: "09EF871C81D8A247"
+			rewards: [{
+				count: 2
+				id: "7C79DC8936FDD540"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_elder_guardian"
+				id: "1681DD3FDE7B26DD"
+				type: "kill"
+				value: 100L
+			}]
+			x: 16.0d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"50F2A1240CF70832"
+				"76A43C1DEAB26FD7"
+			]
+			id: "27BAB5BB1A40B30D"
+			rewards: [{
+				id: "223640484D4692B2"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_guardian"
+				id: "6B6445516D110A05"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 24.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["12A7468E3B6018DA"]
+			id: "414A1A83023DEF0A"
+			rewards: [{
+				count: 4
+				id: "4605D7221775794D"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_guardian"
+				id: "46F69D941A250FEB"
+				type: "kill"
+				value: 800L
+			}]
+			x: 25.5d
+			y: 15.0d
+		}
+		{
+			id: "50F2A1240CF70832"
+			rewards: [{
+				count: 2
+				id: "30796C21A6A4E4A3"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_guardian"
+				id: "65F509045D7E0C3D"
+				type: "kill"
+				value: 100L
+			}]
+			x: 23.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["50F2A1240CF70832"]
+			id: "6151FEE8A84A96F2"
+			rewards: [{
+				count: 4
+				id: "0CAD21BF75F49D89"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_guardian"
+				id: "58652AE223A1ACDA"
+				type: "kill"
+				value: 200L
+			}]
+			x: 24.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["6151FEE8A84A96F2"]
+			id: "40A28DE74353D559"
+			rewards: [{
+				count: 6
+				id: "2DB8E1C1C4FC1111"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_guardian"
+				id: "63C217FD36DDAED7"
+				type: "kill"
+				value: 300L
+			}]
+			x: 24.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["40A28DE74353D559"]
+			id: "27671681825D05B2"
+			rewards: [{
+				id: "130C1B5C9E36ADBE"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_guardian"
+				id: "696243EAD7BA396A"
+				type: "kill"
+				value: 400L
+			}]
+			x: 25.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["27671681825D05B2"]
+			id: "5D722F665E5BAA7A"
+			rewards: [{
+				count: 2
+				id: "057CB74964127670"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_guardian"
+				id: "2906D8C390A4C7DC"
+				type: "kill"
+				value: 500L
+			}]
+			x: 26.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["5D722F665E5BAA7A"]
+			id: "290CF66CF2772B8D"
+			rewards: [{
+				count: 3
+				id: "57BF295476C66A3E"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_guardian"
+				id: "1CC465697A9AA153"
+				type: "kill"
+				value: 600L
+			}]
+			x: 26.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["290CF66CF2772B8D"]
+			id: "12A7468E3B6018DA"
+			rewards: [{
+				count: 4
+				id: "1D84F275F4D4DB0C"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_guardian"
+				id: "5E071D64C486B731"
+				type: "kill"
+				value: 700L
+			}]
+			x: 27.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"7612726BCC7E6062"
+				"03F956AABA9624FE"
+			]
+			id: "67425A365CC22428"
+			rewards: [{
+				id: "2D7EC4C56CCBE409"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_enderman"
+				id: "35B63B934FBAE87D"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 13.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["0A926E2C82C3F8B9"]
+			id: "4932CF7593315E2C"
+			rewards: [{
+				count: 5
+				id: "0A10839041039A70"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_enderman"
+				id: "05888608D23DB950"
+				type: "kill"
+				value: 800L
+			}]
+			x: 14.5d
+			y: 22.5d
+		}
+		{
+			id: "7612726BCC7E6062"
+			rewards: [{
+				count: 2
+				id: "14201051FEA6B326"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_enderman"
+				id: "5AF72E54F3D78550"
+				type: "kill"
+				value: 100L
+			}]
+			x: 12.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["7612726BCC7E6062"]
+			id: "30F9FD157FA78AB6"
+			rewards: [{
+				count: 4
+				id: "68B037F999536455"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_enderman"
+				id: "7E1D647AFFE0E010"
+				type: "kill"
+				value: 200L
+			}]
+			x: 13.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["30F9FD157FA78AB6"]
+			id: "65D9EACA530A6974"
+			rewards: [{
+				count: 6
+				id: "358121F91EACBC29"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_enderman"
+				id: "25986EA321A5CBFA"
+				type: "kill"
+				value: 300L
+			}]
+			x: 13.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["65D9EACA530A6974"]
+			id: "5CEE3FE873E46F33"
+			rewards: [{
+				id: "3C0C7A369B9D9638"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_enderman"
+				id: "06F1DBD6AE3D67CB"
+				type: "kill"
+				value: 400L
+			}]
+			x: 14.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["5CEE3FE873E46F33"]
+			id: "67590B050BEE5B23"
+			rewards: [{
+				count: 2
+				id: "5E8B02293BF18F2D"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_enderman"
+				id: "0D15564703F153E0"
+				type: "kill"
+				value: 500L
+			}]
+			x: 15.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["67590B050BEE5B23"]
+			id: "6033E4E5F86CAECF"
+			rewards: [{
+				count: 3
+				id: "06D6B4CB1C014BB7"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_enderman"
+				id: "1BE97F117D306D8F"
+				type: "kill"
+				value: 600L
+			}]
+			x: 15.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["6033E4E5F86CAECF"]
+			id: "0A926E2C82C3F8B9"
+			rewards: [{
+				count: 4
+				id: "3C0CCC30775C3878"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_enderman"
+				id: "7B23675192259EE2"
+				type: "kill"
+				value: 700L
+			}]
+			x: 16.0d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"00F91E5D78FB4498"
+				"1FB0A6BCFA2C643A"
+			]
+			id: "1B007C9A3D08618C"
+			rewards: [{
+				id: "2BACDDD65DF0EEC2"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_endermite"
+				id: "48C563B88C87465E"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 6.5d
+			y: 20.5d
+		}
+		{
+			id: "00F91E5D78FB4498"
+			rewards: [{
+				count: 2
+				id: "13E541F5329EA78E"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_endermite"
+				id: "6654E3815FD80C27"
+				type: "kill"
+				value: 100L
+			}]
+			x: 5.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["00F91E5D78FB4498"]
+			id: "1A5EDDB2E6B72174"
+			rewards: [{
+				count: 4
+				id: "23DEC66041042FD9"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_endermite"
+				id: "3AD53CCD5D4EEF8E"
+				type: "kill"
+				value: 200L
+			}]
+			x: 6.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["1A5EDDB2E6B72174"]
+			id: "1C6A585EBA66EC73"
+			rewards: [{
+				count: 6
+				id: "707896B362E1D2DC"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_endermite"
+				id: "0A8964AD4E58D39C"
+				type: "kill"
+				value: 300L
+			}]
+			x: 6.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["1C6A585EBA66EC73"]
+			id: "7D12521FAD108330"
+			rewards: [{
+				id: "0FFC0821A80D1C83"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_endermite"
+				id: "7CA5168B867E5A79"
+				type: "kill"
+				value: 400L
+			}]
+			x: 7.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["7D12521FAD108330"]
+			id: "4659502395E9D6A1"
+			rewards: [{
+				count: 2
+				id: "0260408E22BC96C0"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_endermite"
+				id: "7F652B034CAA53A7"
+				type: "kill"
+				value: 500L
+			}]
+			x: 8.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["4659502395E9D6A1"]
+			id: "137662FA762F72DE"
+			rewards: [{
+				count: 3
+				id: "6982BF40C0C6D6D7"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_endermite"
+				id: "6FCFD65699DEF22F"
+				type: "kill"
+				value: 600L
+			}]
+			x: 8.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["137662FA762F72DE"]
+			id: "1B31CE2591387847"
+			rewards: [{
+				count: 4
+				id: "43AD6822B7067A3F"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_endermite"
+				id: "2F5BCB467F4BB21C"
+				type: "kill"
+				value: 700L
+			}]
+			x: 9.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["1B31CE2591387847"]
+			id: "4B5893055DC8E1F6"
+			rewards: [{
+				count: 5
+				id: "35F17460E9C66E17"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_endermite"
+				id: "505FB9FD96285ED3"
+				type: "kill"
+				value: 800L
+			}]
+			x: 7.5d
+			y: 20.5d
+		}
+		{
+			dependencies: [
+				"5396F7F5F5993529"
+				"54443DFDE5769398"
+			]
+			id: "3A2405FBEE29D850"
+			rewards: [{
+				id: "1DD6E307DB30E878"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_ghast"
+				id: "4DCC437D1A3AFEC5"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -5.5d
+			y: 17.0d
+		}
+		{
+			id: "5396F7F5F5993529"
+			rewards: [{
+				count: 2
+				id: "689F4E6973EC3CF9"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_ghast"
+				id: "3EC368E68AFE6726"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["5396F7F5F5993529"]
+			id: "23D3E3259C40E3C9"
+			rewards: [{
+				count: 4
+				id: "2900D6E7A2D725C7"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_ghast"
+				id: "625CA08C7F9B0222"
+				type: "kill"
+				value: 200L
+			}]
+			x: -6.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["23D3E3259C40E3C9"]
+			id: "7E837E5B6652DD1D"
+			rewards: [{
+				count: 6
+				id: "7BF8472D46803A17"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_ghast"
+				id: "3EA3579DCB55B480"
+				type: "kill"
+				value: 300L
+			}]
+			x: -6.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["7E837E5B6652DD1D"]
+			id: "4F3A384BEA0038A7"
+			rewards: [{
+				id: "79C67A2A86625096"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_ghast"
+				id: "10C9D2C67BAC3D69"
+				type: "kill"
+				value: 400L
+			}]
+			x: -5.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["4F3A384BEA0038A7"]
+			id: "782E5B4A2DB9AF4A"
+			rewards: [{
+				count: 2
+				id: "66C62627201BB9FD"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_ghast"
+				id: "6FC3105565E11FD8"
+				type: "kill"
+				value: 500L
+			}]
+			x: -4.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["782E5B4A2DB9AF4A"]
+			id: "5237ADBC5ADE2AF2"
+			rewards: [{
+				count: 3
+				id: "3574945DC124DAC4"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_ghast"
+				id: "5E4681A105261996"
+				type: "kill"
+				value: 600L
+			}]
+			x: -4.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["5237ADBC5ADE2AF2"]
+			id: "3904E1300397322E"
+			rewards: [{
+				count: 4
+				id: "0CF9A7D00E384CD4"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_ghast"
+				id: "27F99BA4F04B127A"
+				type: "kill"
+				value: 700L
+			}]
+			x: -3.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["3904E1300397322E"]
+			id: "784D5E0F7F6D1D67"
+			rewards: [{
+				count: 5
+				id: "1E3782EF6371DA38"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_ghast"
+				id: "3A9C733E45E63C8E"
+				type: "kill"
+				value: 800L
+			}]
+			x: -4.5d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"638E188BC184DAC9"
+				"2D59ECB7741D2204"
+			]
+			id: "0A559309DEAF8CAA"
+			rewards: [{
+				id: "7A8F0F3990B360B7"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_shulker"
+				id: "0BCB6F4529E9EF17"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 24.5d
+			y: 21.5d
+		}
+		{
+			id: "638E188BC184DAC9"
+			rewards: [{
+				count: 2
+				id: "63684B1F54B577DD"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_shulker"
+				id: "6FE78189C1CD80C7"
+				type: "kill"
+				value: 100L
+			}]
+			x: 23.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["638E188BC184DAC9"]
+			id: "6B228A27245385BE"
+			rewards: [{
+				count: 4
+				id: "47991EC68EB1D9E6"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_shulker"
+				id: "14FDEE035AF2FA5D"
+				type: "kill"
+				value: 200L
+			}]
+			x: 24.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["6B228A27245385BE"]
+			id: "1A2B8C75AB8B9C26"
+			rewards: [{
+				count: 6
+				id: "7AC980D843D4B62B"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_shulker"
+				id: "119B3ADD54C7E4EB"
+				type: "kill"
+				value: 300L
+			}]
+			x: 24.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["1A2B8C75AB8B9C26"]
+			id: "4EC4018027164119"
+			rewards: [{
+				id: "355D49F3DF0DE0FC"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_shulker"
+				id: "1DCAE6704396A240"
+				type: "kill"
+				value: 400L
+			}]
+			x: 25.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["4EC4018027164119"]
+			id: "5A8A62C73A789CD0"
+			rewards: [{
+				count: 2
+				id: "3DEBE0206A407B82"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_shulker"
+				id: "3612E12510FBF004"
+				type: "kill"
+				value: 500L
+			}]
+			x: 26.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["5A8A62C73A789CD0"]
+			id: "393A0850DF2198F0"
+			rewards: [{
+				count: 3
+				id: "574E7D44D5C9E2F4"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_shulker"
+				id: "04EB9209FD975D50"
+				type: "kill"
+				value: 600L
+			}]
+			x: 26.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["393A0850DF2198F0"]
+			id: "3420437827121CDC"
+			rewards: [{
+				count: 4
+				id: "01E3E975A404623B"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_shulker"
+				id: "70602B6A4E62E62A"
+				type: "kill"
+				value: 700L
+			}]
+			x: 27.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["3420437827121CDC"]
+			id: "57CFDB97C73903F0"
+			rewards: [{
+				count: 5
+				id: "7D974C85E8330511"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_shulker"
+				id: "36BB29F104B600FF"
+				type: "kill"
+				value: 800L
+			}]
+			x: 25.5d
+			y: 21.5d
+		}
+		{
+			dependencies: [
+				"7050D4893786F5B1"
+				"7DAAAE8D0DE6AF5C"
+			]
+			id: "3EA06AF2E394F1CA"
+			rewards: [{
+				id: "4E1A0968FF0397CA"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_weak_breeze"
+				id: "67E16E4143C06507"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			id: "7050D4893786F5B1"
+			rewards: [{
+				count: 2
+				id: "4FE5F22943706F48"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_weak_breeze"
+				id: "651D8BBD4B314A68"
+				type: "kill"
+				value: 100L
+			}]
+			x: 16.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7050D4893786F5B1"]
+			id: "7EBC3D874BE04373"
+			rewards: [{
+				count: 4
+				id: "74B9C62184BB5521"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_weak_breeze"
+				id: "7D1321537E35886C"
+				type: "kill"
+				value: 200L
+			}]
+			x: 17.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7EBC3D874BE04373"]
+			id: "29ABD3385EB21C04"
+			rewards: [{
+				count: 6
+				id: "4D37C868123F25B3"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_weak_breeze"
+				id: "082D39B8E31AD227"
+				type: "kill"
+				value: 300L
+			}]
+			x: 17.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["29ABD3385EB21C04"]
+			id: "2A6771B53FC1D48A"
+			rewards: [{
+				id: "58CBFF65A1CAC15D"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_weak_breeze"
+				id: "3774E3C65B3E0238"
+				type: "kill"
+				value: 400L
+			}]
+			x: 18.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2A6771B53FC1D48A"]
+			id: "47D1D0D51DB95BD6"
+			rewards: [{
+				count: 2
+				id: "52A803A9DBD4E0E6"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_weak_breeze"
+				id: "63EA998863F61E5A"
+				type: "kill"
+				value: 500L
+			}]
+			x: 19.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["47D1D0D51DB95BD6"]
+			id: "738BDBE3C9FA9F4D"
+			rewards: [{
+				count: 3
+				id: "5978F95FDE55D77F"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_weak_breeze"
+				id: "0B3E7A1D560089F1"
+				type: "kill"
+				value: 600L
+			}]
+			x: 19.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["738BDBE3C9FA9F4D"]
+			id: "47B9351A27BBB888"
+			rewards: [{
+				count: 4
+				id: "6E1B947372F3218E"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_weak_breeze"
+				id: "6471CCF734AAC7D1"
+				type: "kill"
+				value: 700L
+			}]
+			x: 20.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["47B9351A27BBB888"]
+			id: "5FD09171B4BB7372"
+			rewards: [{
+				count: 5
+				id: "50D15955AAC3CE24"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_weak_breeze"
+				id: "66F7DFC6BD42F87B"
+				type: "kill"
+				value: 800L
+			}]
+			x: 19.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7B4842D5FB53C75C"
+				"4A327420CA69F116"
+			]
+			id: "080364E4411BF850"
+			rewards: [{
+				id: "12E45CE0C85CE7C7"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_strong_breeze"
+				id: "18DB090F21233E62"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			id: "4A327420CA69F116"
+			rewards: [{
+				count: 2
+				id: "0197BA1F0B03AE2C"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_strong_breeze"
+				id: "1993D45AD16DF4CB"
+				type: "kill"
+				value: 100L
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4A327420CA69F116"]
+			id: "18002FDD0D2E6224"
+			rewards: [{
+				count: 4
+				id: "6B2208468C4F14EB"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_strong_breeze"
+				id: "2B3B27A6DC5AD06E"
+				type: "kill"
+				value: 200L
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["18002FDD0D2E6224"]
+			id: "7F384C6B4DAD1541"
+			rewards: [{
+				count: 6
+				id: "7839BF98CD70498E"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_strong_breeze"
+				id: "615EC578B220D587"
+				type: "kill"
+				value: 300L
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F384C6B4DAD1541"]
+			id: "074A44831534918A"
+			rewards: [{
+				id: "24E917356E7CB93A"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_strong_breeze"
+				id: "6CAF5ADF8F43FB3A"
+				type: "kill"
+				value: 400L
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["074A44831534918A"]
+			id: "6938CADD958C6C7D"
+			rewards: [{
+				count: 2
+				id: "68C69DDB98301B0E"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_strong_breeze"
+				id: "2CDD0B3F6D2C6389"
+				type: "kill"
+				value: 500L
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6938CADD958C6C7D"]
+			id: "2C8713AD3625726E"
+			rewards: [{
+				count: 3
+				id: "4128D01E758C3229"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_strong_breeze"
+				id: "302B268D49A0D34C"
+				type: "kill"
+				value: 600L
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2C8713AD3625726E"]
+			id: "0468A25C628F06DF"
+			rewards: [{
+				count: 4
+				id: "6A55E329DDD8F5AD"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_strong_breeze"
+				id: "427BCB2AB7CC93A1"
+				type: "kill"
+				value: 700L
+			}]
+			x: 13.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0468A25C628F06DF"]
+			id: "3F0E392B46351970"
+			rewards: [{
+				count: 5
+				id: "66B6AA067B01F56E"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_strong_breeze"
+				id: "36F97443F2044FDA"
+				type: "kill"
+				value: 800L
+			}]
+			x: 11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"438BCF66D48CD3FD"
+				"643061EA4786938D"
+			]
+			id: "30B3D8E93882F68F"
+			rewards: [{
+				id: "2FB34B3000BAE260"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_witch"
+				id: "46A164E2A5DB24CE"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -0.5d
+			y: 21.0d
+		}
+		{
+			id: "438BCF66D48CD3FD"
+			rewards: [{
+				count: 2
+				id: "49357978D19B9D07"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_witch"
+				id: "5D56E19F50B94B43"
+				type: "kill"
+				value: 100L
+			}]
+			x: -2.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["438BCF66D48CD3FD"]
+			id: "472EEDB18D3882E6"
+			rewards: [{
+				count: 4
+				id: "526969585E59945F"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_witch"
+				id: "5AFEBE165AB55B4B"
+				type: "kill"
+				value: 200L
+			}]
+			x: -1.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["472EEDB18D3882E6"]
+			id: "0B42B2C4BE076C50"
+			rewards: [{
+				count: 6
+				id: "2F05F19FDF1242EB"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_witch"
+				id: "052631443B783D34"
+				type: "kill"
+				value: 300L
+			}]
+			x: -1.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["0B42B2C4BE076C50"]
+			id: "0489C0724F7646FF"
+			rewards: [{
+				id: "4DE7DAE3A8C3BA89"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_witch"
+				id: "03E620611EB18580"
+				type: "kill"
+				value: 400L
+			}]
+			x: 0.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["0489C0724F7646FF"]
+			id: "2B775320B59987D1"
+			rewards: [{
+				count: 2
+				id: "362FC040495DFB2B"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_witch"
+				id: "57D305F1A4CB300B"
+				type: "kill"
+				value: 500L
+			}]
+			x: 1.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["2B775320B59987D1"]
+			id: "4047A1FF4D670412"
+			rewards: [{
+				count: 3
+				id: "7BA33C93A5F49D3C"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_witch"
+				id: "1A028E4D5FF6A433"
+				type: "kill"
+				value: 600L
+			}]
+			x: 1.0d
+			y: 22.0d
+		}
+		{
+			dependencies: ["4047A1FF4D670412"]
+			id: "59FF53556D5AE276"
+			rewards: [{
+				count: 4
+				id: "446404B4B9BD0E85"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_witch"
+				id: "082024D73DA58657"
+				type: "kill"
+				value: 700L
+			}]
+			x: 2.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["59FF53556D5AE276"]
+			id: "1586F5E449588189"
+			rewards: [{
+				count: 5
+				id: "00D469F4065DAA41"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_witch"
+				id: "430FC20C5EB2E9C5"
+				type: "kill"
+				value: 800L
+			}]
+			x: 0.5d
+			y: 21.0d
+		}
+		{
+			dependencies: [
+				"4E2739120AD02E60"
+				"5605DD0C3A91F5DD"
+			]
+			id: "33406A056CEE9403"
+			rewards: [{
+				id: "0874EAEFBEC9E1D1"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_warden"
+				id: "7A6CCF42E5DB4894"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -7.5d
+			y: 10.5d
+		}
+		{
+			id: "4E2739120AD02E60"
+			rewards: [{
+				count: 2
+				id: "25872DF174D1FA02"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_warden"
+				id: "4B6870661CF792AD"
+				type: "kill"
+				value: 100L
+			}]
+			x: -9.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4E2739120AD02E60"]
+			id: "796B80FBAEA76650"
+			rewards: [{
+				count: 4
+				id: "50D245C1BB32C3EA"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_warden"
+				id: "727EBAC4FD896EB2"
+				type: "kill"
+				value: 200L
+			}]
+			x: -8.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["796B80FBAEA76650"]
+			id: "0EDAB5A345070055"
+			rewards: [{
+				count: 6
+				id: "64CA35DE00EE5486"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_warden"
+				id: "737F2B02B6248B00"
+				type: "kill"
+				value: 300L
+			}]
+			x: -8.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0EDAB5A345070055"]
+			id: "173369B80833BBF8"
+			rewards: [{
+				id: "3D4A7D16A1203E6A"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_warden"
+				id: "31A7AA2A68A27B2C"
+				type: "kill"
+				value: 400L
+			}]
+			x: -7.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["173369B80833BBF8"]
+			id: "17F7BD034B8160F2"
+			rewards: [{
+				count: 2
+				id: "36B38672954014CF"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_warden"
+				id: "49BA84D7DE212013"
+				type: "kill"
+				value: 500L
+			}]
+			x: -6.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["17F7BD034B8160F2"]
+			id: "353D4F95E0843296"
+			rewards: [{
+				count: 3
+				id: "0E517972A7B8A141"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_warden"
+				id: "522B58FAA4E8C089"
+				type: "kill"
+				value: 600L
+			}]
+			x: -6.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["353D4F95E0843296"]
+			id: "491F20F156D016BD"
+			rewards: [{
+				count: 4
+				id: "086F21DF35F64BD5"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_warden"
+				id: "36FDA19DACBA59D7"
+				type: "kill"
+				value: 700L
+			}]
+			x: -5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["491F20F156D016BD"]
+			id: "10E8C4D68BABBF75"
+			rewards: [{
+				count: 5
+				id: "36872BFD57FDAE1F"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_warden"
+				id: "19D8A90364242923"
+				type: "kill"
+				value: 800L
+			}]
+			x: -6.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"02FC11E775DFAEF2"
+				"3D543F045F4F5835"
+			]
+			id: "709D76123102BC98"
+			rewards: [{
+				id: "2B867ACE2FD75BFF"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_phantom"
+				id: "109F7CCEC925D12C"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			id: "02FC11E775DFAEF2"
+			rewards: [{
+				count: 2
+				id: "131E3FD14317B2AE"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_phantom"
+				id: "51B52C4F5630BEBA"
+				type: "kill"
+				value: 100L
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["02FC11E775DFAEF2"]
+			id: "384B7C9510ACE892"
+			rewards: [{
+				count: 4
+				id: "60A9CDEF1F6F2BB0"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_phantom"
+				id: "5EE4A5346205852F"
+				type: "kill"
+				value: 200L
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["384B7C9510ACE892"]
+			id: "07D0F1D5E5384885"
+			rewards: [{
+				count: 6
+				id: "0118A642357F4709"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_phantom"
+				id: "386C59D304204371"
+				type: "kill"
+				value: 300L
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["07D0F1D5E5384885"]
+			id: "5967BEE17C7786BB"
+			rewards: [{
+				id: "3616227121312E2D"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_phantom"
+				id: "383839FB9BD9C5E7"
+				type: "kill"
+				value: 400L
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5967BEE17C7786BB"]
+			id: "5F79D7E4194DA32B"
+			rewards: [{
+				count: 2
+				id: "57A537D02F064DCB"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_phantom"
+				id: "69CB7ADDB140E714"
+				type: "kill"
+				value: 500L
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F79D7E4194DA32B"]
+			id: "1821C5212B04E489"
+			rewards: [{
+				count: 3
+				id: "5FB30C1A36B6DF4F"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_phantom"
+				id: "25BFC29FE3FB40D3"
+				type: "kill"
+				value: 600L
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1821C5212B04E489"]
+			id: "0A50D8F39A8CD3FC"
+			rewards: [{
+				count: 4
+				id: "06EA6FC422DFE06F"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_phantom"
+				id: "648C6A84A60E3174"
+				type: "kill"
+				value: 700L
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A50D8F39A8CD3FC"]
+			id: "07B0503A915B6675"
+			rewards: [{
+				count: 5
+				id: "092CEA984C3DA382"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_phantom"
+				id: "05D15EBFBE4F6916"
+				type: "kill"
+				value: 800L
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"545D00237956FC30"
+				"2305F0E3DB91BF0D"
+			]
+			id: "6A04E1EAA3CAB2DF"
+			rewards: [{
+				id: "5CA5224A6E3165A2"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_hoglin"
+				id: "244475C6AB587721"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 37.5d
+			y: 14.0d
+		}
+		{
+			id: "545D00237956FC30"
+			rewards: [{
+				count: 2
+				id: "6BBAF69AF9B8641A"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_hoglin"
+				id: "448189FB368B8D37"
+				type: "kill"
+				value: 100L
+			}]
+			x: 36.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["545D00237956FC30"]
+			id: "6663F02FB4D1B96D"
+			rewards: [{
+				count: 4
+				id: "66A18F016B7C8E19"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_hoglin"
+				id: "3B191B58F642B5CF"
+				type: "kill"
+				value: 200L
+			}]
+			x: 37.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["6663F02FB4D1B96D"]
+			id: "2C26B331793CFE02"
+			rewards: [{
+				count: 6
+				id: "097FC997DAED48DA"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_hoglin"
+				id: "1D0265089EEA711E"
+				type: "kill"
+				value: 300L
+			}]
+			x: 37.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["2C26B331793CFE02"]
+			id: "4B16578A84ADE5E2"
+			rewards: [{
+				id: "1CBDB456D9BC7BBC"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_hoglin"
+				id: "15E466C721F371AF"
+				type: "kill"
+				value: 400L
+			}]
+			x: 38.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["4B16578A84ADE5E2"]
+			id: "5862915EFDBED4BE"
+			rewards: [{
+				count: 2
+				id: "2375E9B67A719AF1"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_hoglin"
+				id: "3A0AACE404E26810"
+				type: "kill"
+				value: 500L
+			}]
+			x: 39.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["5862915EFDBED4BE"]
+			id: "08A4D4B7596FA4D5"
+			rewards: [{
+				count: 3
+				id: "76652E2F4F1390C2"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_hoglin"
+				id: "2AD53792C27E1FB3"
+				type: "kill"
+				value: 600L
+			}]
+			x: 39.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["08A4D4B7596FA4D5"]
+			id: "7E22D714223BF8DF"
+			rewards: [{
+				count: 4
+				id: "05B576E65DFEBF67"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_hoglin"
+				id: "476F79591498E615"
+				type: "kill"
+				value: 700L
+			}]
+			x: 40.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7E22D714223BF8DF"]
+			id: "18C66F18928258DE"
+			rewards: [{
+				count: 5
+				id: "1402B758555DCB4E"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_hoglin"
+				id: "3E2D0B15461E9FD5"
+				type: "kill"
+				value: 800L
+			}]
+			x: 38.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"2137EBBE450B5649"
+				"70A937D8F464681F"
+			]
+			id: "3791390C8F6C2FDA"
+			rewards: [{
+				id: "176EF22A32E6C5E8"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_breeze"
+				id: "3EFE991E663DFB3E"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 17.5d
+			y: -9.0d
+		}
+		{
+			id: "2137EBBE450B5649"
+			rewards: [{
+				count: 2
+				id: "11B422579FB08B1B"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_breeze"
+				id: "7BA8A9A2DA1A233C"
+				type: "kill"
+				value: 100L
+			}]
+			x: 16.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2137EBBE450B5649"]
+			id: "0B8B2174D65DDBC9"
+			rewards: [{
+				count: 4
+				id: "13CD3F534AF843A0"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_breeze"
+				id: "1AA4711F65728FF9"
+				type: "kill"
+				value: 200L
+			}]
+			x: 17.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0B8B2174D65DDBC9"]
+			id: "227B3C8674889D53"
+			rewards: [{
+				count: 6
+				id: "68EA7345E7AB0BA3"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_breeze"
+				id: "16C3813B80FCA969"
+				type: "kill"
+				value: 300L
+			}]
+			x: 17.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["227B3C8674889D53"]
+			id: "5B0A79E854AF76AA"
+			rewards: [{
+				id: "4483DB29A3817DF2"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_breeze"
+				id: "08EADB66E0CD69BB"
+				type: "kill"
+				value: 400L
+			}]
+			x: 18.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5B0A79E854AF76AA"]
+			id: "18A2F0CE8802B29A"
+			rewards: [{
+				count: 2
+				id: "66D3A9DD620147AA"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_breeze"
+				id: "05BC27DD9D25F4F0"
+				type: "kill"
+				value: 500L
+			}]
+			x: 19.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["18A2F0CE8802B29A"]
+			id: "71A181D98E492B42"
+			rewards: [{
+				count: 3
+				id: "2A2E0BFC750D8550"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_breeze"
+				id: "5DE6BE4623E5EB7E"
+				type: "kill"
+				value: 600L
+			}]
+			x: 19.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["71A181D98E492B42"]
+			id: "5A7F2286FCEAD7A8"
+			rewards: [{
+				count: 4
+				id: "0092DA5FBB641AC1"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_breeze"
+				id: "6F17C103290B137F"
+				type: "kill"
+				value: 700L
+			}]
+			x: 20.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5A7F2286FCEAD7A8"]
+			id: "22528AB305A94853"
+			rewards: [{
+				count: 5
+				id: "5405BD6845834A2A"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_breeze"
+				id: "48881667273B5B6C"
+				type: "kill"
+				value: 800L
+			}]
+			x: 18.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"78E26F36B4668AFB"
+				"739E3666BB4CB9BA"
+			]
+			id: "2980B8877D1BED4F"
+			rewards: [{
+				id: "2D779B8410FDC3C8"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_zombie_piglin"
+				id: "31BA095344502B7D"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 43.5d
+			y: 12.5d
+		}
+		{
+			id: "78E26F36B4668AFB"
+			rewards: [{
+				count: 2
+				id: "6DEAD0B6235801B8"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_zombie_piglin"
+				id: "01080A825506527F"
+				type: "kill"
+				value: 100L
+			}]
+			x: 42.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["78E26F36B4668AFB"]
+			id: "1488AF35940167EB"
+			rewards: [{
+				count: 4
+				id: "2C4CBC98DC5D52E4"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_zombie_piglin"
+				id: "061D4DC9025413C2"
+				type: "kill"
+				value: 200L
+			}]
+			x: 43.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1488AF35940167EB"]
+			id: "0E2465F1E5C52152"
+			rewards: [{
+				count: 6
+				id: "0B7650D5BC610029"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_zombie_piglin"
+				id: "020477A0053DA057"
+				type: "kill"
+				value: 300L
+			}]
+			x: 43.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["0E2465F1E5C52152"]
+			id: "29E6C58335991C1F"
+			rewards: [{
+				id: "6D7DBB832FF9D463"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_zombie_piglin"
+				id: "41351EDFF9DB6F7B"
+				type: "kill"
+				value: 400L
+			}]
+			x: 44.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["29E6C58335991C1F"]
+			id: "568AE307B2971105"
+			rewards: [{
+				count: 2
+				id: "2CB5D105D2FBFCF9"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_zombie_piglin"
+				id: "3CAED9332276D5B3"
+				type: "kill"
+				value: 500L
+			}]
+			x: 45.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["568AE307B2971105"]
+			id: "74BEF511CBB17CB4"
+			rewards: [{
+				count: 3
+				id: "71C466A5E6B734DD"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_zombie_piglin"
+				id: "77CF3557086B1EC7"
+				type: "kill"
+				value: 600L
+			}]
+			x: 45.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["74BEF511CBB17CB4"]
+			id: "5B73359B56EDEF84"
+			rewards: [{
+				count: 4
+				id: "4E93D68F81AF326E"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_zombie_piglin"
+				id: "76DFC99C72E36DEB"
+				type: "kill"
+				value: 700L
+			}]
+			x: 46.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5B73359B56EDEF84"]
+			id: "7CF1425839948E3C"
+			rewards: [{
+				count: 5
+				id: "305D730FEE15B364"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_zombie_piglin"
+				id: "06AEB6B0EB6F693C"
+				type: "kill"
+				value: 800L
+			}]
+			x: 44.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"659DBA524173D0C1"
+				"0D34BCFF5A522EA2"
+			]
+			id: "08FC9A0384C4F583"
+			rewards: [{
+				id: "74ED468802C6CD60"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_evoker"
+				id: "76FB06A1CBF8D36F"
+				type: "kill"
+				value: 1000L
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			id: "659DBA524173D0C1"
+			rewards: [{
+				count: 2
+				id: "0D70B1D43CAB5E03"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_evoker"
+				id: "0BE4764A09D2079E"
+				type: "kill"
+				value: 100L
+			}]
+			x: -8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["659DBA524173D0C1"]
+			id: "6BD31D0A3E3E1F31"
+			rewards: [{
+				count: 4
+				id: "3B5787A8D57A8A36"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_evoker"
+				id: "772695F6D02ED04D"
+				type: "kill"
+				value: 200L
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6BD31D0A3E3E1F31"]
+			id: "34DD0AB536C35B69"
+			rewards: [{
+				count: 6
+				id: "74DF578B1A2390AC"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_evoker"
+				id: "40A845107AF35DCA"
+				type: "kill"
+				value: 300L
+			}]
+			x: -7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["34DD0AB536C35B69"]
+			id: "0722EF135F53D07D"
+			rewards: [{
+				id: "473E9A14ABB4AD4A"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_evoker"
+				id: "5EC992487D832656"
+				type: "kill"
+				value: 400L
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0722EF135F53D07D"]
+			id: "7887DE13D7E07AA6"
+			rewards: [{
+				count: 2
+				id: "06B59D97F0C272D6"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_evoker"
+				id: "0EACF12E95F703A9"
+				type: "kill"
+				value: 500L
+			}]
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7887DE13D7E07AA6"]
+			id: "0DD85E4D42FCE353"
+			rewards: [{
+				count: 3
+				id: "198255F5256BFBDF"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_evoker"
+				id: "579101791D7ED91F"
+				type: "kill"
+				value: 600L
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0DD85E4D42FCE353"]
+			id: "4C9808AC132AEB7C"
+			rewards: [{
+				count: 4
+				id: "1AE7A992F9C68ED2"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_evoker"
+				id: "2EFC0DF9A31314E1"
+				type: "kill"
+				value: 700L
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4C9808AC132AEB7C"]
+			id: "1ED0334F6170ED39"
+			rewards: [{
+				count: 5
+				id: "1BF48D1F8EF862DD"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_evoker"
+				id: "7B3F7FF68E84BBFE"
+				type: "kill"
+				value: 800L
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"4EF365955A6852C7"
+				"5043CA517132EDB7"
+			]
+			id: "6FA3FB12BB956DEF"
+			rewards: [{
+				id: "2CD2A73B8B57A8CE"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_weak_shulker"
+				id: "5438364AC30392F1"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 32.5d
+			y: 21.5d
+		}
+		{
+			id: "4EF365955A6852C7"
+			rewards: [{
+				count: 2
+				id: "7E76A66585AEFC3D"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_weak_shulker"
+				id: "0790B2995BE98BB2"
+				type: "kill"
+				value: 100L
+			}]
+			x: 31.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["4EF365955A6852C7"]
+			id: "39B6EA31A7C65655"
+			rewards: [{
+				count: 4
+				id: "6C4A6D0EED333648"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_weak_shulker"
+				id: "05998E9B7D63ABEB"
+				type: "kill"
+				value: 200L
+			}]
+			x: 32.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["39B6EA31A7C65655"]
+			id: "212F6C00C04869D3"
+			rewards: [{
+				count: 6
+				id: "3571426801314AC2"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_weak_shulker"
+				id: "3ABB51CDFD2DE4BD"
+				type: "kill"
+				value: 300L
+			}]
+			x: 32.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["212F6C00C04869D3"]
+			id: "02327410CF3B45B2"
+			rewards: [{
+				id: "15576FCA83E86020"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_weak_shulker"
+				id: "0E4DD7D2D10E37CE"
+				type: "kill"
+				value: 400L
+			}]
+			x: 33.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["02327410CF3B45B2"]
+			id: "2043F2AE7E6A0A56"
+			rewards: [{
+				count: 2
+				id: "2A08655173063835"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_weak_shulker"
+				id: "225884EF28F4AE78"
+				type: "kill"
+				value: 500L
+			}]
+			x: 34.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["2043F2AE7E6A0A56"]
+			id: "377E5D644E239D1E"
+			rewards: [{
+				count: 3
+				id: "1F93D1E603978CCD"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_weak_shulker"
+				id: "3E7B4067D88DCC31"
+				type: "kill"
+				value: 600L
+			}]
+			x: 34.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["377E5D644E239D1E"]
+			id: "1CB868B4A8A95A16"
+			rewards: [{
+				count: 4
+				id: "28C72A805008C8D3"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_weak_shulker"
+				id: "0D358880CCD456A1"
+				type: "kill"
+				value: 700L
+			}]
+			x: 35.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["1CB868B4A8A95A16"]
+			id: "73BFF107295FC236"
+			rewards: [{
+				count: 5
+				id: "0A7AE00B227E3146"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_weak_shulker"
+				id: "2150672FB0E2ECEA"
+				type: "kill"
+				value: 800L
+			}]
+			x: 33.5d
+			y: 21.5d
+		}
+		{
+			dependencies: [
+				"647BBE29A3CF06B3"
+				"1A6C718CCC7D97D3"
+			]
+			id: "21A9AE35B3319559"
+			rewards: [{
+				id: "3B8D72FD07DD09DA"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_skeleton"
+				id: "7FF4EFB7DE4F0E83"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 31.5d
+			y: 15.5d
+		}
+		{
+			id: "647BBE29A3CF06B3"
+			rewards: [{
+				count: 2
+				id: "57A5608F4005AD3E"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_skeleton"
+				id: "01D0BFD95CEFF6BF"
+				type: "kill"
+				value: 100L
+			}]
+			x: 30.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["647BBE29A3CF06B3"]
+			id: "49950F437BECF0F1"
+			rewards: [{
+				count: 4
+				id: "282374BD129C7232"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_skeleton"
+				id: "4C8C6A28CB1A1553"
+				type: "kill"
+				value: 200L
+			}]
+			x: 31.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["49950F437BECF0F1"]
+			id: "12DB6079B2916ADB"
+			rewards: [{
+				count: 6
+				id: "1C1A7A21208A28F3"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_skeleton"
+				id: "1B2A108C5A8424DE"
+				type: "kill"
+				value: 300L
+			}]
+			x: 31.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["12DB6079B2916ADB"]
+			id: "52EF2F310A900C71"
+			rewards: [{
+				id: "05555F443C23F4BF"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_skeleton"
+				id: "60754F6456A29F2A"
+				type: "kill"
+				value: 400L
+			}]
+			x: 32.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["52EF2F310A900C71"]
+			id: "032E4780CD09CBA5"
+			rewards: [{
+				count: 2
+				id: "7FC691BA509EA5BD"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_skeleton"
+				id: "117BE7B0F22739F4"
+				type: "kill"
+				value: 500L
+			}]
+			x: 33.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["032E4780CD09CBA5"]
+			id: "173AFBB90EEB0BFC"
+			rewards: [{
+				count: 3
+				id: "4A9D304226361341"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_skeleton"
+				id: "33C2F1CD7C19BCAD"
+				type: "kill"
+				value: 600L
+			}]
+			x: 33.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["173AFBB90EEB0BFC"]
+			id: "5B05D62675244C30"
+			rewards: [{
+				count: 4
+				id: "3A965C1BFC5814F8"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_skeleton"
+				id: "12F23A8DF71B9C7B"
+				type: "kill"
+				value: 700L
+			}]
+			x: 34.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["5B05D62675244C30"]
+			id: "5684EA89EEE9E932"
+			rewards: [{
+				count: 5
+				id: "75B29112803DD22E"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:possessed_skeleton"
+				id: "578252B1AAA75514"
+				type: "kill"
+				value: 800L
+			}]
+			x: 32.5d
+			y: 15.5d
+		}
+		{
+			id: "22DAC5861EA7A7A7"
+			rewards: [{
+				count: 2
+				id: "0A2505796EFE0224"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_hunt_wither_skeleton"
+				id: "75AF97ED2B366A50"
+				type: "kill"
+				value: 100L
+			}]
+			x: 24.0d
+			y: 0.5d
+		}
+		{
+			id: "2DE1C03EB75CAC86"
+			rewards: [{
+				count: 2
+				id: "277D6ABF43EC89BB"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_hunt_skeleton"
+				id: "0BE66CEE38F20830"
+				type: "kill"
+				value: 100L
+			}]
+			x: 23.5d
+			y: -7.5d
+		}
+		{
+			id: "62468C6AE4EA3D28"
+			rewards: [{
+				count: 2
+				id: "216B6C28FC527BDA"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_silverfish"
+				id: "034E8AAD5F4AE022"
+				type: "kill"
+				value: 100L
+			}]
+			x: 32.5d
+			y: 0.0d
+		}
+		{
+			id: "62C5DCA1E73530A4"
+			rewards: [{
+				count: 2
+				id: "67C29843DD1E7DB1"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_husk"
+				id: "3076E31A2D5048F1"
+				type: "kill"
+				value: 100L
+			}]
+			x: 44.5d
+			y: -2.0d
+		}
+		{
+			id: "664BF093D469E7B8"
+			rewards: [{
+				count: 2
+				id: "0C516AA2B839C609"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_drowned"
+				id: "486B06DE56621745"
+				type: "kill"
+				value: 100L
+			}]
+			x: 41.5d
+			y: 6.5d
+		}
+		{
+			id: "1F3F451C7FB1506A"
+			rewards: [{
+				count: 2
+				id: "0503FA3EFFE7F8B0"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_creeper"
+				id: "730D0753F5721B28"
+				type: "kill"
+				value: 100L
+			}]
+			x: 38.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"2DE1C03EB75CAC86"
+				"331C416562BD4FDE"
+			]
+			id: "04BC1AE79330044C"
+			rewards: [{
+				id: "419E6E79A0F1B70A"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_hunt_skeleton"
+				id: "41C93DE87FB97312"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 25.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2DE1C03EB75CAC86"]
+			id: "04056C0AB45161EC"
+			rewards: [{
+				count: 4
+				id: "73A4562922B91D97"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_hunt_skeleton"
+				id: "36D281AEE6BB841F"
+				type: "kill"
+				value: 200L
+			}]
+			x: 24.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["04056C0AB45161EC"]
+			id: "4596E98CD0A47E0B"
+			rewards: [{
+				count: 6
+				id: "5AA71DC22202E16B"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_hunt_skeleton"
+				id: "6BB58FEDD11BE139"
+				type: "kill"
+				value: 300L
+			}]
+			x: 24.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4596E98CD0A47E0B"]
+			id: "333D041547A238D9"
+			rewards: [{
+				id: "62048F9A83605703"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_hunt_skeleton"
+				id: "276415B97894A4EC"
+				type: "kill"
+				value: 400L
+			}]
+			x: 25.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["333D041547A238D9"]
+			id: "0E40B0FF696F1E01"
+			rewards: [{
+				count: 2
+				id: "08875E164196C92E"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_hunt_skeleton"
+				id: "07451BBE12647957"
+				type: "kill"
+				value: 500L
+			}]
+			x: 26.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0E40B0FF696F1E01"]
+			id: "3E623ED5446BFF87"
+			rewards: [{
+				count: 3
+				id: "08085157D2FE7A32"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_hunt_skeleton"
+				id: "3DCCEA0135531812"
+				type: "kill"
+				value: 600L
+			}]
+			x: 26.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3E623ED5446BFF87"]
+			id: "1B8ED675D78E8B84"
+			rewards: [{
+				count: 4
+				id: "77117B2B34B83ADD"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_hunt_skeleton"
+				id: "256D436BB5423054"
+				type: "kill"
+				value: 700L
+			}]
+			x: 27.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1B8ED675D78E8B84"]
+			id: "37510A03861B969F"
+			rewards: [{
+				count: 5
+				id: "12415C701410D9DE"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_hunt_skeleton"
+				id: "3BAE387A3F99A1AB"
+				type: "kill"
+				value: 800L
+			}]
+			x: 26.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["37510A03861B969F"]
+			id: "331C416562BD4FDE"
+			rewards: [{
+				count: 6
+				id: "3BC65116C550AF17"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_hunt_skeleton"
+				id: "0910AFFE2EA0A722"
+				type: "kill"
+				value: 900L
+			}]
+			x: 25.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"22DAC5861EA7A7A7"
+				"36BBB9EBD2F927DA"
+			]
+			id: "79745ED03E114C88"
+			rewards: [{
+				id: "3ABEFBD9A0A74ABA"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_hunt_wither_skeleton"
+				id: "2518B5513C3F4D99"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 25.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["22DAC5861EA7A7A7"]
+			id: "47BAB0BB71A26B96"
+			rewards: [{
+				count: 4
+				id: "2885BD7BF0D16AF5"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_hunt_wither_skeleton"
+				id: "6FA929AB5B65D809"
+				type: "kill"
+				value: 200L
+			}]
+			x: 25.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["47BAB0BB71A26B96"]
+			id: "31B8365D4BEAFE79"
+			rewards: [{
+				count: 6
+				id: "7CAF39CD00FA6D98"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_hunt_wither_skeleton"
+				id: "5A2D0C1FB5301300"
+				type: "kill"
+				value: 300L
+			}]
+			x: 25.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["31B8365D4BEAFE79"]
+			id: "75168142A2593FE2"
+			rewards: [{
+				id: "17505595DA3D8DB3"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_hunt_wither_skeleton"
+				id: "3BD6380F9EE27826"
+				type: "kill"
+				value: 400L
+			}]
+			x: 26.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["75168142A2593FE2"]
+			id: "00E8490AEE5DAE81"
+			rewards: [{
+				count: 2
+				id: "3A701F29CA881087"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_hunt_wither_skeleton"
+				id: "69A0AB52D64DACE6"
+				type: "kill"
+				value: 500L
+			}]
+			x: 27.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["00E8490AEE5DAE81"]
+			id: "25566B21EBFABC21"
+			rewards: [{
+				count: 3
+				id: "58A4407C5FC3FD2C"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_hunt_wither_skeleton"
+				id: "4F2F271DE1216ACE"
+				type: "kill"
+				value: 600L
+			}]
+			x: 27.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["25566B21EBFABC21"]
+			id: "40A6A1DD63F3EC94"
+			rewards: [{
+				count: 4
+				id: "65F24BFD3792B9BB"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_hunt_wither_skeleton"
+				id: "3E7489AF0B6A9346"
+				type: "kill"
+				value: 700L
+			}]
+			x: 28.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["40A6A1DD63F3EC94"]
+			id: "3771115A19F8775F"
+			rewards: [{
+				count: 5
+				id: "69B21310C5225162"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_hunt_wither_skeleton"
+				id: "46DE1D9CA1B8BF5A"
+				type: "kill"
+				value: 800L
+			}]
+			x: 26.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3771115A19F8775F"]
+			id: "36BBB9EBD2F927DA"
+			rewards: [{
+				count: 6
+				id: "48E3257BED431BFE"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_hunt_wither_skeleton"
+				id: "62F638D946250B2D"
+				type: "kill"
+				value: 900L
+			}]
+			x: 26.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"62468C6AE4EA3D28"
+				"2119A3EB062CC2B5"
+			]
+			id: "51D50149773179D6"
+			rewards: [{
+				id: "65F0DCEDF264A3CD"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_silverfish"
+				id: "646C6000030063BD"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 34.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62468C6AE4EA3D28"]
+			id: "3DD0EF0BC4C36894"
+			rewards: [{
+				count: 4
+				id: "47B6896C34BC44C3"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_silverfish"
+				id: "61770066C01F1FBC"
+				type: "kill"
+				value: 200L
+			}]
+			x: 33.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3DD0EF0BC4C36894"]
+			id: "4F4122296446B668"
+			rewards: [{
+				count: 6
+				id: "6E5CF063FA429B54"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_silverfish"
+				id: "74F2868EAE10F6F1"
+				type: "kill"
+				value: 300L
+			}]
+			x: 33.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4F4122296446B668"]
+			id: "41DAF1BC57DCFEA9"
+			rewards: [{
+				id: "67CD17F3596EC5F5"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_silverfish"
+				id: "43AC99A418A352B4"
+				type: "kill"
+				value: 400L
+			}]
+			x: 34.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["41DAF1BC57DCFEA9"]
+			id: "516B94903F753428"
+			rewards: [{
+				count: 2
+				id: "3C24A15C2215867F"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_silverfish"
+				id: "123CA6EF90081081"
+				type: "kill"
+				value: 500L
+			}]
+			x: 35.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["516B94903F753428"]
+			id: "728B69C83E8F59E4"
+			rewards: [{
+				count: 3
+				id: "53EF512B9D9C0223"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_silverfish"
+				id: "0C663BF92224A02C"
+				type: "kill"
+				value: 600L
+			}]
+			x: 35.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["728B69C83E8F59E4"]
+			id: "652AFE10B904182F"
+			rewards: [{
+				count: 4
+				id: "382A4871737E0CEA"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_silverfish"
+				id: "1AB91AF1EED06F9D"
+				type: "kill"
+				value: 700L
+			}]
+			x: 36.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["652AFE10B904182F"]
+			id: "074320CFBE80F8F1"
+			rewards: [{
+				count: 5
+				id: "3463573F00F5FE12"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_silverfish"
+				id: "355CEE835D68BA4D"
+				type: "kill"
+				value: 800L
+			}]
+			x: 35.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["074320CFBE80F8F1"]
+			id: "2119A3EB062CC2B5"
+			rewards: [{
+				count: 6
+				id: "33A2F6B3C3D5EBC4"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_silverfish"
+				id: "3D4BF258EEF8838D"
+				type: "kill"
+				value: 900L
+			}]
+			x: 34.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"62C5DCA1E73530A4"
+				"28959AFCDA57367D"
+			]
+			id: "41E9C1712723078F"
+			rewards: [{
+				id: "4D70B3095F47C409"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_husk"
+				id: "78EB52E1EA86B56F"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 46.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["62C5DCA1E73530A4"]
+			id: "3D370CABED3C512B"
+			rewards: [{
+				count: 4
+				id: "09ADBBC7C07F6D3B"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_husk"
+				id: "056387843B5C4462"
+				type: "kill"
+				value: 200L
+			}]
+			x: 45.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D370CABED3C512B"]
+			id: "7291CB60876B1D19"
+			rewards: [{
+				count: 6
+				id: "17A757585630593E"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_husk"
+				id: "69B30E42836A655D"
+				type: "kill"
+				value: 300L
+			}]
+			x: 45.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7291CB60876B1D19"]
+			id: "65666B47E79225CF"
+			rewards: [{
+				id: "582B6B4674D6065B"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_husk"
+				id: "5987819A5DDDA5C5"
+				type: "kill"
+				value: 400L
+			}]
+			x: 46.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["65666B47E79225CF"]
+			id: "62B33C84107B4E11"
+			rewards: [{
+				count: 2
+				id: "6109037030F6BE82"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_husk"
+				id: "7CCA973ADCAACA2B"
+				type: "kill"
+				value: 500L
+			}]
+			x: 47.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["62B33C84107B4E11"]
+			id: "7FB363E2C59B3D36"
+			rewards: [{
+				count: 3
+				id: "21161DD0AC98B5CC"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_husk"
+				id: "62EAD7662FBD9D1C"
+				type: "kill"
+				value: 600L
+			}]
+			x: 47.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7FB363E2C59B3D36"]
+			id: "16497303E8A21CB6"
+			rewards: [{
+				count: 4
+				id: "2A4E70D88BCCE762"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_husk"
+				id: "4865BF8988522DFC"
+				type: "kill"
+				value: 700L
+			}]
+			x: 48.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["16497303E8A21CB6"]
+			id: "176E7118389E728D"
+			rewards: [{
+				count: 5
+				id: "3444F84E1B34C387"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_husk"
+				id: "040903FEC29CED1F"
+				type: "kill"
+				value: 800L
+			}]
+			x: 47.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["176E7118389E728D"]
+			id: "28959AFCDA57367D"
+			rewards: [{
+				count: 6
+				id: "78AF40A4907C2C95"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_husk"
+				id: "7AD5135A92EA3C43"
+				type: "kill"
+				value: 900L
+			}]
+			x: 46.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"1F3F451C7FB1506A"
+				"192676661ACE7DC2"
+			]
+			id: "3C90F7C32842C7C0"
+			rewards: [{
+				id: "31B9558BA295A788"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_creeper"
+				id: "0A9F80C82FFADCE1"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 39.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1F3F451C7FB1506A"]
+			id: "2F48FB8F75225D19"
+			rewards: [{
+				count: 4
+				id: "2F3EC37AACAD22A5"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_creeper"
+				id: "5C1C0B9C4B723623"
+				type: "kill"
+				value: 200L
+			}]
+			x: 39.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2F48FB8F75225D19"]
+			id: "050C09931E03C0D3"
+			rewards: [{
+				count: 6
+				id: "1D416A1161834ADE"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_creeper"
+				id: "2C1F31D3E61ABAF3"
+				type: "kill"
+				value: 300L
+			}]
+			x: 39.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["050C09931E03C0D3"]
+			id: "5A78E5C633D57776"
+			rewards: [{
+				id: "4DE087E2ECCE74B8"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_creeper"
+				id: "3C8719DD5C75ACDD"
+				type: "kill"
+				value: 400L
+			}]
+			x: 40.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5A78E5C633D57776"]
+			id: "656C44DBE3B8D5E2"
+			rewards: [{
+				count: 2
+				id: "15CFC3D105521BDD"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_creeper"
+				id: "1C86317891F80C79"
+				type: "kill"
+				value: 500L
+			}]
+			x: 41.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["656C44DBE3B8D5E2"]
+			id: "58DBF410C40E840F"
+			rewards: [{
+				count: 3
+				id: "154D474BB3D4AAB8"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_creeper"
+				id: "2FC7C2FC5003D0F6"
+				type: "kill"
+				value: 600L
+			}]
+			x: 41.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["58DBF410C40E840F"]
+			id: "09E3B3B6B283FDCA"
+			rewards: [{
+				count: 4
+				id: "2A38448AA2863B3F"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_creeper"
+				id: "335FFC37AB504A1C"
+				type: "kill"
+				value: 700L
+			}]
+			x: 42.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["09E3B3B6B283FDCA"]
+			id: "0FFC52C676C37778"
+			rewards: [{
+				count: 5
+				id: "60450C9E56D51039"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_creeper"
+				id: "4F952A676553AFA2"
+				type: "kill"
+				value: 800L
+			}]
+			x: 40.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0FFC52C676C37778"]
+			id: "192676661ACE7DC2"
+			rewards: [{
+				count: 6
+				id: "62DEE93779419DC9"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_creeper"
+				id: "3F3F8A0E9595362F"
+				type: "kill"
+				value: 900L
+			}]
+			x: 40.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"664BF093D469E7B8"
+				"2679A54BD3AF9B01"
+			]
+			id: "6FC56763B604952B"
+			rewards: [{
+				id: "172407B243308D92"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_drowned"
+				id: "562BE6627706D988"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 43.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["664BF093D469E7B8"]
+			id: "01ACED191B0B26A7"
+			rewards: [{
+				count: 4
+				id: "2EA9FC103DCAB059"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_drowned"
+				id: "1ABEEE55FD3EEC61"
+				type: "kill"
+				value: 200L
+			}]
+			x: 42.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["01ACED191B0B26A7"]
+			id: "18232F2F660F1A60"
+			rewards: [{
+				count: 6
+				id: "3EB89F0DEE7C5CFF"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_drowned"
+				id: "463ED9A862E73E6B"
+				type: "kill"
+				value: 300L
+			}]
+			x: 42.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["18232F2F660F1A60"]
+			id: "53763D21AF2C9AB2"
+			rewards: [{
+				id: "77A5E3C08A5A6D97"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_drowned"
+				id: "67417EE0FCC58D0E"
+				type: "kill"
+				value: 400L
+			}]
+			x: 43.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["53763D21AF2C9AB2"]
+			id: "28D84B7F1A0AB3E6"
+			rewards: [{
+				count: 2
+				id: "192ACB9AC6ADE648"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_drowned"
+				id: "3BB69247FA4DAF63"
+				type: "kill"
+				value: 500L
+			}]
+			x: 44.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["28D84B7F1A0AB3E6"]
+			id: "3EAC55A0BDAD00DC"
+			rewards: [{
+				count: 3
+				id: "12594479CEA63744"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_drowned"
+				id: "360579B3226CC7D5"
+				type: "kill"
+				value: 600L
+			}]
+			x: 44.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3EAC55A0BDAD00DC"]
+			id: "639276717C0AF54B"
+			rewards: [{
+				count: 4
+				id: "6822041FE0D90EC4"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_drowned"
+				id: "1E1F4E9B96473E17"
+				type: "kill"
+				value: 700L
+			}]
+			x: 45.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["639276717C0AF54B"]
+			id: "21ABF78DC00582C7"
+			rewards: [{
+				count: 5
+				id: "14AA0EDB378F4846"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_drowned"
+				id: "162C37F8D254E31F"
+				type: "kill"
+				value: 800L
+			}]
+			x: 44.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["21ABF78DC00582C7"]
+			id: "2679A54BD3AF9B01"
+			rewards: [{
+				count: 6
+				id: "26224D68DFC870E2"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "occultism:wild_horde_drowned"
+				id: "7E89107F8D7776CD"
+				type: "kill"
+				value: 900L
+			}]
+			x: 43.5d
+			y: 5.0d
 		}
 	]
 }

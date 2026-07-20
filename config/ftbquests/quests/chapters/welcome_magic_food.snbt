@@ -1,0 +1,554 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_magic_food"
+	group: "1E94CD234F1A21BB"
+	icon: {
+		id: "arsdelight:enchanters_knife"
+	}
+	id: "26B066A1AD95345B"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["693A2603E22E4E2D"]
+			id: "2A4086A6060048F4"
+			rewards: [
+				{
+					count: 3
+					id: "2F9EFDF171447C1B"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "3941154F29BB1895"
+					type: "xp"
+					xp: 75
+				}
+			]
+			tasks: [{
+				id: "2FCB5CA7110467C4"
+				item: { count: 1, id: "arsdelight:enchanters_knife" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2A4086A6060048F4"]
+			id: "70B1C9A1005E4241"
+			rewards: [
+				{
+					count: 3
+					id: "153FCEEDA45C0A8B"
+					item: {
+						count: 1
+						id: "arsdelight:grilled_wilden_meat"
+					}
+					type: "item"
+				}
+				{
+					id: "3BB22C04A1E4D319"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					entity: "ars_nouveau:wilden_hunter"
+					id: "41E5E3AB819318CE"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "ars_nouveau:wilden_guardian"
+					id: "1847C5E93B440EA6"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "ars_nouveau:wilden_stalker"
+					id: "1B2C6352747E8704"
+					type: "kill"
+					value: 5L
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["693A2603E22E4E2D"]
+			id: "0B90071E23956381"
+			rewards: [
+				{
+					count: 3
+					id: "773594BA32DF9C4F"
+					item: {
+						count: 1
+						id: "ars_nouveau:mendosteen_pod"
+					}
+					type: "item"
+				}
+				{
+					id: "44C0369E9A2EA028"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "4A38B886F0FB509D"
+					item: { count: 1, id: "arsdelight:cascading_bark" }
+					type: "item"
+				}
+				{
+					id: "50F82A0247CF74BD"
+					item: { count: 1, id: "arsdelight:vexing_bark" }
+					type: "item"
+				}
+				{
+					id: "101868F9CA618740"
+					item: { count: 1, id: "arsdelight:flourishing_bark" }
+					type: "item"
+				}
+				{
+					id: "37373A2F8CDFC842"
+					item: { count: 1, id: "arsdelight:blazing_bark" }
+					type: "item"
+				}
+				{
+					id: "72613935B42DB3FD"
+					item: { count: 1, id: "ars_nouveau:bastion_pod" }
+					type: "item"
+				}
+				{
+					id: "4B2790867DCD463B"
+					item: { count: 1, id: "ars_nouveau:frostaya_pod" }
+					type: "item"
+				}
+				{
+					id: "1533F8B5573F2F71"
+					item: { count: 1, id: "ars_nouveau:mendosteen_pod" }
+					type: "item"
+				}
+				{
+					id: "74388C6AD986C264"
+					item: { count: 1, id: "ars_nouveau:bombegranate_pod" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			id: "693A2603E22E4E2D"
+			rewards: [
+				{
+					count: 3
+					id: "758F8D6CF7332CD4"
+					item: {
+						count: 1
+						id: "ars_nouveau:bastion_pod"
+					}
+					type: "item"
+				}
+				{
+					id: "6F51B8F19E3E8354"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "7DC71955C14151D6"
+					item: { count: 1, id: "ars_nouveau:sourceberry_bush" }
+					type: "item"
+				}
+				{
+					id: "048761E7FC75E2D8"
+					item: { count: 1, id: "ars_nouveau:magebloom" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0B90071E23956381"]
+			id: "1796353AEAC9932F"
+			rewards: [
+				{
+					count: 2
+					id: "44D2B8FED0AAD72F"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "60F65102A483BD07"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "1EB0800A1DA3F4D4"
+					item: { count: 1, id: "arsdelight:source_berry_jam" }
+					type: "item"
+				}
+				{
+					id: "66CB2094662E7D2D"
+					item: { count: 1, id: "arsdelight:neutralized_frostaya_jam" }
+					type: "item"
+				}
+				{
+					id: "38318A255A64B8E3"
+					item: { count: 1, id: "arsdelight:neutralized_bombegrante_jam" }
+					type: "item"
+				}
+				{
+					id: "14E2986BF8F5A377"
+					item: { count: 1, id: "arsdelight:activated_bastion_jam" }
+					type: "item"
+				}
+				{
+					id: "48F83DCBFDD14F81"
+					item: { count: 1, id: "arsdelight:activated_mendosteen_jam" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1796353AEAC9932F"]
+			id: "59936ED34648398C"
+			rewards: [
+				{
+					count: 3
+					id: "6845E130299896B9"
+					item: {
+						count: 1
+						id: "arsdelight:source_berry_cupcake"
+					}
+					type: "item"
+				}
+				{
+					id: "7F47C8B561514DE0"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "1E9242223E4B50F8"
+					item: { components: { "ftbfiltersystem:filter": "or(item(arsdelight:source_berry_tea)item(arsdelight:frostaya_tea)item(arsdelight:bombegrante_tea)item(arsdelight:bastion_tea)item(arsdelight:mendosteen_tea))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "387211C5D6DB933E"
+					item: { components: { "ftbfiltersystem:filter": "or(item(arsdelight:mendosteen_pie)item(arsdelight:bastion_pie)item(arsdelight:bombegrante_pie)item(arsdelight:frostaya_pie)item(ars_nouveau:source_berry_pie))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "0CDE0F856E2A1CE5"
+					item: { components: { "ftbfiltersystem:filter": "or(item(arsdelight:mendosteen_jelly)item(arsdelight:bastion_jelly)item(arsdelight:bombegrante_jelly)item(arsdelight:frostaya_jelly)item(arsdelight:source_berry_jelly))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["70B1C9A1005E4241"]
+			id: "64FB07CCEFEE6329"
+			rewards: [
+				{
+					count: 3
+					id: "22BD29DB2DDF2111"
+					item: {
+						count: 1
+						id: "arsdelight:grilled_chimera_meat"
+					}
+					type: "item"
+				}
+				{
+					id: "3B7865C9C77D2164"
+					type: "xp"
+					xp: 75
+				}
+			]
+			tasks: [
+				{
+					entity: "ars_nouveau:wilden_boss"
+					id: "124ADDB6B04F5393"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "2E7E1B0B5DE188B6"
+					item: { count: 1, id: "arsdelight:chimera_meat" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["70B1C9A1005E4241"]
+			id: "7EA5B74E9DA70229"
+			rewards: [
+				{
+					count: 2
+					id: "57F5E8AC4B9F2048"
+					item: {
+						count: 1
+						id: "arsdelight:grilled_wilden_skewer"
+					}
+					type: "item"
+				}
+				{
+					id: "27D952C80F66A365"
+					type: "xp"
+					xp: 75
+				}
+			]
+			tasks: [
+				{
+					id: "746530ED3EBA5F32"
+					item: { count: 1, id: "ars_nouveau:wilden_horn" }
+					type: "item"
+				}
+				{
+					id: "57C1E00BBB3022B0"
+					item: { count: 1, id: "ars_nouveau:wilden_spike" }
+					type: "item"
+				}
+				{
+					id: "665CC6F046CC13AC"
+					item: { count: 1, id: "ars_nouveau:wilden_wing" }
+					type: "item"
+				}
+				{
+					id: "542BD0BE632ECC0F"
+					item: { count: 1, id: "arsdelight:wilden_meat" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["64FB07CCEFEE6329"]
+			id: "0E7C11409C0A99E1"
+			rewards: [
+				{
+					count: 2
+					id: "247F0A6C01AB9B43"
+					item: {
+						count: 1
+						id: "arsdelight:chimera_skewer"
+					}
+					type: "item"
+				}
+				{
+					id: "491D12E39397C45A"
+					type: "xp"
+					xp: 75
+				}
+			]
+			tasks: [
+				{
+					id: "75227904EB070665"
+					item: { count: 1, id: "minecraft:diamond_axe" }
+					type: "item"
+				}
+				{
+					id: "28C002CA456AEE4A"
+					item: { count: 1, id: "arsdelight:chimera_horn" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0E7C11409C0A99E1"]
+			id: "0474ED67D6522912"
+			rewards: [
+				{
+					count: 2
+					id: "45A35175D82406C5"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "4412D9E7F23CDB50"
+					type: "xp"
+					xp: 75
+				}
+			]
+			tasks: [
+				{
+					id: "2A0B4CDE30093ED6"
+					item: { count: 1, id: "arsdelight:honey_glazed_chimera" }
+					type: "item"
+				}
+				{
+					id: "29063AE56EBBB4D3"
+					item: { count: 1, id: "arsdelight:grilled_chimera_skewer" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["693A2603E22E4E2D"]
+			id: "32CA7DAA7C6A6FBE"
+			rewards: [
+				{
+					count: 4
+					id: "394072B6F64F7611"
+					item: {
+						count: 1
+						id: "arsdelight:source_berry_cookie"
+					}
+					type: "item"
+				}
+				{
+					id: "79DFC5FB0BDCA642"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "5E2FA17D5DF8E4F6"
+					item: { count: 1, id: "arsdelight:source_berry_cookie" }
+					type: "item"
+				}
+				{
+					id: "7C7785728B3A9943"
+					item: { count: 1, id: "arsdelight:source_berry_cupcake" }
+					type: "item"
+				}
+				{
+					id: "37E82F0D50BBED13"
+					item: { count: 1, id: "arsdelight:arch_sauce" }
+					type: "item"
+				}
+				{
+					id: "1E6987CFA8CD6853"
+					item: { count: 1, id: "arsdelight:wilden_salad" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0B90071E23956381"]
+			id: "2A7C17DC00F6BB30"
+			rewards: [
+				{
+					count: 2
+					id: "15CAD89FD6B4362B"
+					item: {
+						count: 1
+						id: "arsdelight:bowl_of_wilden_salad"
+					}
+					type: "item"
+				}
+				{
+					id: "137DAF90EB76288D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "3C840B30CA028C21"
+				item: { count: 1, id: "arsdelight:arch_soup" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7EA5B74E9DA70229"]
+			id: "467993E36D6383CD"
+			rewards: [
+				{
+					id: "083C81168924D8FA"
+					item: {
+						count: 1
+						id: "ars_nouveau:wilden_horn"
+					}
+					type: "item"
+				}
+				{
+					id: "47F129EFD818AC93"
+					type: "xp"
+					xp: 75
+				}
+			]
+			tasks: [
+				{
+					id: "3C52E6AB4C7DAF89"
+					item: { count: 1, id: "arsdelight:grilled_wilden_skewer" }
+					type: "item"
+				}
+				{
+					id: "6084981A51D7C69E"
+					item: { count: 1, id: "arsdelight:wilden_sauce" }
+					type: "item"
+				}
+				{
+					id: "397FBA6AA96FED41"
+					item: { count: 1, id: "arsdelight:wilden_stew" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1796353AEAC9932F"
+				"467993E36D6383CD"
+			]
+			id: "26574FBE611B3E41"
+			rewards: [
+				{
+					count: 3
+					id: "5E1B7700DAF28AB0"
+					item: {
+						count: 1
+						id: "ars_nouveau:frostaya_pod"
+					}
+					type: "item"
+				}
+				{
+					id: "36F3B76B8816EE48"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "04A545DA13194A5F"
+				item: { components: { "ftbfiltersystem:filter": "or(item(arsdelight:mendosteen_chicken)item(arsdelight:bastion_pork)item(arsdelight:bombegrante_steak)item(arsdelight:frostaya_mutton))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+	]
+}

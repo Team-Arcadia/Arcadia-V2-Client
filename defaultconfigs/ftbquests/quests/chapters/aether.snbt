@@ -1,0 +1,292 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aether"
+	group: "3294587A31F15194"
+	icon: {
+		components: {
+			"ftbquests:icon": "aether:item/miscellaneous/aether_portal_frame"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "0E9B490117C69443"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "13B5D6EE1D84FBC2"
+			tasks: [{
+				entity: "deep_aether:aerglow_fish"
+				id: "37F957871E1A45E8"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "634BA4722FD5B9C0"
+			tasks: [{
+				entity: "aether:aerbunny"
+				id: "4FBA5F43CA347A39"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			id: "371DB82908B6D593"
+			tasks: [{
+				entity: "aether:aechor_plant"
+				id: "2239EEA026CB7BCC"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "4739D3BAF7FC8E61"
+			tasks: [{
+				entity: "aether:blue_swet"
+				id: "24ABA78DC201F1EF"
+				type: "kill"
+				value: 10L
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			id: "086CDD0970BC6923"
+			tasks: [{
+				entity: "twilightforest:armored_giant"
+				id: "35F152692B2B523C"
+				type: "kill"
+				value: 10L
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			id: "0B9AAE27811CA6DD"
+			tasks: [{
+				entity: "twilightforest:boar"
+				id: "691B61A9B8F8D30A"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			id: "29298B8CC9ED436D"
+			tasks: [{
+				entity: "twilightforest:carminite_broodling"
+				id: "7CCA999726C940E5"
+				type: "kill"
+				value: 10L
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			id: "41E1129ED78F55DB"
+			tasks: [{
+				entity: "twilightforest:carminite_ghastguard"
+				id: "5E98308E0F9B8E61"
+				type: "kill"
+				value: 10L
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			id: "228C7AAC4B334701"
+			tasks: [{
+				entity: "twilightforest:carminite_ghastling"
+				id: "3D3909F23F7CE48F"
+				type: "kill"
+				value: 10L
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			id: "0A1EB50A4E446EEB"
+			tasks: [{
+				entity: "twilightforest:carminite_golem"
+				id: "6EF69819078903A8"
+				type: "kill"
+				value: 10L
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			id: "123BF0FBF158F965"
+			tasks: [{
+				entity: "aether:cockatrice"
+				id: "7A1C85DC4AF55326"
+				type: "kill"
+				value: 10L
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			id: "13D6775577AF3B5D"
+			tasks: [{
+				entity: "aether:flying_cow"
+				id: "01C97EE672A7E7EA"
+				type: "kill"
+				value: 10L
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "4BBF9A658B89F0FC"
+			tasks: [{
+				entity: "aether:fire_minion"
+				id: "6ECA93E09AAF0D32"
+				type: "kill"
+				value: 10L
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			id: "0F750A4BD2D999A9"
+			tasks: [{
+				entity: "aether:evil_whirlwind"
+				id: "719B93CB965FBED4"
+				type: "kill"
+				value: 10L
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			id: "024CAF5E4895EE3B"
+			tasks: [{
+				entity: "aether:golden_swet"
+				id: "5BA45DFE1D750B5C"
+				type: "kill"
+				value: 10L
+			}]
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			id: "64140C6C056806F0"
+			tasks: [{
+				entity: "aether:phyg"
+				id: "1D9D62621B391251"
+				type: "kill"
+				value: 10L
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			id: "429B025D7E6331CB"
+			tasks: [{
+				entity: "deep_aether:quail"
+				id: "0276F16CD7B0947C"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			id: "50C446D8079F4EA4"
+			tasks: [{
+				entity: "aether:sheepuff"
+				id: "30E202D64B06B576"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "782C169AEA75A0BD"
+			tasks: [{
+				entity: "aether:sentry"
+				id: "213940C5728B6907"
+				type: "kill"
+				value: 10L
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			id: "58CD39CA55BC07AA"
+			tasks: [{
+				entity: "aether:valkyrie"
+				id: "514C03713A199327"
+				type: "kill"
+				value: 10L
+			}]
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			id: "144AC55190126038"
+			tasks: [{
+				entity: "aether:zephyr"
+				id: "1B82B79B3EC1CBC6"
+				type: "kill"
+				value: 10L
+			}]
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			id: "3ABA6AC9E033C8DC"
+			tasks: [{
+				entity: "aether:whirlwind"
+				id: "31BB8DE27601BCAB"
+				type: "kill"
+				value: 10L
+			}]
+			x: 13.5d
+			y: 4.0d
+		}
+		{
+			id: "04C89EADC215EF73"
+			tasks: [{
+				entity: "deep_aether:venomite"
+				id: "0A170B855B952399"
+				type: "kill"
+				value: 10L
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			id: "5C7C86E3F757BB25"
+			tasks: [{
+				entity: "deep_aether:baby_zephyr"
+				id: "75ADB5746B44A767"
+				type: "kill"
+				value: 100L
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			id: "47DFFCDA2026EA2E"
+			tasks: [{
+				entity: "aether:aerwhale"
+				id: "4946DCBDBCD38E65"
+				type: "kill"
+				value: 100L
+			}]
+			x: 9.0d
+			y: 5.5d
+		}
+	]
+}

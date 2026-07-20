@@ -1,8 +1,12 @@
 {
+	autofocus_id: "66251DDE98FB6EA7"
 	default_hide_dependency_lines: false
 	default_quest_shape: "circle"
 	filename: "progression_guide"
 	group: "70AB2085E1434295"
+	icon: {
+		id: "minecraft:compass"
+	}
 	id: "4052CE04BE3AF97E"
 	images: [
 		{
@@ -221,8 +225,18 @@
 			x: 5.0d
 			y: -2.5d
 		}
+		{
+			alpha: 50
+			height: 100.0d
+			image: "occultism:block/dimensional_mineshaft_portal"
+			order: -10
+			rotation: 0.0d
+			width: 100.0d
+			x: 8.0d
+			y: 22.0d
+		}
 	]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -671,10 +685,7 @@
 			y: 22.0d
 		}
 		{
-			dependencies: [
-				"081D17FBF66616FF"
-				"008E65AF545A706E"
-			]
+			dependencies: ["081D17FBF66616FF"]
 			icon: {
 				id: "mekanismgenerators:fission_reactor_port"
 			}
@@ -894,13 +905,6 @@
 			y: 12.0d
 		}
 		{
-			dependencies: [
-				"583533EB5308CC67"
-				"111AF580E2915C69"
-				"77641E63220E520D"
-				"5CADDAA71291FAD5"
-				"30AB2F919F63E2E7"
-			]
 			icon: {
 				id: "simplyswords:tampered_remnant"
 			}

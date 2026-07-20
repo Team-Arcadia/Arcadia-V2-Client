@@ -9,497 +9,362 @@
 	id: "1019305A28CCFA22"
 	images: [
 		{
-			height: 1.0d
-			image: "simplyswords:textures/mob_effect/resilience.png"
+			height: 3.0d
+			hover: ["the ring to rule them all"]
+			image: "simplyswords:item/tempest_anim_01"
 			rotation: 0.0d
-			width: 1.0d
+			width: 3.0d
 			x: 0.0d
-			y: -3.5d
+			y: 13.0d
 		}
 		{
-			height: 10.0d
-			image: "simplyswords:textures/mob_effect/ribboncleave.png"
+			height: 4.0d
+			image: "simplyswords:item/runic_chakram_layer"
 			rotation: 0.0d
-			width: 10.0d
+			width: 4.0d
+			x: -14.0d
+			y: 13.0d
+		}
+		{
+			height: 3.0d
+			image: "simplyswords:item/runic_chakram"
+			rotation: 0.0d
+			width: 3.0d
+			x: -11.0d
+			y: 13.0d
+		}
+		{
+			height: 2.0d
+			image: "simplyswords:item/iron_chakram"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5d
+			y: 13.0d
+		}
+		{
+			height: 2.0d
+			image: "simplyswords:item/gold_chakram"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.5d
+			y: 13.0d
+		}
+		{
+			height: 2.0d
+			image: "simplyswords:item/diamond_chakram"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.5d
+			y: 13.0d
+		}
+		{
+			height: 2.0d
+			image: "simplyswords:item/netherite_chakram"
+			rotation: 0.0d
+			width: 2.0d
+			x: -8.5d
+			y: 13.0d
+		}
+		{
+			height: 3.0d
+			image: "simplyswords:item/mythicmetals_compat/chakram/chakram_metallurgium"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: -14.0d
+			y: 13.0d
+		}
+		{
+			height: 7.0d
+			image: "moonlight:textures/gui/sprites/media/curseforge.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 6.0d
+			y: 13.0d
+		}
+		{
+			height: 4.0d
+			image: "simplyswords:item/lichblade"
+			rotation: -45.0d
+			width: 4.0d
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			height: 4.0d
+			image: "simplyswords:item/lichblade_aura"
+			rotation: -45.0d
+			width: 4.0d
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			height: 4.0d
+			image: "simplyswords:item/unique_longsword_tainted_whole_32x32"
+			rotation: -10.0d
+			width: 4.0d
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			height: 4.0d
+			image: "simplyswords:item/unique_longsword_holy"
+			rotation: -80.0d
+			width: 4.0d
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			height: 4.0d
+			image: "simplyswords:item/unique_longsword_holy_layer_32x32"
+			rotation: -80.0d
+			width: 4.0d
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			height: 4.0d
+			image: "simplyswords:item/unique_longsword_tainted_layer_32x32"
+			rotation: -10.0d
+			width: 4.0d
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			height: 7.0d
+			image: "simplyswords:item/mythicmetals_compat/longsword/longsword_metallurgium"
+			rotation: -171.5d
+			width: 7.0d
+			x: -8.0d
+			y: 19.0d
+		}
+		{
+			height: 5.0d
+			image: "simplyswords:item/ribboncleaver_anim_01"
+			rotation: 172.0d
+			width: 5.0d
+			x: -6.0d
+			y: 21.0d
+		}
+		{
+			height: 1.6d
+			image: "immersiveengineering:block/conveyor/casing_full"
+			order: 1
+			rotation: 13.2d
+			width: 3.0d
+			x: -2.437074829931994d
+			y: 22.955782312925173d
+		}
+		{
+			height: 5.0d
+			image: "simplyswords:item/netherite_spear"
+			rotation: 149.2d
+			width: 5.0d
+			x: -2.0d
+			y: 21.0d
+		}
+		{
+			height: 5.0d
+			image: "simplyswords:item/runic_greataxe"
+			rotation: 98.0d
+			width: 5.0d
+			x: 6.0d
+			y: 21.0d
+		}
+		{
+			height: 5.0d
+			image: "simplyswords:item/thunderbrand"
+			rotation: 122.5d
+			width: 5.0d
+			x: 2.0d
+			y: 21.0d
+		}
+		{
+			height: 5.0d
+			image: "simplyswords:item/thunderbrand_layer_e"
+			rotation: 122.5d
+			width: 5.0d
+			x: 2.0d
+			y: 21.0d
+		}
+		{
+			height: 5.0d
+			image: "simplyswords:item/thunderbrand_layer_2"
+			order: -1
+			rotation: 122.5d
+			width: 5.0d
+			x: 2.0d
+			y: 21.0d
+		}
+		{
+			height: 5.0d
+			image: "simplyswords:item/magiscythe"
+			rotation: 77.8d
+			width: 5.0d
+			x: 9.0d
+			y: 19.5d
+		}
+		{
+			height: 5.0d
+			image: "simplyswords:item/magiscythe_lights"
+			rotation: 77.8d
+			width: 5.0d
+			x: 9.0d
+			y: 19.5d
+		}
+		{
+			height: 300.0d
+			image: "occultism:block/dimensional_mineshaft_portal"
+			order: -10
+			rotation: 0.0d
+			width: 300.0d
 			x: 0.0d
-			y: 0.0d
-		}
-		{
-			height: 1.0d
-			image: "simplyswords:textures/mob_effect/pain.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 4.0d
-			y: 0.0d
-		}
-		{
-			height: 1.0d
-			image: "simplyswords:textures/mob_effect/voidcloak.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 0.0d
-			y: 5.5d
-		}
-		{
-			height: 1.0d
-			image: "simplyswords:textures/mob_effect/wildfire.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: -4.0d
-			y: 0.0d
+			y: 13.0d
 		}
 	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			id: "3E8F8C7BBF0F1221"
-			rewards: [{
-				id: "2D0A46C7B0263887"
-				type: "xp"
-				xp: 100
-			}]
+			id: "1AAED172C12D80DD"
+			rewards: [
+				{
+					id: "7557537536E410E8"
+					item: {
+						count: 1
+						id: "simplyswords:contained_remnant"
+					}
+					type: "item"
+				}
+				{
+					id: "55465B0F3656907D"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
-				id: "0CAABAB65B9FCA95"
+				id: "093B2556C11C0DB2"
 				item: { components: { "patchouli:book": "simplyswords:runic_grimoire" }, count: 1, id: "patchouli:guide_book" }
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: 13.0d
 		}
 		{
-			dependencies: ["3E8F8C7BBF0F1221"]
-			id: "39AD67F440350AD4"
-			rewards: [{
-				id: "2A1FAD1A258CF3F0"
-				type: "xp"
-				xp: 200
-			}]
-			tasks: [
+			dependencies: ["7B4DA8F57E877826"]
+			id: "4CE1BEFC4F2FBFD1"
+			rewards: [
 				{
-					id: "6F82BB3118A3F61B"
-					item: { count: 1, id: "simplyswords:tampered_remnant" }
+					id: "1570D218D8345F15"
+					item: {
+						count: 1
+						id: "simplyswords:runic_tablet"
+					}
 					type: "item"
 				}
 				{
-					id: "5A46CC9529779A9E"
-					item: { count: 1, id: "simplyswords:contained_remnant" }
-					type: "item"
+					id: "2DA2EBC1535E4088"
+					type: "xp"
+					xp: 200
 				}
 			]
-			x: 2.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["52AEF77391A89D51"]
-			id: "3DA305E1AD41F228"
-			rewards: [{
-				id: "0B692C305A74ADA9"
-				type: "xp"
-				xp: 200
-			}]
-			size: 1.0d
 			tasks: [{
-				id: "23B18382BF4FD063"
-				item: { count: 1, id: "simplyswords:runic_tablet" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["3E8F8C7BBF0F1221"]
-			id: "33868136F840F66A"
-			rewards: [{
-				id: "4A7C7F7903446BA5"
-				type: "xp"
-				xp: 200
-			}]
-			tasks: [{
-				id: "451CCD7CCB609366"
+				id: "1237F6FFD30D1421"
 				item: { count: 1, id: "simplyswords:runefused_gem" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.5d
+			x: 7.5d
+			y: 11.5d
 		}
 		{
-			dependencies: ["3E8F8C7BBF0F1221"]
-			id: "267C22F01CBAD504"
-			rewards: [{
-				id: "28D7FD0C148A309C"
-				type: "xp"
-				xp: 200
-			}]
+			dependencies: ["1C606DCFBE1B9036"]
+			hide_dependent_lines: true
+			id: "7CB30414B0872B60"
+			rewards: [
+				{
+					id: "1412A80279F86F08"
+					item: {
+						count: 1
+						id: "simplyswords:tampered_remnant"
+					}
+					type: "item"
+				}
+				{
+					id: "350D5AC436BF052C"
+					type: "xp"
+					xp: 200
+				}
+			]
 			tasks: [{
-				id: "3FD7B846F5B9E582"
+				id: "17A063E4FA75288F"
+				item: { count: 1, id: "simplyswords:contained_remnant" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["4D393CA0AF427179"]
+			id: "1C606DCFBE1B9036"
+			rewards: [
+				{
+					id: "6658BCAFFE2A368C"
+					item: {
+						count: 1
+						id: "simplyswords:contained_remnant"
+					}
+					type: "item"
+				}
+				{
+					id: "2E0F207DEA02B323"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "7456E6EE316087AD"
 				item: { count: 1, id: "simplyswords:empowered_remnant" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.0d
+			x: 6.0d
+			y: 13.0d
 		}
 		{
-			dependencies: ["3E8F8C7BBF0F1221"]
-			id: "4A540441D426937E"
-			rewards: [{
-				id: "213243C033AE0AD9"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
+			dependencies: ["1AAED172C12D80DD"]
+			id: "4D393CA0AF427179"
+			rewards: [
 				{
-					id: "62EC003B2C9DF5C1"
-					item: { count: 1, id: "simplyswords:iron_greataxe" }
+					id: "5E89DB1836631298"
+					item: {
+						count: 1
+						id: "simplyswords:runic_tablet"
+					}
 					type: "item"
 				}
 				{
-					id: "45CC8178DF328056"
-					item: { count: 1, id: "simplyswords:iron_claymore" }
-					type: "item"
-				}
-				{
-					id: "26CE10C8843941D9"
-					item: { count: 1, id: "simplyswords:iron_cutlass" }
-					type: "item"
-				}
-				{
-					id: "62AA0ADF8389F4E4"
-					item: { count: 1, id: "simplyswords:iron_sai" }
-					type: "item"
-				}
-				{
-					id: "1CBE89B5F4A1714F"
-					item: { count: 1, id: "simplyswords:iron_halberd" }
-					type: "item"
-				}
-				{
-					id: "54AC78B4FAB3934B"
-					item: { count: 1, id: "simplyswords:iron_glaive" }
-					type: "item"
-				}
-				{
-					id: "6BF02310E1535B4E"
-					item: { count: 1, id: "simplyswords:iron_rapier" }
-					type: "item"
-				}
-				{
-					id: "337513D6F43420A0"
-					item: { count: 1, id: "simplyswords:iron_greathammer" }
-					type: "item"
-				}
-				{
-					id: "34D16A2C07F9513A"
-					item: { count: 1, id: "simplyswords:iron_spear" }
-					type: "item"
-				}
-				{
-					id: "18BD74CF5882698F"
-					item: { count: 1, id: "simplyswords:iron_katana" }
-					type: "item"
-				}
-				{
-					id: "07E3018C94A7778C"
-					item: { count: 1, id: "simplyswords:iron_warglaive" }
-					type: "item"
-				}
-				{
-					id: "0EB88F10B8F20B39"
-					item: { count: 1, id: "simplyswords:iron_chakram" }
-					type: "item"
-				}
-				{
-					id: "7013D8960B9216B9"
-					item: { count: 1, id: "simplyswords:iron_scythe" }
-					type: "item"
-				}
-				{
-					id: "19E80303E4A2E6E7"
-					item: { count: 1, id: "simplyswords:iron_longsword" }
-					type: "item"
-				}
-				{
-					id: "507FB49BB9F09C6B"
-					item: { count: 1, id: "simplyswords:iron_twinblade" }
-					type: "item"
+					id: "1AF4C660E2DA3F30"
+					type: "xp"
+					xp: 200
 				}
 			]
-			x: -1.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["3E8F8C7BBF0F1221"]
-			id: "4998DE2837CAAE90"
-			rewards: [{
-				id: "281DB8874E95DEBC"
-				type: "xp"
-				xp: 100
+			size: 1.0d
+			tasks: [{
+				id: "290833F42C33E8D9"
+				item: { count: 1, id: "minecraft:smithing_table" }
+				type: "item"
 			}]
-			tasks: [
-				{
-					id: "057560FFB65C5A6F"
-					item: { count: 1, id: "simplyswords:gold_longsword" }
-					type: "item"
-				}
-				{
-					id: "28CA139A176ECFBF"
-					item: { count: 1, id: "simplyswords:gold_twinblade" }
-					type: "item"
-				}
-				{
-					id: "43EECE14E6EE4972"
-					item: { count: 1, id: "simplyswords:gold_rapier" }
-					type: "item"
-				}
-				{
-					id: "62AF1E2BA9362971"
-					item: { count: 1, id: "simplyswords:gold_katana" }
-					type: "item"
-				}
-				{
-					id: "18D0E6B1597B9CC4"
-					item: { count: 1, id: "simplyswords:gold_sai" }
-					type: "item"
-				}
-				{
-					id: "4AB773B8696A73E6"
-					item: { count: 1, id: "simplyswords:gold_spear" }
-					type: "item"
-				}
-				{
-					id: "56A1E492A312134C"
-					item: { count: 1, id: "simplyswords:gold_glaive" }
-					type: "item"
-				}
-				{
-					id: "6EE6DC3B3CF54CEF"
-					item: { count: 1, id: "simplyswords:gold_warglaive" }
-					type: "item"
-				}
-				{
-					id: "4470831CAE2F9932"
-					item: { count: 1, id: "simplyswords:gold_cutlass" }
-					type: "item"
-				}
-				{
-					id: "693AFCEA0AD17B78"
-					item: { count: 1, id: "simplyswords:gold_claymore" }
-					type: "item"
-				}
-				{
-					id: "19CAC5309E3AA5D9"
-					item: { count: 1, id: "simplyswords:gold_greathammer" }
-					type: "item"
-				}
-				{
-					id: "6910D71A5C296B83"
-					item: { count: 1, id: "simplyswords:gold_greataxe" }
-					type: "item"
-				}
-				{
-					id: "4B5399FEE3FE4B94"
-					item: { count: 1, id: "simplyswords:gold_chakram" }
-					type: "item"
-				}
-				{
-					id: "19AD59155BF695A5"
-					item: { count: 1, id: "simplyswords:gold_scythe" }
-					type: "item"
-				}
-				{
-					id: "1AF923FC884E86F0"
-					item: { count: 1, id: "simplyswords:gold_halberd" }
-					type: "item"
-				}
-			]
-			x: -1.5d
-			y: 1.5d
+			x: 4.5d
+			y: 13.0d
 		}
 		{
-			dependencies: ["3E8F8C7BBF0F1221"]
-			id: "5129E9A499DE133A"
-			rewards: [{
-				id: "5F69BB37D23ACAD5"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					id: "31687E77E36D7556"
-					item: { count: 1, id: "simplyswords:diamond_halberd" }
-					type: "item"
-				}
-				{
-					id: "24E51C4A67BC0905"
-					item: { count: 1, id: "simplyswords:diamond_scythe" }
-					type: "item"
-				}
-				{
-					id: "40FF911F3E8EA051"
-					item: { count: 1, id: "simplyswords:diamond_chakram" }
-					type: "item"
-				}
-				{
-					id: "12BBFD04890274ED"
-					item: { count: 1, id: "simplyswords:diamond_longsword" }
-					type: "item"
-				}
-				{
-					id: "758D7B8AC4163BFA"
-					item: { count: 1, id: "simplyswords:diamond_twinblade" }
-					type: "item"
-				}
-				{
-					id: "07BAA13DC5E493C1"
-					item: { count: 1, id: "simplyswords:diamond_rapier" }
-					type: "item"
-				}
-				{
-					id: "7277855B7E43BE45"
-					item: { count: 1, id: "simplyswords:diamond_katana" }
-					type: "item"
-				}
-				{
-					id: "326D150145B4827C"
-					item: { count: 1, id: "simplyswords:diamond_sai" }
-					type: "item"
-				}
-				{
-					id: "1585936062E1E86A"
-					item: { count: 1, id: "simplyswords:diamond_spear" }
-					type: "item"
-				}
-				{
-					id: "7A471188A169A633"
-					item: { count: 1, id: "simplyswords:diamond_glaive" }
-					type: "item"
-				}
-				{
-					id: "64C7B67B4992609A"
-					item: { count: 1, id: "simplyswords:diamond_warglaive" }
-					type: "item"
-				}
-				{
-					id: "5962E92763E58D0A"
-					item: { count: 1, id: "simplyswords:diamond_cutlass" }
-					type: "item"
-				}
-				{
-					id: "4D14E605796F1154"
-					item: { count: 1, id: "simplyswords:diamond_claymore" }
-					type: "item"
-				}
-				{
-					id: "15E968264B31548E"
-					item: { count: 1, id: "simplyswords:diamond_greathammer" }
-					type: "item"
-				}
-				{
-					id: "152CBD6DFFF31576"
-					item: { count: 1, id: "simplyswords:diamond_greataxe" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["3E8F8C7BBF0F1221"]
-			id: "7C028D7354461C44"
-			rewards: [{
-				id: "11CD00FAF2271428"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					id: "44F0ED684A4951F2"
-					item: { count: 1, id: "simplyswords:netherite_longsword" }
-					type: "item"
-				}
-				{
-					id: "4EB12C1B26EE594C"
-					item: { count: 1, id: "simplyswords:netherite_twinblade" }
-					type: "item"
-				}
-				{
-					id: "3443293A84419031"
-					item: { count: 1, id: "simplyswords:netherite_rapier" }
-					type: "item"
-				}
-				{
-					id: "328BDBFD203C6D40"
-					item: { count: 1, id: "simplyswords:netherite_katana" }
-					type: "item"
-				}
-				{
-					id: "0510FF996F6267D1"
-					item: { count: 1, id: "simplyswords:netherite_sai" }
-					type: "item"
-				}
-				{
-					id: "25F33336EFD14DF1"
-					item: { count: 1, id: "simplyswords:netherite_spear" }
-					type: "item"
-				}
-				{
-					id: "7B8CE595F9E078D2"
-					item: { count: 1, id: "simplyswords:netherite_glaive" }
-					type: "item"
-				}
-				{
-					id: "374DC91FCDCC905C"
-					item: { count: 1, id: "simplyswords:netherite_warglaive" }
-					type: "item"
-				}
-				{
-					id: "53C56AFA08891BB5"
-					item: { count: 1, id: "simplyswords:netherite_cutlass" }
-					type: "item"
-				}
-				{
-					id: "1C24D81D32036FFC"
-					item: { count: 1, id: "simplyswords:netherite_claymore" }
-					type: "item"
-				}
-				{
-					id: "00E7000E8EB58CB9"
-					item: { count: 1, id: "simplyswords:netherite_greathammer" }
-					type: "item"
-				}
-				{
-					id: "240617C8B93A9E99"
-					item: { count: 1, id: "simplyswords:netherite_greataxe" }
-					type: "item"
-				}
-				{
-					id: "622F35935618E284"
-					item: { count: 1, id: "simplyswords:netherite_chakram" }
-					type: "item"
-				}
-				{
-					id: "3F810FF63C6A5E64"
-					item: { count: 1, id: "simplyswords:netherite_scythe" }
-					type: "item"
-				}
-				{
-					id: "6FB2BACBB7CB4461"
-					item: { count: 1, id: "simplyswords:netherite_halberd" }
-					type: "item"
-				}
-			]
-			x: 1.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["3DA305E1AD41F228"]
-			id: "5CADDAA71291FAD5"
+			dependencies: ["01FF070AD9F70485"]
+			id: "1066E31AF99CC959"
 			progression_mode: "flexible"
 			rewards: [
 				{
-					id: "57C3765D261E4EB4"
+					id: "6F0F507C7F4CD4D2"
 					item: {
 						count: 1
 						id: "simplyswords:runefused_gem"
@@ -507,99 +372,373 @@
 					type: "item"
 				}
 				{
-					id: "4B590F95F578C3B0"
+					id: "440DAC3BCB20D0B8"
 					type: "xp"
 					xp: 300
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0DB67D6077CD7201"
+					item: { count: 1, id: "simplyswords:runic_cutlass" }
+					type: "item"
+				}
+				{
+					id: "34570945CB273891"
+					item: { count: 1, id: "simplyswords:runic_warglaive" }
+					type: "item"
+				}
+				{
+					id: "0A9BE8D9D04730AF"
+					item: { count: 1, id: "simplyswords:runic_glaive" }
+					type: "item"
+				}
+				{
+					id: "1A26CC3337724DBC"
+					item: { count: 1, id: "simplyswords:runic_spear" }
+					type: "item"
+				}
+				{
+					id: "3F8968AB9363F213"
+					item: { count: 1, id: "simplyswords:runic_sai" }
+					type: "item"
+				}
+				{
+					id: "4A38CD76A72D8B85"
+					item: { count: 1, id: "simplyswords:runic_katana" }
+					type: "item"
+				}
+				{
+					id: "137D6CA3552BFB9D"
+					item: { count: 1, id: "simplyswords:runic_rapier" }
+					type: "item"
+				}
+				{
+					id: "0F41FAF793B2C5C7"
+					item: { count: 1, id: "simplyswords:runic_twinblade" }
+					type: "item"
+				}
+				{
+					id: "07CC76762D034B37"
+					item: { count: 1, id: "simplyswords:runic_longsword" }
+					type: "item"
+				}
+				{
+					id: "7768AB6BACD6C78E"
+					item: { count: 1, id: "simplyswords:runic_halberd" }
+					type: "item"
+				}
+				{
+					id: "4332F8281B049948"
+					item: { count: 1, id: "simplyswords:runic_chakram" }
+					type: "item"
+				}
+				{
+					id: "33A0B183B3FE418C"
+					item: { count: 1, id: "simplyswords:runic_claymore" }
+					type: "item"
+				}
+				{
+					id: "5753C1125E62FCB6"
+					item: { count: 1, id: "simplyswords:runic_scythe" }
+					type: "item"
+				}
+				{
+					id: "397DCE9752CB3AF6"
+					item: { count: 1, id: "simplyswords:runic_greathammer" }
+					type: "item"
+				}
+				{
+					id: "36F624BF3574D959"
+					item: { count: 1, id: "simplyswords:runic_greataxe" }
+					type: "item"
+				}
+			]
+			x: -11.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1C606DCFBE1B9036"]
+			id: "7B4DA8F57E877826"
+			rewards: [
+				{
+					id: "340A8994E8F5F057"
+					item: {
+						count: 1
+						id: "simplyswords:tampered_remnant"
+					}
+					type: "item"
+				}
+				{
+					id: "31998B3BBAF58BD3"
+					type: "xp"
+					xp: 200
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5BD96C275CDD84DA"
+				item: { count: 1, id: "simplyswords:runic_tablet" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7CB30414B0872B60"]
+			hide_dependent_lines: true
+			id: "1F49E3B962DAE427"
+			rewards: [
+				{
+					id: "6D8B75896F8FCE88"
+					item: {
+						count: 1
+						id: "simplyswords:contained_remnant"
+					}
+					type: "item"
+				}
+				{
+					id: "6AA071F2027F57E9"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "6CC0BA17AE931869"
+				item: { count: 1, id: "simplyswords:tampered_remnant" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1066E31AF99CC959"]
+			id: "49B790E136D06879"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "0F1BC0E7C1EFAD9A"
+					item: {
+						count: 1
+						id: "simplyswords:netherfused_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "2BBDCBAE768BD250"
+					type: "xp"
+					xp: 400
 				}
 			]
 			size: 2.0d
 			tasks: [
 				{
-					id: "77BD3AEEC35F8214"
-					item: { count: 1, id: "simplyswords:runic_cutlass" }
+					id: "664752FF3841A8EC"
+					item: { count: 1, id: "simplyswords:brimstone_claymore" }
 					type: "item"
 				}
 				{
-					id: "3F80951ACB5D5F91"
-					item: { count: 1, id: "simplyswords:runic_warglaive" }
+					id: "31EBA39EFB99B712"
+					item: { count: 1, id: "simplyswords:watcher_claymore" }
 					type: "item"
 				}
 				{
-					id: "0FE7A47C1F607DA0"
-					item: { count: 1, id: "simplyswords:runic_glaive" }
+					id: "65848CAC1C582F37"
+					item: { count: 1, id: "simplyswords:storms_edge" }
 					type: "item"
 				}
 				{
-					id: "203EE44B2FEA4C83"
-					item: { count: 1, id: "simplyswords:runic_spear" }
+					id: "5FA8828F13FF0A14"
+					item: { count: 1, id: "simplyswords:stormbringer" }
 					type: "item"
 				}
 				{
-					id: "065C0F2158A8E870"
-					item: { count: 1, id: "simplyswords:runic_sai" }
+					id: "7CD43E2EE92DE7E9"
+					item: { count: 1, id: "simplyswords:bramblethorn" }
 					type: "item"
 				}
 				{
-					id: "27DD4F2E359942BB"
-					item: { count: 1, id: "simplyswords:runic_katana" }
+					id: "5ED403AA10A74048"
+					item: { count: 1, id: "simplyswords:watching_warglaive" }
 					type: "item"
 				}
 				{
-					id: "628186C378B82495"
-					item: { count: 1, id: "simplyswords:runic_rapier" }
+					id: "24B37FE37CF66AB7"
+					item: { count: 1, id: "simplyswords:toxic_longsword" }
 					type: "item"
 				}
 				{
-					id: "3C37B49C7B433FBD"
-					item: { count: 1, id: "simplyswords:runic_twinblade" }
+					id: "5056B5E85A98C7AD"
+					item: { count: 1, id: "simplyswords:emberblade" }
 					type: "item"
 				}
 				{
-					id: "4924F4C2AE7F81AA"
-					item: { count: 1, id: "simplyswords:runic_longsword" }
+					id: "65CE5F2AD23CD473"
+					item: { count: 1, id: "simplyswords:hearthflame" }
 					type: "item"
 				}
 				{
-					id: "0E8D19BC6D8FADB5"
-					item: { count: 1, id: "simplyswords:runic_halberd" }
+					id: "220391D3FFE7B026"
+					item: { count: 1, id: "simplyswords:soulkeeper" }
 					type: "item"
 				}
 				{
-					id: "46BAEFA87D0DD420"
-					item: { count: 1, id: "simplyswords:runic_chakram" }
+					id: "4763D292BF4B6973"
+					item: { count: 1, id: "simplyswords:twisted_blade" }
 					type: "item"
 				}
 				{
-					id: "133669DD79DA49BA"
-					item: { count: 1, id: "simplyswords:runic_claymore" }
+					id: "192DEBFC338CD446"
+					item: { count: 1, id: "simplyswords:soulstealer" }
 					type: "item"
 				}
 				{
-					id: "74C7316220AC33DE"
-					item: { count: 1, id: "simplyswords:runic_scythe" }
+					id: "35478A35EB206CDC"
+					item: { count: 1, id: "simplyswords:soulrender" }
 					type: "item"
 				}
 				{
-					id: "7035FE2DAD31C816"
-					item: { count: 1, id: "simplyswords:runic_greathammer" }
+					id: "6710395108BB26B3"
+					item: { count: 1, id: "simplyswords:soulpyre" }
 					type: "item"
 				}
 				{
-					id: "2058739D394DE041"
-					item: { count: 1, id: "simplyswords:runic_greataxe" }
+					id: "134B6432BAD9D704"
+					item: { count: 1, id: "simplyswords:frostfall" }
+					type: "item"
+				}
+				{
+					id: "4BF383E30319DF1D"
+					item: { count: 1, id: "simplyswords:molten_edge" }
+					type: "item"
+				}
+				{
+					id: "64B17274454AD96A"
+					item: { count: 1, id: "simplyswords:livyatan" }
+					type: "item"
+				}
+				{
+					id: "02946ED32799C984"
+					item: { count: 1, id: "simplyswords:icewhisper" }
+					type: "item"
+				}
+				{
+					id: "20E9AE724D915D57"
+					item: { count: 1, id: "simplyswords:arcanethyst" }
+					type: "item"
+				}
+				{
+					id: "2068D2649D897E02"
+					item: { count: 1, id: "simplyswords:thunderbrand" }
+					type: "item"
+				}
+				{
+					id: "5D8296B9AD2778DB"
+					item: { count: 1, id: "simplyswords:mjolnir" }
+					type: "item"
+				}
+				{
+					id: "7A4517DEEF7AF58B"
+					item: { count: 1, id: "simplyswords:shadowsting" }
+					type: "item"
+				}
+				{
+					id: "2A4F25624D0FF764"
+					item: { count: 1, id: "simplyswords:whisperwind" }
+					type: "item"
+				}
+				{
+					id: "6524D399171E6088"
+					item: { count: 1, id: "simplyswords:emberlash" }
+					type: "item"
+				}
+				{
+					id: "1CD5A9FEC910CD25"
+					item: { count: 1, id: "simplyswords:waxweaver" }
+					type: "item"
+				}
+				{
+					id: "617F9033AB10F850"
+					item: { count: 1, id: "simplyswords:hiveheart" }
+					type: "item"
+				}
+				{
+					id: "127266E6AF2A0433"
+					item: { count: 1, id: "simplyswords:stars_edge" }
+					type: "item"
+				}
+				{
+					id: "27C6A4EC00B02DEB"
+					item: { count: 1, id: "simplyswords:wickpiercer" }
+					type: "item"
+				}
+				{
+					id: "4D09EF69875D2EC1"
+					item: { count: 1, id: "simplyswords:tempest" }
+					type: "item"
+				}
+				{
+					id: "452642EBF617C0F3"
+					item: { count: 1, id: "simplyswords:flamewind" }
+					type: "item"
+				}
+				{
+					id: "573D8272D3FAB828"
+					item: { count: 1, id: "simplyswords:ribboncleaver" }
+					type: "item"
+				}
+				{
+					id: "5C1E30BFA46FE148"
+					item: { count: 1, id: "simplyswords:decaying_relic" }
+					type: "item"
+				}
+				{
+					id: "4AB401E779C06E11"
+					item: { count: 1, id: "simplyswords:magiscythe" }
+					type: "item"
+				}
+				{
+					id: "6CB90F57288ABDAB"
+					item: { count: 1, id: "simplyswords:enigma" }
+					type: "item"
+				}
+				{
+					id: "2B45ADDDD60E0974"
+					item: { count: 1, id: "simplyswords:magispear" }
+					type: "item"
+				}
+				{
+					id: "08F99699996D468C"
+					item: { count: 1, id: "simplyswords:magiblade" }
+					type: "item"
+				}
+				{
+					id: "3F4932689DC95265"
+					item: { count: 1, id: "simplyswords:caelestis" }
+					type: "item"
+				}
+				{
+					id: "5AF2FACB3E97F871"
+					item: { count: 1, id: "simplyswords:wraithfang" }
+					type: "item"
+				}
+				{
+					id: "0A4F601ABDDDE920"
+					item: { count: 1, id: "simplyswords:chompolotl" }
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -6.0d
+			x: -14.0d
+			y: 13.0d
 		}
 		{
-			dependencies: ["300F0E304A2E83F3"]
-			id: "7E3A59863AE6819A"
-			progression_mode: "flexible"
+			dependencies: ["1AAED172C12D80DD"]
+			id: "6F34180AA6556F52"
 			rewards: [
 				{
-					id: "5135AC74E1F4D3F2"
+					id: "158B977B60AF944B"
 					item: {
 						count: 1
 						id: "simplyswords:runic_tablet"
@@ -607,53 +746,197 @@
 					type: "item"
 				}
 				{
-					id: "46BE68FF3F7C2013"
+					id: "233097D91FFDCE7E"
 					type: "xp"
-					xp: 200
+					xp: 100
 				}
 			]
-			tasks: [{
-				id: "187F9BBE0BC75DDB"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 0b, has_runic_power: 1b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:toxic_longsword" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["1CB8EB19F937BF5E"]
-			id: "583533EB5308CC67"
-			progression_mode: "flexible"
-			rewards: [
+			shape: "rsquare"
+			tasks: [
 				{
-					id: "2A41D1BE12953827"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
+					id: "76249E0AE12B90DF"
+					item: { count: 1, id: "simplyswords:iron_greataxe" }
 					type: "item"
 				}
 				{
-					id: "695BDC266FEDA623"
-					type: "xp"
-					xp: 200
+					id: "6D3DDF9B1501E1B5"
+					item: { count: 1, id: "simplyswords:iron_claymore" }
+					type: "item"
+				}
+				{
+					id: "5D73D265316DB973"
+					item: { count: 1, id: "simplyswords:iron_cutlass" }
+					type: "item"
+				}
+				{
+					id: "30B392ED39D2A445"
+					item: { count: 1, id: "simplyswords:iron_sai" }
+					type: "item"
+				}
+				{
+					id: "080AC7F4AA581EAE"
+					item: { count: 1, id: "simplyswords:iron_halberd" }
+					type: "item"
+				}
+				{
+					id: "4C6C2B69AAF6EB66"
+					item: { count: 1, id: "simplyswords:iron_glaive" }
+					type: "item"
+				}
+				{
+					id: "6F7BA96707BE296B"
+					item: { count: 1, id: "simplyswords:iron_rapier" }
+					type: "item"
+				}
+				{
+					id: "03EF1E2CC9F5F11E"
+					item: { count: 1, id: "simplyswords:iron_greathammer" }
+					type: "item"
+				}
+				{
+					id: "4B7D2FCF8D18AD22"
+					item: { count: 1, id: "simplyswords:iron_spear" }
+					type: "item"
+				}
+				{
+					id: "1D1175BAF63F59E7"
+					item: { count: 1, id: "simplyswords:iron_katana" }
+					type: "item"
+				}
+				{
+					id: "68D608E2D797B8D6"
+					item: { count: 1, id: "simplyswords:iron_warglaive" }
+					type: "item"
+				}
+				{
+					id: "6C3511D0163F8762"
+					item: { count: 1, id: "simplyswords:iron_chakram" }
+					type: "item"
+				}
+				{
+					id: "7B02D1A09EBC488E"
+					item: { count: 1, id: "simplyswords:iron_scythe" }
+					type: "item"
+				}
+				{
+					id: "0DFE5714FB2BD7EB"
+					item: { count: 1, id: "simplyswords:iron_longsword" }
+					type: "item"
+				}
+				{
+					id: "3CD9CBB8C1D9E2A4"
+					item: { count: 1, id: "simplyswords:iron_twinblade" }
+					type: "item"
 				}
 			]
-			tasks: [{
-				id: "1923BB9E2ECD29C7"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 1b, has_runic_power: 0b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:hearthflame" }
-				type: "item"
-			}]
 			x: -2.5d
-			y: 6.5d
+			y: 13.0d
 		}
 		{
-			dependencies: ["5129E9A499DE133A"]
-			id: "5F2B5E48CF0A7108"
-			progression_mode: "flexible"
+			dependencies: ["6F34180AA6556F52"]
+			id: "05B08F18A1EE6499"
 			rewards: [
 				{
-					id: "61FCB627AC025E04"
+					id: "1938B7B3FFE4B9F0"
+					item: {
+						count: 1
+						id: "simplyswords:empowered_remnant"
+					}
+					type: "item"
+				}
+				{
+					id: "187A402B0FD99A09"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0C77E818E67C6398"
+					item: { count: 1, id: "simplyswords:gold_longsword" }
+					type: "item"
+				}
+				{
+					id: "0492D9CF0DABC340"
+					item: { count: 1, id: "simplyswords:gold_twinblade" }
+					type: "item"
+				}
+				{
+					id: "742231D13B2771B3"
+					item: { count: 1, id: "simplyswords:gold_rapier" }
+					type: "item"
+				}
+				{
+					id: "3F932A56ED3A9C76"
+					item: { count: 1, id: "simplyswords:gold_katana" }
+					type: "item"
+				}
+				{
+					id: "487F83A4921CA072"
+					item: { count: 1, id: "simplyswords:gold_sai" }
+					type: "item"
+				}
+				{
+					id: "6C16E78188F85B90"
+					item: { count: 1, id: "simplyswords:gold_spear" }
+					type: "item"
+				}
+				{
+					id: "4F7C2E20753A563F"
+					item: { count: 1, id: "simplyswords:gold_glaive" }
+					type: "item"
+				}
+				{
+					id: "606635133855BD6D"
+					item: { count: 1, id: "simplyswords:gold_warglaive" }
+					type: "item"
+				}
+				{
+					id: "595550A8A3DD8865"
+					item: { count: 1, id: "simplyswords:gold_cutlass" }
+					type: "item"
+				}
+				{
+					id: "459994AFF8EB5A88"
+					item: { count: 1, id: "simplyswords:gold_claymore" }
+					type: "item"
+				}
+				{
+					id: "6F186FB98A7F03D9"
+					item: { count: 1, id: "simplyswords:gold_greathammer" }
+					type: "item"
+				}
+				{
+					id: "738DD5F0354D7491"
+					item: { count: 1, id: "simplyswords:gold_greataxe" }
+					type: "item"
+				}
+				{
+					id: "52D2137D36DBB574"
+					item: { count: 1, id: "simplyswords:gold_chakram" }
+					type: "item"
+				}
+				{
+					id: "5A27C4D90139E9AA"
+					item: { count: 1, id: "simplyswords:gold_scythe" }
+					type: "item"
+				}
+				{
+					id: "45610484BDD888AA"
+					item: { count: 1, id: "simplyswords:gold_halberd" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["05B08F18A1EE6499"]
+			id: "3220634DDD1E26CE"
+			rewards: [
+				{
+					id: "7B68500257728107"
 					item: {
 						count: 1
 						id: "simplyswords:runic_tablet"
@@ -661,1186 +944,758 @@
 					type: "item"
 				}
 				{
-					id: "568D87340D1CAE23"
+					id: "526620D7A40DF0A0"
 					type: "xp"
-					xp: 200
+					xp: 100
 				}
 			]
-			tasks: [{
-				id: "3CA4105271D68461"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 0b, has_runic_power: 1b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:arcanethyst" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["7C028D7354461C44"]
-			id: "1C37884AFA3743A5"
-			progression_mode: "flexible"
-			rewards: [
+			shape: "pentagon"
+			tasks: [
 				{
-					id: "572ACB1156F40665"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
+					id: "79E29FFBE5710CFB"
+					item: { count: 1, id: "simplyswords:diamond_halberd" }
 					type: "item"
 				}
 				{
-					id: "0852E975BF6FFD58"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "24D86C076280F2D9"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 1b, has_runic_power: 1b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:thunderbrand" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["4998DE2837CAAE90"]
-			id: "4E91669F758AECD4"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "43AF8E88521399BF"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
+					id: "194AA50F217F19CF"
+					item: { count: 1, id: "simplyswords:diamond_scythe" }
 					type: "item"
 				}
 				{
-					id: "3CBC79DA82A33E9C"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "282678B7D6720ED9"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 1b, has_runic_power: 0b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:mjolnir" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["05BFADA3F1DB064F"]
-			id: "30AB2F919F63E2E7"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "366AABFEC2A495A1"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
+					id: "43938E7C15F81DD5"
+					item: { count: 1, id: "simplyswords:diamond_chakram" }
 					type: "item"
 				}
 				{
-					id: "33CB5412B306DA63"
-					type: "xp"
-					xp: 200
+					id: "55C0DACE840B41D0"
+					item: { count: 1, id: "simplyswords:diamond_longsword" }
+					type: "item"
+				}
+				{
+					id: "6B6B63CB22C06CDC"
+					item: { count: 1, id: "simplyswords:diamond_twinblade" }
+					type: "item"
+				}
+				{
+					id: "7BE101208BC350F8"
+					item: { count: 1, id: "simplyswords:diamond_rapier" }
+					type: "item"
+				}
+				{
+					id: "7C8EBBF127E9B6ED"
+					item: { count: 1, id: "simplyswords:diamond_katana" }
+					type: "item"
+				}
+				{
+					id: "37E3FBDF4FB69A52"
+					item: { count: 1, id: "simplyswords:diamond_sai" }
+					type: "item"
+				}
+				{
+					id: "4EC4FD3091DACAD1"
+					item: { count: 1, id: "simplyswords:diamond_spear" }
+					type: "item"
+				}
+				{
+					id: "33688E46454925E4"
+					item: { count: 1, id: "simplyswords:diamond_glaive" }
+					type: "item"
+				}
+				{
+					id: "3C26DB4DC19D38DF"
+					item: { count: 1, id: "simplyswords:diamond_warglaive" }
+					type: "item"
+				}
+				{
+					id: "638ACFE68406DB11"
+					item: { count: 1, id: "simplyswords:diamond_cutlass" }
+					type: "item"
+				}
+				{
+					id: "7F6472B0D4E4FF35"
+					item: { count: 1, id: "simplyswords:diamond_claymore" }
+					type: "item"
+				}
+				{
+					id: "5CD05A2EC15C29D5"
+					item: { count: 1, id: "simplyswords:diamond_greathammer" }
+					type: "item"
+				}
+				{
+					id: "2B8019AA64ED1577"
+					item: { count: 1, id: "simplyswords:diamond_greataxe" }
+					type: "item"
 				}
 			]
-			tasks: [{
-				id: "66C53BBC5B23AD79"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 0b, has_runic_power: 0b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:dormant_relic" }
-				type: "item"
-			}]
 			x: -6.5d
-			y: -2.5d
+			y: 13.0d
 		}
 		{
-			dependencies: ["4998DE2837CAAE90"]
-			id: "4E92C25C5DAB2715"
-			progression_mode: "flexible"
+			dependencies: ["3220634DDD1E26CE"]
+			id: "01FF070AD9F70485"
 			rewards: [
 				{
-					id: "493922A6FCEECEB6"
+					id: "35412B4B06D4551E"
 					item: {
 						count: 1
-						id: "simplyswords:runic_tablet"
+						id: "simplyswords:empowered_remnant"
 					}
 					type: "item"
 				}
 				{
-					id: "078775D57F5073D0"
+					id: "667ED61CFB85715B"
 					type: "xp"
-					xp: 200
+					xp: 100
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "31C2B265676E44C4"
+					item: { count: 1, id: "simplyswords:netherite_longsword" }
+					type: "item"
+				}
+				{
+					id: "455FE6FA05637D84"
+					item: { count: 1, id: "simplyswords:netherite_twinblade" }
+					type: "item"
+				}
+				{
+					id: "326C7F99BF79D5E9"
+					item: { count: 1, id: "simplyswords:netherite_rapier" }
+					type: "item"
+				}
+				{
+					id: "3532A25721E12B88"
+					item: { count: 1, id: "simplyswords:netherite_katana" }
+					type: "item"
+				}
+				{
+					id: "0E977290A6C03680"
+					item: { count: 1, id: "simplyswords:netherite_sai" }
+					type: "item"
+				}
+				{
+					id: "42D850D5694429A5"
+					item: { count: 1, id: "simplyswords:netherite_spear" }
+					type: "item"
+				}
+				{
+					id: "2BCD654C327453DA"
+					item: { count: 1, id: "simplyswords:netherite_glaive" }
+					type: "item"
+				}
+				{
+					id: "44C0BE797F1AC532"
+					item: { count: 1, id: "simplyswords:netherite_warglaive" }
+					type: "item"
+				}
+				{
+					id: "6642F35814648F72"
+					item: { count: 1, id: "simplyswords:netherite_cutlass" }
+					type: "item"
+				}
+				{
+					id: "50CEF54DE35D4785"
+					item: { count: 1, id: "simplyswords:netherite_claymore" }
+					type: "item"
+				}
+				{
+					id: "316355FD00C21548"
+					item: { count: 1, id: "simplyswords:netherite_greathammer" }
+					type: "item"
+				}
+				{
+					id: "2ED983B932AC91C6"
+					item: { count: 1, id: "simplyswords:netherite_greataxe" }
+					type: "item"
+				}
+				{
+					id: "5A00406B74485608"
+					item: { count: 1, id: "simplyswords:netherite_chakram" }
+					type: "item"
+				}
+				{
+					id: "2C9B2803006780D5"
+					item: { count: 1, id: "simplyswords:netherite_scythe" }
+					type: "item"
+				}
+				{
+					id: "4CD934CDC2A08095"
+					item: { count: 1, id: "simplyswords:netherite_halberd" }
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1AAED172C12D80DD"]
+			id: "6323EE639AB01A60"
+			rewards: [
+				{
+					id: "1A1A240B3A61EF6F"
+					item: {
+						count: 1
+						id: "simplyswords:runefused_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "6EB3E0AA69A4D84F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "267213412A80E1CA"
+				item: { count: 1, id: "simplyswords:slumbering_lichblade" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6323EE639AB01A60"]
+			id: "6F741CCE8E90AF8D"
+			rewards: [
+				{
+					id: "30772A0F4AE10FF1"
+					item: {
+						count: 1
+						id: "simplyswords:netherfused_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "61CB6A0AB20E3853"
+					type: "xp"
+					xp: 150
 				}
 			]
 			tasks: [{
-				id: "607FDCB4F3FFCC64"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 1b, has_runic_power: 0b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:stormbringer" }
+				id: "5382DC7FF2FD765A"
+				item: { count: 1, id: "simplyswords:waking_lichblade" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 4.0d
+			x: -2.0d
+			y: 9.0d
 		}
 		{
-			dependencies: ["5BA2B036717AC1D6"]
-			id: "764303F7078E8D84"
-			progression_mode: "flexible"
+			dependencies: ["6F741CCE8E90AF8D"]
+			id: "113E069B52EA5145"
 			rewards: [
 				{
-					id: "2146CAF4A6BBC6AB"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "108C63C97035D5F6"
+					id: "73B335918EF1F4F9"
 					type: "xp"
 					xp: 200
 				}
-			]
-			tasks: [{
-				id: "3A868B27F7F68C02"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 1b, has_runic_power: 0b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:soulkeeper" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["4A540441D426937E"]
-			id: "2B9DF670B021FEBE"
-			progression_mode: "flexible"
-			rewards: [
 				{
-					id: "0EEAA1DB125E68B4"
+					id: "0E533D55DD396964"
 					item: {
 						count: 1
-						id: "simplyswords:runic_tablet"
+						id: "simplyswords:empowered_remnant"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "578CA7BC46C75BE0"
+				item: { count: 1, id: "simplyswords:awakened_lichblade" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1AAED172C12D80DD"]
+			id: "7871B76C7BB29425"
+			rewards: [
+				{
+					id: "407B06A948C62739"
+					item: {
+						count: 1
+						id: "simplyswords:runefused_gem"
 					}
 					type: "item"
 				}
 				{
-					id: "56CD1C2A6E65BB7A"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "3D21A4A0F4FFB6C6"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 0b, has_runic_power: 0b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:twisted_blade" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["7E3A59863AE6819A"]
-			id: "466412A67B7E552B"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "20D7C0E9DD717E6A"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "5E781BB6DDA8B563"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "5C522E1F91A69E66"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 1b, has_runic_power: 0b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:soulstealer" }
-				type: "item"
-			}]
-			x: 6.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["4A540441D426937E"]
-			id: "16F8E6EBFD4D9237"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "77DEC4DA5F7816C9"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "66DD59176C2CAACC"
+					id: "725C864B89368F32"
 					type: "xp"
 					xp: 100
 				}
 			]
 			tasks: [{
-				id: "1C5DAC169B531A05"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 0b, has_runic_power: 0b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:soulpyre" }
+				id: "6C1BA82D23B3C31C"
+				item: { count: 1, id: "simplyswords:dormant_relic" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -1.0d
+			x: 2.0d
+			y: 10.5d
 		}
 		{
-			dependencies: ["7C028D7354461C44"]
-			id: "0A993CDB83671E89"
-			progression_mode: "flexible"
+			dependencies: ["7871B76C7BB29425"]
+			id: "3BEC1B632A67EEB3"
 			rewards: [
 				{
-					id: "743C72BF0D655EED"
+					id: "59D9F29B89509082"
 					item: {
 						count: 1
-						id: "simplyswords:runic_tablet"
+						id: "simplyswords:netherfused_gem"
 					}
 					type: "item"
 				}
 				{
-					id: "388F1F694869BB85"
+					id: "4A36726E1AA2F7EC"
 					type: "xp"
-					xp: 200
+					xp: 150
 				}
 			]
 			tasks: [{
-				id: "77ECD142D0269531"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 1b, has_runic_power: 1b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:livyatan" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["5129E9A499DE133A"]
-			id: "2989EF92FC489C50"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "10731F4A1B07A53F"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "32D00A294C693911"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "5E0F419D4C1A1DE9"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 0b, has_runic_power: 0b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:icewhisper" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["630CB3AE62376C39"]
-			id: "111AF580E2915C69"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "4B62964BBCBBE6A3"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "03E80C407D9FC1DE"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "602E270020FAFA5B"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 0b, has_runic_power: 1b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:slumbering_lichblade" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: 6.5d
-		}
-		{
-			dependencies: ["3DF9E1C211851255"]
-			id: "3BE1C7E94E8F89F1"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "0B0F88C1066C7494"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "725CF9E338D9C00C"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "450A2E980267433C"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 0b, has_runic_power: 1b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:shadowsting" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["4A540441D426937E"]
-			id: "0408E1F6E82E9030"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "052C4C0DB5C0901F"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "1AA31F9C5982E5A1"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "297C2FCE49367639"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 0b, has_runic_power: 1b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:emberblade" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["4A540441D426937E"]
-			id: "5274BE2398789968"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "175CF85E607E917B"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "082509B98B70C66E"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "541B09B093F0A5DB"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 0b, has_runic_power: 1b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:waking_lichblade" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["4998DE2837CAAE90"]
-			id: "7D05FEDC71015EF4"
-			rewards: [
-				{
-					id: "1CE84222ACF03FAC"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "612B299D70008097"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "47CB78A0D0316D9E"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 1b, has_runic_power: 0b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:frostfall" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["7C028D7354461C44"]
-			id: "319A5915E6F0A715"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "258C945887C3D0A1"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "3B3C025A515BAB8E"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "090594103C510E3D"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 0b, has_runic_power: 1b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:watching_warglaive" }
+				id: "3565612B27870E42"
+				item: { count: 1, id: "simplyswords:righteous_relic" }
 				type: "item"
 			}]
 			x: 1.0d
-			y: -4.0d
+			y: 9.0d
 		}
 		{
-			dependencies: ["78A9855CB6F3B91D"]
-			id: "05BFADA3F1DB064F"
-			progression_mode: "flexible"
+			dependencies: ["7871B76C7BB29425"]
+			id: "64DC87636179E2F1"
 			rewards: [
 				{
-					id: "635A4377F6D34C62"
+					id: "66B7A1C791C4809F"
 					item: {
 						count: 1
-						id: "simplyswords:runic_tablet"
+						id: "simplyswords:runefused_gem"
 					}
 					type: "item"
 				}
 				{
-					id: "0B50E2D588870BB2"
+					id: "369F84F2EACD4843"
 					type: "xp"
-					xp: 200
+					xp: 150
 				}
 			]
 			tasks: [{
-				id: "109B578C7DF3D6C2"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 1b, has_runic_power: 0b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:bramblethorn" }
+				id: "6218FC9C6B8A4D65"
+				item: { count: 1, id: "simplyswords:tainted_relic" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: -4.0d
+			x: 3.0d
+			y: 9.0d
 		}
 		{
-			dependencies: ["5BA2B036717AC1D6"]
-			id: "3DF9E1C211851255"
-			progression_mode: "flexible"
+			dependencies: ["3BEC1B632A67EEB3"]
+			id: "40741DB5E02A42E8"
 			rewards: [
 				{
-					id: "3DA22042783F36E8"
+					id: "123A5806227C31C8"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "02C47CFB6EE2DC58"
 					item: {
 						count: 1
-						id: "simplyswords:runic_tablet"
+						id: "simplyswords:empowered_remnant"
 					}
 					type: "item"
 				}
-				{
-					id: "71DBFE875594D7F3"
-					type: "xp"
-					xp: 200
-				}
 			]
 			tasks: [{
-				id: "480230B98F3C00D4"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 1b, has_runic_power: 1b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:storms_edge" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["7D05FEDC71015EF4"]
-			id: "7F6CA73E36693198"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "0AB86B78CEDD20DE"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "6F12B59744CF7652"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "5ECA0EEECF167A3C"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 0b, has_runic_power: 0b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:brimstone_claymore" }
-				type: "item"
-			}]
-			x: -5.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["7D156AB6897F7D89"]
-			id: "3A620F38BADEA7C7"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "6EC3F47CB5F42851"
-					item: {
-						count: 1
-						id: "minecraft:apple"
-					}
-					type: "item"
-				}
-				{
-					id: "7F9A73C39DBF2AF0"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "54CF9F5B8096B855"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 0b, has_runic_power: 0b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:molten_edge" }
-				type: "item"
-			}]
-			x: -6.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["79D1AB3F352FA3EA"]
-			id: "264C7341909F72E6"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "1AA7584CF21E1620"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "7F6712CD9FD143EB"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "1E9664ECB2E12F4F"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 1b, has_runic_power: 0b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:soulrender" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["7C028D7354461C44"]
-			id: "493F913E64B6A174"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "1326E74B92619E2C"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "64CB933FFCBA6C8B"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "4A876D5DFCC4B33E"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 0b, has_runic_power: 1b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:watcher_claymore" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["78A9855CB6F3B91D"]
-			id: "79D1AB3F352FA3EA"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "03DF3420E6302D32"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "02BB5B377BF4A3B9"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "2B3E7998F71B6E1B"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 1b, has_runic_power: 1b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:righteous_relic" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["5129E9A499DE133A"]
-			id: "126DC4A12BD179A9"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "03027BC5A1B1DE88"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "1F7A98979297D1C8"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "4A2893B22D0290E8"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 1b, has_runic_power: 1b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:tainted_relic" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["7F6CA73E36693198"]
-			id: "1CB8EB19F937BF5E"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "7776577D450CAB15"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "766B9E39058B2018"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "16C637C8BA24F86A"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 0b, has_runic_power: 1b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:whisperwind" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["300F0E304A2E83F3"]
-			id: "630CB3AE62376C39"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "7C512B1360BA2D74"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "7EF81B1782DC5C6F"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "05962A507FE3E020"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 1b, has_runic_power: 0b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:emberlash" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["2B9DF670B021FEBE"]
-			id: "78A9855CB6F3B91D"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "0D35BDE0B4E90FA4"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "0BA994033F86C80D"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "7E0606C67CB56571"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 1b, has_runic_power: 0b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:hiveheart" }
-				type: "item"
-			}]
-			x: -5.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["7F6CA73E36693198"]
-			id: "7D156AB6897F7D89"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "0AD964C3FDAEDD1A"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "4177ECC7E84F1C60"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "51E753B5FB70E360"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 0b, has_runic_power: 1b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:waxweaver" }
-				type: "item"
-			}]
-			x: -5.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["4A540441D426937E"]
-			id: "54F8C8CD1F3CAE96"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "66D2EC2BF79EBB64"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "42D8EF285E413F25"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "0D505A7725764438"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 0b, has_runic_power: 1b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:enigma" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["77641E63220E520D"]
-			hide_dependency_lines: true
-			id: "2A1780C289D41EB7"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "29A275BA9D179932"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "131CCC844D99A79A"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "0BB4502513194B59"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 0b, has_runic_power: 1b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:caelestis" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["4998DE2837CAAE90"]
-			id: "71D0D0278ECC62BA"
-			optional: true
-			rewards: [
-				{
-					id: "0E19B2A18774E2C1"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "314F025DC5A47EF5"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "114A500BA4418A3A"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 0b, has_runic_power: 1b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:tempest" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["1C37884AFA3743A5"]
-			id: "5BA2B036717AC1D6"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "35357CE24FC3718F"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "77862D805D4D3EA9"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "49E258E415B683AB"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 1b, has_runic_power: 0b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:wraithfang" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["7C028D7354461C44"]
-			id: "150632A4D042ED3E"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "1DF2BDA767018C98"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "3AE982F81A7852F6"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "1A176C5FBF09BECB"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 1b, has_runic_power: 1b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:flamewind" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["23E8D42333165D58"]
-			id: "300F0E304A2E83F3"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "46ABD89252A3B15E"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "30B73C1C60C4FAEE"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "4076A0C389BEB4B7"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 1b, has_runic_power: 1b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:chompolotl" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["4998DE2837CAAE90"]
-			id: "56B1F0FBEA54B984"
-			rewards: [
-				{
-					id: "2ECE2610063F1FBE"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "72029E57DB00308A"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "40FFB81ED895E03C"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 0b, has_runic_power: 1b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:decaying_relic" }
-				type: "item"
-			}]
-			x: -4.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["5129E9A499DE133A"]
-			id: "23E8D42333165D58"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "12A4BF47291510FB"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "60D230E953921616"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "63841F393751F61D"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 1b, has_runic_power: 1b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:ribboncleaver" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["5129E9A499DE133A"]
-			id: "5135AD055B0C73DC"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "2508F64FD7229334"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "3DE1C3515A8E7842"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "7C86F8D686EBC901"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 0b, has_runic_power: 0b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:wickpiercer" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["764303F7078E8D84"]
-			id: "77641E63220E520D"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "4AD700322E72FCDF"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "0AAC8BB05B92B32C"
-					type: "xp"
-					xp: 200
-				}
-			]
-			tasks: [{
-				id: "0C03E6C337740752"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 0b, has_runic_power: 1b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:stars_edge" }
-				type: "item"
-			}]
-			x: 6.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["5CADDAA71291FAD5"]
-			id: "0DE7F91B3C5BFD92"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "179BB1D7EDF7FAA1"
-				item: {
-					count: 1
-					id: "simplyswords:empowered_remnant"
-				}
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "52034A0D76EC1F89"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 1b, has_runic_power: 0b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:awakened_lichblade" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["5CADDAA71291FAD5"]
-			id: "2ACE1660F10156EF"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "7A7A63DCD93F1786"
-				item: {
-					count: 1
-					id: "simplyswords:empowered_remnant"
-				}
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "224F3234425D870D"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 1b, has_runic_power: 0b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:sunfire" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["5CADDAA71291FAD5"]
-			id: "3D894852D181054E"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "6645DF0247EB84AD"
-				item: {
-					count: 1
-					id: "simplyswords:empowered_remnant"
-				}
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "61188D232F1920EF"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 1b, has_runic_power: 1b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:harbinger" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["5CADDAA71291FAD5"]
-			id: "7F823806CEEB9AAD"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "1C523D31BBD95255"
-				item: {
-					count: 1
-					id: "simplyswords:empowered_remnant"
-				}
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "6D513267DA6F81A5"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 1b, has_runic_power: 1b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:magiscythe" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: -7.0d
-		}
-		{
-			dependencies: ["5CADDAA71291FAD5"]
-			id: "1968836C4D0CF28D"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "54827AD65F7E1751"
-				item: {
-					count: 1
-					id: "simplyswords:empowered_remnant"
-				}
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "32A536D9DCE5022D"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 0b, has_runic_power: 1b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:magispear" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["5CADDAA71291FAD5"]
-			id: "1D7A5CDF78214F60"
-			progression_mode: "flexible"
-			rewards: [{
-				id: "48005DD274B90B67"
-				item: {
-					count: 1
-					id: "simplyswords:empowered_remnant"
-				}
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "2190406ABEEE81CD"
-				item: { components: { "simplyswords:gem_power": { has_nether_power: 1b, has_runic_power: 0b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, count: 1, id: "simplyswords:magiblade" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["3E8F8C7BBF0F1221"]
-			id: "52AEF77391A89D51"
-			rewards: [{
-				id: "6F23CBDC86F06EF8"
-				type: "xp"
-				xp: 200
-			}]
-			size: 1.0d
-			tasks: [{
-				id: "6AD79ACEE3BE33E9"
-				item: { count: 1, id: "minecraft:smithing_table" }
+				id: "67CEA9C790EA6DA6"
+				item: { count: 1, id: "simplyswords:sunfire" }
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["64DC87636179E2F1"]
+			id: "1BE798C021D09285"
+			rewards: [
+				{
+					id: "352ABEA2617C5D21"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "0F5BB6CFBD3DAE39"
+					item: {
+						count: 1
+						id: "simplyswords:empowered_remnant"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6717CEDB5688B2C9"
+				item: { count: 1, id: "simplyswords:harbinger" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"7CB30414B0872B60"
+				"1F49E3B962DAE427"
+				"1AAED172C12D80DD"
+			]
+			id: "68EA455054FFAE27"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "56B9F49E285E817D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "059BFB17906A4DA1"
+					item: {
+						count: 1
+						id: "simplyswords:runic_tablet"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					id: "39F6DAC9DCE1CBFF"
+					item: { count: 1, id: "simplyswords:toxic_longsword" }
+					type: "item"
+				}
+				{
+					id: "7C558A9591AB89C1"
+					item: { count: 1, id: "simplyswords:emberblade" }
+					type: "item"
+				}
+				{
+					id: "3235E18F103AE949"
+					item: { count: 1, id: "simplyswords:stormbringer" }
+					type: "item"
+				}
+				{
+					id: "509EA5E4F2815301"
+					item: { count: 1, id: "simplyswords:whisperwind" }
+					type: "item"
+				}
+				{
+					id: "023F44720FBF6753"
+					item: { count: 1, id: "simplyswords:bramblethorn" }
+					type: "item"
+				}
+				{
+					id: "360596C79A05AD6A"
+					item: { count: 1, id: "simplyswords:soulstealer" }
+					type: "item"
+				}
+				{
+					id: "00D8BE526E916B5B"
+					item: { count: 1, id: "simplyswords:shadowsting" }
+					type: "item"
+				}
+				{
+					id: "5AB65FAE8CB077EF"
+					item: { count: 1, id: "simplyswords:wraithfang" }
+					type: "item"
+				}
+				{
+					id: "4D82119C86382D44"
+					item: { count: 1, id: "simplyswords:emberlash" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 19.0d
+		}
+		{
+			dependencies: [
+				"7CB30414B0872B60"
+				"1F49E3B962DAE427"
+				"1AAED172C12D80DD"
+			]
+			id: "4E6586FB2328CED2"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "7F647001C7D7829B"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "281559EE0C20959A"
+					item: {
+						count: 1
+						id: "simplyswords:runic_tablet"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					id: "4C5C3016D12063AC"
+					item: { count: 1, id: "simplyswords:storms_edge" }
+					type: "item"
+				}
+				{
+					id: "7FC7DC88CA470780"
+					item: { count: 1, id: "simplyswords:twisted_blade" }
+					type: "item"
+				}
+				{
+					id: "19193D697574ACDE"
+					item: { count: 1, id: "simplyswords:waxweaver" }
+					type: "item"
+				}
+				{
+					id: "0E931DA36BD055D9"
+					item: { count: 1, id: "simplyswords:stars_edge" }
+					type: "item"
+				}
+				{
+					id: "56B2E467632F8B39"
+					item: { count: 1, id: "simplyswords:wickpiercer" }
+					type: "item"
+				}
+				{
+					id: "74087A173C2D4E69"
+					item: { count: 1, id: "simplyswords:flamewind" }
+					type: "item"
+				}
+				{
+					id: "7031668419C4347C"
+					item: { count: 1, id: "simplyswords:ribboncleaver" }
+					type: "item"
+				}
+				{
+					id: "18ABE4EBE6FE6F44"
+					item: { count: 1, id: "simplyswords:enigma" }
+					type: "item"
+				}
+				{
+					id: "6A92EA71DF11E5C4"
+					item: { count: 1, id: "simplyswords:caelestis" }
+					type: "item"
+				}
+				{
+					id: "7B65172498833231"
+					item: { count: 1, id: "simplyswords:watching_warglaive" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 21.0d
+		}
+		{
+			dependencies: [
+				"7CB30414B0872B60"
+				"1F49E3B962DAE427"
+				"1AAED172C12D80DD"
+			]
+			id: "13320C12E2EEE293"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "2F4C630589A500FE"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "4CC82E21947D8593"
+					item: {
+						count: 1
+						id: "simplyswords:runic_tablet"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					id: "489803F1AD99ADC3"
+					item: { count: 1, id: "simplyswords:hearthflame" }
+					type: "item"
+				}
+				{
+					id: "0C988A1EA9A5230A"
+					item: { count: 1, id: "simplyswords:soulkeeper" }
+					type: "item"
+				}
+				{
+					id: "30F01D3D61A91E1A"
+					item: { count: 1, id: "simplyswords:frostfall" }
+					type: "item"
+				}
+				{
+					id: "3EF1B98EC4F856D1"
+					item: { count: 1, id: "simplyswords:mjolnir" }
+					type: "item"
+				}
+				{
+					id: "4185A068D3022F64"
+					item: { count: 1, id: "simplyswords:hiveheart" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 21.0d
+		}
+		{
+			dependencies: [
+				"7CB30414B0872B60"
+				"1F49E3B962DAE427"
+				"1AAED172C12D80DD"
+			]
+			id: "7C7E19320C8B60CA"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "5FC5555030C35F10"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "7208DDD10F527CC4"
+					item: {
+						count: 1
+						id: "simplyswords:runic_tablet"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					id: "72376D8E71FFFAD5"
+					item: { count: 1, id: "simplyswords:soulpyre" }
+					type: "item"
+				}
+				{
+					id: "4679B92E3AA2263B"
+					item: { count: 1, id: "simplyswords:molten_edge" }
+					type: "item"
+				}
+				{
+					id: "4570AFD2723C44EC"
+					item: { count: 1, id: "simplyswords:livyatan" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 21.0d
+		}
+		{
+			dependencies: [
+				"7CB30414B0872B60"
+				"1F49E3B962DAE427"
+				"1AAED172C12D80DD"
+			]
+			id: "5278C19AAF881DDA"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "39364367B356D981"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "3B8EFB43EB1D259A"
+					item: {
+						count: 1
+						id: "simplyswords:runic_tablet"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					id: "5A639FD214BCE66F"
+					item: { count: 1, id: "simplyswords:icewhisper" }
+					type: "item"
+				}
+				{
+					id: "28C0395FA182CF32"
+					item: { count: 1, id: "simplyswords:arcanethyst" }
+					type: "item"
+				}
+				{
+					id: "50CB6D7E9E2D51F2"
+					item: { count: 1, id: "simplyswords:thunderbrand" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 21.0d
+		}
+		{
+			dependencies: [
+				"7CB30414B0872B60"
+				"1F49E3B962DAE427"
+				"1AAED172C12D80DD"
+			]
+			id: "050F03BD0D437F33"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "78AE2244129DC69C"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "308B3E6C1C215B04"
+					item: {
+						count: 1
+						id: "simplyswords:runic_tablet"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					id: "175E8772B3B6B066"
+					item: { count: 1, id: "simplyswords:soulrender" }
+					type: "item"
+				}
+				{
+					id: "47C717286FE83D05"
+					item: { count: 1, id: "simplyswords:tempest" }
+					type: "item"
+				}
+				{
+					id: "5CE24C34D92DA5E5"
+					item: { count: 1, id: "simplyswords:chompolotl" }
+					type: "item"
+				}
+				{
+					id: "1485568780BE5ADD"
+					item: { count: 1, id: "simplyswords:decaying_relic" }
+					type: "item"
+				}
+				{
+					id: "4BD1BB989D71793A"
+					item: { count: 1, id: "simplyswords:magiscythe" }
+					type: "item"
+				}
+				{
+					id: "0AF6522D1281218D"
+					item: { count: 1, id: "simplyswords:magispear" }
+					type: "item"
+				}
+				{
+					id: "41C59955FB1AE61E"
+					item: { count: 1, id: "simplyswords:magiblade" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 19.0d
 		}
 	]
 }

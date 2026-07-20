@@ -1,4 +1,5 @@
 {
+	autofocus_id: "4564B577CB4EC046"
 	default_hide_dependency_lines: false
 	default_quest_shape: "diamond"
 	filename: "artifacts"
@@ -7,14 +8,35 @@
 		id: "artifacts:umbrella"
 	}
 	id: "7AF827D2D101D343"
-	images: [{
-		height: 30.0d
-		image: "twilightdelight:block/aurora_pie_top"
-		rotation: 0.0d
-		width: 30.0d
-		x: 3.0d
-		y: -4.0d
-	}]
+	images: [
+		{
+			height: 20.0d
+			image: "ars_ocultas:item/_glyph_template_augment"
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			height: 70.0d
+			image: "irons_spellbooks:item/upgrade_orb_swirl"
+			order: -1
+			rotation: 0.0d
+			width: 70.0d
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			alpha: 50
+			height: 150.0d
+			image: "occultism:block/dimensional_mineshaft_portal"
+			order: -10
+			rotation: 0.0d
+			width: 150.0d
+			x: 0.0d
+			y: 1.5d
+		}
+	]
 	order_index: 7
 	quest_links: [ ]
 	quests: [
@@ -39,8 +61,8 @@
 				item: { count: 1, id: "artifacts:flippers" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.5d
+			x: -2.5d
+			y: 6.0d
 		}
 		{
 			hide_details_until_startable: false
@@ -64,8 +86,8 @@
 				item: { count: 1, id: "artifacts:steadfast_spikes" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.5d
+			x: -3.5d
+			y: 4.0d
 		}
 		{
 			id: "4A7AEBEB87CEC274"
@@ -88,8 +110,8 @@
 				item: { count: 1, id: "artifacts:running_shoes" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 2.5d
+			x: 2.5d
+			y: 6.0d
 		}
 		{
 			id: "122E6E7CABCB17E7"
@@ -112,8 +134,8 @@
 				item: { count: 1, id: "artifacts:kitty_slippers" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 2.5d
+			x: 3.0d
+			y: 5.0d
 		}
 		{
 			id: "5040B3D29F238BC0"
@@ -159,8 +181,8 @@
 				item: { count: 1, id: "artifacts:aqua_dashers" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.5d
+			x: -3.0d
+			y: 5.0d
 		}
 		{
 			id: "7188DC06A28AE30E"
@@ -182,8 +204,8 @@
 				item: { count: 1, id: "artifacts:golden_hook" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: -5.0d
+			x: 1.5d
+			y: -3.5d
 		}
 		{
 			id: "73FC51144FC2DA52"
@@ -205,8 +227,8 @@
 				item: { count: 1, id: "artifacts:vampiric_glove" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -3.0d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			id: "3B3BD39BA02DCA13"
@@ -229,8 +251,8 @@
 				item: { count: 1, id: "artifacts:pocket_piston" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -4.5d
+			x: -2.0d
+			y: -3.0d
 		}
 		{
 			id: "427014BDE06DE631"
@@ -252,7 +274,7 @@
 				item: { count: 1, id: "artifacts:fire_gauntlet" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 1.0d
 			y: -4.0d
 		}
 		{
@@ -276,8 +298,8 @@
 				item: { count: 1, id: "artifacts:power_glove" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -4.5d
+			x: 2.0d
+			y: -3.0d
 		}
 		{
 			id: "6A452BFC8A967C39"
@@ -300,8 +322,8 @@
 				item: { count: 1, id: "artifacts:feral_claws" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -5.5d
+			x: -1.5d
+			y: -3.5d
 		}
 		{
 			id: "3525D5DCC3A534D9"
@@ -323,8 +345,8 @@
 				item: { count: 1, id: "artifacts:digging_claws" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: -5.0d
+			x: -1.0d
+			y: -4.0d
 		}
 		{
 			id: "589F1D502F680075"
@@ -347,8 +369,8 @@
 				item: { count: 1, id: "artifacts:helium_flamingo" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: -1.0d
+			x: 0.0d
+			y: 4.5d
 		}
 		{
 			id: "623796B1D7981E59"
@@ -371,8 +393,8 @@
 				item: { count: 1, id: "artifacts:crystal_heart" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.5d
+			x: -1.0d
+			y: 6.0d
 		}
 		{
 			id: "1E40ACF3E69A4100"
@@ -395,8 +417,8 @@
 				item: { count: 1, id: "artifacts:antidote_vessel" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.5d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			id: "5EB7CE3A1DCD3E9B"
@@ -419,8 +441,8 @@
 				item: { count: 1, id: "artifacts:universal_attractor" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.5d
+			x: 1.0d
+			y: 6.0d
 		}
 		{
 			id: "4933CF4675E77D50"
@@ -443,8 +465,8 @@
 				item: { count: 1, id: "artifacts:obsidian_skull" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -0.5d
+			x: -1.5d
+			y: 5.0d
 		}
 		{
 			id: "436E4E3515BCCDE9"
@@ -467,8 +489,8 @@
 				item: { count: 1, id: "artifacts:cloud_in_a_bottle" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -0.5d
+			x: 1.5d
+			y: 5.0d
 		}
 		{
 			id: "221C9EDA651144BA"
@@ -491,8 +513,8 @@
 				item: { count: 1, id: "artifacts:charm_of_sinking" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -6.0d
+			x: -0.5d
+			y: -1.5d
 		}
 		{
 			id: "3446803FB59D8875"
@@ -515,8 +537,8 @@
 				item: { count: 1, id: "artifacts:thorn_pendant" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -6.0d
+			x: 0.5d
+			y: -1.5d
 		}
 		{
 			id: "27E951F4F4F6F847"
@@ -539,8 +561,8 @@
 				item: { count: 1, id: "artifacts:flame_pendant" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -4.5d
+			x: -3.0d
+			y: 2.5d
 		}
 		{
 			id: "70C7D92844089DEB"
@@ -563,8 +585,8 @@
 				item: { count: 1, id: "artifacts:shock_pendant" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -3.5d
+			x: -2.0d
+			y: 3.5d
 		}
 		{
 			id: "0E716B90E60C486B"
@@ -587,8 +609,8 @@
 				item: { count: 1, id: "artifacts:panic_necklace" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.5d
+			x: 2.0d
+			y: 3.5d
 		}
 		{
 			id: "72D6265E35814927"
@@ -611,8 +633,8 @@
 				item: { count: 1, id: "artifacts:cross_necklace" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -5.5d
+			x: -3.5d
+			y: 1.5d
 		}
 		{
 			id: "7503823ACDDB0491"
@@ -635,8 +657,8 @@
 				item: { count: 1, id: "artifacts:lucky_scarf" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -4.5d
+			x: 3.0d
+			y: 2.5d
 		}
 		{
 			id: "145E7D1A88B83DDD"
@@ -659,8 +681,8 @@
 				item: { count: 1, id: "artifacts:scarf_of_invisibility" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -5.5d
+			x: 3.5d
+			y: 1.5d
 		}
 		{
 			id: "5F5E43B3F51CAE9E"
@@ -683,8 +705,8 @@
 				item: { count: 1, id: "artifacts:superstitious_hat" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -9.0d
+			x: -3.5d
+			y: 0.0d
 		}
 		{
 			id: "73B73870B29DFAD9"
@@ -707,8 +729,8 @@
 				item: { count: 1, id: "artifacts:villager_hat" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -9.0d
+			x: 3.5d
+			y: 0.0d
 		}
 		{
 			id: "2AD78E22988A92D3"
@@ -731,8 +753,8 @@
 				item: { count: 1, id: "artifacts:night_vision_goggles" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -11.0d
+			x: -2.5d
+			y: -2.0d
 		}
 		{
 			id: "16255FB20F35A9D9"
@@ -755,8 +777,8 @@
 				item: { count: 1, id: "artifacts:snorkel" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -10.0d
+			x: -3.0d
+			y: -1.0d
 		}
 		{
 			id: "3E0643EA9183CDAE"
@@ -779,8 +801,8 @@
 				item: { count: 1, id: "artifacts:novelty_drinking_hat" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -11.0d
+			x: 2.5d
+			y: -2.0d
 		}
 		{
 			id: "2607F3DC07049785"
@@ -803,8 +825,8 @@
 				item: { count: 1, id: "artifacts:plastic_drinking_hat" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -10.0d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
 			id: "789AF6D0A6321945"
@@ -827,8 +849,8 @@
 				item: { count: 1, id: "artifacts:whoopee_cushion" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -4.0d
+			x: 0.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["4564B577CB4EC046"]
@@ -852,8 +874,8 @@
 				item: { count: 1, id: "artifacts:eternal_steak" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -2.5d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			id: "4564B577CB4EC046"
@@ -876,8 +898,8 @@
 				item: { count: 1, id: "artifacts:everlasting_beef" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -4.0d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
 			id: "3E1A3BC8642390B3"
@@ -900,8 +922,8 @@
 				item: { count: 1, id: "artifacts:umbrella" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: -4.0d
+			x: 0.0d
+			y: -2.5d
 		}
 		{
 			id: "5CE44C58A470E48E"
@@ -926,8 +948,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 2.5d
-			y: -7.75d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			id: "0D83F8DE343CC692"
@@ -949,8 +971,8 @@
 				item: { count: 1, id: "artifacts:charm_of_shrinking" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -3.0d
+			x: 1.5d
+			y: -1.0d
 		}
 		{
 			id: "5A850270C6244C1C"
@@ -972,8 +994,8 @@
 				item: { count: 1, id: "artifacts:warp_drive" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -2.0d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			id: "4D3E80F0F4ED8DE6"
@@ -995,8 +1017,8 @@
 				item: { count: 1, id: "artifacts:chorus_totem" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.5d
+			x: 2.0d
+			y: 0.5d
 		}
 		{
 			id: "6B8B1D5E650D5409"
@@ -1018,8 +1040,8 @@
 				item: { count: 1, id: "artifacts:onion_ring" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -2.5d
+			x: 2.0d
+			y: -0.5d
 		}
 		{
 			id: "250AD9EF7CE0AD15"
@@ -1041,8 +1063,8 @@
 				item: { count: 1, id: "artifacts:snowshoes" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.5d
+			x: -2.0d
+			y: 0.5d
 		}
 		{
 			id: "554FBE341BD1ABCE"
@@ -1064,8 +1086,8 @@
 				item: { count: 1, id: "artifacts:withered_bracelet" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -2.5d
+			x: -2.0d
+			y: -0.5d
 		}
 		{
 			id: "0C0A027F98257FF0"
@@ -1087,8 +1109,8 @@
 				item: { count: 1, id: "artifacts:pickaxe_heater" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -3.0d
+			x: -1.5d
+			y: -1.0d
 		}
 		{
 			id: "47EBD49B34B70B3D"
@@ -1105,13 +1127,14 @@
 					type: "random"
 				}
 			]
+			shape: "hexagon"
 			tasks: [{
 				id: "04DAE6DE3AE36671"
 				item: { count: 1, id: "artifacts:rooted_boots" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.5d
+			x: 3.5d
+			y: 4.0d
 		}
 		{
 			id: "69FBD7B65032E2A1"
@@ -1133,8 +1156,8 @@
 				item: { count: 1, id: "artifacts:strider_shoes" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -2.0d
+			x: -1.5d
+			y: 0.0d
 		}
 	]
 }

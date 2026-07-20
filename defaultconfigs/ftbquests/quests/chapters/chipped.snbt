@@ -7,6 +7,58 @@
 		id: "chipped:alchemy_book"
 	}
 	id: "09B51B73EB9D06C0"
+	images: [
+		{
+			height: 12.0d
+			image: "immersiveengineering:item/blueprint"
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			height: 2.0d
+			image: "refurbished_furniture:item/wrench"
+			rotation: -20.0d
+			width: 2.0d
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			height: 2.0d
+			image: "chipped:item/chisel"
+			rotation: -80.0d
+			width: 2.0d
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			height: 2.0d
+			image: "chipped:item/saw"
+			rotation: -70.0d
+			width: 2.0d
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:item/shears"
+			rotation: 80.0d
+			width: 2.0d
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			alpha: 50
+			height: 150.0d
+			image: "occultism:block/dimensional_mineshaft_portal"
+			order: -10
+			rotation: 0.0d
+			width: 150.0d
+			x: 0.5d
+			y: 0.0d
+		}
+	]
 	order_index: 7
 	quest_links: [ ]
 	quests: [

@@ -64,6 +64,16 @@
 			x: 9.5d
 			y: -7.0d
 		}
+		{
+			alpha: 50
+			height: 150.0d
+			image: "occultism:block/dimensional_mineshaft_portal"
+			order: -10
+			rotation: 0.0d
+			width: 150.0d
+			x: 9.5d
+			y: -2.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -1791,7 +1801,7 @@
 				}
 			]
 			x: 9.5d
-			y: -8.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["145F289BB1DA8493"]
@@ -1859,7 +1869,43 @@
 				}
 			]
 			x: 9.5d
-			y: -6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2F373418D163EAEF"]
+			id: "4863DE7281E0618E"
+			tasks: [{
+				entity: "createnuclear:irradiated_cat"
+				id: "5D87499A134F92F3"
+				type: "kill"
+				value: 10L
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2F373418D163EAEF"]
+			id: "146676497F2BEEF1"
+			tasks: [{
+				entity: "createnuclear:irradiated_chicken"
+				id: "0E99E6FD16E33B32"
+				type: "kill"
+				value: 10L
+			}]
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2F373418D163EAEF"]
+			id: "095DAD4E06100FE6"
+			tasks: [{
+				entity: "createnuclear:irradiated_wolf"
+				id: "6EB5D743625DD36C"
+				type: "kill"
+				value: 10L
+			}]
+			x: 11.0d
+			y: -5.0d
 		}
 	]
 }

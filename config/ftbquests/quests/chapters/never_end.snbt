@@ -1,4 +1,5 @@
 {
+	autofocus_id: "2000000000000003"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "never_end"
@@ -9,24 +10,1412 @@
 	id: "1CA674828FA25CF1"
 	images: [
 		{
-			height: 20.0d
+			height: 25.0d
 			image: "rechiseled:block/obsidian_chiseled_circles"
-			order: 1
+			order: 3
 			rotation: 0.0d
-			width: 20.0d
+			width: 25.0d
+			x: 13.0d
+			y: 6.25d
+		}
+		{
+			height: 7.0d
+			image: "ends_delight:block/end_stove_side"
+			order: 2
+			rotation: 0.0d
+			width: 7.0d
+			x: 20.67d
+			y: -7.0d
+		}
+		{
+			height: 7.0d
+			image: "ends_delight:block/end_stove_side"
+			order: 2
+			rotation: 0.0d
+			width: 7.0d
+			x: 5.3d
+			y: -7.0d
+		}
+		{
+			height: 7.0d
+			image: "ends_delight:block/end_stove_side"
+			order: 2
+			rotation: 0.0d
+			width: 7.0d
+			x: 10.5d
+			y: -7.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 19.5d
+			y: -13.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 18.5d
+			y: -13.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 18.5d
+			y: -12.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 18.5d
+			y: -11.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 21.5d
+			y: -14.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 21.5d
+			y: -15.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 18.5d
+			y: -14.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 18.5d
+			y: -15.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 18.5d
+			y: -16.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: -11.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 14.0d
+			y: -11.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 14.0d
+			y: -12.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 14.0d
+			y: -13.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 14.0d
+			y: -14.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: -12.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: -13.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: -14.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: -15.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: -16.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: -17.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: -18.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.0d
+			y: -17.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: -19.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: -20.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 8.0d
+			y: -14.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 10.0d
+			y: -16.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.0d
+			y: -12.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 13.0d
+			y: -12.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 15.0d
+			y: -14.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 15.0d
+			y: -15.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 16.0d
+			y: -15.5d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 12.0d
+			y: -12.5d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 9.0d
+			y: -14.5d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 9.0d
+			y: -15.5d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: -17.5d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: -18.5d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 17.5d
+			y: -11.5d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower"
+			rotation: 0.0d
+			width: 1.2d
+			x: 21.5d
+			y: -16.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower"
+			rotation: 0.0d
+			width: 1.2d
+			x: 18.5d
+			y: -17.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower"
+			rotation: 0.0d
+			width: 1.2d
+			x: 12.0d
+			y: -13.5d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower"
+			rotation: 0.0d
+			width: 1.2d
+			x: 16.0d
+			y: -16.5d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower"
+			rotation: 0.0d
+			width: 1.2d
+			x: 10.0d
+			y: -17.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower"
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: -12.5d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: -21.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower"
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: -19.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower"
+			rotation: 0.0d
+			width: 1.2d
+			x: 16.5d
+			y: -12.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 20.5d
+			y: -13.5d
+		}
+		{
+			alpha: 50
+			height: 100.0d
+			image: "occultism:block/dimensional_mineshaft_portal"
+			order: -10
+			rotation: 0.0d
+			width: 100.0d
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			height: 7.0d
+			image: "ends_delight:block/end_stove_side"
+			order: 2
+			rotation: 0.0d
+			width: 7.0d
+			x: 15.5d
+			y: -7.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 14.0d
+			y: -10.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.0d
+			y: -10.0d
+		}
+		{
+			height: 1.2d
+			image: "minecraft:block/chorus_flower_dead"
+			rotation: 0.0d
+			width: 1.2d
+			x: 18.5d
+			y: -10.0d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			rotation: 0.0d
+			width: 1.2d
+			x: 14.0d
+			y: 14.5d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 14.5d
+			y: 14.0d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 15.5d
+			y: 14.0d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 16.5d
+			y: 14.0d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 17.5d
+			y: 14.0d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 18.5d
+			y: 14.0d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 19.5d
+			y: 14.0d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 20.5d
+			y: 14.0d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 21.5d
+			y: 13.0d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 22.5d
+			y: 12.0d
+		}
+		{
+			height: 2.0d
+			image: "somemoreblocks:block/chiseled_purpur"
+			rotation: 0.0d
+			width: 3.0d
+			x: 16.0d
+			y: 12.5d
+		}
+		{
+			height: 2.0d
+			image: "somemoreblocks:block/chiseled_purpur"
+			order: 8
+			rotation: 0.0d
+			width: 3.0d
+			x: 16.25d
+			y: 12.75d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 14.5d
+			y: 11.5d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 15.5d
+			y: 11.5d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 16.0d
+			y: 11.5d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 17.0d
+			y: 11.5d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 17.5d
+			y: 11.5d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 18.0d
+			y: 12.5d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 18.0d
+			y: 13.0d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 19.0d
+			y: 13.0d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 20.0d
+			y: 13.0d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 20.5d
+			y: 13.0d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 21.5d
+			y: 12.0d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 20.5d
+			y: 12.0d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 19.0d
+			y: 12.0d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 20.0d
+			y: 12.0d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 18.0d
+			y: 12.0d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 21.5d
+			y: 11.5d
+		}
+		{
+			height: 0.6d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 22.5d
+			y: 11.0d
+		}
+		{
+			height: 0.6d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 23.5d
+			y: 10.5d
+		}
+		{
+			height: 0.6d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 24.5d
+			y: 10.0d
+		}
+		{
+			height: 0.6d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 23.5d
+			y: 11.75d
+		}
+		{
+			height: 0.6d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 24.5d
+			y: 11.78d
+		}
+		{
+			height: 4.0d
+			image: "chipped:block/crying_obsidian/crying_obsidian_scales"
+			rotation: 0.0d
+			width: 1.75d
+			x: 6.5d
+			y: 11.25d
+		}
+		{
+			height: 8.0d
+			image: "placebo:textures/wings/bat.png"
+			order: 4
+			rotation: 0.0d
+			width: 8.0d
+			x: 6.5d
+			y: 13.25d
+		}
+		{
+			height: 2.0d
+			image: "ftblibrary:textures/faces/minecraft/ender_dragon.png"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.5d
+			y: 13.25d
+		}
+		{
+			color: 4210752
+			height: 1.25d
+			image: "ftblibrary:textures/faces/iceandfire/lightning_dragon.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 25.25d
+			y: 11.5d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 19.5d
+			y: 11.0d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 19.5d
+			y: 10.5d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 19.5d
+			y: 9.5d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 19.5d
+			y: 8.5d
+		}
+		{
+			height: 1.2d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 19.5d
+			y: 7.5d
+		}
+		{
+			height: 0.6d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 18.5d
+			y: 7.5d
+		}
+		{
+			height: 0.6d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 20.5d
+			y: 7.5d
+		}
+		{
+			height: 0.6d
+			image: "somemoreblocks:block/cracked_purpur_block"
+			order: 10
+			rotation: 0.0d
+			width: 1.2d
+			x: 19.5d
+			y: 6.8d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.5d
+			y: -2.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/podzol_side"
+			order: 6
+			rotation: 0.0d
+			width: 1.5d
+			x: 18.5d
+			y: 1.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/mycelium_side"
+			order: 6
+			rotation: 0.0d
+			width: 1.5d
+			x: 18.5d
+			y: -5.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/warped_nylium_side"
+			order: 6
+			rotation: 0.0d
+			width: 1.5d
+			x: 16.0d
+			y: -3.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/crimson_nylium_side"
+			order: 6
+			rotation: 0.0d
+			width: 1.5d
+			x: 21.0d
+			y: -0.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/moss_block"
+			order: 6
+			rotation: 0.0d
+			width: 1.5d
+			x: 17.0d
+			y: 0.5d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/sand/desert_sand"
+			order: 6
+			rotation: 0.0d
+			width: 1.5d
+			x: 21.0d
+			y: -3.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/red_sand"
+			order: 6
+			rotation: 0.0d
+			width: 1.5d
+			x: 16.0d
+			y: -0.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/clay"
+			order: 6
+			rotation: 0.0d
+			width: 1.5d
+			x: 20.0d
+			y: 0.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/gravel"
+			order: 6
+			rotation: 0.0d
+			width: 1.5d
+			x: 17.0d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			image: "deep_aether:block/aether_mud"
+			order: 6
+			rotation: 0.0d
+			width: 1.5d
+			x: 20.0d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/rooted_dirt"
+			order: 6
+			rotation: 0.0d
+			width: 1.5d
+			x: 15.5d
+			y: -2.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/dirt"
+			order: 6
+			rotation: 0.0d
+			width: 1.5d
+			x: 21.5d
+			y: -2.0d
+		}
+		{
+			height: 2.5d
+			image: "minecraft:block/grass_block_side"
+			order: 6
+			rotation: 0.0d
+			width: 2.5d
+			x: 18.5d
+			y: -2.0d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 9.5d
+			y: -7.0d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
 			x: 12.5d
+			y: 0.5d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.5d
+			y: -10.0d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 8.0d
+			y: -9.5d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 10.0d
+			y: -6.5d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 13.5d
+			y: -6.5d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 15.5d
+			y: -8.5d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 9.5d
+			y: 8.0d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 16.0d
+			y: -6.5d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 19.0d
+			y: -8.0d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 11.5d
+			y: -8.5d
+		}
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/endermite.png"
+			order: 5
+			rotation: 0.0d
+			width: 1.2d
+			x: 12.5d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/awnings/awning_purple"
+			order: 4
+			rotation: 0.0d
+			width: 1.0d
+			x: 67.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/awnings/awning_purple"
+			order: 4
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/awnings/awning_purple"
+			order: 4
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/awnings/awning_purple"
+			order: 4
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/awnings/awning_purple"
+			order: 4
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/awnings/awning_purple"
+			order: 4
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/awnings/awning_purple"
+			order: 4
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
 			y: 4.0d
 		}
 		{
-			height: 300.0d
-			image: "apothic_enchanting:textures/advancements/bg/apoth.png"
+			height: 1.0d
+			image: "supplementaries:block/awnings/awning_purple"
+			order: 4
 			rotation: 0.0d
-			width: 300.0d
-			x: 12.0d
-			y: 3.0d
+			width: 1.0d
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/awnings/awning_purple"
+			order: 4
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/awnings/awning_purple"
+			order: 4
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/awnings/awning_purple"
+			order: 4
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/awnings/awning_purple"
+			order: 4
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.0d
+			y: -7.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/awnings/awning_purple"
+			order: 4
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -9.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/awnings/awning_purple"
+			order: 4
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/awnings/awning_purple"
+			order: 4
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:block/awnings/awning_purple"
+			order: 4
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: -3.5d
 		}
 	]
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -63,6 +1452,15 @@
 					id: "3D8993245866A333"
 					type: "xp"
 					xp: 200
+				}
+				{
+					count: 2
+					id: "5854DA36A3295D65"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
 				}
 			]
 			shape: "gear"
@@ -400,8 +1798,8 @@
 				item: { count: 1, id: "minecraft:ender_eye" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 2.0d
+			x: 11.0d
+			y: 0.0d
 		}
 		{
 			id: "011AA225E68028D2"
@@ -426,8 +1824,8 @@
 				structure: "minecraft:stronghold"
 				type: "structure"
 			}]
-			x: 7.5d
-			y: 2.0d
+			x: 11.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2000000000000003"]
@@ -444,6 +1842,1304 @@
 			}]
 			x: 12.73809523809527d
 			y: 4.983333333333377d
+		}
+		{
+			dependencies: ["2000000000000003"]
+			id: "468297F6FA9EAB4A"
+			rewards: [
+				{
+					id: "0666DD072D2A812A"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "1BECD04354228CA7"
+					item: {
+						count: 1
+						id: "minecraft:dragon_egg"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0A73B4E3AF32E844"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "7CE4322407696E43"
+				type: "kill"
+				value: 10L
+			}]
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["468297F6FA9EAB4A"]
+			id: "096F652A3F3EB4CA"
+			rewards: [
+				{
+					auto: "enabled"
+					count: 4
+					id: "1CB3C18AC898D1CE"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "7C4669FCB24B1EE3"
+					item: {
+						count: 1
+						id: "minecraft:dragon_egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "5400ABAC2AF5BE15"
+				type: "kill"
+				value: 25L
+			}]
+			x: 5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["096F652A3F3EB4CA"]
+			id: "272D96B2C62F9D90"
+			rewards: [
+				{
+					count: 6
+					id: "2A774E053BC7CA36"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "646EA0B2D9ED38C9"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "51C04DBA5E894B68"
+					item: {
+						count: 1
+						id: "minecraft:dragon_egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "275ABD9BAF344B7D"
+				type: "kill"
+				value: 50L
+			}]
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["272D96B2C62F9D90"]
+			id: "634F114F69BB5B45"
+			rewards: [
+				{
+					count: 6
+					id: "1A3537939F8A8A1C"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "31D60C8043E17404"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0DC9A7F882DE854E"
+					item: {
+						count: 1
+						id: "minecraft:dragon_egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "2170DC02EC362495"
+				type: "kill"
+				value: 100L
+			}]
+			x: 3.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["634F114F69BB5B45"]
+			id: "50D359FDD5AE7A07"
+			rewards: [
+				{
+					count: 6
+					id: "58271D36085F2285"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4B446BE0ED89FF65"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "75DC21282880A9F7"
+					item: {
+						count: 1
+						id: "minecraft:dragon_egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "1894A3BA1F94E4F5"
+				type: "kill"
+				value: 150L
+			}]
+			x: 4.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["50D359FDD5AE7A07"]
+			id: "39125FF182B9B797"
+			rewards: [
+				{
+					count: 6
+					id: "45B8CAC475A48A5C"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6BCA84C5A0D0A94B"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "4E77659C106144AA"
+					item: {
+						count: 1
+						id: "minecraft:dragon_egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "3921EC009F7314C6"
+				type: "kill"
+				value: 200L
+			}]
+			x: 5.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["39125FF182B9B797"]
+			id: "5E47A5271BC6289B"
+			rewards: [
+				{
+					count: 6
+					id: "41B0C951385254F8"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4671C483E2967258"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "275807850D48086C"
+					item: {
+						count: 1
+						id: "minecraft:dragon_egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "29975963CD1F079E"
+				type: "kill"
+				value: 250L
+			}]
+			x: 6.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5E47A5271BC6289B"]
+			id: "1A00FBCC0A1456AA"
+			rewards: [
+				{
+					count: 6
+					id: "6E89E27728E45E33"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "22480BA43F5FAE4C"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "20B3793187AE5D4F"
+					item: {
+						count: 1
+						id: "minecraft:dragon_egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "3F8746472E87F059"
+				type: "kill"
+				value: 300L
+			}]
+			x: 8.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1A00FBCC0A1456AA"]
+			id: "13A953A8F5F6F12C"
+			rewards: [
+				{
+					count: 6
+					id: "31BCB3840FA8E046"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0ED7B5B931D5A024"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "6967870A7222F962"
+					item: {
+						count: 1
+						id: "minecraft:dragon_egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "582938B47DE2702D"
+				type: "kill"
+				value: 350L
+			}]
+			x: 9.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"13A953A8F5F6F12C"
+				"3E3486B4519A2CC9"
+			]
+			id: "61DA10298B7D3AB5"
+			rewards: [
+				{
+					count: 6
+					id: "0AC8564D6EC1CBFA"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1236ACDEEA091C0D"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "02A740FB9E58D2A8"
+					item: {
+						count: 1
+						id: "minecraft:dragon_egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "7A933996C3B7D4A4"
+				type: "kill"
+				value: 400L
+			}]
+			x: 9.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6925901B33F029A4"]
+			id: "3E3486B4519A2CC9"
+			rewards: [
+				{
+					count: 6
+					id: "23BE360C4C3B6865"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "48EA98807FBD2E00"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "6D3914804015A9B3"
+					item: {
+						count: 1
+						id: "minecraft:dragon_egg"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "24DB11F810D2CBAD"
+				type: "kill"
+				value: 450L
+			}]
+			x: 9.0d
+			y: 10.5d
+		}
+		{
+			id: "6925901B33F029A4"
+			rewards: [
+				{
+					count: 6
+					id: "2D49932F3D7A00F4"
+					item: {
+						count: 1
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "56745585D92580BC"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5D0FE20C86FA696E"
+					item: {
+						count: 1
+						id: "minecraft:dragon_egg"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "219E01530A5C3B40"
+				type: "kill"
+				value: 500L
+			}]
+			x: 6.547619047619065d
+			y: 11.833333333333371d
+		}
+		{
+			dependencies: ["46D3C2E4A680BA6A"]
+			icon: {
+				id: "minecraft:endermite_spawn_egg"
+			}
+			id: "3499042CAE38869F"
+			rewards: [{
+				count: 6
+				id: "674D5C4460D29EF9"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:endermite"
+				id: "5E9E301B295FCBB4"
+				type: "kill"
+				value: 200L
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7BDE68BB2744C232"]
+			id: "2030B930943661C1"
+			rewards: [{
+				count: 4
+				id: "5F3BFB85A6D55292"
+				item: {
+					count: 1
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:endermite"
+				id: "0645214A204AB7D9"
+				type: "kill"
+				value: 25L
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B7868E6896CEC35"]
+			id: "5099BBEA8F3D31F9"
+			rewards: [{
+				count: 4
+				id: "7A5357C6777E9894"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:endermite"
+				id: "67CF4CC4262921F5"
+				type: "kill"
+				value: 600L
+			}]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1743A28AB176BDE1"]
+			id: "0B7868E6896CEC35"
+			rewards: [{
+				count: 3
+				id: "161C7859BB657F49"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:endermite"
+				id: "08A372F5B233C4A5"
+				type: "kill"
+				value: 500L
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2030B930943661C1"]
+			id: "1AEC6AAC04606372"
+			rewards: [{
+				count: 2
+				id: "35C6714143DFAE57"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:endermite"
+				id: "77A2E28641D3CAF2"
+				type: "kill"
+				value: 50L
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1AEC6AAC04606372"]
+			id: "46D3C2E4A680BA6A"
+			rewards: [{
+				count: 4
+				id: "132FE13AB21551E5"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:endermite"
+				id: "13FE7D2561C3574E"
+				type: "kill"
+				value: 100L
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3499042CAE38869F"]
+			id: "76D73F052612FB83"
+			rewards: [{
+				id: "5B1A9FA5FCD35FB3"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:endermite"
+				id: "6DFCC6A7D8B08D1C"
+				type: "kill"
+				value: 300L
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["76D73F052612FB83"]
+			id: "1743A28AB176BDE1"
+			rewards: [{
+				count: 2
+				id: "324C7A85CED0BD9C"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:endermite"
+				id: "70967C59A63F68D6"
+				type: "kill"
+				value: 400L
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5099BBEA8F3D31F9"]
+			id: "211C346620DE2C18"
+			rewards: [{
+				count: 5
+				id: "28F5734D03635F37"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:endermite"
+				id: "768E6C829A0AC4F8"
+				type: "kill"
+				value: 700L
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["62AE6001A9E38ECA"]
+			id: "35BA2588B906EB5C"
+			rewards: [{
+				count: 7
+				id: "49CA7085B727F188"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:endermite"
+				id: "2341ED7E54F134D1"
+				type: "kill"
+				value: 900L
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "7BDE68BB2744C232"
+			rewards: [{
+				count: 2
+				id: "5ECE83CF12F9A5E7"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:endermite"
+				id: "18061B317C2E88CB"
+				type: "kill"
+				value: 10L
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["211C346620DE2C18"]
+			id: "62AE6001A9E38ECA"
+			rewards: [{
+				count: 6
+				id: "7608780DB31EB7A8"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:endermite"
+				id: "3CA7B65CF34B77EA"
+				type: "kill"
+				value: 800L
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["35BA2588B906EB5C"]
+			id: "539E5E6776CBCD88"
+			rewards: [{
+				id: "48702BCBD4DF0766"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				entity: "minecraft:endermite"
+				id: "0A1252E4012455CF"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 6.547619047619079d
+			y: -2.607142857142847d
+		}
+		{
+			dependencies: ["41DF531F7FAFE8F7"]
+			id: "73D5994069349C08"
+			rewards: [{
+				count: 5
+				id: "450DDADFEDB670E8"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "769A21D968D601A2"
+				type: "kill"
+				value: 700L
+			}]
+			x: 21.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["194493FD7247E724"]
+			id: "3B812761AB06379D"
+			rewards: [{
+				count: 3
+				id: "3218E0EF1EA43458"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "6A1AEF5866CE6F73"
+				type: "kill"
+				value: 500L
+			}]
+			x: 21.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7DD9DB924D7D3BDD"]
+			id: "194493FD7247E724"
+			rewards: [{
+				count: 2
+				id: "4FD9A57ABAA00480"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "7E26D5F06104827F"
+				type: "kill"
+				value: 400L
+			}]
+			x: 20.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3B812761AB06379D"]
+			id: "41DF531F7FAFE8F7"
+			rewards: [{
+				count: 4
+				id: "6E902CC330EEF963"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "1AE4314E4E2A9D30"
+				type: "kill"
+				value: 600L
+			}]
+			x: 21.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["21CA4488A31F4744"]
+			icon: {
+				id: "minecraft:shulker_spawn_egg"
+			}
+			id: "57383256D50394B2"
+			rewards: [{
+				count: 2
+				id: "43C8B775F23A5CE2"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "2718AED082D124CE"
+				type: "kill"
+				value: 50L
+			}]
+			x: 15.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["74F56AC093877C1B"]
+			id: "4EB07255869562F5"
+			rewards: [{
+				count: 7
+				id: "79905F78543DBE17"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "6B9D8BDBE637C838"
+				type: "kill"
+				value: 900L
+			}]
+			x: 18.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["36F5D20F2AA4253A"]
+			id: "5DA1AD04A11766C1"
+			rewards: [{
+				count: 6
+				id: "3A2D8A68CBD09DB7"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "691151BC9D7F858F"
+				type: "kill"
+				value: 200L
+			}]
+			x: 17.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["57383256D50394B2"]
+			id: "36F5D20F2AA4253A"
+			rewards: [{
+				count: 4
+				id: "4890E69993F4F01A"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "1E1EC3DA71C58B47"
+				type: "kill"
+				value: 100L
+			}]
+			x: 16.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5DA1AD04A11766C1"]
+			id: "7DD9DB924D7D3BDD"
+			rewards: [{
+				id: "3100ACF8E1C4EC9F"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "72C411174A02C436"
+				type: "kill"
+				value: 300L
+			}]
+			x: 18.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["4EB07255869562F5"]
+			id: "0BE4AB592AA0C51C"
+			rewards: [{
+				id: "465CF73136811A83"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "0A61C9317F500B19"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 18.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["73D5994069349C08"]
+			id: "74F56AC093877C1B"
+			rewards: [{
+				count: 6
+				id: "1916C69074CB4313"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "276940C6D45982DF"
+				type: "kill"
+				value: 800L
+			}]
+			x: 20.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2000000000000024"]
+			id: "798E1FC399887025"
+			rewards: [{
+				count: 2
+				id: "493D60E518AD7EF5"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "3B9E5D3E0C6C5C8B"
+				type: "kill"
+				value: 10L
+			}]
+			x: 17.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["798E1FC399887025"]
+			id: "21CA4488A31F4744"
+			rewards: [{
+				count: 4
+				id: "29BF5DBA86B9182A"
+				item: {
+					count: 1
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:shulker"
+				id: "70B7EA1B7C8C561C"
+				type: "kill"
+				value: 25L
+			}]
+			x: 16.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2F336D582F57D38F"]
+			id: "4EDA45E5D7B03E96"
+			rewards: [{
+				count: 6
+				id: "735B006AB60D1B13"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "505FDF44E0DAA1BC"
+				type: "kill"
+				value: 200L
+			}]
+			x: 21.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["402845D6908C55DF"]
+			id: "2F336D582F57D38F"
+			rewards: [{
+				count: 4
+				id: "260418B789AEB668"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "3A4832D148E33FDC"
+				type: "kill"
+				value: 100L
+			}]
+			x: 21.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1D08CAB749E91291"]
+			id: "402845D6908C55DF"
+			rewards: [{
+				count: 2
+				id: "7FD8E1077115F2FC"
+				item: {
+					count: 1
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "14E0EC47C6BADC32"
+				type: "kill"
+				value: 50L
+			}]
+			x: 21.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4F590FA2FDF0A433"]
+			id: "5BAD0311E063AD71"
+			rewards: [{
+				count: 7
+				id: "0E2AD96AF67B0608"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "0378EAF3A5CA987D"
+				type: "kill"
+				value: 900L
+			}]
+			x: 17.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5BAD0311E063AD71"]
+			id: "0E2585B39C48DB28"
+			rewards: [{
+				id: "67EE03CD8FC9CEAD"
+				item: {
+					count: 1
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.5d
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "5B933104E040EE11"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 18.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4EDA45E5D7B03E96"]
+			id: "27217EF6DE967D52"
+			rewards: [{
+				id: "4E91BAC52B407BCB"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "0EFEE169A30D27DF"
+				type: "kill"
+				value: 300L
+			}]
+			x: 20.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1DC70EBD678E21D8"]
+			id: "1AADE61E9F9EB5CC"
+			rewards: [{
+				count: 4
+				id: "45F755C308FC416C"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "3FE4F4B72F43B15E"
+				type: "kill"
+				value: 600L
+			}]
+			x: 16.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["27217EF6DE967D52"]
+			id: "39A2D0C4792B1DB0"
+			rewards: [{
+				count: 2
+				id: "63997821062EE1F0"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "1282692756E133D0"
+				type: "kill"
+				value: 400L
+			}]
+			x: 18.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["39A2D0C4792B1DB0"]
+			id: "1DC70EBD678E21D8"
+			rewards: [{
+				count: 3
+				id: "3FF35CB2ADF2B822"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "6D6C6C8C254A1142"
+				type: "kill"
+				value: 500L
+			}]
+			x: 17.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0004753A46D764EB"]
+			id: "4F590FA2FDF0A433"
+			rewards: [{
+				count: 6
+				id: "7D5007BE8AC1B0F9"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "1C2996570DC5AF15"
+				type: "kill"
+				value: 800L
+			}]
+			x: 16.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4BD9FAF728DCB00D"]
+			id: "1D08CAB749E91291"
+			rewards: [{
+				count: 4
+				id: "712E61F4A66C4EBE"
+				item: {
+					count: 1
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "106965AF65D0D55C"
+				type: "kill"
+				value: 25L
+			}]
+			x: 20.0d
+			y: 0.5d
+		}
+		{
+			id: "4BD9FAF728DCB00D"
+			rewards: [{
+				count: 2
+				id: "334CB6BC6C7EFEC2"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "623E8E300DA1CEA4"
+				type: "kill"
+				value: 10L
+			}]
+			x: 18.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1AADE61E9F9EB5CC"]
+			id: "0004753A46D764EB"
+			rewards: [{
+				count: 5
+				id: "7E1E89FF6E0C1894"
+				item: {
+					count: 1
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "1577CDEFAE595789"
+				type: "kill"
+				value: 700L
+			}]
+			x: 15.5d
+			y: -2.0d
 		}
 	]
 }

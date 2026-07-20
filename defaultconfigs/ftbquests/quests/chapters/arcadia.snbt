@@ -1,0 +1,2681 @@
+{
+	autofocus_id: "6E75F060171F40CE"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "arcadia"
+	group: "70AB2085E1434295"
+	icon: {
+		id: "arcadia:fusion_core"
+	}
+	id: "14FB12E420BEF8B5"
+	images: [
+		{
+			height: 8.0d
+			hover: ["Share this with your friends"]
+			image: "arcadia:textures/title/arcadia.png"
+			order: -1
+			rotation: 0.0d
+			width: 24.0d
+			x: 0.0d
+			y: -11.5d
+		}
+		{
+			height: 11.0d
+			image: "ftblibrary:icons/star"
+			order: -1
+			rotation: 0.0d
+			width: 11.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			height: 2.2d
+			image: "arcadia_lib:item/arcadia_star"
+			rotation: -20.0d
+			width: 2.2d
+			x: -3.1d
+			y: -5.5d
+		}
+		{
+			height: 2.2d
+			image: "arcadia_lib:item/arcadia_star"
+			rotation: 20.0d
+			width: 2.2d
+			x: 3.1d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "arcadia_lib:item/arcadia_star"
+			rotation: -15.0d
+			width: 1.0d
+			x: -1.9d
+			y: -9.7d
+		}
+		{
+			height: 1.0d
+			image: "arcadia_lib:item/arcadia_star"
+			rotation: 15.0d
+			width: 1.0d
+			x: 1.9d
+			y: -9.7d
+		}
+		{
+			height: 2.4d
+			image: "arcadia:item/containment_field_generator"
+			rotation: 0.0d
+			width: 2.4d
+			x: -6.0d
+			y: 0.6d
+		}
+		{
+			height: 2.4d
+			image: "arcadia:item/fusion_matrix"
+			rotation: 0.0d
+			width: 2.4d
+			x: 6.0d
+			y: 0.6d
+		}
+		{
+			height: 3.6d
+			image: "arcadia:textures/quest/card_thermal.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.4d
+			x: -13.2d
+			y: 5.85d
+		}
+		{
+			height: 3.6d
+			image: "arcadia:textures/quest/card_plate.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.2d
+			x: -8.0d
+			y: 5.85d
+		}
+		{
+			height: 3.3d
+			image: "arcadia:textures/quest/card_casing.png"
+			order: -1
+			rotation: 0.0d
+			width: 4.4d
+			x: -2.5d
+			y: 5.8d
+		}
+		{
+			height: 3.3d
+			image: "arcadia:textures/quest/card_crystal.png"
+			order: -1
+			rotation: 0.0d
+			width: 4.4d
+			x: 2.5d
+			y: 5.8d
+		}
+		{
+			height: 3.4d
+			image: "arcadia:textures/quest/card_hard.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.6d
+			x: 0.0d
+			y: 10.4d
+		}
+		{
+			height: 2.8d
+			image: "arcadia:textures/quest/card_quantum.png"
+			order: -1
+			rotation: 0.0d
+			width: 4.4d
+			x: 8.2d
+			y: 5.75d
+		}
+		{
+			height: 5.2d
+			image: "arcadia:textures/quest/card_plasma.png"
+			order: -1
+			rotation: 0.0d
+			width: 3.4d
+			x: 12.8d
+			y: 6.1d
+		}
+		{
+			height: 2.7d
+			image: "arcadia:textures/quest/card_metals.png"
+			order: -1
+			rotation: 0.0d
+			width: 6.2d
+			x: 12.6d
+			y: 10.3d
+		}
+		{
+			height: 8.2d
+			image: "arcadia:textures/quest/tower_runic.png"
+			order: -1
+			rotation: 0.0d
+			width: 4.5d
+			x: -11.0d
+			y: 11.7d
+		}
+		{
+			alpha: 50
+			height: 100.0d
+			image: "occultism:block/dimensional_mineshaft_portal"
+			order: -10
+			rotation: 0.0d
+			width: 100.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"6844280012305AC7"
+				"6E75F060171F40CE"
+				"4D3A87E4EBCB79E8"
+				"7E6C7F9A53F0EB87"
+				"2820CC79F1ED294C"
+				"0CD34AF8F5786671"
+				"4E6DA9287273225A"
+				"73416367E3DF9D7B"
+			]
+			icon: {
+				id: "arcadia:heart_of_arcadia"
+			}
+			id: "65AC05C60C257176"
+			rewards: [
+				{
+					count: 16
+					id: "185FD6AC5A0ED8B6"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "191EAB5FAD00ECD9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CCD4AF0A8C172E0"
+					table_id: 7799476301390908562L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "5ADFC1A6B3C109B2"
+				item: { count: 1, id: "arcadia:fusion_core" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2820CC79F1ED294C"
+				"1DBEFBA2264FC124"
+				"261D58E1A15C64F7"
+				"7044E0927E5C83FD"
+				"699D149EDB171E40"
+			]
+			hide_dependent_lines: true
+			id: "6E75F060171F40CE"
+			rewards: [
+				{
+					count: 16
+					id: "443AD973F0963B0A"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "4D4B634837D5F886"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75B65F2BDAC3ADC6"
+					table_id: 6569693363244268417L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.75d
+			tasks: [{
+				id: "3132A1B3125D5A17"
+				item: { count: 1, id: "arcadia:neutron_reflector" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.3d
+		}
+		{
+			dependencies: [
+				"4E6DA9287273225A"
+				"0CD34AF8F5786671"
+				"699D149EDB171E40"
+			]
+			hide_dependent_lines: true
+			icon_scale: 1.1d
+			id: "6844280012305AC7"
+			rewards: [
+				{
+					count: 16
+					id: "2194A2BF204E193B"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "784FD24E92BCFA9F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "365318DC2B585DED"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "028BCF21FC3EC0F5"
+					table_id: 6569693363244268417L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.75d
+			tasks: [{
+				id: "3C05D7DA886BB8D1"
+				item: { count: 1, id: "arcadia:fusion_matrix" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.8d
+		}
+		{
+			dependencies: [
+				"76ED4928F31F0ECA"
+				"078F37B918B5C835"
+				"2A4AEE217A1A7838"
+				"5A675CA7E3493D17"
+				"2820CC79F1ED294C"
+				"7044E0927E5C83FD"
+			]
+			hide_dependent_lines: true
+			icon_scale: 1.1d
+			id: "4D3A87E4EBCB79E8"
+			rewards: [
+				{
+					count: 16
+					id: "31BA5AD517822996"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "41DEA5C16B52010D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "56D40CCA749971B2"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F4663AE50892CBA"
+					table_id: 6569693363244268417L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.75d
+			tasks: [{
+				id: "03F93BD8B6E8DD49"
+				item: { count: 1, id: "arcadia:containment_field_generator" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.8d
+		}
+		{
+			dependencies: [
+				"4EB8455CB3177847"
+				"6376182D4F748B89"
+				"2B030E44FDC71229"
+				"59B3502FD41B7658"
+			]
+			hide_dependent_lines: true
+			id: "2A4AEE217A1A7838"
+			rewards: [
+				{
+					count: 16
+					id: "7489F461F2DB5B43"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "46CC6BD02B076829"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "3E15A2C2E4072A9D"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FDC234037564E57"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0BFB3F9FCA344D90"
+				item: { count: 1, id: "arcadia:treated_composite_plate" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5A1C7C7E3F6736E5"
+				"497C9E6237169C5C"
+				"5371379FBA711332"
+				"5BE1E902614F88E3"
+				"699D149EDB171E40"
+			]
+			hide_dependent_lines: true
+			id: "5A675CA7E3493D17"
+			rewards: [
+				{
+					count: 16
+					id: "3F741EC5FAF6FE05"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "70657EDE258149E2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "4B5689C0F8D17C7F"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E596E2E3CC13758"
+					table_id: 6569693363244268417L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5CDCB6549860CE1D"
+				item: { count: 1, id: "arcadia:thermal_conductor" }
+				type: "item"
+			}]
+			x: -13.2d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"6021235EB630545C"
+				"699D149EDB171E40"
+				"6A564C288D429A56"
+				"6673C0F3BF61BC8F"
+				"76ED4928F31F0ECA"
+			]
+			hide_dependent_lines: true
+			id: "4E6DA9287273225A"
+			rewards: [
+				{
+					count: 16
+					id: "0FE3B0C2B970081F"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "0E32144EBE7154FC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "6A5068A2FF317004"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29B775ABA85767F9"
+					table_id: 6569693363244268417L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "4C926AA6F3B4085F"
+				item: { count: 1, id: "arcadia:quantum_circuit" }
+				type: "item"
+			}]
+			x: 8.180952380952384d
+			y: 5.319047619047616d
+		}
+		{
+			dependencies: [
+				"19204D72AA4E3180"
+				"7C05D290A27CB587"
+				"3A260CC8B099418B"
+			]
+			hide_dependent_lines: true
+			id: "0CD34AF8F5786671"
+			rewards: [
+				{
+					count: 16
+					id: "359D9C4AD84AC105"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "26F1EEF2B5FE4384"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "44D7E9C3CC24D8C7"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17E050970B6F2E7B"
+					table_id: 6569693363244268417L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "760D08993331DEF4"
+				item: { count: 1, id: "arcadia:plasma_cell" }
+				type: "item"
+			}]
+			x: 12.8d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0BD5454FEF90DC2E"
+				"7CF338F961B321D0"
+				"038CE6A928B0135F"
+				"63F2D6FFE2C366C5"
+				"02C256DE5D14CFC4"
+			]
+			hide_dependent_lines: true
+			id: "2820CC79F1ED294C"
+			rewards: [
+				{
+					count: 16
+					id: "103380D31D10527D"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "0AFA4C1F606B19AE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "3BE2524584FD73E5"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A7C53E86ABB0D18"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [{
+				id: "5FC7F8E511E71E8C"
+				item: { count: 1, id: "arcadia:hardened_steel_compound" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.6d
+		}
+		{
+			dependencies: [
+				"6F1A2EFFAC6CCAFC"
+				"3A2752110DF47A75"
+				"37FABD21B89CBD58"
+				"124A666EA5490E03"
+			]
+			hide_dependent_lines: true
+			id: "76ED4928F31F0ECA"
+			rewards: [
+				{
+					id: "4BE7128D0A2C6673"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "0349FCF3BF5DE7BF"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FDF6704E0A99B47"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "20959B7C13466CDB"
+				item: { count: 1, id: "mekanism:ultimate_control_circuit" }
+				type: "item"
+			}]
+			x: -10.985714285714295d
+			y: 9.392857142857139d
+		}
+		{
+			id: "078F37B918B5C835"
+			rewards: [
+				{
+					id: "1DDA8A98AFC33A9D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "1627D04242280709"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "688A5E7047DF723D"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7F8EB777462D5AE5"
+				item: { count: 1, id: "immersiveengineering:wirecoil_electrum" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			id: "7E6C7F9A53F0EB87"
+			rewards: [
+				{
+					id: "1067C0CB1DCC75A3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "2C44484D60D7489C"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F70E3D90107D041"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5CABCE8BC7701D61"
+				item: { count: 1, id: "minecraft:nether_star" }
+				type: "item"
+			}]
+			x: -3.4928571428571473d
+			y: 0.15595238095237107d
+		}
+		{
+			id: "73416367E3DF9D7B"
+			rewards: [
+				{
+					id: "639447F81AA90EFF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "7D743278E6E48860"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75C5DF3A41767530"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "07CCB9551FE0A0F7"
+				item: { count: 1, id: "minecraft:netherite_block" }
+				type: "item"
+			}]
+			x: 3.5428571428571303d
+			y: 0.15595238095238528d
+		}
+		{
+			id: "1DBEFBA2264FC124"
+			rewards: [
+				{
+					id: "151D0094502248F7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "66FB87B39240740C"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FAFC471CBA24E5C"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5E67050770C0E4FC"
+				item: { count: 1, id: "minecraft:diamond_block" }
+				type: "item"
+			}]
+			x: -1.4d
+			y: 0.6d
+		}
+		{
+			id: "261D58E1A15C64F7"
+			rewards: [
+				{
+					id: "69A10EEB8ADAECC4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "7B0C5CD7E5538091"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57BDB1BBA5588AFB"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "45CC662E25EBBD54"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 1.4d
+			y: 0.6d
+		}
+		{
+			dependencies: [
+				"4CA31FE9740E5205"
+				"6756A9B98569DF7F"
+				"419537F141ED6027"
+				"436EE1A6AA79763F"
+			]
+			hide_dependent_lines: true
+			id: "7044E0927E5C83FD"
+			rewards: [
+				{
+					count: 16
+					id: "0F57F06390D6D6DB"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "6312D5CB99C24F52"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "3D631A2E6AD753D1"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0862C3AB995FF1C7"
+					table_id: 6569693363244268417L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "3A3648DFE576E280"
+				item: { count: 1, id: "arcadia:reinforced_casing" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3FE88DB2BDC99E02"
+				"57C5EFDA54B36B7F"
+				"2E0A6FAC6BE3E3D3"
+				"483F03C97139BC26"
+				"3A260CC8B099418B"
+			]
+			id: "7C05D290A27CB587"
+			rewards: [
+				{
+					count: 16
+					id: "613F97C2704A626E"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "77982520A651044B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "01D01A76B4A0A56E"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CAE37D902460D64"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "45D7DA36B8FDA7CC"
+				item: { count: 1, id: "arcadia:refined_alloy_ingot" }
+				type: "item"
+			}]
+			x: 11.46666666666669d
+			y: 9.842857142857142d
+		}
+		{
+			dependencies: [
+				"3D505390A2845095"
+				"17D401024B3A2368"
+				"61C96F2A2718A8BC"
+				"25A1B07BB4F12550"
+				"3A260CC8B099418B"
+			]
+			id: "19204D72AA4E3180"
+			rewards: [
+				{
+					count: 16
+					id: "2BA9D7A299CFDF31"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "25251420B7208102"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "780C004A24589788"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "383EE47404AB5AAD"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "196C2CE01377246B"
+				item: { count: 1, id: "arcadia:nether_concentrate" }
+				type: "item"
+			}]
+			x: 14.15714285714288d
+			y: 9.819047619047623d
+		}
+		{
+			id: "25A1B07BB4F12550"
+			rewards: [
+				{
+					id: "1D357E2CBEA37681"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "49911C8D24A538C1"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "740D9A7D22A524EC"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4613684E8AA432E2"
+				item: { count: 1, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			x: 12.966666666666704d
+			y: 9.866666666666667d
+		}
+		{
+			id: "17D401024B3A2368"
+			rewards: [
+				{
+					id: "4810EFA7A1DCA4F1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "4A084E71C94785C3"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74C48DEA7CE6ED8A"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2CE1B684FBEDF49B"
+				item: { count: 1, id: "minecraft:magma_cream" }
+				type: "item"
+			}]
+			x: 14.15714285714288d
+			y: 10.819047619047623d
+		}
+		{
+			id: "61C96F2A2718A8BC"
+			rewards: [
+				{
+					id: "107073EE37D0F381"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "0D4D9CAA31A84C83"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E647C31D7FEBD5C"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7A82F6A1B5B9A794"
+				item: { count: 1, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: 14.65714285714288d
+			y: 10.319047619047623d
+		}
+		{
+			id: "3D505390A2845095"
+			rewards: [
+				{
+					id: "466FDAED97DC158B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "6187B185F7C5BEB4"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "084D9389A7958BFF"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0651A32E8F63D058"
+				item: { count: 1, id: "minecraft:netherite_scrap" }
+				type: "item"
+			}]
+			x: 13.65714285714288d
+			y: 10.319047619047623d
+		}
+		{
+			id: "3FE88DB2BDC99E02"
+			rewards: [
+				{
+					id: "4A2D8B8C3F8F2640"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "7F764C379BF4032C"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F035CF774ED3A84"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "633E58524468DF16"
+				item: { count: 1, id: "arcadia:energized_dust" }
+				type: "item"
+			}]
+			x: 10.46666666666669d
+			y: 10.342857142857142d
+		}
+		{
+			id: "2E0A6FAC6BE3E3D3"
+			rewards: [
+				{
+					id: "26950E078FD40000"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "71B78BBF813FAADF"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "623FA46E6C0E1AE8"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "046F01D3BB3F99B1"
+				item: { count: 1, id: "arcadia:alloy_blend" }
+				type: "item"
+			}]
+			x: 11.96666666666669d
+			y: 10.842857142857142d
+		}
+		{
+			id: "483F03C97139BC26"
+			rewards: [
+				{
+					id: "115D0A7CEA5889DB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "4B0E8C3D37A86219"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31586650B57C8A03"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "48DC5BE0B3A908D7"
+				item: { count: 1, id: "arcadia:diamond_matrix" }
+				type: "item"
+			}]
+			x: 12.46666666666669d
+			y: 10.342857142857142d
+		}
+		{
+			id: "57C5EFDA54B36B7F"
+			rewards: [
+				{
+					id: "7A982351415A1212"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "28C571288C209DFE"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51C075B1B690319D"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7494736D7CDA9804"
+				item: { count: 1, id: "arcadia:infused_steel" }
+				type: "item"
+			}]
+			x: 10.96666666666669d
+			y: 10.842857142857142d
+		}
+		{
+			dependencies: [
+				"6E7B75BF910A9F1E"
+				"65328F9EF089E6BD"
+				"6218024C553C2430"
+				"0A206F85BCD7AC73"
+			]
+			hide_dependent_lines: true
+			id: "699D149EDB171E40"
+			rewards: [
+				{
+					count: 16
+					id: "4563A316944BF991"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "67CCA190149B6F40"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E4BF26A7B60B287"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [{
+				id: "337D8CB3825AC1AC"
+				item: { count: 1, id: "arcadia:energized_crystal" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			id: "6673C0F3BF61BC8F"
+			rewards: [
+				{
+					id: "5D7A8E0BFCD7DAE5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "11D645E536F651D8"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "217E164E6E91AB3B"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6D4572C1FCACB0B0"
+				item: { count: 1, id: "arcadia:refined_alloy_ingot" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			id: "6A564C288D429A56"
+			rewards: [
+				{
+					id: "7A7FA48F5D66AB4A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "177D98B5D5347136"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7EF40FC1AFF4F78F"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "653019BBCB8CB268"
+				item: { count: 1, id: "arcadia:diamond_matrix" }
+				type: "item"
+			}]
+			x: 8.204761904761902d
+			y: 6.414285714285718d
+		}
+		{
+			id: "6021235EB630545C"
+			rewards: [
+				{
+					id: "2D5C5BD3BD8A351E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "3C806C151900F9D9"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76E787BE06A2E937"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0CA25EC746C045BE"
+				item: { count: 1, id: "mekanism:alloy_atomic" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			id: "6218024C553C2430"
+			rewards: [
+				{
+					id: "6A26AEBB3289B2AF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "482BAF046E8A6E13"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DA32E345FDD1B80"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "296B377595707033"
+				item: { count: 1, id: "arcadia:diamond_matrix" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.6d
+		}
+		{
+			id: "6E7B75BF910A9F1E"
+			rewards: [
+				{
+					id: "38378072DEC583B5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "2372CA4D95A16738"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62587716107A330B"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3EBE75CF9F22B384"
+				item: { count: 1, id: "arcadia:nether_concentrate" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			id: "65328F9EF089E6BD"
+			rewards: [
+				{
+					id: "7A647B37D8C29CA3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "42980EA7079C118F"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0455A5E451784C78"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "021159D1A531CAA1"
+				item: { count: 1, id: "arcadia:energized_dust" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.6d
+		}
+		{
+			id: "0A206F85BCD7AC73"
+			rewards: [
+				{
+					id: "7629032061D74E56"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "70260352533FE724"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B7E0BE7F29EAA81"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "595FAC61804E9201"
+				item: { count: 1, id: "mekanism:alloy_reinforced" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			id: "4CA31FE9740E5205"
+			rewards: [
+				{
+					id: "7FE928DEAF419718"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "30EC47E51A04BCE1"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FECD58A6EC6D4A2"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7AE7BF6470ABC573"
+				item: { count: 1, id: "arcadia:infused_steel" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			id: "6756A9B98569DF7F"
+			rewards: [
+				{
+					id: "04BC145E3DC68FA9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "1C75FE9763819F5D"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16EC0BA12775B1EE"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "04EC3F4C5B502791"
+				item: { count: 1, id: "arcadia:wiring_bundle" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.6d
+		}
+		{
+			id: "419537F141ED6027"
+			rewards: [
+				{
+					id: "256A40F2EE5EBEB5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "1CAFBBE309B9E5E6"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0067473E7F4A2FE2"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2FB173CD5B16FE41"
+				item: { count: 1, id: "arcadia:treated_composite_plate" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.6d
+		}
+		{
+			id: "038CE6A928B0135F"
+			rewards: [
+				{
+					id: "08EA098142241167"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "79A58AFB0F00687F"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "708E2BB3124C796A"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4F5684931C2CDEE1"
+				item: { count: 1, id: "arcadia:wiring_bundle" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.2d
+		}
+		{
+			id: "7CF338F961B321D0"
+			rewards: [
+				{
+					id: "50A083BA615D2303"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "62EDC199FC95250C"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2457DF9124438837"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3574F65AB48AD670"
+				item: { count: 1, id: "arcadia:infused_steel" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.2d
+		}
+		{
+			id: "0BD5454FEF90DC2E"
+			rewards: [
+				{
+					id: "715BB6168A11B30A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "6163337FA411C1F4"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B1568336EE8E082"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2974AAEF945A7CD8"
+				item: { count: 1, id: "arcadia:alloy_blend" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			id: "63F2D6FFE2C366C5"
+			rewards: [
+				{
+					id: "5F9C6C04FA500469"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "559D6D1C8DC7AEC2"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "398D44582B0C6BD2"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0510F1BD03458E65"
+				item: { count: 1, id: "arcadia:nether_concentrate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.2d
+		}
+		{
+			id: "5371379FBA711332"
+			rewards: [
+				{
+					id: "33878E868AEB15D9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "0E641F95345AE9A5"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6089FE9FCE2EBF44"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "19BFDDE7F67CD46E"
+				item: { count: 1, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			x: -12.7d
+			y: 6.6d
+		}
+		{
+			id: "5A1C7C7E3F6736E5"
+			rewards: [
+				{
+					id: "50CFA9603C7D42E7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "2C084BCEEA2684DE"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4601C931355961D7"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4DD4A382B70BF8D0"
+				item: { count: 1, id: "arcadia:nether_concentrate" }
+				type: "item"
+			}]
+			x: -14.7d
+			y: 6.6d
+		}
+		{
+			id: "497C9E6237169C5C"
+			rewards: [
+				{
+					id: "4C574E3D8A71721D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "25FBFA575E0D97D8"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C2B777B624A1021"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "2AB70E6F38C5BF8A"
+				item: { count: 1, id: "arcadia:refined_alloy_ingot" }
+				type: "item"
+			}]
+			x: -13.7d
+			y: 6.6d
+		}
+		{
+			id: "4EB8455CB3177847"
+			rewards: [
+				{
+					id: "52093A82BB025A80"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "039B28AA080AA7D8"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B5EE771C68CDDB5"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1C9B026B782FB580"
+				item: { count: 1, id: "arcadia:infused_steel" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 6.6d
+		}
+		{
+			id: "2B030E44FDC71229"
+			rewards: [
+				{
+					id: "223C18DED7CA6C2A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "280C6ADFBF414DAA"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C46D2B6921949F0"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2B41EC39CA55F3C7"
+				item: { count: 1, id: "arcadia:wiring_bundle" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.6d
+		}
+		{
+			id: "6376182D4F748B89"
+			rewards: [
+				{
+					id: "13BEFF26EC58CA47"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "1F9EB18B2D0C40B2"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A9719A34B7862CF"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5FCD5EBBC1EF19B0"
+				item: { count: 1, id: "arcadia:alloy_blend" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.6d
+		}
+		{
+			id: "59B3502FD41B7658"
+			rewards: [
+				{
+					id: "65CEBE0EC2BC0FB6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "2FB3227391AA34FA"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14BF2DDA607D6FD2"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6D8DDDC88E84DB72"
+				item: { count: 1, id: "immersiveengineering:plate_steel" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.6d
+		}
+		{
+			id: "6F1A2EFFAC6CCAFC"
+			rewards: [
+				{
+					count: 16
+					id: "38F7ECFF1CD6CB31"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "450E806C8710603A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "583AC749816857FD"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2701ACB88CF718F7"
+					table_id: 6569693363244268417L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "40604CB4F86EEEC8"
+				item: { count: 1, id: "arcadia:arcane_circuit" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 9.0d
+		}
+		{
+			id: "3A2752110DF47A75"
+			rewards: [
+				{
+					id: "5716264C7E513F2D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "642D41EDF95F1FB5"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38F81AE1BB8B44F4"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3A68805BD858F17A"
+				item: { count: 1, id: "mekanism:alloy_atomic" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 10.0d
+		}
+		{
+			id: "37FABD21B89CBD58"
+			rewards: [
+				{
+					id: "16305E7A4BA32A1B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "5317732B918A9FDC"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "489D591CE33AA238"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6D8F0D04D52B216E"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"3E2C7FA531B3903F"
+				"441D71B9CC14285A"
+				"49014925FF487291"
+			]
+			id: "124A666EA5490E03"
+			rewards: [
+				{
+					id: "703759149DF9C9C9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "623ABBAB6D9C193B"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3ACFCC24F6C9A312"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "19AA9884C5342AD0"
+				item: { count: 1, id: "mekanism:elite_control_circuit" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 10.8d
+		}
+		{
+			dependencies: [
+				"1CEB47BB526A2EEA"
+				"4081934A954612DC"
+				"3B862E847472F62B"
+				"6ABBB6F8F04AA626"
+				"2768A8B23837B037"
+			]
+			id: "441D71B9CC14285A"
+			rewards: [
+				{
+					count: 16
+					id: "23BB96068B7B9014"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "28C39E04C5414AD6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "4D0CC6417B03A8E1"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4260FA060D444470"
+					table_id: 6569693363244268417L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "4D60058D2C00C0FF"
+				item: { count: 1, id: "arcadia:arcane_circuit" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 13.3d
+		}
+		{
+			id: "3E2C7FA531B3903F"
+			rewards: [
+				{
+					id: "5919D5A7F31ACF49"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "4A5275F0D9D7A060"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67546E3C90E8CE35"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "52B9216CBF42FC9C"
+				item: { count: 1, id: "mekanism:advanced_control_circuit" }
+				type: "item"
+			}]
+			x: -12.3d
+			y: 11.9d
+		}
+		{
+			id: "49014925FF487291"
+			rewards: [
+				{
+					id: "5177805AAF145750"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "2DB87153CA30AF97"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44059EF30FEBF470"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3155825E6E029615"
+				item: { count: 1, id: "mekanism:alloy_reinforced" }
+				type: "item"
+			}]
+			x: -9.7d
+			y: 11.9d
+		}
+		{
+			id: "4081934A954612DC"
+			rewards: [
+				{
+					id: "3FE4086DC153CD4A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "6F319BECDC3B2611"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7958BE112F6D5C81"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "451775878AC53A62"
+				item: { count: 1, id: "tfmg:transistor_item" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 14.5d
+		}
+		{
+			id: "1CEB47BB526A2EEA"
+			rewards: [
+				{
+					id: "4289E22414AE3035"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "30A66481334DEF6A"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D90950EED53A671"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5A878ADE7A5474BA"
+				item: { count: 1, id: "ars_nouveau:source_gem" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 13.5d
+		}
+		{
+			id: "3B862E847472F62B"
+			rewards: [
+				{
+					id: "3F0077AF037A5C9F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "0F77C523AF064DED"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "514A3D85A5BACF1D"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4457B06E0A65BB61"
+				item: { count: 1, id: "mekanism:alloy_infused" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: 14.5d
+		}
+		{
+			id: "6ABBB6F8F04AA626"
+			rewards: [
+				{
+					id: "6EA81C130CB8B7FD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "53775BA9BD7D4EC7"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44CAF28570519EBA"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "50B11AB29E8BF277"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: 14.5d
+		}
+		{
+			id: "2768A8B23837B037"
+			rewards: [
+				{
+					id: "04E6D0488B84325F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "490B2A074308783C"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CB3D13BB41ACEF3"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "43CF4A478E4AA002"
+				item: { count: 1, id: "tfmg:creosote_bucket" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 13.5d
+		}
+		{
+			id: "02C256DE5D14CFC4"
+			rewards: [
+				{
+					id: "431A874105E940E3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "38CA8B101706ECF3"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3EE991BD66960578"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "46D7AE2F0AB6BA2D"
+				item: { count: 1, id: "tfmg:molten_steel_bucket" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			id: "5BE1E902614F88E3"
+			rewards: [
+				{
+					id: "2A2B0A41E502DDD7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "4F7B554CA72179B2"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37EA5EFDC4A32FC6"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "56D71A0F5590F3E0"
+				item: { count: 1, id: "minecraft:lava_bucket" }
+				type: "item"
+			}]
+			x: -11.7d
+			y: 6.6d
+		}
+		{
+			id: "3A260CC8B099418B"
+			rewards: [
+				{
+					id: "775E365F2E4994B6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "2063D32C822F8003"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A66FD2EF273B3BF"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4F53C98D4488E804"
+				item: { count: 1, id: "minecraft:lava_bucket" }
+				type: "item"
+			}]
+			x: 12.8d
+			y: 6.6d
+		}
+		{
+			id: "436EE1A6AA79763F"
+			rewards: [
+				{
+					id: "2BEA015D120D4724"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "3FCC9DBC366A01AE"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55F076E6869E4C42"
+					table_id: 5339910424997358192L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "38C34A76D354337A"
+				item: { count: 1, id: "tfmg:molten_steel_bucket" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["65AC05C60C257176"]
+			icon: {
+				id: "numismatics:sun"
+			}
+			id: "6839243D35D50D5D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "193DC22CF4007BF0"
+					table_id: 5761917778172030548L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "45D889E553F0EAD2"
+					item: {
+						count: 1
+						id: "arcadia_pets:legendary_guaranteed_bag"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7DCEC46182714363"
+					item: {
+						count: 1
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "3B6427DEDFC400FA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "pentagon"
+			size: 2.5d
+			tasks: [{
+				id: "3DB8DFC85BE42F9C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.8d
+		}
+		{
+			dependencies: ["6839243D35D50D5D"]
+			id: "0695124CE0451BFD"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "1873037EDCF89094"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39E8880D4BD76A59"
+					table_id: 6569693363244268417L
+					type: "random"
+				}
+				{
+					id: "4B6DA0036DCF2D2C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "0F47CCA87839E9EC"
+				item: { count: 1, id: "arcadia:ethereal_alloy" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -8.4d
+		}
+		{
+			dependencies: ["6839243D35D50D5D"]
+			id: "2D0A5CDF0B53E920"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "76F15458C08AD023"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E464C2DF9E6500E"
+					table_id: 7799476301390908562L
+					type: "random"
+				}
+				{
+					id: "386B78AB4EE6FD47"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "478F22244FC350CD"
+				item: { count: 1, id: "arcadia:rune_matrix" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["6839243D35D50D5D"]
+			id: "0FAAA2DEBFA510D8"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "71BF8591F7D875B9"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C11574D27691C4E"
+					table_id: 6569693363244268417L
+					type: "random"
+				}
+				{
+					id: "62514090F0B90E9C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "0D7E7D16E71AFA3F"
+				item: { count: 1, id: "arcadia:industrial_heart" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -8.4d
+		}
+	]
+}

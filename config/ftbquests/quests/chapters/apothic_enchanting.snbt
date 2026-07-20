@@ -7,6 +7,35 @@
 		id: "minecraft:enchanting_table"
 	}
 	id: "12AD9789D962B179"
+	images: [
+		{
+			alpha: 150
+			height: 20.0d
+			image: "simplyswords:item/enigma_base"
+			rotation: -45.0d
+			width: 20.0d
+			x: -6.05d
+			y: -11.0d
+		}
+		{
+			height: 20.0d
+			image: "simplyswords:item/magispear_lights"
+			rotation: -45.0d
+			width: 20.0d
+			x: -5.673d
+			y: -11.37d
+		}
+		{
+			alpha: 50
+			height: 150.0d
+			image: "occultism:block/dimensional_mineshaft_portal"
+			order: -10
+			rotation: 0.0d
+			width: 150.0d
+			x: -6.0d
+			y: -5.5d
+		}
+	]
 	order_index: 4
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -70,7 +99,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -2.4d
+			y: -3.0d
 		}
 		{
 			dependencies: ["79AF63E77AD70A93"]
@@ -132,8 +161,8 @@
 				item: { count: 1, id: "minecraft:lapis_lazuli" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -3.5d
+			x: -7.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["31E7F7464D79F881"]
@@ -163,7 +192,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			id: "6884E25641A1020C"
@@ -198,7 +227,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -237,7 +266,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -261,7 +290,8 @@
 					xp_levels: 5
 				}
 			]
-			shape: "rsquare"
+			shape: "hexagon"
+			size: 1.3d
 			tasks: [
 				{
 					id: "5EF1526352FCBF67"
@@ -279,8 +309,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -7.0d
+			x: -3.2500000000000004d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6C2C135B9B7B9402"]
@@ -309,8 +339,8 @@
 				item: { count: 1, id: "apothic_enchanting:hellshelf" }
 				type: "item"
 			}]
-			x: -8.5d
-			y: -8.0d
+			x: -7.199999999999999d
+			y: -7.199999999999999d
 		}
 		{
 			dependencies: ["0A3C464EF7CDD5F6"]
@@ -339,8 +369,8 @@
 				item: { count: 1, id: "apothic_enchanting:infused_hellshelf" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: -9.0d
+			x: -8.25d
+			y: -8.25d
 		}
 		{
 			dependencies: ["45161821C221EF0B"]
@@ -363,10 +393,11 @@
 					type: "item"
 				}
 			]
-			x: -7.5d
-			y: -10.0d
+			x: -10.5d
+			y: -8.5d
 		}
 		{
+			dependencies: ["45161821C221EF0B"]
 			id: "51E554305FFEBA1D"
 			rewards: [
 				{
@@ -388,8 +419,8 @@
 				item: { count: 1, id: "apothic_enchanting:blazing_hellshelf" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -9.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["45161821C221EF0B"]
@@ -418,8 +449,8 @@
 				item: { count: 1, id: "apothic_enchanting:glowing_hellshelf" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -8.0d
+			x: -7.8d
+			y: -10.2d
 		}
 		{
 			dependencies: [
@@ -459,8 +490,8 @@
 				item: { count: 1, id: "apothic_enchanting:deepshelf" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -5.5d
+			x: -6.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["235E3C386E8D36A3"]
@@ -487,8 +518,8 @@
 				item: { count: 1, id: "apothic_enchanting:soul_touched_deepshelf" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -6.5d
+			x: -7.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["6852BEFDD4DE4E4B"]
@@ -515,8 +546,8 @@
 				item: { count: 1, id: "apothic_enchanting:soul_touched_sculkshelf" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -7.0d
+			x: -6.875d
+			y: -13.625d
 		}
 		{
 			dependencies: ["235E3C386E8D36A3"]
@@ -543,8 +574,8 @@
 				item: { count: 1, id: "apothic_enchanting:echoing_deepshelf" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -4.5d
+			x: -5.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["0518551637F76C50"]
@@ -571,8 +602,8 @@
 				item: { count: 1, id: "apothic_enchanting:echoing_sculkshelf" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -4.0d
+			x: -5.0d
+			y: -13.625d
 		}
 		{
 			dependencies: ["158F872A3A2C3650"]
@@ -611,8 +642,8 @@
 				item: { count: 1, id: "apothic_enchanting:endshelf" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -5.5d
+			x: -6.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["6C2C135B9B7B9402"]
@@ -629,8 +660,8 @@
 				item: { count: 1, id: "apothic_enchanting:geode_shelf" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: -7.0d
+			x: -6.0d
+			y: -8.4d
 		}
 		{
 			dependencies: ["1873205CF5247E3E"]
@@ -666,8 +697,8 @@
 				item: { count: 1, id: "apothic_enchanting:pearl_endshelf" }
 				type: "item"
 			}]
-			x: 5.85714285714284d
-			y: -5.979761904761901d
+			x: -7.0d
+			y: -18.2d
 		}
 		{
 			dependencies: ["1873205CF5247E3E"]
@@ -693,8 +724,8 @@
 				item: { count: 1, id: "apothic_enchanting:draconic_endshelf" }
 				type: "item"
 			}]
-			x: 5.85714285714284d
-			y: -4.93214285714285d
+			x: -5.0d
+			y: -18.2d
 		}
 		{
 			dependencies: [
@@ -761,8 +792,8 @@
 					type: "item"
 				}
 			]
-			x: 7.999999999999986d
-			y: -5.36071428571428d
+			x: -6.0d
+			y: -20.0d
 		}
 		{
 			dependencies: ["6C2C135B9B7B9402"]
@@ -791,8 +822,8 @@
 				item: { count: 1, id: "apothic_enchanting:seashelf" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -4.5d
+			x: -4.8d
+			y: -7.199999999999999d
 		}
 		{
 			dependencies: ["6A07D09831428CB9"]
@@ -821,8 +852,8 @@
 				item: { count: 1, id: "apothic_enchanting:infused_seashelf" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -3.5d
+			x: -3.75d
+			y: -8.25d
 		}
 		{
 			dependencies: ["24391162F4FF0587"]
@@ -870,8 +901,8 @@
 				item: { count: 1, id: "apothic_enchanting:filtering_shelf" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -2.5d
+			x: -2.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["24391162F4FF0587"]
@@ -898,7 +929,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -2.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["24391162F4FF0587"]
@@ -927,8 +958,8 @@
 				item: { count: 1, id: "apothic_enchanting:crystal_seashelf" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: -4.5d
+			x: -4.2d
+			y: -10.2d
 		}
 		{
 			dependencies: ["6C2C135B9B7B9402"]
@@ -955,8 +986,8 @@
 				item: { count: 1, id: "apothic_enchanting:seashelf" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -5.5d
+			x: -3.2500000000000004d
+			y: -1.2999999999999998d
 		}
 		{
 			dependencies: ["6C2C135B9B7B9402"]
@@ -983,8 +1014,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:bookshelves))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -8.5d
+			x: -3.2500000000000004d
+			y: -3.9000000000000004d
 		}
 		{
 			dependencies: ["6C2C135B9B7B9402"]
@@ -1011,8 +1042,8 @@
 				item: { count: 1, id: "apothic_enchanting:hellshelf" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -7.0d
+			x: -3.2500000000000004d
+			y: -2.6d
 		}
 		{
 			dependencies: [
@@ -1044,8 +1075,8 @@
 				item: { count: 1, id: "apothic_enchanting:infused_breath" }
 				type: "item"
 			}]
-			x: 3.3809523809523725d
-			y: -5.455952380952375d
+			x: -6.0d
+			y: -15.25d
 		}
 		{
 			dependencies: ["31E7F7464D79F881"]
@@ -1076,7 +1107,7 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["31E7F7464D79F881"]
@@ -1097,7 +1128,7 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: -0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["31E7F7464D79F881"]
@@ -1121,7 +1152,7 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: 0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4E895C54651A3CB3"]
@@ -1140,8 +1171,8 @@
 				item: { count: 1, id: "apothic_enchanting:scrap_tome" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: 2.0d
+			x: -6.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6C2C135B9B7B9402"]
@@ -1173,8 +1204,8 @@
 				item: { count: 1, id: "minecraft:book" }
 				type: "item"
 			}]
-			x: -9.5d
-			y: 2.0d
+			x: -6.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -1193,8 +1224,8 @@
 				item: { count: 1, id: "apothic_enchanting:improved_scrap_tome" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: 2.0d
+			x: -6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -1213,8 +1244,8 @@
 				item: { count: 1, id: "apothic_enchanting:extraction_tome" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: 4.0d
+			x: -6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["4E895C54651A3CB3"]
@@ -1240,8 +1271,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(apothic_enchanting:helmet_tome)item(apothic_enchanting:chestplate_tome)item(apothic_enchanting:leggings_tome)item(apothic_enchanting:boots_tome))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -10.5d
-			y: 3.0d
+			x: -5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4E895C54651A3CB3"]
@@ -1267,8 +1298,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(apothic_enchanting:weapon_tome)item(apothic_enchanting:bow_tome))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -9.5d
-			y: 3.5d
+			x: -7.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4E895C54651A3CB3"]
@@ -1294,8 +1325,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(apothic_enchanting:pickaxe_tome)item(apothic_enchanting:fishing_tome))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -11.0d
-			y: 2.0d
+			x: -4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4E895C54651A3CB3"]
@@ -1321,8 +1352,8 @@
 				item: { count: 1, id: "apothic_enchanting:other_tome" }
 				type: "item"
 			}]
-			x: -8.5d
-			y: 3.0d
+			x: -7.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["31E7F7464D79F881"]
@@ -1343,7 +1374,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: 0.5d
+			y: -1.0d
 		}
 		{
 			id: "784466C3813AA506"
@@ -1367,8 +1398,8 @@
 				item: { count: 1, id: "apothic_enchanting:flimsy_ender_lead" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -1396,8 +1427,8 @@
 				item: { count: 1, id: "apothic_enchanting:ender_lead" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: -3.0d
+			x: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -1425,8 +1456,8 @@
 				item: { count: 1, id: "apothic_enchanting:occult_ender_lead" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: -2.0d
+			x: -2.0d
+			y: -1.0d
 		}
 	]
 }
