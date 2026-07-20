@@ -585,7 +585,7 @@
 			y: -7.0d
 		}
 		{
-						hide_until_deps_visible: false
+			hide_until_deps_visible: false
 			icon: {
 				id: "minecraft:wither_skeleton_skull"
 			}
@@ -713,10 +713,7 @@
 			y: 1.6071428571428577d
 		}
 		{
-			dependencies: [
-				
-				"1E1EB7DC19DDCFB7"
-			]
+			dependencies: ["1E1EB7DC19DDCFB7"]
 			id: "0F026D5A17CCCF51"
 			rewards: [
 				{

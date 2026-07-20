@@ -179,7 +179,11 @@
 			]
 			shape: "diamond"
 			size: 2.0d
-			tasks: []
+			tasks: [{
+				id: "4BB1FE6A1357FB53"
+				item: { count: 1, id: "minecraft:elytra" }
+				type: "item"
+			}]
 			x: 18.0d
 			y: 5.0d
 		}

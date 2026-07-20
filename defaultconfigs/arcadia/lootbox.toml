@@ -1,4 +1,4 @@
-#Arcadia Lootbox v1.2.0 - Global Configuration
+#Arcadia Lootbox - Global Configuration
 [general]
 	#Default cooldown in ticks (20 = 1s)
 	# Default: 20
@@ -15,11 +15,9 @@
 	#Require sneaking to open by default
 	requireSneakDefault = false
 
-#Broadcast settings
+#Broadcast settings (message text is localized per recipient)
 [broadcast]
 	enabled = true
-	format = "§6⚙ §e{player} §7opened §e{lootbox} §7and got §f{count}x §e{item}§7!"
-	rareFormat = "§6⚙ §d✦ §e{player} §7found {rarity_color}{rarity} §7item: §f{count}x §e{item} §7from §e{lootbox}§7! §d✦"
 	#Min rarity for broadcast (0=common..5=mythic)
 	# Default: 2
 	# Range: 0 ~ 5
@@ -50,7 +48,8 @@
 	# Range: 1.0 ~ 64.0
 	maxInteractionDistance = 8.0
 	antiAutoclicker = true
-	# Default: 10
+	#Max lootbox opens per minute before flagging (>10 to allow a full bulk-open)
+	# Default: 20
 	# Range: 1 ~ 100
 	antiAutoclickerThreshold = 10
 

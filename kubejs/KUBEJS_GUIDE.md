@@ -62,7 +62,8 @@ kubejs/
 │   │   │   ├── 06_create_addons.js                 # Addition, Nuclear, Diesel hardening
 │   │   │   ├── 07_storage_peripherals_flux.js      # AdvancedPeripherals, RefinedStorage, FluxNetworks
 │   │   │   ├── 08_magic_mods.js                    # Ars Nouveau/Creo/Technica, Iron's Spellbooks, Occultism
-│   │   │   └── 09_adventure_mods.js                # Apotheosis, Aether, Aquaculture
+│   │   │   ├── 09_adventure_mods.js                # Apotheosis, Aether, Aquaculture
+│   │   │   └── 10_steel_arbitrage.js               # Locks cross-mod steel laundering (TFMG/CN tag-keyed conversions)
 │   │   ├── create/
 │   │   │   ├── netherite_sequenced_assembly.js     # Netherite block decrafting via sequenced assembly
 │   │   │   ├── precision_mechanism_fix.js          # Fix Create 6.0.10 bug #10203 (tag Either-codec)
@@ -89,11 +90,17 @@ kubejs/
 │       └── compat/
 │           ├── blaze_burner_patch.js                       # Create blaze burner compat
 │           ├── cannon_boat_crash_fix.js                    # Supplementaries cannon_boat crash fix
+│           ├── claim_explosion_protection.js               # Hardens FTB claims vs custom mod explosions (Mutant Creeper etc.)
 │           ├── creeper_lightning_charge_fix.js             # Lightning damage always charges creepers (vanilla + ISS spells)
 │           ├── mowziesmobs_elokosa_paw_crashfix.js         # Mowzie's Mobs Elokosa paw crash fix
-│           └── occultengineering_pulverizer_dupe_fix.js    # Replaces broken upgrade_tier recipe (6 shapeless tier crafts)
+│           ├── occultengineering_pulverizer_dupe_fix.js    # Replaces broken upgrade_tier recipe (6 shapeless tier crafts)
+│           ├── soul_gem_claim_protection.js                # Occultism Soul Gem: blocks mob capture inside foreign FTB claims
+│           ├── tfmg_limestone_crushing_fix.js              # Drops TFMG-only limestone crushing recipe so CUF compat one wins
+│           └── transmitter_claim_protection.js             # Create Ender Transmission: blocks config screen in foreign claims
 │
 ├── startup_scripts/
+│   ├── compat/
+│   │   └── knightlib_enable_content.js             # Calls KnightLib.initialize(Usage.ALL) so grail/chalice recipes load
 │   └── registry/
 │       ├── item_registry.js                        # ALL custom items (keys, discs, fusion, bridges, armor, heart)
 │       ├── block_registry.js                       # Custom blocks (ATM)

@@ -31,7 +31,7 @@ A curated NeoForge 1.21.1 modpack designed for the **Arcadia** community server 
 ### Players (CurseForge)
 1. Open CurseForge launcher
 2. Import the `manifest.json` from this repository (or download the official pack from CurseForge)
-3. Launcher resolves all 449 mods automatically
+3. Launcher resolves all 450 mods automatically
 4. Launch and join `arcadia.echoes-of-power.fr`
 
 ### Server admins
@@ -46,7 +46,9 @@ This repo ships only what we author or maintain. Third-party mod jars are resolv
 
 | Path | Purpose |
 |------|---------|
-| `manifest.json` | CurseForge modpack manifest (449 mods) |
+| `manifest.json` | CurseForge modpack manifest (450 mods) |
+| `STRUCTURE.md` | Full structural map of the instance (bilingual) |
+| `CHANGELOG.md` | Version history (bilingual) |
 | `config/` | Modpack-shipped configurations (overrides upstream defaults) |
 | `defaultconfigs/` | Canonical defaults distributed by DefaultOptions |
 | `kubejs/` | Custom scripts, items, recipes, tags, lang files |
@@ -96,7 +98,7 @@ Un modpack NeoForge 1.21.1 curate, conu pour le serveur communautaire **Arcadia*
 ### Joueurs (CurseForge)
 1. Ouvrir le launcher CurseForge
 2. Importer le `manifest.json` de ce depot (ou telecharger le pack officiel depuis CurseForge)
-3. Le launcher resout les 449 mods automatiquement
+3. Le launcher resout les 450 mods automatiquement
 4. Lancer et rejoindre `arcadia.echoes-of-power.fr`
 
 ### Admins serveur
@@ -111,7 +113,9 @@ Ce depot ne contient que ce que nous avons ecrit ou maintenons. Les jars de mods
 
 | Chemin | Role |
 |--------|------|
-| `manifest.json` | Manifest CurseForge du modpack (449 mods) |
+| `manifest.json` | Manifest CurseForge du modpack (450 mods) |
+| `STRUCTURE.md` | Carte structurelle complete de l instance (bilingue) |
+| `CHANGELOG.md` | Historique des versions (bilingue) |
 | `config/` | Configurations livrees par le modpack (override les defauts amont) |
 | `defaultconfigs/` | Defauts canoniques distribues par DefaultOptions |
 | `kubejs/` | Scripts, items, recettes, tags, fichiers lang customs |
