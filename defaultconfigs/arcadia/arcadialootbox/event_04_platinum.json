@@ -1,169 +1,414 @@
 {
-  "displayName": "§3Event IV",
-  "color": "white",
-  "keyItem": "arcadialootbox:event_key_platinum",
-  "openSound": "minecraft:block.chest.open",
-  "openMessage": "",
-  "lootTable": [
-    {
-      "item": "minecraft:diamond_block",
-      "minCount": 1,
-      "maxCount": 2,
-      "chance": 0.12,
-      "rarity": "rare",
-      "displayName": "Diamond Block",
-      "broadcast": false
-    },
-    {
-      "item": "simplyswords:iron_longsword",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.1,
-      "rarity": "uncommon",
-      "displayName": "Iron Longsword",
-      "broadcast": false
-    },
-    {
-      "item": "simplyswords:iron_claymore",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.1,
-      "rarity": "uncommon",
-      "displayName": "Iron Claymore",
-      "broadcast": false
-    },
-    {
-      "item": "artifacts:whoopee_cushion",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.1,
-      "rarity": "rare",
-      "displayName": "Whoopee Cushion",
-      "broadcast": false
-    },
-    {
-      "item": "artifacts:novelty_drinking_hat",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.1,
-      "rarity": "rare",
-      "displayName": "Novelty Drinking Hat",
-      "broadcast": false
-    },
-    {
-      "item": "artifacts:helium_flamingo",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.1,
-      "rarity": "rare",
-      "displayName": "Helium Flamingo",
-      "broadcast": false
-    },
-    {
-      "item": "simplehats:batwinghat",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.1,
-      "rarity": "rare",
-      "displayName": "Bat Wing Hat",
-      "broadcast": false
-    },
-    {
-      "item": "simplehats:bee_on_head",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.1,
-      "rarity": "rare",
-      "displayName": "Bee On Head",
-      "broadcast": false
-    },
-    {
-      "item": "minecraft:firework_rocket",
-      "minCount": 16,
-      "maxCount": 32,
-      "chance": 0.4,
-      "rarity": "common",
-      "displayName": "Firework Rocket",
-      "broadcast": false
-    },
-    {
-      "item": "minecraft:cake",
-      "minCount": 3,
-      "maxCount": 6,
-      "chance": 0.3,
-      "rarity": "common",
-      "displayName": "Cake",
-      "broadcast": false
-    },
-    {
-      "item": "arcadia:music_disc_vyrriox_la_naine_pt1",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.08,
-      "rarity": "rare",
-      "displayName": "Music Disc - La Naine Pt1",
-      "broadcast": false
-    },
-    {
-      "item": "arcadia:music_disc_peter_le_frein_pt1",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.08,
-      "rarity": "rare",
-      "displayName": "Music Disc - Peter Le Frein Pt1",
-      "broadcast": false
-    },
-    {
-      "item": "arcadialootbox:event_key_diamond",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.01,
-      "rarity": "legendary",
-      "displayName": "Next Tier Key (Event)",
-      "broadcast": true
-    }
-  ],
-  "particles": [
-    "minecraft:flame"
-  ],
-  "type": "guaranteed",
-  "guaranteedItem": "minecraft:firework_rocket",
-  "guaranteedMinCount": 8,
-  "guaranteedMaxCount": 16,
-  "rarity": "epic",
-  "broadcastRare": true,
-  "broadcastMessage": "",
-  "destroyOnOpen": false,
-  "maxUses": -1,
-  "permission": "",
-  "animation": {
-    "type": "burst",
-    "durationTicks": 57,
-    "particleCount": 47,
-    "particleSpeed": 0.237,
-    "particleRadius": 1.05,
-    "particleType": "minecraft:flame",
-    "playTitleAnimation": true
-  },
-  "requireSneakToOpen": false,
-  "cooldownTicks": 20,
-  "closeSound": "",
-  "giveToInventoryOnly": false,
-  "openTitle": "§3✦ Event IV ✦",
-  "openSubtitle": "§7Good luck!",
-  "commandRewards": [],
-  "experienceReward": 100,
-  "requiredBiome": "",
-  "requiredLevel": 0,
-  "logOpening": true,
-  "sortOrder": 503,
-  "displayNameFR": "§3Event IV",
-  "openMessageFR": "",
-  "openTitleFR": "§3✦ Event IV ✦",
-  "openSubtitleFR": "§7Bonne chance !",
-  "freeEnabled": false,
-  "freeCooldownHours": 72,
-  "freePermission": "",
-  "freeReducedCooldownHours": 48,
-  "freeReducedPermission": ""
+    "displayName":  "§3Event IV",
+    "color":  "white",
+    "keyItem":  "arcadialootbox:event_key_platinum",
+    "openSound":  "minecraft:block.chest.open",
+    "openMessage":  "",
+    "lootTable":  [
+                      {
+                          "item":  "simplehats:hatbag_halloween",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Hatbag Halloween",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "simplehats:hatbag_easter",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Hatbag Easter",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "irons_spellbooks:pyrium_ingot",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Pyrium Ingot",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "irons_spellbooks:poisonward_ring",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Poisonward Ring",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "irons_spellbooks:fireward_ring",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Fireward Ring",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "simplehats:policesiren",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Policesiren",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "simplehats:bigbrain",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Bigbrain",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "simplehats:baby_crewmate",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Baby Crewmate",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "arcadialootbox:event_key_diamond",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  2,
+                          "rarity":  "legendary",
+                          "displayName":  "Event Key Diamond",
+                          "broadcast":  true
+                      },
+                      {
+                          "item":  "minecraft:player_head[profile={id:[I;-107630105,1252148356,-1810847452,-1840683311],name:\"Neymor16\",properties:[{name:\"textures\",signature:\"jk+0qAf4u1WYf8muNHu70kfxQNTxvi8sIOSJ3XPvH1Uz9GFv7/IMhFLJ+k/hUu75t/o1IsGd7a4EGTmyKK8nzo2AxE89nnKRnpCQXHz46l5jMwh6VoQRfThJhP++aFR1SyH75sheu4C8OZOSeqPHtR+N1HKHz811cVHS9MpxoL3ZISDxAfuL+TWg+C3BWPl71uqWeh2jYFq8Gz036qlOlSCfO9IDnCIhxtqKPz8kBpxzv6RexQxqP3wSvnXFuprFj06TrKQpzG7wq5QeX8K8fN3vRSaoHeH7XtZathN8TbeX7SOYL5kMW4M/9xCe0YSWnraRU/x6z/qoc9UMAnW2gcS1lIiKro65WsA36aTX6FYUqOEeEreAknBC8H960MtnqA+FyMpwA7x+sjoUarddroIw1jv7KMDF6iYMzA3KWaOhliVHDmVYZiqpV8ZAgteI/L2EcwalyOLeJU00b91yTIIFkr/qngC3BhmFYTFQOkZXs7H/S5U6yk9WjzzBzSlYefafwqPpRK8HwsPPdrR5krCtSZo8vc+MZ5ElbWanrYC02Z18wkFXAkK9yYf8SPeNjlyLZR8cUwPOittWRPzwiOgM+facGS4cLIT4zj/6bM8kvGtpeT7SD19d1kabPOUpanpRu0ZpRZaq7/s8mFXI2TbMWcT9RtGNCnZXo8vLyHs=\",value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4MjY2MzkxMDM3MSwKICAicHJvZmlsZUlkIiA6ICJmOTk1YjFlNzRhYTI0NDg0OTQxMGE5MjQ5MjQ5NjZkMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOZXltb3IxNiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kYmYyYTdhZDQ4YzU4NzY4ZDRhMGU0ZGQ3NzQ4ZmQxYzJmMDBhNjVkMmJhZDQxODRmZTJiMjRmZTc1YjZiM2I0IgogICAgfQogIH0KfQ==\"}]}]",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Player Head - Neymor16",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "minecraft:player_head[profile={id:[I;1566059452,165039863,-2116937288,-1384774856],name:\"Beuzed\",properties:[{name:\"textures\",signature:\"m7MH8aBxITT0LZUlGqOCRek965dvU8qcJRQKkljKQpfWlh7ztyUvajvNhCIPvLaT9YFXN/EO3oSEsfHQL0R8Rk3UDMpuex+CGW4/J5HAjrm0xgub9k0swRqMSncjzh1zv4l3+wBvUj7nsdjp9/Ct0L7Bp2HcdC7UVMeGMKwKsM7YjFMfXyh3kyRGCHbzvPICaUDjwZ4bAhsByvw+SaxE/loOD/tFT7XXqAPKeHYYWZt+OBRbFyRZHHzdfygyiusBTcO0eazWxMLOsWQDxFQAe8pM1dHesu0UXzdFiXGKhh5jh0mBUqe1ScU1Xg4onWVTsfeRcYKF86CjWJFJ7hFcm0IDeBXYB0YRnAO5BueiAZ4yhpxphuWWzjFOHtHvG512VHXl3c6cLj8o9a1Ry0CJsiY03gpRMKINkj06guQOVnb8CMuGmtDEemhlgj9jrnD/w6J4PMgySJ5QptHwe50jhjF60rJtaUVHULyf5TQjHJUg8CSwJ38ZgDV1KUAwyt23dyvVL65USSHLd7pp91iZ3rbMNGc03Rx9NCkfUG06l/PE+Vga8S3PbaBvq44E9lfmedPcyzQyTKRo3xzFovhZnCLxqtCk79dVjOnaAy8MeFhOhRvHfixCTk+vs0PWyXDiQ0u1QgNuvqyrj4/fG/zFoqTVBp0MSe4vwP/dQtO2NkE=\",value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4MjY2MzUzOTIxMywKICAicHJvZmlsZUlkIiA6ICI1ZDU4MmJiYzA5ZDY0ZWY3ODFkMjE5YjhhZDc2MDMzOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJCZXV6ZWQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGZjY2NkMDM1N2MyZTRhM2VhMTZjMWE1ZjQwOTA0N2RkZjc4NzEwNDFkZTVjMzgzNmVjZjI5YTE5OGYwMzMzNyIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0=\"}]}]",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Player Head - Beuzed",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "minecraft:player_head[profile={id:[I;-151810062,-2086911916,-1712203067,-344000892],name:\"HealeurAs2\",properties:[{name:\"textures\",signature:\"J2ElUL3z4TOjWM42bpGOgPU0Wh9nuIFYMbXFIbC/irUlMtSnXD5uYtBqiNaBGO+feS7dGkVs+5jLB65ZlJ2DlhRaP5lFqTaLVTMnZT/vBbR+GA0UX65QfU2peJ4GpPCT8dezncF9Thp5uUZrPCApEXqgP98/ayUELg6SrKlHJqkzAjermpAIpPadYMGbgD7GmFujFb50xE7ZMFjLrVBjeRKC7JQE7ClPQcHXsuPzTjl1TToV49Z+rJyd+mJWvGgbPUVqUfsB5dH/NJTyI/yUT6jtDSkMmROiF+L/gkoeuT+1cTgp19UsGJ0wMJhAJdcL8SRAm2t/JOaiRQm+TikEuhdr1eF+PlWoe/NNlxVL4JJVqtZeCg8agDtMLnZ5iRW6WncT11p7/o5aaEHFNc/KCovudJ9Y1vxzwWgPgf9ZkQXxsubDyMW/epmcjSyi/yUkxy+FyKB9VR+z2a20nZc+RsEkp0+4jJhgoy48EBTaSOPr0Sk8Ks1lAwEfKTakBem/Qt1/lVllW8aQMlSWpKYLHNt1TPX80qDqMVGB9G/6mKvyIOh6162Raen/0a6N7nprpgR9+HebnLV8osTTwfoWexg1UyzxS+RL2jqCgvYdwmmPQpbj4bT6BnlMRwf0EWQgT8PGpoHFd5skrxr9SlIj7aAeAI1+g2ih8/Dfqv+L0LE=\",value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4MjY2Mzk0NzgzNSwKICAicHJvZmlsZUlkIiA6ICJmNmYzOGZmMjgzOWM0MDU0OTlmMWRhYzVlYjdlZjY4NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJIZWFsZXVyQXMyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JlYTQzOGQ0N2M1NGY0ZWY0NjVjZGQzOWY0ZWQzZTg1OTVmNDUzNjY1NzFlMWJlODExNGViODIzNDgxYmMyIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81ZWM5MzBjZGQyNjI5Yzg3NzE2NTVjNjBlZWJlYjg2N2I0YjY1NTliMGU2ZDNiYzcxYzQwYzk2MzQ3ZmEwM2YwIgogICAgfQogIH0KfQ==\"}]}]",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Player Head - HealeurAs2",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "comforts:sleeping_bag_white",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Sleeping Bag White",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "mekanismtools:netherite_paxel",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Netherite Paxel",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "voidtotem:totem_of_void_undying",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Totem Of Void Undying",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "minecraft:potion[potion_contents={potion:\"apothic_attributes:extra_long_flying\"}]",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Potion",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "createoreexcavation:diamond_drill",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Diamond Drill",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "apothic_enchanting:infused_breath",
+                          "minCount":  16,
+                          "maxCount":  16,
+                          "chance":  6,
+                          "rarity":  "epic",
+                          "displayName":  "Infused Breath x16",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "waystones:waystone",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Waystone",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "simplyswords:diamond_halberd",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Diamond Halberd",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "simplyswords:diamond_scythe",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Diamond Scythe",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "simplyswords:diamond_chakram",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Diamond Chakram",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "simplyswords:diamond_greataxe",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Diamond Greataxe",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "simplyswords:diamond_greathammer",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Diamond Greathammer",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "simplyswords:diamond_claymore",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Diamond Claymore",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "simplyswords:diamond_cutlass",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Diamond Cutlass",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "simplyswords:diamond_warglaive",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Diamond Warglaive",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "simplehats:hatbag_summer",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Hatbag Summer",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "simplehats:hatbag_festive",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Hatbag Festive",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "simplyswords:diamond_longsword",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Diamond Longsword",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "simplyswords:diamond_twinblade",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Diamond Twinblade",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "simplyswords:diamond_rapier",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Diamond Rapier",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "simplyswords:diamond_katana",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Diamond Katana",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "simplyswords:diamond_sai",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Diamond Sai",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "simplyswords:diamond_spear",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Diamond Spear",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "simplyswords:diamond_glaive",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Diamond Glaive",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "numismatics:cog",
+                          "minCount":  32,
+                          "maxCount":  32,
+                          "chance":  6,
+                          "rarity":  "epic",
+                          "displayName":  "Cog x32",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "apothic_enchanting:extraction_tome",
+                          "minCount":  2,
+                          "maxCount":  2,
+                          "chance":  6,
+                          "rarity":  "epic",
+                          "displayName":  "Extraction Tome x2",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "sophisticatedbackpacks:netherite_backpack",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Netherite Backpack",
+                          "broadcast":  false
+                      },
+                      {
+                          "item":  "torchmaster:megatorch",
+                          "minCount":  1,
+                          "maxCount":  1,
+                          "chance":  4,
+                          "rarity":  "epic",
+                          "displayName":  "Megatorch",
+                          "broadcast":  false
+                      }
+                  ],
+    "particles":  [
+                      "minecraft:flame"
+                  ],
+    "type":  "guaranteed",
+    "guaranteedItem":  "",
+    "guaranteedMinCount":  0,
+    "guaranteedMaxCount":  0,
+    "rarity":  "epic",
+    "broadcastRare":  true,
+    "broadcastMessage":  "",
+    "destroyOnOpen":  false,
+    "maxUses":  -1,
+    "permission":  "",
+    "animation":  {
+                      "type":  "burst",
+                      "durationTicks":  20,
+                      "particleCount":  10,
+                      "particleSpeed":  0.05,
+                      "particleRadius":  0.3,
+                      "particleType":  "minecraft:flame",
+                      "playTitleAnimation":  true
+                  },
+    "requireSneakToOpen":  false,
+    "cooldownTicks":  20,
+    "closeSound":  "",
+    "giveToInventoryOnly":  false,
+    "openTitle":  "§3✦ Event IV ✦",
+    "openSubtitle":  "§7Good luck!",
+    "commandRewards":  [
+
+                       ],
+    "experienceReward":  100,
+    "requiredBiome":  "",
+    "requiredLevel":  0,
+    "logOpening":  true,
+    "sortOrder":  503,
+    "displayNameFR":  "§3Event IV",
+    "openMessageFR":  "",
+    "openTitleFR":  "§3✦ Event IV ✦",
+    "openSubtitleFR":  "§7Bonne chance !",
+    "freeEnabled":  false,
+    "freeCooldownHours":  72,
+    "freePermission":  "",
+    "freeReducedCooldownHours":  48,
+    "freeReducedPermission":  ""
 }
