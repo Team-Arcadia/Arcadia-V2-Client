@@ -379,6 +379,17 @@ ServerEvents.recipes((event) => {
         ])
         .heated();
 
+    // Restore the block decrafts: remove-by-ingot-output above also wiped the
+    // mod's *_ingot_from_block recipes (same gotcha as minecraft:netherite_ingot)
+    const advNetheriteTiers = ["iron", "gold", "emerald", "diamond"];
+    advNetheriteTiers.forEach((tier) => {
+        event
+            .shapeless("9x advancednetherite:netherite_" + tier + "_ingot", [
+                "advancednetherite:netherite_" + tier + "_block",
+            ])
+            .id("arcadia:netherite_" + tier + "_ingot_from_block");
+    });
+
     // ============================================================
     // 10. CROSS-MOD HARDENING — Storage, Magic, Tech
     // ============================================================
