@@ -21,7 +21,7 @@
 
 EntityEvents.afterHurt(event => {
     const entity = event.entity;
-    if (entity.type !== 'minecraft:creeper') return;
+    if (String(entity.type) !== 'minecraft:creeper') return;
     if (entity.health <= 0) return;
 
     const msgId = String(event.source.msgId || '').toLowerCase();
