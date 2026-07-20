@@ -8,12 +8,14 @@ All notable changes to Arcadia V2 — Echoes Of Power are documented here.
 
 ### Added
 
+- **Proprietary license** — Replaced the MIT license with the Arcadia V2 Proprietary License (source-available): viewing, private copies, private modifications, and contributions are allowed; redistribution, republication, derivative packs, and monetization are prohibited. Third-party and no-affiliation clauses retained, bilingual EN/FR.
 - **STRUCTURE.md** — New bilingual structural map of the whole instance: top-level layout, config/ key areas, full kubejs/ ecosystem breakdown, in-house mod list.
 - **CHANGELOG.md** — This file; version history now tracked in the repository.
 - **defaultconfigs full mirror** — `defaultconfigs/` now mirrors `config/` in full (~1,170 files) so new worlds and fresh server installs start from the curated defaults. `config/spark/` (runtime profiling data) and the admin panel credentials file are excluded from the mirror.
 
 ### Changed
 
+- **manifest.json regenerated from the live instance** — Now 456 entries (443 mods + 13 shaderpacks): 6 new projects added (Create O' Plenty, Create: Ice & Creams, Create Heat JS, Steam 'n' Rails, WATERMeDIA: Binaries, Create: Apotheosis Automation), 100 file IDs bumped to the installed versions, mod loader raised to NeoForge 21.1.232.
 - **README.md refreshed** — Mod counts aligned with the real manifest (450 manifest entries, 446 active jars), repository contents table updated with the new documentation files.
 - **RULES.md structure section updated** — File counts and kubejs/ tree brought in line with the current state of the instance.
 
@@ -27,12 +29,14 @@ All notable changes to Arcadia V2 — Echoes Of Power are documented here.
 
 ### Ajouts
 
+- **Licence propriétaire** — La licence MIT est remplacée par la Licence Propriétaire Arcadia V2 (source visible) : consultation, copies privées, modifications privées et contributions autorisées ; redistribution, republication, packs dérivés et monétisation interdits. Clauses tiers et non-affiliation conservées, bilingue EN/FR.
 - **STRUCTURE.md** — Nouvelle carte structurelle bilingue de l'instance : arborescence racine, zones clés de config/, détail complet de l'écosystème kubejs/, liste des mods maison.
 - **CHANGELOG.md** — Ce fichier ; l'historique des versions est désormais suivi dans le dépôt.
 - **Miroir complet defaultconfigs** — `defaultconfigs/` reflète désormais intégralement `config/` (~1 170 fichiers) afin que les nouveaux mondes et installations serveur partent des défauts organisés. `config/spark/` (données de profiling runtime) et le fichier d'identifiants du panneau admin sont exclus du miroir.
 
 ### Modifications
 
+- **manifest.json régénéré depuis l'instance** — Désormais 456 entrées (443 mods + 13 shaderpacks) : 6 nouveaux projets ajoutés (Create O' Plenty, Create: Ice & Creams, Create Heat JS, Steam 'n' Rails, WATERMeDIA: Binaries, Create: Apotheosis Automation), 100 IDs de fichiers alignés sur les versions installées, mod loader monté à NeoForge 21.1.232.
 - **README.md rafraîchi** — Compteurs de mods alignés sur le manifest réel (450 entrées manifest, 446 jars actifs), table du contenu du dépôt mise à jour avec les nouveaux fichiers de documentation.
 - **Section structure de RULES.md mise à jour** — Compteurs de fichiers et arborescence kubejs/ alignés sur l'état actuel de l'instance.
 

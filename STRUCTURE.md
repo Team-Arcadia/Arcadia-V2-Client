@@ -1,12 +1,12 @@
 # Arcadia V2 — Modpack Structure
 
-Complete structural map of the Arcadia V2 "Echoes Of Power" instance (Minecraft 1.21.1 · NeoForge 21.1.221 · v2.0.10).
+Complete structural map of the Arcadia V2 "Echoes Of Power" instance (Minecraft 1.21.1 · NeoForge 21.1.232 · v2.0.10).
 
 ## Top-Level Layout
 
 ```
 Arcadia V2/
-├── manifest.json            CurseForge manifest — 450 mods resolved at import
+├── manifest.json            CurseForge manifest — 456 entries resolved at import (443 mods + 13 shaderpacks)
 ├── minecraftinstance.json   CurseForge instance metadata (very large — grep, don't read whole)
 ├── README.md                Bilingual EN/FR repository documentation
 ├── CURSEFORGE_PAGE.md       HTML source of the CurseForge project page
@@ -14,7 +14,7 @@ Arcadia V2/
 ├── STRUCTURE.md             This file
 ├── RULES.md                 Project rules & AI/IDE instructions
 ├── ERROR_LOG.md             Session error log with prevention rules
-├── LICENSE                  MIT (our originals) + third-party scope disclaimers
+├── LICENSE                  Proprietary source-available (private use only) + third-party disclaimers
 │
 ├── mods/                    446 active .jar (incl. 8 in-house arcadia-* mods) + 1 disabled
 ├── config/                  ~1,156 files — modpack-shipped configuration overrides
@@ -81,13 +81,13 @@ kubejs/
 
 # Arcadia V2 — Structure du Modpack (Version Française)
 
-Carte structurelle complète de l'instance Arcadia V2 « Echoes Of Power » (Minecraft 1.21.1 · NeoForge 21.1.221 · v2.0.10).
+Carte structurelle complète de l'instance Arcadia V2 « Echoes Of Power » (Minecraft 1.21.1 · NeoForge 21.1.232 · v2.0.10).
 
 ## Arborescence Racine
 
 ```
 Arcadia V2/
-├── manifest.json            Manifest CurseForge — 450 mods résolus à l'import
+├── manifest.json            Manifest CurseForge — 456 entrées résolues à l'import (443 mods + 13 shaderpacks)
 ├── minecraftinstance.json   Métadonnées d'instance CurseForge (très volumineux)
 ├── README.md                Documentation bilingue EN/FR du dépôt
 ├── CURSEFORGE_PAGE.md       Source HTML de la page CurseForge
@@ -95,7 +95,7 @@ Arcadia V2/
 ├── STRUCTURE.md             Ce fichier
 ├── RULES.md                 Règles projet & instructions AI/IDE
 ├── ERROR_LOG.md             Journal d'erreurs avec règles de prévention
-├── LICENSE                  MIT (nos originaux) + clauses de contenu tiers
+├── LICENSE                  Licence proprietaire source visible (usage prive) + clauses tiers
 │
 ├── mods/                    446 .jar actifs (dont 8 mods maison arcadia-*) + 1 désactivé
 ├── config/                  ~1 156 fichiers — configurations livrées par le modpack
