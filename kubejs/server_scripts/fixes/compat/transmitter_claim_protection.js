@@ -1,16 +1,17 @@
 // Priority: 10
 /*
-    Create Ender Transmission — Claim Interaction Protection
+    Create Addons — Claim Interaction Protection
 
-    The Item / Energy / Fluid Transmitter blocks open a configuration screen on
-    right-click (ItemTransmitterBlock.useItemOn -> displayScreen) WITHOUT checking
-    FTB Chunks permissions. A non-allied player could right-click a transmitter
-    inside someone else's claim, read its frequency code, and then siphon the base's
-    items / energy / fluids from their own matching transmitter elsewhere.
+    Several Create addon blocks open configuration UIs on right-click WITHOUT
+    checking FTB Chunks permissions:
+    - Create Ender Transmission Item/Energy/Fluid Transmitters expose their
+      frequency code, letting outsiders siphon a base's items/energy/fluids.
+    - Create Dreams and Desires Omni Speed Controller and Smart Hopper let
+      outsiders change speed values and filters (bug report #214).
 
-    This patch gates right-click on all three transmitters through FTB Chunks'
-    INTERACT_BLOCK protection: if the player is not allowed to interact with blocks
-    in that claim, the interaction is cancelled before the screen ever opens.
+    This patch gates right-click on those blocks through FTB Chunks'
+    INTERACT_BLOCK protection: if the player is not allowed to interact with
+    blocks in that claim, the interaction is cancelled before the UI ever opens.
 
     Author: vyrriox
     KubeJS 7.x / MC 1.21.1 NeoForge.
@@ -20,13 +21,17 @@
 const FTBChunksAPI = Java.loadClass('dev.ftb.mods.ftbchunks.api.FTBChunksAPI');
 const Protection = Java.loadClass('dev.ftb.mods.ftbchunks.api.Protection');
 
-const PROTECTED_TRANSMITTERS = [
+const PROTECTED_BLOCKS = [
+    // Create Ender Transmission
     'createendertransmission:item_transmitter',
     'createendertransmission:energy_transmitter',
-    'createendertransmission:fluid_transmitter'
+    'createendertransmission:fluid_transmitter',
+    // Create Dreams and Desires (#214)
+    'dndesires:omni_speed_controller',
+    'dndesires:smart_hopper'
 ];
 
-PROTECTED_TRANSMITTERS.forEach(blockId => {
+PROTECTED_BLOCKS.forEach(blockId => {
     BlockEvents.rightClicked(blockId, event => {
         const player = event.getEntity();
         // Only gate real server players; fake players / non-players are out of scope here.
@@ -44,10 +49,10 @@ PROTECTED_TRANSMITTERS.forEach(blockId => {
         // and the player's admin bypass flag.
         if (manager.shouldPreventInteraction(player, hand, pos, Protection.INTERACT_BLOCK, null)) {
             event.cancel();
-            player.tell(Text.red("[Arcadia] Vous n'avez pas la permission d'utiliser ce transmetteur dans ce claim ! | You don't have permission to use this transmitter in this claim!"));
+            player.tell(Text.red("[Arcadia] Vous n'avez pas la permission d'utiliser ce bloc dans ce claim ! | You don't have permission to use this block in this claim!"));
         }
     });
 });
 
-console.info("[Arcadia V2] Transmitter Claim Protection Loaded: Create Ender Transmission transmitters now respect FTB Chunks interact permissions.");
+console.info("[Arcadia V2] Claim Protection Loaded: Ender Transmission transmitters and DnDesires blocks now respect FTB Chunks interact permissions.");
 })();
