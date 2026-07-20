@@ -1,116 +1,114 @@
 {
-    "type":  "create:sequenced_assembly",
-    "ingredient":  {
-                       "item":  "apotheosis:rare_material"
-                   },
-    "loops":  3,
-    "results":  [
-                    {
-                        "chance":  75,
-                        "item":  "apotheosis:epic_material"
-                    },
-                    {
-                        "chance":  25,
-                        "item":  "minecraft:redstone"
-                    }
-                ],
-    "sequence":  [
-                     {
-                         "type":  "create:deploying",
-                         "ingredients":  [
-                                             {
-                                                 "item":  "apotheosis_create:incomplete_epic_material"
-                                             },
-                                             {
-                                                 "item":  "apotheosis:rare_material"
-                                             }
-                                         ],
-                         "results":  [
-                                         {
-                                             "item":  "apotheosis_create:incomplete_epic_material"
-                                         }
-                                     ]
-                     },
-                     {
-                         "type":  "create:deploying",
-                         "ingredients":  [
-                                             {
-                                                 "item":  "apotheosis_create:incomplete_epic_material"
-                                             },
-                                             {
-                                                 "item":  "apotheosis:gem_dust"
-                                             }
-                                         ],
-                         "results":  [
-                                         {
-                                             "item":  "apotheosis_create:incomplete_epic_material"
-                                         }
-                                     ]
-                     },
-                     {
-                         "type":  "create:deploying",
-                         "ingredients":  [
-                                             {
-                                                 "item":  "apotheosis_create:incomplete_epic_material"
-                                             },
-                                             {
-                                                 "item":  "minecraft:glowstone_dust"
-                                             }
-                                         ],
-                         "results":  [
-                                         {
-                                             "item":  "apotheosis_create:incomplete_epic_material"
-                                         }
-                                     ]
-                     },
-                     {
-                         "type":  "create:cutting",
-                         "ingredients":  [
-                                             {
-                                                 "item":  "apotheosis_create:incomplete_epic_material"
-                                             }
-                                         ],
-                         "results":  [
-                                         {
-                                             "item":  "apotheosis_create:incomplete_epic_material"
-                                         }
-                                     ]
-                     },
-                     {
-                         "type":  "create:cutting",
-                         "ingredients":  [
-                                             {
-                                                 "item":  "apotheosis_create:incomplete_epic_material"
-                                             }
-                                         ],
-                         "results":  [
-                                         {
-                                             "item":  "apotheosis_create:incomplete_epic_material"
-                                         }
-                                     ]
-                     },
-                     {
-                         "type":  "create:filling",
-                         "ingredients":  [
-                                             {
-                                                 "item":  "apotheosis_create:incomplete_epic_material"
-                                             },
-                                             {
-                                                 "fluid":  "minecraft:lava",
-                                                 "amount":  500,
-                                                 "nbt":  {
-
-                                                         }
-                                             }
-                                         ],
-                         "results":  [
-                                         {
-                                             "item":  "apotheosis_create:incomplete_epic_material"
-                                         }
-                                     ]
-                     }
-                 ],
-    "transitionalItem":  {
-                             "item":  "apotheosis_create:incomplete_epic_material"
-                         }
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "apotheosis:rare_material"
+  },
+  "loops": 3,
+  "results": [
+    {
+      "chance": 75,
+      "id": "apotheosis:epic_material"
+    },
+    {
+      "chance": 25,
+      "id": "minecraft:redstone"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "apotheosis_create:incomplete_epic_material"
+        },
+        {
+          "item": "apotheosis:rare_material"
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis_create:incomplete_epic_material"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "apotheosis_create:incomplete_epic_material"
+        },
+        {
+          "item": "apotheosis:gem_dust"
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis_create:incomplete_epic_material"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "apotheosis_create:incomplete_epic_material"
+        },
+        {
+          "item": "minecraft:glowstone_dust"
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis_create:incomplete_epic_material"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "apotheosis_create:incomplete_epic_material"
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis_create:incomplete_epic_material"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "apotheosis_create:incomplete_epic_material"
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis_create:incomplete_epic_material"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "apotheosis_create:incomplete_epic_material"
+        },
+        {
+          "fluid": "minecraft:lava",
+          "amount": 500,
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis_create:incomplete_epic_material"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "apotheosis_create:incomplete_epic_material"
+  }
 }

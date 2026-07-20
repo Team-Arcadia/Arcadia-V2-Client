@@ -50,3 +50,11 @@
 **Root cause:** Sodium was updated to 0.8.12 during the manifest resync; SodiumGameOptions moved in Sodium 0.8.x. Sodium Leaf Culling 1.0.1 (latest available for NeoForge 1.21.1, April 2025) targets the old class and has no compatible release.
 **Fix:** Removed the sodiumleafculling jar and its manifest entry (project 1089479). Sodium 0.8 handles leaf quality natively.
 **Prevention:** After bulk mod updates, check small Sodium-addon mods (leafculling-style tweaks) against the new Sodium version — they break on internal class moves and are often abandoned.
+
+## [2026-07-20] — Apotheosis Create recipes invisible (two stacked format bugs)
+
+**Context:** New mod apotheosis_create-1.1.0 showed nothing in JEI even after /reload and after re-shipping its recipes via kubejs/data.
+**Error:** No log errors; recipes silently absent.
+**Root cause:** Two issues stacked: (1) the mod ships recipes in data/<ns>/recipes/ (pre-1.21 plural folder) so 1.21.1 never reads them; (2) the recipe JSONs use the Create 5 schema (transitionalItem, results[].item) while the pack runs Create 6, whose codec expects transitional_item and results[].id and silently drops the old format.
+**Fix:** Re-shipped the 8 recipes under kubejs/data/apotheosis_create/recipe/ and converted them to the Create 6 schema.
+**Prevention:** When a compat mod's content is missing, check BOTH the datapack folder layout (recipe/ singular on 1.21+) and the recipe schema against the installed Create major version (compare with a recipe from the create jar itself).
