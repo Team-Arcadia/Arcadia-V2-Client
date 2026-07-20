@@ -34,3 +34,11 @@
 **Root cause:** The three ban lists drifted apart. `inventory_scanner.js` and `loot_table_nerfs.js` were updated to the real Design n' Decor bolt IDs (andesite/brass/copper/gold/industrial/iron/netherite/zinc), but `hide_banned_from_creative.js` (both lists) and `recipe_remover.js` kept the obsolete lead/tin/uranium/aluminum/nickel/steel/bronze/cast_iron set.
 **Fix:** Replaced all three stale lists with the corrected mineral set already used in `inventory_scanner.js`.
 **Prevention:** The 4 ban lists (creative hide ×2, recipe remover, inventory scanner, loot nerfs) must be updated together — grep all of `kubejs/` for the old ID before renaming any banned item.
+
+## [2026-07-20] — Wrong CC: Tweaked kept when resolving the duplicate
+
+**Context:** Full-pack audit found two CurseForge projects both shipping the computercraft mod id (official CC: Tweaked 1.113.1 and unofficial port 1.117.1). One had to go.
+**Error:** Kept the official 1.113.1 based on install date; on next launch, `advancedperipherals` and `fncct` failed dependency checks: "requires computercraft 1.116.2 or above. Currently 1.113.1".
+**Root cause:** Chose which duplicate to keep by project officiality/install date instead of checking the version constraints of DEPENDENT mods. The unofficial 1.117.1 port existed precisely because the official project lags behind on 1.21.1.
+**Fix:** Re-downloaded cc-tweaked-1.21.1-forge-1.117.1.jar (project 1527866, file 8005487) from the CurseForge CDN, deleted the 1.113.1 jar, swapped the manifest entry back.
+**Prevention:** Before removing one of two duplicate mods, grep the other jars' dependency ranges (or launch once) to see which version the pack's dependents require. Newest version wins by default, not "most official".
