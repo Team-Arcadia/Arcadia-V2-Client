@@ -66,3 +66,10 @@
 **Root cause:** Since 1.19.3 every chat packet carries a signed-message acknowledgement; a message sent in the same instant as the death/respawn desyncs the acknowledgement chain and the server kicks. The pack ships No Chat Reports, but NCR-Client.json had defaultSigningMode=PROMPT, so any player who answered "sign" at first join kept sending signed messages and stayed exposed to the race.
 **Fix:** defaultSigningMode set to NEVER (mirrored to defaultconfigs). Unsigned messages skip signature validation entirely; the server config already converts chat to system messages (convertToGameMessage=true).
 **Prevention:** Never ship NCR in PROMPT mode on a curated pack; verify the dedicated server's own NCR-Common.json also has convertToGameMessage=true. Players who chose signing before this fix keep their per-server choice: they must click the NCR shield icon in the chat screen once and pick "unsigned", or delete their NCR-ServerPreferences.json.
+
+## [2026-07-20 16:00] — Lootboxes not appearing in game (all 15 new boxes rejected)
+**Context:** Reworked shop_* and event_* lootbox definitions for ArcadiaLootbox 1.2.6.
+**Error:** New lootboxes absent from the in-game hub on the test server; no crash.
+**Root cause:** LootboxManager.validate() requires every lootTable entry chance to be within [0,1]. The new files used integer weights 1..10 ("chance acts as weight" in guaranteed mode), so validate() returned false and every box was skipped at load.
+**Fix:** Scaled all chance values by /10 (relative weights preserved), propagated to defaultconfigs and all server folders.
+**Prevention:** For ArcadiaLootbox configs, always keep chance in [0,1] even in guaranteed/weight mode. Empty guaranteedItem only warns, it does not reject.
