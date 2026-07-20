@@ -83,7 +83,7 @@
 <p><span style="color: #ffa500;"><strong>🎮 Curated Server Experience</strong></span><br>In-house mods built for Arcadia: <strong>Arcadia Pets</strong> (collectibles + PvP duels + ELO ladder), Arcadia Guard moderation toolkit, the Prestige progression system, and the legendary Heart of Arcadia. A tailored ecosystem built for one community.</p>
 </td>
 <td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
-<p><span style="color: #ffa500;"><strong>📜 3,000+ Quest-Guided Journey</strong></span><br>31 chapters of FTB Quests covering every mod's progression path. Whether you're a fresh player or a 1000-hour veteran, you always know what to do next.</p>
+<p><span style="color: #ffa500;"><strong>📜 3,000+ Quest-Guided Journey</strong></span><br>43 chapters of FTB Quests covering every mod's progression path. Whether you're a fresh player or a 1000-hour veteran, you always know what to do next.</p>
 </td>
 </tr>
 </tbody>
@@ -212,7 +212,7 @@
 <td style="padding: 16px; text-align: center;">
 <p><span style="color: #ffa500; font-size: large;"><strong>📖 7 Languages Available</strong></span></p>
 <p>🇺🇸 EN-US &nbsp;·&nbsp; 🇬🇧 EN-GB &nbsp;·&nbsp; 🇫🇷 FR &nbsp;·&nbsp; 🇪🇸 ES &nbsp;·&nbsp; 🇧🇷 PT-BR &nbsp;·&nbsp; 🇷🇺 RU &nbsp;·&nbsp; 🇨🇳 ZH-CN</p>
-<p><strong>25 000+</strong> translation entries &nbsp;·&nbsp; <strong>3000+</strong> quests &nbsp;·&nbsp; <strong>31</strong> chapters</p>
+<p><strong>25 000+</strong> translation entries &nbsp;·&nbsp; <strong>3000+</strong> quests &nbsp;·&nbsp; <strong>43</strong> chapters</p>
 </td>
 </tr>
 </tbody>
@@ -518,7 +518,7 @@
 <p><span style="color: #ffa500;"><strong>🎮 Expérience Serveur Curatée</strong></span><br>Mods maison conçus pour Arcadia : <strong>Arcadia Pets</strong> (collectibles + duels PvP + classement ELO), Arcadia Guard pour la modération, le système de Prestige, et le légendaire Heart of Arcadia. Un écosystème pensé pour une seule communauté.</p>
 </td>
 <td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
-<p><span style="color: #ffa500;"><strong>📜 3 000+ Quêtes Guidées</strong></span><br>31 chapitres FTB Quests couvrant la progression de chaque mod. Que vous soyez débutant ou vétéran à 1000 heures, vous savez toujours quoi faire ensuite.</p>
+<p><span style="color: #ffa500;"><strong>📜 3 000+ Quêtes Guidées</strong></span><br>43 chapitres FTB Quests couvrant la progression de chaque mod. Que vous soyez débutant ou vétéran à 1000 heures, vous savez toujours quoi faire ensuite.</p>
 </td>
 </tr>
 </tbody>
@@ -643,7 +643,7 @@
 <td style="padding: 16px; text-align: center;">
 <p><span style="color: #ffa500; font-size: large;"><strong>📖 7 Langues Disponibles</strong></span></p>
 <p>🇺🇸 EN-US &nbsp;·&nbsp; 🇬🇧 EN-GB &nbsp;·&nbsp; 🇫🇷 FR &nbsp;·&nbsp; 🇪🇸 ES &nbsp;·&nbsp; 🇧🇷 PT-BR &nbsp;·&nbsp; 🇷🇺 RU &nbsp;·&nbsp; 🇨🇳 ZH-CN</p>
-<p><strong>25 000+</strong> entrées traduites &nbsp;·&nbsp; <strong>3000+</strong> quêtes &nbsp;·&nbsp; <strong>31</strong> chapitres</p>
+<p><strong>25 000+</strong> entrées traduites &nbsp;·&nbsp; <strong>3000+</strong> quêtes &nbsp;·&nbsp; <strong>43</strong> chapitres</p>
 </td>
 </tr>
 </tbody>
