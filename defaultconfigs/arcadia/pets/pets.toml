@@ -40,3 +40,43 @@
 	#Items the pet sniffer is allowed to drop. Use namespaced item ids.
 	#Anything not in this list will be cancelled when it spawns near a pet sniffer.
 	dig_allowlist = ["minecraft:coal", "minecraft:raw_iron", "minecraft:raw_gold", "minecraft:raw_copper", "minecraft:diamond", "minecraft:emerald", "minecraft:redstone", "minecraft:lapis_lazuli", "minecraft:quartz", "minecraft:netherite_scrap", "minecraft:coal_ore", "minecraft:deepslate_coal_ore", "minecraft:iron_ore", "minecraft:deepslate_iron_ore", "minecraft:gold_ore", "minecraft:deepslate_gold_ore", "minecraft:nether_gold_ore", "minecraft:diamond_ore", "minecraft:deepslate_diamond_ore", "minecraft:emerald_ore", "minecraft:deepslate_emerald_ore", "minecraft:copper_ore", "minecraft:deepslate_copper_ore", "minecraft:redstone_ore", "minecraft:deepslate_redstone_ore", "minecraft:lapis_ore", "minecraft:deepslate_lapis_ore", "minecraft:nether_quartz_ore", "minecraft:ancient_debris"]
+	#Blocks the Sniffer's Ancient Sense skill may duplicate when broken.
+	#Kept to cheap, renewable nature blocks (sniffer archaeology loot, flowers,
+	#seeds, dirt/sand/gravel, moss, grass) so the skill cannot reproduce the old
+	#'dupe anything' exploit. Use namespaced block ids. Anything not listed here
+	#is never duplicated, whatever the skill level.
+	skill_friendly_blocks = ["minecraft:torchflower", "minecraft:pitcher_plant", "minecraft:torchflower_crop", "minecraft:pitcher_crop", "minecraft:wheat", "minecraft:short_grass", "minecraft:tall_grass", "minecraft:fern", "minecraft:large_fern", "minecraft:dandelion", "minecraft:poppy", "minecraft:blue_orchid", "minecraft:allium", "minecraft:azure_bluet", "minecraft:oxeye_daisy", "minecraft:cornflower", "minecraft:lily_of_the_valley", "minecraft:sunflower", "minecraft:lilac", "minecraft:rose_bush", "minecraft:peony", "minecraft:dirt", "minecraft:coarse_dirt", "minecraft:rooted_dirt", "minecraft:moss_block", "minecraft:moss_carpet", "minecraft:sand", "minecraft:gravel", "minecraft:mud"]
+
+#World drop settings — structure chests and mob kill drops.
+#All toggleable at runtime via /arcadia_pets drops and /arcadia_pets mobdrops.
+[drops]
+	#Whether pet bags can appear in dungeon/structure chests. Default: true.
+	chest_drops_enabled = true
+	#Whether killing a mob can drop its corresponding pet item. Default: true.
+	mob_drops_enabled = true
+	#Drop chance for common-tier chests (village, shipwreck, etc.), in permille.
+	#25 = 2.5%. Range: 0–1000.
+	# Default: 25
+	# Range: 0 ~ 1000
+	common_chest_permille = 25
+	#Drop chance for endgame-tier chests (trial chambers, nether fortress, end city, etc.), in permille.
+	#50 = 5%. Range: 0–1000.
+	# Default: 50
+	# Range: 0 ~ 1000
+	endgame_chest_permille = 50
+	#Mob kill drop denominator for non-boss mobs.
+	#Roll is: random(denominator) < (1 + looting_level). Default 1000 → base 1/1000.
+	# Default: 1000
+	# Range: 1 ~ 100000
+	mob_drop_denominator = 1000
+	#Mob kill drop denominator for boss mobs (Warden, Ender Dragon, Wither, Elder Guardian).
+	#Roll is: random(denominator) < (1 + looting_level). Default 100 → base 1/100.
+	# Default: 100
+	# Range: 1 ~ 100000
+	boss_drop_denominator = 100
+	#Rarity weights for common chest drops. Order: COMMON, UNCOMMON, RARE.
+	#Default [75, 20, 5] → RARE at 5% of drops (2.5% chest × 5% = 0.125% overall).
+	common_tier_rarity_weights = [75, 20, 5]
+	#Rarity weights for endgame chest drops. Order: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY.
+	#Default [23, 35, 30, 10, 2] → LEGENDARY at 2% of drops (5% chest × 2% = 0.1% overall).
+	endgame_tier_rarity_weights = [23, 35, 30, 10, 2]

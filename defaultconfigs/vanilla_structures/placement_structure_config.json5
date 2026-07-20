@@ -21,8 +21,8 @@ Created by Cristel Lib
 	},
 	"desert_pyramids": {
 		"salt": 14357617,
-		"separation": 16,
-		"spacing": 48
+		"separation": 8,
+		"spacing": 32
 	},
 	"end_cities": {
 		"salt": 10387313,
@@ -31,13 +31,19 @@ Created by Cristel Lib
 	},
 	"igloos": {
 		"salt": 14357618,
-		"separation": 16,
-		"spacing": 48
+		"separation": 8,
+		"spacing": 32
 	},
 	"jungle_temples": {
 		"salt": 14357619,
-		"separation": 16,
-		"spacing": 48
+		"separation": 8,
+		"spacing": 32
+	},
+	"mineshafts": {
+		"frequency": 0.004,
+		"salt": 0,
+		"separation": 0,
+		"spacing": 1
 	},
 	"nether_complexes": {
 		"salt": 30084232,
@@ -62,28 +68,38 @@ Created by Cristel Lib
 	"pillager_outposts": {
 		"frequency": 0.2,
 		"salt": 165745296,
-		"separation": 24,
-		"spacing": 64
+		"separation": 8,
+		"spacing": 32
 	},
 	"ruined_portals": {
 		"salt": 34222645,
-		"separation": 25,
-		"spacing": 60
-	},
-	"shipwrecks": {
-		"salt": 165745295,
 		"separation": 15,
 		"spacing": 40
 	},
+	"shipwrecks": {
+		"salt": 165745295,
+		"separation": 4,
+		"spacing": 24
+	},
 	"swamp_huts": {
 		"salt": 14357620,
-		"separation": 16,
-		"spacing": 48
+		"separation": 8,
+		"spacing": 32
+	},
+	"trail_ruins": {
+		"salt": 83469867,
+		"separation": 8,
+		"spacing": 34
+	},
+	"trial_chambers": {
+		"salt": 94251327,
+		"separation": 12,
+		"spacing": 34
 	},
 	"villages": {
 		"salt": 10387312,
-		"separation": 24,
-		"spacing": 64
+		"separation": 8,
+		"spacing": 34
 	},
 	"woodland_mansions": {
 		"salt": 10387319,

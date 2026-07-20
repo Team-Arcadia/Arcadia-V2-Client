@@ -29,7 +29,7 @@
   - Imperative mood, English, ≤ 72 chars subject
   - **NO AI attribution** — never add Co-Authored-By Claude, never mention Claude/AI/LLM in commits or code
 - **Tracked**: `mods/`, `config/`, `kubejs/`, `saves/`, `defaultconfigs/`, `datapacks/`, `resourcepacks/`, `shaderpacks/`, `README.md`, `CHANGELOG.md` (if present)
-- **Ignored**: `.claude/`, `CLAUDE.md`, `logs/`, `crash-reports/`, `local/`, `command_history.txt`, backup `.toml.bak` files are OK to commit (they exist in config/)
+- **Ignored**: `.claude/`, `CLAUDE.md`, `logs/`, `crash-reports/`, `local/`, `command_history.txt`. `.toml.bak` backup files are NOT kept — delete them on sight (repo cleaned 2026-07-20).
 - **Version lock**: never bump the modpack version or mod versions unless the user explicitly requests it.
 - **Release flow**: when user requests a version bump → update `minecraftinstance.json`, `README.md`, `CHANGELOG.md`, generate `TEST_PROCEDURE_vX.Y.Z.html`.
 
@@ -43,7 +43,7 @@
   - Namespace all custom content as `arcadia:xxx`
   - Group server scripts under `server_scripts/{recipes,items,mobs,fixes}/...` subdirs
 - **Datapack JSON**: use NeoForge 1.21.1 syntax — `remove` field for tags (NOT forge `replace`).
-- **Config files**: prefer editing existing `.toml`/`.json`/`.properties` in place; keep `.toml.bak` backups untouched.
+- **Config files**: prefer editing existing `.toml`/`.json`/`.properties` in place; do not create `.bak` copies (git is the backup). After any `config/` change, mirror it into `defaultconfigs/` (full mirror policy, excluding `spark/` and `arcadia/arcadiaadminpanel/logins.json`).
 - **Architecture rules**:
   - Custom content → `kubejs/` (never patch mod JARs)
   - Balance/nerf changes → KubeJS server scripts, NOT mod configs (when possible)
@@ -61,32 +61,33 @@
 
 ```
 Arcadia V2/
-├── mods/                    (443 .jar files — includes 8 arcadia-* custom mods)
-├── config/                  (~1,174 files, 51 subfolders)
+├── mods/                    (446 .jar files — includes 8 arcadia-* custom mods)
+├── config/                  (~1,156 files, 50+ subfolders)
 │   ├── arcadia/             (custom server-side progression datapack)
 │   ├── fancymenu/           (branded main menu "Echoes Of Power")
 │   ├── ftbquests/quests/    (progression chapters)
-│   ├── jei/                 (blacklist.json — 1,174 entries, sort order)
+│   ├── jei/                 (blacklist.json, sort order)
 │   ├── ars_nouveau/         (nerfed: lectern 10, mana tuned)
 │   ├── dndesires-server.toml (Create: Desires balance)
-│   └── ... (49 more mod configs)
+│   └── ... (many more mod configs)
 ├── kubejs/                  (custom scripting ecosystem)
-│   ├── KUBEJS_GUIDE.md      (staff guide, 262 lines — READ FIRST)
+│   ├── KUBEJS_GUIDE.md      (staff guide — READ FIRST)
 │   ├── modified_recipes.txt (recipe change log)
-│   ├── startup_scripts/     (7 files: registry + UI)
-│   ├── server_scripts/      (21 files: recipes, mobs, items, fixes)
+│   ├── startup_scripts/     (9 files: registry + compat + UI)
+│   ├── server_scripts/      (33 files: recipes, mobs, items, fixes, tags)
 │   ├── client_scripts/      (1 file: bilingual tooltips)
-│   ├── data/                (57 JSON: apotheosis, apothic, arcadia jukebox, createoreexcavation)
-│   ├── assets/arcadia/      (287 files: textures, 7 lang, sounds)
+│   ├── data/                (~1,465 JSON: apotheosis, apothic, arcadia jukebox, createoreexcavation, ...)
+│   ├── assets/arcadia/      (~497 files: textures, 7 lang, sounds)
 │   └── config/              (client/common/web_server JSON)
 ├── saves/TEST/              (active test world)
-├── ESM/                     (10 snapshot archives — historical)
+├── ESM/                     (snapshot archives — historical, never modify)
 ├── resourcepacks/           (hud.zip, ArcadiaLanguages)
 ├── shaderpacks/             (13 shaders)
-├── defaultconfigs/          (per-new-world overrides)
+├── defaultconfigs/          (full mirror of config/ — new-world & server defaults)
 ├── datapacks/               (empty — all data in kubejs/data/)
 ├── README.md                (bilingual FR/EN)
-├── TEST_PROCEDURE_ARCADIA_V2.html (QA checklist)
+├── STRUCTURE.md             (full structural map, bilingual)
+├── CHANGELOG.md             (bilingual version history)
 ├── minecraftinstance.json   (CurseForge metadata, 1.2M tokens — grep, don't read whole)
 └── RULES.md                 (this file)
 ```

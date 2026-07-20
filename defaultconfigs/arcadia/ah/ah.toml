@@ -15,9 +15,65 @@
 	# Default: 10
 	# Range: 0 ~ 100
 	listing_fee_percent = 10
+	#Maximum price a single listing (or bid) may be set to.
+	#Hard-capped at Integer.MAX_VALUE (2,147,483,647) because the Numismatics
+	#currency backend moves coins through an int-bound API: any single coin
+	#movement above this would otherwise have to be chunked, and historically
+	#was silently truncated, underpaying the seller. Keeping the cap at the
+	#int ceiling guarantees every price/bid is moved in a single, exact transfer.
+	#Also prevents integer-overflow of the fee math (price * percent).
+	#Default 1,000,000,000 (1e9).
+	# Default: 1000000000
+	# Range: 1 ~ 2147483647
+	max_listing_price = 1000000000
 
 #Item blacklist — items that cannot be listed on the AH.
 #Use registry IDs (e.g. 'minecraft:bedrock', 'arcadia_pets:pet_item').
 [blacklist]
 	#List of item registry IDs that are blocked from being sold.
 	items = ["minecraft:bedrock", "minecraft:command_block", "minecraft:barrier"]
+
+#Featured listings — paid promotion that puts a listing at the top of search results.
+[featured]
+	#Extra fee, on top of the listing fee, taken upfront when a seller upgrades a listing to FEATURED.
+	#Expressed as a percentage of the listing price (30 = 30%).
+	#Set to 0 to make featuring free (not recommended).
+	# Default: 30
+	# Range: 0 ~ 500
+	featured_fee_percent = 30
+	#How many hours a listing remains FEATURED after upgrade (capped at the listing's own expiry).
+	# Default: 24
+	# Range: 1 ~ 336
+	featured_duration_hours = 24
+
+#Global chat broadcast on every new listing.
+[broadcast]
+	#If true, broadcast a chat message to all online players on every new listing.
+	enabled = true
+	#Minimum seconds between two broadcasts triggered by the same seller — anti-spam guard.
+	# Default: 30
+	# Range: 0 ~ 3600
+	per_seller_cooldown_seconds = 30
+	#Maximum length of a player's personalised broadcast template (characters).
+	# Default: 128
+	# Range: 16 ~ 512
+	max_template_length = 128
+
+#Server-side integrity checks before accepting a listing.
+[integrity]
+	#If true, every listed item must round-trip through the NBT serializer cleanly.
+	#Fixes the cross-server SHULKER BOX BUG where contained items were lost when
+	#the item was bought on a different server with a stricter NBT view.
+	#Recommended: keep enabled. Disabling restores the legacy permissive behaviour.
+	strict_nbt_validation = true
+
+#Per-player sales history command (/arcadia_ah history).
+[history]
+	#Number of sales returned per page in /arcadia_ah history.
+	# Default: 10
+	# Range: 1 ~ 50
+	page_size = 10
+	#Look-back window for /arcadia_ah history, in days. Older sales are not shown.
+	# Default: 30
+	# Range: 1 ~ 365
+	max_days = 30
