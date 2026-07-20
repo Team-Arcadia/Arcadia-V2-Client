@@ -409,8 +409,10 @@
 
 <p>&nbsp;</p>
 
-<p style="text-align: center;"><span style="color: #ffa500;"><strong>☕ Optimized JVM Arguments (Aikar's flags)</strong></span><br>Recommended for the best performance. <strong>⚡ Maximum FPS, zero lag. ⚡</strong></p>
-<p style="text-align: center;"><code style="display: block; color: #ffa500; border: 1px solid #FFA500; text-align: left; padding: 10px; background-color: rgba(0,0,0,0.03);">-XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true</code></p>
+<p style="text-align: center;"><span style="color: #ffa500;"><strong>☕ Optimized JVM Arguments (client, Java 21)</strong></span><br>G1 tuned for smooth gameplay: short GC pauses (50 ms), string deduplication, larger regions for 11-14 GB heaps. <strong>⚡ Maximum FPS, minimal stutter. ⚡</strong></p>
+<p style="text-align: center;"><code style="display: block; color: #ffa500; border: 1px solid #FFA500; text-align: left; padding: 10px; background-color: rgba(0,0,0,0.03);">-XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:MaxGCPauseMillis=50 -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=16M -XX:G1ReservePercent=15 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=20 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:MaxTenuringThreshold=1 -XX:+ParallelRefProcEnabled -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:+PerfDisableSharedMem -XX:+UseStringDeduplication</code></p>
+<p style="text-align: center;"><span style="color: #ffa500;"><strong>🚀 Modern PC option (12 GB+ allocated)</strong></span><br>Generational ZGC: near-zero GC pauses, the smoothest experience on recent machines.</p>
+<p style="text-align: center;"><code style="display: block; color: #ffa500; border: 1px solid #FFA500; text-align: left; padding: 10px; background-color: rgba(0,0,0,0.03);">-XX:+UnlockExperimentalVMOptions -XX:+UseZGC -XX:+ZGenerational -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+PerfDisableSharedMem</code></p>
 
 <p>&nbsp;</p>
 
@@ -840,8 +842,10 @@
 
 <p>&nbsp;</p>
 
-<p style="text-align: center;"><span style="color: #ffa500;"><strong>☕ Arguments Java (JVM) Optimisés (Aikar's flags)</strong></span><br>Recommandés pour des performances optimales. <strong>⚡ FPS maximum, zéro lag. ⚡</strong></p>
-<p style="text-align: center;"><code style="display: block; color: #ffa500; border: 1px solid #FFA500; text-align: left; padding: 10px; background-color: rgba(0,0,0,0.03);">-XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 -Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true</code></p>
+<p style="text-align: center;"><span style="color: #ffa500;"><strong>☕ Arguments Java (JVM) Optimisés (client, Java 21)</strong></span><br>G1 réglé pour la fluidité en jeu : pauses GC courtes (50 ms), déduplication des chaînes, régions élargies pour 11-14 Go alloués. <strong>⚡ FPS maximum, micro-freezes minimaux. ⚡</strong></p>
+<p style="text-align: center;"><code style="display: block; color: #ffa500; border: 1px solid #FFA500; text-align: left; padding: 10px; background-color: rgba(0,0,0,0.03);">-XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:MaxGCPauseMillis=50 -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=16M -XX:G1ReservePercent=15 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=20 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:MaxTenuringThreshold=1 -XX:+ParallelRefProcEnabled -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:+PerfDisableSharedMem -XX:+UseStringDeduplication</code></p>
+<p style="text-align: center;"><span style="color: #ffa500;"><strong>🚀 Option PC récent (12 Go+ alloués)</strong></span><br>ZGC générationnel : pauses GC quasi nulles, l'expérience la plus fluide sur machine récente.</p>
+<p style="text-align: center;"><code style="display: block; color: #ffa500; border: 1px solid #FFA500; text-align: left; padding: 10px; background-color: rgba(0,0,0,0.03);">-XX:+UnlockExperimentalVMOptions -XX:+UseZGC -XX:+ZGenerational -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+PerfDisableSharedMem</code></p>
 
 <p>&nbsp;</p>
 
