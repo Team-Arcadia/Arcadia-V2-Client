@@ -31,7 +31,7 @@ A curated NeoForge 1.21.1 modpack designed for the **Arcadia** community server 
 ### Players (CurseForge)
 1. Open CurseForge launcher
 2. Import the `manifest.json` from this repository (or download the official pack from CurseForge)
-3. Launcher resolves all 456 entries (443 mods + 13 shaders) automatically
+3. Launcher resolves all 455 entries (442 mods + 13 shaders) automatically
 4. Launch and join `arcadia.echoes-of-power.fr`
 
 ### Server admins
@@ -46,7 +46,7 @@ This repo ships only what we author or maintain. Third-party mod jars are resolv
 
 | Path | Purpose |
 |------|---------|
-| `manifest.json` | CurseForge modpack manifest (456 entries: 443 mods + 13 shaderpacks) |
+| `manifest.json` | CurseForge modpack manifest (455 entries: 442 mods + 13 shaderpacks) |
 | `STRUCTURE.md` | Full structural map of the instance (bilingual) |
 | `CHANGELOG.md` | Change history by date (bilingual) |
 | `CREDITS.md` | Team, contributors and thanks (bilingual) |
@@ -100,7 +100,7 @@ Un modpack NeoForge 1.21.1 curate, conu pour le serveur communautaire **Arcadia*
 ### Joueurs (CurseForge)
 1. Ouvrir le launcher CurseForge
 2. Importer le `manifest.json` de ce depot (ou telecharger le pack officiel depuis CurseForge)
-3. Le launcher resout les 456 entrees (443 mods + 13 shaders) automatiquement
+3. Le launcher resout les 455 entrees (442 mods + 13 shaders) automatiquement
 4. Lancer et rejoindre `arcadia.echoes-of-power.fr`
 
 ### Admins serveur
@@ -115,7 +115,7 @@ Ce depot ne contient que ce que nous avons ecrit ou maintenons. Les jars de mods
 
 | Chemin | Role |
 |--------|------|
-| `manifest.json` | Manifest CurseForge du modpack (456 entrees : 443 mods + 13 shaderpacks) |
+| `manifest.json` | Manifest CurseForge du modpack (455 entrees : 442 mods + 13 shaderpacks) |
 | `STRUCTURE.md` | Carte structurelle complete de l instance (bilingue) |
 | `CHANGELOG.md` | Historique des changements par date (bilingue) |
 | `CREDITS.md` | Equipe, contributeurs et remerciements (bilingue) |

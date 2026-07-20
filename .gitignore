@@ -91,3 +91,8 @@ resourcepacks/hud.zip
 *.toml.bak
 *.bak
 *.hprof
+
+# Per-user runtime state (never ship)
+config/arcadia/arcadiaadminpanel/logins.json
+config/voicechat/username-cache.json
+config/voicechat/player-volumes.properties

@@ -8,7 +8,7 @@
 
 <p>&nbsp;</p>
 
-<p style="text-align: center;"><img src="https://img.shields.io/badge/Minecraft-1.21.1-62B47A?style=flat-square&amp;logo=minecraft&amp;logoColor=white" alt="MC 1.21.1">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/NeoForge-21.1.232+-F16436?style=flat-square" alt="NeoForge">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Java-21-007396?style=flat-square&amp;logo=openjdk&amp;logoColor=white" alt="Java 21">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Mods-443-FFA500?style=flat-square" alt="443 mods">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Quests-3000+-9C27B0?style=flat-square" alt="3000+ quests">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Languages-EN%20%2F%20FR-2196F3?style=flat-square" alt="EN / FR">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Status-In_Development-FFC107?style=flat-square" alt="In Development"></p>
+<p style="text-align: center;"><img src="https://img.shields.io/badge/Minecraft-1.21.1-62B47A?style=flat-square&amp;logo=minecraft&amp;logoColor=white" alt="MC 1.21.1">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/NeoForge-21.1.232+-F16436?style=flat-square" alt="NeoForge">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Java-21-007396?style=flat-square&amp;logo=openjdk&amp;logoColor=white" alt="Java 21">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Mods-442-FFA500?style=flat-square" alt="442 mods">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Quests-3000+-9C27B0?style=flat-square" alt="3000+ quests">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Languages-EN%20%2F%20FR-2196F3?style=flat-square" alt="EN / FR">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Status-In_Development-FFC107?style=flat-square" alt="In Development"></p>
 
 <p>&nbsp;</p>
 
@@ -325,7 +325,7 @@
 <p>&nbsp;</p>
 
 <p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>💻 Technical Excellence</strong></span></p>
-<p style="text-align: center;">Making <strong>443 mods</strong> coexist demands absolute rigor. We focused on two pillars:</p>
+<p style="text-align: center;">Making <strong>442 mods</strong> coexist demands absolute rigor. We focused on two pillars:</p>
 
 <table style="margin-left: auto; margin-right: auto; max-width: 850px; border: 2px solid #FFA500; background-color: rgba(255, 165, 0, 0.10);">
 <tbody>
@@ -469,7 +469,7 @@
 
 <p>&nbsp;</p>
 
-<p style="text-align: center;"><span style="font-size: x-large;"><strong>🎮 JOIN THE ADVENTURE NOW 🎮</strong></span><br><em>443 mods, unlimited possibilities, one epic journey.</em></p>
+<p style="text-align: center;"><span style="font-size: x-large;"><strong>🎮 JOIN THE ADVENTURE NOW 🎮</strong></span><br><em>442 mods, unlimited possibilities, one epic journey.</em></p>
 
 <p>&nbsp;</p>
 
@@ -756,7 +756,7 @@
 <p>&nbsp;</p>
 
 <p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>💻 L'Excellence Technique</strong></span></p>
-<p style="text-align: center;">Faire cohabiter <strong>443 mods</strong> demande une rigueur absolue. Nous avons mis l'accent sur deux piliers :</p>
+<p style="text-align: center;">Faire cohabiter <strong>442 mods</strong> demande une rigueur absolue. Nous avons mis l'accent sur deux piliers :</p>
 
 <table style="margin-left: auto; margin-right: auto; max-width: 850px; border: 2px solid #FFA500; background-color: rgba(255, 165, 0, 0.10);">
 <tbody>
@@ -899,7 +899,7 @@
 
 <p>&nbsp;</p>
 
-<p style="text-align: center;"><span style="font-size: x-large;"><strong>🎮 REJOIGNEZ L'AVENTURE 🎮</strong></span><br><em>443 mods, possibilités infinies, une épopée épique.</em></p>
+<p style="text-align: center;"><span style="font-size: x-large;"><strong>🎮 REJOIGNEZ L'AVENTURE 🎮</strong></span><br><em>442 mods, possibilités infinies, une épopée épique.</em></p>
 
 <p>&nbsp;</p>
 
@@ -924,7 +924,7 @@
 <p>&nbsp;</p>
 
 <p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large;"><strong>📜 Mod Credits / Crédits des Mods</strong></span></p>
-<p style="text-align: center;"><em>This modpack proudly includes 443 mods from talented developers worldwide. Thank you for making this adventure possible!</em><br><em>Ce modpack inclut fièrement 443 mods créés par des développeurs talentueux du monde entier. Merci d'avoir rendu cette aventure possible !</em></p>
+<p style="text-align: center;"><em>This modpack proudly includes 442 mods from talented developers worldwide. Thank you for making this adventure possible!</em><br><em>Ce modpack inclut fièrement 442 mods créés par des développeurs talentueux du monde entier. Merci d'avoir rendu cette aventure possible !</em></p>
 
 <p>&nbsp;</p>
 
