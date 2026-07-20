@@ -6,283 +6,211 @@
   "openMessage": "",
   "lootTable": [
     {
-      "item": "arcadia:music_disc_peter_le_frein_pt2",
+      "item": "arcadia:music_disc_vyrriox_sac_a_gros_pt1",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.08,
+      "chance": 3,
       "rarity": "rare",
-      "displayName": "Music Disc - Peter Le Frein Pt2",
+      "displayName": "Music Disc - Vyrriox Sac A Gros Pt1",
       "broadcast": false
     },
     {
-      "item": "arcadia:music_disc_peter_le_frein_pt3",
+      "item": "arcadia:music_disc_peter_le_frein_pt1",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.08,
+      "chance": 3,
       "rarity": "rare",
-      "displayName": "Music Disc - Peter Le Frein Pt3",
+      "displayName": "Music Disc - Peter Le Frein Pt1",
       "broadcast": false
     },
     {
-      "item": "arcadia:music_disc_peter_le_frein_pt4",
+      "item": "sophisticatedbackpacks:iron_backpack",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.08,
-      "rarity": "rare",
-      "displayName": "Music Disc - Peter Le Frein Pt4",
-      "broadcast": false
-    },
-    {
-      "item": "arcadia:music_disc_peter_le_frein_pt5",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.08,
-      "rarity": "rare",
-      "displayName": "Music Disc - Peter Le Frein Pt5",
-      "broadcast": false
-    },
-    {
-      "item": "arcadia:music_disc_la_boulette_pt1",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.08,
-      "rarity": "rare",
-      "displayName": "Music Disc - La Boulette Pt1",
-      "broadcast": false
-    },
-    {
-      "item": "minecraft:diamond",
-      "minCount": 6,
-      "maxCount": 12,
-      "chance": 0.35,
-      "rarity": "uncommon",
-      "displayName": "Diamond",
-      "broadcast": false
-    },
-    {
-      "item": "simplyswords:diamond_longsword",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.1,
-      "rarity": "rare",
-      "displayName": "Diamond Longsword",
-      "broadcast": false
-    },
-    {
-      "item": "simplyswords:diamond_katana",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.1,
-      "rarity": "rare",
-      "displayName": "Diamond Katana",
-      "broadcast": false
-    },
-    {
-      "item": "artifacts:cowboy_hat",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.08,
-      "rarity": "rare",
-      "displayName": "Cowboy Hat",
-      "broadcast": false
-    },
-    {
-      "item": "artifacts:crystal_heart",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.06,
+      "chance": 3,
       "rarity": "epic",
-      "displayName": "Crystal Heart",
+      "displayName": "Iron Backpack",
       "broadcast": false
     },
     {
-      "item": "arcadia_pets:uncommon_pet_bag",
+      "item": "extradisks:256k_item_storage_disk[refinedstorage:storage_reference=[I;-705998758,-1407300921,-1933108186,-1621758117]]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.12,
-      "rarity": "rare",
-      "displayName": "Uncommon Pet Bag",
+      "chance": 3,
+      "rarity": "epic",
+      "displayName": "256k Storage Disk",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:diamond_hoe",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 5,
+      "rarity": "uncommon",
+      "displayName": "Diamond Hoe",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:diamond_shovel",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 5,
+      "rarity": "uncommon",
+      "displayName": "Diamond Shovel",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:diamond_axe",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 5,
+      "rarity": "uncommon",
+      "displayName": "Diamond Axe",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:diamond_pickaxe",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 5,
+      "rarity": "uncommon",
+      "displayName": "Diamond Pickaxe",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:diamond_sword",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 5,
+      "rarity": "uncommon",
+      "displayName": "Diamond Sword",
       "broadcast": false
     },
     {
       "item": "arcadialootbox:shop_key_legendary",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.01,
+      "chance": 2,
       "rarity": "legendary",
       "displayName": "Next Tier Key (Shop)",
       "broadcast": true
     },
     {
-      "item": "handcrafted:spruce_fancy_bed",
+      "item": "createdieselgenerators:track_layers_bag[createdieselgenerators:tracks={count:1024,item:\"create:track\"}]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.12,
+      "chance": 3,
       "rarity": "rare",
-      "displayName": "Fancy Spruce Bed",
+      "displayName": "Track Layer's Bag (1024 tracks)",
       "broadcast": false
     },
     {
-      "item": "handcrafted:spruce_nightstand",
+      "item": "createdieselgenerators:oil_scanner",
       "minCount": 1,
-      "maxCount": 2,
-      "chance": 0.15,
+      "maxCount": 1,
+      "chance": 4,
       "rarity": "uncommon",
-      "displayName": "Nightstand",
+      "displayName": "Oil Scanner",
       "broadcast": false
     },
     {
-      "item": "refurbished_furniture:oak_dark_ceiling_fan",
+      "item": "pipeorgans:roll_puncher",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.1,
-      "rarity": "rare",
-      "displayName": "Ceiling Fan",
+      "chance": 4,
+      "rarity": "uncommon",
+      "displayName": "Roll Puncher",
       "broadcast": false
     },
     {
-      "item": "supplementaries:hourglass",
+      "item": "sophisticatedstorage:stack_upgrade_tier_1_plus",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.08,
-      "rarity": "rare",
-      "displayName": "Hourglass",
-      "broadcast": true
-    },
-    {
-      "item": "minecraft:enchanted_golden_apple",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.05,
+      "chance": 3,
       "rarity": "epic",
-      "displayName": "Enchanted Golden Apple",
-      "broadcast": true
+      "displayName": "Stack Upgrade Tier 1+",
+      "broadcast": false
+    },
+    {
+      "item": "artifacts:mimic_spawn_egg",
+      "minCount": 4,
+      "maxCount": 4,
+      "chance": 3,
+      "rarity": "rare",
+      "displayName": "Mimic Spawn Egg x4",
+      "broadcast": false
+    },
+    {
+      "item": "voidtotem:totem_of_void_undying",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 3,
+      "rarity": "epic",
+      "displayName": "Totem of Void Undying",
+      "broadcast": false
     },
     {
       "item": "minecraft:totem_of_undying",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.03,
+      "chance": 3,
       "rarity": "epic",
       "displayName": "Totem of Undying",
-      "broadcast": true
-    },
-    {
-      "item": "simplehats:hatbag_uncommon",
-      "minCount": 1,
-      "maxCount": 2,
-      "chance": 0.15,
-      "rarity": "uncommon",
-      "displayName": "Uncommon Hat Bag",
       "broadcast": false
     },
     {
-      "item": "simplehats:hatbag_rare",
+      "item": "arcadia_pets:fusion_altar",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.1,
-      "rarity": "rare",
-      "displayName": "Rare Hat Bag",
-      "broadcast": true
-    },
-    {
-      "item": "simplehats:hatbag_epic",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.04,
+      "chance": 3,
       "rarity": "epic",
-      "displayName": "Epic Hat Bag",
-      "broadcast": true
-    },
-    {
-      "item": "supplementaries:bomb_blue",
-      "minCount": 2,
-      "maxCount": 6,
-      "chance": 0.2,
-      "rarity": "uncommon",
-      "displayName": "Blue Bomb",
+      "displayName": "Fusion Altar",
       "broadcast": false
     },
     {
-      "item": "supplementaries:bomb_spiky",
-      "minCount": 1,
-      "maxCount": 3,
-      "chance": 0.15,
-      "rarity": "rare",
-      "displayName": "Spiky Bomb",
-      "broadcast": false
-    },
-    {
-      "item": "supplementaries:quiver",
+      "item": "arcadia_pets:pet_pedestal",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.12,
-      "rarity": "rare",
-      "displayName": "Quiver",
-      "broadcast": false
-    },
-    {
-      "item": "supplementaries:flute",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.15,
-      "rarity": "uncommon",
-      "displayName": "Flute",
-      "broadcast": false
-    },
-    {
-      "item": "supplementaries:cage",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.1,
-      "rarity": "rare",
-      "displayName": "Cage",
-      "broadcast": false
-    },
-    {
-      "item": "create:blaze_burner",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.02,
-      "rarity": "rare",
-      "displayName": "Blaze Burner",
-      "broadcast": false
-    },
-    {
-      "item": "refinedstorage:grid",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.015,
-      "rarity": "rare",
-      "displayName": "RS Grid",
-      "broadcast": false
-    },
-    {
-      "item": "refinedstorage:controller",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.01,
+      "chance": 3,
       "rarity": "epic",
-      "displayName": "RS Controller",
-      "broadcast": true
+      "displayName": "Pet Pedestal",
+      "broadcast": false
     },
     {
-      "item": "apotheosis:reforging_table",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.01,
-      "rarity": "epic",
-      "displayName": "Reforging Table",
-      "broadcast": true
+      "item": "minecraft:rabbit_stew",
+      "minCount": 16,
+      "maxCount": 16,
+      "chance": 10,
+      "rarity": "common",
+      "displayName": "Rabbit Stew x16",
+      "broadcast": false
     },
     {
-      "item": "create_sa:experience_sword",
+      "item": "minecraft:enchanted_book[stored_enchantments={levels:{\"minecraft:sharpness\":4}}]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.01,
+      "chance": 3,
       "rarity": "epic",
-      "displayName": "Experience Sword",
-      "broadcast": true
+      "displayName": "Enchanted Book - Sharpness IV",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:enchanted_book[stored_enchantments={levels:{\"minecraft:efficiency\":4}}]",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 3,
+      "rarity": "epic",
+      "displayName": "Enchanted Book - Efficiency IV",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:enchanted_book[stored_enchantments={levels:{\"minecraft:fortune\":2}}]",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 3,
+      "rarity": "epic",
+      "displayName": "Enchanted Book - Fortune II",
+      "broadcast": false
     }
   ],
   "particles": [
@@ -300,10 +228,10 @@
   "permission": "",
   "animation": {
     "type": "burst",
-    "durationTicks": 42,
-    "particleCount": 32,
-    "particleSpeed": 0.161,
-    "particleRadius": 0.74,
+    "durationTicks": 20,
+    "particleCount": 10,
+    "particleSpeed": 0.05,
+    "particleRadius": 0.3,
     "particleType": "minecraft:flame",
     "playTitleAnimation": true
   },
@@ -315,8 +243,13 @@
   "openSubtitle": "§7Good luck!",
   "commandRewards": [
     {
-      "command": "give {player} arcadia_pets:star_essence 1",
-      "chance": 100,
+      "command": "give {player} arcadia_pets:pet_snack 2",
+      "chance": 1.0,
+      "asConsole": true
+    },
+    {
+      "command": "give {player} arcadia_pets:star_essence 2",
+      "chance": 1.0,
       "asConsole": true
     }
   ],

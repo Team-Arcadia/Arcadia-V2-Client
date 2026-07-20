@@ -6,274 +6,211 @@
   "openMessage": "",
   "lootTable": [
     {
-      "item": "arcadia:music_disc_vyrriox_la_naine_pt1",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.1,
-      "rarity": "rare",
-      "displayName": "Music Disc - La Naine Pt1",
-      "broadcast": false
-    },
-    {
-      "item": "arcadia:music_disc_vyrriox_la_naine_pt2",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.1,
-      "rarity": "rare",
-      "displayName": "Music Disc - La Naine Pt2",
-      "broadcast": false
-    },
-    {
       "item": "arcadia:music_disc_vyrriox_la_naine_pt3",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.1,
+      "chance": 3,
       "rarity": "rare",
-      "displayName": "Music Disc - La Naine Pt3",
+      "displayName": "Music Disc - Vyrriox La Naine Pt3",
       "broadcast": false
     },
     {
-      "item": "arcadia:music_disc_peter_le_frein_pt1",
+      "item": "arcadia:music_disc_vyrriox_patee",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.08,
+      "chance": 3,
       "rarity": "rare",
-      "displayName": "Music Disc - Peter Le Frein Pt1",
+      "displayName": "Music Disc - Vyrriox Patee",
       "broadcast": false
     },
     {
-      "item": "minecraft:diamond",
-      "minCount": 4,
-      "maxCount": 8,
-      "chance": 0.35,
-      "rarity": "uncommon",
-      "displayName": "Diamond",
-      "broadcast": false
-    },
-    {
-      "item": "simplyswords:iron_longsword",
+      "item": "sophisticatedbackpacks:copper_backpack",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.12,
-      "rarity": "uncommon",
-      "displayName": "Iron Longsword",
-      "broadcast": false
-    },
-    {
-      "item": "simplyswords:iron_claymore",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.12,
-      "rarity": "uncommon",
-      "displayName": "Iron Claymore",
-      "broadcast": false
-    },
-    {
-      "item": "artifacts:bunny_hoppers",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.08,
+      "chance": 3,
       "rarity": "rare",
-      "displayName": "Bunny Hoppers",
+      "displayName": "Copper Backpack",
       "broadcast": false
     },
     {
-      "item": "artifacts:cloud_in_a_bottle",
+      "item": "refinedstorage:64k_storage_disk[refinedstorage:storage_reference=[I;141691510,-462467079,-1788157858,36629137]]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.08,
+      "chance": 3,
       "rarity": "rare",
-      "displayName": "Cloud In A Bottle",
+      "displayName": "64k Storage Disk",
       "broadcast": false
     },
     {
-      "item": "arcadia_pets:common_pet_bag",
+      "item": "minecraft:golden_hoe",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.15,
-      "rarity": "uncommon",
-      "displayName": "Common Pet Bag",
+      "chance": 5,
+      "rarity": "common",
+      "displayName": "Golden Hoe",
       "broadcast": false
     },
     {
-      "item": "arcadia_pets:uncommon_pet_bag",
+      "item": "minecraft:golden_shovel",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.08,
-      "rarity": "rare",
-      "displayName": "Uncommon Pet Bag",
+      "chance": 5,
+      "rarity": "common",
+      "displayName": "Golden Shovel",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:golden_axe",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 5,
+      "rarity": "common",
+      "displayName": "Golden Axe",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:golden_pickaxe",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 5,
+      "rarity": "common",
+      "displayName": "Golden Pickaxe",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:golden_sword",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 5,
+      "rarity": "common",
+      "displayName": "Golden Sword",
       "broadcast": false
     },
     {
       "item": "arcadialootbox:shop_key_epic",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.015,
+      "chance": 2,
       "rarity": "legendary",
       "displayName": "Next Tier Key (Shop)",
       "broadcast": true
     },
     {
-      "item": "handcrafted:dark_oak_cupboard",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.15,
+      "item": "tfmg:zinc_grenade",
+      "minCount": 32,
+      "maxCount": 32,
+      "chance": 4,
       "rarity": "uncommon",
-      "displayName": "Cupboard",
+      "displayName": "Zinc Grenade x32",
       "broadcast": false
     },
     {
-      "item": "handcrafted:dark_oak_drawer",
+      "item": "createdieselgenerators:track_layers_bag[createdieselgenerators:tracks={count:1024,item:\"create:track\"}]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.15,
-      "rarity": "uncommon",
-      "displayName": "Drawer",
-      "broadcast": false
-    },
-    {
-      "item": "refurbished_furniture:oak_bath",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.1,
+      "chance": 3,
       "rarity": "rare",
-      "displayName": "Bath",
+      "displayName": "Track Layer's Bag (1024 tracks)",
       "broadcast": false
     },
     {
-      "item": "refurbished_furniture:oak_kitchen_sink",
+      "item": "createdieselgenerators:oil_scanner",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.12,
+      "chance": 4,
       "rarity": "uncommon",
-      "displayName": "Kitchen Sink",
+      "displayName": "Oil Scanner",
       "broadcast": false
     },
     {
-      "item": "supplementaries:globe",
+      "item": "pipeorgans:roll_puncher",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.08,
+      "chance": 4,
+      "rarity": "uncommon",
+      "displayName": "Roll Puncher",
+      "broadcast": false
+    },
+    {
+      "item": "tfmg:golden_turbo",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 3,
       "rarity": "rare",
-      "displayName": "Globe",
+      "displayName": "Golden Turbo",
       "broadcast": false
     },
     {
-      "item": "minecraft:spyglass",
+      "item": "artifacts:whoopee_cushion",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.15,
-      "rarity": "uncommon",
-      "displayName": "Spyglass",
-      "broadcast": false
-    },
-    {
-      "item": "neoncraft:a_red",
-      "minCount": 2,
-      "maxCount": 4,
-      "chance": 0.15,
-      "rarity": "uncommon",
-      "displayName": "Neon Red",
-      "broadcast": false
-    },
-    {
-      "item": "simplehats:hatbag_uncommon",
-      "minCount": 1,
-      "maxCount": 2,
-      "chance": 0.15,
-      "rarity": "uncommon",
-      "displayName": "Uncommon Hat Bag",
-      "broadcast": false
-    },
-    {
-      "item": "simplehats:hatbag_rare",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.08,
+      "chance": 3,
       "rarity": "rare",
-      "displayName": "Rare Hat Bag",
-      "broadcast": true
-    },
-    {
-      "item": "supplementaries:bubble_blower",
-      "minCount": 1,
-      "maxCount": 2,
-      "chance": 0.2,
-      "rarity": "uncommon",
-      "displayName": "Bubble Blower",
+      "displayName": "Whoopee Cushion",
       "broadcast": false
     },
     {
-      "item": "supplementaries:flute",
+      "item": "securitycraft:incognito_mask",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.15,
-      "rarity": "uncommon",
-      "displayName": "Flute",
-      "broadcast": false
-    },
-    {
-      "item": "supplementaries:bomb",
-      "minCount": 2,
-      "maxCount": 4,
-      "chance": 0.2,
-      "rarity": "uncommon",
-      "displayName": "Bomb",
-      "broadcast": false
-    },
-    {
-      "item": "supplementaries:lunch_basket",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.12,
-      "rarity": "uncommon",
-      "displayName": "Lunch Basket",
-      "broadcast": false
-    },
-    {
-      "item": "supplementaries:quiver",
-      "minCount": 1,
-      "maxCount": 1,
-      "chance": 0.1,
+      "chance": 3,
       "rarity": "rare",
-      "displayName": "Quiver",
+      "displayName": "Incognito Mask",
       "broadcast": false
     },
     {
-      "item": "supplementaries:present_red",
+      "item": "exposure_polaroid:instant_camera",
       "minCount": 1,
-      "maxCount": 3,
-      "chance": 0.2,
+      "maxCount": 1,
+      "chance": 3,
+      "rarity": "rare",
+      "displayName": "Instant Camera",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:candy",
+      "minCount": 64,
+      "maxCount": 64,
+      "chance": 8,
       "rarity": "common",
-      "displayName": "Red Present",
+      "displayName": "Candy x64",
       "broadcast": false
     },
     {
-      "item": "create:blaze_burner",
+      "item": "burgermod:fries",
+      "minCount": 64,
+      "maxCount": 64,
+      "chance": 10,
+      "rarity": "common",
+      "displayName": "Fries x64",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:enchanted_book[stored_enchantments={levels:{\"minecraft:sharpness\":3}}]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.02,
+      "chance": 3,
       "rarity": "rare",
-      "displayName": "Blaze Burner",
+      "displayName": "Enchanted Book - Sharpness III",
       "broadcast": false
     },
     {
-      "item": "refinedstorage:grid",
+      "item": "minecraft:enchanted_book[stored_enchantments={levels:{\"minecraft:efficiency\":3}}]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.015,
+      "chance": 3,
       "rarity": "rare",
-      "displayName": "RS Grid",
+      "displayName": "Enchanted Book - Efficiency III",
       "broadcast": false
     },
     {
-      "item": "apotheosis:reforging_table",
+      "item": "minecraft:enchanted_book[stored_enchantments={levels:{\"minecraft:fortune\":1}}]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.01,
-      "rarity": "epic",
-      "displayName": "Reforging Table",
-      "broadcast": true
+      "chance": 3,
+      "rarity": "rare",
+      "displayName": "Enchanted Book - Fortune I",
+      "broadcast": false
     }
   ],
   "particles": [
@@ -281,7 +218,7 @@
   ],
   "type": "guaranteed",
   "guaranteedItem": "arcadia_pets:uncommon_pet_bag",
-  "guaranteedMinCount": 1,
+  "guaranteedMinCount": 2,
   "guaranteedMaxCount": 2,
   "rarity": "rare",
   "broadcastRare": true,
@@ -291,10 +228,10 @@
   "permission": "",
   "animation": {
     "type": "burst",
-    "durationTicks": 36,
-    "particleCount": 26,
-    "particleSpeed": 0.133,
-    "particleRadius": 0.63,
+    "durationTicks": 20,
+    "particleCount": 10,
+    "particleSpeed": 0.05,
+    "particleRadius": 0.3,
     "particleType": "minecraft:flame",
     "playTitleAnimation": true
   },
@@ -306,8 +243,13 @@
   "openSubtitle": "§7Good luck!",
   "commandRewards": [
     {
+      "command": "give {player} arcadia_pets:pet_snack 2",
+      "chance": 1.0,
+      "asConsole": true
+    },
+    {
       "command": "give {player} arcadia_pets:star_essence 1",
-      "chance": 100,
+      "chance": 1.0,
       "asConsole": true
     }
   ],

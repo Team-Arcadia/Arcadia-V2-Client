@@ -6,174 +6,174 @@
   "openMessage": "",
   "lootTable": [
     {
-      "item": "arcadia:music_disc_mike_le_loulou",
+      "item": "refinedstorage:1k_storage_disk[refinedstorage:storage_reference=[I;-379350617,410273145,-2138625689,-924301677]]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.15,
-      "rarity": "common",
-      "displayName": "Music Disc - Mike Le Loulou",
+      "chance": 3,
+      "rarity": "rare",
+      "displayName": "1k Storage Disk",
       "broadcast": false
     },
     {
-      "item": "arcadia:music_disc_boit_ton_picher",
+      "item": "create:cardboard_helmet",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.15,
+      "chance": 5,
       "rarity": "common",
-      "displayName": "Music Disc - Boit Ton Picher",
+      "displayName": "Cardboard Helmet",
       "broadcast": false
     },
     {
-      "item": "arcadia:music_disc_janette",
+      "item": "create:cardboard_chestplate",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.15,
+      "chance": 5,
       "rarity": "common",
-      "displayName": "Music Disc - Janette",
+      "displayName": "Cardboard Chestplate",
       "broadcast": false
     },
     {
-      "item": "minecraft:iron_ingot",
-      "minCount": 3,
-      "maxCount": 8,
-      "chance": 0.5,
+      "item": "create:cardboard_leggings",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 5,
       "rarity": "common",
-      "displayName": "Iron Ingot",
+      "displayName": "Cardboard Leggings",
       "broadcast": false
     },
     {
-      "item": "minecraft:gold_ingot",
-      "minCount": 2,
-      "maxCount": 5,
-      "chance": 0.4,
+      "item": "create:cardboard_boots",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 5,
       "rarity": "common",
-      "displayName": "Gold Ingot",
+      "displayName": "Cardboard Boots",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:bubble_blower[supplementaries:charges=200]",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 4,
+      "rarity": "uncommon",
+      "displayName": "Bubble Blower",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:brush",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 6,
+      "rarity": "common",
+      "displayName": "Brush",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:confetti_popper",
+      "minCount": 64,
+      "maxCount": 64,
+      "chance": 8,
+      "rarity": "common",
+      "displayName": "Confetti Popper x64",
       "broadcast": false
     },
     {
       "item": "minecraft:cookie",
-      "minCount": 8,
-      "maxCount": 16,
-      "chance": 0.35,
+      "minCount": 64,
+      "maxCount": 64,
+      "chance": 10,
       "rarity": "common",
-      "displayName": "Cookie",
+      "displayName": "Cookie x64",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:soap",
+      "minCount": 64,
+      "maxCount": 64,
+      "chance": 8,
+      "rarity": "common",
+      "displayName": "Soap x64",
+      "broadcast": false
+    },
+    {
+      "item": "supplementaries:candy",
+      "minCount": 64,
+      "maxCount": 64,
+      "chance": 8,
+      "rarity": "common",
+      "displayName": "Candy x64",
+      "broadcast": false
+    },
+    {
+      "item": "minecraft:experience_bottle",
+      "minCount": 32,
+      "maxCount": 32,
+      "chance": 5,
+      "rarity": "uncommon",
+      "displayName": "Bottle o' Enchanting x32",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_peter_le_frein_pt3",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 3,
+      "rarity": "rare",
+      "displayName": "Music Disc - Peter Le Frein Pt3",
+      "broadcast": false
+    },
+    {
+      "item": "arcadia:music_disc_la_boulette_pt2",
+      "minCount": 1,
+      "maxCount": 1,
+      "chance": 3,
+      "rarity": "rare",
+      "displayName": "Music Disc - La Boulette Pt2",
       "broadcast": false
     },
     {
       "item": "arcadialootbox:shop_key_uncommon",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.03,
+      "chance": 2,
       "rarity": "legendary",
       "displayName": "Next Tier Key (Shop)",
       "broadcast": true
     },
     {
-      "item": "handcrafted:oak_chair",
-      "minCount": 1,
-      "maxCount": 2,
-      "chance": 0.25,
-      "rarity": "common",
-      "displayName": "Oak Chair",
-      "broadcast": false
-    },
-    {
-      "item": "handcrafted:oak_table",
-      "minCount": 1,
-      "maxCount": 2,
-      "chance": 0.25,
-      "rarity": "common",
-      "displayName": "Oak Table",
-      "broadcast": false
-    },
-    {
-      "item": "another_furniture:oak_shelf",
-      "minCount": 1,
-      "maxCount": 2,
-      "chance": 0.2,
-      "rarity": "common",
-      "displayName": "Oak Shelf",
-      "broadcast": false
-    },
-    {
-      "item": "supplementaries:awning",
-      "minCount": 2,
-      "maxCount": 4,
-      "chance": 0.2,
-      "rarity": "common",
-      "displayName": "Awning",
-      "broadcast": false
-    },
-    {
-      "item": "minecraft:painting",
-      "minCount": 1,
-      "maxCount": 3,
-      "chance": 0.3,
-      "rarity": "common",
-      "displayName": "Painting",
-      "broadcast": false
-    },
-    {
-      "item": "minecraft:flower_pot",
-      "minCount": 2,
-      "maxCount": 4,
-      "chance": 0.3,
-      "rarity": "common",
-      "displayName": "Flower Pot",
-      "broadcast": false
-    },
-    {
-      "item": "neoncraft:a_white",
-      "minCount": 1,
-      "maxCount": 2,
-      "chance": 0.15,
-      "rarity": "common",
-      "displayName": "Neon White",
-      "broadcast": false
-    },
-    {
-      "item": "simplehats:hatbag_common",
+      "item": "arcadia_pets:fusion_altar",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 0.15,
-      "rarity": "common",
-      "displayName": "Common Hat Bag",
-      "broadcast": false
+      "chance": 2,
+      "rarity": "epic",
+      "displayName": "Fusion Altar",
+      "broadcast": true
     },
     {
-      "item": "supplementaries:soap",
+      "item": "arcadia_pets:pet_pedestal",
       "minCount": 1,
-      "maxCount": 3,
-      "chance": 0.3,
-      "rarity": "common",
-      "displayName": "Soap",
-      "broadcast": false
+      "maxCount": 1,
+      "chance": 2,
+      "rarity": "epic",
+      "displayName": "Pet Pedestal",
+      "broadcast": true
     },
     {
-      "item": "supplementaries:candy",
-      "minCount": 2,
-      "maxCount": 6,
-      "chance": 0.35,
-      "rarity": "common",
-      "displayName": "Candy",
-      "broadcast": false
-    },
-    {
-      "item": "supplementaries:planter",
+      "item": "crabbersdelight:coconut_helmet",
       "minCount": 1,
-      "maxCount": 2,
-      "chance": 0.2,
-      "rarity": "common",
-      "displayName": "Planter",
+      "maxCount": 1,
+      "chance": 4,
+      "rarity": "uncommon",
+      "displayName": "Coconut Helmet",
       "broadcast": false
     },
     {
-      "item": "supplementaries:candle_holder",
+      "item": "supplementaries:flute",
       "minCount": 1,
-      "maxCount": 2,
-      "chance": 0.2,
-      "rarity": "common",
-      "displayName": "Candle Holder",
+      "maxCount": 1,
+      "chance": 4,
+      "rarity": "uncommon",
+      "displayName": "Flute",
       "broadcast": false
     }
   ],
@@ -205,7 +205,18 @@
   "giveToInventoryOnly": false,
   "openTitle": "§7✦ Common Shop ✦",
   "openSubtitle": "§7Good luck!",
-  "commandRewards": [],
+  "commandRewards": [
+    {
+      "command": "give {player} arcadia_pets:pet_snack 2",
+      "chance": 1.0,
+      "asConsole": true
+    },
+    {
+      "command": "give {player} arcadia_pets:star_essence 1",
+      "chance": 1.0,
+      "asConsole": true
+    }
+  ],
   "experienceReward": 10,
   "requiredBiome": "",
   "requiredLevel": 0,
