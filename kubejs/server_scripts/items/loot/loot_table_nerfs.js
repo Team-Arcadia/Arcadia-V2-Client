@@ -213,10 +213,24 @@ LootJS.modifiers((event) => {
     .removeLoot("@sophisticatedbackpacks")
     .randomChance(0.85);
 
-  // Twilight Forest nerf (20% drop rate)
+  // Twilight Forest loot: 20% drop rate outside the dimension, 50% inside it
+  // (all TF structures live in the dimension, so exploring there pays off).
+  // Both modifiers are mutually exclusive via the dimension condition.
   event.addTableModifier([LootType.CHEST, LootType.VAULT])
     .removeLoot("@twilightforest")
+    .matchCustomCondition({
+      condition: "minecraft:inverted",
+      term: {
+        condition: "minecraft:location_check",
+        predicate: { dimension: "twilightforest:twilight_forest" }
+      }
+    })
     .randomChance(0.80);
+
+  event.addTableModifier([LootType.CHEST, LootType.VAULT])
+    .removeLoot("@twilightforest")
+    .matchDimension("twilightforest:twilight_forest")
+    .randomChance(0.50);
 
   // Artifacts (20% drop rate / 80% Remove)
   event.addTableModifier([LootType.CHEST, LootType.VAULT])
