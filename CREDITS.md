@@ -19,6 +19,7 @@ The people who made Arcadia possible.
 | **Nathinator_YTB** | Community events host |
 | **Tyvrax** | Community events host |
 | **HealeurAs2** | Guide, thanks for the help on quests! |
+| **Darkdiamons** | Helper, thanks for the help! |
 
 ## Development & Content
 
@@ -39,7 +40,6 @@ The people who made Arcadia possible.
 |------|--------------|
 | **JLPopeye** | Former administrator, thank you for the help on quests! |
 | **Skaizenn** | Thanks for the videos that brought Arcadia to life |
-| **Darkdiamons** | Thanks for the help! |
 
 And thank you to everyone else who has helped, played, reported bugs, and kept the community alive!
 
@@ -66,6 +66,7 @@ Les personnes qui ont rendu Arcadia possible.
 | **Nathinator_YTB** | Animateur |
 | **Tyvrax** | Animateur |
 | **HealeurAs2** | Guide, merci pour l'aide sur les quêtes ! |
+| **Darkdiamons** | Helper, merci pour l'aide ! |
 
 ## Développement & Contenu
 
@@ -86,6 +87,5 @@ Les personnes qui ont rendu Arcadia possible.
 |-----|--------------|
 | **JLPopeye** | Ancien administrateur, merci pour l'aide sur les quêtes ! |
 | **Skaizenn** | Merci pour les vidéos qui ont fait vivre Arcadia |
-| **Darkdiamons** | Merci pour l'aide ! |
 
 Et merci à tous les autres qui ont aidé, joué, signalé des bugs et fait vivre la communauté !
