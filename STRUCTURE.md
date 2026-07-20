@@ -57,7 +57,7 @@ Arcadia V2/
 | Change loot drops | `kubejs/server_scripts/items/loot/loot_table_nerfs.js` |
 | Add an item tooltip | `kubejs/client_scripts/arcadia_item_tooltips.js` |
 | Translate an item | `kubejs/assets/arcadia/lang/` (7 locales: de, en, es, fr, it, pt, ru) |
-| Edit quests | `config/ftbquests/quests/chapters/` (34 chapters) |
+| Edit quests | `config/ftbquests/quests/chapters/` (43 chapters) |
 | Translate quests | `config/ftbquests/quests/lang/` (7 locales) |
 | Change the main menu / branding | `config/fancymenu/` (custom GUIs, panoramas, layouts) |
 | Server progression / admin systems | `config/arcadia/` (production config, handle with care) |
@@ -77,7 +77,7 @@ Golden rules: always give recipes an explicit `.id('arcadia:xxx')`, always add l
 |------|---------|
 | `config/arcadia/` | In-house server systems: ArcadiaGuard (moderation), admin panel, auction house (ah), lootbox, pets, prestige, spawn/tablist |
 | `config/fancymenu/` | Branded "Echoes Of Power" main menu, custom server-selection GUIs, panoramas, loading screens |
-| `config/ftbquests/quests/` | 34 quest chapters, 3,000+ quests, 7-language lang files |
+| `config/ftbquests/quests/` | 43 quest chapters, 3,000+ quests, 7-language lang files |
 | `config/jei/` | Ingredient blacklist and curated sort order |
 | `config/ars_nouveau/` | Magic balance tuning (intentionally nerfed) |
 | `config/apotheosis/` | RPG loot/affix tuning |
@@ -142,7 +142,7 @@ kubejs/
 
 **Balance philosophy** (intentional, do not "fix"): loot drought (diamond 0.5%, netherite 0.01%), boss HP x2.5-x8, flight gated behind Dragon's Breath/Nether Star brewing, Winged affix mythic-only, artifacts craft-only, steel cross-mod arbitrage locked, merchant trades filtered.
 
-**Quests**: 34 chapters in `config/ftbquests/quests/chapters/` covering every major mod (Create, Mekanism, TFMG, IE, Ars Nouveau, Iron's Spellbooks, Occultism, Apotheosis, Aether, Twilight Forest, Deeper & Darker, Farmer's Delight...), plus progression guide and bounty chapters.
+**Quests**: 43 chapters in `config/ftbquests/quests/chapters/` covering every major mod (Create, Mekanism, TFMG, IE, Ars Nouveau, Iron's Spellbooks, Occultism, Apotheosis, Aether, Twilight Forest, Deeper & Darker, Farmer's Delight...), plus progression guide and bounty chapters.
 
 ## 7. In-House & Patched Mods
 
@@ -218,7 +218,7 @@ Arcadia V2/
 | Changer les drops de loot | `kubejs/server_scripts/items/loot/loot_table_nerfs.js` |
 | Ajouter un tooltip d'item | `kubejs/client_scripts/arcadia_item_tooltips.js` |
 | Traduire un item | `kubejs/assets/arcadia/lang/` (7 locales : de, en, es, fr, it, pt, ru) |
-| Éditer les quêtes | `config/ftbquests/quests/chapters/` (34 chapitres) |
+| Éditer les quêtes | `config/ftbquests/quests/chapters/` (43 chapitres) |
 | Traduire les quêtes | `config/ftbquests/quests/lang/` (7 locales) |
 | Changer le menu principal / branding | `config/fancymenu/` (GUIs custom, panoramas, layouts) |
 | Progression serveur / systèmes admin | `config/arcadia/` (config de production, prudence) |
@@ -238,7 +238,7 @@ Règles d'or : toujours un `.id('arcadia:xxx')` explicite sur les recettes, touj
 |--------|------|
 | `config/arcadia/` | Systèmes serveur maison : ArcadiaGuard (modération), panneau admin, hôtel des ventes (ah), lootbox, pets, prestige, spawn/tablist |
 | `config/fancymenu/` | Menu principal « Echoes Of Power », GUIs de sélection de serveur, panoramas, écrans de chargement |
-| `config/ftbquests/quests/` | 34 chapitres, 3 000+ quêtes, fichiers lang en 7 langues |
+| `config/ftbquests/quests/` | 43 chapitres, 3 000+ quêtes, fichiers lang en 7 langues |
 | `config/jei/` | Blacklist d'ingrédients et ordre de tri |
 | `config/ars_nouveau/` | Équilibrage magie (nerfs intentionnels) |
 | `config/apotheosis/` | Réglages loot/affixes RPG |
@@ -304,7 +304,7 @@ kubejs/
 
 **Philosophie d'équilibrage** (intentionnelle, ne pas « corriger ») : disette de loot (diamant 0.5%, netherite 0.01%), HP des boss x2.5-x8, vol gaté derrière Dragon's Breath/Étoile du Nether, affixe Winged mythique uniquement, artifacts craft uniquement, arbitrage d'acier cross-mod verrouillé, trades des marchands filtrés.
 
-**Quêtes** : 34 chapitres dans `config/ftbquests/quests/chapters/` couvrant chaque mod majeur (Create, Mekanism, TFMG, IE, Ars Nouveau, Iron's Spellbooks, Occultism, Apotheosis, Aether, Twilight Forest, Deeper & Darker, Farmer's Delight...), plus les chapitres guide de progression et bounties.
+**Quêtes** : 43 chapitres dans `config/ftbquests/quests/chapters/` couvrant chaque mod majeur (Create, Mekanism, TFMG, IE, Ars Nouveau, Iron's Spellbooks, Occultism, Apotheosis, Aether, Twilight Forest, Deeper & Darker, Farmer's Delight...), plus les chapitres guide de progression et bounties.
 
 ## 7. Mods Maison & Jars Patchés
 
