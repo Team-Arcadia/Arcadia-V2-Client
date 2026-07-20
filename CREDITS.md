@@ -29,6 +29,7 @@ The people who made Arcadia possible.
 | **SiriusT** | Thanks for the help with the Arcadia mods |
 | **Beuzed** | Thanks for the 3D designs! |
 | **Rayzer56** | Thanks for the help with translations! |
+| **Gaspich** | Help with testing |
 
 ## Special Thanks
 
@@ -73,6 +74,7 @@ Les personnes qui ont rendu Arcadia possible.
 | **SiriusT** | Merci pour l'aide sur les mods Arcadia |
 | **Beuzed** | Merci pour les designs 3D ! |
 | **Rayzer56** | Merci pour l'aide aux traductions ! |
+| **Gaspich** | Aide aux tests |
 
 ## Remerciements Spéciaux
 
