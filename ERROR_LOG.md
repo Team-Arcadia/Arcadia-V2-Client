@@ -58,3 +58,11 @@
 **Root cause:** Two issues stacked: (1) the mod ships recipes in data/<ns>/recipes/ (pre-1.21 plural folder) so 1.21.1 never reads them; (2) the recipe JSONs use the Create 5 schema (transitionalItem, results[].item) while the pack runs Create 6, whose codec expects transitional_item and results[].id and silently drops the old format.
 **Fix:** Re-shipped the 8 recipes under kubejs/data/apotheosis_create/recipe/ and converted them to the Create 6 schema.
 **Prevention:** When a compat mod's content is missing, check BOTH the datapack folder layout (recipe/ singular on 1.21+) and the recipe schema against the installed Create major version (compare with a recipe from the create jar itself).
+
+## [2026-07-20] — Bug #213: kicked with "Network Protocol Error" when chatting while dying
+
+**Context:** Player report: typing a chat message at the moment of death kicks the player instead of showing the respawn screen.
+**Error:** Client disconnected with "Network Protocol Error" (server-side signed-chat validation failure).
+**Root cause:** Since 1.19.3 every chat packet carries a signed-message acknowledgement; a message sent in the same instant as the death/respawn desyncs the acknowledgement chain and the server kicks. The pack ships No Chat Reports, but NCR-Client.json had defaultSigningMode=PROMPT, so any player who answered "sign" at first join kept sending signed messages and stayed exposed to the race.
+**Fix:** defaultSigningMode set to NEVER (mirrored to defaultconfigs). Unsigned messages skip signature validation entirely; the server config already converts chat to system messages (convertToGameMessage=true).
+**Prevention:** Never ship NCR in PROMPT mode on a curated pack; verify the dedicated server's own NCR-Common.json also has convertToGameMessage=true. Players who chose signing before this fix keep their per-server choice: they must click the NCR shield icon in the chat screen once and pick "unsigned", or delete their NCR-ServerPreferences.json.
