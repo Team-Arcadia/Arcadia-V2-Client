@@ -12,35 +12,80 @@
     "detectDimensionData": true,
     "detectWorldData": true,
     "clientId": "450485984333660181",
-    "defaultIcon": "herobrine",
+    "defaultIcon": "arcadia",
     "enableJoinRequests": true,
     "preferredClientLevel": 3,
     "resetTimeOnInit": false,
     "autoRegister": false
   },
   "biomeSettings": {
-    "fallbackBiomeIcon": "dungeons",
+    "fallbackBiomeIcon": "arcadia",
     "biomeData": {
       "default": {
-        "textOverride": "Joue dans le biom {biome.name}"
+        "textOverride": "Biome : {biome.name}"
       }
     }
   },
   "dimensionSettings": {
-    "fallbackDimensionIcon": "dungeons",
+    "fallbackDimensionIcon": "arcadia",
     "dimensionData": {
       "default": {
-        "textOverride": "Dans la dimension : {dimension.name}"
+        "textOverride": "🌍 {dimension.name}"
+      },
+      "overworld": {
+        "textOverride": "🌍 Overworld"
+      },
+      "the_nether": {
+        "textOverride": "🔥 Le Nether"
+      },
+      "the_end": {
+        "textOverride": "🌌 L'End"
+      },
+      "the_aether": {
+        "textOverride": "☁️ L'Aether"
+      },
+      "twilight_forest": {
+        "textOverride": "🌲 Forêt du Crépuscule"
+      },
+      "otherside": {
+        "textOverride": "🕳️ Deeper and Darker"
       }
     }
   },
   "serverSettings": {
-    "fallbackServerIcon": "launcher_grass",
+    "fallbackServerIcon": "arcadia",
     "fallbackServerName": "Arcadia: Echoes Of Power",
     "fallbackServerMotd": "Arcadia: Echoes Of Power",
     "serverData": {
       "default": {
-        "textOverride": "Joue sur : {server.motd.raw}"
+        "textOverride": "🏰 En ligne sur {getFirst(server.name, server.address.short)}"
+      },
+      "serveur1.arcadia-eop.com": {
+        "textOverride": "🏰 Serveur Officiel Arcadia 1"
+      },
+      "serveur2.arcadia-eop.com": {
+        "textOverride": "🏰 Serveur Officiel Arcadia 2"
+      },
+      "serveur3.arcadia-eop.com": {
+        "textOverride": "🏰 Serveur Officiel Arcadia 3"
+      },
+      "57.128.100.254": {
+        "textOverride": "🏰 Serveur Officiel Arcadia"
+      },
+      "51.210.178.102": {
+        "textOverride": "🏰 Serveur Officiel Arcadia"
+      },
+      "51.195.235.74": {
+        "textOverride": "🏰 Serveur Officiel Arcadia"
+      },
+      "51.195.235.151": {
+        "textOverride": "🏰 Serveur Officiel Arcadia"
+      },
+      "event.arcadia-eop.com": {
+        "textOverride": "🎉 Serveur Événementiel Arcadia"
+      },
+      "test.arcadia-eop.com": {
+        "textOverride": "🧪 Serveur de Test Arcadia"
       }
     },
     "pingRateInterval": 5,
@@ -48,24 +93,24 @@
   },
   "statusMessages": {
     "mainMenuData": {
-      "textOverride": "Dans le menu",
-      "iconOverride": "steve"
+      "textOverride": "📜 Dans le menu principal",
+      "iconOverride": "arcadia"
     },
     "loadingData": {
-      "textOverride": "Chargement...",
-      "iconOverride": "steve"
+      "textOverride": "⏳ Chargement d'Arcadia...",
+      "iconOverride": "arcadia"
     },
     "lanData": {
-      "textOverride": "Joue sur un serveur LAN",
-      "iconOverride": "steve"
+      "textOverride": "🏡 Partie LAN entre amis",
+      "iconOverride": "arcadia"
     },
     "singleplayerData": {
-      "textOverride": "Joue en solo",
-      "iconOverride": "steve"
+      "textOverride": "⚔️ Aventure Solo · {world.name}",
+      "iconOverride": "arcadia"
     },
     "realmData": {
       "textOverride": "Joue sur {server.motd.raw}",
-      "iconOverride": "steve"
+      "iconOverride": "arcadia"
     }
   },
   "advancedSettings": {
@@ -123,45 +168,51 @@
       "activityType": 0,
       "statusDisplayType": 0,
       "partyPrivacy": 1,
-      "details": "{getFirst(menu.message, dimension.message)}",
+      "details": "{getFirst(menu.message, server.message)}",
       "detailsUrl": "",
-      "gameState": "Arcadia: Echoes Of Power",
+      "gameState": "{getOrDefault(dimension.message)}",
       "gameStateUrl": "",
-      "appName": "",
+      "appName": "Arcadia: Echoes Of Power",
       "largeImageKey": "{getFirst(menu.icon, dimension.icon)}",
-      "largeImageText": "{getFirst(menu.message, dimension.message)}",
-      "largeImageUrl": "",
+      "largeImageText": "{getFirst(menu.message, custom.location_full)}",
+      "largeImageUrl": "https://www.arcadia-echoes-of-power.fr/",
       "smallImageKey": "{getFirst(server.icon, pack.icon)}",
-      "smallImageText": "Arcadia: Echoes Of Power",
+      "smallImageText": "{getFirst(custom.players, custom.pack_line)}",
       "smallImageUrl": "",
       "startTimestamp": "{data.general.time}",
       "endTimestamp": "",
-      "buttons": {}
+      "buttons": {
+        "website": {
+          "label": "🌐 Site Web",
+          "url": "https://www.arcadia-echoes-of-power.fr/"
+        },
+        "discord": {
+          "label": "💬 Rejoindre le Discord",
+          "url": "https://arcadia-echoes-of-power.fr/discord"
+        }
+      }
     },
     "dynamicIcons": {
+      "arcadia": "https://www.arcadia-echoes-of-power.fr/storage/img/arcadialogotransparent.png",
       "57.128.100.254": "https://www.arcadia-echoes-of-power.fr/storage/img/arcadialogotransparent.png",
-      "pm-exploration.gl.joinmc.link": "https://api.mcsrvstat.us/icon/pm-exploration.gl.joinmc.link",
+      "serveur1.arcadia-eop.com": "https://api.mcsrvstat.us/icon/serveur1.arcadia-eop.com",
+      "serveur2.arcadia-eop.com": "https://api.mcsrvstat.us/icon/serveur2.arcadia-eop.com",
+      "serveur3.arcadia-eop.com": "https://api.mcsrvstat.us/icon/serveur3.arcadia-eop.com",
       "51.210.178.102": "https://api.mcsrvstat.us/icon/51.210.178.102",
       "51.195.235.74": "https://api.mcsrvstat.us/icon/51.195.235.74",
       "51.195.235.151": "https://api.mcsrvstat.us/icon/51.195.235.151",
-      "127.0.0.1": "https://api.mcsrvstat.us/icon/127.0.0.1",
-      "curveo.fr": "https://api.mcsrvstat.us/icon/curveo.fr",
-      "serveur1.arcadia-eop.com": "https://api.mcsrvstat.us/icon/serveur1.arcadia-eop.com",
-      "serveur3.arcadia-eop.com": "https://api.mcsrvstat.us/icon/serveur3.arcadia-eop.com",
-      "serveur2.arcadia-eop.com": "https://api.mcsrvstat.us/icon/serveur2.arcadia-eop.com",
-      "10.10.10.114": "https://api.mcsrvstat.us/icon/10.10.10.114",
-      "test.arcadia-eop.com": "https://api.mcsrvstat.us/icon/test.arcadia-eop.com",
-      "event.arcadia-eop.com": "https://api.mcsrvstat.us/icon/event.arcadia-eop.com"
+      "event.arcadia-eop.com": "https://api.mcsrvstat.us/icon/event.arcadia-eop.com",
+      "test.arcadia-eop.com": "https://api.mcsrvstat.us/icon/test.arcadia-eop.com"
     },
     "dynamicVariables": {
-      "mods": "{general.mods} Mod(s)",
+      "location_full": "{getOrDefault(dimension.message)} {getOrDefault(biome.message)}",
+      "players": "👥 {server.players.current} / {server.players.max} joueurs en ligne",
+      "pack_line": "Arcadia: Echoes Of Power",
       "player_info_coordinate": "En {player.position.x}, {player.position.z}",
-      "players": "{server.players.current} / {server.players.max} Joueurs",
-      "player_info_in": "({custom.player_info.health})",
-      "player_info_items": "Objets : {item.main_hand.message}",
       "player_info_out": "En tant que {player.name}",
       "player_info_health": "Santé : {player.health.current}/{player.health.max}",
       "world_info": "Sur {world.name}",
+      "mods": "{general.mods} Mod(s)",
       "pack": "{pack.name}"
     }
   }
