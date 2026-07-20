@@ -3,1340 +3,3402 @@
 	default_quest_shape: "circle"
 	filename: "market"
 	group: "36D2C02DEF9D8581"
-	icon: { id: "numismatics:sun" }
-	id: "B601D42BA8EF4835"
+	icon: {
+		id: "numismatics:sun"
+	}
+	id: "47E39894EF7D874F"
+	images: [
+		{
+			height: 7.0d
+			hover: ["&6&lArcadia Market"]
+			image: "arcadia:textures/title/arcadia.png"
+			order: -1
+			rotation: 0.0d
+			width: 21.0d
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			height: 1.6d
+			image: "arcadia_lib:item/arcadia_star"
+			rotation: -18.0d
+			width: 1.6d
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			height: 1.6d
+			image: "arcadia_lib:item/arcadia_star"
+			rotation: 18.0d
+			width: 1.6d
+			x: 11.0d
+			y: -1.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
-	images: [
-		{ height: 7.0d, hover: ["&6&lArcadia Market"], image: "arcadia:textures/title/arcadia.png", order: -1, rotation: 0.0d, width: 21.0d, x: 0.0d, y: -1.5d }
-		{ height: 1.6d, image: "arcadia_lib:item/arcadia_star", rotation: -18.0d, width: 1.6d, x: -11.0d, y: -1.5d }
-		{ height: 1.6d, image: "arcadia_lib:item/arcadia_star", rotation: 18.0d, width: 1.6d, x: 11.0d, y: -1.5d }
-	]
 	quests: [
 		{
-			icon: { id: "minecraft:iron_ingot" }
-			id: "E0D274E6F94B88C8"
+			icon: {
+				id: "minecraft:iron_ingot"
+			}
+			id: "065D5149B7406FAF"
 			size: 1.4d
-			tasks: [{ id: "73A59A881AAD9601", type: "checkmark" }]
+			tasks: [{
+				id: "73A59A881AAD9601"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 6.0d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:iron_ingot" }
+			icon: {
+				id: "minecraft:iron_ingot"
+			}
 			id: "51F67B6E2E35BA41"
-			rewards: [{ count: 8, id: "4297E0F0A34D7077", item: { count: 1, id: "minecraft:iron_ingot" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "4297E0F0A34D7077"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 3L, id: "56CF270713A2438C", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "56CF270713A2438C"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: -4.6d
 			y: 7.6d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:gold_ingot" }
+			icon: {
+				id: "minecraft:gold_ingot"
+			}
 			id: "454BAD8C21A4E287"
-			rewards: [{ count: 8, id: "44568F58048572CA", item: { count: 1, id: "minecraft:gold_ingot" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "44568F58048572CA"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 4L, id: "DCC7A9BB7F5683C2", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "0D1CE0D420DC4F80"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: -3.45d
 			y: 7.6d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:copper_ingot" }
-			id: "966709D22FA127D7"
-			rewards: [{ count: 16, id: "393D616E3553D77E", item: { count: 1, id: "minecraft:copper_ingot" }, type: "item" }]
+			icon: {
+				id: "minecraft:copper_ingot"
+			}
+			id: "2DC8DD8BFC0768BE"
+			rewards: [{
+				count: 16
+				id: "393D616E3553D77E"
+				item: {
+					count: 1
+					id: "minecraft:copper_ingot"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 3L, id: "D1212ED40624C184", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "6FA4B019D753AA11"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: -2.3d
 			y: 7.6d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:coal" }
-			id: "D7991E5474E7AE02"
-			rewards: [{ count: 16, id: "90E0F0B4C7F115F9", item: { count: 1, id: "minecraft:coal" }, type: "item" }]
+			icon: {
+				id: "minecraft:coal"
+			}
+			id: "55D3D0D2D412CFA3"
+			rewards: [{
+				count: 16
+				id: "29C2FF371CC66CA6"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "FA4FA4525BC754E5", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "7166867B6B6FA501"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: -1.15d
 			y: 7.6d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:redstone" }
-			id: "91CF8912E67F4F7D"
-			rewards: [{ count: 16, id: "DED3D7A2DE0B76FC", item: { count: 1, id: "minecraft:redstone" }, type: "item" }]
+			icon: {
+				id: "minecraft:redstone"
+			}
+			id: "520B1CCF8E45A6D0"
+			rewards: [{
+				count: 16
+				id: "3E7397CC53C6DF66"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 3L, id: "6842A45A57A3E7FF", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "6842A45A57A3E7FF"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 7.6d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:lapis_lazuli" }
-			id: "99C146F9BA2E9A8D"
-			rewards: [{ count: 16, id: "0A9CC7D2245A3B69", item: { count: 1, id: "minecraft:lapis_lazuli" }, type: "item" }]
+			icon: {
+				id: "minecraft:lapis_lazuli"
+			}
+			id: "5377FFA71E8D3BC3"
+			rewards: [{
+				count: 16
+				id: "0A9CC7D2245A3B69"
+				item: {
+					count: 1
+					id: "minecraft:lapis_lazuli"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 3L, id: "F8E87457E49B35A2", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "05DCCF1DE92F16DB"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: 1.15d
 			y: 7.6d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:quartz" }
+			icon: {
+				id: "minecraft:quartz"
+			}
 			id: "05862A5F3CE8AEA0"
-			rewards: [{ count: 16, id: "F720B7549AED75E5", item: { count: 1, id: "minecraft:quartz" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "333B7278B3BA9FE7"
+				item: {
+					count: 1
+					id: "minecraft:quartz"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 4L, id: "B230E8E828F497DE", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "4261DD56EC0CC33C"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: 2.3d
 			y: 7.6d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:glowstone_dust" }
-			id: "AB8FB8A159A90A21"
-			rewards: [{ count: 16, id: "199BEB148B01C57C", item: { count: 1, id: "minecraft:glowstone_dust" }, type: "item" }]
+			icon: {
+				id: "minecraft:glowstone_dust"
+			}
+			id: "2A3E482F620E91AA"
+			rewards: [{
+				count: 16
+				id: "199BEB148B01C57C"
+				item: {
+					count: 1
+					id: "minecraft:glowstone_dust"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 3L, id: "F84BF89A9445657A", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "0144C88F7209A0CD"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: 3.45d
 			y: 7.6d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:gunpowder" }
-			id: "E80508D3A6ABABFD"
-			rewards: [{ count: 16, id: "AB12E9CBFBF0453C", item: { count: 1, id: "minecraft:gunpowder" }, type: "item" }]
+			icon: {
+				id: "minecraft:gunpowder"
+			}
+			id: "088B6FACEE90993C"
+			rewards: [{
+				count: 16
+				id: "59C191D6619373CE"
+				item: {
+					count: 1
+					id: "minecraft:gunpowder"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 4L, id: "1740FE6D7E1308A0", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "1740FE6D7E1308A0"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: 4.6d
 			y: 7.6d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:string" }
+			icon: {
+				id: "minecraft:string"
+			}
 			id: "28961A0941DE6833"
-			rewards: [{ count: 16, id: "00EC10967F2332D6", item: { count: 1, id: "minecraft:string" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "00EC10967F2332D6"
+				item: {
+					count: 1
+					id: "minecraft:string"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "E08C2895B71FF99C", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "42AD3C30FD8E91EC"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: -4.6d
 			y: 8.75d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:leather" }
+			icon: {
+				id: "minecraft:leather"
+			}
 			id: "4FAE921CEC979A1E"
-			rewards: [{ count: 8, id: "7F41AC5DF7613412", item: { count: 1, id: "minecraft:leather" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "7F41AC5DF7613412"
+				item: {
+					count: 1
+					id: "minecraft:leather"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 3L, id: "F2BDCA2097E720B8", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "33A09D23BBAAA787"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: -3.45d
 			y: 8.75d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:bone" }
+			icon: {
+				id: "minecraft:bone"
+			}
 			id: "3B0E2A4E1AA6124C"
-			rewards: [{ count: 16, id: "7AD7C56920538910", item: { count: 1, id: "minecraft:bone" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "7AD7C56920538910"
+				item: {
+					count: 1
+					id: "minecraft:bone"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "DD320621A0208C91", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "6A35E4111C5FBC48"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: -2.3d
 			y: 8.75d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:slime_ball" }
-			id: "E3449EE419EF2C33"
-			rewards: [{ count: 8, id: "DA45BFFD46C32F42", item: { count: 1, id: "minecraft:slime_ball" }, type: "item" }]
+			icon: {
+				id: "minecraft:slime_ball"
+			}
+			id: "5A4E6EB9C56E40EE"
+			rewards: [{
+				count: 8
+				id: "3FF46BCCB26A0167"
+				item: {
+					count: 1
+					id: "minecraft:slime_ball"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 3L, id: "607C4B04826B589B", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "607C4B04826B589B"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: -1.15d
 			y: 8.75d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:honeycomb" }
+			icon: {
+				id: "minecraft:honeycomb"
+			}
 			id: "7C397D335E3EAFC9"
-			rewards: [{ count: 8, id: "198A1BFB48EFC054", item: { count: 1, id: "minecraft:honeycomb" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "198A1BFB48EFC054"
+				item: {
+					count: 1
+					id: "minecraft:honeycomb"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 3L, id: "85B63AA1D34CDD09", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "57F6472DA283CF67"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 8.75d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:amethyst_shard" }
+			icon: {
+				id: "minecraft:amethyst_shard"
+			}
 			id: "41091CA42A1684B3"
-			rewards: [{ count: 8, id: "6CBD97FF5300B539", item: { count: 1, id: "minecraft:amethyst_shard" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "6CBD97FF5300B539"
+				item: {
+					count: 1
+					id: "minecraft:amethyst_shard"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 4L, id: "16DCB0575DF03EF9", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "16DCB0575DF03EF9"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: 1.15d
 			y: 8.75d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:emerald" }
+			icon: {
+				id: "minecraft:emerald"
+			}
 			id: "129DEDC958B6D652"
-			rewards: [{ count: 4, id: "C1D6CF6352B1C322", item: { count: 1, id: "minecraft:emerald" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "07AC0BF09ACB6C1F"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "89C7E3D2B88ADB17", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "07969BD62E32684E"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: 2.3d
 			y: 8.75d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:diamond" }
+			icon: {
+				id: "minecraft:diamond"
+			}
 			id: "5E483979991C5DEC"
-			rewards: [{ count: 2, id: "708A3733F492DA5F", item: { count: 1, id: "minecraft:diamond" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "708A3733F492DA5F"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "3CBE0139C4303040", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "3CBE0139C4303040"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: 3.45d
 			y: 8.75d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:diamond_block" }
-			id: "CC961F75A042C7B8"
-			rewards: [{ count: 1, id: "10BCDC0D0867CFF8", item: { count: 1, id: "minecraft:diamond_block" }, type: "item" }]
+			icon: {
+				id: "minecraft:diamond_block"
+			}
+			id: "507C3F7ECD410874"
+			rewards: [{
+				id: "10BCDC0D0867CFF8"
+				item: {
+					count: 1
+					id: "minecraft:diamond_block"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "392675C7107AD9D0", item: { count: 1, id: "numismatics:crown" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "392675C7107AD9D0"
+				item: { count: 1, id: "numismatics:crown" }
+				type: "item"
+			}]
 			x: 4.6d
 			y: 8.75d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:emerald_block" }
-			id: "831C705C219BA612"
-			rewards: [{ count: 1, id: "9FE2D9F6E1DA4E27", item: { count: 1, id: "minecraft:emerald_block" }, type: "item" }]
+			icon: {
+				id: "minecraft:emerald_block"
+			}
+			id: "79340968DEA161DB"
+			rewards: [{
+				id: "2136F06098FCE497"
+				item: {
+					count: 1
+					id: "minecraft:emerald_block"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 6L, id: "C3F4E992463720F2", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "5B23B158ACE5D00C"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: -4.6d
 			y: 9.9d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:gold_block" }
-			id: "E3C52AE3543B7180"
-			rewards: [{ count: 1, id: "11D561A5FB406BBC", item: { count: 1, id: "minecraft:gold_block" }, type: "item" }]
+			icon: {
+				id: "minecraft:gold_block"
+			}
+			id: "2382E8249A9C1B90"
+			rewards: [{
+				id: "11D561A5FB406BBC"
+				item: {
+					count: 1
+					id: "minecraft:gold_block"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 3L, id: "EF4EF36AA082233B", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "23F0CFBAA33700AA"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: -3.45d
 			y: 9.9d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:obsidian" }
-			id: "F10355643504464B"
-			rewards: [{ count: 8, id: "6B3FA22FE58F8F11", item: { count: 1, id: "minecraft:obsidian" }, type: "item" }]
+			icon: {
+				id: "minecraft:obsidian"
+			}
+			id: "2BAA995D1F63C19C"
+			rewards: [{
+				count: 8
+				id: "6B3FA22FE58F8F11"
+				item: {
+					count: 1
+					id: "minecraft:obsidian"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 4L, id: "96AA7CA9DD34FA1B", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "3A8D89E71EF12602"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: -2.3d
 			y: 9.9d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:crying_obsidian" }
+			icon: {
+				id: "minecraft:crying_obsidian"
+			}
 			id: "50565E920E4F95A5"
-			rewards: [{ count: 4, id: "1A9E2FF71DD1D88D", item: { count: 1, id: "minecraft:crying_obsidian" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "1A9E2FF71DD1D88D"
+				item: {
+					count: 1
+					id: "minecraft:crying_obsidian"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "069EA751993811E6", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "069EA751993811E6"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: -1.15d
 			y: 9.9d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:nether_wart" }
-			id: "C9147D735226D444"
-			rewards: [{ count: 16, id: "F2198C62F0158426", item: { count: 1, id: "minecraft:nether_wart" }, type: "item" }]
+			icon: {
+				id: "minecraft:nether_wart"
+			}
+			id: "1E01C425A43B3F7C"
+			rewards: [{
+				count: 16
+				id: "51405953D11C0680"
+				item: {
+					count: 1
+					id: "minecraft:nether_wart"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "5BAC965D606E1071", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "5BAC965D606E1071"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 9.9d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:glow_ink_sac" }
-			id: "E7A01103559C54C9"
-			rewards: [{ count: 8, id: "4AB229E8EDC9EB2F", item: { count: 1, id: "minecraft:glow_ink_sac" }, type: "item" }]
+			icon: {
+				id: "minecraft:glow_ink_sac"
+			}
+			id: "6768F77BB06022E1"
+			rewards: [{
+				count: 8
+				id: "4AB229E8EDC9EB2F"
+				item: {
+					count: 1
+					id: "minecraft:glow_ink_sac"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 3L, id: "21BCE1D2AF5A8E90", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "21BCE1D2AF5A8E90"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: 1.15d
 			y: 9.9d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:prismarine_shard" }
-			id: "9D0114FDE92D6F4E"
-			rewards: [{ count: 16, id: "68D985E1DD5F20D1", item: { count: 1, id: "minecraft:prismarine_shard" }, type: "item" }]
+			icon: {
+				id: "minecraft:prismarine_shard"
+			}
+			id: "16F5C80BDA39DE3B"
+			rewards: [{
+				count: 16
+				id: "68D985E1DD5F20D1"
+				item: {
+					count: 1
+					id: "minecraft:prismarine_shard"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 4L, id: "332B05BD63690936", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "332B05BD63690936"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: 2.3d
 			y: 9.9d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:prismarine_crystals" }
-			id: "A571808E9C27E2B5"
-			rewards: [{ count: 8, id: "DF5A9AC61F79E1F3", item: { count: 1, id: "minecraft:prismarine_crystals" }, type: "item" }]
+			icon: {
+				id: "minecraft:prismarine_crystals"
+			}
+			id: "0C0EA6EA70AB8AC2"
+			rewards: [{
+				count: 8
+				id: "4EAB8E3B889EA4A2"
+				item: {
+					count: 1
+					id: "minecraft:prismarine_crystals"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "13F286F9CF106FC8", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "13F286F9CF106FC8"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: 3.45d
 			y: 9.9d
 		}
 		{
 			can_repeat: true
-			icon: { id: "create:brass_ingot" }
+			icon: {
+				id: "create:brass_ingot"
+			}
 			id: "40AF8EB68609A990"
-			rewards: [{ count: 8, id: "25AF0EB0FFE6B519", item: { count: 1, id: "create:brass_ingot" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "25AF0EB0FFE6B519"
+				item: {
+					count: 1
+					id: "create:brass_ingot"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "37B349B85B43438E", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "37B349B85B43438E"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: 4.6d
 			y: 9.9d
 		}
 		{
 			can_repeat: true
-			icon: { id: "create:zinc_ingot" }
-			id: "B4FA6E31DBA3F4AF"
-			rewards: [{ count: 8, id: "99E24B6658B3CD50", item: { count: 1, id: "create:zinc_ingot" }, type: "item" }]
+			icon: {
+				id: "create:zinc_ingot"
+			}
+			id: "1818934AA13623E4"
+			rewards: [{
+				count: 8
+				id: "6AC8C2C97C4F866A"
+				item: {
+					count: 1
+					id: "create:zinc_ingot"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 4L, id: "9F6D50ED5DF60D3E", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "6C5980DBC82B73E5"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: -4.6d
 			y: 11.05d
 		}
 		{
 			can_repeat: true
-			icon: { id: "create:andesite_alloy" }
+			icon: {
+				id: "create:andesite_alloy"
+			}
 			id: "4BDA4D0B9E47F2A9"
-			rewards: [{ count: 16, id: "58A601A46D9BC452", item: { count: 1, id: "create:andesite_alloy" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "58A601A46D9BC452"
+				item: {
+					count: 1
+					id: "create:andesite_alloy"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 4L, id: "FEEFB7F6B8164811", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "69D41E37ABDF77D6"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: -3.45d
 			y: 11.05d
 		}
 		{
 			can_repeat: true
-			icon: { id: "create:experience_nugget" }
+			icon: {
+				id: "create:experience_nugget"
+			}
 			id: "30CA37CC112ADE1E"
-			rewards: [{ count: 8, id: "52DACE32DFAD85AA", item: { count: 1, id: "create:experience_nugget" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "52DACE32DFAD85AA"
+				item: {
+					count: 1
+					id: "create:experience_nugget"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "6BB516864A1909F6", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "6BB516864A1909F6"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: -2.3d
 			y: 11.05d
 		}
 		{
 			can_repeat: true
-			icon: { id: "create:crushed_raw_iron" }
-			id: "BB1657268B677133"
-			rewards: [{ count: 16, id: "37196072195222F9", item: { count: 1, id: "create:crushed_raw_iron" }, type: "item" }]
+			icon: {
+				id: "create:crushed_raw_iron"
+			}
+			id: "7D5EDE655D5413E3"
+			rewards: [{
+				count: 16
+				id: "37196072195222F9"
+				item: {
+					count: 1
+					id: "create:crushed_raw_iron"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 3L, id: "162BA82BA4ED1098", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "162BA82BA4ED1098"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: -1.15d
 			y: 11.05d
 		}
 		{
 			can_repeat: true
-			icon: { id: "create:crushed_raw_gold" }
+			icon: {
+				id: "create:crushed_raw_gold"
+			}
 			id: "30563C088678970C"
-			rewards: [{ count: 16, id: "E003F31917779C40", item: { count: 1, id: "create:crushed_raw_gold" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "5AEB1343F671C032"
+				item: {
+					count: 1
+					id: "create:crushed_raw_gold"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 4L, id: "1C685DCDE8AE6725", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "1C685DCDE8AE6725"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 11.05d
 		}
 		{
 			can_repeat: true
-			icon: { id: "create:powdered_obsidian" }
-			id: "FC262FBB271285D7"
-			rewards: [{ count: 8, id: "7CB7C1D776B77C7E", item: { count: 1, id: "create:powdered_obsidian" }, type: "item" }]
+			icon: {
+				id: "create:powdered_obsidian"
+			}
+			id: "586AE57AE9EB7E8A"
+			rewards: [{
+				count: 8
+				id: "7CB7C1D776B77C7E"
+				item: {
+					count: 1
+					id: "create:powdered_obsidian"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "A0C7E332754F1D84", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "0052E7D7466A1F2B"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: 1.15d
 			y: 11.05d
 		}
 		{
 			can_repeat: true
-			icon: { id: "mekanism:ingot_osmium" }
+			icon: {
+				id: "mekanism:ingot_osmium"
+			}
 			id: "0C4B37354123E2D5"
-			rewards: [{ count: 8, id: "6BF183376B15EF27", item: { count: 1, id: "mekanism:ingot_osmium" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "6BF183376B15EF27"
+				item: {
+					count: 1
+					id: "mekanism:ingot_osmium"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "21DED4DD95425939", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "21DED4DD95425939"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: 2.3d
 			y: 11.05d
 		}
 		{
 			can_repeat: true
-			icon: { id: "mekanism:ingot_refined_obsidian" }
-			id: "E293AF12334C5018"
-			rewards: [{ count: 4, id: "A3D33373018DB45A", item: { count: 1, id: "mekanism:ingot_refined_obsidian" }, type: "item" }]
+			icon: {
+				id: "mekanism:ingot_refined_obsidian"
+			}
+			id: "246CE2EE7B4E6579"
+			rewards: [{
+				count: 4
+				id: "2CD8CAD889E7A098"
+				item: {
+					count: 1
+					id: "mekanism:ingot_refined_obsidian"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "3DCFBE043BF28685", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "3DCFBE043BF28685"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: 3.45d
 			y: 11.05d
 		}
 		{
 			can_repeat: true
-			icon: { id: "mekanism:ingot_refined_glowstone" }
-			id: "DA2EB7D87FAD7A7D"
-			rewards: [{ count: 4, id: "EF5A02A6219897D2", item: { count: 1, id: "mekanism:ingot_refined_glowstone" }, type: "item" }]
+			icon: {
+				id: "mekanism:ingot_refined_glowstone"
+			}
+			id: "47185D33FCD12B9A"
+			rewards: [{
+				count: 4
+				id: "6CE18ADBF385D726"
+				item: {
+					count: 1
+					id: "mekanism:ingot_refined_glowstone"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "686AF8897D3CDB06", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "686AF8897D3CDB06"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: 4.6d
 			y: 11.05d
 		}
 		{
 			can_repeat: true
-			icon: { id: "mekanism:alloy_infused" }
+			icon: {
+				id: "mekanism:alloy_infused"
+			}
 			id: "41835A1B9A73EBB8"
-			rewards: [{ count: 8, id: "183C56BF01B5D5CF", item: { count: 1, id: "mekanism:alloy_infused" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "183C56BF01B5D5CF"
+				item: {
+					count: 1
+					id: "mekanism:alloy_infused"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "513C1E76A921A274", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "513C1E76A921A274"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: -4.6d
 			y: 12.2d
 		}
 		{
 			can_repeat: true
-			icon: { id: "mekanism:alloy_reinforced" }
-			id: "F69108D880593B66"
-			rewards: [{ count: 4, id: "A18BB45FBDDDAF96", item: { count: 1, id: "mekanism:alloy_reinforced" }, type: "item" }]
+			icon: {
+				id: "mekanism:alloy_reinforced"
+			}
+			id: "5B63620CD5DE1A6D"
+			rewards: [{
+				count: 4
+				id: "19E2C5D9167FCC9F"
+				item: {
+					count: 1
+					id: "mekanism:alloy_reinforced"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "7387E944F6E3527A", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "7387E944F6E3527A"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: -3.45d
 			y: 12.2d
 		}
 		{
 			can_repeat: true
-			icon: { id: "mekanism:enriched_iron" }
-			id: "DD579EBA1F418719"
-			rewards: [{ count: 8, id: "FAC029DD79AC9617", item: { count: 1, id: "mekanism:enriched_iron" }, type: "item" }]
+			icon: {
+				id: "mekanism:enriched_iron"
+			}
+			id: "137F13B7C9CB14B4"
+			rewards: [{
+				count: 8
+				id: "63BFFF1C6C9C8912"
+				item: {
+					count: 1
+					id: "mekanism:enriched_iron"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "271519B910DE6A3C", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "271519B910DE6A3C"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: -2.3d
 			y: 12.2d
 		}
 		{
 			can_repeat: true
-			icon: { id: "mekanism:hdpe_sheet" }
+			icon: {
+				id: "mekanism:hdpe_sheet"
+			}
 			id: "346744E6421F4438"
-			rewards: [{ count: 4, id: "F11CB2B3B921795C", item: { count: 1, id: "mekanism:hdpe_sheet" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "1C375575A6BB4F16"
+				item: {
+					count: 1
+					id: "mekanism:hdpe_sheet"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "DA7200DB1CA56AE1", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "669FE4673151FB52"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: -1.15d
 			y: 12.2d
 		}
 		{
 			can_repeat: true
-			icon: { id: "immersiveengineering:ingot_steel" }
-			id: "8492FB59FEA0A8F3"
-			rewards: [{ count: 8, id: "15C515F8F3B0D25E", item: { count: 1, id: "immersiveengineering:ingot_steel" }, type: "item" }]
+			icon: {
+				id: "immersiveengineering:ingot_steel"
+			}
+			id: "35B96A5152623857"
+			rewards: [{
+				count: 8
+				id: "15C515F8F3B0D25E"
+				item: {
+					count: 1
+					id: "immersiveengineering:ingot_steel"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "3BDDA69252071E60", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "3BDDA69252071E60"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 12.2d
 		}
 		{
 			can_repeat: true
-			icon: { id: "immersiveengineering:ingot_constantan" }
+			icon: {
+				id: "immersiveengineering:ingot_constantan"
+			}
 			id: "17D993F5C112F445"
-			rewards: [{ count: 8, id: "0C04C75AA7AA8DA6", item: { count: 1, id: "immersiveengineering:ingot_constantan" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "0C04C75AA7AA8DA6"
+				item: {
+					count: 1
+					id: "immersiveengineering:ingot_constantan"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "BC5BA7A3BC8E9873", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "6C1B819D7E7B472F"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: 1.15d
 			y: 12.2d
 		}
 		{
 			can_repeat: true
-			icon: { id: "immersiveengineering:ingot_electrum" }
+			icon: {
+				id: "immersiveengineering:ingot_electrum"
+			}
 			id: "56A9B2F225B19CFA"
-			rewards: [{ count: 8, id: "93B7F4C37FADA121", item: { count: 1, id: "immersiveengineering:ingot_electrum" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "1689E3415A288946"
+				item: {
+					count: 1
+					id: "immersiveengineering:ingot_electrum"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "CFAC53A7C2FE71E5", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "0587648669E0B1B8"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: 2.3d
 			y: 12.2d
 		}
 		{
 			can_repeat: true
-			icon: { id: "immersiveengineering:plate_steel" }
-			id: "801F9080D83806A2"
-			rewards: [{ count: 8, id: "3C83055B7B152FC3", item: { count: 1, id: "immersiveengineering:plate_steel" }, type: "item" }]
+			icon: {
+				id: "immersiveengineering:plate_steel"
+			}
+			id: "51671A06971EA942"
+			rewards: [{
+				count: 8
+				id: "3C83055B7B152FC3"
+				item: {
+					count: 1
+					id: "immersiveengineering:plate_steel"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "91E773482E9BA57C", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "25D9DEB178EA3947"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: 3.45d
 			y: 12.2d
 		}
 		{
 			can_repeat: true
-			icon: { id: "immersiveengineering:coal_coke" }
-			id: "A8BBB4735DFCC673"
-			rewards: [{ count: 16, id: "40E535F55FAFDFEB", item: { count: 1, id: "immersiveengineering:coal_coke" }, type: "item" }]
+			icon: {
+				id: "immersiveengineering:coal_coke"
+			}
+			id: "2C1E5F666E8A88B6"
+			rewards: [{
+				count: 16
+				id: "40E535F55FAFDFEB"
+				item: {
+					count: 1
+					id: "immersiveengineering:coal_coke"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 4L, id: "2B61E39161AB246B", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "2B61E39161AB246B"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: 4.6d
 			y: 12.2d
 		}
 		{
 			can_repeat: true
-			icon: { id: "immersiveengineering:wire_copper" }
-			id: "B3F2005FFE893B11"
-			rewards: [{ count: 16, id: "9CBB636A5D9BEA47", item: { count: 1, id: "immersiveengineering:wire_copper" }, type: "item" }]
+			icon: {
+				id: "immersiveengineering:wire_copper"
+			}
+			id: "47C79CA681078495"
+			rewards: [{
+				count: 16
+				id: "0342EE3A588048E4"
+				item: {
+					count: 1
+					id: "immersiveengineering:wire_copper"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 3L, id: "6CFE855B8F709A11", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "6CFE855B8F709A11"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: -4.6d
 			y: 13.35d
 		}
 		{
 			can_repeat: true
-			icon: { id: "occultism:iesnium_ingot" }
-			id: "CED8FA00BAC2573C"
-			rewards: [{ count: 4, id: "6F9176EDBC48438F", item: { count: 1, id: "occultism:iesnium_ingot" }, type: "item" }]
+			icon: {
+				id: "occultism:iesnium_ingot"
+			}
+			id: "0311CE6B0AF9E790"
+			rewards: [{
+				count: 4
+				id: "6F9176EDBC48438F"
+				item: {
+					count: 1
+					id: "occultism:iesnium_ingot"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "B9C9EA727533E707", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "57B6C8F31F17B7E8"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: -3.45d
 			y: 13.35d
 		}
 		{
 			can_repeat: true
-			icon: { id: "occultism:otherworld_ashes" }
-			id: "BBF9275781D219A0"
-			rewards: [{ count: 8, id: "4A781F3AD6B50274", item: { count: 1, id: "occultism:otherworld_ashes" }, type: "item" }]
+			icon: {
+				id: "occultism:otherworld_ashes"
+			}
+			id: "7F0CC23E3828C80C"
+			rewards: [{
+				count: 8
+				id: "4A781F3AD6B50274"
+				item: {
+					count: 1
+					id: "occultism:otherworld_ashes"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "F913C514EBACDD9F", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "7A0B644AB9D29C59"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: -2.3d
 			y: 13.35d
 		}
 		{
 			can_repeat: true
-			icon: { id: "twilightforest:ironwood_ingot" }
-			id: "A77A3FDC53C495F8"
-			rewards: [{ count: 8, id: "CCE5BA16C892B14D", item: { count: 1, id: "twilightforest:ironwood_ingot" }, type: "item" }]
+			icon: {
+				id: "twilightforest:ironwood_ingot"
+			}
+			id: "5B6A76F5B56B96C0"
+			rewards: [{
+				count: 8
+				id: "2A64427E41E23758"
+				item: {
+					count: 1
+					id: "twilightforest:ironwood_ingot"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "4920FC3019FFA5B4", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "4920FC3019FFA5B4"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: -1.15d
 			y: 13.35d
 		}
 		{
 			can_repeat: true
-			icon: { id: "twilightforest:steeleaf_ingot" }
-			id: "FBE24CAEC8E49AD1"
-			rewards: [{ count: 8, id: "5B970BE5944BA8F4", item: { count: 1, id: "twilightforest:steeleaf_ingot" }, type: "item" }]
+			icon: {
+				id: "twilightforest:steeleaf_ingot"
+			}
+			id: "600AE970B5A79869"
+			rewards: [{
+				count: 8
+				id: "5B970BE5944BA8F4"
+				item: {
+					count: 1
+					id: "twilightforest:steeleaf_ingot"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "99DE71EF991C808B", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "6544022CBA9E9473"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 13.35d
 		}
 		{
 			can_repeat: true
-			icon: { id: "twilightforest:knightmetal_ingot" }
+			icon: {
+				id: "twilightforest:knightmetal_ingot"
+			}
 			id: "587F361DCBE64BD5"
-			rewards: [{ count: 4, id: "5891EFF3AB00F515", item: { count: 1, id: "twilightforest:knightmetal_ingot" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "5891EFF3AB00F515"
+				item: {
+					count: 1
+					id: "twilightforest:knightmetal_ingot"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "D99B4183CA009022", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "606BC69DB72DB929"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: 1.15d
 			y: 13.35d
 		}
 		{
 			can_repeat: true
-			icon: { id: "aether:zanite_gemstone" }
-			id: "9765F742E0AD481C"
-			rewards: [{ count: 8, id: "B4CCF66EEFED4DD1", item: { count: 1, id: "aether:zanite_gemstone" }, type: "item" }]
+			icon: {
+				id: "aether:zanite_gemstone"
+			}
+			id: "7DA70480A4887F25"
+			rewards: [{
+				count: 8
+				id: "4779576ADABAC37A"
+				item: {
+					count: 1
+					id: "aether:zanite_gemstone"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "03B0B9DC5B9B6EAB", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "03B0B9DC5B9B6EAB"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: 2.3d
 			y: 13.35d
 		}
 		{
 			can_repeat: true
-			icon: { id: "aether:ambrosium_shard" }
-			id: "874AC36D03AB952C"
-			rewards: [{ count: 16, id: "3B920D5294676857", item: { count: 1, id: "aether:ambrosium_shard" }, type: "item" }]
+			icon: {
+				id: "aether:ambrosium_shard"
+			}
+			id: "64E31DC41013982A"
+			rewards: [{
+				count: 16
+				id: "3B920D5294676857"
+				item: {
+					count: 1
+					id: "aether:ambrosium_shard"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 3L, id: "F1577C37C3D93B62", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "20AEAC2B16EB5DF8"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: 3.45d
 			y: 13.35d
 		}
 		{
 			can_repeat: true
-			icon: { id: "aether:skyroot_stick" }
+			icon: {
+				id: "aether:skyroot_stick"
+			}
 			id: "76B7B6EBCF6F2040"
-			rewards: [{ count: 16, id: "A90DEB388D3F12E2", item: { count: 1, id: "aether:skyroot_stick" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "2A6BF0EEEB67ACE0"
+				item: {
+					count: 1
+					id: "aether:skyroot_stick"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "2EE15ED55BF7F6F7", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "2EE15ED55BF7F6F7"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: 4.6d
 			y: 13.35d
 		}
 		{
-			icon: { id: "minecraft:netherite_ingot" }
+			icon: {
+				id: "minecraft:netherite_ingot"
+			}
 			id: "27A059BCBEBBC5AC"
 			size: 1.4d
-			tasks: [{ id: "811286DB7BE45384", type: "checkmark" }]
+			tasks: [{
+				id: "6CBB6E41B1E6AE0C"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 16.7d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:netherite_scrap" }
+			icon: {
+				id: "minecraft:netherite_scrap"
+			}
 			id: "08D75F89D1405045"
-			rewards: [{ count: 1, id: "0066B1CB0A2965B9", item: { count: 1, id: "minecraft:netherite_scrap" }, type: "item" }]
+			rewards: [{
+				id: "0066B1CB0A2965B9"
+				item: {
+					count: 1
+					id: "minecraft:netherite_scrap"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 4L, id: "5790D310C2A9670C", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "5790D310C2A9670C"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: -4.6d
 			y: 18.3d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:netherite_ingot" }
-			id: "BF5B026C48022E67"
-			rewards: [{ count: 1, id: "D299002B4ABB1B6A", item: { count: 1, id: "minecraft:netherite_ingot" }, type: "item" }]
+			icon: {
+				id: "minecraft:netherite_ingot"
+			}
+			id: "14F4A889B4FF112C"
+			rewards: [{
+				id: "3FC51954CA3DA557"
+				item: {
+					count: 1
+					id: "minecraft:netherite_ingot"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "74AECB5CAD4152D4", item: { count: 1, id: "numismatics:crown" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "74AECB5CAD4152D4"
+				item: { count: 1, id: "numismatics:crown" }
+				type: "item"
+			}]
 			x: -3.45d
 			y: 18.3d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:ancient_debris" }
-			id: "E9CC3E8226040B37"
-			rewards: [{ count: 2, id: "F46320C3387F7D3A", item: { count: 1, id: "minecraft:ancient_debris" }, type: "item" }]
+			icon: {
+				id: "minecraft:ancient_debris"
+			}
+			id: "0C46CE62F03ACA27"
+			rewards: [{
+				count: 2
+				id: "6D356BF87DD73AD3"
+				item: {
+					count: 1
+					id: "minecraft:ancient_debris"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 4L, id: "E39C8280EFDBB2BE", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "1EB3AEFAEBA309C3"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: -2.3d
 			y: 18.3d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:ender_pearl" }
-			id: "A294E692A996E688"
-			rewards: [{ count: 8, id: "9B8234983B35DC08", item: { count: 1, id: "minecraft:ender_pearl" }, type: "item" }]
+			icon: {
+				id: "minecraft:ender_pearl"
+			}
+			id: "5360790DBB88744D"
+			rewards: [{
+				count: 8
+				id: "4DDFDE9F779002D6"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "19EE53A9E94B1A42", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "19EE53A9E94B1A42"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: -1.15d
 			y: 18.3d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:blaze_rod" }
+			icon: {
+				id: "minecraft:blaze_rod"
+			}
 			id: "020922F3FBC5C32A"
-			rewards: [{ count: 8, id: "43F7D8DA2185F14A", item: { count: 1, id: "minecraft:blaze_rod" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "43F7D8DA2185F14A"
+				item: {
+					count: 1
+					id: "minecraft:blaze_rod"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "E12275246BE09B2F", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "51DB3E1777B86C27"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 18.3d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:ghast_tear" }
-			id: "A44A66B2BE4DB34E"
-			rewards: [{ count: 4, id: "C83FEE0672A6FD0F", item: { count: 1, id: "minecraft:ghast_tear" }, type: "item" }]
+			icon: {
+				id: "minecraft:ghast_tear"
+			}
+			id: "4191BD8ABE06730A"
+			rewards: [{
+				count: 4
+				id: "384E5F13ECE456BB"
+				item: {
+					count: 1
+					id: "minecraft:ghast_tear"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "5136AED23AB21A50", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "5136AED23AB21A50"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: 1.15d
 			y: 18.3d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:nether_star" }
+			icon: {
+				id: "minecraft:nether_star"
+			}
 			id: "3B484D582A9C93A0"
-			rewards: [{ count: 1, id: "8C6F8625F32BEDE2", item: { count: 1, id: "minecraft:nether_star" }, type: "item" }]
+			rewards: [{
+				id: "15D2200B99238953"
+				item: {
+					count: 1
+					id: "minecraft:nether_star"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "2A5CEFDD04AA20CD", item: { count: 1, id: "numismatics:sun" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "2A5CEFDD04AA20CD"
+				item: { count: 1, id: "numismatics:sun" }
+				type: "item"
+			}]
 			x: 2.3d
 			y: 18.3d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:wither_skeleton_skull" }
-			id: "A5FC5FA7AC60EEFB"
-			rewards: [{ count: 1, id: "67546F9B44FF2C98", item: { count: 1, id: "minecraft:wither_skeleton_skull" }, type: "item" }]
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "79747A9C9355C6EA"
+			rewards: [{
+				id: "67546F9B44FF2C98"
+				item: {
+					count: 1
+					id: "minecraft:wither_skeleton_skull"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 5L, id: "F9DB6DADF262BD86", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "5894C8D3990F4F67"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: 3.45d
 			y: 18.3d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:shulker_shell" }
-			id: "8CA23748EC64D4E5"
-			rewards: [{ count: 2, id: "7DB7877BBC8F9515", item: { count: 1, id: "minecraft:shulker_shell" }, type: "item" }]
+			icon: {
+				id: "minecraft:shulker_shell"
+			}
+			id: "0CD0556F6421FEDF"
+			rewards: [{
+				count: 2
+				id: "7DB7877BBC8F9515"
+				item: {
+					count: 1
+					id: "minecraft:shulker_shell"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "9787691A8C388C24", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "489871BAC8C71C41"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: 4.6d
 			y: 18.3d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:elytra" }
-			id: "DDD5DDDA347B1816"
-			rewards: [{ count: 1, id: "DB17E1D2BC940314", item: { count: 1, id: "minecraft:elytra" }, type: "item" }]
+			icon: {
+				id: "minecraft:elytra"
+			}
+			id: "32F45F9FEFB52456"
+			rewards: [{
+				id: "320FD9F5B0EE34D2"
+				item: {
+					count: 1
+					id: "minecraft:elytra"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "EEC29ADD329827BD", item: { count: 1, id: "numismatics:sun" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "6AC0BFD18E211D77"
+				item: { count: 1, id: "numismatics:sun" }
+				type: "item"
+			}]
 			x: -4.6d
 			y: 19.45d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:totem_of_undying" }
+			icon: {
+				id: "minecraft:totem_of_undying"
+			}
 			id: "1553F46C32E85340"
-			rewards: [{ count: 1, id: "26E089DEEFED7E0D", item: { count: 1, id: "minecraft:totem_of_undying" }, type: "item" }]
+			rewards: [{
+				id: "26E089DEEFED7E0D"
+				item: {
+					count: 1
+					id: "minecraft:totem_of_undying"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 4L, id: "6D01EE230C2CF8DD", item: { count: 1, id: "numismatics:crown" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "6D01EE230C2CF8DD"
+				item: { count: 1, id: "numismatics:crown" }
+				type: "item"
+			}]
 			x: -3.45d
 			y: 19.45d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:dragon_breath" }
+			icon: {
+				id: "minecraft:dragon_breath"
+			}
 			id: "63F6AF10CC70E04B"
-			rewards: [{ count: 4, id: "ED680802FF70075D", item: { count: 1, id: "minecraft:dragon_breath" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "72AA3CFBB37435F1"
+				item: {
+					count: 1
+					id: "minecraft:dragon_breath"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "EB1D22F6A98EC8F8", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "1CECE472C54CD889"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: -2.3d
 			y: 19.45d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:end_crystal" }
+			icon: {
+				id: "minecraft:end_crystal"
+			}
 			id: "596D9FA8970CD7E1"
-			rewards: [{ count: 2, id: "59DCCF04D12922FF", item: { count: 1, id: "minecraft:end_crystal" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "59DCCF04D12922FF"
+				item: {
+					count: 1
+					id: "minecraft:end_crystal"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "5100CBEF385101CA", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "5100CBEF385101CA"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: -1.15d
 			y: 19.45d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:heart_of_the_sea" }
+			icon: {
+				id: "minecraft:heart_of_the_sea"
+			}
 			id: "7A0816C52320FFEC"
-			rewards: [{ count: 1, id: "E7FBD8874A2C921C", item: { count: 1, id: "minecraft:heart_of_the_sea" }, type: "item" }]
+			rewards: [{
+				id: "55FB7437594BC9F4"
+				item: {
+					count: 1
+					id: "minecraft:heart_of_the_sea"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 6L, id: "E3F6F643A91DAA39", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "1F23E265AAB8A691"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 19.45d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:nautilus_shell" }
-			id: "96B6B6BE5F68795C"
-			rewards: [{ count: 4, id: "07FCDD2D381C3AF3", item: { count: 1, id: "minecraft:nautilus_shell" }, type: "item" }]
+			icon: {
+				id: "minecraft:nautilus_shell"
+			}
+			id: "37A05A5578A92494"
+			rewards: [{
+				count: 4
+				id: "07FCDD2D381C3AF3"
+				item: {
+					count: 1
+					id: "minecraft:nautilus_shell"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "2A075556A989C82E", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "2A075556A989C82E"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: 1.15d
 			y: 19.45d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:trident" }
-			id: "955F32A70A7075B4"
-			rewards: [{ count: 1, id: "65ADDDF47C8C461F", item: { count: 1, id: "minecraft:trident" }, type: "item" }]
+			icon: {
+				id: "minecraft:trident"
+			}
+			id: "6D2BC44B4E2228B3"
+			rewards: [{
+				id: "65ADDDF47C8C461F"
+				item: {
+					count: 1
+					id: "minecraft:trident"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "81E7926CC59C8F74", item: { count: 1, id: "numismatics:crown" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "59B3CF4280A59017"
+				item: { count: 1, id: "numismatics:crown" }
+				type: "item"
+			}]
 			x: 2.3d
 			y: 19.45d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:phantom_membrane" }
+			icon: {
+				id: "minecraft:phantom_membrane"
+			}
 			id: "76BF3E8D90D77A36"
-			rewards: [{ count: 8, id: "CE5D0E309F27BD6E", item: { count: 1, id: "minecraft:phantom_membrane" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "3BE288D6399C84DD"
+				item: {
+					count: 1
+					id: "minecraft:phantom_membrane"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "78F30BF6E28CC5B5", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "78F30BF6E28CC5B5"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: 3.45d
 			y: 19.45d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:echo_shard" }
+			icon: {
+				id: "minecraft:echo_shard"
+			}
 			id: "657EAB244A20FCCB"
-			rewards: [{ count: 4, id: "A3D75404C2657E56", item: { count: 1, id: "minecraft:echo_shard" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "15723650CB6BC27F"
+				item: {
+					count: 1
+					id: "minecraft:echo_shard"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "A34BC283D89D9016", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "6CE12946E4FC7E96"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: 4.6d
 			y: 19.45d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:sculk_catalyst" }
+			icon: {
+				id: "minecraft:sculk_catalyst"
+			}
 			id: "62E1136D91196849"
-			rewards: [{ count: 2, id: "EAE7288C3CD78089", item: { count: 1, id: "minecraft:sculk_catalyst" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "4130D5B226E133CE"
+				item: {
+					count: 1
+					id: "minecraft:sculk_catalyst"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "1EF4B5261A4BA1EF", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "1EF4B5261A4BA1EF"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: -4.6d
 			y: 20.6d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:enchanted_golden_apple" }
-			id: "F92B4528B5BB8EBA"
-			rewards: [{ count: 1, id: "BD4CA573A291C69B", item: { count: 1, id: "minecraft:enchanted_golden_apple" }, type: "item" }]
+			icon: {
+				id: "minecraft:enchanted_golden_apple"
+			}
+			id: "4A1904AA4439D80C"
+			rewards: [{
+				id: "5D07E596F756EC05"
+				item: {
+					count: 1
+					id: "minecraft:enchanted_golden_apple"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "D786DE9ADB288A1B", item: { count: 1, id: "numismatics:crown" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "1D4F2000C972C60A"
+				item: { count: 1, id: "numismatics:crown" }
+				type: "item"
+			}]
 			x: -3.45d
 			y: 20.6d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:sea_lantern" }
-			id: "CE353032B04594F0"
-			rewards: [{ count: 8, id: "44F745B6A5CEB236", item: { count: 1, id: "minecraft:sea_lantern" }, type: "item" }]
+			icon: {
+				id: "minecraft:sea_lantern"
+			}
+			id: "71CBF1D5210F2603"
+			rewards: [{
+				count: 8
+				id: "44F745B6A5CEB236"
+				item: {
+					count: 1
+					id: "minecraft:sea_lantern"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "3A3A8EEFE98D758B", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "3A3A8EEFE98D758B"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: -2.3d
 			y: 20.6d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:sponge" }
-			id: "A453B1D585177EFF"
-			rewards: [{ count: 4, id: "62A350E0F06FF418", item: { count: 1, id: "minecraft:sponge" }, type: "item" }]
+			icon: {
+				id: "minecraft:sponge"
+			}
+			id: "6818D74EFD9859DA"
+			rewards: [{
+				count: 4
+				id: "62A350E0F06FF418"
+				item: {
+					count: 1
+					id: "minecraft:sponge"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "A9B338F999E88CB9", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "38178222EBCB57C2"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: -1.15d
 			y: 20.6d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:conduit" }
-			id: "939D354DCA600FD6"
-			rewards: [{ count: 1, id: "87FDAFF66EBAADCA", item: { count: 1, id: "minecraft:conduit" }, type: "item" }]
+			icon: {
+				id: "minecraft:conduit"
+			}
+			id: "3A2ACAFD82D0C188"
+			rewards: [{
+				id: "7B024A4CF1DB854B"
+				item: {
+					count: 1
+					id: "minecraft:conduit"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "79B46F8D70B7C30C", item: { count: 1, id: "numismatics:crown" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "79B46F8D70B7C30C"
+				item: { count: 1, id: "numismatics:crown" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 20.6d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:beacon" }
-			id: "D22808A1BF91369C"
-			rewards: [{ count: 1, id: "0BF41E24536EE5C0", item: { count: 1, id: "minecraft:beacon" }, type: "item" }]
+			icon: {
+				id: "minecraft:beacon"
+			}
+			id: "6FAC37EDEE35578B"
+			rewards: [{
+				id: "0BF41E24536EE5C0"
+				item: {
+					count: 1
+					id: "minecraft:beacon"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 3L, id: "26F6BB12B392F332", item: { count: 1, id: "numismatics:crown" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "26F6BB12B392F332"
+				item: { count: 1, id: "numismatics:crown" }
+				type: "item"
+			}]
 			x: 1.15d
 			y: 20.6d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:music_disc_pigstep" }
-			id: "A735C66E469C8BF1"
-			rewards: [{ count: 1, id: "2DB17F61F9E461DA", item: { count: 1, id: "minecraft:music_disc_pigstep" }, type: "item" }]
+			icon: {
+				id: "minecraft:music_disc_pigstep"
+			}
+			id: "4D466F3D32956499"
+			rewards: [{
+				id: "2DB17F61F9E461DA"
+				item: {
+					count: 1
+					id: "minecraft:music_disc_pigstep"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 4L, id: "1A593D4E0560673B", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "1A593D4E0560673B"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: 2.3d
 			y: 20.6d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:name_tag" }
-			id: "F94EAD10C8B5DAD3"
-			rewards: [{ count: 4, id: "E218EB4FDA2B38A9", item: { count: 1, id: "minecraft:name_tag" }, type: "item" }]
+			icon: {
+				id: "minecraft:name_tag"
+			}
+			id: "78437311EE830792"
+			rewards: [{
+				count: 4
+				id: "106C38AD52808810"
+				item: {
+					count: 1
+					id: "minecraft:name_tag"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "4AE77FA3C4DBF977", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "4AE77FA3C4DBF977"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: 3.45d
 			y: 20.6d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:saddle" }
-			id: "E3232A8A592FAFD9"
-			rewards: [{ count: 2, id: "86A80F1C2569A090", item: { count: 1, id: "minecraft:saddle" }, type: "item" }]
+			icon: {
+				id: "minecraft:saddle"
+			}
+			id: "1B4CB244547E7B78"
+			rewards: [{
+				count: 2
+				id: "5EC813F72F117FB7"
+				item: {
+					count: 1
+					id: "minecraft:saddle"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "A425870029BB6CAA", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "2C5766E2E1A1412A"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: 4.6d
 			y: 20.6d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:enchanted_book" }
-			id: "D1FD98EA89B58725"
-			rewards: [{ count: 1, id: "F0030ED4515769A8", item: { count: 1, id: "minecraft:enchanted_book" }, type: "item" }]
+			icon: {
+				id: "minecraft:enchanted_book"
+			}
+			id: "462D42B56191F83F"
+			rewards: [{
+				id: "1FC745457DE35787"
+				item: {
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "998177F60081E0F8", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "49CBF548C562BED1"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: -4.6d
 			y: 21.75d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:respawn_anchor" }
-			id: "A549A99C4BEE8A04"
-			rewards: [{ count: 1, id: "FEB3FDCDA978DBDA", item: { count: 1, id: "minecraft:respawn_anchor" }, type: "item" }]
+			icon: {
+				id: "minecraft:respawn_anchor"
+			}
+			id: "19EA3C44AB718D82"
+			rewards: [{
+				id: "5775A653A804D10A"
+				item: {
+					count: 1
+					id: "minecraft:respawn_anchor"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 3L, id: "1CD35E523C8C5736", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "1CD35E523C8C5736"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: -3.45d
 			y: 21.75d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:lodestone" }
-			id: "C583FA6C17763E5F"
-			rewards: [{ count: 1, id: "02E2A07CDB4665A8", item: { count: 1, id: "minecraft:lodestone" }, type: "item" }]
+			icon: {
+				id: "minecraft:lodestone"
+			}
+			id: "4A21413810198366"
+			rewards: [{
+				id: "02E2A07CDB4665A8"
+				item: {
+					count: 1
+					id: "minecraft:lodestone"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 4L, id: "7AEE358B612C97CF", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "7AEE358B612C97CF"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: -2.3d
 			y: 21.75d
 		}
 		{
 			can_repeat: true
-			icon: { id: "mekanism:alloy_atomic" }
+			icon: {
+				id: "mekanism:alloy_atomic"
+			}
 			id: "7766EFF53750E69F"
-			rewards: [{ count: 2, id: "53331AB923DB1286", item: { count: 1, id: "mekanism:alloy_atomic" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "53331AB923DB1286"
+				item: {
+					count: 1
+					id: "mekanism:alloy_atomic"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 4L, id: "B7F1FDE7CA366CB1", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "2AEF11BBF8AB8EBE"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: -1.15d
 			y: 21.75d
 		}
 		{
 			can_repeat: true
-			icon: { id: "mekanism:pellet_polonium" }
-			id: "B8A25E23012E72E7"
-			rewards: [{ count: 1, id: "0FA756A8FC1F0A18", item: { count: 1, id: "mekanism:pellet_polonium" }, type: "item" }]
+			icon: {
+				id: "mekanism:pellet_polonium"
+			}
+			id: "09FCAF9B990B0084"
+			rewards: [{
+				id: "0FA756A8FC1F0A18"
+				item: {
+					count: 1
+					id: "mekanism:pellet_polonium"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "08B0BFC407D82FCE", item: { count: 1, id: "numismatics:crown" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "08B0BFC407D82FCE"
+				item: { count: 1, id: "numismatics:crown" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 21.75d
 		}
 		{
 			can_repeat: true
-			icon: { id: "mekanism:teleportation_core" }
-			id: "EF978396C7F26235"
-			rewards: [{ count: 1, id: "4390ECF747836354", item: { count: 1, id: "mekanism:teleportation_core" }, type: "item" }]
+			icon: {
+				id: "mekanism:teleportation_core"
+			}
+			id: "53CFA55A46EB55DC"
+			rewards: [{
+				id: "4390ECF747836354"
+				item: {
+					count: 1
+					id: "mekanism:teleportation_core"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 4L, id: "C3549A08D4AD42A1", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "05A480C0F21B2181"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: 1.15d
 			y: 21.75d
 		}
 		{
 			can_repeat: true
-			icon: { id: "mekanism:electrolytic_core" }
-			id: "CDF50AA23E8475BD"
-			rewards: [{ count: 2, id: "AB5464757B7036A3", item: { count: 1, id: "mekanism:electrolytic_core" }, type: "item" }]
+			icon: {
+				id: "mekanism:electrolytic_core"
+			}
+			id: "6689781106C54A61"
+			rewards: [{
+				count: 2
+				id: "6ACF0535217E24E8"
+				item: {
+					count: 1
+					id: "mekanism:electrolytic_core"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "E9C431073F7F37A3", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "5F8F3BD763DC3F7D"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: 2.3d
 			y: 21.75d
 		}
 		{
 			can_repeat: true
-			icon: { id: "mekanism:energy_tablet" }
-			id: "FBA4F4E5716177EA"
-			rewards: [{ count: 1, id: "AE2F2C4DB5647944", item: { count: 1, id: "mekanism:energy_tablet" }, type: "item" }]
+			icon: {
+				id: "mekanism:energy_tablet"
+			}
+			id: "24727C6262F58D4D"
+			rewards: [{
+				id: "3838B4CEFB168205"
+				item: {
+					count: 1
+					id: "mekanism:energy_tablet"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 3L, id: "90B392B50D0CC55D", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "24CD8CD0A231D351"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: 3.45d
 			y: 21.75d
 		}
 		{
 			can_repeat: true
-			icon: { id: "ars_nouveau:source_gem" }
-			id: "8AB974DFAC41DDCC"
-			rewards: [{ count: 8, id: "46D15B3A6DCE8143", item: { count: 1, id: "ars_nouveau:source_gem" }, type: "item" }]
+			icon: {
+				id: "ars_nouveau:source_gem"
+			}
+			id: "7AF368E32575F74D"
+			rewards: [{
+				count: 8
+				id: "46D15B3A6DCE8143"
+				item: {
+					count: 1
+					id: "ars_nouveau:source_gem"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "FAE56F6B137B893B", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "19283C69BCD80E8A"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: 4.6d
 			y: 21.75d
 		}
 		{
 			can_repeat: true
-			icon: { id: "ars_nouveau:source_gem_block" }
-			id: "91571D8497FDE040"
-			rewards: [{ count: 2, id: "F8202C12D835B77F", item: { count: 1, id: "ars_nouveau:source_gem_block" }, type: "item" }]
+			icon: {
+				id: "ars_nouveau:source_gem_block"
+			}
+			id: "49989F0B75DE9BC3"
+			rewards: [{
+				count: 2
+				id: "2C69A923D6877A8D"
+				item: {
+					count: 1
+					id: "ars_nouveau:source_gem_block"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "4E3FB3B4AC71E4D1", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "4E3FB3B4AC71E4D1"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: -4.6d
 			y: 22.9d
 		}
 		{
 			can_repeat: true
-			icon: { id: "ars_nouveau:wilden_horn" }
+			icon: {
+				id: "ars_nouveau:wilden_horn"
+			}
 			id: "6181083C050F64EC"
-			rewards: [{ count: 1, id: "287F0A4D4AFFFBCB", item: { count: 1, id: "ars_nouveau:wilden_horn" }, type: "item" }]
+			rewards: [{
+				id: "287F0A4D4AFFFBCB"
+				item: {
+					count: 1
+					id: "ars_nouveau:wilden_horn"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 3L, id: "8B112110ABFD92CB", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "7F6BAB91E1C27F66"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: -3.45d
 			y: 22.9d
 		}
 		{
 			can_repeat: true
-			icon: { id: "ars_nouveau:wilden_spike" }
-			id: "8D1305E3A155FA59"
-			rewards: [{ count: 4, id: "1071AF40957A4672", item: { count: 1, id: "ars_nouveau:wilden_spike" }, type: "item" }]
+			icon: {
+				id: "ars_nouveau:wilden_spike"
+			}
+			id: "33B71388EF49FC6E"
+			rewards: [{
+				count: 4
+				id: "1071AF40957A4672"
+				item: {
+					count: 1
+					id: "ars_nouveau:wilden_spike"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "E104A03D2BA12E33", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "25AC85F11FF83C24"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: -2.3d
 			y: 22.9d
 		}
 		{
 			can_repeat: true
-			icon: { id: "ars_nouveau:starbuncle_shards" }
-			id: "94CA969B036A9990"
-			rewards: [{ count: 8, id: "6DBEF5EF4AF584AC", item: { count: 1, id: "ars_nouveau:starbuncle_shards" }, type: "item" }]
+			icon: {
+				id: "ars_nouveau:starbuncle_shards"
+			}
+			id: "1C36AE8442AFF242"
+			rewards: [{
+				count: 8
+				id: "6DBEF5EF4AF584AC"
+				item: {
+					count: 1
+					id: "ars_nouveau:starbuncle_shards"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "B74BA903AEC88B41", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "324DC9A8699C9E1B"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: -1.15d
 			y: 22.9d
 		}
 		{
 			can_repeat: true
-			icon: { id: "ars_nouveau:magic_clay" }
+			icon: {
+				components: {
+					"ftbquests:missing_item": "ars_nouveau:magic_clay"
+				}
+				id: "ftbquests:missing_item"
+			}
 			id: "3FE68C15E40E243B"
-			rewards: [{ count: 8, id: "FA981C6A7F6762DB", item: { count: 1, id: "ars_nouveau:magic_clay" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "0FE9C4FD113939A3"
+				item: {
+					components: {
+						"ftbquests:missing_item": "ars_nouveau:magic_clay"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "DF460E62B8AFCE6A", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "6B18AB51A210ACD8"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 22.9d
 		}
 		{
 			can_repeat: true
-			icon: { id: "irons_spellbooks:arcane_essence" }
-			id: "A060FFFD42BED817"
-			rewards: [{ count: 8, id: "05A07BE9EC74AF69", item: { count: 1, id: "irons_spellbooks:arcane_essence" }, type: "item" }]
+			icon: {
+				id: "irons_spellbooks:arcane_essence"
+			}
+			id: "0EAAE1AA5F59A597"
+			rewards: [{
+				count: 8
+				id: "05A07BE9EC74AF69"
+				item: {
+					count: 1
+					id: "irons_spellbooks:arcane_essence"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "E17F6C8532637323", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "48BC824912D7949A"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: 1.15d
 			y: 22.9d
 		}
 		{
 			can_repeat: true
-			icon: { id: "irons_spellbooks:lightning_bottle" }
+			icon: {
+				id: "irons_spellbooks:lightning_bottle"
+			}
 			id: "1608AB3CFDD81E89"
-			rewards: [{ count: 4, id: "87E52442C3BE6A49", item: { count: 1, id: "irons_spellbooks:lightning_bottle" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "66AA33AB8BE7B7A9"
+				item: {
+					count: 1
+					id: "irons_spellbooks:lightning_bottle"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "4EA5C152C4715080", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "4EA5C152C4715080"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: 2.3d
 			y: 22.9d
 		}
 		{
 			can_repeat: true
-			icon: { id: "irons_spellbooks:blank_rune" }
+			icon: {
+				id: "irons_spellbooks:blank_rune"
+			}
 			id: "273EFDCE6DF636AB"
-			rewards: [{ count: 4, id: "B3D12976231905A3", item: { count: 1, id: "irons_spellbooks:blank_rune" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "70C26C7214682B1E"
+				item: {
+					count: 1
+					id: "irons_spellbooks:blank_rune"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "E34F7DA3AFB0383F", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "64597C930983736F"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: 3.45d
 			y: 22.9d
 		}
 		{
 			can_repeat: true
-			icon: { id: "irons_spellbooks:scroll" }
+			icon: {
+				id: "irons_spellbooks:scroll"
+			}
 			id: "3DEF8F54B60269F9"
-			rewards: [{ count: 4, id: "2C9876F276F1025D", item: { count: 1, id: "irons_spellbooks:scroll" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "2C9876F276F1025D"
+				item: {
+					count: 1
+					id: "irons_spellbooks:scroll"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "890D96E01ECBEA81", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "4CBE802C8F2A8C0E"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: 4.6d
 			y: 22.9d
 		}
 		{
 			can_repeat: true
-			icon: { id: "occultism:spirit_attuned_gem" }
+			icon: {
+				id: "occultism:spirit_attuned_gem"
+			}
 			id: "345A55C037B25968"
-			rewards: [{ count: 2, id: "61AA855A766F20D7", item: { count: 1, id: "occultism:spirit_attuned_gem" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "61AA855A766F20D7"
+				item: {
+					count: 1
+					id: "occultism:spirit_attuned_gem"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "C9DA185A3E8A22A6", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "00F9954722F0AFFA"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: -4.6d
 			y: 24.05d
 		}
 		{
 			can_repeat: true
-			icon: { id: "twilightforest:fiery_ingot" }
-			id: "F119AB7DAF2A5A8F"
-			rewards: [{ count: 2, id: "F06C28A0F8F4B398", item: { count: 1, id: "twilightforest:fiery_ingot" }, type: "item" }]
+			icon: {
+				id: "twilightforest:fiery_ingot"
+			}
+			id: "2EC73987D90F6CA2"
+			rewards: [{
+				count: 2
+				id: "4179EFD48224D458"
+				item: {
+					count: 1
+					id: "twilightforest:fiery_ingot"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "777FF482BBFD792E", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "777FF482BBFD792E"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: -3.45d
 			y: 24.05d
 		}
 		{
 			can_repeat: true
-			icon: { id: "twilightforest:naga_scale" }
-			id: "C4425F7960A7613A"
-			rewards: [{ count: 4, id: "32DBB7FE265E19F9", item: { count: 1, id: "twilightforest:naga_scale" }, type: "item" }]
+			icon: {
+				id: "twilightforest:naga_scale"
+			}
+			id: "639D9C889913AF22"
+			rewards: [{
+				count: 4
+				id: "32DBB7FE265E19F9"
+				item: {
+					count: 1
+					id: "twilightforest:naga_scale"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "36AF04F9CB854DA0", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "36AF04F9CB854DA0"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: -2.3d
 			y: 24.05d
 		}
 		{
 			can_repeat: true
-			icon: { id: "twilightforest:armor_shard_cluster" }
+			icon: {
+				id: "twilightforest:armor_shard_cluster"
+			}
 			id: "3EE929916DE77404"
-			rewards: [{ count: 2, id: "56ED5D44CD054571", item: { count: 1, id: "twilightforest:armor_shard_cluster" }, type: "item" }]
+			rewards: [{
+				count: 2
+				id: "56ED5D44CD054571"
+				item: {
+					count: 1
+					id: "twilightforest:armor_shard_cluster"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "16DD65D45E122DF3", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "16DD65D45E122DF3"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: -1.15d
 			y: 24.05d
 		}
 		{
 			can_repeat: true
-			icon: { id: "aether:enchanted_gravitite" }
+			icon: {
+				id: "aether:enchanted_gravitite"
+			}
 			id: "4C2269175DD67B20"
-			rewards: [{ count: 4, id: "A0E1B31ED0672077", item: { count: 1, id: "aether:enchanted_gravitite" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "09F4E9E4F4651415"
+				item: {
+					count: 1
+					id: "aether:enchanted_gravitite"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "1E195D7F561BC795", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "1E195D7F561BC795"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 24.05d
 		}
 		{
 			can_repeat: true
-			icon: { id: "aether:valkyrie_lance" }
+			icon: {
+				id: "aether:valkyrie_lance"
+			}
 			id: "56380D18C20321F9"
-			rewards: [{ count: 1, id: "4ADC07D64C604F42", item: { count: 1, id: "aether:valkyrie_lance" }, type: "item" }]
+			rewards: [{
+				id: "4ADC07D64C604F42"
+				item: {
+					count: 1
+					id: "aether:valkyrie_lance"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "B4E7DA17D4A80788", item: { count: 1, id: "numismatics:crown" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "51DFB9A7175FF453"
+				item: { count: 1, id: "numismatics:crown" }
+				type: "item"
+			}]
 			x: 1.15d
 			y: 24.05d
 		}
 		{
 			can_repeat: true
-			icon: { id: "create:precision_mechanism" }
-			id: "A5B8AB07F7EA5F41"
-			rewards: [{ count: 4, id: "064C1551DCB8489C", item: { count: 1, id: "create:precision_mechanism" }, type: "item" }]
+			icon: {
+				id: "create:precision_mechanism"
+			}
+			id: "6C4B52B7859B3854"
+			rewards: [{
+				count: 4
+				id: "064C1551DCB8489C"
+				item: {
+					count: 1
+					id: "create:precision_mechanism"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "885E1F10A491AFED", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "301F944AF694FD54"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: 2.3d
 			y: 24.05d
 		}
 		{
 			can_repeat: true
-			icon: { id: "create:electron_tube" }
-			id: "FBEBAB0FD20734C1"
-			rewards: [{ count: 8, id: "60EA0DDDA3E610E5", item: { count: 1, id: "create:electron_tube" }, type: "item" }]
+			icon: {
+				id: "create:electron_tube"
+			}
+			id: "7442D14F3B16B4A0"
+			rewards: [{
+				count: 8
+				id: "60EA0DDDA3E610E5"
+				item: {
+					count: 1
+					id: "create:electron_tube"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "51ECB7D4F2BFC767", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "51ECB7D4F2BFC767"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: 3.45d
 			y: 24.05d
 		}
 		{
 			can_repeat: true
-			icon: { id: "create:refined_radiance" }
-			id: "890F2C7AA40656E4"
-			rewards: [{ count: 2, id: "CE1CB667DABDF031", item: { count: 1, id: "create:refined_radiance" }, type: "item" }]
+			icon: {
+				id: "create:refined_radiance"
+			}
+			id: "62524B0FCE3D018A"
+			rewards: [{
+				count: 2
+				id: "50F315870DE89734"
+				item: {
+					count: 1
+					id: "create:refined_radiance"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "BA16C36ED2C80E78", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "1E5F5BCD5A96BB99"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: 4.6d
 			y: 24.05d
 		}
 		{
 			can_repeat: true
-			icon: { id: "create:shadow_steel" }
-			id: "A1FB60D92FE5E007"
-			rewards: [{ count: 2, id: "44181B39E2AA57B4", item: { count: 1, id: "create:shadow_steel" }, type: "item" }]
+			icon: {
+				id: "create:shadow_steel"
+			}
+			id: "2ADE95B74813DA6B"
+			rewards: [{
+				count: 2
+				id: "44181B39E2AA57B4"
+				item: {
+					count: 1
+					id: "create:shadow_steel"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "8B7EAF582796CE18", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "3C330577F5700BB1"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: -4.6d
 			y: 25.2d
 		}
 		{
 			can_repeat: true
-			icon: { id: "apotheosis:common_material" }
+			icon: {
+				id: "apotheosis:common_material"
+			}
 			id: "6CCE1495B3F275B6"
-			rewards: [{ count: 8, id: "3C99DEADE96D3557", item: { count: 1, id: "apotheosis:common_material" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "3C99DEADE96D3557"
+				item: {
+					count: 1
+					id: "apotheosis:common_material"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "72D755381DA7C45F", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "72D755381DA7C45F"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: -3.45d
 			y: 25.2d
 		}
 		{
 			can_repeat: true
-			icon: { id: "apotheosis:uncommon_material" }
+			icon: {
+				id: "apotheosis:uncommon_material"
+			}
 			id: "7F5F347AD02465FF"
-			rewards: [{ count: 4, id: "6C8ED250E7D55A13", item: { count: 1, id: "apotheosis:uncommon_material" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "6C8ED250E7D55A13"
+				item: {
+					count: 1
+					id: "apotheosis:uncommon_material"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "15C2728BCC50DCD9", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "15C2728BCC50DCD9"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: -2.3d
 			y: 25.2d
 		}
 		{
 			can_repeat: true
-			icon: { id: "apotheosis:rare_material" }
-			id: "9D28C7E57C3F5214"
-			rewards: [{ count: 2, id: "47F4F6111211F9FA", item: { count: 1, id: "apotheosis:rare_material" }, type: "item" }]
+			icon: {
+				id: "apotheosis:rare_material"
+			}
+			id: "624CDC72A7CC5B39"
+			rewards: [{
+				count: 2
+				id: "47F4F6111211F9FA"
+				item: {
+					count: 1
+					id: "apotheosis:rare_material"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "4BE31307AF18F178", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "4BE31307AF18F178"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: -1.15d
 			y: 25.2d
 		}
 		{
 			can_repeat: true
-			icon: { id: "apotheosis:epic_material" }
+			icon: {
+				id: "apotheosis:epic_material"
+			}
 			id: "71DD059C8880BB54"
-			rewards: [{ count: 1, id: "A958C7E0D4F7D548", item: { count: 1, id: "apotheosis:epic_material" }, type: "item" }]
+			rewards: [{
+				id: "57DF3DBDF9D74CC4"
+				item: {
+					count: 1
+					id: "apotheosis:epic_material"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 3L, id: "600EFD7A6830AF19", item: { count: 1, id: "numismatics:cog" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "600EFD7A6830AF19"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 25.2d
 		}
 		{
 			can_repeat: true
-			icon: { id: "apotheosis:mythic_material" }
-			id: "A057AE76F59664ED"
-			rewards: [{ count: 1, id: "36512BC4F7C768E6", item: { count: 1, id: "apotheosis:mythic_material" }, type: "item" }]
+			icon: {
+				id: "apotheosis:mythic_material"
+			}
+			id: "30C699D9A2775E87"
+			rewards: [{
+				id: "36512BC4F7C768E6"
+				item: {
+					count: 1
+					id: "apotheosis:mythic_material"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "D5E6DD1DA3A888C5", item: { count: 1, id: "numismatics:crown" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "728722CB89C2A3CC"
+				item: { count: 1, id: "numismatics:crown" }
+				type: "item"
+			}]
 			x: 1.15d
 			y: 25.2d
 		}
 		{
 			can_repeat: true
-			icon: { id: "apotheosis:gem_dust" }
-			id: "F3B24D5C1C704509"
-			rewards: [{ count: 8, id: "07C313640C083EA8", item: { count: 1, id: "apotheosis:gem_dust" }, type: "item" }]
+			icon: {
+				id: "apotheosis:gem_dust"
+			}
+			id: "51317F26C8E3C94A"
+			rewards: [{
+				count: 8
+				id: "07C313640C083EA8"
+				item: {
+					count: 1
+					id: "apotheosis:gem_dust"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "EB68DCF37659E5F7", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "7952BC13CF2616C3"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: 2.3d
 			y: 25.2d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:experience_bottle" }
+			icon: {
+				id: "minecraft:experience_bottle"
+			}
 			id: "0DCF64F682992A01"
-			rewards: [{ count: 16, id: "6EC0A3D6B8FD0793", item: { count: 1, id: "minecraft:experience_bottle" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "6EC0A3D6B8FD0793"
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "381860D49275326F", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "381860D49275326F"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: 3.45d
 			y: 25.2d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:tnt" }
+			icon: {
+				id: "minecraft:tnt"
+			}
 			id: "65C8DA75D71B49F6"
-			rewards: [{ count: 8, id: "E17CB5102EB9B3A8", item: { count: 1, id: "minecraft:tnt" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "3D46DCC3A8B454D5"
+				item: {
+					count: 1
+					id: "minecraft:tnt"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 4L, id: "287A61DE32D34F8E", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "287A61DE32D34F8E"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: 4.6d
 			y: 25.2d
 		}
 		{
-			icon: { id: "minecraft:golden_apple" }
+			icon: {
+				id: "minecraft:golden_apple"
+			}
 			id: "64D4D680DE357B0E"
 			size: 1.4d
-			tasks: [{ id: "84F663EE6176C420", type: "checkmark" }]
+			tasks: [{
+				id: "521E668E1FA9E50F"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 28.55d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:golden_apple" }
+			icon: {
+				id: "minecraft:golden_apple"
+			}
 			id: "4FB4741842E7B962"
-			rewards: [{ count: 4, id: "669EC7EC05553C02", item: { count: 1, id: "minecraft:golden_apple" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "669EC7EC05553C02"
+				item: {
+					count: 1
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "862533331F53E4E8", item: { count: 1, id: "numismatics:sprocket" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "6BFEC9A92E66F3D7"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
 			x: -4.6d
 			y: 30.15d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:golden_carrot" }
+			icon: {
+				id: "minecraft:golden_carrot"
+			}
 			id: "2B6C89083A53592C"
-			rewards: [{ count: 16, id: "652B9C055F6BE692", item: { count: 1, id: "minecraft:golden_carrot" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "652B9C055F6BE692"
+				item: {
+					count: 1
+					id: "minecraft:golden_carrot"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 4L, id: "F09C7079978A1ABF", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "51024097AF692EC5"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: -3.45d
 			y: 30.15d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:cooked_beef" }
-			id: "F9E80549413A8FB6"
-			rewards: [{ count: 16, id: "CE99DED5B0F291E0", item: { count: 1, id: "minecraft:cooked_beef" }, type: "item" }]
+			icon: {
+				id: "minecraft:cooked_beef"
+			}
+			id: "748D45A1AF617424"
+			rewards: [{
+				count: 16
+				id: "7AE448E425C6F58A"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "FCC88D0B17EEEC2B", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "2DA4A6AF15048DE0"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: -2.3d
 			y: 30.15d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:cake" }
+			icon: {
+				id: "minecraft:cake"
+			}
 			id: "6EB63A992F73F762"
-			rewards: [{ count: 4, id: "EF9CF1D5D967C284", item: { count: 1, id: "minecraft:cake" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "6841E66210F42618"
+				item: {
+					count: 1
+					id: "minecraft:cake"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 4L, id: "EEB55C5454832EBC", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "610302540B9A38B8"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: -1.15d
 			y: 30.15d
 		}
 		{
 			can_repeat: true
-			icon: { id: "minecraft:pumpkin_pie" }
-			id: "D55ABCEE693F23CF"
-			rewards: [{ count: 8, id: "9BA4FAC3401D676B", item: { count: 1, id: "minecraft:pumpkin_pie" }, type: "item" }]
+			icon: {
+				id: "minecraft:pumpkin_pie"
+			}
+			id: "29211BBAFA5C5043"
+			rewards: [{
+				count: 8
+				id: "02D59BDE61D045D5"
+				item: {
+					count: 1
+					id: "minecraft:pumpkin_pie"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 3L, id: "45DBC62A45FC6BDA", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "45DBC62A45FC6BDA"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 30.15d
 		}
 		{
 			can_repeat: true
-			icon: { id: "farmersdelight:rice" }
+			icon: {
+				id: "farmersdelight:rice"
+			}
 			id: "1BA0B03882029DD7"
-			rewards: [{ count: 16, id: "AB5B2CF79CEE2D8F", item: { count: 1, id: "farmersdelight:rice" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "2B73A5C5ED1BA9F1"
+				item: {
+					count: 1
+					id: "farmersdelight:rice"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "023097C93E9AC080", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "023097C93E9AC080"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: 1.15d
 			y: 30.15d
 		}
 		{
 			can_repeat: true
-			icon: { id: "farmersdelight:tomato" }
-			id: "C780F5F5F82C48A9"
-			rewards: [{ count: 16, id: "4BC466E7C45F8371", item: { count: 1, id: "farmersdelight:tomato" }, type: "item" }]
+			icon: {
+				id: "farmersdelight:tomato"
+			}
+			id: "506A4BDFC046BAFF"
+			rewards: [{
+				count: 16
+				id: "4BC466E7C45F8371"
+				item: {
+					count: 1
+					id: "farmersdelight:tomato"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "0FAD3121A3181F07", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "0FAD3121A3181F07"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: 2.3d
 			y: 30.15d
 		}
 		{
 			can_repeat: true
-			icon: { id: "farmersdelight:cabbage" }
-			id: "B8485D8541188FB8"
-			rewards: [{ count: 16, id: "D7EDF5C3F01F3F18", item: { count: 1, id: "farmersdelight:cabbage" }, type: "item" }]
+			icon: {
+				id: "farmersdelight:cabbage"
+			}
+			id: "3E74E09447297A05"
+			rewards: [{
+				count: 16
+				id: "02A72927D2578FB8"
+				item: {
+					count: 1
+					id: "farmersdelight:cabbage"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "A6C3250214316001", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "4E6C886F967AB2E8"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: 3.45d
 			y: 30.15d
 		}
 		{
 			can_repeat: true
-			icon: { id: "farmersdelight:onion" }
+			icon: {
+				id: "farmersdelight:onion"
+			}
 			id: "3B1A74162DCA4F9B"
-			rewards: [{ count: 16, id: "518614DD580E4218", item: { count: 1, id: "farmersdelight:onion" }, type: "item" }]
+			rewards: [{
+				count: 16
+				id: "518614DD580E4218"
+				item: {
+					count: 1
+					id: "farmersdelight:onion"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 1L, id: "CCE4B61CB46D0788", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				id: "58E2C75E6E131623"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: 4.6d
 			y: 30.15d
 		}
 		{
 			can_repeat: true
-			icon: { id: "farmersdelight:ham" }
+			icon: {
+				id: "farmersdelight:ham"
+			}
 			id: "2888C38734A10B24"
-			rewards: [{ count: 8, id: "0428E709D3F86DB2", item: { count: 1, id: "farmersdelight:ham" }, type: "item" }]
+			rewards: [{
+				count: 8
+				id: "0428E709D3F86DB2"
+				item: {
+					count: 1
+					id: "farmersdelight:ham"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 3L, id: "3091CD8B59243ED5", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "3091CD8B59243ED5"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: -4.6d
 			y: 31.3d
 		}
 		{
 			can_repeat: true
-			icon: { id: "farmersdelight:cooked_rice" }
-			id: "EC1557983C9B8B16"
-			rewards: [{ count: 8, id: "1440542C5BD3054D", item: { count: 1, id: "farmersdelight:cooked_rice" }, type: "item" }]
+			icon: {
+				id: "farmersdelight:cooked_rice"
+			}
+			id: "2EC4A6255502EC03"
+			rewards: [{
+				count: 8
+				id: "1440542C5BD3054D"
+				item: {
+					count: 1
+					id: "farmersdelight:cooked_rice"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "72021165531A0059", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "72021165531A0059"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: -3.45d
 			y: 31.3d
 		}
 		{
 			can_repeat: true
-			icon: { id: "farmersdelight:hamburger" }
-			id: "8D1F3F191E84D448"
-			rewards: [{ count: 4, id: "6AE9F1D29E5D4BE8", item: { count: 1, id: "farmersdelight:hamburger" }, type: "item" }]
+			icon: {
+				id: "farmersdelight:hamburger"
+			}
+			id: "6707DEB93752443A"
+			rewards: [{
+				count: 4
+				id: "6AE9F1D29E5D4BE8"
+				item: {
+					count: 1
+					id: "farmersdelight:hamburger"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 4L, id: "BF4C782C0C2A26F4", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "44E669699637C9A0"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: -2.3d
 			y: 31.3d
 		}
 		{
 			can_repeat: true
-			icon: { id: "aether:skyroot_bucket" }
+			icon: {
+				id: "aether:skyroot_bucket"
+			}
 			id: "3D5404EE87B31493"
-			rewards: [{ count: 4, id: "B0358C7AD14DD3BB", item: { count: 1, id: "aether:skyroot_bucket" }, type: "item" }]
+			rewards: [{
+				count: 4
+				id: "539B1C5984C49369"
+				item: {
+					count: 1
+					id: "aether:skyroot_bucket"
+				}
+				type: "item"
+			}]
 			size: 0.75d
-			tasks: [{ consume_items: true, count: 2L, id: "11E43B143E2146C2", item: { count: 1, id: "numismatics:bevel" }, type: "item" }]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "11E43B143E2146C2"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
 			x: -1.15d
 			y: 31.3d
 		}
 	]
-	title: "&6&lArcadia Market"
 }

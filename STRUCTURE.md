@@ -10,8 +10,8 @@ Master reference of the Arcadia V2 "Echoes Of Power" instance. Everything is ind
 | Minecraft | 1.21.1 |
 | Loader | NeoForge 21.1.232 |
 | Java | 21 (8+ GB RAM recommended) |
-| Manifest | 455 CurseForge entries (442 mods + 13 shaderpacks) |
-| Local jars | 445 active (incl. in-house mods and patched jars) |
+| Manifest | 454 CurseForge entries (441 mods + 13 shaderpacks) |
+| Local jars | 444 active (incl. in-house mods and patched jars) |
 | Target | Community server, 30-50 players, also fully solo-viable |
 | Languages | Docs EN/FR, items in 7 locales, quests in 7 locales |
 | License | Proprietary source-available (see `LICENSE`) |
@@ -21,7 +21,7 @@ Master reference of the Arcadia V2 "Echoes Of Power" instance. Everything is ind
 
 ```
 Arcadia V2/
-├── manifest.json            CurseForge manifest, 455 entries resolved at import
+├── manifest.json            CurseForge manifest, 454 entries resolved at import
 ├── minecraftinstance.json   CurseForge instance metadata (very large, grep only)
 ├── README.md                Bilingual repository documentation
 ├── CURSEFORGE_PAGE.md       HTML source of the CurseForge project page
@@ -32,7 +32,7 @@ Arcadia V2/
 ├── ERROR_LOG.md             Error log with prevention rules
 ├── LICENSE                  Proprietary source-available license
 │
-├── mods/                    445 active .jar + in-house arcadia-* mods
+├── mods/                    444 active .jar + in-house arcadia-* mods
 ├── config/                  ~1,156 files: modpack-shipped configuration
 ├── defaultconfigs/          Full mirror of config/ (new-world & server defaults)
 ├── kubejs/                  ~2,012 files: custom scripting ecosystem
@@ -153,7 +153,7 @@ kubejs/
 ## 8. Distribution & Workflow
 
 - Git: single branch `2.0.X` on `github.com/Team-Arcadia/Arcadia-V2-Client`, auto-commit/push policy, English commits, no version bumps without explicit request.
-- Players install via CurseForge (manifest resolves 455 entries); in-house content ships in `mods/` overrides + `kubejs/` + `config/`.
+- Players install via CurseForge (manifest resolves 454 entries); in-house content ships in `mods/` overrides + `kubejs/` + `config/`.
 - Test world: `saves/TEST`. KubeJS server scripts reload with `/reload`; startup scripts need a full restart.
 - Logs to watch: `logs/latest.log`, `logs/kubejs/{startup,server,client}.log`.
 
@@ -171,7 +171,7 @@ Référence maîtresse de l'instance Arcadia V2 « Echoes Of Power ». Tout est 
 | Minecraft | 1.21.1 |
 | Loader | NeoForge 21.1.232 |
 | Java | 21 (8+ Go RAM recommandés) |
-| Manifest | 455 entrées CurseForge (442 mods + 13 shaderpacks) |
+| Manifest | 454 entrées CurseForge (441 mods + 13 shaderpacks) |
 | Jars locaux | 446 actifs (dont mods maison et jars patchés) |
 | Cible | Serveur communautaire, 30-50 joueurs, jouable en solo |
 | Langues | Docs EN/FR, items en 7 locales, quêtes en 7 locales |
@@ -182,7 +182,7 @@ Référence maîtresse de l'instance Arcadia V2 « Echoes Of Power ». Tout est 
 
 ```
 Arcadia V2/
-├── manifest.json            Manifest CurseForge, 455 entrées résolues à l'import
+├── manifest.json            Manifest CurseForge, 454 entrées résolues à l'import
 ├── minecraftinstance.json   Métadonnées d'instance CurseForge (très volumineux)
 ├── README.md                Documentation bilingue du dépôt
 ├── CURSEFORGE_PAGE.md       Source HTML de la page CurseForge
@@ -193,7 +193,7 @@ Arcadia V2/
 ├── ERROR_LOG.md             Journal d'erreurs avec règles de prévention
 ├── LICENSE                  Licence propriétaire source visible
 │
-├── mods/                    445 .jar actifs + mods maison arcadia-*
+├── mods/                    444 .jar actifs + mods maison arcadia-*
 ├── config/                  ~1 156 fichiers : configuration livrée par le pack
 ├── defaultconfigs/          Miroir complet de config/ (défauts nouveaux mondes/serveur)
 ├── kubejs/                  ~2 012 fichiers : écosystème de scripts custom
@@ -315,6 +315,6 @@ kubejs/
 ## 8. Distribution & Workflow
 
 - Git : branche unique `2.0.X` sur `github.com/Team-Arcadia/Arcadia-V2-Client`, politique d'auto-commit/push, commits en anglais, pas de bump de version sans demande explicite.
-- Les joueurs installent via CurseForge (le manifest résout 455 entrées) ; le contenu maison est livré via les overrides `mods/` + `kubejs/` + `config/`.
+- Les joueurs installent via CurseForge (le manifest résout 454 entrées) ; le contenu maison est livré via les overrides `mods/` + `kubejs/` + `config/`.
 - Monde de test : `saves/TEST`. Scripts serveur KubeJS rechargés avec `/reload` ; scripts startup : redémarrage complet.
 - Logs à surveiller : `logs/latest.log`, `logs/kubejs/{startup,server,client}.log`.

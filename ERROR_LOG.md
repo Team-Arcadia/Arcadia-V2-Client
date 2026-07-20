@@ -42,3 +42,11 @@
 **Root cause:** Chose which duplicate to keep by project officiality/install date instead of checking the version constraints of DEPENDENT mods. The unofficial 1.117.1 port existed precisely because the official project lags behind on 1.21.1.
 **Fix:** Re-downloaded cc-tweaked-1.21.1-forge-1.117.1.jar (project 1527866, file 8005487) from the CurseForge CDN, deleted the 1.113.1 jar, swapped the manifest entry back.
 **Prevention:** Before removing one of two duplicate mods, grep the other jars' dependency ranges (or launch once) to see which version the pack's dependents require. Newest version wins by default, not "most official".
+
+## [2026-07-20] — Sodium Leaf Culling crashes on world join after Sodium 0.8.12 update
+
+**Context:** Game crashed when joining a world (ClientboundLoginPacket -> SodiumWorldRenderer init).
+**Error:** MixinPreProcessorException in mixins.sodiumleafculling.json:BlockRendererMixin — ClassNotFoundException: net.caffeinemc.mods.sodium.client.gui.SodiumGameOptions.
+**Root cause:** Sodium was updated to 0.8.12 during the manifest resync; SodiumGameOptions moved in Sodium 0.8.x. Sodium Leaf Culling 1.0.1 (latest available for NeoForge 1.21.1, April 2025) targets the old class and has no compatible release.
+**Fix:** Removed the sodiumleafculling jar and its manifest entry (project 1089479). Sodium 0.8 handles leaf quality natively.
+**Prevention:** After bulk mod updates, check small Sodium-addon mods (leafculling-style tweaks) against the new Sodium version — they break on internal class moves and are often abandoned.
