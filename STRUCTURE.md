@@ -10,7 +10,7 @@ Arcadia V2/
 ├── minecraftinstance.json   CurseForge instance metadata (very large — grep, don't read whole)
 ├── README.md                Bilingual EN/FR repository documentation
 ├── CURSEFORGE_PAGE.md       HTML source of the CurseForge project page
-├── CHANGELOG.md             Bilingual version history
+├── CHANGELOG.md             Bilingual change history (dated entries)
 ├── STRUCTURE.md             This file
 ├── RULES.md                 Project rules & AI/IDE instructions
 ├── ERROR_LOG.md             Session error log with prevention rules
@@ -91,7 +91,7 @@ Arcadia V2/
 ├── minecraftinstance.json   Métadonnées d'instance CurseForge (très volumineux)
 ├── README.md                Documentation bilingue EN/FR du dépôt
 ├── CURSEFORGE_PAGE.md       Source HTML de la page CurseForge
-├── CHANGELOG.md             Historique des versions bilingue
+├── CHANGELOG.md             Historique des changements bilingue (par date)
 ├── STRUCTURE.md             Ce fichier
 ├── RULES.md                 Règles projet & instructions AI/IDE
 ├── ERROR_LOG.md             Journal d'erreurs avec règles de prévention

@@ -87,7 +87,7 @@ Arcadia V2/
 ├── datapacks/               (empty — all data in kubejs/data/)
 ├── README.md                (bilingual FR/EN)
 ├── STRUCTURE.md             (full structural map, bilingual)
-├── CHANGELOG.md             (bilingual version history)
+├── CHANGELOG.md             (dated bilingual change history)
 ├── minecraftinstance.json   (CurseForge metadata, 1.2M tokens — grep, don't read whole)
 └── RULES.md                 (this file)
 ```

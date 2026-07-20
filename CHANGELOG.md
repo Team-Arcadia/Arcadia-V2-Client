@@ -1,10 +1,10 @@
 # Changelog
 
-All notable changes to Arcadia V2 — Echoes Of Power are documented here.
+All notable changes to Arcadia V2 - Echoes Of Power are documented here, by date.
 
 ---
 
-## [2.0.10] - 2026-07-20
+## 2026-07-20
 
 ### Added
 

@@ -48,7 +48,7 @@ This repo ships only what we author or maintain. Third-party mod jars are resolv
 |------|---------|
 | `manifest.json` | CurseForge modpack manifest (456 entries: 443 mods + 13 shaderpacks) |
 | `STRUCTURE.md` | Full structural map of the instance (bilingual) |
-| `CHANGELOG.md` | Version history (bilingual) |
+| `CHANGELOG.md` | Change history by date (bilingual) |
 | `CREDITS.md` | Team, contributors and thanks (bilingual) |
 | `config/` | Modpack-shipped configurations (overrides upstream defaults) |
 | `defaultconfigs/` | Canonical defaults distributed by DefaultOptions |
@@ -117,7 +117,7 @@ Ce depot ne contient que ce que nous avons ecrit ou maintenons. Les jars de mods
 |--------|------|
 | `manifest.json` | Manifest CurseForge du modpack (456 entrees : 443 mods + 13 shaderpacks) |
 | `STRUCTURE.md` | Carte structurelle complete de l instance (bilingue) |
-| `CHANGELOG.md` | Historique des versions (bilingue) |
+| `CHANGELOG.md` | Historique des changements par date (bilingue) |
 | `CREDITS.md` | Equipe, contributeurs et remerciements (bilingue) |
 | `config/` | Configurations livrees par le modpack (override les defauts amont) |
 | `defaultconfigs/` | Defauts canoniques distribues par DefaultOptions |
