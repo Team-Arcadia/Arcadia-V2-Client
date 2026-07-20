@@ -9,7 +9,7 @@
                           "item":  "simplehats:hatbag_uncommon",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Hatbag Uncommon",
                           "broadcast":  false
@@ -18,7 +18,7 @@
                           "item":  "irons_spellbooks:cinderous_soulcaller",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Cinderous Soulcaller",
                           "broadcast":  false
@@ -27,7 +27,7 @@
                           "item":  "simplehats:udder_hat",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Udder Hat",
                           "broadcast":  false
@@ -36,7 +36,7 @@
                           "item":  "simplehats:axolotl_on_head",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Axolotl On Head",
                           "broadcast":  false
@@ -45,7 +45,7 @@
                           "item":  "selfexpression:jester_helmet",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Jester Helmet",
                           "broadcast":  false
@@ -54,7 +54,7 @@
                           "item":  "selfexpression:autumn_gardener_helmet",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Autumn Gardener Helmet",
                           "broadcast":  false
@@ -63,7 +63,7 @@
                           "item":  "selfexpression:tropic_helmet",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Tropic Helmet",
                           "broadcast":  false
@@ -72,7 +72,7 @@
                           "item":  "simplehats:strawberry_hat",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Strawberry Hat",
                           "broadcast":  false
@@ -81,7 +81,7 @@
                           "item":  "arcadialootbox:event_key_platinum",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  2,
+                          "chance":  0.2,
                           "rarity":  "legendary",
                           "displayName":  "Event Key Platinum",
                           "broadcast":  true
@@ -90,7 +90,7 @@
                           "item":  "waystones:waystone",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Waystone",
                           "broadcast":  false
@@ -99,7 +99,7 @@
                           "item":  "minecraft:player_head[profile={id:[I;2105601372,1487159891,-1353175502,1405457486],name:\"Rebelle123_Storm\",properties:[{name:\"textures\",signature:\"WhQVwS6uBzwsJIYPonPqlhfCOCnXJrI47siOMRgNZYRaXJm+Paboa0KQrs6IEC8DIalIoEisKm2WqD7Zmt2iVMPH0a1upDrvdabYYYYcz/RvPTTWmB/tbyDQ+KuYeqBm9ayyZ5M6LJFSKgGxEuOex39x4UGeMptJgGg0AN0IP3qeA9TXfT6KCErftLOY+Wlkq/bMskF36845Ng7FBsAp1RTgyj7Lk9vxHsNI3RDdgdUkxfy2WdeEO/rZSbjqYNcxlBFeFY7aOiPGDD0HZC6DEEN1mgnOT6BFTCCyo0bZHa+2gNsmhY5my5Q8BPL02AZh2FVCiaZsvkRzv+r8yCtY7u0L6wf+4JeBMimSiqkYHi8VEmZhl5YL1Jot+s3M/e69KV3SUJr2d5DfZh+uVTy9ta0BpditanY2njFnkJb+BDRRj4XSVMmQHeJ9LM38M0lMeusn1yEHF2QgleimY1fNSjuvul7lh8586GbiSZP/xKLN0A6S3e/aHnE+0HEiVUIX8O4DcS0edWKgitr7ZN6J2rINwcbgfXNDL9+fU713Mbk9Mcvl4x2JQ0ZPC4c9oq3mdGp8w2CAZQhl4N9wNsv4BJ+YwJd8IR9DdUIywMI0QHHneNZeTyK9ttqILykkOnF/vND4bWT2JuiUTKhXK0VW6AGqFQvaQMHAPdpT4PW+LvI=\",value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4MjY2Mzk3OTQxNywKICAicHJvZmlsZUlkIiA6ICI3ZDgwZWQ1YzU4YTQ0MjUzYWY1ODJlMzI1M2M1OTQ0ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWJlbGxlMTIzX1N0b3JtIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2IzZTNmNWM4ZDNiZjA1Mzg4OTM5ODRmNTAxZTFkOGE1OTMyYjgwOGZkN2M2NzAxMDAwMjk5NjFkNjI1MDFmZmYiCiAgICB9CiAgfQp9\"}]}]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Player Head - Rebelle123_Storm",
                           "broadcast":  false
@@ -108,7 +108,7 @@
                           "item":  "minecraft:player_head[profile={id:[I;-1302950754,1745702678,-1460087806,-131603415],name:\"Darkdiamons\",properties:[{name:\"textures\",signature:\"plUg5Vm1LRty66ILBOt1TMklGwqyRwZceNtbVAEOJ59egbei0Kwaacq6AvvhY1aEkZWU2kelZtc4IXmwouYXzqCMw75bwqxffobPCfb6r04A4SjIh1tqHJX7UmZBRLtCsbvi3boYcnP3PBycTeSHEBDEBnWxnMHeKZ0++agvEPr97UZ+AhtIFxuSchn7stJXSzJVdffw+LkX9oNuNjCUiqzOShLbUmm4/12J/y1gJ1TKbcWUyfTdUmKE3gzpHAxxJdfVLEaYhovnp1a4UfqkVTO8eBF6XvGDWA2lXuA1/Qv+B08hP7bpkYzncqU9rbgtCo5ipct+S9abW8HYheGygRFIa32Wkndga210oua1fWVbeUQAJcmk8NpJZUCX2tSFBoMJaDJtVS5Li7Gk/OgxaXE4DaVDDVSxB9NbSgsIHMEYe858O7/Im7/Av6PkIuU0kiZ32bqhJcJrYHp1tEqZLvXARRO5s7teksZi/90MbzQ/E7mI3UmGoHF6+L36A+LPHB5orgzO1h7dkCJSKaACsULjVLl0ok5t11O495vhqpV6mXRFZmG/UJgqGa3qWbvk0p9SArh2obDRDoFajJBGG8umfNUHP/otsx92Ez89mIBbd8BBy9TLOV1UKhIGBxuv+qiIDHoodfTQVTf2z6hsUI5ae30FouR0np6a4jkuFWI=\",value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4MjY2NDA1MzQyMywKICAicHJvZmlsZUlkIiA6ICJiMjU2OGM5ZTY4MGQ0ZjE2YThmOGQ0MDJmODI3ZTQyOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYXJrZGlhbW9ucyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xMmNjN2FkMTQ5NDVlMTQxMGI5MDQwM2JmNTU4MTQ4OWZjMWQ2NjU2MmE2ZTE2ZDg3YjBmYTQ1MmYxNTMxMzhiIgogICAgfQogIH0KfQ==\"}]}]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Player Head - Darkdiamons",
                           "broadcast":  false
@@ -117,7 +117,7 @@
                           "item":  "minecraft:player_head[profile={id:[I;56893835,914967420,-1567540659,166954635],name:\"loldragman45\",properties:[{name:\"textures\",signature:\"OBsDjRMXY15mWszz81aozynhkSaTZwphN3tw+yAp3ynqcyA+oUUX6XZYDO3yYE/X3UW7CMYYEEHG9fhFFkIPa3WBk/d2wzq9o3aKZnLqr1Kivt0O8qxAMGyyDZ5u2QO8v3XgYahxKAYbHZCoLxypj+VQkzjn8kSaR/ORhG/k7xUcAkJTPbYLwdPHu6cx5jqc5yd6bXyNeD7C2PdqjaUBCGNbGqszVfrh8BQbx8yxdSG5fICuh/R4JshDXwCRcJ1tw04ea2W4uqkIYfI3CObt5KYo8hrqplFxzGK3f5QymBhP2URvn4hajz+sLLitn+ot/Y1fnSAZcNQ8VUCzz8K85ySZ50sHKXwnmgvDGQrWrJg/RTNOqHgLhLOx9RvA+b4e1N5mOkPxN5UnN88kGv8D9XwjaLlth6HSgkv/RgV1u7ppYOpUmA77y6ZTBiEc/GCNlrSfpMSA2ks8YGoL0dDCqlCXlD82dQJ+7wviw1YtOJ5q0Qk90z8S6dd8wYn6IhH9kjVt9bdlOqdPuHlBnWAusGrT+MKZTO6zj9cMMKEFWkBl0wuSUpxLvxmm4h+7kqvrU8qOEyiAjV0RQqLurY+I16ZhTf99azN+zOBaK/eDLScjUHcPJ7ksGoPjSeOcQ+EuLmJlCTy8rriwmaxfPFraTBU1EesTXO7ytCoFRXBp9gM=\",value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4MjY2NDAwNzE3MSwKICAicHJvZmlsZUlkIiA6ICIwMzY0MjE4YjM2ODk0YjdjYTI5MTNhNGQwOWYzODY4YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJsb2xkcmFnbWFuNDUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVkZGRiNDFkY2FmZWY2MTZlOTU5YzI4MTc4MDhlMGJlNzQxYzg5ZmZiZmVkMzkxMzRhMTNlNzViODExODYzZCIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjhkZTRhODE2ODhhZDE4YjQ5ZTczNWEyNzNlMDg2YzE4ZjFlMzk2Njk1NjEyM2NjYjU3NDAzNGMwNmY1ZDMzNiIKICAgIH0KICB9Cn0=\"}]}]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Player Head - loldragman45",
                           "broadcast":  false
@@ -126,7 +126,7 @@
                           "item":  "minecraft:player_head[profile={id:[I;507091977,2014528211,-1258200465,-762777927],name:\"Lunaria02\",properties:[{name:\"textures\",signature:\"HqGWh74Q0ev9GhzTHAtFSuy39tITEJ2FN0tHFOLOgbUOkNfIswowFmPNiLO31MdR6ACNdLwCC88FxNVSPGXIWvfok0iwqyxPCQGCSVxpsOXVaki0TyKypLNtApbjSbWnYr4m7OBXu1mAaPkyRqNY8EpG+1moBxdqKh6r3fAiRi5hWJQGSRedIxgcnBV4sNarcFC0Qg0LZKHHa0wrK5q/cv+fF9LgOO//hcZBkshgUDsU+R3G90Vckds8qMIhfHMVtrNtVw3zL85Qd6S32HvNTT9/CZehT+ksKjXx7W8Nh328Dr7I6VVI6nE09mtWrxMLV9altWKVg7XN6sRUh/GKsVJnQkmDN3lFpf5I41TmyWE1FuCgjBX8Z0rakJMBS5+H6Npl8IGsoJ1sIWlD/adWjDl1exnyCf1qtBIXGujo2tShwtFUba7SdTxKdTPNDqPwjTFpo7gLkryH/IxtYDK8MzVvsBGGBEcJWfM7EeZYKYc1ER+lUFkOHsg1Xm9ZPcVKo4Q2CaSwnxEmpTDkFOzhsUybBOtUt6qKgyv4RrHMjfEV+Cr+sI4nfK8nAXGREUPaLasdNneJyxk22zvHiFHHKayTqzXB0VDQ+J8cSr4VbpLc28UHDxrFl9OMCcQEE2mWpaVzlKmtJ+AOZ0XCxEZH1pLfekvZSyHXTLX0g3I+eKU=\",value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4MjY2MzQ1MTAzOCwKICAicHJvZmlsZUlkIiA6ICIxZTM5OWMwOTc4MTM0MmQzYjUwMTYyNmZkMjg4ZWViOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJMdW5hcmlhMDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWVhZTU3NzRjMDY3NmJmNDY1MTFlMDIyODJkMmZhNWE0ZDAxMDNlNzE1MTU4NjEzOTllODc1ZjdiMjkzMjYxZSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]}]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Player Head - Lunaria02",
                           "broadcast":  false
@@ -135,7 +135,7 @@
                           "item":  "comforts:sleeping_bag_white",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Sleeping Bag White",
                           "broadcast":  false
@@ -144,7 +144,7 @@
                           "item":  "minecraft:potion[potion_contents={potion:\"apothic_attributes:extra_long_flying\"}]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Potion",
                           "broadcast":  false
@@ -153,7 +153,7 @@
                           "item":  "createoreexcavation:drill",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Drill",
                           "broadcast":  false
@@ -162,7 +162,7 @@
                           "item":  "apothic_enchanting:extraction_tome",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Extraction Tome",
                           "broadcast":  false
@@ -171,7 +171,7 @@
                           "item":  "waterframes:big_tv",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Big Tv",
                           "broadcast":  false
@@ -180,7 +180,7 @@
                           "item":  "irons_spellbooks:frostward_ring",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Frostward Ring",
                           "broadcast":  false
@@ -189,7 +189,7 @@
                           "item":  "simplyswords:iron_scythe",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Iron Scythe",
                           "broadcast":  false
@@ -198,7 +198,7 @@
                           "item":  "simplyswords:iron_chakram",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Iron Chakram",
                           "broadcast":  false
@@ -207,7 +207,7 @@
                           "item":  "simplyswords:iron_greataxe",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Iron Greataxe",
                           "broadcast":  false
@@ -216,7 +216,7 @@
                           "item":  "simplyswords:iron_greathammer",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Iron Greathammer",
                           "broadcast":  false
@@ -225,7 +225,7 @@
                           "item":  "simplyswords:iron_claymore",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Iron Claymore",
                           "broadcast":  false
@@ -234,7 +234,7 @@
                           "item":  "simplyswords:iron_cutlass",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Iron Cutlass",
                           "broadcast":  false
@@ -243,7 +243,7 @@
                           "item":  "simplyswords:iron_warglaive",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Iron Warglaive",
                           "broadcast":  false
@@ -252,7 +252,7 @@
                           "item":  "simplehats:hatbag_rare",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Hatbag Rare",
                           "broadcast":  false
@@ -261,7 +261,7 @@
                           "item":  "simplyswords:iron_katana",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Iron Katana",
                           "broadcast":  false
@@ -270,7 +270,7 @@
                           "item":  "simplyswords:iron_sai",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Iron Sai",
                           "broadcast":  false
@@ -279,7 +279,7 @@
                           "item":  "simplyswords:iron_spear",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Iron Spear",
                           "broadcast":  false
@@ -288,7 +288,7 @@
                           "item":  "simplyswords:iron_longsword",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Iron Longsword",
                           "broadcast":  false
@@ -297,7 +297,7 @@
                           "item":  "simplyswords:iron_twinblade",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Iron Twinblade",
                           "broadcast":  false
@@ -306,7 +306,7 @@
                           "item":  "simplyswords:iron_rapier",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Iron Rapier",
                           "broadcast":  false
@@ -315,7 +315,7 @@
                           "item":  "simplyswords:iron_halberd",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Iron Halberd",
                           "broadcast":  false
@@ -324,7 +324,7 @@
                           "item":  "simplyswords:iron_glaive",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Iron Glaive",
                           "broadcast":  false
@@ -333,7 +333,7 @@
                           "item":  "torchmaster:megatorch",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "rare",
                           "displayName":  "Megatorch",
                           "broadcast":  false
@@ -342,7 +342,7 @@
                           "item":  "numismatics:cog",
                           "minCount":  16,
                           "maxCount":  16,
-                          "chance":  6,
+                          "chance":  0.6,
                           "rarity":  "rare",
                           "displayName":  "Cog x16",
                           "broadcast":  false
