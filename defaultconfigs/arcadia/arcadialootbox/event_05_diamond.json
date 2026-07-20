@@ -9,7 +9,7 @@
                           "item":  "minecraft:player_head[profile={id:[I;218335566,-824818400,-1080908633,1027319042],name:\"NokhXyr\",properties:[{name:\"textures\",signature:\"VXbvzsNyWx7Q+PYudhdQTjRtvF3ift0SB1mVx08mggvVDnqmmP8gRCOrT2lgvdpWs8e+oVFbpwfQOs9lobR2gEPfxXrlYIk2LAXGC1kc9bQjl0z+iocrYEwAlpYAEtCZ4yqtGzqHXfFC/l+r2wsDTjRiySaNeUgXofqguZDCBDUapWAHtZaMrF+KavDfJYfCYrAtjo8t2ahZUhNvMnobxCmgPqTlZqIMmAUrgSSVobBPnYL6rcI+sm927N1LRrWGyONcs5BxGNT1W9DiIz3+8Te2THr9lsyH5B+SLim8Eapy1mQnOgGbqaEDdZPJM++eQE56c0deB1+YOnETAAuI77k0Prk10wawte65rPNGsrAZ0oixb/BZbqYAYe+svD1KcHWqlYC6R88vavYlTWmCYs03klWAnzaHtuElZDwI6Outwec4J7a88P2xCGHf9lyeTZ4NfurE9nQNLW2IkBoNMaYOpI9c0KzOfWq4+/7z4iJjBirvOLY9y7vCLo1ooyP3EYvSiXH83rIgCEHMFZCDINC8LgxS3jZr7Bpe7c82epaPyXah296/8OgnzvFzuYJq4FXwO/l+dYHcQJikx2mpEG2myseRliMoUrsNZ0VWYBU7wXxWV2I8aMWxl7IlQ9+YR5rvCmP545RTo01cleIUoXVJ7FhOWLnQdoFzvKuWeEY=\",value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4MjY2MzMyNDI5MiwKICAicHJvZmlsZUlkIiA6ICIwZDAzODk0ZWNlZDY0NTIwYmY5MmE0YTczZDNiYTUwMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb2toWHlyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzEwOTQyNTc2YjFiYTkzODA5ZDkzYjM1NjYyNTExZmViMmNhOGNkNzNhNjZkMTY1ODFmYjAxY2ZjZDgzN2Y0YTciCiAgICB9CiAgfQp9\"}]}]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Player Head - NokhXyr",
                           "broadcast":  false
@@ -18,7 +18,7 @@
                           "item":  "minecraft:player_head[profile={id:[I;1090228306,-1731899664,-1226164276,-2024214777],name:\"_N0t_F0und_\",properties:[{name:\"textures\",signature:\"mcEqSAXRzJNKbAC5Jiab8ppohoJ+UEPye+wzVvTkNb6720nczJky0CL7qUcHvEnXz+lASVRz7GyFEhC8P6gVWu9CLylSf5LiNuP+s4hdOZIwVwgEDSDhxq5dwEVYcB3575+iiRWZmDVB116C/sP9SvuqAXIOAazuoWeM3Dzj078scmh52ZUQbt9ji12tf/yiTm/IlhrRJxQ3jNT520ys8y/zTvLRo6c0IuYZCNaUDoxlNhCn0zUyWQO1s+qBme9/FCZKb4SfrEYaSRGukUTdBPcZ0X4KBsp5i/wV9KCfPrLNCPgck0LqUP+jp7gGwjA08yrv+Xze9lkXPMMMPC9kvpJUAfeXJs67rOL36efokSjxAA715xVPeJ//lOqqFvd4fCPSSt+aUeIcK8ZwBR09jGXEN4V4/aKG2NBIyspmpDy3QMR6ls4lHghn4wbp6siLJw+F3inFa4k4T7l4MB0XeqCsXooc5MRTwPhhTCj/paCehB0hcBds248RARAq9DBUM0VIP1wIjSY8HTRTvi9Ru7a56P7cdnIczqYkrRlJueohOFBFEDMmNEoJWB0+x1gWnQyyb0HnBdDXdMiyCFf3rnJQWuyI4+l1b8qMZTySbxEMCYdCwTe1nYfUXrAbVE93ogvH5vBvUgWm4KNpP6fSFJF0jRCRPhC4ufUSM/KTSaI=\",value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4MjY2MzE1NTc5MCwKICAicHJvZmlsZUlkIiA6ICI0MGZiOTA1Mjk4YzU0ZWYwYjZlYTM3Y2M4NzU4ZWYwNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJfTjB0X0YwdW5kXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hNmVlNDM0NzUxODNjMmE2NDcwMTU2MTU3OTg1Y2IxMzcwMjA2NzBmNjExNDc4NmY0ZDcyOGI5ZGU4ZjI5NDgwIgogICAgfQogIH0KfQ==\"}]}]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Player Head - _N0t_F0und_",
                           "broadcast":  false
@@ -27,7 +27,7 @@
                           "item":  "minecraft:player_head[profile={id:[I;-187959721,1086015408,-1962048095,1119577876],name:\"YoupaX\",properties:[{name:\"textures\",signature:\"pB6ade74qH8/jq4n+W80lQCIhINC6Vev+P4+DDeYb7qpleNrPA96evlYBtc/zKU2s8SkGJTQIfuBrPjrNrDIufY2Tk+U0mr+toNdxyahbk0J6Ju9ttDSiE3pt/NGe/C7XY9u0iUyTMZkrmQwOb/hEVTji7Cx8PmnzvY9GwgcpU3Lv2Fq092E6HdxIhMKABMviNBxkwaHyFGAoYq70zqlqO66NtIwLaF5J4EzJ3ArD7/hsmwu6f2gmf+xbjhrGzu6cXiWZLewOHfRlj/XFvFAiWp7+JnlCrNZ+D7zVL3/+QoVIVBdG71v/gVIrIkOZniEc4x6dG2vlaZ6V3AXvjuJE9yawvQKZNcgh+ijMKS4n3qUHSlQi9FlKWpbKFXtUsvZz4B3rBfYNTpRIWzk/Xwh2867jPmbtc75rdcJYP823B1JWVBZLZEJ7TfnbF0dvJnIfM3KEx5UOjrG64LiXdNJ8Dv5K7oFiaQ+ZxjueEggQcVhGAjRhwgBpMy0DUuTseXzX57fVHRfAsZg3YvKgNObixqfwjjxMKBSDIPNST20kJz1rjxqXzF/5OYoRKhrmrISBTuCxEOEatHF614jPjWCElGoPpxmgV6yh5CygK3RtzLrLEWnFNn1t8BSdsKu2uNG3x4mafrtcx1wdrjUbJ8psihy8Od7amHJqj2QKJA0Okk=\",value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4MjY2MzAwNTg3MSwKICAicHJvZmlsZUlkIiA6ICJmNGNiZjY1NzQwYmI0N2IwOGIwZDg1YTE0MmJiNjcxNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJZb3VwYVgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTFmZjY3NzE0NDdlODkyM2YzYjQzOWI1MzNhNzk2YjRjYWUwOTRmZGQ5NzFhYmY3NDI0ODcxMmYwODM3NjIxZCIKICAgIH0KICB9Cn0=\"}]}]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Player Head - YoupaX",
                           "broadcast":  false
@@ -36,7 +36,7 @@
                           "item":  "minecraft:player_head[profile={id:[I;-1781474426,1372801601,-1277164661,1172079414],name:\"vyrriox\",properties:[{name:\"textures\",signature:\"Rh0uh3/Is+AbFdp7piZjfD+Zy2kOKSUI1e5IS+WvO29KqPEK6tE9Q79oQZdO5EXdNj8rj535nVM7R//fj+kpzaMngwMaLSIg8D7P8Rz1aI0mCdJDP2FtkDx4Zv14WTN7NpJ+SOcJJD4EDz6bNOBUZIkXp+xdKQW2AJrBWDFQic8JqSwgJ1FqeAVyEN/yeyHXFBUe4LXSnjWvn4tL6KGygPA/7c+MfpxvBquuZHib+rt6/nnQVy34egdwByrOSg9t7osVWQFasfi680Os5Zj1+vyBq4JedzmWcjgJ/HAoIBE5R8EDNSTVSi4cdyUTbWm6gQp3vlNT1/nWxgB9XifyasurFoMg628qiLjtv7QzjcgbV3/0XlBE1Ii7iDbiSXCxy8q6/hmIusIhxNPTDE+Ns9vO9Cjuhnn4RogYamQeA/88UbgJs63gevjWSkZCjnhsrqogBLw0AaUkL4IrdFQTmUZJJ+XVj50+60A6t3ck/+Ard4vHL7HRyUB+IdgeZUNxXqqGfatZZs3vcU0eFNKQQ5tDbt6F0vDqHQvu0Afzlf7m/35BvhdFAB+XyACNj2uYa8qs7TtBM2cmIqo6HlPziICTFVS97GmQAFfQWjRhDRmydeh34V+pC/EyQMrRqG1cupqU3/LDl3UFXT7hIgni65w2kEj2dgUzk+6R14n+GMA=\",value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4MjY2Mjk4ODA2MCwKICAicHJvZmlsZUlkIiA6ICI5NWQwZGI4NjUxZDM0YTQxYjNlMDAzOGI0NWRjODMzNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJ2eXJyaW94IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U1NGI0YjAxYWJlZGY4ODU0YTAxOGI0YWUyZjVjOTU2MjZlNzIzMDlmM2JmZWI5YTQxYTM4OWVmYjA2ZDU0N2MiCiAgICB9CiAgfQp9\"}]}]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Player Head - vyrriox",
                           "broadcast":  false
@@ -45,7 +45,7 @@
                           "item":  "minecraft:player_head[profile={id:[I;1917558776,-1808514734,-1808406102,-77449380],name:\"THE_Fricadelle\",properties:[{name:\"textures\",signature:\"XgveLhpN1B0Zu9mnHhoC3gBNitbO3j8+I3mTnajf8xqdkmonon//kO7v1v63J8Vp0ChyIQMZ0aGi4z1NymqYkgM+oS+tcvElXduRCBnDq46bSYIl9hdGUZimztPuvfAUpggDADuDUrVX1CsbkY21KmwyHB0lLUbdUQIQf/b7C0sWe3DPulzH/cc+og4lQVM8Bm5PBtTAWsDUqwTnj9CX+f2eDv0qPDJfTZsTe2n2Y5pXbLTzrSgFKhurM+h/D4pMsdIXC1/I/9fQW7AFUzYEOhTxZr2kAeXXTiiPwed45wXLQh+VWm2gMK9bwEJruyyAdjoyNm4cVkyalTaf1u5a9D+G9Ufjxcm6G3DWidWF/Agd6x4Eb6199oN0zX2kPIvGKJtZsflYGMVf+Qv9NVmRPowDoaqgAZ4aXiEFnjYQWquWQEHvJUBFvAoIFzMgktnkiqQpGcnf6unDdYRo60tDFLY+9NgY3Dj49jFiZzoNO8mxbZdI9MooLctMwfFklymq8KMekp8pnMqbW097DT4ZbUnjdz5fOgzIeN/5XXrrggzin+FNn13IoC+ktXD47TCtNiCs6cYzjj+3SEBkxh2IVFnIYhLLwTr8n0rE5IBDgJmKRd5yKTkgTpI7CPXKiI8YWqqUGKBq2qtr9tJglfkJIvhuk7AFifmll9xXtqJOGEo=\",value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4MjY2MzAyMDE0NywKICAicHJvZmlsZUlkIiA6ICI3MjRiOWZmODk0MzQ0MTUyOTQzNWU5YWFmYjYyMzc1YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUSEVfRnJpY2FkZWxsZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zMTNmOTdhYTI0OWY4MzllZDM1ZWJjOTAyOGM5OTkwNzdjYjg0ODI1YTY2NWNjMGIwYzA4YzRhYTA3NjRmODYzIgogICAgfQogIH0KfQ==\"}]}]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Player Head - THE_Fricadelle",
                           "broadcast":  false
@@ -54,7 +54,7 @@
                           "item":  "minecraft:player_head[profile={id:[I;-1753833188,-543405406,-1743026035,-548822683],name:\"Flypiwhite\",properties:[{name:\"textures\",signature:\"vn0MI6oe8xtql/8ENKn69MdPfdvkNB6DgZV+s8c2QqeO2F3bl1S9+IZhGKJg+wbSi6yFiImxwsLgvln6slsPp5w/X82T54L6LCvTs0HoVMvEHVdxiDTnTaAHHzFSHXGuqkTyVzkrRzG1io/bbBoFNa5qPG0XlAbIygR9jnz2tS8k8y+yTburc6yXH7GUEub/x60+iUJc0xI5xbvlTqw4MTE5qA+ZQz6o13nYNrNyrE5oWPIdQfRsAksAA8qFhV2mn9r4jL3kI9fKcZfkJLgYaffnWgoX7p27xIgo6ysTKHEqWTF3XMskDXReopdBSKrvctLbDpuYpxRl5Z1WNpE2lwHTbVhl+ZtPSNoZnK9soE8HTv738rpfR8kgn4V+8o+2K+4qcZz+aGhVrlzLey/MtZ3VzUIf66dc6+5TLga+AAnIyNafBus9DhhUFTR/GwDG4gOy4ZdMemjxhIT+X1nPNh04nNhN9TYwgjee3orbHt7MmtWcPu054zefeP1FwnAosMq40xO7KmzLT5jjy17YhpB26pktznoZ3Kviv8OPWkXu/kc9U7qQYETiXcdEYJwzpLysRiilOSn6NL610JWJjEcFuLLrvjUUOVgHdEEjTWe9dblT5KlMmfI2BMQCZyokk5YEBtuZM1udaUsJs9AAElAMYp2ceOaMR6nVWLV4KpI=\",value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4MjY2MzA2MzAyNCwKICAicHJvZmlsZUlkIiA6ICI5Nzc2YTExY2RmOWM0YWEyOTgxYjg4OGRkZjQ5YTE2NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGbHlwaXdoaXRlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY4YjdiOTM4ZWM3NGE1YzdiZDFmZTE0NDUxNzJjZDc2MGIwMjczNzBhMjJkNmI2YTNkMjUxN2JjOGM4MGZhMjkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\"}]}]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Player Head - Flypiwhite",
                           "broadcast":  false
@@ -63,7 +63,7 @@
                           "item":  "minecraft:player_head[profile={id:[I;1580772609,-1419031445,-2023495257,-1072523231],name:\"Tyvrax\",properties:[{name:\"textures\",signature:\"twQXEOWNtQih5MJdBUIAwzR29R7BGZPee+L2k0RCaftmiNZL/dFOw/easgob24Np1bngP72lQQvQesaoKWevVODKCMfkP3aetqGwe3tB9A/HqSmgW+QkAjqPolK3AvCa2jXnuoekXA3Or6DBGcRUGPj8MfMT8u9RXZmmWy2mwXHRh8pFX1tWJprk2jT8zw/dQx3f/6DwDz3RBpWGuFdzmsT+oRE3X7Fgglpo92ctoS+zuMvZEv1dZTwP34RHbQ5mlgXHhIvn6KIm0LcdPxTyUUc2GNAtgH7gmosW4x77Pbd7ygr/hDFZCYHVh02Kk4Ne1jZCZtOaWx3YY7SVuNlu9UY66McXrg4MNvom2scu0Cl5u5Mb9z+nDcYdv1y/Dgfy6LwqfLhztNEeyrS+ykl5hW9u21A7hovN4842idF9Z0zMJGkflFD1HFOn2ZsRJlPCc2pMmL1qOwXv34vY3h+BHRwFmFC8fZbRcRoSh1C281cQduw2WXw9HpZ7gB5zpe/5r2rxu8ySnQpk9jP00C711z49jSlGghInNmlsI4qL/K0MllkjvcQLF+CqaiKoK4zBCHl2c1udGGqucaSmgXlzWYIQq+y/sLdkXmAmzwox/lKsMR7fAAfRkfDppwP8RyMXrP0uh+zsjnC05uYPQ1SMM9xftJFjc5Fw2qxZ+9rmRac=\",value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4MjY2MzE5MTAxOCwKICAicHJvZmlsZUlkIiA6ICI1ZTM4YWQwMWFiNmI0YzZiODc2M2U5YTdjMDEyOTgyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUeXZyYXgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E2ZTNkZDkyMzYwNTMyYjJmM2I5N2EzYzg4OWM5NjNkYjFjYTUwZGY4ZDU4MWZlZmFiZjE4YWJkYWIwMDcwIgogICAgfQogIH0KfQ==\"}]}]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Player Head - Tyvrax",
                           "broadcast":  false
@@ -72,7 +72,7 @@
                           "item":  "minecraft:player_head[profile={id:[I;1157225535,22430563,-1213465671,-726181374],name:\"NathanLeGrosBG\",properties:[{name:\"textures\",signature:\"bMlCtL6ecPCIFlrKvBu0gug4efKYrgGK7EboNFQSHVJc0fD/nhIkq6xJKjiXe9rR2y+Ge0kJ87PP9CPICt7f+7CRbGwYp7kSuB0Zay9yTqGJ8cDWIvF3mlmV4yYQ8sXMij1kWSaHNpD736t/X4JHoEguB8rkmfJK96jImDkmdqb5VOSbkmSzWsJF+O1Tnz56f9s9/JszVx+QPBurVzzoEoa2ncncgmTpWnU4jx2iqvtbLG9Yw9M9/tHqsbQYvKARQP74mY9OIK32boSlhQfXta6p451k9H4pIC/cTIDrerG64++5MFeTJX01lihC2KciTlENw0Q9EfE6MtM5emKSXav672T9d8jPijGQyTwwxVo3/689iMKEBW+4dWyXcqGVPDy1VsqDZsEh9PkFj/n6gd2lc8CQrc4axo6j/VV+W/nSqBuxv06c2EAJrvXakdtvo3dxZlCaE7cJ1sX93vVSZf6gFD7KZsQFY4dTGzu9LGEiQYbgLJ3umjezd+NaYRJyA+1hYonnwNyW4dhOCchiFg2JtxzuFmtYQtGwxzU70ZPgSRtcmjh9kyF0uCKFbN9LZpS8dL9J93MOw+BH6u8MKYmEBYUiaxV3x/CX0sEYg1s2zCW96Mz9Uhl2QrE/O5s+G+0kqQBohDfQLRUE3A4rTrtDf0c4ckoAWm2S60XIzHc=\",value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4MjY2MzE3NjQxNSwKICAicHJvZmlsZUlkIiA6ICI0NGY5ZGMzZjAxNTY0MzYzYjdhYmZiYjlkNGI3NWEwMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJOYXRoYW5MZUdyb3NCRyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iNGQyZmRiMWQ4NWRkYzc2NGI2N2Y0NzFjNDljM2YwMzQxOWU2MWM0ZTlhMjQ5MDllOTk3ZWE4MjhjOTU5YjEyIgogICAgfQogIH0KfQ==\"}]}]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Player Head - NathanLeGrosBG",
                           "broadcast":  false
@@ -81,7 +81,7 @@
                           "item":  "arcadialootbox:event_key_diamond",
                           "minCount":  2,
                           "maxCount":  2,
-                          "chance":  2,
+                          "chance":  0.2,
                           "rarity":  "legendary",
                           "displayName":  "Event Key Diamond x2",
                           "broadcast":  true
@@ -90,7 +90,7 @@
                           "item":  "apotheosis:gem[apotheosis:gem=\"apotheosis:the_end/endersurge\",apotheosis:purity=\"perfect\"]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Gem",
                           "broadcast":  false
@@ -99,7 +99,7 @@
                           "item":  "rsinfinitybooster:infinity_card",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Infinity Card",
                           "broadcast":  false
@@ -108,7 +108,7 @@
                           "item":  "arcadia_pets:common_pet_bag",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Common Pet Bag",
                           "broadcast":  false
@@ -117,7 +117,7 @@
                           "item":  "createoreexcavation:netherite_drill",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Netherite Drill",
                           "broadcast":  false
@@ -126,7 +126,7 @@
                           "item":  "createaddition:alternator",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Alternator",
                           "broadcast":  false
@@ -135,7 +135,7 @@
                           "item":  "createaddition:electric_motor",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Electric Motor",
                           "broadcast":  false
@@ -144,7 +144,7 @@
                           "item":  "apothic_enchanting:infused_breath",
                           "minCount":  32,
                           "maxCount":  32,
-                          "chance":  6,
+                          "chance":  0.6,
                           "rarity":  "legendary",
                           "displayName":  "Infused Breath x32",
                           "broadcast":  false
@@ -153,7 +153,7 @@
                           "item":  "apothic_enchanting:extraction_tome",
                           "minCount":  3,
                           "maxCount":  3,
-                          "chance":  6,
+                          "chance":  0.6,
                           "rarity":  "legendary",
                           "displayName":  "Extraction Tome x3",
                           "broadcast":  false
@@ -162,7 +162,7 @@
                           "item":  "extradisks:256k_item_storage_disk[refinedstorage:storage_reference=[I;-1385468915,-330415037,-1173693900,122920530]]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "256K Item Storage Disk",
                           "broadcast":  false
@@ -171,7 +171,7 @@
                           "item":  "immersive_aircraft:warship",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Warship",
                           "broadcast":  false
@@ -180,7 +180,7 @@
                           "item":  "minecraft:potion[potion_contents={potion:\"apothic_attributes:extra_long_flying\"}]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Potion",
                           "broadcast":  false
@@ -189,7 +189,7 @@
                           "item":  "simplyswords:sunfire[simplyswords:gem_power={has_nether_power:1b,has_runic_power:0b,nether_power:\"simplyswords:empty_power\",runic_power:\"simplyswords:empty_power\"}]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Sunfire",
                           "broadcast":  false
@@ -198,7 +198,7 @@
                           "item":  "simplyswords:molten_edge[simplyswords:gem_power={has_nether_power:0b,has_runic_power:0b,nether_power:\"simplyswords:empty_power\",runic_power:\"simplyswords:empty_power\"}]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Molten Edge",
                           "broadcast":  false
@@ -207,7 +207,7 @@
                           "item":  "simplyswords:emberlash[simplyswords:gem_power={has_nether_power:1b,has_runic_power:0b,nether_power:\"simplyswords:empty_power\",runic_power:\"simplyswords:empty_power\"}]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Emberlash",
                           "broadcast":  false
@@ -216,7 +216,7 @@
                           "item":  "simplyswords:emberblade[simplyswords:gem_power={has_nether_power:1b,has_runic_power:1b,nether_power:\"simplyswords:empty_power\",runic_power:\"simplyswords:empty_power\"}]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Emberblade",
                           "broadcast":  false
@@ -225,7 +225,7 @@
                           "item":  "simplyswords:brimstone_claymore[simplyswords:gem_power={has_nether_power:0b,has_runic_power:1b,nether_power:\"simplyswords:empty_power\",runic_power:\"simplyswords:empty_power\"}]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Brimstone Claymore",
                           "broadcast":  false
@@ -234,7 +234,7 @@
                           "item":  "simplyswords:tempest[simplyswords:gem_power={has_nether_power:1b,has_runic_power:0b,nether_power:\"simplyswords:empty_power\",runic_power:\"simplyswords:empty_power\"}]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Tempest",
                           "broadcast":  false
@@ -243,7 +243,7 @@
                           "item":  "simplyswords:chompolotl[simplyswords:gem_power={has_nether_power:0b,has_runic_power:0b,nether_power:\"simplyswords:empty_power\",runic_power:\"simplyswords:empty_power\"}]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Chompolotl",
                           "broadcast":  false
@@ -252,7 +252,7 @@
                           "item":  "minecraft:player_head[profile={id:[I;-981161887,-1789507613,-1255920358,803226150],name:\"Skaizenn\",properties:[{name:\"textures\",signature:\"s58nrF5hMjUkjtAhsa3Sv2vKoEUtrRHhz+1QNrsrHKPhtZCPZyjfnD9L9Xyncziseg7dFVBthYygg62TuddEOG0XIOgnWpBiHD1QKVfLuV8uFHx7BDTzfh0SFBGb9u4w9srk48zT/mZT+ELOUGoSjguQjnOGxnvDSU5WWG5pHxWFGFScq8gf8NDQKnT00SCdNEgZ4vG5Q3FindDQoxbVJJ+BDjHDZ1z4x6S3vc1DWurpLtrOVHY7GoNuIRxlTgyltHzBEkFjJPZfeQu+ih1gPjYQ48/mtFQ9qF4OZYxvBQ0AidH8mt0z0x95b3d+hffA9rP2kdSRDEboeUfn1SxuI9kAcZQlkTHMfw70pyeEjFGyu1Om39oNgi3xB1fk0SW2aXpj8kXtVeQbyjRVGW8SVNCERMYlZhyvT95VmYkf+95LKUrPMo03In4PNwQM4UcsDKdT/Dx52lWb4kNdKxGvovrkKqDiFWVwruDjF/DBIerlaj+iYmYxI/+8vCmxBG+RIKH1dO61jKMLIbB+xpmjfJG9PdCsYdSyX+ce4Mt1EpNQX1XHo9xbfDAwfRIkif2lS4N9Ei2kAJQqeNGdSSPgmqTdblqH+2bya3eK6j0OyJ9hfWZSDfDdwdS/AMw2fEsMitAvRdhG/UT0lEZYY5ZOsqRKosDKTqmcaWZ3qVcYeNs=\",value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4MjY2Mzg2MTE2MywKICAicHJvZmlsZUlkIiA6ICJjNTg0YTg2MTk1NTY0N2UzYjUyNDJkMWEyZmUwNDIyNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTa2FpemVubiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xMjM5MGYyMTJkZWE1MzI5YjUzNWQ0MTdjMWQxMzk1NDMyMDBhZDgyOTY3ODYxOTI3MDUzOGEzNDM0NDE3NmMyIgogICAgfQogIH0KfQ==\"}]}]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Player Head - Skaizenn",
                           "broadcast":  false
@@ -261,7 +261,7 @@
                           "item":  "minecraft:player_head[profile={id:[I;-900568445,-1549317731,-1440855079,-1027562227],name:\"FuFu8822\",properties:[{name:\"textures\",signature:\"iDuFgpdaUrAQU5ahn9+D+H4Ex8K2lqLp092pPD2VvC5hiq8HWTvdd6m46MOLhPmeh/pFDkCTvSwABpBt1LN3G3yCMVogFhLjiRbOi6SfpWIYVMuL8pdNA1dYJUuHE39Rls47/5S/gcvg8mnNmIFaFrCNmrTsXAOC/MSgMeiOtBUoP/fTQLDQLvLiL5J6t0GcZP1BgMughMZ1X9itn5Gzxx18drj8rCH3IsUKK2iNBOkj70JZIE9r5sPg/9mQWFODOtcJyUWO9aUydWXzFV8mkjHU6pFI5S2ieqrh+bGRzOOLhuZf39OacsGiThpWZiTfFHoFMc8exMjgafHrPeHGU8ookluNlC8et0nW99L7XsI4tOoB6zvKc3lFsDp5hqKddfu5v2QC0VGJUsl68SXxglc0GmFWYlr3abu23KWQkd5c6JZ0zavVXIGLFkpimpV9oa1GdFWKnn6Qzn/b2xBGadABA2zDiaBJs8YfDb517S9bzAfPIwl89hU1HnbQRjJ9ChSmRARLXoUArZNGRH4X6xwCg2EVnAd65qSiVg1xcWnpO6D6FmfuFyGLaWsyQBAdA2xgFgM8OwyeQ2VDUpZfIc6HDl1XFpEmwHps9DsCTsdKV0d4yaL2NkG4I8PwgQsnYj3ZBHv5hqobZAICMrdW78+2hlhuQ4afVLxYKvvsFAA=\",value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4MjY2MzQ3NDk2MSwKICAicHJvZmlsZUlkIiA6ICJjYTUyNmE4M2EzYTc0OTlkYWExZTRiZDljMmMwYTUwZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJGdUZ1ODgyMiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yNGJiODUyMzc3YmI4ZDg3ODMwYzgzMGFjMGE2NDIxM2E5NjI4ZmEwZTE0NDdlNmYyMzY3ZmFjZDQ2NmEyOWI5IgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yOGRlNGE4MTY4OGFkMThiNDllNzM1YTI3M2UwODZjMThmMWUzOTY2OTU2MTIzY2NiNTc0MDM0YzA2ZjVkMzM2IgogICAgfQogIH0KfQ==\"}]}]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Player Head - FuFu8822",
                           "broadcast":  false
@@ -270,7 +270,7 @@
                           "item":  "minecraft:player_head[profile={id:[I;2121256213,697713501,-1644139346,1522580240],name:\"SiriusT\",properties:[{name:\"textures\",signature:\"LHCxAnlzjBIIgyGYYJxc4cn5vgTLbrVSyfGEhpF603TFCEPxyneXBBO995I1kXYp8fvroG3LOd6RQsgT94sWfqi5IF7ABNUZ+xvku3fDybGhVKvf3jtXx/6s4dMOs88F8qS/YUrqIlNzaRS7E41fPAwUOg+vRANId9M2s36BFxzhpkUdo9zYKIShxAOZxLFwTC8hHQ/Ci4a1aRU/M1eEQzZQazt7IhiAqkZ0mPzGXO8/SBNyvk4RYLqH3h1NtAvnS5gqqYZm0lubWpuFYZJOKlpKz6ES5DfrzIqUvTGCIywGhUlFWVO2GE8tCrh3WTkzSYPMXZUzxXqDKtSfkISH+OU9V9H5yw70mJFJre57m9RnQdSICWxEUya5Z7xN3eE+Mql0OKWewg7BDcSrxXSMFQgQPPovL1G6HAyuoq8zc7PRUoJpEChcfjEkBTzQDFgaJzUxs2YTlHd1BXARiRNtq/1+ki+Ekrm32/VCXiYgbP+JKVFgKcYir7xk9zMcEaO3VJiMYDYyjVwVEZQ4tA3Oi5OFqjNGnQ/8u0YgLbnXU5725Hmib5PZFcb3eFNAeTITMk2iZXarO7eNzsAwC9n901F8q3kP9aVXCJ1/nh3yKusD485MMkeyDejQrmPbbZLmWBiIQf+HgHseZ4mSuVY6d8053GOeXAiRIotfm1/f4b8=\",value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4MjY2MzUxMTExNSwKICAicHJvZmlsZUlkIiA6ICI3ZTZmY2QxNTI5OTY0MzVkOWUwMDZjYWU1YWMwYmIxMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaXJpdXNUIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I4OTEwYjEyODZmMzVhMDQ1YThhNDdiY2NmYWFhYTZlMmE3NGY3ZmFiNTU2MjQyZTAxNjVlYzcwNmQ2MjdhMDIiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9\"}]}]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Player Head - SiriusT",
                           "broadcast":  false
@@ -279,7 +279,7 @@
                           "item":  "minecraft:player_head[profile={id:[I;-1341391566,984302862,-2086560557,1864381868],name:\"Netorse\",properties:[{name:\"textures\",signature:\"DM0+ZueRmfbc+MgI2dtvSsZnQNrHb1W47kM5pxLxHPgxDKE7yyMFmWpVkTD7TXxxPq68MtLgfGsp+1hj7JTOaXiDaNvlNm/RxKShHBQliaJMpW1uRWigDO48b8xxGDr4tjykJ5kzQzaoizkJXxUjYEBsoEZrSg6F/NiWGO5KG+lxYD3OpEauv+99b6yD73VCVdykhYo4scOECKvj/uI//E1wGIS2Nv3iHFDXAHG6V8Omzi2Lti4DB21NL0N15iytxtN4lqiKCZGPEDiU/3zy7+7r+GwcsUORP/weoxYqIGsmZKLzVRqJZ/bu8rlkWT+KkJu3ITQxB0NBe3In0xLjxHi3clGIiQzQbeh322XZxfbM6f9182N4TdJbKZ/sS9Q1KO26QyiprtbedhmGnSxAcjEB0xhzz56tRJ3PF4yGYhEcFYsTMlJUsQzzGJ1/y+D1o4T+pIOvyf0ncjkYhSWjUm6owESTvYd6tm7yzycjoEfVKiBA+9zPXSLKBW5yjMUENKRr20fDqo6o0KeASAJ9eCBB8Nj3U2wIansDhXZKm/eqZ+8lrFMtsia+usKnSpDETqP2sV2FebZ1aBaUFl7vHBq7NT2WIrsBLbi/dZVZ6nVIOt23L4ndE8kuxKezgk1s+JU3M0Wmx8ADQmKICP14lTrhaiXuYOcR/LGOXTJ94ng=\",value:\"ewogICJ0aW1lc3RhbXAiIDogMTc4MjY2Mzg5MDM2MiwKICAicHJvZmlsZUlkIiA6ICJiMDBiZmQzMjNhYWI0NTBlODNhMTljZDM2ZjIwMzVhYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOZXRvcnNlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzYxZjhjNWVlOGEzMTkwYmVjNGRiMzg5MmU4NTE5YTFkZjkwYjgyZjIyZDg3YTEyNzA1YjFiYzU4YjkzMzZkMWYiCiAgICB9CiAgfQp9\"}]}]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Player Head - Netorse",
                           "broadcast":  false
@@ -288,7 +288,7 @@
                           "item":  "comforts:sleeping_bag_white",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Sleeping Bag White",
                           "broadcast":  false
@@ -297,7 +297,7 @@
                           "item":  "minecraft:elytra",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Elytra",
                           "broadcast":  false
@@ -306,7 +306,7 @@
                           "item":  "mekanismtools:netherite_paxel",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Netherite Paxel",
                           "broadcast":  false
@@ -315,7 +315,7 @@
                           "item":  "minecraft:totem_of_undying",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Totem Of Undying",
                           "broadcast":  false
@@ -324,7 +324,7 @@
                           "item":  "voidtotem:totem_of_void_undying",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Totem Of Void Undying",
                           "broadcast":  false
@@ -333,7 +333,7 @@
                           "item":  "simplehats:batwinghat",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Batwinghat",
                           "broadcast":  false
@@ -342,7 +342,7 @@
                           "item":  "torchmaster:megatorch",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Megatorch",
                           "broadcast":  false
@@ -351,7 +351,7 @@
                           "item":  "fluxnetworks:herculean_flux_storage",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Herculean Flux Storage",
                           "broadcast":  false
@@ -360,7 +360,7 @@
                           "item":  "sophisticatedbackpacks:netherite_backpack",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Netherite Backpack",
                           "broadcast":  false
@@ -369,7 +369,7 @@
                           "item":  "simplehats:ladybug_on_head",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Ladybug On Head",
                           "broadcast":  false
@@ -378,7 +378,7 @@
                           "item":  "simplehats:gnome",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Gnome",
                           "broadcast":  false
@@ -387,7 +387,7 @@
                           "item":  "simplehats:stress",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Stress",
                           "broadcast":  false
@@ -396,7 +396,7 @@
                           "item":  "createdieselgenerators:track_layers_bag[createdieselgenerators:tracks={count:1024,item:\"create:track\"}]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Track Layers Bag",
                           "broadcast":  false
@@ -405,7 +405,7 @@
                           "item":  "numismatics:cog",
                           "minCount":  64,
                           "maxCount":  64,
-                          "chance":  6,
+                          "chance":  0.6,
                           "rarity":  "legendary",
                           "displayName":  "Cog x64",
                           "broadcast":  false
@@ -414,7 +414,7 @@
                           "item":  "simplehats:mimic_head",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Mimic Head",
                           "broadcast":  false
@@ -423,7 +423,7 @@
                           "item":  "simplehats:hatbag_epic",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Hatbag Epic",
                           "broadcast":  false
@@ -432,7 +432,7 @@
                           "item":  "simplehats:pika_ears",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Pika Ears",
                           "broadcast":  false
@@ -441,7 +441,7 @@
                           "item":  "simplehats:penguinbaby",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Penguinbaby",
                           "broadcast":  false
@@ -450,7 +450,7 @@
                           "item":  "simplehats:redstache",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "legendary",
                           "displayName":  "Redstache",
                           "broadcast":  false

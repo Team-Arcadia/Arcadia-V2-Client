@@ -9,7 +9,7 @@
       "item": "arcadia:music_disc_la_boulette_pt1",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "rare",
       "displayName": "Music Disc - La Boulette Pt1",
       "broadcast": false
@@ -18,7 +18,7 @@
       "item": "arcadia:music_disc_mike_le_loulou",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "rare",
       "displayName": "Music Disc - Mike Le Loulou",
       "broadcast": false
@@ -27,7 +27,7 @@
       "item": "sophisticatedbackpacks:gold_backpack",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "epic",
       "displayName": "Gold Backpack",
       "broadcast": false
@@ -36,7 +36,7 @@
       "item": "extradisks:1024k_item_storage_disk[refinedstorage:storage_reference=[I;1765532768,997410305,-2129673627,245524128]]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "epic",
       "displayName": "1024k Storage Disk",
       "broadcast": false
@@ -45,7 +45,7 @@
       "item": "minecraft:netherite_hoe",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 4,
+      "chance": 0.4,
       "rarity": "rare",
       "displayName": "Netherite Hoe",
       "broadcast": false
@@ -54,7 +54,7 @@
       "item": "minecraft:netherite_shovel",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 4,
+      "chance": 0.4,
       "rarity": "rare",
       "displayName": "Netherite Shovel",
       "broadcast": false
@@ -63,7 +63,7 @@
       "item": "minecraft:netherite_axe",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 4,
+      "chance": 0.4,
       "rarity": "rare",
       "displayName": "Netherite Axe",
       "broadcast": false
@@ -72,7 +72,7 @@
       "item": "minecraft:netherite_pickaxe",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 4,
+      "chance": 0.4,
       "rarity": "rare",
       "displayName": "Netherite Pickaxe",
       "broadcast": false
@@ -81,7 +81,7 @@
       "item": "minecraft:netherite_sword",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 4,
+      "chance": 0.4,
       "rarity": "rare",
       "displayName": "Netherite Sword",
       "broadcast": false
@@ -90,7 +90,7 @@
       "item": "arcadialootbox:shop_key_mythic",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 2,
+      "chance": 0.2,
       "rarity": "legendary",
       "displayName": "Next Tier Key (Shop)",
       "broadcast": true
@@ -99,7 +99,7 @@
       "item": "create_things_and_misc:radar",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "epic",
       "displayName": "Radar",
       "broadcast": false
@@ -108,7 +108,7 @@
       "item": "createdieselgenerators:track_layers_bag[createdieselgenerators:tracks={count:1024,item:\"create:track\"}]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "rare",
       "displayName": "Track Layer's Bag (1024 tracks)",
       "broadcast": false
@@ -117,7 +117,7 @@
       "item": "apothic_enchanting:improved_scrap_tome",
       "minCount": 32,
       "maxCount": 32,
-      "chance": 4,
+      "chance": 0.4,
       "rarity": "epic",
       "displayName": "Improved Scrap Tome x32",
       "broadcast": false
@@ -126,7 +126,7 @@
       "item": "artifacts:universal_attractor",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 2,
+      "chance": 0.2,
       "rarity": "legendary",
       "displayName": "Universal Attractor",
       "broadcast": true
@@ -135,7 +135,7 @@
       "item": "artifacts:chorus_totem",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 2,
+      "chance": 0.2,
       "rarity": "legendary",
       "displayName": "Chorus Totem",
       "broadcast": true
@@ -144,7 +144,7 @@
       "item": "fluxnetworks:flux_dust",
       "minCount": 64,
       "maxCount": 64,
-      "chance": 4,
+      "chance": 0.4,
       "rarity": "epic",
       "displayName": "Flux Dust x64",
       "broadcast": false
@@ -153,7 +153,7 @@
       "item": "refinedstorage_quartz_arsenal:wireless_crafting_grid",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 2,
+      "chance": 0.2,
       "rarity": "legendary",
       "displayName": "Wireless Crafting Grid",
       "broadcast": true
@@ -162,7 +162,7 @@
       "item": "sophisticatedstorage:stack_upgrade_tier_2",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "epic",
       "displayName": "Stack Upgrade Tier 2",
       "broadcast": false
@@ -171,7 +171,7 @@
       "item": "burgermod:mutton_champignon_burger",
       "minCount": 64,
       "maxCount": 64,
-      "chance": 8,
+      "chance": 0.8,
       "rarity": "common",
       "displayName": "Mutton Champignon Burger x64",
       "broadcast": false
@@ -180,7 +180,7 @@
       "item": "minecraft:enchanted_book[stored_enchantments={levels:{\"minecraft:silk_touch\":1}}]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "epic",
       "displayName": "Enchanted Book - Silk Touch",
       "broadcast": false
@@ -189,7 +189,7 @@
       "item": "minecraft:enchanted_book[stored_enchantments={levels:{\"minecraft:sharpness\":5}}]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "epic",
       "displayName": "Enchanted Book - Sharpness V",
       "broadcast": false
@@ -198,7 +198,7 @@
       "item": "minecraft:enchanted_book[stored_enchantments={levels:{\"minecraft:efficiency\":5}}]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "epic",
       "displayName": "Enchanted Book - Efficiency V",
       "broadcast": false
@@ -207,7 +207,7 @@
       "item": "minecraft:enchanted_book[stored_enchantments={levels:{\"minecraft:fortune\":2}}]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "epic",
       "displayName": "Enchanted Book - Fortune II",
       "broadcast": false

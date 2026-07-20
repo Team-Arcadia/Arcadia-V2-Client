@@ -9,7 +9,7 @@
       "item": "apotheosis:gem[apotheosis:gem=\"apotheosis:the_end/endersurge\",apotheosis:purity=\"perfect\"]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 2,
+      "chance": 0.2,
       "rarity": "mythic",
       "displayName": "Perfect Endersurge Gem",
       "broadcast": true
@@ -18,7 +18,7 @@
       "item": "sophisticatedbackpacks:netherite_backpack",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 2,
+      "chance": 0.2,
       "rarity": "legendary",
       "displayName": "Netherite Backpack",
       "broadcast": true
@@ -27,7 +27,7 @@
       "item": "extradisks:infinite_item_storage_disk[refinedstorage:storage_reference=[I;1322391310,-998224650,-1805839374,-35103486]]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 1,
+      "chance": 0.1,
       "rarity": "mythic",
       "displayName": "Infinite Storage Disk",
       "broadcast": true
@@ -36,7 +36,7 @@
       "item": "advancednetherite:netherite_gold_hoe",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 4,
+      "chance": 0.4,
       "rarity": "rare",
       "displayName": "Netherite Gold Hoe",
       "broadcast": false
@@ -45,7 +45,7 @@
       "item": "advancednetherite:netherite_gold_shovel",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 4,
+      "chance": 0.4,
       "rarity": "rare",
       "displayName": "Netherite Gold Shovel",
       "broadcast": false
@@ -54,7 +54,7 @@
       "item": "advancednetherite:netherite_gold_axe",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 4,
+      "chance": 0.4,
       "rarity": "rare",
       "displayName": "Netherite Gold Axe",
       "broadcast": false
@@ -63,7 +63,7 @@
       "item": "advancednetherite:netherite_gold_pickaxe",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 4,
+      "chance": 0.4,
       "rarity": "rare",
       "displayName": "Netherite Gold Pickaxe",
       "broadcast": false
@@ -72,7 +72,7 @@
       "item": "advancednetherite:netherite_gold_sword",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 4,
+      "chance": 0.4,
       "rarity": "rare",
       "displayName": "Netherite Gold Sword",
       "broadcast": false
@@ -81,7 +81,7 @@
       "item": "simplyswords:magiblade[simplyswords:gem_power={has_nether_power:0b,has_runic_power:0b,nether_power:\"simplyswords:empty_power\",runic_power:\"simplyswords:empty_power\"}]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 2,
+      "chance": 0.2,
       "rarity": "legendary",
       "displayName": "Magiblade",
       "broadcast": true
@@ -90,7 +90,7 @@
       "item": "artifacts:night_vision_goggles",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "epic",
       "displayName": "Night Vision Goggles",
       "broadcast": false
@@ -99,7 +99,7 @@
       "item": "artifacts:superstitious_hat",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "epic",
       "displayName": "Superstitious Hat",
       "broadcast": false
@@ -108,7 +108,7 @@
       "item": "artifacts:lucky_scarf",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "epic",
       "displayName": "Lucky Scarf",
       "broadcast": false
@@ -117,7 +117,7 @@
       "item": "artifacts:digging_claws",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "epic",
       "displayName": "Digging Claws",
       "broadcast": false
@@ -126,7 +126,7 @@
       "item": "create_confectionery:candy_cane_pickaxe",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 4,
+      "chance": 0.4,
       "rarity": "rare",
       "displayName": "Candy Cane Pickaxe",
       "broadcast": false
@@ -135,7 +135,7 @@
       "item": "create_confectionery:candy_cane_hoe",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 4,
+      "chance": 0.4,
       "rarity": "rare",
       "displayName": "Candy Cane Hoe",
       "broadcast": false
@@ -144,7 +144,7 @@
       "item": "create_confectionery:candy_cane_axe",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 4,
+      "chance": 0.4,
       "rarity": "rare",
       "displayName": "Candy Cane Axe",
       "broadcast": false
@@ -153,7 +153,7 @@
       "item": "create_confectionery:candy_cane_shovel",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 4,
+      "chance": 0.4,
       "rarity": "rare",
       "displayName": "Candy Cane Shovel",
       "broadcast": false
@@ -162,7 +162,7 @@
       "item": "create_confectionery:candy_cane_sword",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 4,
+      "chance": 0.4,
       "rarity": "rare",
       "displayName": "Candy Cane Sword",
       "broadcast": false
@@ -171,7 +171,7 @@
       "item": "sophisticatedstorage:stack_upgrade_tier_4",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 2,
+      "chance": 0.2,
       "rarity": "legendary",
       "displayName": "Stack Upgrade Tier 4",
       "broadcast": true
@@ -180,7 +180,7 @@
       "item": "arcadialootbox:shop_key_celestial",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 2,
+      "chance": 0.2,
       "rarity": "legendary",
       "displayName": "Next Tier Key (Shop)",
       "broadcast": true
@@ -189,7 +189,7 @@
       "item": "burgermod:golden_mutton_burger",
       "minCount": 64,
       "maxCount": 64,
-      "chance": 8,
+      "chance": 0.8,
       "rarity": "common",
       "displayName": "Golden Mutton Burger x64",
       "broadcast": false
@@ -198,7 +198,7 @@
       "item": "minecraft:enchanted_golden_apple",
       "minCount": 16,
       "maxCount": 16,
-      "chance": 4,
+      "chance": 0.4,
       "rarity": "epic",
       "displayName": "Enchanted Golden Apple x16",
       "broadcast": false
@@ -207,7 +207,7 @@
       "item": "minecraft:potion[potion_contents={potion:\"apothic_attributes:long_flying\"}]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 2,
+      "chance": 0.2,
       "rarity": "legendary",
       "displayName": "Potion of Flying (Long)",
       "broadcast": true
@@ -216,7 +216,7 @@
       "item": "mekanism:ultimate_energy_cube[mekanism:energy={energy_containers:[L;256000000L]}]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 2,
+      "chance": 0.2,
       "rarity": "legendary",
       "displayName": "Ultimate Energy Cube (charged)",
       "broadcast": true
@@ -225,7 +225,7 @@
       "item": "mekanism:advanced_control_circuit",
       "minCount": 4,
       "maxCount": 4,
-      "chance": 4,
+      "chance": 0.4,
       "rarity": "rare",
       "displayName": "Advanced Control Circuit x4",
       "broadcast": false
@@ -234,7 +234,7 @@
       "item": "arcadia:music_disc_dans_la_tavern_lulu",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "rare",
       "displayName": "Music Disc - Dans La Tavern Lulu",
       "broadcast": false
@@ -243,7 +243,7 @@
       "item": "arcadia:music_disc_vyrriox_la_femme_de_joie",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "rare",
       "displayName": "Music Disc - Vyrriox La Femme De Joie",
       "broadcast": false
@@ -252,7 +252,7 @@
       "item": "minecraft:enchanted_book[stored_enchantments={levels:{\"minecraft:silk_touch\":1}}]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "epic",
       "displayName": "Enchanted Book - Silk Touch",
       "broadcast": false
@@ -261,7 +261,7 @@
       "item": "minecraft:enchanted_book[stored_enchantments={levels:{\"minecraft:sharpness\":7}}]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "legendary",
       "displayName": "Enchanted Book - Sharpness VII",
       "broadcast": false
@@ -270,7 +270,7 @@
       "item": "minecraft:enchanted_book[stored_enchantments={levels:{\"minecraft:efficiency\":7}}]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "legendary",
       "displayName": "Enchanted Book - Efficiency VII",
       "broadcast": false
@@ -279,7 +279,7 @@
       "item": "minecraft:enchanted_book[stored_enchantments={levels:{\"minecraft:fortune\":3}}]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "legendary",
       "displayName": "Enchanted Book - Fortune III",
       "broadcast": false

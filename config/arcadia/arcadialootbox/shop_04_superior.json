@@ -9,7 +9,7 @@
       "item": "arcadia:music_disc_vyrriox_la_naine_pt3",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "rare",
       "displayName": "Music Disc - Vyrriox La Naine Pt3",
       "broadcast": false
@@ -18,7 +18,7 @@
       "item": "arcadia:music_disc_vyrriox_patee",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "rare",
       "displayName": "Music Disc - Vyrriox Patee",
       "broadcast": false
@@ -27,7 +27,7 @@
       "item": "sophisticatedbackpacks:copper_backpack",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "rare",
       "displayName": "Copper Backpack",
       "broadcast": false
@@ -36,7 +36,7 @@
       "item": "refinedstorage:64k_storage_disk[refinedstorage:storage_reference=[I;141691510,-462467079,-1788157858,36629137]]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "rare",
       "displayName": "64k Storage Disk",
       "broadcast": false
@@ -45,7 +45,7 @@
       "item": "minecraft:golden_hoe",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 5,
+      "chance": 0.5,
       "rarity": "common",
       "displayName": "Golden Hoe",
       "broadcast": false
@@ -54,7 +54,7 @@
       "item": "minecraft:golden_shovel",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 5,
+      "chance": 0.5,
       "rarity": "common",
       "displayName": "Golden Shovel",
       "broadcast": false
@@ -63,7 +63,7 @@
       "item": "minecraft:golden_axe",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 5,
+      "chance": 0.5,
       "rarity": "common",
       "displayName": "Golden Axe",
       "broadcast": false
@@ -72,7 +72,7 @@
       "item": "minecraft:golden_pickaxe",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 5,
+      "chance": 0.5,
       "rarity": "common",
       "displayName": "Golden Pickaxe",
       "broadcast": false
@@ -81,7 +81,7 @@
       "item": "minecraft:golden_sword",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 5,
+      "chance": 0.5,
       "rarity": "common",
       "displayName": "Golden Sword",
       "broadcast": false
@@ -90,7 +90,7 @@
       "item": "arcadialootbox:shop_key_epic",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 2,
+      "chance": 0.2,
       "rarity": "legendary",
       "displayName": "Next Tier Key (Shop)",
       "broadcast": true
@@ -99,7 +99,7 @@
       "item": "tfmg:zinc_grenade",
       "minCount": 32,
       "maxCount": 32,
-      "chance": 4,
+      "chance": 0.4,
       "rarity": "uncommon",
       "displayName": "Zinc Grenade x32",
       "broadcast": false
@@ -108,7 +108,7 @@
       "item": "createdieselgenerators:track_layers_bag[createdieselgenerators:tracks={count:1024,item:\"create:track\"}]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "rare",
       "displayName": "Track Layer's Bag (1024 tracks)",
       "broadcast": false
@@ -117,7 +117,7 @@
       "item": "createdieselgenerators:oil_scanner",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 4,
+      "chance": 0.4,
       "rarity": "uncommon",
       "displayName": "Oil Scanner",
       "broadcast": false
@@ -126,7 +126,7 @@
       "item": "pipeorgans:roll_puncher",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 4,
+      "chance": 0.4,
       "rarity": "uncommon",
       "displayName": "Roll Puncher",
       "broadcast": false
@@ -135,7 +135,7 @@
       "item": "tfmg:golden_turbo",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "rare",
       "displayName": "Golden Turbo",
       "broadcast": false
@@ -144,7 +144,7 @@
       "item": "artifacts:whoopee_cushion",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "rare",
       "displayName": "Whoopee Cushion",
       "broadcast": false
@@ -153,7 +153,7 @@
       "item": "securitycraft:incognito_mask",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "rare",
       "displayName": "Incognito Mask",
       "broadcast": false
@@ -162,7 +162,7 @@
       "item": "exposure_polaroid:instant_camera",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "rare",
       "displayName": "Instant Camera",
       "broadcast": false
@@ -171,7 +171,7 @@
       "item": "supplementaries:candy",
       "minCount": 64,
       "maxCount": 64,
-      "chance": 8,
+      "chance": 0.8,
       "rarity": "common",
       "displayName": "Candy x64",
       "broadcast": false
@@ -180,7 +180,7 @@
       "item": "burgermod:fries",
       "minCount": 64,
       "maxCount": 64,
-      "chance": 10,
+      "chance": 1,
       "rarity": "common",
       "displayName": "Fries x64",
       "broadcast": false
@@ -189,7 +189,7 @@
       "item": "minecraft:enchanted_book[stored_enchantments={levels:{\"minecraft:sharpness\":3}}]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "rare",
       "displayName": "Enchanted Book - Sharpness III",
       "broadcast": false
@@ -198,7 +198,7 @@
       "item": "minecraft:enchanted_book[stored_enchantments={levels:{\"minecraft:efficiency\":3}}]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "rare",
       "displayName": "Enchanted Book - Efficiency III",
       "broadcast": false
@@ -207,7 +207,7 @@
       "item": "minecraft:enchanted_book[stored_enchantments={levels:{\"minecraft:fortune\":1}}]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "rare",
       "displayName": "Enchanted Book - Fortune I",
       "broadcast": false

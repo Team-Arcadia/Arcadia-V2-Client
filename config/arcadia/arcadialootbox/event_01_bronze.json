@@ -9,7 +9,7 @@
                           "item":  "arcadialootbox:event_key_silver",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  2,
+                          "chance":  0.2,
                           "rarity":  "legendary",
                           "displayName":  "Event Key Silver",
                           "broadcast":  true
@@ -18,7 +18,7 @@
                           "item":  "create:potato_cannon",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "common",
                           "displayName":  "Potato Cannon",
                           "broadcast":  false
@@ -27,7 +27,7 @@
                           "item":  "minecraft:potion[potion_contents={potion:\"apothic_attributes:long_flying\"}]",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "common",
                           "displayName":  "Potion",
                           "broadcast":  false
@@ -36,7 +36,7 @@
                           "item":  "farmersdelight:pumpkin_pie_slice",
                           "minCount":  32,
                           "maxCount":  32,
-                          "chance":  6,
+                          "chance":  0.6,
                           "rarity":  "common",
                           "displayName":  "Pumpkin Pie Slice x32",
                           "broadcast":  false
@@ -45,7 +45,7 @@
                           "item":  "comforts:sleeping_bag_white",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "common",
                           "displayName":  "Sleeping Bag White",
                           "broadcast":  false
@@ -54,7 +54,7 @@
                           "item":  "farmersdelight:sweet_berry_cheesecake_slice",
                           "minCount":  32,
                           "maxCount":  32,
-                          "chance":  6,
+                          "chance":  0.6,
                           "rarity":  "common",
                           "displayName":  "Sweet Berry Cheesecake Slice x32",
                           "broadcast":  false
@@ -63,7 +63,7 @@
                           "item":  "waystones:waystone",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "common",
                           "displayName":  "Waystone",
                           "broadcast":  false
@@ -72,7 +72,7 @@
                           "item":  "xpbook:xp_tome",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "common",
                           "displayName":  "Xp Tome",
                           "broadcast":  false
@@ -81,7 +81,7 @@
                           "item":  "numismatics:cog",
                           "minCount":  4,
                           "maxCount":  4,
-                          "chance":  6,
+                          "chance":  0.6,
                           "rarity":  "common",
                           "displayName":  "Cog x4",
                           "broadcast":  false
@@ -90,7 +90,7 @@
                           "item":  "arcadia:music_disc_vyrriox_patee",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "common",
                           "displayName":  "Music Disc Vyrriox Patee",
                           "broadcast":  false
@@ -99,7 +99,7 @@
                           "item":  "arcadia:music_disc_mike_le_loulou",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "common",
                           "displayName":  "Music Disc Mike Le Loulou",
                           "broadcast":  false
@@ -108,7 +108,7 @@
                           "item":  "arcadia:music_disc_janette",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "common",
                           "displayName":  "Music Disc Janette",
                           "broadcast":  false
@@ -117,7 +117,7 @@
                           "item":  "torchmaster:megatorch",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "common",
                           "displayName":  "Megatorch",
                           "broadcast":  false
@@ -126,7 +126,7 @@
                           "item":  "create_confectionery:gingerbread_man",
                           "minCount":  1,
                           "maxCount":  1,
-                          "chance":  4,
+                          "chance":  0.4,
                           "rarity":  "common",
                           "displayName":  "Gingerbread Man",
                           "broadcast":  false
@@ -135,7 +135,7 @@
                           "item":  "farmersdelight:apple_pie_slice",
                           "minCount":  32,
                           "maxCount":  32,
-                          "chance":  6,
+                          "chance":  0.6,
                           "rarity":  "common",
                           "displayName":  "Apple Pie Slice x32",
                           "broadcast":  false
@@ -144,7 +144,7 @@
                           "item":  "farmersdelight:chocolate_pie_slice",
                           "minCount":  32,
                           "maxCount":  32,
-                          "chance":  6,
+                          "chance":  0.6,
                           "rarity":  "common",
                           "displayName":  "Chocolate Pie Slice x32",
                           "broadcast":  false
@@ -153,7 +153,7 @@
                           "item":  "minecraft:baked_potato",
                           "minCount":  32,
                           "maxCount":  32,
-                          "chance":  6,
+                          "chance":  0.6,
                           "rarity":  "common",
                           "displayName":  "Baked Potato x32",
                           "broadcast":  false

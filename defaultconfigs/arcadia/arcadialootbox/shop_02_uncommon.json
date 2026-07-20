@@ -9,7 +9,7 @@
       "item": "minecraft:enchanted_book[stored_enchantments={levels:{\"minecraft:efficiency\":1}}]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "rare",
       "displayName": "Enchanted Book - Efficiency I",
       "broadcast": false
@@ -18,7 +18,7 @@
       "item": "minecraft:enchanted_book[stored_enchantments={levels:{\"minecraft:sharpness\":1}}]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "rare",
       "displayName": "Enchanted Book - Sharpness I",
       "broadcast": false
@@ -27,7 +27,7 @@
       "item": "arcadia:music_disc_boit_ton_picher",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "rare",
       "displayName": "Music Disc - Boit Ton Picher",
       "broadcast": false
@@ -36,7 +36,7 @@
       "item": "arcadia:music_disc_au_pactole",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "rare",
       "displayName": "Music Disc - Au Pactole",
       "broadcast": false
@@ -45,7 +45,7 @@
       "item": "refinedstorage:4k_storage_disk[refinedstorage:storage_reference=[I;696195808,-235126244,-1420346598,-2067397130]]",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 3,
+      "chance": 0.3,
       "rarity": "rare",
       "displayName": "4k Storage Disk",
       "broadcast": false
@@ -54,7 +54,7 @@
       "item": "minecraft:stone_hoe",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 5,
+      "chance": 0.5,
       "rarity": "common",
       "displayName": "Stone Hoe",
       "broadcast": false
@@ -63,7 +63,7 @@
       "item": "minecraft:stone_shovel",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 5,
+      "chance": 0.5,
       "rarity": "common",
       "displayName": "Stone Shovel",
       "broadcast": false
@@ -72,7 +72,7 @@
       "item": "minecraft:stone_axe",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 5,
+      "chance": 0.5,
       "rarity": "common",
       "displayName": "Stone Axe",
       "broadcast": false
@@ -81,7 +81,7 @@
       "item": "minecraft:stone_pickaxe",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 5,
+      "chance": 0.5,
       "rarity": "common",
       "displayName": "Stone Pickaxe",
       "broadcast": false
@@ -90,7 +90,7 @@
       "item": "minecraft:stone_sword",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 5,
+      "chance": 0.5,
       "rarity": "common",
       "displayName": "Stone Sword",
       "broadcast": false
@@ -99,7 +99,7 @@
       "item": "arcadialootbox:shop_key_rare",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 2,
+      "chance": 0.2,
       "rarity": "legendary",
       "displayName": "Next Tier Key (Shop)",
       "broadcast": true
@@ -108,7 +108,7 @@
       "item": "arcadia_pets:pet_pedestal",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 2,
+      "chance": 0.2,
       "rarity": "epic",
       "displayName": "Pet Pedestal",
       "broadcast": true
@@ -117,7 +117,7 @@
       "item": "arcadia_pets:fusion_altar",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 2,
+      "chance": 0.2,
       "rarity": "epic",
       "displayName": "Fusion Altar",
       "broadcast": true
@@ -126,7 +126,7 @@
       "item": "tfmg:copper_grenade",
       "minCount": 32,
       "maxCount": 32,
-      "chance": 4,
+      "chance": 0.4,
       "rarity": "uncommon",
       "displayName": "Copper Grenade x32",
       "broadcast": false
@@ -135,7 +135,7 @@
       "item": "createdieselgenerators:oil_scanner",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 4,
+      "chance": 0.4,
       "rarity": "uncommon",
       "displayName": "Oil Scanner",
       "broadcast": false
@@ -144,7 +144,7 @@
       "item": "pipeorgans:roll_puncher",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 4,
+      "chance": 0.4,
       "rarity": "uncommon",
       "displayName": "Roll Puncher",
       "broadcast": false
@@ -153,7 +153,7 @@
       "item": "crabbersdelight:pearl_necklace",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 4,
+      "chance": 0.4,
       "rarity": "uncommon",
       "displayName": "Pearl Necklace",
       "broadcast": false
@@ -162,7 +162,7 @@
       "item": "supplementaries:confetti_popper",
       "minCount": 64,
       "maxCount": 64,
-      "chance": 8,
+      "chance": 0.8,
       "rarity": "common",
       "displayName": "Confetti Popper x64",
       "broadcast": false
@@ -171,7 +171,7 @@
       "item": "supplementaries:flute",
       "minCount": 1,
       "maxCount": 1,
-      "chance": 4,
+      "chance": 0.4,
       "rarity": "uncommon",
       "displayName": "Flute",
       "broadcast": false
@@ -180,7 +180,7 @@
       "item": "supplementaries:candy",
       "minCount": 64,
       "maxCount": 64,
-      "chance": 8,
+      "chance": 0.8,
       "rarity": "common",
       "displayName": "Candy x64",
       "broadcast": false
@@ -189,7 +189,7 @@
       "item": "minecraft:bread",
       "minCount": 64,
       "maxCount": 64,
-      "chance": 10,
+      "chance": 1,
       "rarity": "common",
       "displayName": "Bread x64",
       "broadcast": false
@@ -198,7 +198,7 @@
       "item": "supplementaries:soap",
       "minCount": 64,
       "maxCount": 64,
-      "chance": 8,
+      "chance": 0.8,
       "rarity": "common",
       "displayName": "Soap x64",
       "broadcast": false
