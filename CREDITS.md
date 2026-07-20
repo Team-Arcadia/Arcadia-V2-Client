@@ -30,6 +30,8 @@ The people who made Arcadia possible.
 | **Beuzed** | Thanks for the 3D designs! |
 | **Rayzer56** | Thanks for the help with translations! |
 | **Gaspich** | Help with testing |
+| **Flypiwith** | Builder |
+| **Royal_F** | Writer |
 
 ## Special Thanks
 
@@ -75,6 +77,8 @@ Les personnes qui ont rendu Arcadia possible.
 | **Beuzed** | Merci pour les designs 3D ! |
 | **Rayzer56** | Merci pour l'aide aux traductions ! |
 | **Gaspich** | Aide aux tests |
+| **Flypiwith** | Builder |
+| **Royal_F** | Rédacteur |
 
 ## Remerciements Spéciaux
 
