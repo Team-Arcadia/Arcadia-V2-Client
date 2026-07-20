@@ -1,84 +1,82 @@
 {
-    "type":  "create:sequenced_assembly",
-    "ingredient":  {
-                       "item":  "apotheosis:gem_dust"
-                   },
-    "loops":  5,
-    "results":  [
-                    {
-                        "chance":  95,
-                        "item":  "apotheosis:common_material"
-                    },
-                    {
-                        "chance":  5,
-                        "item":  "minecraft:iron_nugget"
-                    }
-                ],
-    "sequence":  [
-                     {
-                         "type":  "create:deploying",
-                         "ingredients":  [
-                                             {
-                                                 "item":  "apotheosis_create:incomplete_common_material"
-                                             },
-                                             {
-                                                 "item":  "minecraft:iron_ingot"
-                                             }
-                                         ],
-                         "results":  [
-                                         {
-                                             "item":  "apotheosis_create:incomplete_common_material"
-                                         }
-                                     ]
-                     },
-                     {
-                         "type":  "create:filling",
-                         "ingredients":  [
-                                             {
-                                                 "item":  "apotheosis_create:incomplete_common_material"
-                                             },
-                                             {
-                                                 "fluid":  "minecraft:lava",
-                                                 "amount":  100,
-                                                 "nbt":  {
-
-                                                         }
-                                             }
-                                         ],
-                         "results":  [
-                                         {
-                                             "item":  "apotheosis_create:incomplete_common_material"
-                                         }
-                                     ]
-                     },
-                     {
-                         "type":  "create:cutting",
-                         "ingredients":  [
-                                             {
-                                                 "item":  "apotheosis_create:incomplete_common_material"
-                                             }
-                                         ],
-                         "results":  [
-                                         {
-                                             "item":  "apotheosis_create:incomplete_common_material"
-                                         }
-                                     ]
-                     },
-                     {
-                         "type":  "create:pressing",
-                         "ingredients":  [
-                                             {
-                                                 "item":  "apotheosis_create:incomplete_common_material"
-                                             }
-                                         ],
-                         "results":  [
-                                         {
-                                             "item":  "apotheosis_create:incomplete_common_material"
-                                         }
-                                     ]
-                     }
-                 ],
-    "transitionalItem":  {
-                             "item":  "apotheosis_create:incomplete_common_material"
-                         }
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "apotheosis:gem_dust"
+  },
+  "loops": 5,
+  "results": [
+    {
+      "chance": 95,
+      "id": "apotheosis:common_material"
+    },
+    {
+      "chance": 5,
+      "id": "minecraft:iron_nugget"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "apotheosis_create:incomplete_common_material"
+        },
+        {
+          "item": "minecraft:iron_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis_create:incomplete_common_material"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "apotheosis_create:incomplete_common_material"
+        },
+        {
+          "fluid": "minecraft:lava",
+          "amount": 100,
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis_create:incomplete_common_material"
+        }
+      ]
+    },
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "apotheosis_create:incomplete_common_material"
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis_create:incomplete_common_material"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "apotheosis_create:incomplete_common_material"
+        }
+      ],
+      "results": [
+        {
+          "id": "apotheosis_create:incomplete_common_material"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "apotheosis_create:incomplete_common_material"
+  }
 }
