@@ -162,7 +162,7 @@
 		#Maximum amount of blocks in a structure movable by Pistons, Bearings or other means.
 		# Default: 2048
 		# Range: > 1
-		maxBlocksMoved = 2048
+		maxBlocksMoved = 4096
 		#.
 		#Maximum value of a chassis attachment range.
 		# Default: 16
@@ -547,12 +547,12 @@
 	#Maximum length of a Train Stations' assembly track.
 	# Default: 128
 	# Range: 5 ~ 512
-	maxAssemblyLength = 128
+	maxAssemblyLength = 256
 	#.
 	#Maximum amount of bogeys assembled as a single Train.
 	# Default: 20
 	# Range: 1 ~ 200
-	maxBogeyCount = 20
+	maxBogeyCount = 40
 	#.
 	#Relative speed of a manually controlled Train compared to a Scheduled one.
 	# Default: 0.75
