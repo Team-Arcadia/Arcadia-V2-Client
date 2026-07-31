@@ -131,6 +131,40 @@ ItemEvents.modifyTooltips(event => {
         event.add(`arcadia:${id}`, Text.translate(`tooltip.arcadia.${id}`).darkRed().italic());
     });
 
+    // === STEAM 'N' RAILS CYCLE MENU ===
+    // Deco couplers and headstocks ship a single craftable model per family; every other
+    // variant is reached through the mod's radial cycle menu (hold ALT), never a recipe.
+    // Without this hint players read the missing JEI recipes as broken content.
+    const railwaysCycleRoots = [
+        'railways:link_and_pin',
+        'railways:copycat_headstock_link_and_pin',
+        'railways:wooden_headstock_link_and_pin'
+    ];
+    event.add(railwaysCycleRoots, Text.translate('tooltip.arcadia.railways_cycle_root').yellow());
+
+    const railwaysCycleVariants = [
+        'railways:link_and_pin_linkless',
+        'railways:knuckle_coupler',
+        'railways:split_knuckle_coupler',
+        'railways:screwlink_coupler',
+        'railways:copycat_headstock',
+        'railways:copycat_headstock_buffer',
+        'railways:copycat_headstock_link_and_pin_linkless',
+        'railways:copycat_headstock_knuckle_coupler',
+        'railways:copycat_headstock_split_knuckle_coupler',
+        'railways:copycat_headstock_screwlink_coupler',
+        'railways:wooden_headstock',
+        'railways:wooden_headstock_buffer',
+        'railways:wooden_headstock_link_and_pin_linkless',
+        'railways:wooden_headstock_knuckle_coupler',
+        'railways:wooden_headstock_split_knuckle_coupler',
+        'railways:wooden_headstock_screwlink_coupler'
+    ];
+    event.add(railwaysCycleVariants, [
+        Text.translate('tooltip.arcadia.railways_cycle_variant.1').gold(),
+        Text.translate('tooltip.arcadia.railways_cycle_variant.2').gray()
+    ]);
+
     // === KNOWN BUG WARNINGS ===
     // CEI Infuser corrupts potion charms into "Invalid Potion Charm"
     // (upstream: DragonsPlusMinecraft/CreateEnchantmentIndustry#464).
