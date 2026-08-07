@@ -1,0 +1,7 @@
+{
+    "_comment": "Blocks the Occultism Vitality Compass from binding to a player. Combined with an Entity Wormhole a bound compass teleports to the target or reels it in with a fishing rod, which bypasses /tpa. Mirrors the runtime addition in kubejs/server_scripts/tags/item_entity_tags.js — keep them in sync; this datapack copy is the static fallback if KubeJS fails to load.",
+    "replace": false,
+    "values": [
+        "minecraft:player"
+    ]
+}
