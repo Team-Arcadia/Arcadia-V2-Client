@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "numismatics:vendor",
+    "numismatics:creative_vendor",
+    {
+      "id": "#waystones:waystones",
+      "required": false
+    },
+    {
+      "id": "#waystones:sharestones",
+      "required": false
+    },
+    {
+      "id": "#waystones:portstones",
+      "required": false
+    }
+  ]
+}
