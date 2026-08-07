@@ -296,6 +296,18 @@ const ARCADIA_SPAWNER_DENY = new Set(ARCADIA_FARM_BLACKLIST);
 EntityEvents.checkSpawn(event => {
     // MobSpawnType.SPAWNER.toString() === 'SPAWNER' on 1.21.1; only gate spawner spawns.
     if (String(event.getType()) !== 'SPAWNER') return;
+
+    // A real spawner block reaches FinalizeSpawnEvent through
+    // EventHooks.finalizeMobSpawnSpawner, which attaches the originating block
+    // entity to the event. Blocks that roll their own spawning call plain
+    // EventHooks.finalizeMobSpawn instead, which attaches nothing — isWorldgen()
+    // is true exactly then. Twilight Forest boss spawners take that second path
+    // while still reporting reason SPAWNER, so without this guard every structure
+    // boss (Naga, Lich, Hydra, Ur-Ghast, Snow Queen...) is caught here and never
+    // spawns. Nothing is protected by cancelling those: they are one-shot
+    // structure blocks, not a farmable spawner.
+    if (event.getSpawner().isWorldgen()) return;
+
     if (ARCADIA_SPAWNER_DENY.has(String(event.entity.type))) {
         event.cancel();
     }
