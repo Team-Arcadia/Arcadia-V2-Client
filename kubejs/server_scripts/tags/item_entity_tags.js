@@ -268,6 +268,14 @@ ServerEvents.tags('entity_type', event => {
     event.add('occultism:soul_gem_deny_list', ARCADIA_FARM_BLACKLIST);
     event.add('occultism:fragile_soul_gem_deny_list', ARCADIA_FARM_BLACKLIST);
 
+    // Occultism Vitality Compass — right-clicking an entity binds the compass to it.
+    // Put that compass in an Entity Wormhole and the wormhole teleports to the bound
+    // entity, or reels it in with a fishing rod. Bound to a player that is a /tpa
+    // bypass and a forced-teleport grief vector, so players are denied outright.
+    // SoulGemItem hard-rejects Player before reading its deny list, but
+    // VitalityCompassItem has no such guard and consults the tag directly.
+    event.add('occultism:vitality_compass_deny_list', 'minecraft:player');
+
     // Supplementaries — bottle / cage / soap mob capture
     event.add('supplementaries:capture_blacklist', ARCADIA_FARM_BLACKLIST);
 
@@ -331,4 +339,4 @@ ServerEvents.tags('enchantment', event => {
     ].forEach(tag => event.remove(tag, 'create_sa:gravity_gun'));
 });
 
-console.info("[Arcadia V2] Global Tags Refined: Standardized tags + Farm protection blacklist (Apothic, Drygmy, Jar, Source Spawner, Soul Gem, Supplementaries, Carry On, Vacuum Trap) + spawner spawn safety-net + Gravity Gun enchant removed from loot tags.");
+console.info("[Arcadia V2] Global Tags Refined: Standardized tags + Farm protection blacklist (Apothic, Drygmy, Jar, Source Spawner, Soul Gem, Supplementaries, Carry On, Vacuum Trap) + Vitality Compass player lock + spawner spawn safety-net + Gravity Gun enchant removed from loot tags.");
