@@ -156,6 +156,30 @@ StartupEvents.registry('item', event => {
         .glow(true)
         .maxStackSize(1);
 
+    // ===== STELLAR FORGE CHAIN =====
+    // Harvested from the Occultism Dimensional Battlefield, refined back into the
+    // vanilla drop by a Create assembly line. See recipes/custom/star_forge_chain.js.
+
+    event.create('arcadia:star_fragment')
+        .displayName('Star Fragment')
+        .texture('arcadia:item/star_fragment')
+        .rarity('rare')
+        .glow(true);
+
+    event.create('arcadia:incomplete_nether_star')
+        .displayName('Incomplete Nether Star')
+        .texture('arcadia:item/incomplete_nether_star');
+
+    event.create('arcadia:dragon_shard')
+        .displayName('Dragon Shard')
+        .texture('arcadia:item/dragon_shard')
+        .rarity('rare')
+        .glow(true);
+
+    event.create('arcadia:incomplete_dragon_egg')
+        .displayName('Incomplete Dragon Egg')
+        .texture('arcadia:item/incomplete_dragon_egg');
+
     // ===== CROSS-MOD BRIDGE COMPONENTS =====
     // Bridge items that unify multiple mods (Create, TFMG, Mekanism, Ars Nouveau, Occultism, IE, Apotheosis).
     // Used as gate ingredients for hardened mid/late-game recipes.
