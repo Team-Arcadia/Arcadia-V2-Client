@@ -58,6 +58,16 @@ ItemEvents.modifyTooltips(event => {
         Text.translate('tooltip.arcadia.fusion_core.3').gray().italic()
     ]);
 
+    // === Stellar Forge Chain ===
+    event.add('arcadia:star_fragment', [
+        Text.translate('tooltip.arcadia.star_fragment.1').aqua(),
+        Text.translate('tooltip.arcadia.star_fragment.2').gray()
+    ]);
+    event.add('arcadia:dragon_shard', [
+        Text.translate('tooltip.arcadia.dragon_shard.1').lightPurple(),
+        Text.translate('tooltip.arcadia.dragon_shard.2').gray()
+    ]);
+
     // === CROSS-MOD BRIDGES ===
     event.add('arcadia:arcane_circuit', [
         Text.translate('tooltip.arcadia.arcane_circuit.1').aqua(),
