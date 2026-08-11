@@ -1,5 +1,5 @@
 /*
-    Handcrafted cushion duplication fix for Arcadia V2 (ticket #241).
+    Handcrafted cushion duplication fix for Arcadia V2 (tickets #241 and #234).
     Optimized for KubeJS 1.21.1 (NeoForge).
     Created by vyrriox.
 
@@ -25,7 +25,9 @@
       moved. Two arming points cover the two movers:
         - Create: a MovementAllowedCheck sees every block a contraption is about
           to capture, in the same tick as the removal. It stays neutral (PASS)
-          and only records the position.
+          and only records the position. This covers pistons, bearings, pulleys,
+          minecart contraptions and train stations alike, since every one of
+          them collects blocks through Contraption.moveBlock.
         - Vanilla pistons: PistonEvent.Pre resolves the pushed set and records
           those positions. A cheap line scan runs first so nothing is resolved
           twice on the piston farms that hold no furniture.
