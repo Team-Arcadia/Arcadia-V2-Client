@@ -8,6 +8,7 @@
 
     Currently bundled:
       - Arcadia ATM (cosmetic / utility block, uses Create premium parts)
+      - Magnetic Jammer (anti-magnet field block, see blocks/magnet_jammer.js)
       - Iron sheet hand-craft fallback (early-game unblock for recipe_overhaul gating)
 
     Author: vyrriox
@@ -27,6 +28,26 @@ ServerEvents.recipes(event => {
         S: 'minecraft:glass_pane',
         M: 'create:precision_mechanism'
     }).id('arcadia:atm_recipe');
+
+    // --- Magnetic Jammer ---
+    // Four polarised magnets pulling against four coils around a brass casing.
+    // Gated on the TFMG polarizer and winding machine plus an IE wire coil, so it lands
+    // mid-game: established enough to matter, not locked behind the fusion chain.
+    event.recipes.create.mechanical_crafting(
+        'arcadia:magnet_jammer',
+        [
+            "C   C",
+            " MWM ",
+            " WBW ",
+            " MWM ",
+            "C   C"
+        ], {
+            C: 'tfmg:electromagnetic_coil',
+            M: 'tfmg:magnet',
+            W: 'immersiveengineering:wirecoil_copper',
+            B: 'create:brass_casing'
+        }
+    ).id('arcadia:magnet_jammer_recipe');
 
     // --- Iron sheet hand-craft fallback ---
     // recipe_overhaul gates iron tools/armor behind create:iron_sheet, but
