@@ -58,6 +58,12 @@ ItemEvents.modifyTooltips(event => {
         Text.translate('tooltip.arcadia.fusion_core.3').gray().italic()
     ]);
 
+    // === Magnetic Jammer ===
+    event.add('arcadia:magnet_jammer', [
+        Text.translate('tooltip.arcadia.magnet_jammer.1').red(),
+        Text.translate('tooltip.arcadia.magnet_jammer.2').gray()
+    ]);
+
     // === Stellar Forge Chain ===
     event.add('arcadia:star_fragment', [
         Text.translate('tooltip.arcadia.star_fragment.1').aqua(),
