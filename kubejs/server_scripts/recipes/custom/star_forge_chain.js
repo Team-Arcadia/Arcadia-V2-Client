@@ -4,9 +4,10 @@
     Requires: Create, Occultism
 
     The Occultism Dimensional Battlefield hands out fragments instead of finished boss
-    drops (see items/loot/battlefield_loot.js). This line turns them back into the real
-    thing, so the automated route costs an assembly line while the boss fight itself
-    stays untouched.
+    drops: its two custom tables are overridden in
+    kubejs/data/occultism/loot_table/battlefield/minecraft/. This line turns the fragments
+    back into the real thing, so the automated route costs an assembly line while the boss
+    fight itself stays untouched.
 
     Fragment accounting: 1 fragment as the assembly base + 1 deployed per loop.
     With 3 loops that is 4 fragments per output, about 33 minutes of battlefield uptime
