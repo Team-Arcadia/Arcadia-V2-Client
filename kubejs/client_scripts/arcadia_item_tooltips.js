@@ -186,4 +186,27 @@ ItemEvents.modifyTooltips(event => {
     // (upstream: DragonsPlusMinecraft/CreateEnchantmentIndustry#464).
     // Remove this warning once the mod ships a fix.
     event.add('apotheosis:potion_charm', Text.translate('tooltip.arcadia.potion_charm_infuser_warning').red());
+
+    // === STEAM 'N' RAILS TRACK GAUGES ===
+    // Narrow, wide and monorail tracks each carry their own TrackType. Create checks the gauge
+    // only while a train rolls (Train.tick sets speed to 0 in both directions as soon as one
+    // carriage sits on an incompatible edge), never when the track is placed, and a train frozen
+    // away from a station can never be disassembled since Train.canDisassemble demands pitch 0
+    // and a yaw multiple of 90 on every carriage. The wrench relocation is the only way out and
+    // Create advertises it for derailed trains only, so the hint has to come from here.
+    // Registered last: an unexpected registry shape here must not swallow the warnings above.
+    const gaugeTracks = [];
+    Item.getTypeList().forEach(id => {
+        if (!id.startsWith('railways:track_') || id.indexOf('incomplete') !== -1) return;
+        if (id.endsWith('_narrow') || id.endsWith('_wide') || id.endsWith('_monorail')) gaugeTracks.push(id);
+    });
+    if (gaugeTracks.length > 0) {
+        event.add(gaugeTracks, [
+            Text.translate('tooltip.arcadia.railways_gauge_track.1').gold(),
+            Text.translate('tooltip.arcadia.railways_gauge_track.2').gray()
+        ]);
+    }
+
+    event.add('create:railway_casing', Text.translate('tooltip.arcadia.railways_gauge_casing').gray());
+    event.add('create:wrench', Text.translate('tooltip.arcadia.railways_stuck_train').gray());
 });
