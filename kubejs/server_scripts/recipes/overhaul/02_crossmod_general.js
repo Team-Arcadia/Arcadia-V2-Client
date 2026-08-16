@@ -819,7 +819,10 @@ ServerEvents.recipes((event) => {
     }).id('arcadia:spyglass');
 
     // --- Clock: Create cogwheel ---
-    event.remove({ output: 'minecraft:clock' });
+    // Sequenced Assembly is excluded: KubeJS treats every entry of the "results" list as an
+    // output, so a plain output filter also deletes recipes where the clock is only a random
+    // by-product (create:sequenced_assembly/precision_mechanism).
+    event.remove({ output: 'minecraft:clock', not: { type: 'create:sequenced_assembly' } });
     event.shaped('minecraft:clock', [
         ' G ',
         'GCG',
@@ -830,7 +833,10 @@ ServerEvents.recipes((event) => {
     }).id('arcadia:clock');
 
     // --- Compass: Create cogwheel ---
-    event.remove({ output: 'minecraft:compass' });
+    // Same exclusion as the clock above: the compass is a by-product of
+    // create_connected:sequenced_assembly/control_chip, and removing that recipe made the
+    // Control Chip, and therefore the Sequenced Pulse Generator, uncraftable (ticket #250).
+    event.remove({ output: 'minecraft:compass', not: { type: 'create:sequenced_assembly' } });
     event.shaped('minecraft:compass', [
         ' I ',
         'ICR',
