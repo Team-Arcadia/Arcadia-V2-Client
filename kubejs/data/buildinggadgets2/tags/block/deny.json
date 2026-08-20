@@ -1,7 +1,8 @@
 {
-    "_comment": "Ticket #252 - the Building and Copy gadgets accept an elevator as their block (players camouflage them, so one reads as an ordinary block) and the preview render then stays broken until another block is picked. GadgetUtils.isValidBlockState tests this tag, so denying elevators makes the gadgets skip them instead. Elevators stay placeable by hand.",
+    "_comment": "Blocks the Building Gadgets must never pick, copy or place. GadgetUtils.isValidBlockState tests this tag and GadgetBuilding, GadgetExchanger and the Copy mode all call it, so an entry here is refused at pick time and skipped inside a copied region; every block listed stays placeable by hand. elevatorid:elevators (ticket #252) leaves the gadget preview render broken until another block is picked, because BG2 draws through FakeRenderingWorld whose getBlockEntity fabricates a blank block entity while the elevator model needs the real one for its camouflage. refinedstorage:disk_drive keeps its disks in a block entity the gadgets do not carry, so copying or cutting one loses the storage.",
     "replace": false,
     "values": [
-        "#elevatorid:elevators"
+        "#elevatorid:elevators",
+        "refinedstorage:disk_drive"
     ]
 }

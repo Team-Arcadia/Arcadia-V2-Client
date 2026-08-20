@@ -224,10 +224,14 @@ ItemEvents.modifyTooltips(event => {
         Text.translate('tooltip.arcadia.gadget_cut_warning').gold()
     ]));
 
-    // === ELEVATOR ID x BUILDING GADGETS (ticket #252) ===
-    // Elevators sit in the buildinggadgets2:deny tag, see
+    // === BLOCKS DENIED TO THE BUILDING GADGETS ===
+    // These sit in the buildinggadgets2:deny tag, see
     // kubejs/data/buildinggadgets2/tags/block/deny.json. GadgetUtils.isValidBlockState rejects
-    // them silently, so without this line the gadget just looks broken to the player.
+    // them silently, so without these lines the gadget just looks broken to the player.
+    // Elevators come from ticket #252; the Disk Drive is denied so a copy or a cut cannot
+    // separate it from its disks.
+    event.add('refinedstorage:disk_drive', Text.translate('tooltip.arcadia.disk_drive_gadget_warning').yellow());
+
     // Registered last: an unexpected registry shape here must not swallow the warnings above.
     const elevatorBlocks = [];
     Item.getTypeList().forEach(id => {
