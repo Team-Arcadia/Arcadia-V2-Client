@@ -209,4 +209,32 @@ ItemEvents.modifyTooltips(event => {
 
     event.add('create:railway_casing', Text.translate('tooltip.arcadia.railways_gauge_casing').gray());
     event.add('create:wrench', Text.translate('tooltip.arcadia.railways_stuck_train').gray());
+
+    // === BUILDING GADGETS COPY WARNINGS ===
+    // The Copy and Cut Paste gadgets carry block states only: chest contents, Refined Storage
+    // links and machine settings never survive the round trip, and entities are skipped outright.
+    // Players read the empty result as a duping bug or as lost items, so the warning belongs here.
+    const gadgetCopyWarning = [
+        Text.translate('tooltip.arcadia.gadget_copy_warning.1').red(),
+        Text.translate('tooltip.arcadia.gadget_copy_warning.2').gray(),
+        Text.translate('tooltip.arcadia.gadget_copy_warning.3').gray()
+    ];
+    event.add('buildinggadgets2:gadget_copy_paste', gadgetCopyWarning);
+    event.add('buildinggadgets2:gadget_cut_paste', gadgetCopyWarning.concat([
+        Text.translate('tooltip.arcadia.gadget_cut_warning').gold()
+    ]));
+
+    // === ELEVATOR ID x BUILDING GADGETS (ticket #252) ===
+    // Elevators sit in the buildinggadgets2:deny tag, see
+    // kubejs/data/buildinggadgets2/tags/block/deny.json. GadgetUtils.isValidBlockState rejects
+    // them silently, so without this line the gadget just looks broken to the player.
+    // Registered last: an unexpected registry shape here must not swallow the warnings above.
+    const elevatorBlocks = [];
+    Item.getTypeList().forEach(id => {
+        if (id.startsWith('elevatorid:elevator_')) elevatorBlocks.push(id);
+    });
+    if (elevatorBlocks.length > 0) {
+        event.add(elevatorBlocks, Text.translate('tooltip.arcadia.elevator_gadget_warning').yellow());
+    }
+
 });

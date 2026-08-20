@@ -1,0 +1,7 @@
+{
+    "_comment": "Ticket #252 - the Building and Copy gadgets accept an elevator as their block (players camouflage them, so one reads as an ordinary block) and the preview render then stays broken until another block is picked. GadgetUtils.isValidBlockState tests this tag, so denying elevators makes the gadgets skip them instead. Elevators stay placeable by hand.",
+    "replace": false,
+    "values": [
+        "#elevatorid:elevators"
+    ]
+}
