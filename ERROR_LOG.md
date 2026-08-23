@@ -1,5 +1,13 @@
 # Error Log — Arcadia V2
 
+## [2026-08-23 02:00] — Pack refuses to launch after a CurseForge "Update All" (WaterMedia 2.x/3.x split)
+
+**Context:** Launching Arcadia V2 from CurseForge after a mass mod update. The launcher reported the instance as running, but `logs/latest.log` stopped after three ModLauncher lines and no crash report was produced.
+**Error:** Two distinct failures, in sequence. First, launches fired while CurseForge was still downloading in the background, so the game started against a half-written `mods/` folder (`Structory_Towers_26.2_v1.0.17.jar is not a valid mod file`, `Missing ModLoader in file`). Once the sync finished, FML stopped on version-range violations: `Mod waterframes requires watermedia 2.1.34 or above, and below 2.2 - Currently, watermedia is 3.0.0.23` and the same for `watervision`.
+**Root cause:** WaterMedia forked into two incompatible lines. WaterMedia 3.x (beta) is required by FancyMenu 3.9.6+, WATERMeDIA: Binaries 3.x and WATERMeDIA: Platform Extension, while WaterFrames and WaterVision are still capped at `[2.1.x,2.2)` on NeoForge 1.21.1 — the WaterMedia v3 rewrite of WaterFrames (2.2.0-beta) only exists for Forge 1.20.1. "Update All" pulled the 3.x half of the family and left the 2.x half stranded. The empty log was misleading: nothing was wrong with the JVM, FML simply had not reached its file appender before dying on the partial mod folder.
+**Fix:** Pinned the whole family to the WaterMedia 2.1.x line, which keeps WaterFrames and WaterVision working: watermedia 2.1.37, watermedia_youtube_plugin 2.1.2, fancymenu 3.9.1 (last build with no watermedia dependency at all), drippyloadingscreen 3.1.2 (fancymenu `[3.9.0,)`, whereas 3.1.5 needs `[3.9.9,)`). Removed watermedia_binaries 3.0.0.6 and watermedia_platform_extension 3.0.0-beta.7, both 3.x-only; WaterMedia 2.1.37 ships its binaries in-jar.
+**Prevention:** Never launch while CurseForge is still syncing — check that `mods/` file timestamps have settled first. Before accepting a bulk update, extract `META-INF/neoforge.mods.toml` from the changed jars and diff the `versionRange` entries of any shared library (WaterMedia, Sodium, Create, SuperMartijn642 Core) against every dependent still installed. Reproducing a silent launch failure is done by replaying the launcher command line from `logs/instance_audit.txt` in a terminal: CurseForge captures stdout only, and the real cause is on stderr.
+
 ## [2026-07-20 16:39] — Client crash on Video Settings click (Reese's Sodium Options wrong MC version)
 
 **Context:** Client crashed with a `mouseClicked event handler` crash when clicking a button in the Video Settings screen (opening the Sodium options GUI).
