@@ -238,7 +238,7 @@ PlayerEvents.inventoryChanged(event => {
 
   if (BANNED_SET.has(id) || id.startsWith('supplementaries:cannon_boat')) {
     removeBannedFromPlayer(event.player);
-    event.player.tell(Text.red('\u26D4 Banned Item removed from your inventory!'));
+    event.player.tell(Text.red('[Arcadia] Objet banni retiré de votre inventaire ! | Banned item removed from your inventory!'));
   }
 });
 
@@ -255,7 +255,7 @@ ServerEvents.tick(event => {
 
   event.server.players.forEach(player => {
     if (removeBannedFromPlayer(player)) {
-      player.tell(Text.red('\u26D4 Banned Item removed from your inventory!'));
+      player.tell(Text.red('[Arcadia] Objet banni retiré de votre inventaire ! | Banned item removed from your inventory!'));
     }
   });
 });
