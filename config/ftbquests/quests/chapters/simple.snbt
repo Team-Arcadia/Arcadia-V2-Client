@@ -232,14 +232,14 @@
 					id: "7557537536E410E8"
 					item: {
 						count: 1
-						id: "simplyswords:contained_remnant"
+						id: "simplyswords:runic_tablet"
 					}
 					type: "item"
 				}
 				{
 					id: "55465B0F3656907D"
 					type: "xp"
-					xp: 100
+					xp: 150
 				}
 			]
 			shape: "gear"
@@ -258,14 +258,6 @@
 			rewards: [
 				{
 					id: "1570D218D8345F15"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "2DA2EBC1535E4088"
 					type: "xp"
 					xp: 200
 				}
@@ -285,14 +277,6 @@
 			rewards: [
 				{
 					id: "1412A80279F86F08"
-					item: {
-						count: 1
-						id: "simplyswords:tampered_remnant"
-					}
-					type: "item"
-				}
-				{
-					id: "350D5AC436BF052C"
 					type: "xp"
 					xp: 200
 				}
@@ -311,14 +295,6 @@
 			rewards: [
 				{
 					id: "6658BCAFFE2A368C"
-					item: {
-						count: 1
-						id: "simplyswords:contained_remnant"
-					}
-					type: "item"
-				}
-				{
-					id: "2E0F207DEA02B323"
 					type: "xp"
 					xp: 200
 				}
@@ -337,14 +313,6 @@
 			rewards: [
 				{
 					id: "5E89DB1836631298"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "1AF4C660E2DA3F30"
 					type: "xp"
 					xp: 200
 				}
@@ -374,7 +342,7 @@
 				{
 					id: "440DAC3BCB20D0B8"
 					type: "xp"
-					xp: 300
+					xp: 1000
 				}
 			]
 			shape: "gear"
@@ -465,14 +433,6 @@
 			rewards: [
 				{
 					id: "340A8994E8F5F057"
-					item: {
-						count: 1
-						id: "simplyswords:tampered_remnant"
-					}
-					type: "item"
-				}
-				{
-					id: "31998B3BBAF58BD3"
 					type: "xp"
 					xp: 200
 				}
@@ -495,7 +455,7 @@
 					id: "6D8B75896F8FCE88"
 					item: {
 						count: 1
-						id: "simplyswords:contained_remnant"
+						id: "simplyswords:empowered_remnant"
 					}
 					type: "item"
 				}
@@ -529,7 +489,7 @@
 				{
 					id: "2BBDCBAE768BD250"
 					type: "xp"
-					xp: 400
+					xp: 1500
 				}
 			]
 			size: 2.0d
@@ -739,16 +699,8 @@
 			rewards: [
 				{
 					id: "158B977B60AF944B"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "233097D91FFDCE7E"
 					type: "xp"
-					xp: 100
+					xp: 300
 				}
 			]
 			shape: "rsquare"
@@ -838,16 +790,8 @@
 			rewards: [
 				{
 					id: "1938B7B3FFE4B9F0"
-					item: {
-						count: 1
-						id: "simplyswords:empowered_remnant"
-					}
-					type: "item"
-				}
-				{
-					id: "187A402B0FD99A09"
 					type: "xp"
-					xp: 100
+					xp: 400
 				}
 			]
 			shape: "diamond"
@@ -937,16 +881,8 @@
 			rewards: [
 				{
 					id: "7B68500257728107"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
-				}
-				{
-					id: "526620D7A40DF0A0"
 					type: "xp"
-					xp: 100
+					xp: 600
 				}
 			]
 			shape: "pentagon"
@@ -1038,14 +974,14 @@
 					id: "35412B4B06D4551E"
 					item: {
 						count: 1
-						id: "simplyswords:empowered_remnant"
+						id: "simplyswords:runic_tablet"
 					}
 					type: "item"
 				}
 				{
 					id: "667ED61CFB85715B"
 					type: "xp"
-					xp: 100
+					xp: 800
 				}
 			]
 			shape: "octagon"
@@ -1135,16 +1071,8 @@
 			rewards: [
 				{
 					id: "1A1A240B3A61EF6F"
-					item: {
-						count: 1
-						id: "simplyswords:runefused_gem"
-					}
-					type: "item"
-				}
-				{
-					id: "6EB3E0AA69A4D84F"
 					type: "xp"
-					xp: 100
+					xp: 200
 				}
 			]
 			shape: "circle"
@@ -1162,16 +1090,8 @@
 			rewards: [
 				{
 					id: "30772A0F4AE10FF1"
-					item: {
-						count: 1
-						id: "simplyswords:netherfused_gem"
-					}
-					type: "item"
-				}
-				{
-					id: "61CB6A0AB20E3853"
 					type: "xp"
-					xp: 150
+					xp: 300
 				}
 			]
 			tasks: [{
@@ -1188,16 +1108,16 @@
 			rewards: [
 				{
 					id: "73B335918EF1F4F9"
-					type: "xp"
-					xp: 200
+					item: {
+						count: 1
+						id: "simplyswords:runic_tablet"
+					}
+					type: "item"
 				}
 				{
 					id: "0E533D55DD396964"
-					item: {
-						count: 1
-						id: "simplyswords:empowered_remnant"
-					}
-					type: "item"
+					type: "xp"
+					xp: 500
 				}
 			]
 			tasks: [{
@@ -1214,16 +1134,8 @@
 			rewards: [
 				{
 					id: "407B06A948C62739"
-					item: {
-						count: 1
-						id: "simplyswords:runefused_gem"
-					}
-					type: "item"
-				}
-				{
-					id: "725C864B89368F32"
 					type: "xp"
-					xp: 100
+					xp: 200
 				}
 			]
 			tasks: [{
@@ -1240,16 +1152,8 @@
 			rewards: [
 				{
 					id: "59D9F29B89509082"
-					item: {
-						count: 1
-						id: "simplyswords:netherfused_gem"
-					}
-					type: "item"
-				}
-				{
-					id: "4A36726E1AA2F7EC"
 					type: "xp"
-					xp: 150
+					xp: 300
 				}
 			]
 			tasks: [{
@@ -1266,16 +1170,8 @@
 			rewards: [
 				{
 					id: "66B7A1C791C4809F"
-					item: {
-						count: 1
-						id: "simplyswords:runefused_gem"
-					}
-					type: "item"
-				}
-				{
-					id: "369F84F2EACD4843"
 					type: "xp"
-					xp: 150
+					xp: 300
 				}
 			]
 			tasks: [{
@@ -1293,15 +1189,7 @@
 				{
 					id: "123A5806227C31C8"
 					type: "xp"
-					xp: 200
-				}
-				{
-					id: "02C47CFB6EE2DC58"
-					item: {
-						count: 1
-						id: "simplyswords:empowered_remnant"
-					}
-					type: "item"
+					xp: 250
 				}
 			]
 			tasks: [{
@@ -1319,15 +1207,7 @@
 				{
 					id: "352ABEA2617C5D21"
 					type: "xp"
-					xp: 200
-				}
-				{
-					id: "0F5BB6CFBD3DAE39"
-					item: {
-						count: 1
-						id: "simplyswords:empowered_remnant"
-					}
-					type: "item"
+					xp: 250
 				}
 			]
 			tasks: [{
@@ -1350,15 +1230,7 @@
 				{
 					id: "56B9F49E285E817D"
 					type: "xp"
-					xp: 200
-				}
-				{
-					id: "059BFB17906A4DA1"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
+					xp: 400
 				}
 			]
 			size: 2.0d
@@ -1424,15 +1296,7 @@
 				{
 					id: "7F647001C7D7829B"
 					type: "xp"
-					xp: 200
-				}
-				{
-					id: "281559EE0C20959A"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
+					xp: 400
 				}
 			]
 			size: 2.0d
@@ -1503,15 +1367,7 @@
 				{
 					id: "2F4C630589A500FE"
 					type: "xp"
-					xp: 200
-				}
-				{
-					id: "4CC82E21947D8593"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
+					xp: 300
 				}
 			]
 			size: 2.0d
@@ -1557,15 +1413,7 @@
 				{
 					id: "5FC5555030C35F10"
 					type: "xp"
-					xp: 200
-				}
-				{
-					id: "7208DDD10F527CC4"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
+					xp: 250
 				}
 			]
 			size: 2.0d
@@ -1601,15 +1449,7 @@
 				{
 					id: "39364367B356D981"
 					type: "xp"
-					xp: 200
-				}
-				{
-					id: "3B8EFB43EB1D259A"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
+					xp: 250
 				}
 			]
 			size: 2.0d
@@ -1645,15 +1485,7 @@
 				{
 					id: "78AE2244129DC69C"
 					type: "xp"
-					xp: 200
-				}
-				{
-					id: "308B3E6C1C215B04"
-					item: {
-						count: 1
-						id: "simplyswords:runic_tablet"
-					}
-					type: "item"
+					xp: 350
 				}
 			]
 			size: 2.0d

@@ -4,6 +4,18 @@ All notable changes to Arcadia V2 - Echoes Of Power are documented here, by date
 
 ---
 
+## 2026-08-27
+
+### Changed
+
+- **Simply Swords quest rewards rebalanced** — The chapter handed out 10 Runic Tablets, 4 Runefused Gems, 3 Netherfused Gems, 5 Empowered Remnants, 3 Contained Remnants and 2 Tampered Remnants for free. Contained and Tampered Remnants turn into random unique weapons on their own, and tablets are otherwise loot-only, so the chapter was worth roughly four free uniques plus ten runic crafts or re-rolls per player. Since `default_consume_items` is `false` and rewards are per-player, a single shared set of weapons unlocked the whole chapter for an entire team. Rewards are now 3 Runic Tablets, 1 Runefused Gem, 1 Netherfused Gem and 1 Empowered Remnant total, all placed on real capstones (Runic Grimoire, netherite set, runic set, full unique collection, Awakened Lichblade, end of the remnant chain). Remnants that spawn weapons are gone entirely. Quest XP rises from 3,450 to 10,200 across the chapter to keep completion worth doing.
+
+### Modifications
+
+- **Recompenses du quest book Simply Swords rebalancees** — Le chapitre distribuait gratuitement 10 Tablettes Runiques, 4 Gemmes Runefusionnees, 3 Gemmes Netherfusionnees, 5 Reliquats Renforces, 3 Reliquats Contenus et 2 Reliquats Falsifies. Les Reliquats Contenus et Falsifies se transforment tout seuls en armes uniques aleatoires, et les tablettes ne s'obtiennent autrement qu'en loot : le chapitre valait donc environ quatre uniques gratuites plus dix crafts ou re-rolls runiques par joueur. Comme `default_consume_items` vaut `false` et que les recompenses sont individuelles, un seul jeu d'armes partage debloquait tout le chapitre pour une equipe entiere. Les recompenses passent a 3 Tablettes Runiques, 1 Gemme Runefusionnee, 1 Gemme Netherfusionnee et 1 Reliquat Renforce au total, tous places sur de vrais paliers (Grimoire Runique, panoplie netherite, panoplie runique, collection unique complete, Lame de la liche eveillee, fin de la chaine des reliquats). Les reliquats qui generent des armes sont supprimes. L'XP du chapitre passe de 3 450 a 10 200 pour que la completion reste interessante.
+
+---
+
 ## 2026-08-11
 
 ### Added
