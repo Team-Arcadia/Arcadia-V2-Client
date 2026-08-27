@@ -56,7 +56,7 @@ function stripFromPlayer(player) {
 // (to avoid TPS impact on a 30-50 player server).
 PlayerEvents.inventoryChanged(event => {
   if (stripFromStack(event.item)) {
-    event.player.tell(Text.yellow('⚠ Life Mending retire des gants Aether (bug connu - crash quand soigne).'));
+    event.player.tell(Text.yellow('[Arcadia] Life Mending retiré des gants Aether (bug connu, crash au soin). | Life Mending removed from the Aether gloves (known crash on heal).'));
     event.player.inventoryMenu.broadcastChanges();
   }
 });

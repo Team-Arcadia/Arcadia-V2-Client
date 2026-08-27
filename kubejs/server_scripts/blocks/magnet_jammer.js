@@ -121,7 +121,7 @@ BlockEvents.broken(JAMMER_ID, event => {
     if (jammers.length !== before) {
         saveJammers(server);
         if (player) {
-            player.tell(Text.gray('[Arcadia] Champ anti-aimant retire. | Anti-magnet field removed.'));
+            player.tell(Text.gray('[Arcadia] Champ anti-aimant retiré. | Anti-magnet field removed.'));
         }
     }
 });
