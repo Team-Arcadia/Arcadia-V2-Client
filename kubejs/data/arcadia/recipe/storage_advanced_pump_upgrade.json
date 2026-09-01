@@ -1,0 +1,37 @@
+{
+    "_comment": "Ticket #268, see storage_pump_upgrade.json for why Sophisticated Storage ships no recipe here. Mirrors sophisticatedbackpacks:advanced_pump_upgrade with the storage pump as the base.",
+    "neoforge:conditions": [
+        {
+            "type": "sophisticatedcore:item_enabled",
+            "itemRegistryName": "sophisticatedstorage:advanced_pump_upgrade"
+        }
+    ],
+    "type": "sophisticatedcore:upgrade_next_tier",
+    "category": "misc",
+    "key": {
+        "D": {
+            "tag": "c:gems/diamond"
+        },
+        "G": {
+            "tag": "c:ingots/gold"
+        },
+        "I": {
+            "item": "minecraft:dispenser"
+        },
+        "P": {
+            "item": "sophisticatedstorage:pump_upgrade"
+        },
+        "R": {
+            "tag": "c:dusts/redstone"
+        }
+    },
+    "pattern": [
+        "DID",
+        "GPG",
+        "RRR"
+    ],
+    "result": {
+        "count": 1,
+        "id": "sophisticatedstorage:advanced_pump_upgrade"
+    }
+}

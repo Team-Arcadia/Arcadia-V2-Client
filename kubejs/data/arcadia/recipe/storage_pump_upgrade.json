@@ -1,0 +1,37 @@
+{
+    "_comment": "Ticket #268. Sophisticated Storage registers pump_upgrade, advanced_pump_upgrade and xp_pump_upgrade in ModItems and enables all three in sophisticatedcore-common.toml, but ships no recipe for any of them, in either direction of its usual storage<->backpack conversion pairs. The reason is upstream: PumpUpgradeWrapper and XpPumpUpgradeWrapper both read IStorageWrapper.getFluidHandler(), whose default body returns Optional.empty(); Sophisticated Backpacks overrides it through its Tank Upgrade, Sophisticated Storage never does and has no Tank Upgrade at all. These three upgrades are therefore inert in a chest or barrel. Recipes added anyway on request, mirroring the Sophisticated Backpacks recipe for the same item with the storage upgrade base, so the quest chain in config/ftbquests/quests/chapters/sophisticated.snbt stops being a dead end. Kept in the arcadia namespace rather than sophisticatedstorage so a future mod release that ships its own recipe is not silently overridden.",
+    "neoforge:conditions": [
+        {
+            "type": "sophisticatedcore:item_enabled",
+            "itemRegistryName": "sophisticatedstorage:pump_upgrade"
+        }
+    ],
+    "type": "sophisticatedcore:upgrade_next_tier",
+    "category": "misc",
+    "key": {
+        "B": {
+            "item": "sophisticatedstorage:upgrade_base"
+        },
+        "G": {
+            "tag": "c:glass_blocks"
+        },
+        "P": {
+            "item": "minecraft:piston"
+        },
+        "S": {
+            "item": "minecraft:sticky_piston"
+        },
+        "U": {
+            "item": "minecraft:bucket"
+        }
+    },
+    "pattern": [
+        "GUG",
+        "PBS",
+        "GUG"
+    ],
+    "result": {
+        "count": 1,
+        "id": "sophisticatedstorage:pump_upgrade"
+    }
+}
