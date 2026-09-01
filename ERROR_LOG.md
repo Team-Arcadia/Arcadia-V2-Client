@@ -1,5 +1,13 @@
 # Error Log — Arcadia V2
 
+## [2026-09-01 14:00] — Jar audit returned a false negative (unzip wildcard silently matched nothing)
+
+**Context:** Auditing all 443 jars for the producer of an item, while tracing the missing Shadow Casing recipe (ticket #269). The sweep used `for j in *.jar; do unzip -p "$j" 'data/*' | grep -qa "cinder_flour" && echo HIT; done`.
+**Error:** The sweep reported zero hits. `create-1.21.1-6.0.10.jar` alone contains four files with that string, so the correct answer was at least one hit. Read literally, the result said Cinder Flour had no source in the pack and Blaze Cake was uncraftable, which would have sent the fix down the wrong road.
+**Root cause:** Two compounding faults. Git Bash rewrites any argument containing a slash into a Windows path, so `data/*` never reached unzip intact; and this unzip build does not let `*` cross a `/` anyway, so even a preserved `data/*` would only match one directory level. `unzip -p` prints nothing and exits 0 when a pattern matches no entry, so the pipeline stayed silent and the loop looked healthy.
+**Fix:** Re-ran the audit with a Python `zipfile` walk over `z.namelist()`, filtering on `data/` and `.json` and reading each entry. That found the real source immediately (`data/create/recipe/crushing/netherrack.json`) plus the true absence of any `chromatic_compound` producer.
+**Prevention:** Never audit jar contents with `unzip -p jar 'pattern'` under Git Bash. Use Python `zipfile` for anything recursive; `unzip -l` (no path argument) and `unzip -p jar <full/exact/path>` are safe because neither relies on a wildcard crossing directories. Any sweep that reports zero hits must first be validated against a jar known to contain the string, otherwise a silent no-match is indistinguishable from a real absence.
+
 ## [2026-08-23 02:00] — Pack refuses to launch after a CurseForge "Update All" (WaterMedia 2.x/3.x split)
 
 **Context:** Launching Arcadia V2 from CurseForge after a mass mod update. The launcher reported the instance as running, but `logs/latest.log` stopped after three ModLauncher lines and no crash report was produced.

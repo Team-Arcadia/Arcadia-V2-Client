@@ -67,6 +67,7 @@ kubejs/
 │   │   ├── create/
 │   │   │   ├── netherite_sequenced_assembly.js     # Netherite block decrafting via sequenced assembly
 │   │   │   ├── precision_mechanism_fix.js          # Fix Create 6.0.10 bug #10203 (tag Either-codec)
+│   │   │   ├── chromatic_chain.js                  # Reopens the chromatic chain (compound + shadow/radiant casings)
 │   │   │   └── create_things_and_misc_fix.js       # Auto-rebuilds 39 recipes broken in 1.21 (legacy format)
 │   │   ├── custom/
 │   │   │   ├── misc_custom_crafts.js               # ATM recipe + iron_sheet hand-craft fallback (early-game unblock)
@@ -248,6 +249,7 @@ Several broken recipes from mod authors fixed via KubeJS:
 | **Create Precision Mechanism** | `recipes/create/precision_mechanism_fix.js` | Create 6.0.10 bug #10203 (tag Either-codec) |
 | **create_things_and_misc** (39 recipes) | `recipes/create/create_things_and_misc_fix.js` | Legacy 1.20 format (`result.item` → `result.id`) + numeric pattern keys + `forge:` tags |
 | **Netherite decrafting** | `recipes/create/netherite_sequenced_assembly.js` | Allows turning Netherite Block back into 9 ingots (4 loops) |
+| **Chromatic chain** | `recipes/create/chromatic_chain.js` | Create 6.0.10 registers Chromatic Compound / Shadow / Radiant casings but ships no recipe for them, leaving 44 Create Encased blocks unobtainable (ticket #269) |
 | **Occult Engineering Pulverizer dupe** | `fixes/compat/occultengineering_pulverizer_dupe_fix.js` | Removes broken `upgrade_tier` recipe (shift-craft duped output), replaces with 6 explicit shapeless tier transitions |
 | **Creeper lightning charge** | `fixes/compat/creeper_lightning_charge_fix.js` | Safety net: any lightning-typed damage (`msgId` contains "lightning") forces `powered=true` on surviving creepers — covers vanilla bolts + ISS lightning spells |
 | **Iron sheet hand-craft fallback** | `recipes/custom/misc_custom_crafts.js` | Adds 3 iron_ingot → 1 iron_sheet vanilla craft so solo players are not gated by the Mechanical Press for their first iron tools |
