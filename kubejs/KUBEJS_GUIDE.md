@@ -138,6 +138,7 @@ Files in `kubejs/data/<namespace>/...` override vanilla/mod JSON files at the sa
 - **Vanilla enchantable tag** — removes 53 custom Arcadia items from `minecraft:enchantable/durability` (NeoForge `remove` field)
 - **Block relocation lock** — `tfmg:oil_deposit`, `large_switch` and `large_transformer` added to `c:relocation_not_supported` and, redundantly, to `ars_nouveau:gravity_blacklist` (ticket #270)
 - **Sophisticated Storage pump upgrades** — three recipes in `data/arcadia/recipe/` for items the mod registers but never gives a recipe (ticket #268)
+- **Building Gadgets deny list** — `data/buildinggadgets2/tags/block/deny.json`: elevators (#252), Refined Storage disk drive, and the 36 Sophisticated Storage barrels and chests (#255)
 
 ## Custom Content Registry
 
@@ -257,6 +258,7 @@ Several broken recipes from mod authors fixed via KubeJS:
 | **Iron sheet hand-craft fallback** | `recipes/custom/misc_custom_crafts.js` | Adds 3 iron_ingot → 1 iron_sheet vanilla craft so solo players are not gated by the Mechanical Press for their first iron tools |
 | **Oil Deposit relocation exploit** | `data/c/tags/block/relocation_not_supported.json` + `data/ars_nouveau/tags/block/gravity_blacklist.json` | Animate Block moved a TFMG Oil Deposit to the surface, skipping the pipe run; TFMG had only declared the block in `create:non_movable` (ticket #270) |
 | **Sophisticated Storage pump upgrades** | `data/arcadia/recipe/storage_*_pump_upgrade.json` | Items registered and config-enabled but shipped with no recipe, blocking a quest chain. They stay inert in a chest: Storage never overrides `IStorageWrapper.getFluidHandler()` and has no Tank Upgrade, so there is nothing for them to pump (ticket #268) |
+| **Copy/Paste turned barrels acacia** | `data/buildinggadgets2/tags/block/deny.json` | Sophisticated Storage keeps the wood type in the block entity, which `GadgetCopyPaste` does not record, so a pasted barrel fell back to `WoodType.ACACIA`. Cut and Paste is unaffected and still carries the block entity (ticket #255) |
 
 ## Recipe Overhaul Split (`recipes/overhaul/`)
 
