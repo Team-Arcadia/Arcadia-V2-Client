@@ -1,0 +1,8 @@
+{
+    "_comment": "Ticket #266: the Endersoul Hand lifted a Twilight Forest Trophy Pedestal out of a boss arena and dropped it as an item. MutantEnderman.canBlockBeHeld only rejects a block when it has a block entity or sits in this tag, and the shipped tag is a short vanilla list (barrier, bedrock, portals, command blocks, structure block, jigsaw, obsidian, respawn anchor, reinforced deepslate). Twilight Forest already declares everything it wants left alone in twilightforest:common_protections, so including that tag hands the Endersoul Hand the mod's own intent instead of a hand-typed list. The nine boss spawners, the skull chest and the keepsake casket were never at risk because they all have block entities; what was exposed is the trophy pedestal plus stronghold_shield, the two vanishing blocks and the five force fields, none of which have one. c:relocation_not_supported is included for the same reason (ticket #270): it holds the TFMG oil deposit, which has no block entity either and was liftable by this item through a second route.",
+    "replace": false,
+    "values": [
+        "#twilightforest:common_protections",
+        "#c:relocation_not_supported"
+    ]
+}
