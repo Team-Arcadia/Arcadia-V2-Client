@@ -340,6 +340,35 @@ Bug joueur : impossible de presser des plaques d'acier IE avec la Mechanical Pre
   plaque IE (recette compat Create, 1:1, comme le Metal Press IE). Pas de nouveau vecteur
   d'arbitrage : les plaques sont terminales (pas de retour plaque → lingot).
 
+### 5.24 Chaîne chromatique Create rouverte (ticket #269)
+Bug joueur : le craft du Shadow Casing est introuvable sur les serveurs.
+- Cause : Create 6.0.10 enregistre toujours Chromatic Compound, Refined Radiance, Shadow Steel
+  et leurs deux casings, garde le code de conversion in-world
+  (`content/legacy/ChromaticCompoundItem`) et ses trois switches dans `create-server.toml`
+  (`enableRefinedRadianceRecipe`, `enableShadowSteelRecipe`,
+  `lightSourceCountForRefinedRadiance`), mais le jar ne contient plus aucune recette
+  produisant `create:chromatic_compound`, `create:shadow_steel_casing` ni
+  `create:refined_radiance_casing`. Ce n'est pas un retrait Arcadia.
+- Impact : Create Encased fournit 44 recettes de machines qui consomment ces deux casings.
+  Toutes les variantes Shadow Steel et Refined Radiance étaient donc du contenu mort. Sur les
+  443 jars, la seule source de Chromatic Compound était la loot table `epic_chest` de
+  create_easy_structures.
+- Fix : `kubejs/server_scripts/recipes/create/chromatic_chain.js`
+  - `arcadia:chromatic_compound` — Mixing **superheated** : Cinder Flour + Powdered Obsidian
+    (ingrédients d'origine Create 0.5 ; le fichier upstream ayant disparu, la valeur
+    `superheated` est une reconstruction, pas une copie vérifiée).
+  - `arcadia:shadow_steel_casing` — Item Application : Brass Casing + Shadow Steel
+  - `arcadia:refined_radiance_casing` — Item Application : Brass Casing + Refined Radiance
+  - Les deux Item Application calquent `create:item_application/railway_casing`
+    (Brass Casing + plaque d'obsidienne), donc automatisables au Deployer.
+- Étapes 2 et 3 non scriptées : Create convertit lui-même le compound lâché au sol
+  (10 sources de lumière dévorées → Refined Radiance ; chute sous le plancher du monde →
+  Shadow Steel). Rien à déclarer, les deux switches sont déjà à `true`.
+- Sources amont : Cinder Flour = crushing netherrack ; Powdered Obsidian = crushing obsidienne.
+  Aucun des deux items n'est sur une liste de ban.
+- Levier de balance : le compound est volontairement resté au coût upstream. Si la tier Shadow
+  Steel doit coûter plus cher, c'est cette recette qu'il faut durcir, pas les casings.
+
 ---
 
 ## 6. CROSS-MOD BRIDGE COMPONENTS (custom Arcadia items)

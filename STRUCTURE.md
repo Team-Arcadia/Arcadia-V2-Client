@@ -109,7 +109,7 @@ kubejs/
 │   │                        Create addons, storage/flux, magic, adventure,
 │   │                        steel arbitrage lock
 │   ├── recipes/create/      Netherite sequenced assembly, precision mechanism fix,
-│   │                        create things & misc rebuilds
+│   │                        create things & misc rebuilds, chromatic chain
 │   ├── recipes/custom/      Fusion Core chain (5 tiers, 9x9 final), Adept/Heretic
 │   │                        armor, misc crafts
 │   ├── items/banned/        recipe_remover (152 bans), inventory_scanner,
@@ -270,7 +270,7 @@ kubejs/
 │   │                        addons Create, stockage/flux, magie, aventure,
 │   │                        verrou arbitrage acier
 │   ├── recipes/create/      Assemblage séquencé netherite, fix precision mechanism,
-│   │                        reconstructions create things & misc
+│   │                        reconstructions create things & misc, chaîne chromatique
 │   ├── recipes/custom/      Chaîne Fusion Core (5 tiers, 9x9 final), armures
 │   │                        Adept/Heretic, crafts divers
 │   ├── items/banned/        recipe_remover (152 bans), inventory_scanner,

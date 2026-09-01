@@ -4,6 +4,18 @@ All notable changes to Arcadia V2 - Echoes Of Power are documented here, by date
 
 ---
 
+## 2026-09-01
+
+### Added
+
+- **Create chromatic chain reopened** — Create 6.0.10 still registers Chromatic Compound, Refined Radiance, Shadow Steel and the Shadow and Radiant Casings, still ships the in-world conversion code, and still exposes `enableRefinedRadianceRecipe`, `enableShadowSteelRecipe` and `lightSourceCountForRefinedRadiance` in `create-server.toml`, but the jar no longer carries a single recipe producing any of them. Create Encased builds 44 machine variants on those two casings, so the whole Shadow Steel and Refined Radiance tier was unobtainable: across all 443 jars the only source of a Chromatic Compound was one epic chest loot table. Chromatic Compound is back as a superheated Mixing of Cinder Flour and Powdered Obsidian, and the two casings are made by Item Application on a Brass Casing, the same shape Create uses for its own Railway Casing, so both automate with a Deployer. Refined Radiance and Shadow Steel need no recipe: Create converts the dropped compound itself, through light sources or a fall past the world floor.
+
+### Ajouts
+
+- **Chaine chromatique de Create rouverte** — Create 6.0.10 enregistre toujours le Compose Chromatique, la Radiance Raffinee, l'Acier des Ombres et les chassis Ombre et Radiant, embarque toujours le code de conversion au sol, et expose toujours `enableRefinedRadianceRecipe`, `enableShadowSteelRecipe` et `lightSourceCountForRefinedRadiance` dans `create-server.toml`, mais le jar ne contient plus aucune recette qui en produise. Create Encased construit 44 variantes de machines sur ces deux chassis : toute la tier Acier des Ombres et Radiance Raffinee etait donc inatteignable, et sur les 443 jars la seule source de Compose Chromatique etait une loot table de coffre epique. Le Compose Chromatique revient par un Mixing surchauffe de Farine de Cendres et de Poudre d'Obsidienne, et les deux chassis se font par Application d'Objet sur un Chassis en Laiton, la forme que Create emploie deja pour son propre Chassis Ferroviaire, donc automatisables au Deployeur. La Radiance Raffinee et l'Acier des Ombres n'ont besoin d'aucune recette : Create convertit lui-meme le compose lache au sol, par les sources de lumiere ou par une chute sous le plancher du monde.
+
+---
+
 ## 2026-08-27
 
 ### Changed
