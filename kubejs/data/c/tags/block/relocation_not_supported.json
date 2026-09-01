@@ -1,0 +1,9 @@
+{
+    "_comment": "Ticket #270: Ars Nouveau's Animate Block spell relocated a TFMG Oil Deposit to the surface. EffectAnimate.onResolveBlock gates on EnchantedFallingBlock.canFall, which tests the ars_nouveau:gravity_blacklist block tag; that tag already includes #c:relocation_not_supported, so one entry here closes Animate Block and the Gravity glyph at once, plus the Mekanism Cardboard Box (mekanism:cardboard_blacklist includes the same tag). TFMG had already declared these three blocks in create:non_movable, which only covers Create contraptions, and never added them to the cross-mod convention tag. tfmg:oil_deposit has an empty loot table and no block entity, so it cannot be picked up legitimately and its remaining oil is chunk data, not block data: moving the marker is purely a way to skip the industrial pipe run down to the deposit. large_switch and large_transformer are the other two blocks TFMG marked non-movable, both multiblock parts that break when displaced.",
+    "replace": false,
+    "values": [
+        "tfmg:oil_deposit",
+        "tfmg:large_switch",
+        "tfmg:large_transformer"
+    ]
+}
