@@ -369,6 +369,43 @@ Bug joueur : le craft du Shadow Casing est introuvable sur les serveurs.
 - Levier de balance : le compound est volontairement resté au coût upstream. Si la tier Shadow
   Steel doit coûter plus cher, c'est cette recette qu'il faut durcir, pas les casings.
 
+### 5.25 Upgrades pompe Sophisticated Storage rendues craftables (ticket #268)
+Bug joueur : les upgrades Pump, Advanced Pump et Experience Pump de Sophisticated Storage sont
+dans le quest book mais introuvables en craft.
+- Constat : les trois items sont bien enregistrés (`ModItems`), ont modèle, texture, lang, et
+  sont à `true` dans `enabledItems` de `config/sophisticatedcore-common.toml`. Mais sur les
+  443 jars, aucune recette ne les produit. Le jar de Sophisticated Storage embarque 347
+  recettes, dont une paire de conversion `storage_X_from_backpack_X` /
+  `backpack_X_from_storage_X` pour chaque upgrade partagé : pour les pompes, rien, dans aucun
+  des deux sens. Aucun script du pack n'y touche non plus.
+- **Attention, contenu non fonctionnel.** `PumpUpgradeWrapper` et `XpPumpUpgradeWrapper` (tous
+  deux dans `sophisticatedcore`) passent par `IStorageWrapper.getFluidHandler()`, dont le corps
+  par défaut renvoie `Optional.empty()`. Sophisticated Backpacks l'override dans
+  `BackpackWrapper` et `BackpackBlockEntity`, alimentée par son Tank Upgrade. Sophisticated
+  Storage ne l'override nulle part (aucune classe du jar ne mentionne `getFluidHandler`) et n'a
+  aucun Tank Upgrade. Ni `sophisticatedstoragecreateintegration` ni `sophisticatedstorageinmotion`
+  ne comblent le trou. Posées dans un coffre ou un baril, ces trois upgrades ne feront donc rien.
+  C'est pour cette raison que l'auteur du mod ne leur donne pas de recette alors qu'il en donne
+  aux versions sacoche, qui elles fonctionnent.
+- Fix (choix assumé : rendre craftable malgré tout, pour débloquer la chaîne de quêtes) :
+  trois recettes datapack dans `kubejs/data/arcadia/recipe/`
+  - `storage_pump_upgrade.json` — `sophisticatedcore:upgrade_next_tier`, GUG / PBS / GUG :
+    verre, seau, piston, `sophisticatedstorage:upgrade_base`, piston collant
+  - `storage_advanced_pump_upgrade.json` — `sophisticatedcore:upgrade_next_tier`, DID / GPG /
+    RRR : diamant, dispenser, or, pompe storage, redstone
+  - `storage_xp_pump_upgrade.json` — `minecraft:crafting_shaped`, RER / CPC / RER : redstone,
+    ender eye, fiole d'xp, pompe avancée storage
+  - Coûts et types recopiés à l'identique des recettes Sophisticated Backpacks des mêmes items,
+    seule la base d'upgrade change. Cohérent avec tous les autres upgrades, dont les versions
+    storage et sacoche coûtent la même chose.
+  - Condition `sophisticatedcore:item_enabled` conservée : couper l'item dans la config coupe
+    aussi sa recette.
+  - Namespace `arcadia` volontairement, pas `sophisticatedstorage` : si une future version du
+    mod livre ses propres recettes, elles ne seront pas écrasées en silence.
+- Quêtes concernées : branche `488BCC5B` → `4893C2C0` → `7706629B` de
+  `config/ftbquests/quests/chapters/sophisticated.snbt`, un cul-de-sac parmi les 17 branches qui
+  partent de la quête Upgrade Base. Elle devient complétable.
+
 ---
 
 ## 6. CROSS-MOD BRIDGE COMPONENTS (custom Arcadia items)

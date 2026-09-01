@@ -1,0 +1,34 @@
+{
+    "_comment": "Ticket #268, see storage_pump_upgrade.json for why Sophisticated Storage ships no recipe here. Mirrors sophisticatedbackpacks:xp_pump_upgrade with the storage advanced pump as the base. Plain crafting_shaped, like the backpack original: only the two fluid pumps use the upgrade_next_tier wrapper.",
+    "neoforge:conditions": [
+        {
+            "type": "sophisticatedcore:item_enabled",
+            "itemRegistryName": "sophisticatedstorage:xp_pump_upgrade"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "C": {
+            "item": "minecraft:experience_bottle"
+        },
+        "E": {
+            "item": "minecraft:ender_eye"
+        },
+        "P": {
+            "item": "sophisticatedstorage:advanced_pump_upgrade"
+        },
+        "R": {
+            "tag": "c:dusts/redstone"
+        }
+    },
+    "pattern": [
+        "RER",
+        "CPC",
+        "RER"
+    ],
+    "result": {
+        "count": 1,
+        "id": "sophisticatedstorage:xp_pump_upgrade"
+    }
+}
