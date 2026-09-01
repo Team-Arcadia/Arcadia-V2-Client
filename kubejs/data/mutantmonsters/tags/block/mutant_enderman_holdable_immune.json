@@ -1,0 +1,8 @@
+{
+    "_comment": "Same fix as endersoul_hand_holdable_immune.json (ticket #266), for the mob instead of the item. MutantEnderman picks blocks up with the same canBlockBeHeld helper, only with this tag, so a wild Mutant Enderman wandering a Goblin Knight Stronghold or a Dark Tower could carry off a force field or a stronghold shield. Keep both files in sync.",
+    "replace": false,
+    "values": [
+        "#twilightforest:common_protections",
+        "#c:relocation_not_supported"
+    ]
+}
