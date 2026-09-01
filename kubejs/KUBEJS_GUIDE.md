@@ -140,6 +140,14 @@ Files in `kubejs/data/<namespace>/...` override vanilla/mod JSON files at the sa
 - **Sophisticated Storage pump upgrades** — three recipes in `data/arcadia/recipe/` for items the mod registers but never gives a recipe (ticket #268)
 - **Building Gadgets deny list** — `data/buildinggadgets2/tags/block/deny.json`: elevators (#252), Refined Storage disk drive, and the 36 Sophisticated Storage barrels and chests (#255)
 
+## Asset Overrides (`assets/`)
+
+Files in `kubejs/assets/<namespace>/...` override mod client assets at the same path. Almost all of it is `lang/` (7 locales). Model overrides are rare and each one carries a `_comment` saying why:
+
+- **Mechanical Extruder item models** — `assets/create_mechanical_extruder/models/item/` adds a `fixed` display transform to both extruders so they fit a Sophisticated Storage limited barrel display slot (ticket #253)
+
+Client-side only: F3+T to apply, no `/reload`.
+
 ## Custom Content Registry
 
 ### Keys & Currency (`registry/item_registry.js`)
@@ -259,6 +267,7 @@ Several broken recipes from mod authors fixed via KubeJS:
 | **Oil Deposit relocation exploit** | `data/c/tags/block/relocation_not_supported.json` + `data/ars_nouveau/tags/block/gravity_blacklist.json` | Animate Block moved a TFMG Oil Deposit to the surface, skipping the pipe run; TFMG had only declared the block in `create:non_movable` (ticket #270) |
 | **Sophisticated Storage pump upgrades** | `data/arcadia/recipe/storage_*_pump_upgrade.json` | Items registered and config-enabled but shipped with no recipe, blocking a quest chain. They stay inert in a chest: Storage never overrides `IStorageWrapper.getFluidHandler()` and has no Tank Upgrade, so there is nothing for them to pump (ticket #268) |
 | **Copy/Paste turned barrels acacia** | `data/buildinggadgets2/tags/block/deny.json` | Sophisticated Storage keeps the wood type in the block entity, which `GadgetCopyPaste` does not record, so a pasted barrel fell back to `WoodType.ACACIA`. Cut and Paste is unaffected and still carries the block entity (ticket #255) |
+| **Extruders oversized in limited barrels** | `assets/create_mechanical_extruder/models/item/*.json` | Both extruder item models are 22 units tall (the pole is baked in) and declare no `fixed` transform, the context Sophisticated Storage uses for barrel display items (ticket #253) |
 
 ## Recipe Overhaul Split (`recipes/overhaul/`)
 

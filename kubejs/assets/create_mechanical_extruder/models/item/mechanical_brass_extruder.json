@@ -1,0 +1,10 @@
+{
+    "_comment": "Ticket #253. Overrides the mod's own item model, which is just a parent line to block/mechanical_brass_extruder/item. That model is 22 units tall: the pole is baked into it, while the in-world block model stops at 17 and lets the block entity renderer draw the pole on top. Sophisticated Storage's DisplayItemRenderer draws limited barrel display items with ItemDisplayContext.FIXED, and neither extruder model declares a fixed transform, so the barrel rendered a 22 unit model in a slot sized for a 16 unit block. The transform below normalises the model into a standard block envelope: scale 16/22 = 0.72727, then translation y = -2.18 (in sixteenths of a block) to put the scaled bottom face back on the block floor. Only the FIXED context is touched, so inventory, hand and ground rendering keep the mod's own transforms; item frames get the same fit as the barrel.",
+    "parent": "create_mechanical_extruder:block/mechanical_brass_extruder/item",
+    "display": {
+        "fixed": {
+            "scale": [0.72727, 0.72727, 0.72727],
+            "translation": [0, -2.18, 0]
+        }
+    }
+}
