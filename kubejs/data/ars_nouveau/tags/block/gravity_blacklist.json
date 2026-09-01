@@ -1,0 +1,9 @@
+{
+    "_comment": "Redundant guard for ticket #270. Ars Nouveau's own gravity_blacklist already pulls in #c:relocation_not_supported, where these three blocks are declared (see kubejs/data/c/tags/block/relocation_not_supported.json). Listing them directly keeps Animate Block and Gravity blocked even if a future Ars Nouveau release drops that include from its tag. Keep both files in sync.",
+    "replace": false,
+    "values": [
+        "tfmg:oil_deposit",
+        "tfmg:large_switch",
+        "tfmg:large_transformer"
+    ]
+}

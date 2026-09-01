@@ -66,6 +66,7 @@ Arcadia V2/
 | Flight potion gating | `kubejs/data/apothic_attributes/brewing_mixes/` |
 | Spawner mob blacklist | `kubejs/data/apothic_spawners/tags/entity_type/` |
 | Custom music discs | `kubejs/data/arcadia/jukebox_song/` + `kubejs/startup_scripts/registry/sound_registry.js` |
+| Stop a block being moved by a spell or a box | `kubejs/data/c/tags/block/relocation_not_supported.json` |
 
 Golden rules: always give recipes an explicit `.id('arcadia:xxx')`, always add lang keys in all 7 locales, always mirror `config/` changes into `defaultconfigs/`, never bump versions without an explicit request. Full conventions in `RULES.md` and `kubejs/KUBEJS_GUIDE.md`.
 
@@ -227,6 +228,7 @@ Arcadia V2/
 | Gating des potions de vol | `kubejs/data/apothic_attributes/brewing_mixes/` |
 | Blacklist de mobs des spawners | `kubejs/data/apothic_spawners/tags/entity_type/` |
 | Disques de musique customs | `kubejs/data/arcadia/jukebox_song/` + `kubejs/startup_scripts/registry/sound_registry.js` |
+| Empêcher un bloc d'être déplacé par un sort ou une boîte | `kubejs/data/c/tags/block/relocation_not_supported.json` |
 
 Règles d'or : toujours un `.id('arcadia:xxx')` explicite sur les recettes, toujours les clés lang dans les 7 locales, toujours répercuter les changements `config/` dans `defaultconfigs/`, jamais de bump de version sans demande explicite. Conventions complètes dans `RULES.md` et `kubejs/KUBEJS_GUIDE.md`.
 
