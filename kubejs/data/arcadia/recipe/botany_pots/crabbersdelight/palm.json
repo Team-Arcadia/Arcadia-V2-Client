@@ -1,0 +1,22 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "crabbersdelight:palm_sapling"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "crabbersdelight:palm_sapling",
+  "soil": {
+    "tag": "arcadia:botany_pots/palm_soils"
+  },
+  "grow_time": 2400,
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "arcadia:botany_pots/tree_drops/crabbersdelight/palm"
+    }
+  ]
+}
