@@ -272,6 +272,7 @@ Several broken recipes from mod authors fixed via KubeJS:
 | **Extruders oversized in limited barrels** | `assets/create_mechanical_extruder/models/item/*.json` | Both extruder item models are 22 units tall (the pole is baked in) and declare no `fixed` transform, the context Sophisticated Storage uses for barrel display items (ticket #253) |
 | **Endersoul Hand stole a Trophy Pedestal** | `data/mutantmonsters/tags/block/*_holdable_immune.json` | `canBlockBeHeld` only rejects blocks with a block entity or in the mod's own short tag, so every Twilight Forest protected block without a block entity was liftable (ticket #266) |
 | **Small dripleaf and nether sprouts grew empty in pots** | `data/botanypots/recipe/minecraft/crop/*.json` + `data/arcadia/loot_table/botany_pots/crop/minecraft/*.json` | Their vanilla block loot table only drops with shears, and Botany Pots ships no tool-free table for them (ticket #278) |
+| **Elokosa Paw server crash** | `fixes/compat/mowziesmobs_elokosa_paw_crashfix.js` | `ItemElokosaPaw.use()` loads client-only particle classes on the server. Mowzie's Mobs 1.8.2 has one item per moon phase (`elokosa_paw_full/gibbous/half/crescent/new`) and no `elokosa_paw` item, so the original patch on that id never fired (ticket #275) |
 
 ## Recipe Overhaul Split (`recipes/overhaul/`)
 
