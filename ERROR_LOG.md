@@ -1,5 +1,13 @@
 # Error Log — Arcadia V2
 
+## [2026-09-14 09:49] — Fresh clone of ArcadiaTweaks left an index showing every file deleted (Windows MAX_PATH)
+
+**Context:** Cloning `Team-Arcadia/ArcadiaTweaks` with `gh repo clone` into a deep temporary directory, to prepare the Waystones team visibility fix for ticket #279.
+**Error:** The clone printed `failed to run git: exit status 128` and a hint to run `git restore --source=HEAD :/`, yet `git log` and the top-level files looked normal. `git status` then listed all 88 tracked files as staged deletions (`D `). A first `git restore --staged --worktree --source=HEAD :/` failed with `unable to create file ...RefinedStorageMixinPlugin.java: Filename too long`, and even `git show HEAD:<path>` refused with `failed to stat ...: Filename too long`.
+**Root cause:** The repository nests sources up to 127 characters deep (`src/main/java/com/teamarcadia/arcadiatweaks/neoforge/mixin/refinedstorage/...`). Under a directory prefix of about 130 characters the full path crosses the 260-character Windows limit, and git for Windows does not use long paths unless `core.longpaths` is set. The checkout aborted halfway, leaving the index empty while HEAD and part of the working tree existed, which reads as "everything deleted".
+**Fix:** `git config core.longpaths true` in the clone, then `git restore --staged --worktree --source=HEAD :/`; `git status` came back clean. Gradle and the JDK handled the same long paths without any change (build successful).
+**Prevention:** Before cloning a Java/Gradle repository on Windows, run `git config --global core.longpaths true` or clone into a short path. After any clone that reports a non-zero exit, check `git status` before doing anything else: a staged-deletion listing on a fresh clone means a failed checkout, never a state to commit. `git cat-file -p <blob sha>` from `git ls-tree` reads a file without touching the working tree when paths are too long.
+
 ## [2026-09-01 14:00] — Jar audit returned a false negative (unzip wildcard silently matched nothing)
 
 **Context:** Auditing all 443 jars for the producer of an item, while tracing the missing Shadow Casing recipe (ticket #269). The sweep used `for j in *.jar; do unzip -p "$j" 'data/*' | grep -qa "cinder_flour" && echo HIT; done`.
