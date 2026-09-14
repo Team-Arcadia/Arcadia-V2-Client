@@ -3,6 +3,9 @@ Generate 64x64 music disc textures — vinyl style with 3D shading.
 Each disc has a unique color palette matching its song theme.
 Author: vyrriox
 """
+# Preserve the current artwork; this legacy implementation is reference only.
+raise SystemExit('Legacy generator retired. Edit the PNG assets directly; see kubejs/KUBEJS_GUIDE.md.')
+
 from PIL import Image, ImageDraw
 import os, math
 

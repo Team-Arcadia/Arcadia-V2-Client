@@ -13,18 +13,18 @@ kubejs/
 │   ├── sounds/                                     # Custom audio files
 │   └── textures/
 │       ├── item/                                   # Custom item textures
-│       │   ├── music_disc_*.png       (20 x 64x64) # Vinyl discs with 3D shading + colored labels
+│       │   ├── music_disc_*.png       (21 x 32x32) # Pixel vinyl discs with distinct colored labels
 │       │   ├── arcane_circuit.png     (32x32)      # Bridge: Create+TFMG+Mek+Ars
 │       │   ├── ethereal_alloy.png     (32x32)      # Bridge: Ars+Mek+Occult+Create
 │       │   ├── industrial_heart.png   (32x32)      # Bridge: Create+TFMG+Mek+IE
 │       │   ├── rune_matrix.png        (32x32)      # Bridge: Ars+Occult+Create+Apotheosis
-│       │   ├── fusion_*.png           (64x64)      # Fusion chain T0->Apex
-│       │   ├── adept_*.png            (64x64)      # Purple cultist (armor + 10 unique)
-│       │   ├── heretic_*.png          (64x64)      # Red rebel (armor + 10 unique)
-│       │   ├── *_key.png              (64x64)      # 6 keys color-coded + casino token
-│       │   ├── heart_of_arcadia.png   (64x64)
-│       │   ├── _gen_all.py                         # Python generator for all 64x64 textures
-│       │   └── _gen_discs.py                       # Python generator for 20 music discs
+│       │   ├── fusion_*.png           (32x32)      # Fusion chain T0->Apex
+│       │   ├── adept_*.png            (32x32)      # Purple cultist (armor + 10 unique)
+│       │   ├── heretic_*.png          (32x32)      # Red rebel (armor + 10 unique)
+│       │   ├── *_key.png              (32x32)      # 6 keys color-coded + casino token
+│       │   ├── heart_of_arcadia.png   (32x32)
+│       │   ├── _gen_all.py                         # Retired legacy generator (reference only)
+│       │   └── _gen_discs.py                       # Retired legacy generator (reference only)
 │       └── block/music_discs/                      # Same disc textures (for Amendments jukebox renderer)
 │
 ├── client_scripts/
@@ -167,7 +167,7 @@ Client-side only: F3+T to apply, no `/reload`.
 
 ### Music Discs (20) — `registry/item_registry.js` + `registry/sound_registry.js` + `data/arcadia/jukebox_song/`
 Custom jukebox tracks. Each disc has:
-- Own 64x64 vinyl texture (colored label per theme)
+- Own 32x32 vinyl texture (colored label per theme)
 - Same texture duplicated in `textures/block/music_discs/` for Amendments jukebox renderer
 - Registered jukebox song + sound event
 
@@ -313,6 +313,20 @@ The original `recipe_overhaul.js` (2793 lines) was split into 9 themed files for
 | `config/*.cfg` or `.toml` changed | **Full server restart required** |
 
 ## Troubleshooting
+
+### Texture maintenance
+
+Author: vyrriox
+
+Inventory icons and machine block faces use 32x32 PNG artwork. Item sprites have hard alpha edges and a transparent margin; block faces are fully opaque. Armor model sheets retain their 64x32 UV layout. Edit these PNGs directly. The old `_gen_*.py` scripts are retained as reference but stop before writing, so they cannot replace the current artwork with the old procedural textures.
+
+For each music disc, copy the item PNG into both `assets/arcadia/textures/block/music_discs/` and `assets/amendments/textures/block/music_discs/arcadia/`. Keep the filenames identical. Run `powershell -NoProfile -File kubejs/tools/check_textures.ps1` from the project root, then reload client resources with F3+T and inspect the inventory icons, placed discs, ATM, magnetic jammer and both worn armor sets. The file checks do not replace the in-game visual check.
+
+### Entretien des textures
+
+Les icones et faces des blocs de machines utilisent des PNG en 32x32. Les objets ont des contours sans transparence partielle et une marge transparente ; les blocs sont opaques. Les textures d'armure conservent leur disposition UV en 64x32. Modifier directement les PNG. Les anciens scripts `_gen_*.py` restent consultables mais s'arretent avant toute ecriture, pour proteger les nouveaux dessins.
+
+Pour chaque disque, recopier le PNG de l'objet dans `assets/arcadia/textures/block/music_discs/` et `assets/amendments/textures/block/music_discs/arcadia/`, sous le meme nom. Lancer `powershell -NoProfile -File kubejs/tools/check_textures.ps1` depuis la racine du projet, puis recharger les ressources avec F3+T et examiner les icones, les disques poses, l'ATM, le brouilleur magnetique et les deux armures portees. Les controles de fichiers ne remplacent pas cette verification en jeu.
 
 - **Item has no recipe in JEI** → check `recipe_remover.js` banned list + `config/jei/blacklist.json` + run `/recipe give` to test server-side
 - **Script throws "does not exist"** → item/mod missing — wrap in try/catch or check mod IDs

@@ -8,6 +8,9 @@ Produces:
 
 Kept apart from _gen_all.py so the 58 existing textures are never rewritten.
 """
+# Preserve the current artwork; this legacy implementation is reference only.
+raise SystemExit('Legacy generator retired. Edit the PNG assets directly; see kubejs/KUBEJS_GUIDE.md.')
+
 from PIL import ImageDraw
 import math
 

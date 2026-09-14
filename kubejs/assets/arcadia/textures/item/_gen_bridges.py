@@ -3,6 +3,9 @@ Generate 32x32 bridge item textures with 3D pixel-art shading.
 Arcadia V2 cross-mod bridge components.
 Author: vyrriox
 """
+# Preserve the current artwork; this legacy implementation is reference only.
+raise SystemExit('Legacy generator retired. Edit the PNG assets directly; see kubejs/KUBEJS_GUIDE.md.')
+
 from PIL import Image, ImageDraw
 import os, math, random
 
