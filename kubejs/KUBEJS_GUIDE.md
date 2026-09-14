@@ -140,6 +140,7 @@ Files in `kubejs/data/<namespace>/...` override vanilla/mod JSON files at the sa
 - **Sophisticated Storage pump upgrades** — three recipes in `data/arcadia/recipe/` for items the mod registers but never gives a recipe (ticket #268)
 - **Building Gadgets deny list** — `data/buildinggadgets2/tags/block/deny.json`: elevators (#252), Refined Storage disk drive, and the 36 Sophisticated Storage barrels and chests (#255)
 - **Endersoul Hand / Mutant Enderman lock** — `data/mutantmonsters/tags/block/*_holdable_immune.json` pull in `#twilightforest:common_protections` and `#c:relocation_not_supported` (ticket #266)
+- **Botany Pots shears-only crops** — `data/botanypots/recipe/minecraft/crop/{small_dripleaf,nether_sprouts}.json` override the mod recipes with loot tables from `data/arcadia/loot_table/botany_pots/crop/minecraft/` (ticket #278)
 
 ## Asset Overrides (`assets/`)
 
@@ -270,6 +271,7 @@ Several broken recipes from mod authors fixed via KubeJS:
 | **Copy/Paste turned barrels acacia** | `data/buildinggadgets2/tags/block/deny.json` | Sophisticated Storage keeps the wood type in the block entity, which `GadgetCopyPaste` does not record, so a pasted barrel fell back to `WoodType.ACACIA`. Cut and Paste is unaffected and still carries the block entity (ticket #255) |
 | **Extruders oversized in limited barrels** | `assets/create_mechanical_extruder/models/item/*.json` | Both extruder item models are 22 units tall (the pole is baked in) and declare no `fixed` transform, the context Sophisticated Storage uses for barrel display items (ticket #253) |
 | **Endersoul Hand stole a Trophy Pedestal** | `data/mutantmonsters/tags/block/*_holdable_immune.json` | `canBlockBeHeld` only rejects blocks with a block entity or in the mod's own short tag, so every Twilight Forest protected block without a block entity was liftable (ticket #266) |
+| **Small dripleaf and nether sprouts grew empty in pots** | `data/botanypots/recipe/minecraft/crop/*.json` + `data/arcadia/loot_table/botany_pots/crop/minecraft/*.json` | Their vanilla block loot table only drops with shears, and Botany Pots ships no tool-free table for them (ticket #278) |
 
 ## Recipe Overhaul Split (`recipes/overhaul/`)
 
