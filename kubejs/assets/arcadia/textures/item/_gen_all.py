@@ -9,6 +9,9 @@ Produces:
   - 14 adept items (4 armor + 10 unique)
   - 14 heretic items (4 armor + 10 unique)
 """
+# Preserve the current artwork; this legacy implementation is reference only.
+raise SystemExit('Legacy generator retired. Edit the PNG assets directly; see kubejs/KUBEJS_GUIDE.md.')
+
 from PIL import Image, ImageDraw, ImageFilter
 import os, math
 

@@ -5,6 +5,9 @@ Author: vyrriox
 Dark steel plate, riveted corners, a copper coil around a dead black core, and hazard
 stripes on the top and bottom edges.
 """
+# Preserve the current artwork; this legacy implementation is reference only.
+raise SystemExit('Legacy generator retired. Edit the PNG assets directly; see kubejs/KUBEJS_GUIDE.md.')
+
 from PIL import Image, ImageDraw
 import math
 import os

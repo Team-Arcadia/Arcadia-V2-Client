@@ -99,3 +99,10 @@ config/voicechat/player-volumes.properties
 
 # Texture generator bytecode
 __pycache__/
+
+# Local development instructions and texture review artifacts
+.codex/
+AGENTS.md
+AGENTS.override.md
+test-procedures/
+TEST_PROCEDURE_*.html

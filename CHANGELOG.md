@@ -6,6 +6,10 @@ All notable changes to Arcadia V2 - Echoes Of Power are documented here, by date
 
 ## 2026-09-14
 
+### Changed
+
+- **Arcadia texture refresh**: replaced the custom inventory artwork with 32x32 pixel art, including industrial components, incomplete assemblies, keys, magic items, armor icons and music discs. Machine blocks use matching pixel textures. Placed-disc copies stay synchronized with their inventory icons. Texture checks are available through `kubejs/tools/check_textures.ps1`.
+
 ### Fixed
 
 - **Palm and avocado saplings could not go into Botany Pots** — The Crabber's Delight palm sapling and the Cultural Delights avocado sapling had no Botany Pots recipe, because Botany Trees ships none for either mod, so the pots refused them. Both now grow in pots in 2400 ticks like every other Botany Trees tree: logs, a 5% sapling, leaves when shears sit in the harvest slot, and their fruit (45% coconut, 15% avocado). The palm accepts dirt or sand, the avocado dirt. Contributed through pull request #1.
@@ -15,6 +19,10 @@ All notable changes to Arcadia V2 - Echoes Of Power are documented here, by date
 - **Elokosa Paws still crashed the server** — Using a Paw of the New Moon, or any other moon phase paw, crashed the server: `ItemElokosaPaw.use()` loads client-only particle classes that do not exist on a dedicated server. A KubeJS patch meant to block it had been in place since May, but it listened for `mowziesmobs:elokosa_paw`, an id Mowzie's Mobs 1.8.2 never registers; the mod ships one item per phase instead, so the patch never fired. It now covers the five real ids (full, gibbous, half, crescent, new) and still cancels the use with a message. Using a paw on another player goes through the same method, so that case is covered too.
 
 - **Small dripleaf and nether sprouts grew empty in Botany Pots** — The crops grew normally but every harvest came back empty. Botany Pots harvests these through the vanilla block loot table, which only drops the plant when broken with shears, and the pot's harvest slot holds no tool by default. Botany Pots already ships a tool-free table for ferns, grass, seagrass, glow lichen, corals and sculk, but not for these two. Both recipes are now overridden with a table that yields one plant per harvest; the nether sprouts soil rules are unchanged. Twisting and weeping vines keep their vanilla one-in-three chance without a tool.
+
+### Modifications
+
+- **Refonte des textures Arcadia** : nouvelles textures d'inventaire en pixel art 32x32 pour les composants industriels, assemblages incomplets, cles, objets magiques, icones d'armure et disques. Les blocs de machines utilisent des textures assorties. Les copies des disques poses restent synchronisees avec leurs icones. Le controle des textures est disponible dans `kubejs/tools/check_textures.ps1`.
 
 ### Correctifs
 
