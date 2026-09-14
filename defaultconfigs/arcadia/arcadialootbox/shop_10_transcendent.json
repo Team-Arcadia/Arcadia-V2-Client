@@ -258,7 +258,7 @@
       "broadcast": false
     },
     {
-      "item": "extradisks:infinite_fluid_storage_disk[refinedstorage:storage_reference=[I;-1872389660,12865102,-1974504873,-2035574624]]",
+      "item": "extradisks:infinite_fluid_storage_disk",
       "minCount": 1,
       "maxCount": 1,
       "chance": 0.1,
@@ -267,7 +267,7 @@
       "broadcast": true
     },
     {
-      "item": "extradisks:infinite_chemical_storage_disk[refinedstorage:storage_reference=[I;449122865,-181255385,-1658977713,-2023648505]]",
+      "item": "extradisks:infinite_chemical_storage_disk",
       "minCount": 1,
       "maxCount": 1,
       "chance": 0.1,
@@ -378,7 +378,7 @@
   "openSubtitle": "§7Good luck!",
   "commandRewards": [
     {
-      "command": "give {player} extradisks:infinite_item_storage_disk[refinedstorage:storage_reference=[I;-520892022,-1993782408,-1469551642,-1537099197]] 1",
+      "command": "give {player} extradisks:infinite_item_storage_disk 1",
       "chance": 1.0,
       "asConsole": true
     },
