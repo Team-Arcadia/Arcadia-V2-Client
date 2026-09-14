@@ -1,5 +1,18 @@
 # Error Log — Arcadia V2
 
+## [2026-09-14 22:48] - Texture import and validation gaps
+**Context:** Completing the custom texture refresh and reviewing the reduced PNG assets.
+**Error:** The texture checker accepted legacy item dimensions. The local importer failed with CS1069 under PowerShell 7. Armor image edits also contained neutral checkerboard pixels near UV boundaries.
+**Root cause:** Dimension checks were conditional; the importer referenced the .NET Framework drawing assembly; generated artwork did not exactly preserve every UV edge.
+**Fix:** Require 32x32 inventory and opaque block textures, run the local importer under Windows PowerShell, restore original armor alpha masks, and replace stray neutral background samples with nearby painted samples before visual review.
+**Prevention:** Treat file existence separately from completion, check final dimensions and alpha coverage, and review reduced textures before publishing.
+
+**Contexte :** Finalisation des textures et revue des PNG reduits.
+**Erreur :** Le controle acceptait les anciens formats, l'importeur echouait sous PowerShell 7 et des pixels de damier subsistaient aux bords des UV.
+**Cause :** Controle conditionnel des dimensions, reference .NET Framework et contours du dessin imparfaitement conserves.
+**Correction :** Dimensions strictes, import sous Windows PowerShell, masque alpha original et suppression des echantillons de fond parasites avant revue visuelle.
+**Prevention :** Verifier les dimensions, la transparence et les textures reduites avant publication.
+
 ## [2026-09-14 09:49] — Fresh clone of ArcadiaTweaks left an index showing every file deleted (Windows MAX_PATH)
 
 **Context:** Cloning `Team-Arcadia/ArcadiaTweaks` with `gh repo clone` into a deep temporary directory, to prepare the Waystones team visibility fix for ticket #279.

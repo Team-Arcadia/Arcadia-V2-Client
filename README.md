@@ -4,7 +4,7 @@ A curated NeoForge 1.21.1 modpack designed for the **Arcadia** community server 
 
 ## Features
 
-- **Custom item artwork**: 32x32 pixel art for Arcadia items and machine blocks, with transparent inventory sprites and matching placed-disc textures.
+- **Custom item artwork**: 86 inventory sprites and two machine faces in 32x32 pixel art, matching placed-disc textures, and refreshed Adept/Heretic armor sheets preserving the 64x32 UV layout.
 - **Cross-mod recipe overhaul** — Iron/Gold/Diamond tools gated behind Create sheets, every tech mod (Mekanism, TFMG, Immersive Engineering, Refined Storage, Create addons) interlinked via bridge components
 - **4 Custom bridge items** — Arcane Circuit, Ethereal Alloy, Industrial Heart, Rune Matrix progressively gate cross-mod progression
 - **Fusion Core mega-chain** — 5-tier endgame crafting chain culminating in a 9×9 Mechanical Crafting recipe
@@ -74,7 +74,7 @@ Un modpack NeoForge 1.21.1 curate, conu pour le serveur communautaire **Arcadia*
 
 ## Caracteristiques
 
-- **Textures des objets personnalises** : pixel art en 32x32 pour les objets Arcadia et les blocs de machines, avec des icones transparentes et des textures de disques poses assorties.
+- **Textures des objets personnalises** : 86 icones et deux faces de machines en pixel art 32x32, des textures de disques poses assorties et des armures Adept/Heretic retravaillees en conservant leur patron UV 64x32.
 - **Refonte des recettes cross-mod** — Outils Fer/Or/Diamant gates derriere les plaques Create, chaque mod tech (Mekanism, TFMG, Immersive Engineering, Refined Storage, addons Create) interconnecte via des composants pont
 - **4 items pont custom** — Circuit Arcane, Alliage Etheree, Coeur Industriel, Matrice de Runes pour gater progressivement la progression cross-mod
 - **Mega-chaine Fusion Core** — 5 tiers de crafting endgame culminant en recette 9x9 Mechanical Crafting
