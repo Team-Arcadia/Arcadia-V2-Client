@@ -8,6 +8,8 @@ All notable changes to Arcadia V2 - Echoes Of Power are documented here, by date
 
 ### Changed
 
+- **Texture completion**: refreshed all 21 disc icons and their 42 placed-disc copies, both machine faces, and six worn-armor texture files. The finished reinforced casing now has closed panels. Texture validation rejects legacy item sizes and transparent block pixels; armor UV coverage is preserved. In-game rendering still requires visual confirmation.
+
 - **Arcadia texture refresh**: replaced the custom inventory artwork with 32x32 pixel art, including industrial components, incomplete assemblies, keys, magic items, armor icons and music discs. Machine blocks use matching pixel textures. Placed-disc copies stay synchronized with their inventory icons. Texture checks are available through `kubejs/tools/check_textures.ps1`.
 
 ### Fixed
@@ -21,6 +23,8 @@ All notable changes to Arcadia V2 - Echoes Of Power are documented here, by date
 - **Small dripleaf and nether sprouts grew empty in Botany Pots** — The crops grew normally but every harvest came back empty. Botany Pots harvests these through the vanilla block loot table, which only drops the plant when broken with shears, and the pot's harvest slot holds no tool by default. Botany Pots already ships a tool-free table for ferns, grass, seagrass, glow lichen, corals and sculk, but not for these two. Both recipes are now overridden with a table that yields one plant per harvest; the nether sprouts soil rules are unchanged. Twisting and weeping vines keep their vanilla one-in-three chance without a tool.
 
 ### Modifications
+
+- **Finalisation des textures** : refonte des 21 icones de disques et de leurs 42 copies posees, des deux faces de machines et des six fichiers d'armures portees. Le boitier renforce termine possede des panneaux fermes. Le controle refuse les anciens formats d'objets et les pixels transparents des blocs ; les zones UV des armures sont conservees. Le rendu en jeu reste a confirmer visuellement.
 
 - **Refonte des textures Arcadia** : nouvelles textures d'inventaire en pixel art 32x32 pour les composants industriels, assemblages incomplets, cles, objets magiques, icones d'armure et disques. Les blocs de machines utilisent des textures assorties. Les copies des disques poses restent synchronisees avec leurs icones. Le controle des textures est disponible dans `kubejs/tools/check_textures.ps1`.
 

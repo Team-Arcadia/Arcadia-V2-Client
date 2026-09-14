@@ -11,6 +11,7 @@ foreach ($file in $items) {
     $bitmap = [System.Drawing.Bitmap]::new($file.FullName)
     try {
         $isNewSprite = $bitmap.Width -eq 32 -and $bitmap.Height -eq 32
+        if (!$isNewSprite) { $failures.Add("$($file.Name): expected 32x32 item texture") }
         $opaque = 0
         $soft = 0
         $border = 0
@@ -53,7 +54,12 @@ foreach ($disc in $discs) {
 foreach ($name in @('atm','magnet_jammer')) {
     $bitmap = [System.Drawing.Bitmap]::new((Join-Path $textureRoot "block/$name.png"))
     try {
-        if ($bitmap.Width -lt 16 -or $bitmap.Height -lt 16) { $failures.Add("$name block: texture is unexpectedly small") }
+        if ($bitmap.Width -ne 32 -or $bitmap.Height -ne 32) { $failures.Add("$name block: expected 32x32 texture") }
+        for ($y=0; $y -lt $bitmap.Height; $y++) {
+            for ($x=0; $x -lt $bitmap.Width; $x++) {
+                if ($bitmap.GetPixel($x,$y).A -ne 255) { $failures.Add("$name block: nonopaque pixel at $x,$y") }
+            }
+        }
     } finally { $bitmap.Dispose() }
 }
 foreach ($file in Get-ChildItem (Join-Path $textureRoot 'models/armor') -Filter '*.png') {
