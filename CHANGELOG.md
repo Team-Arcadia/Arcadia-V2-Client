@@ -4,6 +4,18 @@ All notable changes to Arcadia V2 - Echoes Of Power are documented here, by date
 
 ---
 
+## 2026-09-14
+
+### Fixed
+
+- **Small dripleaf and nether sprouts grew empty in Botany Pots** — The crops grew normally but every harvest came back empty. Botany Pots harvests these through the vanilla block loot table, which only drops the plant when broken with shears, and the pot's harvest slot holds no tool by default. Botany Pots already ships a tool-free table for ferns, grass, seagrass, glow lichen, corals and sculk, but not for these two. Both recipes are now overridden with a table that yields one plant per harvest; the nether sprouts soil rules are unchanged. Twisting and weeping vines keep their vanilla one-in-three chance without a tool.
+
+### Correctifs
+
+- **Le small dripleaf et les nether sprouts poussaient a vide dans les Botany Pots** — Les plantes poussaient normalement mais chaque recolte etait vide. Botany Pots recolte ces crops via la loot table vanilla du bloc, qui ne rend la plante qu'avec des cisailles, et l'emplacement de recolte du pot est vide par defaut. Botany Pots fournit deja une table sans outil pour les fougeres, les herbes, la seagrass, le glow lichen, les coraux et le sculk, mais pas pour ces deux-la. Les deux recettes sont desormais surchargees avec une table qui rend une plante par recolte ; les sols des nether sprouts ne changent pas. Les twisting et weeping vines gardent leur chance vanilla d'une sur trois sans outil.
+
+---
+
 ## 2026-09-01
 
 ### Added

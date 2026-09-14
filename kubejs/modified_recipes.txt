@@ -591,6 +591,23 @@ Appliqués après détection d'erreurs runtime (noms d'items incorrects) :
 | `ars_technica:source_crafter` / `source_mixer` | **supprimés** | Non présents dans Ars Technica 2.7 |
 | Clé pattern `'6'` (Mechanical Crafting) | `K` | KubeJS refuse les clés numériques |
 
+### Drops Botany Pots liés aux cisailles (ticket #278)
+
+Un crop `botanypots:block_derived_crop` récolte via la loot table vanilla du bloc, avec l'outil posé
+dans l'emplacement de récolte du pot (`default_harvest_stack` est vide dans `config/botanypots.json`).
+Botany Pots 21.1.44 fournit déjà une loot table sans outil pour les fougères, herbes, seagrass,
+glow lichen, coraux et sculk, mais pas pour deux crops dont la table vanilla exige des cisailles :
+ils poussaient et ne rendaient rien.
+
+| Recette surchargée | Loot table ajoutée | Rendement |
+|---|---|---|
+| `botanypots:minecraft/crop/small_dripleaf` | `arcadia:botany_pots/crop/minecraft/small_dripleaf` | 1 small dripleaf par récolte |
+| `botanypots:minecraft/crop/nether_sprouts` | `arcadia:botany_pots/crop/minecraft/nether_sprouts` | 1 nether sprouts par récolte (sol inchangé) |
+
+Les recettes sont surchargées au même chemin que Botany Pots pour éviter un doublon de crop.
+`twisting_vines` et `weeping_vines` ne sont pas concernées : leur table vanilla garde une chance
+de 33 % sans outil, identique au jeu de base.
+
 ---
 
 ## 13. CORRECTIONS LOCALIZATION
