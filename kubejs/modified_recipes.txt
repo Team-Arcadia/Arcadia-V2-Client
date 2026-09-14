@@ -406,6 +406,19 @@ dans le quest book mais introuvables en craft.
   `config/ftbquests/quests/chapters/sophisticated.snbt`, un cul-de-sac parmi les 17 branches qui
   partent de la quête Upgrade Base. Elle devient complétable.
 
+### 5.26 Botany Pots — compatibilité Palmier et Avocatier
+Deux pousses installées dans le pack n'avaient aucune recette Botany Pots / Botany Trees :
+`crabbersdelight:palm_sapling` et `culturaldelights:avocado_sapling`.
+- Ajout de deux recettes `botanypots:block_derived_crop` sous le namespace `arcadia`, avec le
+  format 1.21.1 à loot table séparée utilisé par Botany Trees 21.1.7.
+- Temps de pousse : **2400 ticks (120 s)**, identique aux autres arbres Botany Trees.
+- Palmier : terre ou sable ; 1–4 Palm Logs garantis, 5 % de Palm Sapling, 1–3 Palm Leaves avec
+  des cisailles et 45 % de Coconut.
+- Avocatier : terre ; 1–4 Avocado Logs garantis, 5 % d'Avocado Sapling, 1–3 Avocado Leaves avec
+  des cisailles et 15 % d'Avocado.
+- Les conditions `bookshelf:block_exists` empêchent le chargement des entrées si le mod source
+  correspondant est retiré ultérieurement.
+
 ---
 
 ## 6. CROSS-MOD BRIDGE COMPONENTS (custom Arcadia items)
