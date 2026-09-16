@@ -1,5 +1,10 @@
 {
   "language": "en_us",
+  "command": {
+    "enabled": true,
+    "permissionLevel": 0,
+    "targetsPermissionLevel": 2
+  },
   "storage": {
     "location": "world"
   },
@@ -40,6 +45,7 @@
     "mineskin": {
       "apiKey": "",
       "proxyUrlUpload": false,
+      "allowedDomains": [],
       "enabled": false,
       "name": "web",
       "cache": {

@@ -1,8 +1,4 @@
 {
-  "framedblocks": {
-    "framed_item_frame": true,
-    "framed_block_generic": true
-  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -69,13 +65,6 @@
   "apothic_spawners": {
     "spawner": true
   },
-  "jade_access": {
-    "held_item": true,
-    "sign": true,
-    "block": true,
-    "entity": true,
-    "entity_variant": true
-  },
   "ftbquests": {
     "barrier": true
   },
@@ -92,6 +81,42 @@
     "registry_name": "OFF",
     "block_properties": false,
     "mod_name": true
+  },
+  "mekanism": {
+    "chemical": true,
+    "remove_builtin": true,
+    "fluid": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
+  "easy_villagers": {
+    "villager": true,
+    "converter": true,
+    "breeder": true
+  },
+  "waystones": {
+    "waystone": true
+  },
+  "barbequesdelight": {
+    "grill": true
+  },
+  "securitycraft": {
+    "showowner": true,
+    "showmodules": true,
+    "entity_info": true,
+    "block_info": true,
+    "showcustomname": true
+  },
+  "framedblocks": {
+    "framed_item_frame": true,
+    "framed_block_generic": true
+  },
+  "jade_access": {
+    "held_item": true,
+    "sign": true,
+    "block": true,
+    "entity": true,
+    "entity_variant": true
   },
   "apotheosis": {
     "adventure": true
@@ -119,18 +144,6 @@
   "jadeaddons.lootr": {
     "info": true
   },
-  "mekanism": {
-    "chemical": true,
-    "remove_builtin": true,
-    "fluid": true,
-    "energy": true,
-    "tooltip_renderer": true
-  },
-  "easy_villagers": {
-    "villager": true,
-    "converter": true,
-    "breeder": true
-  },
   "twilightforest": {
     "drying_rack": true,
     "chiseled_bookshelf_spawner": true,
@@ -139,20 +152,20 @@
   "supplementaries": {
     "hat_stand": true
   },
-  "waystones": {
-    "waystone": true
-  },
   "corpse": {
     "corpse": true
   },
-  "barbequesdelight": {
-    "grill": true
-  },
-  "securitycraft": {
-    "showowner": true,
-    "showmodules": true,
-    "entity_info": true,
-    "block_info": true,
-    "showcustomname": true
+  "createfood": {
+    "small_bowl": true,
+    "consumable_block": true,
+    "ration_box": true,
+    "generic_display": true,
+    "empty_display": true,
+    "cloth_sack": true,
+    "food_block": true,
+    "cake_block": true,
+    "storage_item_entity": true,
+    "block_item_tooltip": true,
+    "candle_cake_block": true
   }
 }
