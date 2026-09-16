@@ -51,23 +51,37 @@ function registerLiquidBurnerRequirement() {
     // Fresh stacks on every call: the requirement keeps them and Create walks
     // that list while filling the cannon.
     //
-    // The delegate has to be an object keyed by the interface method name.
-    // Rhino builds the adapter class from the function properties it finds on
-    // the delegate, so a bare function contributes no method: the adapter still
-    // implements BlockRequirement, but getRequiredItems returns null on every
-    // call and Create resolves the block to nothing.
-    const requirement = new BlockRequirement({
-        getRequiredItems: (state, blockEntity) =>
-            new ItemRequirement(ItemUseType.CONSUME, new ItemStack(burnerItem))
-                .union(new ItemRequirement(ItemUseType.CONSUME, new ItemStack(strawItem)))
-    });
+    // Java.cast builds the interface here, and `new BlockRequirement(...)` must
+    // not. Both hand back an object implementing BlockRequirement, by two
+    // different mechanisms, and only one of them survives what Create does with
+    // it:
+    //   - `new BlockRequirement(...)` goes through JavaAdapter, which generates
+    //     a class whose methods wrap their arguments with Context.wrapAny.
+    //     wrapAny reads the argument's class with no null check, so any call
+    //     carrying a null argument dies on a NullPointerException. Passing it a
+    //     bare function is worse still: the adapter is built from the function
+    //     properties of the delegate, finds none, and every call returns null.
+    //   - Java.cast goes through Context.jsToJava, which builds a proxy through
+    //     InterfaceAdapter. That path wraps with Context.wrap, which returns
+    //     null for null.
+    // A null block entity is the normal case here, not an edge case:
+    // SchematicPrinter reads it from the schematic level and passes it straight
+    // to ItemRequirement.of without testing it.
+    const requirement = Java.cast(BlockRequirement, (state, blockEntity) =>
+        new ItemRequirement(ItemUseType.CONSUME, new ItemStack(burnerItem))
+            .union(new ItemRequirement(ItemUseType.CONSUME, new ItemStack(strawItem))));
 
-    // Probe the adapter before handing it over: SimpleRegistry refuses a second
-    // registration for the same block, so there is no second attempt once the
-    // first one is in.
+    if (requirement === null || requirement === undefined) {
+        console.error('[Arcadia] Liquid Blaze Burner requirement could not be built, schematic cost left untouched.');
+        return;
+    }
+
+    // Probed with a null block entity, the way the printer calls it, and probed
+    // before handing the requirement over: SimpleRegistry throws on a second
+    // registration for the same block, so there is no retry once one is in.
     const probe = requirement.getRequiredItems(block.defaultBlockState(), null);
     if (probe === null || probe.getRequiredItems().size() < 2) {
-        console.error('[Arcadia] Liquid Blaze Burner requirement adapter resolves to nothing, schematic cost left untouched.');
+        console.error('[Arcadia] Liquid Blaze Burner requirement resolves to nothing, schematic cost left untouched.');
         return;
     }
 
