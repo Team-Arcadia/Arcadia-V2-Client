@@ -50,23 +50,32 @@ function registerLiquidBurnerRequirement() {
 
     // Fresh stacks on every call: the requirement keeps them and Create walks
     // that list while filling the cannon.
-    const buildRequirement = (state, blockEntity) =>
-        new ItemRequirement(ItemUseType.CONSUME, new ItemStack(burnerItem))
-            .union(new ItemRequirement(ItemUseType.CONSUME, new ItemStack(strawItem)));
+    //
+    // The delegate has to be an object keyed by the interface method name.
+    // Rhino builds the adapter class from the function properties it finds on
+    // the delegate, so a bare function contributes no method: the adapter still
+    // implements BlockRequirement, but getRequiredItems returns null on every
+    // call and Create resolves the block to nothing.
+    const requirement = new BlockRequirement({
+        getRequiredItems: (state, blockEntity) =>
+            new ItemRequirement(ItemUseType.CONSUME, new ItemStack(burnerItem))
+                .union(new ItemRequirement(ItemUseType.CONSUME, new ItemStack(strawItem)))
+    });
 
-    let requirement = buildRequirement;
-    try {
-        // Rhino only coerces a function into a functional interface when the
-        // target type is known, and register() erases its value type to Object.
-        requirement = new BlockRequirement(buildRequirement);
-    } catch (adapterError) {
-        requirement = buildRequirement;
+    // Probe the adapter before handing it over: SimpleRegistry refuses a second
+    // registration for the same block, so there is no second attempt once the
+    // first one is in.
+    const probe = requirement.getRequiredItems(block.defaultBlockState(), null);
+    if (probe === null || probe.getRequiredItems().size() < 2) {
+        console.error('[Arcadia] Liquid Blaze Burner requirement adapter resolves to nothing, schematic cost left untouched.');
+        return;
     }
 
     SchematicRequirementRegistries.BLOCKS.register(block, requirement);
 
     // Self test through Create's own resolution path, interface cast included.
-    const stacks = ItemRequirement.of(block.defaultBlockState(), null).getRequiredItems().size();
+    const resolved = ItemRequirement.of(block.defaultBlockState(), null);
+    const stacks = resolved === null ? 0 : resolved.getRequiredItems().size();
     if (stacks < 2) {
         console.error('[Arcadia] Liquid Blaze Burner requirement registered but resolves to ' + stacks + ' stack(s): the straw is still free.');
         return;

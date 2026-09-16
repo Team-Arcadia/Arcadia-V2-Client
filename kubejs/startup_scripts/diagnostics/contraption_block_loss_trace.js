@@ -23,8 +23,10 @@
     What it does, without changing anything:
       - Logs every watched block a contraption captures, at assembly, through a
         neutral MovementAllowedCheck.
-      - Logs every watched item entity that spawns server side, with a filtered
-        Java stack trace, so the exact caller is named.
+      - Logs every watched item entity that spawns server side, followed by the
+        Java stack trace KubeJS prints through console.trace(), so the exact
+        caller is named. The trace comes out unfiltered because the class filter
+        denies java.lang, which puts Throwable out of reach of a script.
 
       Read together they answer the question static analysis cannot: a block
       that is captured and later drops as an item points at a drop site in
@@ -33,14 +35,14 @@
       is never captured was lost at assembly.
 
     How to use:
-      Reproduce once, then search logs/latest.log for [Arcadia][diag]. Set
+      Reproduce once, then search logs/latest.log for [Arcadia][diag]. Each drop
+      line is followed by its stack trace, which carries no tag of its own. Set
       DIAG_ENABLED to false, or delete this file, once both tickets are closed.
 */
 
 const DIAG_ENABLED = true;
 const DIAG_MAX_DROP_REPORTS = 12;
 const DIAG_MAX_CAPTURE_REPORTS = 60;
-const DIAG_FRAME_LIMIT = 30;
 
 // Everything named in the two reports, plus the rest of the brittle family that
 // shares their placement path.
@@ -61,29 +63,10 @@ function isWatchedId(id) {
     return false;
 }
 
-function formatDiagTrace(throwable) {
-    const frames = throwable.getStackTrace();
-    const lines = [];
-
-    for (let i = 0; i < frames.length && lines.length < DIAG_FRAME_LIMIT; i++) {
-        const frame = String(frames[i]);
-        // Rhino, KubeJS and the event bus glue add dozens of frames that say
-        // nothing about who spawned the item.
-        if (frame.indexOf('dev.latvian') === 0) continue;
-        if (frame.indexOf('net.neoforged.bus') === 0) continue;
-        if (frame.indexOf('java.') === 0) continue;
-        if (frame.indexOf('jdk.') === 0) continue;
-        lines.push('    at ' + frame);
-    }
-
-    return lines.join('\n');
-}
-
 function installContraptionTracer() {
     const BuiltInRegistries = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries');
     const ItemEntity = Java.loadClass('net.minecraft.world.entity.item.ItemEntity');
     const HashSet = Java.loadClass('java.util.HashSet');
-    const Throwable = Java.loadClass('java.lang.Throwable');
     const EventPriority = Java.loadClass('net.neoforged.bus.api.EventPriority');
     const EntityJoinLevelEvent = Java.loadClass('net.neoforged.neoforge.event.entity.EntityJoinLevelEvent');
     const BlockMovementChecks = Java.loadClass('com.simibubi.create.api.contraption.BlockMovementChecks');
@@ -123,7 +106,7 @@ function installContraptionTracer() {
         if (level === null || level.isClientSide()) return;
 
         const entity = event.getEntity();
-        if (!ItemEntity.isInstance(entity)) return;
+        if (!(entity instanceof ItemEntity)) return;
 
         const stack = entity.getItem();
         if (!watchedItems.contains(stack.getItem())) return;
@@ -136,8 +119,12 @@ function installContraptionTracer() {
             + ' at ' + pos.getX() + ' ' + pos.getY() + ' ' + pos.getZ()
             + ' in ' + String(level.dimension())
             + ' tick ' + level.getGameTime()
-            + ' | block there: ' + String(level.getBlockState(pos))
-            + '\n' + formatDiagTrace(new Throwable()));
+            + ' | block there: ' + String(level.getBlockState(pos)));
+
+        // Names the caller. It lands right under the line above, headed by
+        // "=== Stack Trace ===", and carries the Rhino and event bus frames
+        // along with the Create ones.
+        console.trace();
 
         if (diagDropReports === DIAG_MAX_DROP_REPORTS) {
             console.info('[Arcadia][diag] Drop report cap reached, tracer goes quiet until the next restart.');

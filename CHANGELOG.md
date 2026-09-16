@@ -4,6 +4,26 @@ All notable changes to Arcadia V2 - Echoes Of Power are documented here, by date
 
 ---
 
+## 2026-09-16
+
+### Fixed
+
+- **The cushion duplication guard had never run** — The fix meant to stop Handcrafted chairs, benches, couches and fancy beds from printing a free cushion every time a Create contraption or a piston moved them failed to install at every boot, so the duplication was still live. The script tested block types with a call that KubeJS does not expose on a loaded Java class, which aborted the install before a single guard was armed. The same faulty call sat in the handler that cancels the duplicated cushion and would have failed on the first dropped item. Both are corrected, so the guard now arms.
+
+- **The Liquid Blaze Burner still printed for free** — A schematicannon printed a Liquid Blaze Burner at the price of a plain Blaze Burner, without ever taking the Straw out of the chest, while breaking it gave back a burner and a straw: print, break and repeat yielded one free straw per cycle. The script registering the missing cost built its cost provider in a shape Rhino turns into a stub that answers nothing, so Create fell back to the default price and the registration crashed on its own self test. The provider is now built correctly and checked before being registered, so a printed Liquid Blaze Burner costs a Blaze Burner plus a Straw, as the material checklist now shows.
+
+- **The contraption block-loss tracer could not start** — The temporary diagnostic collecting evidence on Redstone Links duplicating and on doors, beds, banners and bells vanishing when a train is reassembled could not load, because it asked for a Java class the KubeJS security filter denies. It now uses the stack trace facility KubeJS provides, so the next reproduction of either report will be recorded.
+
+### Correctifs
+
+- **Le correctif de duplication des coussins n'avait jamais tourne** — Le correctif cense empecher les chaises, bancs, canapes et lits raffines de Handcrafted de produire un coussin gratuit a chaque deplacement par une contraption Create ou un piston echouait a s'installer a chaque demarrage, et la duplication restait donc active. Le script testait le type des blocs avec un appel que KubeJS n'expose pas sur une classe Java chargee, ce qui interrompait l'installation avant l'armement du moindre garde. Le meme appel fautif se trouvait dans le gestionnaire qui annule le coussin duplique et aurait echoue au premier objet tombe. Les deux sont corriges, le garde s'arme desormais.
+
+- **Le Liquid Blaze Burner s'imprimait toujours gratuitement** — Un schematicannon imprimait un Liquid Blaze Burner au prix d'un simple Blaze Burner, sans jamais prendre la Paille dans le coffre, alors que le casser rendait un brasier et une paille : imprimer, casser et recommencer donnait une paille gratuite par cycle. Le script qui enregistrait le cout manquant construisait son fournisseur de cout dans une forme que Rhino transforme en coquille vide, si bien que Create revenait au prix par defaut et que l'enregistrement plantait sur son propre test. Le fournisseur est desormais construit correctement et verifie avant enregistrement : un Liquid Blaze Burner imprime coute un Blaze Burner et une Paille, ce que la liste de materiaux affiche maintenant.
+
+- **Le traceur de pertes de blocs en contraption ne demarrait pas** — Le diagnostic temporaire qui recolte des preuves sur la duplication des Redstone Links et sur la disparition des portes, lits, bannieres et cloches au reassemblage d'un train ne pouvait pas se charger, car il demandait une classe Java refusee par le filtre de securite de KubeJS. Il utilise desormais le mecanisme de trace fourni par KubeJS, la prochaine reproduction de l'un ou l'autre rapport sera donc enregistree.
+
+---
+
 ## 2026-09-14
 
 ### Changed

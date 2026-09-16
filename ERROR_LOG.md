@@ -263,3 +263,21 @@ On top of that, those Create screens are opened purely client-side (`FMLLoader.g
 **Root cause:** The image generation account quota was exhausted during the multi-asset refresh.
 **Fix:** Kept generated assets in the workspace, added deterministic PNG import and validation scripts, and documented the partial scope.
 **Prevention:** Generate future texture families in separate quota windows and run the texture checker after each batch.
+
+## [2026-09-16 07:04] — Three KubeJS startup scripts dead on arrival
+
+**Context:** The startup error GUI reported three failures at boot: the Handcrafted cushion move guard (tickets #241 and #234), the Liquid Blaze Burner schematic cost (ticket #240) and the contraption brittle-block tracer (tickets #218 and #233). Each one installs from `StartupEvents.postInit` behind its own try/catch, so the pack booted normally with all three inactive and the bugs they cover still live.
+
+**Error:**
+1. `compat/handcrafted_cushion_move_dupe.js#110: InternalError: Java class "earth.terrarium.handcrafted.common.blocks.ChairBlock" has no public instance field or method named "isInstance".`
+2. `[Arcadia] Failed to register the Liquid Blaze Burner schematic cost: TypeError: Cannot call method "getRequiredItems" of null`
+3. `diagnostics/contraption_block_loss_trace.js#86: InternalError: Failed to load Java class 'java.lang.Throwable': Class is not allowed by class filter!`
+
+**Root cause:** Three distinct mistakes about what Rhino exposes to a script, all of them invisible until the script runs.
+1. `Java.loadClass(x)` returns a `NativeJavaClass`, which exposes the static members of the wrapped class, not the instance methods of `java.lang.Class`. `ChairBlock.isInstance(block)` therefore resolves against `ChairBlock`'s own statics and finds nothing. The same broken call sat on `ItemEntity.isInstance(entity)` in the event handler of both scripts, where it had never had the chance to throw because the install aborted a few lines earlier.
+2. `new BlockRequirement(fn)` builds a JavaAdapter from the **function properties** of the delegate: `JavaAdapter.getObjectFunctionNames` walks the delegate's property ids and keeps those whose value is a function, and `JavaAdapter.getFunction` returns null when the property is missing. A bare function has no property named `getRequiredItems`, so the generated adapter implements the interface with a method that returns null. `ItemRequirement.of` then called `getRequiredItems` on that adapter, got null back, and the self test dereferenced it. Create's `defaultOf` never returns null, which is what ruled out every other branch.
+3. The KubeJS class filter shipped in `kubejs.classfilter.txt` denies `java.lang` wholesale and re-allows a fixed list (String, Number, Runnable, StringBuilder and a handful more). `Throwable`, `Thread` and `StackTraceElement` are not on it, so no script can build a stack trace by itself.
+
+**Fix:** `block instanceof furnitureClasses[i]` and `entity instanceof ItemEntity`, since `NativeJavaClass.hasInstance` is what implements `instanceof` on a loaded class. The schematic requirement now passes an object keyed by the interface method name, `new BlockRequirement({ getRequiredItems: ... })`, and probes the adapter before registering: `SimpleRegistryImpl.register` throws `IllegalArgumentException` on a duplicate key, so there is no second attempt once a value is in. The self test also stopped assuming `ItemRequirement.of` is non-null. The tracer drops `Throwable` and calls `console.trace()`, which KubeJS backs with `Thread.currentThread().getStackTrace()` on the Java side; the trace comes out unfiltered and untagged, which is noted in the script header.
+
+**Prevention:** A `Java.loadClass` handle is not a `java.lang.Class`: use `instanceof` for a type test, never `isInstance`. To implement a Java interface from a script, hand the constructor an object whose keys are the method names; a bare function silently produces an adapter that returns null rather than an error. Before reaching for a `java.lang` class, check the allowlist in `kubejs.classfilter.txt` inside the KubeJS jar. Lastly, an install wrapped in try/catch only proves the boot survived: the code after the failure point, event handlers included, has never run and can hide the same mistake.
