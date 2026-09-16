@@ -26,6 +26,17 @@
 	# Default: 1000000000
 	# Range: 1 ~ 2147483647
 	max_listing_price = 1000000000
+	#Tax withheld from the SELLER when a sale completes, as a percentage of
+	#the sale price (5 = 5%). Distinct from listing_fee_percent, which is
+	#charged upfront whether or not the item ever sells.
+	#The buyer always pays exactly the listing price; the tax comes out of
+	#what the seller receives, and applies to won auctions as well as
+	#instant buys.
+	#Default 0 — an existing server keeps paying sellers 100% until an
+	#admin opts in.
+	# Default: 0
+	# Range: 0 ~ 90
+	sales_tax_percent = 0
 
 #Item blacklist — items that cannot be listed on the AH.
 #Use registry IDs (e.g. 'minecraft:bedrock', 'arcadia_pets:pet_item').
@@ -77,3 +88,74 @@
 	# Default: 30
 	# Range: 1 ~ 365
 	max_days = 30
+
+#Auction browser interaction settings.
+[ui]
+	#If true, buying or cancelling a listing from the auction browser requires
+	#clicking the same slot twice. The browser is a chest GUI where a single
+	#misclick otherwise spends real currency instantly, and listings shift
+	#position whenever the cache refreshes.
+	#Set to false to restore the legacy one-click behaviour.
+	buy_confirmation = true
+	#How long an armed confirmation stays valid, in seconds.
+	#After this delay the first click is forgotten and a fresh one is needed,
+	#so a stale confirmation cannot be completed by an unrelated later click.
+	# Default: 5
+	# Range: 1 ~ 60
+	confirm_timeout_seconds = 5
+
+#Bidding rules.
+[bidding]
+	#Minimum raise over the current high bid, as a percentage of it (5 = 5%).
+	#At least 1 unit is always required, so cheap listings still move.
+	#Set to 0 for the legacy behaviour of a flat +1, which let a large
+	#auction be won in one-coin steps.
+	# Default: 5
+	# Range: 0 ~ 100
+	bid_increment_percent = 5
+	#A bid placed within this many minutes of expiry pushes the deadline out
+	#to this many minutes from now, so an auction only ends after a bid has
+	#stood unchallenged for the full window.
+	#Set to 0 to disable anti-sniping entirely.
+	# Default: 5
+	# Range: 0 ~ 120
+	anti_snipe_window_minutes = 5
+	#Hard ceiling on a listing's total lifetime, counted from when it was
+	#listed. Bounds how far anti-sniping can push a deadline, so a bidding
+	#war cannot keep an item pinned away from its seller indefinitely.
+	#Should be greater than listings.listing_duration_hours.
+	# Default: 72
+	# Range: 1 ~ 720
+	anti_snipe_max_total_hours = 72
+	#If true, a bid may open BELOW the asking price, turning the bid layer
+	#into a negotiation channel: the buyer proposes, the seller accepts early
+	#with /arcadia_ah accept, and an offer the seller never answers is
+	#refunded when the listing expires rather than forcing a sale below the
+	#asking price.
+	#If false, bidding starts at the asking price as it did before 1.4.0.
+	offers_enabled = true
+	#Lowest opening offer, as a percentage of the asking price (50 = half).
+	#Stops 'offer' from becoming '1 coin on every listing'.
+	#Ignored when offers_enabled is false.
+	# Default: 50
+	# Range: 1 ~ 100
+	min_offer_percent = 50
+
+#Item watches — notify a player when a matching listing appears.
+[watchlist]
+	#Master switch for /arcadia_ah watch and its notifications.
+	enabled = true
+	#Maximum item watches a single player may hold.
+	#Bounds both the notification scan and the stored rows per player.
+	# Default: 20
+	# Range: 1 ~ 200
+	max_entries_per_player = 20
+	#Minimum seconds between two watch notifications sent to the same player.
+	#Prevents a burst of listings of a popular item from flooding chat.
+	# Default: 60
+	# Range: 0 ~ 3600
+	notify_cooldown_seconds = 60
+	#If true, players get a short auction summary on login: pending mailbox
+	#entries, coins waiting to be claimed, and listings expiring within a day.
+	#Sent only when there is something to report.
+	login_summary = true

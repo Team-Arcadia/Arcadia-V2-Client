@@ -1,0 +1,152 @@
+[
+  {
+    "id": "chat",
+    "icon": "minecraft:name_tag",
+    "labelEn": "Chat abuse",
+    "labelFr": "Abus dans le chat",
+    "reasonEn": "Inappropriate language in chat",
+    "reasonFr": "Langage inapproprie dans le chat",
+    "ladder": [
+      {
+        "action": "warn",
+        "minutes": 0
+      },
+      {
+        "action": "mute",
+        "minutes": 30
+      },
+      {
+        "action": "mute",
+        "minutes": 180
+      },
+      {
+        "action": "tempban",
+        "minutes": 1440
+      }
+    ]
+  },
+  {
+    "id": "spam",
+    "icon": "minecraft:repeater",
+    "labelEn": "Spam",
+    "labelFr": "Spam",
+    "reasonEn": "Flooding the chat",
+    "reasonFr": "Inondation du chat",
+    "ladder": [
+      {
+        "action": "warn",
+        "minutes": 0
+      },
+      {
+        "action": "mute",
+        "minutes": 15
+      },
+      {
+        "action": "mute",
+        "minutes": 120
+      }
+    ]
+  },
+  {
+    "id": "grief",
+    "icon": "minecraft:tnt",
+    "labelEn": "Griefing",
+    "labelFr": "Grief",
+    "reasonEn": "Destroying or stealing from another player",
+    "reasonFr": "Destruction ou vol chez un autre joueur",
+    "ladder": [
+      {
+        "action": "warn",
+        "minutes": 0
+      },
+      {
+        "action": "jail",
+        "minutes": 30
+      },
+      {
+        "action": "tempban",
+        "minutes": 1440
+      },
+      {
+        "action": "ban",
+        "minutes": 0
+      }
+    ]
+  },
+  {
+    "id": "cheat",
+    "icon": "minecraft:diamond_sword",
+    "labelEn": "Cheating",
+    "labelFr": "Triche",
+    "reasonEn": "Use of an unauthorised client or exploit",
+    "reasonFr": "Utilisation d\u0027un client ou d\u0027un exploit non autorise",
+    "ladder": [
+      {
+        "action": "tempban",
+        "minutes": 4320
+      },
+      {
+        "action": "ban",
+        "minutes": 0
+      }
+    ]
+  },
+  {
+    "id": "dupe",
+    "icon": "minecraft:diamond_block",
+    "labelEn": "Duplication",
+    "labelFr": "Duplication",
+    "reasonEn": "Item duplication",
+    "reasonFr": "Duplication d\u0027objets",
+    "ladder": [
+      {
+        "action": "tempban",
+        "minutes": 1440
+      },
+      {
+        "action": "ban",
+        "minutes": 0
+      }
+    ]
+  },
+  {
+    "id": "ads",
+    "icon": "minecraft:oak_sign",
+    "labelEn": "Advertising",
+    "labelFr": "Publicite",
+    "reasonEn": "Advertising another server",
+    "reasonFr": "Publicite pour un autre serveur",
+    "ladder": [
+      {
+        "action": "mute",
+        "minutes": 60
+      },
+      {
+        "action": "tempban",
+        "minutes": 1440
+      }
+    ]
+  },
+  {
+    "id": "staff",
+    "icon": "minecraft:shield",
+    "labelEn": "Staff disrespect",
+    "labelFr": "Manque de respect au staff",
+    "reasonEn": "Disrespecting a staff member",
+    "reasonFr": "Manque de respect envers un membre du staff",
+    "ladder": [
+      {
+        "action": "warn",
+        "minutes": 0
+      },
+      {
+        "action": "mute",
+        "minutes": 60
+      },
+      {
+        "action": "tempban",
+        "minutes": 720
+      }
+    ]
+  }
+]

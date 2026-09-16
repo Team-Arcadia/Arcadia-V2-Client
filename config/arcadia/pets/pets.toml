@@ -14,6 +14,26 @@
 [stats]
 	#Base probability weights for 1★ through 5★.
 	star_weights = [40, 30, 18, 9, 3]
+	#Chance for a crate to yield an ARCANE pet instead of its normal roll,
+	#in permille. 10 = 1%. Drawn before the ordinary rarity roll and only
+	#in crates at or above arcane_min_crate_tier. Range: 0-1000.
+	# Default: 10
+	# Range: 0 ~ 1000
+	arcane_permille = 10
+	#Lowest crate tier that can roll an ARCANE pet, as a rarity ordinal
+	#(0=COMMON … 4=LEGENDARY, 5=MYTHIC). Default 4 — the Legendary crate,
+	#which is the rarest one a player can obtain.
+	# Default: 4
+	# Range: 0 ~ 6
+	arcane_min_crate_tier = 4
+	#Whether an equipped pet grants its owner passive stat bonuses.
+	#Each gene star gives the player +2% of the matching attribute:
+	#  POW → attack damage, END → max health, AGI → movement speed,
+	#  WIT → attack speed, LCK → luck.
+	#This is why equipping a 5★ Endurance pet visibly adds a heart.
+	#Set false to make pets purely cosmetic + skill-driven; existing
+	#bonuses are stripped from players as soon as they re-equip.
+	passive_player_bonuses = true
 
 #Mob pools — which entity types can appear at each rarity.
 #Use namespaced IDs, e.g. "minecraft:fox" or "mymod:custom_mob".
@@ -80,3 +100,112 @@
 	#Rarity weights for endgame chest drops. Order: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY.
 	#Default [23, 35, 30, 10, 2] → LEGENDARY at 2% of drops (5% chest × 2% = 0.1% overall).
 	endgame_tier_rarity_weights = [23, 35, 30, 10, 2]
+	#Chance for pet treats/snacks to appear in common-tier chests, in permille.
+	#60 = 6%. On success, 1–2 of a randomly chosen treat or snack. Range: 0–1000.
+	# Default: 60
+	# Range: 0 ~ 1000
+	supplies_common_permille = 60
+	#Chance for pet treats/snacks to appear in endgame-tier chests, in permille.
+	#100 = 10%. On success, 1–2 of a randomly chosen treat or snack. Range: 0–1000.
+	# Default: 100
+	# Range: 0 ~ 1000
+	supplies_endgame_permille = 100
+	#Chance for a Star Essence to appear in common-tier chests, in permille.
+	#20 = 2%. Range: 0–1000.
+	# Default: 20
+	# Range: 0 ~ 1000
+	essence_common_permille = 20
+	#Chance for a Star Essence to appear in endgame-tier chests, in permille.
+	#40 = 4%. Range: 0–1000.
+	# Default: 40
+	# Range: 0 ~ 1000
+	essence_endgame_permille = 40
+
+#Rideable pets. A pet can only be mounted while it exists as a world entity,
+#i.e. in Follow mode — pocket pets have no entity to sit on.
+#Toggleable at runtime via /arcadia_pets mounts.
+[mounts]
+	#Send routine pet status to chat instead of the action bar.
+	#Off by default: mounting, feeding, hunger, pocket switches and flight
+	#warnings all used to land in chat, which players reported as spam.
+	#Deaths, milestones and anything with a consequence stay in chat either way.
+	verbose_chat = false
+	#Whether pets can be ridden at all. Default: true.
+	enabled = true
+	#Whether FLYING mounts may actually leave the ground.
+	#Set false to keep flying species rideable but grounded — useful on
+	#servers where free flight would break exploration or claim protection.
+	flight_enabled = true
+	#Bond a pet must have earned before it can be ridden at all.
+	#Bond runs 0-100 and is earned by keeping the pet out with you.
+	#ARCANE pets are born at 100 and skip this entirely.
+	# Default: 25
+	# Range: 0 ~ 100
+	bond_ground = 25
+	#Bond required before a FLYING mount will leave the ground.
+	#Deliberately far above bond_ground: flight trivialises travel, so it
+	#is the long goal rather than the first one.
+	# Default: 75
+	# Range: 0 ~ 100
+	bond_flying = 75
+	#Blocks travelled together for 1 bond. Only counts while the pet is
+	#summoned and following. Lower = faster progress.
+	# Default: 100
+	# Range: 1 ~ 10000
+	bond_blocks_per_point = 100
+	#Bond granted per mob killed with the pet out nearby.
+	# Default: 2
+	# Range: 0 ~ 100
+	bond_per_kill = 2
+	#Seconds of simply having the pet out for 1 bond. Ticks alongside the
+	#travel and kill sources, so a stationary player still progresses slowly.
+	# Default: 120
+	# Range: 1 ~ 100000
+	bond_seconds_per_point = 120
+	#Total stars (sum of the 6 genes, 6-30) a pet needs before it can be
+	#ridden as a ground/aquatic mount. 0 = no requirement.
+	# Default: 0
+	# Range: 0 ~ 30
+	ground_star_floor = 0
+	#Total stars a pet needs before it can be ridden as a FLYING mount.
+	#Default 12 — reachable but requires an invested pet.
+	# Default: 12
+	# Range: 0 ~ 30
+	flying_star_floor = 12
+	#Base ground mount speed in blocks/tick before the Agility bonus
+	#(+8% per AGI star). 0.24 lands just above sprinting at 3 stars.
+	# Default: 0.24
+	# Range: 0.05 ~ 1.0
+	ground_speed = 0.24
+	#Base aquatic mount speed in blocks/tick before the Agility bonus.
+	# Default: 0.2
+	# Range: 0.05 ~ 1.0
+	swim_speed = 0.2
+	#Base flying mount speed in blocks/tick before the Agility bonus.
+	# Default: 0.3
+	# Range: 0.05 ~ 1.0
+	fly_speed = 0.3
+	#Flight stamina pool in seconds at 0 Endurance stars.
+	# Default: 30
+	# Range: 1 ~ 3600
+	flight_base_seconds = 30
+	#Extra flight seconds granted per Endurance star.
+	#Default 10 → a 5★ END pet flies for 30 + 50 = 80 s per pool.
+	# Default: 10
+	# Range: 0 ~ 600
+	flight_seconds_per_endurance = 10
+	#Species rideable as GROUND mounts. Namespaced entity ids.
+	ground_species = ["minecraft:pig", "minecraft:cow", "minecraft:mooshroom", "minecraft:sheep", "minecraft:panda", "minecraft:wolf", "minecraft:ravager", "minecraft:iron_golem", "minecraft:sniffer", "minecraft:strider", "minecraft:wither_skeleton", "minecraft:polar_bear", "minecraft:hoglin", "minecraft:zoglin", "minecraft:horse", "minecraft:donkey", "minecraft:mule", "minecraft:camel", "minecraft:llama", "minecraft:warden", "arcadia_pets:izzy_creeper"]
+	#Species rideable as AQUATIC mounts. Namespaced entity ids.
+	aquatic_species = ["minecraft:turtle", "minecraft:axolotl", "minecraft:dolphin", "minecraft:elder_guardian"]
+	#Species rideable as FLYING mounts. Namespaced entity ids.
+	#A species listed here overrides its presence in the other two lists.
+	flying_species = ["minecraft:bee", "minecraft:allay", "minecraft:blaze", "minecraft:parrot", "minecraft:phantom", "minecraft:ghast", "minecraft:breeze", "arcadia_lib:staff_loldragman", "arcadia_pets:dragon_mount", "arcadia_pets:end_manta_ray", "arcadia_pets:lava_whale"]
+
+#General gameplay toggles.
+[gameplay]
+	#Whether new players are handed the Pet Collection Book on their first login.
+	#The book unlocks the pet advancement tab. Disable this if it conflicts with
+	#starter-kit plugins or other mods that hand out first-join items. Players can
+	#still craft/obtain the book normally. Default: true.
+	starter_book_enabled = true
