@@ -47,6 +47,8 @@ function registerLiquidBurnerRequirement() {
     const ItemUseType = Java.loadClass('com.simibubi.create.content.schematics.requirement.ItemRequirement$ItemUseType');
     const SchematicRequirementRegistries = Java.loadClass('com.simibubi.create.api.schematic.requirement.SchematicRequirementRegistries');
     const BlockRequirement = Java.loadClass('com.simibubi.create.api.schematic.requirement.SchematicRequirementRegistries$BlockRequirement');
+    const StackRequirement = Java.loadClass('com.simibubi.create.content.schematics.requirement.ItemRequirement$StackRequirement');
+    const ArrayList = Java.loadClass('java.util.ArrayList');
 
     // Fresh stacks on every call: the requirement keeps them and Create walks
     // that list while filling the cannon.
@@ -67,9 +69,24 @@ function registerLiquidBurnerRequirement() {
     // A null block entity is the normal case here, not an edge case:
     // SchematicPrinter reads it from the schematic level and passes it straight
     // to ItemRequirement.of without testing it.
-    const requirement = Java.cast(BlockRequirement, (state, blockEntity) =>
-        new ItemRequirement(ItemUseType.CONSUME, new ItemStack(burnerItem))
-            .union(new ItemRequirement(ItemUseType.CONSUME, new ItemStack(strawItem))));
+    //
+    // The list built here goes to ItemRequirement(List<StackRequirement>), the
+    // only constructor a script can reach without hitting an ambiguity.
+    // ItemRequirement(ItemUseType, ItemStack) looks like the obvious one and is
+    // unusable: Rhino turns any object into a single element list and an
+    // ItemStack into an Item, so that call matches the ItemStack, the Item and
+    // the List overloads at the same weight and Rhino refuses to choose. Handing
+    // a lone StackRequirement to the single argument constructor falls into the
+    // same trap, against ItemRequirement(List). A real java.util.ArrayList is
+    // exact for the List overload and converts to nothing else, so it is the one
+    // unambiguous shape. StackRequirement takes its arguments the other way
+    // round from ItemRequirement, stack first and usage second.
+    const requirement = Java.cast(BlockRequirement, (state, blockEntity) => {
+        const stacks = new ArrayList();
+        stacks.add(new StackRequirement(new ItemStack(burnerItem), ItemUseType.CONSUME));
+        stacks.add(new StackRequirement(new ItemStack(strawItem), ItemUseType.CONSUME));
+        return new ItemRequirement(stacks);
+    });
 
     if (requirement === null || requirement === undefined) {
         console.error('[Arcadia] Liquid Blaze Burner requirement could not be built, schematic cost left untouched.');
