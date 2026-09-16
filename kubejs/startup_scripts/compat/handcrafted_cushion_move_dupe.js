@@ -97,6 +97,9 @@ function installCushionMoveGuard() {
 
     // The four block classes that drop a cushion in onRemove. Matching on the
     // class covers every wood variant and any subclass a future version adds.
+    // Tested with instanceof: Rhino exposes the wrapped class's own static
+    // members on a loaded class, not the java.lang.Class instance methods, so
+    // isInstance() is not reachable from a script.
     const furnitureClasses = [
         Java.loadClass('earth.terrarium.handcrafted.common.blocks.ChairBlock'),
         Java.loadClass('earth.terrarium.handcrafted.common.blocks.BenchBlock'),
@@ -107,7 +110,7 @@ function installCushionMoveGuard() {
     const furniture = new HashSet();
     BuiltInRegistries.BLOCK.forEach(block => {
         for (let i = 0; i < furnitureClasses.length; i++) {
-            if (furnitureClasses[i].isInstance(block)) {
+            if (block instanceof furnitureClasses[i]) {
                 furniture.add(block);
                 return;
             }
@@ -169,7 +172,7 @@ function installCushionMoveGuard() {
         if (level === null || level.isClientSide()) return;
 
         const entity = event.getEntity();
-        if (!ItemEntity.isInstance(entity)) return;
+        if (!(entity instanceof ItemEntity)) return;
         if (!cushions.contains(entity.getItem().getItem())) return;
         if (!consumeArmedPosition(level, entity.blockPosition())) return;
 
