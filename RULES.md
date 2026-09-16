@@ -133,7 +133,7 @@ Before reporting any task complete:
 
 **Clone & launch**:
 ```
-cd "C:\Users\Jimmy\curseforge\minecraft\Instances\Arcadia V2"
+cd "<your-minecraft-instances-folder>\Arcadia V2"
 # Use Curse/CurseForge Client or Prism Launcher with this instance
 # Java 21 required, 8+ GB RAM recommended
 ```
