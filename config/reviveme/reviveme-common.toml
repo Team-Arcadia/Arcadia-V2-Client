@@ -99,6 +99,8 @@ Revive_Me_Enabled = true
 		# Default: 0
 		# Range: > 0
 		Revive_Radius = 0
+		#If fallen players can be targeted by mobs (will do the opposite if timer hits 0)
+		Fallen_Is_Targetable = false
 
 		["Fallen State Settings"."General Settings"."Health & Heal Settings"]
 			#Max Health you can have while in the fallen state, -1 is max health, Less than 1 is percentage
@@ -123,10 +125,12 @@ Revive_Me_Enabled = true
 			#Commands a fallen player isn't allowed to use. Type "/" to block all commands. Type "//" to make this a whitelist.
 			Blocked_Commands = ["home", "spawn", "tpa", "tpahere"]
 			#Keybinds that you can use while in the fallen state. (You can put a piece or the full name of a keybind. (Check the translation json for keybinding names (en_us.json for example))
-			#Example of binding: 'key.fullscreen' or 'fullscreen' will let you use the 'Toggle Fullscreen' keybinding while in the fallen state)
+			#Example of binding: 'key.fullscreen' or 'fullscreen' will let you use the 'Toggle Fullscreen' keybinding while in the fallen state. Add ';' to make the keybind only work when revive gui is toggled off)
 			Allowed_Keybinds = []
 			#If a fallen player can pick up items
 			Can_Pick_Up_Items = true
+			#If a fallen player can toggle the GUI on and off, will let them use items and attack if allowed
+			Can_Toggle_GUI = true
 
 			["Fallen State Settings"."General Settings"."Interaction Settings"."Call For Help Settings"]
 				#How long the Help call will last in SECONDS
@@ -142,13 +146,31 @@ Revive_Me_Enabled = true
 				# Range: 0.0 ~ 1.7976931348623157E308
 				Death_Timer_Max_Distance = 40.0
 
+		["Fallen State Settings"."General Settings"."Attack & Damage Settings"]
+			#Percentage of damage a fallen player recieves
+			# Default: 1.0
+			# Range: 0.0 ~ 2.147483647E9
+			Fallen_Damage_Scale_In = 1.0
+			#Percentage of damage a fallen player deals
+			# Default: 1.0
+			# Range: 0.0 ~ 2.147483647E9
+			Fallen_Damage_Scale_Out = 1.0
+			#How much damage you have to take to be revived, 0 disables this feature, -1 is max health, Less than 1 is percentage
+			# Default: 0.0
+			# Range: -1.0 ~ 2.147483647E9
+			Overkill_Amount = 0.0
+			#Increases overkill cost each time you are revived, stacks additively.
+			# Default: 0.25
+			# Range: 0.0 ~ 2.147483647E9
+			Overkill_Penalty_Percentage = 0.25
+			#What damage sources count towards overkill revive. Add "//" to make it a blacklist instead. Add ';Type;' to block/allow certain attackers. All types: ';NON_ENTITY;', ';NON_TEAM;', ';TEAM;', ';SELF;', ';MOB;', ';PLAYER;'. Type "/" to block/allow all damage sources
+			Overkill_Whitelist = ["/", ";PLAYER;"]
+
 	["Fallen State Settings"."Timer Settings"]
 		#How long you have before death. Setting to -1 will disable the timer
 		# Default: 60
 		# Range: > -1
 		Time_Left = 60
-		#If you should die when the death timer ends. If set to false, you will instead be targetable by mobs.
-		Die_When_Timer_Ends = true
 		#If the fallen timer should pause on disconnect (Multiplayer only)
 		Pause_Fallen_Timer_On_Disconnect = false
 		#How much time (in seconds) your death timer loses each time you fall. (Less than 1 is a percentage of max death time, -1 will take away the max)
@@ -167,6 +189,9 @@ Revive_Me_Enabled = true
 		PVP_Timer = 10
 		#If penalty timer particles should be hidden
 		Hide_Penalty_Timer_Particles = true
+		#What happens when the timer ends, Targetable: Become targetable by mobs (does the opposite if Fallen_Is_Targetable is true), Death: Causes you to die, Revive: Uses self revive, if none left, uses player revive)
+		#Allowed Values: TARGETABLE, DEATH, REVIVE
+		Timer_Type = "TARGETABLE"
 
 	["Fallen State Settings"."Movement & Camera Settings"]
 		#What pose you have whilst fallen
