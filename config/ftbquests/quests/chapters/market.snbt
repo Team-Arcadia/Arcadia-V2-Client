@@ -10,7 +10,7 @@
 	images: [
 		{
 			height: 7.0d
-			hover: ["&6&lArcadia Market"]
+			id: "173CDA2968A795AB"
 			image: "arcadia:textures/title/arcadia.png"
 			order: -1
 			rotation: 0.0d
@@ -20,6 +20,7 @@
 		}
 		{
 			height: 1.6d
+			id: "51C8700DAAC28FEA"
 			image: "arcadia_lib:item/arcadia_star"
 			rotation: -18.0d
 			width: 1.6d
@@ -28,6 +29,7 @@
 		}
 		{
 			height: 1.6d
+			id: "51A1890C0E83CF4A"
 			image: "arcadia_lib:item/arcadia_star"
 			rotation: 18.0d
 			width: 1.6d
@@ -2853,7 +2855,7 @@
 		{
 			can_repeat: true
 			icon: {
-				id: "apotheosis:common_material"
+				id: "apotheosis:mysterious_scrap_metal"
 			}
 			id: "6CCE1495B3F275B6"
 			rewards: [{
@@ -2861,7 +2863,7 @@
 				id: "3C99DEADE96D3557"
 				item: {
 					count: 1
-					id: "apotheosis:common_material"
+					id: "apotheosis:mysterious_scrap_metal"
 				}
 				type: "item"
 			}]
@@ -2878,7 +2880,7 @@
 		{
 			can_repeat: true
 			icon: {
-				id: "apotheosis:uncommon_material"
+				id: "apotheosis:timeworn_fabric"
 			}
 			id: "7F5F347AD02465FF"
 			rewards: [{
@@ -2886,7 +2888,7 @@
 				id: "6C8ED250E7D55A13"
 				item: {
 					count: 1
-					id: "apotheosis:uncommon_material"
+					id: "apotheosis:timeworn_fabric"
 				}
 				type: "item"
 			}]
@@ -2904,7 +2906,7 @@
 		{
 			can_repeat: true
 			icon: {
-				id: "apotheosis:rare_material"
+				id: "apotheosis:luminous_crystal_shard"
 			}
 			id: "624CDC72A7CC5B39"
 			rewards: [{
@@ -2912,7 +2914,7 @@
 				id: "47F4F6111211F9FA"
 				item: {
 					count: 1
-					id: "apotheosis:rare_material"
+					id: "apotheosis:luminous_crystal_shard"
 				}
 				type: "item"
 			}]
@@ -2929,14 +2931,14 @@
 		{
 			can_repeat: true
 			icon: {
-				id: "apotheosis:epic_material"
+				id: "apotheosis:arcane_sands"
 			}
 			id: "71DD059C8880BB54"
 			rewards: [{
 				id: "57DF3DBDF9D74CC4"
 				item: {
 					count: 1
-					id: "apotheosis:epic_material"
+					id: "apotheosis:arcane_sands"
 				}
 				type: "item"
 			}]
@@ -2954,14 +2956,14 @@
 		{
 			can_repeat: true
 			icon: {
-				id: "apotheosis:mythic_material"
+				id: "apotheosis:godforged_pearl"
 			}
 			id: "30C699D9A2775E87"
 			rewards: [{
 				id: "36512BC4F7C768E6"
 				item: {
 					count: 1
-					id: "apotheosis:mythic_material"
+					id: "apotheosis:godforged_pearl"
 				}
 				type: "item"
 			}]

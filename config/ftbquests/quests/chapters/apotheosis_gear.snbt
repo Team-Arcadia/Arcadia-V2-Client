@@ -15,6 +15,7 @@
 	images: [
 		{
 			height: 1.0d
+			id: "0A0130CE5E0E93C1"
 			image: "apotheosis:items/sigils/enhancement"
 			rotation: 0.0d
 			width: 1.0d
@@ -23,6 +24,7 @@
 		}
 		{
 			height: 1.0d
+			id: "1166C67CD380909B"
 			image: "apotheosis:items/sigils/withdrawal"
 			rotation: 0.0d
 			width: 1.0d
@@ -31,6 +33,7 @@
 		}
 		{
 			height: 1.0d
+			id: "70D609478ACB2715"
 			image: "apotheosis:items/sigils/rebirth"
 			rotation: 0.0d
 			width: 1.0d
@@ -39,6 +42,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7B1F2F8F634E92DC"
 			image: "apotheosis:items/sigils/unnaming"
 			rotation: 0.0d
 			width: 1.0d
@@ -47,6 +51,7 @@
 		}
 		{
 			height: 1.0d
+			id: "56F6B7ECB6B219FF"
 			image: "apotheosis:items/sigils/socketing"
 			rotation: 0.0d
 			width: 1.0d
@@ -55,6 +60,7 @@
 		}
 		{
 			height: 1.0d
+			id: "4EBCA82A91B30BD6"
 			image: "apotheosis:items/sigils/malice"
 			rotation: 0.0d
 			width: 1.0d
@@ -63,6 +69,7 @@
 		}
 		{
 			height: 3.0d
+			id: "13FCFF3FFA995BDA"
 			image: "simplyswords:item/runic_chakram_layer"
 			rotation: 0.0d
 			width: 3.0d
@@ -71,6 +78,7 @@
 		}
 		{
 			height: 4.0d
+			id: "59EC08E350040E60"
 			image: "simplyswords:item/runefused_gem_bg"
 			order: -1
 			rotation: 0.0d
@@ -80,6 +88,7 @@
 		}
 		{
 			height: 4.0d
+			id: "29C12C0FB5AE9C1B"
 			image: "simplyswords:item/runefused_gem_bg"
 			order: -1
 			rotation: 180.0d
@@ -89,6 +98,7 @@
 		}
 		{
 			height: 2.5d
+			id: "431C552DFF452428"
 			image: "occultism:block/stable_wormhole_frame_dark"
 			rotation: 0.0d
 			width: 2.5d
@@ -97,6 +107,7 @@
 		}
 		{
 			height: 1.0d
+			id: "14B1A0B942BBAB08"
 			image: "supplementaries:textures/map/decorations/death_marker.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -105,6 +116,7 @@
 		}
 		{
 			height: 1.0d
+			id: "3670C506A4B9441E"
 			image: "supplementaries:textures/map/decorations/death_marker.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -113,6 +125,7 @@
 		}
 		{
 			height: 1.0d
+			id: "3C104E2D079E8235"
 			image: "supplementaries:textures/map/decorations/death_marker.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -121,6 +134,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7A464F736535E8D4"
 			image: "supplementaries:textures/map/decorations/death_marker.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -129,6 +143,7 @@
 		}
 		{
 			height: 1.0d
+			id: "33477C36F299EFAA"
 			image: "supplementaries:textures/map/decorations/death_marker.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -137,6 +152,7 @@
 		}
 		{
 			height: 4.0d
+			id: "7FBD7AC7E9FAD283"
 			image: "minecraft:textures/misc/shadow.png"
 			order: -1
 			rotation: 0.0d
@@ -146,6 +162,7 @@
 		}
 		{
 			height: 1.0d
+			id: "0F7A50DC688D7528"
 			image: "apothic_enchanting:textures/particle/sga_m_water.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -154,6 +171,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7D75BD920E906898"
 			image: "apothic_enchanting:textures/particle/sga_z_sculk.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -162,6 +180,7 @@
 		}
 		{
 			height: 1.0d
+			id: "21CA55C3F665F92E"
 			image: "apothic_enchanting:textures/particle/sga_d_water.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -171,6 +190,7 @@
 		{
 			alpha: 50
 			height: 150.0d
+			id: "3B436EF408E691F1"
 			image: "occultism:block/dimensional_mineshaft_portal"
 			order: -10
 			rotation: 0.0d
@@ -312,7 +332,7 @@
 					id: "734AF3AF18C1890F"
 					item: {
 						count: 1
-						id: "apotheosis:common_material"
+						id: "apotheosis:mysterious_scrap_metal"
 					}
 					type: "item"
 				}
@@ -325,7 +345,7 @@
 			size: 0.95d
 			tasks: [{
 				id: "713EFE882A8DF739"
-				item: { count: 1, id: "apotheosis:common_material" }
+				item: { count: 1, id: "apotheosis:mysterious_scrap_metal" }
 				type: "item"
 			}]
 			x: -1.425d
@@ -340,7 +360,7 @@
 					id: "2FEBD23E24089BAE"
 					item: {
 						count: 1
-						id: "apotheosis:uncommon_material"
+						id: "apotheosis:timeworn_fabric"
 					}
 					type: "item"
 				}
@@ -353,7 +373,7 @@
 			size: 0.95d
 			tasks: [{
 				id: "366192B3D26A0B5A"
-				item: { count: 1, id: "apotheosis:uncommon_material" }
+				item: { count: 1, id: "apotheosis:timeworn_fabric" }
 				type: "item"
 			}]
 			x: -1.425d
@@ -368,7 +388,7 @@
 					id: "32124AADFAD26DF4"
 					item: {
 						count: 1
-						id: "apotheosis:rare_material"
+						id: "apotheosis:luminous_crystal_shard"
 					}
 					type: "item"
 				}
@@ -381,7 +401,7 @@
 			size: 0.95d
 			tasks: [{
 				id: "3CC05E350375C00A"
-				item: { count: 1, id: "apotheosis:rare_material" }
+				item: { count: 1, id: "apotheosis:luminous_crystal_shard" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -395,7 +415,7 @@
 					id: "6BDC8A3A55BD907A"
 					item: {
 						count: 1
-						id: "apotheosis:mythic_material"
+						id: "apotheosis:godforged_pearl"
 					}
 					type: "item"
 				}
@@ -408,7 +428,7 @@
 			size: 0.95d
 			tasks: [{
 				id: "140462D246ACBAFF"
-				item: { count: 1, id: "apotheosis:mythic_material" }
+				item: { count: 1, id: "apotheosis:godforged_pearl" }
 				type: "item"
 			}]
 			x: 1.425d
@@ -423,7 +443,7 @@
 					id: "7E90610981FEDD4B"
 					item: {
 						count: 1
-						id: "apotheosis:epic_material"
+						id: "apotheosis:arcane_sands"
 					}
 					type: "item"
 				}
@@ -436,7 +456,7 @@
 			size: 0.95d
 			tasks: [{
 				id: "2A1FC2E2E0C01055"
-				item: { count: 1, id: "apotheosis:epic_material" }
+				item: { count: 1, id: "apotheosis:arcane_sands" }
 				type: "item"
 			}]
 			x: 1.425d
@@ -516,7 +536,7 @@
 				id: "0FFC5C1C4FCD346B"
 				item: {
 					count: 1
-					id: "apotheosis:mythic_material"
+					id: "apotheosis:godforged_pearl"
 				}
 				type: "item"
 			}]
@@ -572,7 +592,7 @@
 					id: "06CEFE411A827E19"
 					item: {
 						count: 1
-						id: "apotheosis:uncommon_material"
+						id: "apotheosis:timeworn_fabric"
 					}
 					type: "item"
 				}
@@ -610,7 +630,7 @@
 					id: "3679713EC367113C"
 					item: {
 						count: 1
-						id: "apotheosis:epic_material"
+						id: "apotheosis:arcane_sands"
 					}
 					type: "item"
 				}
@@ -657,7 +677,7 @@
 					id: "7E139757E921E73C"
 					item: {
 						count: 1
-						id: "apotheosis:mythic_material"
+						id: "apotheosis:godforged_pearl"
 					}
 					type: "item"
 				}
@@ -739,7 +759,7 @@
 					id: "2162B90127FA6656"
 					item: {
 						count: 1
-						id: "apotheosis:common_material"
+						id: "apotheosis:mysterious_scrap_metal"
 					}
 					type: "item"
 				}
@@ -790,7 +810,7 @@
 					id: "26BBE771B757D17C"
 					item: {
 						count: 1
-						id: "apotheosis:uncommon_material"
+						id: "apotheosis:timeworn_fabric"
 					}
 					type: "item"
 				}
@@ -822,7 +842,7 @@
 					id: "61C1A8AB063D4A75"
 					item: {
 						count: 1
-						id: "apotheosis:rare_material"
+						id: "apotheosis:luminous_crystal_shard"
 					}
 					type: "item"
 				}
@@ -857,7 +877,7 @@
 					id: "5809483F636CDDB0"
 					item: {
 						count: 1
-						id: "apotheosis:epic_material"
+						id: "apotheosis:arcane_sands"
 					}
 					type: "item"
 				}
@@ -892,7 +912,7 @@
 					id: "287189F44A37E215"
 					item: {
 						count: 1
-						id: "apotheosis:mythic_material"
+						id: "apotheosis:godforged_pearl"
 					}
 					type: "item"
 				}

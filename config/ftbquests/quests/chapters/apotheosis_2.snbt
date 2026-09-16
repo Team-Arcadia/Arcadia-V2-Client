@@ -10,6 +10,7 @@
 	images: [
 		{
 			height: 10.0d
+			id: "6C45639E546D0E5C"
 			image: "dndecor:block/.new/red_stone_tiles"
 			rotation: 0.0d
 			width: 10.0d
@@ -18,6 +19,7 @@
 		}
 		{
 			height: 4.0d
+			id: "16AE7D1A76A55CE1"
 			image: "ars_additions:item/archwood_lantern"
 			order: 2
 			rotation: 0.2d
@@ -27,7 +29,7 @@
 		}
 		{
 			height: 4.0d
-			hover: ["Light your way in the dark night."]
+			id: "18AB0A7471F49563"
 			image: "ars_additions:item/archwood_lantern"
 			order: 2
 			rotation: 0.2d
@@ -37,6 +39,7 @@
 		}
 		{
 			height: 2.0d
+			id: "5C959A5A015E9BB1"
 			image: "minecraft:block/spawner"
 			rotation: 0.0d
 			width: 2.0d
@@ -45,6 +48,7 @@
 		}
 		{
 			height: 1.0d
+			id: "12330FF109AB9E53"
 			image: "supplementaries:textures/map/decorations/death_marker.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -53,6 +57,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7F32D98E9DC42FD4"
 			image: "supplementaries:textures/map/decorations/death_marker.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -63,6 +68,7 @@
 			alpha: 50
 			color: 16777045
 			height: 4.0d
+			id: "73592548501597B7"
 			image: "minecraft:textures/misc/shadow.png"
 			order: 1
 			rotation: 0.0d
@@ -74,6 +80,7 @@
 			alpha: 50
 			color: 16777045
 			height: 4.0d
+			id: "68F77A5064CC709B"
 			image: "minecraft:textures/misc/shadow.png"
 			order: 1
 			rotation: 0.0d
@@ -84,6 +91,7 @@
 		{
 			alpha: 50
 			height: 150.0d
+			id: "0CDDCFFBD2D9031C"
 			image: "occultism:block/dimensional_mineshaft_portal"
 			order: -10
 			rotation: 0.0d
