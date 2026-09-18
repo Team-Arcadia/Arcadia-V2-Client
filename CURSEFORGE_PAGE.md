@@ -8,7 +8,7 @@
 
 <p>&nbsp;</p>
 
-<p style="text-align: center;"><img src="https://img.shields.io/badge/Minecraft-1.21.1-62B47A?style=flat-square&amp;logo=minecraft&amp;logoColor=white" alt="MC 1.21.1">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/NeoForge-21.1.232+-F16436?style=flat-square" alt="NeoForge">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Java-21-007396?style=flat-square&amp;logo=openjdk&amp;logoColor=white" alt="Java 21">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Mods-441-FFA500?style=flat-square" alt="441 mods">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Quests-3000+-9C27B0?style=flat-square" alt="3000+ quests">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Languages-EN%20%2F%20FR-2196F3?style=flat-square" alt="EN / FR">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Status-In_Development-FFC107?style=flat-square" alt="In Development"></p>
+<p style="text-align: center;"><img src="https://img.shields.io/badge/Minecraft-1.21.1-62B47A?style=flat-square&amp;logo=minecraft&amp;logoColor=white" alt="MC 1.21.1">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/NeoForge-21.1.250+-F16436?style=flat-square" alt="NeoForge">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Java-21-007396?style=flat-square&amp;logo=openjdk&amp;logoColor=white" alt="Java 21">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Mods-446-FFA500?style=flat-square" alt="446 mods">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Quests-3893-9C27B0?style=flat-square" alt="3893 quests">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Languages-EN%20%2F%20FR-2196F3?style=flat-square" alt="EN / FR">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Status-In_Development-FFC107?style=flat-square" alt="In Development"></p>
 
 <p>&nbsp;</p>
 
@@ -38,12 +38,12 @@
 <tr>
 <td style="padding: 14px 18px; vertical-align: top; width: 50%; border-right: 2px solid #E74C3C; text-align: center;">
 <p><span style="color: #E74C3C; font-size: large;"><strong>EXPERT MODPACK</strong></span></p>
-<p>Arcadia V2 is <strong>designed for both solo and multiplayer</strong>, and can host community servers up to 30-50 players. Expect a steep progression curve, cross-mod gating, and dungeons that scale brutally. Late-game encounters reward coordinated groups, and the <strong>entire pack remains fully clearable solo</strong> with patience.</p>
+<p>Arcadia V2 is <strong>designed for both solo and multiplayer</strong>, and can host community servers up to 88 simultaneous players, our current record. Expect a steep progression curve, cross-mod gating, and dungeons that scale brutally. Late-game encounters reward coordinated groups, and the <strong>entire pack remains fully clearable solo</strong> with patience.</p>
 <p><strong>Solo is fully viable</strong>: the FTB Quests book hand-holds you through every mod's progression. <strong>Beginners are welcome</strong>; veterans of <strong>Create, Mekanism, Ars Nouveau or Apotheosis</strong> will feel right at home. Plan on 150-300 hours to reach end-game.</p>
 </td>
 <td style="padding: 14px 18px; vertical-align: top; width: 50%; text-align: center;">
 <p><span style="color: #E74C3C; font-size: large;"><strong>MODPACK EXPERT</strong></span></p>
-<p>Arcadia V2 est <strong>conçu pour le solo et le multijoueur</strong>, et supporte des serveurs communautaires jusqu'à 30 à 50 joueurs. Attendez-vous à une courbe de progression abrupte, du gating cross-mod, et des donjons qui scalent brutalement. Les rencontres endgame récompensent les groupes coordonnés, et <strong>l'intégralité du pack reste clôturable en solo</strong> avec de la patience.</p>
+<p>Arcadia V2 est <strong>conçu pour le solo et le multijoueur</strong>, et supporte des serveurs communautaires jusqu'à 88 joueurs simultanés, notre record actuel. Attendez-vous à une courbe de progression abrupte, du gating cross-mod, et des donjons qui scalent brutalement. Les rencontres endgame récompensent les groupes coordonnés, et <strong>l'intégralité du pack reste clôturable en solo</strong> avec de la patience.</p>
 <p><strong>Le solo reste totalement jouable</strong> : le livre FTB Quests vous guide à travers la progression de chaque mod. <strong>Les débutants sont les bienvenus</strong> ; les vétérans de <strong>Create, Mekanism, Ars Nouveau ou Apotheosis</strong> se sentiront tout de suite à l'aise. Comptez 150 à 300 heures pour atteindre l'endgame.</p>
 </td>
 </tr>
@@ -83,7 +83,7 @@
 <p><span style="color: #ffa500;"><strong>Curated Server Experience</strong></span><br>In-house mods built for Arcadia: <strong>Arcadia Pets</strong> (collectibles + PvP duels + ELO ladder), Arcadia Guard moderation toolkit, the Prestige progression system, and the legendary Heart of Arcadia. A tailored ecosystem built for one community.</p>
 </td>
 <td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
-<p><span style="color: #ffa500;"><strong>3,000+ Quest-Guided Journey</strong></span><br>41 chapters of FTB Quests covering every mod's progression path. Whether you're a fresh player or a 1000-hour veteran, you always know what to do next.</p>
+<p><span style="color: #ffa500;"><strong>3,893 Quest-Guided Journey</strong></span><br>43 chapters of FTB Quests covering every mod's progression path. Whether you're a fresh player or a 1000-hour veteran, you always know what to do next.</p>
 </td>
 </tr>
 </tbody>
@@ -197,7 +197,7 @@
 
 <p>&nbsp;</p>
 
-<h3 style="text-align: center;"><span style="color: #ffa500;">3000+ Quests Across 31 Chapters</span></h3>
+<h3 style="text-align: center;"><span style="color: #ffa500;">3,893 Quests Across 43 Chapters</span></h3>
 <p style="text-align: center;">The FTB Quests book is your ultimate guide, fully bilingual EN/FR plus 5 more languages.<br>New quests are added in every update.</p>
 
 <p>&nbsp;</p>
@@ -212,7 +212,7 @@
 <td style="padding: 16px; text-align: center;">
 <p><span style="color: #ffa500; font-size: large;"><strong>7 Languages Available</strong></span></p>
 <p>EN-US &nbsp;·&nbsp; EN-GB &nbsp;·&nbsp; FR &nbsp;·&nbsp; ES &nbsp;·&nbsp; PT-BR &nbsp;·&nbsp; RU &nbsp;·&nbsp; ZH-CN</p>
-<p><strong>25 000+</strong> translation entries &nbsp;·&nbsp; <strong>3000+</strong> quests &nbsp;·&nbsp; <strong>43</strong> chapters</p>
+<p><strong>85 000+</strong> translation entries &nbsp;·&nbsp; <strong>3 893</strong> quests &nbsp;·&nbsp; <strong>43</strong> chapters</p>
 </td>
 </tr>
 </tbody>
@@ -325,18 +325,18 @@
 <p>&nbsp;</p>
 
 <p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>Technical Excellence</strong></span></p>
-<p style="text-align: center;">Making <strong>441 mods</strong> coexist demands absolute rigor. We focused on two pillars:</p>
+<p style="text-align: center;">Making <strong>446 mods</strong> coexist demands absolute rigor. We focused on two pillars:</p>
 
 <table style="margin-left: auto; margin-right: auto; max-width: 850px; border: 2px solid #FFA500; background-color: rgba(255, 165, 0, 0.10);">
 <tbody>
 <tr>
 <td style="padding: 14px 18px; vertical-align: top; width: 50%; border-right: 2px solid #FFA500; text-align: center;">
 <p><span style="color: #ffa500; font-size: large;"><strong>Zero Franglais</strong></span></p>
-<p>If your game is in French, every quest, item and interface is in French. <strong>25 000+ translation entries</strong> across 7 languages. No mid-sentence English fallback. Full localization audited by the Arcadia team.</p>
+<p>If your game is in French, every quest, item and interface is in French. <strong>85 000+ translation entries</strong> across 7 languages. No mid-sentence English fallback. Full localization audited by the Arcadia team.</p>
 </td>
 <td style="padding: 14px 18px; vertical-align: top; width: 50%; text-align: center;">
 <p><span style="color: #ffa500; font-size: large;"><strong>Peak Optimization</strong></span></p>
-<p><strong>Sodium</strong>, <strong>Indium</strong>, <strong>ModernFix</strong>, <strong>FerriteCore</strong>. Stable FPS, low MS/tick. Stress-tested with 50+ player loads. No "server-breaker" item survives our blacklist.</p>
+<p><strong>Sodium</strong>, <strong>Indium</strong>, <strong>ModernFix</strong>, <strong>FerriteCore</strong>. Stable FPS, low MS/tick. Stress-tested up to 88 concurrent players, our record. No "server-breaker" item survives our blacklist.</p>
 </td>
 </tr>
 </tbody>
@@ -471,7 +471,7 @@
 
 <p>&nbsp;</p>
 
-<p style="text-align: center;"><span style="font-size: x-large;"><strong>JOIN THE ADVENTURE NOW</strong></span><br><em>441 mods, unlimited possibilities, one epic journey.</em></p>
+<p style="text-align: center;"><span style="font-size: x-large;"><strong>JOIN THE ADVENTURE NOW</strong></span><br><em>446 mods, unlimited possibilities, one epic journey.</em></p>
 
 <p>&nbsp;</p>
 
@@ -512,7 +512,7 @@
 <p><span style="color: #ffa500;"><strong>Vraie Progression Cross-Mod</strong></span><br>Tech et magie ne vivent pas en silos séparés. Chaque craft endgame demande <strong>les deux</strong> écosystèmes. 4 items pont custom (Circuit Arcane, Alliage Éthéré, Cœur Industriel, Matrice de Runes) relient le tout.</p>
 </td>
 <td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
-<p><span style="color: #ffa500;"><strong>100% Bilingue EN/FR</strong></span><br><strong>25 000+ entrées de traduction</strong> dans tout le pack. Quêtes, items, UI custom, chaque pont : tout est traduit. Politique zéro franglais appliquée par pipeline d'audit.</p>
+<p><span style="color: #ffa500;"><strong>100% Bilingue EN/FR</strong></span><br><strong>85 000+ entrées de traduction</strong> dans tout le pack. Quêtes, items, UI custom, chaque pont : tout est traduit. Politique zéro franglais appliquée par pipeline d'audit.</p>
 </td>
 </tr>
 <tr>
@@ -520,7 +520,7 @@
 <p><span style="color: #ffa500;"><strong>Expérience Serveur Curatée</strong></span><br>Mods maison conçus pour Arcadia : <strong>Arcadia Pets</strong> (collectibles + duels PvP + classement ELO), Arcadia Guard pour la modération, le système de Prestige, et le légendaire Heart of Arcadia. Un écosystème pensé pour une seule communauté.</p>
 </td>
 <td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
-<p><span style="color: #ffa500;"><strong>3 000+ Quêtes Guidées</strong></span><br>41 chapitres FTB Quests couvrant la progression de chaque mod. Que vous soyez débutant ou vétéran à 1000 heures, vous savez toujours quoi faire ensuite.</p>
+<p><span style="color: #ffa500;"><strong>3 893 Quêtes Guidées</strong></span><br>43 chapitres FTB Quests couvrant la progression de chaque mod. Que vous soyez débutant ou vétéran à 1000 heures, vous savez toujours quoi faire ensuite.</p>
 </td>
 </tr>
 </tbody>
@@ -634,7 +634,7 @@
 
 <p>&nbsp;</p>
 
-<h3 style="text-align: center;"><span style="color: #ffa500;">3000+ Quêtes sur 31 Chapitres</span></h3>
+<h3 style="text-align: center;"><span style="color: #ffa500;">3 893 Quêtes sur 43 Chapitres</span></h3>
 <p style="text-align: center;">Le livre FTB Quests est votre guide ultime, entièrement bilingue FR/EN plus 5 autres langues.<br>De nouvelles quêtes sont ajoutées à chaque mise à jour.</p>
 
 <p>&nbsp;</p>
@@ -645,7 +645,7 @@
 <td style="padding: 16px; text-align: center;">
 <p><span style="color: #ffa500; font-size: large;"><strong>7 Langues Disponibles</strong></span></p>
 <p>EN-US &nbsp;·&nbsp; EN-GB &nbsp;·&nbsp; FR &nbsp;·&nbsp; ES &nbsp;·&nbsp; PT-BR &nbsp;·&nbsp; RU &nbsp;·&nbsp; ZH-CN</p>
-<p><strong>25 000+</strong> entrées traduites &nbsp;·&nbsp; <strong>3000+</strong> quêtes &nbsp;·&nbsp; <strong>43</strong> chapitres</p>
+<p><strong>85 000+</strong> entrées traduites &nbsp;·&nbsp; <strong>3 893</strong> quêtes &nbsp;·&nbsp; <strong>43</strong> chapitres</p>
 </td>
 </tr>
 </tbody>
@@ -758,18 +758,18 @@
 <p>&nbsp;</p>
 
 <p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large; color: #ffa500;"><strong>L'Excellence Technique</strong></span></p>
-<p style="text-align: center;">Faire cohabiter <strong>441 mods</strong> demande une rigueur absolue. Nous avons mis l'accent sur deux piliers :</p>
+<p style="text-align: center;">Faire cohabiter <strong>446 mods</strong> demande une rigueur absolue. Nous avons mis l'accent sur deux piliers :</p>
 
 <table style="margin-left: auto; margin-right: auto; max-width: 850px; border: 2px solid #FFA500; background-color: rgba(255, 165, 0, 0.10);">
 <tbody>
 <tr>
 <td style="padding: 14px 18px; vertical-align: top; width: 50%; border-right: 2px solid #FFA500; text-align: center;">
 <p><span style="color: #ffa500; font-size: large;"><strong>Zéro Franglais</strong></span></p>
-<p>Si votre jeu est en français, toutes les quêtes, items et interfaces sont en français. <strong>25 000+ entrées de traduction</strong> sur 7 langues. Aucun fallback anglais en plein milieu d'une phrase. Localisation auditée par l'équipe Arcadia.</p>
+<p>Si votre jeu est en français, toutes les quêtes, items et interfaces sont en français. <strong>85 000+ entrées de traduction</strong> sur 7 langues. Aucun fallback anglais en plein milieu d'une phrase. Localisation auditée par l'équipe Arcadia.</p>
 </td>
 <td style="padding: 14px 18px; vertical-align: top; width: 50%; text-align: center;">
 <p><span style="color: #ffa500; font-size: large;"><strong>Optimisation de Pointe</strong></span></p>
-<p><strong>Sodium</strong>, <strong>Indium</strong>, <strong>ModernFix</strong>, <strong>FerriteCore</strong>. FPS stables, MS/tick bas. Stress-testé avec 50+ joueurs en charge. Aucun item « casse-serveur » ne survit à notre blacklist.</p>
+<p><strong>Sodium</strong>, <strong>Indium</strong>, <strong>ModernFix</strong>, <strong>FerriteCore</strong>. FPS stables, MS/tick bas. Stress-testé jusqu'à 88 joueurs simultanés, notre record. Aucun item « casse-serveur » ne survit à notre blacklist.</p>
 </td>
 </tr>
 </tbody>
@@ -903,7 +903,7 @@
 
 <p>&nbsp;</p>
 
-<p style="text-align: center;"><span style="font-size: x-large;"><strong>REJOIGNEZ L'AVENTURE</strong></span><br><em>441 mods, possibilités infinies, une épopée épique.</em></p>
+<p style="text-align: center;"><span style="font-size: x-large;"><strong>REJOIGNEZ L'AVENTURE</strong></span><br><em>446 mods, possibilités infinies, une épopée épique.</em></p>
 
 <p>&nbsp;</p>
 
@@ -928,7 +928,7 @@
 <p>&nbsp;</p>
 
 <p align="center" style="text-align: center; margin-top: 1.2em; margin-bottom: 0.6em;"><span style="font-size: xx-large;"><strong>Mod Credits / Crédits des Mods</strong></span></p>
-<p style="text-align: center;"><em>This modpack proudly includes 441 mods from talented developers worldwide. Thank you for making this adventure possible!</em><br><em>Ce modpack inclut fièrement 441 mods créés par des développeurs talentueux du monde entier. Merci d'avoir rendu cette aventure possible !</em></p>
+<p style="text-align: center;"><em>This modpack proudly includes 446 mods from talented developers worldwide. Thank you for making this adventure possible!</em><br><em>Ce modpack inclut fièrement 446 mods créés par des développeurs talentueux du monde entier. Merci d'avoir rendu cette aventure possible !</em></p>
 
 <p>&nbsp;</p>
 
