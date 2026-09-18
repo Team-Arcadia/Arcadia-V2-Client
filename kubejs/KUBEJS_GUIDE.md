@@ -108,7 +108,7 @@ kubejs/
 │
 ├── startup_scripts/
 │   ├── compat/
-│   │   ├── knightlib_enable_content.js             # Calls KnightLib.initialize(Usage.ALL) so grail/chalice recipes load
+│   │   ├── knightlib_enable_content.js             # initialize(ALL): keeps the homunculus recipes Knight Quest 1.9.3 does not enable
 │   │   ├── handcrafted_cushion_move_dupe.js        # Suppresses the cushion drop when furniture is moved, not broken
 │   │   └── liquid_blaze_burner_schematic_cost.js   # Registers the missing schematic cost (burner + straw)
 │   ├── diagnostics/
