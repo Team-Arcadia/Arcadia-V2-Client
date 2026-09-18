@@ -5,18 +5,28 @@
     Created by vyrriox.
 
     Why:
-      KnightLib 1.5.2 gates its own grail / chalice / essence / homunculus
-      content behind a KnightLib.Usage flag set. A RecipeManagerMixin strips
-      every great_chalice, empty_grail, essence-conversion and homunculus
-      recipe unless the matching Usage is enabled via KnightLib.initialize(...).
-      Knight Quest 1.9.2 never calls initialize(), so the flag set stays empty
-      and the whole progression collapses: no chalice, no grails, no filled
-      grails, hence no craftable Knight armor/weapons and no homunculus mobs.
+      KnightLib gates its own grail / chalice / essence / homunculus content
+      behind a KnightLib.Usage flag set. RecipeManagerMixin strips every
+      great_chalice, empty_grail, small_essence, great_essence and homunculus
+      recipe whose matching Usage is not enabled.
+
+      Knight Quest 1.9.3 does call KnightLib.initialize() itself, unlike 1.9.2
+      which never did, but it enables only three of the five values:
+      COPPER_GRAILS, GREAT_CHALICE and GREEN_ESSENCES. HOMUNCULUS is left out,
+      so the homunculus recipes are still stripped without this script.
 
     Fix:
-      Enable every Usage at startup (before datapacks load), so the mixin sees
-      the content as enabled and keeps all recipes intact. This restores the
-      full intended Knight Quest chain without duplicating any recipe.
+      The no-argument overload enables Usage.ALL, and isEnabled() answers true
+      for every value once ALL is in the set, so the homunculus content comes
+      back with it.
+
+      Ordering against Knight Quest does not matter: initialize() copies the
+      current set, adds what is missing and never removes anything, so the two
+      calls accumulate whichever runs first.
+
+    Verified against knightlib 2.0.1 and knightquest 1.9.3 by reading the
+    bytecode of KnightLib.initialize, KnightLib.isEnabled, RecipeManagerMixin
+    and KnightQuestCommon.init.
 */
 
 StartupEvents.postInit(() => {
@@ -24,7 +34,7 @@ StartupEvents.postInit(() => {
         // Rhino 2101.2.7 mis-handles const declarations directly inside try
         // blocks. The no-argument overload enables Usage.ALL without locals.
         Java.loadClass('dev.xylonity.knightlib.KnightLib').initialize();
-        console.info('[Arcadia] KnightLib content enabled (ALL). Grail, chalice, essence and homunculus recipes restored.');
+        console.info('[Arcadia] KnightLib content enabled (ALL). Homunculus recipes kept, which Knight Quest does not enable on its own.');
     } catch (err) {
         console.error('[Arcadia] Failed to enable KnightLib content: ' + err);
     }
