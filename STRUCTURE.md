@@ -10,8 +10,8 @@ Master reference of the Arcadia V2 "Echoes Of Power" instance. Everything is ind
 | Minecraft | 1.21.1 |
 | Loader | NeoForge 21.1.232 |
 | Java | 21 (8+ GB RAM recommended) |
-| Manifest | 454 CurseForge entries (441 mods + 13 shaderpacks) |
-| Local jars | 444 active (incl. in-house mods and patched jars) |
+| Manifest | 466 CurseForge entries (440 mods + 26 shaderpacks) |
+| Local jars | 445 active (incl. 10 in-house mods and 5 patched jars) |
 | Target | Community server, 30-50 players, also fully solo-viable |
 | Languages | Docs EN/FR, items in 7 locales, quests in 7 locales |
 | License | Proprietary source-available (see `LICENSE`) |
@@ -21,7 +21,7 @@ Master reference of the Arcadia V2 "Echoes Of Power" instance. Everything is ind
 
 ```
 Arcadia V2/
-├── manifest.json            CurseForge manifest, 454 entries resolved at import
+├── manifest.json            CurseForge manifest, 466 entries resolved at import
 ├── minecraftinstance.json   CurseForge instance metadata (very large, grep only)
 ├── README.md                Bilingual repository documentation
 ├── CURSEFORGE_PAGE.md       HTML source of the CurseForge project page
@@ -32,13 +32,13 @@ Arcadia V2/
 ├── ERROR_LOG.md             Error log with prevention rules
 ├── LICENSE                  Proprietary source-available license
 │
-├── mods/                    444 active .jar + in-house arcadia-* mods
+├── mods/                    445 active .jar (10 in-house arcadia-*, 5 patched)
 ├── config/                  ~1,156 files: modpack-shipped configuration
 ├── defaultconfigs/          Full mirror of config/ (new-world & server defaults)
 ├── kubejs/                  ~2,012 files: custom scripting ecosystem
 ├── datapacks/               Empty (all data lives in kubejs/data/)
 ├── resourcepacks/           ArcadiaLanguages (in-house localization) + hud.zip
-├── shaderpacks/             13 curated shaders
+├── shaderpacks/             26 curated shaders
 │
 ├── saves/TEST/              Active QA test world
 ├── ESM/                     Historical snapshot archives (never modify)
@@ -97,15 +97,17 @@ kubejs/
 ├── KUBEJS_GUIDE.md          Staff guide: READ FIRST before touching any script
 ├── modified_recipes.txt     Recipe change log
 │
-├── startup_scripts/         9 scripts (full restart required)
+├── startup_scripts/         12 scripts (full restart required)
 │   ├── registry/            item_registry (70+ custom items), block_registry,
 │   │                        sound_registry (20 jukebox songs), armor_tiers,
 │   │                        item_stat_tweaks
-│   ├── compat/              knightlib_enable_content (KnightLib recipe init)
+│   ├── compat/              knightlib_enable_content, handcrafted_cushion_move_dupe,
+│   │                        liquid_blaze_burner_schematic_cost
+│   ├── diagnostics/         contraption_block_loss_trace (temporary, #218/#233)
 │   └── ui/                  arcadia_creative_tab, hide_banned_from_creative,
 │                            player_welcome_message
 │
-├── server_scripts/          33 scripts (/reload)
+├── server_scripts/          37 scripts (/reload)
 │   ├── recipes/overhaul/    01-10: vanilla tools, cross-mod, Mekanism, TFMG, IE,
 │   │                        Create addons, storage/flux, magic, adventure,
 │   │                        steel arbitrage lock
@@ -118,7 +120,7 @@ kubejs/
 │   ├── items/loot/          loot_table_nerfs (diamond 0.5%, netherite 0.01%)
 │   ├── mobs/                mob_stat_overrides (boss HP x2.5-x8), damage nerfs,
 │   │                        merchant_trade_filter
-│   ├── fixes/compat/        9 cross-mod fixes: claim protections (explosions,
+│   ├── fixes/compat/        10 cross-mod fixes: claim protections (explosions,
 │   │                        soul gems, transmitters), TFMG limestone, blaze burner,
 │   │                        cannon boat, creeper lightning, Mowzie paw, pulverizer dupe
 │   └── tags/                c: convention item/entity tags
@@ -154,7 +156,7 @@ kubejs/
 ## 8. Distribution & Workflow
 
 - Git: single branch `2.0.X` on `github.com/Team-Arcadia/Arcadia-V2-Client`, auto-commit/push policy, English commits, no version bumps without explicit request.
-- Players install via CurseForge (manifest resolves 454 entries); in-house content ships in `mods/` overrides + `kubejs/` + `config/`.
+- Players install via CurseForge (manifest resolves 466 entries); in-house content ships in `mods/` overrides + `kubejs/` + `config/`.
 - Test world: `saves/TEST`. KubeJS server scripts reload with `/reload`; startup scripts need a full restart.
 - Logs to watch: `logs/latest.log`, `logs/kubejs/{startup,server,client}.log`.
 
@@ -172,8 +174,8 @@ Référence maîtresse de l'instance Arcadia V2 « Echoes Of Power ». Tout est 
 | Minecraft | 1.21.1 |
 | Loader | NeoForge 21.1.232 |
 | Java | 21 (8+ Go RAM recommandés) |
-| Manifest | 454 entrées CurseForge (441 mods + 13 shaderpacks) |
-| Jars locaux | 446 actifs (dont mods maison et jars patchés) |
+| Manifest | 466 entrées CurseForge (440 mods + 26 shaderpacks) |
+| Jars locaux | 445 actifs (dont 10 mods maison et 5 jars patchés) |
 | Cible | Serveur communautaire, 30-50 joueurs, jouable en solo |
 | Langues | Docs EN/FR, items en 7 locales, quêtes en 7 locales |
 | Licence | Propriétaire source visible (voir `LICENSE`) |
@@ -183,7 +185,7 @@ Référence maîtresse de l'instance Arcadia V2 « Echoes Of Power ». Tout est 
 
 ```
 Arcadia V2/
-├── manifest.json            Manifest CurseForge, 454 entrées résolues à l'import
+├── manifest.json            Manifest CurseForge, 466 entrées résolues à l'import
 ├── minecraftinstance.json   Métadonnées d'instance CurseForge (très volumineux)
 ├── README.md                Documentation bilingue du dépôt
 ├── CURSEFORGE_PAGE.md       Source HTML de la page CurseForge
@@ -194,13 +196,13 @@ Arcadia V2/
 ├── ERROR_LOG.md             Journal d'erreurs avec règles de prévention
 ├── LICENSE                  Licence propriétaire source visible
 │
-├── mods/                    444 .jar actifs + mods maison arcadia-*
+├── mods/                    445 .jar actifs (10 mods maison, 5 patchés)
 ├── config/                  ~1 156 fichiers : configuration livrée par le pack
 ├── defaultconfigs/          Miroir complet de config/ (défauts nouveaux mondes/serveur)
 ├── kubejs/                  ~2 012 fichiers : écosystème de scripts custom
 ├── datapacks/               Vide (toutes les données sont dans kubejs/data/)
 ├── resourcepacks/           ArcadiaLanguages (localisation maison) + hud.zip
-├── shaderpacks/             13 shaders sélectionnés
+├── shaderpacks/             26 shaders sélectionnés
 │
 ├── saves/TEST/              Monde de test QA actif
 ├── ESM/                     Archives de snapshots historiques (ne jamais modifier)
@@ -259,15 +261,17 @@ kubejs/
 ├── KUBEJS_GUIDE.md          Guide staff : À LIRE AVANT de toucher un script
 ├── modified_recipes.txt     Journal des modifications de recettes
 │
-├── startup_scripts/         9 scripts (redémarrage complet requis)
+├── startup_scripts/         12 scripts (redémarrage complet requis)
 │   ├── registry/            item_registry (70+ items customs), block_registry,
 │   │                        sound_registry (20 musiques), armor_tiers,
 │   │                        item_stat_tweaks
-│   ├── compat/              knightlib_enable_content (init recettes KnightLib)
+│   ├── compat/              knightlib_enable_content, handcrafted_cushion_move_dupe,
+│   │                        liquid_blaze_burner_schematic_cost
+│   ├── diagnostics/         contraption_block_loss_trace (temporaire, #218/#233)
 │   └── ui/                  arcadia_creative_tab, hide_banned_from_creative,
 │                            player_welcome_message
 │
-├── server_scripts/          33 scripts (/reload)
+├── server_scripts/          37 scripts (/reload)
 │   ├── recipes/overhaul/    01-10 : outils vanilla, cross-mod, Mekanism, TFMG, IE,
 │   │                        addons Create, stockage/flux, magie, aventure,
 │   │                        verrou arbitrage acier
@@ -280,7 +284,7 @@ kubejs/
 │   ├── items/loot/          loot_table_nerfs (diamant 0.5%, netherite 0.01%)
 │   ├── mobs/                mob_stat_overrides (HP boss x2.5-x8), nerfs de dégâts,
 │   │                        merchant_trade_filter
-│   ├── fixes/compat/        9 correctifs cross-mod : protections de claims
+│   ├── fixes/compat/        10 correctifs cross-mod : protections de claims
 │   │                        (explosions, soul gems, transmitters), TFMG limestone,
 │   │                        blaze burner, bateau-canon, creeper foudre, patte Mowzie,
 │   │                        dupe pulverizer
@@ -317,6 +321,6 @@ kubejs/
 ## 8. Distribution & Workflow
 
 - Git : branche unique `2.0.X` sur `github.com/Team-Arcadia/Arcadia-V2-Client`, politique d'auto-commit/push, commits en anglais, pas de bump de version sans demande explicite.
-- Les joueurs installent via CurseForge (le manifest résout 454 entrées) ; le contenu maison est livré via les overrides `mods/` + `kubejs/` + `config/`.
+- Les joueurs installent via CurseForge (le manifest résout 466 entrées) ; le contenu maison est livré via les overrides `mods/` + `kubejs/` + `config/`.
 - Monde de test : `saves/TEST`. Scripts serveur KubeJS rechargés avec `/reload` ; scripts startup : redémarrage complet.
 - Logs à surveiller : `logs/latest.log`, `logs/kubejs/{startup,server,client}.log`.

@@ -1,5 +1,19 @@
 # Error Log — Arcadia V2
 
+## [2026-09-18 10:30] — Auditing a mod's recipes counted the 1.20 folder and nearly kept 26 dead patches
+
+**Context:** Checking whether the `create_things_and_misc_fix.js` rebuilds were still needed after the mod moved to 4.1.1, by reading the recipe JSON straight out of the jar.
+**Error:** The first sweep reported 33 still-broken recipes and claimed 5 of them were not covered by our script, which would have meant writing 5 new rebuilds. The real number was 13, and nothing was uncovered.
+**Root cause:** The jar ships both `data/create_things_and_misc/recipe/` (100 files) and `data/create_things_and_misc/recipes/` (57 files). Only the singular folder is read on 1.21; the plural one is the 1.20 path and is dead weight the author never deleted. Matching on `"/recipe" in name` swept up both, so recipes that exist only as abandoned 1.20 files were counted as live breakage.
+**Fix:** Filter on the exact prefix `data/<namespace>/recipe/`. The count dropped to 13 real failures, all of them a numeric key in a shaped pattern, and the 5 "uncovered" entries turned out to live only in the dead folder.
+**Prevention:** When auditing recipes, loot tables or tags inside a jar, match the full 1.21 directory (`recipe/`, `loot_table/`, `advancement/`), never a prefix that a legacy plural or singular variant also satisfies. A mod updated across the 1.20 to 1.21 datapack rename frequently carries both, and the stale one parses perfectly well.
+
+**Contexte :** Verification de l'utilite des reconstructions de `create_things_and_misc_fix.js` apres le passage du mod en 4.1.1.
+**Erreur :** Le premier balayage annoncait 33 recettes cassees et 5 non couvertes, au lieu de 13 et aucune.
+**Cause :** Le jar contient `recipe/` (lu en 1.21) et `recipes/` (chemin 1.20, jamais lu). Le filtre attrapait les deux.
+**Correction :** Filtrer sur le prefixe exact `data/<namespace>/recipe/`.
+**Prevention :** Toujours cibler le repertoire 1.21 complet, jamais un prefixe que la variante singulier/pluriel satisfait aussi.
+
 ## [2026-09-14 22:48] - Texture import and validation gaps
 **Context:** Completing the custom texture refresh and reviewing the reduced PNG assets.
 **Error:** The texture checker accepted legacy item dimensions. The local importer failed with CS1069 under PowerShell 7. Armor image edits also contained neutral checkerboard pixels near UV boundaries.
