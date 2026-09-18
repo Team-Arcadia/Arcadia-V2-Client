@@ -41,6 +41,9 @@ kubejs/
 │   │   └── extra_long_flying_from_long_flying.json # Gate: Nether Star (Wither boss)
 │   ├── apothic_spawners/tags/entity_type/
 │   │   └── blacklisted_from_spawners.json          # 37 mobs banned (Animal Garden, turtles, bosses)
+│   ├── apotheosis_create/recipe/                   # 5 overrides: the mod declares its fluid
+│   │                                               # ingredients as fluid_stack, not a registered
+│   │                                               # 1.21.1 type. Create itself uses neoforge:single
 │   ├── arcadia/jukebox_song/                       # 20 jukebox song definitions
 │   ├── createoreexcavation/recipe/                 # Custom Create Ore Excavation entries
 │   ├── minecraft/tags/item/enchantable/
@@ -49,6 +52,9 @@ kubejs/
 │       └── grant_parcool_guide.json                # Disables Parcool guide spam
 │
 ├── server_scripts/
+│   ├── blocks/
+│   │   └── magnet_jammer.js                        # Anti-magnet field, 11x11 chunks, PreventRemoteMovement
+│   │
 │   ├── tags/
 │   │   └── item_entity_tags.js                     # c: convention item tags (consolidated)
 │   │
@@ -68,7 +74,7 @@ kubejs/
 │   │   │   ├── netherite_sequenced_assembly.js     # Netherite block decrafting via sequenced assembly
 │   │   │   ├── precision_mechanism_fix.js          # Fix Create 6.0.10 bug #10203 (tag Either-codec)
 │   │   │   ├── chromatic_chain.js                  # Reopens the chromatic chain (compound + shadow/radiant casings)
-│   │   │   └── create_things_and_misc_fix.js       # Auto-rebuilds 39 recipes broken in 1.21 (legacy format)
+│   │   │   └── create_things_and_misc_fix.js       # Rebuilds the 13 recipes the mod still ships with numeric pattern keys
 │   │   ├── custom/
 │   │   │   ├── misc_custom_crafts.js               # ATM recipe + iron_sheet hand-craft fallback (early-game unblock)
 │   │   │   ├── armor_crafts.js                     # Adept/Heretic armor recipes
@@ -93,6 +99,7 @@ kubejs/
 │           ├── cannon_boat_crash_fix.js                    # Supplementaries cannon_boat crash fix
 │           ├── claim_explosion_protection.js               # Hardens FTB claims vs custom mod explosions (Mutant Creeper etc.)
 │           ├── creeper_lightning_charge_fix.js             # Lightning damage always charges creepers (vanilla + ISS spells)
+│           ├── entity_interact_at_claim_protection.js      # Blocks entity interaction inside foreign FTB claims
 │           ├── mowziesmobs_elokosa_paw_crashfix.js         # Mowzie's Mobs Elokosa paw crash fix
 │           ├── occultengineering_pulverizer_dupe_fix.js    # Replaces broken upgrade_tier recipe (6 shapeless tier crafts)
 │           ├── soul_gem_claim_protection.js                # Occultism Soul Gem: blocks mob capture inside foreign FTB claims
@@ -101,7 +108,11 @@ kubejs/
 │
 ├── startup_scripts/
 │   ├── compat/
-│   │   └── knightlib_enable_content.js             # Calls KnightLib.initialize(Usage.ALL) so grail/chalice recipes load
+│   │   ├── knightlib_enable_content.js             # Calls KnightLib.initialize(Usage.ALL) so grail/chalice recipes load
+│   │   ├── handcrafted_cushion_move_dupe.js        # Suppresses the cushion drop when furniture is moved, not broken
+│   │   └── liquid_blaze_burner_schematic_cost.js   # Registers the missing schematic cost (burner + straw)
+│   ├── diagnostics/
+│   │   └── contraption_block_loss_trace.js         # TEMPORARY tracer for tickets #218 / #233 — delete once both close
 │   └── registry/
 │       ├── item_registry.js                        # ALL custom items (keys, discs, fusion, bridges, armor, heart)
 │       ├── block_registry.js                       # Custom blocks (ATM)
@@ -135,6 +146,7 @@ Files in `kubejs/data/<namespace>/...` override vanilla/mod JSON files at the sa
 - **Apotheosis Potion Charm** — replaced with HDPE Sheet + Rune Matrix endgame recipe
 - **Apothic Attributes flight** — Dragon's Breath + Nether Star gates
 - **Apothic Spawners mob blacklist** — 37 entities via `entity_type` tag
+- **Create: Apotheosis Automation fluid ingredients** — 5 recipes re-declared with `neoforge:single`. The mod ships `"type": "fluid_stack"`, which is not a registered fluid ingredient type on 1.21.1; Create's own recipes use `neoforge:single`. The three other overrides were dropped in 4.1.1 once the mod shipped them correctly
 - **Vanilla enchantable tag** — removes 53 custom Arcadia items from `minecraft:enchantable/durability` (NeoForge `remove` field)
 - **Block relocation lock** — `tfmg:oil_deposit`, `large_switch` and `large_transformer` added to `c:relocation_not_supported` and, redundantly, to `ars_nouveau:gravity_blacklist` (ticket #270)
 - **Sophisticated Storage pump upgrades** — three recipes in `data/arcadia/recipe/` for items the mod registers but never gives a recipe (ticket #268)
@@ -260,7 +272,7 @@ Several broken recipes from mod authors fixed via KubeJS:
 | Fix | File | Reason |
 |-----|------|--------|
 | **Create Precision Mechanism** | `recipes/create/precision_mechanism_fix.js` | Create 6.0.10 bug #10203 (tag Either-codec) |
-| **create_things_and_misc** (39 recipes) | `recipes/create/create_things_and_misc_fix.js` | Legacy 1.20 format (`result.item` → `result.id`) + numeric pattern keys + `forge:` tags |
+| **create_things_and_misc** (13 recipes) | `recipes/create/create_things_and_misc_fix.js` | Numeric keys in the shaped pattern, which the 1.21 codec rejects. The legacy `result.item` format and the `forge:` tags were fixed by the mod in 4.1.1, so those 26 rebuilds were dropped. Audit the `recipe/` folder only: the jar also carries a 1.20 `recipes/` folder that never loads |
 | **Netherite decrafting** | `recipes/create/netherite_sequenced_assembly.js` | Allows turning Netherite Block back into 9 ingots (4 loops) |
 | **Chromatic chain** | `recipes/create/chromatic_chain.js` | Create 6.0.10 registers Chromatic Compound / Shadow / Radiant casings but ships no recipe for them, leaving 44 Create Encased blocks unobtainable (ticket #269) |
 | **Occult Engineering Pulverizer dupe** | `fixes/compat/occultengineering_pulverizer_dupe_fix.js` | Removes broken `upgrade_tier` recipe (shift-craft duped output), replaces with 6 explicit shapeless tier transitions |

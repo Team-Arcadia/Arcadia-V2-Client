@@ -4,6 +4,26 @@ All notable changes to Arcadia V2 - Echoes Of Power are documented here, by date
 
 ---
 
+## 2026-09-18
+
+### Fixed
+
+- **The CurseForge manifest no longer matched the pack** — The manifest is what a player's launcher reads to download the mods, and it had drifted badly: 134 of its entries pointed at files that are no longer installed, while 145 projects the pack actually runs were missing from it. Anyone importing the pack got a different set of mods from the one the `config/` and `kubejs/` overrides are written against. It is now generated from the installed instance and lists 466 entries, 440 mod jars and the 26 shaderpacks. The two patched jars CurseForge still tracks are deliberately left out, because the launcher would otherwise download the upstream file over our fix.
+
+### Changed
+
+- **Two mod bugs we were patching have been fixed upstream** — Create: Apotheosis Automation 1.1.1 now ships three of the recipes we were overriding in exactly the form we had written, so those overrides were removed. The five remaining ones stay: the mod still declares its fluid ingredients with a type that does not exist on 1.21.1. In the same pass, create_things_and_misc 4.1.1 corrected the recipe format on its own side, so 26 of our 39 rebuilt recipes were replacing the mod's recipes with an identical copy and are gone. Thirteen rebuilds remain, covering the recipes the mod still ships with a pattern key the 1.21 recipe reader rejects.
+
+### Correctifs
+
+- **Le manifest CurseForge ne correspondait plus au pack** — Le manifest est ce que le launcher d'un joueur lit pour telecharger les mods, et il avait fortement derive : 134 de ses entrees pointaient vers des fichiers qui ne sont plus installes, tandis que 145 projets reellement utilises par le pack n'y figuraient pas. Toute personne important le pack obtenait donc un ensemble de mods different de celui pour lequel les overrides `config/` et `kubejs/` sont ecrits. Il est desormais genere depuis l'instance installee et compte 466 entrees, 440 jars de mods et les 26 shaderpacks. Les deux jars patches encore suivis par CurseForge en sont volontairement exclus, sans quoi le launcher telechargerait le fichier amont par-dessus notre correctif.
+
+### Modifications
+
+- **Deux bugs de mods que nous corrigions l'ont ete en amont** — Create: Apotheosis Automation 1.1.1 livre desormais trois des recettes que nous surchargions, dans exactement la forme que nous avions ecrite : ces surcharges ont ete retirees. Les cinq autres restent, le mod declarant toujours ses ingredients fluides avec un type qui n'existe pas en 1.21.1. Dans la meme passe, create_things_and_misc 4.1.1 a corrige le format de ses recettes, si bien que 26 de nos 39 recettes reconstruites remplacaient celles du mod par une copie identique : elles ont ete supprimees. Treize reconstructions subsistent, pour les recettes que le mod livre encore avec une cle de motif que le lecteur de recettes 1.21 refuse.
+
+---
+
 ## 2026-09-16
 
 ### Fixed
