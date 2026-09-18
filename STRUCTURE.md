@@ -8,11 +8,11 @@ Master reference of the Arcadia V2 "Echoes Of Power" instance. Everything is ind
 |-------|-------|
 | Name | Arcadia V2: Echoes Of Power |
 | Minecraft | 1.21.1 |
-| Loader | NeoForge 21.1.232 |
+| Loader | NeoForge 21.1.250 |
 | Java | 21 (8+ GB RAM recommended) |
 | Manifest | 466 CurseForge entries (440 mods + 26 shaderpacks) |
-| Local jars | 445 active (incl. 10 in-house mods and 5 patched jars) |
-| Target | Community server, 30-50 players, also fully solo-viable |
+| Local jars | 446 active (incl. 10 in-house mods and 5 patched jars) |
+| Target | Community server, 88 players at peak (record), also fully solo-viable |
 | Languages | Docs EN/FR, items in 7 locales, quests in 7 locales |
 | License | Proprietary source-available (see `LICENSE`) |
 | Team | See `CREDITS.md` |
@@ -32,10 +32,10 @@ Arcadia V2/
 ├── ERROR_LOG.md             Error log with prevention rules
 ├── LICENSE                  Proprietary source-available license
 │
-├── mods/                    445 active .jar (10 in-house arcadia-*, 5 patched)
-├── config/                  ~1,156 files: modpack-shipped configuration
+├── mods/                    446 active .jar (10 in-house arcadia-*, 5 patched)
+├── config/                  ~1,234 files: modpack-shipped configuration
 ├── defaultconfigs/          Full mirror of config/ (new-world & server defaults)
-├── kubejs/                  ~2,012 files: custom scripting ecosystem
+├── kubejs/                  ~2,071 files: custom scripting ecosystem
 ├── datapacks/               Empty (all data lives in kubejs/data/)
 ├── resourcepacks/           ArcadiaLanguages (in-house localization) + hud.zip
 ├── shaderpacks/             26 curated shaders
@@ -57,7 +57,7 @@ Arcadia V2/
 | Change loot drops | `kubejs/server_scripts/items/loot/loot_table_nerfs.js` |
 | Add an item tooltip | `kubejs/client_scripts/arcadia_item_tooltips.js` |
 | Translate an item | `kubejs/assets/arcadia/lang/` (7 locales: de, en, es, fr, it, pt, ru) |
-| Edit quests | `config/ftbquests/quests/chapters/` (41 chapters) |
+| Edit quests | `config/ftbquests/quests/chapters/` (43 chapters) |
 | Translate quests | `config/ftbquests/quests/lang/` (7 locales) |
 | Change the main menu / branding | `config/fancymenu/` (custom GUIs, panoramas, layouts) |
 | Server progression / admin systems | `config/arcadia/` (production config, handle with care) |
@@ -72,13 +72,13 @@ Golden rules: always give recipes an explicit `.id('arcadia:xxx')`, always add l
 
 ## 4. config/ - General Configuration
 
-~1,156 files. Key areas:
+~1,234 files. Key areas:
 
 | Path | Purpose |
 |------|---------|
 | `config/arcadia/` | In-house server systems: ArcadiaGuard (moderation), admin panel, auction house (ah), lootbox, pets, prestige, spawn/tablist |
 | `config/fancymenu/` | Branded "Echoes Of Power" main menu, custom server-selection GUIs, panoramas, loading screens |
-| `config/ftbquests/quests/` | 41 quest chapters, 3,000+ quests, 7-language lang files |
+| `config/ftbquests/quests/` | 43 quest chapters, 3,893 quests, 7-language lang files |
 | `config/jei/` | Ingredient blacklist and curated sort order |
 | `config/ars_nouveau/` | Magic balance tuning (intentionally nerfed) |
 | `config/apotheosis/` | RPG loot/affix tuning |
@@ -115,7 +115,7 @@ kubejs/
 │   │                        create things & misc rebuilds, chromatic chain
 │   ├── recipes/custom/      Fusion Core chain (5 tiers, 9x9 final), Adept/Heretic
 │   │                        armor, misc crafts
-│   ├── items/banned/        recipe_remover (152 bans), inventory_scanner,
+│   ├── items/banned/        recipe_remover (154 bans), inventory_scanner,
 │   │                        strip_life_mending_gloves
 │   ├── items/loot/          loot_table_nerfs (diamond 0.5%, netherite 0.01%)
 │   ├── mobs/                mob_stat_overrides (boss HP x2.5-x8), damage nerfs,
@@ -126,10 +126,10 @@ kubejs/
 │   └── tags/                c: convention item/entity tags
 │
 ├── client_scripts/          arcadia_item_tooltips.js (bilingual tooltips)
-├── data/                    ~1,465 JSON: apotheosis rarities/affixes, apothic
+├── data/                    ~1,491 JSON: apotheosis rarities/affixes, apothic
 │                            brewing gates, spawner blacklist, jukebox songs,
 │                            createoreexcavation, enchantable tag trims
-├── assets/arcadia/          ~497 files: textures, models, sounds, 7 lang files
+├── assets/arcadia/          ~522 files: textures, models, sounds, 7 lang files
 └── config/                  KubeJS client/common/web_server settings
 ```
 
@@ -145,7 +145,7 @@ kubejs/
 
 **Balance philosophy** (intentional, do not "fix"): loot drought (diamond 0.5%, netherite 0.01%), boss HP x2.5-x8, flight gated behind Dragon's Breath/Nether Star brewing, Winged affix mythic-only, artifacts craft-only, steel cross-mod arbitrage locked, merchant trades filtered.
 
-**Quests**: 41 chapters in `config/ftbquests/quests/chapters/` covering every major mod (Create, Mekanism, TFMG, IE, Ars Nouveau, Iron's Spellbooks, Occultism, Apotheosis, Aether, Twilight Forest, Deeper & Darker, Farmer's Delight...), plus progression guide and bounty chapters.
+**Quests**: 43 chapters in `config/ftbquests/quests/chapters/` covering every major mod (Create, Mekanism, TFMG, IE, Ars Nouveau, Iron's Spellbooks, Occultism, Apotheosis, Aether, Twilight Forest, Deeper & Darker, Farmer's Delight...), plus progression guide and bounty chapters.
 
 ## 7. In-House & Patched Mods
 
@@ -172,11 +172,11 @@ Référence maîtresse de l'instance Arcadia V2 « Echoes Of Power ». Tout est 
 |-------|--------|
 | Nom | Arcadia V2 : Echoes Of Power |
 | Minecraft | 1.21.1 |
-| Loader | NeoForge 21.1.232 |
+| Loader | NeoForge 21.1.250 |
 | Java | 21 (8+ Go RAM recommandés) |
 | Manifest | 466 entrées CurseForge (440 mods + 26 shaderpacks) |
-| Jars locaux | 445 actifs (dont 10 mods maison et 5 jars patchés) |
-| Cible | Serveur communautaire, 30-50 joueurs, jouable en solo |
+| Jars locaux | 446 actifs (dont 10 mods maison et 5 jars patchés) |
+| Cible | Serveur communautaire, 88 joueurs au pic (record), jouable en solo |
 | Langues | Docs EN/FR, items en 7 locales, quêtes en 7 locales |
 | Licence | Propriétaire source visible (voir `LICENSE`) |
 | Équipe | Voir `CREDITS.md` |
@@ -196,10 +196,10 @@ Arcadia V2/
 ├── ERROR_LOG.md             Journal d'erreurs avec règles de prévention
 ├── LICENSE                  Licence propriétaire source visible
 │
-├── mods/                    445 .jar actifs (10 mods maison, 5 patchés)
-├── config/                  ~1 156 fichiers : configuration livrée par le pack
+├── mods/                    446 .jar actifs (10 mods maison, 5 patchés)
+├── config/                  ~1 234 fichiers : configuration livrée par le pack
 ├── defaultconfigs/          Miroir complet de config/ (défauts nouveaux mondes/serveur)
-├── kubejs/                  ~2 012 fichiers : écosystème de scripts custom
+├── kubejs/                  ~2 071 fichiers : écosystème de scripts custom
 ├── datapacks/               Vide (toutes les données sont dans kubejs/data/)
 ├── resourcepacks/           ArcadiaLanguages (localisation maison) + hud.zip
 ├── shaderpacks/             26 shaders sélectionnés
@@ -221,7 +221,7 @@ Arcadia V2/
 | Changer les drops de loot | `kubejs/server_scripts/items/loot/loot_table_nerfs.js` |
 | Ajouter un tooltip d'item | `kubejs/client_scripts/arcadia_item_tooltips.js` |
 | Traduire un item | `kubejs/assets/arcadia/lang/` (7 locales : de, en, es, fr, it, pt, ru) |
-| Éditer les quêtes | `config/ftbquests/quests/chapters/` (41 chapitres) |
+| Éditer les quêtes | `config/ftbquests/quests/chapters/` (43 chapitres) |
 | Traduire les quêtes | `config/ftbquests/quests/lang/` (7 locales) |
 | Changer le menu principal / branding | `config/fancymenu/` (GUIs custom, panoramas, layouts) |
 | Progression serveur / systèmes admin | `config/arcadia/` (config de production, prudence) |
@@ -236,13 +236,13 @@ Règles d'or : toujours un `.id('arcadia:xxx')` explicite sur les recettes, touj
 
 ## 4. config/ - Configuration Générale
 
-~1 156 fichiers. Zones clés :
+~1 234 fichiers. Zones clés :
 
 | Chemin | Rôle |
 |--------|------|
 | `config/arcadia/` | Systèmes serveur maison : ArcadiaGuard (modération), panneau admin, hôtel des ventes (ah), lootbox, pets, prestige, spawn/tablist |
 | `config/fancymenu/` | Menu principal « Echoes Of Power », GUIs de sélection de serveur, panoramas, écrans de chargement |
-| `config/ftbquests/quests/` | 41 chapitres, 3 000+ quêtes, fichiers lang en 7 langues |
+| `config/ftbquests/quests/` | 43 chapitres, 3 893 quêtes, fichiers lang en 7 langues |
 | `config/jei/` | Blacklist d'ingrédients et ordre de tri |
 | `config/ars_nouveau/` | Équilibrage magie (nerfs intentionnels) |
 | `config/apotheosis/` | Réglages loot/affixes RPG |
@@ -279,7 +279,7 @@ kubejs/
 │   │                        reconstructions create things & misc, chaîne chromatique
 │   ├── recipes/custom/      Chaîne Fusion Core (5 tiers, 9x9 final), armures
 │   │                        Adept/Heretic, crafts divers
-│   ├── items/banned/        recipe_remover (152 bans), inventory_scanner,
+│   ├── items/banned/        recipe_remover (154 bans), inventory_scanner,
 │   │                        strip_life_mending_gloves
 │   ├── items/loot/          loot_table_nerfs (diamant 0.5%, netherite 0.01%)
 │   ├── mobs/                mob_stat_overrides (HP boss x2.5-x8), nerfs de dégâts,
@@ -291,10 +291,10 @@ kubejs/
 │   └── tags/                Tags d'items/entités convention c:
 │
 ├── client_scripts/          arcadia_item_tooltips.js (tooltips bilingues)
-├── data/                    ~1 465 JSON : raretés/affixes Apotheosis, gates de
+├── data/                    ~1 491 JSON : raretés/affixes Apotheosis, gates de
 │                            brassage apothic, blacklist spawners, musiques jukebox,
 │                            createoreexcavation, retraits du tag enchantable
-├── assets/arcadia/          ~497 fichiers : textures, modèles, sons, 7 fichiers lang
+├── assets/arcadia/          ~522 fichiers : textures, modèles, sons, 7 fichiers lang
 └── config/                  Réglages KubeJS client/common/web_server
 ```
 
@@ -310,7 +310,7 @@ kubejs/
 
 **Philosophie d'équilibrage** (intentionnelle, ne pas « corriger ») : disette de loot (diamant 0.5%, netherite 0.01%), HP des boss x2.5-x8, vol gaté derrière Dragon's Breath/Étoile du Nether, affixe Winged mythique uniquement, artifacts craft uniquement, arbitrage d'acier cross-mod verrouillé, trades des marchands filtrés.
 
-**Quêtes** : 41 chapitres dans `config/ftbquests/quests/chapters/` couvrant chaque mod majeur (Create, Mekanism, TFMG, IE, Ars Nouveau, Iron's Spellbooks, Occultism, Apotheosis, Aether, Twilight Forest, Deeper & Darker, Farmer's Delight...), plus les chapitres guide de progression et bounties.
+**Quêtes** : 43 chapitres dans `config/ftbquests/quests/chapters/` couvrant chaque mod majeur (Create, Mekanism, TFMG, IE, Ars Nouveau, Iron's Spellbooks, Occultism, Apotheosis, Aether, Twilight Forest, Deeper & Darker, Farmer's Delight...), plus les chapitres guide de progression et bounties.
 
 ## 7. Mods Maison & Jars Patchés
 

@@ -1,6 +1,6 @@
 # Arcadia V2 — Echoes Of Power
 
-A curated NeoForge 1.21.1 modpack designed for the **Arcadia** community server (30–50 players). Heavy cross-mod hardening, custom KubeJS content, bilingual EN/FR localization, and a complete FTB Quests progression.
+A curated NeoForge 1.21.1 modpack designed for the **Arcadia** community server (up to 88 simultaneous players, our record). Heavy cross-mod hardening, custom KubeJS content, bilingual EN/FR localization, and a complete FTB Quests progression.
 
 ## Features
 
@@ -10,8 +10,8 @@ A curated NeoForge 1.21.1 modpack designed for the **Arcadia** community server 
 - **Fusion Core mega-chain** — 5-tier endgame crafting chain culminating in a 9×9 Mechanical Crafting recipe
 - **Custom Adept & Heretic armor sets** — 4 pieces + 10 unique companion items each, full lore textures
 - **20 custom music discs** — Original tracks with dedicated vinyl textures and jukebox-song integration
-- **FTB Quests pack** — 7 languages (EN-US, EN-GB, FR, ES, PT-BR, RU, ZH-CN), 25 000+ translation entries
-- **152 banned items** — 3-layer enforcement (recipe removal + inventory scan + JEI/creative hide)
+- **FTB Quests pack** — 7 languages (EN-US, EN-GB, FR, ES, PT-BR, RU, ZH-CN), 85 000+ translation entries
+- **154 banned items** — 3-layer enforcement (recipe removal + inventory scan + JEI/creative hide)
 - **Mob rebalance** — Boss HP ×2.5 to ×8, twilight/mowzie/iron-spellbook bosses individually tuned
 - **Loot nerfs** — Diamond 0.5%, Netherite 0.01%, Artifacts craft-only, backpacks/twilight scaled
 - **Apotheosis tuning** — Rarity weights, mythic-only Winged affix, gated flight potions (Dragon's Breath + Nether Star)
@@ -23,7 +23,7 @@ A curated NeoForge 1.21.1 modpack designed for the **Arcadia** community server 
 | Dependency | Version |
 |------------|---------|
 | Minecraft  | 1.21.1  |
-| NeoForge   | 21.1.232+ |
+| NeoForge   | 21.1.250+ |
 | Java       | 21      |
 | CurseForge or Prism Launcher | Required for manifest-based install |
 
@@ -39,7 +39,7 @@ A curated NeoForge 1.21.1 modpack designed for the **Arcadia** community server 
 1. Clone this repository
 2. Use the included `manifest.json` to fetch all mods via CurseForge Core / packwiz
 3. Apply the `config/`, `defaultconfigs/`, `kubejs/`, `resourcepacks/ArcadiaLanguages/` overrides
-4. Start your NeoForge 21.1.232+ server
+4. Start your NeoForge 21.1.250+ server
 
 ## Repository Contents
 
@@ -70,7 +70,7 @@ This repo ships only what we author or maintain. Third-party mod jars are resolv
 
 # Arcadia V2 — Echoes Of Power (Version Francaise)
 
-Un modpack NeoForge 1.21.1 curate, conu pour le serveur communautaire **Arcadia** (30 a 50 joueurs). Hardening cross-mod massif, contenu KubeJS custom, localisation bilingue EN/FR, et une progression FTB Quests complete.
+Un modpack NeoForge 1.21.1 curate, conu pour le serveur communautaire **Arcadia** (jusqu'a 88 joueurs simultanes, notre record). Hardening cross-mod massif, contenu KubeJS custom, localisation bilingue EN/FR, et une progression FTB Quests complete.
 
 ## Caracteristiques
 
@@ -80,8 +80,8 @@ Un modpack NeoForge 1.21.1 curate, conu pour le serveur communautaire **Arcadia*
 - **Mega-chaine Fusion Core** — 5 tiers de crafting endgame culminant en recette 9x9 Mechanical Crafting
 - **Sets d armures Adept et Heretique** — 4 pieces + 10 items compagnons uniques chacun, textures completes
 - **20 disques de musique customs** — Pistes originales avec textures vinyle dediees et integration jukebox-song
-- **Pack FTB Quests** — 7 langues (EN-US, EN-GB, FR, ES, PT-BR, RU, ZH-CN), 25 000+ entrees de traduction
-- **152 items bannis** — Application 3 couches (suppression de recette + scan d inventaire + masquage JEI/creatif)
+- **Pack FTB Quests** — 7 langues (EN-US, EN-GB, FR, ES, PT-BR, RU, ZH-CN), 85 000+ entrees de traduction
+- **154 items bannis** — Application 3 couches (suppression de recette + scan d inventaire + masquage JEI/creatif)
 - **Rebalance des mobs** — HP des boss x2.5 a x8, boss twilight/mowzie/iron-spellbook regles individuellement
 - **Nerfs de loot** — Diamant 0.5%, Netherite 0.01%, Artifacts craft uniquement, sacs/twilight reduits
 - **Tuning Apotheosis** — Poids des raretes, affixe Winged mythique uniquement, potions de vol gatees (Dragon Breath + Etoile Nether)
@@ -93,7 +93,7 @@ Un modpack NeoForge 1.21.1 curate, conu pour le serveur communautaire **Arcadia*
 | Dependance | Version |
 |------------|---------|
 | Minecraft  | 1.21.1  |
-| NeoForge   | 21.1.232+ |
+| NeoForge   | 21.1.250+ |
 | Java       | 21      |
 | CurseForge ou Prism Launcher | Requis pour installation via manifest |
 
@@ -109,7 +109,7 @@ Un modpack NeoForge 1.21.1 curate, conu pour le serveur communautaire **Arcadia*
 1. Cloner ce depot
 2. Utiliser le `manifest.json` fourni pour recuperer tous les mods via CurseForge Core / packwiz
 3. Appliquer les overrides `config/`, `defaultconfigs/`, `kubejs/`, `resourcepacks/ArcadiaLanguages/`
-4. Demarrer un serveur NeoForge 21.1.232+
+4. Demarrer un serveur NeoForge 21.1.250+
 
 ## Contenu du depot
 
