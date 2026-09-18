@@ -336,7 +336,7 @@
 </td>
 <td style="padding: 14px 18px; vertical-align: top; width: 50%; text-align: center;">
 <p><span style="color: #ffa500; font-size: large;"><strong>Peak Optimization</strong></span></p>
-<p><strong>Sodium</strong>, <strong>Indium</strong>, <strong>ModernFix</strong>, <strong>FerriteCore</strong>. Stable FPS, low MS/tick. Stress-tested up to 88 concurrent players, our record. No "server-breaker" item survives our blacklist.</p>
+<p><strong>Sodium</strong>, <strong>Iris</strong>, <strong>ModernFix</strong>, <strong>FerriteCore</strong>. Stable FPS, low MS/tick. Stress-tested up to 88 concurrent players, our record. No "server-breaker" item survives our blacklist.</p>
 </td>
 </tr>
 </tbody>
@@ -769,7 +769,7 @@
 </td>
 <td style="padding: 14px 18px; vertical-align: top; width: 50%; text-align: center;">
 <p><span style="color: #ffa500; font-size: large;"><strong>Optimisation de Pointe</strong></span></p>
-<p><strong>Sodium</strong>, <strong>Indium</strong>, <strong>ModernFix</strong>, <strong>FerriteCore</strong>. FPS stables, MS/tick bas. Stress-testé jusqu'à 88 joueurs simultanés, notre record. Aucun item « casse-serveur » ne survit à notre blacklist.</p>
+<p><strong>Sodium</strong>, <strong>Iris</strong>, <strong>ModernFix</strong>, <strong>FerriteCore</strong>. FPS stables, MS/tick bas. Stress-testé jusqu'à 88 joueurs simultanés, notre record. Aucun item « casse-serveur » ne survit à notre blacklist.</p>
 </td>
 </tr>
 </tbody>
