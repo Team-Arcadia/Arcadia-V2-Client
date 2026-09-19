@@ -12,6 +12,17 @@ layout-meta {
   [loading_requirement_container_meta:ddb9533a-2693-4d12-b2e8-8a742ba8f7e0-1774817978239] = [groups:][instances:]
 }
 
+customization {
+  action = setscale
+  scale = 2.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1010
+}
+
 menu_background {
   image_path = [source:local]/config/fancymenu/assets/arcadia/intro.png
   slide = true
@@ -179,18 +190,24 @@ vanilla_button {
   automated_button_clicks = 0
 }
 
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = progress_bar
+  is_hidden = true
+}
+
 element {
   progress_for_element_anchor = false
   bar_texture = [source:local]/config/fancymenu/assets/arcadia/loading_progress_fill.png
   bar_nine_slice = true
   background_texture = [source:local]/config/fancymenu/assets/arcadia/loading_progress_track.png
   background_nine_slice = true
-  direction = left
+  direction = right
   value_mode = percentage
   progress_source = {"placeholder":"game_loading_progress"}
   smooth_filling_animation = true
   element_type = progress_bar
-  instance_identifier = progress_bar
+  instance_identifier = arcadia_progress_bar
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading

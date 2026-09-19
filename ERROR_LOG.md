@@ -362,3 +362,15 @@ On top of that, those Create screens are opened purely client-side (`FMLLoader.g
 **Fix:** Change the header to `element {` in all four Drippy layout variants while retaining `element_type = progress_bar`, the live Drippy placeholder, the local texture paths and preloading.
 
 **Prevention:** When adding a FancyMenu custom element by hand, copy the serialized container shape from an existing custom element: `element { ... element_type = <registered_type> ... }`. Type-specific block names are not interchangeable with `element`. Validate the rendered screen, not only the inner fields.
+
+## [2026-09-20 02:15] — Arcadia gauge overlaps the native bar and fills backwards
+
+**Context:** After correcting the custom-element container, the Arcadia texture rendered for the first time. The visual check showed it above the still-visible native white bar, and its fill receded from right to left. Resizing the game window also displaced the fixed layout.
+
+**Error:** Two progress bars were visible, the Arcadia gauge filled in the opposite direction, and fixed coordinates did not adapt cleanly to smaller windows.
+
+**Root cause:** Replacing the original `vanilla_button` entry removed FancyMenu's customization record for the native `progress_bar` widget, so Drippy rendered it again underneath the new element. FancyMenu's `left` direction selects right-to-left filling. The Drippy layouts also had no layout-wide auto-scaling block.
+
+**Fix:** Restore a hidden `vanilla_button` entry targeting the native `progress_bar`, give the custom gauge its own `arcadia_progress_bar` identifier, change its direction to `right`, and enable a forced GUI scale plus layout auto-scaling from the 1920x1010 design canvas in all four variants.
+
+**Prevention:** Keep native-widget suppression and replacement elements as separate records with separate identifiers. Confirm fill direction at partial progress and resize the game window during every loading-layout visual test.
