@@ -8,7 +8,7 @@ All notable changes to Arcadia V2 - Echoes Of Power are documented here, by date
 
 ### Changed
 
-- **The loading progress bar is now a real Arcadia gauge** — All four Drippy loading-screen variants replace the plain white legacy bar with FancyMenu's native textured progress element. A fixed dark-iron and copper track frames a separately clipped copper-gold fill with an arcane-cyan energy core, driven by Drippy's live `game_loading_progress` placeholder during startup and F3+T resource reloads.
+- **The loading progress bar is now a real Arcadia gauge** — All four Drippy loading-screen variants replace the plain white legacy bar with FancyMenu's native textured progress element. A fixed dark-iron and copper track frames a separately clipped copper-gold fill with an arcane-cyan energy core, driven by Drippy's live `game_loading_progress` placeholder during startup and F3+T resource reloads. Both textures are explicitly preloaded by FancyMenu so the loading overlay can render them while normal game resources are unavailable.
 
 - **The vanilla hotbar now matches Arcadia** — KubeJS overrides the four Minecraft 1.21.1 HUD sprites for the nine-slot bar, active-slot selection and both offhand orientations. The bar uses dark iron and restrained copper separators; the selected slot uses luminous copper and brass with small arcane-cyan corner accents. All vanilla dimensions and occupied bounds are preserved, and a deterministic generator keeps the artwork maintainable.
 
@@ -16,7 +16,7 @@ All notable changes to Arcadia V2 - Echoes Of Power are documented here, by date
 
 ### Modifications
 
-- **La barre de chargement devient une vraie jauge Arcadia** — Les quatre variantes de l'ecran Drippy remplacent l'ancienne barre blanche par l'element de progression texture natif de FancyMenu. Un rail fixe en fer sombre et cuivre encadre un remplissage cuivre dore decoupe selon la progression, avec un coeur d'energie cyan arcanique, pilote par la valeur Drippy `game_loading_progress` au demarrage et pendant les rechargements F3+T.
+- **La barre de chargement devient une vraie jauge Arcadia** — Les quatre variantes de l'ecran Drippy remplacent l'ancienne barre blanche par l'element de progression texture natif de FancyMenu. Un rail fixe en fer sombre et cuivre encadre un remplissage cuivre dore decoupe selon la progression, avec un coeur d'energie cyan arcanique, pilote par la valeur Drippy `game_loading_progress` au demarrage et pendant les rechargements F3+T. FancyMenu precharge explicitement les deux textures afin que l'ecran puisse les afficher pendant l'indisponibilite des ressources normales du jeu.
 
 - **La barre rapide vanilla adopte le style Arcadia** — KubeJS surcharge les quatre sprites HUD de Minecraft 1.21.1 pour la barre de neuf cases, la selection active et les deux orientations de main secondaire. La barre emploie du fer sombre et des separateurs cuivre discrets ; la case choisie utilise un cuivre et un laiton lumineux avec de petits accents cyan arcaniques aux coins. Toutes les dimensions et zones occupees vanilla sont conservees, avec un generateur deterministe pour la maintenance.
 

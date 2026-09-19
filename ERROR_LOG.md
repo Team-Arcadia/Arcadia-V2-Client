@@ -338,3 +338,15 @@ On top of that, those Create screens are opened purely client-side (`FMLLoader.g
 **Fix:** `kubejstweaks-1.0.6.jar` moved from `mods/` to `disabled-mods/`, after confirming it is used nowhere: no script references it, no mod declares it as a dependency, and its jar registers no game content at all (4 `assets/` entries, a lang file only), so no existing save can refer to it. Its KubeJS plugins are development tooling (ProbeJS typings, dumping erroring recipes). Two harmless leftovers kept on purpose: the pack's French translation of its 4 strings in `kubejs/assets/kubejstweaks/lang/fr_fr.json`, and a filter line in `config/logbegone.json`.
 
 **Prevention:** A dependency range that names a version but not a build (`2101.7.2` covers build 363 and build 377 alike) gives no protection at all for a mixin that redirects a call site inside a method body. Such a mixin breaks on any upstream build that merely rewrites that method, with no warning at load time and no failure until the affected system runs. After updating KubeJS, load a world before assuming the update is clean: startup scripts and the main menu exercise none of the recipe pipeline. Other mixins in this mod target Rhino internals (`ContextFactoryMixin`, `NativeJavaMethodMixin`, `TypesMixin`, `VariableTypeInfoMixin`), so script behaviour, overload resolution in particular, may shift slightly now that it is gone.
+
+## [2026-09-20 01:45] — Drippy loading gauge falls back to the white default bar
+
+**Context:** The four Drippy layouts were changed from a legacy button-shaped bar to FancyMenu's textured progress element. Static checks confirmed the element and local PNG paths, but the first F3+T visual check still showed the white default progress bar.
+
+**Error:** The Arcadia track and fill textures were not rendered during resource reload. FancyMenu displayed a plain white fill and outline even though both PNG files existed and the active layout referenced them.
+
+**Root cause:** Loading-overlay resources have to be available before the normal resource reload completes. The two new local texture paths were absent from FancyMenu's `preload_resources` list, so the progress element could not resolve them at render time and used its fallback appearance.
+
+**Fix:** Add `loading_progress_track.png` and `loading_progress_fill.png` to `config/fancymenu/options.txt` under `preload_resources`, using the same local-source syntax and separator as the other Arcadia loading assets.
+
+**Prevention:** Any new local texture used by the startup or F3+T loading overlay must be added to FancyMenu's preload list. A successful file and layout validation is insufficient for loading-screen assets; always perform an actual startup and F3+T visual check.
