@@ -52,9 +52,22 @@ def build_hotbar() -> Image.Image:
             draw.line((right, 3, right, 18), fill=COPPER)
             draw.line((right + 1, 3, right + 1, 18), fill=(54, 35, 24, 255))
 
-    for x in (2, 179):
-        draw.point((x, 2), fill=BRASS)
-        draw.point((x, 19), fill=DARK_COPPER)
+    # Symmetrical mechanical end caps keep the bar from looking cut off.
+    draw.line((0, 5, 0, 16), fill=(45, 43, 38, 255))
+    draw.line((1, 3, 1, 18), fill=STEEL)
+    draw.line((2, 2, 2, 19), fill=COPPER)
+    draw.line((2, 2, 5, 2), fill=BRASS)
+    draw.line((2, 19, 5, 19), fill=DARK_COPPER)
+    draw.point((1, 4), fill=PALE_BRASS)
+    draw.point((2, 10), fill=(113, 63, 34, 255))
+
+    draw.line((181, 5, 181, 16), fill=(45, 43, 38, 255))
+    draw.line((180, 3, 180, 18), fill=STEEL)
+    draw.line((179, 2, 179, 19), fill=COPPER)
+    draw.line((176, 2, 179, 2), fill=BRASS)
+    draw.line((176, 19, 179, 19), fill=DARK_COPPER)
+    draw.point((180, 4), fill=PALE_BRASS)
+    draw.point((179, 10), fill=(113, 63, 34, 255))
     return image
 
 
