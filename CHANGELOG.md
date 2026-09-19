@@ -8,11 +8,15 @@ All notable changes to Arcadia V2 - Echoes Of Power are documented here, by date
 
 ### Changed
 
+- **The loading progress bar is now a real Arcadia gauge** — All four Drippy loading-screen variants replace the plain white legacy bar with FancyMenu's native textured progress element. A fixed dark-iron and copper track frames a separately clipped copper-gold fill with an arcane-cyan energy core, driven by Drippy's live `game_loading_progress` placeholder during startup and F3+T resource reloads.
+
 - **The vanilla hotbar now matches Arcadia** — KubeJS overrides the four Minecraft 1.21.1 HUD sprites for the nine-slot bar, active-slot selection and both offhand orientations. The bar uses dark iron and restrained copper separators; the selected slot uses luminous copper and brass with small arcane-cyan corner accents. All vanilla dimensions and occupied bounds are preserved, and a deterministic generator keeps the artwork maintainable.
 
 - **FTB Quests now carries the Arcadia visual identity** — KubeJS overrides the five shared FTB Library surfaces and all 27 FTB Quests GUI textures shipped by version 2101.1.36. The new skin uses restrained dark iron, walnut, aged brass and arcane-cyan accents, preserves every upstream texture dimension and icon silhouette, and includes a deterministic generator for future maintenance. In-game reviews replaced the dense 16-pixel editor grid with a continuous warm charcoal surface and quiet broken grain, then changed dependency arrows from muted cyan to luminous copper-gold that remains visible after FTB applies its state tint. Reload client resources with F3+T to apply it. Final in-game confirmation is still required.
 
 ### Modifications
+
+- **La barre de chargement devient une vraie jauge Arcadia** — Les quatre variantes de l'ecran Drippy remplacent l'ancienne barre blanche par l'element de progression texture natif de FancyMenu. Un rail fixe en fer sombre et cuivre encadre un remplissage cuivre dore decoupe selon la progression, avec un coeur d'energie cyan arcanique, pilote par la valeur Drippy `game_loading_progress` au demarrage et pendant les rechargements F3+T.
 
 - **La barre rapide vanilla adopte le style Arcadia** — KubeJS surcharge les quatre sprites HUD de Minecraft 1.21.1 pour la barre de neuf cases, la selection active et les deux orientations de main secondaire. La barre emploie du fer sombre et des separateurs cuivre discrets ; la case choisie utilise un cuivre et un laiton lumineux avec de petits accents cyan arcaniques aux coins. Toutes les dimensions et zones occupees vanilla sont conservees, avec un generateur deterministe pour la maintenance.
 
