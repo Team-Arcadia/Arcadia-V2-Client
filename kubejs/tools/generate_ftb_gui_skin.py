@@ -127,11 +127,11 @@ def recolor_icon(source: Path, palette: str) -> Image.Image:
                     output_pixels[x, y] = (*CYAN[:3], alpha)
             elif palette == "copper":
                 if luminance < 80:
-                    output_pixels[x, y] = (113, 45, 22, alpha)
+                    output_pixels[x, y] = (214, 91, 30, alpha)
                 elif luminance < 180:
-                    output_pixels[x, y] = (220, 104, 42, alpha)
+                    output_pixels[x, y] = (255, 169, 50, alpha)
                 else:
-                    output_pixels[x, y] = (255, 190, 79, alpha)
+                    output_pixels[x, y] = (255, 239, 166, alpha)
             else:
                 if luminance < 70:
                     output_pixels[x, y] = (*BRASS_DARK[:3], alpha)
