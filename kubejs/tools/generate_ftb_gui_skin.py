@@ -40,31 +40,38 @@ def save(image: Image.Image, namespace: str, name: str) -> None:
 
 
 def build_background() -> Image.Image:
-    image = Image.new("RGBA", (16, 16), IRON_DARK)
+    image = Image.new("RGBA", (16, 16), (27, 27, 25, 255))
     draw = ImageDraw.Draw(image)
     for y in range(16):
         for x in range(16):
-            noise = ((x * 11 + y * 7 + x * y) % 5) - 2
-            draw.point((x, y), fill=(22 + noise, 29 + noise, 34 + noise, 255))
-    draw.line((0, 0, 15, 0), fill=(45, 56, 61, 255))
-    draw.line((0, 0, 0, 15), fill=(39, 49, 55, 255))
-    draw.line((0, 15, 15, 15), fill=(12, 17, 21, 255))
-    draw.line((15, 0, 15, 15), fill=(12, 17, 21, 255))
-    draw.point((1, 1), fill=(68, 72, 69, 255))
-    draw.point((14, 14), fill=(9, 13, 16, 255))
+            noise = ((x * 7 + y * 13 + x * y * 3) % 5) - 2
+            draw.point((x, y), fill=(29 + noise, 28 + noise, 25 + noise, 255))
+    draw.point((3, 4), fill=(39, 36, 30, 255))
+    draw.point((11, 12), fill=(20, 21, 20, 255))
     return image
 
 
 def build_background_squares() -> Image.Image:
-    tile = build_background()
-    image = Image.new("RGBA", (256, 256))
-    for y in range(0, 256, 16):
-        for x in range(0, 256, 16):
-            image.alpha_composite(tile, (x, y))
+    image = Image.new("RGBA", (256, 256), (30, 27, 24, 255))
     draw = ImageDraw.Draw(image)
-    for value in range(0, 256, 64):
-        draw.line((value, 0, value, 255), fill=(115, 76, 34, 90))
-        draw.line((0, value, 255, value), fill=(115, 76, 34, 90))
+    for y in range(256):
+        for x in range(256):
+            noise = ((x * 17 + y * 29 + x * y * 5) % 5) - 2
+            band = ((y * 3 + (x // 37)) % 17 == 0)
+            warm = 2 if band else 0
+            draw.point((x, y), fill=(31 + noise + warm, 28 + noise + warm, 25 + noise, 255))
+
+    # A few broken horizontal strokes suggest brushed metal and walnut grain.
+    # They deliberately never span the texture, so tiling cannot form a grid.
+    strokes = (
+        (18, 22, 77), (41, 133, 205), (69, 48, 111), (93, 176, 238),
+        (124, 9, 64), (151, 104, 169), (183, 196, 247), (218, 32, 99),
+        (241, 142, 188),
+    )
+    for y, start, end in strokes:
+        draw.line((start, y, end, y), fill=(43, 37, 30, 255))
+        draw.point((start - 1, y), fill=(34, 31, 27, 255))
+        draw.point((end + 1, y), fill=(24, 24, 23, 255))
     return image
 
 
