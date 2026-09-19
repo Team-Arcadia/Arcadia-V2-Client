@@ -104,7 +104,7 @@ def build_button(state: str) -> Image.Image:
     return image
 
 
-def recolor_icon(source: Path, accent: bool) -> Image.Image:
+def recolor_icon(source: Path, palette: str) -> Image.Image:
     image = Image.open(source).convert("RGBA")
     output = Image.new("RGBA", image.size, (0, 0, 0, 0))
     source_pixels = image.load()
@@ -118,13 +118,20 @@ def recolor_icon(source: Path, accent: bool) -> Image.Image:
                 continue
             if luminance < 8 and source.suffix.lower() == ".png":
                 output_pixels[x, y] = (8, 12, 15, alpha)
-            elif accent:
+            elif palette == "cyan":
                 if luminance < 80:
                     output_pixels[x, y] = (*CYAN_DARK[:3], alpha)
                 elif luminance < 180:
                     output_pixels[x, y] = (31, 143, 153, alpha)
                 else:
                     output_pixels[x, y] = (*CYAN[:3], alpha)
+            elif palette == "copper":
+                if luminance < 80:
+                    output_pixels[x, y] = (113, 45, 22, alpha)
+                elif luminance < 180:
+                    output_pixels[x, y] = (220, 104, 42, alpha)
+                else:
+                    output_pixels[x, y] = (255, 190, 79, alpha)
             else:
                 if luminance < 70:
                     output_pixels[x, y] = (*BRASS_DARK[:3], alpha)
@@ -150,14 +157,15 @@ def main() -> None:
         "arrow_right.png",
         "chain_link.png",
         "collect_rewards.png",
-        "dependency.png",
         "link.png",
         "pin.png",
         "search.png",
     }
+    copper_icons = {"dependency.png"}
     for source in sorted(quest_source.rglob("*.png")):
         relative = source.relative_to(quest_source)
-        save(recolor_icon(source, source.name in accent_icons), "ftbquests", relative.as_posix())
+        palette = "copper" if source.name in copper_icons else ("cyan" if source.name in accent_icons else "brass")
+        save(recolor_icon(source, palette), "ftbquests", relative.as_posix())
 
     print("Arcadia FTB GUI skin generated: 5 library textures and 27 quest textures.")
 
