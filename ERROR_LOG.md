@@ -350,3 +350,15 @@ On top of that, those Create screens are opened purely client-side (`FMLLoader.g
 **Fix:** Add `loading_progress_track.png` and `loading_progress_fill.png` to `config/fancymenu/options.txt` under `preload_resources`, using the same local-source syntax and separator as the other Arcadia loading assets.
 
 **Prevention:** Any new local texture used by the startup or F3+T loading overlay must be added to FancyMenu's preload list. A successful file and layout validation is insufficient for loading-screen assets; always perform an actual startup and F3+T visual check.
+
+## [2026-09-20 02:00] — Drippy loading gauge, second failure: invalid layout block type
+
+**Context:** After adding the two gauge textures to FancyMenu's preload list and fully restarting the game, an F3+T visual check still showed the same white Drippy bar. The bar position and live progress proved that the active loading layout was correct, while the Arcadia textures remained absent.
+
+**Error:** The textured progress element never appeared. No missing-texture error was logged because FancyMenu never instantiated the element at all.
+
+**Root cause:** FancyMenu serializes registered custom elements inside an `element` block and selects their builder through `element_type`. The layouts incorrectly used `progress_bar {` as the block header. That syntax is not a registered layout section, so the whole block was ignored even though its inner `element_type = progress_bar` and texture fields were valid. The earlier preload diagnosis was incomplete.
+
+**Fix:** Change the header to `element {` in all four Drippy layout variants while retaining `element_type = progress_bar`, the live Drippy placeholder, the local texture paths and preloading.
+
+**Prevention:** When adding a FancyMenu custom element by hand, copy the serialized container shape from an existing custom element: `element { ... element_type = <registered_type> ... }`. Type-specific block names are not interchangeable with `element`. Validate the rendered screen, not only the inner fields.

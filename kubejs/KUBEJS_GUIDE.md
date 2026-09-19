@@ -341,7 +341,7 @@ The FTB GUI skin is maintained by `kubejs/tools/generate_ftb_gui_skin.py`. Its i
 
 The Arcadia hotbar is maintained by `kubejs/tools/generate_arcadia_hud.py`. Run it from the instance root, reload with F3+T, then inspect all nine slots, the active selector and offhand frames at every GUI scale used by the pack.
 
-The Drippy loading gauge is maintained by `kubejs/tools/generate_fancymenu_loading_bar.py`. Its textures intentionally live in FancyMenu's local asset folder instead of the KubeJS resource namespace. Both texture paths must also remain in `config/fancymenu/options.txt` under `preload_resources`, otherwise FancyMenu falls back to the white default bar while F3+T reloads game resources. Test both initial startup and an in-game F3+T reload after regeneration.
+The Drippy loading gauge is maintained by `kubejs/tools/generate_fancymenu_loading_bar.py`. Its textures intentionally live in FancyMenu's local asset folder instead of the KubeJS resource namespace. Both texture paths must remain in `config/fancymenu/options.txt` under `preload_resources`. In the layout files, the gauge must use an `element` block with `element_type = progress_bar`; a `progress_bar` block is ignored by FancyMenu and leaves Drippy's white default bar visible. Test both initial startup and an in-game F3+T reload after regeneration.
 
 ### Entretien des textures
 
@@ -353,7 +353,7 @@ Le skin FTB est maintenu par `kubejs/tools/generate_ftb_gui_skin.py`. Ses source
 
 La barre rapide Arcadia est maintenue par `kubejs/tools/generate_arcadia_hud.py`. Le lancer depuis la racine de l'instance, recharger avec F3+T, puis verifier les neuf cases, le cadre actif et les cadres de main secondaire a chaque echelle d'interface utilisee par le pack.
 
-La jauge de chargement Drippy est maintenue par `kubejs/tools/generate_fancymenu_loading_bar.py`. Ses textures vivent volontairement dans le dossier local de FancyMenu plutot que dans le namespace de ressources KubeJS. Les deux chemins doivent aussi rester dans `preload_resources`, dans `config/fancymenu/options.txt`, sinon FancyMenu retombe sur sa barre blanche par defaut pendant le rechargement F3+T. Tester le demarrage initial et un rechargement F3+T en jeu apres regeneration.
+La jauge de chargement Drippy est maintenue par `kubejs/tools/generate_fancymenu_loading_bar.py`. Ses textures vivent volontairement dans le dossier local de FancyMenu plutot que dans le namespace de ressources KubeJS. Les deux chemins doivent rester dans `preload_resources`, dans `config/fancymenu/options.txt`. Dans les layouts, la jauge doit employer un bloc `element` avec `element_type = progress_bar` ; FancyMenu ignore un bloc `progress_bar` et laisse alors visible la barre blanche Drippy par defaut. Tester le demarrage initial et un rechargement F3+T en jeu apres regeneration.
 
 - **Item has no recipe in JEI** → check `recipe_remover.js` banned list + `config/jei/blacklist.json` + run `/recipe give` to test server-side
 - **Script throws "does not exist"** → item/mod missing — wrap in try/catch or check mod IDs
