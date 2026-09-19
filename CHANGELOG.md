@@ -4,6 +4,18 @@ All notable changes to Arcadia V2 - Echoes Of Power are documented here, by date
 
 ---
 
+## 2026-09-20
+
+### Changed
+
+- **FTB Quests now carries the Arcadia visual identity** — KubeJS overrides the five shared FTB Library surfaces and all 27 FTB Quests GUI textures shipped by version 2101.1.36. The new skin uses restrained dark iron, walnut, aged brass and arcane-cyan accents, preserves every upstream texture dimension and icon silhouette, and includes a deterministic generator for future maintenance. Reload client resources with F3+T to apply it. In-game rendering still requires visual confirmation.
+
+### Modifications
+
+- **FTB Quests porte desormais l'identite visuelle Arcadia** — KubeJS surcharge les cinq surfaces partagees de FTB Library et les 27 textures d'interface livrees par FTB Quests 2101.1.36. Le nouveau skin emploie sobrement fer sombre, noyer, laiton vieilli et accents cyan arcaniques, conserve toutes les dimensions et silhouettes amont, et fournit un generateur deterministe pour la maintenance. Recharger les ressources client avec F3+T pour l'appliquer. Le rendu en jeu reste a confirmer visuellement.
+
+---
+
 ## 2026-09-18
 
 ### Fixed
