@@ -160,6 +160,7 @@ Files in `kubejs/assets/<namespace>/...` override mod client assets at the same 
 
 - **Mechanical Extruder item models** — `assets/create_mechanical_extruder/models/item/` adds a `fixed` display transform to both extruders so they fit a Sophisticated Storage limited barrel display slot (ticket #253)
 - **Arcadia FTB GUI skin** — `assets/ftblibrary/textures/gui/` replaces the shared tiled surfaces and three button states; `assets/ftbquests/textures/gui/` skins all 27 quest-interface textures from FTB Quests 2101.1.36. `tools/generate_ftb_gui_skin.py` rebuilds the files from matching upstream silhouettes without changing their dimensions.
+- **Arcadia HUD skin** — `assets/minecraft/textures/gui/sprites/hud/` replaces the Minecraft 1.21.1 hotbar, selected-slot frame and both offhand frames. `tools/generate_arcadia_hud.py` rebuilds all four sprites at their exact vanilla dimensions.
 
 Client-side only: F3+T to apply, no `/reload`.
 
@@ -337,6 +338,8 @@ For each music disc, copy the item PNG into both `assets/arcadia/textures/block/
 
 The FTB GUI skin is maintained by `kubejs/tools/generate_ftb_gui_skin.py`. Its input must be the GUI textures extracted from the installed FTB Library and FTB Quests JARs into `work/ftb_gui_originals/assets/`; this keeps icon shapes and exact dimensions tied to the installed mod version. After regeneration, reload with F3+T and inspect normal, hovered and disabled buttons, the quest grid, dependency arrows, reward collection and the shop.
 
+The Arcadia hotbar is maintained by `kubejs/tools/generate_arcadia_hud.py`. Run it from the instance root, reload with F3+T, then inspect all nine slots, the active selector and offhand frames at every GUI scale used by the pack.
+
 ### Entretien des textures
 
 Les icones et faces des blocs de machines utilisent des PNG en 32x32. Les objets ont des contours sans transparence partielle et une marge transparente ; les blocs sont opaques. Les textures d'armure conservent leur disposition UV en 64x32. Modifier directement les PNG. Les anciens scripts `_gen_*.py` restent consultables mais s'arretent avant toute ecriture, pour proteger les nouveaux dessins.
@@ -344,6 +347,8 @@ Les icones et faces des blocs de machines utilisent des PNG en 32x32. Les objets
 Pour chaque disque, recopier le PNG de l'objet dans `assets/arcadia/textures/block/music_discs/` et `assets/amendments/textures/block/music_discs/arcadia/`, sous le meme nom. Lancer `powershell -NoProfile -File kubejs/tools/check_textures.ps1` depuis la racine du projet, puis recharger les ressources avec F3+T et examiner les icones, les disques poses, l'ATM, le brouilleur magnetique et les deux armures portees. Les controles de fichiers ne remplacent pas cette verification en jeu.
 
 Le skin FTB est maintenu par `kubejs/tools/generate_ftb_gui_skin.py`. Ses sources doivent etre les textures GUI extraites des JAR FTB Library et FTB Quests installes vers `work/ftb_gui_originals/assets/` ; les silhouettes et dimensions restent ainsi liees a la version installee. Apres regeneration, recharger avec F3+T et verifier les boutons normaux, survoles et desactives, la grille de quetes, les fleches de dependance, la collecte de recompenses et la boutique.
+
+La barre rapide Arcadia est maintenue par `kubejs/tools/generate_arcadia_hud.py`. Le lancer depuis la racine de l'instance, recharger avec F3+T, puis verifier les neuf cases, le cadre actif et les cadres de main secondaire a chaque echelle d'interface utilisee par le pack.
 
 - **Item has no recipe in JEI** → check `recipe_remover.js` banned list + `config/jei/blacklist.json` + run `/recipe give` to test server-side
 - **Script throws "does not exist"** → item/mod missing — wrap in try/catch or check mod IDs

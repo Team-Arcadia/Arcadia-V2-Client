@@ -8,9 +8,13 @@ All notable changes to Arcadia V2 - Echoes Of Power are documented here, by date
 
 ### Changed
 
+- **The vanilla hotbar now matches Arcadia** — KubeJS overrides the four Minecraft 1.21.1 HUD sprites for the nine-slot bar, active-slot selection and both offhand orientations. The bar uses dark iron and restrained copper separators; the selected slot uses luminous copper and brass with small arcane-cyan corner accents. All vanilla dimensions and occupied bounds are preserved, and a deterministic generator keeps the artwork maintainable.
+
 - **FTB Quests now carries the Arcadia visual identity** — KubeJS overrides the five shared FTB Library surfaces and all 27 FTB Quests GUI textures shipped by version 2101.1.36. The new skin uses restrained dark iron, walnut, aged brass and arcane-cyan accents, preserves every upstream texture dimension and icon silhouette, and includes a deterministic generator for future maintenance. In-game reviews replaced the dense 16-pixel editor grid with a continuous warm charcoal surface and quiet broken grain, then changed dependency arrows from muted cyan to luminous copper-gold that remains visible after FTB applies its state tint. Reload client resources with F3+T to apply it. Final in-game confirmation is still required.
 
 ### Modifications
+
+- **La barre rapide vanilla adopte le style Arcadia** — KubeJS surcharge les quatre sprites HUD de Minecraft 1.21.1 pour la barre de neuf cases, la selection active et les deux orientations de main secondaire. La barre emploie du fer sombre et des separateurs cuivre discrets ; la case choisie utilise un cuivre et un laiton lumineux avec de petits accents cyan arcaniques aux coins. Toutes les dimensions et zones occupees vanilla sont conservees, avec un generateur deterministe pour la maintenance.
 
 - **FTB Quests porte desormais l'identite visuelle Arcadia** — KubeJS surcharge les cinq surfaces partagees de FTB Library et les 27 textures d'interface livrees par FTB Quests 2101.1.36. Le nouveau skin emploie sobrement fer sombre, noyer, laiton vieilli et accents cyan arcaniques, conserve toutes les dimensions et silhouettes amont, et fournit un generateur deterministe pour la maintenance. Les verifications en jeu ont remplace la grille dense de 16 pixels par une surface anthracite chaude et continue au grain discret, puis transforme les fleches de dependance cyan ternes en cuivre dore lumineux qui reste visible apres la teinte d'etat appliquee par FTB. Recharger les ressources client avec F3+T pour l'appliquer. La confirmation finale en jeu reste necessaire.
 

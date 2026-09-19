@@ -12,6 +12,7 @@ A curated NeoForge 1.21.1 modpack designed for the **Arcadia** community server 
 - **20 custom music discs** — Original tracks with dedicated vinyl textures and jukebox-song integration
 - **FTB Quests pack** — 7 languages (EN-US, EN-GB, FR, ES, PT-BR, RU, ZH-CN), 85 000+ translation entries
 - **Arcadia quest-book skin** — Handcrafted iron, brass and arcane-cyan FTB Library and FTB Quests interface
+- **Arcadia HUD skin** — Custom dark-iron hotbar with copper, brass and arcane-cyan selection accents
 - **154 banned items** — 3-layer enforcement (recipe removal + inventory scan + JEI/creative hide)
 - **Mob rebalance** — Boss HP ×2.5 to ×8, twilight/mowzie/iron-spellbook bosses individually tuned
 - **Loot nerfs** — Diamond 0.5%, Netherite 0.01%, Artifacts craft-only, backpacks/twilight scaled
@@ -83,6 +84,7 @@ Un modpack NeoForge 1.21.1 curate, conu pour le serveur communautaire **Arcadia*
 - **20 disques de musique customs** — Pistes originales avec textures vinyle dediees et integration jukebox-song
 - **Pack FTB Quests** — 7 langues (EN-US, EN-GB, FR, ES, PT-BR, RU, ZH-CN), 85 000+ entrees de traduction
 - **Skin du livre de quetes Arcadia** — Interface FTB Library et FTB Quests artisanale en fer, laiton et cyan arcanique
+- **Skin HUD Arcadia** — Barre rapide en fer sombre avec selection cuivre, laiton et cyan arcanique
 - **154 items bannis** — Application 3 couches (suppression de recette + scan d inventaire + masquage JEI/creatif)
 - **Rebalance des mobs** — HP des boss x2.5 a x8, boss twilight/mowzie/iron-spellbook regles individuellement
 - **Nerfs de loot** — Diamant 0.5%, Netherite 0.01%, Artifacts craft uniquement, sacs/twilight reduits
