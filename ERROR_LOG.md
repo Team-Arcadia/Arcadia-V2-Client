@@ -1,5 +1,19 @@
 # Error Log — Arcadia V2
 
+## [2026-09-20 11:10] — A mod's own translation typo broke the whole French quest lang file
+
+**Context:** Generating market shop titles and descriptions in the seven quest locales, taking each item's display name from the mod lang files.
+**Error:** FTB Quests refused the file: `Failed to read config/ftbquests/quests/lang/fr_fr.snbt: New line without closing string with " @ 14921:36`, and loaded `translation tables for 6 language(s)` instead of seven. French, the server's main language, silently lost every quest string.
+**Root cause:** Mekanism's French translation spells its Energy Tablet `Tablette d"énergie`, with a double quote where the apostrophe belongs. The generator interpolated that name straight into an SNBT string, which closed the string early and left the rest of the line dangling. Three lines were affected: the description header, the pay line and the title.
+**Fix:** Replaced the typo with a real apostrophe in the three generated lines. A sweep over every mod lang file found 60 display names containing a raw double quote across the seven locales, including `"Android" sign`, `Патрон "Дыхание дракона"` and a stray trailing quote on `白葡萄"`. Only Mekanism's Energy Tablet is currently sold in the market, so it was the only one that could bite.
+**Prevention:** Never interpolate a mod-provided display name into SNBT without escaping. Sanitise the value, replacing a bare `"` with an apostrophe or escaping it as `\"`, and validate the written file with a string-state scan before finishing: walk the characters, track whether you are inside a string, honour backslash escapes, and fail on a newline reached while still inside one. That scan reproduces FTB Quests' own parser and catches the fault in a second, whereas counting quotes per line does not, because an escaped quote and a balanced pair both look fine.
+
+**Contexte :** Generation des titres et descriptions du market dans les sept langues, en reprenant le nom d'affichage de chaque item depuis les fichiers de langue des mods.
+**Erreur :** FTB Quests refusait `fr_fr.snbt` et ne chargeait que six langues sur sept. Le francais perdait donc toutes ses chaines de quetes.
+**Cause :** La traduction francaise de Mekanism ecrit `Tablette d"energie` avec un guillemet droit a la place de l'apostrophe. Interpole tel quel dans une chaine SNBT, il la fermait prematurement.
+**Correction :** Apostrophe retablie sur les trois lignes generees. Un balayage a trouve 60 noms d'items contenant un guillemet droit sur l'ensemble des locales ; un seul est vendu au market.
+**Prevention :** Ne jamais interpoler un nom fourni par un mod dans du SNBT sans echappement, et valider le fichier ecrit par un parcours d'etat de chaine qui echoue sur un retour a la ligne rencontre a l'interieur d'une chaine. Compter les guillemets par ligne ne suffit pas.
+
 ## [2026-09-20 10:30] — Verified item ids against lang files, which passed three items that do not exist
 
 **Context:** Extending the market chapter. Every item the chapter references was checked against a registry built by harvesting `item.*` and `block.*` keys from every mod's `en_us.json`, plus the vanilla jar. The check reported 188 items, zero missing.
