@@ -50,8 +50,16 @@ const PISTON_SCAN_RANGE = 13;
 const armedPositions = {};
 let lastPruneTime = -1;
 
+// Rhino maps ServerLevel#dimension() to the property level.dimension, so
+// calling it throws. Keep the dimension in the key all the same: two worlds
+// can arm the same coordinates in the same tick.
 function armKey(level, pos) {
-    return String(level.dimension()) + '|' + pos.getX() + '|' + pos.getY() + '|' + pos.getZ();
+    let dim = 'unknown';
+    try {
+        const key = level.dimension;
+        if (key !== undefined && key !== null) dim = String(key);
+    } catch (ignored) { /* keep the fallback */ }
+    return dim + '|' + pos.getX() + '|' + pos.getY() + '|' + pos.getZ();
 }
 
 function pruneArmedPositions(now) {
@@ -132,14 +140,26 @@ function installCushionMoveGuard() {
 
     // Create contraptions: neutral check, used only as a removal notification.
     BlockMovementChecks.registerMovementAllowedCheck((state, level, pos) => {
-        if (!level.isClientSide() && furniture.contains(state.getBlock())) {
-            armPosition(level, pos);
+        try {
+            if (!level.isClientSide() && furniture.contains(state.getBlock())) {
+                armPosition(level, pos);
+            }
+        } catch (err) {
+            console.error('[Arcadia] Cushion guard failed on contraption capture: ' + err);
         }
         return CheckResult.PASS;
     });
 
     // Vanilla pistons, extending and retracting alike.
     NativeEvents.onEvent(PistonEventPre, event => {
+        try {
+            armPistonFurniture(event);
+        } catch (err) {
+            console.error('[Arcadia] Cushion guard failed on piston move: ' + err);
+        }
+    });
+
+    function armPistonFurniture(event) {
         const level = event.getLevel();
         if (level === null || level.isClientSide()) return;
 
@@ -165,18 +185,22 @@ function installCushionMoveGuard() {
                 armPosition(level, pushed);
             }
         });
-    });
+    }
 
     NativeEvents.onEvent(EventPriority.HIGHEST, EntityJoinLevelEvent, event => {
-        const level = event.getLevel();
-        if (level === null || level.isClientSide()) return;
+        try {
+            const level = event.getLevel();
+            if (level === null || level.isClientSide()) return;
 
-        const entity = event.getEntity();
-        if (!(entity instanceof ItemEntity)) return;
-        if (!cushions.contains(entity.getItem().getItem())) return;
-        if (!consumeArmedPosition(level, entity.blockPosition())) return;
+            const entity = event.getEntity();
+            if (!(entity instanceof ItemEntity)) return;
+            if (!cushions.contains(entity.getItem().getItem())) return;
+            if (!consumeArmedPosition(level, entity.blockPosition())) return;
 
-        event.setCanceled(true);
+            event.setCanceled(true);
+        } catch (err) {
+            console.error('[Arcadia] Cushion guard failed on cushion drop: ' + err);
+        }
     });
 
     console.info('[Arcadia] Handcrafted cushion move guard loaded: ' + furniture.size() + ' furniture blocks, ' + cushions.size() + ' cushions watched.');
