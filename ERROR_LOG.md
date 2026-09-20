@@ -1,5 +1,19 @@
 # Error Log — Arcadia V2
 
+## [2026-09-20 08:45] — Two quest chapters shipped twice, so FTB Quests kept regenerating ids and showed "Unnamed" duplicates
+
+**Context:** Player report of duplicate chapters named "Unnamed" in the quest book, right under "A New Beginning".
+**Error:** `config/ftbquests/quests/chapters/` held four files for two chapters: `A New Beginning.snbt` and `a_new_beginning.snbt`, `First Line of Code.snbt` and `first_line_of_code.snbt`. Both copies of each pair claimed the same chapter id, so on every load FTB Quests detected the collision and assigned a fresh id to one of them. The regenerated chapter has no `chapter.<ID>.title` entry in any lang file, so it renders as "Unnamed".
+**Root cause:** The duplicates have been tracked since the initial commit. The snake_case copies are the same chapters re-saved by a newer FTB Quests, which adds an `id` field to chapter images, so they were never byte-identical to the originals and no diff ever flagged them. They almost certainly came from renaming the files toward the project's snake_case convention by copying instead of moving. This also explains an earlier mistake in this repository: the quest count was raised to 3,893 over 43 chapters, when both figures were inflated by the duplicate pair.
+**Fix:** Deleted the four snake_case copies, in `config/` and in the `defaultconfigs/` mirror. The canonical space-named files keep the ids the lang files reference. Verified afterwards: 41 chapters, 3,841 quests, zero duplicate chapter ids, zero chapters without a title, and 3,841 `quest_desc` keys per language as an independent cross-check. The 301 ids exclusive to the deleted copies were referenced by no other file.
+**Prevention:** Never rename an FTB Quests chapter file by copying, and never assume two chapter files are unrelated because their contents differ: compare the `id:` field at chapter level, not the file. A quick audit is worth running after any chapter reorganisation: extract the chapter-level id from every file in `chapters/` and check that the set has no repeats. An "Unnamed" chapter in game always means a chapter whose id has no `chapter.<ID>.title` key, which is nearly always a regenerated id rather than a missing translation.
+
+**Contexte :** Signalement de chapitres en double nommes "Unnamed" dans le livre de quetes.
+**Erreur :** Quatre fichiers pour deux chapitres, chaque paire revendiquant le meme id de chapitre. FTB Quests regenerait donc un id a chaque chargement, et le chapitre regenere n'a aucune cle de titre : il s'affiche "Unnamed".
+**Cause :** Doublons suivis depuis le commit initial. Les copies snake_case sont les memes chapitres re-sauvegardes par une version plus recente de FTBQ, donc jamais identiques octet pour octet : aucun diff ne les a jamais signales. Cela explique aussi une erreur anterieure du depot, ou le nombre de quetes avait ete porte a 3 893 sur 43 chapitres, les deux chiffres etant gonfles par la paire en double.
+**Correction :** Suppression des quatre copies snake_case, dans `config/` et dans le miroir. Verifie ensuite : 41 chapitres, 3 841 quetes, aucun id de chapitre duplique, aucun chapitre sans titre, et 3 841 cles `quest_desc` par langue en recoupement independant.
+**Prevention :** Ne jamais renommer un fichier de chapitre FTBQ par copie. Comparer les `id:` au niveau chapitre, pas le contenu des fichiers. Un chapitre "Unnamed" signifie toujours un id sans cle `chapter.<ID>.title`, donc presque toujours un id regenere.
+
 ## [2026-09-20 03:10] — FTB Quests regenerated every quest id in two chapters, orphaning translations and player progress
 
 **Context:** Reviewing 15 uncommitted files before pushing. Two quest chapters, `a_new_beginning` and `first_line_of_code`, showed diffs of 500 and 106 lines.

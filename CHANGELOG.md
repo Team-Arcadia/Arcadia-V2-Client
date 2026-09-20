@@ -6,6 +6,12 @@ All notable changes to Arcadia V2 - Echoes Of Power are documented here, by date
 
 ## 2026-09-20
 
+### Fixed
+
+- **Two quest chapters appeared twice in the book, the copies named "Unnamed"** — `A New Beginning` and `First Line of Code` were each shipped as two files, a space-named one and a snake_case one, both claiming the same chapter id. FTB Quests resolved the collision on every load by giving one copy a brand new id, and that copy has no title in any language, hence "Unnamed". The duplicates had been in the repository since the initial commit and never showed up in a diff, because the snake_case copies were re-saved by a newer FTB Quests that writes an extra id on chapter images. The four copies are gone, in the pack and in the defaults mirror, and the surviving files keep the ids the translations point at.
+
+- **The advertised quest count was inflated by those duplicates** — The book holds 41 chapters and 3,841 quests, not the 43 and 3,893 announced on 18 September, which counted the duplicate pair twice. The corrected figures match the 3,841 quest descriptions present in each of the seven language files.
+
 ### Changed
 
 - **The loading progress bar is now a real Arcadia gauge** — All four Drippy loading-screen variants hide the native white bar and replace it with FancyMenu's native textured progress element. A dark iron and walnut housing with aged-brass edges frames a warm molten-copper fill, matching the amber industrial loading artwork without a dominant neon accent. Drippy drives it from left to right through `game_loading_progress`; both textures are preloaded, and layout-wide auto-scaling keeps the gauge aligned when the game window changes size.
@@ -13,6 +19,12 @@ All notable changes to Arcadia V2 - Echoes Of Power are documented here, by date
 - **The vanilla hotbar now matches Arcadia** — KubeJS overrides the four Minecraft 1.21.1 HUD sprites for the nine-slot bar, active-slot selection and both offhand orientations. The bar uses dark iron and restrained copper separators; only the outer seven-pixel section of two detailed 17x17 dark-iron cogs remains visible behind its frame, with shaded copper teeth and brass rivets but no item obstruction. Their coordinates follow the current GUI dimensions automatically. The selected slot uses luminous copper and brass with small arcane-cyan corner accents, while every vanilla sprite keeps its original dimensions.
 
 - **FTB Quests now carries the Arcadia visual identity** — KubeJS overrides the five shared FTB Library surfaces and all 27 FTB Quests GUI textures shipped by version 2101.1.36. The new skin uses restrained dark iron, walnut, aged brass and arcane-cyan accents, preserves every upstream texture dimension and icon silhouette, and includes a deterministic generator for future maintenance. In-game reviews replaced the dense 16-pixel editor grid with a continuous warm charcoal surface and quiet broken grain, then changed dependency arrows from muted cyan to luminous copper-gold that remains visible after FTB applies its state tint. Reload client resources with F3+T to apply it. Final in-game confirmation is still required.
+
+### Correctifs
+
+- **Deux chapitres de quetes apparaissaient en double, les copies nommees "Unnamed"** — `A New Beginning` et `First Line of Code` etaient livres en deux fichiers chacun, l'un avec espaces, l'autre en snake_case, revendiquant le meme id de chapitre. FTB Quests reglait la collision a chaque chargement en attribuant un nouvel id a l'une des copies, laquelle n'a de titre dans aucune langue : d'ou "Unnamed". Les doublons etaient presents depuis le commit initial et n'apparaissaient dans aucun diff, les copies snake_case ayant ete re-sauvegardees par une version plus recente de FTBQ qui ajoute un id aux images de chapitre. Les quatre copies sont supprimees, dans le pack comme dans le miroir des defauts.
+
+- **Le nombre de quetes annonce etait gonfle par ces doublons** — Le livre compte 41 chapitres et 3 841 quetes, et non les 43 et 3 893 annonces le 18 septembre, qui comptaient la paire en double. Les chiffres corriges correspondent aux 3 841 descriptions de quetes presentes dans chacun des sept fichiers de langue.
 
 ### Modifications
 

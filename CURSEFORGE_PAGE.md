@@ -8,7 +8,7 @@
 
 <p>&nbsp;</p>
 
-<p style="text-align: center;"><img src="https://img.shields.io/badge/Minecraft-1.21.1-62B47A?style=flat-square&amp;logo=minecraft&amp;logoColor=white" alt="MC 1.21.1">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/NeoForge-21.1.250+-F16436?style=flat-square" alt="NeoForge">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Java-21-007396?style=flat-square&amp;logo=openjdk&amp;logoColor=white" alt="Java 21">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Mods-446-FFA500?style=flat-square" alt="446 mods">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Quests-3893-9C27B0?style=flat-square" alt="3893 quests">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Languages-EN%20%2F%20FR-2196F3?style=flat-square" alt="EN / FR">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Status-In_Development-FFC107?style=flat-square" alt="In Development"></p>
+<p style="text-align: center;"><img src="https://img.shields.io/badge/Minecraft-1.21.1-62B47A?style=flat-square&amp;logo=minecraft&amp;logoColor=white" alt="MC 1.21.1">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/NeoForge-21.1.250+-F16436?style=flat-square" alt="NeoForge">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Java-21-007396?style=flat-square&amp;logo=openjdk&amp;logoColor=white" alt="Java 21">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Mods-446-FFA500?style=flat-square" alt="446 mods">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Quests-3841-9C27B0?style=flat-square" alt="3841 quests">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Languages-EN%20%2F%20FR-2196F3?style=flat-square" alt="EN / FR">&nbsp;&nbsp;&nbsp; <img src="https://img.shields.io/badge/Status-In_Development-FFC107?style=flat-square" alt="In Development"></p>
 
 <p>&nbsp;</p>
 
@@ -83,7 +83,7 @@
 <p><span style="color: #ffa500;"><strong>Curated Server Experience</strong></span><br>In-house mods built for Arcadia: <strong>Arcadia Pets</strong> (collectibles + PvP duels + ELO ladder), Arcadia Guard moderation toolkit, the Prestige progression system, and the legendary Heart of Arcadia. A tailored ecosystem built for one community.</p>
 </td>
 <td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
-<p><span style="color: #ffa500;"><strong>3,893 Quest-Guided Journey</strong></span><br>43 chapters of FTB Quests covering every mod's progression path. Whether you're a fresh player or a 1000-hour veteran, you always know what to do next.</p>
+<p><span style="color: #ffa500;"><strong>3,841 Quest-Guided Journey</strong></span><br>41 chapters of FTB Quests covering every mod's progression path. Whether you're a fresh player or a 1000-hour veteran, you always know what to do next.</p>
 </td>
 </tr>
 </tbody>
@@ -197,7 +197,7 @@
 
 <p>&nbsp;</p>
 
-<h3 style="text-align: center;"><span style="color: #ffa500;">3,893 Quests Across 43 Chapters</span></h3>
+<h3 style="text-align: center;"><span style="color: #ffa500;">3,841 Quests Across 41 Chapters</span></h3>
 <p style="text-align: center;">The FTB Quests book is your ultimate guide, fully bilingual EN/FR plus 5 more languages.<br>New quests are added in every update.</p>
 
 <p>&nbsp;</p>
@@ -212,7 +212,7 @@
 <td style="padding: 16px; text-align: center;">
 <p><span style="color: #ffa500; font-size: large;"><strong>7 Languages Available</strong></span></p>
 <p>EN-US &nbsp;·&nbsp; EN-GB &nbsp;·&nbsp; FR &nbsp;·&nbsp; ES &nbsp;·&nbsp; PT-BR &nbsp;·&nbsp; RU &nbsp;·&nbsp; ZH-CN</p>
-<p><strong>85 000+</strong> translation entries &nbsp;·&nbsp; <strong>3 893</strong> quests &nbsp;·&nbsp; <strong>43</strong> chapters</p>
+<p><strong>85 000+</strong> translation entries &nbsp;·&nbsp; <strong>3 841</strong> quests &nbsp;·&nbsp; <strong>41</strong> chapters</p>
 </td>
 </tr>
 </tbody>
@@ -520,7 +520,7 @@
 <p><span style="color: #ffa500;"><strong>Expérience Serveur Curatée</strong></span><br>Mods maison conçus pour Arcadia : <strong>Arcadia Pets</strong> (collectibles + duels PvP + classement ELO), Arcadia Guard pour la modération, le système de Prestige, et le légendaire Heart of Arcadia. Un écosystème pensé pour une seule communauté.</p>
 </td>
 <td style="padding: 12px 16px; vertical-align: top; width: 50%; border: 1px solid #FFA500; text-align: center;">
-<p><span style="color: #ffa500;"><strong>3 893 Quêtes Guidées</strong></span><br>43 chapitres FTB Quests couvrant la progression de chaque mod. Que vous soyez débutant ou vétéran à 1000 heures, vous savez toujours quoi faire ensuite.</p>
+<p><span style="color: #ffa500;"><strong>3 841 Quêtes Guidées</strong></span><br>41 chapitres FTB Quests couvrant la progression de chaque mod. Que vous soyez débutant ou vétéran à 1000 heures, vous savez toujours quoi faire ensuite.</p>
 </td>
 </tr>
 </tbody>
@@ -634,7 +634,7 @@
 
 <p>&nbsp;</p>
 
-<h3 style="text-align: center;"><span style="color: #ffa500;">3 893 Quêtes sur 43 Chapitres</span></h3>
+<h3 style="text-align: center;"><span style="color: #ffa500;">3 841 Quêtes sur 41 Chapitres</span></h3>
 <p style="text-align: center;">Le livre FTB Quests est votre guide ultime, entièrement bilingue FR/EN plus 5 autres langues.<br>De nouvelles quêtes sont ajoutées à chaque mise à jour.</p>
 
 <p>&nbsp;</p>
@@ -645,7 +645,7 @@
 <td style="padding: 16px; text-align: center;">
 <p><span style="color: #ffa500; font-size: large;"><strong>7 Langues Disponibles</strong></span></p>
 <p>EN-US &nbsp;·&nbsp; EN-GB &nbsp;·&nbsp; FR &nbsp;·&nbsp; ES &nbsp;·&nbsp; PT-BR &nbsp;·&nbsp; RU &nbsp;·&nbsp; ZH-CN</p>
-<p><strong>85 000+</strong> entrées traduites &nbsp;·&nbsp; <strong>3 893</strong> quêtes &nbsp;·&nbsp; <strong>43</strong> chapitres</p>
+<p><strong>85 000+</strong> entrées traduites &nbsp;·&nbsp; <strong>3 841</strong> quêtes &nbsp;·&nbsp; <strong>41</strong> chapitres</p>
 </td>
 </tr>
 </tbody>
