@@ -1,0 +1,49 @@
+#Local rendering preferences for Arcadia Prestige cosmetic effects.
+#None of these are sent to the server and none of them affect gameplay.
+[rendering]
+	#Cosmetic particle detail.
+	#  AUTO   - follow the vanilla Video Settings particle slider (recommended)
+	#  HIGH   - full density everywhere
+	#  MEDIUM - half density past near_distance
+	#  LOW    - half density everywhere and fewer visible players
+	#  OFF    - render nothing
+	#Allowed Values: AUTO, HIGH, MEDIUM, LOW, OFF
+	quality = "AUTO"
+	#Maximum number of players whose effects are rendered at once, nearest first.
+	# Default: 10
+	# Range: 1 ~ 64
+	max_visible_effects = 10
+	#Soft ceiling on particles emitted per render pass (10 passes per second).
+	#
+	#max_visible_effects counts players, not cost, and effects are not equally
+	#expensive: Hearts emits about 2 particles per pass, Rainbow about 112. Ten
+	#players all wearing Rainbow is roughly 50x the work of ten wearing Hearts,
+	#yet a player cap treats them the same. Once the budget is used up the
+	#remaining, further-away effects are skipped for that pass.
+	#
+	#The nearest effect always renders, so this can never blank the screen.
+	#0 disables the budget and restores pure count-based limiting.
+	# Default: 600
+	# Range: 0 ~ 20000
+	particle_budget = 600
+	#Effects further away than this (in blocks) are skipped entirely.
+	# Default: 30
+	# Range: 4 ~ 128
+	max_distance = 30
+	#Within this radius (in blocks) effects always render at full density.
+	# Default: 10
+	# Range: 2 ~ 128
+	near_distance = 10
+	#Hide your own effect while in first-person view, so it never blocks your screen.
+	hide_own_effects_first_person = true
+	#Render other players' effects. Turn off to only ever see your own.
+	show_other_players_effects = true
+	#Do not render effects for players under the Invisibility effect or in spectator mode.
+	hide_invisible_players = true
+	#Render the orbiting mini-blocks that come with the Comet and Meteor effects.
+	render_block_companions = true
+
+#Effect preview behaviour.
+[preview]
+	#Reopen the Cosmetics dashboard automatically when you leave preview mode.
+	reopen_dashboard_on_exit = true

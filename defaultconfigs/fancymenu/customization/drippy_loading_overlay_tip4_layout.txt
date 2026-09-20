@@ -12,6 +12,17 @@ layout-meta {
   [loading_requirement_container_meta:ddb9533a-2693-4d12-b2e8-8a742ba8f7e0-1774817978239] = [groups:][instances:]
 }
 
+customization {
+  action = setscale
+  scale = 2.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 1920
+  baseheight = 1010
+}
+
 menu_background {
   image_path = [source:local]/config/fancymenu/assets/arcadia/intro.png
   slide = true
@@ -180,29 +191,23 @@ vanilla_button {
 }
 
 vanilla_button {
-  button_element_executable_block_identifier = 07c4d416-9c17-402a-aa71-b27890728263-1767849787824
-  [executable_block:07c4d416-9c17-402a-aa71-b27890728263-1767849787824][type:generic] = [executables:]
-  restartbackgroundanimations = true
-  nine_slice_custom_background = false
-  nine_slice_border_x = 5
-  nine_slice_border_y = 5
-  navigatable = true
-  widget_active_state_requirement_container_identifier = 7546aed2-9b1a-4d5e-82d9-655828291406-1767849787824
-  [loading_requirement_container_meta:7546aed2-9b1a-4d5e-82d9-655828291406-1767849787824] = [groups:][instances:]
-  is_template = false
-  template_apply_width = false
-  template_apply_height = false
-  template_apply_posx = false
-  template_apply_posy = false
-  template_apply_opacity = false
-  template_apply_visibility = false
-  template_apply_label = false
-  template_share_with = buttons
-  nine_slice_slider_handle = false
-  nine_slice_slider_handle_border_x = 5
-  nine_slice_slider_handle_border_y = 5
   element_type = vanilla_button
   instance_identifier = progress_bar
+  is_hidden = true
+}
+
+element {
+  progress_for_element_anchor = false
+  bar_texture = [source:local]/config/fancymenu/assets/arcadia/loading_progress_fill.png
+  bar_nine_slice = true
+  background_texture = [source:local]/config/fancymenu/assets/arcadia/loading_progress_track.png
+  background_nine_slice = true
+  direction = right
+  value_mode = percentage
+  progress_source = {"placeholder":"game_loading_progress"}
+  smooth_filling_animation = true
+  element_type = progress_bar
+  instance_identifier = arcadia_progress_bar
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
@@ -216,9 +221,9 @@ vanilla_button {
   sticky_anchor = false
   anchor_point = vanilla
   x = 228
-  y = 415
+  y = 413
   width = 504
-  height = 10
+  height = 14
   stretch_x = false
   stretch_y = false
   stay_on_screen = true

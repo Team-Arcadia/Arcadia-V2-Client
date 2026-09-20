@@ -33,7 +33,7 @@ Arcadia V2/
 ├── LICENSE                  Proprietary source-available license
 │
 ├── mods/                    446 active .jar (10 in-house arcadia-*, 5 patched)
-├── config/                  ~1,234 files: modpack-shipped configuration
+├── config/                  ~1,201 files: modpack-shipped configuration
 ├── defaultconfigs/          Full mirror of config/ (new-world & server defaults)
 ├── kubejs/                  ~2,071 files: custom scripting ecosystem
 ├── datapacks/               Empty (all data lives in kubejs/data/)
@@ -72,7 +72,7 @@ Golden rules: always give recipes an explicit `.id('arcadia:xxx')`, always add l
 
 ## 4. config/ - General Configuration
 
-~1,234 files. Key areas:
+~1,201 files. Key areas:
 
 | Path | Purpose |
 |------|---------|
@@ -88,7 +88,7 @@ Golden rules: always give recipes an explicit `.id('arcadia:xxx')`, always add l
 
 Performance stack: Sodium + Iris + ModernFix + FerriteCore + ImmediatelyFast + Entity Culling + FarSight (chunk cache capped at 32). Render-thread hotspots were tuned via spark profiling (see CHANGELOG 2026-07-20).
 
-`defaultconfigs/` mirrors `config/` in full so every new world and server install starts from the curated defaults. Exclusions: `spark/` (runtime data) and `arcadia/arcadiaadminpanel/logins.json` (credentials, never distributed).
+`defaultconfigs/` mirrors `config/` in full so every new world and server install starts from the curated defaults. Exclusions: `spark/` (runtime data), `arcadia/arcadiaadminpanel/logins.json` (credentials, never distributed) and the per-user runtime state a mod rewrites on its own: `ftbchunks-client.snbt`, `jei/world/`, `arcadia/spawn/generated/`, the admin panel invbackups and the achievement, freeze and prestige progress files.
 
 ## 5. kubejs/ - Custom Scripting Ecosystem
 
@@ -197,7 +197,7 @@ Arcadia V2/
 ├── LICENSE                  Licence propriétaire source visible
 │
 ├── mods/                    446 .jar actifs (10 mods maison, 5 patchés)
-├── config/                  ~1 234 fichiers : configuration livrée par le pack
+├── config/                  ~1 201 fichiers : configuration livrée par le pack
 ├── defaultconfigs/          Miroir complet de config/ (défauts nouveaux mondes/serveur)
 ├── kubejs/                  ~2 071 fichiers : écosystème de scripts custom
 ├── datapacks/               Vide (toutes les données sont dans kubejs/data/)
@@ -236,7 +236,7 @@ Règles d'or : toujours un `.id('arcadia:xxx')` explicite sur les recettes, touj
 
 ## 4. config/ - Configuration Générale
 
-~1 234 fichiers. Zones clés :
+~1 201 fichiers. Zones clés :
 
 | Chemin | Rôle |
 |--------|------|
@@ -252,7 +252,7 @@ Règles d'or : toujours un `.id('arcadia:xxx')` explicite sur les recettes, touj
 
 Stack performance : Sodium + Iris + ModernFix + FerriteCore + ImmediatelyFast + Entity Culling + FarSight (cache de chunks limité à 32). Les hotspots du thread de rendu ont été réglés via profiling spark (voir CHANGELOG 2026-07-20).
 
-`defaultconfigs/` reflète intégralement `config/` afin que chaque nouveau monde et installation serveur parte des défauts organisés. Exclusions : `spark/` (données runtime) et `arcadia/arcadiaadminpanel/logins.json` (identifiants, jamais distribués).
+`defaultconfigs/` reflète intégralement `config/` afin que chaque nouveau monde et installation serveur parte des défauts organisés. Exclusions : `spark/` (données runtime), `arcadia/arcadiaadminpanel/logins.json` (identifiants, jamais distribués) et l'état runtime par utilisateur qu'un mod réécrit seul : `ftbchunks-client.snbt`, `jei/world/`, `arcadia/spawn/generated/`, les invbackups du panneau admin et les fichiers de succès, de freeze et de progression prestige.
 
 ## 5. kubejs/ - Écosystème de Scripts Custom
 

@@ -115,6 +115,11 @@ config/arcadia/spawn/dimensions/_manifest.json
 config/voicechat/username-cache.json
 config/voicechat/player-volumes.properties
 
+# Minimap entity-visibility list, rewritten by FTB Chunks on every session.
+# Per-user state: never tracked, never shipped as a default.
+config/ftbchunks-client.snbt
+defaultconfigs/ftbchunks-client.snbt
+
 # Texture generator bytecode
 __pycache__/
 

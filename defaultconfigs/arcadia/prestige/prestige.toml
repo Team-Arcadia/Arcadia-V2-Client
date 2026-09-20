@@ -10,3 +10,118 @@
 	perm_mvp = "arcadia.grade.mvp"
 	#Permission node for Founder cosmetic rank (particle effects only, not a gameplay tier).
 	perm_founder = "arcadia.grade.founder"
+
+#Master switches for each Prestige subsystem.
+#Turning one off hides its dashboard tab content and stops its event tracking;
+#nothing is deleted, so flipping it back on restores the saved state.
+[features]
+	#Cosmetic particle effects and the Cosmetics dashboard tab.
+	cosmetics = true
+	#Daily reward path, streaks and milestone gifts.
+	daily_rewards = true
+	#Daily quests and quest progress tracking.
+	quests = true
+	#Pet duel ELO rating and the leaderboard tab.
+	elo = true
+	#Live in-world effect preview (the spyglass button in the Cosmetics tab).
+	effect_preview = true
+
+#Earn cosmetic effects by playing, for singleplayer worlds and private servers.
+#
+#On official servers cosmetics are sold in a shop and granted through LuckPerms,
+#so this system must stay off there. Set mode = NEVER to guarantee that.
+#
+#mode:
+#  AUTO   - enabled only when no permission backend (LuckPerms) is bound.
+#           This is the safe default: singleplayer and private servers get
+#           progression, an official LuckPerms server does not.
+#  ALWAYS - enabled everywhere, even alongside LuckPerms. Cosmetics unlocked
+#           by playing stack with whatever ranks already grant.
+#  NEVER  - fully disabled. Cosmetics come from ranks / the shop only.
+#
+#Points are never taken away and unlocks are permanent.
+[solo_progression]
+	#When the progression system is active. AUTO / ALWAYS / NEVER.
+	#Allowed Values: AUTO, ALWAYS, NEVER
+	mode = "AUTO"
+	#Show an action-bar message when points are earned.
+	announce_earnings = true
+	#Send a chat message the first time a player can afford a new effect.
+	announce_affordable = true
+
+	#How many Prestige Points each activity awards. Set an entry to 0 to disable that source.
+	[solo_progression.earning]
+		#Points per minute of active play (AFK players are not counted).
+		# Default: 1
+		# Range: 0 ~ 10000
+		points_per_minute = 1
+		#Points per hostile mob killed.
+		# Default: 1
+		# Range: 0 ~ 10000
+		points_per_kill = 1
+		#Extra points when the kill was a boss (Ender Dragon, Wither, Warden, Elder Guardian).
+		# Default: 250
+		# Range: 0 ~ 1000000
+		points_per_boss_kill = 250
+		#Points per daily quest claimed.
+		# Default: 40
+		# Range: 0 ~ 1000000
+		points_per_quest = 40
+		#Points per daily login reward claimed.
+		# Default: 60
+		# Range: 0 ~ 1000000
+		points_per_daily = 60
+		#Points per daily-path milestone reached.
+		# Default: 150
+		# Range: 0 ~ 1000000
+		points_per_milestone = 150
+		#Points per pet duel won.
+		# Default: 25
+		# Range: 0 ~ 1000000
+		points_per_duel_win = 25
+		#Points per vanilla advancement earned.
+		# Default: 15
+		# Range: 0 ~ 1000000
+		points_per_advancement = 15
+		#Maximum points a player can earn per real day. 0 means no cap.
+		# Default: 0
+		# Range: 0 ~ 10000000
+		daily_cap = 0
+
+	#Prestige Point cost to unlock a cosmetic, by its built-in tier.
+	[solo_progression.cost]
+		#Cost of a VIP-tier effect.
+		# Default: 1500
+		# Range: 0 ~ 100000000
+		vip = 1500
+		#Cost of a VIP+-tier effect.
+		# Default: 4000
+		# Range: 0 ~ 100000000
+		vip_plus = 4000
+		#Cost of an MVP-tier effect.
+		# Default: 9000
+		# Range: 0 ~ 100000000
+		mvp = 9000
+		#Cost of a Founder-tier effect.
+		# Default: 18000
+		# Range: 0 ~ 100000000
+		founder = 18000
+		#Per-effect cost overrides, comma separated, as 'effect_id=cost'.
+		#Example: "rainbow=25000,orbit=500,galaxy=0"
+		#A cost of 0 makes the effect free (still needs to be unlocked once).
+		#Unknown effect ids are ignored with a warning in the log.
+		overrides = ""
+
+#Tuning knobs. The defaults are sane; only change these if you are profiling.
+[performance]
+	#Send every active cosmetic effect to a joining player in a single packet
+	#instead of one packet per player already online. Big win on full servers.
+	batch_login_sync = true
+	#How many days of quest state to keep in memory per player. Older days are evicted.
+	# Default: 2
+	# Range: 1 ~ 30
+	quest_cache_days = 2
+	#How long a computed ELO leaderboard stays valid before it is rebuilt.
+	# Default: 30
+	# Range: 0 ~ 3600
+	leaderboard_cache_seconds = 30
