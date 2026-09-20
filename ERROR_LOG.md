@@ -386,3 +386,15 @@ On top of that, those Create screens are opened purely client-side (`FMLLoader.g
 **Fix:** Remove the cyan rows, expand both textures to the element's native 32x14 proportion, deepen the track into dark iron and walnut, and grade the fill from pale brass through amber to burnt copper.
 
 **Prevention:** Judge nine-sliced textures by their stretched in-game appearance, not by the tiny source PNG. Reserve saturated accent colors for end caps or isolated details that cannot become full-width bands.
+
+## [2026-09-20 02:45] — Hotbar micro-gears are invisible in game
+
+**Context:** Two 5x5 copper-and-brass gears were added to the extreme ends of the Arcadia hotbar without changing the vanilla sprite dimensions. The first in-game review showed only a few copper pixels at normal GUI scale.
+
+**Error:** The gears could not be identified as gears and disappeared visually into the dark end-cap lines.
+
+**Root cause:** Their 5x5 footprint was centered only two pixels from each outer edge, leaving no room for a readable ring and placing the teeth over existing frame pixels with similar values.
+
+**Fix:** Redraw each gear at 9x9 pixels with eight pale-brass teeth, a copper octagonal ring, a dark 3x3 center and a bright highlight. Move both gears to the upper end plates, where they have stronger contrast and remain clear of the item centers. A 7x7 intermediate preview was rejected because its one-pixel center still read as a copper sparkle rather than a gear.
+
+**Prevention:** Review HUD pixel art at the actual in-game GUI scale and against populated slots. A recognizable mechanical symbol needs a distinct silhouette, a center hole and at least one value contrast from the surrounding frame.

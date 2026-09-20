@@ -30,17 +30,43 @@ def save(image: Image.Image, name: str) -> None:
 
 
 def draw_micro_gear(draw: ImageDraw.ImageDraw, center_x: int, center_y: int) -> None:
-    """Draw a compact five-pixel cog without widening the vanilla sprite."""
-    draw.rectangle(
-        (center_x - 1, center_y - 1, center_x + 1, center_y + 1),
+    """Draw a readable nine-pixel cog without widening the vanilla sprite."""
+    teeth = (
+        (center_x, center_y - 4),
+        (center_x + 3, center_y - 3),
+        (center_x + 4, center_y),
+        (center_x + 3, center_y + 3),
+        (center_x, center_y + 4),
+        (center_x - 3, center_y + 3),
+        (center_x - 4, center_y),
+        (center_x - 3, center_y - 3),
+    )
+    for tooth in teeth:
+        draw.point(tooth, fill=PALE_BRASS)
+
+    draw.polygon(
+        (
+            (center_x - 1, center_y - 3),
+            (center_x + 1, center_y - 3),
+            (center_x + 3, center_y - 1),
+            (center_x + 3, center_y + 1),
+            (center_x + 1, center_y + 3),
+            (center_x - 1, center_y + 3),
+            (center_x - 3, center_y + 1),
+            (center_x - 3, center_y - 1),
+        ),
         fill=COPPER,
     )
-    draw.point((center_x, center_y - 2), fill=BRASS)
-    draw.point((center_x + 2, center_y), fill=BRASS)
-    draw.point((center_x, center_y + 2), fill=DARK_COPPER)
-    draw.point((center_x - 2, center_y), fill=BRASS)
-    draw.point((center_x - 1, center_y - 1), fill=PALE_BRASS)
-    draw.point((center_x, center_y), fill=BLACK_IRON)
+    draw.line(
+        (center_x - 1, center_y - 3, center_x + 1, center_y - 3),
+        fill=BRASS,
+    )
+    draw.point((center_x - 2, center_y - 2), fill=PALE_BRASS)
+    draw.rectangle(
+        (center_x - 1, center_y - 1, center_x + 1, center_y + 1),
+        fill=BLACK_IRON,
+    )
+    draw.point((center_x, center_y), fill=DARK_COPPER)
 
 
 def build_hotbar() -> Image.Image:
@@ -83,9 +109,9 @@ def build_hotbar() -> Image.Image:
     draw.point((180, 4), fill=PALE_BRASS)
     draw.point((179, 10), fill=(113, 63, 34, 255))
 
-    # Tiny mirrored cogs finish both end caps without entering the item area.
-    draw_micro_gear(draw, 2, 11)
-    draw_micro_gear(draw, 179, 11)
+    # Mirrored cogs sit high on the end plates, clear of the item centers.
+    draw_micro_gear(draw, 5, 6)
+    draw_micro_gear(draw, 176, 6)
     return image
 
 
