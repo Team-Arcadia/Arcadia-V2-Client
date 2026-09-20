@@ -100,6 +100,26 @@ StartupEvents.registry('creative_mode_tab', event => {
             'arcadia:heretic_crystal',
             'arcadia:heretic_bone_charm',
             'arcadia:heretic_poison_flask',
-            'arcadia:heretic_mark'
+            'arcadia:heretic_mark',
+
+            // Relic Armor Sets + Animated Weapons (recipe-free)
+            'arcadia:echo_warden_helmet',
+            'arcadia:echo_warden_chestplate',
+            'arcadia:echo_warden_leggings',
+            'arcadia:echo_warden_boots',
+            'arcadia:echo_saber',
+            'arcadia:starfall_glaive',
+            'arcadia:ashen_vanguard_helmet',
+            'arcadia:ashen_vanguard_chestplate',
+            'arcadia:ashen_vanguard_leggings',
+            'arcadia:ashen_vanguard_boots',
+            'arcadia:cinderbrand',
+            'arcadia:furnace_cleaver',
+            'arcadia:runic_mechanist_helmet',
+            'arcadia:runic_mechanist_chestplate',
+            'arcadia:runic_mechanist_leggings',
+            'arcadia:runic_mechanist_boots',
+            'arcadia:verdant_edge',
+            'arcadia:chronogear_axe'
         ]);
 });

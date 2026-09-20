@@ -117,7 +117,7 @@ kubejs/
 │       ├── item_registry.js                        # ALL custom items (keys, discs, fusion, bridges, armor, heart)
 │       ├── block_registry.js                       # Custom blocks (ATM)
 │       ├── sound_registry.js                       # 20 jukebox sound events
-│       ├── armor_tiers.js                          # Adept + Heretic armor material tiers
+│       ├── armor_tiers.js                          # Five Arcadia armor material tiers
 │       └── item_stat_tweaks.js                     # Durability / attack speed modifications
 │
 ├── startup_scripts/ui/
@@ -156,7 +156,7 @@ Files in `kubejs/data/<namespace>/...` override vanilla/mod JSON files at the sa
 
 ## Asset Overrides (`assets/`)
 
-Files in `kubejs/assets/<namespace>/...` override mod client assets at the same path. Almost all of it is `lang/` (7 locales). Model overrides are rare and each one carries a `_comment` saying why:
+Files in `kubejs/assets/<namespace>/...` override mod client assets at the same path. Almost all of it is `lang/` (8 locales). Model overrides are rare and each one carries a `_comment` saying why:
 
 - **Mechanical Extruder item models** — `assets/create_mechanical_extruder/models/item/` adds a `fixed` display transform to both extruders so they fit a Sophisticated Storage limited barrel display slot (ticket #253)
 - **Arcadia FTB GUI skin** — `assets/ftblibrary/textures/gui/` replaces the shared tiled surfaces and three button states; `assets/ftbquests/textures/gui/` skins all 27 quest-interface textures from FTB Quests 2101.1.36. `tools/generate_ftb_gui_skin.py` rebuilds the files from matching upstream silhouettes without changing their dimensions.
@@ -213,7 +213,18 @@ Purple cultist armor. 4 pieces + 10 unique items (grimoire, pendant, candle, inc
 ### Heretic Armor (`registry/armor_tiers.js` + `recipes/custom/armor_crafts.js`)
 Red/bone rebel armor. 4 pieces + 10 unique items (tome, blood_vial, dagger, chain, skull_totem, icon, crystal, bone_charm, poison_flask, mark).
 
-**Armor stats (both sets):**
+### Arcadia Relic Sets (`registry/armor_tiers.js` + `registry/item_registry.js`)
+Three complete uncraftable armor sets with one sword and one axe each:
+
+| Set | Visual identity | Weapons |
+|-----|-----------------|---------|
+| Echo Warden | Midnight steel, silver, cyan runes and gold | Echo Saber, Starfall Glaive |
+| Ashen Vanguard | Obsidian steel, copper and molten embers | Cinderbrand, Furnace Cleaver |
+| Runic Mechanist | Forest steel, aged brass and emerald mechanisms | Verdant Edge, Chronogear Axe |
+
+The six weapon textures are four-frame vertical strips driven by adjacent `.png.mcmeta` files. These items have no recipe by design and are available from the Arcadia creative tab for controlled distribution.
+
+**Adept and Heretic armor stats:**
 | Stat | Value |
 |------|-------|
 | Protection | 2/5/6/2 (15 total = iron-equivalent) |

@@ -6,27 +6,42 @@ $kubeRoot = Split-Path $PSScriptRoot -Parent
 $assets = Join-Path $kubeRoot 'assets'
 $textureRoot = Join-Path $assets 'arcadia/textures'
 $failures = [System.Collections.Generic.List[string]]::new()
+$animatedWeapons = @(
+    'echo_saber.png',
+    'starfall_glaive.png',
+    'cinderbrand.png',
+    'furnace_cleaver.png',
+    'verdant_edge.png',
+    'chronogear_axe.png'
+)
 $items = @(Get-ChildItem (Join-Path $textureRoot 'item') -Filter '*.png')
 foreach ($file in $items) {
     $bitmap = [System.Drawing.Bitmap]::new($file.FullName)
     try {
-        $isNewSprite = $bitmap.Width -eq 32 -and $bitmap.Height -eq 32
-        if (!$isNewSprite) { $failures.Add("$($file.Name): expected 32x32 item texture") }
+        $isAnimated = $animatedWeapons -contains $file.Name
+        $expectedHeight = if ($isAnimated) { 128 } else { 32 }
+        $isValidSprite = $bitmap.Width -eq 32 -and $bitmap.Height -eq $expectedHeight
+        if (!$isValidSprite) { $failures.Add("$($file.Name): expected 32x$expectedHeight item texture") }
+        if ($isAnimated -and !(Test-Path -LiteralPath ($file.FullName + '.mcmeta'))) {
+            $failures.Add("$($file.Name): missing animation metadata")
+        }
         $opaque = 0
         $soft = 0
         $border = 0
         $scanWidth = [Math]::Min(32, $bitmap.Width)
-        $scanHeight = [Math]::Min(32, $bitmap.Height)
+        $scanHeight = [Math]::Min($expectedHeight, $bitmap.Height)
         for ($y=0; $y -lt $scanHeight; $y++) {
             for ($x=0; $x -lt $scanWidth; $x++) {
                 $alpha = $bitmap.GetPixel($x,$y).A
                 if ($alpha -gt 0) { $opaque++ }
                 if ($alpha -gt 0 -and $alpha -lt 255) { $soft++ }
-                if (($x -eq 0 -or $y -eq 0 -or $x -eq 31 -or $y -eq 31) -and $alpha -gt 0) { $border++ }
+                $frameY = $y % 32
+                if (($x -eq 0 -or $frameY -eq 0 -or $x -eq 31 -or $frameY -eq 31) -and $alpha -gt 0) { $border++ }
             }
         }
-        if ($isNewSprite) {
-            if ($opaque -lt 24 -or $opaque -eq 1024) { $failures.Add("$($file.Name): invalid silhouette") }
+        if ($isValidSprite) {
+            $frameCount = $expectedHeight / 32
+            if ($opaque -lt (24 * $frameCount) -or $opaque -eq (1024 * $frameCount)) { $failures.Add("$($file.Name): invalid silhouette") }
             if ($soft -gt 0) { $failures.Add("$($file.Name): semitransparent edge pixels") }
             if ($border -gt 0) { $failures.Add("$($file.Name): missing transparent margin") }
         }

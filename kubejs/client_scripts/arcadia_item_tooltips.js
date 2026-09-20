@@ -147,6 +147,38 @@ ItemEvents.modifyTooltips(event => {
         event.add(`arcadia:${id}`, Text.translate(`tooltip.arcadia.${id}`).darkRed().italic());
     });
 
+    // === ARCADIA RELIC ARMOR SETS ===
+    const relicArmorSets = [
+        { id: 'echo_warden', color: 'aqua' },
+        { id: 'ashen_vanguard', color: 'gold' },
+        { id: 'runic_mechanist', color: 'green' }
+    ];
+    relicArmorSets.forEach(set => {
+        const pieces = ['helmet', 'chestplate', 'leggings', 'boots']
+            .map(slot => `arcadia:${set.id}_${slot}`);
+        event.add(pieces, [
+            Text.translate(`tooltip.arcadia.${set.id}_armor.1`)[set.color]().italic(),
+            Text.translate(`tooltip.arcadia.${set.id}_armor.2`).lightPurple(),
+            Text.translate('tooltip.arcadia.relic_gear_no_recipe').gray()
+        ]);
+    });
+
+    // === ANIMATED ARCADIA RELIC WEAPONS ===
+    [
+        ['echo_saber', 'aqua'],
+        ['starfall_glaive', 'aqua'],
+        ['cinderbrand', 'gold'],
+        ['furnace_cleaver', 'gold'],
+        ['verdant_edge', 'green'],
+        ['chronogear_axe', 'green']
+    ].forEach(weapon => {
+        event.add(`arcadia:${weapon[0]}`, [
+            Text.translate(`tooltip.arcadia.${weapon[0]}`)[weapon[1]]().italic(),
+            Text.translate('tooltip.arcadia.animated_weapon').lightPurple(),
+            Text.translate('tooltip.arcadia.relic_gear_no_recipe').gray()
+        ]);
+    });
+
     // === STEAM 'N' RAILS CYCLE MENU ===
     // Deco couplers and headstocks ship a single craftable model per family; every other
     // variant is reached through the mod's radial cycle menu (hold ALT), never a recipe.

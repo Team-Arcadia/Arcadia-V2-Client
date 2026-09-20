@@ -310,4 +310,36 @@ StartupEvents.registry('item', event => {
         .texture('arcadia:item/heretic_poison_flask').rarity('uncommon');
     event.create('arcadia:heretic_mark')
         .texture('arcadia:item/heretic_mark').rarity('epic').glow(true).maxStackSize(1);
+
+    // ===== ARCADIA RELIC ARMOR SETS =====
+    const relicArmorSets = [
+        { id: 'echo_warden', material: 'arcadia:echo_warden' },
+        { id: 'ashen_vanguard', material: 'arcadia:ashen_vanguard' },
+        { id: 'runic_mechanist', material: 'arcadia:runic_mechanist' }
+    ];
+    relicArmorSets.forEach(set => {
+        event.create(`arcadia:${set.id}_helmet`, 'helmet')
+            .material(set.material).texture(`arcadia:item/${set.id}_helmet`).rarity('epic').glow(true);
+        event.create(`arcadia:${set.id}_chestplate`, 'chestplate')
+            .material(set.material).texture(`arcadia:item/${set.id}_chestplate`).rarity('epic').glow(true);
+        event.create(`arcadia:${set.id}_leggings`, 'leggings')
+            .material(set.material).texture(`arcadia:item/${set.id}_leggings`).rarity('epic').glow(true);
+        event.create(`arcadia:${set.id}_boots`, 'boots')
+            .material(set.material).texture(`arcadia:item/${set.id}_boots`).rarity('epic').glow(true);
+    });
+
+    // ===== ARCADIA RELIC WEAPONS =====
+    // Intentionally recipe-free. Their animated textures are resource metadata only.
+    event.create('arcadia:echo_saber', 'sword')
+        .tier('netherite').texture('arcadia:item/echo_saber').rarity('epic').glow(true);
+    event.create('arcadia:starfall_glaive', 'axe')
+        .tier('netherite').texture('arcadia:item/starfall_glaive').rarity('epic').glow(true);
+    event.create('arcadia:cinderbrand', 'sword')
+        .tier('netherite').texture('arcadia:item/cinderbrand').rarity('epic').glow(true);
+    event.create('arcadia:furnace_cleaver', 'axe')
+        .tier('netherite').texture('arcadia:item/furnace_cleaver').rarity('epic').glow(true);
+    event.create('arcadia:verdant_edge', 'sword')
+        .tier('netherite').texture('arcadia:item/verdant_edge').rarity('epic').glow(true);
+    event.create('arcadia:chronogear_axe', 'axe')
+        .tier('netherite').texture('arcadia:item/chronogear_axe').rarity('epic').glow(true);
 });

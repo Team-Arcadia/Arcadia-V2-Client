@@ -4,11 +4,12 @@ A curated NeoForge 1.21.1 modpack designed for the **Arcadia** community server 
 
 ## Features
 
-- **Custom item artwork**: 86 inventory sprites and two machine faces in 32x32 pixel art, matching placed-disc textures, and refreshed Adept/Heretic armor sheets preserving the 64x32 UV layout.
+- **Custom item artwork**: 104 inventory sprites and two machine faces in Minecraft-style pixel art, including six animated relic weapons, matching placed-disc textures, and five complete armor sets with 64x32 worn layers.
 - **Cross-mod recipe overhaul** — Iron/Gold/Diamond tools gated behind Create sheets, every tech mod (Mekanism, TFMG, Immersive Engineering, Refined Storage, Create addons) interlinked via bridge components
 - **4 Custom bridge items** — Arcane Circuit, Ethereal Alloy, Industrial Heart, Rune Matrix progressively gate cross-mod progression
 - **Fusion Core mega-chain** — 5-tier endgame crafting chain culminating in a 9×9 Mechanical Crafting recipe
 - **Custom Adept & Heretic armor sets** — 4 pieces + 10 unique companion items each, full lore textures
+- **Three uncraftable relic armor sets and six weapons** — Echo Warden, Ashen Vanguard and Runic Mechanist gear, each with a sword and axe whose runes or embers animate in hand
 - **20 custom music discs** — Original tracks with dedicated vinyl textures and jukebox-song integration
 - **FTB Quests pack** — 7 languages (EN-US, EN-GB, FR, ES, PT-BR, RU, ZH-CN), 85 000+ translation entries
 - **Arcadia quest-book skin** — Handcrafted iron, brass and arcane-cyan FTB Library and FTB Quests interface
@@ -76,11 +77,12 @@ Un modpack NeoForge 1.21.1 curate, conu pour le serveur communautaire **Arcadia*
 
 ## Caracteristiques
 
-- **Textures des objets personnalises** : 86 icones et deux faces de machines en pixel art 32x32, des textures de disques poses assorties et des armures Adept/Heretic retravaillees en conservant leur patron UV 64x32.
+- **Textures des objets personnalises** : 104 icones et deux faces de machines en pixel art Minecraft, dont six armes reliques animees, des textures de disques poses assorties et cinq armures completes avec leurs couches portees 64x32.
 - **Refonte des recettes cross-mod** — Outils Fer/Or/Diamant gates derriere les plaques Create, chaque mod tech (Mekanism, TFMG, Immersive Engineering, Refined Storage, addons Create) interconnecte via des composants pont
 - **4 items pont custom** — Circuit Arcane, Alliage Etheree, Coeur Industriel, Matrice de Runes pour gater progressivement la progression cross-mod
 - **Mega-chaine Fusion Core** — 5 tiers de crafting endgame culminant en recette 9x9 Mechanical Crafting
 - **Sets d armures Adept et Heretique** — 4 pieces + 10 items compagnons uniques chacun, textures completes
+- **Trois armures reliques et six armes sans craft** — equipements Gardien des Echos, Avant-garde des Cendres et Mecaniste runique, chacun avec une epee et une hache aux runes ou braises animees en main
 - **20 disques de musique customs** — Pistes originales avec textures vinyle dediees et integration jukebox-song
 - **Pack FTB Quests** — 7 langues (EN-US, EN-GB, FR, ES, PT-BR, RU, ZH-CN), 85 000+ entrees de traduction
 - **Skin du livre de quetes Arcadia** — Interface FTB Library et FTB Quests artisanale en fer, laiton et cyan arcanique

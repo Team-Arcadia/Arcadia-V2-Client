@@ -518,3 +518,25 @@ On top of that, those Create screens are opened purely client-side (`FMLLoader.g
 **Fix:** Expand the source cog to 17x17 with shaded teeth, an inset hub and four brass rivets. After in-game spacing review, render only the outer seven-pixel section at each end so most of the gear appears embedded behind the hotbar frame without covering item content.
 
 **Prevention:** For decorations intended to look integrated into a fixed HUD sprite, crop the overlay at the chassis boundary instead of placing the full ornament beside it.
+
+## [2026-09-20 14:23] — Relic texture pipeline rejected new and animated assets
+
+**Context:** New inventory sprites, worn armor layers and animated weapon strips were being integrated for the three Arcadia relic sets.
+
+**Error:** The first batch generator lost its stored output path after a regular-expression mismatch, the import helper rejected destinations that did not exist yet, the generic armor importer converted its bitmap back to a string, and GDI+ refused to save an animation over its still-open source file.
+
+**Root cause:** The output-path expression escaped `.png` twice; the original importer assumed every operation replaced an existing asset; PowerShell variable names are case-insensitive, so the typed `$Source` parameter collided with `$source`; and `System.Drawing` keeps an input file locked until its bitmap is disposed.
+
+**Fix:** Generate and import each source independently, permit new destinations, rename the bitmap variables, and save animated strips to a temporary PNG before replacing the source after disposal.
+
+**Prevention:** Parse generator output with the tested expression, keep path and bitmap variables distinct, and use write-then-move whenever System.Drawing reads and replaces the same file.
+
+**Contexte :** Integration des nouvelles icones, des couches d'armure portees et des bandes animees des trois ensembles reliques Arcadia.
+
+**Erreur :** Le premier lot a perdu le chemin genere apres une expression reguliere incorrecte, l'importeur refusait les nouvelles destinations, l'importeur d'armure reconvertissait son bitmap en texte et GDI+ refusait d'ecraser l'image source encore ouverte.
+
+**Cause :** L'expression echappait deux fois `.png`, l'importeur supposait qu'un fichier existait deja, les noms de variables PowerShell ne distinguent pas les majuscules et le fichier lu restait verrouille jusqu'a la liberation du bitmap.
+
+**Correction :** Generation et import unitaire, autorisation des nouvelles destinations, noms de variables distincts et ecriture dans un PNG temporaire avant remplacement.
+
+**Prevention :** Tester l'extraction du chemin, separer clairement chemins et bitmaps et toujours ecrire puis deplacer quand System.Drawing lit et remplace le meme fichier.

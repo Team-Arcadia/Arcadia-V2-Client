@@ -6,6 +6,10 @@ All notable changes to Arcadia V2 - Echoes Of Power are documented here, by date
 
 ## 2026-09-20
 
+### Added
+
+- **Three Arcadia relic armor sets and six animated weapons** — Echo Warden, Ashen Vanguard and Runic Mechanist each add a complete four-piece armor set, one sword and one axe with original Minecraft-style inventory and worn textures. Their cyan runes, furnace embers and emerald mechanisms pulse through four-frame animations. Every item has localized lore in all eight Arcadia locales, appears in the Arcadia creative tab, and deliberately has no crafting recipe.
+
 ### Changed
 
 - **The market chapter grew by 54 entries and stopped undercutting progression** — The shop covered 11 mod namespaces and left twenty major ones out, with nothing at all from TFMG, Refined Storage, Flux Networks, Create Addition, Aquaculture, Deeper and Darker or Knight Quest. Two sections were added, Industry and Adventure, for 54 new repeatable trades priced on the existing ladder. Five existing entries were repriced because they let a player buy past a gate the pack deliberately closed: with a full quest clear the old prices bought 15,354 Precision Mechanisms or 3,839 Refined Radiance, which made the chromatic chain restored for ticket #269 pointless. Precision Mechanism and Diamond now cost 128 spurs per unit, Refined Radiance, Shadow Steel and Atomic Alloy 512. Every one of the 188 items the chapter references was checked against the registry and exists, and none of them is on the 154-item ban list. The shop stays buy-only on purpose: a sell side would mint money and undo the kill-quest tiering.
@@ -25,6 +29,10 @@ All notable changes to Arcadia V2 - Echoes Of Power are documented here, by date
 - **The vanilla hotbar now matches Arcadia** — KubeJS overrides the four Minecraft 1.21.1 HUD sprites for the nine-slot bar, active-slot selection and both offhand orientations. The bar uses dark iron and restrained copper separators; only the outer seven-pixel section of two detailed 17x17 dark-iron cogs remains visible behind its frame, with shaded copper teeth and brass rivets but no item obstruction. Their coordinates follow the current GUI dimensions automatically. The selected slot uses luminous copper and brass with small arcane-cyan corner accents, while every vanilla sprite keeps its original dimensions.
 
 - **FTB Quests now carries the Arcadia visual identity** — KubeJS overrides the five shared FTB Library surfaces and all 27 FTB Quests GUI textures shipped by version 2101.1.36. The new skin uses restrained dark iron, walnut, aged brass and arcane-cyan accents, preserves every upstream texture dimension and icon silhouette, and includes a deterministic generator for future maintenance. In-game reviews replaced the dense 16-pixel editor grid with a continuous warm charcoal surface and quiet broken grain, then changed dependency arrows from muted cyan to luminous copper-gold that remains visible after FTB applies its state tint. Reload client resources with F3+T to apply it. Final in-game confirmation is still required.
+
+### Ajouts
+
+- **Trois armures reliques Arcadia et six armes animees** — Gardien des Echos, Avant-garde des Cendres et Mecaniste runique ajoutent chacun une armure complete de quatre pieces, une epee et une hache avec des textures originales de style Minecraft pour l'inventaire et le port sur le joueur. Leurs runes cyan, braises de fournaise et mecanismes d'emeraude pulsent sur quatre images. Chaque objet possede une description localisee dans les huit langues d'Arcadia, apparait dans l'onglet creatif Arcadia et ne dispose volontairement d'aucune recette.
 
 ### Modifications
 
