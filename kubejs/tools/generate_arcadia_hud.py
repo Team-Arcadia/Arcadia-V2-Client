@@ -29,6 +29,20 @@ def save(image: Image.Image, name: str) -> None:
     image.save(OUTPUT / name, optimize=True)
 
 
+def draw_micro_gear(draw: ImageDraw.ImageDraw, center_x: int, center_y: int) -> None:
+    """Draw a compact five-pixel cog without widening the vanilla sprite."""
+    draw.rectangle(
+        (center_x - 1, center_y - 1, center_x + 1, center_y + 1),
+        fill=COPPER,
+    )
+    draw.point((center_x, center_y - 2), fill=BRASS)
+    draw.point((center_x + 2, center_y), fill=BRASS)
+    draw.point((center_x, center_y + 2), fill=DARK_COPPER)
+    draw.point((center_x - 2, center_y), fill=BRASS)
+    draw.point((center_x - 1, center_y - 1), fill=PALE_BRASS)
+    draw.point((center_x, center_y), fill=BLACK_IRON)
+
+
 def build_hotbar() -> Image.Image:
     image = Image.new("RGBA", (182, 22), TRANSPARENT)
     draw = ImageDraw.Draw(image)
@@ -68,6 +82,10 @@ def build_hotbar() -> Image.Image:
     draw.line((176, 19, 179, 19), fill=DARK_COPPER)
     draw.point((180, 4), fill=PALE_BRASS)
     draw.point((179, 10), fill=(113, 63, 34, 255))
+
+    # Tiny mirrored cogs finish both end caps without entering the item area.
+    draw_micro_gear(draw, 2, 11)
+    draw_micro_gear(draw, 179, 11)
     return image
 
 
