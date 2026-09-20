@@ -88,7 +88,7 @@ Golden rules: always give recipes an explicit `.id('arcadia:xxx')`, always add l
 
 Performance stack: Sodium + Iris + ModernFix + FerriteCore + ImmediatelyFast + Entity Culling + FarSight (chunk cache capped at 32). Render-thread hotspots were tuned via spark profiling (see CHANGELOG 2026-07-20).
 
-`defaultconfigs/` mirrors `config/` in full so every new world and server install starts from the curated defaults. Exclusions: `spark/` (runtime data), `arcadia/arcadiaadminpanel/logins.json` (credentials, never distributed) and the per-user runtime state a mod rewrites on its own: `ftbchunks-client.snbt`, `jei/world/`, `arcadia/spawn/generated/`, the admin panel invbackups and the achievement, freeze and prestige progress files.
+`defaultconfigs/` mirrors `config/` in full so every new world and server install starts from the curated defaults. Exclusions: `spark/` (runtime data), `arcadia/arcadiaadminpanel/logins.json` (credentials, never distributed) and the per-user runtime state a mod rewrites on its own: `ftbchunks-client.snbt`, `jei/world/`, `arcadia/spawn/generated/`, the admin panel invbackups and the achievement, freeze and prestige progress files. A few mods also own files that live only on the mirror side, with a name of their own: `ftbessentials-server.snbt` is FTB Essentials' template for `config/ftbessentials.snbt`, and must not be deleted as an orphan.
 
 ## 5. kubejs/ - Custom Scripting Ecosystem
 

@@ -1,5 +1,19 @@
 # Error Log — Arcadia V2
 
+## [2026-09-20 09:05] — Deleted a defaultconfigs file that FTB Essentials owns by design
+
+**Context:** Repairing the `defaultconfigs/` mirror. `defaultconfigs/ftbessentials-server.snbt` existed with no counterpart in `config/`, which holds `ftbessentials.snbt` instead.
+**Error:** Read as a leftover from the 2025 initial commit and deleted. It is not a leftover: FTB Essentials reads that exact path and copies it to `config/ftbessentials.snbt` on startup. Its own header says so, `Default config file that will be copied to instance's config/ftbessentials.snbt location`. The mod recreated it on the next launch.
+**Root cause:** The mirror audit assumed `defaultconfigs/` may only contain files mirroring `config/`. Some mods use it as their own template directory, with a deliberately different file name, so an entry present only on the mirror side is not automatically stale.
+**Fix:** The file is back and tracked again. No data was lost because the template carries `{ }`, no overrides.
+**Prevention:** Before deleting anything from `defaultconfigs/` that has no `config/` counterpart, open it. A header naming its own target path means the mod owns it. Only delete a mirror-only file when nothing on disk and no mod claims it.
+
+**Contexte :** Reparation du miroir `defaultconfigs/`. Un fichier sans equivalent dans `config/`.
+**Erreur :** Pris pour un reliquat de 2025 et supprime. En realite FTB Essentials lit ce chemin precis et le copie vers `config/ftbessentials.snbt` au demarrage, comme l'indique son propre en-tete. Le mod l'a recree au lancement suivant.
+**Cause :** L'audit supposait que `defaultconfigs/` ne contient que des miroirs de `config/`. Certains mods s'en servent comme repertoire de gabarits, avec un nom de fichier volontairement different.
+**Correction :** Fichier restaure et de nouveau suivi. Aucune perte, le gabarit ne contient aucune surcharge.
+**Prevention :** Avant de supprimer un fichier de `defaultconfigs/` sans equivalent dans `config/`, l'ouvrir. Un en-tete qui nomme son chemin cible signifie que le mod en est proprietaire.
+
 ## [2026-09-20 08:45] — Two quest chapters shipped twice, so FTB Quests kept regenerating ids and showed "Unnamed" duplicates
 
 **Context:** Player report of duplicate chapters named "Unnamed" in the quest book, right under "A New Beginning".
