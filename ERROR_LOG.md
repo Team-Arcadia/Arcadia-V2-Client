@@ -1,5 +1,19 @@
 # Error Log — Arcadia V2
 
+## [2026-09-20 11:30] — "Unnamed" chapters kept coming back because two chapter files had spaces in their names
+
+**Context:** Duplicate chapters labelled "Unnamed" reappeared in the quest book after every launch, even though the duplicate files had been deleted three times.
+**Error:** Deleting `a_new_beginning.snbt` and `first_line_of_code.snbt` fixed the book until the next boot, then both returned with freshly generated ids and no title, so FTB Quests rendered them as "Unnamed".
+**Root cause:** `A New Beginning.snbt` and `First Line of Code.snbt` were the only two chapter files in the pack whose name contained spaces; the other 39 use snake_case and their `filename` field matches their file name exactly. FTB Quests saves a chapter to `<filename>.snbt` after sanitising it, so it wrote a snake_case copy and left the space-named original untouched. The next load read both files, saw the same chapter id twice, regenerated one of them, and a regenerated chapter has no `chapter.<ID>.title` entry. Deleting the copy could never hold, because the space-named file recreated it on the following save.
+**Fix:** Renamed both chapters to snake_case and aligned their `filename` field, **keeping the original chapter id** so the seven lang files and every player's progress still resolve. One file per chapter, filename matching the file name, exactly like the other 39. Verified afterwards: 41 chapters, zero duplicate ids, zero filename mismatches, no file with a space left, every chapter has a title, and the quest book still totals 3,897 quests and 245,668 spurs.
+**Prevention:** Never let an FTB Quests chapter file name differ from its `filename` field, and never use spaces. A one-line audit catches it: compare each file's base name with its `filename` value across `chapters/*.snbt`. Deleting a duplicate chapter treats the symptom; the file whose name FTB Quests will rewrite is the one to fix.
+
+**Contexte :** Des chapitres "Unnamed" revenaient a chaque lancement malgre trois suppressions.
+**Erreur :** Supprimer les doublons corrigeait le livre jusqu'au demarrage suivant, puis ils revenaient avec de nouveaux identifiants et sans titre.
+**Cause :** `A New Beginning.snbt` et `First Line of Code.snbt` etaient les deux seuls fichiers de chapitre du pack dont le nom contenait des espaces ; les 39 autres sont en snake_case avec un champ `filename` identique au nom de fichier. FTB Quests sauvegarde un chapitre sous `<filename>.snbt` apres assainissement : il ecrivait donc une copie snake_case et laissait l'original. Au chargement suivant, les deux fichiers se chargeaient, l'identifiant entrait en collision, l'un etait regenere, et un chapitre regenere n'a plus de cle de titre.
+**Correction :** Chapitres renommes en snake_case avec le champ `filename` aligne, **en conservant l'identifiant d'origine** pour que les sept fichiers de langue et la progression des joueurs continuent de correspondre.
+**Prevention :** Ne jamais laisser le nom d'un fichier de chapitre differer de son champ `filename`, et jamais d'espaces. Supprimer le doublon ne traite que le symptome.
+
 ## [2026-09-20 11:10] — A mod's own translation typo broke the whole French quest lang file
 
 **Context:** Generating market shop titles and descriptions in the seven quest locales, taking each item's display name from the mod lang files.
