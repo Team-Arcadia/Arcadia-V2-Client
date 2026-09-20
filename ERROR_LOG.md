@@ -424,3 +424,15 @@ On top of that, those Create screens are opened purely client-side (`FMLLoader.g
 **Fix:** Remove the gears from `hotbar.png`, generate one separate transparent 11x11 gear texture, and render two copies from a client-side post-HUD event. Their positions derive from the current GUI width and height and sit two pixels beyond the vanilla bar edges.
 
 **Prevention:** Do not place external decorations inside fixed-size vanilla HUD sprites. Use a separate overlay with live GUI-relative coordinates whenever artwork must extend beyond the original occupied bounds.
+
+## [2026-09-20 03:20] — External hotbar gears look detached
+
+**Context:** The separate 11x11 overlay kept both gears outside the item slots, but the first in-game review exposed their final appearance at normal GUI scale.
+
+**Error:** Each decoration looked like a small bright-orange ring floating too far from the hotbar instead of an attached industrial cog.
+
+**Root cause:** The saturated copper body dominated the one-pixel teeth, and the two-pixel coordinate gap was compounded by transparent edge pixels in the sprite.
+
+**Fix:** Replace the ring with a 13x13 dark-iron cog using substantial aged-copper teeth, a restrained copper hub and a small brass highlight. Position the nearest tooth directly against the hotbar's outer frame without entering an item slot.
+
+**Prevention:** Review HUD decorations at their actual in-game scale and include transparent sprite margins when calculating visual spacing.
