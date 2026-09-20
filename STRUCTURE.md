@@ -10,8 +10,8 @@ Master reference of the Arcadia V2 "Echoes Of Power" instance. Everything is ind
 | Minecraft | 1.21.1 |
 | Loader | NeoForge 21.1.250 |
 | Java | 21 (8+ GB RAM recommended) |
-| Manifest | 467 CurseForge entries (441 mods + 26 shaderpacks) |
-| Local jars | 446 active (incl. 10 in-house mods and 5 patched jars) |
+| Manifest | 468 CurseForge entries (442 mods + 26 shaderpacks) |
+| Local jars | 447 active (incl. 10 in-house mods and 5 patched jars) |
 | Target | Community server, 88 players at peak (record), also fully solo-viable |
 | Languages | Docs EN/FR, items in 7 locales, quests in 7 locales |
 | License | Proprietary source-available (see `LICENSE`) |
@@ -21,7 +21,7 @@ Master reference of the Arcadia V2 "Echoes Of Power" instance. Everything is ind
 
 ```
 Arcadia V2/
-├── manifest.json            CurseForge manifest, 467 entries resolved at import
+├── manifest.json            CurseForge manifest, 468 entries resolved at import
 ├── minecraftinstance.json   CurseForge instance metadata (very large, grep only)
 ├── README.md                Bilingual repository documentation
 ├── CURSEFORGE_PAGE.md       HTML source of the CurseForge project page
@@ -32,7 +32,7 @@ Arcadia V2/
 ├── ERROR_LOG.md             Error log with prevention rules
 ├── LICENSE                  Proprietary source-available license
 │
-├── mods/                    446 active .jar (10 in-house arcadia-*, 5 patched)
+├── mods/                    447 active .jar (10 in-house arcadia-*, 5 patched)
 ├── config/                  ~1,201 files: modpack-shipped configuration
 ├── defaultconfigs/          Full mirror of config/ (new-world & server defaults)
 ├── kubejs/                  ~2,071 files: custom scripting ecosystem
@@ -86,6 +86,7 @@ Golden rules: always give recipes an explicit `.id('arcadia:xxx')`, always add l
 | `config/voicechat/` | Simple Voice Chat client/server settings |
 | `config/spark/` | Profiler output (runtime data, excluded from the defaultconfigs mirror) |
 | `config/bobby.conf` + `config/defaultoptions/options.txt` | View distance. The servers cap `view-distance` at 10, so the pack ships `renderDistance: 20`: chunks 11 to 20 are redrawn by Bobby from its local cache, which costs the server no tick, no network and no chunk generation. `simulationDistance` stays at 8 because simulation is the expensive half. Bobby keeps `no-block-entities=true`, which is what makes cached chunks cheap. Raising the server's view-distance would shrink Bobby's share, not grow the horizon |
+| `config/crash_assistant/` | Crash Assistant. Points the help button at the Arcadia ticket form, names the pack in the crash window, and ships `crash_assistant_localization_overrides/en_us.json` so the GUI talks about Arcadia tickets instead of GitHub issues. `modpack_creators = ["vyrriox"]` is what lets the reference modlist be rewritten on launch; end users get a diff of what they changed |
 | `config/logbegone.json` | Console noise filter. Keep it short: every phrase is tested against every log line, and LogBegone only starts filtering once mods construct, so anything logged before that (mixin, refmap, transformer) can never be caught. Add a phrase only when it covers a large, harmless and recurring message |
 
 Performance stack: Sodium + Iris + ModernFix + FerriteCore + ImmediatelyFast + Entity Culling + FarSight (chunk cache capped at 32). Render-thread hotspots were tuned via spark profiling (see CHANGELOG 2026-07-20).
