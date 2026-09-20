@@ -1,0 +1,56 @@
+{
+  "_comment": "Arcadia CTP - Claim \u0026 Team Protection: makes other mods respect FTB Teams and FTB Chunks. The rules below apply to Create\u0027s block configuration packets (scroll values, filters, thresholds), which reach the server without passing through any interaction event and are therefore invisible to FTB Chunks; contraptions and waystones have their own sections further down. Editable in game with /arcadiactp panel.",
+  "_policies": [
+    "ALLOW     - always permitted, even to a player with no relation to the claim",
+    "CHECK     - defers to FTB Chunks, like a normal right-click (recommended default)",
+    "ALLY_ONLY - members of the claim\u0027s team plus its allies",
+    "TEAM_ONLY - members of the claim\u0027s team only, ignoring the claim\u0027s ally/public settings",
+    "DENY      - never permitted through this packet (admin bypass still applies)"
+  ],
+  "_matching": [
+    "Rules are evaluated top to bottom; the first one that matches wins.",
+    "\u0027packets\u0027 matches the packet class, by simple name (\u0027ValueSettingsPacket\u0027) or full name.",
+    "\u0027blocks\u0027 matches the block id at the target position (\u0027create:rotation_speed_controller\u0027).",
+    "Both accept * and ? wildcards; a \u0027blocks\u0027 entry starting with # is a block tag.",
+    "An omitted or empty criterion matches everything. A rule needs at least one criterion.",
+    "Unclaimed chunks have no owner, so ALLY_ONLY and TEAM_ONLY permit everyone there."
+  ],
+  "enabled": true,
+  "defaultPolicy": "CHECK",
+  "notifyOnDeny": true,
+  "respectAdminBypass": true,
+  "logDenials": false,
+  "rules": [
+    {
+      "name": "Speed controllers are team-only - the example this mod was written for",
+      "blocks": [
+        "create:rotation_speed_controller"
+      ],
+      "policy": "TEAM_ONLY"
+    },
+    {
+      "name": "Filters decide where items go; keep them off-limits to visitors",
+      "packets": [
+        "FilteringCountUpdatePacket",
+        "*Filter*Packet"
+      ],
+      "policy": "TEAM_ONLY"
+    }
+  ],
+  "contraptions": {
+    "_comment": "Contraption actors reach into claims with no player behind them: a drill breaks what it rolls over, a Portable Storage Interface empties the chests it passes. A contraption is stamped, on first use, with the team owning the claim it was assembled in; while a player steers it, it may also borrow their rights (pilotFallback). CHECK is read as ALLY_ONLY here - there is no player to check.",
+    "enabled": true,
+    "blockBreaking": "TEAM_ONLY",
+    "deployer": "TEAM_ONLY",
+    "storageInterface": "TEAM_ONLY",
+    "assembly": "TEAM_ONLY",
+    "pilotFallback": true
+  },
+  "waystones": {
+    "_comment": "Waystones offers a \"Visible to Team\" waystone to everyone sharing the owner\u0027s VANILLA SCOREBOARD team, which has nothing to do with FTB Teams: any mod that groups players on the scoreboard (a tab list sorted by rank, for instance) turns that setting into \"visible to my whole permission group\". Resolved here through FTB Teams instead. Policies: ALLOW leaves Waystones alone, TEAM_ONLY is the owner\u0027s party, ALLY_ONLY adds allied teams, DENY is the owner alone.",
+    "enabled": true,
+    "teamVisibility": "TEAM_ONLY",
+    "_comment2": "claimInteraction: who may right-click a block of #arcadia_ctp:claim_interact_whitelist (the waystones, out of the box) inside someone else\u0027s claim. FTB Chunks protects them like any other block, so a waystone in a base cannot be registered by a visitor; the mod whitelists them and hands the decision back here. ALLOW lets anyone register one, ALLY_ONLY and TEAM_ONLY narrow it, CHECK gives the block back to FTB Chunks, DENY locks it for everyone.",
+    "claimInteraction": "ALLOW"
+  }
+}

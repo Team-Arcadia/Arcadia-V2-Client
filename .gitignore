@@ -135,3 +135,8 @@ TEST_PROCEDURE_*.html
 
 # Bobby chunk cache (per-client runtime data)
 .bobby/
+
+# Crash Assistant / runtime artefacts (per-user, regenerated)
+win_event*.txt
+particular_cache/
+config/arcadia/arcadiaadminpanel/records/
