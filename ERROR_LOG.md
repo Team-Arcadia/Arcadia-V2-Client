@@ -1,5 +1,19 @@
 # Error Log — Arcadia V2
 
+## [2026-09-20 03:10] — FTB Quests regenerated every quest id in two chapters, orphaning translations and player progress
+
+**Context:** Reviewing 15 uncommitted files before pushing. Two quest chapters, `a_new_beginning` and `first_line_of_code`, showed diffs of 500 and 106 lines.
+**Error:** The diffs were not content edits. Every 16-hex quest id had been replaced: `a_new_beginning` kept 1 id out of 249, `first_line_of_code` kept 0 out of 52. Quest ids are the key for both player completion state and the `quest.<ID>.title` entries in the seven quest lang files, so committing this would have reset both chapters for every player and orphaned 42 and 13 translation entries respectively.
+**Root cause:** The chapters were recreated rather than edited, most likely through an import or a duplicate-and-replace in the FTB Quests editor. Masking every id showed the two files were otherwise byte-identical to their committed versions apart from one `order_index` line each, which confirms a pure regeneration. In `a_new_beginning` the regeneration was not even self-consistent: 284 distinct new ids mapped onto 251 old ones, meaning some ids were left untouched while other references to the same quest were rewritten, leaving broken dependency links.
+**Fix:** Restored both files from `HEAD` and re-applied the single intended change, the new `order_index`. Translation coverage came back to 42 and 13, and the pack total stayed at 43 chapters and 3,893 quests. A positional id remap was considered and rejected for `a_new_beginning` because the mapping was not a bijection.
+**Prevention:** Never commit an FTB Quests chapter diff without masking the ids first: `sed -E 's/"[0-9A-F]{16}"/"<ID>"/g'` on both versions, then compare. If the masked files match, the diff is an id regeneration and must be discarded, not committed. A large line count on a chapter file is a warning sign, since real quest edits touch few lines.
+
+**Contexte :** Revue de 15 fichiers non commites avant un push. Deux chapitres de quetes affichaient 500 et 106 lignes de diff.
+**Erreur :** Tous les identifiants de quetes avaient ete regeneres. Les ids servent de cle a la progression des joueurs et aux fichiers de langue : committer aurait remis les deux chapitres a zero pour tout le monde et orpheline 42 et 13 entrees de traduction.
+**Cause :** Chapitres recrees et non edites. En masquant les ids, les fichiers etaient identiques aux versions commitees a une ligne `order_index` pres. Dans `a_new_beginning` la regeneration etait elle-meme incoherente : 284 nouveaux ids pour 251 anciens, donc des references de dependance cassees.
+**Correction :** Restauration depuis `HEAD` puis reapplication du seul `order_index`. Couverture de traduction revenue a 42 et 13, total inchange a 43 chapitres et 3 893 quetes.
+**Prevention :** Toujours masquer les ids avant de juger un diff de chapitre FTBQ. Si les fichiers masques sont identiques, c'est une regeneration d'ids : a jeter, jamais a committer.
+
 ## [2026-09-20 00:48] — Combined temporary-folder cleanup was blocked
 **Context:** Removing the locally extracted FTB GUI sources and concept preview after generating the Arcadia overrides.
 **Error:** The command runner rejected both a PowerShell invocation that resolved, validated and recursively removed the temporary `work` directory and a later `Remove-Item` call using its explicit absolute path.
