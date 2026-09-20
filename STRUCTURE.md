@@ -85,6 +85,7 @@ Golden rules: always give recipes an explicit `.id('arcadia:xxx')`, always add l
 | `config/ftbchunks-*`, `ftbessentials` | Claims and server utility commands |
 | `config/voicechat/` | Simple Voice Chat client/server settings |
 | `config/spark/` | Profiler output (runtime data, excluded from the defaultconfigs mirror) |
+| `config/bobby.conf` + `config/defaultoptions/options.txt` | View distance. The servers cap `view-distance` at 10, so the pack ships `renderDistance: 20`: chunks 11 to 20 are redrawn by Bobby from its local cache, which costs the server no tick, no network and no chunk generation. `simulationDistance` stays at 8 because simulation is the expensive half. Bobby keeps `no-block-entities=true`, which is what makes cached chunks cheap. Raising the server's view-distance would shrink Bobby's share, not grow the horizon |
 | `config/logbegone.json` | Console noise filter. Keep it short: every phrase is tested against every log line, and LogBegone only starts filtering once mods construct, so anything logged before that (mixin, refmap, transformer) can never be caught. Add a phrase only when it covers a large, harmless and recurring message |
 
 Performance stack: Sodium + Iris + ModernFix + FerriteCore + ImmediatelyFast + Entity Culling + FarSight (chunk cache capped at 32). Render-thread hotspots were tuned via spark profiling (see CHANGELOG 2026-07-20).
