@@ -32,49 +32,60 @@ def save(image: Image.Image, name: str) -> None:
 
 
 def draw_micro_gear(draw: ImageDraw.ImageDraw, center_x: int, center_y: int) -> None:
-    """Draw a compact dark-iron cog with substantial copper teeth."""
+    """Draw a detailed industrial cog intended to emerge halfway from the hotbar."""
     tooth_rectangles = (
-        (center_x - 1, center_y - 6, center_x + 1, center_y - 4),
-        (center_x - 1, center_y + 4, center_x + 1, center_y + 6),
-        (center_x - 6, center_y - 1, center_x - 4, center_y + 1),
-        (center_x + 4, center_y - 1, center_x + 6, center_y + 1),
-        (center_x - 5, center_y - 5, center_x - 3, center_y - 3),
-        (center_x + 3, center_y - 5, center_x + 5, center_y - 3),
-        (center_x - 5, center_y + 3, center_x - 3, center_y + 5),
-        (center_x + 3, center_y + 3, center_x + 5, center_y + 5),
+        (center_x - 1, center_y - 8, center_x + 1, center_y - 5),
+        (center_x - 1, center_y + 5, center_x + 1, center_y + 8),
+        (center_x - 8, center_y - 1, center_x - 5, center_y + 1),
+        (center_x + 5, center_y - 1, center_x + 8, center_y + 1),
+        (center_x - 6, center_y - 6, center_x - 4, center_y - 4),
+        (center_x + 4, center_y - 6, center_x + 6, center_y - 4),
+        (center_x - 6, center_y + 4, center_x - 4, center_y + 6),
+        (center_x + 4, center_y + 4, center_x + 6, center_y + 6),
     )
     for tooth in tooth_rectangles:
-        draw.rectangle(tooth, fill=COPPER)
+        draw.rectangle(tooth, fill=DARK_COPPER)
+        draw.line((tooth[0], tooth[1], tooth[2], tooth[1]), fill=COPPER)
 
     body = (
-        (center_x - 2, center_y - 5),
-        (center_x + 2, center_y - 5),
-        (center_x + 5, center_y - 2),
-        (center_x + 5, center_y + 2),
-        (center_x + 2, center_y + 5),
-        (center_x - 2, center_y + 5),
-        (center_x - 5, center_y + 2),
-        (center_x - 5, center_y - 2),
+        (center_x - 3, center_y - 7),
+        (center_x + 3, center_y - 7),
+        (center_x + 7, center_y - 3),
+        (center_x + 7, center_y + 3),
+        (center_x + 3, center_y + 7),
+        (center_x - 3, center_y + 7),
+        (center_x - 7, center_y + 3),
+        (center_x - 7, center_y - 3),
     )
     draw.polygon(body, fill=BLACK_IRON)
     draw.line((*body, body[0]), fill=AGED_BRASS, width=1, joint="curve")
     draw.ellipse(
-        (center_x - 3, center_y - 3, center_x + 3, center_y + 3),
+        (center_x - 5, center_y - 5, center_x + 5, center_y + 5),
         fill=DARK_IRON,
-        outline=AGED_BRASS,
+        outline=DARK_COPPER,
+    )
+    for rivet_x, rivet_y in (
+        (center_x, center_y - 4),
+        (center_x + 4, center_y),
+        (center_x, center_y + 4),
+        (center_x - 4, center_y),
+    ):
+        draw.point((rivet_x, rivet_y), fill=BRASS)
+    draw.rectangle(
+        (center_x - 2, center_y - 2, center_x + 2, center_y + 2),
+        fill=AGED_BRASS,
     )
     draw.rectangle(
         (center_x - 1, center_y - 1, center_x + 1, center_y + 1),
-        fill=AGED_BRASS,
+        fill=BLACK_IRON,
     )
-    draw.point((center_x, center_y), fill=BLACK_IRON)
-    draw.point((center_x - 3, center_y - 3), fill=PALE_BRASS)
-    draw.point((center_x + 3, center_y + 2), fill=DARK_COPPER)
+    draw.point((center_x - 5, center_y - 4), fill=PALE_BRASS)
+    draw.point((center_x + 5, center_y + 4), fill=(48, 27, 20, 255))
 
 
 def build_hotbar_gear() -> Image.Image:
-    image = Image.new("RGBA", (13, 13), TRANSPARENT)
-    draw_micro_gear(ImageDraw.Draw(image), 6, 6)
+    image = Image.new("RGBA", (17, 17), TRANSPARENT)
+    draw_micro_gear(ImageDraw.Draw(image), 8, 8)
     return image
 
 

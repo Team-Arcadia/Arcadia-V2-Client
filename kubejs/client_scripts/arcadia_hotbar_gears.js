@@ -14,7 +14,8 @@ const hotbarGearTexture = ResourceLocation.fromNamespaceAndPath(
 
 const hotbarWidth = 182
 const hotbarHeight = 22
-const gearSize = 13
+const gearSize = 17
+const visibleGearWidth = 9
 
 NativeEvents.onEvent(RenderGuiEventPost, event => {
     const minecraft = Minecraft.getInstance()
@@ -25,8 +26,8 @@ NativeEvents.onEvent(RenderGuiEventPost, event => {
     const graphics = event.guiGraphics
     const hotbarLeft = Math.floor((graphics.guiWidth() - hotbarWidth) / 2)
     const gearY = graphics.guiHeight() - hotbarHeight + Math.floor((hotbarHeight - gearSize) / 2)
-    const leftGearX = hotbarLeft - gearSize + 1
-    const rightGearX = hotbarLeft + hotbarWidth - 1
+    const leftGearX = hotbarLeft - visibleGearWidth
+    const rightGearX = hotbarLeft + hotbarWidth
 
     graphics.blit(
         hotbarGearTexture,
@@ -34,7 +35,7 @@ NativeEvents.onEvent(RenderGuiEventPost, event => {
         gearY,
         0,
         0,
-        gearSize,
+        visibleGearWidth,
         gearSize,
         gearSize,
         gearSize
@@ -43,9 +44,9 @@ NativeEvents.onEvent(RenderGuiEventPost, event => {
         hotbarGearTexture,
         rightGearX,
         gearY,
+        gearSize - visibleGearWidth,
         0,
-        0,
-        gearSize,
+        visibleGearWidth,
         gearSize,
         gearSize,
         gearSize

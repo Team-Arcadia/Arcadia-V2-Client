@@ -436,3 +436,15 @@ On top of that, those Create screens are opened purely client-side (`FMLLoader.g
 **Fix:** Replace the ring with a 13x13 dark-iron cog using substantial aged-copper teeth, a restrained copper hub and a small brass highlight. Position the nearest tooth directly against the hotbar's outer frame without entering an item slot.
 
 **Prevention:** Review HUD decorations at their actual in-game scale and include transparent sprite margins when calculating visual spacing.
+
+## [2026-09-20 03:35] — Full hotbar gears look like attached badges
+
+**Context:** The 13x13 redesign improved contrast and spacing, but the in-game review still showed both complete gears beside the bar.
+
+**Error:** The decorations remained visually separate from the chassis and did not provide enough pixels for convincing mechanical detail.
+
+**Root cause:** Rendering the complete sprite outside the fixed hotbar preserved the item slots but made the gears read as external icons. The 13x13 canvas also limited the hub, rivets and tooth shading.
+
+**Fix:** Expand the source cog to 17x17 with shaded teeth, an inset hub and four brass rivets. Render only the outer nine-pixel half at each end so the unseen half appears embedded behind the hotbar frame without covering item content.
+
+**Prevention:** For decorations intended to look integrated into a fixed HUD sprite, crop the overlay at the chassis boundary instead of placing the full ornament beside it.
