@@ -15,7 +15,7 @@ const hotbarGearTexture = ResourceLocation.fromNamespaceAndPath(
 const hotbarWidth = 182
 const hotbarHeight = 22
 const gearSize = 17
-const visibleGearWidth = 9
+const visibleGearWidth = 7
 
 NativeEvents.onEvent(RenderGuiEventPost, event => {
     const minecraft = Minecraft.getInstance()

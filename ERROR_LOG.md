@@ -445,6 +445,6 @@ On top of that, those Create screens are opened purely client-side (`FMLLoader.g
 
 **Root cause:** Rendering the complete sprite outside the fixed hotbar preserved the item slots but made the gears read as external icons. The 13x13 canvas also limited the hub, rivets and tooth shading.
 
-**Fix:** Expand the source cog to 17x17 with shaded teeth, an inset hub and four brass rivets. Render only the outer nine-pixel half at each end so the unseen half appears embedded behind the hotbar frame without covering item content.
+**Fix:** Expand the source cog to 17x17 with shaded teeth, an inset hub and four brass rivets. After in-game spacing review, render only the outer seven-pixel section at each end so most of the gear appears embedded behind the hotbar frame without covering item content.
 
 **Prevention:** For decorations intended to look integrated into a fixed HUD sprite, crop the overlay at the chassis boundary instead of placing the full ornament beside it.
