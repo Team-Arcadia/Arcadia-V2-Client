@@ -1038,17 +1038,18 @@
 			id: "6D09511D64DDC282"
 			rewards: [
 				{
-					id: "7949A3E032C67EB5"
-					type: "xp"
-					xp: 250
-				}
-				{
+					count: 3
 					id: "1EA04574B78387D2"
 					item: {
 						count: 1
-						id: "numismatics:bevel"
+						id: "numismatics:spur"
 					}
 					type: "item"
+				}
+				{
+					id: "7949A3E032C67EB5"
+					type: "xp"
+					xp: 250
 				}
 			]
 			shape: "gear"
@@ -1556,6 +1557,15 @@
 			dependencies: ["085E541EEE7F0E25"]
 			id: "2A21E0E615C09D3D"
 			rewards: [
+				{
+					count: 2
+					id: "47BF29F5B5B62BE6"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
 				{
 					id: "2C3E28ED02D19075"
 					type: "xp"

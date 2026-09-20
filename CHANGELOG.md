@@ -6,6 +6,10 @@ All notable changes to Arcadia V2 - Echoes Of Power are documented here, by date
 
 ## 2026-09-20
 
+### Changed
+
+- **Kill quests no longer mint money faster than the economy can absorb** — Every mob in the hunting chapters paid the same flat 1.33 spurs per kill, so a chicken was worth exactly as much as a Ghast, while the hardest content paid nothing at all: Ferrous Wroughtnaut, Frostmaw, Umvuthi, the Castle Keeper, every Mutant, Blaze, Enderman and Wither Skeleton were worth zero, and the Warden was worth 16 spurs against a manatee's 7,384. Rewards are now scaled across five difficulty tiers drawn from the pack's own boss table, from 0.01 spurs per kill for passive critters to 3.0 for bosses, a 300-fold spread where there was none. The book's total payout drops from 3,467,192 to 245,668 spurs, a 93% cut, and the money now comes from the fights that deserve it. Figures and the method to recompute them are recorded in `QUEST_ECONOMY.md`.
+
 ### Fixed
 
 - **Two quest chapters appeared twice in the book, the copies named "Unnamed"** — `A New Beginning` and `First Line of Code` were each shipped as two files, a space-named one and a snake_case one, both claiming the same chapter id. FTB Quests resolved the collision on every load by giving one copy a brand new id, and that copy has no title in any language, hence "Unnamed". The duplicates had been in the repository since the initial commit and never showed up in a diff, because the snake_case copies were re-saved by a newer FTB Quests that writes an extra id on chapter images. The four copies are gone, in the pack and in the defaults mirror, and the surviving files keep the ids the translations point at.
@@ -19,6 +23,10 @@ All notable changes to Arcadia V2 - Echoes Of Power are documented here, by date
 - **The vanilla hotbar now matches Arcadia** — KubeJS overrides the four Minecraft 1.21.1 HUD sprites for the nine-slot bar, active-slot selection and both offhand orientations. The bar uses dark iron and restrained copper separators; only the outer seven-pixel section of two detailed 17x17 dark-iron cogs remains visible behind its frame, with shaded copper teeth and brass rivets but no item obstruction. Their coordinates follow the current GUI dimensions automatically. The selected slot uses luminous copper and brass with small arcane-cyan corner accents, while every vanilla sprite keeps its original dimensions.
 
 - **FTB Quests now carries the Arcadia visual identity** — KubeJS overrides the five shared FTB Library surfaces and all 27 FTB Quests GUI textures shipped by version 2101.1.36. The new skin uses restrained dark iron, walnut, aged brass and arcane-cyan accents, preserves every upstream texture dimension and icon silhouette, and includes a deterministic generator for future maintenance. In-game reviews replaced the dense 16-pixel editor grid with a continuous warm charcoal surface and quiet broken grain, then changed dependency arrows from muted cyan to luminous copper-gold that remains visible after FTB applies its state tint. Reload client resources with F3+T to apply it. Final in-game confirmation is still required.
+
+### Modifications
+
+- **Les quetes de chasse ne frappent plus de monnaie plus vite que l'economie ne l'absorbe** — Chaque mob des chapitres de chasse versait le meme taux plat de 1,33 spur par kill : un poulet valait exactement autant qu'un Ghast, tandis que le contenu le plus difficile ne rapportait rien du tout. Ferrous Wroughtnaut, Frostmaw, Umvuthi, le Castle Keeper, tous les Mutants, le Blaze, l'Enderman et le Wither Skeleton valaient zero, et le Warden valait 16 spurs contre 7 384 pour un lamantin. Les recompenses suivent desormais cinq paliers de difficulte tires de la table de boss du pack, de 0,01 spur par kill pour les creatures passives a 3,0 pour les boss, soit un ecart de 1 a 300 la ou il n'y en avait aucun. Le versement total du livre passe de 3 467 192 a 245 668 spurs, une baisse de 93 %, et l'argent vient maintenant des combats qui le meritent. Les chiffres et la methode pour les recalculer sont consignes dans `QUEST_ECONOMY.md`.
 
 ### Correctifs
 

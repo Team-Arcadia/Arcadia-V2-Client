@@ -345,11 +345,22 @@
 		}
 		{
 			id: "24B87A9A3C7C34AF"
-			rewards: [{
-				id: "014E2698CDFB777D"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
+			rewards: [
+				{
+					count: 1
+					id: "90CCE224238F9C24"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "014E2698CDFB777D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
 			tasks: [{
 				entity: "mutantmonsters:mutant_skeleton"
 				id: "18E3A4C5B80082B6"
@@ -361,11 +372,22 @@
 		}
 		{
 			id: "7F641AA2D88BB457"
-			rewards: [{
-				id: "0DF11DFF9345FD83"
-				type: "xp"
-				xp: 500
-			}]
+			rewards: [
+				{
+					count: 1
+					id: "71F67AACBC6A0AA6"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "0DF11DFF9345FD83"
+					type: "xp"
+					xp: 500
+				}
+			]
 			tasks: [{
 				entity: "mutantmonsters:mutant_zombie"
 				id: "3B52048EF1FA5EDE"
@@ -377,11 +399,22 @@
 		}
 		{
 			id: "28E71B6DF4733BDF"
-			rewards: [{
-				id: "2200B7652BA28E5A"
-				type: "xp"
-				xp: 500
-			}]
+			rewards: [
+				{
+					count: 1
+					id: "E61605A0A3A21632"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "2200B7652BA28E5A"
+					type: "xp"
+					xp: 500
+				}
+			]
 			tasks: [{
 				entity: "mutantmonsters:mutant_snow_golem"
 				id: "76BF30EB927746BA"
@@ -393,11 +426,22 @@
 		}
 		{
 			id: "6B2F4635D9E058CA"
-			rewards: [{
-				id: "7DFEDF2640ADB9D6"
-				type: "xp"
-				xp: 500
-			}]
+			rewards: [
+				{
+					count: 1
+					id: "92BA873FC8512221"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "7DFEDF2640ADB9D6"
+					type: "xp"
+					xp: 500
+				}
+			]
 			tasks: [{
 				entity: "mutantmonsters:mutant_enderman"
 				id: "036B8463974A45FA"
@@ -409,11 +453,22 @@
 		}
 		{
 			id: "2CFB91C7031A5E4B"
-			rewards: [{
-				id: "459366C41EA41D44"
-				type: "xp"
-				xp: 500
-			}]
+			rewards: [
+				{
+					count: 1
+					id: "9D1C7688B59FEC71"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "459366C41EA41D44"
+					type: "xp"
+					xp: 500
+				}
+			]
 			tasks: [{
 				entity: "mutantmonsters:mutant_creeper"
 				id: "0B9F868D8E19E96D"

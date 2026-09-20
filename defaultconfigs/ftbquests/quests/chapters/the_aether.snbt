@@ -557,11 +557,22 @@
 		{
 			dependencies: ["3000000000000001"]
 			id: "3000000000000002"
-			rewards: [{
-				id: "2D95CDE861EDAC04"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "3971B132C8A684A6"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "2D95CDE861EDAC04"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
 			shape: "pentagon"
 			tasks: [{
 				entity: "aether:slider"
@@ -754,14 +765,25 @@
 		{
 			dependencies: ["4000000000000001"]
 			id: "4000000000000002"
-			rewards: [{
-				id: "4000000000000012"
-				item: {
-					count: 1
-					id: "aether:golden_parachute"
+			rewards: [
+				{
+					count: 3
+					id: "6DF8A7FE9C9F0E63"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4000000000000012"
+					item: {
+						count: 1
+						id: "aether:golden_parachute"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			tasks: [{
 				entity: "aether:valkyrie_queen"
@@ -865,14 +887,25 @@
 		{
 			dependencies: ["5000000000000001"]
 			id: "5000000000000002"
-			rewards: [{
-				id: "5000000000000012"
-				item: {
-					count: 1
-					id: "aether:sun_altar"
+			rewards: [
+				{
+					count: 3
+					id: "CFD8F25E30BFC387"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5000000000000012"
+					item: {
+						count: 1
+						id: "aether:sun_altar"
+					}
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			tasks: [{
 				entity: "aether:sun_spirit"
@@ -1138,11 +1171,22 @@
 		{
 			dependencies: ["6000000000000002"]
 			id: "47F14A31158F2D9E"
-			rewards: [{
-				id: "27F122ED50496B1B"
-				type: "xp"
-				xp: 200
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "906EA30508D26E70"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "27F122ED50496B1B"
+					type: "xp"
+					xp: 200
+				}
+			]
 			tasks: [{
 				entity: "deep_aether:eots_controller"
 				id: "5BEAAFBB3FEB1678"
