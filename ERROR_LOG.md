@@ -374,3 +374,15 @@ On top of that, those Create screens are opened purely client-side (`FMLLoader.g
 **Fix:** Restore a hidden `vanilla_button` entry targeting the native `progress_bar`, give the custom gauge its own `arcadia_progress_bar` identifier, change its direction to `right`, and enable a forced GUI scale plus layout auto-scaling from the 1920x1010 design canvas in all four variants.
 
 **Prevention:** Keep native-widget suppression and replacement elements as separate records with separate identifiers. Confirm fill direction at partial progress and resize the game window during every loading-layout visual test.
+
+## [2026-09-20 02:30] — Arcadia gauge clashes with the warm loading artwork
+
+**Context:** The functional gauge rendered correctly after the overlap, direction and responsive-layout fixes. The in-game visual review showed that its long cyan center stripe dominated the composition.
+
+**Error:** The progress fill looked like a clean neon tube and did not belong to the loading background's amber, wood, brass and shadow-heavy industrial palette.
+
+**Root cause:** The original texture gave two of its six visible fill rows to saturated cyan. Nine-slice stretching turned those pixels into uninterrupted screen-wide lines, amplifying a small accent into the gauge's primary color.
+
+**Fix:** Remove the cyan rows, expand both textures to the element's native 32x14 proportion, deepen the track into dark iron and walnut, and grade the fill from pale brass through amber to burnt copper.
+
+**Prevention:** Judge nine-sliced textures by their stretched in-game appearance, not by the tiny source PNG. Reserve saturated accent colors for end caps or isolated details that cannot become full-width bands.

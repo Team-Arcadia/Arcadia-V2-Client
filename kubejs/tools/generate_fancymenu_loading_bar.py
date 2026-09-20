@@ -13,34 +13,36 @@ OUTPUT = ROOT / "config/fancymenu/assets/arcadia"
 
 
 def build_track() -> Image.Image:
-    image = Image.new("RGBA", (32, 12), (0, 0, 0, 0))
+    image = Image.new("RGBA", (32, 14), (0, 0, 0, 0))
     draw = ImageDraw.Draw(image)
-    draw.rectangle((2, 0, 29, 11), fill=(13, 15, 16, 246))
-    draw.rectangle((0, 2, 31, 9), fill=(13, 15, 16, 246))
-    draw.line((3, 1, 28, 1), fill=(126, 123, 108, 255))
-    draw.line((1, 3, 1, 8), fill=(91, 88, 78, 255))
-    draw.line((3, 10, 28, 10), fill=(70, 33, 20, 255))
-    draw.line((30, 3, 30, 8), fill=(70, 33, 20, 255))
-    draw.rectangle((3, 3, 28, 8), fill=(20, 22, 21, 255))
-    draw.line((4, 3, 27, 3), fill=(47, 45, 38, 255))
-    draw.line((4, 8, 27, 8), fill=(8, 10, 11, 255))
-    draw.point((2, 2), fill=(239, 169, 65, 255))
-    draw.point((29, 2), fill=(180, 76, 29, 255))
-    draw.point((2, 9), fill=(180, 76, 29, 255))
-    draw.point((29, 9), fill=(91, 43, 23, 255))
+    draw.rectangle((2, 0, 29, 13), fill=(15, 11, 8, 252))
+    draw.rectangle((0, 2, 31, 11), fill=(15, 11, 8, 252))
+    draw.line((3, 1, 28, 1), fill=(139, 91, 39, 255))
+    draw.line((1, 3, 1, 10), fill=(101, 55, 26, 255))
+    draw.line((30, 3, 30, 10), fill=(79, 38, 20, 255))
+    draw.line((3, 12, 28, 12), fill=(62, 29, 18, 255))
+    draw.rectangle((3, 3, 28, 10), fill=(25, 19, 14, 255))
+    draw.line((4, 3, 27, 3), fill=(72, 47, 27, 255))
+    draw.line((4, 10, 27, 10), fill=(7, 7, 6, 255))
+    draw.point((2, 2), fill=(224, 151, 61, 255))
+    draw.point((29, 2), fill=(170, 91, 35, 255))
+    draw.point((2, 11), fill=(145, 69, 29, 255))
+    draw.point((29, 11), fill=(80, 37, 20, 255))
     return image
 
 
 def build_fill() -> Image.Image:
-    image = Image.new("RGBA", (32, 12), (0, 0, 0, 0))
+    image = Image.new("RGBA", (32, 14), (0, 0, 0, 0))
     draw = ImageDraw.Draw(image)
-    draw.rectangle((2, 3, 29, 8), fill=(211, 84, 27, 255))
-    draw.line((3, 3, 28, 3), fill=(255, 226, 133, 255))
-    draw.line((3, 4, 28, 4), fill=(245, 163, 48, 255))
-    draw.line((3, 5, 28, 5), fill=(69, 224, 225, 255))
-    draw.line((3, 6, 28, 6), fill=(25, 139, 146, 255))
-    draw.line((3, 7, 28, 7), fill=(150, 57, 24, 255))
-    draw.line((3, 8, 28, 8), fill=(79, 36, 23, 255))
+    draw.rectangle((2, 3, 29, 10), fill=(101, 40, 20, 255))
+    draw.line((3, 3, 28, 3), fill=(138, 65, 25, 255))
+    draw.line((3, 4, 28, 4), fill=(255, 219, 128, 255))
+    draw.line((3, 5, 28, 5), fill=(247, 174, 64, 255))
+    draw.line((3, 6, 28, 6), fill=(229, 125, 39, 255))
+    draw.line((3, 7, 28, 7), fill=(201, 83, 28, 255))
+    draw.line((3, 8, 28, 8), fill=(157, 56, 24, 255))
+    draw.line((3, 9, 28, 9), fill=(105, 39, 22, 255))
+    draw.line((3, 10, 28, 10), fill=(57, 25, 17, 255))
     return image
 
 
