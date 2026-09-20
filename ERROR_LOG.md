@@ -1,5 +1,19 @@
 # Error Log — Arcadia V2
 
+## [2026-09-20 20:12] — The temporary contraption tracer crashed the world on any bed or door dropping
+
+**Context:** Playing on the TEST02 world with `kubejs/startup_scripts/diagnostics/contraption_block_loss_trace.js` still armed for tickets #218 and #233.
+**Error:** `TypeError: Cannot call property dimension in object ServerLevel[TEST02]. It is not a function, it is "object". (startup_scripts:diagnostics/contraption_block_loss_trace.js#116)`, thrown during `Exception during promotion of chunk to FULL status`, which takes the integrated server down.
+**Root cause:** The script read the dimension with `level.dimension()`. Rhino's bean mapping turns a zero-argument `dimension()` into the **property** `level.dimension`, so calling it as a function throws. The line had never run: it only fires when a watched item entity joins a server level, and the tracer watches 879 items, every door, bed, banner and bell in the pack. The first chunk containing one of them was enough, and because the listener body was not guarded, a diagnostic that changes nothing in the game became a hard crash on chunk load.
+**Fix:** Read the dimension through a `diagDimensionOf()` helper that reads the property and falls back to `'unknown dimension'`, and move the listener body into `traceWatchedDrop()` wrapped in try/catch, so any future failure silences the tracer for the session instead of killing the server thread.
+**Prevention:** Two rules. A zero-argument Java getter reached from KubeJS is a property, not a call, whenever Rhino can map it as a bean; when unsure, read it as a property and guard it. And any diagnostic script, by definition code that must change nothing, wraps its whole listener body in try/catch: a tracer is never worth a crash. The same applies to the untested tail of a listener, here `console.trace()`, which had never executed either.
+
+**Contexte :** Partie sur le monde TEST02 avec le traceur temporaire des contraptions encore arme pour les tickets #218 et #233.
+**Erreur :** `TypeError: Cannot call property dimension in object ServerLevel[TEST02]` pendant la promotion d'un chunk en statut FULL, ce qui arrete le serveur integre.
+**Cause :** Le script lisait la dimension avec `level.dimension()`. Rhino transforme un `dimension()` sans argument en **propriete** `level.dimension` : l'appeler comme une fonction leve une erreur. Cette ligne n'avait jamais ete executee, car elle ne se declenche qu'a l'apparition d'un objet surveille, et le traceur en surveille 879, soit toutes les portes, lits, bannieres et cloches du pack. Le premier chunk en contenant un a suffi, et faute de garde autour de l'ecouteur, un diagnostic cense ne rien modifier est devenu un crash au chargement de chunk.
+**Correction :** Lecture de la dimension via un helper `diagDimensionOf()` avec repli, et corps de l'ecouteur deplace dans `traceWatchedDrop()` sous try/catch, qui desarme le traceur pour la session au lieu de tuer le thread serveur.
+**Prevention :** Un getter Java sans argument appele depuis KubeJS est une propriete, pas un appel, des que Rhino peut le mapper. Et tout script de diagnostic enveloppe son ecouteur dans un try/catch : un traceur ne vaut jamais un crash.
+
 ## [2026-09-20 11:30] — "Unnamed" chapters kept coming back because two chapter files had spaces in their names
 
 **Context:** Duplicate chapters labelled "Unnamed" reappeared in the quest book after every launch, even though the duplicate files had been deleted three times.

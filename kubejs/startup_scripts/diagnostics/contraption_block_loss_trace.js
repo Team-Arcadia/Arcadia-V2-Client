@@ -63,6 +63,17 @@ function isWatchedId(id) {
     return false;
 }
 
+// Rhino exposes ServerLevel#dimension() as a bean property, not a method, so
+// calling it crashes the chunk thread. Read it both ways and never let a
+// diagnostic be the reason a world fails to load.
+function diagDimensionOf(level) {
+    try {
+        const key = level.dimension;
+        if (key !== undefined && key !== null) return String(key.location ? key.location() : key);
+    } catch (ignored) { /* fall through */ }
+    return 'unknown dimension';
+}
+
 function installContraptionTracer() {
     const BuiltInRegistries = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries');
     const ItemEntity = Java.loadClass('net.minecraft.world.entity.item.ItemEntity');
@@ -100,6 +111,16 @@ function installContraptionTracer() {
 
     // Disassembly probe, and any other drop of a watched item.
     NativeEvents.onEvent(EventPriority.LOWEST, EntityJoinLevelEvent, event => {
+        try {
+            traceWatchedDrop(event);
+        } catch (err) {
+            // A tracer must never be able to take a chunk load down with it.
+            diagDropReports = DIAG_MAX_DROP_REPORTS;
+            console.error('[Arcadia][diag] Drop tracer failed and is now off for this session: ' + err);
+        }
+    });
+
+    function traceWatchedDrop(event) {
         if (diagDropReports >= DIAG_MAX_DROP_REPORTS) return;
 
         const level = event.getLevel();
@@ -117,7 +138,7 @@ function installContraptionTracer() {
             + ' ' + String(BuiltInRegistries.ITEM.getKey(stack.getItem()))
             + ' x' + stack.getCount()
             + ' at ' + pos.getX() + ' ' + pos.getY() + ' ' + pos.getZ()
-            + ' in ' + String(level.dimension())
+            + ' in ' + diagDimensionOf(level)
             + ' tick ' + level.getGameTime()
             + ' | block there: ' + String(level.getBlockState(pos)));
 
@@ -129,7 +150,7 @@ function installContraptionTracer() {
         if (diagDropReports === DIAG_MAX_DROP_REPORTS) {
             console.info('[Arcadia][diag] Drop report cap reached, tracer goes quiet until the next restart.');
         }
-    });
+    }
 
     console.info('[Arcadia][diag] Contraption brittle-block tracer armed (tickets #218, #233): '
         + watchedBlocks.size() + ' blocks and ' + watchedItems.size() + ' items watched.');
