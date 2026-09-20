@@ -62,7 +62,9 @@ servers.dat_old
 user-prefs.json
 usercache.json
 usernamecache.json
-options.txt
+# Root instance file only: the DefaultOptions and FancyMenu templates under
+# config/ are shipped content and must stay tracked.
+/options.txt
 
 # --- Local runtime data ---
 local/
