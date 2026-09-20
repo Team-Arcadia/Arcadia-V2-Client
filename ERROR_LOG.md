@@ -398,3 +398,15 @@ On top of that, those Create screens are opened purely client-side (`FMLLoader.g
 **Fix:** Redraw each gear at 9x9 pixels with eight pale-brass teeth, a copper octagonal ring, a dark 3x3 center and a bright highlight. Move both gears to the upper end plates, where they have stronger contrast and remain clear of the item centers. A 7x7 intermediate preview was rejected because its one-pixel center still read as a copper sparkle rather than a gear.
 
 **Prevention:** Review HUD pixel art at the actual in-game GUI scale and against populated slots. A recognizable mechanical symbol needs a distinct silhouette, a center hole and at least one value contrast from the surrounding frame.
+
+## [2026-09-20 03:00] — Larger hotbar gears cover item slots
+
+**Context:** Enlarging the gears from 5x5 to 9x9 made their silhouettes readable, but the vanilla hotbar sprite has no unused horizontal canvas outside its 182x22 bounds.
+
+**Error:** Both gears overlapped the first and last slot, hiding part of the item icons.
+
+**Root cause:** Decorative pixels baked into `hotbar.png` must remain inside the same 182-pixel width that contains all nine 20-pixel slots and the two one-pixel outer edges. Enlarging the source canvas would be scaled back into the fixed render width and distort every slot, so a texture-only fix cannot place artwork outside the bar.
+
+**Fix:** Remove the gears from `hotbar.png`, generate one separate transparent 11x11 gear texture, and render two copies from a client-side post-HUD event. Their positions derive from the current GUI width and height and sit two pixels beyond the vanilla bar edges.
+
+**Prevention:** Do not place external decorations inside fixed-size vanilla HUD sprites. Use a separate overlay with live GUI-relative coordinates whenever artwork must extend beyond the original occupied bounds.

@@ -2,7 +2,8 @@
 
 Author: vyrriox
 
-The dimensions and occupied bounds match the vanilla HUD sprites exactly.
+The vanilla sprites keep their original dimensions. Decorative gears are generated
+as a separate overlay so they never cover the first or last item slot.
 """
 
 from pathlib import Path
@@ -30,43 +31,48 @@ def save(image: Image.Image, name: str) -> None:
 
 
 def draw_micro_gear(draw: ImageDraw.ImageDraw, center_x: int, center_y: int) -> None:
-    """Draw a readable nine-pixel cog without widening the vanilla sprite."""
+    """Draw a readable eleven-pixel cog for the external HUD overlay."""
     teeth = (
-        (center_x, center_y - 4),
-        (center_x + 3, center_y - 3),
-        (center_x + 4, center_y),
-        (center_x + 3, center_y + 3),
-        (center_x, center_y + 4),
-        (center_x - 3, center_y + 3),
-        (center_x - 4, center_y),
-        (center_x - 3, center_y - 3),
+        (center_x, center_y - 5),
+        (center_x + 4, center_y - 4),
+        (center_x + 5, center_y),
+        (center_x + 4, center_y + 4),
+        (center_x, center_y + 5),
+        (center_x - 4, center_y + 4),
+        (center_x - 5, center_y),
+        (center_x - 4, center_y - 4),
     )
     for tooth in teeth:
         draw.point(tooth, fill=PALE_BRASS)
 
     draw.polygon(
         (
-            (center_x - 1, center_y - 3),
-            (center_x + 1, center_y - 3),
-            (center_x + 3, center_y - 1),
-            (center_x + 3, center_y + 1),
-            (center_x + 1, center_y + 3),
-            (center_x - 1, center_y + 3),
-            (center_x - 3, center_y + 1),
-            (center_x - 3, center_y - 1),
+            (center_x - 2, center_y - 4),
+            (center_x + 2, center_y - 4),
+            (center_x + 4, center_y - 2),
+            (center_x + 4, center_y + 2),
+            (center_x + 2, center_y + 4),
+            (center_x - 2, center_y + 4),
+            (center_x - 4, center_y + 2),
+            (center_x - 4, center_y - 2),
         ),
         fill=COPPER,
     )
     draw.line(
-        (center_x - 1, center_y - 3, center_x + 1, center_y - 3),
+        (center_x - 2, center_y - 4, center_x + 2, center_y - 4),
         fill=BRASS,
     )
-    draw.point((center_x - 2, center_y - 2), fill=PALE_BRASS)
+    draw.point((center_x - 3, center_y - 3), fill=PALE_BRASS)
     draw.rectangle(
         (center_x - 1, center_y - 1, center_x + 1, center_y + 1),
-        fill=BLACK_IRON,
+        fill=TRANSPARENT,
     )
-    draw.point((center_x, center_y), fill=DARK_COPPER)
+
+
+def build_hotbar_gear() -> Image.Image:
+    image = Image.new("RGBA", (11, 11), TRANSPARENT)
+    draw_micro_gear(ImageDraw.Draw(image), 5, 5)
+    return image
 
 
 def build_hotbar() -> Image.Image:
@@ -109,9 +115,6 @@ def build_hotbar() -> Image.Image:
     draw.point((180, 4), fill=PALE_BRASS)
     draw.point((179, 10), fill=(113, 63, 34, 255))
 
-    # Mirrored cogs sit high on the end plates, clear of the item centers.
-    draw_micro_gear(draw, 5, 6)
-    draw_micro_gear(draw, 176, 6)
     return image
 
 
@@ -159,7 +162,8 @@ def main() -> None:
     save(build_selection(), "hotbar_selection.png")
     save(build_offhand("left"), "hotbar_offhand_left.png")
     save(build_offhand("right"), "hotbar_offhand_right.png")
-    print("Arcadia HUD generated: hotbar, selection and both offhand frames.")
+    save(build_hotbar_gear(), "hotbar_gear.png")
+    print("Arcadia HUD generated: hotbar, selection, offhand frames and external gear.")
 
 
 if __name__ == "__main__":
