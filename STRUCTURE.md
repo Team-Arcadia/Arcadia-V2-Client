@@ -10,7 +10,7 @@ Master reference of the Arcadia V2 "Echoes Of Power" instance. Everything is ind
 | Minecraft | 1.21.1 |
 | Loader | NeoForge 21.1.250 |
 | Java | 21 (8+ GB RAM recommended) |
-| Manifest | 466 CurseForge entries (440 mods + 26 shaderpacks) |
+| Manifest | 467 CurseForge entries (441 mods + 26 shaderpacks) |
 | Local jars | 446 active (incl. 10 in-house mods and 5 patched jars) |
 | Target | Community server, 88 players at peak (record), also fully solo-viable |
 | Languages | Docs EN/FR, items in 7 locales, quests in 7 locales |
@@ -21,7 +21,7 @@ Master reference of the Arcadia V2 "Echoes Of Power" instance. Everything is ind
 
 ```
 Arcadia V2/
-├── manifest.json            CurseForge manifest, 466 entries resolved at import
+├── manifest.json            CurseForge manifest, 467 entries resolved at import
 ├── minecraftinstance.json   CurseForge instance metadata (very large, grep only)
 ├── README.md                Bilingual repository documentation
 ├── CURSEFORGE_PAGE.md       HTML source of the CurseForge project page
@@ -156,7 +156,7 @@ kubejs/
 ## 8. Distribution & Workflow
 
 - Git: single branch `2.0.X` on `github.com/Team-Arcadia/Arcadia-V2-Client`, auto-commit/push policy, English commits, no version bumps without explicit request.
-- Players install via CurseForge (manifest resolves 466 entries); in-house content ships in `mods/` overrides + `kubejs/` + `config/`.
+- Players install via CurseForge (manifest resolves 467 entries); in-house content ships in `mods/` overrides + `kubejs/` + `config/`.
 - Test world: `saves/TEST`. KubeJS server scripts reload with `/reload`; startup scripts need a full restart.
 - Logs to watch: `logs/latest.log`, `logs/kubejs/{startup,server,client}.log`.
 
@@ -174,7 +174,7 @@ Référence maîtresse de l'instance Arcadia V2 « Echoes Of Power ». Tout est 
 | Minecraft | 1.21.1 |
 | Loader | NeoForge 21.1.250 |
 | Java | 21 (8+ Go RAM recommandés) |
-| Manifest | 466 entrées CurseForge (440 mods + 26 shaderpacks) |
+| Manifest | 467 entrées CurseForge (441 mods + 26 shaderpacks) |
 | Jars locaux | 446 actifs (dont 10 mods maison et 5 jars patchés) |
 | Cible | Serveur communautaire, 88 joueurs au pic (record), jouable en solo |
 | Langues | Docs EN/FR, items en 7 locales, quêtes en 7 locales |
@@ -185,7 +185,7 @@ Référence maîtresse de l'instance Arcadia V2 « Echoes Of Power ». Tout est 
 
 ```
 Arcadia V2/
-├── manifest.json            Manifest CurseForge, 466 entrées résolues à l'import
+├── manifest.json            Manifest CurseForge, 467 entrées résolues à l'import
 ├── minecraftinstance.json   Métadonnées d'instance CurseForge (très volumineux)
 ├── README.md                Documentation bilingue du dépôt
 ├── CURSEFORGE_PAGE.md       Source HTML de la page CurseForge
@@ -321,6 +321,6 @@ kubejs/
 ## 8. Distribution & Workflow
 
 - Git : branche unique `2.0.X` sur `github.com/Team-Arcadia/Arcadia-V2-Client`, politique d'auto-commit/push, commits en anglais, pas de bump de version sans demande explicite.
-- Les joueurs installent via CurseForge (le manifest résout 466 entrées) ; le contenu maison est livré via les overrides `mods/` + `kubejs/` + `config/`.
+- Les joueurs installent via CurseForge (le manifest résout 467 entrées) ; le contenu maison est livré via les overrides `mods/` + `kubejs/` + `config/`.
 - Monde de test : `saves/TEST`. Scripts serveur KubeJS rechargés avec `/reload` ; scripts startup : redémarrage complet.
 - Logs à surveiller : `logs/latest.log`, `logs/kubejs/{startup,server,client}.log`.

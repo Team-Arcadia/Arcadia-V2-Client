@@ -1,0 +1,48 @@
+#Itemsmith -- server-side guard rails.
+[permissions]
+	#Op level required when LuckPerms is absent or the node is undefined.
+	#Applies to every itemsmith.* node.
+	# Default: 2
+	# Range: 0 ~ 4
+	fallbackOpLevel = 2
+
+[limits]
+	#Highest absolute value allowed for a single attribute modifier.
+	#An edit exceeding this is rejected as a whole.
+	# Default: 100.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	maxAttributeAmount = 100.0
+	#Highest enchantment level an editor may apply.
+	# Default: 255
+	# Range: 1 ~ 32767
+	maxEnchantmentLevel = 255
+	#Highest max_damage value an editor may apply.
+	# Default: 65535
+	# Range: > 1
+	maxDurability = 65535
+
+[session]
+	#An editor session left unapplied for this long is discarded.
+	#The screen then refuses to apply and asks the staff member to reopen it.
+	# Default: 600
+	# Range: 30 ~ 3600
+	sessionTimeoutSeconds = 600
+
+[features]
+	#The library of saved items, and handing them out.
+	library = true
+	#Write a journal entry every time a copy is handed to somebody.
+	handoutLog = true
+	#Whether abilities on items fire at all.
+	#Off makes every existing ability inert without editing any item.
+	abilities = true
+	#Whether item auras are drawn. Client-side; costs the server nothing.
+	auras = true
+	#Whether Itemsmith adds its own lines to item tooltips.
+	tooltips = true
+	#Whether aura sound layers play. Client-side; costs the server nothing.
+	auraSounds = true
+
+[audit]
+	#Write every applied edit and every refusal to the server log.
+	auditLogEnabled = true
