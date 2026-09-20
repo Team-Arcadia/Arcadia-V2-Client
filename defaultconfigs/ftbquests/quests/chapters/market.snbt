@@ -2218,7 +2218,6 @@
 			}
 			id: "7766EFF53750E69F"
 			rewards: [{
-				count: 1
 				id: "53331AB923DB1286"
 				item: {
 					count: 1
@@ -2229,7 +2228,6 @@
 			size: 0.75d
 			tasks: [{
 				consume_items: true
-				count: 1L
 				id: "2AEF11BBF8AB8EBE"
 				item: { count: 1, id: "numismatics:crown" }
 				type: "item"
@@ -2466,21 +2464,15 @@
 		{
 			can_repeat: true
 			icon: {
-				components: {
-					"ftbquests:missing_item": "ars_nouveau:magic_clay"
-				}
-				id: "ftbquests:missing_item"
+				id: "ars_nouveau:magebloom"
 			}
 			id: "3FE68C15E40E243B"
 			rewards: [{
 				count: 8
 				id: "0FE9C4FD113939A3"
 				item: {
-					components: {
-						"ftbquests:missing_item": "ars_nouveau:magic_clay"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "ars_nouveau:magebloom"
 				}
 				type: "item"
 			}]
@@ -2808,7 +2800,6 @@
 			}
 			id: "62524B0FCE3D018A"
 			rewards: [{
-				count: 1
 				id: "50F315870DE89734"
 				item: {
 					count: 1
@@ -2819,7 +2810,6 @@
 			size: 0.75d
 			tasks: [{
 				consume_items: true
-				count: 1L
 				id: "1E5F5BCD5A96BB99"
 				item: { count: 1, id: "numismatics:crown" }
 				type: "item"
@@ -2834,7 +2824,6 @@
 			}
 			id: "2ADE95B74813DA6B"
 			rewards: [{
-				count: 1
 				id: "44181B39E2AA57B4"
 				item: {
 					count: 1
@@ -2845,7 +2834,6 @@
 			size: 0.75d
 			tasks: [{
 				consume_items: true
-				count: 1L
 				id: "3C330577F5700BB1"
 				item: { count: 1, id: "numismatics:crown" }
 				type: "item"
@@ -3407,10 +3395,10 @@
 			icon: {
 				id: "tfmg:steel_ingot"
 			}
-			id: "A1E61F3F961E7514"
+			id: "3AA460119F23D85C"
 			size: 1.4d
 			tasks: [{
-				id: "F52241C33DC2B220"
+				id: "64D68CFB180E5DAE"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -3434,7 +3422,6 @@
 			size: 0.75d
 			tasks: [{
 				consume_items: true
-				count: 1L
 				id: "4ADC6A73B9065B91"
 				item: { count: 1, id: "numismatics:sprocket" }
 				type: "item"
@@ -3447,10 +3434,10 @@
 			icon: {
 				id: "tfmg:slag"
 			}
-			id: "E9B8288782CE1B2F"
+			id: "3D711DEFA2C61CD2"
 			rewards: [{
 				count: 16
-				id: "E159C59178707EFA"
+				id: "28F5CD7E3C8580A1"
 				item: {
 					count: 1
 					id: "tfmg:slag"
@@ -3460,8 +3447,7 @@
 			size: 0.75d
 			tasks: [{
 				consume_items: true
-				count: 1L
-				id: "D10FC0AEF6334BA5"
+				id: "7C17EE54D48364B4"
 				item: { count: 1, id: "numismatics:sprocket" }
 				type: "item"
 			}]
@@ -3499,7 +3485,7 @@
 			icon: {
 				id: "create:copper_sheet"
 			}
-			id: "D715CB996DEC0001"
+			id: "0BCB6E97C1D465F6"
 			rewards: [{
 				count: 16
 				id: "60DC71042F5DFA3C"
@@ -3513,7 +3499,7 @@
 			tasks: [{
 				consume_items: true
 				count: 2L
-				id: "EC08ECEA7E45C30C"
+				id: "6133E1D49BAE200F"
 				item: { count: 1, id: "numismatics:sprocket" }
 				type: "item"
 			}]
@@ -3525,7 +3511,7 @@
 			icon: {
 				id: "immersiveengineering:dust_saltpeter"
 			}
-			id: "8F60E2147A4F572B"
+			id: "245DD91303ADF817"
 			rewards: [{
 				count: 16
 				id: "385F5C1FE615EDAF"
@@ -3539,7 +3525,7 @@
 			tasks: [{
 				consume_items: true
 				count: 3L
-				id: "B1987B8152AFFC73"
+				id: "32796AB1D8A4FA89"
 				item: { count: 1, id: "numismatics:bevel" }
 				type: "item"
 			}]
@@ -3551,10 +3537,10 @@
 			icon: {
 				id: "tfmg:cast_iron_ingot"
 			}
-			id: "CBC20535A76141BF"
+			id: "6D7D95B7530347EA"
 			rewards: [{
 				count: 8
-				id: "D14A21AE85EF6BE7"
+				id: "5774B9AC8BE1C25C"
 				item: {
 					count: 1
 					id: "tfmg:cast_iron_ingot"
@@ -3617,7 +3603,7 @@
 			tasks: [{
 				consume_items: true
 				count: 3L
-				id: "AD209018905C8A8F"
+				id: "663FD561EB7695EB"
 				item: { count: 1, id: "numismatics:sprocket" }
 				type: "item"
 			}]
@@ -3629,7 +3615,7 @@
 			icon: {
 				id: "mekanism:dust_sulfur"
 			}
-			id: "C63D63598812983F"
+			id: "352A57D1928E9706"
 			rewards: [{
 				count: 16
 				id: "13B083D79AD722DA"
@@ -3684,7 +3670,7 @@
 			id: "3F2D1AC1AEAF35E2"
 			rewards: [{
 				count: 8
-				id: "DFAD59CD15C9DD30"
+				id: "2E599EE24C25934C"
 				item: {
 					count: 1
 					id: "createaddition:gold_wire"
@@ -3695,7 +3681,7 @@
 			tasks: [{
 				consume_items: true
 				count: 2L
-				id: "A87F3E7E382FCFDA"
+				id: "58B8C638F76FE31E"
 				item: { count: 1, id: "numismatics:sprocket" }
 				type: "item"
 			}]
@@ -3707,7 +3693,7 @@
 			icon: {
 				id: "tfmg:steel_ingot"
 			}
-			id: "85B88BB8FA476C53"
+			id: "3B6C38951DA65520"
 			rewards: [{
 				count: 8
 				id: "0922FF3444C8780C"
@@ -3721,7 +3707,7 @@
 			tasks: [{
 				consume_items: true
 				count: 2L
-				id: "B1558B38B3D428E8"
+				id: "53D300BDECECCE18"
 				item: { count: 1, id: "numismatics:sprocket" }
 				type: "item"
 			}]
@@ -3733,7 +3719,7 @@
 			icon: {
 				id: "tfmg:aluminum_ingot"
 			}
-			id: "EA930BE1E58BF09B"
+			id: "60A285952EB14A6F"
 			rewards: [{
 				count: 8
 				id: "7FE29CA012FE19EA"
@@ -3762,7 +3748,7 @@
 			id: "6F69056145587F60"
 			rewards: [{
 				count: 8
-				id: "AC25E4A972DDD9AD"
+				id: "459A7D7A643A1B46"
 				item: {
 					count: 1
 					id: "tfmg:plastic_sheet"
@@ -3773,7 +3759,7 @@
 			tasks: [{
 				consume_items: true
 				count: 2L
-				id: "922CA33315BBDF00"
+				id: "033AB0BB3FBF162B"
 				item: { count: 1, id: "numismatics:sprocket" }
 				type: "item"
 			}]
@@ -3799,7 +3785,7 @@
 			tasks: [{
 				consume_items: true
 				count: 2L
-				id: "F77030554AF16B40"
+				id: "062C589494C9944B"
 				item: { count: 1, id: "numismatics:sprocket" }
 				type: "item"
 			}]
@@ -3811,7 +3797,7 @@
 			icon: {
 				id: "mekanism:ingot_steel"
 			}
-			id: "91D68FC0A3867295"
+			id: "663E50B7D5CD8F7D"
 			rewards: [{
 				count: 8
 				id: "7972698834064891"
@@ -3825,7 +3811,7 @@
 			tasks: [{
 				consume_items: true
 				count: 2L
-				id: "CF93E3ECB5A29CC1"
+				id: "6B81932D45B0D517"
 				item: { count: 1, id: "numismatics:sprocket" }
 				type: "item"
 			}]
@@ -3840,7 +3826,7 @@
 			id: "4D9BC711104A8209"
 			rewards: [{
 				count: 8
-				id: "B8339F3DBB43422E"
+				id: "53A6FAD30FEB1FCB"
 				item: {
 					count: 1
 					id: "createaddition:electrum_ingot"
@@ -3851,7 +3837,7 @@
 			tasks: [{
 				consume_items: true
 				count: 2L
-				id: "E4F0A04D0654D8DF"
+				id: "5BFC1F967F969416"
 				item: { count: 1, id: "numismatics:sprocket" }
 				type: "item"
 			}]
@@ -3918,7 +3904,7 @@
 			id: "46757041D89F29A2"
 			rewards: [{
 				count: 4
-				id: "A1C4F161D740D572"
+				id: "37EF47B0ACE4C364"
 				item: {
 					count: 1
 					id: "tfmg:heavy_plate"
@@ -3929,7 +3915,7 @@
 			tasks: [{
 				consume_items: true
 				count: 2L
-				id: "C9CE052826CA9B76"
+				id: "2F9F19E41536F9E0"
 				item: { count: 1, id: "numismatics:sprocket" }
 				type: "item"
 			}]
@@ -3944,7 +3930,7 @@
 			id: "4D628C709F8DF148"
 			rewards: [{
 				count: 4
-				id: "CD41E8ECDF9BDF0A"
+				id: "1722FC53F29EE38D"
 				item: {
 					count: 1
 					id: "tfmg:light_bulb"
@@ -3993,10 +3979,10 @@
 			icon: {
 				id: "refinedstorage:quartz_enriched_iron"
 			}
-			id: "DC509B25854E0ACE"
+			id: "24B585622A99A005"
 			rewards: [{
 				count: 4
-				id: "EB07BDCF15A99104"
+				id: "5D4F2639940B4FE9"
 				item: {
 					count: 1
 					id: "refinedstorage:quartz_enriched_iron"
@@ -4007,7 +3993,7 @@
 			tasks: [{
 				consume_items: true
 				count: 2L
-				id: "F88C4D27F9C1621A"
+				id: "77AA4E6A0AB557DD"
 				item: { count: 1, id: "numismatics:sprocket" }
 				type: "item"
 			}]
@@ -4019,7 +4005,7 @@
 			icon: {
 				id: "tfmg:steel_mechanism"
 			}
-			id: "8D8F0E3F36AFC244"
+			id: "2B6A3CB1803E1FA9"
 			rewards: [{
 				count: 4
 				id: "24C571E6476F3210"
@@ -4032,8 +4018,7 @@
 			size: 0.75d
 			tasks: [{
 				consume_items: true
-				count: 1L
-				id: "DEB961B674F6041F"
+				id: "7B5E06B747305ECA"
 				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
 			}]
@@ -4045,10 +4030,10 @@
 			icon: {
 				id: "refinedstorage:basic_processor"
 			}
-			id: "D36062BA42AB0208"
+			id: "3D8301B3AF5D59A1"
 			rewards: [{
 				count: 4
-				id: "F1EC47A85E1FD4EA"
+				id: "7A52E49522617795"
 				item: {
 					count: 1
 					id: "refinedstorage:basic_processor"
@@ -4058,7 +4043,6 @@
 			size: 0.75d
 			tasks: [{
 				consume_items: true
-				count: 1L
 				id: "2DF1E8E3EE30CB7F"
 				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
@@ -4084,7 +4068,6 @@
 			size: 0.75d
 			tasks: [{
 				consume_items: true
-				count: 1L
 				id: "3D2E0CE1D7E57558"
 				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
@@ -4110,7 +4093,6 @@
 			size: 0.75d
 			tasks: [{
 				consume_items: true
-				count: 1L
 				id: "4F2DE3687CB6A4E6"
 				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
@@ -4122,10 +4104,10 @@
 			icon: {
 				id: "deeperdarker:warden_carapace"
 			}
-			id: "BADA54EC036A07C2"
+			id: "0DF28C32A85F770B"
 			size: 1.4d
 			tasks: [{
-				id: "9CDA972BB133C49B"
+				id: "6E3FCC84DD59DA60"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -4136,10 +4118,10 @@
 			icon: {
 				id: "aquaculture:worm"
 			}
-			id: "EF8F7AA152701763"
+			id: "0389EB34C3659D3A"
 			rewards: [{
 				count: 16
-				id: "ABBC071A0E9031FF"
+				id: "1923FF4B2406864F"
 				item: {
 					count: 1
 					id: "aquaculture:worm"
@@ -4149,8 +4131,7 @@
 			size: 0.75d
 			tasks: [{
 				consume_items: true
-				count: 1L
-				id: "A596EF8313D04BC7"
+				id: "611D71A55D8E6A50"
 				item: { count: 1, id: "numismatics:bevel" }
 				type: "item"
 			}]
@@ -4162,7 +4143,7 @@
 			icon: {
 				id: "aquaculture:fish_fillet_raw"
 			}
-			id: "B61DE20B5F875AD9"
+			id: "3B1E502F4F0A377D"
 			rewards: [{
 				count: 16
 				id: "1536A35A14249AEB"
@@ -4175,8 +4156,7 @@
 			size: 0.75d
 			tasks: [{
 				consume_items: true
-				count: 1L
-				id: "FA11E4CF0430D39E"
+				id: "3C8C322CECEEF42D"
 				item: { count: 1, id: "numismatics:sprocket" }
 				type: "item"
 			}]
@@ -4201,8 +4181,7 @@
 			size: 0.75d
 			tasks: [{
 				consume_items: true
-				count: 1L
-				id: "F125601336A9A411"
+				id: "2AC3B0FF2C6886E7"
 				item: { count: 1, id: "numismatics:sprocket" }
 				type: "item"
 			}]
@@ -4214,10 +4193,10 @@
 			icon: {
 				id: "occultism:tallow"
 			}
-			id: "D14D1D49BE3743C3"
+			id: "23F457AF32B09646"
 			rewards: [{
 				count: 16
-				id: "A73F737B41D462C0"
+				id: "2654DF8C63C053BB"
 				item: {
 					count: 1
 					id: "occultism:tallow"
@@ -4227,8 +4206,7 @@
 			size: 0.75d
 			tasks: [{
 				consume_items: true
-				count: 1L
-				id: "9D8685D41B979A6C"
+				id: "65EBCF5FE172737A"
 				item: { count: 1, id: "numismatics:sprocket" }
 				type: "item"
 			}]
@@ -4243,7 +4221,7 @@
 			id: "706B4B3F69F1AB3E"
 			rewards: [{
 				count: 16
-				id: "C07EADCEF075B765"
+				id: "27ADF02AFE8DE770"
 				item: {
 					count: 1
 					id: "twilightforest:torchberries"
@@ -4253,8 +4231,7 @@
 			size: 0.75d
 			tasks: [{
 				consume_items: true
-				count: 1L
-				id: "F13FEE619995D5AC"
+				id: "29B0F5FACAC32AF9"
 				item: { count: 1, id: "numismatics:sprocket" }
 				type: "item"
 			}]
@@ -4269,7 +4246,7 @@
 			id: "1999ECB8057D18C3"
 			rewards: [{
 				count: 16
-				id: "A625897D86556531"
+				id: "33171F2EBD787EA5"
 				item: {
 					count: 1
 					id: "supplementaries:rope"
@@ -4279,8 +4256,7 @@
 			size: 0.75d
 			tasks: [{
 				consume_items: true
-				count: 1L
-				id: "C5CCC136893A48C1"
+				id: "6A0F36B28C349CC9"
 				item: { count: 1, id: "numismatics:sprocket" }
 				type: "item"
 			}]
@@ -4292,7 +4268,7 @@
 			icon: {
 				id: "twilightforest:liveroot"
 			}
-			id: "B3756D680D80344F"
+			id: "47C205C7A9CE93BB"
 			rewards: [{
 				count: 8
 				id: "4AB83E77868AB3AF"
@@ -4305,7 +4281,6 @@
 			size: 0.75d
 			tasks: [{
 				consume_items: true
-				count: 1L
 				id: "4E42328DA673C89E"
 				item: { count: 1, id: "numismatics:sprocket" }
 				type: "item"
@@ -4318,10 +4293,10 @@
 			icon: {
 				id: "twilightforest:raven_feather"
 			}
-			id: "9C13A804E3A61C1F"
+			id: "26EC44796A43C793"
 			rewards: [{
 				count: 8
-				id: "9CA9B3ADB6CEA86F"
+				id: "5A73CBE5B8094B02"
 				item: {
 					count: 1
 					id: "twilightforest:raven_feather"
@@ -4331,8 +4306,7 @@
 			size: 0.75d
 			tasks: [{
 				consume_items: true
-				count: 1L
-				id: "DE14B04B31901CD6"
+				id: "3AF8CD06915B5838"
 				item: { count: 1, id: "numismatics:sprocket" }
 				type: "item"
 			}]
@@ -4347,7 +4321,7 @@
 			id: "7DB06D8ED35A73A6"
 			rewards: [{
 				count: 8
-				id: "AF48B78831AA0B4C"
+				id: "17146DA311A6633E"
 				item: {
 					count: 1
 					id: "supplementaries:flint_block"
@@ -4357,7 +4331,6 @@
 			size: 0.75d
 			tasks: [{
 				consume_items: true
-				count: 1L
 				id: "7ED0751932BD87AC"
 				item: { count: 1, id: "numismatics:sprocket" }
 				type: "item"
@@ -4370,7 +4343,7 @@
 			icon: {
 				id: "occultism:otherstone"
 			}
-			id: "DCEE3C89A076A05E"
+			id: "722A7BAF4A1BE1DE"
 			rewards: [{
 				count: 16
 				id: "10C7B503976D6A61"
@@ -4384,7 +4357,7 @@
 			tasks: [{
 				consume_items: true
 				count: 2L
-				id: "F5DAF0445413AF04"
+				id: "1E37CD5467170BC9"
 				item: { count: 1, id: "numismatics:sprocket" }
 				type: "item"
 			}]
@@ -4396,7 +4369,7 @@
 			icon: {
 				id: "deeperdarker:sculk_stone"
 			}
-			id: "87961F5640996266"
+			id: "7AC35EFC7F1029DB"
 			rewards: [{
 				count: 8
 				id: "18D1D52BDD94AD87"
@@ -4425,7 +4398,7 @@
 			id: "4AFA3B5D34C939DB"
 			rewards: [{
 				count: 8
-				id: "BBD0E98EDEA0C25D"
+				id: "530A0B963BEDFC52"
 				item: {
 					count: 1
 					id: "aquaculture:neptunium_nugget"
@@ -4436,7 +4409,7 @@
 			tasks: [{
 				consume_items: true
 				count: 2L
-				id: "821EEA039825E64D"
+				id: "6B451F5DF8BF870E"
 				item: { count: 1, id: "numismatics:sprocket" }
 				type: "item"
 			}]
@@ -4448,10 +4421,10 @@
 			icon: {
 				id: "occultism:purified_ink"
 			}
-			id: "E4C9ADCDEAE14227"
+			id: "7E207B9068552801"
 			rewards: [{
 				count: 8
-				id: "F602F2F80FFEA61D"
+				id: "57C7CA671A469946"
 				item: {
 					count: 1
 					id: "occultism:purified_ink"
@@ -4462,7 +4435,7 @@
 			tasks: [{
 				consume_items: true
 				count: 2L
-				id: "A799F3E4707FB018"
+				id: "22E62E5AF59FD86D"
 				item: { count: 1, id: "numismatics:sprocket" }
 				type: "item"
 			}]
@@ -4514,7 +4487,7 @@
 			tasks: [{
 				consume_items: true
 				count: 2L
-				id: "F80F5E117E131848"
+				id: "588D65F71C94B06C"
 				item: { count: 1, id: "numismatics:sprocket" }
 				type: "item"
 			}]
@@ -4552,7 +4525,7 @@
 			icon: {
 				id: "ars_nouveau:water_essence"
 			}
-			id: "D20B78AD6E321FE8"
+			id: "4F49116BA22FA66E"
 			rewards: [{
 				count: 4
 				id: "2C8D6E21456BA4E6"
@@ -4566,7 +4539,7 @@
 			tasks: [{
 				consume_items: true
 				count: 2L
-				id: "B36BD157F135159E"
+				id: "03BDE19D4D6E5C4A"
 				item: { count: 1, id: "numismatics:sprocket" }
 				type: "item"
 			}]
@@ -4618,7 +4591,7 @@
 			tasks: [{
 				consume_items: true
 				count: 2L
-				id: "EAC74EAB28822C17"
+				id: "11756465D9AB73BD"
 				item: { count: 1, id: "numismatics:sprocket" }
 				type: "item"
 			}]
@@ -4633,7 +4606,7 @@
 			id: "556914F5CE3793DA"
 			rewards: [{
 				count: 4
-				id: "DA8BECCEAA0DFCCC"
+				id: "11BED07F64C973D4"
 				item: {
 					count: 1
 					id: "twilightforest:carminite"
@@ -4643,7 +4616,6 @@
 			size: 0.75d
 			tasks: [{
 				consume_items: true
-				count: 1L
 				id: "5C7A50694D0A4B94"
 				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
@@ -4656,10 +4628,10 @@
 			icon: {
 				id: "deeperdarker:soul_dust"
 			}
-			id: "B525872FA8A89CEA"
+			id: "676BC62CFAA760D5"
 			rewards: [{
 				count: 8
-				id: "8301EDA0FE3F56B8"
+				id: "2C35A11C6F65933D"
 				item: {
 					count: 1
 					id: "deeperdarker:soul_dust"
@@ -4669,7 +4641,6 @@
 			size: 0.75d
 			tasks: [{
 				consume_items: true
-				count: 1L
 				id: "4A2A62839159880B"
 				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
@@ -4680,22 +4651,21 @@
 		{
 			can_repeat: true
 			icon: {
-				id: "knightquest:small_essence"
+				id: "knightlib:small_essence"
 			}
 			id: "3D79F0984BFE1106"
 			rewards: [{
 				count: 4
-				id: "B4FD3B8B8CA11508"
+				id: "7FC42DE3F430E26A"
 				item: {
 					count: 1
-					id: "knightquest:small_essence"
+					id: "knightlib:small_essence"
 				}
 				type: "item"
 			}]
 			size: 0.75d
 			tasks: [{
 				consume_items: true
-				count: 1L
 				id: "6032395C839F02A6"
 				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
@@ -4721,7 +4691,6 @@
 			size: 0.75d
 			tasks: [{
 				consume_items: true
-				count: 1L
 				id: "38A94EA04DA8F97B"
 				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
@@ -4737,7 +4706,7 @@
 			id: "0D7F6322C1081705"
 			rewards: [{
 				count: 2
-				id: "B1E59B11738ADAFA"
+				id: "404A087313A6BAD2"
 				item: {
 					count: 1
 					id: "aquaculture:neptunium_ingot"
@@ -4747,7 +4716,6 @@
 			size: 0.75d
 			tasks: [{
 				consume_items: true
-				count: 1L
 				id: "74412722093BCE40"
 				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
@@ -4758,7 +4726,7 @@
 		{
 			can_repeat: true
 			icon: {
-				id: "knightquest:great_essence"
+				id: "knightlib:great_essence"
 			}
 			id: "5870BA359529BE3A"
 			rewards: [{
@@ -4766,7 +4734,7 @@
 				id: "69864D1DC096D1E0"
 				item: {
 					count: 1
-					id: "knightquest:great_essence"
+					id: "knightlib:great_essence"
 				}
 				type: "item"
 			}]
@@ -4789,7 +4757,7 @@
 			id: "2791FB05F51E90DE"
 			rewards: [{
 				count: 4
-				id: "B85C0B9460C40AF1"
+				id: "274083904DACF19F"
 				item: {
 					count: 1
 					id: "deeperdarker:resonarium"
@@ -4814,7 +4782,6 @@
 			}
 			id: "57508BD3DC108AE3"
 			rewards: [{
-				count: 1
 				id: "19FA1CAC314CBB44"
 				item: {
 					count: 1
@@ -4826,7 +4793,7 @@
 			tasks: [{
 				consume_items: true
 				count: 4L
-				id: "8A12D58CC6CCEFEB"
+				id: "6CD196D5F2B2EC0F"
 				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
 			}]

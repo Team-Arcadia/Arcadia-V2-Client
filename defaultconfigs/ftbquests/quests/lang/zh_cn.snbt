@@ -27,6 +27,8 @@
 	chapter.1CA674828FA25CF1.title: "Never End"
 	chapter.1CAB30BEBF9A7BAD.title: "Better Archeology"
 	chapter.1CD1C78ACE284DAC.title: "Immersive Engineering"
+	chapter.207A473A77613682.title: "&6&lArcadia 集市"
+	chapter.21167430A261967F.title: "&6&lArcadia 集市"
 	chapter.21CD93281EC5D8BA.title: "Ars Nouveau: The Arcana"
 	chapter.223DF8DCC9BD5DC8.title: "Ars Nouveau: The Arcana"
 	chapter.2266F4986018FE94.title: "Ars Nouveau: The Arcana"
@@ -52,6 +54,7 @@
 	chapter.40539D27427ADC55.title: "Aquaculture"
 	chapter.42A2A61E91FED9D3.title: "运输"
 	chapter.43C23AA38182EE22.title: "The Ars Universe"
+	chapter.466210654405EC68.title: "&6&lArcadia 集市"
 	chapter.46C218ADE0AF2F06.title: "Ars Nouveau: The Arcana"
 	chapter.47E39894EF7D874F.title: "&6&lArcadia 集市"
 	chapter.4A3F221B90C8E111.title: "附加和谐"
@@ -60,28 +63,37 @@
 	chapter.4F0571445E92420B.title: "Create IV"
 	chapter.50A7D24C926B5337.title: "自动化"
 	chapter.51F3D91FE35B285B.title: "消灭协议"
+	chapter.53B3A5285E057E54.title: "水生狩猎"
+	chapter.564F75586B27A8C6.title: "&6&lArcadia 集市"
 	chapter.56EAAE3D37C44FBB.title: "下界的呼唤"
 	chapter.59A09EBE03BCD206.title: "农夫乐事"
 	chapter.5A87783C9E33A3F5.title: "Ars Nouveau: The Arcana"
 	chapter.5AEA78F0EB1C5190.title: "趣味追加"
 	chapter.5EBA0434F00003AD.title: "Ars Nouveau: The Arcana"
+	chapter.5F5A44120CD729F9.title: "动物狩猎"
 	chapter.6017B5D638CD163F.title: "Flux Networks"
 	chapter.610E034C43873033.title: "The Factory Must Grow"
 	chapter.61859E1E119A2059.title: "如何开始?"
+	chapter.66BB7BCF63E3DCD4.title: "&6&lArcadia 集市"
 	chapter.68456F7A7F1A1FC0.title: "Mowzie's Mobs"
 	chapter.68E72CE83D0ABD2B.title: "Immersive Engineering II"
+	chapter.6AC17E08DAC3702F.title: "保护你的家园"
 	chapter.6AEDA2F9BEB57759.title: "Ars Nouveau"
 	chapter.6CCCF18152F9F1D7.title: "路径点"
 	chapter.6DC56CCA0140950F.title: "The Ars Universe"
 	chapter.6F34809ABFCF1EC1.title: "全新开始"
 	chapter.6F7D2E1A9B3C4D5E.title: "农夫百科"
 	chapter.7084D379D91DEADB.title: "Sophisticated"
+	chapter.71743AC454835CFD.title: "&6&lArcadia 集市"
+	chapter.722A9BB5CF6873E8.title: "守护者狩猎"
 	chapter.76DF5FAA7961E5E7.title: "Iron's Spells"
 	chapter.7732CF7AAA63DB3A.title: "暮色森林"
 	chapter.78C42E1D183121E4.title: "The Ars Universe"
+	chapter.7A0AFA9D543C27E3.title: "&6&lArcadia 集市"
 	chapter.7AF827D2D101D343.title: "Artifacts"
 	chapter.7B146862FB6BBA13.title: "Ars Nouveau: The Arcana"
 	chapter.7D557E8B3CE6784B.title: "Deeper and Darker"
+	chapter.7DEAE6D34AADADAC.title: "&6&lArcadia 集市"
 	chapter.7E0B63C5B0BA3C9F.title: "Ars Nouveau: Complete Magic"
 	chapter.7E95BF022EBA7DD9.title: "末地美食"
 	chapter.98AE88DE6C59EB73.title: "进度指南"
@@ -101,6 +113,7 @@
 	chapter_group.60D079AEFA04041F.description: "Absolute perfection"
 	chapter_group.70AB2085E1434295.description: "Learning"
 	chapter_group.70AB2085E1434295.title: "&f&m    &r &b&l主线任务 &f&m    &r"
+	file.0000000000000001.title: "阿卡迪亚任务"
 	quest.000315ABE9E65C07.quest_desc: [
 		"&5&l猎杀 25 只药剂师"
 		"&8&m                            "
@@ -1377,6 +1390,19 @@
 	]
 	quest.0300307C7FB9E47C.quest_subtitle: "&7把存储方块提升一个等级"
 	quest.0300307C7FB9E47C.title: "&3&l下界合金等级升级"
+	quest.0311CE6B0AF9E790.quest_desc: [
+		"&a&l购买：艾瑟金属锭"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Cog&7 换取 &a4x 艾瑟金属锭&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.0311CE6B0AF9E790.quest_subtitle: "&7花费 &e1x Cog&7，可重复"
+	quest.0311CE6B0AF9E790.title: "&a&l购买：艾瑟金属锭"
 	quest.0313C76DE37D1C84.quest_desc: [
 		"&5&l猎杀 400 只装甲巨人"
 		"&8&m                            "
@@ -1484,6 +1510,32 @@
 	]
 	quest.037E3B28B6729C92.quest_subtitle: "&7已击杀 100 只旋风精灵"
 	quest.037E3B28B6729C92.title: "&c&l猎杀 100 只旋风精灵"
+	quest.0389EB34C3659D3A.quest_desc: [
+		"&5&l购买：蚯蚓"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Bevel&7 换取 &a16x 蚯蚓&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&5&l类别：&r &f冒险"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.0389EB34C3659D3A.quest_subtitle: "&7花费 &e1x Bevel&7，可重复"
+	quest.0389EB34C3659D3A.title: "&5&l购买：蚯蚓"
+	quest.038B258EEAF0B655.quest_desc: [
+		"&b&l购买：基础控制电路"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Cog&7 换取 &a4x 基础控制电路&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&b&l类别：&r &f工业"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.038B258EEAF0B655.quest_subtitle: "&7花费 &e1x Cog&7，可重复"
+	quest.038B258EEAF0B655.title: "&b&l购买：基础控制电路"
 	quest.038CE6A928B0135F.quest_desc: [
 		"&b&l线缆束"
 		"&8&m                            "
@@ -3484,6 +3536,19 @@
 	]
 	quest.088596BED6A0A56C.quest_subtitle: "&7已击杀 400 只堕落骑士"
 	quest.088596BED6A0A56C.title: "&c&l猎杀 400 只堕落骑士"
+	quest.088B6FACEE90993C.quest_desc: [
+		"&a&l购买：Gunpowder"
+		"&8&m                            "
+		""
+		"&7支付 &e4x Bevel&7 换取 &a16x Gunpowder&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.088B6FACEE90993C.quest_subtitle: "&7花费 &e4x Bevel&7，可重复"
+	quest.088B6FACEE90993C.title: "&a&l购买：Gunpowder"
 	quest.088FCB5267CB7A89.quest_desc: [
 		"&e&l不稳定礼物腰带"
 		"&8&m                            "
@@ -3979,6 +4044,19 @@
 	]
 	quest.09EF871C81D8A247.quest_subtitle: "&7已击杀 100 只被附身的远古守卫者"
 	quest.09EF871C81D8A247.title: "&5&l猎杀 100 只被附身的远古守卫者"
+	quest.09FCAF9B990B0084.quest_desc: [
+		"&d&l购买：钋球"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Crown&7 换取 &a1x 钋球&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.09FCAF9B990B0084.quest_subtitle: "&7花费 &e1x Crown&7，可重复"
+	quest.09FCAF9B990B0084.title: "&d&l购买：钋球"
 	quest.09FE2E7490DA8005.quest_desc: [
 		"&6&l转速控制器与飞轮"
 		"&8&m                            "
@@ -4673,6 +4751,19 @@
 	]
 	quest.0BC11594F187003A.quest_subtitle: "&7已击杀 700 只幻翼"
 	quest.0BC11594F187003A.title: "&c&l猎杀 700 只幻翼"
+	quest.0BCB6E97C1D465F6.quest_desc: [
+		"&b&l购买：铜板"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a16x 铜板&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&b&l类别：&r &f工业"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.0BCB6E97C1D465F6.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.0BCB6E97C1D465F6.title: "&b&l购买：铜板"
 	quest.0BD5454FEF90DC2E.quest_desc: [
 		"&b&l合金混料"
 		"&8&m                            "
@@ -4766,6 +4857,19 @@
 	]
 	quest.0C0A027F98257FF0.quest_subtitle: "&7边挖边把矿石炼掉"
 	quest.0C0A027F98257FF0.title: "&e&l冶矿手套"
+	quest.0C0EA6EA70AB8AC2.quest_desc: [
+		"&a&l购买：Prismarine Crystals"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Sprocket&7 换取 &a8x Prismarine Crystals&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.0C0EA6EA70AB8AC2.quest_subtitle: "&7花费 &e1x Sprocket&7，可重复"
+	quest.0C0EA6EA70AB8AC2.title: "&a&l购买：Prismarine Crystals"
 	quest.0C256F7C80318051.quest_desc: [
 		"&6&l下界合金木桶"
 		"&8&m                            "
@@ -4807,6 +4911,19 @@
 	]
 	quest.0C454EC7CD69729C.quest_subtitle: "&7已击杀 900 只河豚"
 	quest.0C454EC7CD69729C.title: "&c&l猎杀 900 只河豚"
+	quest.0C46CE62F03ACA27.quest_desc: [
+		"&d&l购买：Ancient Debris"
+		"&8&m                            "
+		""
+		"&7支付 &e4x Cog&7 换取 &a2x Ancient Debris&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.0C46CE62F03ACA27.quest_subtitle: "&7花费 &e4x Cog&7，可重复"
+	quest.0C46CE62F03ACA27.title: "&d&l购买：Ancient Debris"
 	quest.0C4B37354123E2D5.quest_desc: [
 		"&a&l购买：锇锭"
 		"&8&m                            "
@@ -4982,6 +5099,19 @@
 	]
 	quest.0CCFE947AC5A60F9.quest_subtitle: "&7火力凶猛的航空弩炮"
 	quest.0CCFE947AC5A60F9.title: "&6&l重弩"
+	quest.0CD0556F6421FEDF.quest_desc: [
+		"&d&l购买：Shulker Shell"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Cog&7 换取 &a2x Shulker Shell&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.0CD0556F6421FEDF.quest_subtitle: "&7花费 &e2x Cog&7，可重复"
+	quest.0CD0556F6421FEDF.title: "&d&l购买：Shulker Shell"
 	quest.0CD34AF8F5786671.quest_desc: [
 		"&3&l･❪ 等离子单元 ❫･"
 		"&8&m                            "
@@ -5255,6 +5385,19 @@
 	]
 	quest.0D72DA6C5C2B37DF.quest_subtitle: "&7已击杀 200 只僵尸村民"
 	quest.0D72DA6C5C2B37DF.title: "&c&l猎杀 200 只僵尸村民"
+	quest.0D7F6322C1081705.quest_desc: [
+		"&5&l购买：海王锭"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Cog&7 换取 &a2x 海王锭&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&5&l类别：&r &f冒险"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.0D7F6322C1081705.quest_subtitle: "&7花费 &e1x Cog&7，可重复"
+	quest.0D7F6322C1081705.title: "&5&l购买：海王锭"
 	quest.0D824266D1219B1A.quest_desc: [
 		"&3&l大型引擎"
 		"&8&m                            "
@@ -5857,6 +6000,19 @@
 	]
 	quest.0E9EBBC6DC145EC1.quest_subtitle: "&7已击杀 500 只星壳龟"
 	quest.0E9EBBC6DC145EC1.title: "&c&l猎杀 500 只星壳龟"
+	quest.0EAAE1AA5F59A597.quest_desc: [
+		"&d&l购买：奥术源质"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a8x 奥术源质&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.0EAAE1AA5F59A597.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.0EAAE1AA5F59A597.title: "&d&l购买：奥术源质"
 	quest.0EC08C5BBFA83A51.quest_desc: [
 		"&d&l闪电魔符"
 		"&8&m                            "
@@ -7659,6 +7815,19 @@
 	]
 	quest.137662FA762F72DE.quest_subtitle: "&7已击杀 600 只被附身的末影螨"
 	quest.137662FA762F72DE.title: "&5&l猎杀 600 只被附身的末影螨"
+	quest.137F13B7C9CB14B4.quest_desc: [
+		"&a&l购买：富集铁"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Sprocket&7 换取 &a8x 富集铁&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.137F13B7C9CB14B4.quest_subtitle: "&7花费 &e1x Sprocket&7，可重复"
+	quest.137F13B7C9CB14B4.title: "&a&l购买：富集铁"
 	quest.1384DD8197DE0FB1.quest_desc: [
 		"&c&l猎杀 50 只凋灵"
 		"&8&m                            "
@@ -7902,6 +8071,19 @@
 	]
 	quest.13F84CA3DE0BE4DB.quest_subtitle: "&7已击杀 600 只守卫者"
 	quest.13F84CA3DE0BE4DB.title: "&c&l猎杀 600 只守卫者"
+	quest.13F98F1C70F5C12D.quest_desc: [
+		"&b&l购买：坚固板"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a4x 坚固板&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&b&l类别：&r &f工业"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.13F98F1C70F5C12D.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.13F98F1C70F5C12D.title: "&b&l购买：坚固板"
 	quest.14006DB88F598AD7.quest_desc: [
 		"&c&l猎杀 300 只松鼠"
 		"&8&m                            "
@@ -8268,6 +8450,19 @@
 	]
 	quest.14F3BE9E22ABE7CD.quest_subtitle: "&7已击杀 500 只鱿鱼"
 	quest.14F3BE9E22ABE7CD.title: "&c&l猎杀 500 只鱿鱼"
+	quest.14F4A889B4FF112C.quest_desc: [
+		"&d&l购买：Netherite Ingot"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Crown&7 换取 &a1x Netherite Ingot&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.14F4A889B4FF112C.quest_subtitle: "&7花费 &e1x Crown&7，可重复"
+	quest.14F4A889B4FF112C.title: "&d&l购买：Netherite Ingot"
 	quest.14F7308D4FA8295F.quest_desc: [
 		"&c&l猎杀 100 只恶魂"
 		"&8&m                            "
@@ -8552,6 +8747,19 @@
 	]
 	quest.15B439C8A1A3C406.quest_subtitle: "&7用来快速做饭的烟熏炉"
 	quest.15B439C8A1A3C406.title: "&b&l烟熏升级"
+	quest.15BE13378B83B7DA.quest_desc: [
+		"&5&l购买：魔鬼之梦种子"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Sprocket&7 换取 &a16x 魔鬼之梦种子&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&5&l类别：&r &f冒险"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.15BE13378B83B7DA.quest_subtitle: "&7花费 &e1x Sprocket&7，可重复"
+	quest.15BE13378B83B7DA.title: "&5&l购买：魔鬼之梦种子"
 	quest.15D17E2A92C42F05.quest_desc: [
 		"&c&l猎杀 600 只卫道士"
 		"&8&m                            "
@@ -9071,6 +9279,19 @@
 	]
 	quest.16E9D6A8D24DCF17.quest_subtitle: "&7Mekanism 反应堆组件"
 	quest.16E9D6A8D24DCF17.title: "&c&l裂变燃料组件"
+	quest.16F5C80BDA39DE3B.quest_desc: [
+		"&a&l购买：Prismarine Shard"
+		"&8&m                            "
+		""
+		"&7支付 &e4x Bevel&7 换取 &a16x Prismarine Shard&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.16F5C80BDA39DE3B.quest_subtitle: "&7花费 &e4x Bevel&7，可重复"
+	quest.16F5C80BDA39DE3B.title: "&a&l购买：Prismarine Shard"
 	quest.170F8FAA267D8EE2.quest_desc: [
 		"&c&l猎杀 600 只鳕鱼"
 		"&8&m                            "
@@ -9550,6 +9771,19 @@
 	]
 	quest.18093179535AC79D.quest_subtitle: "&7已击杀 800 只星辉兽"
 	quest.18093179535AC79D.title: "&c&l猎杀 800 只星辉兽"
+	quest.1818934AA13623E4.quest_desc: [
+		"&a&l购买：锌锭"
+		"&8&m                            "
+		""
+		"&7支付 &e4x Bevel&7 换取 &a8x 锌锭&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.1818934AA13623E4.quest_subtitle: "&7花费 &e4x Bevel&7，可重复"
+	quest.1818934AA13623E4.title: "&a&l购买：锌锭"
 	quest.1821C5212B04E489.quest_desc: [
 		"&5&l猎杀 600 只被附身的幻翼"
 		"&8&m                            "
@@ -10337,6 +10571,19 @@
 	]
 	quest.1992D7BC6F6362C0.quest_subtitle: "&7已击杀 1000 只恼鬼"
 	quest.1992D7BC6F6362C0.title: "&c&l猎杀 1000 只恼鬼"
+	quest.1999ECB8057D18C3.quest_desc: [
+		"&5&l购买：绳索"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Sprocket&7 换取 &a16x 绳索&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&5&l类别：&r &f冒险"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.1999ECB8057D18C3.quest_subtitle: "&7花费 &e1x Sprocket&7，可重复"
+	quest.1999ECB8057D18C3.title: "&5&l购买：绳索"
 	quest.199B9FC85D5715C0.quest_desc: [
 		"&b&l取货升级"
 		"&8&m                            "
@@ -10540,6 +10787,19 @@
 	]
 	quest.19E90EB611F5A514.quest_subtitle: "&7已击杀 500 只猪"
 	quest.19E90EB611F5A514.title: "&c&l猎杀 500 只猪"
+	quest.19EA3C44AB718D82.quest_desc: [
+		"&d&l购买：Respawn Anchor"
+		"&8&m                            "
+		""
+		"&7支付 &e3x Cog&7 换取 &a1x Respawn Anchor&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.19EA3C44AB718D82.quest_subtitle: "&7花费 &e3x Cog&7，可重复"
+	quest.19EA3C44AB718D82.title: "&d&l购买：Respawn Anchor"
 	quest.1A004665B944BFB6.quest_desc: [
 		"&c&l猎杀 400 只荒野猎手 VIII"
 		"&8&m                            "
@@ -10967,6 +11227,19 @@
 	]
 	quest.1B48800A642BD4FB.quest_subtitle: "&7已击杀 1000 只耳廓狐"
 	quest.1B48800A642BD4FB.title: "&c&l猎杀 1000 只耳廓狐"
+	quest.1B4CB244547E7B78.quest_desc: [
+		"&d&l购买：Saddle"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a2x Saddle&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.1B4CB244547E7B78.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.1B4CB244547E7B78.title: "&d&l购买：Saddle"
 	quest.1B5177A774FCEF64.quest_desc: [
 		"&f&l白色仪式粉笔"
 		"&8&m                            "
@@ -11237,6 +11510,19 @@
 	]
 	quest.1C07F940D8BF0A2E.quest_subtitle: "&7已击杀 700 只北极熊"
 	quest.1C07F940D8BF0A2E.title: "&c&l猎杀 700 只北极熊"
+	quest.1C180A04CD2A53A2.quest_desc: [
+		"&5&l购买：火之精华"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a4x 火之精华&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&5&l类别：&r &f冒险"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.1C180A04CD2A53A2.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.1C180A04CD2A53A2.title: "&5&l购买：火之精华"
 	quest.1C1B28F80856A0ED.quest_desc: [
 		"&5&l猎杀 500 只下位哥布林骑士"
 		"&8&m                            "
@@ -11277,6 +11563,19 @@
 	]
 	quest.1C32EF75858381F9.quest_subtitle: "&7猎杀戴鹤面具的战士"
 	quest.1C32EF75858381F9.title: "&a&l乌姆塔纳食人鹤"
+	quest.1C36AE8442AFF242.quest_desc: [
+		"&d&l购买：星宝石兽信物"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Sprocket&7 换取 &a8x 星宝石兽信物&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.1C36AE8442AFF242.quest_subtitle: "&7花费 &e1x Sprocket&7，可重复"
+	quest.1C36AE8442AFF242.title: "&d&l购买：星宝石兽信物"
 	quest.1C3F195DABDCBAA1.quest_desc: [
 		"&5&l猎杀 300 只火甲虫"
 		"&8&m                            "
@@ -12083,6 +12382,19 @@
 	]
 	quest.1DF1DC69073D90A5.quest_subtitle: "&7已击杀 100 只凋灵骷髅"
 	quest.1DF1DC69073D90A5.title: "&c&l猎杀 100 只凋灵骷髅"
+	quest.1E01C425A43B3F7C.quest_desc: [
+		"&a&l购买：Nether Wart"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Bevel&7 换取 &a16x Nether Wart&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.1E01C425A43B3F7C.quest_subtitle: "&7花费 &e2x Bevel&7，可重复"
+	quest.1E01C425A43B3F7C.title: "&a&l购买：Nether Wart"
 	quest.1E15B2480A6C1675.quest_desc: [
 		"&c&l猎杀 1000 只羊"
 		"&8&m                            "
@@ -14159,6 +14471,19 @@
 	]
 	quest.235E3C386E8D36A3.quest_subtitle: "&7深暗书架，一种附魔书架"
 	quest.235E3C386E8D36A3.title: "&b&l深暗书架"
+	quest.235E4F75A376784D.quest_desc: [
+		"&9&l机器人"
+		"&8&m                            "
+		""
+		"&7机器伙伴会跟随你，可作为便携式工作台和背包，"
+		"&7并可在充电板上自动充电。"
+		""
+		"&9&l类别：&r &f装备"
+		""
+		"&e&l★ 提示：&r &7给它命名并染色。机器伙伴是你的野外伙伴。"
+	]
+	quest.235E4F75A376784D.quest_subtitle: "&7忠实的机器人助手"
+	quest.235E4F75A376784D.title: "&9&l机器人"
 	quest.236F0BC9CE7A30FD.quest_desc: [
 		"&a&l饰纹陶罐碎片 II"
 		"&8&m                            "
@@ -14215,6 +14540,19 @@
 	]
 	quest.2381AC8763AF2FF8.quest_subtitle: "&7已击杀 300 只凋灵"
 	quest.2381AC8763AF2FF8.title: "&c&l猎杀 300 只凋灵"
+	quest.2382E8249A9C1B90.quest_desc: [
+		"&a&l购买：Block of Gold"
+		"&8&m                            "
+		""
+		"&7支付 &e3x Cog&7 换取 &a1x Block of Gold&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.2382E8249A9C1B90.quest_subtitle: "&7花费 &e3x Cog&7，可重复"
+	quest.2382E8249A9C1B90.title: "&a&l购买：Block of Gold"
 	quest.238967F14432AFAA.quest_desc: [
 		"&c&l猎杀 25 只星辉兽"
 		"&8&m                            "
@@ -14405,6 +14743,19 @@
 	]
 	quest.23F2A7B5FC5C341A.quest_subtitle: "&7已击杀 100 只北极熊"
 	quest.23F2A7B5FC5C341A.title: "&c&l猎杀 100 只北极熊"
+	quest.23F457AF32B09646.quest_desc: [
+		"&5&l购买：动物油脂"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Sprocket&7 换取 &a16x 动物油脂&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&5&l类别：&r &f冒险"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.23F457AF32B09646.quest_subtitle: "&7花费 &e1x Sprocket&7，可重复"
+	quest.23F457AF32B09646.title: "&5&l购买：动物油脂"
 	quest.23F6037C96585029.quest_desc: [
 		"&c&l猎杀 1000 只虚张者"
 		"&8&m                            "
@@ -14512,6 +14863,19 @@
 	]
 	quest.244B11B3111BF357.quest_subtitle: "&7用气体做出一根会发光的灯管"
 	quest.244B11B3111BF357.title: "&a&l霓虹灯管"
+	quest.245DD91303ADF817.quest_desc: [
+		"&b&l购买：硝酸盐粉"
+		"&8&m                            "
+		""
+		"&7支付 &e3x Bevel&7 换取 &a16x 硝酸盐粉&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&b&l类别：&r &f工业"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.245DD91303ADF817.quest_subtitle: "&7花费 &e3x Bevel&7，可重复"
+	quest.245DD91303ADF817.title: "&b&l购买：硝酸盐粉"
 	quest.2463D78A94248D44.quest_desc: [
 		"&b&l传送石盘"
 		"&8&m                            "
@@ -14540,6 +14904,32 @@
 	]
 	quest.24652CE610DDEAF9.quest_subtitle: "&7已击杀 600 只螃蟹"
 	quest.24652CE610DDEAF9.title: "&c&l猎杀 600 只螃蟹"
+	quest.246CE2EE7B4E6579.quest_desc: [
+		"&a&l购买：强化黑曜石锭"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Cog&7 换取 &a4x 强化黑曜石锭&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.246CE2EE7B4E6579.quest_subtitle: "&7花费 &e1x Cog&7，可重复"
+	quest.246CE2EE7B4E6579.title: "&a&l购买：强化黑曜石锭"
+	quest.24727C6262F58D4D.quest_desc: [
+		"&d&l购买：能量板"
+		"&8&m                            "
+		""
+		"&7支付 &e3x Cog&7 换取 &a1x 能量板&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.24727C6262F58D4D.quest_subtitle: "&7花费 &e3x Cog&7，可重复"
+	quest.24727C6262F58D4D.title: "&d&l购买：能量板"
 	quest.248329679F0AB78C.quest_desc: [
 		"&c&l猎杀 50 只蜜蜂"
 		"&8&m                            "
@@ -14635,6 +15025,19 @@
 	]
 	quest.24B425A776AD4C18.quest_subtitle: "&7已击杀 50 只红帽子"
 	quest.24B425A776AD4C18.title: "&5&l猎杀 50 只红帽子"
+	quest.24B585622A99A005.quest_desc: [
+		"&b&l购买：富石英铁"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a4x 富石英铁&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&b&l类别：&r &f工业"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.24B585622A99A005.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.24B585622A99A005.title: "&b&l购买：富石英铁"
 	quest.24B835A774FA1F72.quest_desc: [
 		"&6&l榨汁机"
 		"&8&m                            "
@@ -15181,6 +15584,19 @@
 	]
 	quest.25E5FA01636BC3AB.quest_subtitle: "&7铁器时代开始了"
 	quest.25E5FA01636BC3AB.title: "&6&l粗铁"
+	quest.25EA09D008C4965B.quest_desc: [
+		"&b&l购买：铁板"
+		"&8&m                            "
+		""
+		"&7支付 &e3x Sprocket&7 换取 &a16x 铁板&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&b&l类别：&r &f工业"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.25EA09D008C4965B.quest_subtitle: "&7花费 &e3x Sprocket&7，可重复"
+	quest.25EA09D008C4965B.title: "&b&l购买：铁板"
 	quest.25EACC041419DA2B.quest_desc: [
 		"&c&l猎杀 10 只骷髅马"
 		"&8&m                            "
@@ -15503,6 +15919,19 @@
 	]
 	quest.26EA5AE645E83AD1.quest_subtitle: "&7已击杀 600 只红帽子爆破手"
 	quest.26EA5AE645E83AD1.title: "&5&l猎杀 600 只红帽子爆破手"
+	quest.26EC44796A43C793.quest_desc: [
+		"&5&l购买：渡鸦羽毛"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Sprocket&7 换取 &a8x 渡鸦羽毛&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&5&l类别：&r &f冒险"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.26EC44796A43C793.quest_subtitle: "&7花费 &e1x Sprocket&7，可重复"
+	quest.26EC44796A43C793.title: "&5&l购买：渡鸦羽毛"
 	quest.26FA560447B12335.quest_desc: [
 		"&c&l猎杀 200 只鲑鱼"
 		"&8&m                            "
@@ -15837,6 +16266,19 @@
 	]
 	quest.278A008F8A3849CB.quest_subtitle: "&7从矿脉里钻出取之不尽的矿"
 	quest.278A008F8A3849CB.title: "&d&l连锁挖矿"
+	quest.2791FB05F51E90DE.quest_desc: [
+		"&5&l购买：谐振素"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Cog&7 换取 &a4x 谐振素&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&5&l类别：&r &f冒险"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.2791FB05F51E90DE.quest_subtitle: "&7花费 &e2x Cog&7，可重复"
+	quest.2791FB05F51E90DE.title: "&5&l购买：谐振素"
 	quest.279308066B15BD93.quest_desc: [
 		"&c&l猎杀 50 只椰子蟹"
 		"&8&m                            "
@@ -16475,6 +16917,19 @@
 	]
 	quest.2916C86934114C07.quest_subtitle: "&7不动手也能把战利品全数吸走，并且控制得更精细"
 	quest.2916C86934114C07.title: "&9&l高级拾取升级"
+	quest.29211BBAFA5C5043.quest_desc: [
+		"&6&l购买：Pumpkin Pie"
+		"&8&m                            "
+		""
+		"&7支付 &e3x Bevel&7 换取 &a8x Pumpkin Pie&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&6&l类别：&r &f补给"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.29211BBAFA5C5043.quest_subtitle: "&7花费 &e3x Bevel&7，可重复"
+	quest.29211BBAFA5C5043.title: "&6&l购买：Pumpkin Pie"
 	quest.2933B1466B4E6CD6.quest_desc: [
 		"&c&l猎杀 700 只松鼠"
 		"&8&m                            "
@@ -16954,6 +17409,19 @@
 	]
 	quest.2A3852D6F2C63DA0.quest_subtitle: "&7已击杀 800 只凋灵"
 	quest.2A3852D6F2C63DA0.title: "&c&l猎杀 800 只凋灵"
+	quest.2A3E482F620E91AA.quest_desc: [
+		"&a&l购买：Glowstone Dust"
+		"&8&m                            "
+		""
+		"&7支付 &e3x Bevel&7 换取 &a16x Glowstone Dust&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.2A3E482F620E91AA.quest_subtitle: "&7花费 &e3x Bevel&7，可重复"
+	quest.2A3E482F620E91AA.title: "&a&l购买：Glowstone Dust"
 	quest.2A4086A6060048F4.quest_desc: [
 		"&6&l巫师小刀"
 		"&8&m                            "
@@ -17220,6 +17688,19 @@
 	]
 	quest.2AD78E22988A92D3.quest_subtitle: "&7在全然的黑暗中也看得清"
 	quest.2AD78E22988A92D3.title: "&6&l夜视仪"
+	quest.2ADE95B74813DA6B.quest_desc: [
+		"&d&l购买：暗影钢"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Crown&7 换取 &a1x 暗影钢&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.2ADE95B74813DA6B.quest_subtitle: "&7花费 &e1x Crown&7，可重复"
+	quest.2ADE95B74813DA6B.title: "&d&l购买：暗影钢"
 	quest.2AF6B49A6493833E.quest_desc: [
 		"&c&l猎杀 300 只羊"
 		"&8&m                            "
@@ -17313,6 +17794,19 @@
 	]
 	quest.2B345E47294A05E1.quest_subtitle: "&7魔王机器升级"
 	quest.2B345E47294A05E1.title: "&3&lMarid Upgrade"
+	quest.2B4B80B6C7DABABA.quest_desc: [
+		"&b&l购买：硅"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a8x 硅&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&b&l类别：&r &f工业"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.2B4B80B6C7DABABA.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.2B4B80B6C7DABABA.title: "&b&l购买：硅"
 	quest.2B56650DE346679A.quest_desc: [
 		"&a&l铁制背包"
 		"&8&m                            "
@@ -17354,6 +17848,19 @@
 	]
 	quest.2B686ECD91C851F7.quest_subtitle: "&7已击杀 900 只猪灵"
 	quest.2B686ECD91C851F7.title: "&c&l猎杀 900 只猪灵"
+	quest.2B6A3CB1803E1FA9.quest_desc: [
+		"&b&l购买：钢铁构件"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Cog&7 换取 &a4x 钢铁构件&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&b&l类别：&r &f工业"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.2B6A3CB1803E1FA9.quest_subtitle: "&7花费 &e1x Cog&7，可重复"
+	quest.2B6A3CB1803E1FA9.title: "&b&l购买：钢铁构件"
 	quest.2B6C89083A53592C.quest_desc: [
 		"&6&l购买：金胡萝卜"
 		"&8&m                            "
@@ -17476,6 +17983,19 @@
 	]
 	quest.2BA6944853FEFC1E.quest_subtitle: "&7一整块方块装下所有东西"
 	quest.2BA6944853FEFC1E.title: "&6&l金木桶"
+	quest.2BAA995D1F63C19C.quest_desc: [
+		"&a&l购买：Obsidian"
+		"&8&m                            "
+		""
+		"&7支付 &e4x Bevel&7 换取 &a8x Obsidian&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.2BAA995D1F63C19C.quest_subtitle: "&7花费 &e4x Bevel&7，可重复"
+	quest.2BAA995D1F63C19C.title: "&a&l购买：Obsidian"
 	quest.2BB337AB1844FAFF.quest_desc: [
 		"&c&l猎杀 200 只悦灵"
 		"&8&m                            "
@@ -17610,6 +18130,19 @@
 	]
 	quest.2C1C681F7CBBDEAA.quest_subtitle: "&7已击杀 1000 只洞穴蜘蛛"
 	quest.2C1C681F7CBBDEAA.title: "&c&l猎杀 1000 只洞穴蜘蛛"
+	quest.2C1E5F666E8A88B6.quest_desc: [
+		"&a&l购买：焦煤"
+		"&8&m                            "
+		""
+		"&7支付 &e4x Bevel&7 换取 &a16x 焦煤&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.2C1E5F666E8A88B6.quest_subtitle: "&7花费 &e4x Bevel&7，可重复"
+	quest.2C1E5F666E8A88B6.title: "&a&l购买：焦煤"
 	quest.2C26B331793CFE02.quest_desc: [
 		"&5&l猎杀 300 只被附身的疣猪兽"
 		"&8&m                            "
@@ -18244,6 +18777,19 @@
 	]
 	quest.2DC774A0C33CD742.quest_subtitle: "&7已击杀 10 只松鼠"
 	quest.2DC774A0C33CD742.title: "&c&l猎杀 10 只松鼠"
+	quest.2DC8DD8BFC0768BE.quest_desc: [
+		"&a&l购买：Copper Ingot"
+		"&8&m                            "
+		""
+		"&7支付 &e3x Bevel&7 换取 &a16x Copper Ingot&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.2DC8DD8BFC0768BE.quest_subtitle: "&7花费 &e3x Bevel&7，可重复"
+	quest.2DC8DD8BFC0768BE.title: "&a&l购买：Copper Ingot"
 	quest.2DCBE05BF48DAAB0.quest_desc: [
 		"&c&l猎杀 10 只雪傀儡"
 		"&8&m                            "
@@ -18353,6 +18899,19 @@
 	]
 	quest.2E0D25AF2EA8AD5E.quest_subtitle: "&7已击杀 400 只海牛"
 	quest.2E0D25AF2EA8AD5E.title: "&c&l猎杀 400 只海牛"
+	quest.2E1E22CD44934525.quest_desc: [
+		"&b&l购买：金板"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a8x 金板&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&b&l类别：&r &f工业"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.2E1E22CD44934525.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.2E1E22CD44934525.title: "&b&l购买：金板"
 	quest.2E1F12778D330707.quest_desc: [
 		"&a&l异域作物"
 		"&8&m                            "
@@ -18539,6 +19098,32 @@
 	]
 	quest.2EC2FA680076C07D.quest_subtitle: "&7回响幽匿书架，一种附魔书架"
 	quest.2EC2FA680076C07D.title: "&b&l回响幽匿书架"
+	quest.2EC4A6255502EC03.quest_desc: [
+		"&6&l购买：米饭"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Bevel&7 换取 &a8x 米饭&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&6&l类别：&r &f补给"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.2EC4A6255502EC03.quest_subtitle: "&7花费 &e2x Bevel&7，可重复"
+	quest.2EC4A6255502EC03.title: "&6&l购买：米饭"
+	quest.2EC73987D90F6CA2.quest_desc: [
+		"&d&l购买：炽铁锭"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Cog&7 换取 &a2x 炽铁锭&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.2EC73987D90F6CA2.quest_subtitle: "&7花费 &e2x Cog&7，可重复"
+	quest.2EC73987D90F6CA2.title: "&d&l购买：炽铁锭"
 	quest.2EC96B81D46D02DB.description: "返回你的家"
 	quest.2EC96B81D46D02DB.quest_desc: [
 		"&2&l» 回家"
@@ -19151,6 +19736,19 @@
 	]
 	quest.30C5B597610F4AFB.quest_subtitle: "&7用于召唤法阵的黄绿色粉笔"
 	quest.30C5B597610F4AFB.title: "&f&l黄绿色仪式粉笔"
+	quest.30C699D9A2775E87.quest_desc: [
+		"&d&l购买：神铸珍珠"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Crown&7 换取 &a1x 神铸珍珠&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.30C699D9A2775E87.quest_subtitle: "&7花费 &e1x Crown&7，可重复"
+	quest.30C699D9A2775E87.title: "&d&l购买：神铸珍珠"
 	quest.30CA37CC112ADE1E.quest_desc: [
 		"&a&l购买：经验颗粒"
 		"&8&m                            "
@@ -19998,6 +20596,19 @@
 	]
 	quest.32D2CE292E088939.quest_subtitle: "&7把法术强度绑定到你的装备上"
 	quest.32D2CE292E088939.title: "&d&l炽焰升级法球"
+	quest.32F45F9FEFB52456.quest_desc: [
+		"&d&l购买：Elytra"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Sun&7 换取 &a1x Elytra&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.32F45F9FEFB52456.quest_subtitle: "&7花费 &e1x Sun&7，可重复"
+	quest.32F45F9FEFB52456.title: "&d&l购买：Elytra"
 	quest.32FACAD4D8CB49C7.quest_desc: [
 		"&5&l猎杀 600 只信徒"
 		"&8&m                            "
@@ -20279,6 +20890,19 @@
 	]
 	quest.3391768AA19E3D02.quest_subtitle: "&7已击杀 800 只鼠人"
 	quest.3391768AA19E3D02.title: "&c&l猎杀 800 只鼠人"
+	quest.33B71388EF49FC6E.quest_desc: [
+		"&d&l购买：荒野尖刺"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a4x 荒野尖刺&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.33B71388EF49FC6E.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.33B71388EF49FC6E.title: "&d&l购买：荒野尖刺"
 	quest.33BED23CBC0E85F2.quest_desc: [
 		"&f&l铁·下界合金靴子"
 		"&8&m                            "
@@ -20809,6 +21433,19 @@
 	]
 	quest.3525D5DCC3A534D9.quest_subtitle: "&7挖得更快，也能挖动更硬的方块"
 	quest.3525D5DCC3A534D9.title: "&e&l掘地之爪"
+	quest.352A57D1928E9706.quest_desc: [
+		"&b&l购买：硫粉"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a16x 硫粉&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&b&l类别：&r &f工业"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.352A57D1928E9706.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.352A57D1928E9706.title: "&b&l购买：硫粉"
 	quest.3531B28F14CF72A2.quest_desc: [
 		"&c&l娜迦"
 		"&8&m                            "
@@ -21010,6 +21647,19 @@
 	]
 	quest.35A7791C8E42E2D2.quest_subtitle: "&7已击杀 100 只古炸弹"
 	quest.35A7791C8E42E2D2.title: "&c&l猎杀 100 只古炸弹"
+	quest.35B96A5152623857.quest_desc: [
+		"&a&l购买：钢锭"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a8x 钢锭&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.35B96A5152623857.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.35B96A5152623857.title: "&a&l购买：钢锭"
 	quest.35BA2588B906EB5C.quest_desc: [
 		"&5&l猎杀 900 只末影螨"
 		"&8&m                            "
@@ -21597,6 +22247,19 @@
 	]
 	quest.3791390C8F6C2FDA.quest_subtitle: "&7已击杀 1000 只野性旋风人"
 	quest.3791390C8F6C2FDA.title: "&5&l猎杀 1000 只野性旋风人"
+	quest.37A05A5578A92494.quest_desc: [
+		"&d&l购买：Nautilus Shell"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a4x Nautilus Shell&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.37A05A5578A92494.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.37A05A5578A92494.title: "&d&l购买：Nautilus Shell"
 	quest.37CBE31CA6437206.quest_desc: [
 		"&b&l金质钓鱼竿"
 		"&8&m                            "
@@ -22578,6 +23241,19 @@
 	]
 	quest.3A2752110DF47A75.quest_subtitle: "&7Mekanism 最强的合金"
 	quest.3A2752110DF47A75.title: "&e&l原子合金"
+	quest.3A2ACAFD82D0C188.quest_desc: [
+		"&d&l购买：Conduit"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Crown&7 换取 &a1x Conduit&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.3A2ACAFD82D0C188.quest_subtitle: "&7花费 &e2x Crown&7，可重复"
+	quest.3A2ACAFD82D0C188.title: "&d&l购买：Conduit"
 	quest.3A31F5C6EA2F23BC.quest_desc: [
 		"&e&l突变骷髅肱骨"
 		"&8&m                            "
@@ -22683,6 +23359,19 @@
 	]
 	quest.3A68571A816660BB.quest_subtitle: "&7已击杀 300 只海獭"
 	quest.3A68571A816660BB.title: "&c&l猎杀 300 只海獭"
+	quest.3A74EE2A778120D3.quest_desc: [
+		"&b&l购买：铁线"
+		"&8&m                            "
+		""
+		"&7支付 &e3x Sprocket&7 换取 &a16x 铁线&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&b&l类别：&r &f工业"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.3A74EE2A778120D3.quest_subtitle: "&7花费 &e3x Sprocket&7，可重复"
+	quest.3A74EE2A778120D3.title: "&b&l购买：铁线"
 	quest.3A754F202AE5479C.quest_desc: [
 		"&5&l猎杀 1000 只蛛王"
 		"&8&m                            "
@@ -22951,6 +23640,19 @@
 	]
 	quest.3B1A74162DCA4F9B.quest_subtitle: "&7花费 &e1x Bevel&7，可重复"
 	quest.3B1A74162DCA4F9B.title: "&6&l购买：洋葱"
+	quest.3B1E502F4F0A377D.quest_desc: [
+		"&5&l购买：生鱼排"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Sprocket&7 换取 &a16x 生鱼排&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&5&l类别：&r &f冒险"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.3B1E502F4F0A377D.quest_subtitle: "&7花费 &e1x Sprocket&7，可重复"
+	quest.3B1E502F4F0A377D.title: "&5&l购买：生鱼排"
 	quest.3B2012684759304C.quest_desc: [
 		"&c&l猎杀 200 只幽匿水蛭"
 		"&8&m                            "
@@ -23045,6 +23747,19 @@
 	]
 	quest.3B4C7EA3EC34DA3B.quest_subtitle: "&7最多容纳 16384B 桶流体"
 	quest.3B4C7EA3EC34DA3B.title: "&9&l16384B 流体存储元件"
+	quest.3B6C38951DA65520.quest_desc: [
+		"&b&l购买：钢锭"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a8x 钢锭&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&b&l类别：&r &f工业"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.3B6C38951DA65520.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.3B6C38951DA65520.title: "&b&l购买：钢锭"
 	quest.3B7376FE4DC7D898.quest_desc: [
 		"&c&l猎杀 500 只鲑鱼"
 		"&8&m                            "
@@ -23821,6 +24536,19 @@
 	]
 	quest.3D543F045F4F5835.quest_subtitle: "&7已击杀 900 只被附身的幻翼"
 	quest.3D543F045F4F5835.title: "&5&l猎杀 900 只被附身的幻翼"
+	quest.3D711DEFA2C61CD2.quest_desc: [
+		"&b&l购买：炉渣"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Sprocket&7 换取 &a16x 炉渣&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&b&l类别：&r &f工业"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.3D711DEFA2C61CD2.quest_subtitle: "&7花费 &e1x Sprocket&7，可重复"
+	quest.3D711DEFA2C61CD2.title: "&b&l购买：炉渣"
 	quest.3D787706264C0E93.quest_desc: [
 		"&5&l猎杀 25 只地窟僵尸"
 		"&8&m                            "
@@ -23835,6 +24563,19 @@
 	]
 	quest.3D787706264C0E93.quest_subtitle: "&7已击杀 25 只地窟僵尸"
 	quest.3D787706264C0E93.title: "&5&l猎杀 25 只地窟僵尸"
+	quest.3D79F0984BFE1106.quest_desc: [
+		"&5&l购买：小精华"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Cog&7 换取 &a4x 小精华&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&5&l类别：&r &f冒险"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.3D79F0984BFE1106.quest_subtitle: "&7花费 &e1x Cog&7，可重复"
+	quest.3D79F0984BFE1106.title: "&5&l购买：小精华"
 	quest.3D82AA2245DE2135.quest_desc: [
 		"&c&l猎杀 300 只鹦鹉螺傀儡"
 		"&8&m                            "
@@ -23849,6 +24590,19 @@
 	]
 	quest.3D82AA2245DE2135.quest_subtitle: "&7已击杀 300 只鹦鹉螺傀儡"
 	quest.3D82AA2245DE2135.title: "&c&l猎杀 300 只鹦鹉螺傀儡"
+	quest.3D8301B3AF5D59A1.quest_desc: [
+		"&b&l购买：基础处理器"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Cog&7 换取 &a4x 基础处理器&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&b&l类别：&r &f工业"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.3D8301B3AF5D59A1.quest_subtitle: "&7花费 &e1x Cog&7，可重复"
+	quest.3D8301B3AF5D59A1.title: "&b&l购买：基础处理器"
 	quest.3D835FD6DDC626A5.quest_desc: [
 		"&c&l猎杀 1000 只阿拉卡基诺斯"
 		"&8&m                            "
@@ -24160,6 +24914,19 @@
 	]
 	quest.3E6C7F7F8BE1887E.quest_subtitle: "&7已击杀 500 只掠夺者"
 	quest.3E6C7F7F8BE1887E.title: "&c&l猎杀 500 只掠夺者"
+	quest.3E74E09447297A05.quest_desc: [
+		"&6&l购买：卷心菜"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Bevel&7 换取 &a16x 卷心菜&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&6&l类别：&r &f补给"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.3E74E09447297A05.quest_subtitle: "&7花费 &e1x Bevel&7，可重复"
+	quest.3E74E09447297A05.title: "&6&l购买：卷心菜"
 	quest.3E8077AB45C79E6A.quest_desc: [
 		"&a&l炼金锅"
 		"&8&m                            "
@@ -24495,6 +25262,19 @@
 	]
 	quest.3F21B724C8849E30.quest_subtitle: "&7已击杀 50 只鼠人"
 	quest.3F21B724C8849E30.title: "&c&l猎杀 50 只鼠人"
+	quest.3F2D1AC1AEAF35E2.quest_desc: [
+		"&b&l购买：金线"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a8x 金线&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&b&l类别：&r &f工业"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.3F2D1AC1AEAF35E2.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.3F2D1AC1AEAF35E2.title: "&b&l购买：金线"
 	quest.3F3227094DDE950F.quest_desc: [
 		"&c&l猎杀 800 只远古守卫者"
 		"&8&m                            "
@@ -25711,6 +26491,19 @@
 	]
 	quest.418C20D21D294896.quest_subtitle: "&7火灵机器升级"
 	quest.418C20D21D294896.title: "&3&lAfrit Upgrade"
+	quest.4191BD8ABE06730A.quest_desc: [
+		"&d&l购买：Ghast Tear"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Cog&7 换取 &a4x Ghast Tear&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.4191BD8ABE06730A.quest_subtitle: "&7花费 &e1x Cog&7，可重复"
+	quest.4191BD8ABE06730A.title: "&d&l购买：Ghast Tear"
 	quest.41922B0D27F441D9.quest_desc: [
 		"&c&l寻找古迹废墟"
 		"&8&m                            "
@@ -27525,6 +28318,19 @@
 	]
 	quest.462A89915E379594.quest_subtitle: "&7从远处把战利品拉过来"
 	quest.462A89915E379594.title: "&b&l磁铁升级"
+	quest.462D42B56191F83F.quest_desc: [
+		"&d&l购买：Enchanted Book"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Cog&7 换取 &a1x Enchanted Book&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.462D42B56191F83F.quest_subtitle: "&7花费 &e2x Cog&7，可重复"
+	quest.462D42B56191F83F.title: "&d&l购买：Enchanted Book"
 	quest.46444DB297896C7B.quest_desc: [
 		"&5&l猎杀 1000 只被附身的烈焰人"
 		"&8&m                            "
@@ -27631,6 +28437,19 @@
 	]
 	quest.4673C475C2AF9C7F.quest_subtitle: "&7已击杀 200 只渡鸦"
 	quest.4673C475C2AF9C7F.title: "&c&l猎杀 200 只渡鸦"
+	quest.46757041D89F29A2.quest_desc: [
+		"&b&l购买：厚钢板"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a4x 厚钢板&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&b&l类别：&r &f工业"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.46757041D89F29A2.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.46757041D89F29A2.title: "&b&l购买：厚钢板"
 	quest.467993E36D6383CD.quest_desc: [
 		"&d&l荒野盛宴"
 		"&8&m                            "
@@ -27831,6 +28650,19 @@
 	]
 	quest.470E72D3DB994354.quest_subtitle: "&7已击杀 700 只树篱蜘蛛"
 	quest.470E72D3DB994354.title: "&5&l猎杀 700 只树篱蜘蛛"
+	quest.47185D33FCD12B9A.quest_desc: [
+		"&a&l购买：强化荧石锭"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Cog&7 换取 &a4x 强化荧石锭&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.47185D33FCD12B9A.quest_subtitle: "&7花费 &e1x Cog&7，可重复"
+	quest.47185D33FCD12B9A.title: "&a&l购买：强化荧石锭"
 	quest.471CAF1A63DB2D91.quest_desc: [
 		"&c&l猎杀 200 只旋风人"
 		"&8&m                            "
@@ -28154,6 +28986,32 @@
 	]
 	quest.47BAB0BB71A26B96.quest_subtitle: "&7已击杀 200 只狂猎凋灵骷髅"
 	quest.47BAB0BB71A26B96.title: "&5&l猎杀 200 只狂猎凋灵骷髅"
+	quest.47C205C7A9CE93BB.quest_desc: [
+		"&5&l购买：活根"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Sprocket&7 换取 &a8x 活根&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&5&l类别：&r &f冒险"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.47C205C7A9CE93BB.quest_subtitle: "&7花费 &e1x Sprocket&7，可重复"
+	quest.47C205C7A9CE93BB.title: "&5&l购买：活根"
+	quest.47C79CA681078495.quest_desc: [
+		"&a&l购买：铜线"
+		"&8&m                            "
+		""
+		"&7支付 &e3x Bevel&7 换取 &a16x 铜线&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.47C79CA681078495.quest_subtitle: "&7花费 &e3x Bevel&7，可重复"
+	quest.47C79CA681078495.title: "&a&l购买：铜线"
 	quest.47D1D0D51DB95BD6.quest_desc: [
 		"&5&l猎杀 500 只野性弱化旋风人"
 		"&8&m                            "
@@ -28933,6 +29791,19 @@
 	]
 	quest.49950F437BECF0F1.quest_subtitle: "&7已击杀 200 只被附身的骷髅"
 	quest.49950F437BECF0F1.title: "&5&l猎杀 200 只被附身的骷髅"
+	quest.49989F0B75DE9BC3.quest_desc: [
+		"&d&l购买：魔源宝石块"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Cog&7 换取 &a2x 魔源宝石块&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.49989F0B75DE9BC3.quest_subtitle: "&7花费 &e1x Cog&7，可重复"
+	quest.49989F0B75DE9BC3.title: "&d&l购买：魔源宝石块"
 	quest.499CD04256DE083D.quest_desc: [
 		"&c&l猎杀 50 只幻翼"
 		"&8&m                            "
@@ -29108,6 +29979,19 @@
 	]
 	quest.4A178324D1E9A638.quest_subtitle: "&7已击杀 1000 只迷雾狼"
 	quest.4A178324D1E9A638.title: "&5&l猎杀 1000 只迷雾狼"
+	quest.4A1904AA4439D80C.quest_desc: [
+		"&d&l购买：Enchanted Golden Apple"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Crown&7 换取 &a1x Enchanted Golden Apple&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.4A1904AA4439D80C.quest_subtitle: "&7花费 &e1x Crown&7，可重复"
+	quest.4A1904AA4439D80C.title: "&d&l购买：Enchanted Golden Apple"
 	quest.4A1B3BCB04524F63.quest_desc: [
 		"&5&l猎杀 600 只塔木蛀虫"
 		"&8&m                            "
@@ -29121,6 +30005,19 @@
 	]
 	quest.4A1B3BCB04524F63.quest_subtitle: "&7已击杀 600 只塔木蛀虫"
 	quest.4A1B3BCB04524F63.title: "&5&l猎杀 600 只塔木蛀虫"
+	quest.4A21413810198366.quest_desc: [
+		"&d&l购买：Lodestone"
+		"&8&m                            "
+		""
+		"&7支付 &e4x Cog&7 换取 &a1x Lodestone&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.4A21413810198366.quest_subtitle: "&7花费 &e4x Cog&7，可重复"
+	quest.4A21413810198366.title: "&d&l购买：Lodestone"
 	quest.4A2F9BF81F3841D9.quest_desc: [
 		"&c&l猎杀 1000 只骆驼"
 		"&8&m                            "
@@ -29485,6 +30382,19 @@
 	]
 	quest.4AF52AB5170D6C44.quest_subtitle: "&7自动施加效果，并且控制得更精细"
 	quest.4AF52AB5170D6C44.title: "&9&l高级炼金升级"
+	quest.4AFA3B5D34C939DB.quest_desc: [
+		"&5&l购买：海王粒"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a8x 海王粒&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&5&l类别：&r &f冒险"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.4AFA3B5D34C939DB.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.4AFA3B5D34C939DB.title: "&5&l购买：海王粒"
 	quest.4B013127D9CE4CA1.quest_desc: [
 		"&5&l猎杀 300 只红帽子爆破手"
 		"&8&m                            "
@@ -30748,6 +31658,19 @@
 	]
 	quest.4D466EDB3E597904.quest_subtitle: "&7燃烧生物柴油换取可观电力"
 	quest.4D466EDB3E597904.title: "&6&l柴油发电机"
+	quest.4D466F3D32956499.quest_desc: [
+		"&d&l购买：Music Disc"
+		"&8&m                            "
+		""
+		"&7支付 &e4x Cog&7 换取 &a1x Music Disc&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.4D466F3D32956499.quest_subtitle: "&7花费 &e4x Cog&7，可重复"
+	quest.4D466F3D32956499.title: "&d&l购买：Music Disc"
 	quest.4D49B2B7600606D0.quest_desc: [
 		"&c&l猎杀 200 只沼骸"
 		"&8&m                            "
@@ -30788,6 +31711,19 @@
 	]
 	quest.4D5E53BF9FB3455F.quest_subtitle: "&7装在包里的锻造台"
 	quest.4D5E53BF9FB3455F.title: "&b&l锻造升级"
+	quest.4D628C709F8DF148.quest_desc: [
+		"&b&l购买：灯泡"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a4x 灯泡&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&b&l类别：&r &f工业"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.4D628C709F8DF148.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.4D628C709F8DF148.title: "&b&l购买：灯泡"
 	quest.4D7A7B65A48F22A6.quest_desc: [
 		"&c&l猎杀 400 只女巫"
 		"&8&m                            "
@@ -30830,6 +31766,19 @@
 	]
 	quest.4D90797E7369FB38.quest_subtitle: "&7已击杀 900 只鸡"
 	quest.4D90797E7369FB38.title: "&c&l猎杀 900 只鸡"
+	quest.4D9BC711104A8209.quest_desc: [
+		"&b&l购买：琥珀金锭"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a8x 琥珀金锭&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&b&l类别：&r &f工业"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.4D9BC711104A8209.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.4D9BC711104A8209.title: "&b&l购买：琥珀金锭"
 	quest.4D9FCB0C1D1771A9.quest_desc: [
 		"&a&l突变骷髅胸甲"
 		"&8&m                            "
@@ -31375,6 +32324,19 @@
 	]
 	quest.4EF365955A6852C7.quest_subtitle: "&7已击杀 100 只被附身的弱化潜影贝"
 	quest.4EF365955A6852C7.title: "&5&l猎杀 100 只被附身的弱化潜影贝"
+	quest.4F06C13768C35E9A.quest_desc: [
+		"&5&l购买：土之精华"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a4x 土之精华&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&5&l类别：&r &f冒险"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.4F06C13768C35E9A.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.4F06C13768C35E9A.title: "&5&l购买：土之精华"
 	quest.4F109F252D5E46B2.quest_desc: [
 		"&5&l猎杀 1000 只胭脂石小恶魂"
 		"&8&m                            "
@@ -31521,6 +32483,19 @@
 	]
 	quest.4F4122296446B668.quest_subtitle: "&7已击杀 300 只野性部落蠹虫"
 	quest.4F4122296446B668.title: "&5&l猎杀 300 只野性部落蠹虫"
+	quest.4F49116BA22FA66E.quest_desc: [
+		"&5&l购买：水之精华"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a4x 水之精华&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&5&l类别：&r &f冒险"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.4F49116BA22FA66E.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.4F49116BA22FA66E.title: "&5&l购买：水之精华"
 	quest.4F4C12F75970A1EF.quest_desc: [
 		"&d&l远古图腾"
 		"&8&m                            "
@@ -31666,6 +32641,19 @@
 	]
 	quest.4F829A3A74D71B97.quest_subtitle: "&7已击杀 100 只烈焰人"
 	quest.4F829A3A74D71B97.title: "&c&l猎杀 100 只烈焰人"
+	quest.4F85386209E8FBD6.quest_desc: [
+		"&5&l购买：气之精华"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a4x 气之精华&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&5&l类别：&r &f冒险"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.4F85386209E8FBD6.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.4F85386209E8FBD6.title: "&5&l购买：气之精华"
 	quest.4F85ED4B293BCE28.quest_desc: [
 		"&c&l猎杀 50 只铁傀儡"
 		"&8&m                            "
@@ -32039,6 +33027,19 @@
 	]
 	quest.506409C6D5F024E0.quest_subtitle: "&7已击杀 10 只荒野猎手 I"
 	quest.506409C6D5F024E0.title: "&c&l猎杀 10 只荒野猎手 I"
+	quest.506A4BDFC046BAFF.quest_desc: [
+		"&6&l购买：番茄"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Bevel&7 换取 &a16x 番茄&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&6&l类别：&r &f补给"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.506A4BDFC046BAFF.quest_subtitle: "&7花费 &e1x Bevel&7，可重复"
+	quest.506A4BDFC046BAFF.title: "&6&l购买：番茄"
 	quest.5071E2D0776C4D00.quest_desc: [
 		"&5&l猎杀 50 只群蛛"
 		"&8&m                            "
@@ -32094,6 +33095,19 @@
 	]
 	quest.5076EC81E38715EC.quest_subtitle: "&7已击杀 100 只女巫"
 	quest.5076EC81E38715EC.title: "&c&l猎杀 100 只女巫"
+	quest.507C3F7ECD410874.quest_desc: [
+		"&a&l购买：Block of Diamond"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Crown&7 换取 &a1x Block of Diamond&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.507C3F7ECD410874.quest_subtitle: "&7花费 &e1x Crown&7，可重复"
+	quest.507C3F7ECD410874.title: "&a&l购买：Block of Diamond"
 	quest.507E48E9DF526808.quest_desc: [
 		"&c&l猎杀 900 只豪猪"
 		"&8&m                            "
@@ -32283,6 +33297,19 @@
 	]
 	quest.512F8C63BA59003B.quest_subtitle: "&7已击杀 100 只松鼠"
 	quest.512F8C63BA59003B.title: "&c&l猎杀 100 只松鼠"
+	quest.51317F26C8E3C94A.quest_desc: [
+		"&d&l购买：宝石粉"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a8x 宝石粉&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.51317F26C8E3C94A.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.51317F26C8E3C94A.title: "&d&l购买：宝石粉"
 	quest.51446597A367B55E.quest_desc: [
 		"&c&l波尔多葡萄酒"
 		"&8&m                            "
@@ -32375,6 +33402,19 @@
 	]
 	quest.516644A9126D961D.quest_subtitle: "&7所有电池中最大的一块"
 	quest.516644A9126D961D.title: "&d&l超大型能量存储器"
+	quest.51671A06971EA942.quest_desc: [
+		"&a&l购买：钢板"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a8x 钢板&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.51671A06971EA942.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.51671A06971EA942.title: "&a&l购买：钢板"
 	quest.51676C66D568BC15.quest_desc: [
 		"&e&l金·下界合金胸甲"
 		"&8&m                            "
@@ -32669,6 +33709,19 @@
 	]
 	quest.52025B637B6B7ADD.quest_subtitle: "&7已击杀 400 只斑鬣狗"
 	quest.52025B637B6B7ADD.title: "&c&l猎杀 400 只斑鬣狗"
+	quest.520B1CCF8E45A6D0.quest_desc: [
+		"&a&l购买：Redstone Dust"
+		"&8&m                            "
+		""
+		"&7支付 &e3x Bevel&7 换取 &a16x Redstone Dust&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.520B1CCF8E45A6D0.quest_subtitle: "&7花费 &e3x Bevel&7，可重复"
+	quest.520B1CCF8E45A6D0.title: "&a&l购买：Redstone Dust"
 	quest.520CAE6A057B7283.quest_desc: [
 		"&c&l猎杀 700 只僵尸猪灵"
 		"&8&m                            "
@@ -32761,6 +33814,19 @@
 	]
 	quest.526D81479D2E1C6F.quest_subtitle: "&7已击杀 1000 只塔木蛀虫"
 	quest.526D81479D2E1C6F.title: "&5&l猎杀 1000 只塔木蛀虫"
+	quest.5272BF8C23083AFA.quest_desc: [
+		"&9&l数字型采矿机"
+		"&8&m                            "
+		""
+		"&7数字采矿机会扫描大片区域，自动挖掘"
+		"&7所有符合你设定过滤器的方块。"
+		""
+		"&9&l类别：&r &f装备"
+		""
+		"&e&l★ 提示：&r &7它甚至可以回填挖过的地方，保持地貌整洁。"
+	]
+	quest.5272BF8C23083AFA.quest_subtitle: "&7按过滤器开采整片区域"
+	quest.5272BF8C23083AFA.title: "&9&l数字型采矿机"
 	quest.5278C19AAF881DDA.quest_desc: [
 		"&5&l所有戟类"
 		"&8&m                            "
@@ -33019,6 +34085,19 @@
 	]
 	quest.5352F9DC33507169.quest_subtitle: "&7已击杀 500 只史莱姆"
 	quest.5352F9DC33507169.title: "&c&l猎杀 500 只史莱姆"
+	quest.5360790DBB88744D.quest_desc: [
+		"&d&l购买：Ender Pearl"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a8x Ender Pearl&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.5360790DBB88744D.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.5360790DBB88744D.title: "&d&l购买：Ender Pearl"
 	quest.5371379FBA711332.quest_desc: [
 		"&e&l烈焰棒"
 		"&8&m                            "
@@ -33059,6 +34138,19 @@
 	]
 	quest.5376607FE9305FD3.quest_subtitle: "&7用五块陶片凑齐整套"
 	quest.5376607FE9305FD3.title: "&a&l饰纹陶罐碎片 IV"
+	quest.5377FFA71E8D3BC3.quest_desc: [
+		"&a&l购买：Lapis Lazuli"
+		"&8&m                            "
+		""
+		"&7支付 &e3x Bevel&7 换取 &a16x Lapis Lazuli&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.5377FFA71E8D3BC3.quest_subtitle: "&7花费 &e3x Bevel&7，可重复"
+	quest.5377FFA71E8D3BC3.title: "&a&l购买：Lapis Lazuli"
 	quest.5396F7F5F5993529.quest_desc: [
 		"&5&l猎杀 100 只被附身的恶魂"
 		"&8&m                            "
@@ -33180,6 +34272,19 @@
 	]
 	quest.53CE2D60E79F8750.quest_subtitle: "&7已击杀 400 只沼泽人"
 	quest.53CE2D60E79F8750.title: "&c&l猎杀 400 只沼泽人"
+	quest.53CFA55A46EB55DC.quest_desc: [
+		"&d&l购买：传送核心"
+		"&8&m                            "
+		""
+		"&7支付 &e4x Cog&7 换取 &a1x 传送核心&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.53CFA55A46EB55DC.quest_subtitle: "&7花费 &e4x Cog&7，可重复"
+	quest.53CFA55A46EB55DC.title: "&d&l购买：传送核心"
 	quest.53D5DE419AA73042.quest_desc: [
 		"&c&l猎杀 1000 只沼泽人"
 		"&8&m                            "
@@ -33661,6 +34766,19 @@
 	]
 	quest.5568F77E918A4B50.quest_subtitle: "&7为硅掺入正载流子"
 	quest.5568F77E918A4B50.title: "&b&lP型半导体"
+	quest.556914F5CE3793DA.quest_desc: [
+		"&5&l购买：砷铅铁矿石"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Cog&7 换取 &a4x 砷铅铁矿石&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&5&l类别：&r &f冒险"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.556914F5CE3793DA.quest_subtitle: "&7花费 &e1x Cog&7，可重复"
+	quest.556914F5CE3793DA.title: "&5&l购买：砷铅铁矿石"
 	quest.5576865483C416D1.quest_desc: [
 		"&c&l猎杀 700 只鼠人"
 		"&8&m                            "
@@ -33782,6 +34900,19 @@
 	]
 	quest.55CEC9A4F846136B.quest_subtitle: "&7已击杀 300 只海龟"
 	quest.55CEC9A4F846136B.title: "&c&l猎杀 300 只海龟"
+	quest.55D3D0D2D412CFA3.quest_desc: [
+		"&a&l购买：Coal"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Bevel&7 换取 &a16x Coal&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.55D3D0D2D412CFA3.quest_subtitle: "&7花费 &e2x Bevel&7，可重复"
+	quest.55D3D0D2D412CFA3.title: "&a&l购买：Coal"
 	quest.55ECB0A69D2C4DCD.quest_desc: [
 		"&5&l猎杀 1000 只迷宫史莱姆"
 		"&8&m                            "
@@ -34309,6 +35440,19 @@
 	]
 	quest.574B1819E6906656.quest_subtitle: "&7Mekanism 反应堆组件"
 	quest.574B1819E6906656.title: "&e&l再处理裂变碎片"
+	quest.57508BD3DC108AE3.quest_desc: [
+		"&5&l购买：监守者甲壳"
+		"&8&m                            "
+		""
+		"&7支付 &e4x Cog&7 换取 &a1x 监守者甲壳&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&5&l类别：&r &f冒险"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.57508BD3DC108AE3.quest_subtitle: "&7花费 &e4x Cog&7，可重复"
+	quest.57508BD3DC108AE3.title: "&5&l购买：监守者甲壳"
 	quest.5753E4E8C154424F.quest_desc: [
 		"&5&l猎杀 900 只胭脂石恶魂卫"
 		"&8&m                            "
@@ -34590,6 +35734,19 @@
 	]
 	quest.5866C0528D1C3063.quest_subtitle: "&7提升你的钢材产量"
 	quest.5866C0528D1C3063.title: "&b&l高炉预热器"
+	quest.586AE57AE9EB7E8A.quest_desc: [
+		"&a&l购买：黑曜石粉末"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Sprocket&7 换取 &a8x 黑曜石粉末&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.586AE57AE9EB7E8A.quest_subtitle: "&7花费 &e1x Sprocket&7，可重复"
+	quest.586AE57AE9EB7E8A.title: "&a&l购买：黑曜石粉末"
 	quest.586D5DE28EEC8014.quest_desc: [
 		"&b&l下界书架"
 		"&8&m                            "
@@ -34603,6 +35760,19 @@
 	]
 	quest.586D5DE28EEC8014.quest_subtitle: "&7地狱书架，一种附魔书架"
 	quest.586D5DE28EEC8014.title: "&b&l下界书架"
+	quest.5870BA359529BE3A.quest_desc: [
+		"&5&l购买：大精华"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Cog&7 换取 &a2x 大精华&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&5&l类别：&r &f冒险"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.5870BA359529BE3A.quest_subtitle: "&7花费 &e2x Cog&7，可重复"
+	quest.5870BA359529BE3A.title: "&5&l购买：大精华"
 	quest.5873E5F6C03701F9.quest_desc: [
 		"&c&l猎杀 500 只洞穴蜘蛛"
 		"&8&m                            "
@@ -34764,6 +35934,19 @@
 	]
 	quest.58CAAF7F745CFBB8.quest_subtitle: "&7岛屿之间的清凉"
 	quest.58CAAF7F745CFBB8.title: "&b&l末地饮品"
+	quest.58CC6646702B4578.quest_desc: [
+		"&b&l购买：工业大麻纤维"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Sprocket&7 换取 &a16x 工业大麻纤维&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&b&l类别：&r &f工业"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.58CC6646702B4578.quest_subtitle: "&7花费 &e1x Sprocket&7，可重复"
+	quest.58CC6646702B4578.title: "&b&l购买：工业大麻纤维"
 	quest.58D082C7E9793D84.quest_desc: [
 		"&5&l猎杀 25 只大唤魔者"
 		"&8&m                            "
@@ -35341,6 +36524,19 @@
 	]
 	quest.5A42983C4B69438D.quest_subtitle: "&7已击杀 600 只羊"
 	quest.5A42983C4B69438D.title: "&c&l猎杀 600 只羊"
+	quest.5A4E6EB9C56E40EE.quest_desc: [
+		"&a&l购买：Slimeball"
+		"&8&m                            "
+		""
+		"&7支付 &e3x Bevel&7 换取 &a8x Slimeball&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.5A4E6EB9C56E40EE.quest_subtitle: "&7花费 &e3x Bevel&7，可重复"
+	quest.5A4E6EB9C56E40EE.title: "&a&l购买：Slimeball"
 	quest.5A541509E26C5779.quest_desc: [
 		"&c&l猎杀 800 只提灯怪"
 		"&8&m                            "
@@ -35741,6 +36937,19 @@
 	]
 	quest.5B556192F060F3F1.quest_subtitle: "&7成锭之前的粉末"
 	quest.5B556192F060F3F1.title: "&e&l强化黑曜石粉"
+	quest.5B63620CD5DE1A6D.quest_desc: [
+		"&a&l购买：强化合金"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Cog&7 换取 &a4x 强化合金&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.5B63620CD5DE1A6D.quest_subtitle: "&7花费 &e1x Cog&7，可重复"
+	quest.5B63620CD5DE1A6D.title: "&a&l购买：强化合金"
 	quest.5B651199798F74E9.quest_desc: [
 		"&c&l猎杀 900 只鲑鱼"
 		"&8&m                            "
@@ -35755,6 +36964,19 @@
 	]
 	quest.5B651199798F74E9.quest_subtitle: "&7已击杀 900 只鲑鱼"
 	quest.5B651199798F74E9.title: "&c&l猎杀 900 只鲑鱼"
+	quest.5B6A76F5B56B96C0.quest_desc: [
+		"&a&l购买：铁木锭"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a8x 铁木锭&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.5B6A76F5B56B96C0.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.5B6A76F5B56B96C0.title: "&a&l购买：铁木锭"
 	quest.5B6CE8CA3EF38AAA.quest_desc: [
 		"&c&l猎杀 700 只苦力怕"
 		"&8&m                            "
@@ -36269,6 +37491,19 @@
 	]
 	quest.5CEE3FE873E46F33.quest_subtitle: "&7已击杀 400 只被附身的末影人"
 	quest.5CEE3FE873E46F33.title: "&5&l猎杀 400 只被附身的末影人"
+	quest.5CEE4BFE5C101414.quest_desc: [
+		"&5&l购买：法师之花纤维"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a8x 法师之花纤维&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&5&l类别：&r &f冒险"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.5CEE4BFE5C101414.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.5CEE4BFE5C101414.title: "&5&l购买：法师之花纤维"
 	quest.5CF2A1F44A1C45BC.quest_desc: [
 		"&5&l猎杀 600 只被附身的远古守卫者"
 		"&8&m                            "
@@ -36498,6 +37733,19 @@
 	]
 	quest.5DB091E04EF8D053.quest_subtitle: "&7已击杀 500 只监守者"
 	quest.5DB091E04EF8D053.title: "&c&l猎杀 500 只监守者"
+	quest.5DBC616A6E7180F6.quest_desc: [
+		"&b&l购买：通量粉尘"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a8x 通量粉尘&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&b&l类别：&r &f工业"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.5DBC616A6E7180F6.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.5DBC616A6E7180F6.title: "&b&l购买：通量粉尘"
 	quest.5DBD7A24C55A4F4B.quest_desc: [
 		"&a&l沃土"
 		"&8&m                            "
@@ -37216,6 +38464,19 @@
 	]
 	quest.600714687E67E351.quest_subtitle: "&7已击杀 600 只德莱格米"
 	quest.600714687E67E351.title: "&c&l猎杀 600 只德莱格米"
+	quest.600AE970B5A79869.quest_desc: [
+		"&a&l购买：钢叶"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a8x 钢叶&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.600AE970B5A79869.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.600AE970B5A79869.title: "&a&l购买：钢叶"
 	quest.600D7C82D9330D12.quest_desc: [
 		"&c&l猎杀 600 只恶斑"
 		"&8&m                            "
@@ -37481,6 +38742,19 @@
 	]
 	quest.609DBEF9A5649BD6.quest_subtitle: "&7已击杀 200 只流浪者"
 	quest.609DBEF9A5649BD6.title: "&c&l猎杀 200 只流浪者"
+	quest.60A285952EB14A6F.quest_desc: [
+		"&b&l购买：铝锭"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a8x 铝锭&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&b&l类别：&r &f工业"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.60A285952EB14A6F.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.60A285952EB14A6F.title: "&b&l购买：铝锭"
 	quest.60AB5E48F6579447.quest_desc: [
 		"&c&l猎杀 800 只娜迦"
 		"&8&m                            "
@@ -38236,6 +39510,32 @@
 	]
 	quest.62468C6AE4EA3D28.quest_subtitle: "&7已击杀 100 只野性部落蠹虫"
 	quest.62468C6AE4EA3D28.title: "&5&l猎杀 100 只野性部落蠹虫"
+	quest.624CDC72A7CC5B39.quest_desc: [
+		"&d&l购买：发光水晶碎片"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Cog&7 换取 &a2x 发光水晶碎片&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.624CDC72A7CC5B39.quest_subtitle: "&7花费 &e1x Cog&7，可重复"
+	quest.624CDC72A7CC5B39.title: "&d&l购买：发光水晶碎片"
+	quest.62524B0FCE3D018A.quest_desc: [
+		"&d&l购买：光辉石"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Crown&7 换取 &a1x 光辉石&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.62524B0FCE3D018A.quest_subtitle: "&7花费 &e1x Crown&7，可重复"
+	quest.62524B0FCE3D018A.title: "&d&l购买：光辉石"
 	quest.6263A27182B2CE3D.quest_desc: [
 		"&6&l高级控制电路"
 		"&8&m                            "
@@ -38835,6 +40135,19 @@
 	]
 	quest.639531AB27DCD267.quest_subtitle: "&7单一法术学派的符文"
 	quest.639531AB27DCD267.title: "&d&l空白符文"
+	quest.639D9C889913AF22.quest_desc: [
+		"&d&l购买：娜迦鳞片"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a4x 娜迦鳞片&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.639D9C889913AF22.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.639D9C889913AF22.title: "&d&l购买：娜迦鳞片"
 	quest.63A43671B5C21EBC.quest_desc: [
 		"&c&l猎杀 200 只小熊猫"
 		"&8&m                            "
@@ -39173,6 +40486,19 @@
 	]
 	quest.64BD779CAA6654A2.quest_subtitle: "&7已击杀 500 只热带鱼"
 	quest.64BD779CAA6654A2.title: "&c&l猎杀 500 只热带鱼"
+	quest.64BF76A2DDE79C19.quest_desc: [
+		"&b&l购买：铜线"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a16x 铜线&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&b&l类别：&r &f工业"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.64BF76A2DDE79C19.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.64BF76A2DDE79C19.title: "&b&l购买：铜线"
 	quest.64C608D29CDEFF51.quest_desc: [
 		"&b&l专用机械"
 		"&8&m                            "
@@ -39234,6 +40560,19 @@
 	]
 	quest.64DE407D512FA2EA.quest_subtitle: "&7已击杀 10 只旋风精灵"
 	quest.64DE407D512FA2EA.title: "&c&l猎杀 10 只旋风精灵"
+	quest.64E31DC41013982A.quest_desc: [
+		"&a&l购买：神能晶片"
+		"&8&m                            "
+		""
+		"&7支付 &e3x Bevel&7 换取 &a16x 神能晶片&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.64E31DC41013982A.quest_subtitle: "&7花费 &e3x Bevel&7，可重复"
+	quest.64E31DC41013982A.title: "&a&l购买：神能晶片"
 	quest.64E75481D179E039.quest_desc: [
 		"&5&l猎杀 100 只树篱蜘蛛"
 		"&8&m                            "
@@ -39945,6 +41284,19 @@
 	]
 	quest.66251DDE98FB6EA7.quest_subtitle: "&7掌握动力机械"
 	quest.66251DDE98FB6EA7.title: "&6&lAll of Create"
+	quest.663E50B7D5CD8F7D.quest_desc: [
+		"&b&l购买：钢锭"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a8x 钢锭&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&b&l类别：&r &f工业"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.663E50B7D5CD8F7D.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.663E50B7D5CD8F7D.title: "&b&l购买：钢锭"
 	quest.663F9A2290BFE787.quest_desc: [
 		"&c&l猎杀 400 只虚张者"
 		"&8&m                            "
@@ -40143,6 +41495,19 @@
 	]
 	quest.6684592C51D61266.quest_subtitle: "&7已击杀 400 只羊"
 	quest.6684592C51D61266.title: "&c&l猎杀 400 只羊"
+	quest.6689781106C54A61.quest_desc: [
+		"&d&l购买：电解核心"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Cog&7 换取 &a2x 电解核心&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.6689781106C54A61.quest_subtitle: "&7花费 &e1x Cog&7，可重复"
+	quest.6689781106C54A61.title: "&d&l购买：电解核心"
 	quest.6689FF32EFE32E42.quest_desc: [
 		"&a&l火药"
 		"&8&m                            "
@@ -40496,6 +41861,19 @@
 	]
 	quest.670527C22320D47F.quest_subtitle: "&7已击杀 800 只小幽灵"
 	quest.670527C22320D47F.title: "&c&l猎杀 800 只小幽灵"
+	quest.6707DEB93752443A.quest_desc: [
+		"&6&l购买：汉堡包"
+		"&8&m                            "
+		""
+		"&7支付 &e4x Bevel&7 换取 &a4x 汉堡包&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&6&l类别：&r &f补给"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.6707DEB93752443A.quest_subtitle: "&7花费 &e4x Bevel&7，可重复"
+	quest.6707DEB93752443A.title: "&6&l购买：汉堡包"
 	quest.67116868F3376796.quest_desc: [
 		"&9&l自动烟熏升级"
 		"&8&m                            "
@@ -40656,6 +42034,32 @@
 	]
 	quest.67590B050BEE5B23.quest_subtitle: "&7已击杀 500 只被附身的末影人"
 	quest.67590B050BEE5B23.title: "&5&l猎杀 500 只被附身的末影人"
+	quest.6768F77BB06022E1.quest_desc: [
+		"&a&l购买：Glow Ink Sac"
+		"&8&m                            "
+		""
+		"&7支付 &e3x Bevel&7 换取 &a8x Glow Ink Sac&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.6768F77BB06022E1.quest_subtitle: "&7花费 &e3x Bevel&7，可重复"
+	quest.6768F77BB06022E1.title: "&a&l购买：Glow Ink Sac"
+	quest.676BC62CFAA760D5.quest_desc: [
+		"&5&l购买：灵魂粉尘"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Cog&7 换取 &a8x 灵魂粉尘&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&5&l类别：&r &f冒险"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.676BC62CFAA760D5.quest_subtitle: "&7花费 &e1x Cog&7，可重复"
+	quest.676BC62CFAA760D5.title: "&5&l购买：灵魂粉尘"
 	quest.67757DDF2330F8EF.quest_desc: [
 		"&c&l猎杀 700 只骷髅马"
 		"&8&m                            "
@@ -40882,6 +42286,19 @@
 	]
 	quest.67EC5741BF469DE8.quest_subtitle: "&7已击杀 500 只村民"
 	quest.67EC5741BF469DE8.title: "&c&l猎杀 500 只村民"
+	quest.6818D74EFD9859DA.quest_desc: [
+		"&d&l购买：Sponge"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a4x Sponge&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.6818D74EFD9859DA.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.6818D74EFD9859DA.title: "&d&l购买：Sponge"
 	quest.683322B79AE2283B.quest_desc: [
 		"&b&lDeeper and Darker"
 		"&8&m                                "
@@ -42610,6 +44027,19 @@
 	]
 	quest.6C472C918B4BDE52.quest_subtitle: "&7已击杀 900 只远古守卫者"
 	quest.6C472C918B4BDE52.title: "&c&l猎杀 900 只远古守卫者"
+	quest.6C4B52B7859B3854.quest_desc: [
+		"&d&l购买：精密构件"
+		"&8&m                            "
+		""
+		"&7支付 &e4x Cog&7 换取 &a2x 精密构件&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.6C4B52B7859B3854.quest_subtitle: "&7花费 &e4x Cog&7，可重复"
+	quest.6C4B52B7859B3854.title: "&d&l购买：精密构件"
 	quest.6C4E72C0BF98E8DD.quest_desc: [
 		"&d&l符文魔符"
 		"&8&m                            "
@@ -42942,6 +44372,19 @@
 	]
 	quest.6D29C616456E4C26.quest_subtitle: "&7已击杀 10 只迷雾狼"
 	quest.6D29C616456E4C26.title: "&5&l猎杀 10 只迷雾狼"
+	quest.6D2BC44B4E2228B3.quest_desc: [
+		"&d&l购买：Trident"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Crown&7 换取 &a1x Trident&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.6D2BC44B4E2228B3.quest_subtitle: "&7花费 &e2x Crown&7，可重复"
+	quest.6D2BC44B4E2228B3.title: "&d&l购买：Trident"
 	quest.6D3006A74D497A78.quest_desc: [
 		"&c&l猎杀 100 只西部大猩猩"
 		"&8&m                            "
@@ -42996,6 +44439,19 @@
 	]
 	quest.6D3A0BA54AA22403.quest_subtitle: "&7为液体铺管、装泵与设阀"
 	quest.6D3A0BA54AA22403.title: "&3&l流体管路"
+	quest.6D7D95B7530347EA.quest_desc: [
+		"&b&l购买：铸铁锭"
+		"&8&m                            "
+		""
+		"&7支付 &e3x Bevel&7 换取 &a8x 铸铁锭&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&b&l类别：&r &f工业"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.6D7D95B7530347EA.quest_subtitle: "&7花费 &e3x Bevel&7，可重复"
+	quest.6D7D95B7530347EA.title: "&b&l购买：铸铁锭"
 	quest.6D87A28A1A723B5D.quest_desc: [
 		"&c&l猎杀 900 只海豚"
 		"&8&m                            "
@@ -43786,6 +45242,19 @@
 	]
 	quest.6F67079A453DAABE.quest_subtitle: "&7一次重新活过来的机会"
 	quest.6F67079A453DAABE.title: "&b&l生命符咒 I"
+	quest.6F69056145587F60.quest_desc: [
+		"&b&l购买：塑料板"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a8x 塑料板&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&b&l类别：&r &f工业"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.6F69056145587F60.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.6F69056145587F60.title: "&b&l购买：塑料板"
 	quest.6F698189FD554158.quest_desc: [
 		"&f&l铁·下界合金工具"
 		"&8&m                            "
@@ -43891,6 +45360,19 @@
 	]
 	quest.6FA3FB12BB956DEF.quest_subtitle: "&7已击杀 1000 只被附身的弱化潜影贝"
 	quest.6FA3FB12BB956DEF.title: "&5&l猎杀 1000 只被附身的弱化潜影贝"
+	quest.6FAC37EDEE35578B.quest_desc: [
+		"&d&l购买：Beacon"
+		"&8&m                            "
+		""
+		"&7支付 &e3x Crown&7 换取 &a1x Beacon&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.6FAC37EDEE35578B.quest_subtitle: "&7花费 &e3x Crown&7，可重复"
+	quest.6FAC37EDEE35578B.title: "&d&l购买：Beacon"
 	quest.6FC56763B604952B.quest_desc: [
 		"&5&l猎杀 1000 只野性部落溺尸"
 		"&8&m                            "
@@ -44012,6 +45494,19 @@
 	]
 	quest.7000000000000001.quest_subtitle: "&7三把与众不同的刃"
 	quest.7000000000000001.title: "&d&l特殊剑器"
+	quest.7006796F34FD3037.quest_desc: [
+		"&5&l购买：Naga Fang"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Cog&7 换取 &a4x Naga Fang&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&5&l类别：&r &f冒险"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.7006796F34FD3037.quest_subtitle: "&7花费 &e1x Cog&7，可重复"
+	quest.7006796F34FD3037.title: "&5&l购买：Naga Fang"
 	quest.700C5BD6AA7562B4.quest_desc: [
 		"&c&l猎杀 900 只炽足兽"
 		"&8&m                            "
@@ -44159,6 +45654,19 @@
 	]
 	quest.7069094F73ABC2CF.quest_subtitle: "&7已击杀 800 只锁链哥布林"
 	quest.7069094F73ABC2CF.title: "&5&l猎杀 800 只锁链哥布林"
+	quest.706B4B3F69F1AB3E.quest_desc: [
+		"&5&l购买：火炬浆果"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Sprocket&7 换取 &a16x 火炬浆果&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&5&l类别：&r &f冒险"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.706B4B3F69F1AB3E.quest_subtitle: "&7花费 &e1x Sprocket&7，可重复"
+	quest.706B4B3F69F1AB3E.title: "&5&l购买：火炬浆果"
 	quest.70788512913E6E49.quest_desc: [
 		"&c&l黑皮诺葡萄酒"
 		"&8&m                            "
@@ -44562,6 +46070,19 @@
 	]
 	quest.716F3436B482A240.quest_subtitle: "&7已击杀 50 只松鼠"
 	quest.716F3436B482A240.title: "&c&l猎杀 50 只松鼠"
+	quest.717D6F9CAF58395D.quest_desc: [
+		"&b&l购买：青铜锭"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a8x 青铜锭&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&b&l类别：&r &f工业"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.717D6F9CAF58395D.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.717D6F9CAF58395D.title: "&b&l购买：青铜锭"
 	quest.71869B1D81D6A7EF.quest_desc: [
 		"&a&l加压反应室"
 		"&8&m                            "
@@ -44738,6 +46259,19 @@
 	]
 	quest.71C5689449EDAF5D.quest_subtitle: "&7已击杀 100 只悲伤之壶"
 	quest.71C5689449EDAF5D.title: "&c&l猎杀 100 只悲伤之壶"
+	quest.71CBF1D5210F2603.quest_desc: [
+		"&d&l购买：Sea Lantern"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a8x Sea Lantern&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.71CBF1D5210F2603.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.71CBF1D5210F2603.title: "&d&l购买：Sea Lantern"
 	quest.71CF9E59F8F0B4A6.quest_desc: [
 		"&6&l精英控制电路"
 		"&8&m                            "
@@ -44791,6 +46325,19 @@
 	]
 	quest.71F0E9C36AA02B46.quest_subtitle: "&7火焰与灵魂的法杖"
 	quest.71F0E9C36AA02B46.title: "&e&l寻魂烬铃"
+	quest.722A7BAF4A1BE1DE.quest_desc: [
+		"&5&l购买：异界石"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a16x 异界石&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&5&l类别：&r &f冒险"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.722A7BAF4A1BE1DE.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.722A7BAF4A1BE1DE.title: "&5&l购买：异界石"
 	quest.7233B4F1E63BAFC9.quest_desc: [
 		"&c&l猎杀 500 只僵尸猪灵"
 		"&8&m                            "
@@ -45753,6 +47300,19 @@
 	]
 	quest.7432AFB35CC67120.quest_subtitle: "&7已击杀 10 只破碎者"
 	quest.7432AFB35CC67120.title: "&c&l猎杀 10 只破碎者"
+	quest.7442D14F3B16B4A0.quest_desc: [
+		"&d&l购买：电子管"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a8x 电子管&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.7442D14F3B16B4A0.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.7442D14F3B16B4A0.title: "&d&l购买：电子管"
 	quest.7446AF70EF7FB42D.quest_desc: [
 		"&d&l化学品 X 药水"
 		"&8&m                            "
@@ -45914,6 +47474,19 @@
 	]
 	quest.748AFA4748B74240.quest_subtitle: "&7已击杀 700 只海獭"
 	quest.748AFA4748B74240.title: "&c&l猎杀 700 只海獭"
+	quest.748D45A1AF617424.quest_desc: [
+		"&6&l购买：Steak"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Bevel&7 换取 &a16x Steak&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&6&l类别：&r &f补给"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.748D45A1AF617424.quest_subtitle: "&7花费 &e2x Bevel&7，可重复"
+	quest.748D45A1AF617424.title: "&6&l购买：Steak"
 	quest.7491ED45B32BC307.quest_desc: [
 		"&9&l食品储藏室"
 		"&8&m                            "
@@ -47355,6 +48928,19 @@
 	]
 	quest.78410370C38E4775.quest_subtitle: "&7Mekanism 反应堆组件"
 	quest.78410370C38E4775.title: "&3&l涡轮外壳"
+	quest.78437311EE830792.quest_desc: [
+		"&d&l购买：Name Tag"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Sprocket&7 换取 &a4x Name Tag&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.78437311EE830792.quest_subtitle: "&7花费 &e1x Sprocket&7，可重复"
+	quest.78437311EE830792.title: "&d&l购买：Name Tag"
 	quest.7844266CEC79BA28.quest_desc: [
 		"&c&l猎杀 50 只恐惧之壶"
 		"&8&m                            "
@@ -47619,6 +49205,19 @@
 	]
 	quest.789AF6D0A6321945.quest_subtitle: "&7可以戴在身上的恶作剧"
 	quest.789AF6D0A6321945.title: "&6&l整蛊坐垫"
+	quest.789FF8CADA056218.quest_desc: [
+		"&5&l购买：觉醒羽毛"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a4x 觉醒羽毛&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&5&l类别：&r &f冒险"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.789FF8CADA056218.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.789FF8CADA056218.title: "&5&l购买：觉醒羽毛"
 	quest.78A14C953438E84F.quest_desc: [
 		"&c&l猎杀 600 只远古守卫者"
 		"&8&m                            "
@@ -47868,6 +49467,19 @@
 	]
 	quest.792BAAEDB646A5F2.quest_subtitle: "&7已击杀 400 只先驱方块"
 	quest.792BAAEDB646A5F2.title: "&5&l猎杀 400 只先驱方块"
+	quest.79340968DEA161DB.quest_desc: [
+		"&a&l购买：Block of Emerald"
+		"&8&m                            "
+		""
+		"&7支付 &e6x Cog&7 换取 &a1x Block of Emerald&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.79340968DEA161DB.quest_subtitle: "&7花费 &e6x Cog&7，可重复"
+	quest.79340968DEA161DB.title: "&a&l购买：Block of Emerald"
 	quest.7934873E784C4B3C.quest_desc: [
 		"&2&l三倍工厂"
 		"&8&m                            "
@@ -48000,6 +49612,19 @@
 	]
 	quest.79745ED03E114C88.quest_subtitle: "&7已击杀 1000 只狂猎凋灵骷髅"
 	quest.79745ED03E114C88.title: "&5&l猎杀 1000 只狂猎凋灵骷髅"
+	quest.79747A9C9355C6EA.quest_desc: [
+		"&d&l购买：Wither Skeleton Skull"
+		"&8&m                            "
+		""
+		"&7支付 &e5x Cog&7 换取 &a1x Wither Skeleton Skull&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.79747A9C9355C6EA.quest_subtitle: "&7花费 &e5x Cog&7，可重复"
+	quest.79747A9C9355C6EA.title: "&d&l购买：Wither Skeleton Skull"
 	quest.79752B0CD8946231.quest_desc: [
 		"&a&l非洲河流鱼类"
 		"&8&m                            "
@@ -48443,6 +50068,19 @@
 	]
 	quest.7ABBAA8FB0C24EA9.quest_subtitle: "&7已击杀 700 只埃洛科萨嚎叫者"
 	quest.7ABBAA8FB0C24EA9.title: "&c&l猎杀 700 只埃洛科萨嚎叫者"
+	quest.7AC35EFC7F1029DB.quest_desc: [
+		"&5&l购买：幽匿石"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a8x 幽匿石&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&5&l类别：&r &f冒险"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.7AC35EFC7F1029DB.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.7AC35EFC7F1029DB.title: "&5&l购买：幽匿石"
 	quest.7AC94B32D297410D.quest_desc: [
 		"&5&l猎杀 500 只地窟僵尸"
 		"&8&m                            "
@@ -48551,6 +50189,19 @@
 	]
 	quest.7AEC9BF0D7060DFF.quest_subtitle: "&7Mekanism 反应堆组件"
 	quest.7AEC9BF0D7060DFF.title: "&a&l电解分离器"
+	quest.7AF368E32575F74D.quest_desc: [
+		"&d&l购买：魔源宝石"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a8x 魔源宝石&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&d&l类别：&r &f稀有难寻"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.7AF368E32575F74D.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.7AF368E32575F74D.title: "&d&l购买：魔源宝石"
 	quest.7AFE66D62680D5A5.quest_desc: [
 		"&c&l猎杀 1000 只亚马逊河龟"
 		"&8&m                            "
@@ -48684,6 +50335,19 @@
 	]
 	quest.7B69196E45999755.quest_subtitle: "&7已击杀 1000 只黏液甲虫"
 	quest.7B69196E45999755.title: "&5&l猎杀 1000 只黏液甲虫"
+	quest.7B6FC7D8543457FC.quest_desc: [
+		"&b&l购买：进阶处理器"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Cog&7 换取 &a2x 进阶处理器&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&b&l类别：&r &f工业"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.7B6FC7D8543457FC.quest_subtitle: "&7花费 &e1x Cog&7，可重复"
+	quest.7B6FC7D8543457FC.title: "&b&l购买：进阶处理器"
 	quest.7B778F80B62847F7.quest_desc: [
 		"&5&l猎杀 100 只黏液甲虫"
 		"&8&m                            "
@@ -49485,6 +51149,19 @@
 	]
 	quest.7D5A30A5EA2B4061.quest_subtitle: "&7已击杀 1000 只狗头人"
 	quest.7D5A30A5EA2B4061.title: "&5&l猎杀 1000 只狗头人"
+	quest.7D5EDE655D5413E3.quest_desc: [
+		"&a&l购买：粉碎粗铁"
+		"&8&m                            "
+		""
+		"&7支付 &e3x Bevel&7 换取 &a16x 粉碎粗铁&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.7D5EDE655D5413E3.quest_subtitle: "&7花费 &e3x Bevel&7，可重复"
+	quest.7D5EDE655D5413E3.title: "&a&l购买：粉碎粗铁"
 	quest.7D5F02D7809ECFEC.quest_desc: [
 		"&c&l猎杀 50 只姜饼人"
 		"&8&m                            "
@@ -49555,6 +51232,19 @@
 	]
 	quest.7DA0B9BCFE3C2F21.quest_subtitle: "&7已击杀 700 只恶斑"
 	quest.7DA0B9BCFE3C2F21.title: "&c&l猎杀 700 只恶斑"
+	quest.7DA70480A4887F25.quest_desc: [
+		"&a&l购买：紫晶石"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a8x 紫晶石&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.7DA70480A4887F25.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.7DA70480A4887F25.title: "&a&l购买：紫晶石"
 	quest.7DAAAE8D0DE6AF5C.quest_desc: [
 		"&5&l猎杀 900 只野性弱化旋风人"
 		"&8&m                            "
@@ -49568,6 +51258,19 @@
 	]
 	quest.7DAAAE8D0DE6AF5C.quest_subtitle: "&7已击杀 900 只野性弱化旋风人"
 	quest.7DAAAE8D0DE6AF5C.title: "&5&l猎杀 900 只野性弱化旋风人"
+	quest.7DB06D8ED35A73A6.quest_desc: [
+		"&5&l购买：燧石块"
+		"&8&m                            "
+		""
+		"&7支付 &e1x Sprocket&7 换取 &a8x 燧石块&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&5&l类别：&r &f冒险"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.7DB06D8ED35A73A6.quest_subtitle: "&7花费 &e1x Sprocket&7，可重复"
+	quest.7DB06D8ED35A73A6.title: "&5&l购买：燧石块"
 	quest.7DB673A59BA9CD05.quest_desc: [
 		"&c&l猎杀 900 只铁傀儡"
 		"&8&m                            "
@@ -49650,6 +51353,19 @@
 	]
 	quest.7E1804407FBC1408.quest_subtitle: "&7已击杀 600 只村民"
 	quest.7E1804407FBC1408.title: "&c&l猎杀 600 只村民"
+	quest.7E207B9068552801.quest_desc: [
+		"&5&l购买：纯净墨水"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a8x 纯净墨水&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&5&l类别：&r &f冒险"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.7E207B9068552801.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.7E207B9068552801.title: "&5&l购买：纯净墨水"
 	quest.7E22D714223BF8DF.quest_desc: [
 		"&5&l猎杀 700 只被附身的疣猪兽"
 		"&8&m                            "
@@ -50120,6 +51836,19 @@
 	]
 	quest.7F09F8F98C13F11B.quest_subtitle: "&7一切仪式的祭坛"
 	quest.7F09F8F98C13F11B.title: "&5&l献祭之碗"
+	quest.7F0CC23E3828C80C.quest_desc: [
+		"&a&l购买：异界灰烬"
+		"&8&m                            "
+		""
+		"&7支付 &e2x Sprocket&7 换取 &a8x 异界灰烬&7。"
+		"&7此交易&a可重复&7，只要付得起就能一直买。"
+		""
+		"&a&l类别：&r &f资源"
+		""
+		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
+	]
+	quest.7F0CC23E3828C80C.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
+	quest.7F0CC23E3828C80C.title: "&a&l购买：异界灰烬"
 	quest.7F384C6B4DAD1541.quest_desc: [
 		"&5&l猎杀 300 只野性强化旋风人"
 		"&8&m                            "
@@ -50469,422 +52198,38 @@
 	]
 	quest.7FD64D0615DD9610.quest_subtitle: "&7已击杀 100 只企鹅"
 	quest.7FD64D0615DD9610.title: "&c&l猎杀 100 只企鹅"
-	quest.801F9080D83806A2.quest_desc: [
-		"&a&l购买：钢板"
-		"&8&m                            "
-		""
-		"&7支付 &e2x Sprocket&7 换取 &a8x 钢板&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.801F9080D83806A2.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
-	quest.801F9080D83806A2.title: "&a&l购买：钢板"
-	quest.831C705C219BA612.quest_desc: [
-		"&a&l购买：绿宝石块"
-		"&8&m                            "
-		""
-		"&7支付 &e6x Cog&7 换取 &a1x 绿宝石块&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.831C705C219BA612.quest_subtitle: "&7花费 &e6x Cog&7，可重复"
-	quest.831C705C219BA612.title: "&a&l购买：绿宝石块"
-	quest.8492FB59FEA0A8F3.quest_desc: [
-		"&a&l购买：钢锭"
-		"&8&m                            "
-		""
-		"&7支付 &e2x Sprocket&7 换取 &a8x 钢锭&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.8492FB59FEA0A8F3.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
-	quest.8492FB59FEA0A8F3.title: "&a&l购买：钢锭"
-	quest.874AC36D03AB952C.quest_desc: [
-		"&a&l购买：神能晶片"
-		"&8&m                            "
-		""
-		"&7支付 &e3x Bevel&7 换取 &a16x 神能晶片&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.874AC36D03AB952C.quest_subtitle: "&7花费 &e3x Bevel&7，可重复"
-	quest.874AC36D03AB952C.title: "&a&l购买：神能晶片"
-	quest.890F2C7AA40656E4.quest_desc: [
-		"&d&l购买：光辉石"
-		"&8&m                            "
-		""
-		"&7支付 &e2x Cog&7 换取 &a2x 光辉石&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.890F2C7AA40656E4.quest_subtitle: "&7花费 &e2x Cog&7，可重复"
-	quest.890F2C7AA40656E4.title: "&d&l购买：光辉石"
-	quest.8AB974DFAC41DDCC.quest_desc: [
-		"&d&l购买：魔源宝石"
-		"&8&m                            "
-		""
-		"&7支付 &e2x Sprocket&7 换取 &a8x 魔源宝石&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.8AB974DFAC41DDCC.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
-	quest.8AB974DFAC41DDCC.title: "&d&l购买：魔源宝石"
-	quest.8CA23748EC64D4E5.quest_desc: [
-		"&d&l购买：潜影壳"
-		"&8&m                            "
-		""
-		"&7支付 &e2x Cog&7 换取 &a2x 潜影壳&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.8CA23748EC64D4E5.quest_subtitle: "&7花费 &e2x Cog&7，可重复"
-	quest.8CA23748EC64D4E5.title: "&d&l购买：潜影壳"
-	quest.8D1305E3A155FA59.quest_desc: [
-		"&d&l购买：荒野尖刺"
-		"&8&m                            "
-		""
-		"&7支付 &e2x Sprocket&7 换取 &a4x 荒野尖刺&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.8D1305E3A155FA59.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
-	quest.8D1305E3A155FA59.title: "&d&l购买：荒野尖刺"
-	quest.8D1F3F191E84D448.quest_desc: [
-		"&6&l购买：汉堡"
-		"&8&m                            "
-		""
-		"&7支付 &e4x Bevel&7 换取 &a4x 汉堡&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&6&l类别：&r &f补给"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.8D1F3F191E84D448.quest_subtitle: "&7花费 &e4x Bevel&7，可重复"
-	quest.8D1F3F191E84D448.title: "&6&l购买：汉堡"
-	quest.91571D8497FDE040.quest_desc: [
-		"&d&l购买：魔源宝石块"
-		"&8&m                            "
-		""
-		"&7支付 &e1x Cog&7 换取 &a2x 魔源宝石块&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.91571D8497FDE040.quest_subtitle: "&7花费 &e1x Cog&7，可重复"
-	quest.91571D8497FDE040.title: "&d&l购买：魔源宝石块"
-	quest.91CF8912E67F4F7D.quest_desc: [
-		"&a&l购买：红石"
-		"&8&m                            "
-		""
-		"&7支付 &e3x Bevel&7 换取 &a16x 红石&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.91CF8912E67F4F7D.quest_subtitle: "&7花费 &e3x Bevel&7，可重复"
-	quest.91CF8912E67F4F7D.title: "&a&l购买：红石"
-	quest.939D354DCA600FD6.quest_desc: [
-		"&d&l购买：潮涌核心"
-		"&8&m                            "
-		""
-		"&7支付 &e2x Crown&7 换取 &a1x 潮涌核心&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.939D354DCA600FD6.quest_subtitle: "&7花费 &e2x Crown&7，可重复"
-	quest.939D354DCA600FD6.title: "&d&l购买：潮涌核心"
-	quest.94CA969B036A9990.quest_desc: [
-		"&d&l购买：星宝石兽信物"
-		"&8&m                            "
-		""
-		"&7支付 &e1x Sprocket&7 换取 &a8x 星宝石兽信物&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.94CA969B036A9990.quest_subtitle: "&7花费 &e1x Sprocket&7，可重复"
-	quest.94CA969B036A9990.title: "&d&l购买：星宝石兽信物"
-	quest.955F32A70A7075B4.quest_desc: [
-		"&d&l购买：三叉戟"
-		"&8&m                            "
-		""
-		"&7支付 &e2x Crown&7 换取 &a1x 三叉戟&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.955F32A70A7075B4.quest_subtitle: "&7花费 &e2x Crown&7，可重复"
-	quest.955F32A70A7075B4.title: "&d&l购买：三叉戟"
-	quest.966709D22FA127D7.quest_desc: [
-		"&a&l购买：铜锭"
-		"&8&m                            "
-		""
-		"&7支付 &e3x Bevel&7 换取 &a16x 铜锭&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.966709D22FA127D7.quest_subtitle: "&7花费 &e3x Bevel&7，可重复"
-	quest.966709D22FA127D7.title: "&a&l购买：铜锭"
-	quest.96B6B6BE5F68795C.quest_desc: [
-		"&d&l购买：鹦鹉螺壳"
-		"&8&m                            "
-		""
-		"&7支付 &e2x Sprocket&7 换取 &a4x 鹦鹉螺壳&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.96B6B6BE5F68795C.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
-	quest.96B6B6BE5F68795C.title: "&d&l购买：鹦鹉螺壳"
-	quest.9765F742E0AD481C.quest_desc: [
-		"&a&l购买：紫晶石"
-		"&8&m                            "
-		""
-		"&7支付 &e2x Sprocket&7 换取 &a8x 紫晶石&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.9765F742E0AD481C.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
-	quest.9765F742E0AD481C.title: "&a&l购买：紫晶石"
-	quest.99C146F9BA2E9A8D.quest_desc: [
-		"&a&l购买：青金石"
-		"&8&m                            "
-		""
-		"&7支付 &e3x Bevel&7 换取 &a16x 青金石&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.99C146F9BA2E9A8D.quest_subtitle: "&7花费 &e3x Bevel&7，可重复"
-	quest.99C146F9BA2E9A8D.title: "&a&l购买：青金石"
-	quest.9D0114FDE92D6F4E.quest_desc: [
-		"&a&l购买：海晶碎片"
-		"&8&m                            "
-		""
-		"&7支付 &e4x Bevel&7 换取 &a16x 海晶碎片&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.9D0114FDE92D6F4E.quest_subtitle: "&7花费 &e4x Bevel&7，可重复"
-	quest.9D0114FDE92D6F4E.title: "&a&l购买：海晶碎片"
-	quest.9D28C7E57C3F5214.quest_desc: [
-		"&d&l购买：发光水晶碎片"
-		"&8&m                            "
-		""
-		"&7支付 &e1x Cog&7 换取 &a2x 发光水晶碎片&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.9D28C7E57C3F5214.quest_subtitle: "&7花费 &e1x Cog&7，可重复"
-	quest.9D28C7E57C3F5214.title: "&d&l购买：发光水晶碎片"
-	quest.A057AE76F59664ED.quest_desc: [
-		"&d&l购买：神铸珍珠"
-		"&8&m                            "
-		""
-		"&7支付 &e1x Crown&7 换取 &a1x 神铸珍珠&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.A057AE76F59664ED.quest_subtitle: "&7花费 &e1x Crown&7，可重复"
-	quest.A057AE76F59664ED.title: "&d&l购买：神铸珍珠"
-	quest.A060FFFD42BED817.quest_desc: [
-		"&d&l购买：奥术源质"
-		"&8&m                            "
-		""
-		"&7支付 &e2x Sprocket&7 换取 &a8x 奥术源质&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.A060FFFD42BED817.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
-	quest.A060FFFD42BED817.title: "&d&l购买：奥术源质"
-	quest.A1FB60D92FE5E007.quest_desc: [
-		"&d&l购买：暗影钢"
-		"&8&m                            "
-		""
-		"&7支付 &e2x Cog&7 换取 &a2x 暗影钢&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.A1FB60D92FE5E007.quest_subtitle: "&7花费 &e2x Cog&7，可重复"
-	quest.A1FB60D92FE5E007.title: "&d&l购买：暗影钢"
-	quest.A294E692A996E688.quest_desc: [
-		"&d&l购买：末影珍珠"
-		"&8&m                            "
-		""
-		"&7支付 &e2x Sprocket&7 换取 &a8x 末影珍珠&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.A294E692A996E688.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
-	quest.A294E692A996E688.title: "&d&l购买：末影珍珠"
-	quest.A44A66B2BE4DB34E.quest_desc: [
-		"&d&l购买：恶魂之泪"
-		"&8&m                            "
-		""
-		"&7支付 &e1x Cog&7 换取 &a4x 恶魂之泪&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.A44A66B2BE4DB34E.quest_subtitle: "&7花费 &e1x Cog&7，可重复"
-	quest.A44A66B2BE4DB34E.title: "&d&l购买：恶魂之泪"
-	quest.A453B1D585177EFF.quest_desc: [
-		"&d&l购买：海绵"
-		"&8&m                            "
-		""
-		"&7支付 &e2x Sprocket&7 换取 &a4x 海绵&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.A453B1D585177EFF.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
-	quest.A453B1D585177EFF.title: "&d&l购买：海绵"
-	quest.A549A99C4BEE8A04.quest_desc: [
-		"&d&l购买：重生锚"
-		"&8&m                            "
-		""
-		"&7支付 &e3x Cog&7 换取 &a1x 重生锚&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.A549A99C4BEE8A04.quest_subtitle: "&7花费 &e3x Cog&7，可重复"
-	quest.A549A99C4BEE8A04.title: "&d&l购买：重生锚"
-	quest.A571808E9C27E2B5.quest_desc: [
-		"&a&l购买：海晶砂粒"
-		"&8&m                            "
-		""
-		"&7支付 &e1x Sprocket&7 换取 &a8x 海晶砂粒&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.A571808E9C27E2B5.quest_subtitle: "&7花费 &e1x Sprocket&7，可重复"
-	quest.A571808E9C27E2B5.title: "&a&l购买：海晶砂粒"
-	quest.A5B8AB07F7EA5F41.quest_desc: [
-		"&d&l购买：精密构件"
-		"&8&m                            "
-		""
-		"&7支付 &e1x Cog&7 换取 &a4x 精密构件&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.A5B8AB07F7EA5F41.quest_subtitle: "&7花费 &e1x Cog&7，可重复"
-	quest.A5B8AB07F7EA5F41.title: "&d&l购买：精密构件"
-	quest.A5FC5FA7AC60EEFB.quest_desc: [
-		"&d&l购买：凋灵骷髅头颅"
-		"&8&m                            "
-		""
-		"&7支付 &e5x Cog&7 换取 &a1x 凋灵骷髅头颅&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.A5FC5FA7AC60EEFB.quest_subtitle: "&7花费 &e5x Cog&7，可重复"
-	quest.A5FC5FA7AC60EEFB.title: "&d&l购买：凋灵骷髅头颅"
-	quest.A735C66E469C8BF1.quest_desc: [
-		"&d&l购买：音乐唱片 Pigstep"
-		"&8&m                            "
-		""
-		"&7支付 &e4x Cog&7 换取 &a1x 音乐唱片 Pigstep&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.A735C66E469C8BF1.quest_subtitle: "&7花费 &e4x Cog&7，可重复"
-	quest.A735C66E469C8BF1.title: "&d&l购买：音乐唱片 Pigstep"
-	quest.A77A3FDC53C495F8.quest_desc: [
-		"&a&l购买：铁木锭"
-		"&8&m                            "
-		""
-		"&7支付 &e2x Sprocket&7 换取 &a8x 铁木锭&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.A77A3FDC53C495F8.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
-	quest.A77A3FDC53C495F8.title: "&a&l购买：铁木锭"
 	quest.A7C19038F8CAC0C4.quest_desc: [
 		"&5&l末地沙拉"
 		"&8&m                            "
@@ -50899,266 +52244,26 @@
 	]
 	quest.A7C19038F8CAC0C4.quest_subtitle: "&7吃下蔬菜，赢下战斗"
 	quest.A7C19038F8CAC0C4.title: "&5&l末地沙拉"
-	quest.A8BBB4735DFCC673.quest_desc: [
-		"&a&l购买：焦煤"
-		"&8&m                            "
-		""
-		"&7支付 &e4x Bevel&7 换取 &a16x 焦煤&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.A8BBB4735DFCC673.quest_subtitle: "&7花费 &e4x Bevel&7，可重复"
-	quest.A8BBB4735DFCC673.title: "&a&l购买：焦煤"
-	quest.AB8FB8A159A90A21.quest_desc: [
-		"&a&l购买：荧石粉"
-		"&8&m                            "
-		""
-		"&7支付 &e3x Bevel&7 换取 &a16x 荧石粉&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.AB8FB8A159A90A21.quest_subtitle: "&7花费 &e3x Bevel&7，可重复"
-	quest.AB8FB8A159A90A21.title: "&a&l购买：荧石粉"
-	quest.B3F2005FFE893B11.quest_desc: [
-		"&a&l购买：铜线"
-		"&8&m                            "
-		""
-		"&7支付 &e3x Bevel&7 换取 &a16x 铜线&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.B3F2005FFE893B11.quest_subtitle: "&7花费 &e3x Bevel&7，可重复"
-	quest.B3F2005FFE893B11.title: "&a&l购买：铜线"
-	quest.B4FA6E31DBA3F4AF.quest_desc: [
-		"&a&l购买：锌锭"
-		"&8&m                            "
-		""
-		"&7支付 &e4x Bevel&7 换取 &a8x 锌锭&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.B4FA6E31DBA3F4AF.quest_subtitle: "&7花费 &e4x Bevel&7，可重复"
-	quest.B4FA6E31DBA3F4AF.title: "&a&l购买：锌锭"
-	quest.B8485D8541188FB8.quest_desc: [
-		"&6&l购买：卷心菜"
-		"&8&m                            "
-		""
-		"&7支付 &e1x Bevel&7 换取 &a16x 卷心菜&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&6&l类别：&r &f补给"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.B8485D8541188FB8.quest_subtitle: "&7花费 &e1x Bevel&7，可重复"
-	quest.B8485D8541188FB8.title: "&6&l购买：卷心菜"
-	quest.B8A25E23012E72E7.quest_desc: [
-		"&d&l购买：钋球"
-		"&8&m                            "
-		""
-		"&7支付 &e1x Crown&7 换取 &a1x 钋球&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.B8A25E23012E72E7.quest_subtitle: "&7花费 &e1x Crown&7，可重复"
-	quest.B8A25E23012E72E7.title: "&d&l购买：钋球"
-	quest.BB1657268B677133.quest_desc: [
-		"&a&l购买：粉碎粗铁"
-		"&8&m                            "
-		""
-		"&7支付 &e3x Bevel&7 换取 &a16x 粉碎粗铁&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.BB1657268B677133.quest_subtitle: "&7花费 &e3x Bevel&7，可重复"
-	quest.BB1657268B677133.title: "&a&l购买：粉碎粗铁"
-	quest.BBF9275781D219A0.quest_desc: [
-		"&a&l购买：异界灰烬"
-		"&8&m                            "
-		""
-		"&7支付 &e2x Sprocket&7 换取 &a8x 异界灰烬&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.BBF9275781D219A0.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
-	quest.BBF9275781D219A0.title: "&a&l购买：异界灰烬"
-	quest.BF5B026C48022E67.quest_desc: [
-		"&d&l购买：下界合金锭"
-		"&8&m                            "
-		""
-		"&7支付 &e1x Crown&7 换取 &a1x 下界合金锭&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.BF5B026C48022E67.quest_subtitle: "&7花费 &e1x Crown&7，可重复"
-	quest.BF5B026C48022E67.title: "&d&l购买：下界合金锭"
-	quest.C4425F7960A7613A.quest_desc: [
-		"&d&l购买：娜迦鳞片"
-		"&8&m                            "
-		""
-		"&7支付 &e2x Sprocket&7 换取 &a4x 娜迦鳞片&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.C4425F7960A7613A.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
-	quest.C4425F7960A7613A.title: "&d&l购买：娜迦鳞片"
-	quest.C583FA6C17763E5F.quest_desc: [
-		"&d&l购买：磁石"
-		"&8&m                            "
-		""
-		"&7支付 &e4x Cog&7 换取 &a1x 磁石&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.C583FA6C17763E5F.quest_subtitle: "&7花费 &e4x Cog&7，可重复"
-	quest.C583FA6C17763E5F.title: "&d&l购买：磁石"
-	quest.C780F5F5F82C48A9.quest_desc: [
-		"&6&l购买：番茄"
-		"&8&m                            "
-		""
-		"&7支付 &e1x Bevel&7 换取 &a16x 番茄&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&6&l类别：&r &f补给"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.C780F5F5F82C48A9.quest_subtitle: "&7花费 &e1x Bevel&7，可重复"
-	quest.C780F5F5F82C48A9.title: "&6&l购买：番茄"
-	quest.C9147D735226D444.quest_desc: [
-		"&a&l购买：下界疣"
-		"&8&m                            "
-		""
-		"&7支付 &e2x Bevel&7 换取 &a16x 下界疣&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.C9147D735226D444.quest_subtitle: "&7花费 &e2x Bevel&7，可重复"
-	quest.C9147D735226D444.title: "&a&l购买：下界疣"
-	quest.CC961F75A042C7B8.quest_desc: [
-		"&a&l购买：钻石块"
-		"&8&m                            "
-		""
-		"&7支付 &e1x Crown&7 换取 &a1x 钻石块&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.CC961F75A042C7B8.quest_subtitle: "&7花费 &e1x Crown&7，可重复"
-	quest.CC961F75A042C7B8.title: "&a&l购买：钻石块"
-	quest.CDF50AA23E8475BD.quest_desc: [
-		"&d&l购买：电解核心"
-		"&8&m                            "
-		""
-		"&7支付 &e1x Cog&7 换取 &a2x 电解核心&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.CDF50AA23E8475BD.quest_subtitle: "&7花费 &e1x Cog&7，可重复"
-	quest.CDF50AA23E8475BD.title: "&d&l购买：电解核心"
-	quest.CE353032B04594F0.quest_desc: [
-		"&d&l购买：海晶灯"
-		"&8&m                            "
-		""
-		"&7支付 &e2x Sprocket&7 换取 &a8x 海晶灯&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.CE353032B04594F0.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
-	quest.CE353032B04594F0.title: "&d&l购买：海晶灯"
-	quest.CED8FA00BAC2573C.quest_desc: [
-		"&a&l购买：艾瑟金属锭"
-		"&8&m                            "
-		""
-		"&7支付 &e1x Cog&7 换取 &a4x 艾瑟金属锭&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.CED8FA00BAC2573C.quest_subtitle: "&7花费 &e1x Cog&7，可重复"
-	quest.CED8FA00BAC2573C.title: "&a&l购买：艾瑟金属锭"
-	quest.D1FD98EA89B58725.quest_desc: [
-		"&d&l购买：附魔书"
-		"&8&m                            "
-		""
-		"&7支付 &e2x Cog&7 换取 &a1x 附魔书&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.D1FD98EA89B58725.quest_subtitle: "&7花费 &e2x Cog&7，可重复"
-	quest.D1FD98EA89B58725.title: "&d&l购买：附魔书"
-	quest.D22808A1BF91369C.quest_desc: [
-		"&d&l购买：信标"
-		"&8&m                            "
-		""
-		"&7支付 &e3x Crown&7 换取 &a1x 信标&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.D22808A1BF91369C.quest_subtitle: "&7花费 &e3x Crown&7，可重复"
-	quest.D22808A1BF91369C.title: "&d&l购买：信标"
-	quest.D55ABCEE693F23CF.quest_desc: [
-		"&6&l购买：南瓜派"
-		"&8&m                            "
-		""
-		"&7支付 &e3x Bevel&7 换取 &a8x 南瓜派&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&6&l类别：&r &f补给"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.D55ABCEE693F23CF.quest_subtitle: "&7花费 &e3x Bevel&7，可重复"
-	quest.D55ABCEE693F23CF.title: "&6&l购买：南瓜派"
 	quest.D6ECA7F4D218A103.quest_desc: [
 		"&c&l炽热风味"
 		"&8&m                            "
@@ -51172,58 +52277,10 @@
 	]
 	quest.D6ECA7F4D218A103.quest_subtitle: "&7吃下高温"
 	quest.D6ECA7F4D218A103.title: "&c&l炽热风味"
-	quest.D7991E5474E7AE02.quest_desc: [
-		"&a&l购买：煤炭"
-		"&8&m                            "
-		""
-		"&7支付 &e2x Bevel&7 换取 &a16x 煤炭&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.D7991E5474E7AE02.quest_subtitle: "&7花费 &e2x Bevel&7，可重复"
-	quest.D7991E5474E7AE02.title: "&a&l购买：煤炭"
-	quest.DA2EB7D87FAD7A7D.quest_desc: [
-		"&a&l购买：强化荧石锭"
-		"&8&m                            "
-		""
-		"&7支付 &e1x Cog&7 换取 &a4x 强化荧石锭&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.DA2EB7D87FAD7A7D.quest_subtitle: "&7花费 &e1x Cog&7，可重复"
-	quest.DA2EB7D87FAD7A7D.title: "&a&l购买：强化荧石锭"
-	quest.DD579EBA1F418719.quest_desc: [
-		"&a&l购买：富集铁"
-		"&8&m                            "
-		""
-		"&7支付 &e1x Sprocket&7 换取 &a8x 富集铁&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.DD579EBA1F418719.quest_subtitle: "&7花费 &e1x Sprocket&7，可重复"
-	quest.DD579EBA1F418719.title: "&a&l购买：富集铁"
-	quest.DDD5DDDA347B1816.quest_desc: [
-		"&d&l购买：鞘翅"
-		"&8&m                            "
-		""
-		"&7支付 &e1x Sun&7 换取 &a1x 鞘翅&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.DDD5DDDA347B1816.quest_subtitle: "&7花费 &e1x Sun&7，可重复"
-	quest.DDD5DDDA347B1816.title: "&d&l购买：鞘翅"
 	quest.E0D274E6F94B88C8.quest_desc: [
 		"&a&l资源与材料"
 		"&8&m                            "
@@ -51232,19 +52289,7 @@
 	]
 	quest.E0D274E6F94B88C8.quest_subtitle: "&7在这里花掉你的硬币"
 	quest.E0D274E6F94B88C8.title: "&a&l资源与材料"
-	quest.E293AF12334C5018.quest_desc: [
-		"&a&l购买：强化黑曜石锭"
-		"&8&m                            "
-		""
-		"&7支付 &e1x Cog&7 换取 &a4x 强化黑曜石锭&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.E293AF12334C5018.quest_subtitle: "&7花费 &e1x Cog&7，可重复"
-	quest.E293AF12334C5018.title: "&a&l购买：强化黑曜石锭"
 	quest.E29FDE4F4BD7E117.quest_desc: [
 		"&9&l暖心饮品"
 		"&8&m                            "
@@ -51258,162 +52303,18 @@
 	]
 	quest.E29FDE4F4BD7E117.quest_subtitle: "&7小酌一口，真有福利"
 	quest.E29FDE4F4BD7E117.title: "&9&l暖心饮品"
-	quest.E3232A8A592FAFD9.quest_desc: [
-		"&d&l购买：鞍"
-		"&8&m                            "
-		""
-		"&7支付 &e2x Sprocket&7 换取 &a2x 鞍&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.E3232A8A592FAFD9.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
-	quest.E3232A8A592FAFD9.title: "&d&l购买：鞍"
-	quest.E3449EE419EF2C33.quest_desc: [
-		"&a&l购买：黏液球"
-		"&8&m                            "
-		""
-		"&7支付 &e3x Bevel&7 换取 &a8x 黏液球&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.E3449EE419EF2C33.quest_subtitle: "&7花费 &e3x Bevel&7，可重复"
-	quest.E3449EE419EF2C33.title: "&a&l购买：黏液球"
-	quest.E3C52AE3543B7180.quest_desc: [
-		"&a&l购买：金块"
-		"&8&m                            "
-		""
-		"&7支付 &e3x Cog&7 换取 &a1x 金块&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.E3C52AE3543B7180.quest_subtitle: "&7花费 &e3x Cog&7，可重复"
-	quest.E3C52AE3543B7180.title: "&a&l购买：金块"
-	quest.E7A01103559C54C9.quest_desc: [
-		"&a&l购买：荧光墨囊"
-		"&8&m                            "
-		""
-		"&7支付 &e3x Bevel&7 换取 &a8x 荧光墨囊&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.E7A01103559C54C9.quest_subtitle: "&7花费 &e3x Bevel&7，可重复"
-	quest.E7A01103559C54C9.title: "&a&l购买：荧光墨囊"
-	quest.E80508D3A6ABABFD.quest_desc: [
-		"&a&l购买：火药"
-		"&8&m                            "
-		""
-		"&7支付 &e4x Bevel&7 换取 &a16x 火药&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.E80508D3A6ABABFD.quest_subtitle: "&7花费 &e4x Bevel&7，可重复"
-	quest.E80508D3A6ABABFD.title: "&a&l购买：火药"
-	quest.E9CC3E8226040B37.quest_desc: [
-		"&d&l购买：远古残骸"
-		"&8&m                            "
-		""
-		"&7支付 &e4x Cog&7 换取 &a2x 远古残骸&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.E9CC3E8226040B37.quest_subtitle: "&7花费 &e4x Cog&7，可重复"
-	quest.E9CC3E8226040B37.title: "&d&l购买：远古残骸"
-	quest.EC1557983C9B8B16.quest_desc: [
-		"&6&l购买：米饭"
-		"&8&m                            "
-		""
-		"&7支付 &e2x Bevel&7 换取 &a8x 米饭&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&6&l类别：&r &f补给"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.EC1557983C9B8B16.quest_subtitle: "&7花费 &e2x Bevel&7，可重复"
-	quest.EC1557983C9B8B16.title: "&6&l购买：米饭"
-	quest.EF978396C7F26235.quest_desc: [
-		"&d&l购买：传送核心"
-		"&8&m                            "
-		""
-		"&7支付 &e4x Cog&7 换取 &a1x 传送核心&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.EF978396C7F26235.quest_subtitle: "&7花费 &e4x Cog&7，可重复"
-	quest.EF978396C7F26235.title: "&d&l购买：传送核心"
-	quest.F10355643504464B.quest_desc: [
-		"&a&l购买：黑曜石"
-		"&8&m                            "
-		""
-		"&7支付 &e4x Bevel&7 换取 &a8x 黑曜石&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.F10355643504464B.quest_subtitle: "&7花费 &e4x Bevel&7，可重复"
-	quest.F10355643504464B.title: "&a&l购买：黑曜石"
-	quest.F119AB7DAF2A5A8F.quest_desc: [
-		"&d&l购买：炽铁锭"
-		"&8&m                            "
-		""
-		"&7支付 &e2x Cog&7 换取 &a2x 炽铁锭&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.F119AB7DAF2A5A8F.quest_subtitle: "&7花费 &e2x Cog&7，可重复"
-	quest.F119AB7DAF2A5A8F.title: "&d&l购买：炽铁锭"
-	quest.F3B24D5C1C704509.quest_desc: [
-		"&d&l购买：宝石粉"
-		"&8&m                            "
-		""
-		"&7支付 &e2x Sprocket&7 换取 &a8x 宝石粉&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.F3B24D5C1C704509.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
-	quest.F3B24D5C1C704509.title: "&d&l购买：宝石粉"
-	quest.F69108D880593B66.quest_desc: [
-		"&a&l购买：强化合金"
-		"&8&m                            "
-		""
-		"&7支付 &e1x Cog&7 换取 &a4x 强化合金&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.F69108D880593B66.quest_subtitle: "&7花费 &e1x Cog&7，可重复"
-	quest.F69108D880593B66.title: "&a&l购买：强化合金"
 	quest.F797628EBF5179FF.quest_desc: [
 		"&6&l强身盛宴"
 		"&8&m                            "
@@ -51426,107 +52327,25 @@
 	]
 	quest.F797628EBF5179FF.quest_subtitle: "&7价值连城的一餐"
 	quest.F797628EBF5179FF.title: "&6&l强身盛宴"
-	quest.F92B4528B5BB8EBA.quest_desc: [
-		"&d&l购买：附魔金苹果"
-		"&8&m                            "
-		""
-		"&7支付 &e1x Crown&7 换取 &a1x 附魔金苹果&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.F92B4528B5BB8EBA.quest_subtitle: "&7花费 &e1x Crown&7，可重复"
-	quest.F92B4528B5BB8EBA.title: "&d&l购买：附魔金苹果"
-	quest.F94EAD10C8B5DAD3.quest_desc: [
-		"&d&l购买：命名牌"
-		"&8&m                            "
-		""
-		"&7支付 &e1x Sprocket&7 换取 &a4x 命名牌&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.F94EAD10C8B5DAD3.quest_subtitle: "&7花费 &e1x Sprocket&7，可重复"
-	quest.F94EAD10C8B5DAD3.title: "&d&l购买：命名牌"
-	quest.F9E80549413A8FB6.quest_desc: [
-		"&6&l购买：熟牛排"
-		"&8&m                            "
-		""
-		"&7支付 &e2x Bevel&7 换取 &a16x 熟牛排&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&6&l类别：&r &f补给"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.F9E80549413A8FB6.quest_subtitle: "&7花费 &e2x Bevel&7，可重复"
-	quest.F9E80549413A8FB6.title: "&6&l购买：熟牛排"
-	quest.FBA4F4E5716177EA.quest_desc: [
-		"&d&l购买：能量板"
-		"&8&m                            "
-		""
-		"&7支付 &e3x Cog&7 换取 &a1x 能量板&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.FBA4F4E5716177EA.quest_subtitle: "&7花费 &e3x Cog&7，可重复"
-	quest.FBA4F4E5716177EA.title: "&d&l购买：能量板"
-	quest.FBE24CAEC8E49AD1.quest_desc: [
-		"&a&l购买：钢叶"
-		"&8&m                            "
-		""
-		"&7支付 &e2x Sprocket&7 换取 &a8x 钢叶&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.FBE24CAEC8E49AD1.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
-	quest.FBE24CAEC8E49AD1.title: "&a&l购买：钢叶"
-	quest.FBEBAB0FD20734C1.quest_desc: [
-		"&d&l购买：电子管"
-		"&8&m                            "
-		""
-		"&7支付 &e2x Sprocket&7 换取 &a8x 电子管&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&d&l类别：&r &f稀有难寻"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.FBEBAB0FD20734C1.quest_subtitle: "&7花费 &e2x Sprocket&7，可重复"
-	quest.FBEBAB0FD20734C1.title: "&d&l购买：电子管"
-	quest.FC262FBB271285D7.quest_desc: [
-		"&a&l购买：黑曜石粉末"
-		"&8&m                            "
-		""
-		"&7支付 &e1x Sprocket&7 换取 &a8x 黑曜石粉末&7。"
-		"&7此交易&a可重复&7，只要付得起就能一直买。"
-		""
-		"&a&l类别：&r &f资源"
-		""
-		"&e&l提示：&r &7从狩猎与进程任务中赚取硬币，再到这里消费。"
-	]
 	quest.FC262FBB271285D7.quest_subtitle: "&7花费 &e1x Sprocket&7，可重复"
-	quest.FC262FBB271285D7.title: "&a&l购买：黑曜石粉末"
 	reward_table.159F9EEDD15E57B6.title: "Create Loot"
 	reward_table.27A001FEADFE5B13.title: "Refined Storage 战利品"
 	reward_table.3DB171130665E8A5.title: "The Aether Loot"
 	reward_table.4A1B2C3D4E5F6A70.title: "Common Loot"
+	reward_table.4FF671B0F8F3AE54.title: "Simply"
 	reward_table.5B2C3D4E5F6A7B81.title: "Rare Loot"
 	reward_table.5BA529EFD577AEC7.title: "下界战利品"
 	reward_table.6C3D4E5F6A7B8C92.title: "Legendary Loot"
 	reward_table.7832E783B5676BAA.title: "Immersive Aircraft Loot"
 	reward_table.78C523E6C0425A3E.title: "Overworld Basics"
 	task.000E284E64FFA1D4.title: "指南"
+	task.010B90F74549D650.title: "任意原木"
 	task.0169ACC033986263.title: "Terror Phantom"
 	task.01E1FDAB35CB3A62.title: "指南"
 	task.02162D8D83803762.title: "The More You Know!"
@@ -51548,6 +52367,8 @@
 	task.0AA393708F98CAAD.title: "找到至暗祭坛"
 	task.0C88C7EACA8C1127.title: "踏入下界"
 	task.0DD3C1416FC34FA1.title: "Click me!"
+	task.0F16BC579B286C75.title: "狂猎开始！"
+	task.0F21F31F89EE9EE0.title: "六氟化铀"
 	task.1000000000000021.title: "踏入天界"
 	task.1000000000000041.title: "绯红森林"
 	task.1000000000000044.title: "玄武岩三角洲"
@@ -51556,6 +52377,7 @@
 	task.1053B1858A9926B3.title: "Any Wire Spool"
 	task.10B8262FD5FF6663.title: "中央厨房"
 	task.10FF29EE8CC1EB52.title: "欢迎来到 Immersive Engineering！"
+	task.111E5DCA80221B12.title: "盐水"
 	task.129BF6F1E46C2374.title: "Aquaculture"
 	task.13B14E2ACB2E8CCF.title: "天根草甸"
 	task.13D4B7B7E30A0139.title: "飞向无限，超越极限！"
@@ -51585,8 +52407,10 @@
 	task.2000000000000117.title: "善终"
 	task.21274FD2BB0F07E7.title: "Like a Bossaru!"
 	task.21428FE253D34D4E.title: "Quests"
+	task.21F908C707A5CD22.title: "水蒸气"
 	task.225F6D4D5FBBD83D.title: "Simply Swords"
 	task.22A5BE41BDD81188.title: "指南"
+	task.2344D8A26E6E5D26.title: "氢氟酸"
 	task.243E779710E31B68.title: "The Bruin"
 	task.24D0231A8BE30CD5.title: "指南"
 	task.25164A32E3065525.title: "Evoker Form"
@@ -51602,6 +52426,7 @@
 	task.27AC37AD00C7EADD.title: "The Wheezer"
 	task.27DCD342A7A31C2E.title: "Exotic Hardware"
 	task.28EF7EDD9CBC144B.title: "The Pregnant"
+	task.292831B4A303C4E2.title: "硫酸"
 	task.2996503157B9BE70.title: "指南"
 	task.2A9C88F8BEABD6DC.title: "指南"
 	task.2B27CB8C1C372652.title: "指南"
@@ -51610,9 +52435,11 @@
 	task.2BCA2D035A88D3EA.title: "末影人"
 	task.2BF60FA293C5FF57.title: "女武神"
 	task.2CB554B137C27BCB.title: "A Well Earned Rest"
+	task.2D35B677BEBB9F60.title: "水"
 	task.2D61DEFE31913569.title: "指南"
 	task.2D971EBC27A28245.title: "&l&d击败因果守卫者"
 	task.2E2EEC4DFE7514EE.title: "指南"
+	task.2E362D86A45621D3.title: "水"
 	task.2E402A7B47F5B536.title: "监守者"
 	task.2E5C745B6235D5D2.title: "Any Mechanical Piston"
 	task.2E5F2C51B6C7D87F.title: "指南"
@@ -51628,6 +52455,7 @@
 	task.33A12B21A2835C25.title: "Baby Food"
 	task.3515281F92F44894.title: "诡异森林"
 	task.370EFB4BF0310049.title: "指南"
+	task.37A8079818A3FEA1.title: "氧气"
 	task.37C9041F23A82BC7.title: "核能"
 	task.38688E2F4F9C33B8.title: "指南"
 	task.388CAB9731714C00.title: "末影龙"
@@ -51650,13 +52478,16 @@
 	task.3D6C921B19CB832D.title: "指南"
 	task.3D7213D3497F35DD.title: "指南"
 	task.3D7BD985875AFF57.title: "Kill a Shriek Worm"
+	task.3DB8DFC85BE42F9C.title: "第一季"
 	task.3E21742FFB69B1F0.title: "Human Form"
+	task.3E89759074A441A2.title: "氢气"
 	task.4000000000000021.title: "Find a Gold Dungeon"
 	task.40EB81A8114DA1F7.title: "指南"
 	task.41072483A31D019D.title: "指南"
 	task.415D681366CCA8B4.title: "Any Cogwheel"
 	task.4320FE097FFFC67F.title: "终极封禁之锤"
 	task.435BA9CD40500437.title: "指南"
+	task.43FFF1E58302E3FE.title: "氯气"
 	task.447E94C9691121B4.title: "Hostile Paradise"
 	task.44E6FE3448FCFEA5.title: "Pod Infector"
 	task.45D05BCE5065CD04.title: "指南"
@@ -51682,6 +52513,8 @@
 	task.520DA2978C229434.title: "TFMG"
 	task.53E97299AE205247.title: "The Moonflower"
 	task.5465FEC5D3C9D92F.title: "When Phygs Fly"
+	task.54DA23EAADE1B2F6.title: "二氧化硫"
+	task.54EB80883788F3FC.title: "铀锭"
 	task.5600F8BC13DD8A35.title: "Jignon d'argent"
 	task.58E2E188B880374E.title: "Artifacts"
 	task.5945A732504C0B94.title: "Find a Fortress"
@@ -51689,6 +52522,7 @@
 	task.5AF0ED2DE7305880.title: "踏入下界"
 	task.5B9501581479A2EC.title: "Kill a Shattered"
 	task.5C3B02FEB95201F5.title: "指南"
+	task.5CB4BEA8DC466F98.title: "氧化铀"
 	task.5D0C628B2997E632.title: "Cool Jewelry!"
 	task.5EB5E2E9428858C1.title: "指南"
 	task.5EEA019B68263742.title: "Dethroned"
@@ -51702,6 +52536,8 @@
 	task.628DB7EBD71EACBA.title: "The Swarmer"
 	task.62AEBFD1B43EB170.title: "Locate the Ancient Tower"
 	task.642778E9B8BE116D.title: "自动化"
+	task.643F145F79C703F9.title: "开启你的存储之旅"
+	task.647876B06DF0D352.title: "水"
 	task.65502B03244DE91B.title: "Silverfish Farms"
 	task.66D8AED7FC460DF4.title: "&l&1击败 &k宇宙&r"
 	task.681C4B536218FB26.title: "指南"
@@ -51742,63 +52578,5 @@
 	task.7E58AA59E81EE102.title: "Locate the Marble Soulforge"
 	task.7EA0FF3B604D14A4.title: "指南"
 	task.7F6BD9A2AB6A12FE.title: "指南"
-	chapter.207A473A77613682.title: "&6&lArcadia 集市"
-	chapter.21167430A261967F.title: "&6&lArcadia 集市"
-	chapter.466210654405EC68.title: "&6&lArcadia 集市"
-	chapter.53B3A5285E057E54.title: "水生狩猎"
-	chapter.564F75586B27A8C6.title: "&6&lArcadia 集市"
-	chapter.5F5A44120CD729F9.title: "动物狩猎"
-	chapter.66BB7BCF63E3DCD4.title: "&6&lArcadia 集市"
-	chapter.6AC17E08DAC3702F.title: "保护你的家园"
-	chapter.71743AC454835CFD.title: "&6&lArcadia 集市"
-	chapter.722A9BB5CF6873E8.title: "守护者狩猎"
-	chapter.7A0AFA9D543C27E3.title: "&6&lArcadia 集市"
-	chapter.7DEAE6D34AADADAC.title: "&6&lArcadia 集市"
-	file.0000000000000001.title: "阿卡迪亚任务"
-	quest.235E4F75A376784D.quest_desc: [
-		"&9&l机器人"
-		"&8&m                            "
-		""
-		"&7机器伙伴会跟随你，可作为便携式工作台和背包，"
-		"&7并可在充电板上自动充电。"
-		""
-		"&9&l类别：&r &f装备"
-		""
-		"&e&l★ 提示：&r &7给它命名并染色。机器伙伴是你的野外伙伴。"
-	]
-	quest.235E4F75A376784D.quest_subtitle: "&7忠实的机器人助手"
-	quest.235E4F75A376784D.title: "&9&l机器人"
-	quest.5272BF8C23083AFA.quest_desc: [
-		"&9&l数字型采矿机"
-		"&8&m                            "
-		""
-		"&7数字采矿机会扫描大片区域，自动挖掘"
-		"&7所有符合你设定过滤器的方块。"
-		""
-		"&9&l类别：&r &f装备"
-		""
-		"&e&l★ 提示：&r &7它甚至可以回填挖过的地方，保持地貌整洁。"
-	]
-	quest.5272BF8C23083AFA.quest_subtitle: "&7按过滤器开采整片区域"
-	quest.5272BF8C23083AFA.title: "&9&l数字型采矿机"
-	reward_table.4FF671B0F8F3AE54.title: "Simply"
-	task.010B90F74549D650.title: "任意原木"
-	task.0F16BC579B286C75.title: "狂猎开始！"
-	task.0F21F31F89EE9EE0.title: "六氟化铀"
-	task.111E5DCA80221B12.title: "盐水"
-	task.21F908C707A5CD22.title: "水蒸气"
-	task.2344D8A26E6E5D26.title: "氢氟酸"
-	task.292831B4A303C4E2.title: "硫酸"
-	task.2D35B677BEBB9F60.title: "水"
-	task.2E362D86A45621D3.title: "水"
-	task.37A8079818A3FEA1.title: "氧气"
-	task.3DB8DFC85BE42F9C.title: "第一季"
-	task.3E89759074A441A2.title: "氢气"
-	task.43FFF1E58302E3FE.title: "氯气"
-	task.54DA23EAADE1B2F6.title: "二氧化硫"
-	task.54EB80883788F3FC.title: "铀锭"
-	task.5CB4BEA8DC466F98.title: "氧化铀"
-	task.643F145F79C703F9.title: "开启你的存储之旅"
-	task.647876B06DF0D352.title: "水"
 	task.7F911EE8A527FD04.title: "三氧化硫"
 }

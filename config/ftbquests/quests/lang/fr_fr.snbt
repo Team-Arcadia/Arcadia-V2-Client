@@ -27,6 +27,8 @@
 	chapter.1CA674828FA25CF1.title: "Never End"
 	chapter.1CAB30BEBF9A7BAD.title: "Better Archeology"
 	chapter.1CD1C78ACE284DAC.title: "Immersive Engineering"
+	chapter.207A473A77613682.title: "&6&lMarché Arcadia"
+	chapter.21167430A261967F.title: "&6&lMarché Arcadia"
 	chapter.21CD93281EC5D8BA.title: "Ars Nouveau: The Arcana"
 	chapter.223DF8DCC9BD5DC8.title: "Ars Nouveau: The Arcana"
 	chapter.2266F4986018FE94.title: "Ars Nouveau: The Arcana"
@@ -52,6 +54,7 @@
 	chapter.40539D27427ADC55.title: "Aquaculture"
 	chapter.42A2A61E91FED9D3.title: "Transport"
 	chapter.43C23AA38182EE22.title: "The Ars Universe"
+	chapter.466210654405EC68.title: "&6&lMarché Arcadia"
 	chapter.46C218ADE0AF2F06.title: "Ars Nouveau: The Arcana"
 	chapter.47E39894EF7D874F.title: "&6&lMarché Arcadia"
 	chapter.4A3F221B90C8E111.title: "Harmonie des Addons"
@@ -60,28 +63,37 @@
 	chapter.4F0571445E92420B.title: "Create IV"
 	chapter.50A7D24C926B5337.title: "Automatisation"
 	chapter.51F3D91FE35B285B.title: "Protocole d'Élimination"
+	chapter.53B3A5285E057E54.title: "Chasse aquatique"
+	chapter.564F75586B27A8C6.title: "&6&lMarché Arcadia"
 	chapter.56EAAE3D37C44FBB.title: "L'Appel du Nether"
 	chapter.59A09EBE03BCD206.title: "Farmer's Delight"
 	chapter.5A87783C9E33A3F5.title: "Ars Nouveau: The Arcana"
 	chapter.5AEA78F0EB1C5190.title: "Ajouts Amusants"
 	chapter.5EBA0434F00003AD.title: "Ars Nouveau: The Arcana"
+	chapter.5F5A44120CD729F9.title: "Chasse animale"
 	chapter.6017B5D638CD163F.title: "Flux Networks"
 	chapter.610E034C43873033.title: "The Factory Must Grow"
 	chapter.61859E1E119A2059.title: "Comment Commencer ?"
+	chapter.66BB7BCF63E3DCD4.title: "&6&lMarché Arcadia"
 	chapter.68456F7A7F1A1FC0.title: "Mowzie's Mobs"
 	chapter.68E72CE83D0ABD2B.title: "Immersive Engineering II"
+	chapter.6AC17E08DAC3702F.title: "Protège ton foyer"
 	chapter.6AEDA2F9BEB57759.title: "Ars Nouveau"
 	chapter.6CCCF18152F9F1D7.title: "Waystones"
 	chapter.6DC56CCA0140950F.title: "The Ars Universe"
 	chapter.6F34809ABFCF1EC1.title: "Un Nouveau Départ"
 	chapter.6F7D2E1A9B3C4D5E.title: "L'Encyclopédie du Fermier"
 	chapter.7084D379D91DEADB.title: "Sophisticated"
+	chapter.71743AC454835CFD.title: "&6&lMarché Arcadia"
+	chapter.722A9BB5CF6873E8.title: "Chasse aux protecteurs"
 	chapter.76DF5FAA7961E5E7.title: "Iron's Spells"
 	chapter.7732CF7AAA63DB3A.title: "Forêt Crépusculaire"
 	chapter.78C42E1D183121E4.title: "The Ars Universe"
+	chapter.7A0AFA9D543C27E3.title: "&6&lMarché Arcadia"
 	chapter.7AF827D2D101D343.title: "Artifacts"
 	chapter.7B146862FB6BBA13.title: "Ars Nouveau: The Arcana"
 	chapter.7D557E8B3CE6784B.title: "Deeper and Darker"
+	chapter.7DEAE6D34AADADAC.title: "&6&lMarché Arcadia"
 	chapter.7E0B63C5B0BA3C9F.title: "Ars Nouveau: Complete Magic"
 	chapter.7E95BF022EBA7DD9.title: "Gastronomie de l'End"
 	chapter.98AE88DE6C59EB73.title: "Guide de Progression"
@@ -101,6 +113,7 @@
 	chapter_group.60D079AEFA04041F.description: "Absolute perfection"
 	chapter_group.70AB2085E1434295.description: "Learning"
 	chapter_group.70AB2085E1434295.title: "&f&m    &r &b&lQuête Principale &f&m    &r"
+	file.0000000000000001.title: "Quêtes Arcadia"
 	quest.000315ABE9E65C07.quest_desc: [
 		"&5&lChassez 25 Apothicaires"
 		"&8&m                            "
@@ -1377,6 +1390,19 @@
 	]
 	quest.0300307C7FB9E47C.quest_subtitle: "&7Montez un bloc d'un palier"
 	quest.0300307C7FB9E47C.title: "&3&lAmélioration vers le Palier Netherite"
+	quest.0311CE6B0AF9E790.quest_desc: [
+		"&a&lAcheter: L'ingot d'Iesnium "
+		"&8&m                            "
+		""
+		"&7Payez &e1x Cog&7 pour recevoir &a4x L'ingot d'Iesnium &7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.0311CE6B0AF9E790.quest_subtitle: "&7Coûte &e1x Cog&7, rachetable"
+	quest.0311CE6B0AF9E790.title: "&a&lAcheter: L'ingot d'Iesnium "
 	quest.0313C76DE37D1C84.quest_desc: [
 		"&5&lChassez 400 Géants Blindés"
 		"&8&m                            "
@@ -1484,6 +1510,32 @@
 	]
 	quest.037E3B28B6729C92.quest_subtitle: "&7100 Tourbillons abattus"
 	quest.037E3B28B6729C92.title: "&c&lChassez 100 Tourbillons"
+	quest.0389EB34C3659D3A.quest_desc: [
+		"&5&lAcheter: Ver"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Bevel&7 pour recevoir &a16x Ver&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&5&lCatégorie:&r &fAventure"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.0389EB34C3659D3A.quest_subtitle: "&7Coûte &e1x Bevel&7, rachetable"
+	quest.0389EB34C3659D3A.title: "&5&lAcheter: Ver"
+	quest.038B258EEAF0B655.quest_desc: [
+		"&b&lAcheter: Circuit de contrôle de base"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Cog&7 pour recevoir &a4x Circuit de contrôle de base&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&b&lCatégorie:&r &fIndustrie"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.038B258EEAF0B655.quest_subtitle: "&7Coûte &e1x Cog&7, rachetable"
+	quest.038B258EEAF0B655.title: "&b&lAcheter: Circuit de contrôle de base"
 	quest.038CE6A928B0135F.quest_desc: [
 		"&b&lFaisceau de Câbles"
 		"&8&m                            "
@@ -3484,6 +3536,19 @@
 	]
 	quest.088596BED6A0A56C.quest_subtitle: "&7400 Chevaliers déchus abattus"
 	quest.088596BED6A0A56C.title: "&c&lChassez 400 Chevaliers déchus"
+	quest.088B6FACEE90993C.quest_desc: [
+		"&a&lAcheter: Gunpowder"
+		"&8&m                            "
+		""
+		"&7Payez &e4x Bevel&7 pour recevoir &a16x Gunpowder&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.088B6FACEE90993C.quest_subtitle: "&7Coûte &e4x Bevel&7, rachetable"
+	quest.088B6FACEE90993C.title: "&a&lAcheter: Gunpowder"
 	quest.088FCB5267CB7A89.quest_desc: [
 		"&e&lCeinture des Dons Instables"
 		"&8&m                            "
@@ -3979,6 +4044,19 @@
 	]
 	quest.09EF871C81D8A247.quest_subtitle: "&7100 Gardiens anciens possédés abattus"
 	quest.09EF871C81D8A247.title: "&5&lChassez 100 Gardiens anciens possédés"
+	quest.09FCAF9B990B0084.quest_desc: [
+		"&d&lAcheter: Pastille de Polonium"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Crown&7 pour recevoir &a1x Pastille de Polonium&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.09FCAF9B990B0084.quest_subtitle: "&7Coûte &e1x Crown&7, rachetable"
+	quest.09FCAF9B990B0084.title: "&d&lAcheter: Pastille de Polonium"
 	quest.09FE2E7490DA8005.quest_desc: [
 		"&6&lContrôleur et Volant"
 		"&8&m                            "
@@ -4673,6 +4751,19 @@
 	]
 	quest.0BC11594F187003A.quest_subtitle: "&7700 Phantoms abattus"
 	quest.0BC11594F187003A.title: "&c&lChassez 700 Phantoms"
+	quest.0BCB6E97C1D465F6.quest_desc: [
+		"&b&lAcheter: Plaque de cuivre"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a16x Plaque de cuivre&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&b&lCatégorie:&r &fIndustrie"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.0BCB6E97C1D465F6.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.0BCB6E97C1D465F6.title: "&b&lAcheter: Plaque de cuivre"
 	quest.0BD5454FEF90DC2E.quest_desc: [
 		"&b&lMélange d'Alliage"
 		"&8&m                            "
@@ -4766,6 +4857,19 @@
 	]
 	quest.0C0A027F98257FF0.quest_subtitle: "&7Fondez le minerai en le minant"
 	quest.0C0A027F98257FF0.title: "&e&lChauffe-pioche"
+	quest.0C0EA6EA70AB8AC2.quest_desc: [
+		"&a&lAcheter: Prismarine Crystals"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Sprocket&7 pour recevoir &a8x Prismarine Crystals&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.0C0EA6EA70AB8AC2.quest_subtitle: "&7Coûte &e1x Sprocket&7, rachetable"
+	quest.0C0EA6EA70AB8AC2.title: "&a&lAcheter: Prismarine Crystals"
 	quest.0C256F7C80318051.quest_desc: [
 		"&6&lTonneau en Netherite"
 		"&8&m                            "
@@ -4807,6 +4911,19 @@
 	]
 	quest.0C454EC7CD69729C.quest_subtitle: "&7900 Poissons-globes abattus"
 	quest.0C454EC7CD69729C.title: "&c&lChassez 900 Poissons-globes"
+	quest.0C46CE62F03ACA27.quest_desc: [
+		"&d&lAcheter: Ancient Debris"
+		"&8&m                            "
+		""
+		"&7Payez &e4x Cog&7 pour recevoir &a2x Ancient Debris&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.0C46CE62F03ACA27.quest_subtitle: "&7Coûte &e4x Cog&7, rachetable"
+	quest.0C46CE62F03ACA27.title: "&d&lAcheter: Ancient Debris"
 	quest.0C4B37354123E2D5.quest_desc: [
 		"&a&lAcheter: Lingot d'Osmium"
 		"&8&m                            "
@@ -4982,6 +5099,19 @@
 	]
 	quest.0CCFE947AC5A60F9.quest_subtitle: "&7Une arbalète d'aéronef qui frappe fort"
 	quest.0CCFE947AC5A60F9.title: "&6&lArbalète Lourde"
+	quest.0CD0556F6421FEDF.quest_desc: [
+		"&d&lAcheter: Shulker Shell"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Cog&7 pour recevoir &a2x Shulker Shell&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.0CD0556F6421FEDF.quest_subtitle: "&7Coûte &e2x Cog&7, rachetable"
+	quest.0CD0556F6421FEDF.title: "&d&lAcheter: Shulker Shell"
 	quest.0CD34AF8F5786671.quest_desc: [
 		"&3&l･❪ Cellule Plasma ❫･"
 		"&8&m                            "
@@ -5255,6 +5385,19 @@
 	]
 	quest.0D72DA6C5C2B37DF.quest_subtitle: "&7200 Villageois zombies abattus"
 	quest.0D72DA6C5C2B37DF.title: "&c&lChassez 200 Villageois zombies"
+	quest.0D7F6322C1081705.quest_desc: [
+		"&5&lAcheter: Lingot de neptunium"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Cog&7 pour recevoir &a2x Lingot de neptunium&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&5&lCatégorie:&r &fAventure"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.0D7F6322C1081705.quest_subtitle: "&7Coûte &e1x Cog&7, rachetable"
+	quest.0D7F6322C1081705.title: "&5&lAcheter: Lingot de neptunium"
 	quest.0D824266D1219B1A.quest_desc: [
 		"&3&lGrand moteur"
 		"&8&m                            "
@@ -5857,6 +6000,19 @@
 	]
 	quest.0E9EBBC6DC145EC1.quest_subtitle: "&7500 Tortues Étoilées abattus"
 	quest.0E9EBBC6DC145EC1.title: "&c&lChassez 500 Tortues Étoilées"
+	quest.0EAAE1AA5F59A597.quest_desc: [
+		"&d&lAcheter: Essence arcanique"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Essence arcanique&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.0EAAE1AA5F59A597.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.0EAAE1AA5F59A597.title: "&d&lAcheter: Essence arcanique"
 	quest.0EC08C5BBFA83A51.quest_desc: [
 		"&d&lGlyphe Éclair"
 		"&8&m                            "
@@ -7659,6 +7815,19 @@
 	]
 	quest.137662FA762F72DE.quest_subtitle: "&7600 Endermites possédés abattus"
 	quest.137662FA762F72DE.title: "&5&lChassez 600 Endermites possédés"
+	quest.137F13B7C9CB14B4.quest_desc: [
+		"&a&lAcheter: Fer enrichi"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Sprocket&7 pour recevoir &a8x Fer enrichi&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.137F13B7C9CB14B4.quest_subtitle: "&7Coûte &e1x Sprocket&7, rachetable"
+	quest.137F13B7C9CB14B4.title: "&a&lAcheter: Fer enrichi"
 	quest.1384DD8197DE0FB1.quest_desc: [
 		"&c&lChassez 50 Withers"
 		"&8&m                            "
@@ -7902,6 +8071,19 @@
 	]
 	quest.13F84CA3DE0BE4DB.quest_subtitle: "&7600 Gardiens abattus"
 	quest.13F84CA3DE0BE4DB.title: "&c&lChassez 600 Gardiens"
+	quest.13F98F1C70F5C12D.quest_desc: [
+		"&b&lAcheter: Plaque renforcée"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a4x Plaque renforcée&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&b&lCatégorie:&r &fIndustrie"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.13F98F1C70F5C12D.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.13F98F1C70F5C12D.title: "&b&lAcheter: Plaque renforcée"
 	quest.14006DB88F598AD7.quest_desc: [
 		"&c&lChassez 300 Écureuils"
 		"&8&m                            "
@@ -8268,6 +8450,19 @@
 	]
 	quest.14F3BE9E22ABE7CD.quest_subtitle: "&7500 Calmars abattus"
 	quest.14F3BE9E22ABE7CD.title: "&c&lChassez 500 Calmars"
+	quest.14F4A889B4FF112C.quest_desc: [
+		"&d&lAcheter: Netherite Ingot"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Crown&7 pour recevoir &a1x Netherite Ingot&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.14F4A889B4FF112C.quest_subtitle: "&7Coûte &e1x Crown&7, rachetable"
+	quest.14F4A889B4FF112C.title: "&d&lAcheter: Netherite Ingot"
 	quest.14F7308D4FA8295F.quest_desc: [
 		"&c&lChassez 100 Ghasts"
 		"&8&m                            "
@@ -8552,6 +8747,19 @@
 	]
 	quest.15B439C8A1A3C406.quest_subtitle: "&7Un fumoir pour repas rapides"
 	quest.15B439C8A1A3C406.title: "&b&lFumage Amélioration"
+	quest.15BE13378B83B7DA.quest_desc: [
+		"&5&lAcheter: Graines de rêve du démon"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Sprocket&7 pour recevoir &a16x Graines de rêve du démon&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&5&lCatégorie:&r &fAventure"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.15BE13378B83B7DA.quest_subtitle: "&7Coûte &e1x Sprocket&7, rachetable"
+	quest.15BE13378B83B7DA.title: "&5&lAcheter: Graines de rêve du démon"
 	quest.15D17E2A92C42F05.quest_desc: [
 		"&c&lChassez 600 Spadassins"
 		"&8&m                            "
@@ -9071,6 +9279,19 @@
 	]
 	quest.16E9D6A8D24DCF17.quest_subtitle: "&7Un composant de réacteur Mekanism"
 	quest.16E9D6A8D24DCF17.title: "&c&lAssemblage de Carburant à Fission"
+	quest.16F5C80BDA39DE3B.quest_desc: [
+		"&a&lAcheter: Prismarine Shard"
+		"&8&m                            "
+		""
+		"&7Payez &e4x Bevel&7 pour recevoir &a16x Prismarine Shard&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.16F5C80BDA39DE3B.quest_subtitle: "&7Coûte &e4x Bevel&7, rachetable"
+	quest.16F5C80BDA39DE3B.title: "&a&lAcheter: Prismarine Shard"
 	quest.170F8FAA267D8EE2.quest_desc: [
 		"&c&lChassez 600 Morues"
 		"&8&m                            "
@@ -9550,6 +9771,19 @@
 	]
 	quest.18093179535AC79D.quest_subtitle: "&7800 Estoirboucles abattus"
 	quest.18093179535AC79D.title: "&c&lChassez 800 Estoirboucles"
+	quest.1818934AA13623E4.quest_desc: [
+		"&a&lAcheter: Lingot de zinc"
+		"&8&m                            "
+		""
+		"&7Payez &e4x Bevel&7 pour recevoir &a8x Lingot de zinc&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.1818934AA13623E4.quest_subtitle: "&7Coûte &e4x Bevel&7, rachetable"
+	quest.1818934AA13623E4.title: "&a&lAcheter: Lingot de zinc"
 	quest.1821C5212B04E489.quest_desc: [
 		"&5&lChassez 600 Phantoms possédés"
 		"&8&m                            "
@@ -10337,6 +10571,19 @@
 	]
 	quest.1992D7BC6F6362C0.quest_subtitle: "&71000 Vex abattus"
 	quest.1992D7BC6F6362C0.title: "&c&lChassez 1000 Vex"
+	quest.1999ECB8057D18C3.quest_desc: [
+		"&5&lAcheter: Corde"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Sprocket&7 pour recevoir &a16x Corde&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&5&lCatégorie:&r &fAventure"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.1999ECB8057D18C3.quest_subtitle: "&7Coûte &e1x Sprocket&7, rachetable"
+	quest.1999ECB8057D18C3.title: "&5&lAcheter: Corde"
 	quest.199B9FC85D5715C0.quest_desc: [
 		"&b&lRéapprovisionnement Amélioration"
 		"&8&m                            "
@@ -10540,6 +10787,19 @@
 	]
 	quest.19E90EB611F5A514.quest_subtitle: "&7500 Cochons abattus"
 	quest.19E90EB611F5A514.title: "&c&lChassez 500 Cochons"
+	quest.19EA3C44AB718D82.quest_desc: [
+		"&d&lAcheter: Respawn Anchor"
+		"&8&m                            "
+		""
+		"&7Payez &e3x Cog&7 pour recevoir &a1x Respawn Anchor&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.19EA3C44AB718D82.quest_subtitle: "&7Coûte &e3x Cog&7, rachetable"
+	quest.19EA3C44AB718D82.title: "&d&lAcheter: Respawn Anchor"
 	quest.1A004665B944BFB6.quest_desc: [
 		"&c&lChassez 400 Chasseurs sauvages VIII"
 		"&8&m                            "
@@ -10967,6 +11227,19 @@
 	]
 	quest.1B48800A642BD4FB.quest_subtitle: "&71000 Fennecs abattus"
 	quest.1B48800A642BD4FB.title: "&c&lChassez 1000 Fennecs"
+	quest.1B4CB244547E7B78.quest_desc: [
+		"&d&lAcheter: Saddle"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a2x Saddle&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.1B4CB244547E7B78.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.1B4CB244547E7B78.title: "&d&lAcheter: Saddle"
 	quest.1B5177A774FCEF64.quest_desc: [
 		"&f&lCraie Rituelle Blanche"
 		"&8&m                            "
@@ -11237,6 +11510,19 @@
 	]
 	quest.1C07F940D8BF0A2E.quest_subtitle: "&7700 Ours polaires abattus"
 	quest.1C07F940D8BF0A2E.title: "&c&lChassez 700 Ours polaires"
+	quest.1C180A04CD2A53A2.quest_desc: [
+		"&5&lAcheter: Essence de feu"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a4x Essence de feu&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&5&lCatégorie:&r &fAventure"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.1C180A04CD2A53A2.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.1C180A04CD2A53A2.title: "&5&lAcheter: Essence de feu"
 	quest.1C1B28F80856A0ED.quest_desc: [
 		"&5&lChassez 500 Bas Chevaliers Gobelins"
 		"&8&m                            "
@@ -11277,6 +11563,19 @@
 	]
 	quest.1C32EF75858381F9.quest_subtitle: "&7Chassez les guerriers à masque de grue"
 	quest.1C32EF75858381F9.title: "&a&lUmvuthana de la Grue"
+	quest.1C36AE8442AFF242.quest_desc: [
+		"&d&lAcheter: Éclats de Starbuncle"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Sprocket&7 pour recevoir &a8x Éclats de Starbuncle&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.1C36AE8442AFF242.quest_subtitle: "&7Coûte &e1x Sprocket&7, rachetable"
+	quest.1C36AE8442AFF242.title: "&d&lAcheter: Éclats de Starbuncle"
 	quest.1C3F195DABDCBAA1.quest_desc: [
 		"&5&lChassez 300 Coléoptères de Feu"
 		"&8&m                            "
@@ -12083,6 +12382,19 @@
 	]
 	quest.1DF1DC69073D90A5.quest_subtitle: "&7100 Squelettes Wither abattus"
 	quest.1DF1DC69073D90A5.title: "&c&lChassez 100 Squelettes Wither"
+	quest.1E01C425A43B3F7C.quest_desc: [
+		"&a&lAcheter: Nether Wart"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Bevel&7 pour recevoir &a16x Nether Wart&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.1E01C425A43B3F7C.quest_subtitle: "&7Coûte &e2x Bevel&7, rachetable"
+	quest.1E01C425A43B3F7C.title: "&a&lAcheter: Nether Wart"
 	quest.1E15B2480A6C1675.quest_desc: [
 		"&c&lChassez 1000 Moutons"
 		"&8&m                            "
@@ -14159,6 +14471,19 @@
 	]
 	quest.235E3C386E8D36A3.quest_subtitle: "&7La Bibliothèque Profonde, une étagère magique"
 	quest.235E3C386E8D36A3.title: "&b&lBibliothèque Profonde"
+	quest.235E4F75A376784D.quest_desc: [
+		"&9&lRobit"
+		"&8&m                            "
+		""
+		"&7Le Robit vous suit partout, sert de table de craft portable"
+		"&7et d'inventaire, et se recharge sur un Chargepad."
+		""
+		"&9&lCatégorie:&r &fÉquipement"
+		""
+		"&e&l★ Astuce:&r &7Nommez-le et teignez-le. Le Robit est votre compagnon de terrain."
+	]
+	quest.235E4F75A376784D.quest_subtitle: "&7Un fidèle robot assistant"
+	quest.235E4F75A376784D.title: "&9&lRobit"
 	quest.236F0BC9CE7A30FD.quest_desc: [
 		"&a&lTessons de Poterie II"
 		"&8&m                            "
@@ -14215,6 +14540,19 @@
 	]
 	quest.2381AC8763AF2FF8.quest_subtitle: "&7300 Withers abattus"
 	quest.2381AC8763AF2FF8.title: "&c&lChassez 300 Withers"
+	quest.2382E8249A9C1B90.quest_desc: [
+		"&a&lAcheter: Block of Gold"
+		"&8&m                            "
+		""
+		"&7Payez &e3x Cog&7 pour recevoir &a1x Block of Gold&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.2382E8249A9C1B90.quest_subtitle: "&7Coûte &e3x Cog&7, rachetable"
+	quest.2382E8249A9C1B90.title: "&a&lAcheter: Block of Gold"
 	quest.238967F14432AFAA.quest_desc: [
 		"&c&lChassez 25 Estoirboucles"
 		"&8&m                            "
@@ -14405,6 +14743,19 @@
 	]
 	quest.23F2A7B5FC5C341A.quest_subtitle: "&7100 Ours polaires abattus"
 	quest.23F2A7B5FC5C341A.title: "&c&lChassez 100 Ours polaires"
+	quest.23F457AF32B09646.quest_desc: [
+		"&5&lAcheter: Suif"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Sprocket&7 pour recevoir &a16x Suif&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&5&lCatégorie:&r &fAventure"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.23F457AF32B09646.quest_subtitle: "&7Coûte &e1x Sprocket&7, rachetable"
+	quest.23F457AF32B09646.title: "&5&lAcheter: Suif"
 	quest.23F6037C96585029.quest_desc: [
 		"&c&lChassez 1000 Bluffs"
 		"&8&m                            "
@@ -14512,6 +14863,19 @@
 	]
 	quest.244B11B3111BF357.quest_subtitle: "&7Filez un tube lumineux à partir de gaz"
 	quest.244B11B3111BF357.title: "&a&lTube Néon"
+	quest.245DD91303ADF817.quest_desc: [
+		"&b&lAcheter: Poudre de nitrate"
+		"&8&m                            "
+		""
+		"&7Payez &e3x Bevel&7 pour recevoir &a16x Poudre de nitrate&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&b&lCatégorie:&r &fIndustrie"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.245DD91303ADF817.quest_subtitle: "&7Coûte &e3x Bevel&7, rachetable"
+	quest.245DD91303ADF817.title: "&b&lAcheter: Poudre de nitrate"
 	quest.2463D78A94248D44.quest_desc: [
 		"&b&lPlaque de Warp"
 		"&8&m                            "
@@ -14540,6 +14904,32 @@
 	]
 	quest.24652CE610DDEAF9.quest_subtitle: "&7600 Crabes abattus"
 	quest.24652CE610DDEAF9.title: "&c&lChassez 600 Crabes"
+	quest.246CE2EE7B4E6579.quest_desc: [
+		"&a&lAcheter: Lingot d'obsidienne raffinée"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Cog&7 pour recevoir &a4x Lingot d'obsidienne raffinée&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.246CE2EE7B4E6579.quest_subtitle: "&7Coûte &e1x Cog&7, rachetable"
+	quest.246CE2EE7B4E6579.title: "&a&lAcheter: Lingot d'obsidienne raffinée"
+	quest.24727C6262F58D4D.quest_desc: [
+		"&d&lAcheter: Tablette d"énergie"
+		"&8&m                            "
+		""
+		"&7Payez &e3x Cog&7 pour recevoir &a1x Tablette d"énergie&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.24727C6262F58D4D.quest_subtitle: "&7Coûte &e3x Cog&7, rachetable"
+	quest.24727C6262F58D4D.title: "&d&lAcheter: Tablette d"énergie"
 	quest.248329679F0AB78C.quest_desc: [
 		"&c&lChassez 50 Abeilles"
 		"&8&m                            "
@@ -14635,6 +15025,19 @@
 	]
 	quest.24B425A776AD4C18.quest_subtitle: "&750 Bonnets Rouges abattus"
 	quest.24B425A776AD4C18.title: "&5&lChassez 50 Bonnets Rouges"
+	quest.24B585622A99A005.quest_desc: [
+		"&b&lAcheter: Fer enrichi en quartz"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a4x Fer enrichi en quartz&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&b&lCatégorie:&r &fIndustrie"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.24B585622A99A005.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.24B585622A99A005.title: "&b&lAcheter: Fer enrichi en quartz"
 	quest.24B835A774FA1F72.quest_desc: [
 		"&6&lLa Presseuse"
 		"&8&m                            "
@@ -15181,6 +15584,19 @@
 	]
 	quest.25E5FA01636BC3AB.quest_subtitle: "&7L'age du fer commence"
 	quest.25E5FA01636BC3AB.title: "&6&lFer Brut"
+	quest.25EA09D008C4965B.quest_desc: [
+		"&b&lAcheter: Plaque de fer"
+		"&8&m                            "
+		""
+		"&7Payez &e3x Sprocket&7 pour recevoir &a16x Plaque de fer&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&b&lCatégorie:&r &fIndustrie"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.25EA09D008C4965B.quest_subtitle: "&7Coûte &e3x Sprocket&7, rachetable"
+	quest.25EA09D008C4965B.title: "&b&lAcheter: Plaque de fer"
 	quest.25EACC041419DA2B.quest_desc: [
 		"&c&lChassez 10 Chevaux squelettes"
 		"&8&m                            "
@@ -15503,6 +15919,19 @@
 	]
 	quest.26EA5AE645E83AD1.quest_subtitle: "&7600 Bonnets Rouges Sapeurs abattus"
 	quest.26EA5AE645E83AD1.title: "&5&lChassez 600 Bonnets Rouges Sapeurs"
+	quest.26EC44796A43C793.quest_desc: [
+		"&5&lAcheter: Plume de corbeau"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Sprocket&7 pour recevoir &a8x Plume de corbeau&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&5&lCatégorie:&r &fAventure"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.26EC44796A43C793.quest_subtitle: "&7Coûte &e1x Sprocket&7, rachetable"
+	quest.26EC44796A43C793.title: "&5&lAcheter: Plume de corbeau"
 	quest.26FA560447B12335.quest_desc: [
 		"&c&lChassez 200 Saumons"
 		"&8&m                            "
@@ -15837,6 +16266,19 @@
 	]
 	quest.278A008F8A3849CB.quest_subtitle: "&7Forez du minerai sans fin dans les veines"
 	quest.278A008F8A3849CB.title: "&d&lExtraction de Minerai"
+	quest.2791FB05F51E90DE.quest_desc: [
+		"&5&lAcheter: Résonarium"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Cog&7 pour recevoir &a4x Résonarium&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&5&lCatégorie:&r &fAventure"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.2791FB05F51E90DE.quest_subtitle: "&7Coûte &e2x Cog&7, rachetable"
+	quest.2791FB05F51E90DE.title: "&5&lAcheter: Résonarium"
 	quest.279308066B15BD93.quest_desc: [
 		"&c&lChassez 50 Crabes de cocotier"
 		"&8&m                            "
@@ -16475,6 +16917,19 @@
 	]
 	quest.2916C86934114C07.quest_subtitle: "&7Aspirez le butin sans lever le petit doigt, avec un contrôle accru"
 	quest.2916C86934114C07.title: "&9&lAvancé Ramassage Amélioration"
+	quest.29211BBAFA5C5043.quest_desc: [
+		"&6&lAcheter: Pumpkin Pie"
+		"&8&m                            "
+		""
+		"&7Payez &e3x Bevel&7 pour recevoir &a8x Pumpkin Pie&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&6&lCatégorie:&r &fProvisions"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.29211BBAFA5C5043.quest_subtitle: "&7Coûte &e3x Bevel&7, rachetable"
+	quest.29211BBAFA5C5043.title: "&6&lAcheter: Pumpkin Pie"
 	quest.2933B1466B4E6CD6.quest_desc: [
 		"&c&lChassez 700 Écureuils"
 		"&8&m                            "
@@ -16954,6 +17409,19 @@
 	]
 	quest.2A3852D6F2C63DA0.quest_subtitle: "&7800 Withers abattus"
 	quest.2A3852D6F2C63DA0.title: "&c&lChassez 800 Withers"
+	quest.2A3E482F620E91AA.quest_desc: [
+		"&a&lAcheter: Glowstone Dust"
+		"&8&m                            "
+		""
+		"&7Payez &e3x Bevel&7 pour recevoir &a16x Glowstone Dust&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.2A3E482F620E91AA.quest_subtitle: "&7Coûte &e3x Bevel&7, rachetable"
+	quest.2A3E482F620E91AA.title: "&a&lAcheter: Glowstone Dust"
 	quest.2A4086A6060048F4.quest_desc: [
 		"&6&lCouteau de l'Enchanteur"
 		"&8&m                            "
@@ -17220,6 +17688,19 @@
 	]
 	quest.2AD78E22988A92D3.quest_subtitle: "&7Voyez clair dans le noir total"
 	quest.2AD78E22988A92D3.title: "&6&lLunettes de Vision Nocturne"
+	quest.2ADE95B74813DA6B.quest_desc: [
+		"&d&lAcheter: Acier sombre"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Crown&7 pour recevoir &a1x Acier sombre&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.2ADE95B74813DA6B.quest_subtitle: "&7Coûte &e1x Crown&7, rachetable"
+	quest.2ADE95B74813DA6B.title: "&d&lAcheter: Acier sombre"
 	quest.2AF6B49A6493833E.quest_desc: [
 		"&c&lChassez 300 Moutons"
 		"&8&m                            "
@@ -17313,6 +17794,19 @@
 	]
 	quest.2B345E47294A05E1.quest_subtitle: "&7L'amélioration de machine Marid"
 	quest.2B345E47294A05E1.title: "&3&lMarid Upgrade"
+	quest.2B4B80B6C7DABABA.quest_desc: [
+		"&b&lAcheter: Silicone"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Silicone&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&b&lCatégorie:&r &fIndustrie"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.2B4B80B6C7DABABA.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.2B4B80B6C7DABABA.title: "&b&lAcheter: Silicone"
 	quest.2B56650DE346679A.quest_desc: [
 		"&a&lSac à Dos en Fer"
 		"&8&m                            "
@@ -17354,6 +17848,19 @@
 	]
 	quest.2B686ECD91C851F7.quest_subtitle: "&7900 Piglins abattus"
 	quest.2B686ECD91C851F7.title: "&c&lChassez 900 Piglins"
+	quest.2B6A3CB1803E1FA9.quest_desc: [
+		"&b&lAcheter: Mécanisme en acier"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Cog&7 pour recevoir &a4x Mécanisme en acier&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&b&lCatégorie:&r &fIndustrie"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.2B6A3CB1803E1FA9.quest_subtitle: "&7Coûte &e1x Cog&7, rachetable"
+	quest.2B6A3CB1803E1FA9.title: "&b&lAcheter: Mécanisme en acier"
 	quest.2B6C89083A53592C.quest_desc: [
 		"&6&lAcheter: Carotte dorée"
 		"&8&m                            "
@@ -17476,6 +17983,19 @@
 	]
 	quest.2BA6944853FEFC1E.quest_subtitle: "&7Un bloc solide qui contient tout"
 	quest.2BA6944853FEFC1E.title: "&6&lTonneau en Or"
+	quest.2BAA995D1F63C19C.quest_desc: [
+		"&a&lAcheter: Obsidian"
+		"&8&m                            "
+		""
+		"&7Payez &e4x Bevel&7 pour recevoir &a8x Obsidian&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.2BAA995D1F63C19C.quest_subtitle: "&7Coûte &e4x Bevel&7, rachetable"
+	quest.2BAA995D1F63C19C.title: "&a&lAcheter: Obsidian"
 	quest.2BB337AB1844FAFF.quest_desc: [
 		"&c&lChassez 200 Allays"
 		"&8&m                            "
@@ -17610,6 +18130,19 @@
 	]
 	quest.2C1C681F7CBBDEAA.quest_subtitle: "&71000 Araignées des cavernes abattus"
 	quest.2C1C681F7CBBDEAA.title: "&c&lChassez 1000 Araignées des cavernes"
+	quest.2C1E5F666E8A88B6.quest_desc: [
+		"&a&lAcheter: Charbon à coke"
+		"&8&m                            "
+		""
+		"&7Payez &e4x Bevel&7 pour recevoir &a16x Charbon à coke&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.2C1E5F666E8A88B6.quest_subtitle: "&7Coûte &e4x Bevel&7, rachetable"
+	quest.2C1E5F666E8A88B6.title: "&a&lAcheter: Charbon à coke"
 	quest.2C26B331793CFE02.quest_desc: [
 		"&5&lChassez 300 Hoglins possédés"
 		"&8&m                            "
@@ -18244,6 +18777,19 @@
 	]
 	quest.2DC774A0C33CD742.quest_subtitle: "&710 Écureuils abattus"
 	quest.2DC774A0C33CD742.title: "&c&lChassez 10 Écureuils"
+	quest.2DC8DD8BFC0768BE.quest_desc: [
+		"&a&lAcheter: Copper Ingot"
+		"&8&m                            "
+		""
+		"&7Payez &e3x Bevel&7 pour recevoir &a16x Copper Ingot&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.2DC8DD8BFC0768BE.quest_subtitle: "&7Coûte &e3x Bevel&7, rachetable"
+	quest.2DC8DD8BFC0768BE.title: "&a&lAcheter: Copper Ingot"
 	quest.2DCBE05BF48DAAB0.quest_desc: [
 		"&c&lChassez 10 Golems de neige"
 		"&8&m                            "
@@ -18353,6 +18899,19 @@
 	]
 	quest.2E0D25AF2EA8AD5E.quest_subtitle: "&7400 Lamantins abattus"
 	quest.2E0D25AF2EA8AD5E.title: "&c&lChassez 400 Lamantins"
+	quest.2E1E22CD44934525.quest_desc: [
+		"&b&lAcheter: Plaque d'or"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Plaque d'or&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&b&lCatégorie:&r &fIndustrie"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.2E1E22CD44934525.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.2E1E22CD44934525.title: "&b&lAcheter: Plaque d'or"
 	quest.2E1F12778D330707.quest_desc: [
 		"&a&lCultures exotiques"
 		"&8&m                            "
@@ -18539,6 +19098,32 @@
 	]
 	quest.2EC2FA680076C07D.quest_subtitle: "&7La Bibliothèque Sculk Résonnante, une étagère magique"
 	quest.2EC2FA680076C07D.title: "&b&lBibliothèque Sculk Résonnante"
+	quest.2EC4A6255502EC03.quest_desc: [
+		"&6&lAcheter: Riz cuit"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Bevel&7 pour recevoir &a8x Riz cuit&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&6&lCatégorie:&r &fProvisions"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.2EC4A6255502EC03.quest_subtitle: "&7Coûte &e2x Bevel&7, rachetable"
+	quest.2EC4A6255502EC03.title: "&6&lAcheter: Riz cuit"
+	quest.2EC73987D90F6CA2.quest_desc: [
+		"&d&lAcheter: Lingot ardent"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Cog&7 pour recevoir &a2x Lingot ardent&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.2EC73987D90F6CA2.quest_subtitle: "&7Coûte &e2x Cog&7, rachetable"
+	quest.2EC73987D90F6CA2.title: "&d&lAcheter: Lingot ardent"
 	quest.2EC96B81D46D02DB.description: "Retournez à votre maison"
 	quest.2EC96B81D46D02DB.quest_desc: [
 		"&2&l» Rentrer A La Maison"
@@ -19151,6 +19736,19 @@
 	]
 	quest.30C5B597610F4AFB.quest_subtitle: "&7Craie Vert Clair pour les cercles d'invocation"
 	quest.30C5B597610F4AFB.title: "&f&lCraie Rituelle Vert Clair"
+	quest.30C699D9A2775E87.quest_desc: [
+		"&d&lAcheter: Perle Forgée par les Dieux"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Crown&7 pour recevoir &a1x Perle Forgée par les Dieux&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.30C699D9A2775E87.quest_subtitle: "&7Coûte &e1x Crown&7, rachetable"
+	quest.30C699D9A2775E87.title: "&d&lAcheter: Perle Forgée par les Dieux"
 	quest.30CA37CC112ADE1E.quest_desc: [
 		"&a&lAcheter: Pépite d'expérience"
 		"&8&m                            "
@@ -19998,6 +20596,19 @@
 	]
 	quest.32D2CE292E088939.quest_subtitle: "&7Liez la puissance des sorts à votre équipement"
 	quest.32D2CE292E088939.title: "&d&lOrbe d'Amélioration de Feu"
+	quest.32F45F9FEFB52456.quest_desc: [
+		"&d&lAcheter: Elytra"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Sun&7 pour recevoir &a1x Elytra&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.32F45F9FEFB52456.quest_subtitle: "&7Coûte &e1x Sun&7, rachetable"
+	quest.32F45F9FEFB52456.title: "&d&lAcheter: Elytra"
 	quest.32FACAD4D8CB49C7.quest_desc: [
 		"&5&lChassez 600 Adhérents"
 		"&8&m                            "
@@ -20279,6 +20890,19 @@
 	]
 	quest.3391768AA19E3D02.quest_subtitle: "&7800 Hommes-rats abattus"
 	quest.3391768AA19E3D02.title: "&c&lChassez 800 Hommes-rats"
+	quest.33B71388EF49FC6E.quest_desc: [
+		"&d&lAcheter: Pointe sauvage"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a4x Pointe sauvage&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.33B71388EF49FC6E.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.33B71388EF49FC6E.title: "&d&lAcheter: Pointe sauvage"
 	quest.33BED23CBC0E85F2.quest_desc: [
 		"&f&lNetherite-Iron Bottes"
 		"&8&m                            "
@@ -20809,6 +21433,19 @@
 	]
 	quest.3525D5DCC3A534D9.quest_subtitle: "&7Minez plus vite, cassez plus dur"
 	quest.3525D5DCC3A534D9.title: "&e&lGriffes de Mineur"
+	quest.352A57D1928E9706.quest_desc: [
+		"&b&lAcheter: Poussière de soufre"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a16x Poussière de soufre&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&b&lCatégorie:&r &fIndustrie"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.352A57D1928E9706.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.352A57D1928E9706.title: "&b&lAcheter: Poussière de soufre"
 	quest.3531B28F14CF72A2.quest_desc: [
 		"&c&lLe Naga"
 		"&8&m                            "
@@ -21010,6 +21647,19 @@
 	]
 	quest.35A7791C8E42E2D2.quest_subtitle: "&7100 Bombes anciennes abattus"
 	quest.35A7791C8E42E2D2.title: "&c&lChassez 100 Bombes anciennes"
+	quest.35B96A5152623857.quest_desc: [
+		"&a&lAcheter: Lingot d'acier"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Lingot d'acier&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.35B96A5152623857.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.35B96A5152623857.title: "&a&lAcheter: Lingot d'acier"
 	quest.35BA2588B906EB5C.quest_desc: [
 		"&5&lChassez 900 Endermites"
 		"&8&m                            "
@@ -21597,6 +22247,19 @@
 	]
 	quest.3791390C8F6C2FDA.quest_subtitle: "&71000 Bourrasques sauvages abattus"
 	quest.3791390C8F6C2FDA.title: "&5&lChassez 1000 Bourrasques sauvages"
+	quest.37A05A5578A92494.quest_desc: [
+		"&d&lAcheter: Nautilus Shell"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a4x Nautilus Shell&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.37A05A5578A92494.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.37A05A5578A92494.title: "&d&lAcheter: Nautilus Shell"
 	quest.37CBE31CA6437206.quest_desc: [
 		"&b&lCanne en Or"
 		"&8&m                            "
@@ -22578,6 +23241,19 @@
 	]
 	quest.3A2752110DF47A75.quest_subtitle: "&7L'alliage le plus fort de Mekanism"
 	quest.3A2752110DF47A75.title: "&e&lAlliage atomique"
+	quest.3A2ACAFD82D0C188.quest_desc: [
+		"&d&lAcheter: Conduit"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Crown&7 pour recevoir &a1x Conduit&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.3A2ACAFD82D0C188.quest_subtitle: "&7Coûte &e2x Crown&7, rachetable"
+	quest.3A2ACAFD82D0C188.title: "&d&lAcheter: Conduit"
 	quest.3A31F5C6EA2F23BC.quest_desc: [
 		"&e&lBras de Squelette Mutant"
 		"&8&m                            "
@@ -22683,6 +23359,19 @@
 	]
 	quest.3A68571A816660BB.quest_subtitle: "&7300 Loutres de mer abattus"
 	quest.3A68571A816660BB.title: "&c&lChassez 300 Loutres de mer"
+	quest.3A74EE2A778120D3.quest_desc: [
+		"&b&lAcheter: Fil en fer"
+		"&8&m                            "
+		""
+		"&7Payez &e3x Sprocket&7 pour recevoir &a16x Fil en fer&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&b&lCatégorie:&r &fIndustrie"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.3A74EE2A778120D3.quest_subtitle: "&7Coûte &e3x Sprocket&7, rachetable"
+	quest.3A74EE2A778120D3.title: "&b&lAcheter: Fil en fer"
 	quest.3A754F202AE5479C.quest_desc: [
 		"&5&lChassez 1000 Araignées Roi"
 		"&8&m                            "
@@ -22951,6 +23640,19 @@
 	]
 	quest.3B1A74162DCA4F9B.quest_subtitle: "&7Coûte &e1x Bevel&7, rachetable"
 	quest.3B1A74162DCA4F9B.title: "&6&lAcheter: Oignon"
+	quest.3B1E502F4F0A377D.quest_desc: [
+		"&5&lAcheter: Filet de poisson cru"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Sprocket&7 pour recevoir &a16x Filet de poisson cru&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&5&lCatégorie:&r &fAventure"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.3B1E502F4F0A377D.quest_subtitle: "&7Coûte &e1x Sprocket&7, rachetable"
+	quest.3B1E502F4F0A377D.title: "&5&lAcheter: Filet de poisson cru"
 	quest.3B2012684759304C.quest_desc: [
 		"&c&lChassez 200 Sangsues de sculk"
 		"&8&m                            "
@@ -23045,6 +23747,19 @@
 	]
 	quest.3B4C7EA3EC34DA3B.quest_subtitle: "&7Contient jusqu'à 16384B seaux"
 	quest.3B4C7EA3EC34DA3B.title: "&9&lPièce de Stockage 16384B de Fluide"
+	quest.3B6C38951DA65520.quest_desc: [
+		"&b&lAcheter: Lingot d'acier"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Lingot d'acier&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&b&lCatégorie:&r &fIndustrie"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.3B6C38951DA65520.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.3B6C38951DA65520.title: "&b&lAcheter: Lingot d'acier"
 	quest.3B7376FE4DC7D898.quest_desc: [
 		"&c&lChassez 500 Saumons"
 		"&8&m                            "
@@ -23821,6 +24536,19 @@
 	]
 	quest.3D543F045F4F5835.quest_subtitle: "&7900 Phantoms possédés abattus"
 	quest.3D543F045F4F5835.title: "&5&lChassez 900 Phantoms possédés"
+	quest.3D711DEFA2C61CD2.quest_desc: [
+		"&b&lAcheter: Laitier"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Sprocket&7 pour recevoir &a16x Laitier&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&b&lCatégorie:&r &fIndustrie"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.3D711DEFA2C61CD2.quest_subtitle: "&7Coûte &e1x Sprocket&7, rachetable"
+	quest.3D711DEFA2C61CD2.title: "&b&lAcheter: Laitier"
 	quest.3D787706264C0E93.quest_desc: [
 		"&5&lChassez 25 Zombies des Catacombes"
 		"&8&m                            "
@@ -23835,6 +24563,19 @@
 	]
 	quest.3D787706264C0E93.quest_subtitle: "&725 Zombies des Catacombes abattus"
 	quest.3D787706264C0E93.title: "&5&lChassez 25 Zombies des Catacombes"
+	quest.3D79F0984BFE1106.quest_desc: [
+		"&5&lAcheter: Petite essence"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Cog&7 pour recevoir &a4x Petite essence&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&5&lCatégorie:&r &fAventure"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.3D79F0984BFE1106.quest_subtitle: "&7Coûte &e1x Cog&7, rachetable"
+	quest.3D79F0984BFE1106.title: "&5&lAcheter: Petite essence"
 	quest.3D82AA2245DE2135.quest_desc: [
 		"&c&lChassez 300 Golems nautiles"
 		"&8&m                            "
@@ -23849,6 +24590,19 @@
 	]
 	quest.3D82AA2245DE2135.quest_subtitle: "&7300 Golems nautiles abattus"
 	quest.3D82AA2245DE2135.title: "&c&lChassez 300 Golems nautiles"
+	quest.3D8301B3AF5D59A1.quest_desc: [
+		"&b&lAcheter: Processeur basique"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Cog&7 pour recevoir &a4x Processeur basique&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&b&lCatégorie:&r &fIndustrie"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.3D8301B3AF5D59A1.quest_subtitle: "&7Coûte &e1x Cog&7, rachetable"
+	quest.3D8301B3AF5D59A1.title: "&b&lAcheter: Processeur basique"
 	quest.3D835FD6DDC626A5.quest_desc: [
 		"&c&lChassez 1000 Alakarkinos"
 		"&8&m                            "
@@ -24160,6 +24914,19 @@
 	]
 	quest.3E6C7F7F8BE1887E.quest_subtitle: "&7500 Pillards abattus"
 	quest.3E6C7F7F8BE1887E.title: "&c&lChassez 500 Pillards"
+	quest.3E74E09447297A05.quest_desc: [
+		"&6&lAcheter: Chou"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Bevel&7 pour recevoir &a16x Chou&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&6&lCatégorie:&r &fProvisions"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.3E74E09447297A05.quest_subtitle: "&7Coûte &e1x Bevel&7, rachetable"
+	quest.3E74E09447297A05.title: "&6&lAcheter: Chou"
 	quest.3E8077AB45C79E6A.quest_desc: [
 		"&a&lChaudron d'Alchimiste"
 		"&8&m                            "
@@ -24495,6 +25262,19 @@
 	]
 	quest.3F21B724C8849E30.quest_subtitle: "&750 Hommes-rats abattus"
 	quest.3F21B724C8849E30.title: "&c&lChassez 50 Hommes-rats"
+	quest.3F2D1AC1AEAF35E2.quest_desc: [
+		"&b&lAcheter: Fil en or"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Fil en or&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&b&lCatégorie:&r &fIndustrie"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.3F2D1AC1AEAF35E2.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.3F2D1AC1AEAF35E2.title: "&b&lAcheter: Fil en or"
 	quest.3F3227094DDE950F.quest_desc: [
 		"&c&lChassez 800 Gardiens Anciens"
 		"&8&m                            "
@@ -25711,6 +26491,19 @@
 	]
 	quest.418C20D21D294896.quest_subtitle: "&7L'amélioration de machine Afrit"
 	quest.418C20D21D294896.title: "&3&lAfrit Upgrade"
+	quest.4191BD8ABE06730A.quest_desc: [
+		"&d&lAcheter: Ghast Tear"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Cog&7 pour recevoir &a4x Ghast Tear&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.4191BD8ABE06730A.quest_subtitle: "&7Coûte &e1x Cog&7, rachetable"
+	quest.4191BD8ABE06730A.title: "&d&lAcheter: Ghast Tear"
 	quest.41922B0D27F441D9.quest_desc: [
 		"&c&lTrouvez les Ruines du sentier"
 		"&8&m                            "
@@ -27525,6 +28318,19 @@
 	]
 	quest.462A89915E379594.quest_subtitle: "&7Attirez le butin de loin"
 	quest.462A89915E379594.title: "&b&lAimant Amélioration"
+	quest.462D42B56191F83F.quest_desc: [
+		"&d&lAcheter: Enchanted Book"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Cog&7 pour recevoir &a1x Enchanted Book&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.462D42B56191F83F.quest_subtitle: "&7Coûte &e2x Cog&7, rachetable"
+	quest.462D42B56191F83F.title: "&d&lAcheter: Enchanted Book"
 	quest.46444DB297896C7B.quest_desc: [
 		"&5&lChassez 1000 Blazes possédés"
 		"&8&m                            "
@@ -27631,6 +28437,19 @@
 	]
 	quest.4673C475C2AF9C7F.quest_subtitle: "&7200 Grands corbeaux abattus"
 	quest.4673C475C2AF9C7F.title: "&c&lChassez 200 Grands corbeaux"
+	quest.46757041D89F29A2.quest_desc: [
+		"&b&lAcheter: Plaque lourde"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a4x Plaque lourde&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&b&lCatégorie:&r &fIndustrie"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.46757041D89F29A2.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.46757041D89F29A2.title: "&b&lAcheter: Plaque lourde"
 	quest.467993E36D6383CD.quest_desc: [
 		"&d&lFestin de Wilden"
 		"&8&m                            "
@@ -27831,6 +28650,19 @@
 	]
 	quest.470E72D3DB994354.quest_subtitle: "&7700 Araignées de Haie abattus"
 	quest.470E72D3DB994354.title: "&5&lChassez 700 Araignées de Haie"
+	quest.47185D33FCD12B9A.quest_desc: [
+		"&a&lAcheter: Lingot de pierre lumineuse raffinée"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Cog&7 pour recevoir &a4x Lingot de pierre lumineuse raffinée&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.47185D33FCD12B9A.quest_subtitle: "&7Coûte &e1x Cog&7, rachetable"
+	quest.47185D33FCD12B9A.title: "&a&lAcheter: Lingot de pierre lumineuse raffinée"
 	quest.471CAF1A63DB2D91.quest_desc: [
 		"&c&lChassez 200 Brisés"
 		"&8&m                            "
@@ -28154,6 +28986,32 @@
 	]
 	quest.47BAB0BB71A26B96.quest_subtitle: "&7200 Squelettes Wither de la Chasse sauvage abattus"
 	quest.47BAB0BB71A26B96.title: "&5&lChassez 200 Squelettes Wither de la Chasse sauvage"
+	quest.47C205C7A9CE93BB.quest_desc: [
+		"&5&lAcheter: Racine vivante"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Sprocket&7 pour recevoir &a8x Racine vivante&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&5&lCatégorie:&r &fAventure"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.47C205C7A9CE93BB.quest_subtitle: "&7Coûte &e1x Sprocket&7, rachetable"
+	quest.47C205C7A9CE93BB.title: "&5&lAcheter: Racine vivante"
+	quest.47C79CA681078495.quest_desc: [
+		"&a&lAcheter: Câble en cuivre"
+		"&8&m                            "
+		""
+		"&7Payez &e3x Bevel&7 pour recevoir &a16x Câble en cuivre&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.47C79CA681078495.quest_subtitle: "&7Coûte &e3x Bevel&7, rachetable"
+	quest.47C79CA681078495.title: "&a&lAcheter: Câble en cuivre"
 	quest.47D1D0D51DB95BD6.quest_desc: [
 		"&5&lChassez 500 Bourrasques sauvages faibles"
 		"&8&m                            "
@@ -28933,6 +29791,19 @@
 	]
 	quest.49950F437BECF0F1.quest_subtitle: "&7200 Squelettes possédés abattus"
 	quest.49950F437BECF0F1.title: "&5&lChassez 200 Squelettes possédés"
+	quest.49989F0B75DE9BC3.quest_desc: [
+		"&d&lAcheter: Bloc de gemme source"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Cog&7 pour recevoir &a2x Bloc de gemme source&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.49989F0B75DE9BC3.quest_subtitle: "&7Coûte &e1x Cog&7, rachetable"
+	quest.49989F0B75DE9BC3.title: "&d&lAcheter: Bloc de gemme source"
 	quest.499CD04256DE083D.quest_desc: [
 		"&c&lChassez 50 Phantoms"
 		"&8&m                            "
@@ -29108,6 +29979,19 @@
 	]
 	quest.4A178324D1E9A638.quest_subtitle: "&71000 Loups de Brume abattus"
 	quest.4A178324D1E9A638.title: "&5&lChassez 1000 Loups de Brume"
+	quest.4A1904AA4439D80C.quest_desc: [
+		"&d&lAcheter: Enchanted Golden Apple"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Crown&7 pour recevoir &a1x Enchanted Golden Apple&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.4A1904AA4439D80C.quest_subtitle: "&7Coûte &e1x Crown&7, rachetable"
+	quest.4A1904AA4439D80C.title: "&d&lAcheter: Enchanted Golden Apple"
 	quest.4A1B3BCB04524F63.quest_desc: [
 		"&5&lChassez 600 Foreurs de Bois de Tour"
 		"&8&m                            "
@@ -29121,6 +30005,19 @@
 	]
 	quest.4A1B3BCB04524F63.quest_subtitle: "&7600 Foreurs de Bois de Tour abattus"
 	quest.4A1B3BCB04524F63.title: "&5&lChassez 600 Foreurs de Bois de Tour"
+	quest.4A21413810198366.quest_desc: [
+		"&d&lAcheter: Lodestone"
+		"&8&m                            "
+		""
+		"&7Payez &e4x Cog&7 pour recevoir &a1x Lodestone&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.4A21413810198366.quest_subtitle: "&7Coûte &e4x Cog&7, rachetable"
+	quest.4A21413810198366.title: "&d&lAcheter: Lodestone"
 	quest.4A2F9BF81F3841D9.quest_desc: [
 		"&c&lChassez 1000 Chameaux"
 		"&8&m                            "
@@ -29485,6 +30382,19 @@
 	]
 	quest.4AF52AB5170D6C44.quest_subtitle: "&7Effets appliqués tout seuls, avec un contrôle accru"
 	quest.4AF52AB5170D6C44.title: "&9&lAvancé Alchimie Amélioration"
+	quest.4AFA3B5D34C939DB.quest_desc: [
+		"&5&lAcheter: Pépite de neptunium"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Pépite de neptunium&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&5&lCatégorie:&r &fAventure"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.4AFA3B5D34C939DB.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.4AFA3B5D34C939DB.title: "&5&lAcheter: Pépite de neptunium"
 	quest.4B013127D9CE4CA1.quest_desc: [
 		"&5&lChassez 300 Bonnets Rouges Sapeurs"
 		"&8&m                            "
@@ -30748,6 +31658,19 @@
 	]
 	quest.4D466EDB3E597904.quest_subtitle: "&7Brûlez le biodiesel pour de la puissance"
 	quest.4D466EDB3E597904.title: "&6&lLe Générateur Diesel"
+	quest.4D466F3D32956499.quest_desc: [
+		"&d&lAcheter: Music Disc"
+		"&8&m                            "
+		""
+		"&7Payez &e4x Cog&7 pour recevoir &a1x Music Disc&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.4D466F3D32956499.quest_subtitle: "&7Coûte &e4x Cog&7, rachetable"
+	quest.4D466F3D32956499.title: "&d&lAcheter: Music Disc"
 	quest.4D49B2B7600606D0.quest_desc: [
 		"&c&lChassez 200 Enlisés"
 		"&8&m                            "
@@ -30788,6 +31711,19 @@
 	]
 	quest.4D5E53BF9FB3455F.quest_subtitle: "&7Une forge dans le sac"
 	quest.4D5E53BF9FB3455F.title: "&b&lForge Amélioration"
+	quest.4D628C709F8DF148.quest_desc: [
+		"&b&lAcheter: Ampoule"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a4x Ampoule&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&b&lCatégorie:&r &fIndustrie"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.4D628C709F8DF148.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.4D628C709F8DF148.title: "&b&lAcheter: Ampoule"
 	quest.4D7A7B65A48F22A6.quest_desc: [
 		"&c&lChassez 400 Sorcières"
 		"&8&m                            "
@@ -30830,6 +31766,19 @@
 	]
 	quest.4D90797E7369FB38.quest_subtitle: "&7900 Poules abattus"
 	quest.4D90797E7369FB38.title: "&c&lChassez 900 Poules"
+	quest.4D9BC711104A8209.quest_desc: [
+		"&b&lAcheter: Lingot d'électrum"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Lingot d'électrum&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&b&lCatégorie:&r &fIndustrie"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.4D9BC711104A8209.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.4D9BC711104A8209.title: "&b&lAcheter: Lingot d'électrum"
 	quest.4D9FCB0C1D1771A9.quest_desc: [
 		"&a&lPlastron de Squelette Mutant"
 		"&8&m                            "
@@ -31375,6 +32324,19 @@
 	]
 	quest.4EF365955A6852C7.quest_subtitle: "&7100 Shulkers faibles possédés abattus"
 	quest.4EF365955A6852C7.title: "&5&lChassez 100 Shulkers faibles possédés"
+	quest.4F06C13768C35E9A.quest_desc: [
+		"&5&lAcheter: Essence de terre"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a4x Essence de terre&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&5&lCatégorie:&r &fAventure"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.4F06C13768C35E9A.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.4F06C13768C35E9A.title: "&5&lAcheter: Essence de terre"
 	quest.4F109F252D5E46B2.quest_desc: [
 		"&5&lChassez 1000 Petits Ghasts Carminites"
 		"&8&m                            "
@@ -31521,6 +32483,19 @@
 	]
 	quest.4F4122296446B668.quest_subtitle: "&7300 Poissons d'argent de la horde sauvage abattus"
 	quest.4F4122296446B668.title: "&5&lChassez 300 Poissons d'argent de la horde sauvage"
+	quest.4F49116BA22FA66E.quest_desc: [
+		"&5&lAcheter: Essence d'eau"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a4x Essence d'eau&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&5&lCatégorie:&r &fAventure"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.4F49116BA22FA66E.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.4F49116BA22FA66E.title: "&5&lAcheter: Essence d'eau"
 	quest.4F4C12F75970A1EF.quest_desc: [
 		"&d&lTotems Anciens"
 		"&8&m                            "
@@ -31666,6 +32641,19 @@
 	]
 	quest.4F829A3A74D71B97.quest_subtitle: "&7100 Blazes abattus"
 	quest.4F829A3A74D71B97.title: "&c&lChassez 100 Blazes"
+	quest.4F85386209E8FBD6.quest_desc: [
+		"&5&lAcheter: Essence d'air"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a4x Essence d'air&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&5&lCatégorie:&r &fAventure"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.4F85386209E8FBD6.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.4F85386209E8FBD6.title: "&5&lAcheter: Essence d'air"
 	quest.4F85ED4B293BCE28.quest_desc: [
 		"&c&lChassez 50 Golems de fer"
 		"&8&m                            "
@@ -32039,6 +33027,19 @@
 	]
 	quest.506409C6D5F024E0.quest_subtitle: "&710 Chasseurs sauvages I abattus"
 	quest.506409C6D5F024E0.title: "&c&lChassez 10 Chasseurs sauvages I"
+	quest.506A4BDFC046BAFF.quest_desc: [
+		"&6&lAcheter: Tomate"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Bevel&7 pour recevoir &a16x Tomate&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&6&lCatégorie:&r &fProvisions"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.506A4BDFC046BAFF.quest_subtitle: "&7Coûte &e1x Bevel&7, rachetable"
+	quest.506A4BDFC046BAFF.title: "&6&lAcheter: Tomate"
 	quest.5071E2D0776C4D00.quest_desc: [
 		"&5&lChassez 50 Araignées d'Essaim"
 		"&8&m                            "
@@ -32094,6 +33095,19 @@
 	]
 	quest.5076EC81E38715EC.quest_subtitle: "&7100 Sorcières abattus"
 	quest.5076EC81E38715EC.title: "&c&lChassez 100 Sorcières"
+	quest.507C3F7ECD410874.quest_desc: [
+		"&a&lAcheter: Block of Diamond"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Crown&7 pour recevoir &a1x Block of Diamond&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.507C3F7ECD410874.quest_subtitle: "&7Coûte &e1x Crown&7, rachetable"
+	quest.507C3F7ECD410874.title: "&a&lAcheter: Block of Diamond"
 	quest.507E48E9DF526808.quest_desc: [
 		"&c&lChassez 900 Porcs-épics"
 		"&8&m                            "
@@ -32283,6 +33297,19 @@
 	]
 	quest.512F8C63BA59003B.quest_subtitle: "&7100 Écureuils abattus"
 	quest.512F8C63BA59003B.title: "&c&lChassez 100 Écureuils"
+	quest.51317F26C8E3C94A.quest_desc: [
+		"&d&lAcheter: Poussière de Gemme"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Poussière de Gemme&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.51317F26C8E3C94A.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.51317F26C8E3C94A.title: "&d&lAcheter: Poussière de Gemme"
 	quest.51446597A367B55E.quest_desc: [
 		"&c&lBordeaux"
 		"&8&m                            "
@@ -32375,6 +33402,19 @@
 	]
 	quest.516644A9126D961D.quest_subtitle: "&7La plus grande batterie de toutes"
 	quest.516644A9126D961D.title: "&d&lStockage de Flux Gargantuesque"
+	quest.51671A06971EA942.quest_desc: [
+		"&a&lAcheter: Plaque d'acier"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Plaque d'acier&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.51671A06971EA942.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.51671A06971EA942.title: "&a&lAcheter: Plaque d'acier"
 	quest.51676C66D568BC15.quest_desc: [
 		"&e&lNetherite-Gold Plastron"
 		"&8&m                            "
@@ -32669,6 +33709,19 @@
 	]
 	quest.52025B637B6B7ADD.quest_subtitle: "&7400 Hyènes tachetées abattus"
 	quest.52025B637B6B7ADD.title: "&c&lChassez 400 Hyènes tachetées"
+	quest.520B1CCF8E45A6D0.quest_desc: [
+		"&a&lAcheter: Redstone Dust"
+		"&8&m                            "
+		""
+		"&7Payez &e3x Bevel&7 pour recevoir &a16x Redstone Dust&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.520B1CCF8E45A6D0.quest_subtitle: "&7Coûte &e3x Bevel&7, rachetable"
+	quest.520B1CCF8E45A6D0.title: "&a&lAcheter: Redstone Dust"
 	quest.520CAE6A057B7283.quest_desc: [
 		"&c&lChassez 700 Piglins zombifiés"
 		"&8&m                            "
@@ -32761,6 +33814,19 @@
 	]
 	quest.526D81479D2E1C6F.quest_subtitle: "&71000 Foreurs de Bois de Tour abattus"
 	quest.526D81479D2E1C6F.title: "&5&lChassez 1000 Foreurs de Bois de Tour"
+	quest.5272BF8C23083AFA.quest_desc: [
+		"&9&lMineur Numérique"
+		"&8&m                            "
+		""
+		"&7Le Mineur Numérique scanne une vaste zone et extrait tout seul"
+		"&7chaque bloc correspondant aux filtres que vous définissez."
+		""
+		"&9&lCatégorie:&r &fÉquipement"
+		""
+		"&e&l★ Astuce:&r &7Il peut même remplacer ce qu'il mine pour laisser un terrain propre."
+	]
+	quest.5272BF8C23083AFA.quest_subtitle: "&7Minez toute une zone par filtre"
+	quest.5272BF8C23083AFA.title: "&9&lMineur Numérique"
 	quest.5278C19AAF881DDA.quest_desc: [
 		"&5&lToutes les Hallebardes"
 		"&8&m                            "
@@ -33019,6 +34085,19 @@
 	]
 	quest.5352F9DC33507169.quest_subtitle: "&7500 Slimes abattus"
 	quest.5352F9DC33507169.title: "&c&lChassez 500 Slimes"
+	quest.5360790DBB88744D.quest_desc: [
+		"&d&lAcheter: Ender Pearl"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Ender Pearl&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.5360790DBB88744D.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.5360790DBB88744D.title: "&d&lAcheter: Ender Pearl"
 	quest.5371379FBA711332.quest_desc: [
 		"&e&lBâton de Blaze"
 		"&8&m                            "
@@ -33059,6 +34138,19 @@
 	]
 	quest.5376607FE9305FD3.quest_subtitle: "&7Complétez le set avec cinq tessons"
 	quest.5376607FE9305FD3.title: "&a&lTessons de Poterie IV"
+	quest.5377FFA71E8D3BC3.quest_desc: [
+		"&a&lAcheter: Lapis Lazuli"
+		"&8&m                            "
+		""
+		"&7Payez &e3x Bevel&7 pour recevoir &a16x Lapis Lazuli&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.5377FFA71E8D3BC3.quest_subtitle: "&7Coûte &e3x Bevel&7, rachetable"
+	quest.5377FFA71E8D3BC3.title: "&a&lAcheter: Lapis Lazuli"
 	quest.5396F7F5F5993529.quest_desc: [
 		"&5&lChassez 100 Ghasts possédés"
 		"&8&m                            "
@@ -33180,6 +34272,19 @@
 	]
 	quest.53CE2D60E79F8750.quest_subtitle: "&7400 Hommes des marais abattus"
 	quest.53CE2D60E79F8750.title: "&c&lChassez 400 Hommes des marais"
+	quest.53CFA55A46EB55DC.quest_desc: [
+		"&d&lAcheter: Noyau de téléportation"
+		"&8&m                            "
+		""
+		"&7Payez &e4x Cog&7 pour recevoir &a1x Noyau de téléportation&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.53CFA55A46EB55DC.quest_subtitle: "&7Coûte &e4x Cog&7, rachetable"
+	quest.53CFA55A46EB55DC.title: "&d&lAcheter: Noyau de téléportation"
 	quest.53D5DE419AA73042.quest_desc: [
 		"&c&lChassez 1000 Hommes des marais"
 		"&8&m                            "
@@ -33661,6 +34766,19 @@
 	]
 	quest.5568F77E918A4B50.quest_subtitle: "&7Dopez le silicium en porteurs positifs"
 	quest.5568F77E918A4B50.title: "&b&lSemi-conducteur P"
+	quest.556914F5CE3793DA.quest_desc: [
+		"&5&lAcheter: Carminite"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Cog&7 pour recevoir &a4x Carminite&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&5&lCatégorie:&r &fAventure"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.556914F5CE3793DA.quest_subtitle: "&7Coûte &e1x Cog&7, rachetable"
+	quest.556914F5CE3793DA.title: "&5&lAcheter: Carminite"
 	quest.5576865483C416D1.quest_desc: [
 		"&c&lChassez 700 Hommes-rats"
 		"&8&m                            "
@@ -33782,6 +34900,19 @@
 	]
 	quest.55CEC9A4F846136B.quest_subtitle: "&7300 Tortues abattus"
 	quest.55CEC9A4F846136B.title: "&c&lChassez 300 Tortues"
+	quest.55D3D0D2D412CFA3.quest_desc: [
+		"&a&lAcheter: Coal"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Bevel&7 pour recevoir &a16x Coal&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.55D3D0D2D412CFA3.quest_subtitle: "&7Coûte &e2x Bevel&7, rachetable"
+	quest.55D3D0D2D412CFA3.title: "&a&lAcheter: Coal"
 	quest.55ECB0A69D2C4DCD.quest_desc: [
 		"&5&lChassez 1000 Slimes du Labyrinthe"
 		"&8&m                            "
@@ -34309,6 +35440,19 @@
 	]
 	quest.574B1819E6906656.quest_subtitle: "&7Un composant de réacteur Mekanism"
 	quest.574B1819E6906656.title: "&e&lFragment de Fissile Retraité"
+	quest.57508BD3DC108AE3.quest_desc: [
+		"&5&lAcheter: Carapace du Warden"
+		"&8&m                            "
+		""
+		"&7Payez &e4x Cog&7 pour recevoir &a1x Carapace du Warden&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&5&lCatégorie:&r &fAventure"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.57508BD3DC108AE3.quest_subtitle: "&7Coûte &e4x Cog&7, rachetable"
+	quest.57508BD3DC108AE3.title: "&5&lAcheter: Carapace du Warden"
 	quest.5753E4E8C154424F.quest_desc: [
 		"&5&lChassez 900 Gardes Ghasts Carminites"
 		"&8&m                            "
@@ -34590,6 +35734,19 @@
 	]
 	quest.5866C0528D1C3063.quest_subtitle: "&7Boostez votre production d'acier"
 	quest.5866C0528D1C3063.title: "&b&lPréchauffeurs de Haut-Fourneau"
+	quest.586AE57AE9EB7E8A.quest_desc: [
+		"&a&lAcheter: Poudre d'obsidienne"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Sprocket&7 pour recevoir &a8x Poudre d'obsidienne&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.586AE57AE9EB7E8A.quest_subtitle: "&7Coûte &e1x Sprocket&7, rachetable"
+	quest.586AE57AE9EB7E8A.title: "&a&lAcheter: Poudre d'obsidienne"
 	quest.586D5DE28EEC8014.quest_desc: [
 		"&b&lBibliothèque de l'Enfer"
 		"&8&m                            "
@@ -34603,6 +35760,19 @@
 	]
 	quest.586D5DE28EEC8014.quest_subtitle: "&7La Bibliothèque de l'Enfer, une étagère magique"
 	quest.586D5DE28EEC8014.title: "&b&lBibliothèque de l'Enfer"
+	quest.5870BA359529BE3A.quest_desc: [
+		"&5&lAcheter: Grande essence"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Cog&7 pour recevoir &a2x Grande essence&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&5&lCatégorie:&r &fAventure"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.5870BA359529BE3A.quest_subtitle: "&7Coûte &e2x Cog&7, rachetable"
+	quest.5870BA359529BE3A.title: "&5&lAcheter: Grande essence"
 	quest.5873E5F6C03701F9.quest_desc: [
 		"&c&lChassez 500 Araignées des cavernes"
 		"&8&m                            "
@@ -34764,6 +35934,19 @@
 	]
 	quest.58CAAF7F745CFBB8.quest_subtitle: "&7Rafraîchissements entre les îles"
 	quest.58CAAF7F745CFBB8.title: "&b&lBoissons de l'End"
+	quest.58CC6646702B4578.quest_desc: [
+		"&b&lAcheter: Fibre de chanvre industriel"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Sprocket&7 pour recevoir &a16x Fibre de chanvre industriel&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&b&lCatégorie:&r &fIndustrie"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.58CC6646702B4578.quest_subtitle: "&7Coûte &e1x Sprocket&7, rachetable"
+	quest.58CC6646702B4578.title: "&b&lAcheter: Fibre de chanvre industriel"
 	quest.58D082C7E9793D84.quest_desc: [
 		"&5&lChassez 25 Archévocateurs"
 		"&8&m                            "
@@ -35341,6 +36524,19 @@
 	]
 	quest.5A42983C4B69438D.quest_subtitle: "&7600 Moutons abattus"
 	quest.5A42983C4B69438D.title: "&c&lChassez 600 Moutons"
+	quest.5A4E6EB9C56E40EE.quest_desc: [
+		"&a&lAcheter: Slimeball"
+		"&8&m                            "
+		""
+		"&7Payez &e3x Bevel&7 pour recevoir &a8x Slimeball&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.5A4E6EB9C56E40EE.quest_subtitle: "&7Coûte &e3x Bevel&7, rachetable"
+	quest.5A4E6EB9C56E40EE.title: "&a&lAcheter: Slimeball"
 	quest.5A541509E26C5779.quest_desc: [
 		"&c&lChassez 800 Lanternes"
 		"&8&m                            "
@@ -35741,6 +36937,19 @@
 	]
 	quest.5B556192F060F3F1.quest_subtitle: "&7La poudre avant le lingot"
 	quest.5B556192F060F3F1.title: "&e&lPoudre d'Obsidienne Raffinée"
+	quest.5B63620CD5DE1A6D.quest_desc: [
+		"&a&lAcheter: Alliage renforcé"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Cog&7 pour recevoir &a4x Alliage renforcé&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.5B63620CD5DE1A6D.quest_subtitle: "&7Coûte &e1x Cog&7, rachetable"
+	quest.5B63620CD5DE1A6D.title: "&a&lAcheter: Alliage renforcé"
 	quest.5B651199798F74E9.quest_desc: [
 		"&c&lChassez 900 Saumons"
 		"&8&m                            "
@@ -35755,6 +36964,19 @@
 	]
 	quest.5B651199798F74E9.quest_subtitle: "&7900 Saumons abattus"
 	quest.5B651199798F74E9.title: "&c&lChassez 900 Saumons"
+	quest.5B6A76F5B56B96C0.quest_desc: [
+		"&a&lAcheter: Lingot en bois de fer"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Lingot en bois de fer&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.5B6A76F5B56B96C0.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.5B6A76F5B56B96C0.title: "&a&lAcheter: Lingot en bois de fer"
 	quest.5B6CE8CA3EF38AAA.quest_desc: [
 		"&c&lChassez 700 Creepers"
 		"&8&m                            "
@@ -36269,6 +37491,19 @@
 	]
 	quest.5CEE3FE873E46F33.quest_subtitle: "&7400 Endermen possédés abattus"
 	quest.5CEE3FE873E46F33.title: "&5&lChassez 400 Endermen possédés"
+	quest.5CEE4BFE5C101414.quest_desc: [
+		"&5&lAcheter: Fibre de magefleur"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Fibre de magefleur&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&5&lCatégorie:&r &fAventure"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.5CEE4BFE5C101414.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.5CEE4BFE5C101414.title: "&5&lAcheter: Fibre de magefleur"
 	quest.5CF2A1F44A1C45BC.quest_desc: [
 		"&5&lChassez 600 Gardiens anciens possédés"
 		"&8&m                            "
@@ -36498,6 +37733,19 @@
 	]
 	quest.5DB091E04EF8D053.quest_subtitle: "&7500 Wardens abattus"
 	quest.5DB091E04EF8D053.title: "&c&lChassez 500 Wardens"
+	quest.5DBC616A6E7180F6.quest_desc: [
+		"&b&lAcheter: Poudre de flux"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Poudre de flux&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&b&lCatégorie:&r &fIndustrie"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.5DBC616A6E7180F6.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.5DBC616A6E7180F6.title: "&b&lAcheter: Poudre de flux"
 	quest.5DBD7A24C55A4F4B.quest_desc: [
 		"&a&lTerre riche"
 		"&8&m                            "
@@ -37216,6 +38464,19 @@
 	]
 	quest.600714687E67E351.quest_subtitle: "&7600 Drygmées abattus"
 	quest.600714687E67E351.title: "&c&lChassez 600 Drygmées"
+	quest.600AE970B5A79869.quest_desc: [
+		"&a&lAcheter: Lingot de feuille d'acier"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Lingot de feuille d'acier&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.600AE970B5A79869.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.600AE970B5A79869.title: "&a&lAcheter: Lingot de feuille d'acier"
 	quest.600D7C82D9330D12.quest_desc: [
 		"&c&lChassez 600 Mauvaises taches"
 		"&8&m                            "
@@ -37481,6 +38742,19 @@
 	]
 	quest.609DBEF9A5649BD6.quest_subtitle: "&7200 Errants abattus"
 	quest.609DBEF9A5649BD6.title: "&c&lChassez 200 Errants"
+	quest.60A285952EB14A6F.quest_desc: [
+		"&b&lAcheter: Lingot d'aluminium"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Lingot d'aluminium&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&b&lCatégorie:&r &fIndustrie"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.60A285952EB14A6F.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.60A285952EB14A6F.title: "&b&lAcheter: Lingot d'aluminium"
 	quest.60AB5E48F6579447.quest_desc: [
 		"&c&lChassez 800 Nagas"
 		"&8&m                            "
@@ -38236,6 +39510,32 @@
 	]
 	quest.62468C6AE4EA3D28.quest_subtitle: "&7100 Poissons d'argent de la horde sauvage abattus"
 	quest.62468C6AE4EA3D28.title: "&5&lChassez 100 Poissons d'argent de la horde sauvage"
+	quest.624CDC72A7CC5B39.quest_desc: [
+		"&d&lAcheter: Éclat de Cristal Lumineux"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Cog&7 pour recevoir &a2x Éclat de Cristal Lumineux&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.624CDC72A7CC5B39.quest_subtitle: "&7Coûte &e1x Cog&7, rachetable"
+	quest.624CDC72A7CC5B39.title: "&d&lAcheter: Éclat de Cristal Lumineux"
+	quest.62524B0FCE3D018A.quest_desc: [
+		"&d&lAcheter: Radiance raffinée"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Crown&7 pour recevoir &a1x Radiance raffinée&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.62524B0FCE3D018A.quest_subtitle: "&7Coûte &e1x Crown&7, rachetable"
+	quest.62524B0FCE3D018A.title: "&d&lAcheter: Radiance raffinée"
 	quest.6263A27182B2CE3D.quest_desc: [
 		"&6&lCircuit de Contrôle Avancé"
 		"&8&m                            "
@@ -38835,6 +40135,19 @@
 	]
 	quest.639531AB27DCD267.quest_subtitle: "&7Une rune d'une école de sorts"
 	quest.639531AB27DCD267.title: "&d&lPierre Runique Vierge"
+	quest.639D9C889913AF22.quest_desc: [
+		"&d&lAcheter: Écailles de Nâga"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a4x Écailles de Nâga&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.639D9C889913AF22.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.639D9C889913AF22.title: "&d&lAcheter: Écailles de Nâga"
 	quest.63A43671B5C21EBC.quest_desc: [
 		"&c&lChassez 200 Pandas roux"
 		"&8&m                            "
@@ -39173,6 +40486,19 @@
 	]
 	quest.64BD779CAA6654A2.quest_subtitle: "&7500 Poissons tropicaux abattus"
 	quest.64BD779CAA6654A2.title: "&c&lChassez 500 Poissons tropicaux"
+	quest.64BF76A2DDE79C19.quest_desc: [
+		"&b&lAcheter: Fil en cuivre"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a16x Fil en cuivre&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&b&lCatégorie:&r &fIndustrie"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.64BF76A2DDE79C19.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.64BF76A2DDE79C19.title: "&b&lAcheter: Fil en cuivre"
 	quest.64C608D29CDEFF51.quest_desc: [
 		"&b&lMachines Spécialisées"
 		"&8&m                            "
@@ -39234,6 +40560,19 @@
 	]
 	quest.64DE407D512FA2EA.quest_subtitle: "&710 Tourbillons abattus"
 	quest.64DE407D512FA2EA.title: "&c&lChassez 10 Tourbillons"
+	quest.64E31DC41013982A.quest_desc: [
+		"&a&lAcheter: Éclat d'Ambrosium"
+		"&8&m                            "
+		""
+		"&7Payez &e3x Bevel&7 pour recevoir &a16x Éclat d'Ambrosium&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.64E31DC41013982A.quest_subtitle: "&7Coûte &e3x Bevel&7, rachetable"
+	quest.64E31DC41013982A.title: "&a&lAcheter: Éclat d'Ambrosium"
 	quest.64E75481D179E039.quest_desc: [
 		"&5&lChassez 100 Araignées de Haie"
 		"&8&m                            "
@@ -39945,6 +41284,19 @@
 	]
 	quest.66251DDE98FB6EA7.quest_subtitle: "&7Maîtrisez la machinerie cinétique"
 	quest.66251DDE98FB6EA7.title: "&6&lAll of Create"
+	quest.663E50B7D5CD8F7D.quest_desc: [
+		"&b&lAcheter: Lingot d'acier"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Lingot d'acier&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&b&lCatégorie:&r &fIndustrie"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.663E50B7D5CD8F7D.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.663E50B7D5CD8F7D.title: "&b&lAcheter: Lingot d'acier"
 	quest.663F9A2290BFE787.quest_desc: [
 		"&c&lChassez 400 Bluffs"
 		"&8&m                            "
@@ -40143,6 +41495,19 @@
 	]
 	quest.6684592C51D61266.quest_subtitle: "&7400 Moutons abattus"
 	quest.6684592C51D61266.title: "&c&lChassez 400 Moutons"
+	quest.6689781106C54A61.quest_desc: [
+		"&d&lAcheter: Noyau électrolytique"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Cog&7 pour recevoir &a2x Noyau électrolytique&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.6689781106C54A61.quest_subtitle: "&7Coûte &e1x Cog&7, rachetable"
+	quest.6689781106C54A61.title: "&d&lAcheter: Noyau électrolytique"
 	quest.6689FF32EFE32E42.quest_desc: [
 		"&a&lPoudre à canon"
 		"&8&m                            "
@@ -40496,6 +41861,19 @@
 	]
 	quest.670527C22320D47F.quest_subtitle: "&7800 Fantômes abattus"
 	quest.670527C22320D47F.title: "&c&lChassez 800 Fantômes"
+	quest.6707DEB93752443A.quest_desc: [
+		"&6&lAcheter: Hamburger"
+		"&8&m                            "
+		""
+		"&7Payez &e4x Bevel&7 pour recevoir &a4x Hamburger&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&6&lCatégorie:&r &fProvisions"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.6707DEB93752443A.quest_subtitle: "&7Coûte &e4x Bevel&7, rachetable"
+	quest.6707DEB93752443A.title: "&6&lAcheter: Hamburger"
 	quest.67116868F3376796.quest_desc: [
 		"&9&lFumage Auto Amélioration"
 		"&8&m                            "
@@ -40656,6 +42034,32 @@
 	]
 	quest.67590B050BEE5B23.quest_subtitle: "&7500 Endermen possédés abattus"
 	quest.67590B050BEE5B23.title: "&5&lChassez 500 Endermen possédés"
+	quest.6768F77BB06022E1.quest_desc: [
+		"&a&lAcheter: Glow Ink Sac"
+		"&8&m                            "
+		""
+		"&7Payez &e3x Bevel&7 pour recevoir &a8x Glow Ink Sac&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.6768F77BB06022E1.quest_subtitle: "&7Coûte &e3x Bevel&7, rachetable"
+	quest.6768F77BB06022E1.title: "&a&lAcheter: Glow Ink Sac"
+	quest.676BC62CFAA760D5.quest_desc: [
+		"&5&lAcheter: Poussière d'âmes"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Cog&7 pour recevoir &a8x Poussière d'âmes&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&5&lCatégorie:&r &fAventure"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.676BC62CFAA760D5.quest_subtitle: "&7Coûte &e1x Cog&7, rachetable"
+	quest.676BC62CFAA760D5.title: "&5&lAcheter: Poussière d'âmes"
 	quest.67757DDF2330F8EF.quest_desc: [
 		"&c&lChassez 700 Chevaux squelettes"
 		"&8&m                            "
@@ -40882,6 +42286,19 @@
 	]
 	quest.67EC5741BF469DE8.quest_subtitle: "&7500 Villageois abattus"
 	quest.67EC5741BF469DE8.title: "&c&lChassez 500 Villageois"
+	quest.6818D74EFD9859DA.quest_desc: [
+		"&d&lAcheter: Sponge"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a4x Sponge&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.6818D74EFD9859DA.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.6818D74EFD9859DA.title: "&d&lAcheter: Sponge"
 	quest.683322B79AE2283B.quest_desc: [
 		"&b&lDeeper and Darker"
 		"&8&m                                "
@@ -42610,6 +44027,19 @@
 	]
 	quest.6C472C918B4BDE52.quest_subtitle: "&7900 Gardiens Anciens abattus"
 	quest.6C472C918B4BDE52.title: "&c&lChassez 900 Gardiens Anciens"
+	quest.6C4B52B7859B3854.quest_desc: [
+		"&d&lAcheter: Mécanisme de précision"
+		"&8&m                            "
+		""
+		"&7Payez &e4x Cog&7 pour recevoir &a2x Mécanisme de précision&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.6C4B52B7859B3854.quest_subtitle: "&7Coûte &e4x Cog&7, rachetable"
+	quest.6C4B52B7859B3854.title: "&d&lAcheter: Mécanisme de précision"
 	quest.6C4E72C0BF98E8DD.quest_desc: [
 		"&d&lGlyphe Rune"
 		"&8&m                            "
@@ -42942,6 +44372,19 @@
 	]
 	quest.6D29C616456E4C26.quest_subtitle: "&710 Loups de Brume abattus"
 	quest.6D29C616456E4C26.title: "&5&lChassez 10 Loups de Brume"
+	quest.6D2BC44B4E2228B3.quest_desc: [
+		"&d&lAcheter: Trident"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Crown&7 pour recevoir &a1x Trident&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.6D2BC44B4E2228B3.quest_subtitle: "&7Coûte &e2x Crown&7, rachetable"
+	quest.6D2BC44B4E2228B3.title: "&d&lAcheter: Trident"
 	quest.6D3006A74D497A78.quest_desc: [
 		"&c&lChassez 100 Gorilles de l'Ouest"
 		"&8&m                            "
@@ -42996,6 +44439,19 @@
 	]
 	quest.6D3A0BA54AA22403.quest_subtitle: "&7Tuyautez, pompez et vannez vos liquides"
 	quest.6D3A0BA54AA22403.title: "&3&lPlomberie de Fluides"
+	quest.6D7D95B7530347EA.quest_desc: [
+		"&b&lAcheter: Lingot de fonte"
+		"&8&m                            "
+		""
+		"&7Payez &e3x Bevel&7 pour recevoir &a8x Lingot de fonte&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&b&lCatégorie:&r &fIndustrie"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.6D7D95B7530347EA.quest_subtitle: "&7Coûte &e3x Bevel&7, rachetable"
+	quest.6D7D95B7530347EA.title: "&b&lAcheter: Lingot de fonte"
 	quest.6D87A28A1A723B5D.quest_desc: [
 		"&c&lChassez 900 Dauphins"
 		"&8&m                            "
@@ -43786,6 +45242,19 @@
 	]
 	quest.6F67079A453DAABE.quest_subtitle: "&7Une seconde chance de vivre"
 	quest.6F67079A453DAABE.title: "&b&lCharme de Vie I"
+	quest.6F69056145587F60.quest_desc: [
+		"&b&lAcheter: Plaque de plastique"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Plaque de plastique&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&b&lCatégorie:&r &fIndustrie"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.6F69056145587F60.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.6F69056145587F60.title: "&b&lAcheter: Plaque de plastique"
 	quest.6F698189FD554158.quest_desc: [
 		"&f&lNetherite-Iron Outils"
 		"&8&m                            "
@@ -43891,6 +45360,19 @@
 	]
 	quest.6FA3FB12BB956DEF.quest_subtitle: "&71000 Shulkers faibles possédés abattus"
 	quest.6FA3FB12BB956DEF.title: "&5&lChassez 1000 Shulkers faibles possédés"
+	quest.6FAC37EDEE35578B.quest_desc: [
+		"&d&lAcheter: Beacon"
+		"&8&m                            "
+		""
+		"&7Payez &e3x Crown&7 pour recevoir &a1x Beacon&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.6FAC37EDEE35578B.quest_subtitle: "&7Coûte &e3x Crown&7, rachetable"
+	quest.6FAC37EDEE35578B.title: "&d&lAcheter: Beacon"
 	quest.6FC56763B604952B.quest_desc: [
 		"&5&lChassez 1000 Noyés de la horde sauvage"
 		"&8&m                            "
@@ -44012,6 +45494,19 @@
 	]
 	quest.7000000000000001.quest_subtitle: "&7Trois lames pas comme les autres"
 	quest.7000000000000001.title: "&d&lÉpées Spéciales"
+	quest.7006796F34FD3037.quest_desc: [
+		"&5&lAcheter: Dent de Naga"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Cog&7 pour recevoir &a4x Dent de Naga&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&5&lCatégorie:&r &fAventure"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.7006796F34FD3037.quest_subtitle: "&7Coûte &e1x Cog&7, rachetable"
+	quest.7006796F34FD3037.title: "&5&lAcheter: Dent de Naga"
 	quest.700C5BD6AA7562B4.quest_desc: [
 		"&c&lChassez 900 Arpenteurs"
 		"&8&m                            "
@@ -44159,6 +45654,19 @@
 	]
 	quest.7069094F73ABC2CF.quest_subtitle: "&7800 Gobelins Chaîne abattus"
 	quest.7069094F73ABC2CF.title: "&5&lChassez 800 Gobelins Chaîne"
+	quest.706B4B3F69F1AB3E.quest_desc: [
+		"&5&lAcheter: Torche des baies"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Sprocket&7 pour recevoir &a16x Torche des baies&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&5&lCatégorie:&r &fAventure"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.706B4B3F69F1AB3E.quest_subtitle: "&7Coûte &e1x Sprocket&7, rachetable"
+	quest.706B4B3F69F1AB3E.title: "&5&lAcheter: Torche des baies"
 	quest.70788512913E6E49.quest_desc: [
 		"&c&lPinot Noir"
 		"&8&m                            "
@@ -44562,6 +46070,19 @@
 	]
 	quest.716F3436B482A240.quest_subtitle: "&750 Écureuils abattus"
 	quest.716F3436B482A240.title: "&c&lChassez 50 Écureuils"
+	quest.717D6F9CAF58395D.quest_desc: [
+		"&b&lAcheter: Lingot de Bronze"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Lingot de Bronze&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&b&lCatégorie:&r &fIndustrie"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.717D6F9CAF58395D.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.717D6F9CAF58395D.title: "&b&lAcheter: Lingot de Bronze"
 	quest.71869B1D81D6A7EF.quest_desc: [
 		"&a&lChambre de Réaction Pressurisée"
 		"&8&m                            "
@@ -44738,6 +46259,19 @@
 	]
 	quest.71C5689449EDAF5D.quest_subtitle: "&7100 Pots de chagrin abattus"
 	quest.71C5689449EDAF5D.title: "&c&lChassez 100 Pots de chagrin"
+	quest.71CBF1D5210F2603.quest_desc: [
+		"&d&lAcheter: Sea Lantern"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Sea Lantern&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.71CBF1D5210F2603.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.71CBF1D5210F2603.title: "&d&lAcheter: Sea Lantern"
 	quest.71CF9E59F8F0B4A6.quest_desc: [
 		"&6&lCircuit de Contrôle Élite"
 		"&8&m                            "
@@ -44791,6 +46325,19 @@
 	]
 	quest.71F0E9C36AA02B46.quest_subtitle: "&7Un bâton de feu et d'âmes"
 	quest.71F0E9C36AA02B46.title: "&e&lAppelle-Âmes Cendreux"
+	quest.722A7BAF4A1BE1DE.quest_desc: [
+		"&5&lAcheter: Pierre étrange"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a16x Pierre étrange&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&5&lCatégorie:&r &fAventure"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.722A7BAF4A1BE1DE.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.722A7BAF4A1BE1DE.title: "&5&lAcheter: Pierre étrange"
 	quest.7233B4F1E63BAFC9.quest_desc: [
 		"&c&lChassez 500 Piglins zombifiés"
 		"&8&m                            "
@@ -45753,6 +47300,19 @@
 	]
 	quest.7432AFB35CC67120.quest_subtitle: "&710 Shattered abattus"
 	quest.7432AFB35CC67120.title: "&c&lChassez 10 Shattered"
+	quest.7442D14F3B16B4A0.quest_desc: [
+		"&d&lAcheter: Tube électronique"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Tube électronique&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.7442D14F3B16B4A0.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.7442D14F3B16B4A0.title: "&d&lAcheter: Tube électronique"
 	quest.7446AF70EF7FB42D.quest_desc: [
 		"&d&lPotion de Produit X"
 		"&8&m                            "
@@ -45914,6 +47474,19 @@
 	]
 	quest.748AFA4748B74240.quest_subtitle: "&7700 Loutres de mer abattus"
 	quest.748AFA4748B74240.title: "&c&lChassez 700 Loutres de mer"
+	quest.748D45A1AF617424.quest_desc: [
+		"&6&lAcheter: Steak"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Bevel&7 pour recevoir &a16x Steak&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&6&lCatégorie:&r &fProvisions"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.748D45A1AF617424.quest_subtitle: "&7Coûte &e2x Bevel&7, rachetable"
+	quest.748D45A1AF617424.title: "&6&lAcheter: Steak"
 	quest.7491ED45B32BC307.quest_desc: [
 		"&9&lLe Garde-manger"
 		"&8&m                            "
@@ -47355,6 +48928,19 @@
 	]
 	quest.78410370C38E4775.quest_subtitle: "&7Un composant de réacteur Mekanism"
 	quest.78410370C38E4775.title: "&3&lStructure de Turbine"
+	quest.78437311EE830792.quest_desc: [
+		"&d&lAcheter: Name Tag"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Sprocket&7 pour recevoir &a4x Name Tag&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.78437311EE830792.quest_subtitle: "&7Coûte &e1x Sprocket&7, rachetable"
+	quest.78437311EE830792.title: "&d&lAcheter: Name Tag"
 	quest.7844266CEC79BA28.quest_desc: [
 		"&c&lChassez 50 Pots de peur"
 		"&8&m                            "
@@ -47619,6 +49205,19 @@
 	]
 	quest.789AF6D0A6321945.quest_subtitle: "&7Une farce à porter"
 	quest.789AF6D0A6321945.title: "&6&lCoussin Péteur"
+	quest.789FF8CADA056218.quest_desc: [
+		"&5&lAcheter: Plume éveillée"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a4x Plume éveillée&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&5&lCatégorie:&r &fAventure"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.789FF8CADA056218.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.789FF8CADA056218.title: "&5&lAcheter: Plume éveillée"
 	quest.78A14C953438E84F.quest_desc: [
 		"&c&lChassez 600 Gardiens Anciens"
 		"&8&m                            "
@@ -47868,6 +49467,19 @@
 	]
 	quest.792BAAEDB646A5F2.quest_subtitle: "&7400 Cubes Annonceurs abattus"
 	quest.792BAAEDB646A5F2.title: "&5&lChassez 400 Cubes Annonceurs"
+	quest.79340968DEA161DB.quest_desc: [
+		"&a&lAcheter: Block of Emerald"
+		"&8&m                            "
+		""
+		"&7Payez &e6x Cog&7 pour recevoir &a1x Block of Emerald&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.79340968DEA161DB.quest_subtitle: "&7Coûte &e6x Cog&7, rachetable"
+	quest.79340968DEA161DB.title: "&a&lAcheter: Block of Emerald"
 	quest.7934873E784C4B3C.quest_desc: [
 		"&2&lL'Usine de Triplage"
 		"&8&m                            "
@@ -48000,6 +49612,19 @@
 	]
 	quest.79745ED03E114C88.quest_subtitle: "&71000 Squelettes Wither de la Chasse sauvage abattus"
 	quest.79745ED03E114C88.title: "&5&lChassez 1000 Squelettes Wither de la Chasse sauvage"
+	quest.79747A9C9355C6EA.quest_desc: [
+		"&d&lAcheter: Wither Skeleton Skull"
+		"&8&m                            "
+		""
+		"&7Payez &e5x Cog&7 pour recevoir &a1x Wither Skeleton Skull&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.79747A9C9355C6EA.quest_subtitle: "&7Coûte &e5x Cog&7, rachetable"
+	quest.79747A9C9355C6EA.title: "&d&lAcheter: Wither Skeleton Skull"
 	quest.79752B0CD8946231.quest_desc: [
 		"&a&lPoissons de Rivière Africaine"
 		"&8&m                            "
@@ -48443,6 +50068,19 @@
 	]
 	quest.7ABBAA8FB0C24EA9.quest_subtitle: "&7700 Hurleurs Elokosa abattus"
 	quest.7ABBAA8FB0C24EA9.title: "&c&lChassez 700 Hurleurs Elokosa"
+	quest.7AC35EFC7F1029DB.quest_desc: [
+		"&5&lAcheter: Roche de sculk"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Roche de sculk&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&5&lCatégorie:&r &fAventure"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.7AC35EFC7F1029DB.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.7AC35EFC7F1029DB.title: "&5&lAcheter: Roche de sculk"
 	quest.7AC94B32D297410D.quest_desc: [
 		"&5&lChassez 500 Zombies des Catacombes"
 		"&8&m                            "
@@ -48551,6 +50189,19 @@
 	]
 	quest.7AEC9BF0D7060DFF.quest_subtitle: "&7Un composant de réacteur Mekanism"
 	quest.7AEC9BF0D7060DFF.title: "&a&lSéparateur électrolytique"
+	quest.7AF368E32575F74D.quest_desc: [
+		"&d&lAcheter: Gemme source"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Gemme source&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&d&lCatégorie:&r &fRares"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.7AF368E32575F74D.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.7AF368E32575F74D.title: "&d&lAcheter: Gemme source"
 	quest.7AFE66D62680D5A5.quest_desc: [
 		"&c&lChassez 1000 Tortues Arrau"
 		"&8&m                            "
@@ -48684,6 +50335,19 @@
 	]
 	quest.7B69196E45999755.quest_subtitle: "&71000 Coléoptères Slime abattus"
 	quest.7B69196E45999755.title: "&5&lChassez 1000 Coléoptères Slime"
+	quest.7B6FC7D8543457FC.quest_desc: [
+		"&b&lAcheter: Processeur amélioré"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Cog&7 pour recevoir &a2x Processeur amélioré&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&b&lCatégorie:&r &fIndustrie"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.7B6FC7D8543457FC.quest_subtitle: "&7Coûte &e1x Cog&7, rachetable"
+	quest.7B6FC7D8543457FC.title: "&b&lAcheter: Processeur amélioré"
 	quest.7B778F80B62847F7.quest_desc: [
 		"&5&lChassez 100 Coléoptères Slime"
 		"&8&m                            "
@@ -49485,6 +51149,19 @@
 	]
 	quest.7D5A30A5EA2B4061.quest_subtitle: "&71000 Kobolds abattus"
 	quest.7D5A30A5EA2B4061.title: "&5&lChassez 1000 Kobolds"
+	quest.7D5EDE655D5413E3.quest_desc: [
+		"&a&lAcheter: Fer brut concassé"
+		"&8&m                            "
+		""
+		"&7Payez &e3x Bevel&7 pour recevoir &a16x Fer brut concassé&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.7D5EDE655D5413E3.quest_subtitle: "&7Coûte &e3x Bevel&7, rachetable"
+	quest.7D5EDE655D5413E3.title: "&a&lAcheter: Fer brut concassé"
 	quest.7D5F02D7809ECFEC.quest_desc: [
 		"&c&lChassez 50 Bonhommes en pain d'épices"
 		"&8&m                            "
@@ -49555,6 +51232,19 @@
 	]
 	quest.7DA0B9BCFE3C2F21.quest_subtitle: "&7700 Mauvaises taches abattus"
 	quest.7DA0B9BCFE3C2F21.title: "&c&lChassez 700 Mauvaises taches"
+	quest.7DA70480A4887F25.quest_desc: [
+		"&a&lAcheter: Gemme de zanite"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Gemme de zanite&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.7DA70480A4887F25.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.7DA70480A4887F25.title: "&a&lAcheter: Gemme de zanite"
 	quest.7DAAAE8D0DE6AF5C.quest_desc: [
 		"&5&lChassez 900 Bourrasques sauvages faibles"
 		"&8&m                            "
@@ -49568,6 +51258,19 @@
 	]
 	quest.7DAAAE8D0DE6AF5C.quest_subtitle: "&7900 Bourrasques sauvages faibles abattus"
 	quest.7DAAAE8D0DE6AF5C.title: "&5&lChassez 900 Bourrasques sauvages faibles"
+	quest.7DB06D8ED35A73A6.quest_desc: [
+		"&5&lAcheter: Bloc de silex"
+		"&8&m                            "
+		""
+		"&7Payez &e1x Sprocket&7 pour recevoir &a8x Bloc de silex&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&5&lCatégorie:&r &fAventure"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.7DB06D8ED35A73A6.quest_subtitle: "&7Coûte &e1x Sprocket&7, rachetable"
+	quest.7DB06D8ED35A73A6.title: "&5&lAcheter: Bloc de silex"
 	quest.7DB673A59BA9CD05.quest_desc: [
 		"&c&lChassez 900 Golems de fer"
 		"&8&m                            "
@@ -49650,6 +51353,19 @@
 	]
 	quest.7E1804407FBC1408.quest_subtitle: "&7600 Villageois abattus"
 	quest.7E1804407FBC1408.title: "&c&lChassez 600 Villageois"
+	quest.7E207B9068552801.quest_desc: [
+		"&5&lAcheter: Encre purifiée"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Encre purifiée&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&5&lCatégorie:&r &fAventure"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.7E207B9068552801.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.7E207B9068552801.title: "&5&lAcheter: Encre purifiée"
 	quest.7E22D714223BF8DF.quest_desc: [
 		"&5&lChassez 700 Hoglins possédés"
 		"&8&m                            "
@@ -50120,6 +51836,19 @@
 	]
 	quest.7F09F8F98C13F11B.quest_subtitle: "&7L'autel de chaque rituel"
 	quest.7F09F8F98C13F11B.title: "&5&lBol Sacrificiel"
+	quest.7F0CC23E3828C80C.quest_desc: [
+		"&a&lAcheter: Cendres de l'autre monde"
+		"&8&m                            "
+		""
+		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Cendres de l'autre monde&7."
+		"&7Cette offre est &arachetable&7, achetez autant que possible."
+		""
+		"&a&lCatégorie:&r &fRessources"
+		""
+		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
+	]
+	quest.7F0CC23E3828C80C.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
+	quest.7F0CC23E3828C80C.title: "&a&lAcheter: Cendres de l'autre monde"
 	quest.7F384C6B4DAD1541.quest_desc: [
 		"&5&lChassez 300 Bourrasques sauvages puissantes"
 		"&8&m                            "
@@ -50469,422 +52198,38 @@
 	]
 	quest.7FD64D0615DD9610.quest_subtitle: "&7100 Manchots abattus"
 	quest.7FD64D0615DD9610.title: "&c&lChassez 100 Manchots"
-	quest.801F9080D83806A2.quest_desc: [
-		"&a&lAcheter: Plaque d'acier"
-		"&8&m                            "
-		""
-		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Plaque d'acier&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.801F9080D83806A2.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
-	quest.801F9080D83806A2.title: "&a&lAcheter: Plaque d'acier"
-	quest.831C705C219BA612.quest_desc: [
-		"&a&lAcheter: Bloc d'émeraude"
-		"&8&m                            "
-		""
-		"&7Payez &e6x Cog&7 pour recevoir &a1x Bloc d'émeraude&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.831C705C219BA612.quest_subtitle: "&7Coûte &e6x Cog&7, rachetable"
-	quest.831C705C219BA612.title: "&a&lAcheter: Bloc d'émeraude"
-	quest.8492FB59FEA0A8F3.quest_desc: [
-		"&a&lAcheter: Lingot d'acier"
-		"&8&m                            "
-		""
-		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Lingot d'acier&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.8492FB59FEA0A8F3.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
-	quest.8492FB59FEA0A8F3.title: "&a&lAcheter: Lingot d'acier"
-	quest.874AC36D03AB952C.quest_desc: [
-		"&a&lAcheter: Ambrosium Shard"
-		"&8&m                            "
-		""
-		"&7Payez &e3x Bevel&7 pour recevoir &a16x Ambrosium Shard&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.874AC36D03AB952C.quest_subtitle: "&7Coûte &e3x Bevel&7, rachetable"
-	quest.874AC36D03AB952C.title: "&a&lAcheter: Ambrosium Shard"
-	quest.890F2C7AA40656E4.quest_desc: [
-		"&d&lAcheter: Radiance raffinée"
-		"&8&m                            "
-		""
-		"&7Payez &e2x Cog&7 pour recevoir &a2x Radiance raffinée&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.890F2C7AA40656E4.quest_subtitle: "&7Coûte &e2x Cog&7, rachetable"
-	quest.890F2C7AA40656E4.title: "&d&lAcheter: Radiance raffinée"
-	quest.8AB974DFAC41DDCC.quest_desc: [
-		"&d&lAcheter: Gemme source"
-		"&8&m                            "
-		""
-		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Gemme source&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.8AB974DFAC41DDCC.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
-	quest.8AB974DFAC41DDCC.title: "&d&lAcheter: Gemme source"
-	quest.8CA23748EC64D4E5.quest_desc: [
-		"&d&lAcheter: Carapace de Shulker"
-		"&8&m                            "
-		""
-		"&7Payez &e2x Cog&7 pour recevoir &a2x Carapace de Shulker&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.8CA23748EC64D4E5.quest_subtitle: "&7Coûte &e2x Cog&7, rachetable"
-	quest.8CA23748EC64D4E5.title: "&d&lAcheter: Carapace de Shulker"
-	quest.8D1305E3A155FA59.quest_desc: [
-		"&d&lAcheter: Pointe sauvage"
-		"&8&m                            "
-		""
-		"&7Payez &e2x Sprocket&7 pour recevoir &a4x Pointe sauvage&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.8D1305E3A155FA59.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
-	quest.8D1305E3A155FA59.title: "&d&lAcheter: Pointe sauvage"
-	quest.8D1F3F191E84D448.quest_desc: [
-		"&6&lAcheter: Hamburger"
-		"&8&m                            "
-		""
-		"&7Payez &e4x Bevel&7 pour recevoir &a4x Hamburger&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&6&lCatégorie:&r &fProvisions"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.8D1F3F191E84D448.quest_subtitle: "&7Coûte &e4x Bevel&7, rachetable"
-	quest.8D1F3F191E84D448.title: "&6&lAcheter: Hamburger"
-	quest.91571D8497FDE040.quest_desc: [
-		"&d&lAcheter: Bloc de gemme source"
-		"&8&m                            "
-		""
-		"&7Payez &e1x Cog&7 pour recevoir &a2x Bloc de gemme source&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.91571D8497FDE040.quest_subtitle: "&7Coûte &e1x Cog&7, rachetable"
-	quest.91571D8497FDE040.title: "&d&lAcheter: Bloc de gemme source"
-	quest.91CF8912E67F4F7D.quest_desc: [
-		"&a&lAcheter: Poudre de redstone"
-		"&8&m                            "
-		""
-		"&7Payez &e3x Bevel&7 pour recevoir &a16x Poudre de redstone&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.91CF8912E67F4F7D.quest_subtitle: "&7Coûte &e3x Bevel&7, rachetable"
-	quest.91CF8912E67F4F7D.title: "&a&lAcheter: Poudre de redstone"
-	quest.939D354DCA600FD6.quest_desc: [
-		"&d&lAcheter: Conduit"
-		"&8&m                            "
-		""
-		"&7Payez &e2x Crown&7 pour recevoir &a1x Conduit&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.939D354DCA600FD6.quest_subtitle: "&7Coûte &e2x Crown&7, rachetable"
-	quest.939D354DCA600FD6.title: "&d&lAcheter: Conduit"
-	quest.94CA969B036A9990.quest_desc: [
-		"&d&lAcheter: Éclats de Starbuncle"
-		"&8&m                            "
-		""
-		"&7Payez &e1x Sprocket&7 pour recevoir &a8x Éclats de Starbuncle&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.94CA969B036A9990.quest_subtitle: "&7Coûte &e1x Sprocket&7, rachetable"
-	quest.94CA969B036A9990.title: "&d&lAcheter: Éclats de Starbuncle"
-	quest.955F32A70A7075B4.quest_desc: [
-		"&d&lAcheter: Trident"
-		"&8&m                            "
-		""
-		"&7Payez &e2x Crown&7 pour recevoir &a1x Trident&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.955F32A70A7075B4.quest_subtitle: "&7Coûte &e2x Crown&7, rachetable"
-	quest.955F32A70A7075B4.title: "&d&lAcheter: Trident"
-	quest.966709D22FA127D7.quest_desc: [
-		"&a&lAcheter: Lingot de cuivre"
-		"&8&m                            "
-		""
-		"&7Payez &e3x Bevel&7 pour recevoir &a16x Lingot de cuivre&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.966709D22FA127D7.quest_subtitle: "&7Coûte &e3x Bevel&7, rachetable"
-	quest.966709D22FA127D7.title: "&a&lAcheter: Lingot de cuivre"
-	quest.96B6B6BE5F68795C.quest_desc: [
-		"&d&lAcheter: Coquille de nautile"
-		"&8&m                            "
-		""
-		"&7Payez &e2x Sprocket&7 pour recevoir &a4x Coquille de nautile&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.96B6B6BE5F68795C.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
-	quest.96B6B6BE5F68795C.title: "&d&lAcheter: Coquille de nautile"
-	quest.9765F742E0AD481C.quest_desc: [
-		"&a&lAcheter: Gemme de zanite"
-		"&8&m                            "
-		""
-		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Gemme de zanite&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.9765F742E0AD481C.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
-	quest.9765F742E0AD481C.title: "&a&lAcheter: Gemme de zanite"
-	quest.99C146F9BA2E9A8D.quest_desc: [
-		"&a&lAcheter: Lapis-lazuli"
-		"&8&m                            "
-		""
-		"&7Payez &e3x Bevel&7 pour recevoir &a16x Lapis-lazuli&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.99C146F9BA2E9A8D.quest_subtitle: "&7Coûte &e3x Bevel&7, rachetable"
-	quest.99C146F9BA2E9A8D.title: "&a&lAcheter: Lapis-lazuli"
-	quest.9D0114FDE92D6F4E.quest_desc: [
-		"&a&lAcheter: Éclat de prismarine"
-		"&8&m                            "
-		""
-		"&7Payez &e4x Bevel&7 pour recevoir &a16x Éclat de prismarine&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.9D0114FDE92D6F4E.quest_subtitle: "&7Coûte &e4x Bevel&7, rachetable"
-	quest.9D0114FDE92D6F4E.title: "&a&lAcheter: Éclat de prismarine"
-	quest.9D28C7E57C3F5214.quest_desc: [
-		"&d&lAcheter: Éclat de Cristal Lumineux"
-		"&8&m                            "
-		""
-		"&7Payez &e1x Cog&7 pour recevoir &a2x Éclat de Cristal Lumineux&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.9D28C7E57C3F5214.quest_subtitle: "&7Coûte &e1x Cog&7, rachetable"
-	quest.9D28C7E57C3F5214.title: "&d&lAcheter: Éclat de Cristal Lumineux"
-	quest.A057AE76F59664ED.quest_desc: [
-		"&d&lAcheter: Perle Forgée par les Dieux"
-		"&8&m                            "
-		""
-		"&7Payez &e1x Crown&7 pour recevoir &a1x Perle Forgée par les Dieux&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.A057AE76F59664ED.quest_subtitle: "&7Coûte &e1x Crown&7, rachetable"
-	quest.A057AE76F59664ED.title: "&d&lAcheter: Perle Forgée par les Dieux"
-	quest.A060FFFD42BED817.quest_desc: [
-		"&d&lAcheter: Essence Arcanique"
-		"&8&m                            "
-		""
-		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Essence Arcanique&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.A060FFFD42BED817.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
-	quest.A060FFFD42BED817.title: "&d&lAcheter: Essence Arcanique"
-	quest.A1FB60D92FE5E007.quest_desc: [
-		"&d&lAcheter: Acier sombre"
-		"&8&m                            "
-		""
-		"&7Payez &e2x Cog&7 pour recevoir &a2x Acier sombre&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.A1FB60D92FE5E007.quest_subtitle: "&7Coûte &e2x Cog&7, rachetable"
-	quest.A1FB60D92FE5E007.title: "&d&lAcheter: Acier sombre"
-	quest.A294E692A996E688.quest_desc: [
-		"&d&lAcheter: Perle de l'Ender"
-		"&8&m                            "
-		""
-		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Perle de l'Ender&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.A294E692A996E688.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
-	quest.A294E692A996E688.title: "&d&lAcheter: Perle de l'Ender"
-	quest.A44A66B2BE4DB34E.quest_desc: [
-		"&d&lAcheter: Larme de Ghast"
-		"&8&m                            "
-		""
-		"&7Payez &e1x Cog&7 pour recevoir &a4x Larme de Ghast&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.A44A66B2BE4DB34E.quest_subtitle: "&7Coûte &e1x Cog&7, rachetable"
-	quest.A44A66B2BE4DB34E.title: "&d&lAcheter: Larme de Ghast"
-	quest.A453B1D585177EFF.quest_desc: [
-		"&d&lAcheter: Éponge"
-		"&8&m                            "
-		""
-		"&7Payez &e2x Sprocket&7 pour recevoir &a4x Éponge&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.A453B1D585177EFF.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
-	quest.A453B1D585177EFF.title: "&d&lAcheter: Éponge"
-	quest.A549A99C4BEE8A04.quest_desc: [
-		"&d&lAcheter: Ancre de réapparition"
-		"&8&m                            "
-		""
-		"&7Payez &e3x Cog&7 pour recevoir &a1x Ancre de réapparition&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.A549A99C4BEE8A04.quest_subtitle: "&7Coûte &e3x Cog&7, rachetable"
-	quest.A549A99C4BEE8A04.title: "&d&lAcheter: Ancre de réapparition"
-	quest.A571808E9C27E2B5.quest_desc: [
-		"&a&lAcheter: Cristaux de prismarine"
-		"&8&m                            "
-		""
-		"&7Payez &e1x Sprocket&7 pour recevoir &a8x Cristaux de prismarine&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.A571808E9C27E2B5.quest_subtitle: "&7Coûte &e1x Sprocket&7, rachetable"
-	quest.A571808E9C27E2B5.title: "&a&lAcheter: Cristaux de prismarine"
-	quest.A5B8AB07F7EA5F41.quest_desc: [
-		"&d&lAcheter: Précision Mechanism"
-		"&8&m                            "
-		""
-		"&7Payez &e1x Cog&7 pour recevoir &a4x Précision Mechanism&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.A5B8AB07F7EA5F41.quest_subtitle: "&7Coûte &e1x Cog&7, rachetable"
-	quest.A5B8AB07F7EA5F41.title: "&d&lAcheter: Précision Mechanism"
-	quest.A5FC5FA7AC60EEFB.quest_desc: [
-		"&d&lAcheter: Crâne de Wither squelette"
-		"&8&m                            "
-		""
-		"&7Payez &e5x Cog&7 pour recevoir &a1x Crâne de Wither squelette&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.A5FC5FA7AC60EEFB.quest_subtitle: "&7Coûte &e5x Cog&7, rachetable"
-	quest.A5FC5FA7AC60EEFB.title: "&d&lAcheter: Crâne de Wither squelette"
-	quest.A735C66E469C8BF1.quest_desc: [
-		"&d&lAcheter: Disque"
-		"&8&m                            "
-		""
-		"&7Payez &e4x Cog&7 pour recevoir &a1x Disque&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.A735C66E469C8BF1.quest_subtitle: "&7Coûte &e4x Cog&7, rachetable"
-	quest.A735C66E469C8BF1.title: "&d&lAcheter: Disque"
-	quest.A77A3FDC53C495F8.quest_desc: [
-		"&a&lAcheter: Lingot en bois de fer"
-		"&8&m                            "
-		""
-		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Lingot en bois de fer&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.A77A3FDC53C495F8.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
-	quest.A77A3FDC53C495F8.title: "&a&lAcheter: Lingot en bois de fer"
 	quest.A7C19038F8CAC0C4.quest_desc: [
 		"&5&lSalades de l'End"
 		"&8&m                            "
@@ -50899,266 +52244,26 @@
 	]
 	quest.A7C19038F8CAC0C4.quest_subtitle: "&7Mangez vos légumes, gagnez vos combats"
 	quest.A7C19038F8CAC0C4.title: "&5&lSalades de l'End"
-	quest.A8BBB4735DFCC673.quest_desc: [
-		"&a&lAcheter: Charbon à coke"
-		"&8&m                            "
-		""
-		"&7Payez &e4x Bevel&7 pour recevoir &a16x Charbon à coke&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.A8BBB4735DFCC673.quest_subtitle: "&7Coûte &e4x Bevel&7, rachetable"
-	quest.A8BBB4735DFCC673.title: "&a&lAcheter: Charbon à coke"
-	quest.AB8FB8A159A90A21.quest_desc: [
-		"&a&lAcheter: Poudre lumineuse"
-		"&8&m                            "
-		""
-		"&7Payez &e3x Bevel&7 pour recevoir &a16x Poudre lumineuse&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.AB8FB8A159A90A21.quest_subtitle: "&7Coûte &e3x Bevel&7, rachetable"
-	quest.AB8FB8A159A90A21.title: "&a&lAcheter: Poudre lumineuse"
-	quest.B3F2005FFE893B11.quest_desc: [
-		"&a&lAcheter: Câble en cuivre"
-		"&8&m                            "
-		""
-		"&7Payez &e3x Bevel&7 pour recevoir &a16x Câble en cuivre&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.B3F2005FFE893B11.quest_subtitle: "&7Coûte &e3x Bevel&7, rachetable"
-	quest.B3F2005FFE893B11.title: "&a&lAcheter: Câble en cuivre"
-	quest.B4FA6E31DBA3F4AF.quest_desc: [
-		"&a&lAcheter: Lingot de zinc"
-		"&8&m                            "
-		""
-		"&7Payez &e4x Bevel&7 pour recevoir &a8x Lingot de zinc&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.B4FA6E31DBA3F4AF.quest_subtitle: "&7Coûte &e4x Bevel&7, rachetable"
-	quest.B4FA6E31DBA3F4AF.title: "&a&lAcheter: Lingot de zinc"
-	quest.B8485D8541188FB8.quest_desc: [
-		"&6&lAcheter: Choux"
-		"&8&m                            "
-		""
-		"&7Payez &e1x Bevel&7 pour recevoir &a16x Choux&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&6&lCatégorie:&r &fProvisions"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.B8485D8541188FB8.quest_subtitle: "&7Coûte &e1x Bevel&7, rachetable"
-	quest.B8485D8541188FB8.title: "&6&lAcheter: Choux"
-	quest.B8A25E23012E72E7.quest_desc: [
-		"&d&lAcheter: Pastille de Polonium"
-		"&8&m                            "
-		""
-		"&7Payez &e1x Crown&7 pour recevoir &a1x Pastille de Polonium&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.B8A25E23012E72E7.quest_subtitle: "&7Coûte &e1x Crown&7, rachetable"
-	quest.B8A25E23012E72E7.title: "&d&lAcheter: Pastille de Polonium"
-	quest.BB1657268B677133.quest_desc: [
-		"&a&lAcheter: Fer brut concassé"
-		"&8&m                            "
-		""
-		"&7Payez &e3x Bevel&7 pour recevoir &a16x Fer brut concassé&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.BB1657268B677133.quest_subtitle: "&7Coûte &e3x Bevel&7, rachetable"
-	quest.BB1657268B677133.title: "&a&lAcheter: Fer brut concassé"
-	quest.BBF9275781D219A0.quest_desc: [
-		"&a&lAcheter: Cendres de l'autre monde"
-		"&8&m                            "
-		""
-		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Cendres de l'autre monde&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.BBF9275781D219A0.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
-	quest.BBF9275781D219A0.title: "&a&lAcheter: Cendres de l'autre monde"
-	quest.BF5B026C48022E67.quest_desc: [
-		"&d&lAcheter: Lingot de netherite"
-		"&8&m                            "
-		""
-		"&7Payez &e1x Crown&7 pour recevoir &a1x Lingot de netherite&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.BF5B026C48022E67.quest_subtitle: "&7Coûte &e1x Crown&7, rachetable"
-	quest.BF5B026C48022E67.title: "&d&lAcheter: Lingot de netherite"
-	quest.C4425F7960A7613A.quest_desc: [
-		"&d&lAcheter: Écailles de Nâga"
-		"&8&m                            "
-		""
-		"&7Payez &e2x Sprocket&7 pour recevoir &a4x Écailles de Nâga&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.C4425F7960A7613A.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
-	quest.C4425F7960A7613A.title: "&d&lAcheter: Écailles de Nâga"
-	quest.C583FA6C17763E5F.quest_desc: [
-		"&d&lAcheter: Magnétite"
-		"&8&m                            "
-		""
-		"&7Payez &e4x Cog&7 pour recevoir &a1x Magnétite&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.C583FA6C17763E5F.quest_subtitle: "&7Coûte &e4x Cog&7, rachetable"
-	quest.C583FA6C17763E5F.title: "&d&lAcheter: Magnétite"
-	quest.C780F5F5F82C48A9.quest_desc: [
-		"&6&lAcheter: Tomate"
-		"&8&m                            "
-		""
-		"&7Payez &e1x Bevel&7 pour recevoir &a16x Tomate&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&6&lCatégorie:&r &fProvisions"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.C780F5F5F82C48A9.quest_subtitle: "&7Coûte &e1x Bevel&7, rachetable"
-	quest.C780F5F5F82C48A9.title: "&6&lAcheter: Tomate"
-	quest.C9147D735226D444.quest_desc: [
-		"&a&lAcheter: Verrues du Nether"
-		"&8&m                            "
-		""
-		"&7Payez &e2x Bevel&7 pour recevoir &a16x Verrues du Nether&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.C9147D735226D444.quest_subtitle: "&7Coûte &e2x Bevel&7, rachetable"
-	quest.C9147D735226D444.title: "&a&lAcheter: Verrues du Nether"
-	quest.CC961F75A042C7B8.quest_desc: [
-		"&a&lAcheter: Bloc de diamant"
-		"&8&m                            "
-		""
-		"&7Payez &e1x Crown&7 pour recevoir &a1x Bloc de diamant&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.CC961F75A042C7B8.quest_subtitle: "&7Coûte &e1x Crown&7, rachetable"
-	quest.CC961F75A042C7B8.title: "&a&lAcheter: Bloc de diamant"
-	quest.CDF50AA23E8475BD.quest_desc: [
-		"&d&lAcheter: Noyau électrolytique"
-		"&8&m                            "
-		""
-		"&7Payez &e1x Cog&7 pour recevoir &a2x Noyau électrolytique&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.CDF50AA23E8475BD.quest_subtitle: "&7Coûte &e1x Cog&7, rachetable"
-	quest.CDF50AA23E8475BD.title: "&d&lAcheter: Noyau électrolytique"
-	quest.CE353032B04594F0.quest_desc: [
-		"&d&lAcheter: Lanterne aquatique"
-		"&8&m                            "
-		""
-		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Lanterne aquatique&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.CE353032B04594F0.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
-	quest.CE353032B04594F0.title: "&d&lAcheter: Lanterne aquatique"
-	quest.CED8FA00BAC2573C.quest_desc: [
-		"&a&lAcheter: L'ingot d'Iesnium"
-		"&8&m                            "
-		""
-		"&7Payez &e1x Cog&7 pour recevoir &a4x L'ingot d'Iesnium&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.CED8FA00BAC2573C.quest_subtitle: "&7Coûte &e1x Cog&7, rachetable"
-	quest.CED8FA00BAC2573C.title: "&a&lAcheter: L'ingot d'Iesnium"
-	quest.D1FD98EA89B58725.quest_desc: [
-		"&d&lAcheter: Livre enchanté"
-		"&8&m                            "
-		""
-		"&7Payez &e2x Cog&7 pour recevoir &a1x Livre enchanté&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.D1FD98EA89B58725.quest_subtitle: "&7Coûte &e2x Cog&7, rachetable"
-	quest.D1FD98EA89B58725.title: "&d&lAcheter: Livre enchanté"
-	quest.D22808A1BF91369C.quest_desc: [
-		"&d&lAcheter: Balise"
-		"&8&m                            "
-		""
-		"&7Payez &e3x Crown&7 pour recevoir &a1x Balise&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.D22808A1BF91369C.quest_subtitle: "&7Coûte &e3x Crown&7, rachetable"
-	quest.D22808A1BF91369C.title: "&d&lAcheter: Balise"
-	quest.D55ABCEE693F23CF.quest_desc: [
-		"&6&lAcheter: Tarte à la citrouille"
-		"&8&m                            "
-		""
-		"&7Payez &e3x Bevel&7 pour recevoir &a8x Tarte à la citrouille&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&6&lCatégorie:&r &fProvisions"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.D55ABCEE693F23CF.quest_subtitle: "&7Coûte &e3x Bevel&7, rachetable"
-	quest.D55ABCEE693F23CF.title: "&6&lAcheter: Tarte à la citrouille"
 	quest.D6ECA7F4D218A103.quest_desc: [
 		"&c&lSaveurs ardentes"
 		"&8&m                            "
@@ -51172,58 +52277,10 @@
 	]
 	quest.D6ECA7F4D218A103.quest_subtitle: "&7Mangez la chaleur"
 	quest.D6ECA7F4D218A103.title: "&c&lSaveurs ardentes"
-	quest.D7991E5474E7AE02.quest_desc: [
-		"&a&lAcheter: Charbon"
-		"&8&m                            "
-		""
-		"&7Payez &e2x Bevel&7 pour recevoir &a16x Charbon&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.D7991E5474E7AE02.quest_subtitle: "&7Coûte &e2x Bevel&7, rachetable"
-	quest.D7991E5474E7AE02.title: "&a&lAcheter: Charbon"
-	quest.DA2EB7D87FAD7A7D.quest_desc: [
-		"&a&lAcheter: Lingot de pierre lumineuse raffinée"
-		"&8&m                            "
-		""
-		"&7Payez &e1x Cog&7 pour recevoir &a4x Lingot de pierre lumineuse raffinée&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.DA2EB7D87FAD7A7D.quest_subtitle: "&7Coûte &e1x Cog&7, rachetable"
-	quest.DA2EB7D87FAD7A7D.title: "&a&lAcheter: Lingot de pierre lumineuse raffinée"
-	quest.DD579EBA1F418719.quest_desc: [
-		"&a&lAcheter: Fer enrichi"
-		"&8&m                            "
-		""
-		"&7Payez &e1x Sprocket&7 pour recevoir &a8x Fer enrichi&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.DD579EBA1F418719.quest_subtitle: "&7Coûte &e1x Sprocket&7, rachetable"
-	quest.DD579EBA1F418719.title: "&a&lAcheter: Fer enrichi"
-	quest.DDD5DDDA347B1816.quest_desc: [
-		"&d&lAcheter: Élytres"
-		"&8&m                            "
-		""
-		"&7Payez &e1x Sun&7 pour recevoir &a1x Élytres&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.DDD5DDDA347B1816.quest_subtitle: "&7Coûte &e1x Sun&7, rachetable"
-	quest.DDD5DDDA347B1816.title: "&d&lAcheter: Élytres"
 	quest.E0D274E6F94B88C8.quest_desc: [
 		"&a&lRessources et Matériaux"
 		"&8&m                            "
@@ -51232,19 +52289,7 @@
 	]
 	quest.E0D274E6F94B88C8.quest_subtitle: "&7Dépensez vos pièces ici"
 	quest.E0D274E6F94B88C8.title: "&a&lRessources et Matériaux"
-	quest.E293AF12334C5018.quest_desc: [
-		"&a&lAcheter: Lingot d'obsidienne raffinée"
-		"&8&m                            "
-		""
-		"&7Payez &e1x Cog&7 pour recevoir &a4x Lingot d'obsidienne raffinée&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.E293AF12334C5018.quest_subtitle: "&7Coûte &e1x Cog&7, rachetable"
-	quest.E293AF12334C5018.title: "&a&lAcheter: Lingot d'obsidienne raffinée"
 	quest.E29FDE4F4BD7E117.quest_desc: [
 		"&9&lBoissons réconfortantes"
 		"&8&m                            "
@@ -51258,162 +52303,18 @@
 	]
 	quest.E29FDE4F4BD7E117.quest_subtitle: "&7De petites gorgées, de vrais bonus"
 	quest.E29FDE4F4BD7E117.title: "&9&lBoissons réconfortantes"
-	quest.E3232A8A592FAFD9.quest_desc: [
-		"&d&lAcheter: En selle :"
-		"&8&m                            "
-		""
-		"&7Payez &e2x Sprocket&7 pour recevoir &a2x En selle :&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.E3232A8A592FAFD9.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
-	quest.E3232A8A592FAFD9.title: "&d&lAcheter: En selle :"
-	quest.E3449EE419EF2C33.quest_desc: [
-		"&a&lAcheter: Boule de slime"
-		"&8&m                            "
-		""
-		"&7Payez &e3x Bevel&7 pour recevoir &a8x Boule de slime&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.E3449EE419EF2C33.quest_subtitle: "&7Coûte &e3x Bevel&7, rachetable"
-	quest.E3449EE419EF2C33.title: "&a&lAcheter: Boule de slime"
-	quest.E3C52AE3543B7180.quest_desc: [
-		"&a&lAcheter: Bloc d'or"
-		"&8&m                            "
-		""
-		"&7Payez &e3x Cog&7 pour recevoir &a1x Bloc d'or&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.E3C52AE3543B7180.quest_subtitle: "&7Coûte &e3x Cog&7, rachetable"
-	quest.E3C52AE3543B7180.title: "&a&lAcheter: Bloc d'or"
-	quest.E7A01103559C54C9.quest_desc: [
-		"&a&lAcheter: Poche d'encre luisante"
-		"&8&m                            "
-		""
-		"&7Payez &e3x Bevel&7 pour recevoir &a8x Poche d'encre luisante&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.E7A01103559C54C9.quest_subtitle: "&7Coûte &e3x Bevel&7, rachetable"
-	quest.E7A01103559C54C9.title: "&a&lAcheter: Poche d'encre luisante"
-	quest.E80508D3A6ABABFD.quest_desc: [
-		"&a&lAcheter: Poudre à canon"
-		"&8&m                            "
-		""
-		"&7Payez &e4x Bevel&7 pour recevoir &a16x Poudre à canon&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.E80508D3A6ABABFD.quest_subtitle: "&7Coûte &e4x Bevel&7, rachetable"
-	quest.E80508D3A6ABABFD.title: "&a&lAcheter: Poudre à canon"
-	quest.E9CC3E8226040B37.quest_desc: [
-		"&d&lAcheter: Ancient Débris"
-		"&8&m                            "
-		""
-		"&7Payez &e4x Cog&7 pour recevoir &a2x Ancient Débris&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.E9CC3E8226040B37.quest_subtitle: "&7Coûte &e4x Cog&7, rachetable"
-	quest.E9CC3E8226040B37.title: "&d&lAcheter: Ancient Débris"
-	quest.EC1557983C9B8B16.quest_desc: [
-		"&6&lAcheter: Riz cuit"
-		"&8&m                            "
-		""
-		"&7Payez &e2x Bevel&7 pour recevoir &a8x Riz cuit&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&6&lCatégorie:&r &fProvisions"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.EC1557983C9B8B16.quest_subtitle: "&7Coûte &e2x Bevel&7, rachetable"
-	quest.EC1557983C9B8B16.title: "&6&lAcheter: Riz cuit"
-	quest.EF978396C7F26235.quest_desc: [
-		"&d&lAcheter: Téléportation Core"
-		"&8&m                            "
-		""
-		"&7Payez &e4x Cog&7 pour recevoir &a1x Téléportation Core&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.EF978396C7F26235.quest_subtitle: "&7Coûte &e4x Cog&7, rachetable"
-	quest.EF978396C7F26235.title: "&d&lAcheter: Téléportation Core"
-	quest.F10355643504464B.quest_desc: [
-		"&a&lAcheter: Obsidienne"
-		"&8&m                            "
-		""
-		"&7Payez &e4x Bevel&7 pour recevoir &a8x Obsidienne&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.F10355643504464B.quest_subtitle: "&7Coûte &e4x Bevel&7, rachetable"
-	quest.F10355643504464B.title: "&a&lAcheter: Obsidienne"
-	quest.F119AB7DAF2A5A8F.quest_desc: [
-		"&d&lAcheter: Lingot ardent"
-		"&8&m                            "
-		""
-		"&7Payez &e2x Cog&7 pour recevoir &a2x Lingot ardent&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.F119AB7DAF2A5A8F.quest_subtitle: "&7Coûte &e2x Cog&7, rachetable"
-	quest.F119AB7DAF2A5A8F.title: "&d&lAcheter: Lingot ardent"
-	quest.F3B24D5C1C704509.quest_desc: [
-		"&d&lAcheter: Poussière de Gemme"
-		"&8&m                            "
-		""
-		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Poussière de Gemme&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.F3B24D5C1C704509.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
-	quest.F3B24D5C1C704509.title: "&d&lAcheter: Poussière de Gemme"
-	quest.F69108D880593B66.quest_desc: [
-		"&a&lAcheter: Alliage renforcé"
-		"&8&m                            "
-		""
-		"&7Payez &e1x Cog&7 pour recevoir &a4x Alliage renforcé&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.F69108D880593B66.quest_subtitle: "&7Coûte &e1x Cog&7, rachetable"
-	quest.F69108D880593B66.title: "&a&lAcheter: Alliage renforcé"
 	quest.F797628EBF5179FF.quest_desc: [
 		"&6&lFestins fortifiants"
 		"&8&m                            "
@@ -51427,122 +52328,48 @@
 	]
 	quest.F797628EBF5179FF.quest_subtitle: "&7Un repas qui vaut son pesant d'or"
 	quest.F797628EBF5179FF.title: "&6&lFestins fortifiants"
-	quest.F92B4528B5BB8EBA.quest_desc: [
-		"&d&lAcheter: Pomme dorée enchantée"
-		"&8&m                            "
-		""
-		"&7Payez &e1x Crown&7 pour recevoir &a1x Pomme dorée enchantée&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.F92B4528B5BB8EBA.quest_subtitle: "&7Coûte &e1x Crown&7, rachetable"
-	quest.F92B4528B5BB8EBA.title: "&d&lAcheter: Pomme dorée enchantée"
-	quest.F94EAD10C8B5DAD3.quest_desc: [
-		"&d&lAcheter: Étiquette"
-		"&8&m                            "
-		""
-		"&7Payez &e1x Sprocket&7 pour recevoir &a4x Étiquette&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.F94EAD10C8B5DAD3.quest_subtitle: "&7Coûte &e1x Sprocket&7, rachetable"
-	quest.F94EAD10C8B5DAD3.title: "&d&lAcheter: Étiquette"
-	quest.F9E80549413A8FB6.quest_desc: [
-		"&6&lAcheter: Steak"
-		"&8&m                            "
-		""
-		"&7Payez &e2x Bevel&7 pour recevoir &a16x Steak&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&6&lCatégorie:&r &fProvisions"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.F9E80549413A8FB6.quest_subtitle: "&7Coûte &e2x Bevel&7, rachetable"
-	quest.F9E80549413A8FB6.title: "&6&lAcheter: Steak"
-	quest.FBA4F4E5716177EA.quest_desc: [
-		"&d&lAcheter: Energy Tablet"
-		"&8&m                            "
-		""
-		"&7Payez &e3x Cog&7 pour recevoir &a1x Energy Tablet&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.FBA4F4E5716177EA.quest_subtitle: "&7Coûte &e3x Cog&7, rachetable"
-	quest.FBA4F4E5716177EA.title: "&d&lAcheter: Energy Tablet"
-	quest.FBE24CAEC8E49AD1.quest_desc: [
-		"&a&lAcheter: Steeleaf"
-		"&8&m                            "
-		""
-		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Steeleaf&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.FBE24CAEC8E49AD1.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
-	quest.FBE24CAEC8E49AD1.title: "&a&lAcheter: Steeleaf"
-	quest.FBEBAB0FD20734C1.quest_desc: [
-		"&d&lAcheter: Tube électronique"
-		"&8&m                            "
-		""
-		"&7Payez &e2x Sprocket&7 pour recevoir &a8x Tube électronique&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&d&lCatégorie:&r &fRares"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.FBEBAB0FD20734C1.quest_subtitle: "&7Coûte &e2x Sprocket&7, rachetable"
-	quest.FBEBAB0FD20734C1.title: "&d&lAcheter: Tube électronique"
-	quest.FC262FBB271285D7.quest_desc: [
-		"&a&lAcheter: Poudre d'obsidienne"
-		"&8&m                            "
-		""
-		"&7Payez &e1x Sprocket&7 pour recevoir &a8x Poudre d'obsidienne&7."
-		"&7Cette offre est &arachetable&7, achetez autant que possible."
-		""
-		"&a&lCatégorie:&r &fRessources"
-		""
-		"&e&lAstuce:&r &7Gagnez des pièces dans les quêtes de chasse et de progression, puis dépensez-les ici."
-	]
 	quest.FC262FBB271285D7.quest_subtitle: "&7Coûte &e1x Sprocket&7, rachetable"
-	quest.FC262FBB271285D7.title: "&a&lAcheter: Poudre d'obsidienne"
 	reward_table.159F9EEDD15E57B6.title: "Butin Create"
 	reward_table.27A001FEADFE5B13.title: "Butin Refined Storage"
 	reward_table.3DB171130665E8A5.title: "Butin de l'Aether"
 	reward_table.4A1B2C3D4E5F6A70.title: "Butin Commun"
+	reward_table.4FF671B0F8F3AE54.title: "Simply"
 	reward_table.5B2C3D4E5F6A7B81.title: "Butin Rare"
 	reward_table.5BA529EFD577AEC7.title: "Butin du Nether"
 	reward_table.6C3D4E5F6A7B8C92.title: "Butin Légendaire"
 	reward_table.7832E783B5676BAA.title: "Butin Avions Immersifs"
 	reward_table.78C523E6C0425A3E.title: "Bases de l'Overworld"
+	task.000E284E64FFA1D4.title: "Guide"
+	task.010B90F74549D650.title: "N'importe quelle bûche"
 	task.0169ACC033986263.title: "Fantôme de Terreur"
+	task.01E1FDAB35CB3A62.title: "Guide"
 	task.02162D8D83803762.title: "Le Saviez-vous !"
 	task.0314679E73E64390.title: "Bienvenue sur Create"
 	task.032E80AFA29BB88E.title: "Slider"
 	task.0379065600A79FA6.title: "Forme Juggernaut"
 	task.03A97F2FC40BF0A4.title: "Forme Porteuse"
+	task.048DCF7C8F1BFF48.title: "Guide"
 	task.051712C34F248D51.title: "Pillard Form"
 	task.0542C5EB2C2A159B.title: "Machinerie Avancée"
 	task.05B4BEA36A91A8CE.title: "Zombie"
 	task.05BAFF8E36815015.title: "Tout Rail de Train"
+	task.067B83E294B03E8D.title: "Guide"
 	task.069AEE53CF77357A.title: "Forme Joueur"
 	task.070782B14D917E3A.title: "Forme Marine"
+	task.070B432F72D116CF.title: "Flux Networks"
+	task.07EA3EAED392A6B4.title: "Guide"
 	task.0994D55F5337D126.title: "Pierre d'Âme (Ocultas/Elemental)"
 	task.0AA393708F98CAAD.title: "Localisez l'Autel le Plus Sombre"
 	task.0C88C7EACA8C1127.title: "Entrez dans le Nether"
 	task.0DD3C1416FC34FA1.title: "Cliquez-moi !"
+	task.0F16BC579B286C75.title: "La Chasse Sauvage commence !"
+	task.0F21F31F89EE9EE0.title: "Hexafluorure d'uranium"
 	task.1000000000000021.title: "Entrez dans l'Aether"
 	task.1000000000000041.title: "Forêt Carmin"
 	task.1000000000000044.title: "Deltas de basalte"
@@ -51551,13 +52378,18 @@
 	task.1053B1858A9926B3.title: "Toute Bobine de Fil"
 	task.10B8262FD5FF6663.title: "Cuisine Centrale"
 	task.10FF29EE8CC1EB52.title: "Bienvenue dans Immersive Engineering !"
+	task.111E5DCA80221B12.title: "Saumure"
+	task.129BF6F1E46C2374.title: "Aquaculture"
 	task.13B14E2ACB2E8CCF.title: "Prairie de Racines-ciel"
 	task.13D4B7B7E30A0139.title: "Vers l'Infini et Au-delà !"
 	task.144357A16ED4B851.title: "Forme Chacal"
+	task.1542EF1F69DFAF1D.title: "Guide"
+	task.169BD5129B24BEC4.title: "Guide"
 	task.1941DE49FCC4EC20.title: "Any Roue Dentée"
 	task.19B573784B7F3E8E.title: "Vindicateur Form"
 	task.1AAA9A64A3996B24.title: "Bienvenue sur AE2"
 	task.1AAE8F06107DDA13.title: "Le Cracheur"
+	task.1AC6EA68F1F7A194.title: "Guide"
 	task.1B0800437C68C43A.title: "Cliquez-moi !"
 	task.1B97D353A3C4084E.title: "Forme Gueule"
 	task.1BF624563C5A3316.title: "Vaincre Deep darkest"
@@ -51576,10 +52408,16 @@
 	task.2000000000000117.title: "Puits de l'End"
 	task.21274FD2BB0F07E7.title: "Comme un Boss !"
 	task.21428FE253D34D4E.title: "Quêtes"
+	task.21F908C707A5CD22.title: "Vapeur d'eau"
+	task.225F6D4D5FBBD83D.title: "Simply Swords"
+	task.22A5BE41BDD81188.title: "Guide"
+	task.2344D8A26E6E5D26.title: "Acide fluorhydrique"
 	task.243E779710E31B68.title: "L'Ours"
+	task.24D0231A8BE30CD5.title: "Guide"
 	task.25164A32E3065525.title: "Invocateur Form"
 	task.2529514C3865F76F.title: "&bEaster Egg!"
 	task.256396D6C7342936.title: "Villageois Form"
+	task.2574DA505078EBA8.title: "Guide"
 	task.259F405223B358AD.title: "Bois de Racines-ciel"
 	task.25B20B95E20BADAD.title: "Bronze Donjon"
 	task.25DFB98093D43DAA.title: "Araignée"
@@ -51589,13 +52427,24 @@
 	task.27AC37AD00C7EADD.title: "Le Siffleur"
 	task.27DCD342A7A31C2E.title: "Exotic Hardware"
 	task.28EF7EDD9CBC144B.title: "La Gestante"
+	task.292831B4A303C4E2.title: "Acide sulfurique"
+	task.2996503157B9BE70.title: "Guide"
+	task.2A9C88F8BEABD6DC.title: "Guide"
+	task.2B27CB8C1C372652.title: "Guide"
+	task.2BB66AEC1628BCC3.title: "Guide"
 	task.2BC9F86AACB5D2E5.title: "Any #waystones:sharestones"
 	task.2BCA2D035A88D3EA.title: "Enderman"
 	task.2BF60FA293C5FF57.title: "Valkyrie"
 	task.2CB554B137C27BCB.title: "Un Repos Bien Mérité"
+	task.2D35B677BEBB9F60.title: "Eau"
+	task.2D61DEFE31913569.title: "Guide"
 	task.2D971EBC27A28245.title: "&l&dVaincre le Gardien de la Causalité"
+	task.2E2EEC4DFE7514EE.title: "Guide"
+	task.2E362D86A45621D3.title: "Eau"
 	task.2E402A7B47F5B536.title: "Warden"
 	task.2E5C745B6235D5D2.title: "Tout Piston Mécanique"
+	task.2E5F2C51B6C7D87F.title: "Guide"
+	task.2EC13CC71865D4A3.title: "Immersive Aircraft"
 	task.2ECCA25FC726568D.title: "Démarrer"
 	task.3000000000000021.title: "Trouver un Donjon d'Argent"
 	task.3000000000000022.title: "Vaincre la Reine Valkyrie"
@@ -51603,24 +52452,48 @@
 	task.3114FD3EEC189C0C.title: "Forme Brute"
 	task.325819FE30F80167.title: "Vaincre Ender Dragon"
 	task.32661460C58BC1A6.title: "Fireproof"
+	task.330CD96085B4B4A5.title: "Occultism"
 	task.33A12B21A2835C25.title: "Baby Food"
 	task.3515281F92F44894.title: "Forêt Biscornue"
+	task.370EFB4BF0310049.title: "Guide"
+	task.37A8079818A3FEA1.title: "Oxygène"
 	task.37C9041F23A82BC7.title: "Énergie Nucléaire"
+	task.38688E2F4F9C33B8.title: "Guide"
 	task.388CAB9731714C00.title: "Ender Dragon"
 	task.38AB67295599ED79.title: "Extinguished"
 	task.38AEF7753059826F.title: "Any seat"
 	task.38B39F267523622D.title: "je l'ai lu"
+	task.391355971F9B31AF.title: "Guide"
 	task.3916582CC8A77730.title: "Tourelle de Sort (Représentation Technica)"
+	task.398678B306E70EB3.title: "Guide"
+	task.39B574EEEF89C748.title: "Guide"
+	task.39CD7C456CC4E05F.title: "Guide"
+	task.3A31FBEF614D4618.title: "Guide"
+	task.3A62F0F6DD7DBA9B.title: "Guide"
+	task.3AF51CFC4CD7A57E.title: "Guide"
 	task.3B2CC7DEE30E3AB8.title: "&aTutoriel Terminé !"
+	task.3B5AB16C108C3286.title: "Guide"
 	task.3B87D2841E0EB64E.title: "Remords du Pilleur"
+	task.3CF70FB2D3A88795.title: "Guide"
+	task.3D4B7BDCFC2E6F76.title: "Guide"
+	task.3D6C921B19CB832D.title: "Guide"
+	task.3D7213D3497F35DD.title: "Guide"
 	task.3D7BD985875AFF57.title: "Tuer un Ver Hurleur"
+	task.3DB8DFC85BE42F9C.title: "Saison 1"
 	task.3E21742FFB69B1F0.title: "Human Form"
+	task.3E89759074A441A2.title: "Hydrogène"
 	task.4000000000000021.title: "Trouver un Donjon d'Or"
+	task.40EB81A8114DA1F7.title: "Guide"
+	task.41072483A31D019D.title: "Guide"
 	task.415D681366CCA8B4.title: "Any Roue Dentée"
 	task.4320FE097FFFC67F.title: "Marteau de Ban Ultime"
+	task.435BA9CD40500437.title: "Guide"
+	task.43FFF1E58302E3FE.title: "Chlore"
 	task.447E94C9691121B4.title: "Hostile Paradise"
 	task.44E6FE3448FCFEA5.title: "Infecteur de Pod"
+	task.45D05BCE5065CD04.title: "Guide"
 	task.463E682E86E121FB.title: "Vallée des Âmes"
+	task.46CF7E4092E87D37.title: "Guide"
 	task.470F5F079F479ED8.title: "Vaincre Injured Marble Guard"
 	task.474D2D76F2256297.title: "Entrez dans l'Autre Côté"
 	task.48A879AA84014B3A.title: "Tout Rail de Train"
@@ -51628,10 +52501,12 @@
 	task.4A295FBA7E704BBA.title: "Gagner vos Ailes"
 	task.4A79D8CA7F896B80.title: "Vaincre Agony soul"
 	task.4AD1AD3FB0D6A65E.title: "Trouver un Bastion"
+	task.4BA1B799B24E46DC.title: "Guide"
 	task.4C460021AD842C9C.title: "Let's Mouche!"
 	task.4E2A0627D65498DE.title: "Pierre d'Âme (Ocultas/Elemental)"
 	task.4EFD70CF569A0C96.title: "Tireur Fantôme"
 	task.4F33BC8FD3AD6193.title: "Any #waystones:waystones"
+	task.4F37301A052B7337.title: "Guide"
 	task.5000000000000021.title: "Vers l'Aether Profond"
 	task.50B516B4CE28FF16.title: "Reine Valkyrie"
 	task.510B5D434945096B.title: "Bienvenue sur Create"
@@ -51639,25 +52514,39 @@
 	task.520DA2978C229434.title: "TFMG"
 	task.53E97299AE205247.title: "La Fleur de Lune"
 	task.5465FEC5D3C9D92F.title: "When Phygs Mouche"
+	task.54DA23EAADE1B2F6.title: "Dioxyde de soufre"
+	task.54EB80883788F3FC.title: "Lingot d'uranium"
 	task.5600F8BC13DD8A35.title: "Oignon d'argent"
+	task.58E2E188B880374E.title: "Artifacts"
 	task.5945A732504C0B94.title: "Trouver une Forteresse"
 	task.59B5BE333FEC261D.title: "Squelette"
 	task.5AF0ED2DE7305880.title: "Entrez dans le Nether"
 	task.5B9501581479A2EC.title: "Tuer un Brisé"
+	task.5C3B02FEB95201F5.title: "Guide"
+	task.5CB4BEA8DC466F98.title: "Oxyde d'uranium"
 	task.5D0C628B2997E632.title: "Chouette Bijoux !"
+	task.5EB5E2E9428858C1.title: "Guide"
 	task.5EEA019B68263742.title: "Détrôné"
 	task.5F7CAFB88073EA6F.title: "Continuer"
 	task.5FB026F193CA182B.title: "Tout Siège"
+	task.5FF2F002B310363F.title: "Guide"
 	task.609B26AA23808269.title: "Bosquet de Racines-ciel"
+	task.60A4DE3DD621CB81.title: "Mekanism Reactor"
+	task.617BF11410C956AC.title: "Guide"
 	task.6289D42E627ABA37.title: "Forme Tyran"
 	task.628DB7EBD71EACBA.title: "L'Essaimeur"
 	task.62AEBFD1B43EB170.title: "Localisez la Tour Ancienne"
 	task.642778E9B8BE116D.title: "Automatisation"
+	task.643F145F79C703F9.title: "Débute ton aventure du stockage"
+	task.647876B06DF0D352.title: "Eau"
 	task.65502B03244DE91B.title: "Poisson d'argent Farms"
 	task.66D8AED7FC460DF4.title: "&l&1Vaincre &kl'univers&r"
+	task.681C4B536218FB26.title: "Guide"
 	task.68911C8D1A1259F0.title: "Creeper"
 	task.68D0CB41CA05470D.title: "Ouvrir les Niveaux du Monde"
 	task.68DE05E11FE4A67F.title: "Gold Donjon"
+	task.6946627A95F10D15.title: "Guide"
+	task.69D784DEDC403DCE.title: "Guide"
 	task.6A0A0000CF712141.title: "Tout Rail de Train"
 	task.6A64112F92690241.title: "Cliquez-moi !"
 	task.6A91D6D86759DC48.title: "Le Bombardier"
@@ -51666,139 +52555,28 @@
 	task.6C50C49707189979.title: "Le Lourd"
 	task.6F2A6A58E5B35149.title: "Localisez le Bastion Sacrificiel"
 	task.701F62A7D8B9F08D.title: "Le Rabidus"
+	task.70B5633CF1CC70E2.title: "Guide"
 	task.71DCC285ED0238CD.title: "Entrez dans le Nether"
+	task.71FE564348FF9879.title: "Guide"
 	task.74708EFA05B6CBCB.title: "... Jusqu'à ce qu'ils éclosent !"
 	task.74C85348A8B837EB.title: "Cliquez-moi !"
 	task.7691992EB44DE569.title: "Comment avoir des outils de base"
 	task.76FDCAB7E2C325CA.title: "Flooder Creeper"
+	task.77A7BE998B768DD7.title: "Guide"
+	task.77B3793940759586.title: "Guide"
+	task.787266D1F8C28351.title: "Guide"
+	task.78D234BC2FE7EC23.title: "Guide"
 	task.793F102D1E929698.title: "Tourelle de Sort (Représentation Technica)"
 	task.7A1D9188AEACA012.title: "Forêt de Racines-ciel"
 	task.7A6F92D16C3C2053.title: "Drone"
 	task.7B061A0174671F39.title: "Planeur Ornithoptère"
+	task.7D390F6CCC970B5D.title: "Guide"
+	task.7D4F4636244B1FF6.title: "Guide"
 	task.7D570A9C405B5F9C.title: "Grenadier Form"
 	task.7D8A27355D36206B.title: "Forme Enderman"
 	task.7DB3C5AF7A635F83.title: "Wither"
 	task.7DE0F30DD1717487.title: "&lVaincre un morceau de Sanke&r"
 	task.7E58AA59E81EE102.title: "Localisez la Forge d'Âme en Marbre"
-	chapter.207A473A77613682.title: "&6&lMarché Arcadia"
-	chapter.21167430A261967F.title: "&6&lMarché Arcadia"
-	chapter.466210654405EC68.title: "&6&lMarché Arcadia"
-	chapter.53B3A5285E057E54.title: "Chasse aquatique"
-	chapter.564F75586B27A8C6.title: "&6&lMarché Arcadia"
-	chapter.5F5A44120CD729F9.title: "Chasse animale"
-	chapter.66BB7BCF63E3DCD4.title: "&6&lMarché Arcadia"
-	chapter.6AC17E08DAC3702F.title: "Protège ton foyer"
-	chapter.71743AC454835CFD.title: "&6&lMarché Arcadia"
-	chapter.722A9BB5CF6873E8.title: "Chasse aux protecteurs"
-	chapter.7A0AFA9D543C27E3.title: "&6&lMarché Arcadia"
-	chapter.7DEAE6D34AADADAC.title: "&6&lMarché Arcadia"
-	file.0000000000000001.title: "Quêtes Arcadia"
-	quest.235E4F75A376784D.quest_desc: [
-		"&9&lRobit"
-		"&8&m                            "
-		""
-		"&7Le Robit vous suit partout, sert de table de craft portable"
-		"&7et d'inventaire, et se recharge sur un Chargepad."
-		""
-		"&9&lCatégorie:&r &fÉquipement"
-		""
-		"&e&l★ Astuce:&r &7Nommez-le et teignez-le. Le Robit est votre compagnon de terrain."
-	]
-	quest.235E4F75A376784D.quest_subtitle: "&7Un fidèle robot assistant"
-	quest.235E4F75A376784D.title: "&9&lRobit"
-	quest.5272BF8C23083AFA.quest_desc: [
-		"&9&lMineur Numérique"
-		"&8&m                            "
-		""
-		"&7Le Mineur Numérique scanne une vaste zone et extrait tout seul"
-		"&7chaque bloc correspondant aux filtres que vous définissez."
-		""
-		"&9&lCatégorie:&r &fÉquipement"
-		""
-		"&e&l★ Astuce:&r &7Il peut même remplacer ce qu'il mine pour laisser un terrain propre."
-	]
-	quest.5272BF8C23083AFA.quest_subtitle: "&7Minez toute une zone par filtre"
-	quest.5272BF8C23083AFA.title: "&9&lMineur Numérique"
-	reward_table.4FF671B0F8F3AE54.title: "Simply"
-	task.000E284E64FFA1D4.title: "Guide"
-	task.010B90F74549D650.title: "N'importe quelle bûche"
-	task.01E1FDAB35CB3A62.title: "Guide"
-	task.048DCF7C8F1BFF48.title: "Guide"
-	task.067B83E294B03E8D.title: "Guide"
-	task.070B432F72D116CF.title: "Flux Networks"
-	task.07EA3EAED392A6B4.title: "Guide"
-	task.0F16BC579B286C75.title: "La Chasse Sauvage commence !"
-	task.0F21F31F89EE9EE0.title: "Hexafluorure d'uranium"
-	task.111E5DCA80221B12.title: "Saumure"
-	task.129BF6F1E46C2374.title: "Aquaculture"
-	task.1542EF1F69DFAF1D.title: "Guide"
-	task.169BD5129B24BEC4.title: "Guide"
-	task.1AC6EA68F1F7A194.title: "Guide"
-	task.21F908C707A5CD22.title: "Vapeur d'eau"
-	task.225F6D4D5FBBD83D.title: "Simply Swords"
-	task.22A5BE41BDD81188.title: "Guide"
-	task.2344D8A26E6E5D26.title: "Acide fluorhydrique"
-	task.24D0231A8BE30CD5.title: "Guide"
-	task.2574DA505078EBA8.title: "Guide"
-	task.292831B4A303C4E2.title: "Acide sulfurique"
-	task.2996503157B9BE70.title: "Guide"
-	task.2A9C88F8BEABD6DC.title: "Guide"
-	task.2B27CB8C1C372652.title: "Guide"
-	task.2BB66AEC1628BCC3.title: "Guide"
-	task.2D35B677BEBB9F60.title: "Eau"
-	task.2D61DEFE31913569.title: "Guide"
-	task.2E2EEC4DFE7514EE.title: "Guide"
-	task.2E362D86A45621D3.title: "Eau"
-	task.2E5F2C51B6C7D87F.title: "Guide"
-	task.2EC13CC71865D4A3.title: "Immersive Aircraft"
-	task.330CD96085B4B4A5.title: "Occultism"
-	task.370EFB4BF0310049.title: "Guide"
-	task.37A8079818A3FEA1.title: "Oxygène"
-	task.38688E2F4F9C33B8.title: "Guide"
-	task.391355971F9B31AF.title: "Guide"
-	task.398678B306E70EB3.title: "Guide"
-	task.39B574EEEF89C748.title: "Guide"
-	task.39CD7C456CC4E05F.title: "Guide"
-	task.3A31FBEF614D4618.title: "Guide"
-	task.3A62F0F6DD7DBA9B.title: "Guide"
-	task.3AF51CFC4CD7A57E.title: "Guide"
-	task.3B5AB16C108C3286.title: "Guide"
-	task.3CF70FB2D3A88795.title: "Guide"
-	task.3D4B7BDCFC2E6F76.title: "Guide"
-	task.3D6C921B19CB832D.title: "Guide"
-	task.3D7213D3497F35DD.title: "Guide"
-	task.3DB8DFC85BE42F9C.title: "Saison 1"
-	task.3E89759074A441A2.title: "Hydrogène"
-	task.40EB81A8114DA1F7.title: "Guide"
-	task.41072483A31D019D.title: "Guide"
-	task.435BA9CD40500437.title: "Guide"
-	task.43FFF1E58302E3FE.title: "Chlore"
-	task.45D05BCE5065CD04.title: "Guide"
-	task.46CF7E4092E87D37.title: "Guide"
-	task.4BA1B799B24E46DC.title: "Guide"
-	task.4F37301A052B7337.title: "Guide"
-	task.54DA23EAADE1B2F6.title: "Dioxyde de soufre"
-	task.54EB80883788F3FC.title: "Lingot d'uranium"
-	task.58E2E188B880374E.title: "Artifacts"
-	task.5C3B02FEB95201F5.title: "Guide"
-	task.5CB4BEA8DC466F98.title: "Oxyde d'uranium"
-	task.5EB5E2E9428858C1.title: "Guide"
-	task.5FF2F002B310363F.title: "Guide"
-	task.60A4DE3DD621CB81.title: "Mekanism Reactor"
-	task.617BF11410C956AC.title: "Guide"
-	task.643F145F79C703F9.title: "Débute ton aventure du stockage"
-	task.647876B06DF0D352.title: "Eau"
-	task.681C4B536218FB26.title: "Guide"
-	task.6946627A95F10D15.title: "Guide"
-	task.69D784DEDC403DCE.title: "Guide"
-	task.70B5633CF1CC70E2.title: "Guide"
-	task.71FE564348FF9879.title: "Guide"
-	task.77A7BE998B768DD7.title: "Guide"
-	task.77B3793940759586.title: "Guide"
-	task.787266D1F8C28351.title: "Guide"
-	task.78D234BC2FE7EC23.title: "Guide"
-	task.7D390F6CCC970B5D.title: "Guide"
-	task.7D4F4636244B1FF6.title: "Guide"
 	task.7EA0FF3B604D14A4.title: "Guide"
 	task.7F6BD9A2AB6A12FE.title: "Guide"
 	task.7F911EE8A527FD04.title: "Trioxyde de soufre"

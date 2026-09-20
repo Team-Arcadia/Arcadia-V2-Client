@@ -1,5 +1,19 @@
 # Error Log — Arcadia V2
 
+## [2026-09-20 10:30] — Verified item ids against lang files, which passed three items that do not exist
+
+**Context:** Extending the market chapter. Every item the chapter references was checked against a registry built by harvesting `item.*` and `block.*` keys from every mod's `en_us.json`, plus the vanilla jar. The check reported 188 items, zero missing.
+**Error:** In game, three of them rendered as `ftbquests:missing_item`: `knightquest:great_essence`, `knightquest:small_essence` and `ars_nouveau:magic_clay`. FTB Quests rewrote the chapter on load, replacing each broken stack with a placeholder carrying the original id in a component.
+**Root cause:** A translation key is not proof that an item is registered. Mods keep lang entries for content they have removed: the Ars Nouveau jar still ships `item.ars_nouveau.magic_clay` and contains no other file mentioning clay at all, the whole family having been dropped. The two essences were my own mistake on top of that, they live in the `knightlib` namespace, not `knightquest`. The lang-based registry therefore produced false positives in both directions and hid a pre-existing broken entry that had been in the market before this work.
+**Fix:** Rebuilt the registry from **item models**, `assets/<namespace>/models/item/*.json`, across every mod jar, the vanilla jar and `kubejs/assets`. A registered item essentially always ships one, and the three ghosts disappear from the registry immediately. Repointed the essences to `knightlib:` and `magic_clay` to `ars_nouveau:magebloom`.
+**Prevention:** Never validate an item id against lang files. Use the item-model registry, and treat the absence of a model as the answer. Cross-check anything surprising by searching the jar for the id: a mod that ships no file at all mentioning the item has removed it, whatever its lang file still says. The strongest check remains loading the pack once and grepping the chapter for `ftbquests:missing_item`, which is FTB Quests telling you exactly what it could not resolve.
+
+**Contexte :** Extension du chapitre market. Les items etaient valides contre un registre bati depuis les fichiers de langue des mods : 188 items, zero manquant annonce.
+**Erreur :** En jeu, trois d'entre eux s'affichaient en `ftbquests:missing_item`.
+**Cause :** Une cle de traduction ne prouve pas qu'un item est enregistre. Ars Nouveau livre encore `item.ars_nouveau.magic_clay` alors que le jar ne contient plus aucun fichier mentionnant clay. Les deux essences venaient en plus d'une erreur de namespace de ma part : elles sont dans `knightlib`, pas `knightquest`.
+**Correction :** Registre reconstruit depuis les modeles d'items `assets/<ns>/models/item/*.json`. Essences repointees vers `knightlib:`, magic_clay vers `ars_nouveau:magebloom`.
+**Prevention :** Ne jamais valider un identifiant d'item sur les fichiers de langue. Utiliser le registre des modeles, et chercher l'identifiant dans le jar en cas de doute. Le controle le plus sur reste de lancer le pack une fois puis de chercher `ftbquests:missing_item` dans le chapitre.
+
 ## [2026-09-20 09:05] — Deleted a defaultconfigs file that FTB Essentials owns by design
 
 **Context:** Repairing the `defaultconfigs/` mirror. `defaultconfigs/ftbessentials-server.snbt` existed with no counterpart in `config/`, which holds `ftbessentials.snbt` instead.

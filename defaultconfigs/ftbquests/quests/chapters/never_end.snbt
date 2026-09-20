@@ -1752,8 +1752,7 @@
 			id: "2000000000000024"
 			rewards: [
 				{
-					count: 1
-					id: "B3511D4B28517629"
+					id: "3BCFB9923593D618"
 					item: {
 						count: 1
 						id: "numismatics:spur"
@@ -2050,7 +2049,6 @@
 			id: "096F652A3F3EB4CA"
 			rewards: [
 				{
-					count: 1
 					id: "1CB3C18AC898D1CE"
 					item: {
 						count: 1
@@ -2174,7 +2172,6 @@
 			id: "39125FF182B9B797"
 			rewards: [
 				{
-					count: 1
 					id: "45B8CAC475A48A5C"
 					item: {
 						count: 1
@@ -2205,7 +2202,6 @@
 			id: "5E47A5271BC6289B"
 			rewards: [
 				{
-					count: 1
 					id: "41B0C951385254F8"
 					item: {
 						count: 1
@@ -2396,17 +2392,14 @@
 				id: "minecraft:endermite_spawn_egg"
 			}
 			id: "3499042CAE38869F"
-			rewards: [
-				{
+			rewards: [{
+				id: "674D5C4460D29EF9"
+				item: {
 					count: 1
-					id: "674D5C4460D29EF9"
-					item: {
-						count: 1
-						id: "numismatics:sprocket"
-					}
-					type: "item"
+					id: "numismatics:sprocket"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:endermite"
 				id: "5E9E301B295FCBB4"
@@ -2419,17 +2412,15 @@
 		{
 			dependencies: ["7BDE68BB2744C232"]
 			id: "2030B930943661C1"
-			rewards: [
-				{
-					count: 2
-					id: "5F3BFB85A6D55292"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "5F3BFB85A6D55292"
+				item: {
+					count: 1
+					id: "numismatics:spur"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:endermite"
 				id: "0645214A204AB7D9"
@@ -2442,17 +2433,15 @@
 		{
 			dependencies: ["0B7868E6896CEC35"]
 			id: "5099BBEA8F3D31F9"
-			rewards: [
-				{
-					count: 3
-					id: "7A5357C6777E9894"
-					item: {
-						count: 1
-						id: "numismatics:sprocket"
-					}
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "7A5357C6777E9894"
+				item: {
+					count: 1
+					id: "numismatics:sprocket"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:endermite"
 				id: "67CF4CC4262921F5"
@@ -2465,17 +2454,15 @@
 		{
 			dependencies: ["1743A28AB176BDE1"]
 			id: "0B7868E6896CEC35"
-			rewards: [
-				{
-					count: 2
-					id: "161C7859BB657F49"
-					item: {
-						count: 1
-						id: "numismatics:sprocket"
-					}
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "161C7859BB657F49"
+				item: {
+					count: 1
+					id: "numismatics:sprocket"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:endermite"
 				id: "08A372F5B233C4A5"
@@ -2488,17 +2475,15 @@
 		{
 			dependencies: ["2030B930943661C1"]
 			id: "1AEC6AAC04606372"
-			rewards: [
-				{
-					count: 4
-					id: "35C6714143DFAE57"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "35C6714143DFAE57"
+				item: {
+					count: 1
+					id: "numismatics:spur"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:endermite"
 				id: "77A2E28641D3CAF2"
@@ -2511,17 +2496,14 @@
 		{
 			dependencies: ["1AEC6AAC04606372"]
 			id: "46D3C2E4A680BA6A"
-			rewards: [
-				{
+			rewards: [{
+				id: "132FE13AB21551E5"
+				item: {
 					count: 1
-					id: "132FE13AB21551E5"
-					item: {
-						count: 1
-						id: "numismatics:bevel"
-					}
-					type: "item"
+					id: "numismatics:bevel"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:endermite"
 				id: "13FE7D2561C3574E"
@@ -2534,17 +2516,15 @@
 		{
 			dependencies: ["3499042CAE38869F"]
 			id: "76D73F052612FB83"
-			rewards: [
-				{
-					count: 2
-					id: "5B1A9FA5FCD35FB3"
-					item: {
-						count: 1
-						id: "numismatics:sprocket"
-					}
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "5B1A9FA5FCD35FB3"
+				item: {
+					count: 1
+					id: "numismatics:sprocket"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:endermite"
 				id: "6DFCC6A7D8B08D1C"
@@ -2557,17 +2537,15 @@
 		{
 			dependencies: ["76D73F052612FB83"]
 			id: "1743A28AB176BDE1"
-			rewards: [
-				{
-					count: 2
-					id: "324C7A85CED0BD9C"
-					item: {
-						count: 1
-						id: "numismatics:sprocket"
-					}
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "324C7A85CED0BD9C"
+				item: {
+					count: 1
+					id: "numismatics:sprocket"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:endermite"
 				id: "70967C59A63F68D6"
@@ -2580,17 +2558,15 @@
 		{
 			dependencies: ["5099BBEA8F3D31F9"]
 			id: "211C346620DE2C18"
-			rewards: [
-				{
-					count: 4
-					id: "28F5734D03635F37"
-					item: {
-						count: 1
-						id: "numismatics:sprocket"
-					}
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "28F5734D03635F37"
+				item: {
+					count: 1
+					id: "numismatics:sprocket"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:endermite"
 				id: "768E6C829A0AC4F8"
@@ -2603,17 +2579,14 @@
 		{
 			dependencies: ["62AE6001A9E38ECA"]
 			id: "35BA2588B906EB5C"
-			rewards: [
-				{
+			rewards: [{
+				id: "49CA7085B727F188"
+				item: {
 					count: 1
-					id: "49CA7085B727F188"
-					item: {
-						count: 1
-						id: "numismatics:cog"
-					}
-					type: "item"
+					id: "numismatics:cog"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:endermite"
 				id: "2341ED7E54F134D1"
@@ -2625,17 +2598,14 @@
 		}
 		{
 			id: "7BDE68BB2744C232"
-			rewards: [
-				{
+			rewards: [{
+				id: "5ECE83CF12F9A5E7"
+				item: {
 					count: 1
-					id: "5ECE83CF12F9A5E7"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
+					id: "numismatics:spur"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:endermite"
 				id: "18061B317C2E88CB"
@@ -2648,17 +2618,14 @@
 		{
 			dependencies: ["211C346620DE2C18"]
 			id: "62AE6001A9E38ECA"
-			rewards: [
-				{
+			rewards: [{
+				id: "7608780DB31EB7A8"
+				item: {
 					count: 1
-					id: "7608780DB31EB7A8"
-					item: {
-						count: 1
-						id: "numismatics:cog"
-					}
-					type: "item"
+					id: "numismatics:cog"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:endermite"
 				id: "3CA7B65CF34B77EA"
@@ -2671,17 +2638,14 @@
 		{
 			dependencies: ["35BA2588B906EB5C"]
 			id: "539E5E6776CBCD88"
-			rewards: [
-				{
+			rewards: [{
+				id: "48702BCBD4DF0766"
+				item: {
 					count: 1
-					id: "48702BCBD4DF0766"
-					item: {
-						count: 1
-						id: "numismatics:cog"
-					}
-					type: "item"
+					id: "numismatics:cog"
 				}
-			]
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.5d
 			tasks: [{
@@ -2696,17 +2660,15 @@
 		{
 			dependencies: ["41DF531F7FAFE8F7"]
 			id: "73D5994069349C08"
-			rewards: [
-				{
-					count: 2
-					id: "450DDADFEDB670E8"
-					item: {
-						count: 1
-						id: "numismatics:cog"
-					}
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "450DDADFEDB670E8"
+				item: {
+					count: 1
+					id: "numismatics:cog"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:shulker"
 				id: "769A21D968D601A2"
@@ -2719,17 +2681,14 @@
 		{
 			dependencies: ["194493FD7247E724"]
 			id: "3B812761AB06379D"
-			rewards: [
-				{
+			rewards: [{
+				id: "3218E0EF1EA43458"
+				item: {
 					count: 1
-					id: "3218E0EF1EA43458"
-					item: {
-						count: 1
-						id: "numismatics:cog"
-					}
-					type: "item"
+					id: "numismatics:cog"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:shulker"
 				id: "6A1AEF5866CE6F73"
@@ -2742,17 +2701,15 @@
 		{
 			dependencies: ["7DD9DB924D7D3BDD"]
 			id: "194493FD7247E724"
-			rewards: [
-				{
-					count: 4
-					id: "4FD9A57ABAA00480"
-					item: {
-						count: 1
-						id: "numismatics:sprocket"
-					}
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "4FD9A57ABAA00480"
+				item: {
+					count: 1
+					id: "numismatics:sprocket"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:shulker"
 				id: "7E26D5F06104827F"
@@ -2765,17 +2722,14 @@
 		{
 			dependencies: ["3B812761AB06379D"]
 			id: "41DF531F7FAFE8F7"
-			rewards: [
-				{
+			rewards: [{
+				id: "6E902CC330EEF963"
+				item: {
 					count: 1
-					id: "6E902CC330EEF963"
-					item: {
-						count: 1
-						id: "numismatics:cog"
-					}
-					type: "item"
+					id: "numismatics:cog"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:shulker"
 				id: "1AE4314E4E2A9D30"
@@ -2791,17 +2745,14 @@
 				id: "minecraft:shulker_spawn_egg"
 			}
 			id: "57383256D50394B2"
-			rewards: [
-				{
+			rewards: [{
+				id: "43C8B775F23A5CE2"
+				item: {
 					count: 1
-					id: "43C8B775F23A5CE2"
-					item: {
-						count: 1
-						id: "numismatics:bevel"
-					}
-					type: "item"
+					id: "numismatics:bevel"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:shulker"
 				id: "2718AED082D124CE"
@@ -2814,17 +2765,15 @@
 		{
 			dependencies: ["74F56AC093877C1B"]
 			id: "4EB07255869562F5"
-			rewards: [
-				{
-					count: 2
-					id: "79905F78543DBE17"
-					item: {
-						count: 1
-						id: "numismatics:cog"
-					}
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "79905F78543DBE17"
+				item: {
+					count: 1
+					id: "numismatics:cog"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:shulker"
 				id: "6B9D8BDBE637C838"
@@ -2837,17 +2786,15 @@
 		{
 			dependencies: ["36F5D20F2AA4253A"]
 			id: "5DA1AD04A11766C1"
-			rewards: [
-				{
-					count: 2
-					id: "3A2D8A68CBD09DB7"
-					item: {
-						count: 1
-						id: "numismatics:sprocket"
-					}
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "3A2D8A68CBD09DB7"
+				item: {
+					count: 1
+					id: "numismatics:sprocket"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:shulker"
 				id: "691151BC9D7F858F"
@@ -2860,17 +2807,15 @@
 		{
 			dependencies: ["57383256D50394B2"]
 			id: "36F5D20F2AA4253A"
-			rewards: [
-				{
-					count: 2
-					id: "4890E69993F4F01A"
-					item: {
-						count: 1
-						id: "numismatics:bevel"
-					}
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "4890E69993F4F01A"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:shulker"
 				id: "1E1EC3DA71C58B47"
@@ -2883,17 +2828,15 @@
 		{
 			dependencies: ["5DA1AD04A11766C1"]
 			id: "7DD9DB924D7D3BDD"
-			rewards: [
-				{
-					count: 3
-					id: "3100ACF8E1C4EC9F"
-					item: {
-						count: 1
-						id: "numismatics:sprocket"
-					}
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "3100ACF8E1C4EC9F"
+				item: {
+					count: 1
+					id: "numismatics:sprocket"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:shulker"
 				id: "72C411174A02C436"
@@ -2906,17 +2849,15 @@
 		{
 			dependencies: ["4EB07255869562F5"]
 			id: "0BE4AB592AA0C51C"
-			rewards: [
-				{
-					count: 2
-					id: "465CF73136811A83"
-					item: {
-						count: 1
-						id: "numismatics:cog"
-					}
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "465CF73136811A83"
+				item: {
+					count: 1
+					id: "numismatics:cog"
 				}
-			]
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.5d
 			tasks: [{
@@ -2931,17 +2872,15 @@
 		{
 			dependencies: ["73D5994069349C08"]
 			id: "74F56AC093877C1B"
-			rewards: [
-				{
-					count: 2
-					id: "1916C69074CB4313"
-					item: {
-						count: 1
-						id: "numismatics:cog"
-					}
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "1916C69074CB4313"
+				item: {
+					count: 1
+					id: "numismatics:cog"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:shulker"
 				id: "276940C6D45982DF"
@@ -2954,17 +2893,15 @@
 		{
 			dependencies: ["2000000000000024"]
 			id: "798E1FC399887025"
-			rewards: [
-				{
-					count: 2
-					id: "493D60E518AD7EF5"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "493D60E518AD7EF5"
+				item: {
+					count: 1
+					id: "numismatics:spur"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:shulker"
 				id: "3B9E5D3E0C6C5C8B"
@@ -2977,17 +2914,15 @@
 		{
 			dependencies: ["798E1FC399887025"]
 			id: "21CA4488A31F4744"
-			rewards: [
-				{
-					count: 4
-					id: "29BF5DBA86B9182A"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "29BF5DBA86B9182A"
+				item: {
+					count: 1
+					id: "numismatics:spur"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:shulker"
 				id: "70B7EA1B7C8C561C"
@@ -3000,17 +2935,15 @@
 		{
 			dependencies: ["2F336D582F57D38F"]
 			id: "4EDA45E5D7B03E96"
-			rewards: [
-				{
-					count: 2
-					id: "735B006AB60D1B13"
-					item: {
-						count: 1
-						id: "numismatics:sprocket"
-					}
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "735B006AB60D1B13"
+				item: {
+					count: 1
+					id: "numismatics:sprocket"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:enderman"
 				id: "505FDF44E0DAA1BC"
@@ -3023,17 +2956,15 @@
 		{
 			dependencies: ["402845D6908C55DF"]
 			id: "2F336D582F57D38F"
-			rewards: [
-				{
-					count: 2
-					id: "260418B789AEB668"
-					item: {
-						count: 1
-						id: "numismatics:bevel"
-					}
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "260418B789AEB668"
+				item: {
+					count: 1
+					id: "numismatics:bevel"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:enderman"
 				id: "3A4832D148E33FDC"
@@ -3046,17 +2977,14 @@
 		{
 			dependencies: ["1D08CAB749E91291"]
 			id: "402845D6908C55DF"
-			rewards: [
-				{
+			rewards: [{
+				id: "7FD8E1077115F2FC"
+				item: {
 					count: 1
-					id: "7FD8E1077115F2FC"
-					item: {
-						count: 1
-						id: "numismatics:bevel"
-					}
-					type: "item"
+					id: "numismatics:bevel"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:enderman"
 				id: "14E0EC47C6BADC32"
@@ -3069,17 +2997,15 @@
 		{
 			dependencies: ["4F590FA2FDF0A433"]
 			id: "5BAD0311E063AD71"
-			rewards: [
-				{
-					count: 2
-					id: "0E2AD96AF67B0608"
-					item: {
-						count: 1
-						id: "numismatics:cog"
-					}
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "0E2AD96AF67B0608"
+				item: {
+					count: 1
+					id: "numismatics:cog"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:enderman"
 				id: "0378EAF3A5CA987D"
@@ -3092,17 +3018,15 @@
 		{
 			dependencies: ["5BAD0311E063AD71"]
 			id: "0E2585B39C48DB28"
-			rewards: [
-				{
-					count: 2
-					id: "67EE03CD8FC9CEAD"
-					item: {
-						count: 1
-						id: "numismatics:cog"
-					}
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "67EE03CD8FC9CEAD"
+				item: {
+					count: 1
+					id: "numismatics:cog"
 				}
-			]
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.5d
 			tasks: [{
@@ -3117,17 +3041,15 @@
 		{
 			dependencies: ["4EDA45E5D7B03E96"]
 			id: "27217EF6DE967D52"
-			rewards: [
-				{
-					count: 3
-					id: "4E91BAC52B407BCB"
-					item: {
-						count: 1
-						id: "numismatics:sprocket"
-					}
-					type: "item"
+			rewards: [{
+				count: 3
+				id: "4E91BAC52B407BCB"
+				item: {
+					count: 1
+					id: "numismatics:sprocket"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:enderman"
 				id: "0EFEE169A30D27DF"
@@ -3140,17 +3062,14 @@
 		{
 			dependencies: ["1DC70EBD678E21D8"]
 			id: "1AADE61E9F9EB5CC"
-			rewards: [
-				{
+			rewards: [{
+				id: "45F755C308FC416C"
+				item: {
 					count: 1
-					id: "45F755C308FC416C"
-					item: {
-						count: 1
-						id: "numismatics:cog"
-					}
-					type: "item"
+					id: "numismatics:cog"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:enderman"
 				id: "3FE4F4B72F43B15E"
@@ -3163,17 +3082,15 @@
 		{
 			dependencies: ["27217EF6DE967D52"]
 			id: "39A2D0C4792B1DB0"
-			rewards: [
-				{
-					count: 4
-					id: "63997821062EE1F0"
-					item: {
-						count: 1
-						id: "numismatics:sprocket"
-					}
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "63997821062EE1F0"
+				item: {
+					count: 1
+					id: "numismatics:sprocket"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:enderman"
 				id: "1282692756E133D0"
@@ -3186,17 +3103,14 @@
 		{
 			dependencies: ["39A2D0C4792B1DB0"]
 			id: "1DC70EBD678E21D8"
-			rewards: [
-				{
+			rewards: [{
+				id: "3FF35CB2ADF2B822"
+				item: {
 					count: 1
-					id: "3FF35CB2ADF2B822"
-					item: {
-						count: 1
-						id: "numismatics:cog"
-					}
-					type: "item"
+					id: "numismatics:cog"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:enderman"
 				id: "6D6C6C8C254A1142"
@@ -3209,17 +3123,15 @@
 		{
 			dependencies: ["0004753A46D764EB"]
 			id: "4F590FA2FDF0A433"
-			rewards: [
-				{
-					count: 2
-					id: "7D5007BE8AC1B0F9"
-					item: {
-						count: 1
-						id: "numismatics:cog"
-					}
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "7D5007BE8AC1B0F9"
+				item: {
+					count: 1
+					id: "numismatics:cog"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:enderman"
 				id: "1C2996570DC5AF15"
@@ -3232,17 +3144,15 @@
 		{
 			dependencies: ["4BD9FAF728DCB00D"]
 			id: "1D08CAB749E91291"
-			rewards: [
-				{
-					count: 4
-					id: "712E61F4A66C4EBE"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "712E61F4A66C4EBE"
+				item: {
+					count: 1
+					id: "numismatics:spur"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:enderman"
 				id: "106965AF65D0D55C"
@@ -3254,17 +3164,15 @@
 		}
 		{
 			id: "4BD9FAF728DCB00D"
-			rewards: [
-				{
-					count: 2
-					id: "334CB6BC6C7EFEC2"
-					item: {
-						count: 1
-						id: "numismatics:spur"
-					}
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "334CB6BC6C7EFEC2"
+				item: {
+					count: 1
+					id: "numismatics:spur"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:enderman"
 				id: "623E8E300DA1CEA4"
@@ -3277,17 +3185,15 @@
 		{
 			dependencies: ["1AADE61E9F9EB5CC"]
 			id: "0004753A46D764EB"
-			rewards: [
-				{
-					count: 2
-					id: "7E1E89FF6E0C1894"
-					item: {
-						count: 1
-						id: "numismatics:cog"
-					}
-					type: "item"
+			rewards: [{
+				count: 2
+				id: "7E1E89FF6E0C1894"
+				item: {
+					count: 1
+					id: "numismatics:cog"
 				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:enderman"
 				id: "1577CDEFAE595789"

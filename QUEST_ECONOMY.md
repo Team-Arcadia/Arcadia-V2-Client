@@ -126,6 +126,14 @@ Price bands, by number of entries:
 
 Coverage by namespace: `aether` 6, `apotheosis` 6, `aquaculture` 4, `ars_nouveau` 10, `create` 15, `createaddition` 4, `deeperdarker` 4, `farmersdelight` 7, `fluxnetworks` 1, `immersiveengineering` 8, `irons_spellbooks` 4, `knightquest` 2, `mekanism` 16, `minecraft` 63, `mowziesmobs` 1, `occultism` 8, `refinedstorage` 4, `supplementaries` 2, `tfmg` 8, `twilightforest` 10.
 
+### Checking that an item exists
+
+Validate shop item ids against **item models**, `assets/<namespace>/models/item/*.json`, harvested
+from every mod jar plus the vanilla jar plus `kubejs/assets`. Do not use lang files: mods keep
+translation keys for content they have removed, so a lang-derived registry reports items that the
+game cannot resolve. After any change, load the pack once and grep the chapter for
+`ftbquests:missing_item`, which is FTB Quests naming exactly what it failed to resolve.
+
 ### Pricing rule
 
 A price must never let the quest book buy its way past a progression gate. The budget above
