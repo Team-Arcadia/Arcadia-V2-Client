@@ -487,7 +487,7 @@
 			size: 0.75d
 			tasks: [{
 				consume_items: true
-				count: 2L
+				count: 4L
 				id: "3CBE0139C4303040"
 				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
@@ -2218,7 +2218,7 @@
 			}
 			id: "7766EFF53750E69F"
 			rewards: [{
-				count: 2
+				count: 1
 				id: "53331AB923DB1286"
 				item: {
 					count: 1
@@ -2229,9 +2229,9 @@
 			size: 0.75d
 			tasks: [{
 				consume_items: true
-				count: 4L
+				count: 1L
 				id: "2AEF11BBF8AB8EBE"
-				item: { count: 1, id: "numismatics:cog" }
+				item: { count: 1, id: "numismatics:crown" }
 				type: "item"
 			}]
 			x: -1.15d
@@ -2756,7 +2756,7 @@
 			}
 			id: "6C4B52B7859B3854"
 			rewards: [{
-				count: 4
+				count: 2
 				id: "064C1551DCB8489C"
 				item: {
 					count: 1
@@ -2767,6 +2767,7 @@
 			size: 0.75d
 			tasks: [{
 				consume_items: true
+				count: 4L
 				id: "301F944AF694FD54"
 				item: { count: 1, id: "numismatics:cog" }
 				type: "item"
@@ -2807,7 +2808,7 @@
 			}
 			id: "62524B0FCE3D018A"
 			rewards: [{
-				count: 2
+				count: 1
 				id: "50F315870DE89734"
 				item: {
 					count: 1
@@ -2818,9 +2819,9 @@
 			size: 0.75d
 			tasks: [{
 				consume_items: true
-				count: 2L
+				count: 1L
 				id: "1E5F5BCD5A96BB99"
-				item: { count: 1, id: "numismatics:cog" }
+				item: { count: 1, id: "numismatics:crown" }
 				type: "item"
 			}]
 			x: 4.6d
@@ -2833,7 +2834,7 @@
 			}
 			id: "2ADE95B74813DA6B"
 			rewards: [{
-				count: 2
+				count: 1
 				id: "44181B39E2AA57B4"
 				item: {
 					count: 1
@@ -2844,9 +2845,9 @@
 			size: 0.75d
 			tasks: [{
 				consume_items: true
-				count: 2L
+				count: 1L
 				id: "3C330577F5700BB1"
-				item: { count: 1, id: "numismatics:cog" }
+				item: { count: 1, id: "numismatics:crown" }
 				type: "item"
 			}]
 			x: -4.6d
@@ -3401,6 +3402,1436 @@
 			}]
 			x: -1.15d
 			y: 31.3d
+		}
+		{
+			icon: {
+				id: "tfmg:steel_ingot"
+			}
+			id: "A1E61F3F961E7514"
+			size: 1.4d
+			tasks: [{
+				id: "F52241C33DC2B220"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 34.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "immersiveengineering:hemp_fiber"
+			}
+			id: "58CC6646702B4578"
+			rewards: [{
+				count: 16
+				id: "2061075F0569F567"
+				item: {
+					count: 1
+					id: "immersiveengineering:hemp_fiber"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 1L
+				id: "4ADC6A73B9065B91"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: -4.6d
+			y: 36.1d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "tfmg:slag"
+			}
+			id: "E9B8288782CE1B2F"
+			rewards: [{
+				count: 16
+				id: "E159C59178707EFA"
+				item: {
+					count: 1
+					id: "tfmg:slag"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 1L
+				id: "D10FC0AEF6334BA5"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: -3.45d
+			y: 36.1d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "createaddition:copper_wire"
+			}
+			id: "64BF76A2DDE79C19"
+			rewards: [{
+				count: 16
+				id: "119232201FD974F3"
+				item: {
+					count: 1
+					id: "createaddition:copper_wire"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "404E321B300792A0"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: -2.3d
+			y: 36.1d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:copper_sheet"
+			}
+			id: "D715CB996DEC0001"
+			rewards: [{
+				count: 16
+				id: "60DC71042F5DFA3C"
+				item: {
+					count: 1
+					id: "create:copper_sheet"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "EC08ECEA7E45C30C"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: -1.15d
+			y: 36.1d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "immersiveengineering:dust_saltpeter"
+			}
+			id: "8F60E2147A4F572B"
+			rewards: [{
+				count: 16
+				id: "385F5C1FE615EDAF"
+				item: {
+					count: 1
+					id: "immersiveengineering:dust_saltpeter"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "B1987B8152AFFC73"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 36.1d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "tfmg:cast_iron_ingot"
+			}
+			id: "CBC20535A76141BF"
+			rewards: [{
+				count: 8
+				id: "D14A21AE85EF6BE7"
+				item: {
+					count: 1
+					id: "tfmg:cast_iron_ingot"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "5B1EB0147FF83EC2"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
+			x: 1.15d
+			y: 36.1d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "createaddition:iron_wire"
+			}
+			id: "3A74EE2A778120D3"
+			rewards: [{
+				count: 16
+				id: "6B3655BA8C2392EC"
+				item: {
+					count: 1
+					id: "createaddition:iron_wire"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "3785E47D9EBE8070"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: 2.3d
+			y: 36.1d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:iron_sheet"
+			}
+			id: "25EA09D008C4965B"
+			rewards: [{
+				count: 16
+				id: "719773885B6266E5"
+				item: {
+					count: 1
+					id: "create:iron_sheet"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "AD209018905C8A8F"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: 3.45d
+			y: 36.1d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "mekanism:dust_sulfur"
+			}
+			id: "C63D63598812983F"
+			rewards: [{
+				count: 16
+				id: "13B083D79AD722DA"
+				item: {
+					count: 1
+					id: "mekanism:dust_sulfur"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "4F166F1CAC99D6B2"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: 4.6d
+			y: 36.1d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:golden_sheet"
+			}
+			id: "2E1E22CD44934525"
+			rewards: [{
+				count: 8
+				id: "384FB54B31DAACAF"
+				item: {
+					count: 1
+					id: "create:golden_sheet"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "307401514B5A634E"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: -4.6d
+			y: 37.25d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "createaddition:gold_wire"
+			}
+			id: "3F2D1AC1AEAF35E2"
+			rewards: [{
+				count: 8
+				id: "DFAD59CD15C9DD30"
+				item: {
+					count: 1
+					id: "createaddition:gold_wire"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "A87F3E7E382FCFDA"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: -3.45d
+			y: 37.25d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "tfmg:steel_ingot"
+			}
+			id: "85B88BB8FA476C53"
+			rewards: [{
+				count: 8
+				id: "0922FF3444C8780C"
+				item: {
+					count: 1
+					id: "tfmg:steel_ingot"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "B1558B38B3D428E8"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: -2.3d
+			y: 37.25d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "tfmg:aluminum_ingot"
+			}
+			id: "EA930BE1E58BF09B"
+			rewards: [{
+				count: 8
+				id: "7FE29CA012FE19EA"
+				item: {
+					count: 1
+					id: "tfmg:aluminum_ingot"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "7B4E40520213BD25"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: -1.15d
+			y: 37.25d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "tfmg:plastic_sheet"
+			}
+			id: "6F69056145587F60"
+			rewards: [{
+				count: 8
+				id: "AC25E4A972DDD9AD"
+				item: {
+					count: 1
+					id: "tfmg:plastic_sheet"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "922CA33315BBDF00"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 37.25d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "mekanism:ingot_bronze"
+			}
+			id: "717D6F9CAF58395D"
+			rewards: [{
+				count: 8
+				id: "62511E1B8DEC5D5C"
+				item: {
+					count: 1
+					id: "mekanism:ingot_bronze"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "F77030554AF16B40"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: 1.15d
+			y: 37.25d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "mekanism:ingot_steel"
+			}
+			id: "91D68FC0A3867295"
+			rewards: [{
+				count: 8
+				id: "7972698834064891"
+				item: {
+					count: 1
+					id: "mekanism:ingot_steel"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "CF93E3ECB5A29CC1"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: 2.3d
+			y: 37.25d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "createaddition:electrum_ingot"
+			}
+			id: "4D9BC711104A8209"
+			rewards: [{
+				count: 8
+				id: "B8339F3DBB43422E"
+				item: {
+					count: 1
+					id: "createaddition:electrum_ingot"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "E4F0A04D0654D8DF"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: 3.45d
+			y: 37.25d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "refinedstorage:silicon"
+			}
+			id: "2B4B80B6C7DABABA"
+			rewards: [{
+				count: 8
+				id: "2F1159E67A884223"
+				item: {
+					count: 1
+					id: "refinedstorage:silicon"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "4F1F80597F357E68"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: 4.6d
+			y: 37.25d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "create:sturdy_sheet"
+			}
+			id: "13F98F1C70F5C12D"
+			rewards: [{
+				count: 4
+				id: "4D4D54049DE65649"
+				item: {
+					count: 1
+					id: "create:sturdy_sheet"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "0BEC48747C77207B"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: -4.6d
+			y: 38.4d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "tfmg:heavy_plate"
+			}
+			id: "46757041D89F29A2"
+			rewards: [{
+				count: 4
+				id: "A1C4F161D740D572"
+				item: {
+					count: 1
+					id: "tfmg:heavy_plate"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "C9CE052826CA9B76"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: -3.45d
+			y: 38.4d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "tfmg:light_bulb"
+			}
+			id: "4D628C709F8DF148"
+			rewards: [{
+				count: 4
+				id: "CD41E8ECDF9BDF0A"
+				item: {
+					count: 1
+					id: "tfmg:light_bulb"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "1AAEA09115AC0968"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: -2.3d
+			y: 38.4d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "fluxnetworks:flux_dust"
+			}
+			id: "5DBC616A6E7180F6"
+			rewards: [{
+				count: 8
+				id: "6C3E5CBB4FAA5535"
+				item: {
+					count: 1
+					id: "fluxnetworks:flux_dust"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "15678DD9F1814B08"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: -1.15d
+			y: 38.4d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "refinedstorage:quartz_enriched_iron"
+			}
+			id: "DC509B25854E0ACE"
+			rewards: [{
+				count: 4
+				id: "EB07BDCF15A99104"
+				item: {
+					count: 1
+					id: "refinedstorage:quartz_enriched_iron"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "F88C4D27F9C1621A"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 38.4d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "tfmg:steel_mechanism"
+			}
+			id: "8D8F0E3F36AFC244"
+			rewards: [{
+				count: 4
+				id: "24C571E6476F3210"
+				item: {
+					count: 1
+					id: "tfmg:steel_mechanism"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 1L
+				id: "DEB961B674F6041F"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: 1.15d
+			y: 38.4d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "refinedstorage:basic_processor"
+			}
+			id: "D36062BA42AB0208"
+			rewards: [{
+				count: 4
+				id: "F1EC47A85E1FD4EA"
+				item: {
+					count: 1
+					id: "refinedstorage:basic_processor"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 1L
+				id: "2DF1E8E3EE30CB7F"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: 2.3d
+			y: 38.4d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "mekanism:basic_control_circuit"
+			}
+			id: "038B258EEAF0B655"
+			rewards: [{
+				count: 4
+				id: "6F69902EC8B4A4B0"
+				item: {
+					count: 1
+					id: "mekanism:basic_control_circuit"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 1L
+				id: "3D2E0CE1D7E57558"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: 3.45d
+			y: 38.4d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "refinedstorage:improved_processor"
+			}
+			id: "7B6FC7D8543457FC"
+			rewards: [{
+				count: 2
+				id: "0FDFF30BA25ABCFB"
+				item: {
+					count: 1
+					id: "refinedstorage:improved_processor"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 1L
+				id: "4F2DE3687CB6A4E6"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: 4.6d
+			y: 38.4d
+		}
+		{
+			icon: {
+				id: "deeperdarker:warden_carapace"
+			}
+			id: "BADA54EC036A07C2"
+			size: 1.4d
+			tasks: [{
+				id: "9CDA972BB133C49B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 41.75d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "aquaculture:worm"
+			}
+			id: "EF8F7AA152701763"
+			rewards: [{
+				count: 16
+				id: "ABBC071A0E9031FF"
+				item: {
+					count: 1
+					id: "aquaculture:worm"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 1L
+				id: "A596EF8313D04BC7"
+				item: { count: 1, id: "numismatics:bevel" }
+				type: "item"
+			}]
+			x: -4.6d
+			y: 43.35d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "aquaculture:fish_fillet_raw"
+			}
+			id: "B61DE20B5F875AD9"
+			rewards: [{
+				count: 16
+				id: "1536A35A14249AEB"
+				item: {
+					count: 1
+					id: "aquaculture:fish_fillet_raw"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 1L
+				id: "FA11E4CF0430D39E"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: -3.45d
+			y: 43.35d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "occultism:datura_seeds"
+			}
+			id: "15BE13378B83B7DA"
+			rewards: [{
+				count: 16
+				id: "155F1EB663BFD8C3"
+				item: {
+					count: 1
+					id: "occultism:datura_seeds"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 1L
+				id: "F125601336A9A411"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: -2.3d
+			y: 43.35d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "occultism:tallow"
+			}
+			id: "D14D1D49BE3743C3"
+			rewards: [{
+				count: 16
+				id: "A73F737B41D462C0"
+				item: {
+					count: 1
+					id: "occultism:tallow"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 1L
+				id: "9D8685D41B979A6C"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: -1.15d
+			y: 43.35d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "twilightforest:torchberries"
+			}
+			id: "706B4B3F69F1AB3E"
+			rewards: [{
+				count: 16
+				id: "C07EADCEF075B765"
+				item: {
+					count: 1
+					id: "twilightforest:torchberries"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 1L
+				id: "F13FEE619995D5AC"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 43.35d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "supplementaries:rope"
+			}
+			id: "1999ECB8057D18C3"
+			rewards: [{
+				count: 16
+				id: "A625897D86556531"
+				item: {
+					count: 1
+					id: "supplementaries:rope"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 1L
+				id: "C5CCC136893A48C1"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: 1.15d
+			y: 43.35d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "twilightforest:liveroot"
+			}
+			id: "B3756D680D80344F"
+			rewards: [{
+				count: 8
+				id: "4AB83E77868AB3AF"
+				item: {
+					count: 1
+					id: "twilightforest:liveroot"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 1L
+				id: "4E42328DA673C89E"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: 2.3d
+			y: 43.35d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "twilightforest:raven_feather"
+			}
+			id: "9C13A804E3A61C1F"
+			rewards: [{
+				count: 8
+				id: "9CA9B3ADB6CEA86F"
+				item: {
+					count: 1
+					id: "twilightforest:raven_feather"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 1L
+				id: "DE14B04B31901CD6"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: 3.45d
+			y: 43.35d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "supplementaries:flint_block"
+			}
+			id: "7DB06D8ED35A73A6"
+			rewards: [{
+				count: 8
+				id: "AF48B78831AA0B4C"
+				item: {
+					count: 1
+					id: "supplementaries:flint_block"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 1L
+				id: "7ED0751932BD87AC"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: 4.6d
+			y: 43.35d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "occultism:otherstone"
+			}
+			id: "DCEE3C89A076A05E"
+			rewards: [{
+				count: 16
+				id: "10C7B503976D6A61"
+				item: {
+					count: 1
+					id: "occultism:otherstone"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "F5DAF0445413AF04"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: -4.6d
+			y: 44.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "deeperdarker:sculk_stone"
+			}
+			id: "87961F5640996266"
+			rewards: [{
+				count: 8
+				id: "18D1D52BDD94AD87"
+				item: {
+					count: 1
+					id: "deeperdarker:sculk_stone"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "09C84F70C7A5789B"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: -3.45d
+			y: 44.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "aquaculture:neptunium_nugget"
+			}
+			id: "4AFA3B5D34C939DB"
+			rewards: [{
+				count: 8
+				id: "BBD0E98EDEA0C25D"
+				item: {
+					count: 1
+					id: "aquaculture:neptunium_nugget"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "821EEA039825E64D"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: -2.3d
+			y: 44.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "occultism:purified_ink"
+			}
+			id: "E4C9ADCDEAE14227"
+			rewards: [{
+				count: 8
+				id: "F602F2F80FFEA61D"
+				item: {
+					count: 1
+					id: "occultism:purified_ink"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "A799F3E4707FB018"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: -1.15d
+			y: 44.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "ars_nouveau:magebloom_fiber"
+			}
+			id: "5CEE4BFE5C101414"
+			rewards: [{
+				count: 8
+				id: "59AE674A9EBF0526"
+				item: {
+					count: 1
+					id: "ars_nouveau:magebloom_fiber"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "4077DA393DDDBF0C"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 44.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "ars_nouveau:air_essence"
+			}
+			id: "4F85386209E8FBD6"
+			rewards: [{
+				count: 4
+				id: "344EFDD1DA09DDC1"
+				item: {
+					count: 1
+					id: "ars_nouveau:air_essence"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "F80F5E117E131848"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: 1.15d
+			y: 44.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "ars_nouveau:fire_essence"
+			}
+			id: "1C180A04CD2A53A2"
+			rewards: [{
+				count: 4
+				id: "112B590F82F28D45"
+				item: {
+					count: 1
+					id: "ars_nouveau:fire_essence"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "3A0CF4359B3F67EB"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: 2.3d
+			y: 44.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "ars_nouveau:water_essence"
+			}
+			id: "D20B78AD6E321FE8"
+			rewards: [{
+				count: 4
+				id: "2C8D6E21456BA4E6"
+				item: {
+					count: 1
+					id: "ars_nouveau:water_essence"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "B36BD157F135159E"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: 3.45d
+			y: 44.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "ars_nouveau:earth_essence"
+			}
+			id: "4F06C13768C35E9A"
+			rewards: [{
+				count: 4
+				id: "5C6733E259CFB90B"
+				item: {
+					count: 1
+					id: "ars_nouveau:earth_essence"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "57DBFBB0BC18E936"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: 4.6d
+			y: 44.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "occultism:awakened_feather"
+			}
+			id: "789FF8CADA056218"
+			rewards: [{
+				count: 4
+				id: "739E0025EB04AC56"
+				item: {
+					count: 1
+					id: "occultism:awakened_feather"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "EAC74EAB28822C17"
+				item: { count: 1, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			x: -4.6d
+			y: 45.65d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "twilightforest:carminite"
+			}
+			id: "556914F5CE3793DA"
+			rewards: [{
+				count: 4
+				id: "DA8BECCEAA0DFCCC"
+				item: {
+					count: 1
+					id: "twilightforest:carminite"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 1L
+				id: "5C7A50694D0A4B94"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: -3.45d
+			y: 45.65d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "deeperdarker:soul_dust"
+			}
+			id: "B525872FA8A89CEA"
+			rewards: [{
+				count: 8
+				id: "8301EDA0FE3F56B8"
+				item: {
+					count: 1
+					id: "deeperdarker:soul_dust"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 1L
+				id: "4A2A62839159880B"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: -2.3d
+			y: 45.65d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "knightquest:small_essence"
+			}
+			id: "3D79F0984BFE1106"
+			rewards: [{
+				count: 4
+				id: "B4FD3B8B8CA11508"
+				item: {
+					count: 1
+					id: "knightquest:small_essence"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 1L
+				id: "6032395C839F02A6"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: -1.15d
+			y: 45.65d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "mowziesmobs:naga_fang"
+			}
+			id: "7006796F34FD3037"
+			rewards: [{
+				count: 4
+				id: "49446E418D5BF71B"
+				item: {
+					count: 1
+					id: "mowziesmobs:naga_fang"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 1L
+				id: "38A94EA04DA8F97B"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 45.65d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "aquaculture:neptunium_ingot"
+			}
+			id: "0D7F6322C1081705"
+			rewards: [{
+				count: 2
+				id: "B1E59B11738ADAFA"
+				item: {
+					count: 1
+					id: "aquaculture:neptunium_ingot"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 1L
+				id: "74412722093BCE40"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: 1.15d
+			y: 45.65d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "knightquest:great_essence"
+			}
+			id: "5870BA359529BE3A"
+			rewards: [{
+				count: 2
+				id: "69864D1DC096D1E0"
+				item: {
+					count: 1
+					id: "knightquest:great_essence"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "750F5C9ABD67CB0B"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: 2.3d
+			y: 45.65d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "deeperdarker:resonarium"
+			}
+			id: "2791FB05F51E90DE"
+			rewards: [{
+				count: 4
+				id: "B85C0B9460C40AF1"
+				item: {
+					count: 1
+					id: "deeperdarker:resonarium"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "258341C02EB5F6EC"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: 3.45d
+			y: 45.65d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "deeperdarker:warden_carapace"
+			}
+			id: "57508BD3DC108AE3"
+			rewards: [{
+				count: 1
+				id: "19FA1CAC314CBB44"
+				item: {
+					count: 1
+					id: "deeperdarker:warden_carapace"
+				}
+				type: "item"
+			}]
+			size: 0.75d
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "8A12D58CC6CCEFEB"
+				item: { count: 1, id: "numismatics:cog" }
+				type: "item"
+			}]
+			x: 4.6d
+			y: 45.65d
 		}
 	]
 }

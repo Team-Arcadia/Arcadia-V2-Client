@@ -99,6 +99,46 @@ Two traps, both of which silently undercount:
 - The reward object carries its own `count` on top of the item stack count. Ignoring it halves
   the result.
 
+## 6. The market chapter (money sink)
+
+`config/ftbquests/quests/chapters/market.snbt` is the counterpart to the payouts above: a
+buy-only shop of repeatable quests that take coins and give items. It removes money from
+circulation, so it is the only brake on the quest-book faucet. There is deliberately no sell
+side: letting players turn items back into coins would mint money and undo the tiering.
+
+| Metric | Value |
+|---|---:|
+| Shop entries | 183 |
+| Distinct items on sale | 183 |
+| Mod namespaces covered | 20 |
+| Cheapest unit price | 0.50 spurs |
+| Dearest unit price | 4,096 spurs |
+
+Price bands, by number of entries:
+
+| Band (spurs per unit) | Entries |
+|---|---:|
+| under 2 | 26 |
+| 2 to 8 | 73 |
+| 8 to 64 | 47 |
+| 64 to 512 | 22 |
+| 512 and up | 15 |
+
+Coverage by namespace: `aether` 6, `apotheosis` 6, `aquaculture` 4, `ars_nouveau` 10, `create` 15, `createaddition` 4, `deeperdarker` 4, `farmersdelight` 7, `fluxnetworks` 1, `immersiveengineering` 8, `irons_spellbooks` 4, `knightquest` 2, `mekanism` 16, `minecraft` 63, `mowziesmobs` 1, `occultism` 8, `refinedstorage` 4, `supplementaries` 2, `tfmg` 8, `twilightforest` 10.
+
+### Pricing rule
+
+A price must never let the quest book buy its way past a progression gate. The budget above
+(245,668 spurs) is the yardstick: divide it by a unit price to get how many of that item a player
+can buy with every quest completed. Anything that sits behind a long chain, a boss or a
+multiblock belongs at 512 spurs per unit or more, which keeps it under 500 units for a full
+clear. Common intermediates sit between 1 and 8, raw materials below 2.
+
+Five entries were repriced on 2026-09-20 for breaking that rule: Precision Mechanism and
+Diamond moved to 128 per unit, Refined Radiance, Shadow Steel and Atomic Alloy to 512. At their
+old prices a full quest clear bought 15,354 Precision Mechanisms or 3,839 Refined Radiance,
+which made the chromatic chain and the Create gating pointless.
+
 ---
 
 # Arcadia V2 - Economie du livre de quetes
