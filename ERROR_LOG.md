@@ -1,5 +1,19 @@
 # Error Log — Arcadia V2
 
+## [2026-09-21 08:20] — Server sync: settings silently lost and a removed mod left behind
+
+**Context:** Syncing the 2.0.28 client to the eight environments in `Desktop\Serveur` following `PROCEDURE_MAJ.md`.
+**Error:** Four problems, none of which the old procedure would have caught. `kubejstweaks`, removed from the client because it breaks KubeJS build 377, was still on all nine mod folders, and this very sync ships build 377. The new JEI 19.57 declares `mezz_config` as `required` on `BOTH` sides, while MezzConfig was not on any server. Moog's Structure Lib was renamed (`moogs_structures-neoforge-*` to `MoogsStructureLib-neoforge-*`) with the same modId, so a plain copy would have loaded it twice. And ServerEvent's own rules, ReviveMe disabled and near-instant corpse despawn, were no longer in its folder: its revive and corpse configs were byte-identical to the other servers.
+**Root cause:** The procedure treated every server jar absent from the client as server-only, only looked at mods listed as new, never checked dependencies of updated mods, and merged shared config files over ServerEvent's customised ones, so an earlier sync had erased the event settings without anyone noticing. Separately, the NeoForge installer rewrites `run.bat` and `run.sh` with generic scripts that ignore the bundled `jre21\` and drop `nogui`.
+**Fix:** Removed kubejstweaks and the old Moogs lib, added MezzConfig, verified the full dependency closure of each server's final mod set (with a control case proving the check catches a missing MezzConfig), restored the ServerEvent overrides, and restored the Arcadia launch scripts after installing NeoForge 21.1.250 in the serverpack. Every replaced file was moved to `_backup_pre_2.0.28\` first.
+**Prevention:** `PROCEDURE_MAJ.md` now requires: a fixed server-only list (anything else missing from the client is a removal), a dependency closure check on updated mods too, config classification against the client's git history (a file that matches no committed version is server-specific and is kept), the ServerEvent overrides re-applied after every sync, and saving the launch scripts before running the NeoForge installer.
+
+**Contexte :** Synchro du client 2.0.28 vers les huit environnements de `Desktop\Serveur` selon `PROCEDURE_MAJ.md`.
+**Erreur :** `kubejstweaks`, retiré du client car il casse KubeJS build 377, était encore dans les neuf dossiers de mods alors que cette synchro livre le build 377. Le nouveau JEI 19.57 exige `mezz_config` des deux côtés, absent de tous les serveurs. Moog's Structure Lib a été renommée avec le même modId, une simple copie l'aurait chargée deux fois. Et les règles propres à ServerEvent (ReviveMe désactivé, corps qui disparaissent presque aussitôt) n'étaient plus dans son dossier.
+**Cause :** La procédure considérait tout jar absent du client comme server-only, ne vérifiait pas les dépendances des mods mis à jour, et écrasait les configs personnalisées de ServerEvent avec les fichiers partagés. L'installeur NeoForge réécrit aussi `run.bat` et `run.sh` avec des scripts génériques.
+**Correction :** Retrait de kubejstweaks et de l'ancienne lib Moogs, ajout de MezzConfig, vérification complète des dépendances, restauration des règles ServerEvent et des scripts de lancement Arcadia. Tout fichier remplacé a d'abord été déplacé dans `_backup_pre_2.0.28\`.
+**Prevention :** `PROCEDURE_MAJ.md` impose désormais une liste server-only fixe, la vérification des dépendances, le classement des configs par l'historique git, la réapplication des règles ServerEvent après chaque synchro et la sauvegarde des scripts avant l'installeur NeoForge.
+
 ## [2026-09-20 20:12] — The temporary contraption tracer crashed the world on any bed or door dropping
 
 **Context:** Playing on the TEST02 world with `kubejs/startup_scripts/diagnostics/contraption_block_loss_trace.js` still armed for tickets #218 and #233.
