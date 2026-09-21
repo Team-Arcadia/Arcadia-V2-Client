@@ -71,9 +71,9 @@ function pruneArmedPositions(now) {
 }
 
 function armPosition(level, pos) {
-    // Number(): getGameTime() hands back a Java long, which would never compare
+    // Number(): gameTime (Rhino exposes getGameTime() only as this property) hands back a Java long, which would never compare
     // strictly equal to the stored tick.
-    const now = Number(level.getGameTime());
+    const now = Number(level.gameTime);
     // Once per tick is enough: a contraption arms all of its furniture at once.
     if (now !== lastPruneTime) {
         pruneArmedPositions(now);
@@ -88,7 +88,7 @@ function consumeArmedPosition(level, pos) {
     if (stamp === undefined) return false;
 
     delete armedPositions[key];
-    return Number(level.getGameTime()) - stamp <= CUSHION_ARM_WINDOW;
+    return Number(level.gameTime) - stamp <= CUSHION_ARM_WINDOW;
 }
 
 function installCushionMoveGuard() {

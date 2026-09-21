@@ -577,3 +577,10 @@ On top of that, those Create screens are opened purely client-side (`FMLLoader.g
 **Root cause:** Rhino hoists `const` declared in nested functions and callbacks into the enclosing function scope, so `const level` in armPistonFurniture and in the EntityJoinLevelEvent callback collided.
 **Fix:** renamed them `pistonLevel` and `joinLevel`.
 **Prevention:** inside one KubeJS function, give every `const`/`let` in nested callbacks a unique name.
+
+## [2026-09-21] getGameTime() not callable from Rhino, server crash
+**Context:** contraption_block_loss_trace.js capture probe, run from Create's BlockMovementChecks during piston assembly.
+**Error:** `TypeError: Cannot find function getGameTime in object ServerLevel` at line 105, "Ticking block entity" crash.
+**Root cause:** Rhino exposes ServerLevel#getGameTime() only as the `gameTime` bean property (same as `dimension`). The probe had no try/catch, so the throw reached the server tick.
+**Fix:** use `level.gameTime` in the tracer and the cushion guard; wrap the capture probe in try/catch.
+**Prevention:** read Level getters as properties in KubeJS, and wrap every callback Create or NeoForge invokes on the server thread.

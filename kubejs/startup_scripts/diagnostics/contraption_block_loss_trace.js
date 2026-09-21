@@ -99,15 +99,26 @@ function installContraptionTracer() {
     }
 
     // Assembly probe. Neutral: it only reports what a contraption captures.
+    // Rhino exposes getGameTime() only as the gameTime property, like dimension.
+    // Wrapped: this runs on the server thread, so a throw here kills the server.
     BlockMovementChecks.registerMovementAllowedCheck((state, level, pos) => {
+        try {
+            traceCapture(state, level, pos);
+        } catch (err) {
+            diagCaptureReports = DIAG_MAX_CAPTURE_REPORTS;
+            console.error('[Arcadia][diag] Capture tracer failed and is now off for this session: ' + err);
+        }
+        return CheckResult.PASS;
+    });
+
+    function traceCapture(state, level, pos) {
         if (diagCaptureReports < DIAG_MAX_CAPTURE_REPORTS && !level.isClientSide() && watchedBlocks.contains(state.getBlock())) {
             diagCaptureReports++;
             console.info('[Arcadia][diag] Contraption captures ' + String(state)
                 + ' at ' + pos.getX() + ' ' + pos.getY() + ' ' + pos.getZ()
-                + ' tick ' + level.getGameTime());
+                + ' tick ' + level.gameTime);
         }
-        return CheckResult.PASS;
-    });
+    }
 
     // Disassembly probe, and any other drop of a watched item.
     NativeEvents.onEvent(EventPriority.LOWEST, EntityJoinLevelEvent, event => {
@@ -139,7 +150,7 @@ function installContraptionTracer() {
             + ' x' + stack.getCount()
             + ' at ' + pos.getX() + ' ' + pos.getY() + ' ' + pos.getZ()
             + ' in ' + diagDimensionOf(level)
-            + ' tick ' + level.getGameTime()
+            + ' tick ' + level.gameTime
             + ' | block there: ' + String(level.getBlockState(pos)));
 
         // Names the caller. It lands right under the line above, headed by
