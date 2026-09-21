@@ -45,6 +45,9 @@
         NetworkManager.registerS2CPayloadType(packetId);
         console.info('[Arcadia] Registered missing server-side payload type ' + packetId + ' (Simply Swords Soulstalker leap).');
     } catch (err) {
-        console.error('[Arcadia] Failed to register the Soulstalker leap packet: ' + err);
+        // warn, not error: KubeJS turns any startup-time error into a
+        // "startup script syntax errors" boot failure.
+        console.warn('[Arcadia] Failed to register the Soulstalker leap packet: ' + err);
+        if (err && err.javaException) err.javaException.printStackTrace();
     }
 })();
