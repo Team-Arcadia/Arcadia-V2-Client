@@ -570,3 +570,10 @@ On top of that, those Create screens are opened purely client-side (`FMLLoader.g
 **Correction :** Generation et import unitaire, autorisation des nouvelles destinations, noms de variables distincts et ecriture dans un PNG temporaire avant remplacement.
 
 **Prevention :** Tester l'extraction du chemin, separer clairement chemins et bitmaps et toujours ecrire puis deplacer quand System.Drawing lit et remplace le meme fichier.
+
+## [2026-09-21] Rhino const redeclaration in the cushion move guard
+**Context:** handcrafted_cushion_move_dupe.js installing its piston and item-drop handlers.
+**Error:** `redeclaration of var level` at line 192, guard never installed.
+**Root cause:** Rhino hoists `const` declared in nested functions and callbacks into the enclosing function scope, so `const level` in armPistonFurniture and in the EntityJoinLevelEvent callback collided.
+**Fix:** renamed them `pistonLevel` and `joinLevel`.
+**Prevention:** inside one KubeJS function, give every `const`/`let` in nested callbacks a unique name.

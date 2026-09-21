@@ -160,15 +160,15 @@ function installCushionMoveGuard() {
     });
 
     function armPistonFurniture(event) {
-        const level = event.getLevel();
-        if (level === null || level.isClientSide()) return;
+        const pistonLevel = event.getLevel();
+        if (pistonLevel === null || pistonLevel.isClientSide()) return;
 
         const origin = event.getPos();
         const direction = event.getDirection();
 
         let carriesFurniture = false;
         for (let i = 1; i <= PISTON_SCAN_RANGE; i++) {
-            const scanned = level.getBlockState(origin.relative(direction, i));
+            const scanned = pistonLevel.getBlockState(origin.relative(direction, i));
             if (scanned.isAir()) break;
             if (furniture.contains(scanned.getBlock())) {
                 carriesFurniture = true;
@@ -181,21 +181,21 @@ function installCushionMoveGuard() {
         if (helper === null || !helper.resolve()) return;
 
         helper.getToPush().forEach(pushed => {
-            if (furniture.contains(level.getBlockState(pushed).getBlock())) {
-                armPosition(level, pushed);
+            if (furniture.contains(pistonLevel.getBlockState(pushed).getBlock())) {
+                armPosition(pistonLevel, pushed);
             }
         });
     }
 
     NativeEvents.onEvent(EventPriority.HIGHEST, EntityJoinLevelEvent, event => {
         try {
-            const level = event.getLevel();
-            if (level === null || level.isClientSide()) return;
+            const joinLevel = event.getLevel();
+            if (joinLevel === null || joinLevel.isClientSide()) return;
 
             const entity = event.getEntity();
             if (!(entity instanceof ItemEntity)) return;
             if (!cushions.contains(entity.getItem().getItem())) return;
-            if (!consumeArmedPosition(level, entity.blockPosition())) return;
+            if (!consumeArmedPosition(joinLevel, entity.blockPosition())) return;
 
             event.setCanceled(true);
         } catch (err) {
