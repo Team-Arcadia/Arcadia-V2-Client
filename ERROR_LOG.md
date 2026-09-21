@@ -584,3 +584,10 @@ On top of that, those Create screens are opened purely client-side (`FMLLoader.g
 **Root cause:** Rhino exposes ServerLevel#getGameTime() only as the `gameTime` bean property (same as `dimension`). The probe had no try/catch, so the throw reached the server tick.
 **Fix:** use `level.gameTime` in the tracer and the cushion guard; wrap the capture probe in try/catch.
 **Prevention:** read Level getters as properties in KubeJS, and wrap every callback Create or NeoForge invokes on the server thread.
+
+## [2026-09-21] Simply Swords Soulstalker leap crashes dedicated servers
+**Context:** Stygian Strider (Soulstalker sword ability) performing a charged leap near a player.
+**Error:** `NullPointerException: Cannot invoke CustomPacketPayload$Type.id() because "type" is null` in Architectury NetworkAggregator.collectPackets, "Ticking entity" crash.
+**Root cause:** Simply Swords 1.70.2 registers soulstalker_leap_launch through SimpleNetworkManager.registerS2C, which only registers the payload type on the client. On a dedicated server NetworkAggregator.S2C_TYPE has no entry for it.
+**Fix:** startup script simplyswords_soulstalker_packet.js calls NetworkManager.registerS2CPayloadType for that id on dedicated servers, skipped if already present.
+**Prevention:** any Architectury SimpleNetworkManager S2C message sent from a mod needs a matching server-side registerS2CPayloadType; check this on Simply Swords updates.
