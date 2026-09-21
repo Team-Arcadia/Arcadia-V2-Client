@@ -11,7 +11,7 @@
 	max_slots = 20
 	#Kick message for players without bypass permission.
 	#Supports Minecraft formatting codes with '&' prefix.
-	kick_message = "&cThe server is full! &7Only VIP players can connect. | &cLe serveur est plein ! &7Seuls les joueurs VIP peuvent se connecter."
+	kick_message = "&cThe server is full! &7Only staff members can connect. | &cLe serveur est plein ! &7Seul le staff peut se connecter."
 	#Display 'max_slots' as the max player count in the server list.
 	fake_max_slots_enabled = true
 	#Hide vanilla 'Player joined/left' messages.
