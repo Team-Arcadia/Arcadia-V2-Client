@@ -72,7 +72,7 @@ function inField(dimension, x, z) {
     const cx = toChunk(x);
     const cz = toChunk(z);
     for (let i = 0; i < jammers.length; i++) {
-        const j = jammers[i];
+        let j = jammers[i];
         if (j.d !== dimension) continue;
         if (Math.abs(toChunk(j.x) - cx) > RADIUS_CHUNKS) continue;
         if (Math.abs(toChunk(j.z) - cz) > RADIUS_CHUNKS) continue;

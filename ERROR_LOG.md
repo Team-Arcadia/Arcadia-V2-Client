@@ -598,3 +598,10 @@ On top of that, those Create screens are opened purely client-side (`FMLLoader.g
 **Root cause:** MIMI 1.21.1-4.3.0 caches the emitter settings on the first tick only when the level is a ServerLevel; on the client they are cached only in loadAdditional. A client-side emitter that ticks while powered before receiving its block entity data has a null _soundLoop. Bobby ruled out (no-block-entities=true).
 **Fix:** pending (see chat: jar patch, block removal, or ban).
 **Prevention:** client tick paths that read cached settings need a server-independent init; watch MIMI releases.
+
+## [2026-09-21] Rhino: const inside try blocks and loops is broken
+**Context:** cushion dupe guard kept failing after the first rename fix; Soulstalker packet fix never registered.
+**Error:** `redeclaration of var joinLevel` on every cushion drop; the Soulstalker script logged "Failed to register".
+**Root cause:** in rhino-2101.2.7-build.85 (KubeJS 377) a `const` declared inside a `try` block throws "redeclaration of var" on the FIRST call, and a `const` inside a loop body keeps its first-iteration value on later iterations. Reproduced offline with the pack's own rhino jar. `const` at function level, in an if, in a catch or in an arrow body without try works.
+**Fix:** `let` instead of `const` in every try block and loop body (cushion guard, Soulstalker packet, contraption tracer, magnet jammer); the cushion-drop body moved to a named function.
+**Prevention:** never declare `const` inside a `try` block or a loop in KubeJS scripts; use `let`. Test suspicious patterns with the pack's rhino jar (`Context.evaluateString`).

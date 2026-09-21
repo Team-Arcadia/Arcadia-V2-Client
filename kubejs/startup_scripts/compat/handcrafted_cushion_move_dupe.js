@@ -56,7 +56,7 @@ let lastPruneTime = -1;
 function armKey(level, pos) {
     let dim = 'unknown';
     try {
-        const key = level.dimension;
+        let key = level.dimension;
         if (key !== undefined && key !== null) dim = String(key);
     } catch (ignored) { /* keep the fallback */ }
     return dim + '|' + pos.getX() + '|' + pos.getY() + '|' + pos.getZ();
@@ -168,7 +168,7 @@ function installCushionMoveGuard() {
 
         let carriesFurniture = false;
         for (let i = 1; i <= PISTON_SCAN_RANGE; i++) {
-            const scanned = pistonLevel.getBlockState(origin.relative(direction, i));
+            let scanned = pistonLevel.getBlockState(origin.relative(direction, i));
             if (scanned.isAir()) break;
             if (furniture.contains(scanned.getBlock())) {
                 carriesFurniture = true;
@@ -187,21 +187,29 @@ function installCushionMoveGuard() {
         });
     }
 
+    // The body lives in a named function on purpose: this Rhino build throws
+    // "redeclaration of var" on the second call of an arrow callback that
+    // declares a const inside its try block. The piston handler above uses
+    // the same shape and has never failed.
     NativeEvents.onEvent(EventPriority.HIGHEST, EntityJoinLevelEvent, event => {
         try {
-            const joinLevel = event.getLevel();
-            if (joinLevel === null || joinLevel.isClientSide()) return;
-
-            const entity = event.getEntity();
-            if (!(entity instanceof ItemEntity)) return;
-            if (!cushions.contains(entity.getItem().getItem())) return;
-            if (!consumeArmedPosition(joinLevel, entity.blockPosition())) return;
-
-            event.setCanceled(true);
+            cancelMovedCushionDrop(event);
         } catch (err) {
             console.error('[Arcadia] Cushion guard failed on cushion drop: ' + err);
         }
     });
+
+    function cancelMovedCushionDrop(event) {
+        let joinLevel = event.getLevel();
+        if (joinLevel === null || joinLevel.isClientSide()) return;
+
+        let entity = event.getEntity();
+        if (!(entity instanceof ItemEntity)) return;
+        if (!cushions.contains(entity.getItem().getItem())) return;
+        if (!consumeArmedPosition(joinLevel, entity.blockPosition())) return;
+
+        event.setCanceled(true);
+    }
 
     console.info('[Arcadia] Handcrafted cushion move guard loaded: ' + furniture.size() + ' furniture blocks, ' + cushions.size() + ' cushions watched.');
 }

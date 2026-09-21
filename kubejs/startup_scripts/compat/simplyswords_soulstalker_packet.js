@@ -27,16 +27,16 @@
 
 (function registerSoulstalkerLeapPacket() {
     try {
-        const Platform = Java.loadClass('dev.architectury.platform.Platform');
-        const Env = Java.loadClass('dev.architectury.utils.Env');
+        let Platform = Java.loadClass('dev.architectury.platform.Platform');
+        let Env = Java.loadClass('dev.architectury.utils.Env');
         if (Platform.getEnvironment() != Env.SERVER) return;
         if (!Platform.isModLoaded('simplyswords')) return;
 
-        const ResourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation');
-        const NetworkManager = Java.loadClass('dev.architectury.networking.NetworkManager');
-        const NetworkAggregator = Java.loadClass('dev.architectury.impl.NetworkAggregator');
+        let ResourceLocation = Java.loadClass('net.minecraft.resources.ResourceLocation');
+        let NetworkManager = Java.loadClass('dev.architectury.networking.NetworkManager');
+        let NetworkAggregator = Java.loadClass('dev.architectury.impl.NetworkAggregator');
 
-        const packetId = ResourceLocation.fromNamespaceAndPath('simplyswords', 'soulstalker_leap_launch');
+        let packetId = ResourceLocation.fromNamespaceAndPath('simplyswords', 'soulstalker_leap_launch');
         if (NetworkAggregator.S2C_TYPE.containsKey(packetId)) {
             console.info('[Arcadia] Soulstalker leap packet already registered server-side, fix skipped.');
             return;

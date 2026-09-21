@@ -57,7 +57,7 @@ function isWatchedId(id) {
         if (id === DIAG_WATCHED_IDS[i]) return true;
     }
     for (let i = 0; i < DIAG_WATCHED_SUFFIXES.length; i++) {
-        const suffix = DIAG_WATCHED_SUFFIXES[i];
+        let suffix = DIAG_WATCHED_SUFFIXES[i];
         if (id.length > suffix.length && id.indexOf(suffix, id.length - suffix.length) !== -1) return true;
     }
     return false;
@@ -68,7 +68,7 @@ function isWatchedId(id) {
 // diagnostic be the reason a world fails to load.
 function diagDimensionOf(level) {
     try {
-        const key = level.dimension;
+        let key = level.dimension;
         if (key !== undefined && key !== null) return String(key.location ? key.location() : key);
     } catch (ignored) { /* fall through */ }
     return 'unknown dimension';
