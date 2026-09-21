@@ -591,3 +591,10 @@ On top of that, those Create screens are opened purely client-side (`FMLLoader.g
 **Root cause:** Simply Swords 1.70.2 registers soulstalker_leap_launch through SimpleNetworkManager.registerS2C, which only registers the payload type on the client. On a dedicated server NetworkAggregator.S2C_TYPE has no entry for it.
 **Fix:** startup script simplyswords_soulstalker_packet.js calls NetworkManager.registerS2CPayloadType for that id on dedicated servers, skipped if already present.
 **Prevention:** any Architectury SimpleNetworkManager S2C message sent from a mod needs a matching server-side registerS2CPayloadType; check this on Simply Swords updates.
+
+## [2026-09-21] MIMI Effect Emitter client crash (null sound loop)
+**Context:** player near a powered mimi:effectemitter at -129 65 318 on a dedicated server.
+**Error:** `NullPointerException: ... TileEffectEmitter.getSoundLoopTicks() is null` in TileEffectEmitter.tick (client, Render thread).
+**Root cause:** MIMI 1.21.1-4.3.0 caches the emitter settings on the first tick only when the level is a ServerLevel; on the client they are cached only in loadAdditional. A client-side emitter that ticks while powered before receiving its block entity data has a null _soundLoop. Bobby ruled out (no-block-entities=true).
+**Fix:** pending (see chat: jar patch, block removal, or ban).
+**Prevention:** client tick paths that read cached settings need a server-independent init; watch MIMI releases.
