@@ -605,3 +605,10 @@ On top of that, those Create screens are opened purely client-side (`FMLLoader.g
 **Root cause:** in rhino-2101.2.7-build.85 (KubeJS 377) a `const` declared inside a `try` block throws "redeclaration of var" on the FIRST call, and a `const` inside a loop body keeps its first-iteration value on later iterations. Reproduced offline with the pack's own rhino jar. `const` at function level, in an if, in a catch or in an arrow body without try works.
 **Fix:** `let` instead of `const` in every try block and loop body (cushion guard, Soulstalker packet, contraption tracer, magnet jammer); the cushion-drop body moved to a named function.
 **Prevention:** never declare `const` inside a `try` block or a loop in KubeJS scripts; use `let`. Test suspicious patterns with the pack's rhino jar (`Context.evaluateString`).
+
+## [2026-09-21] FPS drop after 2.0.28: every animated texture uploaded each tick
+**Context:** players reported large FPS losses after the 2.0.28 update; four client spark profiles analysed offline.
+**Error:** no error. `SpriteContents$Ticker.tickAndUpload` / `GL11C.nglTexSubImage2D` took 8 to 24 % of the render thread in all four profiles.
+**Root cause:** `animate_only_visible_textures` had been set to `false` on 2026-08-07 (ticket #220, frozen Simply Swords item animations). With it off, all 1,345 animated sprites of the pack (Create Food 261, Simply Swords 169, Simple Hats 129 of which 46 interpolated, TFMG 93, ...) are re-uploaded to the GPU every tick, visible or not. The cost grew with every mod adding animated textures. Secondary costs seen: WaterMedia video frames (up to 7.8 %), FancyMenu's PoseStack.translate hook (2.4 to 5.3 %), Emojiful regex (up to 7 %).
+**Fix:** `animate_only_visible_textures` back to `true` in `config/` and `defaultconfigs/` (Jimmy's choice). Trade-off accepted: animated item textures shown only in GUIs or in hand freeze again (ticket #220 comes back).
+**Prevention:** this flag trades item-texture animation for GPU upload cost; re-measure with a spark profile (F3 closed, no shaders) before flipping it again.
