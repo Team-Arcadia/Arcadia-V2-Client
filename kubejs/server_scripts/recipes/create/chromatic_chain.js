@@ -17,8 +17,8 @@
 
     This script re-opens the whole chain:
       1. Chromatic Compound      superheated Mixing, Create's legacy ingredient pair
-      2. Refined Radiance        Create's own in-world behaviour, nothing to declare here
-      3. Shadow Steel            Create's own in-world behaviour, nothing to declare here
+      2. Refined Radiance        superheated Mixing with glowstone (in-world light path kept)
+      3. Shadow Steel            Haunting (in-world void path kept)
       4. Shadow / Radiant Casing Item Application on a Brass Casing, mirroring Create's own
                                  railway_casing recipe (brass casing + obsidian plate)
 
@@ -44,12 +44,30 @@ ServerEvents.recipes(event => {
 
     // ============================================================
     //  2 & 3. REFINED RADIANCE / SHADOW STEEL
-    //  No recipe to declare: Create converts the dropped compound itself.
-    //    - Refined Radiance: the item entity eats
-    //      lightSourceCountForRefinedRadiance light sources (10 by default)
-    //    - Shadow Steel: the item entity falls below the world floor
-    //  Both paths are enabled in config/create-server.toml.
+    //  Create still converts a dropped compound in-world (it eats
+    //  lightSourceCountForRefinedRadiance light sources, or falls below
+    //  the world floor), and both paths stay enabled in
+    //  config/create-server.toml. Neither shows up in JEI, and the void
+    //  path is out of reach on the servers, so players reported both
+    //  items as uncraftable. These two recipes give a visible,
+    //  automatable route; the in-world conversion still works on top.
+    //    - Refined Radiance: superheated Mixing with glowstone, the
+    //      light that the in-world recipe feeds on.
+    //    - Shadow Steel: Haunting (fan through soul fire), the shadow
+    //      counterpart of the void fall.
     // ============================================================
+    event.recipes.create.mixing(
+        'create:refined_radiance',
+        [
+            'create:chromatic_compound',
+            '2x minecraft:glowstone'
+        ]
+    ).superheated().id('arcadia:refined_radiance');
+
+    event.recipes.create.haunting(
+        'create:shadow_steel',
+        'create:chromatic_compound'
+    ).id('arcadia:shadow_steel');
 
     // ============================================================
     //  4. CASINGS
@@ -67,5 +85,5 @@ ServerEvents.recipes(event => {
         ['create:brass_casing', 'create:refined_radiance']
     ).id('arcadia:refined_radiance_casing');
 
-    console.info('[Arcadia V2] Chromatic chain restored: compound + shadow/radiant casings.');
+    console.info('[Arcadia V2] Chromatic chain restored: compound, radiance, shadow steel + casings.');
 });

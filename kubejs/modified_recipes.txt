@@ -363,7 +363,12 @@ Bug joueur : le craft du Shadow Casing est introuvable sur les serveurs.
     (Brass Casing + plaque d'obsidienne), donc automatisables au Deployer.
 - Étapes 2 et 3 non scriptées : Create convertit lui-même le compound lâché au sol
   (10 sources de lumière dévorées → Refined Radiance ; chute sous le plancher du monde →
-  Shadow Steel). Rien à déclarer, les deux switches sont déjà à `true`.
+  Shadow Steel). Les deux switches sont à `true`.
+- Ajout 2026-09-21 : ces conversions in-world n'apparaissent pas dans JEI et la chute dans le
+  vide est hors de portée sur les serveurs, les joueurs ont signalé les deux items comme sans
+  craft. Deux recettes visibles et automatisables, en plus de la conversion in-world :
+  - `arcadia:refined_radiance` — Mixing **superheated** : Chromatic Compound + 2 Glowstone
+  - `arcadia:shadow_steel` — Haunting (ventilateur à travers un feu des âmes) : Chromatic Compound
 - Sources amont : Cinder Flour = crushing netherrack ; Powdered Obsidian = crushing obsidienne.
   Aucun des deux items n'est sur une liste de ban.
 - Levier de balance : le compound est volontairement resté au coût upstream. Si la tier Shadow
