@@ -7,33 +7,33 @@
   ],
   "type": "apothic_spawners:spawner_modifier",
   "mainhand": {
-    "item": "apotheosis:pinnacle_spawner_upgrade_rune"
+    "item": "apotheosis:frontier_spawner_upgrade_rune"
   },
   "stat_changes": [
     {
       "type": "apothic_spawners:min_delay",
       "mode": "set",
-      "value": 60
+      "value": 180
     },
     {
       "type": "apothic_spawners:max_delay",
       "mode": "set",
-      "value": 200
+      "value": 700
     },
     {
       "type": "apothic_spawners:spawn_count",
       "mode": "set",
-      "value": 10
+      "value": 5
     },
     {
       "type": "apothic_spawners:max_nearby_entities",
       "mode": "set",
-      "value": 18
+      "value": 8
     },
     {
       "type": "apothic_spawners:req_player_range",
       "mode": "set",
-      "value": 40
+      "value": 20
     }
   ]
 }
