@@ -152,16 +152,16 @@
 	#summoned and following. Lower = faster progress.
 	# Default: 100
 	# Range: 1 ~ 10000
-	bond_blocks_per_point = 100
+	bond_blocks_per_point = 300
 	#Bond granted per mob killed with the pet out nearby.
 	# Default: 2
 	# Range: 0 ~ 100
-	bond_per_kill = 2
+	bond_per_kill = 0
 	#Seconds of simply having the pet out for 1 bond. Ticks alongside the
 	#travel and kill sources, so a stationary player still progresses slowly.
 	# Default: 120
 	# Range: 1 ~ 100000
-	bond_seconds_per_point = 120
+	bond_seconds_per_point = 150
 	#Total stars (sum of the 6 genes, 6-30) a pet needs before it can be
 	#ridden as a ground/aquatic mount. 0 = no requirement.
 	# Default: 0
