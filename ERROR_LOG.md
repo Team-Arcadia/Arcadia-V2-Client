@@ -619,3 +619,10 @@ On top of that, those Create screens are opened purely client-side (`FMLLoader.g
 **Root cause:** Ars Nouveau 5.13.1 `PortalTile.teleportEntityTo` calls `targetWorld.getBlockState(target)` before adding its PORTAL chunk ticket. An unloaded destination chunk is loaded synchronously on the server thread, which then waits behind the chunk workers' worldgen backlog from players exploring far out. Inferred from the log timeline and the decompiled code; not reproduced.
 **Fix:** `kubejs/server_scripts/fixes/compat/ars_blink_warp_preload.js` cancels the Blink warp (EffectResolveEvent.Pre) while the destination chunk is not loaded, adds the PORTAL ticket so it loads in the background, and asks the caster to recast.
 **Prevention:** Any mod teleport to a remote position must not read the destination block before the chunk is loaded. When players report "timeout" rather than "crash", look for a silent Server thread in the log, not a crash report.
+
+## [2026-09-22 11:20] — FTB Quests reassigned a generated quest id and dropped its dependencies
+**Context:** Spawner chapter rebuilt by script for #447, with two new quest ids. The game was launched on the instance at 11:02.
+**Error:** At 11:07 FTB Quests rewrote `apotheosis_2.snbt`: quest `92400EE930D31932` (Spawner Rune) became `43890CAFD0C3F3A3` with new task and reward ids, and the ten quests plus the master quest that depended on it lost that dependency. Its lang keys still pointed at the old id, so the quest had no text. The rewrite was then committed by accident with an unrelated change (`git add` on the whole folder).
+**Root cause:** Not established. No FTB Quests warning in `latest.log`; the id was unique in `config/ftbquests`. Either FTB Quests rejected the id on load or the quest was recreated in game.
+**Fix:** Adopted the id FTB Quests chose, restored the dependencies and the master quest link, renamed the lang keys in the seven languages (config and defaultconfigs).
+**Prevention:** After adding quests by script, launch the game once, close it, and diff the chapter: FTB Quests may rewrite ids. Before `git add config/ftbquests`, check `git diff --stat` for files the game changed.
