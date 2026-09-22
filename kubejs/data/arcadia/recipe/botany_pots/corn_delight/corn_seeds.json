@@ -1,0 +1,15 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "corn_delight:corn_crop"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "corn_delight:corn_crop",
+  "input": {
+    "item": "corn_delight:corn_seeds"
+  }
+}

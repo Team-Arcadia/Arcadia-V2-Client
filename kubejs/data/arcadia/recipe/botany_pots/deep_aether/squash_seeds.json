@@ -1,0 +1,28 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "deep_aether:squash_stem",
+        "deep_aether:green_squash"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "deep_aether:squash_stem",
+  "input": {
+    "item": "deep_aether:squash_seeds"
+  },
+  "display": {
+    "type": "botanypots:simple",
+    "block_state": {
+      "block": "deep_aether:green_squash"
+    }
+  },
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "arcadia:botany_pots/crop/deep_aether/squash"
+    }
+  ]
+}

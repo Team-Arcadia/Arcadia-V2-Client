@@ -1,0 +1,18 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "somemoreblocks:tiny_cactus"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "somemoreblocks:tiny_cactus",
+  "input": {
+    "item": "somemoreblocks:tiny_cactus"
+  },
+  "soil": {
+    "tag": "botanypots:soil/sand"
+  }
+}

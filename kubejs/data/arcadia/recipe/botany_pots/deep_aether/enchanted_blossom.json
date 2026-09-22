@@ -1,0 +1,15 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "deep_aether:enchanted_blossom"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "deep_aether:enchanted_blossom",
+  "input": {
+    "item": "deep_aether:enchanted_blossom"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "bookshelf:load_conditions": [
+    {
+      "type": "bookshelf:block_exists",
+      "values": [
+        "ars_nouveau:whirlisprig_flower"
+      ]
+    }
+  ],
+  "type": "botanypots:block_derived_crop",
+  "block": "ars_nouveau:whirlisprig_flower",
+  "input": {
+    "item": "ars_nouveau:whirlisprig_flower"
+  },
+  "grow_time": 2400,
+  "drops": [
+    {
+      "type": "botanypots:loot_table",
+      "table_id": "arcadia:botany_pots/crop/ars_nouveau/whirlisprig_flower"
+    }
+  ]
+}

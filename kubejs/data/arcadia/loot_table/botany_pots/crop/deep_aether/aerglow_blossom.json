@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "deep_aether:aerglow_blossom",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "random_sequence": "arcadia:botany_pots/crop/deep_aether/aerglow_blossom"
+}
