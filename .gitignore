@@ -140,3 +140,6 @@ TEST_PROCEDURE_*.html
 win_event*.txt
 particular_cache/
 config/arcadia/arcadiaadminpanel/records/
+
+# Default Options per-install journal (marks which defaults were already applied)
+defaultoptions.journal.json
