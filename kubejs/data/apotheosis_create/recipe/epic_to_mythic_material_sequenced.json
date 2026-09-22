@@ -1,13 +1,13 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "apotheosis:epic_material"
+    "item": "apotheosis:arcane_sands"
   },
   "loops": 3,
   "results": [
     {
       "chance": 75,
-      "id": "apotheosis:mythic_material"
+      "id": "apotheosis:godforged_pearl"
     },
     {
       "chance": 25,
@@ -22,7 +22,7 @@
           "item": "apotheosis_create:incomplete_mythic_material"
         },
         {
-          "item": "apotheosis:epic_material"
+          "item": "apotheosis:arcane_sands"
         }
       ],
       "results": [

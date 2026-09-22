@@ -1,13 +1,13 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "apotheosis:common_material"
+    "item": "apotheosis:mysterious_scrap_metal"
   },
   "loops": 3,
   "results": [
     {
       "chance": 85,
-      "id": "apotheosis:uncommon_material"
+      "id": "apotheosis:timeworn_fabric"
     },
     {
       "chance": 15,
@@ -22,7 +22,7 @@
           "item": "apotheosis_create:incomplete_uncommon_material"
         },
         {
-          "item": "apotheosis:common_material"
+          "item": "apotheosis:mysterious_scrap_metal"
         }
       ],
       "results": [

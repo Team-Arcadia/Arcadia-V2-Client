@@ -88,7 +88,7 @@ ServerEvents.recipes((event) => {
             C: ETHEREAL_ALLOY,
             F: 'arcadia:fusion_matrix',
             I: INDUSTRIAL_HEART,
-            M: 'apotheosis:mythic_material'
+            M: 'apotheosis:godforged_pearl'
         }
     ).id('arcadia:apo_sigil_supremacy');
 

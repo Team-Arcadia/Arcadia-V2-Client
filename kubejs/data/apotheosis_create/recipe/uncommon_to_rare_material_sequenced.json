@@ -1,13 +1,13 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "apotheosis:uncommon_material"
+    "item": "apotheosis:timeworn_fabric"
   },
   "loops": 3,
   "results": [
     {
       "chance": 80,
-      "id": "apotheosis:rare_material"
+      "id": "apotheosis:luminous_crystal_shard"
     },
     {
       "chance": 20,
@@ -22,7 +22,7 @@
           "item": "apotheosis_create:incomplete_rare_material"
         },
         {
-          "item": "apotheosis:uncommon_material"
+          "item": "apotheosis:timeworn_fabric"
         }
       ],
       "results": [

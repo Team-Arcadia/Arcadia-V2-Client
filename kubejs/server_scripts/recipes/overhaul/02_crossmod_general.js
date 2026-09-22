@@ -926,7 +926,7 @@ ServerEvents.recipes((event) => {
             G: SOURCE_GEM_BLOCK,
             M: MAGEBLOOM_CLOTH,
             A: ARCANE_CIRCUIT,
-            C: 'apotheosis:rare_material',
+            C: 'apotheosis:luminous_crystal_shard',
             E: 'minecraft:echo_shard'
         }
     ).id('arcadia:rune_matrix');

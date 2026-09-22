@@ -1,13 +1,13 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "apotheosis:rare_material"
+    "item": "apotheosis:luminous_crystal_shard"
   },
   "loops": 3,
   "results": [
     {
       "chance": 75,
-      "id": "apotheosis:epic_material"
+      "id": "apotheosis:arcane_sands"
     },
     {
       "chance": 25,
@@ -22,7 +22,7 @@
           "item": "apotheosis_create:incomplete_epic_material"
         },
         {
-          "item": "apotheosis:rare_material"
+          "item": "apotheosis:luminous_crystal_shard"
         }
       ],
       "results": [
