@@ -9,7 +9,11 @@
       - No AI: spawned mobs stand still (no pathfinding, no targeting, no
         pushing), the most expensive part of a mob;
       - Redstone control: the spawner only runs while powered, so players can
-        switch a farm off.
+        switch a farm off;
+      - No "ignore players": the Rune of Solitude is stripped and cannot be
+        applied, so a farm only runs while a player stands within its
+        activation range. Without this, force-loaded bases kept their farms
+        spawning around the clock for nobody.
 
     "Player spawner" = an Apothic spawner a player placed (both stats are
     written on placement) or modified with a rune (hasBeenModified). Natural
@@ -54,9 +58,13 @@ function isForced(tile, stat) {
     return value == true;
 }
 
-// Writes both stats on the tile. Returns true when something had to change.
+// Writes the forced stats on the tile. Returns true when something had to change.
 function enforce(tile) {
     let changed = false;
+    if (isForced(tile, SpawnerStats.IGNORE_PLAYERS)) {
+        tile.getStatsMap().put(SpawnerStats.IGNORE_PLAYERS, false);
+        changed = true;
+    }
     if (!isForced(tile, SpawnerStats.NO_AI)) {
         tile.getStatsMap().put(SpawnerStats.NO_AI, true);
         changed = true;
@@ -92,6 +100,13 @@ BlockEvents.placed('minecraft:spawner', event => {
     }
 });
 
+BlockEvents.rightClicked('minecraft:spawner', event => {
+    if (!isOfficialServer()) return;
+    if (event.item.id !== 'apotheosis:ignore_players_spawner_rune') return;
+    event.player.tell(Text.red("The Rune of Solitude is disabled on this server: spawners need a player nearby. / La Rune de Solitude est désactivée sur ce serveur : les spawners ont besoin d'un joueur à proximité."));
+    event.cancel();
+});
+
 NativeEvents.onEvent(EventPriority.LOW, FinalizeSpawnEvent, event => {
     if (event.getSpawnType() !== MobSpawnType.SPAWNER) return;
     if (!isOfficialServer()) return;
@@ -110,7 +125,7 @@ NativeEvents.onEvent(EventPriority.LOW, FinalizeSpawnEvent, event => {
 
 ServerEvents.loaded(event => {
     if (isOfficialServer()) {
-        console.info('[Arcadia] Spawner limits active on "' + serverId + '": No AI and redstone control forced on player spawners');
+        console.info('[Arcadia] Spawner limits active on "' + serverId + '": No AI, redstone control and no Rune of Solitude on player spawners');
     } else {
         console.info('[Arcadia] Spawner limits inactive on "' + serverId + '" (solo or serverpack)');
     }
