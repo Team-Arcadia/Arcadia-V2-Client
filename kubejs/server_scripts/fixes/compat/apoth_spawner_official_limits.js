@@ -23,7 +23,8 @@
     spawn is cancelled.
 
     Solo and serverpack are not affected: the script only acts when the
-    arcadia-lib server id is one of the official ids below.
+    server_id written in arcadia-lib's server.toml is one of the official ids
+    below (solo and serverpack leave it empty).
 
     Note: no const inside the try blocks below (Rhino build 85 bug).
 
@@ -34,12 +35,15 @@
 (function () {
 const OFFICIAL_SERVER_IDS = ['server1', 'server2', 'server3', 'server4', 'server5', 'serveurevent', 'servertest'];
 
+// Reads the id written in config/arcadia/lib/server.toml, not ServerContext.SERVER_ID:
+// when the file leaves it empty (solo, serverpack) arcadia-lib falls back to "server1",
+// which would switch these limits on everywhere. Official servers all set it explicitly.
 let serverId = null;
 function isOfficialServer() {
-    if (serverId === null || serverId === '') {
+    if (serverId === null) {
         try {
-            let ServerContext = Java.loadClass('com.arcadia.lib.ServerContext');
-            serverId = String(ServerContext.SERVER_ID || '').toLowerCase();
+            let ServerIdConfig = Java.loadClass('com.arcadia.lib.config.ServerIdConfig');
+            serverId = String(ServerIdConfig.SERVER_ID.get() || '').trim().toLowerCase();
         } catch (err) {
             serverId = '';
         }
