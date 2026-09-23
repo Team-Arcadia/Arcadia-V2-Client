@@ -626,3 +626,10 @@ On top of that, those Create screens are opened purely client-side (`FMLLoader.g
 **Root cause:** Not established. No FTB Quests warning in `latest.log`; the id was unique in `config/ftbquests`. Either FTB Quests rejected the id on load or the quest was recreated in game.
 **Fix:** Adopted the id FTB Quests chose, restored the dependencies and the master quest link, renamed the lang keys in the seven languages (config and defaultconfigs).
 **Prevention:** After adding quests by script, launch the game once, close it, and diff the chapter: FTB Quests may rewrite ids. Before `git add config/ftbquests`, check `git diff --stat` for files the game changed.
+
+## [2026-09-23 07:20] — Official-server spawner limits switched on in single player
+**Context:** Solo test of 2.0.32. `apoth_spawner_official_limits.js` must only act on Server1-5, ServerEvent and ServerTest.
+**Error:** Solo boot logged `[Arcadia] Spawner limits active on "server1"`.
+**Root cause:** arcadia-lib resolves an empty `server_id` (solo, serverpack) to the JVM property `arcadia.server_id`, default `server1`. `ServerContext.SERVER_ID` therefore says `server1` everywhere the id is not set.
+**Fix:** read the raw value with `com.arcadia.lib.config.ServerIdConfig.SERVER_ID.get()`, empty on solo and serverpack, explicit on every official server.
+**Prevention:** never gate "official server only" behaviour on `ServerContext.SERVER_ID`. Use the raw config value, or an id that cannot be the default (like `serveurevent`).
