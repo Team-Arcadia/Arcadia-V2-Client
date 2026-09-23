@@ -249,7 +249,7 @@ element {
 
 element {
   interactable = false
-  source = Astuce : Le livre de quêtes guide toute ta progression.
+  source = Astuce : Le livre de quêtes te guide de tes premiers outils jusqu'au Fusion Core.
   source_mode = direct
   shadow = true
   case_mode = normal
@@ -295,9 +295,9 @@ element {
   auto_sizing_base_screen_height = 1010
   sticky_anchor = false
   anchor_point = bottom-centered
-  x = -174
+  x = -251
   y = -46
-  width = 349
+  width = 502
   height = 14
   stretch_x = false
   stretch_y = false
@@ -322,7 +322,7 @@ element {
 
 element {
   interactable = false
-  source = Tip: The quest book guides your whole progression.
+  source = Tip: The quest book guides you from your first tools all the way to the Fusion Core.
   source_mode = direct
   shadow = true
   case_mode = normal
@@ -368,9 +368,9 @@ element {
   auto_sizing_base_screen_height = 1010
   sticky_anchor = false
   anchor_point = bottom-centered
-  x = -159
+  x = -261
   y = -28
-  width = 318
+  width = 521
   height = 14
   stretch_x = false
   stretch_y = false

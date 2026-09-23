@@ -249,7 +249,7 @@ element {
 
 element {
   interactable = false
-  source = Astuce : Les outils en fer, or et diamant demandent des plaques Create.
+  source = Astuce : Outils et armures en fer ou en or demandent des plaques Create.
   source_mode = direct
   shadow = true
   case_mode = normal
@@ -282,7 +282,7 @@ element {
   table_cell_padding = 8.0
   table_margin = 4.0
   element_type = text_v2
-  instance_identifier = ldtip2-fr00-4000-9000-arcadialoadfr-177481806200
+  instance_identifier = ldtip2-fr00-4000-9000-arcadialoadfr-177481806020
   appearance_delay = fade_in
   appearance_delay_seconds = 2.0
   fade_in_v2 = fade
@@ -295,15 +295,15 @@ element {
   auto_sizing_base_screen_height = 1010
   sticky_anchor = false
   anchor_point = bottom-centered
-  x = -224
+  x = -223
   y = -46
-  width = 448
+  width = 446
   height = 14
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
-  element_loading_requirement_container_identifier = ldtip2-fr00-4000-9000-arcadiareqfr0-177481806202
-  [loading_requirement_container_meta:ldtip2-fr00-4000-9000-arcadiareqfr0-177481806202] = [groups:][instances:]
+  element_loading_requirement_container_identifier = ldtip2-fr00-4000-9000-arcadiareqfr0-177481806022
+  [loading_requirement_container_meta:ldtip2-fr00-4000-9000-arcadiareqfr0-177481806022] = [groups:][instances:]
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -322,7 +322,7 @@ element {
 
 element {
   interactable = false
-  source = Tip: Iron, gold and diamond tools require Create sheets.
+  source = Tip: Iron and gold tools and armour need Create sheets.
   source_mode = direct
   shadow = true
   case_mode = normal
@@ -355,7 +355,7 @@ element {
   table_cell_padding = 8.0
   table_margin = 4.0
   element_type = text_v2
-  instance_identifier = ldtip2-en00-4000-9000-arcadialoaden-177481806201
+  instance_identifier = ldtip2-en00-4000-9000-arcadialoaden-177481806021
   appearance_delay = fade_in
   appearance_delay_seconds = 2.0
   fade_in_v2 = fade
@@ -368,15 +368,15 @@ element {
   auto_sizing_base_screen_height = 1010
   sticky_anchor = false
   anchor_point = bottom-centered
-  x = -177
+  x = -171
   y = -28
-  width = 355
+  width = 341
   height = 14
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
-  element_loading_requirement_container_identifier = ldtip2-en00-4000-9000-arcadiareqen0-177481806203
-  [loading_requirement_container_meta:ldtip2-en00-4000-9000-arcadiareqen0-177481806203] = [groups:][instances:]
+  element_loading_requirement_container_identifier = ldtip2-en00-4000-9000-arcadiareqen0-177481806023
+  [loading_requirement_container_meta:ldtip2-en00-4000-9000-arcadiareqen0-177481806023] = [groups:][instances:]
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
