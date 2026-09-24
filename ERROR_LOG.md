@@ -633,3 +633,10 @@ On top of that, those Create screens are opened purely client-side (`FMLLoader.g
 **Root cause:** arcadia-lib resolves an empty `server_id` (solo, serverpack) to the JVM property `arcadia.server_id`, default `server1`. `ServerContext.SERVER_ID` therefore says `server1` everywhere the id is not set.
 **Fix:** read the raw value with `com.arcadia.lib.config.ServerIdConfig.SERVER_ID.get()`, empty on solo and serverpack, explicit on every official server.
 **Prevention:** never gate "official server only" behaviour on `ServerContext.SERVER_ID`. Use the raw config value, or an id that cannot be the default (like `serveurevent`).
+
+## [2026-09-24 20:30] — Client crash "Failed to iterate block entities" blamed on Entity Culling
+**Context:** A player crashed on an official server while flying through the overworld (Sodium 0.8.13, Entity Culling 1.11.2).
+**Error:** `RuntimeException: Failed to iterate block entities! This is *very likely* the fault of the Entity Culling mod`, caused by a `NullPointerException` in the fastutil `Object2ObjectOpenHashMap` iterator.
+**Root cause:** Not Entity Culling. Two seconds earlier the debug log shows `Flywheel Task Executor` errors `Cannot request ModelData refresh outside the owning thread`: `HugeDieselEngineInstance.beginFrame` (Create Diesel Generators 1.3.15) calls `level.getBlockEntity` from a Flywheel worker thread, which replaces a block entity in the chunk map while Sodium iterates it.
+**Fix:** Reported upstream (george8188625/Create-Diesel-Generators#396). No pack-side change yet.
+**Prevention:** Sodium's "very likely Entity Culling" message is a guess. Always read the full `debug.log` just before the crash and look for off-thread errors (Flywheel workers, CullThread) that name the block entity.
