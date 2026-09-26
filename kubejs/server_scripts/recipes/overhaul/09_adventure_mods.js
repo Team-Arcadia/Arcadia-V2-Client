@@ -42,6 +42,9 @@ ServerEvents.recipes((event) => {
     // 26. APOTHEOSIS HARDENING
     // ============================================================
 
+    // The Raven table uses a custom gem ingredient, so its Arcadia recipe lives in kubejs/data.
+    event.remove({ id: 'apotheosis:raven_enchanting_table' });
+
     // Sigils: moderate cross-mod hardening — same output counts as vanilla, just one bridge ingredient
     // added (ARCANE_CIRCUIT or precision_mechanism) so progression talks to Arcadia/Create.
     event.remove({ output: 'apotheosis:sigil_of_socketing' });
