@@ -1,0 +1,41 @@
+{
+    "neoforge:conditions": [
+        {
+            "type": "neoforge:mod_loaded",
+            "modid": "apothic_enchanting"
+        }
+    ],
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "apotheosis",
+    "key": {
+        "A": {
+            "type": "apotheosis:gem",
+            "gems": [
+                "apotheosis:overworld/royalty"
+            ],
+            "purity": "perfect"
+        },
+        "F": {
+            "item": "arcadia:fusion_core"
+        },
+        "G": {
+            "item": "apotheosis:god_fused_pearl"
+        },
+        "P": {
+            "item": "apothic_enchanting:apothic_enchanting_table"
+        },
+        "R": {
+            "item": "arcadia:rune_matrix"
+        }
+    },
+    "pattern": [
+        " A ",
+        "GPG",
+        "RFR"
+    ],
+    "result": {
+        "count": 1,
+        "id": "apothic_enchanting:raven_enchanting_table"
+    }
+}
